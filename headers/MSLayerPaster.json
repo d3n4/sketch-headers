@@ -32,9 +32,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "insertPasteboardData:intoParent:atPosition:afterLayer:": {
-      "name": "insertPasteboardData:intoParent:atPosition:afterLayer:",
-      "bridgedName": "insertPasteboardData_intoParent_atPosition_afterLayer",
+    "insertPasteboardData:intoParent:atPosition:afterLayer:viewport:fitToParent:": {
+      "name": "insertPasteboardData:intoParent:atPosition:afterLayer:viewport:fitToParent:",
+      "bridgedName": "insertPasteboardData_intoParent_atPosition_afterLayer_viewport_fitToParent",
       "args": [
         {
           "name": "pboardData",
@@ -54,6 +54,16 @@
         {
           "name": "afterLayer",
           "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "viewport",
+          "type": "MSPastingViewport *",
+          "nullable": false
+        },
+        {
+          "name": "fitToParent",
+          "type": "BOOL",
           "nullable": false
         }
       ],

@@ -23,7 +23,7 @@
     "targetLines": {
       "name": "targetLines",
       "pointer": false,
-      "type": "NSArray<MSLine *> ",
+      "type": "NSArray<MSSnapLine *> ",
       "attributes": [
         "nonatomic",
         "nullable"

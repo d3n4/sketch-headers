@@ -518,25 +518,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addSVGAttributes:exporter:": {
-      "name": "addSVGAttributes:exporter:",
-      "bridgedName": "addSVGAttributes_exporter",
-      "args": [
-        {
-          "name": "attributes",
-          "type": "NSMutableArray*",
-          "nullable": false
-        },
-        {
-          "name": "exporter",
-          "type": "SketchSVGExporter*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "drawContentForButton:inRect:": {
       "name": "drawContentForButton:inRect:",
       "bridgedName": "drawContentForButton_inRect",

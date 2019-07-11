@@ -67,6 +67,24 @@
         "nonatomic"
       ]
     },
+    "descriptionField": {
+      "name": "descriptionField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nullable",
+        "nonatomic"
+      ]
+    },
+    "iconView": {
+      "name": "iconView",
+      "pointer": false,
+      "type": "IBOutlet MSPluginsPreferenceIconView ",
+      "attributes": [
+        "nullable",
+        "nonatomic"
+      ]
+    },
     "tableCellWidthConstraint": {
       "name": "tableCellWidthConstraint",
       "pointer": false,

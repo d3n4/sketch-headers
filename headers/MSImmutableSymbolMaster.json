@@ -22,18 +22,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "influenceRectPaddingForInstancesInDocument:cache:visitedSymbols:": {
-      "name": "influenceRectPaddingForInstancesInDocument:cache:visitedSymbols:",
-      "bridgedName": "influenceRectPaddingForInstancesInDocument_cache_visitedSymbols",
+    "influenceRectPaddingForInstancesInDocument:visitedSymbols:": {
+      "name": "influenceRectPaddingForInstancesInDocument:visitedSymbols:",
+      "bridgedName": "influenceRectPaddingForInstancesInDocument_visitedSymbols",
       "args": [
         {
           "name": "doc",
           "type": "MSImmutableDocumentData *",
-          "nullable": false
-        },
-        {
-          "name": "cache",
-          "type": "BCCache *",
           "nullable": false
         },
         {

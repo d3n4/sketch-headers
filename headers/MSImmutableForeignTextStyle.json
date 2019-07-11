@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableForeignTextStyle",
+  "extends": "_MSImmutableForeignTextStyle",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

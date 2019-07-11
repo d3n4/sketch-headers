@@ -24,14 +24,14 @@
     }
   },
   "properties": {
-    "cloudNotAuthorized": {
-      "name": "cloudNotAuthorized",
+    "cloudUnauthorized": {
+      "name": "cloudUnauthorized",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
         "nonatomic",
         "readonly",
-        "getter=isCloudNotAuthorized"
+        "getter=isCloudUnauthorized"
       ]
     },
     "urlCancelled": {

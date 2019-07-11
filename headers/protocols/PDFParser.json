@@ -60,6 +60,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "parsePastedDocument": {
+      "name": "parsePastedDocument",
+      "bridgedName": "parsePastedDocument",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "pageCount": {
       "name": "pageCount",
       "bridgedName": "pageCount",

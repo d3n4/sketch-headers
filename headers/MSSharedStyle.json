@@ -3,6 +3,14 @@
   "extends": "_MSSharedStyle",
   "interfaces": [],
   "methods": {
+    "resetReferencingInstances": {
+      "name": "resetReferencingInstances",
+      "bridgedName": "resetReferencingInstances",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "newInstance": {
       "name": "newInstance",
       "bridgedName": "newInstance",

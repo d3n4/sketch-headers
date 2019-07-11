@@ -1,6 +1,6 @@
 {
   "name": "MSExportRenderingContext",
-  "extends": "MSRenderingContext",
+  "extends": "MSRenderingContextCG",
   "interfaces": [],
   "methods": {},
   "properties": {

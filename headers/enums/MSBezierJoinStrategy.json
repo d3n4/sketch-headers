@@ -3,6 +3,10 @@
   "name": "MSBezierJoinStrategy",
   "members": [
     {
+      "name": "MSBezierJoinStrategyNone",
+      "value": "1<<0"
+    },
+    {
       "name": "MSBezierJoinStrategyConnectEndpoints",
       "value": "1<<1"
     },
@@ -21,6 +25,10 @@
     {
       "name": "MSBezierJoinStrategyExtendTangent",
       "value": "1<<5"
+    },
+    {
+      "name": "MSBezierJoinStrategyArc",
+      "value": "1<<6"
     },
     {
       "name": "MSBezierJoinStrategyAny",

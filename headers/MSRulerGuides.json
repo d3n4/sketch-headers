@@ -23,7 +23,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray <MSLine *> *",
+      "returns": "NSArray <MSSnapLine *> *",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -47,7 +47,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray <MSLine *> *",
+      "returns": "NSArray <MSSnapLine *> *",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -76,7 +76,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray <MSLine *> *",
+      "returns": "NSArray <MSSnapLine *> *",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -100,7 +100,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray <MSLine *> *",
+      "returns": "NSArray <MSSnapLine *> *",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -129,7 +129,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray <MSLine *> *",
+      "returns": "NSArray <MSSnapLine *> *",
       "kind": "class",
       "kindIndicator": "+"
     }

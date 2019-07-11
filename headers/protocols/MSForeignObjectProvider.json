@@ -45,6 +45,20 @@
       "returns": "nullable MSShareableObject *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "masterIsOutOfSyncWithInstance:": {
+      "name": "masterIsOutOfSyncWithInstance:",
+      "bridgedName": "masterIsOutOfSyncWithInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSModelObject*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

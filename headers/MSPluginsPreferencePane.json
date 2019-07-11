@@ -116,6 +116,20 @@
       "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "openWithPluginToHightlight:": {
+      "name": "openWithPluginToHightlight:",
+      "bridgedName": "openWithPluginToHightlight",
+      "args": [
+        {
+          "name": "pluginIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {

@@ -351,6 +351,14 @@
       "value": "101"
     },
     {
+      "name": "MSDocumentForeignStyles",
+      "value": "102"
+    },
+    {
+      "name": "MSDocumentUseGenericDocumentMetadataKey",
+      "value": "103"
+    },
+    {
       "name": "MSDocumentNextVersion"
     },
     {
@@ -359,7 +367,7 @@
     },
     {
       "name": "MSDocumentCompatibilityVersion",
-      "value": "MSDocumentVerticalAlignmentAsComaProperty"
+      "value": "MSDocumentMSAttributedStringJSON"
     },
     {
       "name": "MSDocumentNewestVersionRequiringMigration",

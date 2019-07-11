@@ -5,31 +5,17 @@
     "MSShapeGroup"
   ],
   "methods": {
-    "pathInBoundsWithCache:": {
-      "name": "pathInBoundsWithCache:",
-      "bridgedName": "pathInBoundsWithCache",
-      "args": [
-        {
-          "name": "cache",
-          "type": "BCCache*",
-          "nullable": false
-        }
-      ],
-      "returns": "MSPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "bezierPathForStartDecorationOnPath:": {
       "name": "bezierPathForStartDecorationOnPath:",
       "bridgedName": "bezierPathForStartDecorationOnPath",
       "args": [
         {
           "name": "bezier",
-          "type": "NSBezierPath *",
+          "type": "MSPath *",
           "nullable": false
         }
       ],
-      "returns": "NSBezierPath *",
+      "returns": "MSPath *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -39,11 +25,11 @@
       "args": [
         {
           "name": "bezier",
-          "type": "NSBezierPath *",
+          "type": "MSPath *",
           "nullable": false
         }
       ],
-      "returns": "NSBezierPath *",
+      "returns": "MSPath *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -53,7 +39,7 @@
       "args": [
         {
           "name": "bezier",
-          "type": "NSBezierPath *",
+          "type": "MSPath *",
           "nullable": false
         },
         {
@@ -62,7 +48,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSBezierPath *",
+      "returns": "MSPath *",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -72,7 +58,7 @@
       "args": [
         {
           "name": "bezier",
-          "type": "NSBezierPath *",
+          "type": "MSPath *",
           "nullable": false
         },
         {
@@ -81,7 +67,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSBezierPath *",
+      "returns": "MSPath *",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -103,16 +89,35 @@
           "nullable": false
         }
       ],
-      "returns": "NSBezierPath *",
+      "returns": "MSPath *",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "bezierPathWithExporter:border:": {
+      "name": "bezierPathWithExporter:border:",
+      "bridgedName": "bezierPathWithExporter_border",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter *",
+          "nullable": false
+        },
+        {
+          "name": "border",
+          "type": "MSImmutableStyleBorder *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
     "decoratedBezierPathInBounds": {
       "name": "decoratedBezierPathInBounds",
       "pointer": false,
-      "type": "NSBezierPath ",
+      "type": "MSPath ",
       "attributes": [
         "nonatomic",
         "readonly"

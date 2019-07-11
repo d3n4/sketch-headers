@@ -41,6 +41,15 @@
         "readonly"
       ]
     },
+    "allowsBlur": {
+      "name": "allowsBlur",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "shouldRasterize": {
       "name": "shouldRasterize",
       "pointer": false,

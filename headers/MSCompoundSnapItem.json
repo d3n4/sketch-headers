@@ -9,11 +9,11 @@
       "args": [
         {
           "name": "layers",
-          "type": "NSArray <MSLayer *> *",
+          "type": "NSArray<MSLayer *> *",
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     }

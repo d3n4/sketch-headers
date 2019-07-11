@@ -2,7 +2,7 @@
   "name": "MSSliceLayer",
   "extends": "_MSSliceLayer",
   "interfaces": [
-    "MSLayerWithBackgroundColor",
+    "MSLayerWithMutableBackgroundColor",
     "MSColorConvertible"
   ],
   "methods": {
@@ -21,17 +21,6 @@
       "kindIndicator": "+"
     }
   },
-  "properties": {
-    "sliceWatcher": {
-      "name": "sliceWatcher",
-      "pointer": false,
-      "type": "id<MSSliceLayerWatcher>",
-      "attributes": [
-        "weak",
-        "nonatomic",
-        "nullable"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

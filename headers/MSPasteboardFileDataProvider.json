@@ -9,12 +9,12 @@
       "args": [
         {
           "name": "layers",
-          "type": "nonnull NSArray<MSLayer*>*",
+          "type": "nonnull NSArray<MSLayer *> *",
           "nullable": false
         },
         {
           "name": "pboard",
-          "type": "nonnull NSPasteboard*",
+          "type": "nonnull NSPasteboard *",
           "nullable": false
         }
       ],
@@ -28,16 +28,16 @@
       "args": [
         {
           "name": "layers",
-          "type": "nonnull NSArray<MSLayer*>*",
+          "type": "nonnull NSArray<MSLayer *> *",
           "nullable": false
         },
         {
           "name": "folder",
-          "type": "nonnull NSURL*",
+          "type": "nonnull NSURL *",
           "nullable": false
         }
       ],
-      "returns": "nonnull NSArray<NSURL*>*",
+      "returns": "nullable NSArray<NSURL *> *",
       "kind": "class",
       "kindIndicator": "+"
     }

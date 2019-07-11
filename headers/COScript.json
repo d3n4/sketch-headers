@@ -47,13 +47,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "initWithCoreModules:": {
-      "name": "initWithCoreModules:",
-      "bridgedName": "initWithCoreModules",
+    "initWithCoreModules:andName:": {
+      "name": "initWithCoreModules:andName:",
+      "bridgedName": "initWithCoreModules_andName",
       "args": [
         {
           "name": "coreModules",
           "type": "NSDictionary*",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString*",
           "nullable": false
         }
       ],

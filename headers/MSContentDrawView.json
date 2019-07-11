@@ -7,53 +7,9 @@
     "MSOverlayRendererDelegate"
   ],
   "methods": {
-    "beginHandToolMode": {
-      "name": "beginHandToolMode",
-      "bridgedName": "beginHandToolMode",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "endHandToolMode": {
-      "name": "endHandToolMode",
-      "bridgedName": "endHandToolMode",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "handToolMouseDown:": {
-      "name": "handToolMouseDown:",
-      "bridgedName": "handToolMouseDown",
-      "args": [
-        {
-          "name": "event",
-          "type": "NSEvent *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "handToolMouseDragged:": {
-      "name": "handToolMouseDragged:",
-      "bridgedName": "handToolMouseDragged",
-      "args": [
-        {
-          "name": "event",
-          "type": "NSEvent *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "handToolMouseUp": {
-      "name": "handToolMouseUp",
-      "bridgedName": "handToolMouseUp",
+    "setNeedsUpdateCursor": {
+      "name": "setNeedsUpdateCursor",
+      "bridgedName": "setNeedsUpdateCursor",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -641,6 +597,23 @@
         "readonly"
       ]
     },
+    "handToolState": {
+      "name": "handToolState",
+      "pointer": false,
+      "type": "MSHandToolState",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "needsUpdateCursor": {
+      "name": "needsUpdateCursor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "zoomTool": {
       "name": "zoomTool",
       "pointer": false,
@@ -648,14 +621,6 @@
       "attributes": [
         "nonatomic",
         "readonly"
-      ]
-    },
-    "lastEvent": {
-      "name": "lastEvent",
-      "pointer": false,
-      "type": "NSEvent ",
-      "attributes": [
-        "nonatomic"
       ]
     }
   },

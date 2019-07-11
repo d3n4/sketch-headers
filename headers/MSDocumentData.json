@@ -261,6 +261,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "allForeignObjects": {
+      "name": "allForeignObjects",
+      "bridgedName": "allForeignObjects",
+      "args": [],
+      "returns": "NSArray<MSForeignObject *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addCopyOfMasterToDocumentIfNecessary:": {
       "name": "addCopyOfMasterToDocumentIfNecessary:",
       "bridgedName": "addCopyOfMasterToDocumentIfNecessary",
@@ -303,10 +311,15 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "enumerateForeignSymbolsWithLibraries:block:": {
-      "name": "enumerateForeignSymbolsWithLibraries:block:",
-      "bridgedName": "enumerateForeignSymbolsWithLibraries_block",
+    "enumerateForeignObjects:withLibraries:block:": {
+      "name": "enumerateForeignObjects:withLibraries:block:",
+      "bridgedName": "enumerateForeignObjects_withLibraries_block",
       "args": [
+        {
+          "name": "objects",
+          "type": "NSArray<MSForeignObject*> *",
+          "nullable": false
+        },
         {
           "name": "libraries",
           "type": "NSArray<id<MSLibraryObject>> *",
@@ -314,7 +327,7 @@
         },
         {
           "name": "block",
-          "type": "void(^)(MSForeignSymbol *foreignSymbol, id<MSLibraryObject> library, BOOL *stop)",
+          "type": "void(^)(__kindof MSForeignObject *foreignObject, id<MSLibraryObject> library, BOOL *stop)",
           "nullable": false
         }
       ],
@@ -337,7 +350,7 @@
           "nullable": false
         }
       ],
-      "returns": "nullable id<MSLibraryObject>",
+      "returns": "nullable __kindof id<MSLibraryObject>",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -409,9 +422,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "purgeForeignSymbols": {
-      "name": "purgeForeignSymbols",
-      "bridgedName": "purgeForeignSymbols",
+    "purgeForeignObjects": {
+      "name": "purgeForeignObjects",
+      "bridgedName": "purgeForeignObjects",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -427,6 +440,14 @@
           "nullable": false
         }
       ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateFonts": {
+      "name": "invalidateFonts",
+      "bridgedName": "invalidateFonts",
+      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

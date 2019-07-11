@@ -95,6 +95,25 @@
       "returns": "MSImmutableStyleBorder *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "fillAtElementPosition:exporter:": {
+      "name": "fillAtElementPosition:exporter:",
+      "bridgedName": "fillAtElementPosition_exporter",
+      "args": [
+        {
+          "name": "position",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableStyleFill *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

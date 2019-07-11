@@ -17,6 +17,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "setCurrentHandler:force:": {
+      "name": "setCurrentHandler:force:",
+      "bridgedName": "setCurrentHandler_force",
+      "args": [
+        {
+          "name": "handler",
+          "type": "MSEventHandler *",
+          "nullable": true
+        },
+        {
+          "name": "force",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "handlerForClass:": {
       "name": "handlerForClass:",
       "bridgedName": "handlerForClass",
@@ -174,7 +193,7 @@
       "type": "__kindof MSEventHandler ",
       "attributes": [
         "nonatomic",
-        "nullable"
+        "null_resettable"
       ]
     },
     "normalHandler": {

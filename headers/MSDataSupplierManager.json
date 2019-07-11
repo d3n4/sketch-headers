@@ -130,12 +130,12 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "removeLocalData:": {
-      "name": "removeLocalData:",
-      "bridgedName": "removeLocalData",
+    "removeDataSupplier:": {
+      "name": "removeDataSupplier:",
+      "bridgedName": "removeDataSupplier",
       "args": [
         {
-          "name": "localDataSupplier",
+          "name": "dataSupplier",
           "type": "MSLocalDataSupplier *",
           "nullable": false
         }
@@ -147,6 +147,22 @@
     "loadLocalData": {
       "name": "loadLocalData",
       "bridgedName": "loadLocalData",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadBuiltinData": {
+      "name": "loadBuiltinData",
+      "bridgedName": "loadBuiltinData",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetSketchBuiltinData": {
+      "name": "resetSketchBuiltinData",
+      "bridgedName": "resetSketchBuiltinData",
       "args": [],
       "returns": "void",
       "kind": "instance",

@@ -33,16 +33,6 @@
         "class"
       ]
     },
-    "flowsEnabled": {
-      "name": "flowsEnabled",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "assign",
-        "class"
-      ]
-    },
     "isComponentsPanelEnabled": {
       "name": "isComponentsPanelEnabled",
       "pointer": false,
@@ -53,18 +43,18 @@
         "class"
       ]
     },
-    "shouldArchiveMSAttributedStringAsJSON": {
-      "name": "shouldArchiveMSAttributedStringAsJSON",
+    "builtInRemoteLibrariesEnabled": {
+      "name": "builtInRemoteLibrariesEnabled",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
         "nonatomic",
-        "readonly",
+        "assign",
         "class"
       ]
     },
-    "builtInRemoteLibrariesEnabled": {
-      "name": "builtInRemoteLibrariesEnabled",
+    "cloudDocumentsEnabled": {
+      "name": "cloudDocumentsEnabled",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

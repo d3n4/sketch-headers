@@ -340,6 +340,15 @@
         "readonly"
       ]
     },
+    "UIMetadataKey": {
+      "name": "UIMetadataKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
     "cachedImmutableModelObject": {
       "name": "cachedImmutableModelObject",
       "pointer": false,

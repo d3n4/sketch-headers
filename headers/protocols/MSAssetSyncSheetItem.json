@@ -31,6 +31,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "shouldSync": {
+      "name": "shouldSync",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   }
 }

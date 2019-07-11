@@ -1,0 +1,17 @@
+{
+  "name": "MSPaddingInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "wantsSeparator": {
+      "name": "wantsSeparator",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -3,15 +3,16 @@
   "name": "MSShareableObjectType",
   "members": [
     {
+      "name": "MSShareableObjectTypeSymbol",
+      "value": "0"
+    },
+    {
       "name": "MSShareableObjectTypeLayerStyle",
       "value": "MSSharedStyleTypeLayerStyles"
     },
     {
       "name": "MSShareableObjectTypeTextStyle",
       "value": "MSSharedStyleTypeTextStyles"
-    },
-    {
-      "name": "MSShareableObjectTypeSymbol"
     },
     {
       "name": "MSShareableObjectTypeUnknown"

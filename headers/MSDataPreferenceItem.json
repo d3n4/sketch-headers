@@ -64,6 +64,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "isBuiltinDataSupplier": {
+      "name": "isBuiltinDataSupplier",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

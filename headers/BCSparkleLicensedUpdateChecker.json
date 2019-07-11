@@ -47,6 +47,33 @@
         "readonly"
       ]
     },
+    "numberOfUpdatesRequiringRenewal": {
+      "name": "numberOfUpdatesRequiringRenewal",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "numberOfUpdatesRequiringHostUpdate": {
+      "name": "numberOfUpdatesRequiringHostUpdate",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "numberOfUpdatesRequiringHostUpdateAndRenewal": {
+      "name": "numberOfUpdatesRequiringHostUpdateAndRenewal",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
     "latestUnavailableVersion": {
       "name": "latestUnavailableVersion",
       "pointer": false,
@@ -65,19 +92,64 @@
         "readonly"
       ]
     },
-    "indexOfBestUpdate": {
-      "name": "indexOfBestUpdate",
+    "latestUnavailableVersionBeforeRenewing": {
+      "name": "latestUnavailableVersionBeforeRenewing",
       "pointer": false,
-      "type": "NSUInteger",
+      "type": "NSString ",
       "attributes": [
         "nonatomic",
         "readonly"
       ]
     },
-    "hasUnlicensedUpdatesOnly": {
-      "name": "hasUnlicensedUpdatesOnly",
+    "latestUnavailableBuildNumberBeforeRenewing": {
+      "name": "latestUnavailableBuildNumberBeforeRenewing",
       "pointer": false,
-      "type": "BOOL",
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableVersionBeforeUpdatingMac": {
+      "name": "latestUnavailableVersionBeforeUpdatingMac",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableBuildNumberBeforeUpdatingMac": {
+      "name": "latestUnavailableBuildNumberBeforeUpdatingMac",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableVersionBeforeUpdatingMacAndRenewing": {
+      "name": "latestUnavailableVersionBeforeUpdatingMacAndRenewing",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableBuildNumberBeforeUpdatingMacAndRenewing": {
+      "name": "latestUnavailableBuildNumberBeforeUpdatingMacAndRenewing",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "indexOfBestUpdate": {
+      "name": "indexOfBestUpdate",
+      "pointer": false,
+      "type": "NSUInteger",
       "attributes": [
         "nonatomic",
         "readonly"

@@ -3,6 +3,20 @@
   "extends": "SCKObject",
   "interfaces": [],
   "methods": {
+    "diffComparedTo:": {
+      "name": "diffComparedTo:",
+      "bridgedName": "diffComparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull SCKDocumentDiff *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "artboardWithID:)": {
       "name": "artboardWithID:)",
       "bridgedName": "artboardWithID_)",
@@ -42,20 +56,6 @@
         }
       ],
       "returns": "nullable SCKPage *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "diffComparedTo:": {
-      "name": "diffComparedTo:",
-      "bridgedName": "diffComparedTo",
-      "args": [
-        {
-          "name": "object",
-          "type": "nonnull SCKDocument *",
-          "nullable": false
-        }
-      ],
-      "returns": "nonnull SCKDocumentDiff *",
       "kind": "instance",
       "kindIndicator": "-"
     }

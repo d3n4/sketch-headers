@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSHandToolState",
+  "members": [
+    {
+      "name": "MSHandToolStateInactive"
+    },
+    {
+      "name": "MSHandToolStateActive"
+    },
+    {
+      "name": "MSHandToolStateDragging"
+    }
+  ]
+}

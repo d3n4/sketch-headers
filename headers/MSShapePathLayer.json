@@ -3,47 +3,19 @@
   "extends": "_MSShapePathLayer",
   "interfaces": [],
   "methods": {
-    "shapeWithBezierPath:": {
-      "name": "shapeWithBezierPath:",
-      "bridgedName": "shapeWithBezierPath",
+    "shapeWithPath:": {
+      "name": "shapeWithPath:",
+      "bridgedName": "shapeWithPath",
       "args": [
         {
-          "name": "bezier",
-          "type": "NSBezierPath *",
+          "name": "path",
+          "type": "MSPath *",
           "nullable": false
         }
       ],
       "returns": "MSShapePathLayer *",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "pathInRect:": {
-      "name": "pathInRect:",
-      "bridgedName": "pathInRect",
-      "args": [
-        {
-          "name": "r",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "MSPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathInRect:": {
-      "name": "bezierPathInRect:",
-      "bridgedName": "bezierPathInRect",
-      "args": [
-        {
-          "name": "r",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
     },
     "applyPropertiesToBezier:": {
       "name": "applyPropertiesToBezier:",
@@ -209,8 +181,8 @@
       "bridgedName": "shouldHitTestOnFill",
       "args": [
         {
-          "name": "bezier",
-          "type": "NSBezierPath *",
+          "name": "path",
+          "type": "MSPath *",
           "nullable": false
         }
       ],
@@ -317,13 +289,14 @@
         "readonly"
       ]
     },
-    "bezierPath": {
-      "name": "bezierPath",
+    "pathInFrame": {
+      "name": "pathInFrame",
       "pointer": false,
-      "type": "NSBezierPath ",
+      "type": "MSPath ",
       "attributes": [
-        "strong",
-        "nonatomic"
+        "nonatomic",
+        "copy",
+        "readwrite"
       ]
     }
   },

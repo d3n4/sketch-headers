@@ -133,6 +133,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "tintedWithColorNamed:interfaceTheme:": {
+      "name": "tintedWithColorNamed:interfaceTheme:",
+      "bridgedName": "tintedWithColorNamed_interfaceTheme",
+      "args": [
+        {
+          "name": "colorName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "theme",
+          "type": "id<MSInterfaceTheme>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "drawFlippedAtPoint:": {
       "name": "drawFlippedAtPoint:",
       "bridgedName": "drawFlippedAtPoint",
@@ -325,6 +344,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "thumbWithSize:cornerRadius:": {
+      "name": "thumbWithSize:cornerRadius:",
+      "bridgedName": "thumbWithSize_cornerRadius",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "cornerRadius",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "pngDataByFixingInvalidGamma:": {
       "name": "pngDataByFixingInvalidGamma:",
       "bridgedName": "pngDataByFixingInvalidGamma",
@@ -338,6 +376,28 @@
       "returns": "NSData *",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "tintedWithColor:": {
+      "name": "tintedWithColor:",
+      "bridgedName": "tintedWithColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verticallyFlipped": {
+      "name": "verticallyFlipped",
+      "bridgedName": "verticallyFlipped",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
     },
     "drawImageWithSize:withBlock:": {
       "name": "drawImageWithSize:withBlock:",

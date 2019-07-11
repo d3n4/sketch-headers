@@ -31,9 +31,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "initWithName:identifier:commands:": {
-      "name": "initWithName:identifier:commands:",
-      "bridgedName": "initWithName_identifier_commands",
+    "initWithName:identifier:commands:icon:": {
+      "name": "initWithName:identifier:commands:icon:",
+      "bridgedName": "initWithName_identifier_commands_icon",
       "args": [
         {
           "name": "name",
@@ -48,6 +48,11 @@
         {
           "name": "commands",
           "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "icon",
+          "type": "NSImage *",
           "nullable": false
         }
       ],
@@ -122,6 +127,24 @@
       "attributes": [
         "nonatomic",
         "copy",
+        "readonly"
+      ]
+    },
+    "icon": {
+      "name": "icon",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "alertIcon": {
+      "name": "alertIcon",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
         "readonly"
       ]
     },

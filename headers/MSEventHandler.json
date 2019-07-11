@@ -301,6 +301,22 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "updateCursor": {
+      "name": "updateCursor",
+      "bridgedName": "updateCursor",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setNeedsUpdateCursor": {
+      "name": "setNeedsUpdateCursor",
+      "bridgedName": "setNeedsUpdateCursor",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "keyDown:NS_REQUIRES_SUPER": {
       "name": "keyDown:NS_REQUIRES_SUPER",
       "bridgedName": "keyDown_NS_REQUIRES_SUPER",
@@ -376,6 +392,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "addOverlayRenderer:": {
+      "name": "addOverlayRenderer:",
+      "bridgedName": "addOverlayRenderer",
+      "args": [
+        {
+          "name": "renderer",
+          "type": "MSOverlayRenderer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "prepareGraphicsStateForGroup:drawingBlock:": {
       "name": "prepareGraphicsStateForGroup:drawingBlock:",
       "bridgedName": "prepareGraphicsStateForGroup_drawingBlock",
@@ -395,9 +425,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "drawInRect:context:": {
-      "name": "drawInRect:context:",
-      "bridgedName": "drawInRect_context",
+    "drawInRect:context:NS_REQUIRES_SUPER": {
+      "name": "drawInRect:context:NS_REQUIRES_SUPER",
+      "bridgedName": "drawInRect_context_NS_REQUIRES_SUPER",
       "args": [
         {
           "name": "dirtyRect",
@@ -436,9 +466,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "handlerGotFocus": {
-      "name": "handlerGotFocus",
-      "bridgedName": "handlerGotFocus",
+    "drawDragSelection": {
+      "name": "drawDragSelection",
+      "bridgedName": "drawDragSelection",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handlerGotFocus NS_REQUIRES_SUPER": {
+      "name": "handlerGotFocus NS_REQUIRES_SUPER",
+      "bridgedName": "handlerGotFocus NS_REQUIRES_SUPER",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -794,20 +832,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "cursorUpdate:": {
-      "name": "cursorUpdate:",
-      "bridgedName": "cursorUpdate",
-      "args": [
-        {
-          "name": "theEvent",
-          "type": "NSEvent *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "changeColor:": {
       "name": "changeColor:",
       "bridgedName": "changeColor",
@@ -854,30 +878,6 @@
       "bridgedName": "imageName",
       "args": [],
       "returns": "NSString *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "defaultCursor": {
-      "name": "defaultCursor",
-      "bridgedName": "defaultCursor",
-      "args": [],
-      "returns": "NSCursor *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "shouldDrawLayerSelection": {
-      "name": "shouldDrawLayerSelection",
-      "bridgedName": "shouldDrawLayerSelection",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "shouldDrawLayerHighlight": {
-      "name": "shouldDrawLayerHighlight",
-      "bridgedName": "shouldDrawLayerHighlight",
-      "args": [],
-      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -928,6 +928,14 @@
     "zoomToSelection": {
       "name": "zoomToSelection",
       "bridgedName": "zoomToSelection",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "zoomToArtboard": {
+      "name": "zoomToArtboard",
+      "bridgedName": "zoomToArtboard",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -1381,6 +1389,15 @@
         "copy"
       ]
     },
+    "cursor": {
+      "name": "cursor",
+      "pointer": false,
+      "type": "NSCursor ",
+      "attributes": [
+        "nonatomic",
+        ""
+      ]
+    },
     "measurementText": {
       "name": "measurementText",
       "pointer": false,
@@ -1391,10 +1408,10 @@
         ""
       ]
     },
-    "lastEvent": {
-      "name": "lastEvent",
+    "overlayRenderers": {
+      "name": "overlayRenderers",
       "pointer": false,
-      "type": "NSEvent ",
+      "type": "NSArray<MSOverlayRenderer *> ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -1406,6 +1423,22 @@
       "type": "NSRect",
       "attributes": [
         "nonatomic"
+      ]
+    },
+    "wantsStandardSelectionControls": {
+      "name": "wantsStandardSelectionControls",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "wantsLayerHighlight": {
+      "name": "wantsLayerHighlight",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
       ]
     }
   },

@@ -3,20 +3,6 @@
   "extends": "MSEventHandler",
   "interfaces": [],
   "methods": {
-    "drawingRectForInsertionRect:": {
-      "name": "drawingRectForInsertionRect:",
-      "bridgedName": "drawingRectForInsertionRect",
-      "args": [
-        {
-          "name": "insertionRect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "NSRect",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "performActionWithRect:fromLayer:constrainProportions:": {
       "name": "performActionWithRect:fromLayer:constrainProportions:",
       "bridgedName": "performActionWithRect_fromLayer_constrainProportions",
@@ -41,19 +27,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "drawingRectForInsertionRect:": {
+      "name": "drawingRectForInsertionRect:",
+      "bridgedName": "drawingRectForInsertionRect",
+      "args": [
+        {
+          "name": "insertionRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "drawRectPreview": {
       "name": "drawRectPreview",
       "bridgedName": "drawRectPreview",
       "args": [],
       "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "layerSnapper": {
-      "name": "layerSnapper",
-      "bridgedName": "layerSnapper",
-      "args": [],
-      "returns": "MSSnapper *",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -102,8 +94,26 @@
         "readonly"
       ]
     },
-    "cursor": {
-      "name": "cursor",
+    "snapper": {
+      "name": "snapper",
+      "pointer": false,
+      "type": "MSPointSnapper ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "snappingResult": {
+      "name": "snappingResult",
+      "pointer": false,
+      "type": "MSPointSnappingResult ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "insertionCursor": {
+      "name": "insertionCursor",
       "pointer": false,
       "type": "NSCursor ",
       "attributes": [

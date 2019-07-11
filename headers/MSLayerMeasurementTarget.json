@@ -14,7 +14,7 @@
         },
         {
           "name": "targetGuides",
-          "type": "NSArray<MSLine *> *",
+          "type": "NSArray<MSSnapLine *> *",
           "nullable": true
         }
       ],
@@ -37,7 +37,7 @@
     "guideLines": {
       "name": "guideLines",
       "pointer": false,
-      "type": "NSArray <MSLine *> ",
+      "type": "NSArray <MSSnapLine *> ",
       "attributes": [
         "nonatomic",
         "copy",

@@ -131,6 +131,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "domain": {
+      "name": "domain",
+      "pointer": false,
+      "type": "NSArray*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
     }
   },
   "generics": []

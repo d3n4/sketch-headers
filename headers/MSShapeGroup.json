@@ -83,21 +83,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "bezierOperationChain": {
-      "name": "bezierOperationChain",
-      "bridgedName": "bezierOperationChain",
-      "args": [],
-      "returns": "FBBezierOperationChain *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "shapeWithBezierPath:": {
       "name": "shapeWithBezierPath:",
       "bridgedName": "shapeWithBezierPath",
       "args": [
         {
-          "name": "bezier",
-          "type": "NSBezierPath *",
+          "name": "path",
+          "type": "MSPath *",
           "nullable": false
         }
       ],
@@ -210,39 +202,17 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "debugWritePaths:": {
-      "name": "debugWritePaths:",
-      "bridgedName": "debugWritePaths",
-      "args": [
-        {
-          "name": "counter",
-          "type": "NSInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
-    "bezierPath": {
-      "name": "bezierPath",
+    "pathInFrame": {
+      "name": "pathInFrame",
       "pointer": false,
-      "type": "NSBezierPath ",
+      "type": "MSPath ",
       "attributes": [
         "nonatomic",
-        "strong"
-      ]
-    },
-    "bezierPathWithTransforms": {
-      "name": "bezierPathWithTransforms",
-      "pointer": false,
-      "type": "NSBezierPath ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
+        "copy",
+        "readwrite"
       ]
     },
     "isClosed": {

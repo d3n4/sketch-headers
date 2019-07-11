@@ -107,6 +107,20 @@
       "returns": "nullable NSURL *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "appendingCloudAuthentication:": {
+      "name": "appendingCloudAuthentication:",
+      "bridgedName": "appendingCloudAuthentication",
+      "args": [
+        {
+          "name": "authentication",
+          "type": "id<SCKAPIAuthentication>",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

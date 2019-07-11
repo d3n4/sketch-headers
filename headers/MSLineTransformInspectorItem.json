@@ -1,0 +1,8 @@
+{
+  "name": "MSLineTransformInspectorItem",
+  "extends": "MSBaseTransformInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -23,6 +23,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "cloudShareController:exportDocumentWithHandler:": {
+      "name": "cloudShareController:exportDocumentWithHandler:",
+      "bridgedName": "cloudShareController_exportDocumentWithHandler",
+      "args": [
+        {
+          "name": "controller",
+          "type": "nonnull MSCloudShareUploadController *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "void (^ _Nullable)(NSURL * _Nullable)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "cloudShareController:uploadDidFailWithError:": {
       "name": "cloudShareController:uploadDidFailWithError:",
       "bridgedName": "cloudShareController_uploadDidFailWithError",
@@ -55,25 +74,6 @@
           "name": "progress",
           "type": "NSProgress *",
           "nullable": true
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "cloudShareController:willUploadShareAsNew:": {
-      "name": "cloudShareController:willUploadShareAsNew:",
-      "bridgedName": "cloudShareController_willUploadShareAsNew",
-      "args": [
-        {
-          "name": "controller",
-          "type": "nonnull MSCloudShareUploadController *",
-          "nullable": false
-        },
-        {
-          "name": "isNew",
-          "type": "BOOL",
-          "nullable": false
         }
       ],
       "returns": "void",

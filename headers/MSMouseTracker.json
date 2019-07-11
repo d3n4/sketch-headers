@@ -22,6 +22,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "sendAction": {
+      "name": "sendAction",
+      "bridgedName": "sendAction",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "locationInView:": {
       "name": "locationInView:",
       "bridgedName": "locationInView",
@@ -172,14 +180,6 @@
         "nonatomic",
         "nullable",
         "weak"
-      ]
-    },
-    "checksMouseHitTesting": {
-      "name": "checksMouseHitTesting",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
       ]
     },
     "modifierFlags": {

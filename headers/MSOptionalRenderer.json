@@ -1,6 +1,6 @@
 {
   "name": "MSOptionalRenderer",
-  "extends": "MSNullRenderer",
+  "extends": "NSObject",
   "interfaces": [],
   "methods": {
     "initWithBaseRenderer:disableSetting:": {

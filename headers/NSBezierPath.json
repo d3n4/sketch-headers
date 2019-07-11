@@ -264,34 +264,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "bezierIndexForPoint:": {
-      "name": "bezierIndexForPoint:",
-      "bridgedName": "bezierIndexForPoint",
-      "args": [
-        {
-          "name": "point",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "NSUInteger",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathByCuttingBeforeIndex:": {
-      "name": "bezierPathByCuttingBeforeIndex:",
-      "bridgedName": "bezierPathByCuttingBeforeIndex",
-      "args": [
-        {
-          "name": "index",
-          "type": "NSUInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "booleanOp:withPath:": {
       "name": "booleanOp:withPath:",
       "bridgedName": "booleanOp_withPath",
@@ -592,6 +564,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "bezierPathWithPath:": {
+      "name": "bezierPathWithPath:",
+      "bridgedName": "bezierPathWithPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "lastPoint": {
       "name": "lastPoint",
       "bridgedName": "lastPoint",
@@ -762,20 +748,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "bezierPathByJoiningWithBezierPath:": {
-      "name": "bezierPathByJoiningWithBezierPath:",
-      "bridgedName": "bezierPathByJoiningWithBezierPath",
-      "args": [
-        {
-          "name": "path",
-          "type": "NSBezierPath *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "appendBezierPathByRemovingMoveToPoint:": {
       "name": "appendBezierPathByRemovingMoveToPoint:",
       "bridgedName": "appendBezierPathByRemovingMoveToPoint",
@@ -829,52 +801,6 @@
         }
       ],
       "returns": "NSArray <NSBezierPath *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathByReplacingMoveToByLineToComponents": {
-      "name": "bezierPathByReplacingMoveToByLineToComponents",
-      "bridgedName": "bezierPathByReplacingMoveToByLineToComponents",
-      "args": [],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathByReplacingClosePathByLineToComponents": {
-      "name": "bezierPathByReplacingClosePathByLineToComponents",
-      "bridgedName": "bezierPathByReplacingClosePathByLineToComponents",
-      "args": [],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathByReplacingElementAtIndexWithMoveTo:": {
-      "name": "bezierPathByReplacingElementAtIndexWithMoveTo:",
-      "bridgedName": "bezierPathByReplacingElementAtIndexWithMoveTo",
-      "args": [
-        {
-          "name": "cutIndex",
-          "type": "NSInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathByRearrangingSubPathsIfNecessary": {
-      "name": "bezierPathByRearrangingSubPathsIfNecessary",
-      "bridgedName": "bezierPathByRearrangingSubPathsIfNecessary",
-      "args": [],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathByRemovingSubsequentMoveToComponents": {
-      "name": "bezierPathByRemovingSubsequentMoveToComponents",
-      "bridgedName": "bezierPathByRemovingSubsequentMoveToComponents",
-      "args": [],
-      "returns": "NSBezierPath *",
       "kind": "instance",
       "kindIndicator": "-"
     },

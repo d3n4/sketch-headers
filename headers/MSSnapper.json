@@ -118,9 +118,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "snapItem:toLines:visible:snap:resize:edges:": {
-      "name": "snapItem:toLines:visible:snap:resize:edges:",
-      "bridgedName": "snapItem_toLines_visible_snap_resize_edges",
+    "snapItem:attributes:toLines:visible:snap:resize:": {
+      "name": "snapItem:attributes:toLines:visible:snap:resize:",
+      "bridgedName": "snapItem_attributes_toLines_visible_snap_resize",
       "args": [
         {
           "name": "item",
@@ -128,8 +128,13 @@
           "nullable": false
         },
         {
+          "name": "attributeMask",
+          "type": "NSIndexSet *",
+          "nullable": true
+        },
+        {
           "name": "lines",
-          "type": "NSArray *",
+          "type": "NSArray<MSSnapLine *> *",
           "nullable": false
         },
         {
@@ -138,18 +143,13 @@
           "nullable": false
         },
         {
-          "name": "axis",
+          "name": "snap",
           "type": "BCAxis",
           "nullable": false
         },
         {
           "name": "resize",
           "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "edgesMask",
-          "type": "BCEdge",
           "nullable": false
         }
       ],

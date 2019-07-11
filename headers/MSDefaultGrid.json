@@ -2,30 +2,18 @@
   "name": "MSDefaultGrid",
   "extends": "MSDefaultArchive",
   "interfaces": [],
-  "methods": {
+  "methods": {},
+  "properties": {
     "defaultGrid": {
       "name": "defaultGrid",
-      "bridgedName": "defaultGrid",
-      "args": [],
-      "returns": "MSSimpleGrid*",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "setDefaultGrid:": {
-      "name": "setDefaultGrid:",
-      "bridgedName": "setDefaultGrid",
-      "args": [
-        {
-          "name": "defaultGrid",
-          "type": "MSSimpleGrid*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
+      "pointer": false,
+      "type": "MSSimpleGrid ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "class"
+      ]
     }
   },
-  "properties": {},
   "generics": []
 }

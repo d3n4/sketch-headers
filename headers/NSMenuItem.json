@@ -107,13 +107,18 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "generatePreviewWithColorSpace:completionHandler:": {
-      "name": "generatePreviewWithColorSpace:completionHandler:",
-      "bridgedName": "generatePreviewWithColorSpace_completionHandler",
+    "generatePreviewWithColorSpace:backingScale:completionHandler:": {
+      "name": "generatePreviewWithColorSpace:backingScale:completionHandler:",
+      "bridgedName": "generatePreviewWithColorSpace_backingScale_completionHandler",
       "args": [
         {
           "name": "colorSpace",
           "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "backingScale",
+          "type": "CGFloat",
           "nullable": false
         },
         {

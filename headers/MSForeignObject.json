@@ -9,7 +9,7 @@
       "args": [
         {
           "name": "original",
-          "type": "__kindof MSModelObject*",
+          "type": "__kindof MSModelObject *",
           "nullable": false
         },
         {
@@ -42,7 +42,7 @@
       "args": [
         {
           "name": "remote",
-          "type": "__kindof MSModelObject*",
+          "type": "__kindof MSModelObject *",
           "nullable": false
         }
       ],
@@ -54,7 +54,7 @@
       "name": "unlinkFromRemote",
       "bridgedName": "unlinkFromRemote",
       "args": [],
-      "returns": "__kindof MSModelObject*",
+      "returns": "__kindof MSModelObject *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -68,21 +68,54 @@
           "nullable": false
         }
       ],
-      "returns": "nullable __kindof MSModelObject*",
+      "returns": "nullable __kindof MSModelObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "masterFromDocument:": {
+      "name": "masterFromDocument:",
+      "bridgedName": "masterFromDocument",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSModelObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "matchingForeignObjectInDocument:": {
+      "name": "matchingForeignObjectInDocument:",
+      "bridgedName": "matchingForeignObjectInDocument",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSForeignObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isLocalToDocument:": {
+      "name": "isLocalToDocument:",
+      "bridgedName": "isLocalToDocument",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     }
   },
   "properties": {
-    "originalObject": {
-      "name": "originalObject",
-      "pointer": false,
-      "type": "__kindof MSModelObject ",
-      "attributes": [
-        "strong",
-        "nonatomic"
-      ]
-    },
     "localObject": {
       "name": "localObject",
       "pointer": false,

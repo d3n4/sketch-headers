@@ -63,7 +63,7 @@
           "nullable": false
         }
       ],
-      "returns": "MSLine *",
+      "returns": "MSSnapLine *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -287,6 +287,15 @@
       "type": "CGFloat",
       "attributes": [
         "nonatomic"
+      ]
+    },
+    "rulerDraggingLocked": {
+      "name": "rulerDraggingLocked",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "class"
       ]
     }
   },

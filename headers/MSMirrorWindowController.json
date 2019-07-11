@@ -137,26 +137,6 @@
         "readonly"
       ]
     },
-    "nextArtboard": {
-      "name": "nextArtboard",
-      "pointer": false,
-      "type": "MSImmutableArtboardGroup ",
-      "attributes": [
-        "nonatomic",
-        "nullable",
-        "readonly"
-      ]
-    },
-    "previousArtboard": {
-      "name": "previousArtboard",
-      "pointer": false,
-      "type": "MSImmutableArtboardGroup ",
-      "attributes": [
-        "nonatomic",
-        "nullable",
-        "readonly"
-      ]
-    },
     "currentStartpoint": {
       "name": "currentStartpoint",
       "pointer": false,

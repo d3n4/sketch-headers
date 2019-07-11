@@ -92,6 +92,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "setIndentationLevel:": {
+      "name": "setIndentationLevel:",
+      "bridgedName": "setIndentationLevel",
+      "args": [
+        {
+          "name": "level",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -117,6 +131,15 @@
       "name": "hasSingleOverride",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contentView": {
+      "name": "contentView",
+      "pointer": false,
+      "type": "NSView ",
       "attributes": [
         "nonatomic",
         "readonly"

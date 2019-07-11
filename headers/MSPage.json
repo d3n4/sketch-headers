@@ -181,6 +181,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "resetSelectedLayerIDs:": {
+      "name": "resetSelectedLayerIDs:",
+      "bridgedName": "resetSelectedLayerIDs",
+      "args": [
+        {
+          "name": "layerIDs",
+          "type": "NSSet<NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "adjustRulerDataToTopLeftInViewBounds": {
       "name": "adjustRulerDataToTopLeftInViewBounds",
       "bridgedName": "adjustRulerDataToTopLeftInViewBounds",

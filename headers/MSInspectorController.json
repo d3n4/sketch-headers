@@ -11,7 +11,7 @@
       "args": [
         {
           "name": "layers",
-          "type": "NSArray *",
+          "type": "MSLayerArray *",
           "nullable": false
         }
       ],
@@ -279,6 +279,15 @@
       "type": "BOOL",
       "attributes": [
         "nonatomic"
+      ]
+    },
+    "sharedStyleInspectorVisible": {
+      "name": "sharedStyleInspectorVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

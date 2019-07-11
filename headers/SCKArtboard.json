@@ -3,20 +3,6 @@
   "extends": "SCKObject",
   "interfaces": [],
   "methods": {
-    "fileAtScale:)": {
-      "name": "fileAtScale:)",
-      "bridgedName": "fileAtScale_)",
-      "args": [
-        {
-          "name": "scale",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable SCKFile *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "diffComparedTo:": {
       "name": "diffComparedTo:",
       "bridgedName": "diffComparedTo",
@@ -28,6 +14,20 @@
         }
       ],
       "returns": "nonnull SCKArtboardDiff *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fileAtScale:)": {
+      "name": "fileAtScale:)",
+      "bridgedName": "fileAtScale_)",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable SCKFile *",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -90,6 +90,15 @@
         "readonly"
       ]
     },
+    "viewport": {
+      "name": "viewport",
+      "pointer": false,
+      "type": "SCKArtboardViewport",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "files": {
       "name": "files",
       "pointer": false,
@@ -98,6 +107,25 @@
         "nonatomic",
         "nonnull",
         "readonly"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray<SCKLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "isFlowHome": {
+      "name": "isFlowHome",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
       ]
     }
   },

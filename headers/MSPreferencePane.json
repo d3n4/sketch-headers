@@ -48,6 +48,28 @@
       "returns": "NSString *",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "dismissAlertWindow:": {
+      "name": "dismissAlertWindow:",
+      "bridgedName": "dismissAlertWindow",
+      "args": [
+        {
+          "name": "alertWindow",
+          "type": "NSWindow *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dismissAlertSheet": {
+      "name": "dismissAlertSheet",
+      "bridgedName": "dismissAlertSheet",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

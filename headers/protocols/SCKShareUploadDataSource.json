@@ -23,17 +23,41 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "documentFileURLForShareUploadOperation:": {
-      "name": "documentFileURLForShareUploadOperation:",
-      "bridgedName": "documentFileURLForShareUploadOperation",
+    "shareUploadOperation:willStartUploadingShare:": {
+      "name": "shareUploadOperation:willStartUploadingShare:",
+      "bridgedName": "shareUploadOperation_willStartUploadingShare",
       "args": [
         {
           "name": "operation",
           "type": "nonnull SCKShareUploadOperation *",
           "nullable": false
+        },
+        {
+          "name": "share",
+          "type": "nonnull SCKShare *",
+          "nullable": false
         }
       ],
-      "returns": "nullable NSURL *",
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shareUploadOperation:exportDocumentWithHandler:": {
+      "name": "shareUploadOperation:exportDocumentWithHandler:",
+      "bridgedName": "shareUploadOperation_exportDocumentWithHandler",
+      "args": [
+        {
+          "name": "operation",
+          "type": "nonnull SCKShareUploadOperation *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "void (^ _Nullable)(NSURL * _Nullable)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     }

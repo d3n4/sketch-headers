@@ -109,25 +109,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "copyToLayer:beforeLayer:": {
-      "name": "copyToLayer:beforeLayer:",
-      "bridgedName": "copyToLayer_beforeLayer",
-      "args": [
-        {
-          "name": "parent",
-          "type": "MSLayer*",
-          "nullable": false
-        },
-        {
-          "name": "next",
-          "type": "MSLayer*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "addMastersForInstancesToDocument:": {
       "name": "addMastersForInstancesToDocument:",
       "bridgedName": "addMastersForInstancesToDocument",
@@ -186,32 +167,23 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layerSnapperObjectClass": {
-      "name": "layerSnapperObjectClass",
-      "bridgedName": "layerSnapperObjectClass",
+    "snapItemClass": {
+      "name": "snapItemClass",
+      "bridgedName": "snapItemClass",
       "args": [],
       "returns": "Class",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "canSnapToLayer:": {
-      "name": "canSnapToLayer:",
-      "bridgedName": "canSnapToLayer",
+    "canSnap:toLayer:": {
+      "name": "canSnap:toLayer:",
+      "bridgedName": "canSnap_toLayer",
       "args": [
         {
-          "name": "otherLayer",
-          "type": "MSLayer *",
+          "name": "snapType",
+          "type": "MSSnapType",
           "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "canSnapSizeToLayer:": {
-      "name": "canSnapSizeToLayer:",
-      "bridgedName": "canSnapSizeToLayer",
-      "args": [
+        },
         {
           "name": "otherLayer",
           "type": "MSLayer *",
@@ -225,6 +197,14 @@
     "supportsInnerOuterBorders": {
       "name": "supportsInnerOuterBorders",
       "bridgedName": "supportsInnerOuterBorders",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportsMultipleShadows": {
+      "name": "supportsMultipleShadows",
+      "bridgedName": "supportsMultipleShadows",
       "args": [],
       "returns": "BOOL",
       "kind": "instance",
@@ -354,6 +334,36 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "resetSharedStyle": {
+      "name": "resetSharedStyle",
+      "bridgedName": "resetSharedStyle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateSharedStyleToMatchSelf": {
+      "name": "updateSharedStyleToMatchSelf",
+      "bridgedName": "updateSharedStyleToMatchSelf",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "userVisibleRotationForRotation:": {
+      "name": "userVisibleRotationForRotation:",
+      "bridgedName": "userVisibleRotationForRotation",
+      "args": [
+        {
+          "name": "r",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
     },
     "initWithFrame:": {
       "name": "initWithFrame:",
@@ -868,7 +878,7 @@
       "bridgedName": "containsPoint_options_zoomValue",
       "args": [
         {
-          "name": "mouse",
+          "name": "point",
           "type": "NSPoint",
           "nullable": false
         },
@@ -920,12 +930,12 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "selectionHandleAtPoint:zoom:": {
-      "name": "selectionHandleAtPoint:zoom:",
-      "bridgedName": "selectionHandleAtPoint_zoom",
+    "adjustmentHandleAtPoint:zoomScale:resizing:": {
+      "name": "adjustmentHandleAtPoint:zoomScale:resizing:",
+      "bridgedName": "adjustmentHandleAtPoint_zoomScale_resizing",
       "args": [
         {
-          "name": "mouse",
+          "name": "point",
           "type": "NSPoint",
           "nullable": false
         },
@@ -933,28 +943,14 @@
           "name": "zoom",
           "type": "CGFloat",
           "nullable": false
+        },
+        {
+          "name": "resizing",
+          "type": "BOOL",
+          "nullable": false
         }
       ],
       "returns": "BCCorner",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "hasSelectionHandleAtPoint:zoomValue:": {
-      "name": "hasSelectionHandleAtPoint:zoomValue:",
-      "bridgedName": "hasSelectionHandleAtPoint_zoomValue",
-      "args": [
-        {
-          "name": "mouse",
-          "type": "NSPoint",
-          "nullable": false
-        },
-        {
-          "name": "zoomValue",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1011,22 +1007,6 @@
       "bridgedName": "hasEnabledBackgroundBlur",
       "args": [],
       "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPath": {
-      "name": "bezierPath",
-      "bridgedName": "bezierPath",
-      "args": [],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathWithTransforms": {
-      "name": "bezierPathWithTransforms",
-      "bridgedName": "bezierPathWithTransforms",
-      "args": [],
-      "returns": "NSBezierPath *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1204,6 +1184,34 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "addChangeObserver:": {
+      "name": "addChangeObserver:",
+      "bridgedName": "addChangeObserver",
+      "args": [
+        {
+          "name": "observer",
+          "type": "id<MSLayerChangeObserver>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeChangeObserver:": {
+      "name": "removeChangeObserver:",
+      "bridgedName": "removeChangeObserver",
+      "args": [
+        {
+          "name": "observer",
+          "type": "id<MSLayerChangeObserver>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "configureBackgroundOfRequest:": {
       "name": "configureBackgroundOfRequest:",
       "bridgedName": "configureBackgroundOfRequest",
@@ -1270,7 +1278,7 @@
       "name": "bezierPathForHover",
       "bridgedName": "bezierPathForHover",
       "args": [],
-      "returns": "NSBezierPath *",
+      "returns": "MSPath *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1281,20 +1289,6 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "userVisibleRotationForRotation:": {
-      "name": "userVisibleRotationForRotation:",
-      "bridgedName": "userVisibleRotationForRotation",
-      "args": [
-        {
-          "name": "r",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "CGFloat",
-      "kind": "class",
-      "kindIndicator": "+"
     },
     "layerDidResizeFromInspector:": {
       "name": "layerDidResizeFromInspector:",
@@ -1307,6 +1301,20 @@
         }
       ],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boundsForParentInDocument:": {
+      "name": "boundsForParentInDocument:",
+      "bridgedName": "boundsForParentInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1442,10 +1450,54 @@
         "readonly"
       ]
     },
+    "shareableObjectType": {
+      "name": "shareableObjectType",
+      "pointer": false,
+      "type": "MSShareableObjectType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedMaster": {
+      "name": "sharedMaster",
+      "pointer": false,
+      "type": "MSShareableObject ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "hasFixedEdges": {
       "name": "hasFixedEdges",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isSharedStyleOutOfSync": {
+      "name": "isSharedStyleOutOfSync",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedStyle": {
+      "name": "sharedStyle",
+      "pointer": false,
+      "type": "MSSharedStyle ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "userVisibleRotation": {
+      "name": "userVisibleRotation",
+      "pointer": false,
+      "type": "CGFloat",
       "attributes": [
         "nonatomic"
       ]
@@ -1556,14 +1608,6 @@
       "name": "transformStruct",
       "pointer": false,
       "type": "CHTransformStruct",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
-    "userVisibleRotation": {
-      "name": "userVisibleRotation",
-      "pointer": false,
-      "type": "CGFloat",
       "attributes": [
         "nonatomic"
       ]

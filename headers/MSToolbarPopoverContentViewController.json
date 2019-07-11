@@ -36,6 +36,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "newLabel": {
+      "name": "newLabel",
+      "bridgedName": "newLabel",
+      "args": [],
+      "returns": "NSTextField *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "animateFrameWithCompletionHandler:": {
       "name": "animateFrameWithCompletionHandler:",
       "bridgedName": "animateFrameWithCompletionHandler",

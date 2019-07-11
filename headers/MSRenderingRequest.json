@@ -14,7 +14,7 @@
         },
         {
           "name": "colorSpace",
-          "type": "NSColorSpace *",
+          "type": "CGColorSpaceRef",
           "nullable": false
         },
         {
@@ -113,7 +113,7 @@
     "colorSpace": {
       "name": "colorSpace",
       "pointer": false,
-      "type": "NSColorSpace ",
+      "type": "CGColorSpaceRef",
       "attributes": [
         "nonatomic",
         "readonly"

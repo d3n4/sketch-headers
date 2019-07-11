@@ -2,7 +2,7 @@
   "name": "MSBaseExportableInspectorViewController",
   "extends": "NSViewController",
   "interfaces": [
-    "MSSliceLayerWatcher",
+    "MSLayerChangeObserver",
     "MSInspectorChildController"
   ],
   "methods": {

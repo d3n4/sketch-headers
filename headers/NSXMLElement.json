@@ -50,6 +50,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "doubleValueFromAttributeWithName:orDefault:": {
+      "name": "doubleValueFromAttributeWithName:orDefault:",
+      "bridgedName": "doubleValueFromAttributeWithName_orDefault",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "def",
+          "type": "double",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "doubleValueFromPercentageAttributeWithName:": {
       "name": "doubleValueFromPercentageAttributeWithName:",
       "bridgedName": "doubleValueFromPercentageAttributeWithName",
@@ -266,6 +285,33 @@
           "nullable": false
         }
       ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringFromAttributeWithName:orDefault:": {
+      "name": "stringFromAttributeWithName:orDefault:",
+      "bridgedName": "stringFromAttributeWithName_orDefault",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "def",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringForHREFLink": {
+      "name": "stringForHREFLink",
+      "bridgedName": "stringForHREFLink",
+      "args": [],
       "returns": "NSString*",
       "kind": "instance",
       "kindIndicator": "-"

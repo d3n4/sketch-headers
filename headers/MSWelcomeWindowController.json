@@ -229,6 +229,15 @@
         "strong"
       ]
     },
+    "collectionsWidthConstraint": {
+      "name": "collectionsWidthConstraint",
+      "pointer": false,
+      "type": "IBOutlet NSLayoutConstraint ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
     "confirmButton": {
       "name": "confirmButton",
       "pointer": false,

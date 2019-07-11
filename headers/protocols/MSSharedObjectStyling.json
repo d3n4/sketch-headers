@@ -4,9 +4,9 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "generatePreviewForMenuItem:withColorSpace:completionBlock:": {
-      "name": "generatePreviewForMenuItem:withColorSpace:completionBlock:",
-      "bridgedName": "generatePreviewForMenuItem_withColorSpace_completionBlock",
+    "generatePreviewForMenuItem:withColorSpace:backingScale:completionBlock:": {
+      "name": "generatePreviewForMenuItem:withColorSpace:backingScale:completionBlock:",
+      "bridgedName": "generatePreviewForMenuItem_withColorSpace_backingScale_completionBlock",
       "args": [
         {
           "name": "menuItem",
@@ -19,6 +19,11 @@
           "nullable": false
         },
         {
+          "name": "backingScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
           "name": "block",
           "type": "MSPreviewGeneratorBlock",
           "nullable": true
@@ -28,13 +33,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "generatePreviewForPopup:completionBlock:": {
-      "name": "generatePreviewForPopup:completionBlock:",
-      "bridgedName": "generatePreviewForPopup_completionBlock",
+    "generatePreviewForPopup:backingScale:completionBlock:": {
+      "name": "generatePreviewForPopup:backingScale:completionBlock:",
+      "bridgedName": "generatePreviewForPopup_backingScale_completionBlock",
       "args": [
         {
           "name": "cell",
           "type": "NSPopUpButtonCell*",
+          "nullable": false
+        },
+        {
+          "name": "backingScale",
+          "type": "CGFloat",
           "nullable": false
         },
         {
@@ -47,10 +57,15 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "generatePreviewForManageSheetWithCompletionBlock:": {
-      "name": "generatePreviewForManageSheetWithCompletionBlock:",
-      "bridgedName": "generatePreviewForManageSheetWithCompletionBlock",
+    "generatePreviewForManageSheetWithBackingScale:completionBlock:": {
+      "name": "generatePreviewForManageSheetWithBackingScale:completionBlock:",
+      "bridgedName": "generatePreviewForManageSheetWithBackingScale_completionBlock",
       "args": [
+        {
+          "name": "backingScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
         {
           "name": "block",
           "type": "MSPreviewGeneratorBlock",
@@ -58,6 +73,40 @@
         }
       ],
       "returns": "NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "generatePreviewForSyncSheetWithSize:backingScale:shadow:colorSpace:completionBlock:": {
+      "name": "generatePreviewForSyncSheetWithSize:backingScale:shadow:colorSpace:completionBlock:",
+      "bridgedName": "generatePreviewForSyncSheetWithSize_backingScale_shadow_colorSpace_completionBlock",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "backingScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "shadow",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace*",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },

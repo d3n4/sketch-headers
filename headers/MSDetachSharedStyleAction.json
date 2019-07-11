@@ -1,6 +1,6 @@
 {
   "name": "MSDetachSharedStyleAction",
-  "extends": "MSBaseSharedStyleAction",
+  "extends": "MSBaseSharedObjectAction",
   "interfaces": [],
   "methods": {
     "detachSharedStyle:": {

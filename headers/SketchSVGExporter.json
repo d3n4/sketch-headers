@@ -156,9 +156,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addDefinitionWithWithName:children:attributes:": {
-      "name": "addDefinitionWithWithName:children:attributes:",
-      "bridgedName": "addDefinitionWithWithName_children_attributes",
+    "addDefinitionWithName:children:attributes:": {
+      "name": "addDefinitionWithName:children:attributes:",
+      "bridgedName": "addDefinitionWithName_children_attributes",
       "args": [
         {
           "name": "name",

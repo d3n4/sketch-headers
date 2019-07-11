@@ -168,6 +168,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "filter:": {
+      "name": "filter:",
+      "bridgedName": "filter",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSLayerFilterBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "sortedArrayByUsingComparator:": {
       "name": "sortedArrayByUsingComparator:",
       "bridgedName": "sortedArrayByUsingComparator",

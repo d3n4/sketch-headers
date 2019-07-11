@@ -6,25 +6,6 @@
     "MSColorConvertible"
   ],
   "methods": {
-    "maintainTextLayerBaselinesForLayers:inBlock:": {
-      "name": "maintainTextLayerBaselinesForLayers:inBlock:",
-      "bridgedName": "maintainTextLayerBaselinesForLayers_inBlock",
-      "args": [
-        {
-          "name": "textLayers",
-          "type": "NSArray *",
-          "nullable": false
-        },
-        {
-          "name": "block",
-          "type": "void (^)(void)",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "layersByConvertingToOutlines": {
       "name": "layersByConvertingToOutlines",
       "bridgedName": "layersByConvertingToOutlines",
@@ -134,6 +115,25 @@
         }
       ],
       "returns": "NSInteger",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "maintainTextLayerBaselinesForLayers:inBlock:": {
+      "name": "maintainTextLayerBaselinesForLayers:inBlock:",
+      "bridgedName": "maintainTextLayerBaselinesForLayers_inBlock",
+      "args": [
+        {
+          "name": "textLayers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -431,13 +431,13 @@
     }
   },
   "properties": {
-    "bezierPath": {
-      "name": "bezierPath",
+    "supportsVerticalAlignment": {
+      "name": "supportsVerticalAlignment",
       "pointer": false,
-      "type": "NSBezierPath ",
+      "type": "BOOL",
       "attributes": [
-        "readonly",
-        "nonatomic"
+        "nonatomic",
+        "readonly"
       ]
     },
     "previousRectCache": {
@@ -517,6 +517,16 @@
       "attributes": [
         "copy",
         "nonatomic"
+      ]
+    },
+    "transientGlyphBoundsValue": {
+      "name": "transientGlyphBoundsValue",
+      "pointer": false,
+      "type": "NSValue ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
       ]
     },
     "textColor": {

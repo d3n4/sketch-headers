@@ -2,30 +2,18 @@
   "name": "MSDefaultLayoutGrid",
   "extends": "MSDefaultArchive",
   "interfaces": [],
-  "methods": {
+  "methods": {},
+  "properties": {
     "defaultLayout": {
       "name": "defaultLayout",
-      "bridgedName": "defaultLayout",
-      "args": [],
-      "returns": "MSLayoutGrid*",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "setDefaultLayout:": {
-      "name": "setDefaultLayout:",
-      "bridgedName": "setDefaultLayout",
-      "args": [
-        {
-          "name": "defaultLayout",
-          "type": "MSLayoutGrid*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
+      "pointer": false,
+      "type": "MSLayoutGrid ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "class"
+      ]
     }
   },
-  "properties": {},
   "generics": []
 }

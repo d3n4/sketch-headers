@@ -283,9 +283,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "updateCursorIfActive": {
-      "name": "updateCursorIfActive",
-      "bridgedName": "updateCursorIfActive",
+    "setNeedsUpdateCursor": {
+      "name": "setNeedsUpdateCursor",
+      "bridgedName": "setNeedsUpdateCursor",
       "args": [],
       "returns": "void",
       "kind": "instance",

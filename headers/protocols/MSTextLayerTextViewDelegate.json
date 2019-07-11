@@ -4,6 +4,20 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "canvasColorSpaceForTextLayerTextView:": {
+      "name": "canvasColorSpaceForTextLayerTextView:",
+      "bridgedName": "canvasColorSpaceForTextLayerTextView",
+      "args": [
+        {
+          "name": "textView",
+          "type": "MSTextLayerTextView *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "documentColorSpaceForTextLayerTextView:": {
       "name": "documentColorSpaceForTextLayerTextView:",
       "bridgedName": "documentColorSpaceForTextLayerTextView",

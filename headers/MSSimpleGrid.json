@@ -18,7 +18,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray *",
+      "returns": "NSArray<MSSnapLine *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -37,7 +37,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray *",
+      "returns": "NSArray<MSSnapLine *> *",
       "kind": "instance",
       "kindIndicator": "-"
     }

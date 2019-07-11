@@ -1,6 +1,6 @@
 {
   "name": "MSLayerMeasurementRenderer",
-  "extends": "NSObject",
+  "extends": "MSOverlayRenderer",
   "interfaces": [],
   "methods": {
     "clear": {
@@ -38,20 +38,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "setNeedsDisplayInRect:": {
-      "name": "setNeedsDisplayInRect:",
-      "bridgedName": "setNeedsDisplayInRect",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "isMeasuringDistance": {
       "name": "isMeasuringDistance",
       "bridgedName": "isMeasuringDistance",
@@ -62,14 +48,6 @@
     }
   },
   "properties": {
-    "isEnabled": {
-      "name": "isEnabled",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
     "selectedLayers": {
       "name": "selectedLayers",
       "pointer": false,
@@ -102,15 +80,6 @@
       "attributes": [
         "nonatomic",
         "null_resettable"
-      ]
-    },
-    "view": {
-      "name": "view",
-      "pointer": false,
-      "type": "MSContentDrawView ",
-      "attributes": [
-        "nonatomic",
-        "weak"
       ]
     }
   },

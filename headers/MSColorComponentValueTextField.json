@@ -1,6 +1,6 @@
 {
   "name": "MSColorComponentValueTextField",
-  "extends": "MSTextFieldKeyEventForwarder",
+  "extends": "MSUpDownTextField",
   "interfaces": [],
   "methods": {},
   "properties": {

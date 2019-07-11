@@ -57,9 +57,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "insertInGroup:atPosition:afterLayer:": {
-      "name": "insertInGroup:atPosition:afterLayer:",
-      "bridgedName": "insertInGroup_atPosition_afterLayer",
+    "insertInGroup:atPosition:afterLayer:viewport:fitToParent:": {
+      "name": "insertInGroup:atPosition:afterLayer:viewport:fitToParent:",
+      "bridgedName": "insertInGroup_atPosition_afterLayer_viewport_fitToParent",
       "args": [
         {
           "name": "group",
@@ -74,6 +74,16 @@
         {
           "name": "afterLayer",
           "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "viewport",
+          "type": "MSPastingViewport *",
+          "nullable": true
+        },
+        {
+          "name": "fitToParent",
+          "type": "BOOL",
           "nullable": false
         }
       ],
@@ -138,10 +148,10 @@
         "strong"
       ]
     },
-    "sharedObjects": {
-      "name": "sharedObjects",
+    "sharedStyles": {
+      "name": "sharedStyles",
       "pointer": false,
-      "type": "NSDictionary ",
+      "type": "NSArray ",
       "attributes": [
         "nonatomic",
         "strong"

@@ -4,10 +4,10 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "documentMultipartSpecs": {
-      "name": "documentMultipartSpecs",
+    "cloudDocumentID": {
+      "name": "cloudDocumentID",
       "pointer": false,
-      "type": "SCKDocumentUploadMultipartSpecs ",
+      "type": "NSString ",
       "attributes": [
         "nonatomic",
         "nullable",

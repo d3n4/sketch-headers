@@ -34,6 +34,28 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "dismissAnyAlertSheet": {
+      "name": "dismissAnyAlertSheet",
+      "bridgedName": "dismissAnyAlertSheet",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "existingPaneWithIdentifier:": {
+      "name": "existingPaneWithIdentifier:",
+      "bridgedName": "existingPaneWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPreferencePane *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

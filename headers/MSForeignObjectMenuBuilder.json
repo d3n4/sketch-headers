@@ -147,8 +147,8 @@
         "copy"
       ]
     },
-    "requiresSymbolSubmenu": {
-      "name": "requiresSymbolSubmenu",
+    "requiresLocalSubmenu": {
+      "name": "requiresLocalSubmenu",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

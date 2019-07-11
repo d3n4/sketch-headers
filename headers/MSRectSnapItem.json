@@ -3,9 +3,9 @@
   "extends": "MSSnapItem",
   "interfaces": [],
   "methods": {
-    "snapperObjectWithRect:layer:": {
-      "name": "snapperObjectWithRect:layer:",
-      "bridgedName": "snapperObjectWithRect_layer",
+    "snapItemWithRect:layer:constrainProportions:": {
+      "name": "snapItemWithRect:layer:constrainProportions:",
+      "bridgedName": "snapItemWithRect_layer_constrainProportions",
       "args": [
         {
           "name": "rect",
@@ -16,6 +16,11 @@
           "name": "layer",
           "type": "MSLayer *",
           "nullable": false
+        },
+        {
+          "name": "constrainProportions",
+          "type": "BOOL",
+          "nullable": false
         }
       ],
       "returns": "instancetype",
@@ -23,25 +28,6 @@
       "kindIndicator": "+"
     }
   },
-  "properties": {
-    "shouldConstrainProportions": {
-      "name": "shouldConstrainProportions",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readwrite"
-      ]
-    },
-    "layersForSnapping": {
-      "name": "layersForSnapping",
-      "pointer": false,
-      "type": "NSArray ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

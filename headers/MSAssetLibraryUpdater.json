@@ -23,7 +23,7 @@
           "nullable": false
         }
       ],
-      "returns": "void",
+      "returns": "NSString *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -78,6 +78,20 @@
           "name": "completionHandler",
           "type": "void (^)(NSURL * _Nullable downloadedURL, NSError * _Nullable error)",
           "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelDownloadTaskWithIdentifier:": {
+      "name": "cancelDownloadTaskWithIdentifier:",
+      "bridgedName": "cancelDownloadTaskWithIdentifier",
+      "args": [
+        {
+          "name": "downloadTaskIdentifier",
+          "type": "NSString *",
+          "nullable": true
         }
       ],
       "returns": "void",

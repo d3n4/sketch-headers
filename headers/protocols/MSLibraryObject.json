@@ -3,22 +3,7 @@
   "name": "MSLibraryObject",
   "extends": null,
   "interfaces": [],
-  "methods": {
-    "symbolWithID:": {
-      "name": "symbolWithID:",
-      "bridgedName": "symbolWithID",
-      "args": [
-        {
-          "name": "symbolID",
-          "type": "NSString*",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable MSSymbolMaster*",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {
     "name": {
       "name": "name",
@@ -35,6 +20,16 @@
       "type": "NSString ",
       "attributes": [
         "nonatomic",
+        "readonly"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
         "readonly"
       ]
     }

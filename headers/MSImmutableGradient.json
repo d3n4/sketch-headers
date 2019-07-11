@@ -55,6 +55,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "newCGGradientForColorSpace:colorConverter:": {
+      "name": "newCGGradientForColorSpace:colorConverter:",
+      "bridgedName": "newCGGradientForColorSpace_colorConverter",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "CGColorSpaceRef",
+          "nullable": false
+        },
+        {
+          "name": "colorConverter",
+          "type": "MSImmutableColor * (^) (MSImmutableColor *color)",
+          "nullable": false
+        }
+      ],
+      "returns": "CGGradientRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "NSGradientWithColorSpace:": {
       "name": "NSGradientWithColorSpace:",
       "bridgedName": "NSGradientWithColorSpace",

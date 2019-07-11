@@ -179,7 +179,7 @@
     "layers": {
       "name": "layers",
       "pointer": false,
-      "type": "NSArray ",
+      "type": "MSLayerArray ",
       "attributes": [
         "nonatomic",
         "copy"
@@ -192,6 +192,15 @@
       "attributes": [
         "nonatomic",
         "strong"
+      ]
+    },
+    "sharedStyleInspectorVisible": {
+      "name": "sharedStyleInspectorVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

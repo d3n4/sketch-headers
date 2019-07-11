@@ -1,7 +1,9 @@
 {
   "name": "MSPath",
   "extends": "NSObject",
-  "interfaces": [],
+  "interfaces": [
+    "NSCopying"
+  ],
   "methods": {
     "booleanOp:withPath:": {
       "name": "booleanOp:withPath:",
@@ -78,6 +80,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "copyWithZone:": {
+      "name": "copyWithZone:",
+      "bridgedName": "copyWithZone",
+      "args": [
+        {
+          "name": "zone",
+          "type": "NSZone *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "pathWithSubPaths:": {
       "name": "pathWithSubPaths:",
       "bridgedName": "pathWithSubPaths",
@@ -113,6 +129,106 @@
         {
           "name": "rect",
           "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathWithCGPath:": {
+      "name": "pathWithCGPath:",
+      "bridgedName": "pathWithCGPath",
+      "args": [
+        {
+          "name": "pathRef",
+          "type": "CGPathRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathWithBezierPath:": {
+      "name": "pathWithBezierPath:",
+      "bridgedName": "pathWithBezierPath",
+      "args": [
+        {
+          "name": "bezierPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathWithLineFrom:to:": {
+      "name": "pathWithLineFrom:to:",
+      "bridgedName": "pathWithLineFrom_to",
+      "args": [
+        {
+          "name": "point1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "point2",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathWithCurveFromPoint:to:controlPoint1:controlPoint2:": {
+      "name": "pathWithCurveFromPoint:to:controlPoint1:controlPoint2:",
+      "bridgedName": "pathWithCurveFromPoint_to_controlPoint1_controlPoint2",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "to",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathWithPoints:pointCount:close:": {
+      "name": "pathWithPoints:pointCount:close:",
+      "bridgedName": "pathWithPoints_pointCount_close",
+      "args": [
+        {
+          "name": "points",
+          "type": "const CGPoint *",
+          "nullable": false
+        },
+        {
+          "name": "pointCount",
+          "type": "int",
+          "nullable": false
+        },
+        {
+          "name": "close",
+          "type": "BOOL",
           "nullable": false
         }
       ],
@@ -200,6 +316,78 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "initWithLineFrom:to:": {
+      "name": "initWithLineFrom:to:",
+      "bridgedName": "initWithLineFrom_to",
+      "args": [
+        {
+          "name": "point1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "point2",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCurveFromPoint:to:controlPoint1:controlPoint2:": {
+      "name": "initWithCurveFromPoint:to:controlPoint1:controlPoint2:",
+      "bridgedName": "initWithCurveFromPoint_to_controlPoint1_controlPoint2",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "to",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithPoints:pointCount:close:": {
+      "name": "initWithPoints:pointCount:close:",
+      "bridgedName": "initWithPoints_pointCount_close",
+      "args": [
+        {
+          "name": "points",
+          "type": "const CGPoint *",
+          "nullable": false
+        },
+        {
+          "name": "pointCount",
+          "type": "int",
+          "nullable": false
+        },
+        {
+          "name": "close",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "initWithBezierPath:": {
       "name": "initWithBezierPath:",
       "bridgedName": "initWithBezierPath",
@@ -228,6 +416,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "transformedPathUsingMapBlock:": {
+      "name": "transformedPathUsingMapBlock:",
+      "bridgedName": "transformedPathUsingMapBlock",
+      "args": [
+        {
+          "name": "map",
+          "type": "CGPoint (^)(CGPoint point)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "pathWithInset:": {
       "name": "pathWithInset:",
       "bridgedName": "pathWithInset",
@@ -242,11 +444,251 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "pathWithInset:joinStrategy:": {
+      "name": "pathWithInset:joinStrategy:",
+      "bridgedName": "pathWithInset_joinStrategy",
+      "args": [
+        {
+          "name": "inset",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "strategy",
+          "type": "MSBezierJoinStrategy",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outlinePathWithWidth:": {
+      "name": "outlinePathWithWidth:",
+      "bridgedName": "outlinePathWithWidth",
+      "args": [
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathByRemovingSubsequentMoveToComponents": {
+      "name": "pathByRemovingSubsequentMoveToComponents",
+      "bridgedName": "pathByRemovingSubsequentMoveToComponents",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathByCuttingBeforeIndex:": {
+      "name": "pathByCuttingBeforeIndex:",
+      "bridgedName": "pathByCuttingBeforeIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathByScalingToBounds:": {
+      "name": "pathByScalingToBounds:",
+      "bridgedName": "pathByScalingToBounds",
+      "args": [
+        {
+          "name": "bounds",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "reversedPath": {
       "name": "reversedPath",
       "bridgedName": "reversedPath",
       "args": [],
       "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathByJoiningWithPath:": {
+      "name": "pathByJoiningWithPath:",
+      "bridgedName": "pathByJoiningWithPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subPaths": {
+      "name": "subPaths",
+      "bridgedName": "subPaths",
+      "args": [],
+      "returns": "NSArray<MSPath *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointAtIndex:": {
+      "name": "pointAtIndex:",
+      "bridgedName": "pointAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointOnPathAtLength:": {
+      "name": "pointOnPathAtLength:",
+      "bridgedName": "pointOnPathAtLength",
+      "args": [
+        {
+          "name": "length",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "length": {
+      "name": "length",
+      "bridgedName": "length",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startPoint": {
+      "name": "startPoint",
+      "bridgedName": "startPoint",
+      "args": [],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endPoint": {
+      "name": "endPoint",
+      "bridgedName": "endPoint",
+      "args": [],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierIndexForPoint:": {
+      "name": "bezierIndexForPoint:",
+      "bridgedName": "bezierIndexForPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsPoint:": {
+      "name": "containsPoint:",
+      "bridgedName": "containsPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isClosed": {
+      "name": "isClosed",
+      "bridgedName": "isClosed",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointsInRect:": {
+      "name": "pointsInRect:",
+      "bridgedName": "pointsInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSCurvePoint *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "elementAtIndex:": {
+      "name": "elementAtIndex:",
+      "bridgedName": "elementAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "MSCGPathElement",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqualToPath:": {
+      "name": "isEqualToPath:",
+      "bridgedName": "isEqualToPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqualToPath:epsilon:": {
+      "name": "isEqualToPath:epsilon:",
+      "bridgedName": "isEqualToPath_epsilon",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "epsilon",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },

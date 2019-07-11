@@ -22,16 +22,10 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "contentDirtyDiffRectWithCache:": {
-      "name": "contentDirtyDiffRectWithCache:",
-      "bridgedName": "contentDirtyDiffRectWithCache",
-      "args": [
-        {
-          "name": "cache",
-          "type": "BCCache *",
-          "nullable": false
-        }
-      ],
+    "contentDirtyDiffRect": {
+      "name": "contentDirtyDiffRect",
+      "bridgedName": "contentDirtyDiffRect",
+      "args": [],
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"

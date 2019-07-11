@@ -2,30 +2,18 @@
   "name": "MSDefaultStyle",
   "extends": "MSDefaultArchive",
   "interfaces": [],
-  "methods": {
+  "methods": {},
+  "properties": {
     "defaultStyle": {
       "name": "defaultStyle",
-      "bridgedName": "defaultStyle",
-      "args": [],
-      "returns": "MSStyle*",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "setDefaultStyle:": {
-      "name": "setDefaultStyle:",
-      "bridgedName": "setDefaultStyle",
-      "args": [
-        {
-          "name": "defaultStyle",
-          "type": "MSStyle*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
+      "pointer": false,
+      "type": "MSStyle ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "class"
+      ]
     }
   },
-  "properties": {},
   "generics": []
 }

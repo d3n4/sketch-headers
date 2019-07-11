@@ -48,6 +48,25 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "colorWithWhite:alpha:": {
+      "name": "colorWithWhite:alpha:",
+      "bridgedName": "colorWithWhite_alpha",
+      "args": [
+        {
+          "name": "white",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "colorWithIntegerRed:green:blue:": {
       "name": "colorWithIntegerRed:green:blue:",
       "bridgedName": "colorWithIntegerRed_green_blue",
@@ -225,6 +244,14 @@
     "isBlack": {
       "name": "isBlack",
       "bridgedName": "isBlack",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isGrayscale": {
+      "name": "isGrayscale",
+      "bridgedName": "isGrayscale",
       "args": [],
       "returns": "BOOL",
       "kind": "instance",

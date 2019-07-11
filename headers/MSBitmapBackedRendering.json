@@ -14,7 +14,7 @@
         },
         {
           "name": "context",
-          "type": "MSRenderingContext *",
+          "type": "MSRenderingContextCG *",
           "nullable": false
         }
       ],

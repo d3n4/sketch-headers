@@ -47,6 +47,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "updateInstances:preservingOverridesInBlock:": {
+      "name": "updateInstances:preservingOverridesInBlock:",
+      "bridgedName": "updateInstances_preservingOverridesInBlock",
+      "args": [
+        {
+          "name": "instances",
+          "type": "NSSet<MSSymbolInstance *> *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "numberOfVisibleCells": {
       "name": "numberOfVisibleCells",
       "bridgedName": "numberOfVisibleCells",

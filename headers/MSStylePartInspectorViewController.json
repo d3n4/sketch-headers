@@ -56,6 +56,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "supportedActionsForLayers:": {
+      "name": "supportedActionsForLayers:",
+      "bridgedName": "supportedActionsForLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSMultipleStylePartInspectorAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "closePopover": {
       "name": "closePopover",
       "bridgedName": "closePopover",

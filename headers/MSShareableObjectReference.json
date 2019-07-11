@@ -12,7 +12,7 @@
       "args": [
         {
           "name": "object",
-          "type": "MSShareableObject *",
+          "type": "MSModelObject *",
           "nullable": false
         }
       ],
@@ -26,7 +26,7 @@
       "args": [
         {
           "name": "object",
-          "type": "MSShareableObject *",
+          "type": "MSModelObject *",
           "nullable": false
         },
         {
@@ -38,6 +38,20 @@
       "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "foreignObjectCollectionInDocument:": {
+      "name": "foreignObjectCollectionInDocument:",
+      "bridgedName": "foreignObjectCollectionInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSForeignObject *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -55,6 +69,24 @@
       "name": "shareableObject",
       "pointer": false,
       "type": "MSShareableObject ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shareableObjectType": {
+      "name": "shareableObjectType",
+      "pointer": false,
+      "type": "MSShareableObjectType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedObjectID": {
+      "name": "sharedObjectID",
+      "pointer": false,
+      "type": "NSString ",
       "attributes": [
         "nonatomic",
         "readonly"

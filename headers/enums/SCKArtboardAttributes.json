@@ -29,6 +29,18 @@
     {
       "name": "SCKArtboardFilesAttribute",
       "value": "1 << 5"
+    },
+    {
+      "name": "SCKArtboardLayersAttribute",
+      "value": "1 << 6"
+    },
+    {
+      "name": "SCKArtboardIsFlowHomeAttribute",
+      "value": "1 << 7"
+    },
+    {
+      "name": "SCKArtboardViewportAttribute",
+      "value": "1 << 8"
     }
   ]
 }

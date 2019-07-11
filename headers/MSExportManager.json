@@ -3,28 +3,6 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "init NS_UNAVAILABLE": {
-      "name": "init NS_UNAVAILABLE",
-      "bridgedName": "init NS_UNAVAILABLE",
-      "args": [],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "initWithColorSpace:": {
-      "name": "initWithColorSpace:",
-      "bridgedName": "initWithColorSpace",
-      "args": [
-        {
-          "name": "colorSpace",
-          "type": "NSColorSpace *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "exportedDataForRequest:": {
       "name": "exportedDataForRequest:",
       "bridgedName": "exportedDataForRequest",

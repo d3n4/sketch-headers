@@ -3,6 +3,34 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
+    "addTarget:": {
+      "name": "addTarget:",
+      "bridgedName": "addTarget",
+      "args": [
+        {
+          "name": "target",
+          "type": "MSSnappingTarget *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargetAtPoint:": {
+      "name": "addTargetAtPoint:",
+      "bridgedName": "addTargetAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "snapPoint:inLayer:": {
       "name": "snapPoint:inLayer:",
       "bridgedName": "snapPoint_inLayer",
@@ -22,28 +50,28 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "shapePointTargetsWithContext:excludingPointsAtIndexPaths:": {
-      "name": "shapePointTargetsWithContext:excludingPointsAtIndexPaths:",
-      "bridgedName": "shapePointTargetsWithContext_excludingPointsAtIndexPaths",
+    "alignResult:toPoint:": {
+      "name": "alignResult:toPoint:",
+      "bridgedName": "alignResult_toPoint",
       "args": [
         {
-          "name": "context",
-          "type": "MSShapeChangeContext *",
+          "name": "previousResult",
+          "type": "MSPointSnappingResult *",
           "nullable": false
         },
         {
-          "name": "excludedPoints",
-          "type": "NSArray<NSIndexPath *> *",
-          "nullable": true
+          "name": "alignedPoint",
+          "type": "NSPoint",
+          "nullable": false
         }
       ],
-      "returns": "NSArray<MSPointSnappingTarget *> *",
+      "returns": "NSPoint",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "targetsForMidpointsOfLayers:": {
-      "name": "targetsForMidpointsOfLayers:",
-      "bridgedName": "targetsForMidpointsOfLayers",
+    "addTargetsForMidpointsOfLayers:": {
+      "name": "addTargetsForMidpointsOfLayers:",
+      "bridgedName": "addTargetsForMidpointsOfLayers",
       "args": [
         {
           "name": "layers",
@@ -51,7 +79,21 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray<MSPointSnappingTarget *> *",
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargetsForSnappingToMidpointOfLayer:": {
+      "name": "addTargetsForSnappingToMidpointOfLayer:",
+      "bridgedName": "addTargetsForSnappingToMidpointOfLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "nonnull MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -71,8 +113,8 @@
     }
   },
   "properties": {
-    "snapThreshold": {
-      "name": "snapThreshold",
+    "snapDistance": {
+      "name": "snapDistance",
       "pointer": false,
       "type": "CGFloat",
       "attributes": [
@@ -90,7 +132,7 @@
     "snapTargets": {
       "name": "snapTargets",
       "pointer": false,
-      "type": "NSArray<MSPointSnappingTarget *> ",
+      "type": "NSArray<MSSnappingTarget *> ",
       "attributes": [
         "nonatomic",
         "copy"
@@ -99,7 +141,7 @@
     "rulerGuideTargets": {
       "name": "rulerGuideTargets",
       "pointer": false,
-      "type": "NSArray<MSPointSnappingTarget *> ",
+      "type": "NSArray<MSSnappingTarget *> ",
       "attributes": [
         "nonatomic",
         "copy"

@@ -2,50 +2,7 @@
   "name": "MSImmutableShapePathLayer",
   "extends": "_MSImmutableShapePathLayer",
   "interfaces": [],
-  "methods": {
-    "bezierPathInRect:": {
-      "name": "bezierPathInRect:",
-      "bridgedName": "bezierPathInRect",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathWithoutTransformsInRect:": {
-      "name": "bezierPathWithoutTransformsInRect:",
-      "bridgedName": "bezierPathWithoutTransformsInRect",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "pathInRect:": {
-      "name": "pathInRect:",
-      "bridgedName": "pathInRect",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "MSPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {
     "isEditing": {
       "name": "isEditing",

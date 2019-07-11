@@ -107,8 +107,37 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "addSVGAttributes:exporter:": {
+      "name": "addSVGAttributes:exporter:",
+      "bridgedName": "addSVGAttributes_exporter",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "borderInset": {
+      "name": "borderInset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

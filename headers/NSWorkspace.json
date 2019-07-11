@@ -51,6 +51,20 @@
       "returns": "NSString *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "openCloudURLByAuthenticating:": {
+      "name": "openCloudURLByAuthenticating:",
+      "bridgedName": "openCloudURLByAuthenticating",
+      "args": [
+        {
+          "name": "url",
+          "type": "nonnull NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

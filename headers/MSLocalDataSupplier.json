@@ -93,6 +93,15 @@
         "nonatomic",
         "weak"
       ]
+    },
+    "isBuiltin": {
+      "name": "isBuiltin",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

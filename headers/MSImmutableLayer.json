@@ -58,9 +58,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "absoluteInfluenceRectForAncestorGroups:document:cache:": {
-      "name": "absoluteInfluenceRectForAncestorGroups:document:cache:",
-      "bridgedName": "absoluteInfluenceRectForAncestorGroups_document_cache",
+    "absoluteInfluenceRectForAncestorGroups:document:": {
+      "name": "absoluteInfluenceRectForAncestorGroups:document:",
+      "bridgedName": "absoluteInfluenceRectForAncestorGroups_document",
       "args": [
         {
           "name": "ancestors",
@@ -71,10 +71,19 @@
           "name": "doc",
           "type": "MSImmutableDocumentData *",
           "nullable": false
-        },
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForFrameInDocument:": {
+      "name": "influenceRectForFrameInDocument:",
+      "bridgedName": "influenceRectForFrameInDocument",
+      "args": [
         {
-          "name": "cache",
-          "type": "BCCache *",
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
           "nullable": false
         }
       ],
@@ -82,57 +91,28 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "influenceRectForFrameInDocument:cache:": {
-      "name": "influenceRectForFrameInDocument:cache:",
-      "bridgedName": "influenceRectForFrameInDocument_cache",
+    "influenceRectForBoundsInDocument:": {
+      "name": "influenceRectForBoundsInDocument:",
+      "bridgedName": "influenceRectForBoundsInDocument",
       "args": [
         {
           "name": "doc",
           "type": "MSImmutableDocumentData *",
           "nullable": false
-        },
-        {
-          "name": "cache",
-          "type": "BCCache *",
-          "nullable": true
         }
       ],
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "influenceRectForBoundsInDocument:cache:": {
-      "name": "influenceRectForBoundsInDocument:cache:",
-      "bridgedName": "influenceRectForBoundsInDocument_cache",
+    "influenceRectForFrameInDocument:visitedSymbols:": {
+      "name": "influenceRectForFrameInDocument:visitedSymbols:",
+      "bridgedName": "influenceRectForFrameInDocument_visitedSymbols",
       "args": [
         {
           "name": "doc",
           "type": "MSImmutableDocumentData *",
           "nullable": false
-        },
-        {
-          "name": "cache",
-          "type": "BCCache *",
-          "nullable": true
-        }
-      ],
-      "returns": "NSRect",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "influenceRectForFrameInDocument:cache:visitedSymbols:": {
-      "name": "influenceRectForFrameInDocument:cache:visitedSymbols:",
-      "bridgedName": "influenceRectForFrameInDocument_cache_visitedSymbols",
-      "args": [
-        {
-          "name": "doc",
-          "type": "MSImmutableDocumentData *",
-          "nullable": false
-        },
-        {
-          "name": "cache",
-          "type": "BCCache *",
-          "nullable": true
         },
         {
           "name": "visitedSymbols",
@@ -144,19 +124,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "influenceRectForBoundsInDocument:cache:visitedSymbols:": {
-      "name": "influenceRectForBoundsInDocument:cache:visitedSymbols:",
-      "bridgedName": "influenceRectForBoundsInDocument_cache_visitedSymbols",
+    "influenceRectForBoundsInDocument:visitedSymbols:": {
+      "name": "influenceRectForBoundsInDocument:visitedSymbols:",
+      "bridgedName": "influenceRectForBoundsInDocument_visitedSymbols",
       "args": [
         {
           "name": "doc",
           "type": "MSImmutableDocumentData *",
           "nullable": false
-        },
-        {
-          "name": "cache",
-          "type": "BCCache *",
-          "nullable": true
         },
         {
           "name": "visitedSymbols",
@@ -168,19 +143,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "calculateInfluenceRectForBoundsInDocument:cache:visitedSymbols:": {
-      "name": "calculateInfluenceRectForBoundsInDocument:cache:visitedSymbols:",
-      "bridgedName": "calculateInfluenceRectForBoundsInDocument_cache_visitedSymbols",
+    "calculateInfluenceRectForBoundsInDocument:visitedSymbols:": {
+      "name": "calculateInfluenceRectForBoundsInDocument:visitedSymbols:",
+      "bridgedName": "calculateInfluenceRectForBoundsInDocument_visitedSymbols",
       "args": [
         {
           "name": "doc",
           "type": "MSImmutableDocumentData *",
           "nullable": false
-        },
-        {
-          "name": "cache",
-          "type": "BCCache *",
-          "nullable": true
         },
         {
           "name": "visitedSymbols",
@@ -216,7 +186,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSBezierPath *",
+      "returns": "MSPath *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -239,6 +209,14 @@
       "bridgedName": "canSkipAdvancedClipForStrokes",
       "args": [],
       "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculateInfluenceRectForBounds": {
+      "name": "calculateInfluenceRectForBounds",
+      "bridgedName": "calculateInfluenceRectForBounds",
+      "args": [],
+      "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -488,6 +466,25 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "addSVGAttributes:exporter:": {
+      "name": "addSVGAttributes:exporter:",
+      "bridgedName": "addSVGAttributes_exporter",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -559,15 +556,6 @@
       "name": "isLayerExportable",
       "pointer": false,
       "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "influenceRectForBounds": {
-      "name": "influenceRectForBounds",
-      "pointer": false,
-      "type": "NSRect",
       "attributes": [
         "nonatomic",
         "readonly"

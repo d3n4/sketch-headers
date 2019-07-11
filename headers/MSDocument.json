@@ -204,9 +204,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "changeToImmutableDocumentData:pageChanged:": {
-      "name": "changeToImmutableDocumentData:pageChanged:",
-      "bridgedName": "changeToImmutableDocumentData_pageChanged",
+    "changeToImmutableDocumentData:selecting:onPage:": {
+      "name": "changeToImmutableDocumentData:selecting:onPage:",
+      "bridgedName": "changeToImmutableDocumentData_selecting_onPage",
       "args": [
         {
           "name": "documentData",
@@ -214,8 +214,13 @@
           "nullable": false
         },
         {
-          "name": "pageChanged",
-          "type": "BOOL",
+          "name": "selection",
+          "type": "NSSet *",
+          "nullable": false
+        },
+        {
+          "name": "pageID",
+          "type": "NSString *",
           "nullable": false
         }
       ],
@@ -580,14 +585,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "logBuggyBezierPaths": {
-      "name": "logBuggyBezierPaths",
-      "bridgedName": "logBuggyBezierPaths",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "debugCountObjects:": {
       "name": "debugCountObjects:",
       "bridgedName": "debugCountObjects",
@@ -630,6 +627,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "isShowingMeasurements": {
+      "name": "isShowingMeasurements",
+      "bridgedName": "isShowingMeasurements",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "visitArtboardForInstance:": {
       "name": "visitArtboardForInstance:",
       "bridgedName": "visitArtboardForInstance",
@@ -644,24 +649,19 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "openForeignSymbol:inLibrary:": {
-      "name": "openForeignSymbol:inLibrary:",
-      "bridgedName": "openForeignSymbol_inLibrary",
+    "openLibrariesForForeignObjects:": {
+      "name": "openLibrariesForForeignObjects:",
+      "bridgedName": "openLibrariesForForeignObjects",
       "args": [
         {
-          "name": "symbol",
-          "type": "MSForeignSymbol*",
-          "nullable": false
-        },
-        {
-          "name": "library",
-          "type": "MSAssetLibrary*",
+          "name": "objects",
+          "type": "NSArray<MSForeignObject *> *",
           "nullable": false
         }
       ],
       "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
+      "kind": "instance",
+      "kindIndicator": "-"
     },
     "restoreViewportAfterArtboardEdit:": {
       "name": "restoreViewportAfterArtboardEdit:",
@@ -727,22 +727,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "localSymbolForSymbol:inLibrary:": {
-      "name": "localSymbolForSymbol:inLibrary:",
-      "bridgedName": "localSymbolForSymbol_inLibrary",
+    "localObjectForObjectReference:": {
+      "name": "localObjectForObjectReference:",
+      "bridgedName": "localObjectForObjectReference",
       "args": [
         {
-          "name": "symbol",
-          "type": "MSSymbolMaster*",
-          "nullable": false
-        },
-        {
-          "name": "library",
-          "type": "MSAssetLibrary*",
+          "name": "ref",
+          "type": "MSShareableObjectReference*",
           "nullable": false
         }
       ],
-      "returns": "MSSymbolMaster*",
+      "returns": "__kindof MSShareableObject*",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -763,6 +758,14 @@
     "showNonDefaultColorSpaceWarningIfApplicable": {
       "name": "showNonDefaultColorSpaceWarningIfApplicable",
       "bridgedName": "showNonDefaultColorSpaceWarningIfApplicable",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installedFontsDidChange": {
+      "name": "installedFontsDidChange",
+      "bridgedName": "installedFontsDidChange",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -1034,15 +1037,6 @@
       "type": "CGFloat",
       "attributes": [
         "nonatomic"
-      ]
-    },
-    "oldDocumentVersionWarning": {
-      "name": "oldDocumentVersionWarning",
-      "pointer": false,
-      "type": "id",
-      "attributes": [
-        "nonatomic",
-        "strong"
       ]
     },
     "colorSpaceMismatchWarning": {

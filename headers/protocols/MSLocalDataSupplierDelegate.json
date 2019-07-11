@@ -17,6 +17,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "isBuiltinDataSupplier:": {
+      "name": "isBuiltinDataSupplier:",
+      "bridgedName": "isBuiltinDataSupplier",
+      "args": [
+        {
+          "name": "localDataSupplier",
+          "type": "MSLocalDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {}

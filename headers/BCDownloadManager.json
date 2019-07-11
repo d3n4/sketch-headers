@@ -145,6 +145,20 @@
       "returns": "nullable NSDictionary <NSString *, NSNumber *> *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "cancelTaskWithIdentifier:": {
+      "name": "cancelTaskWithIdentifier:",
+      "bridgedName": "cancelTaskWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

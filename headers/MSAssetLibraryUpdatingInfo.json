@@ -57,6 +57,20 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "isHigherVersionThan:": {
+      "name": "isHigherVersionThan:",
+      "bridgedName": "isHigherVersionThan",
+      "args": [
+        {
+          "name": "otherVersion",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -113,6 +127,16 @@
       "attributes": [
         "nonatomic",
         "strong",
+        "nullable"
+      ]
+    },
+    "downloadTaskIdentifier": {
+      "name": "downloadTaskIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
         "nullable"
       ]
     },

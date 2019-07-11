@@ -153,6 +153,20 @@
       "returns": "NSAttributedString *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "translatedToColorSpace:)": {
+      "name": "translatedToColorSpace:)",
+      "bridgedName": "translatedToColorSpace_)",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAttributedString *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

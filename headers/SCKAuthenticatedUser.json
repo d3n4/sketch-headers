@@ -32,19 +32,66 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "logoutWithError:": {
+      "name": "logoutWithError:",
+      "bridgedName": "logoutWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "logout": {
       "name": "logout",
       "bridgedName": "logout",
       "args": [],
-      "returns": "void",
+      "returns": "BOOL",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "loginWithError:": {
+      "name": "loginWithError:",
+      "bridgedName": "loginWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     },
     "login": {
       "name": "login",
       "bridgedName": "login",
       "args": [],
-      "returns": "void",
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loginToEnvironment:error:": {
+      "name": "loginToEnvironment:error:",
+      "bridgedName": "loginToEnvironment_error",
+      "args": [
+        {
+          "name": "environment",
+          "type": "nonnull SCKEnvironment *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -58,7 +105,7 @@
           "nullable": false
         }
       ],
-      "returns": "void",
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     }

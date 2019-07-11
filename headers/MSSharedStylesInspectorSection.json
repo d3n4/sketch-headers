@@ -20,20 +20,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "syncOrResetSharedStyleAction:": {
-      "name": "syncOrResetSharedStyleAction:",
-      "bridgedName": "syncOrResetSharedStyleAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "beginRenameSharedObject:completionBlock:": {
       "name": "beginRenameSharedObject:completionBlock:",
       "bridgedName": "beginRenameSharedObject_completionBlock",
@@ -93,15 +79,6 @@
       "name": "editNameField",
       "pointer": false,
       "type": "IBOutlet NSTextField ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "syncOrResetButton": {
-      "name": "syncOrResetButton",
-      "pointer": false,
-      "type": "IBOutlet NSButton ",
       "attributes": [
         "nonatomic",
         "strong"

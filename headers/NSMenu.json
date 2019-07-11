@@ -239,14 +239,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "isInMainMenu": {
-      "name": "isInMainMenu",
-      "bridgedName": "isInMainMenu",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "addItemsFromArray:": {
       "name": "addItemsFromArray:",
       "bridgedName": "addItemsFromArray",
@@ -367,6 +359,25 @@
       "kindIndicator": "+"
     }
   },
-  "properties": {},
+  "properties": {
+    "isInMainMenu": {
+      "name": "isInMainMenu",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isDarkMode_ms": {
+      "name": "isDarkMode_ms",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

@@ -134,7 +134,7 @@
     "layers": {
       "name": "layers",
       "pointer": false,
-      "type": "NSArray ",
+      "type": "MSLayerArray ",
       "attributes": [
         "nonatomic",
         "copy"

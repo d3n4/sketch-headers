@@ -1,8 +1,0 @@
-{
-  "name": "MSDummyDocument",
-  "extends": "NSDocument",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

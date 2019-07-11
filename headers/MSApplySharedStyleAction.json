@@ -1,6 +1,6 @@
 {
   "name": "MSApplySharedStyleAction",
-  "extends": "MSBaseSharedStyleAction",
+  "extends": "MSDocumentAction",
   "interfaces": [],
   "methods": {},
   "properties": {},

@@ -212,12 +212,12 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "selectInstalledLibrary:": {
-      "name": "selectInstalledLibrary:",
-      "bridgedName": "selectInstalledLibrary",
+    "displayDuplicateAlertSheetForRemoteAssetLibrary:": {
+      "name": "displayDuplicateAlertSheetForRemoteAssetLibrary:",
+      "bridgedName": "displayDuplicateAlertSheetForRemoteAssetLibrary",
       "args": [
         {
-          "name": "remoteLibrary",
+          "name": "remoteAssetLibrary",
           "type": "MSRemoteAssetLibrary *",
           "nullable": false
         }
@@ -494,7 +494,7 @@
       "type": "MSDataMenuProvider ",
       "attributes": [
         "nonatomic",
-        "strong"
+        "readonly"
       ]
     },
     "dataSupplierManager": {

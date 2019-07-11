@@ -3,23 +3,13 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "initWithTextColor:colorSpace:ranges:": {
-      "name": "initWithTextColor:colorSpace:ranges:",
-      "bridgedName": "initWithTextColor_colorSpace_ranges",
+    "initWithColor:": {
+      "name": "initWithColor:",
+      "bridgedName": "initWithColor",
       "args": [
         {
-          "name": "textColor",
-          "type": "MSImmutableColor *",
-          "nullable": false
-        },
-        {
-          "name": "colorSpace",
-          "type": "NSColorSpace *",
-          "nullable": false
-        },
-        {
-          "name": "ranges",
-          "type": "NSArray<NSValue *> *",
+          "name": "color",
+          "type": "NSColor *",
           "nullable": false
         }
       ],
@@ -29,15 +19,6 @@
     }
   },
   "properties": {
-    "textColor": {
-      "name": "textColor",
-      "pointer": false,
-      "type": "MSImmutableColor ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "color": {
       "name": "color",
       "pointer": false,
@@ -45,25 +26,6 @@
       "attributes": [
         "nonatomic",
         "readonly"
-      ]
-    },
-    "colorSpace": {
-      "name": "colorSpace",
-      "pointer": false,
-      "type": "NSColorSpace ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "ranges": {
-      "name": "ranges",
-      "pointer": false,
-      "type": "NSArray<NSValue *> ",
-      "attributes": [
-        "nonatomic",
-        "readonly",
-        "copy"
       ]
     }
   },

@@ -302,6 +302,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "sortedArrayUsingKey:selector:": {
+      "name": "sortedArrayUsingKey:selector:",
+      "bridgedName": "sortedArrayUsingKey_selector",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "shuffledArray": {
       "name": "shuffledArray",
       "bridgedName": "shuffledArray",

@@ -58,6 +58,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "contourWithInset:joinStrategy:": {
+      "name": "contourWithInset:joinStrategy:",
+      "bridgedName": "contourWithInset_joinStrategy",
+      "args": [
+        {
+          "name": "inset",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "strategy",
+          "type": "MSBezierJoinStrategy",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "segmentBefore:": {
       "name": "segmentBefore:",
       "bridgedName": "segmentBefore",

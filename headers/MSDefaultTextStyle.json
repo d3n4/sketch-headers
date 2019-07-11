@@ -3,14 +3,6 @@
   "extends": "MSDefaultArchive",
   "interfaces": [],
   "methods": {
-    "defaultTextStyle": {
-      "name": "defaultTextStyle",
-      "bridgedName": "defaultTextStyle",
-      "args": [],
-      "returns": "NSDictionary *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "recordTextStyleForLayer:": {
       "name": "recordTextStyleForLayer:",
       "bridgedName": "recordTextStyleForLayer",
@@ -24,22 +16,19 @@
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "setDefaultTextStyle:": {
-      "name": "setDefaultTextStyle:",
-      "bridgedName": "setDefaultTextStyle",
-      "args": [
-        {
-          "name": "textStyle",
-          "type": "NSDictionary *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
     }
   },
-  "properties": {},
+  "properties": {
+    "defaultTextStyle": {
+      "name": "defaultTextStyle",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "class"
+      ]
+    }
+  },
   "generics": []
 }

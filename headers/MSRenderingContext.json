@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "initWithName:driver:context:renderingRequest:": {
-      "name": "initWithName:driver:context:renderingRequest:",
-      "bridgedName": "initWithName_driver_context_renderingRequest",
+    "initWithName:driver:renderingRequest:": {
+      "name": "initWithName:driver:renderingRequest:",
+      "bridgedName": "initWithName_driver_renderingRequest",
       "args": [
         {
           "name": "name",
@@ -18,100 +18,8 @@
           "nullable": false
         },
         {
-          "name": "cgContext",
-          "type": "CGContextRef",
-          "nullable": false
-        },
-        {
           "name": "renderingRequest",
           "type": "MSRenderingRequest *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "initWithName:driver:cgContext:contextIsVectorBacked:renderingRequest:": {
-      "name": "initWithName:driver:cgContext:contextIsVectorBacked:renderingRequest:",
-      "bridgedName": "initWithName_driver_cgContext_contextIsVectorBacked_renderingRequest",
-      "args": [
-        {
-          "name": "name",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "driver",
-          "type": "MSRenderingDriver *",
-          "nullable": false
-        },
-        {
-          "name": "cgContext",
-          "type": "CGContextRef",
-          "nullable": false
-        },
-        {
-          "name": "vectorBacked",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "renderingRequest",
-          "type": "MSRenderingRequest *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "subContextWithDefaultSettingsForCGContext:contextIsVectorBacked:renderingRequest:": {
-      "name": "subContextWithDefaultSettingsForCGContext:contextIsVectorBacked:renderingRequest:",
-      "bridgedName": "subContextWithDefaultSettingsForCGContext_contextIsVectorBacked_renderingRequest",
-      "args": [
-        {
-          "name": "cgContext",
-          "type": "CGContextRef",
-          "nullable": false
-        },
-        {
-          "name": "vectorBacked",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "renderingRequest",
-          "type": "MSRenderingRequest *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "blurSubContextWithCGContext:backgroundBlurLayer:pointScale:rect:": {
-      "name": "blurSubContextWithCGContext:backgroundBlurLayer:pointScale:rect:",
-      "bridgedName": "blurSubContextWithCGContext_backgroundBlurLayer_pointScale_rect",
-      "args": [
-        {
-          "name": "cgContext",
-          "type": "CGContextRef",
-          "nullable": false
-        },
-        {
-          "name": "layer",
-          "type": "MSImmutableLayer *",
-          "nullable": true
-        },
-        {
-          "name": "pointScale",
-          "type": "CGFloat",
-          "nullable": false
-        },
-        {
-          "name": "rect",
-          "type": "CGRect",
           "nullable": false
         }
       ],
@@ -153,6 +61,36 @@
           "nullable": false
         }
       ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderInBlock:": {
+      "name": "renderInBlock:",
+      "bridgedName": "renderInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setUp": {
+      "name": "setUp",
+      "bridgedName": "setUp",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tearDown": {
+      "name": "tearDown",
+      "bridgedName": "tearDown",
+      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -371,6 +309,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "beginTransparencyLayer": {
+      "name": "beginTransparencyLayer",
+      "bridgedName": "beginTransparencyLayer",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "endTransparencyLayer:": {
       "name": "endTransparencyLayer:",
       "bridgedName": "endTransparencyLayer",
@@ -513,123 +459,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "ifCondition:skipDrawingFillsInBlock:": {
-      "name": "ifCondition:skipDrawingFillsInBlock:",
-      "bridgedName": "ifCondition_skipDrawingFillsInBlock",
+    "clipToRect:": {
+      "name": "clipToRect:",
+      "bridgedName": "clipToRect",
       "args": [
         {
-          "name": "condition",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "block",
-          "type": "BCVoidBlock",
+          "name": "rect",
+          "type": "CGRect",
           "nullable": false
         }
       ],
       "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "shouldDrawFills": {
-      "name": "shouldDrawFills",
-      "bridgedName": "shouldDrawFills",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "doNotClipFillsInBlock:": {
-      "name": "doNotClipFillsInBlock:",
-      "bridgedName": "doNotClipFillsInBlock",
-      "args": [
-        {
-          "name": "block",
-          "type": "BCVoidBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "shouldClipFills": {
-      "name": "shouldClipFills",
-      "bridgedName": "shouldClipFills",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "allowsSubpixelQuantization": {
-      "name": "allowsSubpixelQuantization",
-      "bridgedName": "allowsSubpixelQuantization",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "shouldDisableSubpixelQuantization": {
-      "name": "shouldDisableSubpixelQuantization",
-      "bridgedName": "shouldDisableSubpixelQuantization",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "canDrawSymbolMasterWithoutRiskingRecursion:": {
-      "name": "canDrawSymbolMasterWithoutRiskingRecursion:",
-      "bridgedName": "canDrawSymbolMasterWithoutRiskingRecursion",
-      "args": [
-        {
-          "name": "master",
-          "type": "MSImmutableSymbolMaster *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "isDrawingSymbol": {
-      "name": "isDrawingSymbol",
-      "bridgedName": "isDrawingSymbol",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "drawSymbolMaster:inBlock:": {
-      "name": "drawSymbolMaster:inBlock:",
-      "bridgedName": "drawSymbolMaster_inBlock",
-      "args": [
-        {
-          "name": "master",
-          "type": "MSImmutableSymbolMaster *",
-          "nullable": false
-        },
-        {
-          "name": "block",
-          "type": "BCVoidBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "shouldSkipDrawingShadow:": {
-      "name": "shouldSkipDrawingShadow:",
-      "bridgedName": "shouldSkipDrawingShadow",
-      "args": [
-        {
-          "name": "shadow",
-          "type": "MSImmutableStyleShadow *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -661,13 +501,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "clipToRect:": {
-      "name": "clipToRect:",
-      "bridgedName": "clipToRect",
+    "applyShadow:": {
+      "name": "applyShadow:",
+      "bridgedName": "applyShadow",
       "args": [
         {
-          "name": "rect",
-          "type": "CGRect",
+          "name": "shadow",
+          "type": "MSImmutableStyleShadow *",
           "nullable": false
         }
       ],
@@ -675,18 +515,48 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "applyShadow:respectFlipped:": {
-      "name": "applyShadow:respectFlipped:",
-      "bridgedName": "applyShadow_respectFlipped",
+    "canDrawSymbolMasterWithoutRiskingRecursion:": {
+      "name": "canDrawSymbolMasterWithoutRiskingRecursion:",
+      "bridgedName": "canDrawSymbolMasterWithoutRiskingRecursion",
       "args": [
         {
-          "name": "shadow",
-          "type": "MSImmutableStyleShadow *",
+          "name": "master",
+          "type": "MSImmutableSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isDrawingSymbol": {
+      "name": "isDrawingSymbol",
+      "bridgedName": "isDrawingSymbol",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isDrawingSymbolInstance": {
+      "name": "isDrawingSymbolInstance",
+      "bridgedName": "isDrawingSymbolInstance",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawSymbolMaster:inBlock:": {
+      "name": "drawSymbolMaster:inBlock:",
+      "bridgedName": "drawSymbolMaster_inBlock",
+      "args": [
+        {
+          "name": "master",
+          "type": "MSImmutableSymbolMaster *",
           "nullable": false
         },
         {
-          "name": "respectFlipped",
-          "type": "BOOL",
+          "name": "block",
+          "type": "BCVoidBlock",
           "nullable": false
         }
       ],
@@ -694,22 +564,36 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "applyShadow:withXOffset:": {
-      "name": "applyShadow:withXOffset:",
-      "bridgedName": "applyShadow_withXOffset",
+    "drawSymbolInstance:inBlock:": {
+      "name": "drawSymbolInstance:inBlock:",
+      "bridgedName": "drawSymbolInstance_inBlock",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSImmutableSymbolInstance *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldSkipDrawingShadow:": {
+      "name": "shouldSkipDrawingShadow:",
+      "bridgedName": "shouldSkipDrawingShadow",
       "args": [
         {
           "name": "shadow",
           "type": "MSImmutableStyleShadow *",
           "nullable": false
-        },
-        {
-          "name": "offset",
-          "type": "CGFloat",
-          "nullable": false
         }
       ],
-      "returns": "void",
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -789,42 +673,13 @@
         "readonly"
       ]
     },
-    "contextIsVectorBacked": {
-      "name": "contextIsVectorBacked",
+    "rotateFlipTransform": {
+      "name": "rotateFlipTransform",
       "pointer": false,
-      "type": "BOOL",
+      "type": "CGAffineTransform",
       "attributes": [
         "nonatomic",
         "readonly"
-      ]
-    },
-    "contextRef": {
-      "name": "contextRef",
-      "pointer": false,
-      "type": "CGContextRef",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "contextPool": {
-      "name": "contextPool",
-      "pointer": false,
-      "type": "MSCGContextPool ",
-      "attributes": [
-        "strong",
-        "nonatomic",
-        "nullable"
-      ]
-    },
-    "graphicsContext": {
-      "name": "graphicsContext",
-      "pointer": false,
-      "type": "NSGraphicsContext ",
-      "attributes": [
-        "nonatomic",
-        "readonly",
-        "strong"
       ]
     }
   },

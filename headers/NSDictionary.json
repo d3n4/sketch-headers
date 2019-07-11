@@ -458,6 +458,35 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "rectForXKey:yKey:widthKey:heightKey:": {
+      "name": "rectForXKey:yKey:widthKey:heightKey:",
+      "bridgedName": "rectForXKey_yKey_widthKey_heightKey",
+      "args": [
+        {
+          "name": "xKey",
+          "type": "nonnull id",
+          "nullable": false
+        },
+        {
+          "name": "yKey",
+          "type": "nonnull id",
+          "nullable": false
+        },
+        {
+          "name": "widthKey",
+          "type": "nonnull id",
+          "nullable": false
+        },
+        {
+          "name": "heightKey",
+          "type": "nonnull id",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "prepareStringAttributesForEncoding": {
       "name": "prepareStringAttributesForEncoding",
       "bridgedName": "prepareStringAttributesForEncoding",
@@ -490,11 +519,11 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dictionaryByMappingMSImmutableColorsToComponentsDictionary": {
-      "name": "dictionaryByMappingMSImmutableColorsToComponentsDictionary",
-      "bridgedName": "dictionaryByMappingMSImmutableColorsToComponentsDictionary",
+    "dictionaryByRefreshingFontDescriptors": {
+      "name": "dictionaryByRefreshingFontDescriptors",
+      "bridgedName": "dictionaryByRefreshingFontDescriptors",
       "args": [],
-      "returns": "NSDictionary*",
+      "returns": "NSDictionary *",
       "kind": "instance",
       "kindIndicator": "-"
     },

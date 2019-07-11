@@ -4,10 +4,10 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "layerViewController": {
-      "name": "layerViewController",
+    "geometryViewController": {
+      "name": "geometryViewController",
       "pointer": false,
-      "type": "MSLayerInspectorViewController ",
+      "type": "MSGeometryInspectorSection ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -80,6 +80,15 @@
       "name": "specialLayerViewController",
       "pointer": false,
       "type": "MSSpecialLayerViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exportPreviewViewController": {
+      "name": "exportPreviewViewController",
+      "pointer": false,
+      "type": "MSExportPreviewInspectorSection ",
       "attributes": [
         "nonatomic",
         "readonly"

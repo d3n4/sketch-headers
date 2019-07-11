@@ -564,6 +564,16 @@
         "readonly"
       ]
     },
+    "pluginsWithSketchCompatipleUpdates": {
+      "name": "pluginsWithSketchCompatipleUpdates",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readwrite"
+      ]
+    },
     "pluginsWarehouseURL": {
       "name": "pluginsWarehouseURL",
       "pointer": false,
@@ -590,6 +600,15 @@
       "attributes": [
         "nonatomic",
         "assign"
+      ]
+    },
+    "logAction": {
+      "name": "logAction",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "weak"
       ]
     }
   },

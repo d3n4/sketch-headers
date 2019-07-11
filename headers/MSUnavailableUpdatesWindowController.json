@@ -5,9 +5,9 @@
     "NSWindowDelegate"
   ],
   "methods": {
-    "showModalWithVersion:buildNumber:": {
-      "name": "showModalWithVersion:buildNumber:",
-      "bridgedName": "showModalWithVersion_buildNumber",
+    "showModalWithVersion:buildNumber:reason:": {
+      "name": "showModalWithVersion:buildNumber:reason:",
+      "bridgedName": "showModalWithVersion_buildNumber_reason",
       "args": [
         {
           "name": "version",
@@ -17,6 +17,11 @@
         {
           "name": "buildNumber",
           "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "reason",
+          "type": "MSUnavailableUpdatesReason",
           "nullable": false
         }
       ],

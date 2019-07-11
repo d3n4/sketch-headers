@@ -4,7 +4,7 @@
   "interfaces": [
     "MSArtboardGroup",
     "MSRootLayer",
-    "MSLayerWithBackgroundColor",
+    "MSLayerWithMutableBackgroundColor",
     "MSColorConvertible"
   ],
   "methods": {
@@ -81,16 +81,6 @@
     }
   },
   "properties": {
-    "sliceWatcher": {
-      "name": "sliceWatcher",
-      "pointer": false,
-      "type": "id<MSSliceLayerWatcher>",
-      "attributes": [
-        "weak",
-        "nonatomic",
-        "nullable"
-      ]
-    },
     "preset": {
       "name": "preset",
       "pointer": false,

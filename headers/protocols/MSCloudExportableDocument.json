@@ -15,6 +15,16 @@
         "readonly"
       ]
     },
+    "UIMetadata": {
+      "name": "UIMetadata",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
     "cacheManager": {
       "name": "cacheManager",
       "pointer": false,

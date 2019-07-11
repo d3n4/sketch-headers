@@ -3,16 +3,10 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "contentDirtyDiffRectWithCache:": {
-      "name": "contentDirtyDiffRectWithCache:",
-      "bridgedName": "contentDirtyDiffRectWithCache",
-      "args": [
-        {
-          "name": "cache",
-          "type": "BCCache *",
-          "nullable": false
-        }
-      ],
+    "contentDirtyDiffRect": {
+      "name": "contentDirtyDiffRect",
+      "bridgedName": "contentDirtyDiffRect",
+      "args": [],
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
@@ -27,6 +21,16 @@
     }
   },
   "properties": {
+    "webExportableRootLayer": {
+      "name": "webExportableRootLayer",
+      "pointer": false,
+      "type": "MSImmutableLayerGroup<MSWebExportableRootLayer> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
     "object": {
       "name": "object",
       "pointer": false,

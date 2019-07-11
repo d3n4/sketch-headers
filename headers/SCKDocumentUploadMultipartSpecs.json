@@ -16,6 +16,20 @@
       "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "uploadRequestCompletionBodyWithSize:": {
+      "name": "uploadRequestCompletionBodyWithSize:",
+      "bridgedName": "uploadRequestCompletionBodyWithSize",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

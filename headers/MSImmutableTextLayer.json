@@ -55,18 +55,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "firstUnderlyingShapePathWithParentGroup:usingCache:": {
-      "name": "firstUnderlyingShapePathWithParentGroup:usingCache:",
-      "bridgedName": "firstUnderlyingShapePathWithParentGroup_usingCache",
+    "firstUnderlyingShapePathWithParentGroup:": {
+      "name": "firstUnderlyingShapePathWithParentGroup:",
+      "bridgedName": "firstUnderlyingShapePathWithParentGroup",
       "args": [
         {
           "name": "parentGroup",
           "type": "nonnull MSImmutableLayerGroup *",
-          "nullable": false
-        },
-        {
-          "name": "cache",
-          "type": "nonnull BCCache*",
           "nullable": false
         }
       ],
@@ -80,8 +75,8 @@
       "args": [
         {
           "name": "parentGroup",
-          "type": "nonnull MSImmutableLayerGroup *",
-          "nullable": false
+          "type": "MSImmutableLayerGroup *",
+          "nullable": true
         },
         {
           "name": "layoutManager",
@@ -190,6 +185,16 @@
         "readonly",
         "nonatomic",
         "nonnull"
+      ]
+    },
+    "transientGlyphBoundsValue": {
+      "name": "transientGlyphBoundsValue",
+      "pointer": false,
+      "type": "NSValue ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
       ]
     },
     "capHeightBounds": {

@@ -47,6 +47,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "artboardGroup": {
+      "name": "artboardGroup",
+      "bridgedName": "artboardGroup",
+      "args": [],
+      "returns": "MSArtboardGroup*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "optimiseClipLayerInGroup:": {
       "name": "optimiseClipLayerInGroup:",
       "bridgedName": "optimiseClipLayerInGroup",

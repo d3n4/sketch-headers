@@ -1,6 +1,6 @@
 {
   "name": "MSResetSharedStyleAction",
-  "extends": "MSBaseSharedStyleAction",
+  "extends": "MSBaseSharedObjectAction",
   "interfaces": [],
   "methods": {
     "resetSharedStyle:": {

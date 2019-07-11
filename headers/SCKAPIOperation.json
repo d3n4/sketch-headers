@@ -60,7 +60,7 @@
         },
         {
           "name": "handler",
-          "type": "void (^)(NSArray<SCKObject *>  * _Nullable objects, NSError * _Nullable error)",
+          "type": "void (^ _Nullable)(NSArray<SCKObject *>  * _Nullable objects, NSError * _Nullable error)",
           "nullable": false
         }
       ],
@@ -85,6 +85,7 @@
       "pointer": false,
       "type": "NSURLSession ",
       "attributes": [
+        "atomic",
         "strong"
       ]
     },
@@ -93,6 +94,7 @@
       "pointer": false,
       "type": "NSError ",
       "attributes": [
+        "atomic",
         "strong",
         "nullable",
         "readonly"
@@ -103,6 +105,7 @@
       "pointer": false,
       "type": "NSArray<SCKObject *> ",
       "attributes": [
+        "atomic",
         "strong",
         "nullable",
         "readonly"

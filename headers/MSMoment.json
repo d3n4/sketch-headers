@@ -59,6 +59,26 @@
         "nonatomic",
         "readwrite"
       ]
+    },
+    "selectedLayerIDs": {
+      "name": "selectedLayerIDs",
+      "pointer": false,
+      "type": "NSSet ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readwrite"
+      ]
+    },
+    "pageID": {
+      "name": "pageID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readwrite"
+      ]
     }
   },
   "generics": []

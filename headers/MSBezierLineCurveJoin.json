@@ -2,32 +2,7 @@
   "name": "MSBezierLineCurveJoin",
   "extends": "MSBezierJoin",
   "interfaces": [],
-  "methods": {
-    "joinWithSegment1:segment2:strategy:": {
-      "name": "joinWithSegment1:segment2:strategy:",
-      "bridgedName": "joinWithSegment1_segment2_strategy",
-      "args": [
-        {
-          "name": "segment1",
-          "type": "MSBezierSegment *",
-          "nullable": false
-        },
-        {
-          "name": "segment2",
-          "type": "MSBezierSegment *",
-          "nullable": false
-        },
-        {
-          "name": "strategy",
-          "type": "MSBezierJoinStrategy",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable instancetype",
-      "kind": "class",
-      "kindIndicator": "+"
-    }
-  },
+  "methods": {},
   "properties": {},
   "generics": []
 }

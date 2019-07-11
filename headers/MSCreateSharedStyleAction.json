@@ -1,6 +1,6 @@
 {
   "name": "MSCreateSharedStyleAction",
-  "extends": "MSBaseSharedStyleAction",
+  "extends": "MSBaseSharedObjectAction",
   "interfaces": [],
   "methods": {
     "createSharedStyle:": {

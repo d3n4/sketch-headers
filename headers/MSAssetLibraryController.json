@@ -33,18 +33,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "importForeignSymbol:fromLibrary:intoDocument:": {
-      "name": "importForeignSymbol:fromLibrary:intoDocument:",
-      "bridgedName": "importForeignSymbol_fromLibrary_intoDocument",
+    "importShareableObjectReference:intoDocument:": {
+      "name": "importShareableObjectReference:intoDocument:",
+      "bridgedName": "importShareableObjectReference_intoDocument",
       "args": [
         {
-          "name": "libraryMaster",
-          "type": "MSSymbolMaster *",
-          "nullable": false
-        },
-        {
-          "name": "sourceLibrary",
-          "type": "MSAssetLibrary*",
+          "name": "reference",
+          "type": "MSShareableObjectReference*",
           "nullable": false
         },
         {
@@ -53,26 +48,26 @@
           "nullable": false
         }
       ],
-      "returns": "MSForeignSymbol *",
+      "returns": "nullable __kindof MSForeignObject *",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "syncForeignSymbol:withMaster:fromLibrary:": {
-      "name": "syncForeignSymbol:withMaster:fromLibrary:",
-      "bridgedName": "syncForeignSymbol_withMaster_fromLibrary",
+    "syncForeignObject:withMaster:fromLibrary:": {
+      "name": "syncForeignObject:withMaster:fromLibrary:",
+      "bridgedName": "syncForeignObject_withMaster_fromLibrary",
       "args": [
         {
-          "name": "symbol",
-          "type": "MSForeignSymbol*",
+          "name": "foreignObject",
+          "type": "__kindof MSForeignObject*",
           "nullable": false
         },
         {
-          "name": "master",
-          "type": "MSSymbolMaster*",
+          "name": "libraryMaster",
+          "type": "__kindof MSShareableObject*",
           "nullable": false
         },
         {
-          "name": "library",
+          "name": "sourceLibrary",
           "type": "MSAssetLibrary*",
           "nullable": false
         }
@@ -81,10 +76,15 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "enumerateForeignSymbolsInDocument:includeDisabled:block:": {
-      "name": "enumerateForeignSymbolsInDocument:includeDisabled:block:",
-      "bridgedName": "enumerateForeignSymbolsInDocument_includeDisabled_block",
+    "enumerateForeignObjects:inDocument:includeDisabled:block:": {
+      "name": "enumerateForeignObjects:inDocument:includeDisabled:block:",
+      "bridgedName": "enumerateForeignObjects_inDocument_includeDisabled_block",
       "args": [
+        {
+          "name": "objects",
+          "type": "NSArray<MSForeignObject*> *",
+          "nullable": false
+        },
         {
           "name": "document",
           "type": "MSDocumentData *",

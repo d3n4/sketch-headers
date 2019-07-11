@@ -11,28 +11,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "defaultObject": {
-      "name": "defaultObject",
-      "bridgedName": "defaultObject",
-      "args": [],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "setDefaultObject:": {
-      "name": "setDefaultObject:",
-      "bridgedName": "setDefaultObject",
-      "args": [
-        {
-          "name": "object",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "oldDefaultsName": {
       "name": "oldDefaultsName",
       "bridgedName": "oldDefaultsName",
@@ -66,6 +44,16 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "defaultObject": {
+      "name": "defaultObject",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
   "generics": []
 }

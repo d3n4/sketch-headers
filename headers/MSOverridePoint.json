@@ -9,17 +9,17 @@
       "args": [
         {
           "name": "layer",
-          "type": "MSImmutableLayer*",
+          "type": "MSImmutableLayer *",
           "nullable": false
         },
         {
           "name": "property",
-          "type": "NSString*",
+          "type": "NSString *",
           "nullable": false
         },
         {
           "name": "parent",
-          "type": "MSOverridePoint*",
+          "type": "MSOverridePoint *",
           "nullable": true
         }
       ],
@@ -33,11 +33,25 @@
       "args": [
         {
           "name": "point",
-          "type": "MSOverridePoint*",
+          "type": "MSOverridePoint *",
           "nullable": false
         }
       ],
       "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "distanceToOverridePoint:": {
+      "name": "distanceToOverridePoint:",
+      "bridgedName": "distanceToOverridePoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSOverridePoint *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
       "kind": "instance",
       "kindIndicator": "-"
     }

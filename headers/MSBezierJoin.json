@@ -22,6 +22,30 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "joinWithSegment1:segment2:strategy:": {
+      "name": "joinWithSegment1:segment2:strategy:",
+      "bridgedName": "joinWithSegment1_segment2_strategy",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "strategy",
+          "type": "MSBezierJoinStrategy",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "initWithSegment1:segment2:joinedSegments:": {
       "name": "initWithSegment1:segment2:joinedSegments:",
       "bridgedName": "initWithSegment1_segment2_joinedSegments",
@@ -45,6 +69,25 @@
       "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "segmentsByJoiningSegment1:segment2:": {
+      "name": "segmentsByJoiningSegment1:segment2:",
+      "bridgedName": "segmentsByJoiningSegment1_segment2",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSBezierSegment *> *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {

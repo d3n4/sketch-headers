@@ -1,0 +1,17 @@
+{
+  "protocol": true,
+  "name": "MSLayerWithMutableBackgroundColor",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "bridgedName": "backgroundColor",
+      "args": [],
+      "returns": "MSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

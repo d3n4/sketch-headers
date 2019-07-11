@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "hasSizeInstructionsForAxis:": {
-      "name": "hasSizeInstructionsForAxis:",
-      "bridgedName": "hasSizeInstructionsForAxis",
+    "accumulatorForAxis:": {
+      "name": "accumulatorForAxis:",
+      "bridgedName": "accumulatorForAxis",
       "args": [
         {
           "name": "axis",
@@ -13,13 +13,13 @@
           "nullable": false
         }
       ],
-      "returns": "BOOL",
+      "returns": "nullable MSSnappingAccumulator *",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "firstSizeForAxis:": {
-      "name": "firstSizeForAxis:",
-      "bridgedName": "firstSizeForAxis",
+    "firstDimensionMeasurementForAxis:": {
+      "name": "firstDimensionMeasurementForAxis:",
+      "bridgedName": "firstDimensionMeasurementForAxis",
       "args": [
         {
           "name": "axis",
@@ -27,17 +27,45 @@
           "nullable": false
         }
       ],
-      "returns": "MSSnapDrawSizeInstruction *",
+      "returns": "MSDimensionMeasurement *",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addSizeInstruction:": {
-      "name": "addSizeInstruction:",
-      "bridgedName": "addSizeInstruction",
+    "addDimensionMeasurement:": {
+      "name": "addDimensionMeasurement:",
+      "bridgedName": "addDimensionMeasurement",
+      "args": [
+        {
+          "name": "measurement",
+          "type": "MSDimensionMeasurement *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstDistanceMeasurementForAxis:": {
+      "name": "firstDistanceMeasurementForAxis:",
+      "bridgedName": "firstDistanceMeasurementForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDistanceMeasurement *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDistanceMeasurement:": {
+      "name": "addDistanceMeasurement:",
+      "bridgedName": "addDistanceMeasurement",
       "args": [
         {
           "name": "instruction",
-          "type": "MSSnapDrawSizeInstruction *",
+          "type": "MSDistanceMeasurement *",
           "nullable": false
         }
       ],
@@ -45,97 +73,65 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "removeAllSizeInstructionsForAxis:": {
-      "name": "removeAllSizeInstructionsForAxis:",
-      "bridgedName": "removeAllSizeInstructionsForAxis",
-      "args": [
-        {
-          "name": "axis",
-          "type": "BCAxis",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "hasDistanceInstructionsForAxis:": {
-      "name": "hasDistanceInstructionsForAxis:",
-      "bridgedName": "hasDistanceInstructionsForAxis",
-      "args": [
-        {
-          "name": "axis",
-          "type": "BCAxis",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "firstDistanceForAxis:": {
-      "name": "firstDistanceForAxis:",
-      "bridgedName": "firstDistanceForAxis",
-      "args": [
-        {
-          "name": "axis",
-          "type": "BCAxis",
-          "nullable": false
-        }
-      ],
-      "returns": "MSSnapDrawDistanceInstruction *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "addDistanceInstruction:": {
-      "name": "addDistanceInstruction:",
-      "bridgedName": "addDistanceInstruction",
-      "args": [
-        {
-          "name": "instruction",
-          "type": "MSSnapDrawDistanceInstruction *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "removeAllDistanceInstructionsForAxis:": {
-      "name": "removeAllDistanceInstructionsForAxis:",
-      "bridgedName": "removeAllDistanceInstructionsForAxis",
-      "args": [
-        {
-          "name": "axis",
-          "type": "BCAxis",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "linesForAxis:": {
-      "name": "linesForAxis:",
-      "bridgedName": "linesForAxis",
-      "args": [
-        {
-          "name": "axis",
-          "type": "BCAxis",
-          "nullable": false
-        }
-      ],
-      "returns": "NSMutableArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "enumerateInstructions:": {
-      "name": "enumerateInstructions:",
-      "bridgedName": "enumerateInstructions",
+    "enumerateMeasurementsUsingBlock:": {
+      "name": "enumerateMeasurementsUsingBlock:",
+      "bridgedName": "enumerateMeasurementsUsingBlock",
       "args": [
         {
           "name": "block",
-          "type": "MSSnapperDataEnumerator",
+          "type": "void (^)(MSSnappingMeasurement *measurement)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTarget:": {
+      "name": "addTarget:",
+      "bridgedName": "addTarget",
+      "args": [
+        {
+          "name": "target",
+          "type": "MSSnappingTarget *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "extendGuideForAxis:toStartPosition:endPosition:": {
+      "name": "extendGuideForAxis:toStartPosition:endPosition:",
+      "bridgedName": "extendGuideForAxis_toStartPosition_endPosition",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "start",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "end",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetSnappingForAxis:": {
+      "name": "resetSnappingForAxis:",
+      "bridgedName": "resetSnappingForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
           "nullable": false
         }
       ],
@@ -163,6 +159,33 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "xAxisAccumulator": {
+      "name": "xAxisAccumulator",
+      "pointer": false,
+      "type": "MSSnappingAccumulator ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "yAxisAccumulator": {
+      "name": "yAxisAccumulator",
+      "pointer": false,
+      "type": "MSSnappingAccumulator ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "measurementAxes": {
+      "name": "measurementAxes",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }
