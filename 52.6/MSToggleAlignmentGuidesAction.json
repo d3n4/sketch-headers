@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleAlignmentGuidesAction",
+  "extends": "MSToggleViewPreferenceAction",
+  "interfaces": [],
+  "methods": {
+    "toggleAlignmentGuides:": {
+      "name": "toggleAlignmentGuides:",
+      "bridgedName": "toggleAlignmentGuides",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

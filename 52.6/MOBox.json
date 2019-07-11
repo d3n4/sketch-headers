@@ -1,0 +1,87 @@
+{
+  "name": "MOBox",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithManager:object:jsObject:": {
+      "name": "initWithManager:object:jsObject:",
+      "bridgedName": "initWithManager_object_jsObject",
+      "args": [
+        {
+          "name": "manager",
+          "type": "MOBoxManager *",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "jsObject",
+          "type": "JSObjectRef",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disassociateObject": {
+      "name": "disassociateObject",
+      "bridgedName": "disassociateObject",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "representedObject": {
+      "name": "representedObject",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "strong",
+        "readonly"
+      ]
+    },
+    "JSObject": {
+      "name": "JSObject",
+      "pointer": false,
+      "type": "JSObjectRef",
+      "attributes": [
+        "assign",
+        "readonly"
+      ]
+    },
+    "manager": {
+      "name": "manager",
+      "pointer": false,
+      "type": "MOBoxManager ",
+      "attributes": [
+        "weak",
+        "readonly"
+      ]
+    },
+    "representedObjectCanaryDesc": {
+      "name": "representedObjectCanaryDesc",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "strong"
+      ]
+    },
+    "count": {
+      "name": "count",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "readonly",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

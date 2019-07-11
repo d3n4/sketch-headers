@@ -1,0 +1,115 @@
+{
+  "name": "MSEditColorSpaceSheetController",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {
+    "pickColorSpace:": {
+      "name": "pickColorSpace:",
+      "bridgedName": "pickColorSpace",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pickChangeLogic:": {
+      "name": "pickChangeLogic:",
+      "bridgedName": "pickChangeLogic",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "viewDocumentation:": {
+      "name": "viewDocumentation:",
+      "bridgedName": "viewDocumentation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "assignButton": {
+      "name": "assignButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "assignDescriptionTextField": {
+      "name": "assignDescriptionTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "colorSpacePopUpButton": {
+      "name": "colorSpacePopUpButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "descriptionTextField": {
+      "name": "descriptionTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "confirmButton": {
+      "name": "confirmButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "convertButton": {
+      "name": "convertButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "convertDescriptionTextField": {
+      "name": "convertDescriptionTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

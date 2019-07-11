@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableStarShape",
+  "extends": "MSImmutableShapePathLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "numberOfPoints": {
+      "name": "numberOfPoints",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "radius": {
+      "name": "radius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

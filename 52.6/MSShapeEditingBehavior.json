@@ -1,0 +1,95 @@
+{
+  "name": "MSShapeEditingBehavior",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initForDrawingNewShape:": {
+      "name": "initForDrawingNewShape:",
+      "bridgedName": "initForDrawingNewShape",
+      "args": [
+        {
+          "name": "drawingNewShape",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isAddingPoints:": {
+      "name": "isAddingPoints:",
+      "bridgedName": "isAddingPoints",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSShapeChangeContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canInsertPoints": {
+      "name": "canInsertPoints",
+      "bridgedName": "canInsertPoints",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldClosePathWhenMouseDownOnHandleAtIndexPath:modifierFlags:context:": {
+      "name": "shouldClosePathWhenMouseDownOnHandleAtIndexPath:modifierFlags:context:",
+      "bridgedName": "shouldClosePathWhenMouseDownOnHandleAtIndexPath_modifierFlags_context",
+      "args": [
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSShapeChangeContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isNewShape": {
+      "name": "isNewShape",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "allowSelectionOnly": {
+      "name": "allowSelectionOnly",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "allowClosingPathUsingMouse": {
+      "name": "allowClosingPathUsingMouse",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

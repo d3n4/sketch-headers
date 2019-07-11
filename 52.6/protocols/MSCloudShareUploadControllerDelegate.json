@@ -1,0 +1,80 @@
+{
+  "protocol": true,
+  "name": "MSCloudShareUploadControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "cloudShareController:didUploadShare:": {
+      "name": "cloudShareController:didUploadShare:",
+      "bridgedName": "cloudShareController_didUploadShare",
+      "args": [
+        {
+          "name": "controller",
+          "type": "nonnull MSCloudShareUploadController *",
+          "nullable": false
+        },
+        {
+          "name": "share",
+          "type": "nonnull SCKShare *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cloudShareControllerDidCancelUploading:": {
+      "name": "cloudShareControllerDidCancelUploading:",
+      "bridgedName": "cloudShareControllerDidCancelUploading",
+      "args": [
+        {
+          "name": "controller",
+          "type": "nonnull MSCloudShareUploadController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cloudShareController:uploadDidFailWithError:": {
+      "name": "cloudShareController:uploadDidFailWithError:",
+      "bridgedName": "cloudShareController_uploadDidFailWithError",
+      "args": [
+        {
+          "name": "controller",
+          "type": "nonnull MSCloudShareUploadController *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cloudShareController:didChangeProgress:": {
+      "name": "cloudShareController:didChangeProgress:",
+      "bridgedName": "cloudShareController_didChangeProgress",
+      "args": [
+        {
+          "name": "controller",
+          "type": "nonnull MSCloudShareUploadController *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "NSProgress *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

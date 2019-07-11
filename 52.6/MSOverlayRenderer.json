@@ -1,0 +1,61 @@
+{
+  "name": "MSOverlayRenderer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "drawRect:context:": {
+      "name": "drawRect:context:",
+      "bridgedName": "drawRect_context",
+      "args": [
+        {
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setNeedsDisplayInRect:": {
+      "name": "setNeedsDisplayInRect:",
+      "bridgedName": "setNeedsDisplayInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter=isEnabled"
+      ]
+    },
+    "hostView": {
+      "name": "hostView",
+      "pointer": false,
+      "type": "id<MSTiledRendererHostView>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

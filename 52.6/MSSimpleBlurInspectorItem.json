@@ -1,0 +1,8 @@
+{
+  "name": "MSSimpleBlurInspectorItem",
+  "extends": "MSBaseBlurInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

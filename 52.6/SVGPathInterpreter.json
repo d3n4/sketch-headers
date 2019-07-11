@@ -1,0 +1,42 @@
+{
+  "name": "SVGPathInterpreter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "bezierPathFromCommands:isPathClosed:": {
+      "name": "bezierPathFromCommands:isPathClosed:",
+      "bridgedName": "bezierPathFromCommands_isPathClosed",
+      "args": [
+        {
+          "name": "commands",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "isClosed",
+          "type": "BOOL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathFromPoints:": {
+      "name": "bezierPathFromPoints:",
+      "bridgedName": "bezierPathFromPoints",
+      "args": [
+        {
+          "name": "points",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

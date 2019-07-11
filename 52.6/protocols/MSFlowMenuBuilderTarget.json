@@ -1,0 +1,51 @@
+{
+  "protocol": true,
+  "name": "MSFlowMenuBuilderTarget",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "flowBackAction:": {
+      "name": "flowBackAction:",
+      "bridgedName": "flowBackAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeFlowAction:": {
+      "name": "removeFlowAction:",
+      "bridgedName": "removeFlowAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowTargetAction:": {
+      "name": "flowTargetAction:",
+      "bridgedName": "flowTargetAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

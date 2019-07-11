@@ -1,0 +1,8 @@
+{
+  "name": "MSLayerFocusActions",
+  "extends": "MSActionGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

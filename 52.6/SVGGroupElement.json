@@ -1,0 +1,8 @@
+{
+  "name": "SVGGroupElement",
+  "extends": "_SVGGroupElement",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

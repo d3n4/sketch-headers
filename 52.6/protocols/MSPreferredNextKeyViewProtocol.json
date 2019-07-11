@@ -1,0 +1,18 @@
+{
+  "protocol": true,
+  "name": "MSPreferredNextKeyViewProtocol",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "preferredNextKeyView": {
+      "name": "preferredNextKeyView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

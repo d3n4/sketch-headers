@@ -1,0 +1,23 @@
+{
+  "name": "MSConstraintFixWidthAction",
+  "extends": "MSConstraintAction",
+  "interfaces": [],
+  "methods": {
+    "fixWidthAction:": {
+      "name": "fixWidthAction:",
+      "bridgedName": "fixWidthAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "MSTableContainerInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "tableView": {
+      "name": "tableView",
+      "pointer": false,
+      "type": "IBOutlet NSTableView ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

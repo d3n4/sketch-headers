@@ -1,0 +1,163 @@
+{
+  "name": "MSForeignObject",
+  "extends": "_MSForeignObject",
+  "interfaces": [],
+  "methods": {
+    "initWithOriginalObject:inLibrary:": {
+      "name": "initWithOriginalObject:inLibrary:",
+      "bridgedName": "initWithOriginalObject_inLibrary",
+      "args": [
+        {
+          "name": "original",
+          "type": "__kindof MSModelObject *",
+          "nullable": false
+        },
+        {
+          "name": "library",
+          "type": "id<MSLibraryObject>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isOutOfDateWithLibrary:": {
+      "name": "isOutOfDateWithLibrary:",
+      "bridgedName": "isOutOfDateWithLibrary",
+      "args": [
+        {
+          "name": "library",
+          "type": "id<MSLibraryObject>",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isOutOfDateWithLibrary:includePrivate:": {
+      "name": "isOutOfDateWithLibrary:includePrivate:",
+      "bridgedName": "isOutOfDateWithLibrary_includePrivate",
+      "args": [
+        {
+          "name": "library",
+          "type": "id<MSLibraryObject>",
+          "nullable": false
+        },
+        {
+          "name": "includePrivate",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "syncWithRemote:": {
+      "name": "syncWithRemote:",
+      "bridgedName": "syncWithRemote",
+      "args": [
+        {
+          "name": "remote",
+          "type": "__kindof MSModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unlinkFromRemote": {
+      "name": "unlinkFromRemote",
+      "bridgedName": "unlinkFromRemote",
+      "args": [],
+      "returns": "__kindof MSModelObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "masterFromLibrary:": {
+      "name": "masterFromLibrary:",
+      "bridgedName": "masterFromLibrary",
+      "args": [
+        {
+          "name": "library",
+          "type": "id<MSLibraryObject>",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSModelObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "masterFromDocument:withID:": {
+      "name": "masterFromDocument:withID:",
+      "bridgedName": "masterFromDocument_withID",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "documentLocalID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSModelObject*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "matchingForeignObjectInDocument:": {
+      "name": "matchingForeignObjectInDocument:",
+      "bridgedName": "matchingForeignObjectInDocument",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSForeignObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isLocalToDocument:": {
+      "name": "isLocalToDocument:",
+      "bridgedName": "isLocalToDocument",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "localObject": {
+      "name": "localObject",
+      "pointer": false,
+      "type": "__kindof MSModelObject ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "remoteShareID": {
+      "name": "remoteShareID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

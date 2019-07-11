@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "MSValueAdaptorAdjustOptions",
+  "members": [
+    {
+      "name": "MSValueAdaptorAdjustValues",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSValueAdaptorAdjustIgnoreMinimum",
+      "value": "1 << 1"
+    },
+    {
+      "name": "MSValueAdaptorAdjustIgnoreMaximum",
+      "value": "1 << 2"
+    },
+    {
+      "name": "MSValueAdaptorAdjustIndividually",
+      "value": "1 << 3"
+    }
+  ]
+}

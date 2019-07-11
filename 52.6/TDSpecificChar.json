@@ -1,0 +1,37 @@
+{
+  "name": "TDSpecificChar",
+  "extends": "TDTerminal",
+  "interfaces": [],
+  "methods": {
+    "specificCharWithChar:": {
+      "name": "specificCharWithChar:",
+      "bridgedName": "specificCharWithChar",
+      "args": [
+        {
+          "name": "c",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithSpecificChar:": {
+      "name": "initWithSpecificChar:",
+      "bridgedName": "initWithSpecificChar",
+      "args": [
+        {
+          "name": "c",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

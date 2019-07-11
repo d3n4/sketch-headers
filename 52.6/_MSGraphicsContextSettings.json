@@ -1,0 +1,27 @@
+{
+  "name": "_MSGraphicsContextSettings",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "blendMode": {
+      "name": "blendMode",
+      "pointer": false,
+      "type": "MSBlendMode",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "opacity": {
+      "name": "opacity",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

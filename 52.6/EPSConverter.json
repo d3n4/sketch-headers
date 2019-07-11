@@ -1,0 +1,71 @@
+{
+  "name": "EPSConverter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "convertEPSAtURL:progressBlock:": {
+      "name": "convertEPSAtURL:progressBlock:",
+      "bridgedName": "convertEPSAtURL_progressBlock",
+      "args": [
+        {
+          "name": "source",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "ProgressBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertEPSData:progressBlock:": {
+      "name": "convertEPSData:progressBlock:",
+      "bridgedName": "convertEPSData_progressBlock",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData*",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "ProgressBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertEPSAtURL:toURL:progressBlock:": {
+      "name": "convertEPSAtURL:toURL:progressBlock:",
+      "bridgedName": "convertEPSAtURL_toURL_progressBlock",
+      "args": [
+        {
+          "name": "source",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "destination",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "ProgressBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

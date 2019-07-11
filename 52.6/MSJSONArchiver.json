@@ -1,0 +1,56 @@
+{
+  "name": "MSJSONArchiver",
+  "extends": "MSBaseArchiver",
+  "interfaces": [],
+  "methods": {
+    "archiverFromCoder:": {
+      "name": "archiverFromCoder:",
+      "bridgedName": "archiverFromCoder",
+      "args": [
+        {
+          "name": "coder",
+          "type": "nonnull BCJSONEncoder*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull MSJSONArchiver*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "archiveObject:coder:": {
+      "name": "archiveObject:coder:",
+      "bridgedName": "archiveObject_coder",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull NSObject<MSCoding>*",
+          "nullable": false
+        },
+        {
+          "name": "coder",
+          "type": "nonnull BCJSONEncoder*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "replacementObjectForObject:": {
+      "name": "replacementObjectForObject:",
+      "bridgedName": "replacementObjectForObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull NSObject<MSCoding>*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSObject*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

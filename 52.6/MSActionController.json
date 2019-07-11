@@ -1,0 +1,225 @@
+{
+  "name": "MSActionController",
+  "extends": "NSResponder",
+  "interfaces": [],
+  "methods": {
+    "registerAction:": {
+      "name": "registerAction:",
+      "bridgedName": "registerAction",
+      "args": [
+        {
+          "name": "action",
+          "type": "MSAction*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "actionForID:": {
+      "name": "actionForID:",
+      "bridgedName": "actionForID",
+      "args": [
+        {
+          "name": "actionIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSAction *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "actionForSelector:": {
+      "name": "actionForSelector:",
+      "bridgedName": "actionForSelector",
+      "args": [
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSAction *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performActionWithID:sender:": {
+      "name": "performActionWithID:sender:",
+      "bridgedName": "performActionWithID_sender",
+      "args": [
+        {
+          "name": "actionIdentifier",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allActions": {
+      "name": "allActions",
+      "bridgedName": "allActions",
+      "args": [],
+      "returns": "NSArray <MSAction *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertAfterResponder:": {
+      "name": "insertAfterResponder:",
+      "bridgedName": "insertAfterResponder",
+      "args": [
+        {
+          "name": "responder",
+          "type": "NSResponder *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "forwardKeyEvent:": {
+      "name": "forwardKeyEvent:",
+      "bridgedName": "forwardKeyEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "willBeginActionWithID:context:": {
+      "name": "willBeginActionWithID:context:",
+      "bridgedName": "willBeginActionWithID_context",
+      "args": [
+        {
+          "name": "actionID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didFinishActionWithID:context:": {
+      "name": "didFinishActionWithID:context:",
+      "bridgedName": "didFinishActionWithID_context",
+      "args": [
+        {
+          "name": "actionID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didInstantActionWithID:context:": {
+      "name": "didInstantActionWithID:context:",
+      "bridgedName": "didInstantActionWithID_context",
+      "args": [
+        {
+          "name": "actionID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerActionObserver:": {
+      "name": "registerActionObserver:",
+      "bridgedName": "registerActionObserver",
+      "args": [
+        {
+          "name": "observer",
+          "type": "id<MSActionObserver>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unregisterActionObserver:": {
+      "name": "unregisterActionObserver:",
+      "bridgedName": "unregisterActionObserver",
+      "args": [
+        {
+          "name": "observer",
+          "type": "id<MSActionObserver>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performFakeActionWithID:context:block:": {
+      "name": "performFakeActionWithID:context:block:",
+      "bridgedName": "performFakeActionWithID_context_block",
+      "args": [
+        {
+          "name": "actionID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "block",
+          "type": "MSActionFakeActionBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "singleKeyShortcuts": {
+      "name": "singleKeyShortcuts",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, NSString *>",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

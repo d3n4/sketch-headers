@@ -1,0 +1,229 @@
+{
+  "name": "_MSShapePath",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {
+    "addCurvePoint:": {
+      "name": "addCurvePoint:",
+      "bridgedName": "addCurvePoint",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSCurvePoint *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addCurvePoints:": {
+      "name": "addCurvePoints:",
+      "bridgedName": "addCurvePoints",
+      "args": [
+        {
+          "name": "points",
+          "type": "NSArray<MSCurvePoint *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertCurvePoint:atIndex:": {
+      "name": "insertCurvePoint:atIndex:",
+      "bridgedName": "insertCurvePoint_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSCurvePoint *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertCurvePoint:beforeCurvePoint:": {
+      "name": "insertCurvePoint:beforeCurvePoint:",
+      "bridgedName": "insertCurvePoint_beforeCurvePoint",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSCurvePoint *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSCurvePoint *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertCurvePoints:beforeCurvePoint:": {
+      "name": "insertCurvePoints:beforeCurvePoint:",
+      "bridgedName": "insertCurvePoints_beforeCurvePoint",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSCurvePoint *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSCurvePoint *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertCurvePoint:afterCurvePoint:": {
+      "name": "insertCurvePoint:afterCurvePoint:",
+      "bridgedName": "insertCurvePoint_afterCurvePoint",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSCurvePoint *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSCurvePoint *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertCurvePoints:afterCurvePoint:": {
+      "name": "insertCurvePoints:afterCurvePoint:",
+      "bridgedName": "insertCurvePoints_afterCurvePoint",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSCurvePoint *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSCurvePoint *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeCurvePoint:": {
+      "name": "removeCurvePoint:",
+      "bridgedName": "removeCurvePoint",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSCurvePoint *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeCurvePointAtIndex:": {
+      "name": "removeCurvePointAtIndex:",
+      "bridgedName": "removeCurvePointAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeCurvePointsAtIndexes:": {
+      "name": "removeCurvePointsAtIndexes:",
+      "bridgedName": "removeCurvePointsAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllCurvePoints": {
+      "name": "removeAllCurvePoints",
+      "bridgedName": "removeAllCurvePoints",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveCurvePointIndex:toIndex:": {
+      "name": "moveCurvePointIndex:toIndex:",
+      "bridgedName": "moveCurvePointIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isClosed": {
+      "name": "isClosed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "pointRadiusBehaviour": {
+      "name": "pointRadiusBehaviour",
+      "pointer": false,
+      "type": "MSPointRadiusBehaviour",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "points": {
+      "name": "points",
+      "pointer": false,
+      "type": "NSArray<__kindof MSCurvePoint *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

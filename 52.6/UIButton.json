@@ -1,0 +1,223 @@
+{
+  "name": "UIButton",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "sharedImageCache": {
+      "name": "sharedImageCache",
+      "bridgedName": "sharedImageCache",
+      "args": [],
+      "returns": "id <AFImageCache>",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setSharedImageCache:": {
+      "name": "setSharedImageCache:",
+      "bridgedName": "setSharedImageCache",
+      "args": [
+        {
+          "name": "imageCache",
+          "type": "__nullable id <AFImageCache>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setImageForState:withURL:": {
+      "name": "setImageForState:withURL:",
+      "bridgedName": "setImageForState_withURL",
+      "args": [
+        {
+          "name": "state",
+          "type": "UIControlState",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setImageForState:withURL:placeholderImage:": {
+      "name": "setImageForState:withURL:placeholderImage:",
+      "bridgedName": "setImageForState_withURL_placeholderImage",
+      "args": [
+        {
+          "name": "state",
+          "type": "UIControlState",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "placeholderImage",
+          "type": "UIImage *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setImageForState:withURLRequest:placeholderImage:success:failure:": {
+      "name": "setImageForState:withURLRequest:placeholderImage:success:failure:",
+      "bridgedName": "setImageForState_withURLRequest_placeholderImage_success_failure",
+      "args": [
+        {
+          "name": "state",
+          "type": "UIControlState",
+          "nullable": false
+        },
+        {
+          "name": "urlRequest",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "placeholderImage",
+          "type": "UIImage *",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "void (^)(NSURLRequest *request, NSHTTPURLResponse * __nullable response, UIImage *image)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setBackgroundImageForState:withURL:": {
+      "name": "setBackgroundImageForState:withURL:",
+      "bridgedName": "setBackgroundImageForState_withURL",
+      "args": [
+        {
+          "name": "state",
+          "type": "UIControlState",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setBackgroundImageForState:withURL:placeholderImage:": {
+      "name": "setBackgroundImageForState:withURL:placeholderImage:",
+      "bridgedName": "setBackgroundImageForState_withURL_placeholderImage",
+      "args": [
+        {
+          "name": "state",
+          "type": "UIControlState",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "placeholderImage",
+          "type": "UIImage *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:": {
+      "name": "setBackgroundImageForState:withURLRequest:placeholderImage:success:failure:",
+      "bridgedName": "setBackgroundImageForState_withURLRequest_placeholderImage_success_failure",
+      "args": [
+        {
+          "name": "state",
+          "type": "UIControlState",
+          "nullable": false
+        },
+        {
+          "name": "urlRequest",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "placeholderImage",
+          "type": "UIImage *",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "void (^)(NSURLRequest *request, NSHTTPURLResponse * __nullable response, UIImage *image)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelImageRequestOperationForState:": {
+      "name": "cancelImageRequestOperationForState:",
+      "bridgedName": "cancelImageRequestOperationForState",
+      "args": [
+        {
+          "name": "state",
+          "type": "UIControlState",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelBackgroundImageRequestOperationForState:": {
+      "name": "cancelBackgroundImageRequestOperationForState:",
+      "bridgedName": "cancelBackgroundImageRequestOperationForState",
+      "args": [
+        {
+          "name": "state",
+          "type": "UIControlState",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "imageResponseSerializer": {
+      "name": "imageResponseSerializer",
+      "pointer": false,
+      "type": "id <AFURLResponseSerialization>",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSExportSelectedInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

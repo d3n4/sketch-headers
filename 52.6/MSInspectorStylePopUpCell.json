@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorStylePopUpCell",
+  "extends": "MSInspectorPopUpButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

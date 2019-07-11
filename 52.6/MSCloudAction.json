@@ -1,0 +1,250 @@
+{
+  "name": "MSCloudAction",
+  "extends": "MSPopoverAction",
+  "interfaces": [],
+  "methods": {
+    "startUploadUpdating:ownedByOrganization:": {
+      "name": "startUploadUpdating:ownedByOrganization:",
+      "bridgedName": "startUploadUpdating_ownedByOrganization",
+      "args": [
+        {
+          "name": "existingShare",
+          "type": "SCKShare *",
+          "nullable": true
+        },
+        {
+          "name": "organization",
+          "type": "SCKOrganization *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshShareWithHandler:": {
+      "name": "refreshShareWithHandler:",
+      "bridgedName": "refreshShareWithHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^ _Nullable)(NSError * _Nullable)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isErrorRecoverable:": {
+      "name": "isErrorRecoverable:",
+      "bridgedName": "isErrorRecoverable",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "cloudError:addingRecoveryOptionsWithAttempter:": {
+      "name": "cloudError:addingRecoveryOptionsWithAttempter:",
+      "bridgedName": "cloudError_addingRecoveryOptionsWithAttempter",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        },
+        {
+          "name": "attempter",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSError *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attemptRecoveryFromCloudError:optionIndex:": {
+      "name": "attemptRecoveryFromCloudError:optionIndex:",
+      "bridgedName": "attemptRecoveryFromCloudError_optionIndex",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        },
+        {
+          "name": "recoveryOptionIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "openCloudUploadURL:parameters:": {
+      "name": "openCloudUploadURL:parameters:",
+      "bridgedName": "openCloudUploadURL_parameters",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addRemoteLibraryWithURL:parameters:": {
+      "name": "addRemoteLibraryWithURL:parameters:",
+      "bridgedName": "addRemoteLibraryWithURL_parameters",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "updateProgressImage": {
+      "name": "updateProgressImage",
+      "bridgedName": "updateProgressImage",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareTerminationWithHandler:": {
+      "name": "prepareTerminationWithHandler:",
+      "bridgedName": "prepareTerminationWithHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^)(BOOL canClose)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "prepareCloseWithHandler:": {
+      "name": "prepareCloseWithHandler:",
+      "bridgedName": "prepareCloseWithHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^)(BOOL canClose)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "document:shouldClose:contextInfo:": {
+      "name": "document:shouldClose:contextInfo:",
+      "bridgedName": "document_shouldClose_contextInfo",
+      "args": [
+        {
+          "name": "document",
+          "type": "NSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "shouldClose",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "contextInfo",
+          "type": "void *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "exportedDocument": {
+      "name": "exportedDocument",
+      "pointer": false,
+      "type": "id<MSCloudExportableDocument>",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "cloudEnabled": {
+      "name": "cloudEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "class"
+      ]
+    },
+    "upload": {
+      "name": "upload",
+      "pointer": false,
+      "type": "MSCloudShareUploadController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "refreshOperation": {
+      "name": "refreshOperation",
+      "pointer": false,
+      "type": "SCKAPIOperation ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "shouldPrepareForTermination": {
+      "name": "shouldPrepareForTermination",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    },
+    "canCloseImmediately": {
+      "name": "canCloseImmediately",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

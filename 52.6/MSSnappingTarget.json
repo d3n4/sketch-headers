@@ -1,0 +1,184 @@
+{
+  "name": "MSSnappingTarget",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithGuideLine:": {
+      "name": "initWithGuideLine:",
+      "bridgedName": "initWithGuideLine",
+      "args": [
+        {
+          "name": "lineSegment",
+          "type": "MSLineSegment",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithPosition:onAxis:": {
+      "name": "initWithPosition:onAxis:",
+      "bridgedName": "initWithPosition_onAxis",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithPoint:axis:wantsGuide:length:": {
+      "name": "initWithPoint:axis:wantsGuide:length:",
+      "bridgedName": "initWithPoint_axis_wantsGuide_length",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "showGuide",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "length",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithPoint:directionVector:guideType:": {
+      "name": "initWithPoint:directionVector:guideType:",
+      "bridgedName": "initWithPoint_directionVector_guideType",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "vector",
+          "type": "CGVector",
+          "nullable": false
+        },
+        {
+          "name": "guideType",
+          "type": "MSSnappingTargetGuideType",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "targetsForEdgesOfRect:includeCenter:": {
+      "name": "targetsForEdgesOfRect:includeCenter:",
+      "bridgedName": "targetsForEdgesOfRect_includeCenter",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "includeCenter",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSSnappingTarget *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "targetByApplyingTransform:)": {
+      "name": "targetByApplyingTransform:)",
+      "bridgedName": "targetByApplyingTransform_)",
+      "args": [
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "point": {
+      "name": "point",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "directionVector": {
+      "name": "directionVector",
+      "pointer": false,
+      "type": "CGVector",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "line": {
+      "name": "line",
+      "pointer": false,
+      "type": "MSLine",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lineSegment": {
+      "name": "lineSegment",
+      "pointer": false,
+      "type": "MSLineSegment",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "guideType": {
+      "name": "guideType",
+      "pointer": false,
+      "type": "MSSnappingTargetGuideType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

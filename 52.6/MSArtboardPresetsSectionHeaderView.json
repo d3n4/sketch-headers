@@ -1,0 +1,8 @@
+{
+  "name": "MSArtboardPresetsSectionHeaderView",
+  "extends": "NSTableCellView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

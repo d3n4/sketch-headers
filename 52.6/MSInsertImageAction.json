@@ -1,0 +1,23 @@
+{
+  "name": "MSInsertImageAction",
+  "extends": "MSBaseInsertAction",
+  "interfaces": [],
+  "methods": {
+    "insertImage:": {
+      "name": "insertImage:",
+      "bridgedName": "insertImage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

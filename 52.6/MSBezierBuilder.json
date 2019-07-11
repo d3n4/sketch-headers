@@ -1,0 +1,139 @@
+{
+  "name": "MSBezierBuilder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithPointRadiusBehavior:": {
+      "name": "initWithPointRadiusBehavior:",
+      "bridgedName": "initWithPointRadiusBehavior",
+      "args": [
+        {
+          "name": "pointRadiusBehaviour",
+          "type": "MSPointRadiusBehaviour",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPath": {
+      "name": "bezierPath",
+      "bridgedName": "bezierPath",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "path": {
+      "name": "path",
+      "bridgedName": "path",
+      "args": [],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "_bezierPath": {
+      "name": "_bezierPath",
+      "bridgedName": "_bezierPath",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathWithPoints:inRect:shouldClose:pointRadiusBehaviour:": {
+      "name": "bezierPathWithPoints:inRect:shouldClose:pointRadiusBehaviour:",
+      "bridgedName": "bezierPathWithPoints_inRect_shouldClose_pointRadiusBehaviour",
+      "args": [
+        {
+          "name": "points",
+          "type": "NSArray <id<MSCurvePoint>> *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "shouldClose",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pointRadiusBehaviour",
+          "type": "MSPointRadiusBehaviour",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathWithPoints:inRect:shouldClose:pointRadiusBehaviour:": {
+      "name": "pathWithPoints:inRect:shouldClose:pointRadiusBehaviour:",
+      "bridgedName": "pathWithPoints_inRect_shouldClose_pointRadiusBehaviour",
+      "args": [
+        {
+          "name": "points",
+          "type": "NSArray <id<MSCurvePoint>> *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "shouldClose",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pointRadiusBehaviour",
+          "type": "MSPointRadiusBehaviour",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierPathForSegmentAtIndex:inPath:inRect:": {
+      "name": "bezierPathForSegmentAtIndex:inPath:inRect:",
+      "bridgedName": "bezierPathForSegmentAtIndex_inPath_inRect",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "shapePath",
+          "type": "MSShapePathLayer *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "pointRadiusBehaviour": {
+      "name": "pointRadiusBehaviour",
+      "pointer": false,
+      "type": "MSPointRadiusBehaviour",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

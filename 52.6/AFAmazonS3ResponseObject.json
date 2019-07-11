@@ -1,0 +1,54 @@
+{
+  "name": "AFAmazonS3ResponseObject",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "responseObject:": {
+      "name": "responseObject:",
+      "bridgedName": "responseObject",
+      "args": [
+        {
+          "name": "response",
+          "type": "NSHTTPURLResponse *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "URL": {
+      "name": "URL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "ETag": {
+      "name": "ETag",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "originalResponse": {
+      "name": "originalResponse",
+      "pointer": false,
+      "type": "NSHTTPURLResponse ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

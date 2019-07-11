@@ -1,0 +1,23 @@
+{
+  "name": "MSInsertTextLayerAction",
+  "extends": "MSBaseInsertAction",
+  "interfaces": [],
+  "methods": {
+    "insertTextLayer:": {
+      "name": "insertTextLayer:",
+      "bridgedName": "insertTextLayer",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

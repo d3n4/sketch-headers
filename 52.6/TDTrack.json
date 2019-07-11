@@ -1,0 +1,17 @@
+{
+  "name": "TDTrack",
+  "extends": "TDSequence",
+  "interfaces": [],
+  "methods": {
+    "track": {
+      "name": "track",
+      "bridgedName": "track",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

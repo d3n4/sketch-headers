@@ -1,0 +1,72 @@
+{
+  "name": "SCKPageDiff",
+  "extends": "NSObject",
+  "interfaces": [
+    "SCKDiff"
+  ],
+  "methods": {
+    "initWithObject:comparedTo:": {
+      "name": "initWithObject:comparedTo:",
+      "bridgedName": "initWithObject_comparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKPage *",
+          "nullable": false
+        },
+        {
+          "name": "otherObject",
+          "type": "nonnull SCKPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "object": {
+      "name": "object",
+      "pointer": false,
+      "type": "SCKPage ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "comparedObject": {
+      "name": "comparedObject",
+      "pointer": false,
+      "type": "SCKPage ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "attributes": {
+      "name": "attributes",
+      "pointer": false,
+      "type": "SCKPageAttributes",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "artboardsDiff": {
+      "name": "artboardsDiff",
+      "pointer": false,
+      "type": "SCKCollectionDiff ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

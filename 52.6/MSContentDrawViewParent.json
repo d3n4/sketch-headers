@@ -1,0 +1,19 @@
+{
+  "name": "MSContentDrawViewParent",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "contentDrawView": {
+      "name": "contentDrawView",
+      "pointer": false,
+      "type": "MSContentDrawView ",
+      "attributes": [
+        "nonatomic",
+        "readwrite",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

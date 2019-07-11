@@ -1,0 +1,8 @@
+{
+  "name": "MSScriptDocument",
+  "extends": "NSDocument",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

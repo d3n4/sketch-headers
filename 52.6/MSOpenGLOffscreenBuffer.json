@@ -1,0 +1,55 @@
+{
+  "name": "MSOpenGLOffscreenBuffer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "beginRendering:height:": {
+      "name": "beginRendering:height:",
+      "bridgedName": "beginRendering_height",
+      "args": [
+        {
+          "name": "width",
+          "type": "int",
+          "nullable": false
+        },
+        {
+          "name": "height",
+          "type": "int",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endRendering": {
+      "name": "endRendering",
+      "bridgedName": "endRendering",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "context": {
+      "name": "context",
+      "pointer": false,
+      "type": "NSOpenGLContext ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "colorspace": {
+      "name": "colorspace",
+      "pointer": false,
+      "type": "CGColorSpaceRef",
+      "attributes": [
+        "nonatomic",
+        "nonnull"
+      ]
+    }
+  },
+  "generics": []
+}

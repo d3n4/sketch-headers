@@ -1,0 +1,8 @@
+{
+  "name": "MSDocumentWindowContentView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

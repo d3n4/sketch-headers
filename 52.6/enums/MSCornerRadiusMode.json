@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSCornerRadiusMode",
+  "members": [
+    {
+      "name": "MSCornerRadiusModeComponentString"
+    },
+    {
+      "name": "MSCornerRadiusModeMath"
+    },
+    {
+      "name": "MSCornerRadiusModeValue"
+    }
+  ]
+}

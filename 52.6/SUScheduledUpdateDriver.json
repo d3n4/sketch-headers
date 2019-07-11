@@ -1,0 +1,8 @@
+{
+  "name": "SUScheduledUpdateDriver",
+  "extends": "SUUIBasedUpdateDriver",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

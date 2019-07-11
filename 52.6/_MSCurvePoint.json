@@ -1,0 +1,72 @@
+{
+  "name": "_MSCurvePoint",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "cornerRadius": {
+      "name": "cornerRadius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "curveFrom": {
+      "name": "curveFrom",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "curveMode": {
+      "name": "curveMode",
+      "pointer": false,
+      "type": "MSCurveMode",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "curveTo": {
+      "name": "curveTo",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "hasCurveFrom": {
+      "name": "hasCurveFrom",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "hasCurveTo": {
+      "name": "hasCurveTo",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "point": {
+      "name": "point",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

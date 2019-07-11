@@ -1,0 +1,222 @@
+{
+  "name": "SUAppcastItem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDictionary:": {
+      "name": "initWithDictionary:",
+      "bridgedName": "initWithDictionary",
+      "args": [
+        {
+          "name": "dict",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDictionary:failureReason:": {
+      "name": "initWithDictionary:failureReason:",
+      "bridgedName": "initWithDictionary_failureReason",
+      "args": [
+        {
+          "name": "dict",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSString **",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "infoURL": {
+      "name": "infoURL",
+      "bridgedName": "infoURL",
+      "args": [],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "dateString": {
+      "name": "dateString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "itemDescription": {
+      "name": "itemDescription",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "releaseNotesURL": {
+      "name": "releaseNotesURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "strong",
+        "readonly"
+      ]
+    },
+    "DSASignature": {
+      "name": "DSASignature",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "minimumSystemVersion": {
+      "name": "minimumSystemVersion",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "maximumSystemVersion": {
+      "name": "maximumSystemVersion",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "fileURL": {
+      "name": "fileURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "strong",
+        "readonly"
+      ]
+    },
+    "contentLength": {
+      "name": "contentLength",
+      "pointer": false,
+      "type": "uint64_t",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "versionString": {
+      "name": "versionString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "osString": {
+      "name": "osString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "displayVersionString": {
+      "name": "displayVersionString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "deltaUpdates": {
+      "name": "deltaUpdates",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "infoURL": {
+      "name": "infoURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "strong",
+        "readonly"
+      ]
+    },
+    "deltaUpdate": {
+      "name": "deltaUpdate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isDeltaUpdate",
+        "readonly"
+      ]
+    },
+    "criticalUpdate": {
+      "name": "criticalUpdate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isCriticalUpdate",
+        "readonly"
+      ]
+    },
+    "macOsUpdate": {
+      "name": "macOsUpdate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isMacOsUpdate",
+        "readonly"
+      ]
+    },
+    "informationOnlyUpdate": {
+      "name": "informationOnlyUpdate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isInformationOnlyUpdate",
+        "readonly"
+      ]
+    },
+    "propertiesDictionary": {
+      "name": "propertiesDictionary",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "readonly",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,96 @@
+{
+  "name": "BCMagnifierWindow",
+  "extends": "NSWindow",
+  "interfaces": [],
+  "methods": {
+    "initWithScreenGrab:frameOffset:": {
+      "name": "initWithScreenGrab:frameOffset:",
+      "bridgedName": "initWithScreenGrab_frameOffset",
+      "args": [
+        {
+          "name": "screenGrab",
+          "type": "BCScreenGrab *",
+          "nullable": false
+        },
+        {
+          "name": "offset",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateScreenGrabIfNeeded:": {
+      "name": "updateScreenGrabIfNeeded:",
+      "bridgedName": "updateScreenGrabIfNeeded",
+      "args": [
+        {
+          "name": "screenGrab",
+          "type": "BCScreenGrab *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseMovedTo:": {
+      "name": "mouseMovedTo:",
+      "bridgedName": "mouseMovedTo",
+      "args": [
+        {
+          "name": "mousePoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setCurrentColor:": {
+      "name": "setCurrentColor:",
+      "bridgedName": "setCurrentColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "BCFlexibleColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flagsChanged": {
+      "name": "flagsChanged",
+      "bridgedName": "flagsChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "frameOffset": {
+      "name": "frameOffset",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "screenFrame": {
+      "name": "screenFrame",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

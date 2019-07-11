@@ -1,0 +1,23 @@
+{
+  "name": "MSFastPathBuilder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "pathForMaskImage:": {
+      "name": "pathForMaskImage:",
+      "bridgedName": "pathForMaskImage",
+      "args": [
+        {
+          "name": "maskImage",
+          "type": "NSBitmapImageRep *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

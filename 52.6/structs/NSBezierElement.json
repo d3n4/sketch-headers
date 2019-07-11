@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "NSBezierElement",
+  "members": [
+    {
+      "name": "kind",
+      "pointer": false,
+      "type": "NSBezierPathElement"
+    },
+    {
+      "name": "point",
+      "pointer": false,
+      "type": "NSPoint"
+    },
+    {
+      "name": "controlPoints",
+      "pointer": false,
+      "type": "NSPoint[2]"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "SVGFill",
+  "extends": "_SVGFill",
+  "interfaces": [],
+  "methods": {
+    "fillForXML:element:parent:": {
+      "name": "fillForXML:element:parent:",
+      "bridgedName": "fillForXML_element_parent",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "element",
+          "type": "SVGElement*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SVGDrawableElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "SVGFill*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

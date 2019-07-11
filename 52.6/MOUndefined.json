@@ -1,0 +1,17 @@
+{
+  "name": "MOUndefined",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "undefined": {
+      "name": "undefined",
+      "bridgedName": "undefined",
+      "args": [],
+      "returns": "MOUndefined *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

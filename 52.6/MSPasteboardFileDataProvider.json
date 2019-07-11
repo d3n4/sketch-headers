@@ -1,0 +1,47 @@
+{
+  "name": "MSPasteboardFileDataProvider",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "addLayers:toPasteboard:": {
+      "name": "addLayers:toPasteboard:",
+      "bridgedName": "addLayers_toPasteboard",
+      "args": [
+        {
+          "name": "layers",
+          "type": "nonnull NSArray<MSLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "pboard",
+          "type": "nonnull NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportLayers:toFolder:": {
+      "name": "exportLayers:toFolder:",
+      "bridgedName": "exportLayers_toFolder",
+      "args": [
+        {
+          "name": "layers",
+          "type": "nonnull NSArray<MSLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "folder",
+          "type": "nonnull NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSArray<NSURL *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

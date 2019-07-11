@@ -1,0 +1,10 @@
+{
+  "name": "MSLayerRendererCG",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSLayerRenderer"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

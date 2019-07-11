@@ -1,0 +1,111 @@
+{
+  "protocol": true,
+  "name": "MSPathRenderer",
+  "extends": "MSRenderer",
+  "interfaces": [],
+  "methods": {
+    "renderPath:style:layer:inRect:fallbackColor:context:": {
+      "name": "renderPath:style:layer:inRect:fallbackColor:context:",
+      "bridgedName": "renderPath_style_layer_inRect_fallbackColor_context",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "style",
+          "type": "MSImmutableStyle*",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSImmutableStyledLayer *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "fillColor",
+          "type": "CGColorRef",
+          "nullable": true
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderFillsForPath:style:layer:rect:context:": {
+      "name": "renderFillsForPath:style:layer:rect:context:",
+      "bridgedName": "renderFillsForPath_style_layer_rect_context",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath*",
+          "nullable": false
+        },
+        {
+          "name": "style",
+          "type": "MSImmutableStyle*",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSImmutableStyledLayer*",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderBordersForPath:style:rect:context:": {
+      "name": "renderBordersForPath:style:rect:context:",
+      "bridgedName": "renderBordersForPath_style_rect_context",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath*",
+          "nullable": false
+        },
+        {
+          "name": "style",
+          "type": "MSImmutableStyle*",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

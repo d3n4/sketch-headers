@@ -1,0 +1,23 @@
+{
+  "name": "MSSmartRotateAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "smartRotate:": {
+      "name": "smartRotate:",
+      "bridgedName": "smartRotate",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

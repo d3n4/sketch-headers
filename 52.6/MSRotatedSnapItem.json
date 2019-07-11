@@ -1,0 +1,8 @@
+{
+  "name": "MSRotatedSnapItem",
+  "extends": "MSSnapItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

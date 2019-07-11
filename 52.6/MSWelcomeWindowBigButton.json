@@ -1,0 +1,8 @@
+{
+  "name": "MSWelcomeWindowBigButton",
+  "extends": "MSHoverButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

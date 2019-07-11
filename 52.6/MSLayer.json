@@ -1,0 +1,1516 @@
+{
+  "name": "MSLayer",
+  "extends": "_MSLayer",
+  "interfaces": [
+    "MSLayer",
+    "NSCopying",
+    "MSRectDelegate"
+  ],
+  "methods": {
+    "alignLayers:withMode:toKey:pixelFit:": {
+      "name": "alignLayers:withMode:toKey:pixelFit:",
+      "bridgedName": "alignLayers_withMode_toKey_pixelFit",
+      "args": [
+        {
+          "name": "layerArray",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "mode",
+          "type": "MSLayerAlignmentMode",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "shouldPixelFit",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "hudDescription": {
+      "name": "hudDescription",
+      "bridgedName": "hudDescription",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerDidResizeFromInspector:": {
+      "name": "layerDidResizeFromInspector:",
+      "bridgedName": "layerDidResizeFromInspector",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boundsOfParentLayer": {
+      "name": "boundsOfParentLayer",
+      "bridgedName": "boundsOfParentLayer",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "minimumAdjustedRectForValue:axis:anchor:": {
+      "name": "minimumAdjustedRectForValue:axis:anchor:",
+      "bridgedName": "minimumAdjustedRectForValue_axis_anchor",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "anchor",
+          "type": "BCCorner",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layersByConvertingToOutlines": {
+      "name": "layersByConvertingToOutlines",
+      "bridgedName": "layersByConvertingToOutlines",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canConvertToOutlines": {
+      "name": "canConvertToOutlines",
+      "bridgedName": "canConvertToOutlines",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceWithInstanceOfSymbol:": {
+      "name": "replaceWithInstanceOfSymbol:",
+      "bridgedName": "replaceWithInstanceOfSymbol",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSymbolInstance *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapItemClass": {
+      "name": "snapItemClass",
+      "bridgedName": "snapItemClass",
+      "args": [],
+      "returns": "Class",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canSnap:toLayer:": {
+      "name": "canSnap:toLayer:",
+      "bridgedName": "canSnap_toLayer",
+      "args": [
+        {
+          "name": "snapType",
+          "type": "MSSnapType",
+          "nullable": false
+        },
+        {
+          "name": "otherLayer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "styleForBooleanOperation": {
+      "name": "styleForBooleanOperation",
+      "bridgedName": "styleForBooleanOperation",
+      "args": [],
+      "returns": "MSStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportsInnerOuterBorders": {
+      "name": "supportsInnerOuterBorders",
+      "bridgedName": "supportsInnerOuterBorders",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportsMultipleShadows": {
+      "name": "supportsMultipleShadows",
+      "bridgedName": "supportsMultipleShadows",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeColor:": {
+      "name": "changeColor:",
+      "bridgedName": "changeColor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "displayName": {
+      "name": "displayName",
+      "bridgedName": "displayName",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentForInsertingLayers": {
+      "name": "parentForInsertingLayers",
+      "bridgedName": "parentForInsertingLayers",
+      "args": [],
+      "returns": "MSLayerGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "CSSAttributeString": {
+      "name": "CSSAttributeString",
+      "bridgedName": "CSSAttributeString",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "CSSAttributes": {
+      "name": "CSSAttributes",
+      "bridgedName": "CSSAttributes",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetConstraints": {
+      "name": "resetConstraints",
+      "bridgedName": "resetConstraints",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceFonts:": {
+      "name": "replaceFonts:",
+      "bridgedName": "replaceFonts",
+      "args": [
+        {
+          "name": "fontReplacements",
+          "type": "NSDictionary <NSString *,NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectionHitTest:options:zoomValue:": {
+      "name": "selectionHitTest:options:zoomValue:",
+      "bridgedName": "selectionHitTest_options_zoomValue",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSLayerSelectionOptions",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSHitTestResult *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsPoint:options:zoomValue:": {
+      "name": "containsPoint:options:zoomValue:",
+      "bridgedName": "containsPoint_options_zoomValue",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSLayerSelectionOptions",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hitTestRect:options:": {
+      "name": "hitTestRect:options:",
+      "bridgedName": "hitTestRect_options",
+      "args": [
+        {
+          "name": "selectionRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSLayerSelectionOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layoutDirection": {
+      "name": "layoutDirection",
+      "bridgedName": "layoutDirection",
+      "args": [],
+      "returns": "NSUserInterfaceLayoutDirection",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyOverrides:document:": {
+      "name": "applyOverrides:document:",
+      "bridgedName": "applyOverrides_document",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSArray<MSImmutableOverrideValue*> *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyOverride:document:": {
+      "name": "applyOverride:document:",
+      "bridgedName": "applyOverride_document",
+      "args": [
+        {
+          "name": "overrideValue",
+          "type": "MSImmutableOverrideValue*",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "userVisibleRotationForRotation:": {
+      "name": "userVisibleRotationForRotation:",
+      "bridgedName": "userVisibleRotationForRotation",
+      "args": [
+        {
+          "name": "r",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotationForUserVisibleRotation:": {
+      "name": "rotationForUserVisibleRotation:",
+      "bridgedName": "rotationForUserVisibleRotation",
+      "args": [
+        {
+          "name": "r",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "applyRotation:explicitRotationCenter:": {
+      "name": "applyRotation:explicitRotationCenter:",
+      "bridgedName": "applyRotation_explicitRotationCenter",
+      "args": [
+        {
+          "name": "rotation",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "rotationCenter",
+          "type": "NSValue *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyUserVisibleRotation:explicitRotationCenter:": {
+      "name": "applyUserVisibleRotation:explicitRotationCenter:",
+      "bridgedName": "applyUserVisibleRotation_explicitRotationCenter",
+      "args": [
+        {
+          "name": "userVisibleRotation",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "rotationCenter",
+          "type": "NSValue *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWithPath:": {
+      "name": "layerWithPath:",
+      "bridgedName": "layerWithPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSStyledLayer <MSPathLayer> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "beginEditingFrame": {
+      "name": "beginEditingFrame",
+      "bridgedName": "beginEditingFrame",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endEditingFrame": {
+      "name": "endEditingFrame",
+      "bridgedName": "endEditingFrame",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithFrame:": {
+      "name": "initWithFrame:",
+      "bridgedName": "initWithFrame",
+      "args": [
+        {
+          "name": "frame",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeLayerNamesUnique:withOptions:": {
+      "name": "makeLayerNamesUnique:withOptions:",
+      "bridgedName": "makeLayerNamesUnique_withOptions",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSLayerRenameOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "makeNameUniqueWithOptions:": {
+      "name": "makeNameUniqueWithOptions:",
+      "bridgedName": "makeNameUniqueWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSLayerRenameOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeNameUniqueInRoot:withOptions:": {
+      "name": "makeNameUniqueInRoot:withOptions:",
+      "bridgedName": "makeNameUniqueInRoot_withOptions",
+      "args": [
+        {
+          "name": "root",
+          "type": "id<MSLayerContainment>",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSLayerRenameOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rootForNameUniquing": {
+      "name": "rootForNameUniquing",
+      "bridgedName": "rootForNameUniquing",
+      "args": [],
+      "returns": "id<MSLayerContainment>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "frameForTransforms": {
+      "name": "frameForTransforms",
+      "bridgedName": "frameForTransforms",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "absoluteRect": {
+      "name": "absoluteRect",
+      "bridgedName": "absoluteRect",
+      "args": [],
+      "returns": "MSAbsoluteRect *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setWidthRespectingProportions:": {
+      "name": "setWidthRespectingProportions:",
+      "bridgedName": "setWidthRespectingProportions",
+      "args": [
+        {
+          "name": "newWidth",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setHeightRespectingProportions:": {
+      "name": "setHeightRespectingProportions:",
+      "bridgedName": "setHeightRespectingProportions",
+      "args": [
+        {
+          "name": "newHeight",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculateProportions": {
+      "name": "calculateProportions",
+      "bridgedName": "calculateProportions",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeOriginIntegral": {
+      "name": "makeOriginIntegral",
+      "bridgedName": "makeOriginIntegral",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeRectIntegral": {
+      "name": "makeRectIntegral",
+      "bridgedName": "makeRectIntegral",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isRectIntegral": {
+      "name": "isRectIntegral",
+      "bridgedName": "isRectIntegral",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveBySuggestedOffset:": {
+      "name": "moveBySuggestedOffset:",
+      "bridgedName": "moveBySuggestedOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGVector",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectionCornerMaskWithZoomValue:": {
+      "name": "selectionCornerMaskWithZoomValue:",
+      "bridgedName": "selectionCornerMaskWithZoomValue",
+      "args": [
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlay": {
+      "name": "refreshOverlay",
+      "bridgedName": "refreshOverlay",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlayWithAbsoluteMargins:": {
+      "name": "refreshOverlayWithAbsoluteMargins:",
+      "bridgedName": "refreshOverlayWithAbsoluteMargins",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlayInRect:": {
+      "name": "refreshOverlayInRect:",
+      "bridgedName": "refreshOverlayInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "absoluteInfluenceRect": {
+      "name": "absoluteInfluenceRect",
+      "bridgedName": "absoluteInfluenceRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "alignmentRectInCoordinateSpace:options:": {
+      "name": "alignmentRectInCoordinateSpace:options:",
+      "bridgedName": "alignmentRectInCoordinateSpace_options",
+      "args": [
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSAlignmentRectOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "frameForAlignmentRect:": {
+      "name": "frameForAlignmentRect:",
+      "bridgedName": "frameForAlignmentRect",
+      "args": [
+        {
+          "name": "alignmentRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "select:byExtendingSelection:": {
+      "name": "select:byExtendingSelection:",
+      "bridgedName": "select_byExtendingSelection",
+      "args": [
+        {
+          "name": "flag",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "expand",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "select:byExtendingSelection:showSelection:": {
+      "name": "select:byExtendingSelection:showSelection:",
+      "bridgedName": "select_byExtendingSelection_showSelection",
+      "args": [
+        {
+          "name": "shouldSelect",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "expand",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "showSelection",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsSelectedItemIncludingSelf:": {
+      "name": "containsSelectedItemIncludingSelf:",
+      "bridgedName": "containsSelectedItemIncludingSelf",
+      "args": [
+        {
+          "name": "includeSelf",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isSelectableOnCanvasWithOptions:": {
+      "name": "isSelectableOnCanvasWithOptions:",
+      "bridgedName": "isSelectableOnCanvasWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSLayerSelectionOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isOpenForSelectionWithOptions:": {
+      "name": "isOpenForSelectionWithOptions:",
+      "bridgedName": "isOpenForSelectionWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSLayerSelectionOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "limitsSelectionToBounds": {
+      "name": "limitsSelectionToBounds",
+      "bridgedName": "limitsSelectionToBounds",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectableLayersWithOptions:": {
+      "name": "selectableLayersWithOptions:",
+      "bridgedName": "selectableLayersWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSLayerSelectionOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentShape": {
+      "name": "parentShape",
+      "bridgedName": "parentShape",
+      "args": [],
+      "returns": "MSShapeGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentSymbol": {
+      "name": "parentSymbol",
+      "bridgedName": "parentSymbol",
+      "args": [],
+      "returns": "MSSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentRoot": {
+      "name": "parentRoot",
+      "bridgedName": "parentRoot",
+      "args": [],
+      "returns": "MSLayerGroup<MSRootLayer>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeFromParent": {
+      "name": "removeFromParent",
+      "bridgedName": "removeFromParent",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ancestorsAndSelf": {
+      "name": "ancestorsAndSelf",
+      "bridgedName": "ancestorsAndSelf",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ancestors": {
+      "name": "ancestors",
+      "bridgedName": "ancestors",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canContainLayer:": {
+      "name": "canContainLayer:",
+      "bridgedName": "canContainLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustmentHandleAtPoint:zoomScale:resizing:": {
+      "name": "adjustmentHandleAtPoint:zoomScale:resizing:",
+      "bridgedName": "adjustmentHandleAtPoint_zoomScale_resizing",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "resizing",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BCCorner",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transform": {
+      "name": "transform",
+      "bridgedName": "transform",
+      "args": [],
+      "returns": "NSAffineTransform *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ancestorsAndSelfTransforms": {
+      "name": "ancestorsAndSelfTransforms",
+      "bridgedName": "ancestorsAndSelfTransforms",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "concatAncestorsAndSelfTransforms": {
+      "name": "concatAncestorsAndSelfTransforms",
+      "bridgedName": "concatAncestorsAndSelfTransforms",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canBeTransformed": {
+      "name": "canBeTransformed",
+      "bridgedName": "canBeTransformed",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canRotate": {
+      "name": "canRotate",
+      "bridgedName": "canRotate",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canScale": {
+      "name": "canScale",
+      "bridgedName": "canScale",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasEnabledBackgroundBlur": {
+      "name": "hasEnabledBackgroundBlur",
+      "bridgedName": "hasEnabledBackgroundBlur",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveInLayerTreeInBlock:": {
+      "name": "moveInLayerTreeInBlock:",
+      "bridgedName": "moveInLayerTreeInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "multiplyBy:": {
+      "name": "multiplyBy:",
+      "bridgedName": "multiplyBy",
+      "args": [
+        {
+          "name": "amount",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeWithOldGroupSize:NS_REQUIRES_SUPER": {
+      "name": "resizeWithOldGroupSize:NS_REQUIRES_SUPER",
+      "bridgedName": "resizeWithOldGroupSize_NS_REQUIRES_SUPER",
+      "args": [
+        {
+          "name": "oldSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWillStartResize NS_REQUIRES_SUPER": {
+      "name": "layerWillStartResize NS_REQUIRES_SUPER",
+      "bridgedName": "layerWillStartResize NS_REQUIRES_SUPER",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerDidEndResize": {
+      "name": "layerDidEndResize",
+      "bridgedName": "layerDidEndResize",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerDidResizeFromRect:corner:": {
+      "name": "layerDidResizeFromRect:corner:",
+      "bridgedName": "layerDidResizeFromRect_corner",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "corner",
+          "type": "BCCorner",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculateMinimumSize": {
+      "name": "calculateMinimumSize",
+      "bridgedName": "calculateMinimumSize",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allSymbolInstancesInChildren": {
+      "name": "allSymbolInstancesInChildren",
+      "bridgedName": "allSymbolInstancesInChildren",
+      "args": [],
+      "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isLine": {
+      "name": "isLine",
+      "bridgedName": "isLine",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetFlow": {
+      "name": "resetFlow",
+      "bridgedName": "resetFlow",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isPartOfClippingMask": {
+      "name": "isPartOfClippingMask",
+      "bridgedName": "isPartOfClippingMask",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasClippingMask": {
+      "name": "hasClippingMask",
+      "bridgedName": "hasClippingMask",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "candidatesForMasking": {
+      "name": "candidatesForMasking",
+      "bridgedName": "candidatesForMasking",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closestClippingLayer": {
+      "name": "closestClippingLayer",
+      "bridgedName": "closestClippingLayer",
+      "args": [],
+      "returns": "MSShapeGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "followMaskChainForLayerAtIndex:usingBlock:": {
+      "name": "followMaskChainForLayerAtIndex:usingBlock:",
+      "bridgedName": "followMaskChainForLayerAtIndex_usingBlock",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(__kindof MSLayer *layer, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addChangeObserver:": {
+      "name": "addChangeObserver:",
+      "bridgedName": "addChangeObserver",
+      "args": [
+        {
+          "name": "observer",
+          "type": "id<MSLayerChangeObserver>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeChangeObserver:": {
+      "name": "removeChangeObserver:",
+      "bridgedName": "removeChangeObserver",
+      "args": [
+        {
+          "name": "observer",
+          "type": "id<MSLayerChangeObserver>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumeratorWithOptions:": {
+      "name": "enumeratorWithOptions:",
+      "bridgedName": "enumeratorWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSLayerEnumeratorFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerEnumerator<MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "configureBackgroundOfRequest:": {
+      "name": "configureBackgroundOfRequest:",
+      "bridgedName": "configureBackgroundOfRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "MSExportRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustAfterInsert": {
+      "name": "adjustAfterInsert",
+      "bridgedName": "adjustAfterInsert",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handleDoubleClick": {
+      "name": "handleDoubleClick",
+      "bridgedName": "handleDoubleClick",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handlerClass": {
+      "name": "handlerClass",
+      "bridgedName": "handlerClass",
+      "args": [],
+      "returns": "nullable Class",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldRefreshOverlayForFlows": {
+      "name": "shouldRefreshOverlayForFlows",
+      "bridgedName": "shouldRefreshOverlayForFlows",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorSections": {
+      "name": "inspectorSections",
+      "bridgedName": "inspectorSections",
+      "args": [],
+      "returns": "nullable NSDictionary <NSString *, NSSet<MSLayer *> *>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeBitmapImageToFile:": {
+      "name": "writeBitmapImageToFile:",
+      "bridgedName": "writeBitmapImageToFile",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldDrawSelection": {
+      "name": "shouldDrawSelection",
+      "bridgedName": "shouldDrawSelection",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldDrawSelectionStroke": {
+      "name": "shouldDrawSelectionStroke",
+      "bridgedName": "shouldDrawSelectionStroke",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cornerRectType": {
+      "name": "cornerRectType",
+      "bridgedName": "cornerRectType",
+      "args": [],
+      "returns": "MSDotRectType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldFlattenAfterRotate": {
+      "name": "shouldFlattenAfterRotate",
+      "bridgedName": "shouldFlattenAfterRotate",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "canChangeBooleanOperation": {
+      "name": "canChangeBooleanOperation",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shareableObjectType": {
+      "name": "shareableObjectType",
+      "pointer": false,
+      "type": "MSShareableObjectType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedMaster": {
+      "name": "sharedMaster",
+      "pointer": false,
+      "type": "MSShareableObject ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "hasFixedEdges": {
+      "name": "hasFixedEdges",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "dataSupplierIdentifier": {
+      "name": "dataSupplierIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "userVisibleRotation": {
+      "name": "userVisibleRotation",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "constrainProportions": {
+      "name": "constrainProportions",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "proportions": {
+      "name": "proportions",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "pathInBounds": {
+      "name": "pathInBounds",
+      "pointer": false,
+      "type": "MSPath ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pathInFrame": {
+      "name": "pathInFrame",
+      "pointer": false,
+      "type": "MSPath ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "pathInFrameWithTransforms": {
+      "name": "pathInFrameWithTransforms",
+      "pointer": false,
+      "type": "MSPath ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "bounds": {
+      "name": "bounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "origin": {
+      "name": "origin",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "center": {
+      "name": "center",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isExpanded": {
+      "name": "isExpanded",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "absolutePosition": {
+      "name": "absolutePosition",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "absoluteRotation": {
+      "name": "absoluteRotation",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "absoluteCenter": {
+      "name": "absoluteCenter",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "absoluteIsFlippedHorizontal": {
+      "name": "absoluteIsFlippedHorizontal",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "absoluteIsFlippedVertical": {
+      "name": "absoluteIsFlippedVertical",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isSelected": {
+      "name": "isSelected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "parentPage": {
+      "name": "parentPage",
+      "pointer": false,
+      "type": "MSPage ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "weak",
+        "nullable"
+      ]
+    },
+    "parentArtboard": {
+      "name": "parentArtboard",
+      "pointer": false,
+      "type": "MSArtboardGroup ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "ancestry": {
+      "name": "ancestry",
+      "pointer": false,
+      "type": "MSImmutableLayerAncestry ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "unitCoordinateSpace": {
+      "name": "unitCoordinateSpace",
+      "pointer": false,
+      "type": "id <MSLayerCoordinateSpace>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "rulerCoordinateSpace": {
+      "name": "rulerCoordinateSpace",
+      "pointer": false,
+      "type": "id <MSLayerCoordinateSpace>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "usedStyle": {
+      "name": "usedStyle",
+      "pointer": false,
+      "type": "MSStyle ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "transformStruct": {
+      "name": "transformStruct",
+      "pointer": false,
+      "type": "CHTransformStruct",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

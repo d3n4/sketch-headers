@@ -1,0 +1,42 @@
+{
+  "name": "MSArtboardOrderSorting",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sortArtboards:inOrder:": {
+      "name": "sortArtboards:inOrder:",
+      "bridgedName": "sortArtboards_inOrder",
+      "args": [
+        {
+          "name": "artboards",
+          "type": "NSArray <id<MSArtboardGroup>> *",
+          "nullable": false
+        },
+        {
+          "name": "order",
+          "type": "MSLayerOrderSortingOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "sortArtboardsInDefaultOrder:": {
+      "name": "sortArtboardsInDefaultOrder:",
+      "bridgedName": "sortArtboardsInDefaultOrder",
+      "args": [
+        {
+          "name": "artboards",
+          "type": "NSArray <id<MSArtboardGroup>> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

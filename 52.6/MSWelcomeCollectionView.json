@@ -1,0 +1,8 @@
+{
+  "name": "MSWelcomeCollectionView",
+  "extends": "NSCollectionView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

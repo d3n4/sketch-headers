@@ -1,0 +1,23 @@
+{
+  "name": "MSSaveAsTemplateAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "saveAsTemplate:": {
+      "name": "saveAsTemplate:",
+      "bridgedName": "saveAsTemplate",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

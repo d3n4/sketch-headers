@@ -1,0 +1,86 @@
+{
+  "name": "BCRangeMap",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "allRanges": {
+      "name": "allRanges",
+      "bridgedName": "allRanges",
+      "args": [],
+      "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allObjects": {
+      "name": "allObjects",
+      "bridgedName": "allObjects",
+      "args": [],
+      "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForLocation:": {
+      "name": "objectForLocation:",
+      "bridgedName": "objectForLocation",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rangeForLocation:": {
+      "name": "rangeForLocation:",
+      "bridgedName": "rangeForLocation",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRange",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setObject:forRange:": {
+      "name": "setObject:forRange:",
+      "bridgedName": "setObject_forRange",
+      "args": [
+        {
+          "name": "object",
+          "type": "id <NSObject>",
+          "nullable": false
+        },
+        {
+          "name": "range",
+          "type": "NSRange",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeObjectsAtOrBeyondLocation:": {
+      "name": "removeObjectsAtOrBeyondLocation:",
+      "bridgedName": "removeObjectsAtOrBeyondLocation",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

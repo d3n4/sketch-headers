@@ -1,0 +1,27 @@
+{
+  "name": "MSExportInspectorViewController",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "views": {
+      "name": "views",
+      "pointer": false,
+      "type": "NSArray <NSView *>*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasExports": {
+      "name": "hasExports",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

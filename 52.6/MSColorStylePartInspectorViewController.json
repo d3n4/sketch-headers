@@ -1,0 +1,71 @@
+{
+  "name": "MSColorStylePartInspectorViewController",
+  "extends": "MSStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {
+    "previewCellAction:": {
+      "name": "previewCellAction:",
+      "bridgedName": "previewCellAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkBoxAction:": {
+      "name": "checkBoxAction:",
+      "bridgedName": "checkBoxAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillTypeStringForFillType:": {
+      "name": "fillTypeStringForFillType:",
+      "bridgedName": "fillTypeStringForFillType",
+      "args": [
+        {
+          "name": "fillType",
+          "type": "BCFillType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "colorButton": {
+      "name": "colorButton",
+      "pointer": false,
+      "type": "IBOutlet MSStylePartPreviewButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "popover": {
+      "name": "popover",
+      "pointer": false,
+      "type": "BCPopover ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

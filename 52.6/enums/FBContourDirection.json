@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "FBContourDirection",
+  "members": [
+    {
+      "name": "FBContourClockwise"
+    },
+    {
+      "name": "FBContourAntiClockwise"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSMoveActionGroup",
+  "extends": "MSActionGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

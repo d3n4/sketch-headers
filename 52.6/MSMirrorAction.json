@@ -1,0 +1,10 @@
+{
+  "name": "MSMirrorAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "MSWindowBadgeAction"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

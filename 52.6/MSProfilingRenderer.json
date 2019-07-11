@@ -1,0 +1,82 @@
+{
+  "name": "MSProfilingRenderer",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSAllRenderers"
+  ],
+  "methods": {
+    "initWithBaseRenderer:profilingDelegate:isGroup:label:": {
+      "name": "initWithBaseRenderer:profilingDelegate:isGroup:label:",
+      "bridgedName": "initWithBaseRenderer_profilingDelegate_isGroup_label",
+      "args": [
+        {
+          "name": "baseRenderer",
+          "type": "id<MSRenderer>",
+          "nullable": true
+        },
+        {
+          "name": "profilingDelegate",
+          "type": "id<MSProfilingRendererDelegate>",
+          "nullable": false
+        },
+        {
+          "name": "isGroup",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "label",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "baseRenderer": {
+      "name": "baseRenderer",
+      "pointer": false,
+      "type": "id<MSRenderer>",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "profilingDelegate": {
+      "name": "profilingDelegate",
+      "pointer": false,
+      "type": "id<MSProfilingRendererDelegate>",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "isGroup": {
+      "name": "isGroup",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "label": {
+      "name": "label",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

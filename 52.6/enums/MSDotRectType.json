@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSDotRectType",
+  "members": [
+    {
+      "name": "MSDotRectGradient"
+    },
+    {
+      "name": "MSDotRectLocked"
+    }
+  ]
+}

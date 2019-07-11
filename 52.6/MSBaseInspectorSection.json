@@ -1,0 +1,91 @@
+{
+  "name": "MSBaseInspectorSection",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorSection",
+    "MSInspectorItemDelegate"
+  ],
+  "methods": {
+    "updateItems": {
+      "name": "updateItems",
+      "bridgedName": "updateItems",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valuesPossiblyChanged": {
+      "name": "valuesPossiblyChanged",
+      "bridgedName": "valuesPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshIfNecessary:": {
+      "name": "refreshIfNecessary:",
+      "bridgedName": "refreshIfNecessary",
+      "args": [
+        {
+          "name": "treeDiff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeTextLayerFont:": {
+      "name": "changeTextLayerFont:",
+      "bridgedName": "changeTextLayerFont",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "items": {
+      "name": "items",
+      "pointer": false,
+      "type": "NSArray <MSInspectorItem *>",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSInspectorSectionDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "selectionContainsChildrenOfCompoundPath": {
+      "name": "selectionContainsChildrenOfCompoundPath",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

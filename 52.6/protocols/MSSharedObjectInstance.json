@@ -1,0 +1,31 @@
+{
+  "protocol": true,
+  "name": "MSSharedObjectInstance",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "type": {
+      "name": "type",
+      "bridgedName": "type",
+      "args": [],
+      "returns": "MSSharedStyleType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "syncWithTemplateInstance:": {
+      "name": "syncWithTemplateInstance:",
+      "bridgedName": "syncWithTemplateInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "nonnull id<MSSharedObjectInstance>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}
