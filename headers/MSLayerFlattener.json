@@ -41,6 +41,35 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "imageFromLayers:immutablePage:immutableDoc:includeArtboardBackground:": {
+      "name": "imageFromLayers:immutablePage:immutableDoc:includeArtboardBackground:",
+      "bridgedName": "imageFromLayers_immutablePage_immutableDoc_includeArtboardBackground",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "immutablePage",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "immutableDoc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "includeArtboardBackground",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "trimmedRectFromLayers:immutablePage:immutableDoc:": {
       "name": "trimmedRectFromLayers:immutablePage:immutableDoc:",
       "bridgedName": "trimmedRectFromLayers_immutablePage_immutableDoc",
@@ -58,6 +87,35 @@
         {
           "name": "immutableDoc",
           "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trimmedRectFromLayers:immutablePage:immutableDoc:includeArtboardBackground:": {
+      "name": "trimmedRectFromLayers:immutablePage:immutableDoc:includeArtboardBackground:",
+      "bridgedName": "trimmedRectFromLayers_immutablePage_immutableDoc_includeArtboardBackground",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "immutablePage",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "immutableDoc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "includeArtboardBackground",
+          "type": "BOOL",
           "nullable": false
         }
       ],
