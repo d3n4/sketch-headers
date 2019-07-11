@@ -1,0 +1,33 @@
+{
+  "name": "MSSmoothBezierFillet",
+  "extends": "MSBezierFillet",
+  "interfaces": [],
+  "methods": {
+    "smoothBezierFilletWithLineSegment1:lineSegment2:filletRadius:": {
+      "name": "smoothBezierFilletWithLineSegment1:lineSegment2:filletRadius:",
+      "bridgedName": "smoothBezierFilletWithLineSegment1_lineSegment2_filletRadius",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "filletRadius",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

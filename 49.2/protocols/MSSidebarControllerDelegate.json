@@ -1,0 +1,119 @@
+{
+  "protocol": true,
+  "name": "MSSidebarControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "sidebarControllerDidUpdate:": {
+      "name": "sidebarControllerDidUpdate:",
+      "bridgedName": "sidebarControllerDidUpdate",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSSidebarListController*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sidebarController:didChangeSelection:": {
+      "name": "sidebarController:didChangeSelection:",
+      "bridgedName": "sidebarController_didChangeSelection",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSSidebarListController*",
+          "nullable": false
+        },
+        {
+          "name": "selectedNodes",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sidebarController:validateRemovalOfPages:withRemovalBlock:": {
+      "name": "sidebarController:validateRemovalOfPages:withRemovalBlock:",
+      "bridgedName": "sidebarController_validateRemovalOfPages_withRemovalBlock",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSSidebarListController *",
+          "nullable": false
+        },
+        {
+          "name": "pages",
+          "type": "NSArray<MSPage*>*",
+          "nullable": false
+        },
+        {
+          "name": "removalBlock",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sidebarControllerContextMenuItemsForCurrentSelection:": {
+      "name": "sidebarControllerContextMenuItemsForCurrentSelection:",
+      "bridgedName": "sidebarControllerContextMenuItemsForCurrentSelection",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSSidebarListController*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sidebarController:hoveredLayerDidChangeTo:": {
+      "name": "sidebarController:hoveredLayerDidChangeTo:",
+      "bridgedName": "sidebarController_hoveredLayerDidChangeTo",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSSidebarListController *",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

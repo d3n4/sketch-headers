@@ -1,0 +1,53 @@
+{
+  "name": "MSAnalytics",
+  "extends": "BCSingleton",
+  "interfaces": [
+    "MSActionObserver"
+  ],
+  "methods": {
+    "trackScreenWithName:": {
+      "name": "trackScreenWithName:",
+      "bridgedName": "trackScreenWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trackEvent:withValue:": {
+      "name": "trackEvent:withValue:",
+      "bridgedName": "trackEvent_withValue",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isEnabled": {
+      "name": "isEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

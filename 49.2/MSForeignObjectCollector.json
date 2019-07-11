@@ -1,0 +1,48 @@
+{
+  "name": "MSForeignObjectCollector",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithProvider:": {
+      "name": "initWithProvider:",
+      "bridgedName": "initWithProvider",
+      "args": [
+        {
+          "name": "provider",
+          "type": "id<MSForeignObjectProvider>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "buildCollectionWithFilter:": {
+      "name": "buildCollectionWithFilter:",
+      "bridgedName": "buildCollectionWithFilter",
+      "args": [
+        {
+          "name": "filter",
+          "type": "MSForeignObjectCollectionFilter",
+          "nullable": true
+        }
+      ],
+      "returns": "NSArray<NSDictionary *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "provider": {
+      "name": "provider",
+      "pointer": false,
+      "type": "id<MSForeignObjectProvider>",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

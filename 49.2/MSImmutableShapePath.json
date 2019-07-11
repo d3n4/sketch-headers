@@ -1,0 +1,33 @@
+{
+  "name": "MSImmutableShapePath",
+  "extends": "_MSImmutableShapePath",
+  "interfaces": [],
+  "methods": {
+    "initWithPoints:pointRadiusBehaviour:isClosed:": {
+      "name": "initWithPoints:pointRadiusBehaviour:isClosed:",
+      "bridgedName": "initWithPoints_pointRadiusBehaviour_isClosed",
+      "args": [
+        {
+          "name": "points",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "behaviour",
+          "type": "MSPointRadiusBehaviour",
+          "nullable": false
+        },
+        {
+          "name": "isClosed",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

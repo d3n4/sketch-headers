@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "SCKPageAttributes",
+  "members": [
+    {
+      "name": "SCKPageNoAttribute",
+      "value": "0"
+    },
+    {
+      "name": "SCKPageNameAttribute",
+      "value": "1 << 0"
+    },
+    {
+      "name": "SCKPageSlugAttribute",
+      "value": "1 << 1"
+    },
+    {
+      "name": "SCKPageOrderAttribute",
+      "value": "1 << 2"
+    },
+    {
+      "name": "SCKPageArtboardsAttribute",
+      "value": "1 << 3"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "MSPatternFillType",
+  "members": [
+    {
+      "name": "MSPatternFillTypeTile",
+      "value": "0"
+    },
+    {
+      "name": "MSPatternFillTypeFill",
+      "value": "1"
+    },
+    {
+      "name": "MSPatternFillTypeStretch",
+      "value": "2"
+    },
+    {
+      "name": "MSPatternFillTypeFit",
+      "value": "3"
+    }
+  ]
+}

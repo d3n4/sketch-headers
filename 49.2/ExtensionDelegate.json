@@ -1,0 +1,10 @@
+{
+  "name": "ExtensionDelegate",
+  "extends": "NSObject",
+  "interfaces": [
+    "WKExtensionDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

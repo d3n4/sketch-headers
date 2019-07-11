@@ -1,0 +1,19 @@
+{
+  "name": "_MSImmutableTriangleShape",
+  "extends": "MSImmutableShapePathLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "isEquilateral": {
+      "name": "isEquilateral",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "MSExportFormatNamingTextField",
+  "extends": "NSTextField",
+  "interfaces": [],
+  "methods": {
+    "sharedFieldEditor": {
+      "name": "sharedFieldEditor",
+      "bridgedName": "sharedFieldEditor",
+      "args": [],
+      "returns": "NSTextView *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "exportFormats": {
+      "name": "exportFormats",
+      "pointer": false,
+      "type": "NSArray<MSExportFormat *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

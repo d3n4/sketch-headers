@@ -1,0 +1,42 @@
+{
+  "protocol": true,
+  "name": "MSLibraryObject",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "symbolWithID:": {
+      "name": "symbolWithID:",
+      "bridgedName": "symbolWithID",
+      "args": [
+        {
+          "name": "symbolID",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSSymbolMaster*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "libraryID": {
+      "name": "libraryID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

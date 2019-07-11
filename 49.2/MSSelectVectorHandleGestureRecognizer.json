@@ -1,0 +1,36 @@
+{
+  "name": "MSSelectVectorHandleGestureRecognizer",
+  "extends": "MSGestureRecognizer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "toggleSelection": {
+      "name": "toggleSelection",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "modifierFlags": {
+      "name": "modifierFlags",
+      "pointer": false,
+      "type": "NSEventModifierFlags",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSSelectVectorHandleGestureRecognizerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

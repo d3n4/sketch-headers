@@ -1,0 +1,8 @@
+{
+  "name": "_MSImmutableHotspotLayer",
+  "extends": "MSImmutableLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

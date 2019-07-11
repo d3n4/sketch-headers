@@ -1,0 +1,125 @@
+{
+  "protocol": true,
+  "name": "MSShapeGroup",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "bezierPathInRect:": {
+      "name": "bezierPathInRect:",
+      "bridgedName": "bezierPathInRect",
+      "args": [
+        {
+          "name": "f",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathOfSubPath:inRect:": {
+      "name": "bezierPathOfSubPath:inRect:",
+      "bridgedName": "bezierPathOfSubPath_inRect",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSShapePathLayer *",
+          "nullable": false
+        },
+        {
+          "name": "f",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathWithTransformsUsingCache:": {
+      "name": "pathWithTransformsUsingCache:",
+      "bridgedName": "pathWithTransformsUsingCache",
+      "args": [
+        {
+          "name": "cache",
+          "type": "BCCache*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyPropertiesToBezier:": {
+      "name": "applyPropertiesToBezier:",
+      "bridgedName": "applyPropertiesToBezier",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pathInBounds": {
+      "name": "pathInBounds",
+      "pointer": false,
+      "type": "MSPath ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bezierPath": {
+      "name": "bezierPath",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bezierPathInBounds": {
+      "name": "bezierPathInBounds",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "decoratedBezierPathInBounds": {
+      "name": "decoratedBezierPathInBounds",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasDecorations": {
+      "name": "hasDecorations",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isPartOfClippingMask": {
+      "name": "isPartOfClippingMask",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

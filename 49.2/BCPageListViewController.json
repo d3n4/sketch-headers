@@ -1,0 +1,8 @@
+{
+  "name": "BCPageListViewController",
+  "extends": "BCOutlineViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "MSOpacityBlendingInspectorViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorSection",
+    "NSMenuDelegate"
+  ],
+  "methods": {},
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray <MSStyledLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

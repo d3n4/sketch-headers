@@ -1,0 +1,41 @@
+{
+  "enum": true,
+  "name": "MSPasteboardVersion",
+  "members": [
+    {
+      "name": "MSPasteboardVersionUnknown",
+      "value": "0"
+    },
+    {
+      "name": "MSPasteboardVersion34",
+      "value": "1"
+    },
+    {
+      "name": "MSPasteboardVersion34WithSeparateLayersArchiving",
+      "value": "2"
+    },
+    {
+      "name": "MSPasteboardVersion36",
+      "value": "3"
+    },
+    {
+      "name": "MSPasteboardUsingJSON",
+      "value": "4"
+    },
+    {
+      "name": "MSPasteboardForeignObjects",
+      "value": "5"
+    },
+    {
+      "name": "MSPasteboardArchiveObjectIDs",
+      "value": "6"
+    },
+    {
+      "name": "MSPasteboardNextVersion"
+    },
+    {
+      "name": "MSPasteboardCurrentVersion",
+      "value": "MSPasteboardNextVersion - 1"
+    }
+  ]
+}

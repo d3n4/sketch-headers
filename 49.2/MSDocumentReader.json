@@ -1,0 +1,206 @@
+{
+  "name": "MSDocumentReader",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "readerForDocumentAtURL:": {
+      "name": "readerForDocumentAtURL:",
+      "bridgedName": "readerForDocumentAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDocumentReader*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "repair": {
+      "name": "repair",
+      "bridgedName": "repair",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "readDataWithCorruptionDetected:error:": {
+      "name": "readDataWithCorruptionDetected:error:",
+      "bridgedName": "readDataWithCorruptionDetected_error",
+      "args": [
+        {
+          "name": "corruptionDetected",
+          "type": "BOOL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError**",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDocumentData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "open:": {
+      "name": "open:",
+      "bridgedName": "open",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "previewImageWithMaximumSize:": {
+      "name": "previewImageWithMaximumSize:",
+      "bridgedName": "previewImageWithMaximumSize",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validate": {
+      "name": "validate",
+      "bridgedName": "validate",
+      "args": [],
+      "returns": "MSDocumentErrorCode",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "readImmutableDataWithCorruptionDetected:error:": {
+      "name": "readImmutableDataWithCorruptionDetected:error:",
+      "bridgedName": "readImmutableDataWithCorruptionDetected_error",
+      "args": [
+        {
+          "name": "corruptionDetected",
+          "type": "BOOL *",
+          "nullable": false
+        },
+        {
+          "name": "errorOut",
+          "type": "NSError*__autoreleasing*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableDocumentData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "readerForDocumentAtURL:engine:": {
+      "name": "readerForDocumentAtURL:engine:",
+      "bridgedName": "readerForDocumentAtURL_engine",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDocumentReader*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "documentWasMigrated": {
+      "name": "documentWasMigrated",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "missingFonts": {
+      "name": "missingFonts",
+      "pointer": false,
+      "type": "NSArray*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "UIMetadata": {
+      "name": "UIMetadata",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "containsPreviewImage": {
+      "name": "containsPreviewImage",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "previewImage": {
+      "name": "previewImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "libraryPreviewImage": {
+      "name": "libraryPreviewImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "version": {
+      "name": "version",
+      "pointer": false,
+      "type": "MSDocumentVersion",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "compatibilityVersion": {
+      "name": "compatibilityVersion",
+      "pointer": false,
+      "type": "MSDocumentVersion",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "metadata": {
+      "name": "metadata",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

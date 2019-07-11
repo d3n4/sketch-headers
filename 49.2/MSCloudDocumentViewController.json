@@ -1,0 +1,8 @@
+{
+  "name": "MSCloudDocumentViewController",
+  "extends": "MSCloudBaseViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,36 @@
+{
+  "name": "_MSOverrideValue",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "isEditing": {
+      "name": "isEditing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "overrideName": {
+      "name": "overrideName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "NSObject<NSCopying> ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

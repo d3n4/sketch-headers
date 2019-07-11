@@ -1,0 +1,142 @@
+{
+  "name": "MSStylePartInspectorViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorSection",
+    "NSWindowDelegate",
+    "MSColorInspectorDelegate",
+    "MSStylePartPreviewButtonDelegate"
+  ],
+  "methods": {
+    "stylePartViewController": {
+      "name": "stylePartViewController",
+      "bridgedName": "stylePartViewController",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "prepareForReuse": {
+      "name": "prepareForReuse",
+      "bridgedName": "prepareForReuse",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasEnabledStyle": {
+      "name": "hasEnabledStyle",
+      "bridgedName": "hasEnabledStyle",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didGetAddedToInspector": {
+      "name": "didGetAddedToInspector",
+      "bridgedName": "didGetAddedToInspector",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepare": {
+      "name": "prepare",
+      "bridgedName": "prepare",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateColorInActiveInspector": {
+      "name": "updateColorInActiveInspector",
+      "bridgedName": "updateColorInActiveInspector",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closePopover": {
+      "name": "closePopover",
+      "bridgedName": "closePopover",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "previewCellAction:": {
+      "name": "previewCellAction:",
+      "bridgedName": "previewCellAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "NSButton *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkBoxAction:": {
+      "name": "checkBoxAction:",
+      "bridgedName": "checkBoxAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "styleParts": {
+      "name": "styleParts",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "arrayController": {
+      "name": "arrayController",
+      "pointer": false,
+      "type": "IBOutlet NSArrayController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSStylePartInspectorDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "index": {
+      "name": "index",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "colorPickerButton": {
+      "name": "colorPickerButton",
+      "pointer": false,
+      "type": "IBOutlet MSStylePartPreviewButton ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

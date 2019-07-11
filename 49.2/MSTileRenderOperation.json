@@ -1,0 +1,126 @@
+{
+  "name": "MSTileRenderOperation",
+  "extends": "NSOperation",
+  "interfaces": [],
+  "methods": {
+    "initWithRenderingRequest:contextPool:driver:": {
+      "name": "initWithRenderingRequest:contextPool:driver:",
+      "bridgedName": "initWithRenderingRequest_contextPool_driver",
+      "args": [
+        {
+          "name": "renderingRequest",
+          "type": "MSRenderingRequest *",
+          "nullable": false
+        },
+        {
+          "name": "contextPool",
+          "type": "MSCGContextPool *",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelDrawing": {
+      "name": "cancelDrawing",
+      "bridgedName": "cancelDrawing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "tile": {
+      "name": "tile",
+      "pointer": false,
+      "type": "MSTile ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "driver": {
+      "name": "driver",
+      "pointer": false,
+      "type": "MSRenderingDriver ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "renderingRequest": {
+      "name": "renderingRequest",
+      "pointer": false,
+      "type": "MSRenderingRequest ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contentBounds": {
+      "name": "contentBounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "CGImageRef",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "contentRectNeedingRedraw": {
+      "name": "contentRectNeedingRedraw",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "distanceFromScrollOrigin": {
+      "name": "distanceFromScrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "pageForContent": {
+      "name": "pageForContent",
+      "pointer": false,
+      "type": "MSImmutablePage ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "contextPool": {
+      "name": "contextPool",
+      "pointer": false,
+      "type": "MSCGContextPool ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,248 @@
+{
+  "name": "_MSSymbolInstance",
+  "extends": "MSStyledLayer",
+  "interfaces": [],
+  "methods": {
+    "addOverrideValue:": {
+      "name": "addOverrideValue:",
+      "bridgedName": "addOverrideValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSOverrideValue *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addOverrideValues:": {
+      "name": "addOverrideValues:",
+      "bridgedName": "addOverrideValues",
+      "args": [
+        {
+          "name": "overrideValues",
+          "type": "NSArray<MSOverrideValue *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertOverrideValue:atIndex:": {
+      "name": "insertOverrideValue:atIndex:",
+      "bridgedName": "insertOverrideValue_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSOverrideValue *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertOverrideValue:beforeOverrideValue:": {
+      "name": "insertOverrideValue:beforeOverrideValue:",
+      "bridgedName": "insertOverrideValue_beforeOverrideValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSOverrideValue *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSOverrideValue *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertOverrideValues:beforeOverrideValue:": {
+      "name": "insertOverrideValues:beforeOverrideValue:",
+      "bridgedName": "insertOverrideValues_beforeOverrideValue",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSOverrideValue *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSOverrideValue *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertOverrideValue:afterOverrideValue:": {
+      "name": "insertOverrideValue:afterOverrideValue:",
+      "bridgedName": "insertOverrideValue_afterOverrideValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSOverrideValue *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSOverrideValue *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertOverrideValues:afterOverrideValue:": {
+      "name": "insertOverrideValues:afterOverrideValue:",
+      "bridgedName": "insertOverrideValues_afterOverrideValue",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSOverrideValue *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSOverrideValue *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeOverrideValue:": {
+      "name": "removeOverrideValue:",
+      "bridgedName": "removeOverrideValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSOverrideValue *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeOverrideValueAtIndex:": {
+      "name": "removeOverrideValueAtIndex:",
+      "bridgedName": "removeOverrideValueAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeOverrideValuesAtIndexes:": {
+      "name": "removeOverrideValuesAtIndexes:",
+      "bridgedName": "removeOverrideValuesAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllOverrideValues": {
+      "name": "removeAllOverrideValues",
+      "bridgedName": "removeAllOverrideValues",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveOverrideValueIndex:toIndex:": {
+      "name": "moveOverrideValueIndex:toIndex:",
+      "bridgedName": "moveOverrideValueIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "horizontalSpacing": {
+      "name": "horizontalSpacing",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "symbolID": {
+      "name": "symbolID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "verticalSpacing": {
+      "name": "verticalSpacing",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "overrideValues": {
+      "name": "overrideValues",
+      "pointer": false,
+      "type": "NSArray<__kindof MSOverrideValue *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

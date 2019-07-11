@@ -1,0 +1,23 @@
+{
+  "name": "MSClippingMaskAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "clippingMask:": {
+      "name": "clippingMask:",
+      "bridgedName": "clippingMask",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

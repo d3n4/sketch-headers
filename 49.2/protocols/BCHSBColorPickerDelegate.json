@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "BCHSBColorPickerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "hsbColorPickerDocumentColorSpace:": {
+      "name": "hsbColorPickerDocumentColorSpace:",
+      "bridgedName": "hsbColorPickerDocumentColorSpace",
+      "args": [
+        {
+          "name": "colorPicker",
+          "type": "BCHSBColorPicker *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hsbColorPickerPreviewColorSpace:": {
+      "name": "hsbColorPickerPreviewColorSpace:",
+      "bridgedName": "hsbColorPickerPreviewColorSpace",
+      "args": [
+        {
+          "name": "colorPicker",
+          "type": "BCHSBColorPicker *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

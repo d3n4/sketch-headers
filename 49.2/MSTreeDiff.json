@@ -1,0 +1,110 @@
+{
+  "name": "MSTreeDiff",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithFirstDocument:secondDocument:": {
+      "name": "initWithFirstDocument:secondDocument:",
+      "bridgedName": "initWithFirstDocument_secondDocument",
+      "args": [
+        {
+          "name": "firstDoc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "secondDoc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "diffs": {
+      "name": "diffs",
+      "bridgedName": "diffs",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contentDirtyDiffRectWithCache:": {
+      "name": "contentDirtyDiffRectWithCache:",
+      "bridgedName": "contentDirtyDiffRectWithCache",
+      "args": [
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overlayDirtyDiffRect": {
+      "name": "overlayDirtyDiffRect",
+      "bridgedName": "overlayDirtyDiffRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changedPropertiesAllExhibitTrait:allKeysWereCompared:": {
+      "name": "changedPropertiesAllExhibitTrait:allKeysWereCompared:",
+      "bridgedName": "changedPropertiesAllExhibitTrait_allKeysWereCompared",
+      "args": [
+        {
+          "name": "trait",
+          "type": "MSPropertyTraits",
+          "nullable": false
+        },
+        {
+          "name": "allKeysWereCompared",
+          "type": "BOOL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "someChangedPropertiesExhibitTrait:allKeysWereCompared:": {
+      "name": "someChangedPropertiesExhibitTrait:allKeysWereCompared:",
+      "bridgedName": "someChangedPropertiesExhibitTrait_allKeysWereCompared",
+      "args": [
+        {
+          "name": "targetTrait",
+          "type": "MSPropertyTraits",
+          "nullable": false
+        },
+        {
+          "name": "allKeysWereCompared",
+          "type": "BOOL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsLayerWithTraits:": {
+      "name": "containsLayerWithTraits:",
+      "bridgedName": "containsLayerWithTraits",
+      "args": [
+        {
+          "name": "traits",
+          "type": "MSTraits",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,34 @@
+{
+  "name": "SUTouchBarButtonGroup",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "initByReferencingButtons:": {
+      "name": "initByReferencingButtons:",
+      "bridgedName": "initByReferencingButtons",
+      "args": [
+        {
+          "name": "buttons",
+          "type": "NSArray<NSButton *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "buttons": {
+      "name": "buttons",
+      "pointer": false,
+      "type": "NSArray<NSButton *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

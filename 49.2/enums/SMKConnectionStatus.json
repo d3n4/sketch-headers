@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "SMKConnectionStatus",
+  "members": [
+    {
+      "name": "SMKConnectionStatusDestroyed"
+    },
+    {
+      "name": "SMKConnectionStatusClosed"
+    },
+    {
+      "name": "SMKConnectionStatusOpening"
+    },
+    {
+      "name": "SMKConnectionStatusOpen"
+    }
+  ]
+}

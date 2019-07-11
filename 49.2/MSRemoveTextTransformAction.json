@@ -1,0 +1,8 @@
+{
+  "name": "MSRemoveTextTransformAction",
+  "extends": "MSTextTransformAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

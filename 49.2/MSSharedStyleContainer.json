@@ -1,0 +1,179 @@
+{
+  "name": "MSSharedStyleContainer",
+  "extends": "_MSSharedStyleContainer",
+  "interfaces": [],
+  "methods": {
+    "addSharedStyleWithName:firstInstance:": {
+      "name": "addSharedStyleWithName:firstInstance:",
+      "bridgedName": "addSharedStyleWithName_firstInstance",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "firstInstance",
+          "type": "MSStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mergeSharedStyleWithName:sharedStyleID:instance:": {
+      "name": "mergeSharedStyleWithName:sharedStyleID:instance:",
+      "bridgedName": "mergeSharedStyleWithName_sharedStyleID_instance",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "sharedStyleID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "instance",
+          "type": "MSStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeSharedStyle:": {
+      "name": "removeSharedStyle:",
+      "bridgedName": "removeSharedStyle",
+      "args": [
+        {
+          "name": "sharedStyle",
+          "type": "MSSharedStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isSharedStyleForInstance:": {
+      "name": "isSharedStyleForInstance:",
+      "bridgedName": "isSharedStyleForInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedStyleForInstance:": {
+      "name": "sharedStyleForInstance:",
+      "bridgedName": "sharedStyleForInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedStyleWithID:": {
+      "name": "sharedStyleWithID:",
+      "bridgedName": "sharedStyleWithID",
+      "args": [
+        {
+          "name": "sharedStyleID",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedStyleAtIndex:": {
+      "name": "sharedStyleAtIndex:",
+      "bridgedName": "sharedStyleAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfSharedStyle:": {
+      "name": "indexOfSharedStyle:",
+      "bridgedName": "indexOfSharedStyle",
+      "args": [
+        {
+          "name": "sharedStyle",
+          "type": "MSSharedStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfSharedStyles": {
+      "name": "numberOfSharedStyles",
+      "bridgedName": "numberOfSharedStyles",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerInstance:withSharedStyle:": {
+      "name": "registerInstance:withSharedStyle:",
+      "bridgedName": "registerInstance_withSharedStyle",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSStyle *",
+          "nullable": false
+        },
+        {
+          "name": "sharedObject",
+          "type": "MSSharedStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validStyleType": {
+      "name": "validStyleType",
+      "bridgedName": "validStyleType",
+      "args": [],
+      "returns": "MSSharedStyleType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedStyles": {
+      "name": "sharedStyles",
+      "bridgedName": "sharedStyles",
+      "args": [],
+      "returns": "NSArray <MSSharedStyle *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

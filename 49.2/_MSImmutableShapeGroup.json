@@ -1,0 +1,8 @@
+{
+  "name": "_MSImmutableShapeGroup",
+  "extends": "MSImmutableLayerGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

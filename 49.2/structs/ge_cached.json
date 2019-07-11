@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "ge_cached",
+  "members": [
+    {
+      "name": "YplusX",
+      "pointer": false,
+      "type": "fe"
+    },
+    {
+      "name": "YminusX",
+      "pointer": false,
+      "type": "fe"
+    },
+    {
+      "name": "Z",
+      "pointer": false,
+      "type": "fe"
+    },
+    {
+      "name": "T2d",
+      "pointer": false,
+      "type": "fe"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "SMKUSBServerConnection",
+  "extends": "SMKConnection",
+  "interfaces": [],
+  "methods": {
+    "initWithDeviceID:": {
+      "name": "initWithDeviceID:",
+      "bridgedName": "initWithDeviceID",
+      "args": [
+        {
+          "name": "deviceID",
+          "type": "nonnull NSNumber *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "deviceID": {
+      "name": "deviceID",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

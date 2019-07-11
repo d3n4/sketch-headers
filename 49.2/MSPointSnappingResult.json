@@ -1,0 +1,97 @@
+{
+  "name": "MSPointSnappingResult",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithPoint:guides:snappedAxes:": {
+      "name": "initWithPoint:guides:snappedAxes:",
+      "bridgedName": "initWithPoint_guides_snappedAxes",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "guides",
+          "type": "NSArray <MSPointSnappingGuide *> *",
+          "nullable": false
+        },
+        {
+          "name": "axes",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snappingResultWithPoint:axes:": {
+      "name": "snappingResultWithPoint:axes:",
+      "bridgedName": "snappingResultWithPoint_axes",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "axes",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawAtZoomValue:": {
+      "name": "drawAtZoomValue:",
+      "bridgedName": "drawAtZoomValue",
+      "args": [
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "point": {
+      "name": "point",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "guides": {
+      "name": "guides",
+      "pointer": false,
+      "type": "NSArray <MSPointSnappingGuide *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "snappedAxes": {
+      "name": "snappedAxes",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,62 @@
+{
+  "name": "MSImmutableSymbolMaster",
+  "extends": "_MSImmutableSymbolMaster",
+  "interfaces": [],
+  "methods": {
+    "modifiedMasterByApplyingInstance:inDocument:": {
+      "name": "modifiedMasterByApplyingInstance:inDocument:",
+      "bridgedName": "modifiedMasterByApplyingInstance_inDocument",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSImmutableSymbolInstance *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectPaddingForInstancesInDocument:cache:visitedSymbols:": {
+      "name": "influenceRectPaddingForInstancesInDocument:cache:visitedSymbols:",
+      "bridgedName": "influenceRectPaddingForInstancesInDocument_cache_visitedSymbols",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": false
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "BCEdgePaddings",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "changeIdentifier": {
+      "name": "changeIdentifier",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

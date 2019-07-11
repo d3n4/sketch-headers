@@ -1,0 +1,192 @@
+{
+  "name": "SMKMirrorController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "connect:": {
+      "name": "connect:",
+      "bridgedName": "connect",
+      "args": [
+        {
+          "name": "client",
+          "type": "nonnull SMKMirrorClient *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disconnect:": {
+      "name": "disconnect:",
+      "bridgedName": "disconnect",
+      "args": [
+        {
+          "name": "client",
+          "type": "nonnull SMKMirrorClient *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "continueUserActivity:": {
+      "name": "continueUserActivity:",
+      "bridgedName": "continueUserActivity",
+      "args": [
+        {
+          "name": "userActivity",
+          "type": "nonnull NSUserActivity *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "whitelistClientAdvertisementID:": {
+      "name": "whitelistClientAdvertisementID:",
+      "bridgedName": "whitelistClientAdvertisementID",
+      "args": [
+        {
+          "name": "advertisementID",
+          "type": "nonnull NSUUID *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isClientWhitelisted:": {
+      "name": "isClientWhitelisted:",
+      "bridgedName": "isClientWhitelisted",
+      "args": [
+        {
+          "name": "client",
+          "type": "nonnull SMKMirrorClient *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateContent": {
+      "name": "invalidateContent",
+      "bridgedName": "invalidateContent",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateCurrentArtboard": {
+      "name": "invalidateCurrentArtboard",
+      "bridgedName": "invalidateCurrentArtboard",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateImageForArtboardIdentifier:inRect:": {
+      "name": "invalidateImageForArtboardIdentifier:inRect:",
+      "bridgedName": "invalidateImageForArtboardIdentifier_inRect",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<SMKMirrorControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    },
+    "usbEnabled": {
+      "name": "usbEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "webEnabled": {
+      "name": "webEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "netserviceEnabled": {
+      "name": "netserviceEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "clients": {
+      "name": "clients",
+      "pointer": false,
+      "type": "NSArray<SMKMirrorClient *> ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "strong",
+        "readonly"
+      ]
+    },
+    "hasConnectedClients": {
+      "name": "hasConnectedClients",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "webURL": {
+      "name": "webURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "dataSource": {
+      "name": "dataSource",
+      "pointer": false,
+      "type": "id<SMKMirrorDataSource>",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

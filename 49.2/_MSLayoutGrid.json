@@ -1,0 +1,108 @@
+{
+  "name": "_MSLayoutGrid",
+  "extends": "MSBaseGrid",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "columnWidth": {
+      "name": "columnWidth",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "drawHorizontal": {
+      "name": "drawHorizontal",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "drawHorizontalLines": {
+      "name": "drawHorizontalLines",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "drawVertical": {
+      "name": "drawVertical",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "gutterHeight": {
+      "name": "gutterHeight",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "gutterWidth": {
+      "name": "gutterWidth",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "guttersOutside": {
+      "name": "guttersOutside",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "horizontalOffset": {
+      "name": "horizontalOffset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "numberOfColumns": {
+      "name": "numberOfColumns",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "rowHeightMultiplication": {
+      "name": "rowHeightMultiplication",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "totalWidth": {
+      "name": "totalWidth",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

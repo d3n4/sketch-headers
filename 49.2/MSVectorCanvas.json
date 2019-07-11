@@ -1,0 +1,406 @@
+{
+  "name": "MSVectorCanvas",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "registerWithEventHandler:": {
+      "name": "registerWithEventHandler:",
+      "bridgedName": "registerWithEventHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "MSShapeEventHandler *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didChangeAllowSelectionOnly": {
+      "name": "didChangeAllowSelectionOnly",
+      "bridgedName": "didChangeAllowSelectionOnly",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectHandleAtIndexPath:extendSelection:": {
+      "name": "selectHandleAtIndexPath:extendSelection:",
+      "bridgedName": "selectHandleAtIndexPath_extendSelection",
+      "args": [
+        {
+          "name": "handle",
+          "type": "NSIndexPath *",
+          "nullable": false
+        },
+        {
+          "name": "extendSelection",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectHandlesAtIndexPaths:": {
+      "name": "selectHandlesAtIndexPaths:",
+      "bridgedName": "selectHandlesAtIndexPaths",
+      "args": [
+        {
+          "name": "indexPaths",
+          "type": "NSArray<NSIndexPath *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deselectHandleAtIndexPath:": {
+      "name": "deselectHandleAtIndexPath:",
+      "bridgedName": "deselectHandleAtIndexPath",
+      "args": [
+        {
+          "name": "handle",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawHairline": {
+      "name": "drawHairline",
+      "bridgedName": "drawHairline",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawWire": {
+      "name": "drawWire",
+      "bridgedName": "drawWire",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawSnaps": {
+      "name": "drawSnaps",
+      "bridgedName": "drawSnaps",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawHighlightedSegment": {
+      "name": "drawHighlightedSegment",
+      "bridgedName": "drawHighlightedSegment",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInsertionPoint": {
+      "name": "drawInsertionPoint",
+      "bridgedName": "drawInsertionPoint",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawHandles": {
+      "name": "drawHandles",
+      "bridgedName": "drawHandles",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeToCurveMode:": {
+      "name": "changeToCurveMode:",
+      "bridgedName": "changeToCurveMode",
+      "args": [
+        {
+          "name": "curveMode",
+          "type": "MSCurveMode",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "delete:": {
+      "name": "delete:",
+      "bridgedName": "delete",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "alignVectorPointsToKey:": {
+      "name": "alignVectorPointsToKey:",
+      "bridgedName": "alignVectorPointsToKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "distributeVectorPointsToAxis:": {
+      "name": "distributeVectorPointsToAxis:",
+      "bridgedName": "distributeVectorPointsToAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustHandlesToValue:onAxis:": {
+      "name": "adjustHandlesToValue:onAxis:",
+      "bridgedName": "adjustHandlesToValue_onAxis",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "singleMouseDownAtPoint:modifierFlags:": {
+      "name": "singleMouseDownAtPoint:modifierFlags:",
+      "bridgedName": "singleMouseDownAtPoint_modifierFlags",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleMouseDownAtPoint:modifierFlags:": {
+      "name": "doubleMouseDownAtPoint:modifierFlags:",
+      "bridgedName": "doubleMouseDownAtPoint_modifierFlags",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseUpAtPoint:": {
+      "name": "mouseUpAtPoint:",
+      "bridgedName": "mouseUpAtPoint",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trackMouse:": {
+      "name": "trackMouse:",
+      "bridgedName": "trackMouse",
+      "args": [
+        {
+          "name": "sender",
+          "type": "MSMouseTracker *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flagsChanged:": {
+      "name": "flagsChanged:",
+      "bridgedName": "flagsChanged",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateCursor": {
+      "name": "updateCursor",
+      "bridgedName": "updateCursor",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateCursorIfActive": {
+      "name": "updateCursorIfActive",
+      "bridgedName": "updateCursorIfActive",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "eventHandler": {
+      "name": "eventHandler",
+      "pointer": false,
+      "type": "MSShapeEventHandler ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "view": {
+      "name": "view",
+      "pointer": false,
+      "type": "MSContentDrawView ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "assign"
+      ]
+    },
+    "pathController": {
+      "name": "pathController",
+      "pointer": false,
+      "type": "MSPathController ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "selectedLayers": {
+      "name": "selectedLayers",
+      "pointer": false,
+      "type": "NSArray <MSShapePathLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "visibleLayers": {
+      "name": "visibleLayers",
+      "pointer": false,
+      "type": "NSArray <MSShapePathLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "editingBehavior": {
+      "name": "editingBehavior",
+      "pointer": false,
+      "type": "MSShapeEditingBehavior ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "indexPathsForSelectedHandles": {
+      "name": "indexPathsForSelectedHandles",
+      "pointer": false,
+      "type": "NSArray <NSIndexPath *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "indexPathForHighlightedComponent": {
+      "name": "indexPathForHighlightedComponent",
+      "pointer": false,
+      "type": "NSIndexPath ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "interactivelySelecting": {
+      "name": "interactivelySelecting",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isInteractivelySelecting"
+      ]
+    },
+    "snaps": {
+      "name": "snaps",
+      "pointer": false,
+      "type": "MSPointSnappingResult ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSVectorCanvasDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

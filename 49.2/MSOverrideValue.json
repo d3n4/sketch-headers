@@ -1,0 +1,61 @@
+{
+  "name": "MSOverrideValue",
+  "extends": "_MSOverrideValue",
+  "interfaces": [],
+  "methods": {
+    "addPredecessor:": {
+      "name": "addPredecessor:",
+      "bridgedName": "addPredecessor",
+      "args": [
+        {
+          "name": "predecessor",
+          "type": "MSOverrideValue *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithName:value:": {
+      "name": "initWithName:value:",
+      "bridgedName": "initWithName_value",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "NSObject<NSCopying>*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isInherited": {
+      "name": "isInherited",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "predecessor": {
+      "name": "predecessor",
+      "pointer": false,
+      "type": "MSOverrideValue ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

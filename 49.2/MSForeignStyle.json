@@ -1,0 +1,8 @@
+{
+  "name": "MSForeignStyle",
+  "extends": "_MSForeignStyle",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

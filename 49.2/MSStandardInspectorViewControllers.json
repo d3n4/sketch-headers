@@ -1,0 +1,90 @@
+{
+  "name": "MSStandardInspectorViewControllers",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "layerViewController": {
+      "name": "layerViewController",
+      "pointer": false,
+      "type": "MSLayerInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fillViewController": {
+      "name": "fillViewController",
+      "pointer": false,
+      "type": "MSMultipleFillInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "borderViewController": {
+      "name": "borderViewController",
+      "pointer": false,
+      "type": "MSMultipleBorderInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "blurViewController": {
+      "name": "blurViewController",
+      "pointer": false,
+      "type": "MSBlurInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorControlsViewController": {
+      "name": "colorControlsViewController",
+      "pointer": false,
+      "type": "MSColorControlsInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flowInspectorViewController": {
+      "name": "flowInspectorViewController",
+      "pointer": false,
+      "type": "MSFlowInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "opacityBlendingViewController": {
+      "name": "opacityBlendingViewController",
+      "pointer": false,
+      "type": "MSOpacityBlendingInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedStyledInspectorSection": {
+      "name": "sharedStyledInspectorSection",
+      "pointer": false,
+      "type": "MSSharedStylesInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "specialLayerViewController": {
+      "name": "specialLayerViewController",
+      "pointer": false,
+      "type": "MSSpecialLayerViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

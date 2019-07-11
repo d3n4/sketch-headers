@@ -1,0 +1,57 @@
+{
+  "name": "BITMetricsManager",
+  "extends": "BITHockeyBaseManager",
+  "interfaces": [],
+  "methods": {
+    "trackEventWithName:": {
+      "name": "trackEventWithName:",
+      "bridgedName": "trackEventWithName",
+      "args": [
+        {
+          "name": "eventName",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trackEventWithName:properties:measurements:": {
+      "name": "trackEventWithName:properties:measurements:",
+      "bridgedName": "trackEventWithName_properties_measurements",
+      "args": [
+        {
+          "name": "eventName",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "properties",
+          "type": "NSDictionary<NSString *, NSString *> *",
+          "nullable": true
+        },
+        {
+          "name": "measurements",
+          "type": "NSDictionary<NSString *, NSNumber *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "disabled": {
+      "name": "disabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

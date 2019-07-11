@@ -1,0 +1,8 @@
+{
+  "name": "MSCallToActionButtonDividerView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

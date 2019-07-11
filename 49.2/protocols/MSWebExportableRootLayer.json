@@ -1,0 +1,62 @@
+{
+  "protocol": true,
+  "name": "MSWebExportableRootLayer",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "exporterForWebOnPage:document:scale:": {
+      "name": "exporterForWebOnPage:document:scale:",
+      "bridgedName": "exporterForWebOnPage_document_scale",
+      "args": [
+        {
+          "name": "page",
+          "type": "nonnull MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull MSExporter *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "webExporterBackgoundColor": {
+      "name": "webExporterBackgoundColor",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "webExporterShouldIncludeBackgroundColor": {
+      "name": "webExporterShouldIncludeBackgroundColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isFlowHome": {
+      "name": "isFlowHome",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

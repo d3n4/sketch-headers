@@ -1,0 +1,81 @@
+{
+  "name": "BCFlexibleColor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "colorWithRed:green:blue:alpha:": {
+      "name": "colorWithRed:green:blue:alpha:",
+      "bridgedName": "colorWithRed_green_blue_alpha",
+      "args": [
+        {
+          "name": "red",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "green",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "blue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorWithHue:sat:light:alpha:": {
+      "name": "colorWithHue:sat:light:alpha:",
+      "bridgedName": "colorWithHue_sat_light_alpha",
+      "args": [
+        {
+          "name": "hue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "sat",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "light",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorForColorSpace:": {
+      "name": "colorForColorSpace:",
+      "bridgedName": "colorForColorSpace",
+      "args": [
+        {
+          "name": "space",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

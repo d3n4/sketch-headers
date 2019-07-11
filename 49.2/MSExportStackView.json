@@ -1,0 +1,8 @@
+{
+  "name": "MSExportStackView",
+  "extends": "MSStackView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

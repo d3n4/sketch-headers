@@ -1,0 +1,18 @@
+{
+  "name": "MSExportRenderingContext",
+  "extends": "MSRenderingContext",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "exportRequest": {
+      "name": "exportRequest",
+      "pointer": false,
+      "type": "MSExportRequest ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

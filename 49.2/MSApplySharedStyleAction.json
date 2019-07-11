@@ -1,0 +1,8 @@
+{
+  "name": "MSApplySharedStyleAction",
+  "extends": "MSBaseSharedStyleAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

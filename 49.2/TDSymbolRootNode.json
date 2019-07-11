@@ -1,0 +1,56 @@
+{
+  "name": "TDSymbolRootNode",
+  "extends": "TDSymbolNode",
+  "interfaces": [],
+  "methods": {
+    "add:": {
+      "name": "add:",
+      "bridgedName": "add",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "remove:": {
+      "name": "remove:",
+      "bridgedName": "remove",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nextSymbol:startingWith:": {
+      "name": "nextSymbol:startingWith:",
+      "bridgedName": "nextSymbol_startingWith",
+      "args": [
+        {
+          "name": "r",
+          "type": "TDReader *",
+          "nullable": false
+        },
+        {
+          "name": "cin",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

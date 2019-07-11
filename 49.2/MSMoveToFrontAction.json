@@ -1,0 +1,23 @@
+{
+  "name": "MSMoveToFrontAction",
+  "extends": "MSBaseMoveForwardAction",
+  "interfaces": [],
+  "methods": {
+    "moveToFront:": {
+      "name": "moveToFront:",
+      "bridgedName": "moveToFront",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

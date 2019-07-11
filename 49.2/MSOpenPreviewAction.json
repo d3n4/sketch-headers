@@ -1,0 +1,23 @@
+{
+  "name": "MSOpenPreviewAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "openMirrorPreview:": {
+      "name": "openMirrorPreview:",
+      "bridgedName": "openMirrorPreview",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

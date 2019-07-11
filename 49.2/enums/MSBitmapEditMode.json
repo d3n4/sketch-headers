@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSBitmapEditMode",
+  "members": [
+    {
+      "name": "MSBitmapEditModeRect"
+    },
+    {
+      "name": "MSBitmapEditModeMagicWand"
+    }
+  ]
+}

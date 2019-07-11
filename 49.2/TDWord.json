@@ -1,0 +1,17 @@
+{
+  "name": "TDWord",
+  "extends": "TDTerminal",
+  "interfaces": [],
+  "methods": {
+    "word": {
+      "name": "word",
+      "bridgedName": "word",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

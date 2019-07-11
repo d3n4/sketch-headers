@@ -1,0 +1,30 @@
+{
+  "name": "SUDiskImageUnarchiver",
+  "extends": "NSObject",
+  "interfaces": [
+    "SUUnarchiverProtocol"
+  ],
+  "methods": {
+    "initWithArchivePath:decryptionPassword:": {
+      "name": "initWithArchivePath:decryptionPassword:",
+      "bridgedName": "initWithArchivePath_decryptionPassword",
+      "args": [
+        {
+          "name": "archivePath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "decryptionPassword",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

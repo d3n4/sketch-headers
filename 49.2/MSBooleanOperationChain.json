@@ -1,0 +1,64 @@
+{
+  "name": "MSBooleanOperationChain",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "booleanOperationChainWithSubjectPath:": {
+      "name": "booleanOperationChainWithSubjectPath:",
+      "bridgedName": "booleanOperationChainWithSubjectPath",
+      "args": [
+        {
+          "name": "subject",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithSubjectPath:": {
+      "name": "initWithSubjectPath:",
+      "bridgedName": "initWithSubjectPath",
+      "args": [
+        {
+          "name": "subject",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addClippingPath:forBooleanOperation:": {
+      "name": "addClippingPath:forBooleanOperation:",
+      "bridgedName": "addClippingPath_forBooleanOperation",
+      "args": [
+        {
+          "name": "subject",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "operation",
+          "type": "MSBooleanOperation",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resultPath": {
+      "name": "resultPath",
+      "bridgedName": "resultPath",
+      "args": [],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

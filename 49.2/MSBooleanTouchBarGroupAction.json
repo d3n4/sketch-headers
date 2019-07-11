@@ -1,0 +1,8 @@
+{
+  "name": "MSBooleanTouchBarGroupAction",
+  "extends": "MSTouchBarGroupAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

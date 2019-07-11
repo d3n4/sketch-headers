@@ -1,0 +1,158 @@
+{
+  "name": "MSStyledLayer",
+  "extends": "_MSStyledLayer",
+  "interfaces": [],
+  "methods": {
+    "copyStyleToPasteboard": {
+      "name": "copyStyleToPasteboard",
+      "bridgedName": "copyStyleToPasteboard",
+      "args": [],
+      "returns": "NSPasteboard *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "copyStyleToPasteboard:": {
+      "name": "copyStyleToPasteboard:",
+      "bridgedName": "copyStyleToPasteboard",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeStyleToPasteboard:": {
+      "name": "writeStyleToPasteboard:",
+      "bridgedName": "writeStyleToPasteboard",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pasteStyleFromPasteboardOnLayers:document:": {
+      "name": "pasteStyleFromPasteboardOnLayers:document:",
+      "bridgedName": "pasteStyleFromPasteboardOnLayers_document",
+      "args": [
+        {
+          "name": "styledLayers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pasteStyleFromPasteboard:onLayers:document:": {
+      "name": "pasteStyleFromPasteboard:onLayers:document:",
+      "bridgedName": "pasteStyleFromPasteboard_onLayers_document",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        },
+        {
+          "name": "styledLayers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pasteStyleDict:onLayers:document:": {
+      "name": "pasteStyleDict:onLayers:document:",
+      "bridgedName": "pasteStyleDict_onLayers_document",
+      "args": [
+        {
+          "name": "style",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "styledLayers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "supportedPasteboardTypesForStyleCopying": {
+      "name": "supportedPasteboardTypesForStyleCopying",
+      "bridgedName": "supportedPasteboardTypesForStyleCopying",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "layerStyleDidChange": {
+      "name": "layerStyleDidChange",
+      "bridgedName": "layerStyleDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasSharedStyle": {
+      "name": "hasSharedStyle",
+      "bridgedName": "hasSharedStyle",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedObject": {
+      "name": "sharedObject",
+      "bridgedName": "sharedObject",
+      "args": [],
+      "returns": "MSSharedObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setStyleByPreservingSharedObjectReference:": {
+      "name": "setStyleByPreservingSharedObjectReference:",
+      "bridgedName": "setStyleByPreservingSharedObjectReference",
+      "args": [
+        {
+          "name": "style",
+          "type": "MSStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

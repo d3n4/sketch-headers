@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "MSFlowInfo",
+  "members": [
+    {
+      "name": "from",
+      "pointer": false,
+      "type": "MSFlowEndpoint"
+    },
+    {
+      "name": "to",
+      "pointer": false,
+      "type": "MSFlowEndpoint"
+    },
+    {
+      "name": "type",
+      "pointer": false,
+      "type": "MSFlowType"
+    }
+  ]
+}

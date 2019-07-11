@@ -1,0 +1,189 @@
+{
+  "protocol": true,
+  "name": "MSDropableViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "draggedTypesForView:": {
+      "name": "draggedTypesForView:",
+      "bridgedName": "draggedTypesForView",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSString *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "view:performDragOperation:": {
+      "name": "view:performDragOperation:",
+      "bridgedName": "view_performDragOperation",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id <NSDraggingInfo>",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "view:draggingEntered:": {
+      "name": "view:draggingEntered:",
+      "bridgedName": "view_draggingEntered",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id<NSDraggingInfo>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDragOperation",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "view:draggingUpdated:": {
+      "name": "view:draggingUpdated:",
+      "bridgedName": "view_draggingUpdated",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id<NSDraggingInfo>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDragOperation",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "view:draggingExited:": {
+      "name": "view:draggingExited:",
+      "bridgedName": "view_draggingExited",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id<NSDraggingInfo>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "view:draggingEnded:": {
+      "name": "view:draggingEnded:",
+      "bridgedName": "view_draggingEnded",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id<NSDraggingInfo>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "view:prepareForDragOperation:": {
+      "name": "view:prepareForDragOperation:",
+      "bridgedName": "view_prepareForDragOperation",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id<NSDraggingInfo>",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "view:concludeDragOperation:": {
+      "name": "view:concludeDragOperation:",
+      "bridgedName": "view_concludeDragOperation",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id<NSDraggingInfo>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "viewWantsPeriodicDraggingUpdates:": {
+      "name": "viewWantsPeriodicDraggingUpdates:",
+      "bridgedName": "viewWantsPeriodicDraggingUpdates",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "view:updateDraggingItemsForDrag:": {
+      "name": "view:updateDraggingItemsForDrag:",
+      "bridgedName": "view_updateDraggingItemsForDrag",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id<NSDraggingInfo>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

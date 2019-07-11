@@ -1,0 +1,414 @@
+{
+  "name": "COScript",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "insertInMainMenu": {
+      "name": "insertInMainMenu",
+      "bridgedName": "insertInMainMenu",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addFiber:": {
+      "name": "addFiber:",
+      "bridgedName": "addFiber",
+      "args": [
+        {
+          "name": "fiber",
+          "type": "COSFiber*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cleanupFibers": {
+      "name": "cleanupFibers",
+      "bridgedName": "cleanupFibers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeFiber:": {
+      "name": "removeFiber:",
+      "bridgedName": "removeFiber",
+      "args": [
+        {
+          "name": "fiber",
+          "type": "COSFiber*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCoreModules:": {
+      "name": "initWithCoreModules:",
+      "bridgedName": "initWithCoreModules",
+      "args": [
+        {
+          "name": "coreModules",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cleanup": {
+      "name": "cleanup",
+      "bridgedName": "cleanup",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "garbageCollect": {
+      "name": "garbageCollect",
+      "bridgedName": "garbageCollect",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "executeString:": {
+      "name": "executeString:",
+      "bridgedName": "executeString",
+      "args": [
+        {
+          "name": "str",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "executeString:baseURL:": {
+      "name": "executeString:baseURL:",
+      "bridgedName": "executeString_baseURL",
+      "args": [
+        {
+          "name": "str",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "base",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pushObject:withName:": {
+      "name": "pushObject:withName:",
+      "bridgedName": "pushObject_withName",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deleteObjectWithName:": {
+      "name": "deleteObjectWithName:",
+      "bridgedName": "deleteObjectWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "print:": {
+      "name": "print:",
+      "bridgedName": "print",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "require:": {
+      "name": "require:",
+      "bridgedName": "require",
+      "args": [
+        {
+          "name": "module",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldKeepRunning": {
+      "name": "shouldKeepRunning",
+      "bridgedName": "shouldKeepRunning",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "context": {
+      "name": "context",
+      "bridgedName": "context",
+      "args": [],
+      "returns": "JSGlobalContextRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "callFunctionNamed:withArguments:": {
+      "name": "callFunctionNamed:withArguments:",
+      "bridgedName": "callFunctionNamed_withArguments",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "args",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasFunctionNamed:": {
+      "name": "hasFunctionNamed:",
+      "bridgedName": "hasFunctionNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "callJSFunction:withArgumentsInArray:": {
+      "name": "callJSFunction:withArgumentsInArray:",
+      "bridgedName": "callJSFunction_withArgumentsInArray",
+      "args": [
+        {
+          "name": "jsFunction",
+          "type": "JSObjectRef",
+          "nullable": false
+        },
+        {
+          "name": "arguments",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadBridgeSupportFileAtURL:": {
+      "name": "loadBridgeSupportFileAtURL:",
+      "bridgedName": "loadBridgeSupportFileAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "listen": {
+      "name": "listen",
+      "bridgedName": "listen",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "resetPlugins": {
+      "name": "resetPlugins",
+      "bridgedName": "resetPlugins",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "loadPlugins": {
+      "name": "loadPlugins",
+      "bridgedName": "loadPlugins",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setShouldLoadJSTPlugins:": {
+      "name": "setShouldLoadJSTPlugins:",
+      "bridgedName": "setShouldLoadJSTPlugins",
+      "args": [
+        {
+          "name": "b",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "application:": {
+      "name": "application:",
+      "bridgedName": "application",
+      "args": [
+        {
+          "name": "app",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "app:": {
+      "name": "app:",
+      "bridgedName": "app",
+      "args": [
+        {
+          "name": "app",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "currentCOScript": {
+      "name": "currentCOScript",
+      "bridgedName": "currentCOScript",
+      "args": [],
+      "returns": "COScript*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setDebugController:": {
+      "name": "setDebugController:",
+      "bridgedName": "setDebugController",
+      "args": [
+        {
+          "name": "debugController",
+          "type": "id<CODebugController>",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "printController": {
+      "name": "printController",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "weak"
+      ]
+    },
+    "errorController": {
+      "name": "errorController",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "weak"
+      ]
+    },
+    "env": {
+      "name": "env",
+      "pointer": false,
+      "type": "NSMutableDictionary ",
+      "attributes": [
+        "retain"
+      ]
+    },
+    "shouldPreprocess": {
+      "name": "shouldPreprocess",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign"
+      ]
+    },
+    "shouldKeepAround": {
+      "name": "shouldKeepAround",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign"
+      ]
+    },
+    "processedSource": {
+      "name": "processedSource",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong"
+      ]
+    },
+    "coreModuleMap": {
+      "name": "coreModuleMap",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "moduleCache": {
+      "name": "moduleCache",
+      "pointer": false,
+      "type": "NSMutableDictionary*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}
