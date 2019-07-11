@@ -1,0 +1,8 @@
+{
+  "name": "DrawingView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

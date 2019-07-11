@@ -1,0 +1,26 @@
+{
+  "name": "MSRotationBar",
+  "extends": "NSControl",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray<MSLayer*>",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSRotationBarDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

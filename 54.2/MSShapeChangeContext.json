@@ -1,0 +1,110 @@
+{
+  "name": "MSShapeChangeContext",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithLayers:handleIndexPaths:": {
+      "name": "initWithLayers:handleIndexPaths:",
+      "bridgedName": "initWithLayers_handleIndexPaths",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSShapePathLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "indexPaths",
+          "type": "NSArray <NSIndexPath *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateCurvePointsUsingBlock:": {
+      "name": "enumerateCurvePointsUsingBlock:",
+      "bridgedName": "enumerateCurvePointsUsingBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(MSCurvePoint *curvePoint, NSIndexPath *indexPath, MSShapePathLayer *pathLayer, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "curvePointAtIndexPath:": {
+      "name": "curvePointAtIndexPath:",
+      "bridgedName": "curvePointAtIndexPath",
+      "args": [
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSCurvePoint *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "locationOfHandleAtIndexPath:inCoordinateSpace:": {
+      "name": "locationOfHandleAtIndexPath:inCoordinateSpace:",
+      "bridgedName": "locationOfHandleAtIndexPath_inCoordinateSpace",
+      "args": [
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        },
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray <MSShapePathLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "handleIndexPaths": {
+      "name": "handleIndexPaths",
+      "pointer": false,
+      "type": "NSArray <NSIndexPath *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "orderedHandleIndexPaths": {
+      "name": "orderedHandleIndexPaths",
+      "pointer": false,
+      "type": "NSArray <NSIndexPath *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

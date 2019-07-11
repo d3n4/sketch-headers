@@ -1,0 +1,205 @@
+{
+  "name": "MSInspectorItem",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "manageTextField:adaptor:identifier:inlineToolTip:touchBarItems:": {
+      "name": "manageTextField:adaptor:identifier:inlineToolTip:touchBarItems:",
+      "bridgedName": "manageTextField_adaptor_identifier_inlineToolTip_touchBarItems",
+      "args": [
+        {
+          "name": "textField",
+          "type": "nonnull MSInlineUpDownTextField *",
+          "nullable": false
+        },
+        {
+          "name": "adaptor",
+          "type": "nonnull MSMathInspectorValueAdaptor *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "nonnull NSUserInterfaceItemIdentifier",
+          "nullable": false
+        },
+        {
+          "name": "toolTip",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "touchBarItems",
+          "type": "NSArray <NSString *>*",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "itemForSection:": {
+      "name": "itemForSection:",
+      "bridgedName": "itemForSection",
+      "args": [
+        {
+          "name": "section",
+          "type": "MSBaseInspectorSection *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "selectionDidChangeTo:": {
+      "name": "selectionDidChangeTo:",
+      "bridgedName": "selectionDidChangeTo",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateDisplayedValues": {
+      "name": "updateDisplayedValues",
+      "bridgedName": "updateDisplayedValues",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filterSelection:": {
+      "name": "filterSelection:",
+      "bridgedName": "filterSelection",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "canHandleSomeLayersOfSelection:": {
+      "name": "canHandleSomeLayersOfSelection:",
+      "bridgedName": "canHandleSomeLayersOfSelection",
+      "args": [
+        {
+          "name": "layerArray",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "canHandleLayer:": {
+      "name": "canHandleLayer:",
+      "bridgedName": "canHandleLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "cacheUserInterfaceElement:withKey:": {
+      "name": "cacheUserInterfaceElement:withKey:",
+      "bridgedName": "cacheUserInterfaceElement_withKey",
+      "args": [
+        {
+          "name": "element",
+          "type": "id _Nullable",
+          "nullable": false
+        },
+        {
+          "name": "cacheKey",
+          "type": "id _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cachedUserInterfaceElementForKey:": {
+      "name": "cachedUserInterfaceElementForKey:",
+      "bridgedName": "cachedUserInterfaceElementForKey",
+      "args": [
+        {
+          "name": "cacheKey",
+          "type": "id _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "id _Nullable",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustLayerHierarchyAfterEditingLayers:": {
+      "name": "adjustLayerHierarchyAfterEditingLayers:",
+      "bridgedName": "adjustLayerHierarchyAfterEditingLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layersController": {
+      "name": "layersController",
+      "pointer": false,
+      "type": "NSArrayController ",
+      "attributes": [
+        "nonatomic",
+        "nonnull"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSInspectorItemDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

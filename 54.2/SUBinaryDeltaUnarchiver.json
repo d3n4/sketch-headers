@@ -1,0 +1,44 @@
+{
+  "name": "SUBinaryDeltaUnarchiver",
+  "extends": "NSObject",
+  "interfaces": [
+    "SUUnarchiverProtocol"
+  ],
+  "methods": {
+    "initWithArchivePath:updateHostBundlePath:": {
+      "name": "initWithArchivePath:updateHostBundlePath:",
+      "bridgedName": "initWithArchivePath_updateHostBundlePath",
+      "args": [
+        {
+          "name": "archivePath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "updateHostBundlePath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateSpotlightImportersAtBundlePath:": {
+      "name": "updateSpotlightImportersAtBundlePath:",
+      "bridgedName": "updateSpotlightImportersAtBundlePath",
+      "args": [
+        {
+          "name": "targetPath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

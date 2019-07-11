@@ -1,0 +1,8 @@
+{
+  "name": "MSPasteOverSelectionAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

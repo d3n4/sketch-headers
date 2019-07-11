@@ -1,0 +1,143 @@
+{
+  "name": "MSManifestMaker",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDocument:": {
+      "name": "initWithDocument:",
+      "bridgedName": "initWithDocument",
+      "args": [
+        {
+          "name": "documentData",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createManifest": {
+      "name": "createManifest",
+      "bridgedName": "createManifest",
+      "args": [],
+      "returns": "nonnull NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "keyForFlowAnimationType:": {
+      "name": "keyForFlowAnimationType:",
+      "bridgedName": "keyForFlowAnimationType",
+      "args": [
+        {
+          "name": "type",
+          "type": "MSFlowAnimationType",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "metadataForRootLayer:onPage:earlierSlugs:": {
+      "name": "metadataForRootLayer:onPage:earlierSlugs:",
+      "bridgedName": "metadataForRootLayer_onPage_earlierSlugs",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull MSImmutableLayerGroup <MSWebExportableRootLayer> *",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "nonnull MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "slugs",
+          "type": "NSMutableDictionary *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filesMetadataForRootLayer:onPage:id:": {
+      "name": "filesMetadataForRootLayer:onPage:id:",
+      "bridgedName": "filesMetadataForRootLayer_onPage_id",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull MSImmutableLayerGroup <MSWebExportableRootLayer> *",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "nonnull MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "fileID",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "fileURL": {
+      "name": "fileURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "selectiveExport": {
+      "name": "selectiveExport",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "usePageIfMissingArtboard": {
+      "name": "usePageIfMissingArtboard",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

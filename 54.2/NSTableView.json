@@ -1,0 +1,28 @@
+{
+  "name": "NSTableView",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "selectRow:extendSelection:": {
+      "name": "selectRow:extendSelection:",
+      "bridgedName": "selectRow_extendSelection",
+      "args": [
+        {
+          "name": "rowIndex",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "flag",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

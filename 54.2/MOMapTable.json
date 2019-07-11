@@ -1,0 +1,138 @@
+{
+  "name": "MOMapTable",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSFastEnumeration"
+  ],
+  "methods": {
+    "mapTableWithStrongToStrongObjects": {
+      "name": "mapTableWithStrongToStrongObjects",
+      "bridgedName": "mapTableWithStrongToStrongObjects",
+      "args": [],
+      "returns": "MOMapTable *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "mapTableWithStrongToUnretainedObjects": {
+      "name": "mapTableWithStrongToUnretainedObjects",
+      "bridgedName": "mapTableWithStrongToUnretainedObjects",
+      "args": [],
+      "returns": "MOMapTable *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "mapTableWithUnretainedToStrongObjects": {
+      "name": "mapTableWithUnretainedToStrongObjects",
+      "bridgedName": "mapTableWithUnretainedToStrongObjects",
+      "args": [],
+      "returns": "MOMapTable *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "mapTableWithUnretainedToUnretainedObjects": {
+      "name": "mapTableWithUnretainedToUnretainedObjects",
+      "bridgedName": "mapTableWithUnretainedToUnretainedObjects",
+      "args": [],
+      "returns": "MOMapTable *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "keyEnumerator": {
+      "name": "keyEnumerator",
+      "bridgedName": "keyEnumerator",
+      "args": [],
+      "returns": "NSEnumerator *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectEnumerator": {
+      "name": "objectEnumerator",
+      "bridgedName": "objectEnumerator",
+      "args": [],
+      "returns": "NSEnumerator *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "count": {
+      "name": "count",
+      "bridgedName": "count",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allKeys": {
+      "name": "allKeys",
+      "bridgedName": "allKeys",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allObjects": {
+      "name": "allObjects",
+      "bridgedName": "allObjects",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForKey:": {
+      "name": "objectForKey:",
+      "bridgedName": "objectForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setObject:forKey:": {
+      "name": "setObject:forKey:",
+      "bridgedName": "setObject_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeObjectForKey:": {
+      "name": "removeObjectForKey:",
+      "bridgedName": "removeObjectForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllObjects": {
+      "name": "removeAllObjects",
+      "bridgedName": "removeAllObjects",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

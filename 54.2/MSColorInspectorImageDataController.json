@@ -1,0 +1,52 @@
+{
+  "name": "MSColorInspectorImageDataController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "dataSupplierSelected:": {
+      "name": "dataSupplierSelected:",
+      "bridgedName": "dataSupplierSelected",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showMenuAtLocation:inView:": {
+      "name": "showMenuAtLocation:inView:",
+      "bridgedName": "showMenuAtLocation_inView",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSColorInspectorImageDataControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,50 @@
+{
+  "enum": true,
+  "name": "SCKArtboardAttributes",
+  "members": [
+    {
+      "name": "SCKArtboardNoAttribute",
+      "value": "0"
+    },
+    {
+      "name": "SCKArtboardNameAttribute",
+      "value": "1 << 0"
+    },
+    {
+      "name": "SCKArtboardSlugAttribute",
+      "value": "1 << 1"
+    },
+    {
+      "name": "SCKArtboardOrderAttribute",
+      "value": "1 << 2"
+    },
+    {
+      "name": "SCKArtboardUnreadAttribute",
+      "value": "1 << 3"
+    },
+    {
+      "name": "SCKArtboardSizeAttribute",
+      "value": "1 << 4"
+    },
+    {
+      "name": "SCKArtboardFilesAttribute",
+      "value": "1 << 5"
+    },
+    {
+      "name": "SCKArtboardLayersAttribute",
+      "value": "1 << 6"
+    },
+    {
+      "name": "SCKArtboardIsFlowHomeAttribute",
+      "value": "1 << 7"
+    },
+    {
+      "name": "SCKArtboardViewportAttribute",
+      "value": "1 << 8"
+    },
+    {
+      "name": "SCKArtboardPossibleFileTypesAttribute",
+      "value": "1 << 9"
+    }
+  ]
+}

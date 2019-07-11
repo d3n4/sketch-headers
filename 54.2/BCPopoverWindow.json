@@ -1,0 +1,40 @@
+{
+  "name": "BCPopoverWindow",
+  "extends": "NSWindow",
+  "interfaces": [],
+  "methods": {
+    "attachedWindowWithView:": {
+      "name": "attachedWindowWithView:",
+      "bridgedName": "attachedWindowWithView",
+      "args": [
+        {
+          "name": "aView",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "arrowEdge": {
+      "name": "arrowEdge",
+      "pointer": false,
+      "type": "NSRectEdge",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "arrowPosition": {
+      "name": "arrowPosition",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

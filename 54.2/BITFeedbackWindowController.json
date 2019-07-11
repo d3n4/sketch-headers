@@ -1,0 +1,23 @@
+{
+  "name": "BITFeedbackWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [],
+  "methods": {
+    "initWithManager:": {
+      "name": "initWithManager:",
+      "bridgedName": "initWithManager",
+      "args": [
+        {
+          "name": "feedbackManager",
+          "type": "BITFeedbackManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

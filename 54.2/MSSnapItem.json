@@ -1,0 +1,156 @@
+{
+  "name": "MSSnapItem",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSSnappable"
+  ],
+  "methods": {
+    "snapItemWithLayers:": {
+      "name": "snapItemWithLayers:",
+      "bridgedName": "snapItemWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray<MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithLayers:": {
+      "name": "initWithLayers:",
+      "bridgedName": "initWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray<MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rotation": {
+      "name": "rotation",
+      "bridgedName": "rotation",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapInBlock:": {
+      "name": "snapInBlock:",
+      "bridgedName": "snapInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "candidateLayersForSnapping:": {
+      "name": "candidateLayersForSnapping:",
+      "bridgedName": "candidateLayersForSnapping",
+      "args": [
+        {
+          "name": "snapType",
+          "type": "MSSnapType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "candidateLayersForSnappingSpacingAlongAxis:order:": {
+      "name": "candidateLayersForSnappingSpacingAlongAxis:order:",
+      "bridgedName": "candidateLayersForSnappingSpacingAlongAxis_order",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "order",
+          "type": "MSOrder",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardForSnapping": {
+      "name": "artboardForSnapping",
+      "bridgedName": "artboardForSnapping",
+      "args": [],
+      "returns": "nullable MSArtboardGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "rectForSnapping": {
+      "name": "rectForSnapping",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "shouldConstrainProportions": {
+      "name": "shouldConstrainProportions",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "supportsResizingForSnapping": {
+      "name": "supportsResizingForSnapping",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray<MSLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    },
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

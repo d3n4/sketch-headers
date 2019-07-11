@@ -1,0 +1,8 @@
+{
+  "name": "SCKAuthAPIURLRequest",
+  "extends": "SCKAPIURLRequest",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

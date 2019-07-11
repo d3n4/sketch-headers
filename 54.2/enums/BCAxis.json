@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "BCAxis",
+  "members": [
+    {
+      "name": "BCAxisX"
+    },
+    {
+      "name": "BCAxisY"
+    }
+  ]
+}

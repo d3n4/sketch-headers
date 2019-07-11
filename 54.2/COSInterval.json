@@ -1,0 +1,55 @@
+{
+  "name": "COSInterval",
+  "extends": "COSFiber",
+  "interfaces": [],
+  "methods": {
+    "scheduleWithInterval:cocoaScript:jsFunction:repeat:": {
+      "name": "scheduleWithInterval:cocoaScript:jsFunction:repeat:",
+      "bridgedName": "scheduleWithInterval_cocoaScript_jsFunction_repeat",
+      "args": [
+        {
+          "name": "i",
+          "type": "NSTimeInterval",
+          "nullable": false
+        },
+        {
+          "name": "cos",
+          "type": "COScript*",
+          "nullable": false
+        },
+        {
+          "name": "jsFunction",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        },
+        {
+          "name": "repeat",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "cancel": {
+      "name": "cancel",
+      "bridgedName": "cancel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "jsfunc": {
+      "name": "jsfunc",
+      "pointer": false,
+      "type": "MOJavaScriptObject ",
+      "attributes": [
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

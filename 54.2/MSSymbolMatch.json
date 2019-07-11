@@ -1,0 +1,91 @@
+{
+  "name": "MSSymbolMatch",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithRemoteSymbol:searchingDocument:": {
+      "name": "initWithRemoteSymbol:searchingDocument:",
+      "bridgedName": "initWithRemoteSymbol_searchingDocument",
+      "args": [
+        {
+          "name": "master",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithRemoteForeignSymbol:searchingDocument:": {
+      "name": "initWithRemoteForeignSymbol:searchingDocument:",
+      "bridgedName": "initWithRemoteForeignSymbol_searchingDocument",
+      "args": [
+        {
+          "name": "foreignMaster",
+          "type": "MSForeignSymbol *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resolve:": {
+      "name": "resolve:",
+      "bridgedName": "resolve",
+      "args": [
+        {
+          "name": "matches",
+          "type": "NSArray<MSSymbolMatch *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "remoteMaster": {
+      "name": "remoteMaster",
+      "pointer": false,
+      "type": "MSSymbolMaster ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "foreignSymbol": {
+      "name": "foreignSymbol",
+      "pointer": false,
+      "type": "MSForeignSymbol ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "resolvedMatch": {
+      "name": "resolvedMatch",
+      "pointer": false,
+      "type": "MSSymbolMaster ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

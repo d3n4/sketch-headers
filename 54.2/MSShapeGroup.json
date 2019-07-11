@@ -1,0 +1,135 @@
+{
+  "name": "MSShapeGroup",
+  "extends": "_MSShapeGroup",
+  "interfaces": [
+    "MSShapeGroup",
+    "MSPathLayer"
+  ],
+  "methods": {
+    "canProbablyFlatten": {
+      "name": "canProbablyFlatten",
+      "bridgedName": "canProbablyFlatten",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canFlatten": {
+      "name": "canFlatten",
+      "bridgedName": "canFlatten",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shapeWithBooleanOperation:onLayers:": {
+      "name": "shapeWithBooleanOperation:onLayers:",
+      "bridgedName": "shapeWithBooleanOperation_onLayers",
+      "args": [
+        {
+          "name": "operation",
+          "type": "MSBooleanOperation",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "changeInnerOuterBordersIfHasOpenPaths": {
+      "name": "changeInnerOuterBordersIfHasOpenPaths",
+      "bridgedName": "changeInnerOuterBordersIfHasOpenPaths",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWithPath:": {
+      "name": "layerWithPath:",
+      "bridgedName": "layerWithPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "isHorizontalLine": {
+      "name": "isHorizontalLine",
+      "bridgedName": "isHorizontalLine",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isVerticalLine": {
+      "name": "isVerticalLine",
+      "bridgedName": "isVerticalLine",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "simplify": {
+      "name": "simplify",
+      "bridgedName": "simplify",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flatten": {
+      "name": "flatten",
+      "bridgedName": "flatten",
+      "args": [],
+      "returns": "MSStyledLayer<MSPathLayer> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setEdited:": {
+      "name": "setEdited:",
+      "bridgedName": "setEdited",
+      "args": [
+        {
+          "name": "flag",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pathInFrame": {
+      "name": "pathInFrame",
+      "pointer": false,
+      "type": "MSPath ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readwrite"
+      ]
+    },
+    "isClosed": {
+      "name": "isClosed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

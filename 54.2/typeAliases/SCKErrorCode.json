@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "SCKErrorCode",
+  "type": "NSInteger",
+  "pointer": false
+}

@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "MSColorTriangleMesh",
+  "members": [
+    {
+      "name": "vertices",
+      "pointer": true,
+      "type": "MSColorTriangleVertex"
+    },
+    {
+      "name": "count",
+      "pointer": false,
+      "type": "uint32_t"
+    },
+    {
+      "name": "capacity",
+      "pointer": false,
+      "type": "uint32_t"
+    }
+  ]
+}

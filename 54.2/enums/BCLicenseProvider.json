@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "BCLicenseProvider",
+  "members": [
+    {
+      "name": "BCLicenseProviderLegacy",
+      "value": "0"
+    },
+    {
+      "name": "BCLicenseProviderCloud",
+      "value": "1"
+    }
+  ]
+}

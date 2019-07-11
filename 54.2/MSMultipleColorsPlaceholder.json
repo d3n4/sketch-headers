@@ -1,0 +1,17 @@
+{
+  "name": "MSMultipleColorsPlaceholder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "placeholderColor": {
+      "name": "placeholderColor",
+      "bridgedName": "placeholderColor",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

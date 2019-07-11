@@ -1,0 +1,90 @@
+{
+  "name": "MSLocalDataSupplier",
+  "extends": "MSDataSupplier",
+  "interfaces": [],
+  "methods": {
+    "initWithDataIdentifier:dataName:dataType:data:NS_UNAVAILABLE": {
+      "name": "initWithDataIdentifier:dataName:dataType:data:NS_UNAVAILABLE",
+      "bridgedName": "initWithDataIdentifier_dataName_dataType_data_NS_UNAVAILABLE",
+      "args": [
+        {
+          "name": "dataIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataType",
+          "type": "MSDataType",
+          "nullable": false
+        },
+        {
+          "name": "data",
+          "type": "NSArray <NSString *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithFileSystemURL:": {
+      "name": "initWithFileSystemURL:",
+      "bridgedName": "initWithFileSystemURL",
+      "args": [
+        {
+          "name": "fsURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textDataFromFileURL:": {
+      "name": "textDataFromFileURL:",
+      "bridgedName": "textDataFromFileURL",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSArray <NSString *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "imageFileNamesFromFolderURL:": {
+      "name": "imageFileNamesFromFolderURL:",
+      "bridgedName": "imageFileNamesFromFolderURL",
+      "args": [
+        {
+          "name": "folderURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSArray <NSString *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "dataSource": {
+      "name": "dataSource",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

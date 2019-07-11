@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSImmutableLayerPreviewability",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "previewImagesRequireRefreshWithDocumentData:": {
+      "name": "previewImagesRequireRefreshWithDocumentData:",
+      "bridgedName": "previewImagesRequireRefreshWithDocumentData",
+      "args": [
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshPreviewImagesWithDocumentData:": {
+      "name": "refreshPreviewImagesWithDocumentData:",
+      "bridgedName": "refreshPreviewImagesWithDocumentData",
+      "args": [
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

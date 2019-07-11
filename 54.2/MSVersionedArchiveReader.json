@@ -1,0 +1,33 @@
+{
+  "name": "MSVersionedArchiveReader",
+  "extends": "MSArchiveReader",
+  "interfaces": [],
+  "methods": {
+    "unarchiveFileAtURL:actualVersion:error:": {
+      "name": "unarchiveFileAtURL:actualVersion:error:",
+      "bridgedName": "unarchiveFileAtURL_actualVersion_error",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "versionOut",
+          "type": "MSDocumentVersion *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError*__autoreleasing* ",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

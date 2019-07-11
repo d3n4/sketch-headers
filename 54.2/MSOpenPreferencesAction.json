@@ -1,0 +1,37 @@
+{
+  "name": "MSOpenPreferencesAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "openPreferences:": {
+      "name": "openPreferences:",
+      "bridgedName": "openPreferences",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openPreferencesWindowWithPreferencePaneIdentifier:": {
+      "name": "openPreferencesWindowWithPreferencePaneIdentifier:",
+      "bridgedName": "openPreferencesWindowWithPreferencePaneIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

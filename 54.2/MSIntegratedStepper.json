@@ -1,0 +1,27 @@
+{
+  "name": "MSIntegratedStepper",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "target": {
+      "name": "target",
+      "pointer": false,
+      "type": "MSUpDownController ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "highlightMode": {
+      "name": "highlightMode",
+      "pointer": false,
+      "type": "MSIntegratedStepperHighlight",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

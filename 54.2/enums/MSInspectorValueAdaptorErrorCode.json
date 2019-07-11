@@ -1,0 +1,10 @@
+{
+  "enum": true,
+  "name": "MSInspectorValueAdaptorErrorCode",
+  "members": [
+    {
+      "name": "MSInspectorValueAdaptorErrorInvalidInput",
+      "value": "1"
+    }
+  ]
+}

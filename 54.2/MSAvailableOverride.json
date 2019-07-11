@@ -1,0 +1,284 @@
+{
+  "name": "MSAvailableOverride",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "originalSharedStyle:libraryController:": {
+      "name": "originalSharedStyle:libraryController:",
+      "bridgedName": "originalSharedStyle_libraryController",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "controller",
+          "type": "MSAssetLibraryController *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSSharedStyleReference *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolDefaultSharedStyle:libraryController:": {
+      "name": "symbolDefaultSharedStyle:libraryController:",
+      "bridgedName": "symbolDefaultSharedStyle_libraryController",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "controller",
+          "type": "MSAssetLibraryController *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyleReference *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "importableDefaultSharedStyle:libraryController:": {
+      "name": "importableDefaultSharedStyle:libraryController:",
+      "bridgedName": "importableDefaultSharedStyle_libraryController",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "controller",
+          "type": "MSAssetLibraryController *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSSharedStyleReference *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentSharedStyle:libraryController:": {
+      "name": "currentSharedStyle:libraryController:",
+      "bridgedName": "currentSharedStyle_libraryController",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "controller",
+          "type": "MSAssetLibraryController *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyleReference *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "availableOverrideWithOverridePoint:master:overrideValue:otherOverrides:overrideProperties:inParent:document:": {
+      "name": "availableOverrideWithOverridePoint:master:overrideValue:otherOverrides:overrideProperties:inParent:document:",
+      "bridgedName": "availableOverrideWithOverridePoint_master_overrideValue_otherOverrides_overrideProperties_inParent_document",
+      "args": [
+        {
+          "name": "overridePoint",
+          "type": "MSOverridePoint*",
+          "nullable": false
+        },
+        {
+          "name": "master",
+          "type": "MSImmutableSymbolMaster *",
+          "nullable": false
+        },
+        {
+          "name": "overrideValue",
+          "type": "MSOverrideValue *",
+          "nullable": true
+        },
+        {
+          "name": "otherOverrides",
+          "type": "NSDictionary<NSString *, MSOverrideValue *> *",
+          "nullable": false
+        },
+        {
+          "name": "overrideProperties",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "MSAvailableOverride *",
+          "nullable": true
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSAvailableOverride*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "enumerateOverrides:withBlock:": {
+      "name": "enumerateOverrides:withBlock:",
+      "bridgedName": "enumerateOverrides_withBlock",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSArray<MSAvailableOverride *>*",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void(^)(MSAvailableOverride*)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "flattenAvailableOverrides:": {
+      "name": "flattenAvailableOverrides:",
+      "bridgedName": "flattenAvailableOverrides",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSArray<MSAvailableOverride *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSAvailableOverride *>*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "dataType": {
+      "name": "dataType",
+      "pointer": false,
+      "type": "MSDataType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "parent": {
+      "name": "parent",
+      "pointer": false,
+      "type": "MSAvailableOverride ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "weak",
+        "nullable"
+      ]
+    },
+    "master": {
+      "name": "master",
+      "pointer": false,
+      "type": "MSImmutableSymbolMaster ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "affectedLayer": {
+      "name": "affectedLayer",
+      "pointer": false,
+      "type": "MSImmutableLayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overridePoint": {
+      "name": "overridePoint",
+      "pointer": false,
+      "type": "MSOverridePoint ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "children": {
+      "name": "children",
+      "pointer": false,
+      "type": "NSArray<MSAvailableOverride *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "overrideValue": {
+      "name": "overrideValue",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "currentValue": {
+      "name": "currentValue",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "defaultValue": {
+      "name": "defaultValue",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasOverride": {
+      "name": "hasOverride",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "defaultIsItselfAnOverride": {
+      "name": "defaultIsItselfAnOverride",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isEditable": {
+      "name": "isEditable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isVisible": {
+      "name": "isVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

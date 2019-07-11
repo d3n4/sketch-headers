@@ -1,0 +1,23 @@
+{
+  "name": "MSHotspotLayer",
+  "extends": "_MSHotspotLayer",
+  "interfaces": [],
+  "methods": {
+    "hotspotLayerFromLayer:": {
+      "name": "hotspotLayerFromLayer:",
+      "bridgedName": "hotspotLayerFromLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

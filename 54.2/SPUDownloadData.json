@@ -1,0 +1,67 @@
+{
+  "name": "SPUDownloadData",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSSecureCoding"
+  ],
+  "methods": {
+    "initWithData:textEncodingName:MIMEType:": {
+      "name": "initWithData:textEncodingName:MIMEType:",
+      "bridgedName": "initWithData_textEncodingName_MIMEType",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        },
+        {
+          "name": "textEncodingName",
+          "type": "NSString * _Nullable",
+          "nullable": false
+        },
+        {
+          "name": "MIMEType",
+          "type": "NSString * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "data": {
+      "name": "data",
+      "pointer": false,
+      "type": "NSData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "textEncodingName": {
+      "name": "textEncodingName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable",
+        "copy"
+      ]
+    },
+    "MIMEType": {
+      "name": "MIMEType",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

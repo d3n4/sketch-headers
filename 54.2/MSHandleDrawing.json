@@ -1,0 +1,163 @@
+{
+  "name": "MSHandleDrawing",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "drawRectAtPoint:ofType:": {
+      "name": "drawRectAtPoint:ofType:",
+      "bridgedName": "drawRectAtPoint_ofType",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSDotRectType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawBezier:": {
+      "name": "drawBezier:",
+      "bridgedName": "drawBezier",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawAtPoint:ofType:state:": {
+      "name": "drawAtPoint:ofType:state:",
+      "bridgedName": "drawAtPoint_ofType_state",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSHandleSize",
+          "nullable": false
+        },
+        {
+          "name": "state",
+          "type": "MSHandleState",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawGradientHandleAtPoint:color:selected:": {
+      "name": "drawGradientHandleAtPoint:color:selected:",
+      "bridgedName": "drawGradientHandleAtPoint_color_selected",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "aColor",
+          "type": "NSColor *",
+          "nullable": true
+        },
+        {
+          "name": "isSelected",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawShadowForHover:inBlock:": {
+      "name": "drawShadowForHover:inBlock:",
+      "bridgedName": "drawShadowForHover_inBlock",
+      "args": [
+        {
+          "name": "isHovering",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawWithTransformStruct:aroundPoint:usingBlock:": {
+      "name": "drawWithTransformStruct:aroundPoint:usingBlock:",
+      "bridgedName": "drawWithTransformStruct_aroundPoint_usingBlock",
+      "args": [
+        {
+          "name": "tStruct",
+          "type": "CHTransformStruct",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "bridgedName": "zoomValue",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setZoomValue:": {
+      "name": "setZoomValue:",
+      "bridgedName": "setZoomValue",
+      "args": [
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "resetZoomValue": {
+      "name": "resetZoomValue",
+      "bridgedName": "resetZoomValue",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

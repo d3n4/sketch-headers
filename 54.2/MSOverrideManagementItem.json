@@ -1,0 +1,27 @@
+{
+  "name": "MSOverrideManagementItem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "indentationLevel": {
+      "name": "indentationLevel",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "BCOutlineViewDisplayType",
+  "members": [
+    {
+      "name": "BCOutlineViewDisplayTypeStandard"
+    },
+    {
+      "name": "BCOutlineViewDisplayTypeArtboard"
+    },
+    {
+      "name": "BCOutlineViewDisplayTypePage"
+    },
+    {
+      "name": "BCOutlineViewDisplayTypeOverride"
+    }
+  ]
+}

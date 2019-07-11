@@ -1,0 +1,146 @@
+{
+  "name": "MSLocalDataSupplierGroup",
+  "extends": "MSDataSupplierGroup",
+  "interfaces": [],
+  "methods": {
+    "initWithCoder:": {
+      "name": "initWithCoder:",
+      "bridgedName": "initWithCoder",
+      "args": [
+        {
+          "name": "coder",
+          "type": "NSCoder *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDataSuppliers:delegate:NS_UNAVAILABLE": {
+      "name": "initWithDataSuppliers:delegate:NS_UNAVAILABLE",
+      "bridgedName": "initWithDataSuppliers_delegate_NS_UNAVAILABLE",
+      "args": [
+        {
+          "name": "dataSuppliers",
+          "type": "NSSet<__kindof MSDataSupplier *> *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<MSDataSupplierDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithLocalDataSupplier:groupURL:delegate:": {
+      "name": "initWithLocalDataSupplier:groupURL:delegate:",
+      "bridgedName": "initWithLocalDataSupplier_groupURL_delegate",
+      "args": [
+        {
+          "name": "localDataSupplier",
+          "type": "MSLocalDataSupplier *",
+          "nullable": true
+        },
+        {
+          "name": "groupURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<MSDataSupplierDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "localDataSupplierGroupFromFileSystemURL:dataSupplierDelegate:": {
+      "name": "localDataSupplierGroupFromFileSystemURL:dataSupplierDelegate:",
+      "bridgedName": "localDataSupplierGroupFromFileSystemURL_dataSupplierDelegate",
+      "args": [
+        {
+          "name": "fileSystemURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "dataSupplierDelegate",
+          "type": "id<MSDataSupplierDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "dataSupplierWithIdentifier:": {
+      "name": "dataSupplierWithIdentifier:",
+      "bridgedName": "dataSupplierWithIdentifier",
+      "args": [
+        {
+          "name": "dataSupplierIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLocalDataSupplier *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "localDataSuppliers": {
+      "name": "localDataSuppliers",
+      "pointer": false,
+      "type": "NSArray <MSLocalDataSupplier *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canGroupMultipleDataSuppliers": {
+      "name": "canGroupMultipleDataSuppliers",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "groupFolder": {
+      "name": "groupFolder",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "anyLocalDataSupplier": {
+      "name": "anyLocalDataSupplier",
+      "pointer": false,
+      "type": "MSLocalDataSupplier ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "groupURL": {
+      "name": "groupURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

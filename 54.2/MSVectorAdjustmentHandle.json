@@ -1,0 +1,17 @@
+{
+  "name": "MSVectorAdjustmentHandle",
+  "extends": "MSVectorHandle",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "locationOfMainPoint": {
+      "name": "locationOfMainPoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

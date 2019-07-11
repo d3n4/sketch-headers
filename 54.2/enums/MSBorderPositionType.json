@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSBorderPositionType",
+  "members": [
+    {
+      "name": "MSBorderPositionCenter",
+      "value": "0"
+    },
+    {
+      "name": "MSBorderPositionInside",
+      "value": "1"
+    },
+    {
+      "name": "MSBorderPositionOutside",
+      "value": "2"
+    }
+  ]
+}

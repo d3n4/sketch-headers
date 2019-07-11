@@ -1,0 +1,8 @@
+{
+  "name": "MSInlineIntegratedStepper",
+  "extends": "MSIntegratedStepper",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

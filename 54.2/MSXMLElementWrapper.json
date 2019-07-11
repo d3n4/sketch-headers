@@ -1,0 +1,151 @@
+{
+  "name": "MSXMLElementWrapper",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithName:": {
+      "name": "initWithName:",
+      "bridgedName": "initWithName",
+      "args": [
+        {
+          "name": "elementName",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithElement:": {
+      "name": "initWithElement:",
+      "bridgedName": "initWithElement",
+      "args": [
+        {
+          "name": "element",
+          "type": "NSXMLElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "elementName": {
+      "name": "elementName",
+      "bridgedName": "elementName",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "element": {
+      "name": "element",
+      "bridgedName": "element",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeStringForKey:": {
+      "name": "attributeStringForKey:",
+      "bridgedName": "attributeStringForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setAttributeString:forKey:": {
+      "name": "setAttributeString:forKey:",
+      "bridgedName": "setAttributeString_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addChild:": {
+      "name": "addChild:",
+      "bridgedName": "addChild",
+      "args": [
+        {
+          "name": "child",
+          "type": "NSXMLNode*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addChildWrapper:": {
+      "name": "addChildWrapper:",
+      "bridgedName": "addChildWrapper",
+      "args": [
+        {
+          "name": "child",
+          "type": "MSXMLElementWrapper*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "element": {
+      "name": "element",
+      "pointer": false,
+      "type": "NSXMLElement ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "svgId": {
+      "name": "svgId",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "svgClass": {
+      "name": "svgClass",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "style": {
+      "name": "style",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

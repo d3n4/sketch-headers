@@ -1,0 +1,84 @@
+{
+  "name": "MSMenuItemHelper",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "itemWithTitle:tag:": {
+      "name": "itemWithTitle:tag:",
+      "bridgedName": "itemWithTitle_tag",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "tag",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "MSMenuItemHelper *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "itemWithTitle:": {
+      "name": "itemWithTitle:",
+      "bridgedName": "itemWithTitle",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "MSMenuItemHelper *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "separator": {
+      "name": "separator",
+      "bridgedName": "separator",
+      "args": [],
+      "returns": "MSMenuItemHelper *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "menuItem": {
+      "name": "menuItem",
+      "bridgedName": "menuItem",
+      "args": [],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "tag": {
+      "name": "tag",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isSeparator": {
+      "name": "isSeparator",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

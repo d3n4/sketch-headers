@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSTextHeaderInspectorItemDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "itemWantsToggleDetailSettings:": {
+      "name": "itemWantsToggleDetailSettings:",
+      "bridgedName": "itemWantsToggleDetailSettings",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSTextHeaderInspectorItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

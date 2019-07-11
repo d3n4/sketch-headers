@@ -1,0 +1,8 @@
+{
+  "name": "MSPasteboardInternalImageReader",
+  "extends": "MSPasteboardImagesReader",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

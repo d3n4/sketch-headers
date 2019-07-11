@@ -1,0 +1,352 @@
+{
+  "name": "BCBooleanView",
+  "extends": "NSView",
+  "interfaces": [
+    "NSTableViewDataSource",
+    "NSTableViewDelegate",
+    "NSPathControlDelegate"
+  ],
+  "methods": {
+    "onPathControl:": {
+      "name": "onPathControl:",
+      "bridgedName": "onPathControl",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onZoom:": {
+      "name": "onZoom:",
+      "bridgedName": "onZoom",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onDebugIntersections:": {
+      "name": "onDebugIntersections:",
+      "bridgedName": "onDebugIntersections",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onDebugCrossings:": {
+      "name": "onDebugCrossings:",
+      "bridgedName": "onDebugCrossings",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onDebugLeftContainment:": {
+      "name": "onDebugLeftContainment:",
+      "bridgedName": "onDebugLeftContainment",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onDebugRightContainment:": {
+      "name": "onDebugRightContainment:",
+      "bridgedName": "onDebugRightContainment",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onDebugOperation:": {
+      "name": "onDebugOperation:",
+      "bridgedName": "onDebugOperation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onDebugCrossingContainment:": {
+      "name": "onDebugCrossingContainment:",
+      "bridgedName": "onDebugCrossingContainment",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onDebugCrossingContainmentIntersection:": {
+      "name": "onDebugCrossingContainmentIntersection:",
+      "bridgedName": "onDebugCrossingContainmentIntersection",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onDebugWhyIntersectionIsntExternalCrossing:": {
+      "name": "onDebugWhyIntersectionIsntExternalCrossing:",
+      "bridgedName": "onDebugWhyIntersectionIsntExternalCrossing",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onDebugCrossingContainmentRayWithEdge:": {
+      "name": "onDebugCrossingContainmentRayWithEdge:",
+      "bridgedName": "onDebugCrossingContainmentRayWithEdge",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onShowIntersectionType:": {
+      "name": "onShowIntersectionType:",
+      "bridgedName": "onShowIntersectionType",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onShowOverlaps:": {
+      "name": "onShowOverlaps:",
+      "bridgedName": "onShowOverlaps",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onShowContainmentRays:": {
+      "name": "onShowContainmentRays:",
+      "bridgedName": "onShowContainmentRays",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onShowWindingRuleContainmentRays:": {
+      "name": "onShowWindingRuleContainmentRays:",
+      "bridgedName": "onShowWindingRuleContainmentRays",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onShowCrossingContainmentRays:": {
+      "name": "onShowCrossingContainmentRays:",
+      "bridgedName": "onShowCrossingContainmentRays",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onShowExpandedXor:": {
+      "name": "onShowExpandedXor:",
+      "bridgedName": "onShowExpandedXor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onShowContourJoints:": {
+      "name": "onShowContourJoints:",
+      "bridgedName": "onShowContourJoints",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onShowSuspiciousSelfCrossings:": {
+      "name": "onShowSuspiciousSelfCrossings:",
+      "bridgedName": "onShowSuspiciousSelfCrossings",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onShowWindingRuleContainmentRaysForSelection:": {
+      "name": "onShowWindingRuleContainmentRaysForSelection:",
+      "bridgedName": "onShowWindingRuleContainmentRaysForSelection",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onConvertToXor:": {
+      "name": "onConvertToXor:",
+      "bridgedName": "onConvertToXor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onToggleAnimation:": {
+      "name": "onToggleAnimation:",
+      "bridgedName": "onToggleAnimation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "onPrescale:": {
+      "name": "onPrescale:",
+      "bridgedName": "onPrescale",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "examplesTableView": {
+      "name": "examplesTableView",
+      "pointer": false,
+      "type": "IBOutlet NSTableView ",
+      "attributes": [
+        "weak"
+      ]
+    },
+    "examplesPathControl": {
+      "name": "examplesPathControl",
+      "pointer": false,
+      "type": "IBOutlet NSPathControl ",
+      "attributes": [
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

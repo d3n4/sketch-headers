@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSDocumentColorSpaceProvider",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "documentColorSpaceForClient:": {
+      "name": "documentColorSpaceForClient:",
+      "bridgedName": "documentColorSpaceForClient",
+      "args": [
+        {
+          "name": "client",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

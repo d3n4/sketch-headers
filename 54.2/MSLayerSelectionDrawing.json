@@ -1,0 +1,61 @@
+{
+  "name": "MSLayerSelectionDrawing",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "drawOverridesForLayers:zoomScale:": {
+      "name": "drawOverridesForLayers:zoomScale:",
+      "bridgedName": "drawOverridesForLayers_zoomScale",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawBorderWithRect:zoomValue:": {
+      "name": "drawBorderWithRect:zoomValue:",
+      "bridgedName": "drawBorderWithRect_zoomValue",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "strokeWidthForZoomValue:": {
+      "name": "strokeWidthForZoomValue:",
+      "bridgedName": "strokeWidthForZoomValue",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

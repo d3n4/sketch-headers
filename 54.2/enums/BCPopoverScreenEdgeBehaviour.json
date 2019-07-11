@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "BCPopoverScreenEdgeBehaviour",
+  "members": [
+    {
+      "name": "BCPopoverScreenEdgeBehaviourNone"
+    },
+    {
+      "name": "BCPopoverScreenEdgeBehaviourResize"
+    },
+    {
+      "name": "BCPopoverScreenEdgeBehaviourMove"
+    }
+  ]
+}

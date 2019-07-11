@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSContextualMenuBuilderContext",
+  "members": [
+    {
+      "name": "MSContextualMenuBuilderContextCanvas",
+      "value": "0"
+    },
+    {
+      "name": "MSContextualMenuBuilderContextLayerList",
+      "value": "1"
+    }
+  ]
+}

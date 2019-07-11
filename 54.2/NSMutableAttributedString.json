@@ -1,0 +1,69 @@
+{
+  "name": "NSMutableAttributedString",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "appendString:attributes:": {
+      "name": "appendString:attributes:",
+      "bridgedName": "appendString_attributes",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "attributes",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateListStyle:": {
+      "name": "updateListStyle:",
+      "bridgedName": "updateListStyle",
+      "args": [
+        {
+          "name": "newList",
+          "type": "NSTextList *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateListFrom:toList:": {
+      "name": "updateListFrom:toList:",
+      "bridgedName": "updateListFrom_toList",
+      "args": [
+        {
+          "name": "oldList",
+          "type": "NSTextList *",
+          "nullable": false
+        },
+        {
+          "name": "newList",
+          "type": "NSTextList *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeUnsupportedAttributes": {
+      "name": "removeUnsupportedAttributes",
+      "bridgedName": "removeUnsupportedAttributes",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

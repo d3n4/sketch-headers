@@ -1,0 +1,27 @@
+{
+  "name": "BCStaticNetworkTime",
+  "extends": "BCNetworkTime",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "systemDate": {
+      "name": "systemDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "networkTime": {
+      "name": "networkTime",
+      "pointer": false,
+      "type": "NSTimeInterval",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

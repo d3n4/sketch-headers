@@ -1,0 +1,170 @@
+{
+  "name": "MSImmutableStyledLayer",
+  "extends": "_MSImmutableStyledLayer",
+  "interfaces": [
+    "MSStyledLayer"
+  ],
+  "methods": {
+    "bezierPathForStartDecorationOnPath:": {
+      "name": "bezierPathForStartDecorationOnPath:",
+      "bridgedName": "bezierPathForStartDecorationOnPath",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "MSPath * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathForEndDecorationOnPath:": {
+      "name": "bezierPathForEndDecorationOnPath:",
+      "bridgedName": "bezierPathForEndDecorationOnPath",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "MSPath * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cacheDecorations": {
+      "name": "cacheDecorations",
+      "bridgedName": "cacheDecorations",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "decoratedPathInBoundsInDocument:asSubpath:": {
+      "name": "decoratedPathInBoundsInDocument:asSubpath:",
+      "bridgedName": "decoratedPathInBoundsInDocument_asSubpath",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "asSubpath",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasMarkers": {
+      "name": "hasMarkers",
+      "bridgedName": "hasMarkers",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareDrawingInContext:inBlock:": {
+      "name": "prepareDrawingInContext:inBlock:",
+      "bridgedName": "prepareDrawingInContext_inBlock",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillPathWithDecorations:": {
+      "name": "fillPathWithDecorations:",
+      "bridgedName": "fillPathWithDecorations",
+      "args": [
+        {
+          "name": "pathInOut",
+          "type": "MSPath * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillStyleForDecoratedPath": {
+      "name": "fillStyleForDecoratedPath",
+      "bridgedName": "fillStyleForDecoratedPath",
+      "args": [],
+      "returns": "MSImmutableStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "strokeStyleForDecoratedPath": {
+      "name": "strokeStyleForDecoratedPath",
+      "bridgedName": "strokeStyleForDecoratedPath",
+      "args": [],
+      "returns": "MSImmutableStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathWithExporter:border:": {
+      "name": "pathWithExporter:border:",
+      "bridgedName": "pathWithExporter_border",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter *",
+          "nullable": false
+        },
+        {
+          "name": "border",
+          "type": "MSImmutableStyleBorder *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "allowsBlur": {
+      "name": "allowsBlur",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shadowsFollowRotation": {
+      "name": "shadowsFollowRotation",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldRasterize": {
+      "name": "shouldRasterize",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

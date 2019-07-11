@@ -1,0 +1,72 @@
+{
+  "name": "MSCrashLogManager",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSActionObserver",
+    "BITHockeyManagerDelegate",
+    "BITCrashManagerDelegate"
+  ],
+  "methods": {
+    "clearEnvironment": {
+      "name": "clearEnvironment",
+      "bridgedName": "clearEnvironment",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setEnvironmentValue:forKey:": {
+      "name": "setEnvironmentValue:forKey:",
+      "bridgedName": "setEnvironmentValue_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "log:": {
+      "name": "log:",
+      "bridgedName": "log",
+      "args": [
+        {
+          "name": "text",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setup": {
+      "name": "setup",
+      "bridgedName": "setup",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "text": {
+      "name": "text",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

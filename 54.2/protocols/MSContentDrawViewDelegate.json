@@ -1,0 +1,25 @@
+{
+  "protocol": true,
+  "name": "MSContentDrawViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "scrollOrigin": {
+      "name": "scrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSIntersectAction",
+  "extends": "MSBaseBooleanAction",
+  "interfaces": [],
+  "methods": {
+    "booleanIntersect:": {
+      "name": "booleanIntersect:",
+      "bridgedName": "booleanIntersect",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

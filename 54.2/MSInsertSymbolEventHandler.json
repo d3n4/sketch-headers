@@ -1,0 +1,18 @@
+{
+  "name": "MSInsertSymbolEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "masterReference": {
+      "name": "masterReference",
+      "pointer": false,
+      "type": "MSSymbolMasterReference ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

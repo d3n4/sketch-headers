@@ -1,0 +1,19 @@
+{
+  "name": "MSDefaultGrid",
+  "extends": "MSDefaultArchive",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "defaultGrid": {
+      "name": "defaultGrid",
+      "pointer": false,
+      "type": "MSSimpleGrid ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "class"
+      ]
+    }
+  },
+  "generics": []
+}

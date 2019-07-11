@@ -1,0 +1,47 @@
+{
+  "name": "BCReceiptValidationContextWithInfo",
+  "extends": "BCReceiptValidationContext",
+  "interfaces": [],
+  "methods": {
+    "initWithBundleID:minimumVersion:": {
+      "name": "initWithBundleID:minimumVersion:",
+      "bridgedName": "initWithBundleID_minimumVersion",
+      "args": [
+        {
+          "name": "bundleID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "minimumVersion",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "expectedBundleID": {
+      "name": "expectedBundleID",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "minimumVersion": {
+      "name": "minimumVersion",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

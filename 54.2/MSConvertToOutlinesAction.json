@@ -1,0 +1,23 @@
+{
+  "name": "MSConvertToOutlinesAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "convertToOutlines:": {
+      "name": "convertToOutlines:",
+      "bridgedName": "convertToOutlines",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

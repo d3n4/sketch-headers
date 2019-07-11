@@ -1,0 +1,27 @@
+{
+  "name": "BCMagnifierButton",
+  "extends": "MSInspectorButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<BCMagnifierButtonDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSFlexibleColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

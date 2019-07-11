@@ -1,0 +1,63 @@
+{
+  "name": "SUPublicKeys",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDsa:ed:": {
+      "name": "initWithDsa:ed:",
+      "bridgedName": "initWithDsa_ed",
+      "args": [
+        {
+          "name": "dsa",
+          "type": "NSString * _Nullable",
+          "nullable": false
+        },
+        {
+          "name": "ed",
+          "type": "NSString * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqualToKey:": {
+      "name": "isEqualToKey:",
+      "bridgedName": "isEqualToKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "SUPublicKeys *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dsaPubKey": {
+      "name": "dsaPubKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "ed25519PubKey": {
+      "name": "ed25519PubKey",
+      "pointer": false,
+      "type": "const unsigned char ",
+      "attributes": [
+        "readonly",
+        "nullable",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

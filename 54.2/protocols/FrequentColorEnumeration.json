@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "FrequentColorEnumeration",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "enumerateColors:": {
+      "name": "enumerateColors:",
+      "bridgedName": "enumerateColors",
+      "args": [
+        {
+          "name": "enumeratorBlock",
+          "type": "__attribute__((noescape)) void(^)(MSImmutableColor * _Nullable, MSColorUse useCase)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

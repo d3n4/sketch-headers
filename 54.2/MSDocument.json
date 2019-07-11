@@ -1,0 +1,1043 @@
+{
+  "name": "MSDocument",
+  "extends": "NSDocument",
+  "interfaces": [
+    "NSMenuDelegate",
+    "NSToolbarDelegate",
+    "NSWindowDelegate",
+    "MSEventHandlerManagerDelegate",
+    "MSDocumentDataDelegate",
+    "MSMenuBuilderDelegate"
+  ],
+  "methods": {
+    "actionClasses": {
+      "name": "actionClasses",
+      "bridgedName": "actionClasses",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addLayerFromImageAtURL:toGroup:fitPixels:error:": {
+      "name": "addLayerFromImageAtURL:toGroup:fitPixels:error:",
+      "bridgedName": "addLayerFromImageAtURL_toGroup_fitPixels_error",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "group",
+          "type": "MSLayerGroup*",
+          "nullable": false
+        },
+        {
+          "name": "fitPixels",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "outError",
+          "type": "NSError * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "askForUserInput:initialValue:": {
+      "name": "askForUserInput:initialValue:",
+      "bridgedName": "askForUserInput_initialValue",
+      "args": [
+        {
+          "name": "label",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "defaultString",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "askForUserInput:ofType:initialValue:": {
+      "name": "askForUserInput:ofType:initialValue:",
+      "bridgedName": "askForUserInput_ofType_initialValue",
+      "args": [
+        {
+          "name": "label",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "defaultString",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "saveArtboardOrSlice:toFile:": {
+      "name": "saveArtboardOrSlice:toFile:",
+      "bridgedName": "saveArtboardOrSlice_toFile",
+      "args": [
+        {
+          "name": "artboardOrSlice",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "filename",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataForRequest:ofType:": {
+      "name": "dataForRequest:ofType:",
+      "bridgedName": "dataForRequest_ofType",
+      "args": [
+        {
+          "name": "request",
+          "type": "MSExportRequest *",
+          "nullable": false
+        },
+        {
+          "name": "extension",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showMessage:": {
+      "name": "showMessage:",
+      "bridgedName": "showMessage",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pluginContext": {
+      "name": "pluginContext",
+      "bridgedName": "pluginContext",
+      "args": [],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "saveDocumentToURL:saveMode:context:callback:": {
+      "name": "saveDocumentToURL:saveMode:context:callback:",
+      "bridgedName": "saveDocumentToURL_saveMode_context_callback",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "saveMode",
+          "type": "NSSaveOperationType",
+          "nullable": false
+        },
+        {
+          "name": "coscript",
+          "type": "COScript *",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contentDrawView": {
+      "name": "contentDrawView",
+      "bridgedName": "contentDrawView",
+      "args": [],
+      "returns": "MSContentDrawView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentDocument": {
+      "name": "currentDocument",
+      "bridgedName": "currentDocument",
+      "args": [],
+      "returns": "MSDocument *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "windowForSheet": {
+      "name": "windowForSheet",
+      "bridgedName": "windowForSheet",
+      "args": [],
+      "returns": "NSWindow *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "window": {
+      "name": "window",
+      "bridgedName": "window",
+      "args": [],
+      "returns": "NSWindow *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateFocusedArtboard:": {
+      "name": "updateFocusedArtboard:",
+      "bridgedName": "updateFocusedArtboard",
+      "args": [
+        {
+          "name": "newArtboard",
+          "type": "MSArtboardGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectedLayers": {
+      "name": "selectedLayers",
+      "bridgedName": "selectedLayers",
+      "args": [],
+      "returns": "MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeToImmutableDocumentData:selecting:onPage:": {
+      "name": "changeToImmutableDocumentData:selecting:onPage:",
+      "bridgedName": "changeToImmutableDocumentData_selecting_onPage",
+      "args": [
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "selection",
+          "type": "NSSet<NSString *> *",
+          "nullable": false
+        },
+        {
+          "name": "pageID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "commitHistoryIfNecessary:": {
+      "name": "commitHistoryIfNecessary:",
+      "bridgedName": "commitHistoryIfNecessary",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentPage": {
+      "name": "currentPage",
+      "bridgedName": "currentPage",
+      "args": [],
+      "returns": "MSPage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateMenuItem:": {
+      "name": "validateMenuItem:",
+      "bridgedName": "validateMenuItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSMenuItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toolbar": {
+      "name": "toolbar",
+      "bridgedName": "toolbar",
+      "args": [],
+      "returns": "NSToolbar *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectToolbarItemWithIdentifier:": {
+      "name": "selectToolbarItemWithIdentifier:",
+      "bridgedName": "selectToolbarItemWithIdentifier",
+      "args": [
+        {
+          "name": "anIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createActions": {
+      "name": "createActions",
+      "bridgedName": "createActions",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldCreateToolbar": {
+      "name": "shouldCreateToolbar",
+      "bridgedName": "shouldCreateToolbar",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetDocumentData:": {
+      "name": "resetDocumentData:",
+      "bridgedName": "resetDocumentData",
+      "args": [
+        {
+          "name": "newData",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deleteSymbolMasters:": {
+      "name": "deleteSymbolMasters:",
+      "bridgedName": "deleteSymbolMasters",
+      "args": [
+        {
+          "name": "array",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setCurrentPage:": {
+      "name": "setCurrentPage:",
+      "bridgedName": "setCurrentPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshSidebarWithMask:": {
+      "name": "refreshSidebarWithMask:",
+      "bridgedName": "refreshSidebarWithMask",
+      "args": [
+        {
+          "name": "mask",
+          "type": "BCSideBarRefreshType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateFilterSettings": {
+      "name": "updateFilterSettings",
+      "bridgedName": "updateFilterSettings",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadInspector": {
+      "name": "reloadInspector",
+      "bridgedName": "reloadInspector",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scheduleReloadInspector": {
+      "name": "scheduleReloadInspector",
+      "bridgedName": "scheduleReloadInspector",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contentDrawViewWillDraw:": {
+      "name": "contentDrawViewWillDraw:",
+      "bridgedName": "contentDrawViewWillDraw",
+      "args": [
+        {
+          "name": "view",
+          "type": "MSContentDrawView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderStartedIn:": {
+      "name": "renderStartedIn:",
+      "bridgedName": "renderStartedIn",
+      "args": [
+        {
+          "name": "view",
+          "type": "MSContentDrawView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadView": {
+      "name": "reloadView",
+      "bridgedName": "reloadView",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshWindowBadge": {
+      "name": "refreshWindowBadge",
+      "bridgedName": "refreshWindowBadge",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerStyles": {
+      "name": "layerStyles",
+      "bridgedName": "layerStyles",
+      "args": [],
+      "returns": "MSSharedStyleContainer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pages": {
+      "name": "pages",
+      "bridgedName": "pages",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isLayerListVisible": {
+      "name": "isLayerListVisible",
+      "bridgedName": "isLayerListVisible",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isInspectorVisible": {
+      "name": "isInspectorVisible",
+      "bridgedName": "isInspectorVisible",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleClickThrough:": {
+      "name": "toggleClickThrough:",
+      "bridgedName": "toggleClickThrough",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportSliceLayers:": {
+      "name": "exportSliceLayers:",
+      "bridgedName": "exportSliceLayers",
+      "args": [
+        {
+          "name": "sliceLayers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allExportableLayers": {
+      "name": "allExportableLayers",
+      "bridgedName": "allExportableLayers",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addBlankPage": {
+      "name": "addBlankPage",
+      "bridgedName": "addBlankPage",
+      "args": [],
+      "returns": "MSPage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removePage:": {
+      "name": "removePage:",
+      "bridgedName": "removePage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasArtboards": {
+      "name": "hasArtboards",
+      "bridgedName": "hasArtboards",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isRulersVisible": {
+      "name": "isRulersVisible",
+      "bridgedName": "isRulersVisible",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerPositionPossiblyChanged": {
+      "name": "layerPositionPossiblyChanged",
+      "bridgedName": "layerPositionPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "zoomValueDidChange": {
+      "name": "zoomValueDidChange",
+      "bridgedName": "zoomValueDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugCountObjects:": {
+      "name": "debugCountObjects:",
+      "bridgedName": "debugCountObjects",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isShowingMeasurements": {
+      "name": "isShowingMeasurements",
+      "bridgedName": "isShowingMeasurements",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "visitSymbolMaster:withReturnInstance:": {
+      "name": "visitSymbolMaster:withReturnInstance:",
+      "bridgedName": "visitSymbolMaster_withReturnInstance",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        },
+        {
+          "name": "instance",
+          "type": "MSSymbolInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openLibrariesForForeignObjects:": {
+      "name": "openLibrariesForForeignObjects:",
+      "bridgedName": "openLibrariesForForeignObjects",
+      "args": [
+        {
+          "name": "objects",
+          "type": "NSArray<MSForeignObject *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "restoreViewportAfterArtboardEdit:": {
+      "name": "restoreViewportAfterArtboardEdit:",
+      "bridgedName": "restoreViewportAfterArtboardEdit",
+      "args": [
+        {
+          "name": "artboard",
+          "type": "MSArtboardGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeViewportForArtboard:": {
+      "name": "removeViewportForArtboard:",
+      "bridgedName": "removeViewportForArtboard",
+      "args": [
+        {
+          "name": "artboard",
+          "type": "MSArtboardGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canRestoreViewportAfterArtboardEdit:": {
+      "name": "canRestoreViewportAfterArtboardEdit:",
+      "bridgedName": "canRestoreViewportAfterArtboardEdit",
+      "args": [
+        {
+          "name": "artboard",
+          "type": "MSArtboardGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadTouchBars": {
+      "name": "reloadTouchBars",
+      "bridgedName": "reloadTouchBars",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "localObjectForObjectReference:": {
+      "name": "localObjectForObjectReference:",
+      "bridgedName": "localObjectForObjectReference",
+      "args": [
+        {
+          "name": "ref",
+          "type": "MSShareableObjectReference*",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof MSShareableObject*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolReferenceForRecipe:": {
+      "name": "symbolReferenceForRecipe:",
+      "bridgedName": "symbolReferenceForRecipe",
+      "args": [
+        {
+          "name": "recipe",
+          "type": "MSSymbolMasterReferenceDescriptor *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSymbolMasterReference *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showNonDefaultColorSpaceWarningIfApplicable": {
+      "name": "showNonDefaultColorSpaceWarningIfApplicable",
+      "bridgedName": "showNonDefaultColorSpaceWarningIfApplicable",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "returnToDefaultFirstResponder": {
+      "name": "returnToDefaultFirstResponder",
+      "bridgedName": "returnToDefaultFirstResponder",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installedFontsDidChange": {
+      "name": "installedFontsDidChange",
+      "bridgedName": "installedFontsDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "historyMaker:didApplyHistoryUpdate:": {
+      "name": "historyMaker:didApplyHistoryUpdate:",
+      "bridgedName": "historyMaker_didApplyHistoryUpdate",
+      "args": [
+        {
+          "name": "maker",
+          "type": "MSHistoryMaker *",
+          "nullable": false
+        },
+        {
+          "name": "update",
+          "type": "MSHistoryUpdate",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "historyMakerDidRevertHistory:": {
+      "name": "historyMakerDidRevertHistory:",
+      "bridgedName": "historyMakerDidRevertHistory",
+      "args": [
+        {
+          "name": "maker",
+          "type": "MSHistoryMaker *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "historyMakerDidProgressHistory:": {
+      "name": "historyMakerDidProgressHistory:",
+      "bridgedName": "historyMakerDidProgressHistory",
+      "args": [
+        {
+          "name": "maker",
+          "type": "MSHistoryMaker *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "cloudShare": {
+      "name": "cloudShare",
+      "pointer": false,
+      "type": "SCKShare ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "cloudName": {
+      "name": "cloudName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "documentWindow": {
+      "name": "documentWindow",
+      "pointer": false,
+      "type": "IBOutlet NSWindow ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "messageView": {
+      "name": "messageView",
+      "pointer": false,
+      "type": "NSView*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "splitViewController": {
+      "name": "splitViewController",
+      "pointer": false,
+      "type": "IBOutlet MSMainSplitViewController ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "toolbarConstructor": {
+      "name": "toolbarConstructor",
+      "pointer": false,
+      "type": "MSToolbarConstructor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "actionsController": {
+      "name": "actionsController",
+      "pointer": false,
+      "type": "MSActionController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "badgeController": {
+      "name": "badgeController",
+      "pointer": false,
+      "type": "MSBadgeController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "immutableDocumentData": {
+      "name": "immutableDocumentData",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "canvasColorSpace": {
+      "name": "canvasColorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "eventHandlerManager": {
+      "name": "eventHandlerManager",
+      "pointer": false,
+      "type": "MSEventHandlerManager ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "cacheManager": {
+      "name": "cacheManager",
+      "pointer": false,
+      "type": "MSCacheManager ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "historyMaker": {
+      "name": "historyMaker",
+      "pointer": false,
+      "type": "MSHistoryMaker ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorController": {
+      "name": "inspectorController",
+      "pointer": false,
+      "type": "MSInspectorController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "exportableLayerSelection": {
+      "name": "exportableLayerSelection",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "sidebarController": {
+      "name": "sidebarController",
+      "pointer": false,
+      "type": "BCSideBarViewController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "currentContentViewController": {
+      "name": "currentContentViewController",
+      "pointer": false,
+      "type": "MSContentDrawViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "libraryController": {
+      "name": "libraryController",
+      "pointer": false,
+      "type": "MSAssetLibraryController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "nextReadFromURLIsReload": {
+      "name": "nextReadFromURLIsReload",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "hasOpenedImageFile": {
+      "name": "hasOpenedImageFile",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "UIMetadata": {
+      "name": "UIMetadata",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "scrollOrigin": {
+      "name": "scrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "colorSpaceMismatchWarning": {
+      "name": "colorSpaceMismatchWarning",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "editingLibraryWarning": {
+      "name": "editingLibraryWarning",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "isCurrent": {
+      "name": "isCurrent",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

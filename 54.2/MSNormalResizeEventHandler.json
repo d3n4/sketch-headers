@@ -1,0 +1,25 @@
+{
+  "name": "MSNormalResizeEventHandler",
+  "extends": "MSNormalBaseEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "handle": {
+      "name": "handle",
+      "pointer": false,
+      "type": "BCCorner",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "normalEventHandler": {
+      "name": "normalEventHandler",
+      "pointer": false,
+      "type": "MSNormalEventHandler ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

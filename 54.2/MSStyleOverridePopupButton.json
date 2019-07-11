@@ -1,0 +1,52 @@
+{
+  "name": "MSStyleOverridePopupButton",
+  "extends": "NSPopUpButton",
+  "interfaces": [],
+  "methods": {
+    "buildMenuForOverride:withMenuBuilder:document:imageCallback:": {
+      "name": "buildMenuForOverride:withMenuBuilder:document:imageCallback:",
+      "bridgedName": "buildMenuForOverride_withMenuBuilder_document_imageCallback",
+      "args": [
+        {
+          "name": "primaryOverride",
+          "type": "nonnull MSAvailableOverride *",
+          "nullable": false
+        },
+        {
+          "name": "menuBuilder",
+          "type": "nonnull MSForeignObjectMenuBuilder *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "nonnull MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "imageCallback",
+          "type": "void (^_Nullable)(NSImage * _Nullable)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyPreviewImage:": {
+      "name": "applyPreviewImage:",
+      "bridgedName": "applyPreviewImage",
+      "args": [
+        {
+          "name": "image",
+          "type": "nonnull NSImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

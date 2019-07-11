@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "FBDoubleRect",
+  "members": [
+    {
+      "name": "origin",
+      "pointer": false,
+      "type": "FBDoublePoint"
+    },
+    {
+      "name": "size",
+      "pointer": false,
+      "type": "FBDoubleSize"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSLayersPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

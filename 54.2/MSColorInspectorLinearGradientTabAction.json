@@ -1,0 +1,8 @@
+{
+  "name": "MSColorInspectorLinearGradientTabAction",
+  "extends": "MSColorInspectorModePickerAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

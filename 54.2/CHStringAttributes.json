@@ -1,0 +1,133 @@
+{
+  "name": "CHStringAttributes",
+  "extends": "NSDictionary",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "stringAttributesWithFont:": {
+      "name": "stringAttributesWithFont:",
+      "bridgedName": "stringAttributesWithFont",
+      "args": [
+        {
+          "name": "aFont",
+          "type": "NSFont *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "stringAttributesWithFont:color:": {
+      "name": "stringAttributesWithFont:color:",
+      "bridgedName": "stringAttributesWithFont_color",
+      "args": [
+        {
+          "name": "aFont",
+          "type": "NSFont *",
+          "nullable": false
+        },
+        {
+          "name": "aColor",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "stringAttributesWithFont:alignment:": {
+      "name": "stringAttributesWithFont:alignment:",
+      "bridgedName": "stringAttributesWithFont_alignment",
+      "args": [
+        {
+          "name": "aFont",
+          "type": "NSFont *",
+          "nullable": false
+        },
+        {
+          "name": "align",
+          "type": "NSTextAlignment",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "stringAttributesWithFont:color:alignment:": {
+      "name": "stringAttributesWithFont:color:alignment:",
+      "bridgedName": "stringAttributesWithFont_color_alignment",
+      "args": [
+        {
+          "name": "aFont",
+          "type": "NSFont *",
+          "nullable": false
+        },
+        {
+          "name": "aColor",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "align",
+          "type": "NSTextAlignment",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "font": {
+      "name": "font",
+      "pointer": false,
+      "type": "NSFont ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "shadow": {
+      "name": "shadow",
+      "pointer": false,
+      "type": "NSShadow ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "alignment": {
+      "name": "alignment",
+      "pointer": false,
+      "type": "NSTextAlignment",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "fontSize": {
+      "name": "fontSize",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

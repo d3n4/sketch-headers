@@ -1,0 +1,84 @@
+{
+  "name": "MSColorPickerViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSKeyViewProvider"
+  ],
+  "methods": {
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSColorPickerViewControllerDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setColor:multipleValues:": {
+      "name": "setColor:multipleValues:",
+      "bridgedName": "setColor_multipleValues",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "multiple",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFrequentColors:": {
+      "name": "setFrequentColors:",
+      "bridgedName": "setFrequentColors",
+      "args": [
+        {
+          "name": "frequentColors",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sectionHeaderAccessoryViewControllers": {
+      "name": "sectionHeaderAccessoryViewControllers",
+      "bridgedName": "sectionHeaderAccessoryViewControllers",
+      "args": [],
+      "returns": "NSArray <NSViewController *>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disconnectFromColorPanel": {
+      "name": "disconnectFromColorPanel",
+      "bridgedName": "disconnectFromColorPanel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

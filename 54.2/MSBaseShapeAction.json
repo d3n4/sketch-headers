@@ -1,0 +1,41 @@
+{
+  "name": "MSBaseShapeAction",
+  "extends": "MSBaseInsertAction",
+  "interfaces": [],
+  "methods": {
+    "insertShapeLayer:identifier:document:": {
+      "name": "insertShapeLayer:identifier:document:",
+      "bridgedName": "insertShapeLayer_identifier_document",
+      "args": [
+        {
+          "name": "shapeOrPath",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "prototypeLayer": {
+      "name": "prototypeLayer",
+      "bridgedName": "prototypeLayer",
+      "args": [],
+      "returns": "MSShapePathLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

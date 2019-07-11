@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSAlignmentGuideMask",
+  "members": [
+    {
+      "name": "MSAlignmentGuideMaskCustom",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSAlignmentGuideMaskGrid",
+      "value": "1 << 1"
+    },
+    {
+      "name": "MSAlignmentGuideMaskAll",
+      "value": "MSAlignmentGuideMaskCustom|MSAlignmentGuideMaskGrid"
+    }
+  ]
+}

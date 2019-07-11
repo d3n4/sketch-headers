@@ -1,0 +1,73 @@
+{
+  "name": "MSToolbarConstructor",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSToolbarDelegate"
+  ],
+  "methods": {
+    "toolbarAllowedItemIdentifiers": {
+      "name": "toolbarAllowedItemIdentifiers",
+      "bridgedName": "toolbarAllowedItemIdentifiers",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "toolbarDefaultItemIdentifiers": {
+      "name": "toolbarDefaultItemIdentifiers",
+      "bridgedName": "toolbarDefaultItemIdentifiers",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithDocument:": {
+      "name": "initWithDocument:",
+      "bridgedName": "initWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "constructToolbarForWindow:": {
+      "name": "constructToolbarForWindow:",
+      "bridgedName": "constructToolbarForWindow",
+      "args": [
+        {
+          "name": "window",
+          "type": "NSWindow *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateToolbarItems": {
+      "name": "validateToolbarItems",
+      "bridgedName": "validateToolbarItems",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "doc": {
+      "name": "doc",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

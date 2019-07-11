@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "MSGradientPointArrayDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "gradientPointArray:didReplacePointAtIndex:withPoint:": {
+      "name": "gradientPointArray:didReplacePointAtIndex:withPoint:",
+      "bridgedName": "gradientPointArray_didReplacePointAtIndex_withPoint",
+      "args": [
+        {
+          "name": "array",
+          "type": "MSGradientPointArray *",
+          "nullable": false
+        },
+        {
+          "name": "i",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

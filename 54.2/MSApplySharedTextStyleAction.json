@@ -1,0 +1,23 @@
+{
+  "name": "MSApplySharedTextStyleAction",
+  "extends": "MSApplySharedStyleAction",
+  "interfaces": [],
+  "methods": {
+    "applySharedTextStyle:": {
+      "name": "applySharedTextStyle:",
+      "bridgedName": "applySharedTextStyle",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

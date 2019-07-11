@@ -1,0 +1,38 @@
+{
+  "name": "MSHUDWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [
+    "NSWindowDelegate"
+  ],
+  "methods": {
+    "makeHUD": {
+      "name": "makeHUD",
+      "bridgedName": "makeHUD",
+      "args": [],
+      "returns": "MSHUDWindowController*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "toggle": {
+      "name": "toggle",
+      "bridgedName": "toggle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isVisible": {
+      "name": "isVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

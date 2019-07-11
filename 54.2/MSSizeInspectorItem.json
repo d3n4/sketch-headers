@@ -1,0 +1,8 @@
+{
+  "name": "MSSizeInspectorItem",
+  "extends": "MSBaseSizeInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

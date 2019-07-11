@@ -1,0 +1,85 @@
+{
+  "name": "SPUDownloader",
+  "extends": "NSObject",
+  "interfaces": [
+    "SPUDownloaderProtocol"
+  ],
+  "methods": {
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id <SPUDownloaderDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <SPUDownloaderDelegate>",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "bundleIdentifier": {
+      "name": "bundleIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "desiredFilename": {
+      "name": "desiredFilename",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "downloadFilename": {
+      "name": "downloadFilename",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "disabledAutomaticTermination": {
+      "name": "disabledAutomaticTermination",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "mode": {
+      "name": "mode",
+      "pointer": false,
+      "type": "SPUDownloadMode",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "receivedExpectedBytes": {
+      "name": "receivedExpectedBytes",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

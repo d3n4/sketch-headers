@@ -1,0 +1,108 @@
+{
+  "protocol": true,
+  "name": "MSInspectorSectionDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "sectionDidResize:": {
+      "name": "sectionDidResize:",
+      "bridgedName": "sectionDidResize",
+      "args": [
+        {
+          "name": "section",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentForInspectorSection:": {
+      "name": "documentForInspectorSection:",
+      "bridgedName": "documentForInspectorSection",
+      "args": [
+        {
+          "name": "section",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDocument *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isSectionWithIdentifierCollapsed:": {
+      "name": "isSectionWithIdentifierCollapsed:",
+      "bridgedName": "isSectionWithIdentifierCollapsed",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isSectionWithIdentifierCollapsed:default:": {
+      "name": "isSectionWithIdentifierCollapsed:default:",
+      "bridgedName": "isSectionWithIdentifierCollapsed_default",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "defaultValue",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "persistentlyCollapse:sectionWithIdentifier:reloadTarget:": {
+      "name": "persistentlyCollapse:sectionWithIdentifier:reloadTarget:",
+      "bridgedName": "persistentlyCollapse_sectionWithIdentifier_reloadTarget",
+      "args": [
+        {
+          "name": "collapse",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "reloadTarget",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadItemsForSection:": {
+      "name": "reloadItemsForSection:",
+      "bridgedName": "reloadItemsForSection",
+      "args": [
+        {
+          "name": "section",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

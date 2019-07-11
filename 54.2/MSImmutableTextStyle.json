@@ -1,0 +1,19 @@
+{
+  "name": "MSImmutableTextStyle",
+  "extends": "_MSImmutableTextStyle",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "attributes": {
+      "name": "attributes",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

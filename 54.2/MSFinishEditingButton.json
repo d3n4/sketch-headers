@@ -1,0 +1,8 @@
+{
+  "name": "MSFinishEditingButton",
+  "extends": "NSButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSPatternAssetCollectionNoContentViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

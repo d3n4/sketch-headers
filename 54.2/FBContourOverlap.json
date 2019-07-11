@@ -1,0 +1,162 @@
+{
+  "name": "FBContourOverlap",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "contourOverlap": {
+      "name": "contourOverlap",
+      "bridgedName": "contourOverlap",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addOverlap:forEdge1:edge2:": {
+      "name": "addOverlap:forEdge1:edge2:",
+      "bridgedName": "addOverlap_forEdge1_edge2",
+      "args": [
+        {
+          "name": "range",
+          "type": "FBBezierIntersectRange *",
+          "nullable": false
+        },
+        {
+          "name": "edge1",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "edge2",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runsWithBlock:": {
+      "name": "runsWithBlock:",
+      "bridgedName": "runsWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(FBEdgeOverlapRun *run, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reset": {
+      "name": "reset",
+      "bridgedName": "reset",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isComplete": {
+      "name": "isComplete",
+      "bridgedName": "isComplete",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEmpty": {
+      "name": "isEmpty",
+      "bridgedName": "isEmpty",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isBetweenContour:andContour:": {
+      "name": "isBetweenContour:andContour:",
+      "bridgedName": "isBetweenContour_andContour",
+      "args": [
+        {
+          "name": "contour1",
+          "type": "FBBezierContour *",
+          "nullable": false
+        },
+        {
+          "name": "contour2",
+          "type": "FBBezierContour *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doesContainCrossing:": {
+      "name": "doesContainCrossing:",
+      "bridgedName": "doesContainCrossing",
+      "args": [
+        {
+          "name": "crossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doesContainParameter:onEdge:": {
+      "name": "doesContainParameter:onEdge:",
+      "bridgedName": "doesContainParameter_onEdge",
+      "args": [
+        {
+          "name": "parameter",
+          "type": "FBFloat",
+          "nullable": false
+        },
+        {
+          "name": "edge",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "contour1": {
+      "name": "contour1",
+      "pointer": false,
+      "type": "FBBezierContour ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "contour2": {
+      "name": "contour2",
+      "pointer": false,
+      "type": "FBBezierContour ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "overlapRuns": {
+      "name": "overlapRuns",
+      "pointer": false,
+      "type": "NSArray <FBEdgeOverlapRun *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

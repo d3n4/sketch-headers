@@ -1,0 +1,66 @@
+{
+  "name": "MSStackView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {
+    "stack:": {
+      "name": "stack:",
+      "bridgedName": "stack",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "autoupdatesMaximumHeight": {
+      "name": "autoupdatesMaximumHeight",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "maximumHeight": {
+      "name": "maximumHeight",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "minimumHeight": {
+      "name": "minimumHeight",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "keyResponder": {
+      "name": "keyResponder",
+      "pointer": false,
+      "type": "IBOutlet id",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

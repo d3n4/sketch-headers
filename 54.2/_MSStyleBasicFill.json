@@ -1,0 +1,46 @@
+{
+  "name": "_MSStyleBasicFill",
+  "extends": "MSStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "fillType": {
+      "name": "fillType",
+      "pointer": false,
+      "type": "BCFillType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "contextSettings": {
+      "name": "contextSettings",
+      "pointer": false,
+      "type": "MSGraphicsContextSettings ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "gradient": {
+      "name": "gradient",
+      "pointer": false,
+      "type": "MSGradient ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

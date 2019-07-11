@@ -1,0 +1,38 @@
+{
+  "protocol": true,
+  "name": "MSCloudManifestMakerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "cloudManifestMaker:fileMetadataForRootLayer:layerBehavior:atScale:": {
+      "name": "cloudManifestMaker:fileMetadataForRootLayer:layerBehavior:atScale:",
+      "bridgedName": "cloudManifestMaker_fileMetadataForRootLayer_layerBehavior_atScale",
+      "args": [
+        {
+          "name": "maker",
+          "type": "MSCloudManifestMaker *",
+          "nullable": false
+        },
+        {
+          "name": "root",
+          "type": "MSImmutableLayerGroup<MSWebExportableRootLayer> *",
+          "nullable": false
+        },
+        {
+          "name": "behavior",
+          "type": "MSWebExportLayerBehavior",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

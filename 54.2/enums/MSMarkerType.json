@@ -1,0 +1,44 @@
+{
+  "enum": true,
+  "name": "MSMarkerType",
+  "members": [
+    {
+      "name": "MSMarkerTypeNone",
+      "value": "0"
+    },
+    {
+      "name": "MSMarkerTypeOpenArrow",
+      "value": "1"
+    },
+    {
+      "name": "MSMarkerTypeFilledArrow",
+      "value": "2"
+    },
+    {
+      "name": "MSMarkerTypeLine",
+      "value": "3"
+    },
+    {
+      "name": "MSMarkerTypeOpenCircle",
+      "value": "4"
+    },
+    {
+      "name": "MSMarkerTypeFilledCircle",
+      "value": "5"
+    },
+    {
+      "name": "MSMarkerTypeOpenSquare",
+      "value": "6"
+    },
+    {
+      "name": "MSMarkerTypeFilledSquare",
+      "value": "7"
+    },
+    {
+      "name": "MSMarkerTypeFilledArrowRounded"
+    },
+    {
+      "name": "MSMarkerTypeFilledSquareRounded"
+    }
+  ]
+}
