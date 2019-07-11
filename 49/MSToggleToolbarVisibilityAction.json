@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleToolbarVisibilityAction",
+  "extends": "MSToggleVisibilityAction",
+  "interfaces": [],
+  "methods": {
+    "toggleToolbarVisibility:": {
+      "name": "toggleToolbarVisibility:",
+      "bridgedName": "toggleToolbarVisibility",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

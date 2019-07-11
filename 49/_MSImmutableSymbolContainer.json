@@ -1,0 +1,8 @@
+{
+  "name": "_MSImmutableSymbolContainer",
+  "extends": "MSImmutableSharedObjectContainer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

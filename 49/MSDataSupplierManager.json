@@ -1,0 +1,201 @@
+{
+  "name": "MSDataSupplierManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSDataSupplierManagerDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerPluginDataSupplier:withName:dataType:pluginIdentifier:commandIdentifier:": {
+      "name": "registerPluginDataSupplier:withName:dataType:pluginIdentifier:commandIdentifier:",
+      "bridgedName": "registerPluginDataSupplier_withName_dataType_pluginIdentifier_commandIdentifier",
+      "args": [
+        {
+          "name": "dynamicDataKey",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataType",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "pluginIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "commandIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deregisterDataSuppliersForPluginWithIdentifier:": {
+      "name": "deregisterDataSuppliersForPluginWithIdentifier:",
+      "bridgedName": "deregisterDataSuppliersForPluginWithIdentifier",
+      "args": [
+        {
+          "name": "pluginIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "requestDataFromPluginDataSupplier:numberOfItems:applierBlock:": {
+      "name": "requestDataFromPluginDataSupplier:numberOfItems:applierBlock:",
+      "bridgedName": "requestDataFromPluginDataSupplier_numberOfItems_applierBlock",
+      "args": [
+        {
+          "name": "dataSupplier",
+          "type": "MSPluginDataSupplier *",
+          "nullable": false
+        },
+        {
+          "name": "numberOfItems",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "applierBlock",
+          "type": "MSDataApplierBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supplyData:forKey:": {
+      "name": "supplyData:forKey:",
+      "bridgedName": "supplyData_forKey",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "dataKey",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addLocalData:": {
+      "name": "addLocalData:",
+      "bridgedName": "addLocalData",
+      "args": [
+        {
+          "name": "localDataSupplier",
+          "type": "MSLocalDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeLocalData:": {
+      "name": "removeLocalData:",
+      "bridgedName": "removeLocalData",
+      "args": [
+        {
+          "name": "localDataSupplier",
+          "type": "MSLocalDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadLocalData": {
+      "name": "loadLocalData",
+      "bridgedName": "loadLocalData",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validLocalDataFileSystemURL:": {
+      "name": "validLocalDataFileSystemURL:",
+      "bridgedName": "validLocalDataFileSystemURL",
+      "args": [
+        {
+          "name": "possibleDataURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "localDataSuppliers": {
+      "name": "localDataSuppliers",
+      "pointer": false,
+      "type": "NSArray <MSLocalDataSupplier *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dataSuppliers": {
+      "name": "dataSuppliers",
+      "pointer": false,
+      "type": "NSArray <__kindof MSDataSupplier *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSDataSupplierManagerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

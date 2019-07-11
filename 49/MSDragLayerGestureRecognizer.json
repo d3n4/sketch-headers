@@ -1,0 +1,8 @@
+{
+  "name": "MSDragLayerGestureRecognizer",
+  "extends": "MSDragToMoveOrCopyGestureRecognizer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

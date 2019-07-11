@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableGraphicsContextSettings",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "blendMode": {
+      "name": "blendMode",
+      "pointer": false,
+      "type": "MSBlendMode",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "opacity": {
+      "name": "opacity",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

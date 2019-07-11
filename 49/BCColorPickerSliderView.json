@@ -1,0 +1,23 @@
+{
+  "name": "BCColorPickerSliderView",
+  "extends": "BCColorPickerBaseView",
+  "interfaces": [],
+  "methods": {
+    "drawSelectionMarkerAtPosition:": {
+      "name": "drawSelectionMarkerAtPosition:",
+      "bridgedName": "drawSelectionMarkerAtPosition",
+      "args": [
+        {
+          "name": "xPosition",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

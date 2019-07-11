@@ -1,0 +1,67 @@
+{
+  "name": "BCTableCellView",
+  "extends": "NSTableCellView",
+  "interfaces": [],
+  "methods": {
+    "renameNode": {
+      "name": "renameNode",
+      "bridgedName": "renameNode",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateBadge": {
+      "name": "updateBadge",
+      "bridgedName": "updateBadge",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawDragImageInRect:": {
+      "name": "drawDragImageInRect:",
+      "bridgedName": "drawDragImageInRect",
+      "args": [
+        {
+          "name": "dragRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<BCTableCellViewDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "displayState": {
+      "name": "displayState",
+      "pointer": false,
+      "type": "BCTableCellViewDisplayState",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "widthForDragImage": {
+      "name": "widthForDragImage",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

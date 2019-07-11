@@ -1,0 +1,42 @@
+{
+  "name": "SCKOperation",
+  "extends": "NSOperation",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "finished": {
+      "name": "finished",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readwrite",
+        "getter=isFinished"
+      ]
+    },
+    "executing": {
+      "name": "executing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readwrite",
+        "getter=isExecuting"
+      ]
+    },
+    "cancelled": {
+      "name": "cancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readwrite",
+        "getter=isCancelled"
+      ]
+    }
+  },
+  "generics": []
+}

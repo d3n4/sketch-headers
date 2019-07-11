@@ -1,0 +1,17 @@
+{
+  "name": "MSSmartRotateEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "numberOfRepetitions": {
+      "name": "numberOfRepetitions",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

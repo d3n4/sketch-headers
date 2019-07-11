@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableRulerData",
+  "extends": "_MSImmutableRulerData",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

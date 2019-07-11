@@ -1,0 +1,23 @@
+{
+  "name": "MSGridSheet",
+  "extends": "MSGridSheetBase",
+  "interfaces": [],
+  "methods": {
+    "setAsDefault:": {
+      "name": "setAsDefault:",
+      "bridgedName": "setAsDefault",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

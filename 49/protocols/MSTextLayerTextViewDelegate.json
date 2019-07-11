@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSTextLayerTextViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "documentColorSpaceForTextLayerTextView:": {
+      "name": "documentColorSpaceForTextLayerTextView:",
+      "bridgedName": "documentColorSpaceForTextLayerTextView",
+      "args": [
+        {
+          "name": "textView",
+          "type": "MSTextLayerTextView *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,64 @@
+{
+  "name": "SCKAuthAPIRequest",
+  "extends": "SCKAPIRequest",
+  "interfaces": [],
+  "methods": {
+    "loginRequestWithAccessToken:": {
+      "name": "loginRequestWithAccessToken:",
+      "bridgedName": "loginRequestWithAccessToken",
+      "args": [
+        {
+          "name": "accessToken",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "loginRequestWithEmail:password:": {
+      "name": "loginRequestWithEmail:password:",
+      "bridgedName": "loginRequestWithEmail_password",
+      "args": [
+        {
+          "name": "email",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "password",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "profileRequest": {
+      "name": "profileRequest",
+      "bridgedName": "profileRequest",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "forgotPasswordRequestWithEmail:": {
+      "name": "forgotPasswordRequestWithEmail:",
+      "bridgedName": "forgotPasswordRequestWithEmail",
+      "args": [
+        {
+          "name": "email",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

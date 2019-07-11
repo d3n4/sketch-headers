@@ -1,0 +1,41 @@
+{
+  "name": "AFXMLDocumentResponseSerializer",
+  "extends": "AFHTTPResponseSerializer",
+  "interfaces": [],
+  "methods": {
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "serializerWithXMLDocumentOptions:": {
+      "name": "serializerWithXMLDocumentOptions:",
+      "bridgedName": "serializerWithXMLDocumentOptions",
+      "args": [
+        {
+          "name": "mask",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "options": {
+      "name": "options",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

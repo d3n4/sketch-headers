@@ -1,0 +1,21 @@
+{
+  "enum": true,
+  "name": "SCKEnvironmentDefinition",
+  "members": [
+    {
+      "name": "SCKEnvironmentDefinitionCustom"
+    },
+    {
+      "name": "SCKEnvironmentDefinitionProduction"
+    },
+    {
+      "name": "SCKEnvironmentDefinitionStaging"
+    },
+    {
+      "name": "SCKEnvironmentDefinitionTest"
+    },
+    {
+      "name": "SCKEnvironmentDefinitionDevelopment"
+    }
+  ]
+}

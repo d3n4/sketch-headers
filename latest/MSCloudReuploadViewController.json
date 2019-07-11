@@ -1,0 +1,8 @@
+{
+  "name": "MSCloudReuploadViewController",
+  "extends": "MSCloudBaseViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

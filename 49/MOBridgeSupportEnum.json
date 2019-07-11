@@ -1,0 +1,41 @@
+{
+  "name": "MOBridgeSupportEnum",
+  "extends": "MOBridgeSupportSymbol",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "value64": {
+      "name": "value64",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "ignored": {
+      "name": "ignored",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isIgnored"
+      ]
+    },
+    "suggestion": {
+      "name": "suggestion",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

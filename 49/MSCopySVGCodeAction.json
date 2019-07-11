@@ -1,0 +1,23 @@
+{
+  "name": "MSCopySVGCodeAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "copySVG:": {
+      "name": "copySVG:",
+      "bridgedName": "copySVG",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

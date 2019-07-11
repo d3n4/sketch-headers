@@ -1,0 +1,47 @@
+{
+  "name": "SUUpdatePermissionResponse",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithAutomaticUpdateChecks:sendSystemProfile:": {
+      "name": "initWithAutomaticUpdateChecks:sendSystemProfile:",
+      "bridgedName": "initWithAutomaticUpdateChecks_sendSystemProfile",
+      "args": [
+        {
+          "name": "automaticUpdateChecks",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "sendSystemProfile",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "automaticUpdateChecks": {
+      "name": "automaticUpdateChecks",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sendSystemProfile": {
+      "name": "sendSystemProfile",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

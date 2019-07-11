@@ -1,0 +1,23 @@
+{
+  "name": "MSTogglePixelGridAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "togglePixelGrid:": {
+      "name": "togglePixelGrid:",
+      "bridgedName": "togglePixelGrid",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

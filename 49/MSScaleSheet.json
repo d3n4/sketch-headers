@@ -1,0 +1,8 @@
+{
+  "name": "MSScaleSheet",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

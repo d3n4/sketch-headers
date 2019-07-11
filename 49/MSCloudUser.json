@@ -1,0 +1,123 @@
+{
+  "name": "MSCloudUser",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSSecureCoding"
+  ],
+  "methods": {
+    "initWithDictionary:": {
+      "name": "initWithDictionary:",
+      "bridgedName": "initWithDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verifiedUser": {
+      "name": "verifiedUser",
+      "bridgedName": "verifiedUser",
+      "args": [],
+      "returns": "MSCloudUser *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "userWithIdentifier:verified:": {
+      "name": "userWithIdentifier:verified:",
+      "bridgedName": "userWithIdentifier_verified",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "verified",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "identifier": {
+      "name": "identifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "email": {
+      "name": "email",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "pendingEmail": {
+      "name": "pendingEmail",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "isAdmin": {
+      "name": "isAdmin",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "isVerified": {
+      "name": "isVerified",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "webAccessToken": {
+      "name": "webAccessToken",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

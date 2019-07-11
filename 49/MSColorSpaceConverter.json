@@ -1,0 +1,75 @@
+{
+  "name": "MSColorSpaceConverter",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSColorConverter"
+  ],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initForConversionFromColorSpace:to:": {
+      "name": "initForConversionFromColorSpace:to:",
+      "bridgedName": "initForConversionFromColorSpace_to",
+      "args": [
+        {
+          "name": "oldColorSpace",
+          "type": "MSColorSpace",
+          "nullable": false
+        },
+        {
+          "name": "targetColorSpace",
+          "type": "MSColorSpace",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "oldColorSpace": {
+      "name": "oldColorSpace",
+      "pointer": false,
+      "type": "MSColorSpace",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "targetColorSpace": {
+      "name": "targetColorSpace",
+      "pointer": false,
+      "type": "MSColorSpace",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "oldNSColorSpace": {
+      "name": "oldNSColorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "targetNSColorSpace": {
+      "name": "targetNSColorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

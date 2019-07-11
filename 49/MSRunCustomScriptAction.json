@@ -1,0 +1,23 @@
+{
+  "name": "MSRunCustomScriptAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "runCustomScript:": {
+      "name": "runCustomScript:",
+      "bridgedName": "runCustomScript",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

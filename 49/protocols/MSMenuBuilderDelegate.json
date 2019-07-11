@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSMenuBuilderDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "previewColorSpaceForItem:": {
+      "name": "previewColorSpaceForItem:",
+      "bridgedName": "previewColorSpaceForItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSMenuItem*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

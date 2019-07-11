@@ -1,0 +1,23 @@
+{
+  "name": "MSFollowFlowAction",
+  "extends": "MSFlowBaseAction",
+  "interfaces": [],
+  "methods": {
+    "followFlow:": {
+      "name": "followFlow:",
+      "bridgedName": "followFlow",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

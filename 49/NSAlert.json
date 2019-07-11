@@ -1,0 +1,191 @@
+{
+  "name": "NSAlert",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "runModalWithMessage:info:": {
+      "name": "runModalWithMessage:info:",
+      "bridgedName": "runModalWithMessage_info",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSModalResponse",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "runSheetWithMessage:info:": {
+      "name": "runSheetWithMessage:info:",
+      "bridgedName": "runSheetWithMessage_info",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "runModalWithMessage:info:buttons:": {
+      "name": "runModalWithMessage:info:buttons:",
+      "bridgedName": "runModalWithMessage_info_buttons",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "buttons",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSModalResponse",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "runModalSessionWithMessage:info:buttons:": {
+      "name": "runModalSessionWithMessage:info:buttons:",
+      "bridgedName": "runModalSessionWithMessage_info_buttons",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "buttons",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSModalResponse",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "alertWithMessage:info:buttons:": {
+      "name": "alertWithMessage:info:buttons:",
+      "bridgedName": "alertWithMessage_info_buttons",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "buttons",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAlert*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "runConfirmationSheetWithLocalizedStrings:completionBlock:": {
+      "name": "runConfirmationSheetWithLocalizedStrings:completionBlock:",
+      "bridgedName": "runConfirmationSheetWithLocalizedStrings_completionBlock",
+      "args": [
+        {
+          "name": "dialogPrefix",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "runConfirmationSheetWithLocalizedStrings:withSuppressionButton:completionBlock:": {
+      "name": "runConfirmationSheetWithLocalizedStrings:withSuppressionButton:completionBlock:",
+      "bridgedName": "runConfirmationSheetWithLocalizedStrings_withSuppressionButton_completionBlock",
+      "args": [
+        {
+          "name": "dialogPrefix",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "showSuppressionButton",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "runConfirmationSheetWithLocalizedStrings:format:withSuppressionButton:completionBlock:": {
+      "name": "runConfirmationSheetWithLocalizedStrings:format:withSuppressionButton:completionBlock:",
+      "bridgedName": "runConfirmationSheetWithLocalizedStrings_format_withSuppressionButton_completionBlock",
+      "args": [
+        {
+          "name": "dialogPrefix",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "format",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "showSuppressionButton",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

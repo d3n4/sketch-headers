@@ -1,0 +1,8 @@
+{
+  "name": "SUUpdateSettingsWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSFlowRenderHistory",
+  "members": [
+    {
+      "name": "MSFlowRenderHistoryEmpty",
+      "value": "0"
+    },
+    {
+      "name": "MSFlowRenderHistoryHasDrawnBackActionIcon",
+      "value": "1<<0"
+    },
+    {
+      "name": "MSFlowRenderHistoryHasDrawnOtherPageActionIcon",
+      "value": "1<<1"
+    }
+  ]
+}

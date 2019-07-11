@@ -1,0 +1,10 @@
+{
+  "name": "MSFlowRendererCG",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSFlowRenderer"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

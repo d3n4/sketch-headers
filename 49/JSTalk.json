@@ -1,0 +1,8 @@
+{
+  "name": "JSTalk",
+  "extends": "COScript",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

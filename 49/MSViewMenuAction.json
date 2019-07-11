@@ -1,0 +1,8 @@
+{
+  "name": "MSViewMenuAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

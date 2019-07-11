@@ -1,0 +1,23 @@
+{
+  "name": "MSChangeFlowAnimationFromBottomAnimationAction",
+  "extends": "MSChangeFlowAnimationAction",
+  "interfaces": [],
+  "methods": {
+    "changeFlowAnimationToFromBottomAnimation:": {
+      "name": "changeFlowAnimationToFromBottomAnimation:",
+      "bridgedName": "changeFlowAnimationToFromBottomAnimation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

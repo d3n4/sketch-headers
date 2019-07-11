@@ -1,0 +1,37 @@
+{
+  "name": "MSCloudManifestMaker",
+  "extends": "MSManifestMaker",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "allowDocumentUpload": {
+      "name": "allowDocumentUpload",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "documentFileSize": {
+      "name": "documentFileSize",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "imageFileProviderBlock": {
+      "name": "imageFileProviderBlock",
+      "pointer": false,
+      "type": "MSManifestImageProviderBlock",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

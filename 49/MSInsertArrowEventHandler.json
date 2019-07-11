@@ -1,0 +1,8 @@
+{
+  "name": "MSInsertArrowEventHandler",
+  "extends": "MSInsertLineEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSFlowType",
+  "members": [
+    {
+      "name": "MSFlowTypeRegularTranstion"
+    },
+    {
+      "name": "MSFlowTypeBackTransition"
+    },
+    {
+      "name": "MSFlowTypeTransitionToParent"
+    },
+    {
+      "name": "MSFlowTypeOtherPageTransition"
+    }
+  ]
+}

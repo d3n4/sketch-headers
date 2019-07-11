@@ -1,0 +1,23 @@
+{
+  "name": "MSAlignLayersMiddleAction",
+  "extends": "MSBaseAlignLayersAction",
+  "interfaces": [],
+  "methods": {
+    "alignLayersMiddle:": {
+      "name": "alignLayersMiddle:",
+      "bridgedName": "alignLayersMiddle",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

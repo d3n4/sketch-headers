@@ -1,0 +1,75 @@
+{
+  "protocol": true,
+  "name": "MSDataMenuProviderDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "dataMenuProvider:canChooseDataOfType:": {
+      "name": "dataMenuProvider:canChooseDataOfType:",
+      "bridgedName": "dataMenuProvider_canChooseDataOfType",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSDataMenuProvider *",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSDataType",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataMenuProviderDataTypeForMenuBuilding:": {
+      "name": "dataMenuProviderDataTypeForMenuBuilding:",
+      "bridgedName": "dataMenuProviderDataTypeForMenuBuilding",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSDataMenuProvider *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDataType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataMenuProviderIsInspectorPopupMenu:": {
+      "name": "dataMenuProviderIsInspectorPopupMenu:",
+      "bridgedName": "dataMenuProviderIsInspectorPopupMenu",
+      "args": [
+        {
+          "name": "provider",
+          "type": "MSDataMenuProvider *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataMenuProvider:didChooseData:": {
+      "name": "dataMenuProvider:didChooseData:",
+      "bridgedName": "dataMenuProvider_didChooseData",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSDataMenuProvider *",
+          "nullable": false
+        },
+        {
+          "name": "data",
+          "type": "MSDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

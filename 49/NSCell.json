@@ -1,0 +1,17 @@
+{
+  "name": "NSCell",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "inheritedBackgroundStyle": {
+      "name": "inheritedBackgroundStyle",
+      "bridgedName": "inheritedBackgroundStyle",
+      "args": [],
+      "returns": "NSBackgroundStyle",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

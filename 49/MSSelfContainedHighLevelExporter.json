@@ -1,0 +1,54 @@
+{
+  "name": "MSSelfContainedHighLevelExporter",
+  "extends": "MSHighLevelExporter",
+  "interfaces": [
+    "MSHighLevelExportDelegate"
+  ],
+  "methods": {
+    "initWithOptions:": {
+      "name": "initWithOptions:",
+      "bridgedName": "initWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithOptions:driver:": {
+      "name": "initWithOptions:driver:",
+      "bridgedName": "initWithOptions_driver",
+      "args": [
+        {
+          "name": "options",
+          "type": "NSDictionary*",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "results": {
+      "name": "results",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSSliceLayerWatcher",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "sliceLayerDidChange:": {
+      "name": "sliceLayerDidChange:",
+      "bridgedName": "sliceLayerDidChange",
+      "args": [
+        {
+          "name": "layer",
+          "type": "id<MSLayerWithBackgroundColor>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

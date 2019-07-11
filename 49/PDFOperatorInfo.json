@@ -1,0 +1,45 @@
+{
+  "name": "PDFOperatorInfo",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "selector": {
+      "name": "selector",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "callback": {
+      "name": "callback",
+      "pointer": false,
+      "type": "CGPDFOperatorCallback",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "operatorName": {
+      "name": "operatorName",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "methodName": {
+      "name": "methodName",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

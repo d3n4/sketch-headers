@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSTransparencyOptimiseOption",
+  "members": [
+    {
+      "name": "MSTransparencyDontOptimise"
+    },
+    {
+      "name": "MSTransparencyCanOptimise"
+    }
+  ]
+}

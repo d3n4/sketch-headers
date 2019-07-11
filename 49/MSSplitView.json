@@ -1,0 +1,8 @@
+{
+  "name": "MSSplitView",
+  "extends": "NSSplitView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

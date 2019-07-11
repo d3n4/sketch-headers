@@ -1,0 +1,54 @@
+{
+  "name": "MSArchiveHeader",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSCoding"
+  ],
+  "methods": {
+    "metadataForNewHeader": {
+      "name": "metadataForNewHeader",
+      "bridgedName": "metadataForNewHeader",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "version": {
+      "name": "version",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "compatibilityVersion": {
+      "name": "compatibilityVersion",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "metadata": {
+      "name": "metadata",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "root": {
+      "name": "root",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

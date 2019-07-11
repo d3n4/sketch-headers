@@ -1,0 +1,35 @@
+{
+  "name": "MSLayerSection",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorSection"
+  ],
+  "methods": {
+    "initWithLayer:": {
+      "name": "initWithLayer:",
+      "bridgedName": "initWithLayer",
+      "args": [
+        {
+          "name": "aLayer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

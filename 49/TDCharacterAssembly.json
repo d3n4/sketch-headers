@@ -1,0 +1,8 @@
+{
+  "name": "TDCharacterAssembly",
+  "extends": "TDAssembly",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

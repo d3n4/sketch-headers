@@ -1,0 +1,8 @@
+{
+  "name": "MSDocumentController",
+  "extends": "NSDocumentController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

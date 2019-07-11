@@ -1,0 +1,390 @@
+{
+  "name": "SVGElement",
+  "extends": "_SVGElement",
+  "interfaces": [],
+  "methods": {
+    "elementOfType:xml:importer:parent:": {
+      "name": "elementOfType:xml:importer:parent:",
+      "bridgedName": "elementOfType_xml_importer_parent",
+      "args": [
+        {
+          "name": "type",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "importer",
+          "type": "SVGImporter*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SVGElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "SVGElement*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithImporter:xml:": {
+      "name": "initWithImporter:xml:",
+      "bridgedName": "initWithImporter_xml",
+      "args": [
+        {
+          "name": "importer",
+          "type": "SVGImporter*",
+          "nullable": false
+        },
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "elementOfType:xml:parent:": {
+      "name": "elementOfType:xml:parent:",
+      "bridgedName": "elementOfType_xml_parent",
+      "args": [
+        {
+          "name": "type",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SVGElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "SVGElement*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "process": {
+      "name": "process",
+      "bridgedName": "process",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processSelf:": {
+      "name": "processSelf:",
+      "bridgedName": "processSelf",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processIdentifier:": {
+      "name": "processIdentifier:",
+      "bridgedName": "processIdentifier",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processStyles": {
+      "name": "processStyles",
+      "bridgedName": "processStyles",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processChildren:": {
+      "name": "processChildren:",
+      "bridgedName": "processChildren",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processChildren:startingAtIndex:": {
+      "name": "processChildren:startingAtIndex:",
+      "bridgedName": "processChildren_startingAtIndex",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processChild:index:": {
+      "name": "processChild:index:",
+      "bridgedName": "processChild_index",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "svgDescription": {
+      "name": "svgDescription",
+      "bridgedName": "svgDescription",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "svgAttributesDescription": {
+      "name": "svgAttributesDescription",
+      "bridgedName": "svgAttributesDescription",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addReferenceToIdentifier:type:property:": {
+      "name": "addReferenceToIdentifier:type:property:",
+      "bridgedName": "addReferenceToIdentifier_type_property",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "property",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resolvedValue:forProperty:": {
+      "name": "resolvedValue:forProperty:",
+      "bridgedName": "resolvedValue_forProperty",
+      "args": [
+        {
+          "name": "value",
+          "type": "SVGElement*",
+          "nullable": false
+        },
+        {
+          "name": "property",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "name": {
+      "name": "name",
+      "bridgedName": "name",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsDrawables": {
+      "name": "containsDrawables",
+      "bridgedName": "containsDrawables",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawableParent": {
+      "name": "drawableParent",
+      "bridgedName": "drawableParent",
+      "args": [],
+      "returns": "SVGDrawableElement*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clippingParent": {
+      "name": "clippingParent",
+      "bridgedName": "clippingParent",
+      "args": [],
+      "returns": "SVGDrawableElement*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "relativeURLForLink:": {
+      "name": "relativeURLForLink:",
+      "bridgedName": "relativeURLForLink",
+      "args": [
+        {
+          "name": "link",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "styleAttributesForElement:defaults:": {
+      "name": "styleAttributesForElement:defaults:",
+      "bridgedName": "styleAttributesForElement_defaults",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "defaults",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isDescendantOf:": {
+      "name": "isDescendantOf:",
+      "bridgedName": "isDescendantOf",
+      "args": [
+        {
+          "name": "element",
+          "type": "SVGElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeLayerWithParentLayer:progress:": {
+      "name": "makeLayerWithParentLayer:progress:",
+      "bridgedName": "makeLayerWithParentLayer_progress",
+      "args": [
+        {
+          "name": "parentLayer",
+          "type": "MSLayerGroup*",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayer*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nameLayer:": {
+      "name": "nameLayer:",
+      "bridgedName": "nameLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustSizeForChildrenOfLayer:": {
+      "name": "adjustSizeForChildrenOfLayer:",
+      "bridgedName": "adjustSizeForChildrenOfLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "xml": {
+      "name": "xml",
+      "pointer": false,
+      "type": "NSXMLElement*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "importer": {
+      "name": "importer",
+      "pointer": false,
+      "type": "SVGImporter*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "effectiveLayerName": {
+      "name": "effectiveLayerName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

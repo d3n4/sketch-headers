@@ -1,0 +1,45 @@
+{
+  "name": "MSDefaultTextStyle",
+  "extends": "MSDefaultArchive",
+  "interfaces": [],
+  "methods": {
+    "defaultTextStyle": {
+      "name": "defaultTextStyle",
+      "bridgedName": "defaultTextStyle",
+      "args": [],
+      "returns": "NSDictionary *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "recordTextStyleForLayer:": {
+      "name": "recordTextStyleForLayer:",
+      "bridgedName": "recordTextStyleForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSTextLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setDefaultTextStyle:": {
+      "name": "setDefaultTextStyle:",
+      "bridgedName": "setDefaultTextStyle",
+      "args": [
+        {
+          "name": "textStyle",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

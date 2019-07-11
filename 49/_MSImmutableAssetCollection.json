@@ -1,0 +1,59 @@
+{
+  "name": "_MSImmutableAssetCollection",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "images": {
+      "name": "images",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorAssets": {
+      "name": "colorAssets",
+      "pointer": false,
+      "type": "NSArray<MSImmutableColorAsset *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exportPresets": {
+      "name": "exportPresets",
+      "pointer": false,
+      "type": "NSArray<MSImmutableExportPreset *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "gradientAssets": {
+      "name": "gradientAssets",
+      "pointer": false,
+      "type": "NSArray<MSImmutableGradientAsset *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "imageCollection": {
+      "name": "imageCollection",
+      "pointer": false,
+      "type": "MSImmutableImageCollection ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

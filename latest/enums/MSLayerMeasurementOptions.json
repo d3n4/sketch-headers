@@ -1,0 +1,10 @@
+{
+  "enum": true,
+  "name": "MSLayerMeasurementOptions",
+  "members": [
+    {
+      "name": "MSLayerMeasurementTextBaselineAndCapHeight",
+      "value": "1 << 0"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSShowBorderOptionsAction",
+  "extends": "MSBaseStyleAction",
+  "interfaces": [],
+  "methods": {
+    "showBorderOptions:": {
+      "name": "showBorderOptions:",
+      "bridgedName": "showBorderOptions",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

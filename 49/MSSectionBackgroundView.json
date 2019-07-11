@@ -1,0 +1,39 @@
+{
+  "name": "MSSectionBackgroundView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {
+    "sectionBackgroundWithController:": {
+      "name": "sectionBackgroundWithController:",
+      "bridgedName": "sectionBackgroundWithController",
+      "args": [
+        {
+          "name": "controller",
+          "type": "NSViewController <MSInspectorSection> *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSectionBackgroundView *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "recalculateHeight": {
+      "name": "recalculateHeight",
+      "bridgedName": "recalculateHeight",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stackSubviews": {
+      "name": "stackSubviews",
+      "bridgedName": "stackSubviews",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

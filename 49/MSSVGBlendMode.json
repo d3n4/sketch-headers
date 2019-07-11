@@ -1,0 +1,37 @@
+{
+  "name": "MSSVGBlendMode",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sketchBlendModeFromSVG:": {
+      "name": "sketchBlendModeFromSVG:",
+      "bridgedName": "sketchBlendModeFromSVG",
+      "args": [
+        {
+          "name": "svgValue",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBlendMode",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "svgFromSketchBlendMode:": {
+      "name": "svgFromSketchBlendMode:",
+      "bridgedName": "svgFromSketchBlendMode",
+      "args": [
+        {
+          "name": "blendMode",
+          "type": "MSBlendMode",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

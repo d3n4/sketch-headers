@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSHandleSize",
+  "members": [
+    {
+      "name": "MSHandleSizeSmall",
+      "value": "0"
+    },
+    {
+      "name": "MSHandleSizeRegular",
+      "value": "1"
+    },
+    {
+      "name": "MSHandleSizeHuge",
+      "value": "2"
+    }
+  ]
+}

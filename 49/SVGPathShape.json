@@ -1,0 +1,8 @@
+{
+  "name": "SVGPathShape",
+  "extends": "_SVGPathShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

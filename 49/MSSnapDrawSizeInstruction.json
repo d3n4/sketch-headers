@@ -1,0 +1,73 @@
+{
+  "name": "MSSnapDrawSizeInstruction",
+  "extends": "MSSnapDrawInstruction",
+  "interfaces": [],
+  "methods": {
+    "sizeInstructionForItem:axis:": {
+      "name": "sizeInstructionForItem:axis:",
+      "bridgedName": "sizeInstructionForItem_axis",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSSnapItem *",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "sizeInstructionForLayer:axis:": {
+      "name": "sizeInstructionForLayer:axis:",
+      "bridgedName": "sizeInstructionForLayer_axis",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rect": {
+      "name": "rect",
+      "bridgedName": "rect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "item": {
+      "name": "item",
+      "pointer": false,
+      "type": "MSSnapItem ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

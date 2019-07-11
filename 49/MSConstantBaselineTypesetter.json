@@ -1,0 +1,37 @@
+{
+  "name": "MSConstantBaselineTypesetter",
+  "extends": "NSATSTypesetter",
+  "interfaces": [],
+  "methods": {
+    "constantBaselineGlyphRangeForGlyphLocation:": {
+      "name": "constantBaselineGlyphRangeForGlyphLocation:",
+      "bridgedName": "constantBaselineGlyphRangeForGlyphLocation",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRange",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateLayoutFromGlyphLocation:": {
+      "name": "invalidateLayoutFromGlyphLocation:",
+      "bridgedName": "invalidateLayoutFromGlyphLocation",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

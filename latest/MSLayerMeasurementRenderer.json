@@ -1,0 +1,113 @@
+{
+  "name": "MSLayerMeasurementRenderer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "clear": {
+      "name": "clear",
+      "bridgedName": "clear",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareForGeometryChange": {
+      "name": "prepareForGeometryChange",
+      "bridgedName": "prepareForGeometryChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawWithZoomScale:": {
+      "name": "drawWithZoomScale:",
+      "bridgedName": "drawWithZoomScale",
+      "args": [
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setNeedsDisplayInRect:": {
+      "name": "setNeedsDisplayInRect:",
+      "bridgedName": "setNeedsDisplayInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isMeasuringDistance": {
+      "name": "isMeasuringDistance",
+      "bridgedName": "isMeasuringDistance",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isEnabled": {
+      "name": "isEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "selectedLayers": {
+      "name": "selectedLayers",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "measurementTarget": {
+      "name": "measurementTarget",
+      "pointer": false,
+      "type": "MSLayerMeasurementTarget ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "measurementOptions": {
+      "name": "measurementOptions",
+      "pointer": false,
+      "type": "MSLayerMeasurementOptions",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "numberFormatter": {
+      "name": "numberFormatter",
+      "pointer": false,
+      "type": "NSNumberFormatter ",
+      "attributes": [
+        "nonatomic",
+        "null_resettable"
+      ]
+    },
+    "view": {
+      "name": "view",
+      "pointer": false,
+      "type": "MSContentDrawView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

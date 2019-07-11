@@ -1,0 +1,107 @@
+{
+  "name": "MOBridgeSupportController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedController": {
+      "name": "sharedController",
+      "bridgedName": "sharedController",
+      "args": [],
+      "returns": "MOBridgeSupportController *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "isBridgeSupportLoadedForURL:": {
+      "name": "isBridgeSupportLoadedForURL:",
+      "bridgedName": "isBridgeSupportLoadedForURL",
+      "args": [
+        {
+          "name": "aURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadBridgeSupportAtURL:error:": {
+      "name": "loadBridgeSupportAtURL:error:",
+      "bridgedName": "loadBridgeSupportAtURL_error",
+      "args": [
+        {
+          "name": "aURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "outError",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performQueryForSymbolsOfType:": {
+      "name": "performQueryForSymbolsOfType:",
+      "bridgedName": "performQueryForSymbolsOfType",
+      "args": [
+        {
+          "name": "classes",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performQueryForSymbolName:": {
+      "name": "performQueryForSymbolName:",
+      "bridgedName": "performQueryForSymbolName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performQueryForSymbolName:ofType:": {
+      "name": "performQueryForSymbolName:ofType:",
+      "bridgedName": "performQueryForSymbolName_ofType",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "klass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "symbols": {
+      "name": "symbols",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}
