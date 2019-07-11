@@ -43,6 +43,15 @@
         "nonatomic",
         "weak"
       ]
+    },
+    "textLayerTextViewDelegate": {
+      "name": "textLayerTextViewDelegate",
+      "pointer": false,
+      "type": "id<MSTextLayerTextViewDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
     }
   },
   "generics": []

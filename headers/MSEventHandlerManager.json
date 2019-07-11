@@ -203,15 +203,6 @@
         "nonatomic",
         "readonly"
       ]
-    },
-    "undoManager": {
-      "name": "undoManager",
-      "pointer": false,
-      "type": "NSUndoManager ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
     }
   },
   "generics": []

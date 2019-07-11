@@ -6,6 +6,7 @@
     "NSTextStorageDelegate",
     "NSWindowDelegate",
     "MSTextLayerEditingDelegate",
+    "MSTextLayerTextViewDelegate",
     "MSFirstLineTypesetterDelegate"
   ],
   "methods": {

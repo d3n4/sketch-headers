@@ -11,6 +11,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "shouldIgnoreNonInteractiveChangeColorMessage": {
+      "name": "shouldIgnoreNonInteractiveChangeColorMessage",
+      "bridgedName": "shouldIgnoreNonInteractiveChangeColorMessage",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "setColorWithoutNotifying:": {
       "name": "setColorWithoutNotifying:",
       "bridgedName": "setColorWithoutNotifying",

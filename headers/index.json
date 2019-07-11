@@ -1866,6 +1866,7 @@
   "MSTextLayerEventHandler.json",
   "MSTextLayerSection.json",
   "MSTextLayerTextView.json",
+  "protocols/MSTextLayerTextViewDelegate.json",
   "MSTextOnPathAction.json",
   "MSTextOverrideViewController.json",
   "MSTextStyleTouchBarAction.json",

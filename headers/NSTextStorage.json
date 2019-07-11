@@ -62,7 +62,7 @@
           "nullable": false
         },
         {
-          "name": "range",
+          "name": "rangeToExamine",
           "type": "NSRange",
           "nullable": false
         }

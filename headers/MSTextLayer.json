@@ -522,7 +522,7 @@
     "textColor": {
       "name": "textColor",
       "pointer": false,
-      "type": "MSImmutableColor ",
+      "type": "MSColor ",
       "attributes": [
         "copy",
         "nonatomic"

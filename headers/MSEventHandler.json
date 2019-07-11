@@ -1339,6 +1339,15 @@
         "readonly"
       ]
     },
+    "undoManager": {
+      "name": "undoManager",
+      "pointer": false,
+      "type": "NSUndoManager ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "applicableActionItemIdentifier": {
       "name": "applicableActionItemIdentifier",
       "pointer": false,
