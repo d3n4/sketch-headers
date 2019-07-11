@@ -1,0 +1,59 @@
+{
+  "name": "NSXMLDocument",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "SVGDocumentWithBezierPath:": {
+      "name": "SVGDocumentWithBezierPath:",
+      "bridgedName": "SVGDocumentWithBezierPath",
+      "args": [
+        {
+          "name": "bezierPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "createSVGForBezierPath:": {
+      "name": "createSVGForBezierPath:",
+      "bridgedName": "createSVGForBezierPath",
+      "args": [
+        {
+          "name": "bezierPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathElement:": {
+      "name": "bezierPathElement:",
+      "bridgedName": "bezierPathElement",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSXMLNode *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "data": {
+      "name": "data",
+      "bridgedName": "data",
+      "args": [],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

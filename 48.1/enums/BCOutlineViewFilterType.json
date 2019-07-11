@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "BCOutlineViewFilterType",
+  "members": [
+    {
+      "name": "BCOutlineViewFilterTypeLayer",
+      "value": "0x1"
+    },
+    {
+      "name": "BCOutlineViewFilterTypeSlice",
+      "value": "0x2"
+    }
+  ]
+}

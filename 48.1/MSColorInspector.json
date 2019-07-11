@@ -1,0 +1,242 @@
+{
+  "name": "MSColorInspector",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSColorInspectorSectionDelegate",
+    "MSModeModePickerDelegate",
+    "BCPopoverDelegate",
+    "NSTouchBarDelegate",
+    "BCHSBColorPickerDelegate",
+    "MSColorPreviewButtonDelegate"
+  ],
+  "methods": {
+    "initWithSender:document:handlerManager:globalAssets:": {
+      "name": "initWithSender:document:handlerManager:globalAssets:",
+      "bridgedName": "initWithSender_document_handlerManager_globalAssets",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id <MSColorInspectorDelegate>",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "manager",
+          "type": "MSEventHandlerManager *",
+          "nullable": false
+        },
+        {
+          "name": "globalAssets",
+          "type": "MSPersistentAssetCollection *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:initialColor:": {
+      "name": "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:initialColor:",
+      "bridgedName": "presentColorInspectorPopoverForViewController_inspectorController_relativeToView_initialColor",
+      "args": [
+        {
+          "name": "viewController",
+          "type": "NSViewController<MSColorInspectorDelegate> *",
+          "nullable": false
+        },
+        {
+          "name": "inspectorController",
+          "type": "MSInspectorController *",
+          "nullable": false
+        },
+        {
+          "name": "positioningView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BCPopover *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "validateEnableButtons": {
+      "name": "validateEnableButtons",
+      "bridgedName": "validateEnableButtons",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stack": {
+      "name": "stack",
+      "bridgedName": "stack",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setColor:": {
+      "name": "setColor:",
+      "bridgedName": "setColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorPickerAction:": {
+      "name": "colorPickerAction:",
+      "bridgedName": "colorPickerAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshAction:": {
+      "name": "refreshAction:",
+      "bridgedName": "refreshAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorMagnifierAction:": {
+      "name": "colorMagnifierAction:",
+      "bridgedName": "colorMagnifierAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setInitialColor:": {
+      "name": "setInitialColor:",
+      "bridgedName": "setInitialColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setMaximumAvailableHeight:": {
+      "name": "setMaximumAvailableHeight:",
+      "bridgedName": "setMaximumAvailableHeight",
+      "args": [
+        {
+          "name": "maxHeight",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "switchToColorTabAtIndex:": {
+      "name": "switchToColorTabAtIndex:",
+      "bridgedName": "switchToColorTabAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorTabIndex": {
+      "name": "colorTabIndex",
+      "bridgedName": "colorTabIndex",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "styleParts": {
+      "name": "styleParts",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSColorInspectorDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "colorPicker": {
+      "name": "colorPicker",
+      "pointer": false,
+      "type": "IBOutlet BCHSBColorPicker ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "emptyTopView": {
+      "name": "emptyTopView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "colorPickerView": {
+      "name": "colorPickerView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

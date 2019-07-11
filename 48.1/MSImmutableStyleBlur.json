@@ -1,0 +1,53 @@
+{
+  "name": "MSImmutableStyleBlur",
+  "extends": "_MSImmutableStyleBlur",
+  "interfaces": [],
+  "methods": {
+    "cropRadius": {
+      "name": "cropRadius",
+      "bridgedName": "cropRadius",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderBitmapEffects:": {
+      "name": "renderBitmapEffects:",
+      "bridgedName": "renderBitmapEffects",
+      "args": [
+        {
+          "name": "image",
+          "type": "CIImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "CIImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldUseCoreImageForEffect": {
+      "name": "shouldUseCoreImageForEffect",
+      "bridgedName": "shouldUseCoreImageForEffect",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addFilterWithExporter:": {
+      "name": "addFilterWithExporter:",
+      "bridgedName": "addFilterWithExporter",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

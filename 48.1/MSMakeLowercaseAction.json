@@ -1,0 +1,8 @@
+{
+  "name": "MSMakeLowercaseAction",
+  "extends": "MSTextTransformAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

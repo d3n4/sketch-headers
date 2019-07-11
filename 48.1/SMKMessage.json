@@ -1,0 +1,76 @@
+{
+  "name": "SMKMessage",
+  "extends": "NSObject",
+  "interfaces": [
+    "SMKMessageCoding"
+  ],
+  "methods": {
+    "initWithType:": {
+      "name": "initWithType:",
+      "bridgedName": "initWithType",
+      "args": [
+        {
+          "name": "type",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "messageFromData:": {
+      "name": "messageFromData:",
+      "bridgedName": "messageFromData",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "SMKMessage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "contentClass": {
+      "name": "contentClass",
+      "pointer": false,
+      "type": "Class",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "content": {
+      "name": "content",
+      "pointer": false,
+      "type": "id<SMKMessageCoding>",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "messageData": {
+      "name": "messageData",
+      "pointer": false,
+      "type": "NSData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

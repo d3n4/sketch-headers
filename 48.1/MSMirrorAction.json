@@ -1,0 +1,23 @@
+{
+  "name": "MSMirrorAction",
+  "extends": "MSPopoverAction",
+  "interfaces": [],
+  "methods": {
+    "showMirrorPopover:": {
+      "name": "showMirrorPopover:",
+      "bridgedName": "showMirrorPopover",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

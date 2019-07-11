@@ -1,0 +1,23 @@
+{
+  "name": "MSSyncSharedStyleAction",
+  "extends": "MSBaseSharedStyleAction",
+  "interfaces": [],
+  "methods": {
+    "syncSharedStyle:": {
+      "name": "syncSharedStyle:",
+      "bridgedName": "syncSharedStyle",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

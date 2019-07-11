@@ -1,0 +1,97 @@
+{
+  "name": "MSColorInspectorSectionGradient",
+  "extends": "MSColorInspectorSection",
+  "interfaces": [
+    "MSGradientEventHandlerDelegate",
+    "MSGradientBarViewDelegate"
+  ],
+  "methods": {
+    "switchToGradientHandler": {
+      "name": "switchToGradientHandler",
+      "bridgedName": "switchToGradientHandler",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "gradientBarAction:": {
+      "name": "gradientBarAction:",
+      "bridgedName": "gradientBarAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rotateLeftAction:": {
+      "name": "rotateLeftAction:",
+      "bridgedName": "rotateLeftAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rotateRightAction:": {
+      "name": "rotateRightAction:",
+      "bridgedName": "rotateRightAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closeGradientHandler": {
+      "name": "closeGradientHandler",
+      "bridgedName": "closeGradientHandler",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "switchToGradientHandlerIfNecessary": {
+      "name": "switchToGradientHandlerIfNecessary",
+      "bridgedName": "switchToGradientHandlerIfNecessary",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "gradientBarView": {
+      "name": "gradientBarView",
+      "pointer": false,
+      "type": "IBOutlet MSGradientBarView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "smoothOpacityButton": {
+      "name": "smoothOpacityButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

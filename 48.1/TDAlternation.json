@@ -1,0 +1,17 @@
+{
+  "name": "TDAlternation",
+  "extends": "TDCollectionParser",
+  "interfaces": [],
+  "methods": {
+    "alternation": {
+      "name": "alternation",
+      "bridgedName": "alternation",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSMouseTrackerState",
+  "members": [
+    {
+      "name": "MSMouseTrackerStateNotTracking"
+    },
+    {
+      "name": "MSMouseTrackerStateTracking"
+    }
+  ]
+}

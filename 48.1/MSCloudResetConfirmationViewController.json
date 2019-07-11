@@ -1,0 +1,8 @@
+{
+  "name": "MSCloudResetConfirmationViewController",
+  "extends": "MSCloudViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

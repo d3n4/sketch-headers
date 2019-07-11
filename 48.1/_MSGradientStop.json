@@ -1,0 +1,28 @@
+{
+  "name": "_MSGradientStop",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "position": {
+      "name": "position",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

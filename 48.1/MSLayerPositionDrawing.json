@@ -1,0 +1,102 @@
+{
+  "name": "MSLayerPositionDrawing",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "draw": {
+      "name": "draw",
+      "bridgedName": "draw",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clear": {
+      "name": "clear",
+      "bridgedName": "clear",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isMeasuringDistance": {
+      "name": "isMeasuringDistance",
+      "bridgedName": "isMeasuringDistance",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "targetLayer": {
+      "name": "targetLayer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isEnabled": {
+      "name": "isEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "modifierFlags": {
+      "name": "modifierFlags",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "selectedLayers": {
+      "name": "selectedLayers",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "currentPage": {
+      "name": "currentPage",
+      "pointer": false,
+      "type": "MSPage ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "hoverGuides": {
+      "name": "hoverGuides",
+      "pointer": false,
+      "type": "NSArray <MSLine *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "numberFormatter": {
+      "name": "numberFormatter",
+      "pointer": false,
+      "type": "NSNumberFormatter ",
+      "attributes": [
+        "nonatomic",
+        "null_resettable"
+      ]
+    }
+  },
+  "generics": []
+}

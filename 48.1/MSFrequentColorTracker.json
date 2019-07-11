@@ -1,0 +1,115 @@
+{
+  "name": "MSFrequentColorTracker",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithColorUse:maximumColorCount:ignoringAlpha:": {
+      "name": "initWithColorUse:maximumColorCount:ignoringAlpha:",
+      "bridgedName": "initWithColorUse_maximumColorCount_ignoringAlpha",
+      "args": [
+        {
+          "name": "colorUse",
+          "type": "MSColorUse",
+          "nullable": false
+        },
+        {
+          "name": "maxCount",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "ignoreAlpha",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerColor:fromSource:": {
+      "name": "registerColor:fromSource:",
+      "bridgedName": "registerColor_fromSource",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        },
+        {
+          "name": "source",
+          "type": "id<MSColorUser>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerColors:fromSource:": {
+      "name": "registerColors:fromSource:",
+      "bridgedName": "registerColors_fromSource",
+      "args": [
+        {
+          "name": "colors",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "source",
+          "type": "id<MSColorUser>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "frequentColors": {
+      "name": "frequentColors",
+      "bridgedName": "frequentColors",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "colorUse": {
+      "name": "colorUse",
+      "pointer": false,
+      "type": "MSColorUse",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "maximumColorCount": {
+      "name": "maximumColorCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldIgnoreAlpha": {
+      "name": "shouldIgnoreAlpha",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

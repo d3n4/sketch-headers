@@ -1,0 +1,8 @@
+{
+  "name": "MSCloudPopover",
+  "extends": "BCToolbarPopover",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

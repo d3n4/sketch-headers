@@ -1,0 +1,17 @@
+{
+  "name": "BCSingleton",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedInstance": {
+      "name": "sharedInstance",
+      "bridgedName": "sharedInstance",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

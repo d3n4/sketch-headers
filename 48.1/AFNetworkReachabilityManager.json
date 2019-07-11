@@ -1,0 +1,141 @@
+{
+  "name": "AFNetworkReachabilityManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedManager": {
+      "name": "sharedManager",
+      "bridgedName": "sharedManager",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "managerForDomain:": {
+      "name": "managerForDomain:",
+      "bridgedName": "managerForDomain",
+      "args": [
+        {
+          "name": "domain",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "managerForAddress:": {
+      "name": "managerForAddress:",
+      "bridgedName": "managerForAddress",
+      "args": [
+        {
+          "name": "address",
+          "type": "const void *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithReachability:": {
+      "name": "initWithReachability:",
+      "bridgedName": "initWithReachability",
+      "args": [
+        {
+          "name": "reachability",
+          "type": "SCNetworkReachabilityRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startMonitoring": {
+      "name": "startMonitoring",
+      "bridgedName": "startMonitoring",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stopMonitoring": {
+      "name": "stopMonitoring",
+      "bridgedName": "stopMonitoring",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "localizedNetworkReachabilityStatusString": {
+      "name": "localizedNetworkReachabilityStatusString",
+      "bridgedName": "localizedNetworkReachabilityStatusString",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setReachabilityStatusChangeBlock:": {
+      "name": "setReachabilityStatusChangeBlock:",
+      "bridgedName": "setReachabilityStatusChangeBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(AFNetworkReachabilityStatus status)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "networkReachabilityStatus": {
+      "name": "networkReachabilityStatus",
+      "pointer": false,
+      "type": "AFNetworkReachabilityStatus",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "reachable": {
+      "name": "reachable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "assign",
+        "getter = isReachable"
+      ]
+    },
+    "reachableViaWWAN": {
+      "name": "reachableViaWWAN",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "assign",
+        "getter = isReachableViaWWAN"
+      ]
+    },
+    "reachableViaWiFi": {
+      "name": "reachableViaWiFi",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "assign",
+        "getter = isReachableViaWiFi"
+      ]
+    }
+  },
+  "generics": []
+}

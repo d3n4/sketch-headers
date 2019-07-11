@@ -1,0 +1,116 @@
+{
+  "name": "MOBridgeSupportMethod",
+  "extends": "MOBridgeSupportSymbol",
+  "interfaces": [],
+  "methods": {
+    "addArgument:": {
+      "name": "addArgument:",
+      "bridgedName": "addArgument",
+      "args": [
+        {
+          "name": "argument",
+          "type": "MOBridgeSupportArgument *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeArgument:": {
+      "name": "removeArgument:",
+      "bridgedName": "removeArgument",
+      "args": [
+        {
+          "name": "argument",
+          "type": "MOBridgeSupportArgument *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "selector": {
+      "name": "selector",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": []
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "type64": {
+      "name": "type64",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "arguments": {
+      "name": "arguments",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "returnValue": {
+      "name": "returnValue",
+      "pointer": false,
+      "type": "MOBridgeSupportArgument ",
+      "attributes": [
+        "strong"
+      ]
+    },
+    "classMethod": {
+      "name": "classMethod",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isClassMethod"
+      ]
+    },
+    "variadic": {
+      "name": "variadic",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isVariadic"
+      ]
+    },
+    "sentinel": {
+      "name": "sentinel",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "ignored": {
+      "name": "ignored",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isIgnored"
+      ]
+    },
+    "suggestion": {
+      "name": "suggestion",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

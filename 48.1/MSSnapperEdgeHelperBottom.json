@@ -1,0 +1,8 @@
+{
+  "name": "MSSnapperEdgeHelperBottom",
+  "extends": "MSSnapperEdgeHelperBase",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

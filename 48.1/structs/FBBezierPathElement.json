@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "FBBezierPathElement",
+  "members": [
+    {
+      "name": "type",
+      "pointer": false,
+      "type": "FBPathElementType"
+    },
+    {
+      "name": "point",
+      "pointer": false,
+      "type": "FBPoint"
+    },
+    {
+      "name": "controlPoints",
+      "pointer": false,
+      "type": "FBPoint[2]"
+    }
+  ]
+}

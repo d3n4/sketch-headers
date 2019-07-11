@@ -1,0 +1,47 @@
+{
+  "protocol": true,
+  "name": "MSReplaceColorActionDetails",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "ignoreAlphaWhenMatchingOriginalColor": {
+      "name": "ignoreAlphaWhenMatchingOriginalColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "originalColor": {
+      "name": "originalColor",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nonnull"
+      ]
+    },
+    "replaceAlphaOfOriginalColor": {
+      "name": "replaceAlphaOfOriginalColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "replacementColor": {
+      "name": "replacementColor",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nonnull"
+      ]
+    }
+  }
+}

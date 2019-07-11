@@ -1,0 +1,33 @@
+{
+  "name": "MSTileUpdateOperation",
+  "extends": "NSOperation",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "renderOperations": {
+      "name": "renderOperations",
+      "pointer": false,
+      "type": "NSArray<MSTileRenderOperation*> ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "tiledLayer": {
+      "name": "tiledLayer",
+      "pointer": false,
+      "type": "MSTiledLayer ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "finishTime": {
+      "name": "finishTime",
+      "pointer": false,
+      "type": "BCTime",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

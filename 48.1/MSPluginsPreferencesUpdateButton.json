@@ -1,0 +1,18 @@
+{
+  "name": "MSPluginsPreferencesUpdateButton",
+  "extends": "NSButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "tableCellView": {
+      "name": "tableCellView",
+      "pointer": false,
+      "type": "IBOutlet MSPluginsPreferenceTableCellView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

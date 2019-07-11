@@ -1,0 +1,8 @@
+{
+  "name": "MSUserAssetLibrary",
+  "extends": "MSAssetLibrary",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

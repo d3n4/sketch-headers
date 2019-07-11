@@ -1,0 +1,33 @@
+{
+  "name": "DataProtocol",
+  "extends": "NSURLProtocol",
+  "interfaces": [],
+  "methods": {
+    "dataFromLink:type:encoding:": {
+      "name": "dataFromLink:type:encoding:",
+      "bridgedName": "dataFromLink_type_encoding",
+      "args": [
+        {
+          "name": "link",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "typeOut",
+          "type": "NSString**",
+          "nullable": false
+        },
+        {
+          "name": "encodingOut",
+          "type": "NSString**",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

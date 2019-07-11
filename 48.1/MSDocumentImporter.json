@@ -1,0 +1,54 @@
+{
+  "name": "MSDocumentImporter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "importFromURL:inPage:importer:": {
+      "name": "importFromURL:inPage:importer:",
+      "bridgedName": "importFromURL_inPage_importer",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "importer",
+          "type": "id<MSImporter>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "group": {
+      "name": "group",
+      "pointer": false,
+      "type": "MSLayerGroup ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "view": {
+      "name": "view",
+      "pointer": false,
+      "type": "MSContentDrawView ",
+      "attributes": [
+        "weak",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

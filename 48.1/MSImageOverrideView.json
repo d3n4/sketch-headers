@@ -1,0 +1,8 @@
+{
+  "name": "MSImageOverrideView",
+  "extends": "NSImageView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

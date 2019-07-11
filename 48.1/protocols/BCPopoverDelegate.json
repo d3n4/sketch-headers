@@ -1,0 +1,140 @@
+{
+  "protocol": true,
+  "name": "BCPopoverDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "minimumPopoverContentViewHeight:": {
+      "name": "minimumPopoverContentViewHeight:",
+      "bridgedName": "minimumPopoverContentViewHeight",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverWillShow:": {
+      "name": "popoverWillShow:",
+      "bridgedName": "popoverWillShow",
+      "args": [
+        {
+          "name": "notification",
+          "type": "NSNotification *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverWillClose:": {
+      "name": "popoverWillClose:",
+      "bridgedName": "popoverWillClose",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverWindowSizeDidChange:": {
+      "name": "popoverWindowSizeDidChange:",
+      "bridgedName": "popoverWindowSizeDidChange",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverWindowDidMove:": {
+      "name": "popoverWindowDidMove:",
+      "bridgedName": "popoverWindowDidMove",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverShouldCloseWhenNewPopoverOpens:newPopover:": {
+      "name": "popoverShouldCloseWhenNewPopoverOpens:newPopover:",
+      "bridgedName": "popoverShouldCloseWhenNewPopoverOpens_newPopover",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        },
+        {
+          "name": "newPopover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverShouldCauseExistingPopoversToClose:": {
+      "name": "popoverShouldCauseExistingPopoversToClose:",
+      "bridgedName": "popoverShouldCauseExistingPopoversToClose",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverWillReturnUndoManager:": {
+      "name": "popoverWillReturnUndoManager:",
+      "bridgedName": "popoverWillReturnUndoManager",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUndoManager *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverShouldTrackSuperviewOfAttachedToView:": {
+      "name": "popoverShouldTrackSuperviewOfAttachedToView:",
+      "bridgedName": "popoverShouldTrackSuperviewOfAttachedToView",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

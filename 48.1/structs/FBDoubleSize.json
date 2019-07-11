@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "FBDoubleSize",
+  "members": [
+    {
+      "name": "width",
+      "pointer": false,
+      "type": "FBDouble"
+    },
+    {
+      "name": "height",
+      "pointer": false,
+      "type": "FBDouble"
+    }
+  ]
+}

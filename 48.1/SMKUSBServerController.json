@@ -1,0 +1,8 @@
+{
+  "name": "SMKUSBServerController",
+  "extends": "SMKServerController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

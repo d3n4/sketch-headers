@@ -1,0 +1,8 @@
+{
+  "name": "TDLowercaseWord",
+  "extends": "TDWord",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

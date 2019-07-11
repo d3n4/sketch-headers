@@ -1,0 +1,8 @@
+{
+  "name": "MSSymbolRendererCG",
+  "extends": "MSArtboardRendererCG",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

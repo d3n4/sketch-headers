@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableForeignStyle",
+  "extends": "MSImmutableForeignObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "remoteStyleID": {
+      "name": "remoteStyleID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "localSharedStyle": {
+      "name": "localSharedStyle",
+      "pointer": false,
+      "type": "MSImmutableSharedStyle ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

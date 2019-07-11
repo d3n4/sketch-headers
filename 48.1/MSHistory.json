@@ -1,0 +1,168 @@
+{
+  "name": "MSHistory",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithInitialMoment:": {
+      "name": "initWithInitialMoment:",
+      "bridgedName": "initWithInitialMoment",
+      "args": [
+        {
+          "name": "initMoment",
+          "type": "MSMoment *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addMoment:": {
+      "name": "addMoment:",
+      "bridgedName": "addMoment",
+      "args": [
+        {
+          "name": "newMoment",
+          "type": "MSMoment *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSHistoryUpdate",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addMomentWithTitle:documentData:": {
+      "name": "addMomentWithTitle:documentData:",
+      "bridgedName": "addMomentWithTitle_documentData",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSHistoryUpdate",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addMomentWithTitle:documentData:adaptability:": {
+      "name": "addMomentWithTitle:documentData:adaptability:",
+      "bridgedName": "addMomentWithTitle_documentData_adaptability",
+      "args": [
+        {
+          "name": "newTitle",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "adaptability",
+          "type": "MSMomentAdaptability",
+          "nullable": false
+        }
+      ],
+      "returns": "MSHistoryUpdate",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "revertToPreviousMoment": {
+      "name": "revertToPreviousMoment",
+      "bridgedName": "revertToPreviousMoment",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "progressToNextMoment": {
+      "name": "progressToNextMoment",
+      "bridgedName": "progressToNextMoment",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "commitCurrentMoment": {
+      "name": "commitCurrentMoment",
+      "bridgedName": "commitCurrentMoment",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "currentMoment": {
+      "name": "currentMoment",
+      "pointer": false,
+      "type": "MSMoment ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "previousMoment": {
+      "name": "previousMoment",
+      "pointer": false,
+      "type": "MSMoment ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "nextMoment": {
+      "name": "nextMoment",
+      "pointer": false,
+      "type": "MSMoment ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canRevertToPreviousMoment": {
+      "name": "canRevertToPreviousMoment",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canProgressToNextMoment": {
+      "name": "canProgressToNextMoment",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "allowsCoalescingOfMomentsCloseInTime": {
+      "name": "allowsCoalescingOfMomentsCloseInTime",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "numberOfMoments": {
+      "name": "numberOfMoments",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

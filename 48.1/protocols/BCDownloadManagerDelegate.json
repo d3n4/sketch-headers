@@ -1,0 +1,105 @@
+{
+  "protocol": true,
+  "name": "BCDownloadManagerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "downloadManager:downloadTaskHasUpdatedForIdentifier:downloadedSoFar:withDownloadSize:": {
+      "name": "downloadManager:downloadTaskHasUpdatedForIdentifier:downloadedSoFar:withDownloadSize:",
+      "bridgedName": "downloadManager_downloadTaskHasUpdatedForIdentifier_downloadedSoFar_withDownloadSize",
+      "args": [
+        {
+          "name": "downloadManager",
+          "type": "BCDownloadManager *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "downloadedSoFar",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "downloadSize",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadManager:downloadTaskFinishedForIdentifier:downloadedURL:": {
+      "name": "downloadManager:downloadTaskFinishedForIdentifier:downloadedURL:",
+      "bridgedName": "downloadManager_downloadTaskFinishedForIdentifier_downloadedURL",
+      "args": [
+        {
+          "name": "downloadManager",
+          "type": "BCDownloadManager *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "downloadedURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadManager:downloadTaskWithIdentifier:failedWithError:": {
+      "name": "downloadManager:downloadTaskWithIdentifier:failedWithError:",
+      "bridgedName": "downloadManager_downloadTaskWithIdentifier_failedWithError",
+      "args": [
+        {
+          "name": "downloadManager",
+          "type": "BCDownloadManager *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadManager:sessionBecameInvalidWithError:": {
+      "name": "downloadManager:sessionBecameInvalidWithError:",
+      "bridgedName": "downloadManager_sessionBecameInvalidWithError",
+      "args": [
+        {
+          "name": "downloadManager",
+          "type": "BCDownloadManager *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

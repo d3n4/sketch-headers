@@ -1,0 +1,41 @@
+{
+  "name": "SVGFont",
+  "extends": "_SVGFont",
+  "interfaces": [],
+  "methods": {
+    "fontForXML:element:parent:": {
+      "name": "fontForXML:element:parent:",
+      "bridgedName": "fontForXML_element_parent",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "element",
+          "type": "SVGElement*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SVGDrawableElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "SVGFont*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "representedFont": {
+      "name": "representedFont",
+      "bridgedName": "representedFont",
+      "args": [],
+      "returns": "NSFont*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

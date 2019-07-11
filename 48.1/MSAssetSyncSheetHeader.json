@@ -1,0 +1,20 @@
+{
+  "name": "MSAssetSyncSheetHeader",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSAssetSyncSheetItem"
+  ],
+  "methods": {},
+  "properties": {
+    "modifiedDateString": {
+      "name": "modifiedDateString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

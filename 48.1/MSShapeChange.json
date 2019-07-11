@@ -1,0 +1,168 @@
+{
+  "name": "MSShapeChange",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "moveToPoint:options:": {
+      "name": "moveToPoint:options:",
+      "bridgedName": "moveToPoint_options",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSCurveMoveOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapeChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "moveByOffset:options:": {
+      "name": "moveByOffset:options:",
+      "bridgedName": "moveByOffset_options",
+      "args": [
+        {
+          "name": "offset",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSCurveMoveOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapeChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "moveToLocation:onAxis:": {
+      "name": "moveToLocation:onAxis:",
+      "bridgedName": "moveToLocation_onAxis",
+      "args": [
+        {
+          "name": "location",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapeChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "nudgeWithKey:distance:flags:": {
+      "name": "nudgeWithKey:distance:flags:",
+      "bridgedName": "nudgeWithKey_distance_flags",
+      "args": [
+        {
+          "name": "key",
+          "type": "unichar",
+          "nullable": false
+        },
+        {
+          "name": "distance",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSShapeChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "changeToCurveMode:": {
+      "name": "changeToCurveMode:",
+      "bridgedName": "changeToCurveMode",
+      "args": [
+        {
+          "name": "curveMode",
+          "type": "MSCurveMode",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapeChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "alignToKey:": {
+      "name": "alignToKey:",
+      "bridgedName": "alignToKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapeChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "distributeAlongAxis:": {
+      "name": "distributeAlongAxis:",
+      "bridgedName": "distributeAlongAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapeChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "deleteHandle": {
+      "name": "deleteHandle",
+      "bridgedName": "deleteHandle",
+      "args": [],
+      "returns": "MSShapeChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "customActionWithBlock:": {
+      "name": "customActionWithBlock:",
+      "bridgedName": "customActionWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(MSShapeChangeContext *context)",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapeChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "executeWithContext:": {
+      "name": "executeWithContext:",
+      "bridgedName": "executeWithContext",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSShapeChangeContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

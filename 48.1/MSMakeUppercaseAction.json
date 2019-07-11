@@ -1,0 +1,8 @@
+{
+  "name": "MSMakeUppercaseAction",
+  "extends": "MSTextTransformAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

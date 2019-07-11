@@ -1,0 +1,186 @@
+{
+  "name": "MSCloudController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDocument:": {
+      "name": "initWithDocument:",
+      "bridgedName": "initWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "nonnull MSDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetCloudShare": {
+      "name": "resetCloudShare",
+      "bridgedName": "resetCloudShare",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startUploadUpdating:": {
+      "name": "startUploadUpdating:",
+      "bridgedName": "startUploadUpdating",
+      "args": [
+        {
+          "name": "existingShare",
+          "type": "SCKShare *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelUpload": {
+      "name": "cancelUpload",
+      "bridgedName": "cancelUpload",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showPreferences": {
+      "name": "showPreferences",
+      "bridgedName": "showPreferences",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "openRemoteAccountSettings": {
+      "name": "openRemoteAccountSettings",
+      "bridgedName": "openRemoteAccountSettings",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "openRemoteFileOverview": {
+      "name": "openRemoteFileOverview",
+      "bridgedName": "openRemoteFileOverview",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "openRemoteSignIn": {
+      "name": "openRemoteSignIn",
+      "bridgedName": "openRemoteSignIn",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "openRemoteSignUp": {
+      "name": "openRemoteSignUp",
+      "bridgedName": "openRemoteSignUp",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "updateShareWithHandler:": {
+      "name": "updateShareWithHandler:",
+      "bridgedName": "updateShareWithHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^ _Nullable)(NSError * _Nullable)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly",
+        "weak"
+      ]
+    },
+    "canUpload": {
+      "name": "canUpload",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "uploaded": {
+      "name": "uploaded",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "uploadedByCurrentUser": {
+      "name": "uploadedByCurrentUser",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "uploading": {
+      "name": "uploading",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isUploading"
+      ]
+    },
+    "uploadCancelled": {
+      "name": "uploadCancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isUploadCancelled"
+      ]
+    },
+    "uploadProgress": {
+      "name": "uploadProgress",
+      "pointer": false,
+      "type": "NSProgress ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "uploadStartTime": {
+      "name": "uploadStartTime",
+      "pointer": false,
+      "type": "NSTimeInterval",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

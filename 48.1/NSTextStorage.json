@@ -1,0 +1,96 @@
+{
+  "name": "NSTextStorage",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "copyTextStorage": {
+      "name": "copyTextStorage",
+      "bridgedName": "copyTextStorage",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boundsForTextBehaviour:original:": {
+      "name": "boundsForTextBehaviour:original:",
+      "bridgedName": "boundsForTextBehaviour_original",
+      "args": [
+        {
+          "name": "behaviour",
+          "type": "BCTextBehaviourType",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "glyphBounds": {
+      "name": "glyphBounds",
+      "bridgedName": "glyphBounds",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "attributeValuesByRangeForKey:": {
+      "name": "attributeValuesByRangeForKey:",
+      "bridgedName": "attributeValuesByRangeForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "attributeValuesByRangeForKey:range:": {
+      "name": "attributeValuesByRangeForKey:range:",
+      "bridgedName": "attributeValuesByRangeForKey_range",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "range",
+          "type": "NSRange",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setAttributeValuesByRange:forKey:": {
+      "name": "setAttributeValuesByRange:forKey:",
+      "bridgedName": "setAttributeValuesByRange_forKey",
+      "args": [
+        {
+          "name": "valuesByRange",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

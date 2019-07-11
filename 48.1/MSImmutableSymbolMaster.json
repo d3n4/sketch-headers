@@ -1,0 +1,38 @@
+{
+  "name": "MSImmutableSymbolMaster",
+  "extends": "_MSImmutableSymbolMaster",
+  "interfaces": [],
+  "methods": {
+    "modifiedMasterByApplyingInstance:inDocument:": {
+      "name": "modifiedMasterByApplyingInstance:inDocument:",
+      "bridgedName": "modifiedMasterByApplyingInstance_inDocument",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSImmutableSymbolInstance *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "changeIdentifier": {
+      "name": "changeIdentifier",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

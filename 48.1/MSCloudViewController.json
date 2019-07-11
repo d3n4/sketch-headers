@@ -1,0 +1,58 @@
+{
+  "name": "MSCloudViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSCloudViewControllerDelegate"
+  ],
+  "methods": {
+    "viewWillTransition": {
+      "name": "viewWillTransition",
+      "bridgedName": "viewWillTransition",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "viewDidTransition": {
+      "name": "viewDidTransition",
+      "bridgedName": "viewDidTransition",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSCloudViewControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    },
+    "cloudController": {
+      "name": "cloudController",
+      "pointer": false,
+      "type": "MSCloudController ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "isTransitioning": {
+      "name": "isTransitioning",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

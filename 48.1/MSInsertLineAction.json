@@ -1,0 +1,36 @@
+{
+  "name": "MSInsertLineAction",
+  "extends": "MSBaseInsertAction",
+  "interfaces": [],
+  "methods": {
+    "lineShapeFrom:to:": {
+      "name": "lineShapeFrom:to:",
+      "bridgedName": "lineShapeFrom_to",
+      "args": [
+        {
+          "name": "from",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "to",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapeGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "eventHandlerClass": {
+      "name": "eventHandlerClass",
+      "bridgedName": "eventHandlerClass",
+      "args": [],
+      "returns": "Class",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

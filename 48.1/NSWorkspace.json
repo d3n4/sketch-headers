@@ -1,0 +1,58 @@
+{
+  "name": "NSWorkspace",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "applicationSupportDirectory": {
+      "name": "applicationSupportDirectory",
+      "bridgedName": "applicationSupportDirectory",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setApplicationSupportDirectory:": {
+      "name": "setApplicationSupportDirectory:",
+      "bridgedName": "setApplicationSupportDirectory",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applicationSupportDirectoryWithSubDirectory:createIfNeeded:": {
+      "name": "applicationSupportDirectoryWithSubDirectory:createIfNeeded:",
+      "bridgedName": "applicationSupportDirectoryWithSubDirectory_createIfNeeded",
+      "args": [
+        {
+          "name": "directoryName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "create",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedApplicationSupportDirectory": {
+      "name": "sharedApplicationSupportDirectory",
+      "bridgedName": "sharedApplicationSupportDirectory",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

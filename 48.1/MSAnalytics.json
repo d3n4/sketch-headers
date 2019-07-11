@@ -1,0 +1,107 @@
+{
+  "name": "MSAnalytics",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSActionObserver",
+    "WebFrameLoadDelegate",
+    "WebResourceLoadDelegate",
+    "WebUIDelegate"
+  ],
+  "methods": {
+    "sharedInstance": {
+      "name": "sharedInstance",
+      "bridgedName": "sharedInstance",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "configureWithID:": {
+      "name": "configureWithID:",
+      "bridgedName": "configureWithID",
+      "args": [
+        {
+          "name": "siteID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trackScreenWithName:": {
+      "name": "trackScreenWithName:",
+      "bridgedName": "trackScreenWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trackEvent:withValue:": {
+      "name": "trackEvent:withValue:",
+      "bridgedName": "trackEvent_withValue",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trackEvent:withInterval:checkInterval:conditional:": {
+      "name": "trackEvent:withInterval:checkInterval:conditional:",
+      "bridgedName": "trackEvent_withInterval_checkInterval_conditional",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "interval",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "checkInterval",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "MSAnalyticsConditional",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "debug": {
+      "name": "debug",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

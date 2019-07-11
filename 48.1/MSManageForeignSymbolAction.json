@@ -1,0 +1,23 @@
+{
+  "name": "MSManageForeignSymbolAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "showOrganizeForeignSymbolSheet:": {
+      "name": "showOrganizeForeignSymbolSheet:",
+      "bridgedName": "showOrganizeForeignSymbolSheet",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

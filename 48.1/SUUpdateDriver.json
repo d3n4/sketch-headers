@@ -1,0 +1,107 @@
+{
+  "name": "SUUpdateDriver",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSURLDownloadDelegate"
+  ],
+  "methods": {
+    "initWithUpdater:": {
+      "name": "initWithUpdater:",
+      "bridgedName": "initWithUpdater",
+      "args": [
+        {
+          "name": "updater",
+          "type": "SUUpdater *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkForUpdatesAtURL:host:": {
+      "name": "checkForUpdatesAtURL:host:",
+      "bridgedName": "checkForUpdatesAtURL_host",
+      "args": [
+        {
+          "name": "URL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "abortUpdate": {
+      "name": "abortUpdate",
+      "bridgedName": "abortUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showAlert:": {
+      "name": "showAlert:",
+      "bridgedName": "showAlert",
+      "args": [
+        {
+          "name": "alert",
+          "type": "NSAlert *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "updater": {
+      "name": "updater",
+      "pointer": false,
+      "type": "SUUpdater ",
+      "attributes": [
+        "readonly",
+        "weak"
+      ]
+    },
+    "host": {
+      "name": "host",
+      "pointer": false,
+      "type": "SUHost ",
+      "attributes": [
+        "strong"
+      ]
+    },
+    "interruptible": {
+      "name": "interruptible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isInterruptible",
+        "readonly"
+      ]
+    },
+    "finished": {
+      "name": "finished",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "automaticallyInstallUpdates": {
+      "name": "automaticallyInstallUpdates",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    }
+  },
+  "generics": []
+}

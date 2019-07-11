@@ -1,0 +1,8 @@
+{
+  "name": "MSCutAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

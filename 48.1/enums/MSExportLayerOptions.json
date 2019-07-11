@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSExportLayerOptions",
+  "members": [
+    {
+      "name": "MSExportLayersAll",
+      "value": "0"
+    },
+    {
+      "name": "MSExportLayersSelected",
+      "value": "1"
+    },
+    {
+      "name": "MSExportLayersInGroup",
+      "value": "2"
+    }
+  ]
+}

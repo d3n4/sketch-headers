@@ -1,0 +1,49 @@
+{
+  "name": "MSTextLayerEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [
+    "NSTextViewDelegate",
+    "NSTextStorageDelegate",
+    "NSWindowDelegate",
+    "MSTextLayerEditingDelegate",
+    "MSFirstLineTypesetterDelegate"
+  ],
+  "methods": {
+    "applyTextTransform:": {
+      "name": "applyTextTransform:",
+      "bridgedName": "applyTextTransform",
+      "args": [
+        {
+          "name": "textTransformValue",
+          "type": "NSNumber *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateTextViewStyling": {
+      "name": "updateTextViewStyling",
+      "bridgedName": "updateTextViewStyling",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "textView": {
+      "name": "textView",
+      "pointer": false,
+      "type": "MSTextLayerTextView ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,41 @@
+{
+  "name": "MSComponentsPanelGridItem",
+  "extends": "NSCollectionViewItem",
+  "interfaces": [],
+  "methods": {
+    "populateWithDataFromSymbol:inSection:isHighlighted:": {
+      "name": "populateWithDataFromSymbol:inSection:isHighlighted:",
+      "bridgedName": "populateWithDataFromSymbol_inSection_isHighlighted",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMasterReference *",
+          "nullable": false
+        },
+        {
+          "name": "section",
+          "type": "MSComponentsPanelSection *",
+          "nullable": false
+        },
+        {
+          "name": "isHighlighted",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imagePreviewSize": {
+      "name": "imagePreviewSize",
+      "bridgedName": "imagePreviewSize",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSFeedbackAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "feedback:": {
+      "name": "feedback:",
+      "bridgedName": "feedback",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

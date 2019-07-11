@@ -1,0 +1,184 @@
+{
+  "name": "MSForeignSymbolMenuBuilder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "gatherSymbolsInDocument:filter:": {
+      "name": "gatherSymbolsInDocument:filter:",
+      "bridgedName": "gatherSymbolsInDocument_filter",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "filter",
+          "type": "MSForeignSymbolMenuBuilderFilter",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSDictionary *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithDocument:": {
+      "name": "initWithDocument:",
+      "bridgedName": "initWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "buildMenuItemsForMenu:withTarget:selector:": {
+      "name": "buildMenuItemsForMenu:withTarget:selector:",
+      "bridgedName": "buildMenuItemsForMenu_withTarget_selector",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "buildMenuItemsForMenu:withAction:": {
+      "name": "buildMenuItemsForMenu:withAction:",
+      "bridgedName": "buildMenuItemsForMenu_withAction",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "MSAction*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "gatherSymbolsForMenus": {
+      "name": "gatherSymbolsForMenus",
+      "bridgedName": "gatherSymbolsForMenus",
+      "args": [],
+      "returns": "NSArray<NSDictionary *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "newMenu": {
+      "name": "newMenu",
+      "bridgedName": "newMenu",
+      "args": [],
+      "returns": "NSMenu *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuItemForLibrary:mainMenu:target:selector:": {
+      "name": "menuItemForLibrary:mainMenu:target:selector:",
+      "bridgedName": "menuItemForLibrary_mainMenu_target_selector",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary*",
+          "nullable": true
+        },
+        {
+          "name": "mainMenu",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": true
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuItemsForSymbolRefs:target:selector:": {
+      "name": "menuItemsForSymbolRefs:target:selector:",
+      "bridgedName": "menuItemsForSymbolRefs_target_selector",
+      "args": [
+        {
+          "name": "refs",
+          "type": "NSArray <MSSymbolMasterReference *> *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSMenuItem*> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "filter": {
+      "name": "filter",
+      "pointer": false,
+      "type": "MSForeignSymbolMenuBuilderFilter",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "copy"
+      ]
+    },
+    "requiresSymbolSubmenu": {
+      "name": "requiresSymbolSubmenu",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

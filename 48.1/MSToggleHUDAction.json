@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleHUDAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "toggleHUD:": {
+      "name": "toggleHUD:",
+      "bridgedName": "toggleHUD",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

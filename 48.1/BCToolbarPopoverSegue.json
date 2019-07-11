@@ -1,0 +1,8 @@
+{
+  "name": "BCToolbarPopoverSegue",
+  "extends": "NSStoryboardSegue",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

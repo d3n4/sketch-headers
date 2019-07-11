@@ -1,0 +1,111 @@
+{
+  "name": "MSSharedStylesInspectorSection",
+  "extends": "NSViewController",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "renameSharedObjectAction:": {
+      "name": "renameSharedObjectAction:",
+      "bridgedName": "renameSharedObjectAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "syncOrResetSharedStyleAction:": {
+      "name": "syncOrResetSharedStyleAction:",
+      "bridgedName": "syncOrResetSharedStyleAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginRenameSharedObject:completionBlock:": {
+      "name": "beginRenameSharedObject:completionBlock:",
+      "bridgedName": "beginRenameSharedObject_completionBlock",
+      "args": [
+        {
+          "name": "sharedObject",
+          "type": "MSSharedObject *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSRenameSharedObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWithSharedStyleDidChange": {
+      "name": "layerWithSharedStyleDidChange",
+      "bridgedName": "layerWithSharedStyleDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadData": {
+      "name": "reloadData",
+      "bridgedName": "reloadData",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "sharedObjectsPopUpButton": {
+      "name": "sharedObjectsPopUpButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "editNameField": {
+      "name": "editNameField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "syncOrResetButton": {
+      "name": "syncOrResetButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

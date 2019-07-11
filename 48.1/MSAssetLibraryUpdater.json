@@ -1,0 +1,52 @@
+{
+  "name": "MSAssetLibraryUpdater",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "startDownloadingAssetLibrary:progressHandler:completionHandler:": {
+      "name": "startDownloadingAssetLibrary:progressHandler:completionHandler:",
+      "bridgedName": "startDownloadingAssetLibrary_progressHandler_completionHandler",
+      "args": [
+        {
+          "name": "assetLibrary",
+          "type": "MSRemoteAssetLibrary *",
+          "nullable": false
+        },
+        {
+          "name": "progressHandler",
+          "type": "void (^)(NSUInteger fileSize, NSUInteger downloadedSoFar)",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSURL * _Nullable downloadedURL, NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateAssetLibrary:withLibraryDownloadedTo:": {
+      "name": "updateAssetLibrary:withLibraryDownloadedTo:",
+      "bridgedName": "updateAssetLibrary_withLibraryDownloadedTo",
+      "args": [
+        {
+          "name": "assetLibrary",
+          "type": "MSRemoteAssetLibrary *",
+          "nullable": false
+        },
+        {
+          "name": "downloadedFileURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

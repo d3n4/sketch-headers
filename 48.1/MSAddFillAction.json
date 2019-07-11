@@ -1,0 +1,23 @@
+{
+  "name": "MSAddFillAction",
+  "extends": "MSBaseStyleAction",
+  "interfaces": [],
+  "methods": {
+    "addFill:": {
+      "name": "addFill:",
+      "bridgedName": "addFill",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

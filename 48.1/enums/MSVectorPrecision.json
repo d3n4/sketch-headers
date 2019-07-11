@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSVectorPrecision",
+  "members": [
+    {
+      "name": "MSVectorPrecisionFreeForm"
+    },
+    {
+      "name": "MSVectorPrecisionHalfPixel"
+    },
+    {
+      "name": "MSVectorPrecisionPixel"
+    }
+  ]
+}

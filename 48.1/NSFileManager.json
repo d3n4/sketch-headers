@@ -1,0 +1,246 @@
+{
+  "name": "NSFileManager",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "visibleSubpathsOfDirectory:": {
+      "name": "visibleSubpathsOfDirectory:",
+      "bridgedName": "visibleSubpathsOfDirectory",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createDirectoryIfNecessary:": {
+      "name": "createDirectoryIfNecessary:",
+      "bridgedName": "createDirectoryIfNecessary",
+      "args": [
+        {
+          "name": "directory",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fileExistsAtURL:": {
+      "name": "fileExistsAtURL:",
+      "bridgedName": "fileExistsAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shallowSubpathsOfDirectoryAtURL:": {
+      "name": "shallowSubpathsOfDirectoryAtURL:",
+      "bridgedName": "shallowSubpathsOfDirectoryAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shallowSubpathURLsOfDirectoryAtURL:": {
+      "name": "shallowSubpathURLsOfDirectoryAtURL:",
+      "bridgedName": "shallowSubpathURLsOfDirectoryAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isFolderAtPath:": {
+      "name": "isFolderAtPath:",
+      "bridgedName": "isFolderAtPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isFolderAtURL:": {
+      "name": "isFolderAtURL:",
+      "bridgedName": "isFolderAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "uniqueURL:": {
+      "name": "uniqueURL:",
+      "bridgedName": "uniqueURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "temporaryFolderURL": {
+      "name": "temporaryFolderURL",
+      "bridgedName": "temporaryFolderURL",
+      "args": [],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "temporaryFolderURLWithName:": {
+      "name": "temporaryFolderURLWithName:",
+      "bridgedName": "temporaryFolderURLWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "temporaryFileURLWithName:extension:": {
+      "name": "temporaryFileURLWithName:extension:",
+      "bridgedName": "temporaryFileURLWithName_extension",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "extension",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "temporaryFileURLToReplaceURL:": {
+      "name": "temporaryFileURLToReplaceURL:",
+      "bridgedName": "temporaryFileURLToReplaceURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "temporaryFileURLWithExtension:": {
+      "name": "temporaryFileURLWithExtension:",
+      "bridgedName": "temporaryFileURLWithExtension",
+      "args": [
+        {
+          "name": "extension",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "_temporaryFilesRootForURL:": {
+      "name": "_temporaryFilesRootForURL:",
+      "bridgedName": "_temporaryFilesRootForURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "_setTemporaryFilesRootToURL:": {
+      "name": "_setTemporaryFilesRootToURL:",
+      "bridgedName": "_setTemporaryFilesRootToURL",
+      "args": [
+        {
+          "name": "rootURL",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "visibleSubpathsOfDirectoryWithoutGoingIntoPackages:": {
+      "name": "visibleSubpathsOfDirectoryWithoutGoingIntoPackages:",
+      "bridgedName": "visibleSubpathsOfDirectoryWithoutGoingIntoPackages",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "visibleSubpathsOfDirectoryAtURLWithoutGoingIntoPackages:": {
+      "name": "visibleSubpathsOfDirectoryAtURLWithoutGoingIntoPackages:",
+      "bridgedName": "visibleSubpathsOfDirectoryAtURLWithoutGoingIntoPackages",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

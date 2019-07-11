@@ -1,0 +1,623 @@
+{
+  "name": "NSObject",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "changeKey:inBlock:": {
+      "name": "changeKey:inBlock:",
+      "bridgedName": "changeKey_inBlock",
+      "args": [
+        {
+          "name": "aKey",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "executeAsBlock": {
+      "name": "executeAsBlock",
+      "bridgedName": "executeAsBlock",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runningOSVersion_bc:minorVersion:": {
+      "name": "runningOSVersion_bc:minorVersion:",
+      "bridgedName": "runningOSVersion_bc_minorVersion",
+      "args": [
+        {
+          "name": "majorVersion",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "minorVersion",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runningSierra_bc": {
+      "name": "runningSierra_bc",
+      "bridgedName": "runningSierra_bc",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runningElCapitan_bc": {
+      "name": "runningElCapitan_bc",
+      "bridgedName": "runningElCapitan_bc",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runningYosemite_bc": {
+      "name": "runningYosemite_bc",
+      "bridgedName": "runningYosemite_bc",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mutableCopyDeep": {
+      "name": "mutableCopyDeep",
+      "bridgedName": "mutableCopyDeep",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outlineView:shouldShowDisclosureTriangleForItem:": {
+      "name": "outlineView:shouldShowDisclosureTriangleForItem:",
+      "bridgedName": "outlineView_shouldShowDisclosureTriangleForItem",
+      "args": [
+        {
+          "name": "outlineView",
+          "type": "NSOutlineView *",
+          "nullable": false
+        },
+        {
+          "name": "item",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outlineView:handleKeyEvent:": {
+      "name": "outlineView:handleKeyEvent:",
+      "bridgedName": "outlineView_handleKeyEvent",
+      "args": [
+        {
+          "name": "outlineView",
+          "type": "NSOutlineView *",
+          "nullable": false
+        },
+        {
+          "name": "anEvent",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outlineView:deleteItem:": {
+      "name": "outlineView:deleteItem:",
+      "bridgedName": "outlineView_deleteItem",
+      "args": [
+        {
+          "name": "outlineView",
+          "type": "NSOutlineView *",
+          "nullable": false
+        },
+        {
+          "name": "anItem",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableView:handleKeyEvent:": {
+      "name": "tableView:handleKeyEvent:",
+      "bridgedName": "tableView_handleKeyEvent",
+      "args": [
+        {
+          "name": "tableView",
+          "type": "NSTableView *",
+          "nullable": false
+        },
+        {
+          "name": "anEvent",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableViewPoofEffect:": {
+      "name": "tableViewPoofEffect:",
+      "bridgedName": "tableViewPoofEffect",
+      "args": [
+        {
+          "name": "tv",
+          "type": "NSTableView *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "coderSafeVersion_bc": {
+      "name": "coderSafeVersion_bc",
+      "bridgedName": "coderSafeVersion_bc",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addObserver:forKeyPaths:options:context:": {
+      "name": "addObserver:forKeyPaths:options:context:",
+      "bridgedName": "addObserver_forKeyPaths_options_context",
+      "args": [
+        {
+          "name": "anObserver",
+          "type": "NSObject *",
+          "nullable": false
+        },
+        {
+          "name": "keyPaths",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "NSKeyValueObservingOptions",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "void *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeObserver:forKeyPaths:": {
+      "name": "removeObserver:forKeyPaths:",
+      "bridgedName": "removeObserver_forKeyPaths",
+      "args": [
+        {
+          "name": "anObserver",
+          "type": "NSObject *",
+          "nullable": false
+        },
+        {
+          "name": "keyPaths",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setCOSJSTargetFunction:": {
+      "name": "setCOSJSTargetFunction:",
+      "bridgedName": "setCOSJSTargetFunction",
+      "args": [
+        {
+          "name": "jsFunction",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "coscript:hadError:onLineNumber:atSourceURL:": {
+      "name": "coscript:hadError:onLineNumber:atSourceURL:",
+      "bridgedName": "coscript_hadError_onLineNumber_atSourceURL",
+      "args": [
+        {
+          "name": "coscript",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "lineNumber",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mo_swizzleAdditions": {
+      "name": "mo_swizzleAdditions",
+      "bridgedName": "mo_swizzleAdditions",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "mo_mocha": {
+      "name": "mo_mocha",
+      "bridgedName": "mo_mocha",
+      "args": [],
+      "returns": "MOClassDescription *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "isSelectorExcludedFromMochaScript:": {
+      "name": "isSelectorExcludedFromMochaScript:",
+      "bridgedName": "isSelectorExcludedFromMochaScript",
+      "args": [
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "selectorForMochaPropertyName:": {
+      "name": "selectorForMochaPropertyName:",
+      "bridgedName": "selectorForMochaPropertyName",
+      "args": [
+        {
+          "name": "propertyName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "SEL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "finalizeForMochaScript": {
+      "name": "finalizeForMochaScript",
+      "bridgedName": "finalizeForMochaScript",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForIndexedSubscript:": {
+      "name": "objectForIndexedSubscript:",
+      "bridgedName": "objectForIndexedSubscript",
+      "args": [
+        {
+          "name": "idx",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setObject:forIndexedSubscript:": {
+      "name": "setObject:forIndexedSubscript:",
+      "bridgedName": "setObject_forIndexedSubscript",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "idx",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForKeyedSubscript:": {
+      "name": "objectForKeyedSubscript:",
+      "bridgedName": "objectForKeyedSubscript",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setObject:forKeyedSubscript:": {
+      "name": "setObject:forKeyedSubscript:",
+      "bridgedName": "setObject_forKeyedSubscript",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shutdown": {
+      "name": "shutdown",
+      "bridgedName": "shutdown",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "JSValueForObject:": {
+      "name": "JSValueForObject:",
+      "bridgedName": "JSValueForObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "immutableModelObject": {
+      "name": "immutableModelObject",
+      "bridgedName": "immutableModelObject",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "copyWithOptions:": {
+      "name": "copyWithOptions:",
+      "bridgedName": "copyWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSModelCopyOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasDefaultValues": {
+      "name": "hasDefaultValues",
+      "bridgedName": "hasDefaultValues",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "propertiesAreEqual:": {
+      "name": "propertiesAreEqual:",
+      "bridgedName": "propertiesAreEqual",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentObject": {
+      "name": "parentObject",
+      "bridgedName": "parentObject",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setParentObject:": {
+      "name": "setParentObject:",
+      "bridgedName": "setParentObject",
+      "args": [
+        {
+          "name": "parentObject",
+          "type": "MSModelObjectCommon *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "breakConnectionWith:": {
+      "name": "breakConnectionWith:",
+      "bridgedName": "breakConnectionWith",
+      "args": [
+        {
+          "name": "parent",
+          "type": "MSModelObjectCommon*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mapTreeWithLeafTransformBlock:": {
+      "name": "mapTreeWithLeafTransformBlock:",
+      "bridgedName": "mapTreeWithLeafTransformBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "id(^)(id object)",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "safeCastToClass:": {
+      "name": "safeCastToClass:",
+      "bridgedName": "safeCastToClass",
+      "args": [
+        {
+          "name": "classToCastTo",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSVGAttributes:exporter:": {
+      "name": "addSVGAttributes:exporter:",
+      "bridgedName": "addSVGAttributes_exporter",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startDragForButton:withEvent:": {
+      "name": "startDragForButton:withEvent:",
+      "bridgedName": "startDragForButton_withEvent",
+      "args": [
+        {
+          "name": "button",
+          "type": "NSButton *",
+          "nullable": false
+        },
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawContentForButton:inRect:": {
+      "name": "drawContentForButton:inRect:",
+      "bridgedName": "drawContentForButton_inRect",
+      "args": [
+        {
+          "name": "button",
+          "type": "MSPresetPickerPresetButton *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removePresetForButton:": {
+      "name": "removePresetForButton:",
+      "bridgedName": "removePresetForButton",
+      "args": [
+        {
+          "name": "menuItem",
+          "type": "NSMenuItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldShowMenuForButton:": {
+      "name": "shouldShowMenuForButton:",
+      "bridgedName": "shouldShowMenuForButton",
+      "args": [
+        {
+          "name": "button",
+          "type": "MSPresetPickerPresetButton *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removePresetWithTag:": {
+      "name": "removePresetWithTag:",
+      "bridgedName": "removePresetWithTag",
+      "args": [
+        {
+          "name": "tag",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

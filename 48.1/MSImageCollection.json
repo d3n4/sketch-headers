@@ -1,0 +1,8 @@
+{
+  "name": "MSImageCollection",
+  "extends": "_MSImageCollection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

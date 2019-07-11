@@ -1,0 +1,135 @@
+{
+  "name": "BCScreenGrab",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "screenGrabForDisplay:belowWindowWithID:": {
+      "name": "screenGrabForDisplay:belowWindowWithID:",
+      "bridgedName": "screenGrabForDisplay_belowWindowWithID",
+      "args": [
+        {
+          "name": "displayID",
+          "type": "CGDirectDisplayID",
+          "nullable": false
+        },
+        {
+          "name": "windowID",
+          "type": "CGWindowID",
+          "nullable": false
+        }
+      ],
+      "returns": "BCScreenGrab *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "screenGrabWithBitmapImageRep:originOnScreen:colorSpace:displayID:": {
+      "name": "screenGrabWithBitmapImageRep:originOnScreen:colorSpace:displayID:",
+      "bridgedName": "screenGrabWithBitmapImageRep_originOnScreen_colorSpace_displayID",
+      "args": [
+        {
+          "name": "bitmapRep",
+          "type": "NSBitmapImageRep *",
+          "nullable": false
+        },
+        {
+          "name": "screenOrigin",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "displayID",
+          "type": "CGDirectDisplayID",
+          "nullable": false
+        }
+      ],
+      "returns": "BCScreenGrab *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bitmapImageRepCroppingToRect:": {
+      "name": "bitmapImageRepCroppingToRect:",
+      "bridgedName": "bitmapImageRepCroppingToRect",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "displayID": {
+      "name": "displayID",
+      "pointer": false,
+      "type": "CGDirectDisplayID",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bitmapRep": {
+      "name": "bitmapRep",
+      "pointer": false,
+      "type": "NSBitmapImageRep ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "imageOrigin": {
+      "name": "imageOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isRetinaScreen": {
+      "name": "isRetinaScreen",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "screenFrame": {
+      "name": "screenFrame",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

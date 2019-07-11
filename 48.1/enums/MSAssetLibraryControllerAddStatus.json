@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSAssetLibraryControllerAddStatus",
+  "members": [
+    {
+      "name": "MSAssetLibraryControllerAddStatusOK"
+    },
+    {
+      "name": "MSAssetLibraryControllerAddStatusDuplicate"
+    },
+    {
+      "name": "MSAssetLibraryControllerAddStatusLegacyDocument"
+    },
+    {
+      "name": "MSAssetLibraryControllerAddStatusInvalidFile"
+    }
+  ]
+}
