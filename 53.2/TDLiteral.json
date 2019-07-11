@@ -1,0 +1,23 @@
+{
+  "name": "TDLiteral",
+  "extends": "TDTerminal",
+  "interfaces": [],
+  "methods": {
+    "literalWithString:": {
+      "name": "literalWithString:",
+      "bridgedName": "literalWithString",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "MSInspectorCheckmarkCell",
+  "extends": "MSInspectorButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "checkboxToTextSpacingOffset": {
+      "name": "checkboxToTextSpacingOffset",
+      "pointer": false,
+      "type": "IBInspectable CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

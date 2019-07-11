@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "NS_TYPED_ENUM",
+  "type": "NSString * SCKAPISessionTokenType",
+  "pointer": false
+}

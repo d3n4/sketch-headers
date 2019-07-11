@@ -1,0 +1,33 @@
+{
+  "name": "BCAtomicStack",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "push:": {
+      "name": "push:",
+      "bridgedName": "push",
+      "args": [
+        {
+          "name": "object",
+          "type": "ObjectType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pop": {
+      "name": "pop",
+      "bridgedName": "pop",
+      "args": [],
+      "returns": "nullable ObjectType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": [
+    "ObjectType"
+  ]
+}

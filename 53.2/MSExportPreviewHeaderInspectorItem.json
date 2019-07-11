@@ -1,0 +1,25 @@
+{
+  "name": "MSExportPreviewHeaderInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "collapsed": {
+      "name": "collapsed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "hideSeparator": {
+      "name": "hideSeparator",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

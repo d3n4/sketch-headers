@@ -1,0 +1,805 @@
+{
+  "name": "MSImmutableLayer",
+  "extends": "_MSImmutableLayer",
+  "interfaces": [
+    "MSLayer",
+    "MSLayerTraits"
+  ],
+  "methods": {
+    "influenceRectEdgePaddingsThatDoNotCascadeInDocument:": {
+      "name": "influenceRectEdgePaddingsThatDoNotCascadeInDocument:",
+      "bridgedName": "influenceRectEdgePaddingsThatDoNotCascadeInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BCEdgePaddings",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "absoluteRectForAncestorGroups:": {
+      "name": "absoluteRectForAncestorGroups:",
+      "bridgedName": "absoluteRectForAncestorGroups",
+      "args": [
+        {
+          "name": "ancestors",
+          "type": "NSArray <MSImmutableLayerGroup *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "absoluteInfluenceRectForAncestorGroups:document:": {
+      "name": "absoluteInfluenceRectForAncestorGroups:document:",
+      "bridgedName": "absoluteInfluenceRectForAncestorGroups_document",
+      "args": [
+        {
+          "name": "ancestors",
+          "type": "NSArray <MSImmutableLayerGroup *> *",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForFrameInDocument:": {
+      "name": "influenceRectForFrameInDocument:",
+      "bridgedName": "influenceRectForFrameInDocument",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForBoundsInDocument:": {
+      "name": "influenceRectForBoundsInDocument:",
+      "bridgedName": "influenceRectForBoundsInDocument",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForFrameInDocument:visitedSymbols:": {
+      "name": "influenceRectForFrameInDocument:visitedSymbols:",
+      "bridgedName": "influenceRectForFrameInDocument_visitedSymbols",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": true
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForBoundsInDocument:visitedSymbols:": {
+      "name": "influenceRectForBoundsInDocument:visitedSymbols:",
+      "bridgedName": "influenceRectForBoundsInDocument_visitedSymbols",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": true
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculateInfluenceRectForBoundsInDocument:visitedSymbols:": {
+      "name": "calculateInfluenceRectForBoundsInDocument:visitedSymbols:",
+      "bridgedName": "calculateInfluenceRectForBoundsInDocument_visitedSymbols",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": true
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForBoundsOrCalculateInBlock:": {
+      "name": "influenceRectForBoundsOrCalculateInBlock:",
+      "bridgedName": "influenceRectForBoundsOrCalculateInBlock",
+      "args": [
+        {
+          "name": "creatorBlock",
+          "type": "NSRect (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "absoluteOverlayInfluenceRectForAncestorGroups:": {
+      "name": "absoluteOverlayInfluenceRectForAncestorGroups:",
+      "bridgedName": "absoluteOverlayInfluenceRectForAncestorGroups",
+      "args": [
+        {
+          "name": "ancestors",
+          "type": "NSArray <MSImmutableLayerGroup *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentShapeInAncestors:": {
+      "name": "parentShapeInAncestors:",
+      "bridgedName": "parentShapeInAncestors",
+      "args": [
+        {
+          "name": "ancestors",
+          "type": "NSArray <__kindof MSImmutableLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableShapeGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathInBoundsInDocument:asSubpath:visitedSymbols:": {
+      "name": "pathInBoundsInDocument:asSubpath:visitedSymbols:",
+      "bridgedName": "pathInBoundsInDocument_asSubpath_visitedSymbols",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": true
+        },
+        {
+          "name": "asSubpath",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculatePathInBoundsInDocument:asSubpath:visitedSymbols:": {
+      "name": "calculatePathInBoundsInDocument:asSubpath:visitedSymbols:",
+      "bridgedName": "calculatePathInBoundsInDocument_asSubpath_visitedSymbols",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": true
+        },
+        {
+          "name": "asSubpath",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathInFrameInDocument:asSubpath:": {
+      "name": "pathInFrameInDocument:asSubpath:",
+      "bridgedName": "pathInFrameInDocument_asSubpath",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": true
+        },
+        {
+          "name": "asSubpath",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathInFrameWithTransformsInDocument:asSubpath:": {
+      "name": "pathInFrameWithTransformsInDocument:asSubpath:",
+      "bridgedName": "pathInFrameWithTransformsInDocument_asSubpath",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": true
+        },
+        {
+          "name": "asSubpath",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierBoundsInAbsoluteCoordinatesWithAncestors:": {
+      "name": "bezierBoundsInAbsoluteCoordinatesWithAncestors:",
+      "bridgedName": "bezierBoundsInAbsoluteCoordinatesWithAncestors",
+      "args": [
+        {
+          "name": "ancestors",
+          "type": "NSArray <MSImmutableLayerGroup *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformRectToParentCoordinates:": {
+      "name": "transformRectToParentCoordinates:",
+      "bridgedName": "transformRectToParentCoordinates",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canSkipAdvancedClipForStrokes": {
+      "name": "canSkipAdvancedClipForStrokes",
+      "bridgedName": "canSkipAdvancedClipForStrokes",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isLine": {
+      "name": "isLine",
+      "bridgedName": "isLine",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "descendantsToLayerWithID:": {
+      "name": "descendantsToLayerWithID:",
+      "bridgedName": "descendantsToLayerWithID",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSArray<__kindof MSImmutableLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultValueForOverridePoint:relatedOverrides:document:": {
+      "name": "defaultValueForOverridePoint:relatedOverrides:document:",
+      "bridgedName": "defaultValueForOverridePoint_relatedOverrides_document",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSOverridePoint*",
+          "nullable": false
+        },
+        {
+          "name": "relatedOverrides",
+          "type": "NSDictionary<NSString *, MSOverrideValue *> *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultOverrideVisibilityForPoint:ancestors:": {
+      "name": "defaultOverrideVisibilityForPoint:ancestors:",
+      "bridgedName": "defaultOverrideVisibilityForPoint_ancestors",
+      "args": [
+        {
+          "name": "overridePoint",
+          "type": "MSOverridePoint *",
+          "nullable": false
+        },
+        {
+          "name": "ancestors",
+          "type": "NSArray<MSImmutableLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canOverridePoint:withAncestors:": {
+      "name": "canOverridePoint:withAncestors:",
+      "bridgedName": "canOverridePoint_withAncestors",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSOverridePoint*",
+          "nullable": false
+        },
+        {
+          "name": "layerAncestors",
+          "type": "NSArray<MSImmutableLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overridePointsWithParent:overrides:document:": {
+      "name": "overridePointsWithParent:overrides:document:",
+      "bridgedName": "overridePointsWithParent_overrides_document",
+      "args": [
+        {
+          "name": "parent",
+          "type": "MSOverridePoint*",
+          "nullable": true
+        },
+        {
+          "name": "overrideValues",
+          "type": "NSDictionary<NSString *, MSOverrideValue *> *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSOverridePoint *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumeratorWithOptions:": {
+      "name": "enumeratorWithOptions:",
+      "bridgedName": "enumeratorWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSLayerEnumeratorFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerEnumerator<MSImmutableLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderBitmapEffects:": {
+      "name": "renderBitmapEffects:",
+      "bridgedName": "renderBitmapEffects",
+      "args": [
+        {
+          "name": "image",
+          "type": "CIImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "CIImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldRenderInTransparencyLayer": {
+      "name": "shouldRenderInTransparencyLayer",
+      "bridgedName": "shouldRenderInTransparencyLayer",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transparencyLayerUseRectCondition": {
+      "name": "transparencyLayerUseRectCondition",
+      "bridgedName": "transparencyLayerUseRectCondition",
+      "args": [],
+      "returns": "MSTransparencyRectangleOption",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldSkipDrawingInContext:": {
+      "name": "shouldSkipDrawingInContext:",
+      "bridgedName": "shouldSkipDrawingInContext",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "configureBackgroundOfRequest:": {
+      "name": "configureBackgroundOfRequest:",
+      "bridgedName": "configureBackgroundOfRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "MSExportRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "requiresPathDefinition:": {
+      "name": "requiresPathDefinition:",
+      "bridgedName": "requiresPathDefinition",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeSVGToElement:withExporter:": {
+      "name": "writeSVGToElement:withExporter:",
+      "bridgedName": "writeSVGToElement_withExporter",
+      "args": [
+        {
+          "name": "element",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTransformAttributes:exporter:": {
+      "name": "addTransformAttributes:exporter:",
+      "bridgedName": "addTransformAttributes_exporter",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "relativeRectWithExporter:": {
+      "name": "relativeRectWithExporter:",
+      "bridgedName": "relativeRectWithExporter",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addPathDefinitionToDocument:": {
+      "name": "addPathDefinitionToDocument:",
+      "bridgedName": "addPathDefinitionToDocument",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "simplifyPathElement:exporter:inset:": {
+      "name": "simplifyPathElement:exporter:inset:",
+      "bridgedName": "simplifyPathElement_exporter_inset",
+      "args": [
+        {
+          "name": "element",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        },
+        {
+          "name": "inset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addGroupContentToElement:attributes:exporter:": {
+      "name": "addGroupContentToElement:attributes:exporter:",
+      "bridgedName": "addGroupContentToElement_attributes_exporter",
+      "args": [
+        {
+          "name": "parentElement",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSXMLElement*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDefaultFillAttributes:exporter:": {
+      "name": "addDefaultFillAttributes:exporter:",
+      "bridgedName": "addDefaultFillAttributes_exporter",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldIncludeInSVGExport:": {
+      "name": "shouldIncludeInSVGExport:",
+      "bridgedName": "shouldIncludeInSVGExport",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSVGAttributes:exporter:": {
+      "name": "addSVGAttributes:exporter:",
+      "bridgedName": "addSVGAttributes_exporter",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "center": {
+      "name": "center",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "transform": {
+      "name": "transform",
+      "pointer": false,
+      "type": "NSAffineTransform ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "frameForTransforms": {
+      "name": "frameForTransforms",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledBackgroundBlur": {
+      "name": "hasEnabledBackgroundBlur",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "traits": {
+      "name": "traits",
+      "pointer": false,
+      "type": "MSTraits",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isLayerExportable": {
+      "name": "isLayerExportable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldBeIncludedInParentPath": {
+      "name": "shouldBeIncludedInParentPath",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "influenceRectForFrame": {
+      "name": "influenceRectForFrame",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "influenceRectEdgePaddingsThatCascadeToContainedLayers": {
+      "name": "influenceRectEdgePaddingsThatCascadeToContainedLayers",
+      "pointer": false,
+      "type": "BCEdgePaddings",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasCalculatedInfluenceRectForBounds": {
+      "name": "hasCalculatedInfluenceRectForBounds",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasClippingMask": {
+      "name": "hasClippingMask",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canBreakMaskChain": {
+      "name": "canBreakMaskChain",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fontNames": {
+      "name": "fontNames",
+      "pointer": false,
+      "type": "NSSet <NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "unavailableFontNames": {
+      "name": "unavailableFontNames",
+      "pointer": false,
+      "type": "NSSet <NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dataSupplierIdentifier": {
+      "name": "dataSupplierIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

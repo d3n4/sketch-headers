@@ -1,0 +1,23 @@
+{
+  "name": "MSExportAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "export:": {
+      "name": "export:",
+      "bridgedName": "export",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

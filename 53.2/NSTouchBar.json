@@ -1,0 +1,134 @@
+{
+  "name": "NSTouchBar",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCoding"
+  ],
+  "methods": {
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCoder:": {
+      "name": "initWithCoder:",
+      "bridgedName": "initWithCoder",
+      "args": [
+        {
+          "name": "aDecoder",
+          "type": "NSCoder *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "itemForIdentifier:": {
+      "name": "itemForIdentifier:",
+      "bridgedName": "itemForIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSTouchBarItemIdentifier",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof NSTouchBarItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "customizationIdentifier": {
+      "name": "customizationIdentifier",
+      "pointer": false,
+      "type": "NSTouchBarCustomizationIdentifier",
+      "attributes": [
+        "copy",
+        "nullable"
+      ]
+    },
+    "customizationAllowedItemIdentifiers": {
+      "name": "customizationAllowedItemIdentifiers",
+      "pointer": false,
+      "type": "NSArray<NSTouchBarItemIdentifier> ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "customizationRequiredItemIdentifiers": {
+      "name": "customizationRequiredItemIdentifiers",
+      "pointer": false,
+      "type": "NSArray<NSTouchBarItemIdentifier> ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "defaultItemIdentifiers": {
+      "name": "defaultItemIdentifiers",
+      "pointer": false,
+      "type": "NSArray<NSTouchBarItemIdentifier> ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "itemIdentifiers": {
+      "name": "itemIdentifiers",
+      "pointer": false,
+      "type": "NSArray<NSTouchBarItemIdentifier> ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "principalItemIdentifier": {
+      "name": "principalItemIdentifier",
+      "pointer": false,
+      "type": "NSTouchBarItemIdentifier",
+      "attributes": [
+        "copy",
+        "nullable"
+      ]
+    },
+    "escapeKeyReplacementItemIdentifier": {
+      "name": "escapeKeyReplacementItemIdentifier",
+      "pointer": false,
+      "type": "NSTouchBarItemIdentifier",
+      "attributes": [
+        "copy",
+        "nullable"
+      ]
+    },
+    "templateItems": {
+      "name": "templateItems",
+      "pointer": false,
+      "type": "NSSet<NSTouchBarItem *> ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <NSTouchBarDelegate>",
+      "attributes": [
+        "nullable",
+        "weak"
+      ]
+    },
+    "visible": {
+      "name": "visible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "getter=isVisible"
+      ]
+    }
+  },
+  "generics": []
+}

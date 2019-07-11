@@ -1,0 +1,16 @@
+{
+  "enum": true,
+  "name": "MSLayerFlattenOptions",
+  "members": [
+    {
+      "name": "MSLayerFlattenTransform",
+      "value": "1"
+    },
+    {
+      "name": "MSLayerFlattenRoundedCornersAndTransform"
+    },
+    {
+      "name": "MSLayerFlattenToImage"
+    }
+  ]
+}

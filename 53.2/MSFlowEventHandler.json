@@ -1,0 +1,38 @@
+{
+  "name": "MSFlowEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [
+    "MSFlowMenuBuilderTarget"
+  ],
+  "methods": {
+    "findMouseAndDisconnectFromTarget": {
+      "name": "findMouseAndDisconnectFromTarget",
+      "bridgedName": "findMouseAndDisconnectFromTarget",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "flowItems": {
+      "name": "flowItems",
+      "pointer": false,
+      "type": "NSSet <MSFlowItem *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

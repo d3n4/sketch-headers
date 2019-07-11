@@ -1,0 +1,220 @@
+{
+  "name": "MSImmutableSymbolInstance",
+  "extends": "_MSImmutableSymbolInstance",
+  "interfaces": [],
+  "methods": {
+    "initWithGroupForMigration:": {
+      "name": "initWithGroupForMigration:",
+      "bridgedName": "initWithGroupForMigration",
+      "args": [
+        {
+          "name": "group",
+          "type": "nonnull MSImmutableLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isScaled": {
+      "name": "isScaled",
+      "bridgedName": "isScaled",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "availableOverridesWithDocument:": {
+      "name": "availableOverridesWithDocument:",
+      "bridgedName": "availableOverridesWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSArray<MSAvailableOverride *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "availableOverrideValuesWithDocument:": {
+      "name": "availableOverrideValuesWithDocument:",
+      "bridgedName": "availableOverrideValuesWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSArray<MSImmutableOverrideValue *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareModifiedMasterInDocument:": {
+      "name": "prepareModifiedMasterInDocument:",
+      "bridgedName": "prepareModifiedMasterInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSImmutableSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "modifiedMasterInDocument:": {
+      "name": "modifiedMasterInDocument:",
+      "bridgedName": "modifiedMasterInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull MSImmutableSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "detachedLayerGroupRecursively:withDocument:visitedSymbols:": {
+      "name": "detachedLayerGroupRecursively:withDocument:visitedSymbols:",
+      "bridgedName": "detachedLayerGroupRecursively_withDocument_visitedSymbols",
+      "args": [
+        {
+          "name": "detachRecursively",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSImmutableLayerGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateOverridesWithObjectIDMapping:afterChangingSymbolMasterWithID:": {
+      "name": "updateOverridesWithObjectIDMapping:afterChangingSymbolMasterWithID:",
+      "bridgedName": "updateOverridesWithObjectIDMapping_afterChangingSymbolMasterWithID",
+      "args": [
+        {
+          "name": "objectIDMapping",
+          "type": "nonnull NSDictionary*",
+          "nullable": false
+        },
+        {
+          "name": "symbolID",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overridesWithGridIndexRemoved:": {
+      "name": "overridesWithGridIndexRemoved:",
+      "bridgedName": "overridesWithGridIndexRemoved",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "nonnull NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overridePointsInDocument:": {
+      "name": "overridePointsInDocument:",
+      "bridgedName": "overridePointsInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSOverridePoint *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculateAvailableOverridesWithDocument:": {
+      "name": "calculateAvailableOverridesWithDocument:",
+      "bridgedName": "calculateAvailableOverridesWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSAvailableOverride *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overrideMatchingPoint:inDocument:": {
+      "name": "overrideMatchingPoint:inDocument:",
+      "bridgedName": "overrideMatchingPoint_inDocument",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSOverridePoint *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSAvailableOverride *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cachedModifiedSymbolForMaster:inContext:": {
+      "name": "cachedModifiedSymbolForMaster:inContext:",
+      "bridgedName": "cachedModifiedSymbolForMaster_inContext",
+      "args": [
+        {
+          "name": "originalSymbol",
+          "type": "MSImmutableSymbolMaster *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "overrides": {
+      "name": "overrides",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

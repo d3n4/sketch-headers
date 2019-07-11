@@ -1,0 +1,53 @@
+{
+  "protocol": true,
+  "name": "MSInspectorChildController",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "prepareForDisplay": {
+      "name": "prepareForDisplay",
+      "bridgedName": "prepareForDisplay",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectionDidChangeTo:": {
+      "name": "selectionDidChangeTo:",
+      "bridgedName": "selectionDidChangeTo",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshIfNecessary:": {
+      "name": "refreshIfNecessary:",
+      "bridgedName": "refreshIfNecessary",
+      "args": [
+        {
+          "name": "treeDiff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerPositionPossiblyChanged": {
+      "name": "layerPositionPossiblyChanged",
+      "bridgedName": "layerPositionPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,95 @@
+{
+  "name": "MSLayoutPosition",
+  "extends": "MSLayoutAnchor",
+  "interfaces": [],
+  "methods": {
+    "positionAnchorWithLine:inLayer:attribute:": {
+      "name": "positionAnchorWithLine:inLayer:attribute:",
+      "bridgedName": "positionAnchorWithLine_inLayer_attribute",
+      "args": [
+        {
+          "name": "line",
+          "type": "BCOrthogonalLine",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "attribute",
+          "type": "MSLayoutAttribute",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "positionInLayer:": {
+      "name": "positionInLayer:",
+      "bridgedName": "positionInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snappingTargetInCoordinateSpace:": {
+      "name": "snappingTargetInCoordinateSpace:",
+      "bridgedName": "snappingTargetInCoordinateSpace",
+      "args": [
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSSnappingTarget *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectBySnappingToPosition:oldFrame:mayResize:": {
+      "name": "rectBySnappingToPosition:oldFrame:mayResize:",
+      "bridgedName": "rectBySnappingToPosition_oldFrame_mayResize",
+      "args": [
+        {
+          "name": "position",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "oldFrame",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "resize",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "snapTag": {
+      "name": "snapTag",
+      "pointer": false,
+      "type": "MSSnapTag",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

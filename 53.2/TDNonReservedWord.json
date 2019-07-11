@@ -1,0 +1,8 @@
+{
+  "name": "TDNonReservedWord",
+  "extends": "TDWord",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

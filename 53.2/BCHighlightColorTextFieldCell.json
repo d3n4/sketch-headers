@@ -1,0 +1,18 @@
+{
+  "name": "BCHighlightColorTextFieldCell",
+  "extends": "NSTextFieldCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "highlightColor": {
+      "name": "highlightColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

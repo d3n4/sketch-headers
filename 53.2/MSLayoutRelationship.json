@@ -1,0 +1,199 @@
+{
+  "name": "MSLayoutRelationship",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithAnchor:anchor:": {
+      "name": "initWithAnchor:anchor:",
+      "bridgedName": "initWithAnchor_anchor",
+      "args": [
+        {
+          "name": "anchor1",
+          "type": "MSLayoutAnchor *",
+          "nullable": false
+        },
+        {
+          "name": "anchor2",
+          "type": "MSLayoutAnchor *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithItem:attribute:item:attribute:": {
+      "name": "initWithItem:attribute:item:attribute:",
+      "bridgedName": "initWithItem_attribute_item_attribute",
+      "args": [
+        {
+          "name": "item1",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "attr1",
+          "type": "MSLayoutAttribute",
+          "nullable": false
+        },
+        {
+          "name": "item2",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "attr2",
+          "type": "MSLayoutAttribute",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithFirstItem:attribute:secondAnchor:": {
+      "name": "initWithFirstItem:attribute:secondAnchor:",
+      "bridgedName": "initWithFirstItem_attribute_secondAnchor",
+      "args": [
+        {
+          "name": "item1",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "attr1",
+          "type": "MSLayoutAttribute",
+          "nullable": false
+        },
+        {
+          "name": "anchor2",
+          "type": "MSLayoutAnchor *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dimensionMeasurementWithItem:axis:": {
+      "name": "dimensionMeasurementWithItem:axis:",
+      "bridgedName": "dimensionMeasurementWithItem_axis",
+      "args": [
+        {
+          "name": "item",
+          "type": "id <MSSnappable>",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "spacingMeasurementWithItem:toItem:onAxis:": {
+      "name": "spacingMeasurementWithItem:toItem:onAxis:",
+      "bridgedName": "spacingMeasurementWithItem_toItem_onAxis",
+      "args": [
+        {
+          "name": "firstItem",
+          "type": "id <MSSnappable>",
+          "nullable": false
+        },
+        {
+          "name": "secondItem",
+          "type": "id <MSSnappable>",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "firstAnchor": {
+      "name": "firstAnchor",
+      "pointer": false,
+      "type": "__kindof MSLayoutAnchor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "firstItem": {
+      "name": "firstItem",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "firstAttribute": {
+      "name": "firstAttribute",
+      "pointer": false,
+      "type": "MSLayoutAttribute",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "secondAnchor": {
+      "name": "secondAnchor",
+      "pointer": false,
+      "type": "__kindof MSLayoutAnchor ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "secondItem": {
+      "name": "secondItem",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "secondAttribute": {
+      "name": "secondAttribute",
+      "pointer": false,
+      "type": "MSLayoutAttribute",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "firstAnchorPoint": {
+      "name": "firstAnchorPoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

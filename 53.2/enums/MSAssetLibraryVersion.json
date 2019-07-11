@@ -1,0 +1,25 @@
+{
+  "enum": true,
+  "name": "MSAssetLibraryVersion",
+  "members": [
+    {
+      "name": "MSAssetLibraryInitialVersion",
+      "value": "1"
+    },
+    {
+      "name": "MSAssetLibraryDownloadableLibraryVersion",
+      "value": "2"
+    },
+    {
+      "name": "MSAssetLibraryBookMarkLocationTrackingRemoved",
+      "value": "3"
+    },
+    {
+      "name": "MSAssetLibraryNextVersion"
+    },
+    {
+      "name": "MSAssetLibraryCurrentVersion",
+      "value": "MSAssetLibraryNextVersion - 1"
+    }
+  ]
+}

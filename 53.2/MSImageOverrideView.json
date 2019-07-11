@@ -1,0 +1,27 @@
+{
+  "name": "MSImageOverrideView",
+  "extends": "NSImageView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "placeholderImage": {
+      "name": "placeholderImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "displaysPlaceholder": {
+      "name": "displaysPlaceholder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

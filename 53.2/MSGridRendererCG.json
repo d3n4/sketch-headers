@@ -1,0 +1,51 @@
+{
+  "name": "MSGridRendererCG",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSGridRenderer"
+  ],
+  "methods": {
+    "initWithLightColor:darkColor:": {
+      "name": "initWithLightColor:darkColor:",
+      "bridgedName": "initWithLightColor_darkColor",
+      "args": [
+        {
+          "name": "lightColor",
+          "type": "CGColorRef",
+          "nullable": false
+        },
+        {
+          "name": "darkColor",
+          "type": "CGColorRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "lightColor": {
+      "name": "lightColor",
+      "pointer": false,
+      "type": "CGColorRef",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "darkColor": {
+      "name": "darkColor",
+      "pointer": false,
+      "type": "CGColorRef",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

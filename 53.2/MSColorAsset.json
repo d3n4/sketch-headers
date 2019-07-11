@@ -1,0 +1,8 @@
+{
+  "name": "MSColorAsset",
+  "extends": "_MSColorAsset",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

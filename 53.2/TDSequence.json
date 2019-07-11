@@ -1,0 +1,17 @@
+{
+  "name": "TDSequence",
+  "extends": "TDCollectionParser",
+  "interfaces": [],
+  "methods": {
+    "sequence": {
+      "name": "sequence",
+      "bridgedName": "sequence",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

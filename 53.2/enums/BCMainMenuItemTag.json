@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "BCMainMenuItemTag",
+  "members": [
+    {
+      "name": "BCMainMenuPrintItem",
+      "value": "201"
+    },
+    {
+      "name": "BCMainMenuInsertItem",
+      "value": "400"
+    },
+    {
+      "name": "BCMainMenuShapeItem",
+      "value": "401"
+    },
+    {
+      "name": "BCMainMenuReplaceWithItem",
+      "value": "501"
+    },
+    {
+      "name": "BCMainMenuDebugItem",
+      "value": "1200"
+    }
+  ]
+}

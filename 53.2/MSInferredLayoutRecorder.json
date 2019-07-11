@@ -1,0 +1,79 @@
+{
+  "name": "MSInferredLayoutRecorder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithGroup:": {
+      "name": "initWithGroup:",
+      "bridgedName": "initWithGroup",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "originalRectOfLayer:": {
+      "name": "originalRectOfLayer:",
+      "bridgedName": "originalRectOfLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeOfLayerLine:": {
+      "name": "changeOfLayerLine:",
+      "bridgedName": "changeOfLayerLine",
+      "args": [
+        {
+          "name": "line",
+          "type": "MSLayerLine *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "originalGroupRect": {
+      "name": "originalGroupRect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "originalGroupParentBounds": {
+      "name": "originalGroupParentBounds",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sortedLayerLines": {
+      "name": "sortedLayerLines",
+      "pointer": false,
+      "type": "NSArray <MSLayerLine *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

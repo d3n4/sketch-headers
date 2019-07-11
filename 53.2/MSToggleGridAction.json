@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleGridAction",
+  "extends": "MSToggleBaseAction",
+  "interfaces": [],
+  "methods": {
+    "toggleGrid:": {
+      "name": "toggleGrid:",
+      "bridgedName": "toggleGrid",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

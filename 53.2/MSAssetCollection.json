@@ -1,0 +1,175 @@
+{
+  "name": "MSAssetCollection",
+  "extends": "_MSAssetCollection",
+  "interfaces": [],
+  "methods": {
+    "numberOfAssetsOfType:": {
+      "name": "numberOfAssetsOfType:",
+      "bridgedName": "numberOfAssetsOfType",
+      "args": [
+        {
+          "name": "type",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAsset:": {
+      "name": "addAsset:",
+      "bridgedName": "addAsset",
+      "args": [
+        {
+          "name": "asset",
+          "type": "nonnull id<MSAsset>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAsset:withName:": {
+      "name": "addAsset:withName:",
+      "bridgedName": "addAsset_withName",
+      "args": [
+        {
+          "name": "asset",
+          "type": "nonnull id<MSAsset>",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nameOfAssetAtIndex:ofType:": {
+      "name": "nameOfAssetAtIndex:ofType:",
+      "bridgedName": "nameOfAssetAtIndex_ofType",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setName:forAssetAtIndex:ofType:": {
+      "name": "setName:forAssetAtIndex:ofType:",
+      "bridgedName": "setName_forAssetAtIndex_ofType",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetAtIndex:ofType:": {
+      "name": "assetAtIndex:ofType:",
+      "bridgedName": "assetAtIndex_ofType",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAssetAtIndex:ofType:": {
+      "name": "removeAssetAtIndex:ofType:",
+      "bridgedName": "removeAssetAtIndex_ofType",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexesOfAsset:": {
+      "name": "indexesOfAsset:",
+      "bridgedName": "indexesOfAsset",
+      "args": [
+        {
+          "name": "asset",
+          "type": "nonnull id<MSAsset>",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSIndexSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveAssetAtIndex:beforeObjectAtIndex:ofType:": {
+      "name": "moveAssetAtIndex:beforeObjectAtIndex:ofType:",
+      "bridgedName": "moveAssetAtIndex_beforeObjectAtIndex_ofType",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

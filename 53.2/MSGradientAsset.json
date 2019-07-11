@@ -1,0 +1,8 @@
+{
+  "name": "MSGradientAsset",
+  "extends": "_MSGradientAsset",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

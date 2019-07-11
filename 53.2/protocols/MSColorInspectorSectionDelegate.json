@@ -1,0 +1,131 @@
+{
+  "protocol": true,
+  "name": "MSColorInspectorSectionDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorDidChangeTo:": {
+      "name": "colorDidChangeTo:",
+      "bridgedName": "colorDidChangeTo",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorSectionDidUpdate:": {
+      "name": "inspectorSectionDidUpdate:",
+      "bridgedName": "inspectorSectionDidUpdate",
+      "args": [
+        {
+          "name": "pattern",
+          "type": "MSColorInspectorSectionPattern *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentAssets": {
+      "name": "documentAssets",
+      "bridgedName": "documentAssets",
+      "args": [],
+      "returns": "MSAssetCollection *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "globalAssets": {
+      "name": "globalAssets",
+      "bridgedName": "globalAssets",
+      "args": [],
+      "returns": "MSPersistentAssetCollection *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "eventHandlerManager": {
+      "name": "eventHandlerManager",
+      "bridgedName": "eventHandlerManager",
+      "args": [],
+      "returns": "MSEventHandlerManager *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stack": {
+      "name": "stack",
+      "bridgedName": "stack",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didAddAsset:": {
+      "name": "didAddAsset:",
+      "bridgedName": "didAddAsset",
+      "args": [
+        {
+          "name": "asset",
+          "type": "id<MSAsset>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didRemoveAssetOfType:": {
+      "name": "didRemoveAssetOfType:",
+      "bridgedName": "didRemoveAssetOfType",
+      "args": [
+        {
+          "name": "assetType",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "touchBar": {
+      "name": "touchBar",
+      "bridgedName": "touchBar",
+      "args": [],
+      "returns": "NSTouchBar *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "libraryAssetsController": {
+      "name": "libraryAssetsController",
+      "bridgedName": "libraryAssetsController",
+      "args": [],
+      "returns": "MSLibraryAssetCollectionsController *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "revertToDefaultFirstResponder": {
+      "name": "revertToDefaultFirstResponder",
+      "bridgedName": "revertToDefaultFirstResponder",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "MSLibraryAssetCollectionHelper",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithCollection:libraryIdentifier:name:assetType:dataURL:ioQueue:": {
+      "name": "initWithCollection:libraryIdentifier:name:assetType:dataURL:ioQueue:",
+      "bridgedName": "initWithCollection_libraryIdentifier_name_assetType_dataURL_ioQueue",
+      "args": [
+        {
+          "name": "assetCollection",
+          "type": "MSImmutableAssetCollection *",
+          "nullable": false
+        },
+        {
+          "name": "libraryIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "assetType",
+          "type": "MSAsset",
+          "nullable": false
+        },
+        {
+          "name": "dataURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "dispatchQueue",
+          "type": "dispatch_queue_t",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getIndexesOfNewAssets:": {
+      "name": "getIndexesOfNewAssets:",
+      "bridgedName": "getIndexesOfNewAssets",
+      "args": [
+        {
+          "name": "callback",
+          "type": "void(^)(NSIndexSet *)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "markCollectionAsRead:": {
+      "name": "markCollectionAsRead:",
+      "bridgedName": "markCollectionAsRead",
+      "args": [
+        {
+          "name": "callback",
+          "type": "void(^_Nullable)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataSource": {
+      "name": "dataSource",
+      "bridgedName": "dataSource",
+      "args": [],
+      "returns": "MSAssetCollectionViewDataSource *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "libraryIdentifier": {
+      "name": "libraryIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSIncludeBackgroundColorInExportInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

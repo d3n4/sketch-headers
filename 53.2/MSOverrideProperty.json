@@ -1,0 +1,8 @@
+{
+  "name": "MSOverrideProperty",
+  "extends": "_MSOverrideProperty",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

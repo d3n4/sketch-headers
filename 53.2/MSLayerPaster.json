@@ -1,0 +1,197 @@
+{
+  "name": "MSLayerPaster",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "insertPasteboardData:onPage:withHint:viewPort:": {
+      "name": "insertPasteboardData:onPage:withHint:viewPort:",
+      "bridgedName": "insertPasteboardData_onPage_withHint_viewPort",
+      "args": [
+        {
+          "name": "pboardData",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "destinationHint",
+          "type": "MSLayer *",
+          "nullable": true
+        },
+        {
+          "name": "viewport",
+          "type": "MSPastingViewport *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPastingViewport *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "insertPasteboardData:intoParent:atPosition:afterLayer:viewport:fitToParent:": {
+      "name": "insertPasteboardData:intoParent:atPosition:afterLayer:viewport:fitToParent:",
+      "bridgedName": "insertPasteboardData_intoParent_atPosition_afterLayer_viewport_fitToParent",
+      "args": [
+        {
+          "name": "pboardData",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "position",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "afterLayer",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "viewport",
+          "type": "MSPastingViewport *",
+          "nullable": false
+        },
+        {
+          "name": "fitToParent",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "insertPasteboardData:intoParent:atPosition:beforeLayer:": {
+      "name": "insertPasteboardData:intoParent:atPosition:beforeLayer:",
+      "bridgedName": "insertPasteboardData_intoParent_atPosition_beforeLayer",
+      "args": [
+        {
+          "name": "pboardData",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "atPosition",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "beforeLayer",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "insertPagePasteboardData:intoDocument:afterPage:": {
+      "name": "insertPagePasteboardData:intoDocument:afterPage:",
+      "bridgedName": "insertPagePasteboardData_intoDocument_afterPage",
+      "args": [
+        {
+          "name": "pboardData",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData*",
+          "nullable": false
+        },
+        {
+          "name": "afterPage",
+          "type": "MSPage*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "parentForData:hint:page:viewPort:": {
+      "name": "parentForData:hint:page:viewPort:",
+      "bridgedName": "parentForData_hint_page_viewPort",
+      "args": [
+        {
+          "name": "pboardData",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        },
+        {
+          "name": "hint",
+          "type": "MSLayer *",
+          "nullable": true
+        },
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "viewport",
+          "type": "MSPastingViewport *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerGroup *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "parentForData:hint:page:": {
+      "name": "parentForData:hint:page:",
+      "bridgedName": "parentForData_hint_page",
+      "args": [
+        {
+          "name": "pboardData",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        },
+        {
+          "name": "hint",
+          "type": "MSLayer *",
+          "nullable": true
+        },
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable  MSLayerGroup *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "duplicateLayers:": {
+      "name": "duplicateLayers:",
+      "bridgedName": "duplicateLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSPasteboardLayers*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPasteboardLayers*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

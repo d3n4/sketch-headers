@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSAssetPickerItemSizeMode",
+  "members": [
+    {
+      "name": "MSAssetPickerItemSizeModeSmall"
+    },
+    {
+      "name": "MSAssetPickerItemSizeModeBig"
+    }
+  ]
+}

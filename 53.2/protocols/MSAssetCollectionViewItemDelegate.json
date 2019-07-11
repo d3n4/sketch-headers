@@ -1,0 +1,122 @@
+{
+  "protocol": true,
+  "name": "MSAssetCollectionViewItemDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "assetItem:moveToCollection:": {
+      "name": "assetItem:moveToCollection:",
+      "bridgedName": "assetItem_moveToCollection",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSAssetCollectionViewItem *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "MSAssetCollectionViewDataSource *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetItem:copyToCollection:": {
+      "name": "assetItem:copyToCollection:",
+      "bridgedName": "assetItem_copyToCollection",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSAssetCollectionViewItem *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "MSAssetCollectionViewDataSource *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetItemIsEditable:": {
+      "name": "assetItemIsEditable:",
+      "bridgedName": "assetItemIsEditable",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSAssetCollectionViewItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deleteAssetItem:": {
+      "name": "deleteAssetItem:",
+      "bridgedName": "deleteAssetItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSAssetCollectionViewItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetItemWantsStartRenaming:": {
+      "name": "assetItemWantsStartRenaming:",
+      "bridgedName": "assetItemWantsStartRenaming",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSAssetCollectionViewItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetItem:wantsRenameTo:": {
+      "name": "assetItem:wantsRenameTo:",
+      "bridgedName": "assetItem_wantsRenameTo",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSAssetCollectionViewItem *",
+          "nullable": false
+        },
+        {
+          "name": "newName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetItemDidEndRenaming:": {
+      "name": "assetItemDidEndRenaming:",
+      "bridgedName": "assetItemDidEndRenaming",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSAssetCollectionViewItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

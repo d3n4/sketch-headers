@@ -1,0 +1,8 @@
+{
+  "name": "MSImageTransformEventHandler",
+  "extends": "MSTransformEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

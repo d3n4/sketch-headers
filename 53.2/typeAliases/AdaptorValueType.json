@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "AdaptorValueType",
+  "type": "id",
+  "pointer": false
+}

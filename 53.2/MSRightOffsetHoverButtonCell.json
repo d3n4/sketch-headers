@@ -1,0 +1,8 @@
+{
+  "name": "MSRightOffsetHoverButtonCell",
+  "extends": "MSHoverButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

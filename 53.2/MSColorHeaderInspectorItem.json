@@ -1,0 +1,8 @@
+{
+  "name": "MSColorHeaderInspectorItem",
+  "extends": "MSCollapsibleHeaderInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

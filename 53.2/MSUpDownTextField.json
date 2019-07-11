@@ -1,0 +1,89 @@
+{
+  "name": "MSUpDownTextField",
+  "extends": "NSTextField",
+  "interfaces": [
+    "NSTextViewDelegate",
+    "MSUpDownProtocol",
+    "NSTouchBarDelegate"
+  ],
+  "methods": {
+    "connectToValueAdapter:": {
+      "name": "connectToValueAdapter:",
+      "bridgedName": "connectToValueAdapter",
+      "args": [
+        {
+          "name": "valueAdaptor",
+          "type": "MSMathInspectorValueAdaptor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "connectToValueAdapter:bindingOptions:": {
+      "name": "connectToValueAdapter:bindingOptions:",
+      "bridgedName": "connectToValueAdapter_bindingOptions",
+      "args": [
+        {
+          "name": "valueAdaptor",
+          "type": "MSMathInspectorValueAdaptor *",
+          "nullable": false
+        },
+        {
+          "name": "bindingOptions",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "incrementValue": {
+      "name": "incrementValue",
+      "bridgedName": "incrementValue",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "refreshDelegate": {
+      "name": "refreshDelegate",
+      "pointer": false,
+      "type": "IBOutlet id",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "upDownController": {
+      "name": "upDownController",
+      "pointer": false,
+      "type": "MSUpDownController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "preferredNextKeyView": {
+      "name": "preferredNextKeyView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "minimumIncrementValue": {
+      "name": "minimumIncrementValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,95 @@
+{
+  "protocol": true,
+  "name": "MSWebExportableRootLayer",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "webExportLayerBehaviorWithRect:fromLayer:": {
+      "name": "webExportLayerBehaviorWithRect:fromLayer:",
+      "bridgedName": "webExportLayerBehaviorWithRect_fromLayer",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "nonnull MSImmutableLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSWebExportLayerBehavior",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectInFixedViewportWithRect:fromFixingLayer:": {
+      "name": "rectInFixedViewportWithRect:fromFixingLayer:",
+      "bridgedName": "rectInFixedViewportWithRect_fromFixingLayer",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "nonnull MSImmutableLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "webExporterBackgoundColor": {
+      "name": "webExporterBackgoundColor",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "webExporterShouldIncludeBackgroundColor": {
+      "name": "webExporterShouldIncludeBackgroundColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isFlowHome": {
+      "name": "isFlowHome",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "preset": {
+      "name": "preset",
+      "pointer": false,
+      "type": "MSArtboardPreset ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "containsFixedLayers": {
+      "name": "containsFixedLayers",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

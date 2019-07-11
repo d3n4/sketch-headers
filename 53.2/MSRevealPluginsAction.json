@@ -1,0 +1,23 @@
+{
+  "name": "MSRevealPluginsAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "revealPlugins:": {
+      "name": "revealPlugins:",
+      "bridgedName": "revealPlugins",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

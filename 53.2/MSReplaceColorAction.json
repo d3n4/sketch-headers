@@ -1,0 +1,23 @@
+{
+  "name": "MSReplaceColorAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "replaceColor:": {
+      "name": "replaceColor:",
+      "bridgedName": "replaceColor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "nonnull id<MSReplaceColorActionDetails>",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

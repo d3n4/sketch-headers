@@ -1,0 +1,8 @@
+{
+  "name": "MSSymbolInstanceOverrideInspectorItem",
+  "extends": "MSOverrideInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

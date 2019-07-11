@@ -1,0 +1,23 @@
+{
+  "name": "MSAddAsLibraryAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "addAsLibraryAction:": {
+      "name": "addAsLibraryAction:",
+      "bridgedName": "addAsLibraryAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

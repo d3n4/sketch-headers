@@ -1,0 +1,115 @@
+{
+  "name": "NSViewController",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "presentViewController:asBCPopoverRelativeToView:preferredEdge:screenEdgeBehaviour:": {
+      "name": "presentViewController:asBCPopoverRelativeToView:preferredEdge:screenEdgeBehaviour:",
+      "bridgedName": "presentViewController_asBCPopoverRelativeToView_preferredEdge_screenEdgeBehaviour",
+      "args": [
+        {
+          "name": "viewController",
+          "type": "NSViewController *",
+          "nullable": false
+        },
+        {
+          "name": "positioningView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "preferredEdge",
+          "type": "NSRectEdge",
+          "nullable": false
+        },
+        {
+          "name": "behaviour",
+          "type": "BCPopoverScreenEdgeBehaviour",
+          "nullable": false
+        }
+      ],
+      "returns": "BCPopover *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "targetViewControllerForAction:sender:": {
+      "name": "targetViewControllerForAction:sender:",
+      "bridgedName": "targetViewControllerForAction_sender",
+      "args": [
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable __kindof NSViewController *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ensureLoaded": {
+      "name": "ensureLoaded",
+      "bridgedName": "ensureLoaded",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addChildViewController:fittingIntoView:": {
+      "name": "addChildViewController:fittingIntoView:",
+      "bridgedName": "addChildViewController_fittingIntoView",
+      "args": [
+        {
+          "name": "childController",
+          "type": "NSViewController *",
+          "nullable": false
+        },
+        {
+          "name": "containerView",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorController": {
+      "name": "inspectorController",
+      "bridgedName": "inspectorController",
+      "args": [],
+      "returns": "MSInspectorController *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadInspectorStack:": {
+      "name": "reloadInspectorStack:",
+      "bridgedName": "reloadInspectorStack",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "rootViewController": {
+      "name": "rootViewController",
+      "pointer": false,
+      "type": "__kindof NSViewController ",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

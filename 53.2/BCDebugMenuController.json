@@ -1,0 +1,23 @@
+{
+  "name": "BCDebugMenuController",
+  "extends": "BCSingleton",
+  "interfaces": [],
+  "methods": {
+    "addDebugMenuWithTag:": {
+      "name": "addDebugMenuWithTag:",
+      "bridgedName": "addDebugMenuWithTag",
+      "args": [
+        {
+          "name": "tag",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

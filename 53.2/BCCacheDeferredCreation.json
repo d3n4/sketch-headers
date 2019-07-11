@@ -1,0 +1,23 @@
+{
+  "name": "BCCacheDeferredCreation",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "createWithBlock:": {
+      "name": "createWithBlock:",
+      "bridgedName": "createWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCCacheCreateObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "BCCacheDeferredCreation *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

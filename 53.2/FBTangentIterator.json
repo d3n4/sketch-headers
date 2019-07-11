@@ -1,0 +1,118 @@
+{
+  "name": "FBTangentIterator",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "tangentIteratorWithIntersection:onCurve:": {
+      "name": "tangentIteratorWithIntersection:onCurve:",
+      "bridgedName": "tangentIteratorWithIntersection_onCurve",
+      "args": [
+        {
+          "name": "intersection",
+          "type": "FBBezierIntersection *",
+          "nullable": false
+        },
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithIntersection:onCurve:": {
+      "name": "initWithIntersection:onCurve:",
+      "bridgedName": "initWithIntersection_onCurve",
+      "args": [
+        {
+          "name": "intersection",
+          "type": "FBBezierIntersection *",
+          "nullable": false
+        },
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sync:": {
+      "name": "sync:",
+      "bridgedName": "sync",
+      "args": [
+        {
+          "name": "other",
+          "type": "FBTangentIterator *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "next:": {
+      "name": "next:",
+      "bridgedName": "next",
+      "args": [
+        {
+          "name": "tangents",
+          "type": "FBPoint[2]",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "leftCurve": {
+      "name": "leftCurve",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "rightCurve": {
+      "name": "rightCurve",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "offset": {
+      "name": "offset",
+      "pointer": false,
+      "type": "FBFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "offsetStep": {
+      "name": "offsetStep",
+      "pointer": false,
+      "type": "FBFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "offsetMaximum": {
+      "name": "offsetMaximum",
+      "pointer": false,
+      "type": "FBFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

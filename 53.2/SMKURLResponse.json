@@ -1,0 +1,51 @@
+{
+  "name": "SMKURLResponse",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSSecureCoding"
+  ],
+  "methods": {},
+  "properties": {
+    "request": {
+      "name": "request",
+      "pointer": false,
+      "type": "NSURLRequest ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "response": {
+      "name": "response",
+      "pointer": false,
+      "type": "NSURLResponse ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "data": {
+      "name": "data",
+      "pointer": false,
+      "type": "NSData ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

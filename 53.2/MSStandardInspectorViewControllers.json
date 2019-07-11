@@ -1,0 +1,72 @@
+{
+  "name": "MSStandardInspectorViewControllers",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "geometryViewController": {
+      "name": "geometryViewController",
+      "pointer": false,
+      "type": "MSGeometryInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "resizeSection": {
+      "name": "resizeSection",
+      "pointer": false,
+      "type": "MSResizeInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "styleSection": {
+      "name": "styleSection",
+      "pointer": false,
+      "type": "MSStyleInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flowInspectorViewController": {
+      "name": "flowInspectorViewController",
+      "pointer": false,
+      "type": "MSFlowInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "appearanceInspectorSection": {
+      "name": "appearanceInspectorSection",
+      "pointer": false,
+      "type": "MSAppearanceInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "specialLayerViewController": {
+      "name": "specialLayerViewController",
+      "pointer": false,
+      "type": "MSSpecialLayerViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exportPreviewViewController": {
+      "name": "exportPreviewViewController",
+      "pointer": false,
+      "type": "MSExportPreviewInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

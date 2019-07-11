@@ -1,0 +1,23 @@
+{
+  "name": "SUBundleIcon",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "iconURLForHost:": {
+      "name": "iconURLForHost:",
+      "bridgedName": "iconURLForHost",
+      "args": [
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL * _Nullable",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

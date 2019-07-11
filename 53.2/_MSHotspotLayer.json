@@ -1,0 +1,8 @@
+{
+  "name": "_MSHotspotLayer",
+  "extends": "MSLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

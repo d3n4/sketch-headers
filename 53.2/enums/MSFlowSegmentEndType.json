@@ -1,0 +1,16 @@
+{
+  "enum": true,
+  "name": "MSFlowSegmentEndType",
+  "members": [
+    {
+      "name": "MSFlowSegmentEndTypeNormal",
+      "value": "0"
+    },
+    {
+      "name": "MSFlowSegmentEndTypeHorizontal"
+    },
+    {
+      "name": "MSFlowSegmentEndTypeVertical"
+    }
+  ]
+}

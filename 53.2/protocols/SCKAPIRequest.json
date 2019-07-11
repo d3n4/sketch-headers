@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "SCKAPIRequest",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "environment": {
+      "name": "environment",
+      "pointer": false,
+      "type": "SCKAPIEnvironment ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "authentication": {
+      "name": "authentication",
+      "pointer": false,
+      "type": "SCKAPISession ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "urlRequest": {
+      "name": "urlRequest",
+      "pointer": false,
+      "type": "NSURLRequest ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

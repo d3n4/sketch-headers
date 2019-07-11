@@ -1,0 +1,231 @@
+{
+  "name": "BCPasteboardMock",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "generalPasteboard": {
+      "name": "generalPasteboard",
+      "bridgedName": "generalPasteboard",
+      "args": [],
+      "returns": "NSPasteboard*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pasteboardWithName:": {
+      "name": "pasteboardWithName:",
+      "bridgedName": "pasteboardWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPasteboard*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "declareTypes:owner:": {
+      "name": "declareTypes:owner:",
+      "bridgedName": "declareTypes_owner",
+      "args": [
+        {
+          "name": "types",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTypes:owner:": {
+      "name": "addTypes:owner:",
+      "bridgedName": "addTypes_owner",
+      "args": [
+        {
+          "name": "types",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setData:forType:": {
+      "name": "setData:forType:",
+      "bridgedName": "setData_forType",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        },
+        {
+          "name": "dataType",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataForType:": {
+      "name": "dataForType:",
+      "bridgedName": "dataForType",
+      "args": [
+        {
+          "name": "type",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setString:forType:": {
+      "name": "setString:forType:",
+      "bridgedName": "setString_forType",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataType",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringForType:": {
+      "name": "stringForType:",
+      "bridgedName": "stringForType",
+      "args": [
+        {
+          "name": "dataType",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setPropertyList:forType:": {
+      "name": "setPropertyList:forType:",
+      "bridgedName": "setPropertyList_forType",
+      "args": [
+        {
+          "name": "plist",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "dataType",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "propertyListForType:": {
+      "name": "propertyListForType:",
+      "bridgedName": "propertyListForType",
+      "args": [
+        {
+          "name": "dataType",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "availableTypeFromArray:": {
+      "name": "availableTypeFromArray:",
+      "bridgedName": "availableTypeFromArray",
+      "args": [
+        {
+          "name": "types",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "types": {
+      "name": "types",
+      "bridgedName": "types",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeObjects:": {
+      "name": "writeObjects:",
+      "bridgedName": "writeObjects",
+      "args": [
+        {
+          "name": "objects",
+          "type": "NSArray<id<NSPasteboardWriting>> *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearContents": {
+      "name": "clearContents",
+      "bridgedName": "clearContents",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    },
+    "changeCount": {
+      "name": "changeCount",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

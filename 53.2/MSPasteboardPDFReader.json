@@ -1,0 +1,8 @@
+{
+  "name": "MSPasteboardPDFReader",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSStyleInnerShadow",
+  "extends": "_MSStyleInnerShadow",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

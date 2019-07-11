@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSFrequentColorsControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "frequentColorsController:didChooseColor:": {
+      "name": "frequentColorsController:didChooseColor:",
+      "bridgedName": "frequentColorsController_didChooseColor",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSFrequentColorsController *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorSegmentedControl",
+  "extends": "NSSegmentedControl",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

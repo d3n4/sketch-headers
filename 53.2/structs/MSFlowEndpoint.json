@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "MSFlowEndpoint",
+  "members": [
+    {
+      "name": "edge",
+      "pointer": false,
+      "type": "BCEdge"
+    },
+    {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect"
+    }
+  ]
+}

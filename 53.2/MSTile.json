@@ -1,0 +1,81 @@
+{
+  "name": "MSTile",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithRenderer:point:": {
+      "name": "initWithRenderer:point:",
+      "bridgedName": "initWithRenderer_point",
+      "args": [
+        {
+          "name": "renderer",
+          "type": "nonnull id<MSGPURenderer>",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "BCIntPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceRegion:withBytes:bytesPerRow:": {
+      "name": "replaceRegion:withBytes:bytesPerRow:",
+      "bridgedName": "replaceRegion_withBytes_bytesPerRow",
+      "args": [
+        {
+          "name": "region",
+          "type": "BCIntRect",
+          "nullable": false
+        },
+        {
+          "name": "bytes",
+          "type": "nonnull const void *",
+          "nullable": false
+        },
+        {
+          "name": "bytesPerRow",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "texture": {
+      "name": "texture",
+      "pointer": false,
+      "type": "id<MSGPUTexture>",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nonnull"
+      ]
+    },
+    "point": {
+      "name": "point",
+      "pointer": false,
+      "type": "BCIntPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "rectWithImageFragment": {
+      "name": "rectWithImageFragment",
+      "pointer": false,
+      "type": "BCIntRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

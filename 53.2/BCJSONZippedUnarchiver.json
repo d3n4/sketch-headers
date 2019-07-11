@@ -1,0 +1,42 @@
+{
+  "name": "BCJSONZippedUnarchiver",
+  "extends": "BCJSONUnarchiver",
+  "interfaces": [],
+  "methods": {
+    "initWithURL:": {
+      "name": "initWithURL:",
+      "bridgedName": "initWithURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "nonnull NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unarchiveObjectAtSubpath:error:": {
+      "name": "unarchiveObjectAtSubpath:error:",
+      "bridgedName": "unarchiveObjectAtSubpath_error",
+      "args": [
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

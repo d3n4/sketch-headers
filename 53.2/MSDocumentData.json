@@ -1,0 +1,584 @@
+{
+  "name": "MSDocumentData",
+  "extends": "_MSDocumentData",
+  "interfaces": [
+    "MSDocumentData"
+  ],
+  "methods": {
+    "enumerateColorConvertiblesIgnoringForeignSymbols:": {
+      "name": "enumerateColorConvertiblesIgnoringForeignSymbols:",
+      "bridgedName": "enumerateColorConvertiblesIgnoringForeignSymbols",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSColorConvertibleHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceInstancesOfColor:withColor:ignoreAlphaWhenMatching:replaceAlphaOfOriginalColor:": {
+      "name": "replaceInstancesOfColor:withColor:ignoreAlphaWhenMatching:replaceAlphaOfOriginalColor:",
+      "bridgedName": "replaceInstancesOfColor_withColor_ignoreAlphaWhenMatching_replaceAlphaOfOriginalColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "replacementColor",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "ignoreAlphaWhenMatching",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "replaceAlphaOfOriginalColor",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assignColorSpace:": {
+      "name": "assignColorSpace:",
+      "bridgedName": "assignColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "MSColorSpace",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertToColorSpace:": {
+      "name": "convertToColorSpace:",
+      "bridgedName": "convertToColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "MSColorSpace",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultPagesArray": {
+      "name": "defaultPagesArray",
+      "bridgedName": "defaultPagesArray",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removePages:detachInstances:": {
+      "name": "removePages:detachInstances:",
+      "bridgedName": "removePages_detachInstances",
+      "args": [
+        {
+          "name": "page",
+          "type": "NSArray<MSPage *>*",
+          "nullable": false
+        },
+        {
+          "name": "shouldDetachInstances",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addBlankPage": {
+      "name": "addBlankPage",
+      "bridgedName": "addBlankPage",
+      "args": [],
+      "returns": "MSPage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolsPage": {
+      "name": "symbolsPage",
+      "bridgedName": "symbolsPage",
+      "args": [],
+      "returns": "MSPage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolsPageOrCreateIfNecessary": {
+      "name": "symbolsPageOrCreateIfNecessary",
+      "bridgedName": "symbolsPageOrCreateIfNecessary",
+      "args": [],
+      "returns": "MSPage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedObjectContainerOfType:": {
+      "name": "sharedObjectContainerOfType:",
+      "bridgedName": "sharedObjectContainerOfType",
+      "args": [
+        {
+          "name": "type",
+          "type": "MSSharedStyleType",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSSharedObjectContainer*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentIsEmpty": {
+      "name": "documentIsEmpty",
+      "bridgedName": "documentIsEmpty",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectedLayers": {
+      "name": "selectedLayers",
+      "bridgedName": "selectedLayers",
+      "args": [],
+      "returns": "MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerTreeLayoutDidChange": {
+      "name": "layerTreeLayoutDidChange",
+      "bridgedName": "layerTreeLayoutDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWithID:": {
+      "name": "layerWithID:",
+      "bridgedName": "layerWithID",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardWithID:": {
+      "name": "artboardWithID:",
+      "bridgedName": "artboardWithID",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSArtboardGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layersByObjectID": {
+      "name": "layersByObjectID",
+      "bridgedName": "layersByObjectID",
+      "args": [],
+      "returns": "NSDictionary <NSString *, MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allArtboards": {
+      "name": "allArtboards",
+      "bridgedName": "allArtboards",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allSymbols": {
+      "name": "allSymbols",
+      "bridgedName": "allSymbols",
+      "args": [],
+      "returns": "NSArray <MSSymbolMaster *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "localSymbols": {
+      "name": "localSymbols",
+      "bridgedName": "localSymbols",
+      "args": [],
+      "returns": "NSArray <MSSymbolMaster *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolWithID:": {
+      "name": "symbolWithID:",
+      "bridgedName": "symbolWithID",
+      "args": [
+        {
+          "name": "symbolID",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textStyleWithID:": {
+      "name": "textStyleWithID:",
+      "bridgedName": "textStyleWithID",
+      "args": [
+        {
+          "name": "sharedStyleID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerStyleWithID:": {
+      "name": "layerStyleWithID:",
+      "bridgedName": "layerStyleWithID",
+      "args": [
+        {
+          "name": "sharedStyleID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allForeignObjects": {
+      "name": "allForeignObjects",
+      "bridgedName": "allForeignObjects",
+      "args": [],
+      "returns": "NSArray<MSForeignObject *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addCopyOfMasterToDocumentIfNecessary:": {
+      "name": "addCopyOfMasterToDocumentIfNecessary:",
+      "bridgedName": "addCopyOfMasterToDocumentIfNecessary",
+      "args": [
+        {
+          "name": "master",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addCopyOfInstanceMasterToDocumentIfNecessary:": {
+      "name": "addCopyOfInstanceMasterToDocumentIfNecessary:",
+      "bridgedName": "addCopyOfInstanceMasterToDocumentIfNecessary",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSSymbolInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSymbolMaster:": {
+      "name": "addSymbolMaster:",
+      "bridgedName": "addSymbolMaster",
+      "args": [
+        {
+          "name": "master",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateForeignObjects:withLibraries:block:": {
+      "name": "enumerateForeignObjects:withLibraries:block:",
+      "bridgedName": "enumerateForeignObjects_withLibraries_block",
+      "args": [
+        {
+          "name": "objects",
+          "type": "NSArray<MSForeignObject*> *",
+          "nullable": false
+        },
+        {
+          "name": "libraries",
+          "type": "NSArray<id<MSLibraryObject>> *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void(^)(__kindof MSForeignObject *foreignObject, id<MSLibraryObject> library, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "libraryForForeignObject:inLibraries:": {
+      "name": "libraryForForeignObject:inLibraries:",
+      "bridgedName": "libraryForForeignObject_inLibraries",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSForeignObject*",
+          "nullable": false
+        },
+        {
+          "name": "libraries",
+          "type": "NSArray<id<MSLibraryObject>> *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof id<MSLibraryObject>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "temporarilyHideSelectionForLayers:": {
+      "name": "temporarilyHideSelectionForLayers:",
+      "bridgedName": "temporarilyHideSelectionForLayers",
+      "args": [
+        {
+          "name": "layer",
+          "type": "NSArray <MSLayer *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "immediatelyShowSelectionForAllLayers": {
+      "name": "immediatelyShowSelectionForAllLayers",
+      "bridgedName": "immediatelyShowSelectionForAllLayers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceExistingCreationMetadata": {
+      "name": "replaceExistingCreationMetadata",
+      "bridgedName": "replaceExistingCreationMetadata",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlay": {
+      "name": "refreshOverlay",
+      "bridgedName": "refreshOverlay",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "determineCurrentArtboard": {
+      "name": "determineCurrentArtboard",
+      "bridgedName": "determineCurrentArtboard",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "purgeForeignObjects": {
+      "name": "purgeForeignObjects",
+      "bridgedName": "purgeForeignObjects",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateAffectedSymbolInstances": {
+      "name": "invalidateAffectedSymbolInstances",
+      "bridgedName": "invalidateAffectedSymbolInstances",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeShareableObjectsFromInstanceOverrides:": {
+      "name": "removeShareableObjectsFromInstanceOverrides:",
+      "bridgedName": "removeShareableObjectsFromInstanceOverrides",
+      "args": [
+        {
+          "name": "removed",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceFonts:": {
+      "name": "replaceFonts:",
+      "bridgedName": "replaceFonts",
+      "args": [
+        {
+          "name": "fontReplacements",
+          "type": "NSDictionary <NSString *,NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateFonts": {
+      "name": "invalidateFonts",
+      "bridgedName": "invalidateFonts",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "storeMetadata:forKey:object:": {
+      "name": "storeMetadata:forKey:object:",
+      "bridgedName": "storeMetadata_forKey_object",
+      "args": [
+        {
+          "name": "toStore",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "MSModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "metadataForKey:object:": {
+      "name": "metadataForKey:object:",
+      "bridgedName": "metadataForKey_object",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "MSModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "cache": {
+      "name": "cache",
+      "pointer": false,
+      "type": "BCCache ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "currentPage": {
+      "name": "currentPage",
+      "pointer": false,
+      "type": "MSPage ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSDocumentDataDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "autoExpandGroupsInLayerList": {
+      "name": "autoExpandGroupsInLayerList",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "metadata": {
+      "name": "metadata",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "textPreviewData": {
+      "name": "textPreviewData",
+      "pointer": false,
+      "type": "NSData ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "fontList": {
+      "name": "fontList",
+      "pointer": false,
+      "type": "MSFontList ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "selectedOverrides": {
+      "name": "selectedOverrides",
+      "pointer": false,
+      "type": "NSArray<NSString *> ",
+      "attributes": [
+        "null_resettable",
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "MSThemedColorView",
+  "extends": "MSColorView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "colorName": {
+      "name": "colorName",
+      "pointer": false,
+      "type": "IBInspectable NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

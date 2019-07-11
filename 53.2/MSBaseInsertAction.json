@@ -1,0 +1,8 @@
+{
+  "name": "MSBaseInsertAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

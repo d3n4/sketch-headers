@@ -1,0 +1,86 @@
+{
+  "name": "BCTableCellView",
+  "extends": "NSTableCellView",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "renameNode": {
+      "name": "renameNode",
+      "bridgedName": "renameNode",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateBadgeImages": {
+      "name": "updateBadgeImages",
+      "bridgedName": "updateBadgeImages",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawDragImageInRect:": {
+      "name": "drawDragImageInRect:",
+      "bridgedName": "drawDragImageInRect",
+      "args": [
+        {
+          "name": "dragRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateSelectionStateIfRequired": {
+      "name": "updateSelectionStateIfRequired",
+      "bridgedName": "updateSelectionStateIfRequired",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<BCTableCellViewDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "displayState": {
+      "name": "displayState",
+      "pointer": false,
+      "type": "BCTableCellViewDisplayState",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "isTextFieldEditing": {
+      "name": "isTextFieldEditing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "widthForDragImage": {
+      "name": "widthForDragImage",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

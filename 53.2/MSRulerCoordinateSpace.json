@@ -1,0 +1,36 @@
+{
+  "name": "MSRulerCoordinateSpace",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSLayerCoordinateSpace"
+  ],
+  "methods": {
+    "initWithLayer:": {
+      "name": "initWithLayer:",
+      "bridgedName": "initWithLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer <MSRootLayer> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "MSLayer <MSRootLayer> ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,118 @@
+{
+  "name": "MSImmutableLayerGroup",
+  "extends": "_MSImmutableLayerGroup",
+  "interfaces": [
+    "MSLayerGroup"
+  ],
+  "methods": {
+    "axisForInferredLayouts": {
+      "name": "axisForInferredLayouts",
+      "bridgedName": "axisForInferredLayouts",
+      "args": [],
+      "returns": "BCAxisMask",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectClipsToBounds": {
+      "name": "influenceRectClipsToBounds",
+      "bridgedName": "influenceRectClipsToBounds",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "includeChildrenInCalculatingStyleSize": {
+      "name": "includeChildrenInCalculatingStyleSize",
+      "bridgedName": "includeChildrenInCalculatingStyleSize",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathCombiningChildrenByApplyingBlock:": {
+      "name": "pathCombiningChildrenByApplyingBlock:",
+      "bridgedName": "pathCombiningChildrenByApplyingBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSPath *(^)(MSImmutableLayer *layer)",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultLayout": {
+      "name": "defaultLayout",
+      "bridgedName": "defaultLayout",
+      "args": [],
+      "returns": "MSImmutableGroupLayout *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "constraintForLayer:": {
+      "name": "constraintForLayer:",
+      "bridgedName": "constraintForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BCConstraint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addChildrenToElement:exporter:": {
+      "name": "addChildrenToElement:exporter:",
+      "bridgedName": "addChildrenToElement_exporter",
+      "args": [
+        {
+          "name": "parentElement",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "mirrorExportScale": {
+      "name": "mirrorExportScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "mirrorViewPortSize": {
+      "name": "mirrorViewPortSize",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasInferredLayout": {
+      "name": "hasInferredLayout",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

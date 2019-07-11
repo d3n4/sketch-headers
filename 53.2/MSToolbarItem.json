@@ -1,0 +1,37 @@
+{
+  "name": "MSToolbarItem",
+  "extends": "NSToolbarItem",
+  "interfaces": [],
+  "methods": {
+    "initWithAction:": {
+      "name": "initWithAction:",
+      "bridgedName": "initWithAction",
+      "args": [
+        {
+          "name": "action",
+          "type": "MSAction *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeViewForAction:": {
+      "name": "makeViewForAction:",
+      "bridgedName": "makeViewForAction",
+      "args": [
+        {
+          "name": "action",
+          "type": "MSAction *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

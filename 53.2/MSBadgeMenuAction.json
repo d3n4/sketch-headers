@@ -1,0 +1,10 @@
+{
+  "name": "MSBadgeMenuAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "MSWindowBadgeAction"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

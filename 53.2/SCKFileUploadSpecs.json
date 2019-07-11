@@ -1,0 +1,44 @@
+{
+  "name": "SCKFileUploadSpecs",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDictionary:": {
+      "name": "initWithDictionary:",
+      "bridgedName": "initWithDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "fileHash": {
+      "name": "fileHash",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "uploadURL": {
+      "name": "uploadURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

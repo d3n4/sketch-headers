@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "BCOutlineViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "isOutlineViewShowingContextMenu:": {
+      "name": "isOutlineViewShowingContextMenu:",
+      "bridgedName": "isOutlineViewShowingContextMenu",
+      "args": [
+        {
+          "name": "outlineView",
+          "type": "nonnull BCOutlineView *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

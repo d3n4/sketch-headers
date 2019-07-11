@@ -1,0 +1,8 @@
+{
+  "name": "MSInlineBlendModeButtonCell",
+  "extends": "MSInspectorToggleImageButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

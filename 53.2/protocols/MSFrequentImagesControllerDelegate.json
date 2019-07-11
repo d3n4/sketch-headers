@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSFrequentImagesControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "frequentImagesController:didChooseImage:": {
+      "name": "frequentImagesController:didChooseImage:",
+      "bridgedName": "frequentImagesController_didChooseImage",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSFrequentImagesController *",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "MSImageData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

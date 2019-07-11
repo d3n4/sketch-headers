@@ -1,0 +1,49 @@
+{
+  "name": "_MSImmutableStyleBasicFill",
+  "extends": "MSImmutableStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "fillType": {
+      "name": "fillType",
+      "pointer": false,
+      "type": "BCFillType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contextSettings": {
+      "name": "contextSettings",
+      "pointer": false,
+      "type": "MSImmutableGraphicsContextSettings ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "gradient": {
+      "name": "gradient",
+      "pointer": false,
+      "type": "MSImmutableGradient ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

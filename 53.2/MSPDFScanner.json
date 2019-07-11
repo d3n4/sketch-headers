@@ -1,0 +1,27 @@
+{
+  "name": "MSPDFScanner",
+  "extends": "PDFScanner",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "rootLayer": {
+      "name": "rootLayer",
+      "pointer": false,
+      "type": "MSLayerGroup*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "substituteFontName": {
+      "name": "substituteFontName",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

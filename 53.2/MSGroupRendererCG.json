@@ -1,0 +1,33 @@
+{
+  "name": "MSGroupRendererCG",
+  "extends": "MSLayerRendererCG",
+  "interfaces": [],
+  "methods": {
+    "renderSubLayersOfGroup:ignoreDrawingArea:context:": {
+      "name": "renderSubLayersOfGroup:ignoreDrawingArea:context:",
+      "bridgedName": "renderSubLayersOfGroup_ignoreDrawingArea_context",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSImmutableLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "ignoreDrawingArea",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

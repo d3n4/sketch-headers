@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "DKCGContextCreateFlags",
+  "members": [
+    {
+      "name": "DKCGContextCreateDefault",
+      "value": "0"
+    },
+    {
+      "name": "DKCGContextCreateIsFlipped",
+      "value": "0x01"
+    }
+  ]
+}

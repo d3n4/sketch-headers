@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "node",
+  "type": "struct node",
+  "pointer": false
+}

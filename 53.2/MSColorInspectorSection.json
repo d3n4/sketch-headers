@@ -1,0 +1,336 @@
+{
+  "name": "MSColorInspectorSection",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSPreviewColorSpaceProvider",
+    "MSAssetPickerControllerDelegate",
+    "MSAssetCollectionViewSourceDelegate",
+    "MSCollapsibleHeaderInspectorItemTarget",
+    "MSAssetPickerScrubberControllerDelegate",
+    "NSTouchBarDelegate"
+  ],
+  "methods": {
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSColorInspectorSectionDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validate": {
+      "name": "validate",
+      "bridgedName": "validate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverWillClose": {
+      "name": "popoverWillClose",
+      "bridgedName": "popoverWillClose",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEnabled": {
+      "name": "isEnabled",
+      "bridgedName": "isEnabled",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetDataSourcesMighHaveChanged": {
+      "name": "assetDataSourcesMighHaveChanged",
+      "bridgedName": "assetDataSourcesMighHaveChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillType": {
+      "name": "fillType",
+      "bridgedName": "fillType",
+      "args": [],
+      "returns": "BCFillType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawCheckerboardBackgroundInRect:size:foreColor:backgroundColor:": {
+      "name": "drawCheckerboardBackgroundInRect:size:foreColor:backgroundColor:",
+      "bridgedName": "drawCheckerboardBackgroundInRect_size_foreColor_backgroundColor",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "CGColorRef",
+          "nullable": false
+        },
+        {
+          "name": "backgroundColor",
+          "type": "CGColorRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "refreshAction:": {
+      "name": "refreshAction:",
+      "bridgedName": "refreshAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorPickerChangedTo:": {
+      "name": "colorPickerChangedTo:",
+      "bridgedName": "colorPickerChangedTo",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "viewsWithColorPickerView:headerAccessories:": {
+      "name": "viewsWithColorPickerView:headerAccessories:",
+      "bridgedName": "viewsWithColorPickerView_headerAccessories",
+      "args": [
+        {
+          "name": "colorPickerView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "headerAccessories",
+          "type": "NSArray <NSViewController *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "customTouchBarItemIdentifiers": {
+      "name": "customTouchBarItemIdentifiers",
+      "bridgedName": "customTouchBarItemIdentifiers",
+      "args": [],
+      "returns": "NSArray<NSString *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeTouchBarItemForIdentifier:": {
+      "name": "makeTouchBarItemForIdentifier:",
+      "bridgedName": "makeTouchBarItemForIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSTouchBarItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentAssetPickerDataSourceWithAssetType:name:title:": {
+      "name": "documentAssetPickerDataSourceWithAssetType:name:title:",
+      "bridgedName": "documentAssetPickerDataSourceWithAssetType_name_title",
+      "args": [
+        {
+          "name": "assetType",
+          "type": "MSAsset",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSAssetCollectionViewDataSource *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "globalAssetPickerDataSourceWithAssetType:name:title:": {
+      "name": "globalAssetPickerDataSourceWithAssetType:name:title:",
+      "bridgedName": "globalAssetPickerDataSourceWithAssetType_name_title",
+      "args": [
+        {
+          "name": "assetType",
+          "type": "MSAsset",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSAssetCollectionViewDataSource *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetType": {
+      "name": "assetType",
+      "bridgedName": "assetType",
+      "args": [],
+      "returns": "MSAsset",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scrollViewWithStackedViews:": {
+      "name": "scrollViewWithStackedViews:",
+      "bridgedName": "scrollViewWithStackedViews",
+      "args": [
+        {
+          "name": "scrollableViews",
+          "type": "NSArray<NSView *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSScrollView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "minimumHeight": {
+      "name": "minimumHeight",
+      "bridgedName": "minimumHeight",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshColorPickerViewHeight:": {
+      "name": "refreshColorPickerViewHeight:",
+      "bridgedName": "refreshColorPickerViewHeight",
+      "args": [
+        {
+          "name": "colorPickerView",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "createPresetFromCurrentSelection": {
+      "name": "createPresetFromCurrentSelection",
+      "bridgedName": "createPresetFromCurrentSelection",
+      "args": [],
+      "returns": "nullable id<MSAsset>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "controlDidSelectAsset:": {
+      "name": "controlDidSelectAsset:",
+      "bridgedName": "controlDidSelectAsset",
+      "args": [
+        {
+          "name": "asset",
+          "type": "id<MSAsset>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSColorInspectorSectionDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "styleParts": {
+      "name": "styleParts",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "assetPickerHeaderItem": {
+      "name": "assetPickerHeaderItem",
+      "pointer": false,
+      "type": "MSCollapsibleHeaderInspectorItem ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "assetPickerController": {
+      "name": "assetPickerController",
+      "pointer": false,
+      "type": "MSAssetPickerController ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "noContentController": {
+      "name": "noContentController",
+      "pointer": false,
+      "type": "NSViewController ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "presetPickerVisibilityDefaultsKey": {
+      "name": "presetPickerVisibilityDefaultsKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "class",
+        "nonatomic",
+        "readonly",
+        "nonnull"
+      ]
+    }
+  },
+  "generics": []
+}

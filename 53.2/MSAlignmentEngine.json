@@ -1,0 +1,239 @@
+{
+  "name": "MSAlignmentEngine",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithCycle:": {
+      "name": "initWithCycle:",
+      "bridgedName": "initWithCycle",
+      "args": [
+        {
+          "name": "cycle",
+          "type": "MSAlignmentEngineCycle *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canSnapOnAxis:": {
+      "name": "canSnapOnAxis:",
+      "bridgedName": "canSnapOnAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginCycleWithPoint:constraint:": {
+      "name": "beginCycleWithPoint:constraint:",
+      "bridgedName": "beginCycleWithPoint_constraint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "constraint",
+          "type": "MSAlignmentEngineConstraint *",
+          "nullable": true
+        }
+      ],
+      "returns": "MSAlignmentEngineCycle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTarget:": {
+      "name": "addTarget:",
+      "bridgedName": "addTarget",
+      "args": [
+        {
+          "name": "target",
+          "type": "MSSnappingTarget *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargets:": {
+      "name": "addTargets:",
+      "bridgedName": "addTargets",
+      "args": [
+        {
+          "name": "targets",
+          "type": "NSArray<MSSnappingTarget *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargetWithLineSegment:": {
+      "name": "addTargetWithLineSegment:",
+      "bridgedName": "addTargetWithLineSegment",
+      "args": [
+        {
+          "name": "segment",
+          "type": "BCLineSegment",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addOrthogonalTargetsThroughPoint:": {
+      "name": "addOrthogonalTargetsThroughPoint:",
+      "bridgedName": "addOrthogonalTargetsThroughPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargetsForRect:includeCenter:": {
+      "name": "addTargetsForRect:includeCenter:",
+      "bridgedName": "addTargetsForRect_includeCenter",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "includeCenter",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargetAtPoint:": {
+      "name": "addTargetAtPoint:",
+      "bridgedName": "addTargetAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapTargetsForCentersOfLayers:": {
+      "name": "snapTargetsForCentersOfLayers:",
+      "bridgedName": "snapTargetsForCentersOfLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray<MSShapePathLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSSnappingTarget *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "includeRulerGuideTargetsForPage:zoomScale:": {
+      "name": "includeRulerGuideTargetsForPage:zoomScale:",
+      "bridgedName": "includeRulerGuideTargetsForPage_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumeratorForPossibleSnapTargetLayersInGroup:": {
+      "name": "enumeratorForPossibleSnapTargetLayersInGroup:",
+      "bridgedName": "enumeratorForPossibleSnapTargetLayersInGroup",
+      "args": [
+        {
+          "name": "group",
+          "type": "nonnull MSLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerEnumerator<MSLayer *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "snapDistance": {
+      "name": "snapDistance",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "constraint": {
+      "name": "constraint",
+      "pointer": false,
+      "type": "MSAlignmentEngineConstraint ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "currentCycle": {
+      "name": "currentCycle",
+      "pointer": false,
+      "type": "MSAlignmentEngineCycle ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "alignmentResult": {
+      "name": "alignmentResult",
+      "pointer": false,
+      "type": "MSAlignmentEngineResult ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSAlignmentEngineDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "MSBaseBlurInspectorItem",
+  "extends": "MSStylePartInspectorItem",
+  "interfaces": [
+    "MSInspectorValueAdaptorDelegate"
+  ],
+  "methods": {},
+  "properties": {
+    "radiusField": {
+      "name": "radiusField",
+      "pointer": false,
+      "type": "IBOutlet MSUpDownTextField ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "radiusSlider": {
+      "name": "radiusSlider",
+      "pointer": false,
+      "type": "IBOutlet NSSlider ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

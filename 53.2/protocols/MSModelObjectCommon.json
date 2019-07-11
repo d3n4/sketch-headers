@@ -1,0 +1,19 @@
+{
+  "protocol": true,
+  "name": "MSModelObjectCommon",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "objectID": {
+      "name": "objectID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

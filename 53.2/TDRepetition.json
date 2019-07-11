@@ -1,0 +1,85 @@
+{
+  "name": "TDRepetition",
+  "extends": "TDParser",
+  "interfaces": [],
+  "methods": {
+    "repetitionWithSubparser:": {
+      "name": "repetitionWithSubparser:",
+      "bridgedName": "repetitionWithSubparser",
+      "args": [
+        {
+          "name": "p",
+          "type": "TDParser *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithSubparser:": {
+      "name": "initWithSubparser:",
+      "bridgedName": "initWithSubparser",
+      "args": [
+        {
+          "name": "p",
+          "type": "TDParser *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setPreassembler:selector:": {
+      "name": "setPreassembler:selector:",
+      "bridgedName": "setPreassembler_selector",
+      "args": [
+        {
+          "name": "a",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "sel",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "subparser": {
+      "name": "subparser",
+      "pointer": false,
+      "type": "TDParser ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "retain"
+      ]
+    },
+    "preassembler": {
+      "name": "preassembler",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    },
+    "preassemblerSelector": {
+      "name": "preassemblerSelector",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

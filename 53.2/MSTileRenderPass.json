@@ -1,0 +1,38 @@
+{
+  "name": "MSTileRenderPass",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "tileRenderPassWithPage:inDocument:dirtyRect:zoomValue:": {
+      "name": "tileRenderPassWithPage:inDocument:dirtyRect:zoomValue:",
+      "bridgedName": "tileRenderPassWithPage_inDocument_dirtyRect_zoomValue",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "dirtyRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

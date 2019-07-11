@@ -1,0 +1,216 @@
+{
+  "name": "MSArtboardPreset",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "matchWithArtboardSize:)": {
+      "name": "matchWithArtboardSize:)",
+      "bridgedName": "matchWithArtboardSize_)",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        }
+      ],
+      "returns": "MSArtboardPresetMatch",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeScaleFromArtboardSize:)": {
+      "name": "resizeScaleFromArtboardSize:)",
+      "bridgedName": "resizeScaleFromArtboardSize_)",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithName:size:imageName:": {
+      "name": "initWithName:size:imageName:",
+      "bridgedName": "initWithName_size_imageName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "imageName",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDictionaryRepresentation:": {
+      "name": "initWithDictionaryRepresentation:",
+      "bridgedName": "initWithDictionaryRepresentation",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sizeToFitPresetWithName:size:": {
+      "name": "sizeToFitPresetWithName:size:",
+      "bridgedName": "sizeToFitPresetWithName_size",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "oppositeOrientationPreset": {
+      "name": "oppositeOrientationPreset",
+      "bridgedName": "oppositeOrientationPreset",
+      "args": [],
+      "returns": "MSArtboardPreset *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "layerName": {
+      "name": "layerName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "sizeDescription": {
+      "name": "sizeDescription",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "offersLandscapeVariant": {
+      "name": "offersLandscapeVariant",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "allowResizedMatching": {
+      "name": "allowResizedMatching",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "imageName": {
+      "name": "imageName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "tooltip": {
+      "name": "tooltip",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    },
+    "isSizeToFit": {
+      "name": "isSizeToFit",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isNew": {
+      "name": "isNew",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dictionaryRepresentation": {
+      "name": "dictionaryRepresentation",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

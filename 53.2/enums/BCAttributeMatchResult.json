@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "BCAttributeMatchResult",
+  "members": [
+    {
+      "name": "BCAttributeMatchResultMixed",
+      "value": "-1"
+    },
+    {
+      "name": "BCAttributeMatchResultNone",
+      "value": "0"
+    },
+    {
+      "name": "BCAttributeMatchResultMatched",
+      "value": "1"
+    }
+  ]
+}

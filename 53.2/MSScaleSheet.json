@@ -1,0 +1,8 @@
+{
+  "name": "MSScaleSheet",
+  "extends": "MSCanvasUpdatingSheet",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

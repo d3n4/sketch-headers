@@ -1,0 +1,185 @@
+{
+  "name": "MSLayerSelectionDrawing",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "drawSelectionForLayer:hideHandles:zoomValue:": {
+      "name": "drawSelectionForLayer:hideHandles:zoomValue:",
+      "bridgedName": "drawSelectionForLayer_hideHandles_zoomValue",
+      "args": [
+        {
+          "name": "aLayer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "hideHandles",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawFramesForLayer:zoomScale:": {
+      "name": "drawFramesForLayer:zoomScale:",
+      "bridgedName": "drawFramesForLayer_zoomScale",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawSelectionForLayers:zoomScale:": {
+      "name": "drawSelectionForLayers:zoomScale:",
+      "bridgedName": "drawSelectionForLayers_zoomScale",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawFramesForLayers:zoomScale:": {
+      "name": "drawFramesForLayers:zoomScale:",
+      "bridgedName": "drawFramesForLayers_zoomScale",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawSelectionHandlesForLayer:zoomValue:": {
+      "name": "drawSelectionHandlesForLayer:zoomValue:",
+      "bridgedName": "drawSelectionHandlesForLayer_zoomValue",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawHandlesWithRect:zoomScale:": {
+      "name": "drawHandlesWithRect:zoomScale:",
+      "bridgedName": "drawHandlesWithRect_zoomScale",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawResizingHandle:ofRect:zoomScale:": {
+      "name": "drawResizingHandle:ofRect:zoomScale:",
+      "bridgedName": "drawResizingHandle_ofRect_zoomScale",
+      "args": [
+        {
+          "name": "handle",
+          "type": "BCCorner",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawBorderWithRect:zoomValue:": {
+      "name": "drawBorderWithRect:zoomValue:",
+      "bridgedName": "drawBorderWithRect_zoomValue",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "strokeWidthForZoomValue:": {
+      "name": "strokeWidthForZoomValue:",
+      "bridgedName": "strokeWidthForZoomValue",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

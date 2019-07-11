@@ -1,0 +1,13 @@
+{
+  "enum": true,
+  "name": "MSOpenGLTextureFilter",
+  "members": [
+    {
+      "name": "MSOpenGLTextureFilterPoint",
+      "value": "0"
+    },
+    {
+      "name": "MSOpenGLTextureFilterLinear"
+    }
+  ]
+}

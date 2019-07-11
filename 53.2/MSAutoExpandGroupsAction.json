@@ -1,0 +1,23 @@
+{
+  "name": "MSAutoExpandGroupsAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "autoExpandGroups:": {
+      "name": "autoExpandGroups:",
+      "bridgedName": "autoExpandGroups",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}
