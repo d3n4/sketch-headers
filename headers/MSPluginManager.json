@@ -484,6 +484,14 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "downloadRemotePluginsBlacklist": {
+      "name": "downloadRemotePluginsBlacklist",
+      "bridgedName": "downloadRemotePluginsBlacklist",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

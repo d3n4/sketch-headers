@@ -121,6 +121,27 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "incompatiblePlugins": {
+      "name": "incompatiblePlugins",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, NSString *>",
+      "attributes": [
+        "class",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "existingDownloadededBlacklistURL": {
+      "name": "existingDownloadededBlacklistURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "class",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }
