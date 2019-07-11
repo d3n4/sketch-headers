@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "BCOutlineViewDisplayType",
+  "members": [
+    {
+      "name": "BCOutlineViewDisplayTypeStandard"
+    },
+    {
+      "name": "BCOutlineViewDisplayTypeArtboard"
+    }
+  ]
+}

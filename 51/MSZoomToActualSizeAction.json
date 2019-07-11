@@ -1,0 +1,8 @@
+{
+  "name": "MSZoomToActualSizeAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "MSWebExportLayerBehavior",
+  "members": [
+    {
+      "name": "MSWebExportLayerBehaviorDefault",
+      "value": "0"
+    },
+    {
+      "name": "MSWebExportLayerBehaviorScrollable",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSWebExportLayerBehaviorFixedToTop",
+      "value": "1 << 1"
+    },
+    {
+      "name": "MSWebExportLayerBehaviorFixedToBottom",
+      "value": "1 << 2"
+    },
+    {
+      "name": "MSWebExportLayerBehaviorFixed",
+      "value": "MSWebExportLayerBehaviorFixedToTop | MSWebExportLayerBehaviorFixedToBottom"
+    }
+  ]
+}

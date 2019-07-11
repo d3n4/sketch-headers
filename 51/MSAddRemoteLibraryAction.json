@@ -1,0 +1,23 @@
+{
+  "name": "MSAddRemoteLibraryAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "addAppcastURL:": {
+      "name": "addAppcastURL:",
+      "bridgedName": "addAppcastURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,19 @@
+{
+  "protocol": true,
+  "name": "MSHUDOwner",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "hud": {
+      "name": "hud",
+      "pointer": false,
+      "type": "MSHUDWindowController*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

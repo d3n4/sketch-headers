@@ -1,0 +1,186 @@
+{
+  "name": "TDToken",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "EOFToken": {
+      "name": "EOFToken",
+      "bridgedName": "EOFToken",
+      "args": [],
+      "returns": "TDToken *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tokenWithTokenType:stringValue:floatValue:": {
+      "name": "tokenWithTokenType:stringValue:floatValue:",
+      "bridgedName": "tokenWithTokenType_stringValue_floatValue",
+      "args": [
+        {
+          "name": "t",
+          "type": "TDTokenType",
+          "nullable": false
+        },
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "n",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithTokenType:stringValue:floatValue:": {
+      "name": "initWithTokenType:stringValue:floatValue:",
+      "bridgedName": "initWithTokenType_stringValue_floatValue",
+      "args": [
+        {
+          "name": "t",
+          "type": "TDTokenType",
+          "nullable": false
+        },
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "n",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqualIgnoringCase:": {
+      "name": "isEqualIgnoringCase:",
+      "bridgedName": "isEqualIgnoringCase",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugDescription": {
+      "name": "debugDescription",
+      "bridgedName": "debugDescription",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "whitespace": {
+      "name": "whitespace",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isWhitespace"
+      ]
+    },
+    "number": {
+      "name": "number",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isNumber"
+      ]
+    },
+    "quotedString": {
+      "name": "quotedString",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isQuotedString"
+      ]
+    },
+    "symbol": {
+      "name": "symbol",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isSymbol"
+      ]
+    },
+    "word": {
+      "name": "word",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isWord"
+      ]
+    },
+    "comment": {
+      "name": "comment",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isComment"
+      ]
+    },
+    "tokenType": {
+      "name": "tokenType",
+      "pointer": false,
+      "type": "TDTokenType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "floatValue": {
+      "name": "floatValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "stringValue": {
+      "name": "stringValue",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    },
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

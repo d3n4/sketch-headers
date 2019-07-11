@@ -1,0 +1,30 @@
+{
+  "name": "_MSImmutableTextStyle",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "encodedAttributes": {
+      "name": "encodedAttributes",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "verticalAlignment": {
+      "name": "verticalAlignment",
+      "pointer": false,
+      "type": "MSTextStyleVerticalAlignment",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "SUUpdateAlertChoice",
+  "members": [
+    {
+      "name": "SUInstallUpdateChoice"
+    },
+    {
+      "name": "SURemindMeLaterChoice"
+    },
+    {
+      "name": "SUSkipThisVersionChoice"
+    },
+    {
+      "name": "SUOpenInfoURLChoice"
+    }
+  ]
+}

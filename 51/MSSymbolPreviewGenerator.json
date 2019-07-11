@@ -1,0 +1,38 @@
+{
+  "name": "MSSymbolPreviewGenerator",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "imageForSymbolAncestry:withSize:colorSpace:trimmed:": {
+      "name": "imageForSymbolAncestry:withSize:colorSpace:trimmed:",
+      "bridgedName": "imageForSymbolAncestry_withSize_colorSpace_trimmed",
+      "args": [
+        {
+          "name": "ancestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "trimmed",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

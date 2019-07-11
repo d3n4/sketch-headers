@@ -1,0 +1,8 @@
+{
+  "name": "MSSharedTextStyleProvider",
+  "extends": "MSForeignObjectProvider",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

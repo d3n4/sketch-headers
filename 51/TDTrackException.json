@@ -1,0 +1,8 @@
+{
+  "name": "TDTrackException",
+  "extends": "NSException",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "MSSharedStylesPopUpButtonCell",
+  "extends": "NSPopUpButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "localIsOutOfSync": {
+      "name": "localIsOutOfSync",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

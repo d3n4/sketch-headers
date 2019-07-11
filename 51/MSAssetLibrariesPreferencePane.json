@@ -1,0 +1,179 @@
+{
+  "name": "MSAssetLibrariesPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [
+    "NSTableViewDelegate",
+    "NSTableViewDataSource"
+  ],
+  "methods": {
+    "importLibraryAction:": {
+      "name": "importLibraryAction:",
+      "bridgedName": "importLibraryAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeLibraryAction:": {
+      "name": "removeLibraryAction:",
+      "bridgedName": "removeLibraryAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "locateLibraryAction:": {
+      "name": "locateLibraryAction:",
+      "bridgedName": "locateLibraryAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addLibrariesFromURLS:": {
+      "name": "addLibrariesFromURLS:",
+      "bridgedName": "addLibrariesFromURLS",
+      "args": [
+        {
+          "name": "urls",
+          "type": "NSArray <NSURL *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "preferenceItemHasUpdated:": {
+      "name": "preferenceItemHasUpdated:",
+      "bridgedName": "preferenceItemHasUpdated",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSAssetPreferenceItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startDownloadForRemoteLibrary:": {
+      "name": "startDownloadForRemoteLibrary:",
+      "bridgedName": "startDownloadForRemoteLibrary",
+      "args": [
+        {
+          "name": "remoteLibrary",
+          "type": "MSRemoteAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadSelectingLibrary:": {
+      "name": "reloadSelectingLibrary:",
+      "bridgedName": "reloadSelectingLibrary",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateAvailableForRemoteLibrary:": {
+      "name": "updateAvailableForRemoteLibrary:",
+      "bridgedName": "updateAvailableForRemoteLibrary",
+      "args": [
+        {
+          "name": "remoteLibrary",
+          "type": "MSRemoteAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "displayInstallerAlertSheetForRemoteAssetLibrary": {
+      "name": "displayInstallerAlertSheetForRemoteAssetLibrary",
+      "bridgedName": "displayInstallerAlertSheetForRemoteAssetLibrary",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "displayDuplicateAlertSheetForRemoteAssetLibrary:": {
+      "name": "displayDuplicateAlertSheetForRemoteAssetLibrary:",
+      "bridgedName": "displayDuplicateAlertSheetForRemoteAssetLibrary",
+      "args": [
+        {
+          "name": "remoteAssetLibrary",
+          "type": "MSRemoteAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableCellForLibrary:": {
+      "name": "tableCellForLibrary:",
+      "bridgedName": "tableCellForLibrary",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSAssetLibraryTableCellView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "tableView": {
+      "name": "tableView",
+      "pointer": false,
+      "type": "IBOutlet NSTableView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "assetLibraryController": {
+      "name": "assetLibraryController",
+      "pointer": false,
+      "type": "MSAssetLibraryController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

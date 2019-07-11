@@ -1,0 +1,8 @@
+{
+  "name": "MSNewsTriggerWindowController",
+  "extends": "CHWindowController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

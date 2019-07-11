@@ -1,0 +1,8 @@
+{
+  "name": "CHWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

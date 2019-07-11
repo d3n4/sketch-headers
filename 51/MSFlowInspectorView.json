@@ -1,0 +1,8 @@
+{
+  "name": "MSFlowInspectorView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

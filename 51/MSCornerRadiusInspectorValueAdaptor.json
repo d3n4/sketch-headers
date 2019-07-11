@@ -1,0 +1,23 @@
+{
+  "name": "MSCornerRadiusInspectorValueAdaptor",
+  "extends": "MSMathInspectorValueAdaptor",
+  "interfaces": [],
+  "methods": {
+    "initWithModelsController:": {
+      "name": "initWithModelsController:",
+      "bridgedName": "initWithModelsController",
+      "args": [
+        {
+          "name": "arrayController",
+          "type": "NSArrayController *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

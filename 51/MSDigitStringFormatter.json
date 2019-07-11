@@ -1,0 +1,23 @@
+{
+  "name": "MSDigitStringFormatter",
+  "extends": "NSFormatter",
+  "interfaces": [],
+  "methods": {
+    "isDigitString:": {
+      "name": "isDigitString:",
+      "bridgedName": "isDigitString",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleRulerDragLockingAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "toggleRulerDragLocking:": {
+      "name": "toggleRulerDragLocking:",
+      "bridgedName": "toggleRulerDragLocking",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

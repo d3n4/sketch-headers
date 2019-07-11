@@ -1,0 +1,16 @@
+{
+  "enum": true,
+  "name": "SCKFileImageType",
+  "members": [
+    {
+      "name": "SCKFileImageTypeFull",
+      "value": "0"
+    },
+    {
+      "name": "SCKFileImageTypeScrollable"
+    },
+    {
+      "name": "SCKFileImageTypeFixed"
+    }
+  ]
+}

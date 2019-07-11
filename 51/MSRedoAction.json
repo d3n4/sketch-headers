@@ -1,0 +1,23 @@
+{
+  "name": "MSRedoAction",
+  "extends": "MSUndoBaseAction",
+  "interfaces": [],
+  "methods": {
+    "redo:": {
+      "name": "redo:",
+      "bridgedName": "redo",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "COSGifAnimator",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "fps": {
+      "name": "fps",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign"
+      ]
+    },
+    "seconds": {
+      "name": "seconds",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

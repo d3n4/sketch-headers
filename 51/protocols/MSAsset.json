@@ -1,0 +1,31 @@
+{
+  "protocol": true,
+  "name": "MSAsset",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "assetType": {
+      "name": "assetType",
+      "bridgedName": "assetType",
+      "args": [],
+      "returns": "MSAsset",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isAssetEqual:": {
+      "name": "isAssetEqual:",
+      "bridgedName": "isAssetEqual",
+      "args": [
+        {
+          "name": "object",
+          "type": "id<MSAsset>",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

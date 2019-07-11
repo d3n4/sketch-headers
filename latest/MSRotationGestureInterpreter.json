@@ -1,0 +1,84 @@
+{
+  "name": "MSRotationGestureInterpreter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "updateWithDragRecognizer:": {
+      "name": "updateWithDragRecognizer:",
+      "bridgedName": "updateWithDragRecognizer",
+      "args": [
+        {
+          "name": "recognizer",
+          "type": "MSDragGestureRecognizer *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateWithLocation:": {
+      "name": "updateWithLocation:",
+      "bridgedName": "updateWithLocation",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rotationInLayer:": {
+      "name": "rotationInLayer:",
+      "bridgedName": "rotationInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rotationInDegreesInLayer:": {
+      "name": "rotationInDegreesInLayer:",
+      "bridgedName": "rotationInDegreesInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "centerPoint": {
+      "name": "centerPoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "initialRotations": {
+      "name": "initialRotations",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SVGLink",
+  "extends": "_SVGLink",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

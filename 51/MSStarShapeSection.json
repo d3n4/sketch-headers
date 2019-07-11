@@ -1,0 +1,8 @@
+{
+  "name": "MSStarShapeSection",
+  "extends": "MSCustomShapeSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

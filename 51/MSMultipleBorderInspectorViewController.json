@@ -1,0 +1,52 @@
+{
+  "name": "MSMultipleBorderInspectorViewController",
+  "extends": "MSMultipleStylePartInspectorViewController",
+  "interfaces": [
+    "BCPopoverDelegate"
+  ],
+  "methods": {
+    "showAdvancedOptionsAction:": {
+      "name": "showAdvancedOptionsAction:",
+      "bridgedName": "showAdvancedOptionsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "styleDidEnableOrDisable": {
+      "name": "styleDidEnableOrDisable",
+      "bridgedName": "styleDidEnableOrDisable",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "borderOptionsController": {
+      "name": "borderOptionsController",
+      "pointer": false,
+      "type": "MSBorderOptionsInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "thicknessLabel": {
+      "name": "thicknessLabel",
+      "pointer": false,
+      "type": "IBOutlet MSTextLabelForUpDownField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

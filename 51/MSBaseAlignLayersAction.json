@@ -1,0 +1,25 @@
+{
+  "name": "MSBaseAlignLayersAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "MSAltButtonTarget"
+  ],
+  "methods": {
+    "alignToKey:": {
+      "name": "alignToKey:",
+      "bridgedName": "alignToKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

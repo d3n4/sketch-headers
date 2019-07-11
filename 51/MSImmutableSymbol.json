@@ -1,0 +1,17 @@
+{
+  "name": "MSImmutableSymbol",
+  "extends": "_MSImmutableSymbol",
+  "interfaces": [],
+  "methods": {
+    "masterInstance": {
+      "name": "masterInstance",
+      "bridgedName": "masterInstance",
+      "args": [],
+      "returns": "MSImmutableLayerGroup*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

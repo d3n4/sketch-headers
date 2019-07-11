@@ -1,0 +1,17 @@
+{
+  "name": "LetsMoveAppDelegate",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "window": {
+      "name": "window",
+      "bridgedName": "window",
+      "args": [],
+      "returns": "NSWindow *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

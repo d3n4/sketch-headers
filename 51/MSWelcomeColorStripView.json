@@ -1,0 +1,8 @@
+{
+  "name": "MSWelcomeColorStripView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

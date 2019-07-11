@@ -1,0 +1,23 @@
+{
+  "name": "MSShowOnlineHelpAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "showOnlineHelp:": {
+      "name": "showOnlineHelp:",
+      "bridgedName": "showOnlineHelp",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

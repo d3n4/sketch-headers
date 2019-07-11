@@ -1,0 +1,87 @@
+{
+  "name": "MSMathInspectorValueAdaptor",
+  "extends": "MSInspectorValueAdaptor",
+  "interfaces": [],
+  "methods": {
+    "valueFromPrefixStrippedString:forModel:originalString:error:": {
+      "name": "valueFromPrefixStrippedString:forModel:originalString:error:",
+      "bridgedName": "valueFromPrefixStrippedString_forModel_originalString_error",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "model",
+          "type": "ModelType",
+          "nullable": false
+        },
+        {
+          "name": "originalString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "__autoreleasing NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "errorWithUnparsableString:": {
+      "name": "errorWithUnparsableString:",
+      "bridgedName": "errorWithUnparsableString",
+      "args": [
+        {
+          "name": "unparsable",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSError *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trimValueString:getMathPrefix:": {
+      "name": "trimValueString:getMathPrefix:",
+      "bridgedName": "trimValueString_getMathPrefix",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "prefix",
+          "type": "__autoreleasing NSString **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "forceRelativeMathForBlock:": {
+      "name": "forceRelativeMathForBlock:",
+      "bridgedName": "forceRelativeMathForBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void(^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": [
+    "ModelType"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "_MSStyleReflection",
+  "extends": "MSStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "distance": {
+      "name": "distance",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "strength": {
+      "name": "strength",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

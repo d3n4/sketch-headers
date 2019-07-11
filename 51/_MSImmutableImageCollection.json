@@ -1,0 +1,19 @@
+{
+  "name": "_MSImmutableImageCollection",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "images": {
+      "name": "images",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

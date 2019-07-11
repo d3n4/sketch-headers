@@ -1,0 +1,23 @@
+{
+  "name": "MSDefaultStyleAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "setStyleAsDefault:": {
+      "name": "setStyleAsDefault:",
+      "bridgedName": "setStyleAsDefault",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

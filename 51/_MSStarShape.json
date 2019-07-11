@@ -1,0 +1,27 @@
+{
+  "name": "_MSStarShape",
+  "extends": "MSShapePathLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "numberOfPoints": {
+      "name": "numberOfPoints",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "radius": {
+      "name": "radius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,116 @@
+{
+  "name": "_SVGFont",
+  "extends": "SVGElement",
+  "interfaces": [],
+  "methods": {
+    "propertyNames": {
+      "name": "propertyNames",
+      "bridgedName": "propertyNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "relationshipNames": {
+      "name": "relationshipNames",
+      "bridgedName": "relationshipNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeNames": {
+      "name": "attributeNames",
+      "bridgedName": "attributeNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "primitiveAddUsedByObject:": {
+      "name": "primitiveAddUsedByObject:",
+      "bridgedName": "primitiveAddUsedByObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveRemoveUsedByObject:": {
+      "name": "primitiveRemoveUsedByObject:",
+      "bridgedName": "primitiveRemoveUsedByObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "family": {
+      "name": "family",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "style": {
+      "name": "style",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "variant": {
+      "name": "variant",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "weight": {
+      "name": "weight",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "usedBy": {
+      "name": "usedBy",
+      "pointer": false,
+      "type": "NSSet*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSNetworkHelper",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

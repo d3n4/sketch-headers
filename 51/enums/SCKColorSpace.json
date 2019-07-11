@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "SCKColorSpace",
+  "members": [
+    {
+      "name": "SCKColorSpaceUnmanaged",
+      "value": "0"
+    },
+    {
+      "name": "SCKColorSpaceSRGB",
+      "value": "1"
+    },
+    {
+      "name": "SCKColorSpaceDisplayP3",
+      "value": "2"
+    }
+  ]
+}

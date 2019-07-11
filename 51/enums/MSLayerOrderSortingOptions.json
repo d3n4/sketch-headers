@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "MSLayerOrderSortingOptions",
+  "members": [
+    {
+      "name": "MSArtboardSortingCurrentOrder",
+      "value": "8"
+    },
+    {
+      "name": "MSArtboardSortingReverseOrder",
+      "value": "9"
+    },
+    {
+      "name": "MSArtboardSortingLeftToRight",
+      "value": "BCRectComparisonLeftToRightTopToBottom"
+    },
+    {
+      "name": "MSArtboardSortingRightToLeft",
+      "value": "BCRectComparisonRightToLeftTopToBottom"
+    },
+    {
+      "name": "MSArtboardSortingTopToBottom",
+      "value": "BCRectComparisonTopToBottomLeftToRight"
+    }
+  ]
+}

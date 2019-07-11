@@ -1,0 +1,8 @@
+{
+  "name": "MSSimpleGridRendererCG",
+  "extends": "MSGridRendererCG",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,63 @@
+{
+  "name": "MSImmutableShapePathLayer",
+  "extends": "_MSImmutableShapePathLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "isEditing": {
+      "name": "isEditing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "usedStyle": {
+      "name": "usedStyle",
+      "pointer": false,
+      "type": "MSImmutableStyle ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "isPolygon": {
+      "name": "isPolygon",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isPolyline": {
+      "name": "isPolyline",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isRectangle": {
+      "name": "isRectangle",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfCurvePoints": {
+      "name": "numberOfCurvePoints",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

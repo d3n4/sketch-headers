@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "SCKLayerAttributes",
+  "members": [
+    {
+      "name": "SCKLayerNoAttribute",
+      "value": "0"
+    },
+    {
+      "name": "SCKLayerNameAttribute",
+      "value": "1 << 0"
+    },
+    {
+      "name": "SCKLayerBoundingRectAttribute",
+      "value": "1 << 1"
+    },
+    {
+      "name": "SCKLayerFlowConnectionAttribute",
+      "value": "1 << 2"
+    }
+  ]
+}

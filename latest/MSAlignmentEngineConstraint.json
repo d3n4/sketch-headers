@@ -1,0 +1,68 @@
+{
+  "name": "MSAlignmentEngineConstraint",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "constraintWithSourcePoint:toPoint:": {
+      "name": "constraintWithSourcePoint:toPoint:",
+      "bridgedName": "constraintWithSourcePoint_toPoint",
+      "args": [
+        {
+          "name": "sourcePoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "point2",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "constraintWithOrthogonalOrDiagonalLineFromPoint:toPoint:": {
+      "name": "constraintWithOrthogonalOrDiagonalLineFromPoint:toPoint:",
+      "bridgedName": "constraintWithOrthogonalOrDiagonalLineFromPoint_toPoint",
+      "args": [
+        {
+          "name": "sourcePoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "unsnappedDestination",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "sourcePoint": {
+      "name": "sourcePoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "line": {
+      "name": "line",
+      "pointer": false,
+      "type": "MSLine",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

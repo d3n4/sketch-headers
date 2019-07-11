@@ -1,0 +1,59 @@
+{
+  "name": "MSBorderInspectorViewController",
+  "extends": "MSStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {
+    "enableAction:": {
+      "name": "enableAction:",
+      "bridgedName": "enableAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepare": {
+      "name": "prepare",
+      "bridgedName": "prepare",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "positionPopUp": {
+      "name": "positionPopUp",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "colorButton": {
+      "name": "colorButton",
+      "pointer": false,
+      "type": "IBOutlet MSStylePartPreviewButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "thicknessField": {
+      "name": "thicknessField",
+      "pointer": false,
+      "type": "IBOutlet MSUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

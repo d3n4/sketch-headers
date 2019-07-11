@@ -1,0 +1,8 @@
+{
+  "name": "MSPolygonShapeSection",
+  "extends": "MSCustomShapeSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

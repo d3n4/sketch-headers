@@ -1,0 +1,8 @@
+{
+  "name": "BCDevice",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

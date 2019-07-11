@@ -1,0 +1,29 @@
+{
+  "name": "MSAttributedStringAttribute",
+  "extends": "NSObject",
+  "interfaces": [
+    "BCJSONEncoding"
+  ],
+  "methods": {},
+  "properties": {
+    "range": {
+      "name": "range",
+      "pointer": false,
+      "type": "NSRange",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "attributeDictionary": {
+      "name": "attributeDictionary",
+      "pointer": true,
+      "type": "NSDictionary<NSString *,id>",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

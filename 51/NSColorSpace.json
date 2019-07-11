@@ -1,0 +1,37 @@
+{
+  "name": "NSColorSpace",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "RGBColorSpaceNamed:": {
+      "name": "RGBColorSpaceNamed:",
+      "bridgedName": "RGBColorSpaceNamed",
+      "args": [
+        {
+          "name": "colorSpaceName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorSpaceForSketchColorSpace:": {
+      "name": "colorSpaceForSketchColorSpace:",
+      "bridgedName": "colorSpaceForSketchColorSpace",
+      "args": [
+        {
+          "name": "modelColorSpace",
+          "type": "MSColorSpace",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSColorSpace *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

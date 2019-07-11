@@ -1,0 +1,44 @@
+{
+  "name": "TDTokenArraySource",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithTokenizer:delimiter:": {
+      "name": "initWithTokenizer:delimiter:",
+      "bridgedName": "initWithTokenizer_delimiter",
+      "args": [
+        {
+          "name": "t",
+          "type": "TDTokenizer *",
+          "nullable": false
+        },
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasMore": {
+      "name": "hasMore",
+      "bridgedName": "hasMore",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nextTokenArray": {
+      "name": "nextTokenArray",
+      "bridgedName": "nextTokenArray",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

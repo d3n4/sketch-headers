@@ -1,0 +1,70 @@
+{
+  "name": "MSDataMenuProvider",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "initWithDataManager:": {
+      "name": "initWithDataManager:",
+      "bridgedName": "initWithDataManager",
+      "args": [
+        {
+          "name": "dataManager",
+          "type": "MSDataSupplierManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menu": {
+      "name": "menu",
+      "bridgedName": "menu",
+      "args": [],
+      "returns": "NSMenu *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overridesMenu": {
+      "name": "overridesMenu",
+      "bridgedName": "overridesMenu",
+      "args": [],
+      "returns": "NSMenu *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "lastDataSupplier": {
+      "name": "lastDataSupplier",
+      "pointer": false,
+      "type": "MSDataSupplier ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "dataManager": {
+      "name": "dataManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSDataMenuProviderDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

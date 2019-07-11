@@ -1,0 +1,8 @@
+{
+  "name": "MSCurveModeStraightAction",
+  "extends": "MSCurveModeAdjustAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

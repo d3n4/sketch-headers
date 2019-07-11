@@ -1,0 +1,16 @@
+{
+  "enum": true,
+  "name": "MSAttributedStringTextTransform",
+  "members": [
+    {
+      "name": "MSAttributedStringTextTransformNone",
+      "value": "0"
+    },
+    {
+      "name": "MSAttributedStringTextTransformUppercase"
+    },
+    {
+      "name": "MSAttributedStringTextTransformLowercase"
+    }
+  ]
+}

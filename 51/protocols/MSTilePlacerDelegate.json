@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSTilePlacerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "tilePlacer:requiresRedrawInRect:": {
+      "name": "tilePlacer:requiresRedrawInRect:",
+      "bridgedName": "tilePlacer_requiresRedrawInRect",
+      "args": [
+        {
+          "name": "tilePlacer",
+          "type": "MSTilePlacer *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

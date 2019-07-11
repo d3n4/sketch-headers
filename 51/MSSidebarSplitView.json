@@ -1,0 +1,8 @@
+{
+  "name": "MSSidebarSplitView",
+  "extends": "NSSplitView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

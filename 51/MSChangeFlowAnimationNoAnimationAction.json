@@ -1,0 +1,23 @@
+{
+  "name": "MSChangeFlowAnimationNoAnimationAction",
+  "extends": "MSChangeFlowAnimationAction",
+  "interfaces": [],
+  "methods": {
+    "changeFlowAnimationToNoAnimation:": {
+      "name": "changeFlowAnimationToNoAnimation:",
+      "bridgedName": "changeFlowAnimationToNoAnimation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

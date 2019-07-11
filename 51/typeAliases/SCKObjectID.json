@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "SCKObjectID",
+  "type": "NSUUID",
+  "pointer": false
+}

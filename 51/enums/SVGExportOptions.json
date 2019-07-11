@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "SVGExportOptions",
+  "members": [
+    {
+      "name": "SVGExportOptionsIncludeHeader",
+      "value": "1"
+    },
+    {
+      "name": "SVGExportOptionsCompact",
+      "value": "0"
+    },
+    {
+      "name": "SVGExportOptionsDefault",
+      "value": "SVGExportOptionsIncludeHeader"
+    }
+  ]
+}

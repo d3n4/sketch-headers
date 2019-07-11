@@ -1,0 +1,155 @@
+{
+  "name": "BCStructuredFile",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithURL:mode:error:": {
+      "name": "initWithURL:mode:error:",
+      "bridgedName": "initWithURL_mode_error",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "mode",
+          "type": "BCStructuredMode",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "metadata": {
+      "name": "metadata",
+      "bridgedName": "metadata",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "metaDataWithKey:": {
+      "name": "metaDataWithKey:",
+      "bridgedName": "metaDataWithKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setMetaData:withKey:error:": {
+      "name": "setMetaData:withKey:error:",
+      "bridgedName": "setMetaData_withKey_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataWithKey:error:": {
+      "name": "dataWithKey:error:",
+      "bridgedName": "dataWithKey_error",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError* __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeData:withKey:error:": {
+      "name": "writeData:withKey:error:",
+      "bridgedName": "writeData_withKey_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData*",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError* __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeDataWithKey:error:": {
+      "name": "removeDataWithKey:error:",
+      "bridgedName": "removeDataWithKey_error",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError* __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "close:": {
+      "name": "close:",
+      "bridgedName": "close",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError* __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,89 @@
+{
+  "name": "MSShapeEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [
+    "NSTextDelegate",
+    "NSMenuDelegate",
+    "MSGestureRecognizerDelegate"
+  ],
+  "methods": {
+    "forceSelection:": {
+      "name": "forceSelection:",
+      "bridgedName": "forceSelection",
+      "args": [
+        {
+          "name": "sender",
+          "type": "NSButton *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathDidOpenOrClose": {
+      "name": "pathDidOpenOrClose",
+      "bridgedName": "pathDidOpenOrClose",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshCloseOrOpenPathUI": {
+      "name": "refreshCloseOrOpenPathUI",
+      "bridgedName": "refreshCloseOrOpenPathUI",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray <MSShapePathLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "canvasHandler": {
+      "name": "canvasHandler",
+      "pointer": false,
+      "type": "MSVectorCanvas ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorViewController": {
+      "name": "inspectorViewController",
+      "pointer": false,
+      "type": "MSEditShapeInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pathController": {
+      "name": "pathController",
+      "pointer": false,
+      "type": "MSPathController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "editingBehavior": {
+      "name": "editingBehavior",
+      "pointer": false,
+      "type": "MSShapeEditingBehavior ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

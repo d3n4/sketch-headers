@@ -1,0 +1,17 @@
+{
+  "name": "TDQuoteState",
+  "extends": "TDTokenizerState",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "balancesEOFTerminatedQuotes": {
+      "name": "balancesEOFTerminatedQuotes",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

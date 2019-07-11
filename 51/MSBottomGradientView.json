@@ -1,0 +1,8 @@
+{
+  "name": "MSBottomGradientView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

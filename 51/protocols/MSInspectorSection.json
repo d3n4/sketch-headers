@@ -1,0 +1,25 @@
+{
+  "protocol": true,
+  "name": "MSInspectorSection",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "views": {
+      "name": "views",
+      "bridgedName": "views",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "wantsSeparatorAfterViews": {
+      "name": "wantsSeparatorAfterViews",
+      "bridgedName": "wantsSeparatorAfterViews",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,77 @@
+{
+  "name": "MSLoadedImageData",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "imageFromPasteboard:": {
+      "name": "imageFromPasteboard:",
+      "bridgedName": "imageFromPasteboard",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "imageFromFileURL:": {
+      "name": "imageFromFileURL:",
+      "bridgedName": "imageFromFileURL",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "scalingFactorForFilename:": {
+      "name": "scalingFactorForFilename:",
+      "bridgedName": "scalingFactorForFilename",
+      "args": [
+        {
+          "name": "filename",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "intendedDPI": {
+      "name": "intendedDPI",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

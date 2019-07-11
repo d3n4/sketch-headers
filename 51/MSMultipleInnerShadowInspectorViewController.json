@@ -1,0 +1,8 @@
+{
+  "name": "MSMultipleInnerShadowInspectorViewController",
+  "extends": "MSMultipleShadowInspectorViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}
