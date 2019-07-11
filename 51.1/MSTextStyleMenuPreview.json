@@ -1,0 +1,47 @@
+{
+  "name": "MSTextStyleMenuPreview",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "applyTextStylesToMenuItem:colorSpace:": {
+      "name": "applyTextStylesToMenuItem:colorSpace:",
+      "bridgedName": "applyTextStylesToMenuItem_colorSpace",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSMenuItem *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributedTitleForTextStyle:colorSpace:": {
+      "name": "attributedTitleForTextStyle:colorSpace:",
+      "bridgedName": "attributedTitleForTextStyle_colorSpace",
+      "args": [
+        {
+          "name": "sharedStyle",
+          "type": "MSSharedStyle *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAttributedString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

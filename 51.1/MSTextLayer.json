@@ -1,0 +1,553 @@
+{
+  "name": "MSTextLayer",
+  "extends": "_MSTextLayer",
+  "interfaces": [
+    "MSFirstLineTypesetterDelegate",
+    "MSColorConvertible"
+  ],
+  "methods": {
+    "layersByConvertingToOutlines": {
+      "name": "layersByConvertingToOutlines",
+      "bridgedName": "layersByConvertingToOutlines",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canSetTextAlignmentForLayers:": {
+      "name": "canSetTextAlignmentForLayers:",
+      "bridgedName": "canSetTextAlignmentForLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setTextAlignment:forLayers:": {
+      "name": "setTextAlignment:forLayers:",
+      "bridgedName": "setTextAlignment_forLayers",
+      "args": [
+        {
+          "name": "alignment",
+          "type": "NSTextAlignment",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "menuItemStateForAlignment:forLayers:": {
+      "name": "menuItemStateForAlignment:forLayers:",
+      "bridgedName": "menuItemStateForAlignment_forLayers",
+      "args": [
+        {
+          "name": "alignment",
+          "type": "NSTextAlignment",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "canSetTextVerticalAlignmentForLayers:": {
+      "name": "canSetTextVerticalAlignmentForLayers:",
+      "bridgedName": "canSetTextVerticalAlignmentForLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setTextVerticalAlignment:forLayers:": {
+      "name": "setTextVerticalAlignment:forLayers:",
+      "bridgedName": "setTextVerticalAlignment_forLayers",
+      "args": [
+        {
+          "name": "alignment",
+          "type": "MSTextStyleVerticalAlignment",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "menuItemStateForTextVerticalAlignment:forLayers:": {
+      "name": "menuItemStateForTextVerticalAlignment:forLayers:",
+      "bridgedName": "menuItemStateForTextVerticalAlignment_forLayers",
+      "args": [
+        {
+          "name": "alignment",
+          "type": "MSTextStyleVerticalAlignment",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "maintainTextLayerBaselinesForLayers:inBlock:": {
+      "name": "maintainTextLayerBaselinesForLayers:inBlock:",
+      "bridgedName": "maintainTextLayerBaselinesForLayers_inBlock",
+      "args": [
+        {
+          "name": "textLayers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithAttributedString:documentColorSpace:maxWidth:": {
+      "name": "initWithAttributedString:documentColorSpace:maxWidth:",
+      "bridgedName": "initWithAttributedString_documentColorSpace_maxWidth",
+      "args": [
+        {
+          "name": "attributedString",
+          "type": "NSAttributedString *",
+          "nullable": true
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "maxWidth",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithFrame:attributes:documentColorSpace:type:": {
+      "name": "initWithFrame:attributes:documentColorSpace:type:",
+      "bridgedName": "initWithFrame_attributes_documentColorSpace_type",
+      "args": [
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "attributes",
+          "type": "NSDictionary *",
+          "nullable": true
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "behaviourType",
+          "type": "BCTextBehaviourType",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeFont:": {
+      "name": "changeFont:",
+      "bridgedName": "changeFont",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "font": {
+      "name": "font",
+      "bridgedName": "font",
+      "args": [],
+      "returns": "nullable NSFont *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shapeToUseForTextOnPath": {
+      "name": "shapeToUseForTextOnPath",
+      "bridgedName": "shapeToUseForTextOnPath",
+      "args": [],
+      "returns": "nullable MSShapeGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathFromGlyphsInBounds": {
+      "name": "bezierPathFromGlyphsInBounds",
+      "bridgedName": "bezierPathFromGlyphsInBounds",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEmpty": {
+      "name": "isEmpty",
+      "bridgedName": "isEmpty",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "finishEditing": {
+      "name": "finishEditing",
+      "bridgedName": "finishEditing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateNameFromStorage": {
+      "name": "updateNameFromStorage",
+      "bridgedName": "updateNameFromStorage",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceMissingFontsIfNecessary": {
+      "name": "replaceMissingFontsIfNecessary",
+      "bridgedName": "replaceMissingFontsIfNecessary",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustFrameToFit": {
+      "name": "adjustFrameToFit",
+      "bridgedName": "adjustFrameToFit",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ignoreDelegateNotificationsInBlock:": {
+      "name": "ignoreDelegateNotificationsInBlock:",
+      "bridgedName": "ignoreDelegateNotificationsInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttribute:value:forRange:": {
+      "name": "addAttribute:value:forRange:",
+      "bridgedName": "addAttribute_value_forRange",
+      "args": [
+        {
+          "name": "attributeName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "range",
+          "type": "NSRange",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setAttributes:forRange:": {
+      "name": "setAttributes:forRange:",
+      "bridgedName": "setAttributes_forRange",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSDictionary *",
+          "nullable": true
+        },
+        {
+          "name": "range",
+          "type": "NSRange",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeUppercase:": {
+      "name": "makeUppercase:",
+      "bridgedName": "makeUppercase",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeLowercase:": {
+      "name": "makeLowercase:",
+      "bridgedName": "makeLowercase",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTextTransform:range:": {
+      "name": "setTextTransform:range:",
+      "bridgedName": "setTextTransform_range",
+      "args": [
+        {
+          "name": "textTransform",
+          "type": "MSAttributedStringTextTransform",
+          "nullable": false
+        },
+        {
+          "name": "range",
+          "type": "NSRange",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeListType:": {
+      "name": "changeListType:",
+      "bridgedName": "changeListType",
+      "args": [
+        {
+          "name": "textList",
+          "type": "NSTextList *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "syncTextStyleAttributes": {
+      "name": "syncTextStyleAttributes",
+      "bridgedName": "syncTextStyleAttributes",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkTextBehaviourAndClippingAfterResizeFromCorner:mayClip:": {
+      "name": "checkTextBehaviourAndClippingAfterResizeFromCorner:mayClip:",
+      "bridgedName": "checkTextBehaviourAndClippingAfterResizeFromCorner_mayClip",
+      "args": [
+        {
+          "name": "corner",
+          "type": "BCCorner",
+          "nullable": false
+        },
+        {
+          "name": "mayClip",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldStorePDFPreviews": {
+      "name": "shouldStorePDFPreviews",
+      "bridgedName": "shouldStorePDFPreviews",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "PDFPreview": {
+      "name": "PDFPreview",
+      "bridgedName": "PDFPreview",
+      "args": [],
+      "returns": "MSImageData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "supportsVerticalAlignment": {
+      "name": "supportsVerticalAlignment",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "previousRectCache": {
+      "name": "previousRectCache",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isEditingText": {
+      "name": "isEditingText",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readwrite",
+        "nonatomic"
+      ]
+    },
+    "textAlignment": {
+      "name": "textAlignment",
+      "pointer": false,
+      "type": "NSTextAlignment",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "verticalAlignment": {
+      "name": "verticalAlignment",
+      "pointer": false,
+      "type": "MSTextStyleVerticalAlignment",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "characterSpacing": {
+      "name": "characterSpacing",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "fontPostscriptName": {
+      "name": "fontPostscriptName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "styleAttributes": {
+      "name": "styleAttributes",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "stringValue": {
+      "name": "stringValue",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "attributedStringValue": {
+      "name": "attributedStringValue",
+      "pointer": false,
+      "type": "NSAttributedString ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "transientGlyphBoundsValue": {
+      "name": "transientGlyphBoundsValue",
+      "pointer": false,
+      "type": "NSValue ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "textColor": {
+      "name": "textColor",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "editingDelegate": {
+      "name": "editingDelegate",
+      "pointer": false,
+      "type": "id <MSTextLayerEditingDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

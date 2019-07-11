@@ -1,0 +1,8 @@
+{
+  "name": "MSAutoSelectingArrayController",
+  "extends": "NSArrayController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

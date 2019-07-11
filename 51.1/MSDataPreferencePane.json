@@ -1,0 +1,48 @@
+{
+  "name": "MSDataPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [
+    "NSTableViewDelegate",
+    "NSTableViewDataSource"
+  ],
+  "methods": {},
+  "properties": {
+    "tableView": {
+      "name": "tableView",
+      "pointer": false,
+      "type": "IBOutlet MSDataTableView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "dataArrayController": {
+      "name": "dataArrayController",
+      "pointer": false,
+      "type": "IBOutlet NSArrayController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "data": {
+      "name": "data",
+      "pointer": false,
+      "type": "NSArray <MSDataPreferenceItem *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dataSupplierManager": {
+      "name": "dataSupplierManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

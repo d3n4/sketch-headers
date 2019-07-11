@@ -1,0 +1,8 @@
+{
+  "name": "GlobalTimelineViewController",
+  "extends": "UITableViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

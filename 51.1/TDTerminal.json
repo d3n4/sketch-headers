@@ -1,0 +1,43 @@
+{
+  "name": "TDTerminal",
+  "extends": "TDParser",
+  "interfaces": [],
+  "methods": {
+    "initWithString:": {
+      "name": "initWithString:",
+      "bridgedName": "initWithString",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "discard": {
+      "name": "discard",
+      "bridgedName": "discard",
+      "args": [],
+      "returns": "nonnull TDTerminal *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "string": {
+      "name": "string",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

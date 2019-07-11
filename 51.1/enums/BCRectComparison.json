@@ -1,0 +1,35 @@
+{
+  "enum": true,
+  "name": "BCRectComparison",
+  "members": [
+    {
+      "name": "BCRectComparisonLeftToRightTopToBottom",
+      "value": "0"
+    },
+    {
+      "name": "BCRectComparisonRightToLeftTopToBottom"
+    },
+    {
+      "name": "BCRectComparisonTopToBottomLeftToRight"
+    },
+    {
+      "name": "BCRectComparisonTopToBottomRightToLeft"
+    },
+    {
+      "name": "BCRectComparisonLeftToRightBottomToTop"
+    },
+    {
+      "name": "BCRectComparisonRightToLeftBottomToTop"
+    },
+    {
+      "name": "BCRectComparisonBottomToTopLeftToRight"
+    },
+    {
+      "name": "BCRectComparisonBottomToTopRightToLeft"
+    },
+    {
+      "name": "BCRectComparisonDefault",
+      "value": "BCRectComparisonLeftToRightTopToBottom"
+    }
+  ]
+}

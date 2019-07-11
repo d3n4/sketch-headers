@@ -1,0 +1,18 @@
+{
+  "name": "MSAssetSyncHeaderCellView",
+  "extends": "NSTableCellView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "pointer": false,
+      "type": "IBInspectable NSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

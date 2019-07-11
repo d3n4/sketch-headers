@@ -1,0 +1,277 @@
+{
+  "name": "MSRenderingContextCG",
+  "extends": "MSRenderingContext",
+  "interfaces": [],
+  "methods": {
+    "initWithName:driver:context:renderingRequest:": {
+      "name": "initWithName:driver:context:renderingRequest:",
+      "bridgedName": "initWithName_driver_context_renderingRequest",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver *",
+          "nullable": false
+        },
+        {
+          "name": "cgContext",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "renderingRequest",
+          "type": "MSRenderingRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithName:driver:cgContext:contextIsVectorBacked:renderingRequest:": {
+      "name": "initWithName:driver:cgContext:contextIsVectorBacked:renderingRequest:",
+      "bridgedName": "initWithName_driver_cgContext_contextIsVectorBacked_renderingRequest",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver *",
+          "nullable": false
+        },
+        {
+          "name": "cgContext",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "vectorBacked",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "renderingRequest",
+          "type": "MSRenderingRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subContextWithCGContext:contextIsVectorBacked:pointScale:zoomLevel:options:": {
+      "name": "subContextWithCGContext:contextIsVectorBacked:pointScale:zoomLevel:options:",
+      "bridgedName": "subContextWithCGContext_contextIsVectorBacked_pointScale_zoomLevel_options",
+      "args": [
+        {
+          "name": "cgContext",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "vectorBacked",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pointScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSRenderingRequestOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "blurSubContextWithCGContext:backgroundBlurLayer:pointScale:rect:": {
+      "name": "blurSubContextWithCGContext:backgroundBlurLayer:pointScale:rect:",
+      "bridgedName": "blurSubContextWithCGContext_backgroundBlurLayer_pointScale_rect",
+      "args": [
+        {
+          "name": "cgContext",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": true
+        },
+        {
+          "name": "pointScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyShadow:withXOffset:": {
+      "name": "applyShadow:withXOffset:",
+      "bridgedName": "applyShadow_withXOffset",
+      "args": [
+        {
+          "name": "shadow",
+          "type": "MSImmutableStyleShadow *",
+          "nullable": false
+        },
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyShadow:respectFlipped:": {
+      "name": "applyShadow:respectFlipped:",
+      "bridgedName": "applyShadow_respectFlipped",
+      "args": [
+        {
+          "name": "shadow",
+          "type": "MSImmutableStyleShadow *",
+          "nullable": false
+        },
+        {
+          "name": "respectFlipped",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allowsSubpixelQuantization": {
+      "name": "allowsSubpixelQuantization",
+      "bridgedName": "allowsSubpixelQuantization",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldDisableSubpixelQuantization": {
+      "name": "shouldDisableSubpixelQuantization",
+      "bridgedName": "shouldDisableSubpixelQuantization",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doNotClipFillsInBlock:": {
+      "name": "doNotClipFillsInBlock:",
+      "bridgedName": "doNotClipFillsInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldClipFills": {
+      "name": "shouldClipFills",
+      "bridgedName": "shouldClipFills",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ifCondition:skipDrawingFillsInBlock:": {
+      "name": "ifCondition:skipDrawingFillsInBlock:",
+      "bridgedName": "ifCondition_skipDrawingFillsInBlock",
+      "args": [
+        {
+          "name": "condition",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldDrawFills": {
+      "name": "shouldDrawFills",
+      "bridgedName": "shouldDrawFills",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "contextIsVectorBacked": {
+      "name": "contextIsVectorBacked",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contextRef": {
+      "name": "contextRef",
+      "pointer": false,
+      "type": "CGContextRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contextPool": {
+      "name": "contextPool",
+      "pointer": false,
+      "type": "MSCGContextPool ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "graphicsContext": {
+      "name": "graphicsContext",
+      "pointer": false,
+      "type": "NSGraphicsContext ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,39 @@
+{
+  "name": "MSFontFamilyPickerViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "NSTableViewDelegate",
+    "NSTableViewDataSource"
+  ],
+  "methods": {},
+  "properties": {
+    "completionBlock": {
+      "name": "completionBlock",
+      "pointer": false,
+      "type": "MSFontFamilyPickerCompletionBlock",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "fontList": {
+      "name": "fontList",
+      "pointer": false,
+      "type": "MSFontList ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "tableView": {
+      "name": "tableView",
+      "pointer": false,
+      "type": "IBOutlet NSTableView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,99 @@
+{
+  "name": "SCKAPIOperation",
+  "extends": "SCKURLOperation",
+  "interfaces": [],
+  "methods": {
+    "initWithRequest:": {
+      "name": "initWithRequest:",
+      "bridgedName": "initWithRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "SCKAPIRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processData:response:error:": {
+      "name": "processData:response:error:",
+      "bridgedName": "processData_response_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": true
+        },
+        {
+          "name": "response",
+          "type": "NSHTTPURLResponse *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "executeRequest:completionHandler:": {
+      "name": "executeRequest:completionHandler:",
+      "bridgedName": "executeRequest_completionHandler",
+      "args": [
+        {
+          "name": "request",
+          "type": "SCKAPIRequest *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "void (^ _Nullable)(NSArray<SCKObject *>  * _Nullable objects, NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "request": {
+      "name": "request",
+      "pointer": false,
+      "type": "SCKAPIRequest ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "atomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "result": {
+      "name": "result",
+      "pointer": false,
+      "type": "NSArray<SCKObject *> ",
+      "attributes": [
+        "atomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

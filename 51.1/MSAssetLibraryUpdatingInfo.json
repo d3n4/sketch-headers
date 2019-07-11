@@ -1,0 +1,155 @@
+{
+  "name": "MSAssetLibraryUpdatingInfo",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCoding"
+  ],
+  "methods": {
+    "initWithDownloadURL:libraryName:imageURL:newVersionNumber:shareLink:downloadSize:": {
+      "name": "initWithDownloadURL:libraryName:imageURL:newVersionNumber:shareLink:downloadSize:",
+      "bridgedName": "initWithDownloadURL_libraryName_imageURL_newVersionNumber_shareLink_downloadSize",
+      "args": [
+        {
+          "name": "downloadURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "libraryName",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "imageURL",
+          "type": "NSURL *",
+          "nullable": true
+        },
+        {
+          "name": "newVersionNumber",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "shareLink",
+          "type": "NSURL *",
+          "nullable": true
+        },
+        {
+          "name": "downloadSize",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqual:": {
+      "name": "isEqual:",
+      "bridgedName": "isEqual",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isHigherVersionThan:": {
+      "name": "isHigherVersionThan:",
+      "bridgedName": "isHigherVersionThan",
+      "args": [
+        {
+          "name": "otherVersion",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "downloadURL": {
+      "name": "downloadURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "versionNumberForUpdate": {
+      "name": "versionNumberForUpdate",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "downloadSize": {
+      "name": "downloadSize",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "libraryName": {
+      "name": "libraryName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "imageURL": {
+      "name": "imageURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "folderMonitor": {
+      "name": "folderMonitor",
+      "pointer": false,
+      "type": "MSFolderMonitor ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "downloadTaskIdentifier": {
+      "name": "downloadTaskIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "shareLink": {
+      "name": "shareLink",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

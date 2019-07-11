@@ -1,0 +1,33 @@
+{
+  "name": "NSResponder",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "followsResponder:": {
+      "name": "followsResponder:",
+      "bridgedName": "followsResponder",
+      "args": [
+        {
+          "name": "aResponder",
+          "type": "NSResponder *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "supportsTouchBar": {
+      "name": "supportsTouchBar",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

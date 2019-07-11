@@ -1,0 +1,23 @@
+{
+  "name": "MSRemoveUnusedStylesAction",
+  "extends": "MSBaseStyleAction",
+  "interfaces": [],
+  "methods": {
+    "removeUnusedStyles:": {
+      "name": "removeUnusedStyles:",
+      "bridgedName": "removeUnusedStyles",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,46 @@
+{
+  "name": "_MSStyledLayer",
+  "extends": "MSLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "clippingMaskMode": {
+      "name": "clippingMaskMode",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "hasClippingMask": {
+      "name": "hasClippingMask",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "sharedStyleID": {
+      "name": "sharedStyleID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "style": {
+      "name": "style",
+      "pointer": false,
+      "type": "MSStyle ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

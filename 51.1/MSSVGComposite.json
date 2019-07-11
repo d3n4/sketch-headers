@@ -1,0 +1,72 @@
+{
+  "name": "MSSVGComposite",
+  "extends": "MSSVGfeFilterPrimitive",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "in": {
+      "name": "in",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "in2": {
+      "name": "in2",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "operator": {
+      "name": "operator",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "k1": {
+      "name": "k1",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "k2": {
+      "name": "k2",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "k3": {
+      "name": "k3",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "k4": {
+      "name": "k4",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

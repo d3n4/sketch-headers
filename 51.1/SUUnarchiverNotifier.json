@@ -1,0 +1,64 @@
+{
+  "name": "SUUnarchiverNotifier",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithCompletionBlock:progressBlock:": {
+      "name": "initWithCompletionBlock:progressBlock:",
+      "bridgedName": "initWithCompletionBlock_progressBlock",
+      "args": [
+        {
+          "name": "completionBlock",
+          "type": "void (^)(NSError * _Nullable)",
+          "nullable": false
+        },
+        {
+          "name": "progressBlock",
+          "type": "void (^ _Nullable)(double)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "notifySuccess": {
+      "name": "notifySuccess",
+      "bridgedName": "notifySuccess",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "notifyFailureWithError:": {
+      "name": "notifyFailureWithError:",
+      "bridgedName": "notifyFailureWithError",
+      "args": [
+        {
+          "name": "reason",
+          "type": "NSError * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "notifyProgress:": {
+      "name": "notifyProgress:",
+      "bridgedName": "notifyProgress",
+      "args": [
+        {
+          "name": "progress",
+          "type": "double",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

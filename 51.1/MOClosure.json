@@ -1,0 +1,63 @@
+{
+  "name": "MOClosure",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "closureWithBlock:": {
+      "name": "closureWithBlock:",
+      "bridgedName": "closureWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "MOClosure *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithBlock:": {
+      "name": "initWithBlock:",
+      "bridgedName": "initWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "block": {
+      "name": "block",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "callAddress": {
+      "name": "callAddress",
+      "pointer": false,
+      "type": "void *",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "typeEncoding": {
+      "name": "typeEncoding",
+      "pointer": false,
+      "type": "const char *",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

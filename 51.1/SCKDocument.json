@@ -1,0 +1,96 @@
+{
+  "name": "SCKDocument",
+  "extends": "SCKObject",
+  "interfaces": [],
+  "methods": {
+    "diffComparedTo:": {
+      "name": "diffComparedTo:",
+      "bridgedName": "diffComparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull SCKDocumentDiff *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardWithID:)": {
+      "name": "artboardWithID:)",
+      "bridgedName": "artboardWithID_)",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "SCKObjectID *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable SCKArtboard *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardWithPredicate:)": {
+      "name": "artboardWithPredicate:)",
+      "bridgedName": "artboardWithPredicate_)",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "nonnull NSPredicate *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable SCKArtboard *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pageWithID:)": {
+      "name": "pageWithID:)",
+      "bridgedName": "pageWithID_)",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "SCKObjectID *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable SCKPage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "pages": {
+      "name": "pages",
+      "pointer": false,
+      "type": "NSArray<SCKPage *> ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "SCKColorSpace",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

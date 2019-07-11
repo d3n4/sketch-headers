@@ -1,0 +1,486 @@
+{
+  "name": "NSView",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "addSubview:constrainedBy:priority:": {
+      "name": "addSubview:constrainedBy:priority:",
+      "bridgedName": "addSubview_constrainedBy_priority",
+      "args": [
+        {
+          "name": "subview",
+          "type": "nonnull NSView *",
+          "nullable": false
+        },
+        {
+          "name": "insets",
+          "type": "NSEdgeInsets",
+          "nullable": false
+        },
+        {
+          "name": "priority",
+          "type": "NSLayoutPriority",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "constrainHeight:": {
+      "name": "constrainHeight:",
+      "bridgedName": "constrainHeight",
+      "args": [
+        {
+          "name": "height",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "constrainHeight:priority:": {
+      "name": "constrainHeight:priority:",
+      "bridgedName": "constrainHeight_priority",
+      "args": [
+        {
+          "name": "height",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "priority",
+          "type": "NSLayoutPriority",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "constrainWidth:": {
+      "name": "constrainWidth:",
+      "bridgedName": "constrainWidth",
+      "args": [
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "constrainWidth:priority:": {
+      "name": "constrainWidth:priority:",
+      "bridgedName": "constrainWidth_priority",
+      "args": [
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "priority",
+          "type": "NSLayoutPriority",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "heightConstraint": {
+      "name": "heightConstraint",
+      "bridgedName": "heightConstraint",
+      "args": [],
+      "returns": "nullable NSLayoutConstraint *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hideWithZeroHeight": {
+      "name": "hideWithZeroHeight",
+      "bridgedName": "hideWithZeroHeight",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hideWithZeroWidth": {
+      "name": "hideWithZeroWidth",
+      "bridgedName": "hideWithZeroWidth",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showWithHeight:": {
+      "name": "showWithHeight:",
+      "bridgedName": "showWithHeight",
+      "args": [
+        {
+          "name": "height",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showWithWidth:": {
+      "name": "showWithWidth:",
+      "bridgedName": "showWithWidth",
+      "args": [
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verticalConstraintWithView:": {
+      "name": "verticalConstraintWithView:",
+      "bridgedName": "verticalConstraintWithView",
+      "args": [
+        {
+          "name": "anotherView",
+          "type": "nonnull NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSLayoutConstraint *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verticalConstraintsWithView:": {
+      "name": "verticalConstraintsWithView:",
+      "bridgedName": "verticalConstraintsWithView",
+      "args": [
+        {
+          "name": "anotherView",
+          "type": "nonnull NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSArray<NSLayoutConstraint *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "widthConstraint": {
+      "name": "widthConstraint",
+      "bridgedName": "widthConstraint",
+      "args": [],
+      "returns": "nullable NSLayoutConstraint *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFrameHeight:": {
+      "name": "setFrameHeight:",
+      "bridgedName": "setFrameHeight",
+      "args": [
+        {
+          "name": "height",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFrameWidth:": {
+      "name": "setFrameWidth:",
+      "bridgedName": "setFrameWidth",
+      "args": [
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFrameOriginX:": {
+      "name": "setFrameOriginX:",
+      "bridgedName": "setFrameOriginX",
+      "args": [
+        {
+          "name": "x",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFrameOriginY:": {
+      "name": "setFrameOriginY:",
+      "bridgedName": "setFrameOriginY",
+      "args": [
+        {
+          "name": "y",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setNeedsDisplay": {
+      "name": "setNeedsDisplay",
+      "bridgedName": "setNeedsDisplay",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageRepresentation": {
+      "name": "imageRepresentation",
+      "bridgedName": "imageRepresentation",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginDragFromEvent:image:type:data:": {
+      "name": "beginDragFromEvent:image:type:data:",
+      "bridgedName": "beginDragFromEvent_image_type_data",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "propertyListData",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginDragFromEvent:image:writersBlock:": {
+      "name": "beginDragFromEvent:image:writersBlock:",
+      "bridgedName": "beginDragFromEvent_image_writersBlock",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSPasteboardItemWritingBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containingAncestorViewOfClass:": {
+      "name": "containingAncestorViewOfClass:",
+      "bridgedName": "containingAncestorViewOfClass",
+      "args": [
+        {
+          "name": "ancestorViewClass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "NSView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nestedSubviewWithIdentifier:": {
+      "name": "nestedSubviewWithIdentifier:",
+      "bridgedName": "nestedSubviewWithIdentifier",
+      "args": [
+        {
+          "name": "identifer",
+          "type": "NSUserInterfaceItemIdentifier",
+          "nullable": false
+        }
+      ],
+      "returns": "NSView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "animateToFrameOrigin:completionBlock:": {
+      "name": "animateToFrameOrigin:completionBlock:",
+      "bridgedName": "animateToFrameOrigin_completionBlock",
+      "args": [
+        {
+          "name": "origin",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSAnimationBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "animateToFrameOriginX:completionBlock:": {
+      "name": "animateToFrameOriginX:completionBlock:",
+      "bridgedName": "animateToFrameOriginX_completionBlock",
+      "args": [
+        {
+          "name": "x",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSAnimationBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "animateToFrameOriginX:": {
+      "name": "animateToFrameOriginX:",
+      "bridgedName": "animateToFrameOriginX",
+      "args": [
+        {
+          "name": "x",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subViewsForResponderFixer": {
+      "name": "subViewsForResponderFixer",
+      "bridgedName": "subViewsForResponderFixer",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enclosingStackView": {
+      "name": "enclosingStackView",
+      "bridgedName": "enclosingStackView",
+      "args": [],
+      "returns": "MSInspectorStackView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "viewHistoryMaker": {
+      "name": "viewHistoryMaker",
+      "bridgedName": "viewHistoryMaker",
+      "args": [],
+      "returns": "MSHistoryMaker *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clickShouldDismissPopover:": {
+      "name": "clickShouldDismissPopover:",
+      "bridgedName": "clickShouldDismissPopover",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "wantsSeparatorBetweenSelfAndView:": {
+      "name": "wantsSeparatorBetweenSelfAndView:",
+      "bridgedName": "wantsSeparatorBetweenSelfAndView",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "separatorInsetBetweenSelfAndView:": {
+      "name": "separatorInsetBetweenSelfAndView:",
+      "bridgedName": "separatorInsetBetweenSelfAndView",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSEdgeInsets",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dropDelegate_bc": {
+      "name": "dropDelegate_bc",
+      "pointer": false,
+      "type": "NSObject<MSDropableViewDelegate> ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "allSubviews": {
+      "name": "allSubviews",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canBeKeyView": {
+      "name": "canBeKeyView",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

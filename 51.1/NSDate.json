@@ -1,0 +1,47 @@
+{
+  "name": "NSDate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "iso8601DateFormatter": {
+      "name": "iso8601DateFormatter",
+      "bridgedName": "iso8601DateFormatter",
+      "args": [],
+      "returns": "NSDateFormatter*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "iso8601": {
+      "name": "iso8601",
+      "bridgedName": "iso8601",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dateWithNTPRepresentation_bc:": {
+      "name": "dateWithNTPRepresentation_bc:",
+      "bridgedName": "dateWithNTPRepresentation_bc",
+      "args": [
+        {
+          "name": "ntp",
+          "type": "UInt64",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDate*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "NTPRepresentation_bc": {
+      "name": "NTPRepresentation_bc",
+      "bridgedName": "NTPRepresentation_bc",
+      "args": [],
+      "returns": "UInt64",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

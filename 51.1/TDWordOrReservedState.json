@@ -1,0 +1,23 @@
+{
+  "name": "TDWordOrReservedState",
+  "extends": "TDWordState",
+  "interfaces": [],
+  "methods": {
+    "addReservedWord:": {
+      "name": "addReservedWord:",
+      "bridgedName": "addReservedWord",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

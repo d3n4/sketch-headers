@@ -1,0 +1,54 @@
+{
+  "name": "_MSStyleBlur",
+  "extends": "MSStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "center": {
+      "name": "center",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "motionAngle": {
+      "name": "motionAngle",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "radius": {
+      "name": "radius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "saturation": {
+      "name": "saturation",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "MSStyleBlurType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

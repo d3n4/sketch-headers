@@ -1,0 +1,27 @@
+{
+  "name": "_MSSimpleGrid",
+  "extends": "MSBaseGrid",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "gridSize": {
+      "name": "gridSize",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "thickGridTimes": {
+      "name": "thickGridTimes",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

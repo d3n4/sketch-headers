@@ -1,0 +1,8 @@
+{
+  "name": "MSRoundedRectangleShapeAction",
+  "extends": "MSBaseShapeAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "MSLicenseSheetAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "MSWindowBadgeAction"
+  ],
+  "methods": {
+    "runLicenseDialog:": {
+      "name": "runLicenseDialog:",
+      "bridgedName": "runLicenseDialog",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

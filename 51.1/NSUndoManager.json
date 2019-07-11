@@ -1,0 +1,28 @@
+{
+  "name": "NSUndoManager",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "setActionName:sender:": {
+      "name": "setActionName:sender:",
+      "bridgedName": "setActionName_sender",
+      "args": [
+        {
+          "name": "actionName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "senderID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

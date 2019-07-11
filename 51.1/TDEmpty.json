@@ -1,0 +1,17 @@
+{
+  "name": "TDEmpty",
+  "extends": "TDParser",
+  "interfaces": [],
+  "methods": {
+    "empty": {
+      "name": "empty",
+      "bridgedName": "empty",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

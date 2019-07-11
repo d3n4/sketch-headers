@@ -1,0 +1,74 @@
+{
+  "name": "COSTarget",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "targetWithJSFunction:": {
+      "name": "targetWithJSFunction:",
+      "bridgedName": "targetWithJSFunction",
+      "args": [
+        {
+          "name": "jsFunction",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithJSFunction:": {
+      "name": "initWithJSFunction:",
+      "bridgedName": "initWithJSFunction",
+      "args": [
+        {
+          "name": "jsFunction",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "callAction:": {
+      "name": "callAction:",
+      "bridgedName": "callAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "action": {
+      "name": "action",
+      "bridgedName": "action",
+      "args": [],
+      "returns": "SEL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "jsFunction": {
+      "name": "jsFunction",
+      "pointer": false,
+      "type": "MOJavaScriptObject ",
+      "attributes": [
+        "strong"
+      ]
+    },
+    "callCount": {
+      "name": "callCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": []
+    }
+  },
+  "generics": []
+}

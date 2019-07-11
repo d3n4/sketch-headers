@@ -1,0 +1,82 @@
+{
+  "protocol": true,
+  "name": "MSPageOverlayRenderer",
+  "extends": "MSRenderer",
+  "interfaces": [],
+  "methods": {
+    "renderBackgroundForPage:rect:origin:zoom:context:": {
+      "name": "renderBackgroundForPage:rect:origin:zoom:context:",
+      "bridgedName": "renderBackgroundForPage_rect_origin_zoom_context",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage*",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "origin",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderOverlayForPage:selectedLayers:selectedArtboard:options:rect:context:": {
+      "name": "renderOverlayForPage:selectedLayers:selectedArtboard:options:rect:context:",
+      "bridgedName": "renderOverlayForPage_selectedLayers_selectedArtboard_options_rect_context",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage*",
+          "nullable": false
+        },
+        {
+          "name": "selectedLayers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "selectedArtboard",
+          "type": "MSImmutableArtboardGroup*",
+          "nullable": true
+        },
+        {
+          "name": "options",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

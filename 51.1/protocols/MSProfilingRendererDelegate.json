@@ -1,0 +1,66 @@
+{
+  "protocol": true,
+  "name": "MSProfilingRendererDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "renderer:willRenderGroup:": {
+      "name": "renderer:willRenderGroup:",
+      "bridgedName": "renderer_willRenderGroup",
+      "args": [
+        {
+          "name": "renderer",
+          "type": "MSProfilingRenderer*",
+          "nullable": false
+        },
+        {
+          "name": "group",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderer:didRenderObject:": {
+      "name": "renderer:didRenderObject:",
+      "bridgedName": "renderer_didRenderObject",
+      "args": [
+        {
+          "name": "renderer",
+          "type": "MSProfilingRenderer*",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderer:didRenderGroup:": {
+      "name": "renderer:didRenderGroup:",
+      "bridgedName": "renderer_didRenderGroup",
+      "args": [
+        {
+          "name": "renderer",
+          "type": "MSProfilingRenderer*",
+          "nullable": false
+        },
+        {
+          "name": "group",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

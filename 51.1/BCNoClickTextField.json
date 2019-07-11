@@ -1,0 +1,8 @@
+{
+  "name": "BCNoClickTextField",
+  "extends": "NSTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

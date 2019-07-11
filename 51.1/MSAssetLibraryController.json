@@ -1,0 +1,290 @@
+{
+  "name": "MSAssetLibraryController",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSAssetLibraryDelegate"
+  ],
+  "methods": {
+    "addAssetLibraryAtURL:": {
+      "name": "addAssetLibraryAtURL:",
+      "bridgedName": "addAssetLibraryAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSAssetLibraryControllerAddStatus",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAssetLibrary:": {
+      "name": "removeAssetLibrary:",
+      "bridgedName": "removeAssetLibrary",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "importShareableObjectReference:intoDocument:": {
+      "name": "importShareableObjectReference:intoDocument:",
+      "bridgedName": "importShareableObjectReference_intoDocument",
+      "args": [
+        {
+          "name": "reference",
+          "type": "MSShareableObjectReference*",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSForeignObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "syncForeignObject:withMaster:fromLibrary:": {
+      "name": "syncForeignObject:withMaster:fromLibrary:",
+      "bridgedName": "syncForeignObject_withMaster_fromLibrary",
+      "args": [
+        {
+          "name": "foreignObject",
+          "type": "__kindof MSForeignObject*",
+          "nullable": false
+        },
+        {
+          "name": "libraryMaster",
+          "type": "__kindof MSShareableObject*",
+          "nullable": false
+        },
+        {
+          "name": "sourceLibrary",
+          "type": "MSAssetLibrary*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateForeignObjects:inDocument:includeDisabled:block:": {
+      "name": "enumerateForeignObjects:inDocument:includeDisabled:block:",
+      "bridgedName": "enumerateForeignObjects_inDocument_includeDisabled_block",
+      "args": [
+        {
+          "name": "objects",
+          "type": "NSArray<MSForeignObject*> *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "includeDisabled",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void(^)(MSForeignSymbol *foreignSymbol, MSAssetLibrary *library, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "libraryForShareableObject:": {
+      "name": "libraryForShareableObject:",
+      "bridgedName": "libraryForShareableObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSModelObject*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSAssetLibrary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadLibrariesWithDispatchGroup:": {
+      "name": "loadLibrariesWithDispatchGroup:",
+      "bridgedName": "loadLibrariesWithDispatchGroup",
+      "args": [
+        {
+          "name": "dispatchGroup",
+          "type": "dispatch_group_t",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadInternalLibraryRepresentationWithCompletionHandler:": {
+      "name": "loadInternalLibraryRepresentationWithCompletionHandler:",
+      "bridgedName": "loadInternalLibraryRepresentationWithCompletionHandler",
+      "args": [
+        {
+          "name": "completionHandler",
+          "type": "void (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "generatePreviewImageForLibrary:completionHandler:": {
+      "name": "generatePreviewImageForLibrary:completionHandler:",
+      "bridgedName": "generatePreviewImageForLibrary_completionHandler",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary *",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSImage * _Nullable previewImage)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addRemoteLibraryFromAppcastURL:withCompletionHandler:": {
+      "name": "addRemoteLibraryFromAppcastURL:withCompletionHandler:",
+      "bridgedName": "addRemoteLibraryFromAppcastURL_withCompletionHandler",
+      "args": [
+        {
+          "name": "appcastURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(MSRemoteAssetLibrary * _Nullable remoteLibrary, NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadAssetLibraryAppcastsWithHandler:completionHandler:": {
+      "name": "downloadAssetLibraryAppcastsWithHandler:completionHandler:",
+      "bridgedName": "downloadAssetLibraryAppcastsWithHandler_completionHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^)(NSError *error, MSRemoteAssetLibrary *library)",
+          "nullable": true
+        },
+        {
+          "name": "completionBlock",
+          "type": "void (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startDownloadingAssetLibrary:progressHandler:downloadCompletionHandler:completionHandler:": {
+      "name": "startDownloadingAssetLibrary:progressHandler:downloadCompletionHandler:completionHandler:",
+      "bridgedName": "startDownloadingAssetLibrary_progressHandler_downloadCompletionHandler_completionHandler",
+      "args": [
+        {
+          "name": "assetLibrary",
+          "type": "MSRemoteAssetLibrary *",
+          "nullable": false
+        },
+        {
+          "name": "progressHandler",
+          "type": "void (^)(NSUInteger fileSize, NSUInteger downloadedSoFar)",
+          "nullable": false
+        },
+        {
+          "name": "downloadCompletionHandler",
+          "type": "void (^)(void)",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "librariesWithUpdates": {
+      "name": "librariesWithUpdates",
+      "bridgedName": "librariesWithUpdates",
+      "args": [],
+      "returns": "NSArray <MSRemoteAssetLibrary *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addRemoteLibraryFromAppcastURL:context:callback:": {
+      "name": "addRemoteLibraryFromAppcastURL:context:callback:",
+      "bridgedName": "addRemoteLibraryFromAppcastURL_context_callback",
+      "args": [
+        {
+          "name": "appcastURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "coscript",
+          "type": "COScript *",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "availableLibraries": {
+      "name": "availableLibraries",
+      "pointer": false,
+      "type": "NSArray <MSAssetLibrary*> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "libraries": {
+      "name": "libraries",
+      "pointer": false,
+      "type": "NSArray <MSAssetLibrary *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

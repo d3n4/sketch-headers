@@ -1,0 +1,66 @@
+{
+  "name": "MSBooleanOperations",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "booleanOperation:onLayers:": {
+      "name": "booleanOperation:onLayers:",
+      "bridgedName": "booleanOperation_onLayers",
+      "args": [
+        {
+          "name": "operation",
+          "type": "MSBooleanOperation",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "resetSubPathsBooleanOperationsTo:onLayers:": {
+      "name": "resetSubPathsBooleanOperationsTo:onLayers:",
+      "bridgedName": "resetSubPathsBooleanOperationsTo_onLayers",
+      "args": [
+        {
+          "name": "operation",
+          "type": "MSBooleanOperation",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "historyMomentTitleForOperation:onLayers:": {
+      "name": "historyMomentTitleForOperation:onLayers:",
+      "bridgedName": "historyMomentTitleForOperation_onLayers",
+      "args": [
+        {
+          "name": "operation",
+          "type": "MSBooleanOperation",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

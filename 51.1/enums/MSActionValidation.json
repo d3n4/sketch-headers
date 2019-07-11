@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSActionValidation",
+  "members": [
+    {
+      "name": "MSActionValidationInvalid",
+      "value": "0"
+    },
+    {
+      "name": "MSActionValidationValid",
+      "value": "1"
+    },
+    {
+      "name": "MSActionValidationUnavailable",
+      "value": "2"
+    }
+  ]
+}

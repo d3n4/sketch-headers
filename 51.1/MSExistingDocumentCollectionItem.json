@@ -1,0 +1,38 @@
+{
+  "name": "MSExistingDocumentCollectionItem",
+  "extends": "MSWelcomeCollectionItem",
+  "interfaces": [],
+  "methods": {
+    "initWithController:URL:": {
+      "name": "initWithController:URL:",
+      "bridgedName": "initWithController_URL",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSWelcomeWindowController *",
+          "nullable": false
+        },
+        {
+          "name": "URL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "URL": {
+      "name": "URL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

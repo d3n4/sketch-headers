@@ -1,0 +1,66 @@
+{
+  "name": "MSSharedObjectView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "sharedObject": {
+      "name": "sharedObject",
+      "pointer": false,
+      "type": "MSShareableObject ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "label": {
+      "name": "label",
+      "pointer": false,
+      "type": "IBInspectable NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "labelColor": {
+      "name": "labelColor",
+      "pointer": false,
+      "type": "IBInspectable NSColor ",
+      "attributes": [
+        "nonatomic",
+        "null_resettable",
+        "strong"
+      ]
+    },
+    "labelBackgroundColor": {
+      "name": "labelBackgroundColor",
+      "pointer": false,
+      "type": "IBInspectable NSColor ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "borders": {
+      "name": "borders",
+      "pointer": false,
+      "type": "IBInspectable NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "hasShadow": {
+      "name": "hasShadow",
+      "pointer": false,
+      "type": "IBInspectable BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

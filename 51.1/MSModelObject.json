@@ -1,0 +1,416 @@
+{
+  "name": "MSModelObject",
+  "extends": "MSModelObjectCommon",
+  "interfaces": [
+    "MSModelObject"
+  ],
+  "methods": {
+    "cachedValueForKey:": {
+      "name": "cachedValueForKey:",
+      "bridgedName": "cachedValueForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cachedValueForKey:setUsingBlock:": {
+      "name": "cachedValueForKey:setUsingBlock:",
+      "bridgedName": "cachedValueForKey_setUsingBlock",
+      "args": [
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCCacheCreateObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateCachedValue:forKey:": {
+      "name": "updateCachedValue:forKey:",
+      "bridgedName": "updateCachedValue_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearCachedValueForKey:": {
+      "name": "clearCachedValueForKey:",
+      "bridgedName": "clearCachedValueForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearCache": {
+      "name": "clearCache",
+      "bridgedName": "clearCache",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "storeMetadata:forKey:": {
+      "name": "storeMetadata:forKey:",
+      "bridgedName": "storeMetadata_forKey",
+      "args": [
+        {
+          "name": "toStore",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "metadataForKey:": {
+      "name": "metadataForKey:",
+      "bridgedName": "metadataForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performInitWithImmutableModelObject:": {
+      "name": "performInitWithImmutableModelObject:",
+      "bridgedName": "performInitWithImmutableModelObject",
+      "args": [
+        {
+          "name": "immutableObject",
+          "type": "MSImmutableModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "immutableClass": {
+      "name": "immutableClass",
+      "bridgedName": "immutableClass",
+      "args": [],
+      "returns": "Class",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "object:didChangeProperty:": {
+      "name": "object:didChangeProperty:",
+      "bridgedName": "object_didChangeProperty",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSModelObject *",
+          "nullable": false
+        },
+        {
+          "name": "propertyName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateModelCacheGeneration": {
+      "name": "invalidateModelCacheGeneration",
+      "bridgedName": "invalidateModelCacheGeneration",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invaliateImmutableObject DEPRECATED_ATTRIBUTE": {
+      "name": "invaliateImmutableObject DEPRECATED_ATTRIBUTE",
+      "bridgedName": "invaliateImmutableObject DEPRECATED_ATTRIBUTE",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateImmutableObject": {
+      "name": "invalidateImmutableObject",
+      "bridgedName": "invalidateImmutableObject",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateImmutableObjectAndAncestors": {
+      "name": "invalidateImmutableObjectAndAncestors",
+      "bridgedName": "invalidateImmutableObjectAndAncestors",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithImmutableModelObject:": {
+      "name": "initWithImmutableModelObject:",
+      "bridgedName": "initWithImmutableModelObject",
+      "args": [
+        {
+          "name": "immutableBase",
+          "type": "MSImmutableModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setAsParentOnChildren": {
+      "name": "setAsParentOnChildren",
+      "bridgedName": "setAsParentOnChildren",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentGroup": {
+      "name": "parentGroup",
+      "bridgedName": "parentGroup",
+      "args": [],
+      "returns": "__kindof MSLayerGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allowsFaulting": {
+      "name": "allowsFaulting",
+      "bridgedName": "allowsFaulting",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fireFault": {
+      "name": "fireFault",
+      "bridgedName": "fireFault",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fireFaultIfNecessary": {
+      "name": "fireFaultIfNecessary",
+      "bridgedName": "fireFaultIfNecessary",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "undoManager": {
+      "name": "undoManager",
+      "bridgedName": "undoManager",
+      "args": [],
+      "returns": "NSUndoManager*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setUndoActionName:": {
+      "name": "setUndoActionName:",
+      "bridgedName": "setUndoActionName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setUndoActionSenderAndName:": {
+      "name": "setUndoActionSenderAndName:",
+      "bridgedName": "setUndoActionSenderAndName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isUndoing": {
+      "name": "isUndoing",
+      "bridgedName": "isUndoing",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerUndoNamed:action:": {
+      "name": "registerUndoNamed:action:",
+      "bridgedName": "registerUndoNamed_action",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "MSUndoActionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "copyPropertiesToObject:options:": {
+      "name": "copyPropertiesToObject:options:",
+      "bridgedName": "copyPropertiesToObject_options",
+      "args": [
+        {
+          "name": "objectCopy",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSModelCopyOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "syncPropertiesFromObject:": {
+      "name": "syncPropertiesFromObject:",
+      "bridgedName": "syncPropertiesFromObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "foreignObject": {
+      "name": "foreignObject",
+      "pointer": false,
+      "type": "__kindof MSModelObject ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "isForeign": {
+      "name": "isForeign",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "UIMetadataKey": {
+      "name": "UIMetadataKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "cachedImmutableModelObject": {
+      "name": "cachedImmutableModelObject",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "weak",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "parentObject": {
+      "name": "parentObject",
+      "pointer": false,
+      "type": "MSModelObject ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "immutableModelObject": {
+      "name": "immutableModelObject",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isFault": {
+      "name": "isFault",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

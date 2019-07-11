@@ -1,0 +1,87 @@
+{
+  "name": "MSNormalEventHandler",
+  "extends": "MSNormalBaseEventHandler",
+  "interfaces": [],
+  "methods": {
+    "selectLayer:": {
+      "name": "selectLayer:",
+      "bridgedName": "selectLayer",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ignoreNextKeyDownEventUntilModifiersChange": {
+      "name": "ignoreNextKeyDownEventUntilModifiersChange",
+      "bridgedName": "ignoreNextKeyDownEventUntilModifiersChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelOperation:": {
+      "name": "cancelOperation:",
+      "bridgedName": "cancelOperation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canHighlightLayer:": {
+      "name": "canHighlightLayer:",
+      "bridgedName": "canHighlightLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawSelectedShapePathLayers": {
+      "name": "drawSelectedShapePathLayers",
+      "bridgedName": "drawSelectedShapePathLayers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "measurementRenderer": {
+      "name": "measurementRenderer",
+      "pointer": false,
+      "type": "MSLayerMeasurementRenderer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "highlightedLayer": {
+      "name": "highlightedLayer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

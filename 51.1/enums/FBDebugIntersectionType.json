@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "FBDebugIntersectionType",
+  "members": [
+    {
+      "name": "FBDebugIntersectionTypeNone"
+    },
+    {
+      "name": "FBDebugIntersectionTypeEntry"
+    },
+    {
+      "name": "FBDebugIntersectionTypeExit"
+    }
+  ]
+}

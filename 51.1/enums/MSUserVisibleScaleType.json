@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSUserVisibleScaleType",
+  "members": [
+    {
+      "name": "MSUserVisibleScaleTypeScale",
+      "value": "0"
+    },
+    {
+      "name": "MSUserVisibleScaleTypeWidth",
+      "value": "1"
+    },
+    {
+      "name": "MSUserVisibleScaleTypeHeight",
+      "value": "2"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "MSSpecialLayerViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorSection",
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "changeTextLayerFont:": {
+      "name": "changeTextLayerFont:",
+      "bridgedName": "changeTextLayerFont",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valuesPossiblyChanged": {
+      "name": "valuesPossiblyChanged",
+      "bridgedName": "valuesPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray <MSLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

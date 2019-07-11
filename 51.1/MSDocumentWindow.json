@@ -1,0 +1,21 @@
+{
+  "name": "MSDocumentWindow",
+  "extends": "NSWindow",
+  "interfaces": [
+    "MSInterfaceTheme"
+  ],
+  "methods": {},
+  "properties": {
+    "titleBarBadge": {
+      "name": "titleBarBadge",
+      "pointer": false,
+      "type": "BCWindowBadge ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSApplyFlipAction",
+  "extends": "MSBaseFlipAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

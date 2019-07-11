@@ -1,0 +1,17 @@
+{
+  "name": "MSPaddingInspectorItemView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "wantsSeparator": {
+      "name": "wantsSeparator",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

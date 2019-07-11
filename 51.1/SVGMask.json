@@ -1,0 +1,8 @@
+{
+  "name": "SVGMask",
+  "extends": "_SVGMask",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

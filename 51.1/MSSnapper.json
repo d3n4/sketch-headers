@@ -1,0 +1,175 @@
+{
+  "name": "MSSnapper",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "snapByDistanceEdges:resize:": {
+      "name": "snapByDistanceEdges:resize:",
+      "bridgedName": "snapByDistanceEdges_resize",
+      "args": [
+        {
+          "name": "mask",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "resize",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BCAxis",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapSize:edges:": {
+      "name": "snapSize:edges:",
+      "bridgedName": "snapSize_edges",
+      "args": [
+        {
+          "name": "snap",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BCAxis",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapItemDuringMove:allowSnaps:rulersVisible:": {
+      "name": "snapItemDuringMove:allowSnaps:rulersVisible:",
+      "bridgedName": "snapItemDuringMove_allowSnaps_rulersVisible",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSSnapItem *",
+          "nullable": false
+        },
+        {
+          "name": "allowAxes",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSnapperData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapItemDuringResize:rulersVisible:edges:": {
+      "name": "snapItemDuringResize:rulersVisible:edges:",
+      "bridgedName": "snapItemDuringResize_rulersVisible_edges",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSSnapItem *",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "edges",
+          "type": "BCEdge",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSnapperData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapLayerKeys:rulersVisible:": {
+      "name": "snapLayerKeys:rulersVisible:",
+      "bridgedName": "snapLayerKeys_rulersVisible",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSSnapItem *",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSnapperData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapAttributes:toLines:visible:snap:resize:": {
+      "name": "snapAttributes:toLines:visible:snap:resize:",
+      "bridgedName": "snapAttributes_toLines_visible_snap_resize",
+      "args": [
+        {
+          "name": "attributeMask",
+          "type": "NSIndexSet *",
+          "nullable": true
+        },
+        {
+          "name": "lines",
+          "type": "NSArray<MSLayoutPosition *> *",
+          "nullable": false
+        },
+        {
+          "name": "visible",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "snap",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "resize",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "snapperData": {
+      "name": "snapperData",
+      "pointer": false,
+      "type": "MSSnapperData ",
+      "attributes": [
+        "nonatomic",
+        "readwrite",
+        "strong"
+      ]
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "useAlignmentGuides": {
+      "name": "useAlignmentGuides",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

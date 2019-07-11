@@ -1,0 +1,47 @@
+{
+  "protocol": true,
+  "name": "MSWelcomeCollectionItemPreviewImageLoading",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "fetchPreviewImageWithMaximumPixelSize:completionHandler:": {
+      "name": "fetchPreviewImageWithMaximumPixelSize:completionHandler:",
+      "bridgedName": "fetchPreviewImageWithMaximumPixelSize_completionHandler",
+      "args": [
+        {
+          "name": "maxPixelSize",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "MSPreviewImageHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "providesPreviewImage": {
+      "name": "providesPreviewImage",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "URL": {
+      "name": "URL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "MSDefaultLayoutGrid",
+  "extends": "MSDefaultArchive",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "defaultLayout": {
+      "name": "defaultLayout",
+      "pointer": false,
+      "type": "MSLayoutGrid ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "class"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "MSExportPropertiesInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [
+    "MSLayerChangeObserver"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}
