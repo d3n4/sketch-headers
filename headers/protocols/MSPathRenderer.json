@@ -20,7 +20,7 @@
         },
         {
           "name": "rect",
-          "type": "NSRect",
+          "type": "CGRect",
           "nullable": false
         },
         {
@@ -59,7 +59,7 @@
         },
         {
           "name": "rect",
-          "type": "NSRect",
+          "type": "CGRect",
           "nullable": false
         },
         {
@@ -88,7 +88,7 @@
         },
         {
           "name": "rect",
-          "type": "NSRect",
+          "type": "CGRect",
           "nullable": false
         },
         {

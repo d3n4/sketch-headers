@@ -4,9 +4,9 @@
   "extends": "MSRenderer",
   "interfaces": [],
   "methods": {
-    "renderLayer:ignoreDirtyRect:context:": {
-      "name": "renderLayer:ignoreDirtyRect:context:",
-      "bridgedName": "renderLayer_ignoreDirtyRect_context",
+    "renderLayer:ignoreDrawingArea:context:": {
+      "name": "renderLayer:ignoreDrawingArea:context:",
+      "bridgedName": "renderLayer_ignoreDrawingArea_context",
       "args": [
         {
           "name": "layer",
@@ -14,7 +14,7 @@
           "nullable": false
         },
         {
-          "name": "ignoreDirtyRect",
+          "name": "ignoreDrawingArea",
           "type": "BOOL",
           "nullable": false
         },
@@ -28,9 +28,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "renderLayerUncached:ignoreDirtyRect:context:": {
-      "name": "renderLayerUncached:ignoreDirtyRect:context:",
-      "bridgedName": "renderLayerUncached_ignoreDirtyRect_context",
+    "renderLayerUncached:ignoreDrawingArea:context:": {
+      "name": "renderLayerUncached:ignoreDrawingArea:context:",
+      "bridgedName": "renderLayerUncached_ignoreDrawingArea_context",
       "args": [
         {
           "name": "layer",
@@ -38,7 +38,7 @@
           "nullable": false
         },
         {
-          "name": "ignoreDirtyRect",
+          "name": "ignoreDrawingArea",
           "type": "BOOL",
           "nullable": false
         },

@@ -113,35 +113,6 @@
       "returns": "nullable  MSLayerGroup *",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "targetRectForPasteboardData:inViewPort:root:canMoveViewport:": {
-      "name": "targetRectForPasteboardData:inViewPort:root:canMoveViewport:",
-      "bridgedName": "targetRectForPasteboardData_inViewPort_root_canMoveViewport",
-      "args": [
-        {
-          "name": "pboardData",
-          "type": "MSPasteboardLayers *",
-          "nullable": false
-        },
-        {
-          "name": "viewport",
-          "type": "MSPastingViewport *",
-          "nullable": false
-        },
-        {
-          "name": "parent",
-          "type": "MSLayerGroup<MSRootLayer>*",
-          "nullable": false
-        },
-        {
-          "name": "canMoveViewport",
-          "type": "BOOL*",
-          "nullable": false
-        }
-      ],
-      "returns": "NSRect",
-      "kind": "class",
-      "kindIndicator": "+"
     }
   },
   "properties": {},

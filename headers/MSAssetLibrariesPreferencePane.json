@@ -47,6 +47,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "preferenceItemHasUpdated:": {
+      "name": "preferenceItemHasUpdated:",
+      "bridgedName": "preferenceItemHasUpdated",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSAssetPreferenceItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -57,6 +71,15 @@
       "attributes": [
         "nonatomic",
         "weak"
+      ]
+    },
+    "assetLibraryController": {
+      "name": "assetLibraryController",
+      "pointer": false,
+      "type": "MSAssetLibraryController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

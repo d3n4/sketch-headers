@@ -30,7 +30,7 @@
         },
         {
           "name": "rect",
-          "type": "NSRect",
+          "type": "CGRect",
           "nullable": false
         },
         {

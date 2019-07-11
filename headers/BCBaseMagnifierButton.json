@@ -10,6 +10,14 @@
       "returns": "BCFlexibleColor *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "documentColorSpace": {
+      "name": "documentColorSpace",
+      "bridgedName": "documentColorSpace",
+      "args": [],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

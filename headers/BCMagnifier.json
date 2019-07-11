@@ -3,12 +3,17 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "pickColorWithCompletionBlock:": {
-      "name": "pickColorWithCompletionBlock:",
-      "bridgedName": "pickColorWithCompletionBlock",
+    "pickColorInColorSpace:completionHandler:": {
+      "name": "pickColorInColorSpace:completionHandler:",
+      "bridgedName": "pickColorInColorSpace_completionHandler",
       "args": [
         {
-          "name": "completionBlock",
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
           "type": "BCMagnifierCompletionBlock",
           "nullable": false
         }

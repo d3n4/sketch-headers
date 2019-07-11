@@ -126,7 +126,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray *",
+      "returns": "NSArray <__kindof MSStylePart *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },

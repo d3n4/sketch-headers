@@ -3,6 +3,16 @@
   "extends": "BCBaseMagnifierButton",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<BCMagnifierButtonDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
   "generics": []
 }

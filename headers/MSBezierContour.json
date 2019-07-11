@@ -135,6 +135,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "isRectangular": {
+      "name": "isRectangular",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

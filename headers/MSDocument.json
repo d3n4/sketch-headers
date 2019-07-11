@@ -183,9 +183,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "currentView": {
-      "name": "currentView",
-      "bridgedName": "currentView",
+    "contentDrawView": {
+      "name": "contentDrawView",
+      "bridgedName": "contentDrawView",
       "args": [],
       "returns": "MSContentDrawView *",
       "kind": "instance",
@@ -427,14 +427,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshAfterArtboardDeletion": {
-      "name": "refreshAfterArtboardDeletion",
-      "bridgedName": "refreshAfterArtboardDeletion",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "reloadInspector": {
       "name": "reloadInspector",
       "bridgedName": "reloadInspector",
@@ -610,20 +602,6 @@
       "bridgedName": "layerPositionPossiblyChanged",
       "args": [],
       "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "debugStressTestRendering:": {
-      "name": "debugStressTestRendering:",
-      "bridgedName": "debugStressTestRendering",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -815,6 +793,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "symbolReferenceForRecipe:": {
+      "name": "symbolReferenceForRecipe:",
+      "bridgedName": "symbolReferenceForRecipe",
+      "args": [
+        {
+          "name": "recipe",
+          "type": "MSSymbolMasterReferenceDescriptor *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSymbolMasterReference *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "showNonDefaultColorSpaceWarningIfApplicable": {
       "name": "showNonDefaultColorSpaceWarningIfApplicable",
       "bridgedName": "showNonDefaultColorSpaceWarningIfApplicable",
@@ -967,6 +959,16 @@
     },
     "colorSpace": {
       "name": "colorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "canvasColorSpace": {
+      "name": "canvasColorSpace",
       "pointer": false,
       "type": "NSColorSpace ",
       "attributes": [

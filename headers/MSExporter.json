@@ -9,7 +9,7 @@
       "args": [
         {
           "name": "request",
-          "type": "nonnull MSExportRequest *",
+          "type": "MSExportRequest *",
           "nullable": false
         },
         {
@@ -18,7 +18,31 @@
           "nullable": true
         }
       ],
-      "returns": "nonnull instancetype",
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exporterForRequest:colorSpace:driver:": {
+      "name": "exporterForRequest:colorSpace:driver:",
+      "bridgedName": "exporterForRequest_colorSpace_driver",
+      "args": [
+        {
+          "name": "request",
+          "type": "MSExportRequest *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -57,7 +81,7 @@
         },
         {
           "name": "contextRef",
-          "type": "nonnull CGContextRef",
+          "type": "CGContextRef",
           "nullable": false
         }
       ],
@@ -71,7 +95,7 @@
       "args": [
         {
           "name": "fileURL",
-          "type": "nonnull NSURL *",
+          "type": "NSURL *",
           "nullable": false
         }
       ],
@@ -121,6 +145,16 @@
       "type": "BOOL",
       "attributes": [
         "nonatomic"
+      ]
+    },
+    "driver": {
+      "name": "driver",
+      "pointer": false,
+      "type": "MSRenderingDriver*",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
       ]
     },
     "colorSpace": {

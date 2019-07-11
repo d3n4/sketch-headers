@@ -9,7 +9,7 @@
       "args": [
         {
           "name": "subview",
-          "type": "NSView *",
+          "type": "nonnull NSView *",
           "nullable": false
         },
         {
@@ -97,7 +97,7 @@
       "name": "heightConstraint",
       "bridgedName": "heightConstraint",
       "args": [],
-      "returns": "NSLayoutConstraint *",
+      "returns": "nullable NSLayoutConstraint *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -145,11 +145,39 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "verticalConstraintWithView:": {
+      "name": "verticalConstraintWithView:",
+      "bridgedName": "verticalConstraintWithView",
+      "args": [
+        {
+          "name": "anotherView",
+          "type": "nonnull NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSLayoutConstraint *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verticalConstraintsWithView:": {
+      "name": "verticalConstraintsWithView:",
+      "bridgedName": "verticalConstraintsWithView",
+      "args": [
+        {
+          "name": "anotherView",
+          "type": "nonnull NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSArray<NSLayoutConstraint *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "widthConstraint": {
       "name": "widthConstraint",
       "bridgedName": "widthConstraint",
       "args": [],
-      "returns": "NSLayoutConstraint *",
+      "returns": "nullable NSLayoutConstraint *",
       "kind": "instance",
       "kindIndicator": "-"
     },

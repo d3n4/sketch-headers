@@ -3,68 +3,6 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "drawImageWithSize:withBlock:": {
-      "name": "drawImageWithSize:withBlock:",
-      "bridgedName": "drawImageWithSize_withBlock",
-      "args": [
-        {
-          "name": "aSize",
-          "type": "NSSize",
-          "nullable": false
-        },
-        {
-          "name": "aBlock",
-          "type": "BCVoidBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "NSImage *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "drawImageFlippedWithSize:withBlock:": {
-      "name": "drawImageFlippedWithSize:withBlock:",
-      "bridgedName": "drawImageFlippedWithSize_withBlock",
-      "args": [
-        {
-          "name": "aSize",
-          "type": "NSSize",
-          "nullable": false
-        },
-        {
-          "name": "aBlock",
-          "type": "BCVoidBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "NSImage *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "drawImageFlipped:withSize:withBlock:": {
-      "name": "drawImageFlipped:withSize:withBlock:",
-      "bridgedName": "drawImageFlipped_withSize_withBlock",
-      "args": [
-        {
-          "name": "shouldFlip",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "aSize",
-          "type": "NSSize",
-          "nullable": false
-        },
-        {
-          "name": "aBlock",
-          "type": "BCVoidBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "NSImage *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "drawAtPoint:": {
       "name": "drawAtPoint:",
       "bridgedName": "drawAtPoint",
@@ -221,7 +159,21 @@
       "name": "firstBitmapImageRep",
       "bridgedName": "firstBitmapImageRep",
       "args": [],
-      "returns": "NSBitmapImageRep *",
+      "returns": "nullable NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstBitmapImageRepOfScale:": {
+      "name": "firstBitmapImageRepOfScale:",
+      "bridgedName": "firstBitmapImageRepOfScale",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSBitmapImageRep *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -365,6 +317,68 @@
         }
       ],
       "returns": "NSImage*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawImageWithSize:withBlock:": {
+      "name": "drawImageWithSize:withBlock:",
+      "bridgedName": "drawImageWithSize_withBlock",
+      "args": [
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "aBlock",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawImageFlippedWithSize:withBlock:": {
+      "name": "drawImageFlippedWithSize:withBlock:",
+      "bridgedName": "drawImageFlippedWithSize_withBlock",
+      "args": [
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "aBlock",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawImageFlipped:withSize:withBlock:": {
+      "name": "drawImageFlipped:withSize:withBlock:",
+      "bridgedName": "drawImageFlipped_withSize_withBlock",
+      "args": [
+        {
+          "name": "shouldFlip",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "aBlock",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
       "kind": "class",
       "kindIndicator": "+"
     },

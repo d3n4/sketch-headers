@@ -55,39 +55,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addOverrides:ancestorIDs:": {
-      "name": "addOverrides:ancestorIDs:",
-      "bridgedName": "addOverrides_ancestorIDs",
-      "args": [
-        {
-          "name": "override",
-          "type": "id",
-          "nullable": true
-        },
-        {
-          "name": "objectIDs",
-          "type": "NSArray <NSString*> *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "overrideWithAncestorIDs:": {
-      "name": "overrideWithAncestorIDs:",
-      "bridgedName": "overrideWithAncestorIDs",
-      "args": [
-        {
-          "name": "ids",
-          "type": "NSArray<NSString *> *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSDictionary *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "detachByReplacingWithGroup": {
       "name": "detachByReplacingWithGroup",
       "bridgedName": "detachByReplacingWithGroup",
@@ -148,20 +115,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "updateOverrideIDSWithMapping:": {
-      "name": "updateOverrideIDSWithMapping:",
-      "bridgedName": "updateOverrideIDSWithMapping",
-      "args": [
-        {
-          "name": "mapping",
-          "type": "NSDictionary *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "resetSizeToMaster": {
       "name": "resetSizeToMaster",
       "bridgedName": "resetSizeToMaster",
@@ -169,9 +122,51 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "setValue:forOverridePoint:": {
+      "name": "setValue:forOverridePoint:",
+      "bridgedName": "setValue_forOverridePoint",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "point",
+          "type": "MSOverridePoint*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateOverridesWithObjectIDMap:": {
+      "name": "updateOverridesWithObjectIDMap:",
+      "bridgedName": "updateOverridesWithObjectIDMap",
+      "args": [
+        {
+          "name": "idMap",
+          "type": "NSDictionary<NSString*,NSString*> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
+    "overrides": {
+      "name": "overrides",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
     "symbolMasterEdgePaddings": {
       "name": "symbolMasterEdgePaddings",
       "pointer": false,

@@ -80,6 +80,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "vectorCanvasDidFinishInteractiveSelection:": {
+      "name": "vectorCanvasDidFinishInteractiveSelection:",
+      "bridgedName": "vectorCanvasDidFinishInteractiveSelection",
+      "args": [
+        {
+          "name": "canvas",
+          "type": "MSVectorCanvas *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "vectorCanvas:didSelectLayers:": {
       "name": "vectorCanvas:didSelectLayers:",
       "bridgedName": "vectorCanvas_didSelectLayers",

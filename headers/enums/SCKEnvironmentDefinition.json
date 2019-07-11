@@ -13,6 +13,9 @@
     },
     {
       "name": "SCKEnvironmentDefinitionTest"
+    },
+    {
+      "name": "SCKEnvironmentDefinitionDevelopment"
     }
   ]
 }

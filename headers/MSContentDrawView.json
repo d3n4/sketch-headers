@@ -3,7 +3,8 @@
   "extends": "NSView",
   "interfaces": [
     "MSEventHandlerManagerDelegate",
-    "MSTiledLayerPileHostView"
+    "MSTiledLayerPileHostView",
+    "MSOverlayRenderingDelegate"
   ],
   "methods": {
     "beginHandToolMode": {
@@ -79,6 +80,14 @@
       "bridgedName": "placeOriginInTopLeft",
       "args": [],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentPage": {
+      "name": "currentPage",
+      "bridgedName": "currentPage",
+      "args": [],
+      "returns": "MSPage *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -183,9 +192,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "centerInBounds": {
-      "name": "centerInBounds",
-      "bridgedName": "centerInBounds",
+    "refreshOverlayAfterSettingsChange": {
+      "name": "refreshOverlayAfterSettingsChange",
+      "bridgedName": "refreshOverlayAfterSettingsChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshEverythingAfterSettingsChange": {
+      "name": "refreshEverythingAfterSettingsChange",
+      "bridgedName": "refreshEverythingAfterSettingsChange",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -287,9 +304,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayOfViews": {
-      "name": "refreshOverlayOfViews",
-      "bridgedName": "refreshOverlayOfViews",
+    "refreshOverlay": {
+      "name": "refreshOverlay",
+      "bridgedName": "refreshOverlay",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -342,44 +359,6 @@
       "bridgedName": "visibleContentRect",
       "args": [],
       "returns": "NSRect",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "horizontalRuler": {
-      "name": "horizontalRuler",
-      "bridgedName": "horizontalRuler",
-      "args": [],
-      "returns": "MSRulerView *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "verticalRuler": {
-      "name": "verticalRuler",
-      "bridgedName": "verticalRuler",
-      "args": [],
-      "returns": "MSRulerView *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "animateScrollOriginToPoint:": {
-      "name": "animateScrollOriginToPoint:",
-      "bridgedName": "animateScrollOriginToPoint",
-      "args": [
-        {
-          "name": "aPoint",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "enableLayerBackedDrawing": {
-      "name": "enableLayerBackedDrawing",
-      "bridgedName": "enableLayerBackedDrawing",
-      "args": [],
-      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },

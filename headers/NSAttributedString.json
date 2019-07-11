@@ -3,6 +3,44 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "attributedStringWithString:attributes:": {
+      "name": "attributedStringWithString:attributes:",
+      "bridgedName": "attributedStringWithString_attributes",
+      "args": [
+        {
+          "name": "aString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "attributes",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributedStringWithString:font:": {
+      "name": "attributedStringWithString:font:",
+      "bridgedName": "attributedStringWithString_font",
+      "args": [
+        {
+          "name": "aString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "font",
+          "type": "NSFont *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "heightWithFont:maxWidth:": {
       "name": "heightWithFont:maxWidth:",
       "bridgedName": "heightWithFont_maxWidth",
@@ -88,43 +126,19 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "attributedStringWithString:attributes:": {
-      "name": "attributedStringWithString:attributes:",
-      "bridgedName": "attributedStringWithString_attributes",
+    "standardAttributedStringWithColorSpace:": {
+      "name": "standardAttributedStringWithColorSpace:",
+      "bridgedName": "standardAttributedStringWithColorSpace",
       "args": [
         {
-          "name": "aString",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "attributes",
-          "type": "NSDictionary *",
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "attributedStringWithString:font:": {
-      "name": "attributedStringWithString:font:",
-      "bridgedName": "attributedStringWithString_font",
-      "args": [
-        {
-          "name": "aString",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "font",
-          "type": "NSFont *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "class",
-      "kindIndicator": "+"
+      "returns": "NSAttributedString *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

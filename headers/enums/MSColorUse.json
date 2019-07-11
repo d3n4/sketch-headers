@@ -1,0 +1,30 @@
+{
+  "enum": true,
+  "name": "MSColorUse",
+  "members": [
+    {
+      "name": "MSColorUseAll",
+      "value": "0"
+    },
+    {
+      "name": "MSColorUseFill",
+      "value": "1"
+    },
+    {
+      "name": "MSColorUseBorder",
+      "value": "2"
+    },
+    {
+      "name": "MSColorUseShadow",
+      "value": "3"
+    },
+    {
+      "name": "MSColorUseText",
+      "value": "4"
+    },
+    {
+      "name": "MSColorUseArtboard",
+      "value": "5"
+    }
+  ]
+}

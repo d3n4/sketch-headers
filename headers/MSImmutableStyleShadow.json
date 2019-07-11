@@ -3,23 +3,9 @@
   "extends": "_MSImmutableStyleShadow",
   "interfaces": [],
   "methods": {
-    "shadowBoundsForRect:": {
-      "name": "shadowBoundsForRect:",
-      "bridgedName": "shadowBoundsForRect",
-      "args": [
-        {
-          "name": "aRect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "NSRect",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "adjustmentAmountForStrokeType:lineWidth:": {
-      "name": "adjustmentAmountForStrokeType:lineWidth:",
-      "bridgedName": "adjustmentAmountForStrokeType_lineWidth",
+    "shadowInsetForStrokeType:lineWidth:": {
+      "name": "shadowInsetForStrokeType:lineWidth:",
+      "bridgedName": "shadowInsetForStrokeType_lineWidth",
       "args": [
         {
           "name": "strokeType",

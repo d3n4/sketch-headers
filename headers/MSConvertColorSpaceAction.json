@@ -1,6 +1,6 @@
 {
   "name": "MSConvertColorSpaceAction",
-  "extends": "MSDocumentAction",
+  "extends": "MSChangeColorSpaceAction",
   "interfaces": [],
   "methods": {
     "convertDocumentColorSpace:": {

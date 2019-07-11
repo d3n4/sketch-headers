@@ -1,6 +1,6 @@
 {
   "name": "MSAssignColorSpaceAction",
-  "extends": "MSDocumentAction",
+  "extends": "MSChangeColorSpaceAction",
   "interfaces": [],
   "methods": {
     "assignDocumentColorSpace:": {

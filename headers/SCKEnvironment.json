@@ -5,6 +5,25 @@
     "NSCopying"
   ],
   "methods": {
+    "setKeychainUser:error:": {
+      "name": "setKeychainUser:error:",
+      "bridgedName": "setKeychainUser_error",
+      "args": [
+        {
+          "name": "keychainUser",
+          "type": "SCKAuthenticatedUser *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "initWithHost:": {
       "name": "initWithHost:",
       "bridgedName": "initWithHost",
@@ -65,24 +84,14 @@
     }
   },
   "properties": {
-    "protectionSpace": {
-      "name": "protectionSpace",
+    "keychainUser": {
+      "name": "keychainUser",
       "pointer": false,
-      "type": "NSURLProtectionSpace ",
-      "attributes": [
-        "nonatomic",
-        "nonnull",
-        "readonly"
-      ]
-    },
-    "credential": {
-      "name": "credential",
-      "pointer": false,
-      "type": "NSURLCredential ",
+      "type": "SCKAuthenticatedUser ",
       "attributes": [
         "nonatomic",
         "nullable",
-        "readwrite"
+        "readonly"
       ]
     },
     "signature": {

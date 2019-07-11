@@ -422,14 +422,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlay": {
-      "name": "refreshOverlay",
-      "bridgedName": "refreshOverlay",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "handlerGotFocus": {
       "name": "handlerGotFocus",
       "bridgedName": "handlerGotFocus",
@@ -545,11 +537,19 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "drawView": {
-      "name": "drawView",
-      "bridgedName": "drawView",
+    "contentDrawView": {
+      "name": "contentDrawView",
+      "bridgedName": "contentDrawView",
       "args": [],
       "returns": "MSContentDrawView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentPage": {
+      "name": "currentPage",
+      "bridgedName": "currentPage",
+      "args": [],
+      "returns": "MSPage *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -561,9 +561,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayOfViews": {
-      "name": "refreshOverlayOfViews",
-      "bridgedName": "refreshOverlayOfViews",
+    "refreshOverlay": {
+      "name": "refreshOverlay",
+      "bridgedName": "refreshOverlay",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -1298,15 +1298,6 @@
       "name": "manager",
       "pointer": false,
       "type": "MSEventHandlerManager ",
-      "attributes": [
-        "nonatomic",
-        "weak"
-      ]
-    },
-    "delegate": {
-      "name": "delegate",
-      "pointer": false,
-      "type": "id <MSBasicDelegate>",
       "attributes": [
         "nonatomic",
         "weak"

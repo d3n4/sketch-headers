@@ -5,6 +5,20 @@
     "MSModelObjectCommon"
   ],
   "methods": {
+    "isContainedByInstanceOfForeignSymbol:": {
+      "name": "isContainedByInstanceOfForeignSymbol:",
+      "bridgedName": "isContainedByInstanceOfForeignSymbol",
+      "args": [
+        {
+          "name": "ancestors",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "treeStructure": {
       "name": "treeStructure",
       "bridgedName": "treeStructure",

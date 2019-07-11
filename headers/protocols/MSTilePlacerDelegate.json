@@ -22,25 +22,6 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "tilePlacer:renderOverlayInRect:": {
-      "name": "tilePlacer:renderOverlayInRect:",
-      "bridgedName": "tilePlacer_renderOverlayInRect",
-      "args": [
-        {
-          "name": "tilePlacer",
-          "type": "MSTilePlacer *",
-          "nullable": false
-        },
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {}

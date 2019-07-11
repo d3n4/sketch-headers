@@ -25,10 +25,16 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "startUpload": {
-      "name": "startUpload",
-      "bridgedName": "startUpload",
-      "args": [],
+    "startUploadUpdating:": {
+      "name": "startUploadUpdating:",
+      "bridgedName": "startUploadUpdating",
+      "args": [
+        {
+          "name": "existingShare",
+          "type": "SCKShare *",
+          "nullable": true
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -117,15 +123,6 @@
         "readonly"
       ]
     },
-    "uploadIncludesDocumentData": {
-      "name": "uploadIncludesDocumentData",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "uploaded": {
       "name": "uploaded",
       "pointer": false,
@@ -154,12 +151,23 @@
         "getter=isUploading"
       ]
     },
+    "uploadCancelled": {
+      "name": "uploadCancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isUploadCancelled"
+      ]
+    },
     "uploadProgress": {
       "name": "uploadProgress",
       "pointer": false,
-      "type": "double",
+      "type": "NSProgress ",
       "attributes": [
         "nonatomic",
+        "nullable",
         "readonly"
       ]
     },

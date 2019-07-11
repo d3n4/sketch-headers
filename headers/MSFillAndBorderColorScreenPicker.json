@@ -3,13 +3,18 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "pickColorForLayers:completionBlock:": {
-      "name": "pickColorForLayers:completionBlock:",
-      "bridgedName": "pickColorForLayers_completionBlock",
+    "pickColorForLayers:colorSpace:completionBlock:": {
+      "name": "pickColorForLayers:colorSpace:completionBlock:",
+      "bridgedName": "pickColorForLayers_colorSpace_completionBlock",
       "args": [
         {
           "name": "layers",
           "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "colorspace",
+          "type": "NSColorSpace *",
           "nullable": false
         },
         {

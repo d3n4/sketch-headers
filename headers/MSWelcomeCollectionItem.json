@@ -5,6 +5,22 @@
     "MSWelcomeCollectionItemPreviewImageLoading"
   ],
   "methods": {
+    "bundledTemplatesDirectoryURL": {
+      "name": "bundledTemplatesDirectoryURL",
+      "bridgedName": "bundledTemplatesDirectoryURL",
+      "args": [],
+      "returns": "NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "userTemplatesDirectoryURL": {
+      "name": "userTemplatesDirectoryURL",
+      "bridgedName": "userTemplatesDirectoryURL",
+      "args": [],
+      "returns": "NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "init NS_UNAVAILABLE": {
       "name": "init NS_UNAVAILABLE",
       "bridgedName": "init NS_UNAVAILABLE",

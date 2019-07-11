@@ -1,6 +1,6 @@
 {
   "name": "MSNewsTrigger",
-  "extends": "CHSingletonObject",
+  "extends": "BCSingleton",
   "interfaces": [],
   "methods": {},
   "properties": {},

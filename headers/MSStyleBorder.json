@@ -2,7 +2,7 @@
   "name": "MSStyleBorder",
   "extends": "_MSStyleBorder",
   "interfaces": [
-    "MSColorSpaceConvertible"
+    "MSColorConvertible"
   ],
   "methods": {
     "CSSAttributeString": {

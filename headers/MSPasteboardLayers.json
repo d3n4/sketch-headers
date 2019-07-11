@@ -147,10 +147,19 @@
         "strong"
       ]
     },
-    "symbols": {
-      "name": "symbols",
-      "pointer": false,
-      "type": "NSDictionary ",
+    "localSymbols": {
+      "name": "localSymbols",
+      "pointer": true,
+      "type": "NSDictionary<NSString*, MSSymbolMaster*>",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "foreignSymbols": {
+      "name": "foreignSymbols",
+      "pointer": true,
+      "type": "NSDictionary<NSString*, MSForeignSymbol*>",
       "attributes": [
         "nonatomic",
         "strong"
@@ -170,15 +179,6 @@
       "type": "MSTraits",
       "attributes": [
         "nonatomic"
-      ]
-    },
-    "idToNameMapping": {
-      "name": "idToNameMapping",
-      "pointer": false,
-      "type": "NSDictionary ",
-      "attributes": [
-        "nonatomic",
-        "strong"
       ]
     }
   },

@@ -120,6 +120,20 @@
       "returns": "NSUndoManager *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "popoverShouldTrackSuperviewOfAttachedToView:": {
+      "name": "popoverShouldTrackSuperviewOfAttachedToView:",
+      "bridgedName": "popoverShouldTrackSuperviewOfAttachedToView",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {}

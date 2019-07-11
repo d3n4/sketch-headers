@@ -8,7 +8,7 @@
     "rect": {
       "name": "rect",
       "pointer": false,
-      "type": "NSRect",
+      "type": "CGRect",
       "attributes": [
         "nonatomic"
       ]
@@ -16,7 +16,7 @@
     "origin": {
       "name": "origin",
       "pointer": false,
-      "type": "NSPoint",
+      "type": "CGPoint",
       "attributes": [
         "nonatomic"
       ]
@@ -24,7 +24,7 @@
     "size": {
       "name": "size",
       "pointer": false,
-      "type": "NSSize",
+      "type": "CGSize",
       "attributes": [
         "nonatomic"
       ]

@@ -50,6 +50,14 @@
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "createOverrideViewController": {
+      "name": "createOverrideViewController",
+      "bridgedName": "createOverrideViewController",
+      "args": [],
+      "returns": "MSOverrideViewController *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -91,16 +99,6 @@
         "readonly"
       ]
     },
-    "overrideValue": {
-      "name": "overrideValue",
-      "pointer": false,
-      "type": "MSOverrideValue ",
-      "attributes": [
-        "nonatomic",
-        "readonly",
-        "nullable"
-      ]
-    },
     "children": {
       "name": "children",
       "pointer": false,
@@ -108,6 +106,52 @@
       "attributes": [
         "nonatomic",
         "nullable",
+        "readonly"
+      ]
+    },
+    "overrideValue": {
+      "name": "overrideValue",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "currentValue": {
+      "name": "currentValue",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "defaultValue": {
+      "name": "defaultValue",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasOverride": {
+      "name": "hasOverride",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isAffectedLayerOrParentLocked": {
+      "name": "isAffectedLayerOrParentLocked",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
         "readonly"
       ]
     }

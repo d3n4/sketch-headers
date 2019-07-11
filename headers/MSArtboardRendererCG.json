@@ -3,9 +3,9 @@
   "extends": "MSGroupRendererCG",
   "interfaces": [],
   "methods": {
-    "renderSubLayersOfGroup:ignoreDirtyRect:context:isDrawingAsSymbolInstance:": {
-      "name": "renderSubLayersOfGroup:ignoreDirtyRect:context:isDrawingAsSymbolInstance:",
-      "bridgedName": "renderSubLayersOfGroup_ignoreDirtyRect_context_isDrawingAsSymbolInstance",
+    "renderSubLayersOfGroup:ignoreDrawingArea:context:isDrawingAsSymbolInstance:": {
+      "name": "renderSubLayersOfGroup:ignoreDrawingArea:context:isDrawingAsSymbolInstance:",
+      "bridgedName": "renderSubLayersOfGroup_ignoreDrawingArea_context_isDrawingAsSymbolInstance",
       "args": [
         {
           "name": "group",
@@ -13,7 +13,7 @@
           "nullable": false
         },
         {
-          "name": "ignoreDirtyRect",
+          "name": "ignoreDrawingArea",
           "type": "BOOL",
           "nullable": false
         },

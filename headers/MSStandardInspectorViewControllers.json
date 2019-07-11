@@ -48,15 +48,6 @@
         "nonatomic",
         "readonly"
       ]
-    },
-    "reflectionViewController": {
-      "name": "reflectionViewController",
-      "pointer": false,
-      "type": "MSReflectionInspectorViewController ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
     }
   },
   "generics": []

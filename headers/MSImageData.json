@@ -21,20 +21,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "initWithImageConvertingColorSpace:": {
-      "name": "initWithImageConvertingColorSpace:",
-      "bridgedName": "initWithImageConvertingColorSpace",
-      "args": [
-        {
-          "name": "image",
-          "type": "NSImage *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "initWithData:sha:": {
       "name": "initWithData:sha:",
       "bridgedName": "initWithData_sha",

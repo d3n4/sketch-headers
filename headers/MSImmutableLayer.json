@@ -128,18 +128,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "possibleOverridesInDocument:actualOverrides:": {
-      "name": "possibleOverridesInDocument:actualOverrides:",
-      "bridgedName": "possibleOverridesInDocument_actualOverrides",
+    "defaultValueForOverridePoint:": {
+      "name": "defaultValueForOverridePoint:",
+      "bridgedName": "defaultValueForOverridePoint",
       "args": [
         {
-          "name": "doc",
-          "type": "MSImmutableDocumentData *",
-          "nullable": false
-        },
-        {
-          "name": "actualOverrides",
-          "type": "NSDictionary *",
+          "name": "point",
+          "type": "MSOverridePoint*",
           "nullable": false
         }
       ],
@@ -470,6 +465,15 @@
     },
     "hasClippingMask": {
       "name": "hasClippingMask",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canBreakMaskChain": {
+      "name": "canBreakMaskChain",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

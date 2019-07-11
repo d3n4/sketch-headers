@@ -1,9 +1,7 @@
 {
   "name": "MSTilePlacer",
   "extends": "NSObject",
-  "interfaces": [
-    "MSTileDelegate"
-  ],
+  "interfaces": [],
   "methods": {
     "initWithTiledLayer:": {
       "name": "initWithTiledLayer:",

@@ -231,6 +231,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "shouldHitTestOnFill:": {
+      "name": "shouldHitTestOnFill:",
+      "bridgedName": "shouldHitTestOnFill",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "flatten": {
       "name": "flatten",
       "bridgedName": "flatten",

@@ -1,6 +1,6 @@
 {
   "name": "MSDefaultArchive",
-  "extends": "CHSingletonObject",
+  "extends": "BCSingleton",
   "interfaces": [],
   "methods": {
     "archivesNeedingMigration": {

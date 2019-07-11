@@ -3,7 +3,6 @@
   "extends": "MSLayerSection",
   "interfaces": [
     "NSMenuDelegate",
-    "BCPopoverDelegate",
     "MSColorInspectorDelegate",
     "NSComboBoxDataSource",
     "MSColorPreviewButtonDelegate"

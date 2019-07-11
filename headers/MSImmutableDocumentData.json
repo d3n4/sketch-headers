@@ -108,10 +108,30 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "findFrequentColorsWithCompletionBlock:": {
-      "name": "findFrequentColorsWithCompletionBlock:",
-      "bridgedName": "findFrequentColorsWithCompletionBlock",
+    "findFrequentColorsForUse:maximumColorCount:ignoreAlpha:excludeForeignSymbols:completionHandler:": {
+      "name": "findFrequentColorsForUse:maximumColorCount:ignoreAlpha:excludeForeignSymbols:completionHandler:",
+      "bridgedName": "findFrequentColorsForUse_maximumColorCount_ignoreAlpha_excludeForeignSymbols_completionHandler",
       "args": [
+        {
+          "name": "colorUse",
+          "type": "MSColorUse",
+          "nullable": false
+        },
+        {
+          "name": "maxCount",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "ignoreAlpha",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "excludeForeignSymbols",
+          "type": "BOOL",
+          "nullable": false
+        },
         {
           "name": "block",
           "type": "MSColorFinderCompletionBlock",
@@ -122,13 +142,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "trackColors:": {
-      "name": "trackColors:",
-      "bridgedName": "trackColors",
+    "trackColors:excludeForeignSymbols:": {
+      "name": "trackColors:excludeForeignSymbols:",
+      "bridgedName": "trackColors_excludeForeignSymbols",
       "args": [
         {
           "name": "tracker",
           "type": "MSFrequentColorTracker *",
+          "nullable": false
+        },
+        {
+          "name": "excludeForeignSymbols",
+          "type": "BOOL",
           "nullable": false
         }
       ],

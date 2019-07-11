@@ -30,25 +30,6 @@
       "returns": "nonnull NSColorSpace *",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "canvasColorSpaceForScreenColorSpace:documentColorSpace:": {
-      "name": "canvasColorSpaceForScreenColorSpace:documentColorSpace:",
-      "bridgedName": "canvasColorSpaceForScreenColorSpace_documentColorSpace",
-      "args": [
-        {
-          "name": "screenColorSpace",
-          "type": "nonnull NSColorSpace *",
-          "nullable": false
-        },
-        {
-          "name": "documentColorSpace",
-          "type": "nonnull NSColorSpace *",
-          "nullable": false
-        }
-      ],
-      "returns": "nonnull NSColorSpace *",
-      "kind": "class",
-      "kindIndicator": "+"
     }
   },
   "properties": {},

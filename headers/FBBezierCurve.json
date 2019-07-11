@@ -464,9 +464,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "removeCrossingsInOverlap": {
-      "name": "removeCrossingsInOverlap",
-      "bridgedName": "removeCrossingsInOverlap",
+    "removeCrossingsInNonCrossingOverlapRuns": {
+      "name": "removeCrossingsInNonCrossingOverlapRuns",
+      "bridgedName": "removeCrossingsInNonCrossingOverlapRuns",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -883,6 +883,16 @@
       "attributes": [
         "nonatomic",
         "readonly"
+      ]
+    },
+    "crossings": {
+      "name": "crossings",
+      "pointer": false,
+      "type": "NSArray <FBEdgeCrossing *> *",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
       ]
     },
     "hasCrossings": {

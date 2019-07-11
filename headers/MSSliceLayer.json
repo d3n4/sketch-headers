@@ -3,7 +3,7 @@
   "extends": "_MSSliceLayer",
   "interfaces": [
     "MSLayerWithBackgroundColor",
-    "MSColorSpaceConvertible"
+    "MSColorConvertible"
   ],
   "methods": {
     "sliceLayerFromLayer:": {

@@ -31,6 +31,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "initWithDelegate:driver:": {
+      "name": "initWithDelegate:driver:",
+      "bridgedName": "initWithDelegate_driver",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSHighLevelExportDelegate>",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "formatsToExport": {
       "name": "formatsToExport",
       "bridgedName": "formatsToExport",

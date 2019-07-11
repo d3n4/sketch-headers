@@ -13,7 +13,7 @@
           "nullable": false
         },
         {
-          "name": "drawView",
+          "name": "contentDrawView",
           "type": "MSContentDrawView *",
           "nullable": false
         },

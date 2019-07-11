@@ -1,6 +1,6 @@
 {
   "name": "MSToggleBorderAction",
-  "extends": "MSDocumentAction",
+  "extends": "MSToggleStylePartAction",
   "interfaces": [],
   "methods": {},
   "properties": {},

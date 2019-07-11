@@ -5,6 +5,49 @@
     "MSDocumentData"
   ],
   "methods": {
+    "enumerateColorConvertiblesIgnoringForeignSymbols:": {
+      "name": "enumerateColorConvertiblesIgnoringForeignSymbols:",
+      "bridgedName": "enumerateColorConvertiblesIgnoringForeignSymbols",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSColorConvertibleHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceInstancesOfColor:withColor:ignoreAlphaWhenMatching:replaceAlpha:": {
+      "name": "replaceInstancesOfColor:withColor:ignoreAlphaWhenMatching:replaceAlpha:",
+      "bridgedName": "replaceInstancesOfColor_withColor_ignoreAlphaWhenMatching_replaceAlpha",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "replacementColor",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "ignoreAlphaWhenMatching",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "replaceAlphaOfOriginalColor",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "assignColorSpace:": {
       "name": "assignColorSpace:",
       "bridgedName": "assignColorSpace",
@@ -328,9 +371,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayOfViews": {
-      "name": "refreshOverlayOfViews",
-      "bridgedName": "refreshOverlayOfViews",
+    "refreshOverlay": {
+      "name": "refreshOverlay",
+      "bridgedName": "refreshOverlay",
       "args": [],
       "returns": "void",
       "kind": "instance",

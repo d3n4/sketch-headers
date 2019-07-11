@@ -3,13 +3,18 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "readPasteboardLayersFromPasteboard:options:": {
-      "name": "readPasteboardLayersFromPasteboard:options:",
-      "bridgedName": "readPasteboardLayersFromPasteboard_options",
+    "readPasteboardLayersFromPasteboard:colorSpace:options:": {
+      "name": "readPasteboardLayersFromPasteboard:colorSpace:options:",
+      "bridgedName": "readPasteboardLayersFromPasteboard_colorSpace_options",
       "args": [
         {
           "name": "pasteboard",
           "type": "NSPasteboard *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
           "nullable": false
         },
         {
@@ -22,13 +27,18 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "readPasteboardLayersFromDrag:": {
-      "name": "readPasteboardLayersFromDrag:",
-      "bridgedName": "readPasteboardLayersFromDrag",
+    "readPasteboardLayersFromDrag:colorSpace:": {
+      "name": "readPasteboardLayersFromDrag:colorSpace:",
+      "bridgedName": "readPasteboardLayersFromDrag_colorSpace",
       "args": [
         {
           "name": "dragInfo",
           "type": "id<NSDraggingInfo>",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
           "nullable": false
         }
       ],

@@ -1,6 +1,6 @@
 {
   "name": "SCKAPIOperation",
-  "extends": "NSOperation",
+  "extends": "SCKOperation",
   "interfaces": [],
   "methods": {
     "sharedURLSession": {

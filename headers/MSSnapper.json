@@ -169,15 +169,6 @@
         "strong"
       ]
     },
-    "delegate": {
-      "name": "delegate",
-      "pointer": false,
-      "type": "id <MSBasicDelegate>",
-      "attributes": [
-        "nonatomic",
-        "weak"
-      ]
-    },
     "zoomValue": {
       "name": "zoomValue",
       "pointer": false,

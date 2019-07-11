@@ -52,14 +52,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "hasNineSliceEnabled": {
-      "name": "hasNineSliceEnabled",
-      "bridgedName": "hasNineSliceEnabled",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "NSImage": {
       "name": "NSImage",
       "bridgedName": "NSImage",

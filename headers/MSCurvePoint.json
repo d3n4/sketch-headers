@@ -10,7 +10,7 @@
       "name": "point",
       "bridgedName": "point",
       "args": [],
-      "returns": "id",
+      "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -24,7 +24,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -48,7 +48,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -62,7 +62,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -86,7 +86,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },

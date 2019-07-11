@@ -17,6 +17,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "isScaled": {
+      "name": "isScaled",
+      "bridgedName": "isScaled",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "updateOverridesWithObjectIDMapping:afterChangingSymbolMasterWithID:": {
       "name": "updateOverridesWithObjectIDMapping:afterChangingSymbolMasterWithID:",
       "bridgedName": "updateOverridesWithObjectIDMapping_afterChangingSymbolMasterWithID",
@@ -84,6 +92,15 @@
       "name": "masterRefreshCounter",
       "pointer": false,
       "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overrides": {
+      "name": "overrides",
+      "pointer": false,
+      "type": "NSDictionary ",
       "attributes": [
         "nonatomic",
         "readonly"

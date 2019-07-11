@@ -39,6 +39,35 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:initialColor:": {
+      "name": "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:initialColor:",
+      "bridgedName": "presentColorInspectorPopoverForViewController_inspectorController_relativeToView_initialColor",
+      "args": [
+        {
+          "name": "viewController",
+          "type": "NSViewController<MSColorInspectorDelegate> *",
+          "nullable": false
+        },
+        {
+          "name": "inspectorController",
+          "type": "MSInspectorController *",
+          "nullable": false
+        },
+        {
+          "name": "positioningView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BCPopover *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "validateEnableButtons": {
       "name": "validateEnableButtons",
       "bridgedName": "validateEnableButtons",

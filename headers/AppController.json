@@ -154,6 +154,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "toggleComponentsPanel": {
+      "name": "toggleComponentsPanel",
+      "bridgedName": "toggleComponentsPanel",
+      "args": [],
+      "returns": "MSComponentsPanelController *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "openPreferencesWindowWithPreferencePaneIdentifier:": {
       "name": "openPreferencesWindowWithPreferencePaneIdentifier:",
       "bridgedName": "openPreferencesWindowWithPreferencePaneIdentifier",
@@ -457,6 +465,34 @@
       "attributes": [
         "assign",
         "nonatomic",
+        "readonly"
+      ]
+    },
+    "globalAssets": {
+      "name": "globalAssets",
+      "pointer": false,
+      "type": "MSPersistentAssetCollection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "componentsPanelController": {
+      "name": "componentsPanelController",
+      "pointer": false,
+      "type": "MSComponentsPanelController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sketchSafeModeOn": {
+      "name": "sketchSafeModeOn",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
         "readonly"
       ]
     },

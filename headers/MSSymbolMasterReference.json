@@ -58,6 +58,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "descriptor": {
+      "name": "descriptor",
+      "pointer": false,
+      "type": "MSSymbolMasterReferenceDescriptor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

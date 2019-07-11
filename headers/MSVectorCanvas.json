@@ -17,16 +17,10 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "forceSelectionMode:": {
-      "name": "forceSelectionMode:",
-      "bridgedName": "forceSelectionMode",
-      "args": [
-        {
-          "name": "on",
-          "type": "BOOL",
-          "nullable": false
-        }
-      ],
+    "didChangeAllowSelectionOnly": {
+      "name": "didChangeAllowSelectionOnly",
+      "bridgedName": "didChangeAllowSelectionOnly",
+      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -237,14 +231,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "isMakingRectSelection": {
-      "name": "isMakingRectSelection",
-      "bridgedName": "isMakingRectSelection",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "flagsChanged:": {
       "name": "flagsChanged:",
       "bridgedName": "flagsChanged",
@@ -353,6 +339,16 @@
         "copy",
         "nullable",
         "readonly"
+      ]
+    },
+    "interactivelySelecting": {
+      "name": "interactivelySelecting",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isInteractivelySelecting"
       ]
     },
     "pointInsertionIndexPath": {

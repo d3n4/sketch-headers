@@ -324,6 +324,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "clone": {
+      "name": "clone",
+      "bridgedName": "clone",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "crossesOwnContour:": {
       "name": "crossesOwnContour:",
       "bridgedName": "crossesOwnContour",
@@ -527,6 +535,16 @@
         "readonly"
       ]
     },
+    "nonPointEdges": {
+      "name": "nonPointEdges",
+      "pointer": false,
+      "type": "NSArray <FBBezierCurve *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
     "bounds": {
       "name": "bounds",
       "pointer": false,
@@ -615,6 +633,16 @@
       "attributes": [
         "nonatomic",
         "readonly"
+      ]
+    },
+    "crossings": {
+      "name": "crossings",
+      "pointer": false,
+      "type": "NSArray <FBEdgeCrossing *> *",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
       ]
     }
   },

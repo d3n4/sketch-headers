@@ -146,6 +146,16 @@
         "readonly",
         "strong"
       ]
+    },
+    "overlapRuns": {
+      "name": "overlapRuns",
+      "pointer": false,
+      "type": "NSArray <FBEdgeOverlapRun *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
     }
   },
   "generics": []

@@ -247,6 +247,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "bezierGraphWithClockwiseFillsAnticlockwiseHoles": {
+      "name": "bezierGraphWithClockwiseFillsAnticlockwiseHoles",
+      "bridgedName": "bezierGraphWithClockwiseFillsAnticlockwiseHoles",
+      "args": [],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "containmentResultForContour:": {
       "name": "containmentResultForContour:",
       "bridgedName": "containmentResultForContour",
@@ -257,7 +265,7 @@
           "nullable": false
         }
       ],
-      "returns": "FBContourWindingRuleResult",
+      "returns": "FBContainmentResult *",
       "kind": "instance",
       "kindIndicator": "-"
     },

@@ -242,6 +242,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "reversedPath": {
+      "name": "reversedPath",
+      "bridgedName": "reversedPath",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "clipContext:windingRule:inBlock:": {
       "name": "clipContext:windingRule:inBlock:",
       "bridgedName": "clipContext_windingRule_inBlock",
@@ -426,6 +434,15 @@
         "nonatomic",
         "readonly",
         "copy"
+      ]
+    },
+    "isRectangular": {
+      "name": "isRectangular",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     },
     "bounds": {

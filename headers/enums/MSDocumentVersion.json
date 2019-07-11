@@ -323,8 +323,16 @@
       "value": "94"
     },
     {
-      "name": "MSDocumentColorManagement",
+      "name": "MSDocumentColorManagementThatDidntShip",
       "value": "95"
+    },
+    {
+      "name": "MSDocumentColorManagementForReal",
+      "value": "96"
+    },
+    {
+      "name": "MSDocumentOverrideValues",
+      "value": "97"
     },
     {
       "name": "MSDocumentNextVersion"

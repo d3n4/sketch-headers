@@ -2,27 +2,7 @@
   "name": "MSNormalEventData",
   "extends": "NSObject",
   "interfaces": [],
-  "methods": {
-    "setSnapperData:delegate:": {
-      "name": "setSnapperData:delegate:",
-      "bridgedName": "setSnapperData_delegate",
-      "args": [
-        {
-          "name": "snapperData",
-          "type": "MSSnapperData *",
-          "nullable": false
-        },
-        {
-          "name": "delegate",
-          "type": "id<MSBasicDelegate>",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {
     "hasMultipleTouches": {
       "name": "hasMultipleTouches",
@@ -102,7 +82,7 @@
       "type": "MSSnapperData ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "strong"
       ]
     }
   },

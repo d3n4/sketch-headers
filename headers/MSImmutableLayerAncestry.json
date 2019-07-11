@@ -88,7 +88,18 @@
       "type": "MSImmutableLayerGroup ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nullable"
+      ]
+    },
+    "artboard": {
+      "name": "artboard",
+      "pointer": false,
+      "type": "MSImmutableArtboardGroup ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
       ]
     },
     "ancestors": {

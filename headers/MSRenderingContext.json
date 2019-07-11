@@ -3,10 +3,49 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "initWithDriver:cgContext:contextIsVectorBacked:colorSpace:atZoomLevel:document:": {
-      "name": "initWithDriver:cgContext:contextIsVectorBacked:colorSpace:atZoomLevel:document:",
-      "bridgedName": "initWithDriver_cgContext_contextIsVectorBacked_colorSpace_atZoomLevel_document",
+    "initWithName:driver:context:colorSpace:zoom:": {
+      "name": "initWithName:driver:context:colorSpace:zoom:",
+      "bridgedName": "initWithName_driver_context_colorSpace_zoom",
       "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver*",
+          "nullable": false
+        },
+        {
+          "name": "cgContext",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithName:driver:cgContext:contextIsVectorBacked:colorSpace:atZoomLevel:document:": {
+      "name": "initWithName:driver:cgContext:contextIsVectorBacked:colorSpace:atZoomLevel:document:",
+      "bridgedName": "initWithName_driver_cgContext_contextIsVectorBacked_colorSpace_atZoomLevel_document",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
         {
           "name": "driver",
           "type": "MSRenderingDriver*",
@@ -101,7 +140,7 @@
         },
         {
           "name": "rect",
-          "type": "NSRect",
+          "type": "CGRect",
           "nullable": false
         }
       ],
@@ -128,9 +167,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "renderLayer:ignoreCacheAndDirtyRect:": {
-      "name": "renderLayer:ignoreCacheAndDirtyRect:",
-      "bridgedName": "renderLayer_ignoreCacheAndDirtyRect",
+    "renderLayer:ignoreCacheAndDrawingArea:": {
+      "name": "renderLayer:ignoreCacheAndDrawingArea:",
+      "bridgedName": "renderLayer_ignoreCacheAndDrawingArea",
       "args": [
         {
           "name": "layer",
@@ -138,7 +177,7 @@
           "nullable": false
         },
         {
-          "name": "ignoreCacheAndDirtyRect",
+          "name": "ignoreCacheAndDrawingArea",
           "type": "BOOL",
           "nullable": false
         }
@@ -153,7 +192,7 @@
       "args": [
         {
           "name": "rect",
-          "type": "NSRect",
+          "type": "CGRect",
           "nullable": false
         },
         {
@@ -348,31 +387,7 @@
       "args": [
         {
           "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        },
-        {
-          "name": "block",
-          "type": "BCVoidBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "transparencyLayerInRect:mayOptimise:inBlock:": {
-      "name": "transparencyLayerInRect:mayOptimise:inBlock:",
-      "bridgedName": "transparencyLayerInRect_mayOptimise_inBlock",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        },
-        {
-          "name": "mayOptimise",
-          "type": "BOOL",
+          "type": "CGRect",
           "nullable": false
         },
         {
@@ -391,7 +406,7 @@
       "args": [
         {
           "name": "aRect",
-          "type": "NSRect",
+          "type": "CGRect",
           "nullable": false
         }
       ],
@@ -405,7 +420,7 @@
       "args": [
         {
           "name": "aRect",
-          "type": "NSRect",
+          "type": "CGRect",
           "nullable": false
         },
         {
@@ -536,9 +551,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "shouldDrawLayer:withMaskingShapeGroup:ignoreDirtyRect:": {
-      "name": "shouldDrawLayer:withMaskingShapeGroup:ignoreDirtyRect:",
-      "bridgedName": "shouldDrawLayer_withMaskingShapeGroup_ignoreDirtyRect",
+    "shouldDrawLayer:withMaskingShapeGroup:ignoreDrawingArea:": {
+      "name": "shouldDrawLayer:withMaskingShapeGroup:ignoreDrawingArea:",
+      "bridgedName": "shouldDrawLayer_withMaskingShapeGroup_ignoreDrawingArea",
       "args": [
         {
           "name": "layer",
@@ -551,7 +566,7 @@
           "nullable": false
         },
         {
-          "name": "ignoreDirtyRect",
+          "name": "ignoreDrawingArea",
           "type": "BOOL",
           "nullable": false
         }
@@ -700,6 +715,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "clipToRect:": {
+      "name": "clipToRect:",
+      "bridgedName": "clipToRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "applyShadow:respectFlipped:": {
       "name": "applyShadow:respectFlipped:",
       "bridgedName": "applyShadow_respectFlipped",
@@ -737,13 +766,21 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "shouldLog": {
+      "name": "shouldLog",
+      "bridgedName": "shouldLog",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
-    "isDrawingReflection": {
-      "name": "isDrawingReflection",
+    "drawingArea": {
+      "name": "drawingArea",
       "pointer": false,
-      "type": "BOOL",
+      "type": "CGRect",
       "attributes": [
         "nonatomic"
       ]
@@ -768,6 +805,14 @@
     },
     "isExporting": {
       "name": "isExporting",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isPrinting": {
+      "name": "isPrinting",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
@@ -831,14 +876,6 @@
         "readonly"
       ]
     },
-    "scrollOrigin": {
-      "name": "scrollOrigin",
-      "pointer": false,
-      "type": "NSPoint",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
     "colorSpace": {
       "name": "colorSpace",
       "pointer": false,
@@ -864,14 +901,6 @@
       "attributes": [
         "nonatomic",
         "readonly"
-      ]
-    },
-    "dirtyRect": {
-      "name": "dirtyRect",
-      "pointer": false,
-      "type": "NSRect",
-      "attributes": [
-        "nonatomic"
       ]
     },
     "backgroundColor": {
@@ -997,6 +1026,15 @@
       "attributes": [
         "nonatomic",
         "readonly",
+        "strong"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "nonatomic",
         "strong"
       ]
     }

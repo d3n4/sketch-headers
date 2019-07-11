@@ -44,14 +44,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "URLByResolvingSymlinksAndAliases": {
-      "name": "URLByResolvingSymlinksAndAliases",
-      "bridgedName": "URLByResolvingSymlinksAndAliases",
-      "args": [],
-      "returns": "NSURL *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "withExtension:": {
       "name": "withExtension:",
       "bridgedName": "withExtension",
@@ -63,6 +55,28 @@
         }
       ],
       "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "URLByResolvingSymlinksAndAliases": {
+      "name": "URLByResolvingSymlinksAndAliases",
+      "bridgedName": "URLByResolvingSymlinksAndAliases",
+      "args": [],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqualToFileURL_bc:": {
+      "name": "isEqualToFileURL_bc:",
+      "bridgedName": "isEqualToFileURL_bc",
+      "args": [
+        {
+          "name": "otherURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },

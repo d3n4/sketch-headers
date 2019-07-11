@@ -3,242 +3,6 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "heightWithFont:maxWidth:": {
-      "name": "heightWithFont:maxWidth:",
-      "bridgedName": "heightWithFont_maxWidth",
-      "args": [
-        {
-          "name": "myFont",
-          "type": "NSFont *",
-          "nullable": false
-        },
-        {
-          "name": "myWidth",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "CGFloat",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "fontSizeToFitStringWithAttributes:inSize:maximumFontSize:": {
-      "name": "fontSizeToFitStringWithAttributes:inSize:maximumFontSize:",
-      "bridgedName": "fontSizeToFitStringWithAttributes_inSize_maximumFontSize",
-      "args": [
-        {
-          "name": "attributes",
-          "type": "CHStringAttributes *",
-          "nullable": false
-        },
-        {
-          "name": "aSize",
-          "type": "NSSize",
-          "nullable": false
-        },
-        {
-          "name": "maxSize",
-          "type": "NSInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "NSInteger",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "fontSizeToFitStringWithAttributes:inSize:": {
-      "name": "fontSizeToFitStringWithAttributes:inSize:",
-      "bridgedName": "fontSizeToFitStringWithAttributes_inSize",
-      "args": [
-        {
-          "name": "attributes",
-          "type": "CHStringAttributes *",
-          "nullable": false
-        },
-        {
-          "name": "aSize",
-          "type": "NSSize",
-          "nullable": false
-        }
-      ],
-      "returns": "NSInteger",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "fontSizeToFitStringWithAttributes:inWidth:": {
-      "name": "fontSizeToFitStringWithAttributes:inWidth:",
-      "bridgedName": "fontSizeToFitStringWithAttributes_inWidth",
-      "args": [
-        {
-          "name": "attributes",
-          "type": "CHStringAttributes *",
-          "nullable": false
-        },
-        {
-          "name": "width",
-          "type": "NSInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "NSInteger",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "fontSizeToFitStringWithAttributes:inHeight:": {
-      "name": "fontSizeToFitStringWithAttributes:inHeight:",
-      "bridgedName": "fontSizeToFitStringWithAttributes_inHeight",
-      "args": [
-        {
-          "name": "attributes",
-          "type": "CHStringAttributes *",
-          "nullable": false
-        },
-        {
-          "name": "height",
-          "type": "NSInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "NSInteger",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "fitStringAttributes:inSize:": {
-      "name": "fitStringAttributes:inSize:",
-      "bridgedName": "fitStringAttributes_inSize",
-      "args": [
-        {
-          "name": "attributes",
-          "type": "CHStringAttributes *",
-          "nullable": false
-        },
-        {
-          "name": "aSize",
-          "type": "NSSize",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "fitStringAttributes:inWidth:": {
-      "name": "fitStringAttributes:inWidth:",
-      "bridgedName": "fitStringAttributes_inWidth",
-      "args": [
-        {
-          "name": "attributes",
-          "type": "CHStringAttributes *",
-          "nullable": false
-        },
-        {
-          "name": "width",
-          "type": "NSInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "fitStringAttributes:inHeight:": {
-      "name": "fitStringAttributes:inHeight:",
-      "bridgedName": "fitStringAttributes_inHeight",
-      "args": [
-        {
-          "name": "attributes",
-          "type": "CHStringAttributes *",
-          "nullable": false
-        },
-        {
-          "name": "height",
-          "type": "NSInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "enumerateWordRanges:": {
-      "name": "enumerateWordRanges:",
-      "bridgedName": "enumerateWordRanges",
-      "args": [
-        {
-          "name": "block",
-          "type": "CHStringWordEnumeratorBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "wordRanges": {
-      "name": "wordRanges",
-      "bridgedName": "wordRanges",
-      "args": [],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "drawAtPoint:withFont:": {
-      "name": "drawAtPoint:withFont:",
-      "bridgedName": "drawAtPoint_withFont",
-      "args": [
-        {
-          "name": "aPoint",
-          "type": "NSPoint",
-          "nullable": false
-        },
-        {
-          "name": "font",
-          "type": "NSFont *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "drawCenteredAtPoint:withFont:color:": {
-      "name": "drawCenteredAtPoint:withFont:color:",
-      "bridgedName": "drawCenteredAtPoint_withFont_color",
-      "args": [
-        {
-          "name": "aPoint",
-          "type": "NSPoint",
-          "nullable": false
-        },
-        {
-          "name": "font",
-          "type": "NSFont *",
-          "nullable": false
-        },
-        {
-          "name": "color",
-          "type": "NSColor *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "sizeWithFont:": {
-      "name": "sizeWithFont:",
-      "bridgedName": "sizeWithFont",
-      "args": [
-        {
-          "name": "aFont",
-          "type": "NSFont *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSSize",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "stringRepresentationForSeconds:": {
       "name": "stringRepresentationForSeconds:",
       "bridgedName": "stringRepresentationForSeconds",
@@ -446,6 +210,14 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "words": {
+      "name": "words",
+      "bridgedName": "words",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "parent": {
       "name": "parent",
       "bridgedName": "parent",
@@ -528,6 +300,220 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "drawAtPoint:withFont:": {
+      "name": "drawAtPoint:withFont:",
+      "bridgedName": "drawAtPoint_withFont",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "font",
+          "type": "NSFont *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawCenteredAtPoint:withFont:color:": {
+      "name": "drawCenteredAtPoint:withFont:color:",
+      "bridgedName": "drawCenteredAtPoint_withFont_color",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "font",
+          "type": "NSFont *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sizeWithFont:": {
+      "name": "sizeWithFont:",
+      "bridgedName": "sizeWithFont",
+      "args": [
+        {
+          "name": "aFont",
+          "type": "NSFont *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "heightWithFont:maxWidth:": {
+      "name": "heightWithFont:maxWidth:",
+      "bridgedName": "heightWithFont_maxWidth",
+      "args": [
+        {
+          "name": "myFont",
+          "type": "NSFont *",
+          "nullable": false
+        },
+        {
+          "name": "myWidth",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fontSizeToFitStringWithAttributes:inSize:maximumFontSize:": {
+      "name": "fontSizeToFitStringWithAttributes:inSize:maximumFontSize:",
+      "bridgedName": "fontSizeToFitStringWithAttributes_inSize_maximumFontSize",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "CHStringAttributes *",
+          "nullable": false
+        },
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "maxSize",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fontSizeToFitStringWithAttributes:inSize:": {
+      "name": "fontSizeToFitStringWithAttributes:inSize:",
+      "bridgedName": "fontSizeToFitStringWithAttributes_inSize",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "CHStringAttributes *",
+          "nullable": false
+        },
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fontSizeToFitStringWithAttributes:inWidth:": {
+      "name": "fontSizeToFitStringWithAttributes:inWidth:",
+      "bridgedName": "fontSizeToFitStringWithAttributes_inWidth",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "CHStringAttributes *",
+          "nullable": false
+        },
+        {
+          "name": "width",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fontSizeToFitStringWithAttributes:inHeight:": {
+      "name": "fontSizeToFitStringWithAttributes:inHeight:",
+      "bridgedName": "fontSizeToFitStringWithAttributes_inHeight",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "CHStringAttributes *",
+          "nullable": false
+        },
+        {
+          "name": "height",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fitStringAttributes:inSize:": {
+      "name": "fitStringAttributes:inSize:",
+      "bridgedName": "fitStringAttributes_inSize",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "CHStringAttributes *",
+          "nullable": false
+        },
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fitStringAttributes:inWidth:": {
+      "name": "fitStringAttributes:inWidth:",
+      "bridgedName": "fitStringAttributes_inWidth",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "CHStringAttributes *",
+          "nullable": false
+        },
+        {
+          "name": "width",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fitStringAttributes:inHeight:": {
+      "name": "fitStringAttributes:inHeight:",
+      "bridgedName": "fitStringAttributes_inHeight",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "CHStringAttributes *",
+          "nullable": false
+        },
+        {
+          "name": "height",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "colorValue": {
       "name": "colorValue",
       "bridgedName": "colorValue",
@@ -536,9 +522,23 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "words": {
-      "name": "words",
-      "bridgedName": "words",
+    "enumerateWordRanges:": {
+      "name": "enumerateWordRanges:",
+      "bridgedName": "enumerateWordRanges",
+      "args": [
+        {
+          "name": "block",
+          "type": "CHStringWordEnumeratorBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "wordRanges": {
+      "name": "wordRanges",
+      "bridgedName": "wordRanges",
       "args": [],
       "returns": "NSArray *",
       "kind": "instance",

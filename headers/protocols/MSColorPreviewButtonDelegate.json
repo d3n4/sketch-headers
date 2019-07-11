@@ -4,9 +4,9 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "colorPreviewButtonColorSpace:": {
-      "name": "colorPreviewButtonColorSpace:",
-      "bridgedName": "colorPreviewButtonColorSpace",
+    "colorPreviewButtonPreviewColorSpace:": {
+      "name": "colorPreviewButtonPreviewColorSpace:",
+      "bridgedName": "colorPreviewButtonPreviewColorSpace",
       "args": [
         {
           "name": "button",

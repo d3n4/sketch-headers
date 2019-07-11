@@ -60,7 +60,7 @@
       "bridgedName": "NSGradientWithColorSpace",
       "args": [
         {
-          "name": "space",
+          "name": "colorSpace",
           "type": "NSColorSpace *",
           "nullable": false
         }

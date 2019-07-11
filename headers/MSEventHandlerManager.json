@@ -17,13 +17,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "handlerForKey:": {
-      "name": "handlerForKey:",
-      "bridgedName": "handlerForKey",
+    "handlerForClass:": {
+      "name": "handlerForClass:",
+      "bridgedName": "handlerForClass",
       "args": [
         {
-          "name": "key",
-          "type": "NSString *",
+          "name": "aClass",
+          "type": "Class",
           "nullable": false
         }
       ],
@@ -31,13 +31,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "switchToEventHandlerKey:": {
-      "name": "switchToEventHandlerKey:",
-      "bridgedName": "switchToEventHandlerKey",
+    "switchToEventHandlerClass:": {
+      "name": "switchToEventHandlerClass:",
+      "bridgedName": "switchToEventHandlerClass",
       "args": [
         {
-          "name": "handlerKey",
-          "type": "NSString *",
+          "name": "handlerClass",
+          "type": "Class",
           "nullable": false
         }
       ],
@@ -45,13 +45,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "toggleHandlerKey:": {
-      "name": "toggleHandlerKey:",
-      "bridgedName": "toggleHandlerKey",
+    "toggleHandlerClass:": {
+      "name": "toggleHandlerClass:",
+      "bridgedName": "toggleHandlerClass",
       "args": [
         {
-          "name": "key",
-          "type": "NSString *",
+          "name": "handlerClass",
+          "type": "Class",
           "nullable": false
         }
       ],
@@ -150,6 +150,15 @@
     }
   },
   "properties": {
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
     "delegate": {
       "name": "delegate",
       "pointer": false,
@@ -190,6 +199,15 @@
       "name": "lastEventType",
       "pointer": false,
       "type": "MSEventType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "undoManager": {
+      "name": "undoManager",
+      "pointer": false,
+      "type": "NSUndoManager ",
       "attributes": [
         "nonatomic",
         "readonly"

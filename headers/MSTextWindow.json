@@ -17,9 +17,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "moveToRect:drawViewRect:behaviour:": {
-      "name": "moveToRect:drawViewRect:behaviour:",
-      "bridgedName": "moveToRect_drawViewRect_behaviour",
+    "moveToRect:contentDrawViewRect:behaviour:": {
+      "name": "moveToRect:contentDrawViewRect:behaviour:",
+      "bridgedName": "moveToRect_contentDrawViewRect_behaviour",
       "args": [
         {
           "name": "textViewRect",
@@ -27,7 +27,7 @@
           "nullable": false
         },
         {
-          "name": "drawViewRect",
+          "name": "contentDrawViewRect",
           "type": "NSRect",
           "nullable": false
         },
@@ -62,13 +62,22 @@
     }
   },
   "properties": {
-    "drawView": {
-      "name": "drawView",
+    "contentDrawView": {
+      "name": "contentDrawView",
       "pointer": false,
       "type": "MSContentDrawView ",
       "attributes": [
         "nonatomic",
         "strong"
+      ]
+    },
+    "textView": {
+      "name": "textView",
+      "pointer": false,
+      "type": "NSTextView ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

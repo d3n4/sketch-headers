@@ -164,9 +164,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayOfViews": {
-      "name": "refreshOverlayOfViews",
-      "bridgedName": "refreshOverlayOfViews",
+    "refreshOverlay": {
+      "name": "refreshOverlay",
+      "bridgedName": "refreshOverlay",
       "args": [],
       "returns": "void",
       "kind": "instance",

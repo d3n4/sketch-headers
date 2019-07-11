@@ -259,7 +259,7 @@
     "currentRoot": {
       "name": "currentRoot",
       "pointer": false,
-      "type": "MSLayer <MSRootLayer> ",
+      "type": "MSLayerGroup <MSRootLayer> ",
       "attributes": [
         "nonatomic",
         "readonly",

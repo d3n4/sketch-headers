@@ -486,8 +486,8 @@
         "readonly"
       ]
     },
-    "numberOfIncompatiblePluginDisabled": {
-      "name": "numberOfIncompatiblePluginDisabled",
+    "numberOfIncompatiblePluginsDisabled": {
+      "name": "numberOfIncompatiblePluginsDisabled",
       "pointer": false,
       "type": "NSInteger",
       "attributes": [
@@ -520,6 +520,15 @@
       "name": "updatesAddedToWarehouse",
       "pointer": false,
       "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "doNotLoadPlugins": {
+      "name": "doNotLoadPlugins",
+      "pointer": false,
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
         "assign"

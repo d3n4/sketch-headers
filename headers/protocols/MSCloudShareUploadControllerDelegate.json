@@ -53,8 +53,8 @@
         },
         {
           "name": "progress",
-          "type": "double",
-          "nullable": false
+          "type": "NSProgress *",
+          "nullable": true
         }
       ],
       "returns": "void",

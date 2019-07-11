@@ -3,11 +3,11 @@
   "extends": "MSDocumentAction",
   "interfaces": [],
   "methods": {
-    "eventHandlerKey": {
-      "name": "eventHandlerKey",
-      "bridgedName": "eventHandlerKey",
+    "eventHandlerClass": {
+      "name": "eventHandlerClass",
+      "bridgedName": "eventHandlerClass",
       "args": [],
-      "returns": "NSString *",
+      "returns": "Class",
       "kind": "instance",
       "kindIndicator": "-"
     }

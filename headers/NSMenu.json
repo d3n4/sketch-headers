@@ -3,20 +3,6 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "menuWithItems:": {
-      "name": "menuWithItems:",
-      "bridgedName": "menuWithItems",
-      "args": [
-        {
-          "name": "menuItems",
-          "type": "NSArray *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSMenu *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "addItemWithTitle:action:": {
       "name": "addItemWithTitle:action:",
       "bridgedName": "addItemWithTitle_action",
@@ -312,6 +298,73 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "showPopUpMenuForEvent:relativeToRect:ofView:": {
+      "name": "showPopUpMenuForEvent:relativeToRect:ofView:",
+      "bridgedName": "showPopUpMenuForEvent_relativeToRect_ofView",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showPopUpMenuForEvent:relativeToRect:ofView:deferred:": {
+      "name": "showPopUpMenuForEvent:relativeToRect:ofView:deferred:",
+      "bridgedName": "showPopUpMenuForEvent_relativeToRect_ofView_deferred",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "defer",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuWithItems:": {
+      "name": "menuWithItems:",
+      "bridgedName": "menuWithItems",
+      "args": [
+        {
+          "name": "menuItems",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenu *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {},

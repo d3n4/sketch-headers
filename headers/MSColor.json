@@ -51,7 +51,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "instancetype ",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -143,6 +143,20 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "colorWithAlphaComponent:": {
+      "name": "colorWithAlphaComponent:",
+      "bridgedName": "colorWithAlphaComponent",
+      "args": [
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "NSColorWithColorSpace:": {
       "name": "NSColorWithColorSpace:",
       "bridgedName": "NSColorWithColorSpace",
@@ -171,17 +185,55 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "colorWithAlphaComponent:": {
-      "name": "colorWithAlphaComponent:",
-      "bridgedName": "colorWithAlphaComponent",
+    "fuzzyIsEqual:precision:": {
+      "name": "fuzzyIsEqual:precision:",
+      "bridgedName": "fuzzyIsEqual_precision",
       "args": [
         {
-          "name": "alpha",
+          "name": "other",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "precision",
           "type": "CGFloat",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fuzzyIsEqualExcludingAlpha:": {
+      "name": "fuzzyIsEqualExcludingAlpha:",
+      "bridgedName": "fuzzyIsEqualExcludingAlpha",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fuzzyIsEqualExcludingAlpha:precision:": {
+      "name": "fuzzyIsEqualExcludingAlpha:precision:",
+      "bridgedName": "fuzzyIsEqualExcludingAlpha_precision",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "precision",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     }

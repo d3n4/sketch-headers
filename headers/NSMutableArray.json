@@ -3,6 +3,39 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "removeObjectsPassingTest:": {
+      "name": "removeObjectsPassingTest:",
+      "bridgedName": "removeObjectsPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(id obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayWithCapacity:fill:": {
+      "name": "arrayWithCapacity:fill:",
+      "bridgedName": "arrayWithCapacity_fill",
+      "args": [
+        {
+          "name": "count",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "id (^)(NSUInteger index)",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "addObjectIfNotNil:": {
       "name": "addObjectIfNotNil:",
       "bridgedName": "addObjectIfNotNil",
@@ -43,39 +76,6 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "removeObjectsPassingTest:": {
-      "name": "removeObjectsPassingTest:",
-      "bridgedName": "removeObjectsPassingTest",
-      "args": [
-        {
-          "name": "predicate",
-          "type": "BOOL (^)(id obj)",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "arrayWithCapacity:fill:": {
-      "name": "arrayWithCapacity:fill:",
-      "bridgedName": "arrayWithCapacity_fill",
-      "args": [
-        {
-          "name": "count",
-          "type": "NSUInteger",
-          "nullable": false
-        },
-        {
-          "name": "block",
-          "type": "id (^)(NSUInteger index)",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "class",
-      "kindIndicator": "+"
     },
     "mo_setObject:forIndexedSubscript:": {
       "name": "mo_setObject:forIndexedSubscript:",

@@ -4,9 +4,9 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "downloadManager:downloadTaskHasUpdatedForIdentifier:": {
-      "name": "downloadManager:downloadTaskHasUpdatedForIdentifier:",
-      "bridgedName": "downloadManager_downloadTaskHasUpdatedForIdentifier",
+    "downloadManager:downloadTaskHasUpdatedForIdentifier:downloadedSoFar:withDownloadSize:": {
+      "name": "downloadManager:downloadTaskHasUpdatedForIdentifier:downloadedSoFar:withDownloadSize:",
+      "bridgedName": "downloadManager_downloadTaskHasUpdatedForIdentifier_downloadedSoFar_withDownloadSize",
       "args": [
         {
           "name": "downloadManager",
@@ -16,6 +16,16 @@
         {
           "name": "identifier",
           "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "downloadedSoFar",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "downloadSize",
+          "type": "NSUInteger",
           "nullable": false
         }
       ],
@@ -47,9 +57,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "downloadManager:downloadTaskFailedWithError:forTaskIdentifier:": {
-      "name": "downloadManager:downloadTaskFailedWithError:forTaskIdentifier:",
-      "bridgedName": "downloadManager_downloadTaskFailedWithError_forTaskIdentifier",
+    "downloadManager:downloadTaskWithIdentifier:failedWithError:": {
+      "name": "downloadManager:downloadTaskWithIdentifier:failedWithError:",
+      "bridgedName": "downloadManager_downloadTaskWithIdentifier_failedWithError",
       "args": [
         {
           "name": "downloadManager",
@@ -57,13 +67,13 @@
           "nullable": false
         },
         {
-          "name": "error",
-          "type": "NSError *",
+          "name": "identifier",
+          "type": "NSString *",
           "nullable": false
         },
         {
-          "name": "identifier",
-          "type": "NSString *",
+          "name": "error",
+          "type": "NSError *",
           "nullable": false
         }
       ],

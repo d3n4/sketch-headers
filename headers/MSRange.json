@@ -9,17 +9,17 @@
       "args": [
         {
           "name": "fromIndex",
-          "type": "NSInteger",
+          "type": "NSUInteger",
           "nullable": false
         },
         {
           "name": "toIndex",
-          "type": "NSInteger",
+          "type": "NSUInteger",
           "nullable": false
         },
         {
           "name": "block",
-          "type": "void (^)(NSInteger index)",
+          "type": "void (^)(NSUInteger index)",
           "nullable": false
         }
       ],

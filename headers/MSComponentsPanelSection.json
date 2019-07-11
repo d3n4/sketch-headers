@@ -1,0 +1,73 @@
+{
+  "name": "MSComponentsPanelSection",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sectionsFromSymbolMapping:": {
+      "name": "sectionsFromSymbolMapping:",
+      "bridgedName": "sectionsFromSymbolMapping",
+      "args": [
+        {
+          "name": "symbolMapping",
+          "type": "NSArray <NSDictionary *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSComponentsPanelSection *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "displayNameForSymbol:": {
+      "name": "displayNameForSymbol:",
+      "bridgedName": "displayNameForSymbol",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMasterReference *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasProperSectionContent": {
+      "name": "hasProperSectionContent",
+      "bridgedName": "hasProperSectionContent",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "libraryName": {
+      "name": "libraryName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "symbols": {
+      "name": "symbols",
+      "pointer": false,
+      "type": "NSArray <MSSymbolMasterReference *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

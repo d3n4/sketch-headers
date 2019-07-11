@@ -90,6 +90,20 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "documentURLInDirectory:": {
+      "name": "documentURLInDirectory:",
+      "bridgedName": "documentURLInDirectory",
+      "args": [
+        {
+          "name": "directory",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "initWithDocument:name:includeDocument:localURL:": {
       "name": "initWithDocument:name:includeDocument:localURL:",
       "bridgedName": "initWithDocument_name_includeDocument_localURL",
@@ -129,6 +143,14 @@
           "nullable": false
         }
       ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancel": {
+      "name": "cancel",
+      "bridgedName": "cancel",
+      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

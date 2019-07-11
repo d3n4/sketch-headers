@@ -3,34 +3,6 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "sortedArrayUsingKey:": {
-      "name": "sortedArrayUsingKey:",
-      "bridgedName": "sortedArrayUsingKey",
-      "args": [
-        {
-          "name": "key",
-          "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "setMinusSet:": {
-      "name": "setMinusSet:",
-      "bridgedName": "setMinusSet",
-      "args": [
-        {
-          "name": "otherSet",
-          "type": "NSSet *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSSet *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "each:": {
       "name": "each:",
       "bridgedName": "each",
@@ -73,6 +45,34 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "sortedArrayUsingKey:": {
+      "name": "sortedArrayUsingKey:",
+      "bridgedName": "sortedArrayUsingKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setMinusSet:": {
+      "name": "setMinusSet:",
+      "bridgedName": "setMinusSet",
+      "args": [
+        {
+          "name": "otherSet",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "sck_flatMap:": {
       "name": "sck_flatMap:",
       "bridgedName": "sck_flatMap",
@@ -84,6 +84,46 @@
         }
       ],
       "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sortedOffsets_ms": {
+      "name": "sortedOffsets_ms",
+      "bridgedName": "sortedOffsets_ms",
+      "args": [],
+      "returns": "NSArray <NSNumber *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "offsetsInBezierInterval_ms": {
+      "name": "offsetsInBezierInterval_ms",
+      "bridgedName": "offsetsInBezierInterval_ms",
+      "args": [],
+      "returns": "NSSet <NSNumber *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sortedOffsetsInBezierInterval_ms": {
+      "name": "sortedOffsetsInBezierInterval_ms",
+      "bridgedName": "sortedOffsetsInBezierInterval_ms",
+      "args": [],
+      "returns": "NSArray <NSNumber *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstOffsetInBezierInterval_ms": {
+      "name": "firstOffsetInBezierInterval_ms",
+      "bridgedName": "firstOffsetInBezierInterval_ms",
+      "args": [],
+      "returns": "NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lastOffsetInBezierInterval_ms": {
+      "name": "lastOffsetInBezierInterval_ms",
+      "bridgedName": "lastOffsetInBezierInterval_ms",
+      "args": [],
+      "returns": "NSNumber *",
       "kind": "instance",
       "kindIndicator": "-"
     }

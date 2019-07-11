@@ -111,14 +111,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "currentHandlerKey": {
-      "name": "currentHandlerKey",
-      "bridgedName": "currentHandlerKey",
-      "args": [],
-      "returns": "NSString *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "isInNormalHandler": {
       "name": "isInNormalHandler",
       "bridgedName": "isInNormalHandler",
@@ -135,13 +127,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "toggleHandlerKey:": {
-      "name": "toggleHandlerKey:",
-      "bridgedName": "toggleHandlerKey",
+    "toggleHandlerClass:": {
+      "name": "toggleHandlerClass:",
+      "bridgedName": "toggleHandlerClass",
       "args": [
         {
-          "name": "key",
-          "type": "NSString *",
+          "name": "handlerClass",
+          "type": "Class",
           "nullable": false
         }
       ],
@@ -149,13 +141,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "setCurrentHandlerKey:": {
-      "name": "setCurrentHandlerKey:",
-      "bridgedName": "setCurrentHandlerKey",
+    "setCurrentHandlerClass:": {
+      "name": "setCurrentHandlerClass:",
+      "bridgedName": "setCurrentHandlerClass",
       "args": [
         {
-          "name": "key",
-          "type": "NSString *",
+          "name": "handlerClass",
+          "type": "Class",
           "nullable": false
         }
       ],
@@ -187,9 +179,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayOfViews": {
-      "name": "refreshOverlayOfViews",
-      "bridgedName": "refreshOverlayOfViews",
+    "refreshOverlay": {
+      "name": "refreshOverlay",
+      "bridgedName": "refreshOverlay",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -227,15 +219,6 @@
       "attributes": [
         "nonatomic",
         "readonly"
-      ]
-    },
-    "delegate": {
-      "name": "delegate",
-      "pointer": false,
-      "type": "id <MSBasicDelegate>",
-      "attributes": [
-        "nonatomic",
-        "weak"
       ]
     },
     "cachedTouchedBarItem": {

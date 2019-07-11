@@ -35,25 +35,6 @@
       "returns": "id",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "menuBuilderWithTarget:delegate:": {
-      "name": "menuBuilderWithTarget:delegate:",
-      "bridgedName": "menuBuilderWithTarget_delegate",
-      "args": [
-        {
-          "name": "target",
-          "type": "id",
-          "nullable": false
-        },
-        {
-          "name": "delegate",
-          "type": "id <MSBasicDelegate>",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "class",
-      "kindIndicator": "+"
     }
   },
   "properties": {
@@ -74,16 +55,6 @@
       "attributes": [
         "nonatomic",
         "assign",
-        "readonly"
-      ]
-    },
-    "<MSBasicDelegate>delegate": {
-      "name": "<MSBasicDelegate>delegate",
-      "pointer": false,
-      "type": "id",
-      "attributes": [
-        "nonatomic",
-        "weak",
         "readonly"
       ]
     }

@@ -36,7 +36,7 @@
     },
     {
       "name": "BCConstraintAllSizeable",
-      "value": "BCConstraintMinXSizeable | BCConstraintWidthSizeable  | BCConstraintMaxXSizeable |\n                                BCConstraintMinYSizeable | BCConstraintHeightSizeable | BCConstraintMaxYSizeable"
+      "value": "BCConstraintMinXSizeable | BCConstraintWidthSizeable  | BCConstraintMaxXSizeable |\n  BCConstraintMinYSizeable | BCConstraintHeightSizeable | BCConstraintMaxYSizeable"
     }
   ]
 }

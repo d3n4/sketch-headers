@@ -2,7 +2,7 @@
   "name": "MSStyleBasicFill",
   "extends": "_MSStyleBasicFill",
   "interfaces": [
-    "MSColorSpaceConvertible"
+    "MSColorConvertible"
   ],
   "methods": {
     "defaultFillColor": {

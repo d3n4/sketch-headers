@@ -1,7 +1,10 @@
 {
   "name": "BCHSBColorPicker",
   "extends": "NSControl",
-  "interfaces": [],
+  "interfaces": [
+    "BCColorPreviewDelegate",
+    "BCMagnifierButtonDelegate"
+  ],
   "methods": {
     "hueChanged:": {
       "name": "hueChanged:",

@@ -3,13 +3,13 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "initWithLayerID:property:parent:": {
-      "name": "initWithLayerID:property:parent:",
-      "bridgedName": "initWithLayerID_property_parent",
+    "initWithLayer:property:parent:": {
+      "name": "initWithLayer:property:parent:",
+      "bridgedName": "initWithLayer_property_parent",
       "args": [
         {
-          "name": "layerID",
-          "type": "NSString*",
+          "name": "layer",
+          "type": "MSImmutableLayer*",
           "nullable": false
         },
         {
@@ -24,6 +24,20 @@
         }
       ],
       "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "comparisonScoreAgainst:": {
+      "name": "comparisonScoreAgainst:",
+      "bridgedName": "comparisonScoreAgainst",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSOverridePoint*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -51,6 +65,15 @@
       "name": "name",
       "pointer": false,
       "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isSymbolOverride": {
+      "name": "isSymbolOverride",
+      "pointer": false,
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
         "readonly"

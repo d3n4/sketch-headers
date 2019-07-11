@@ -71,6 +71,34 @@
       "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "shareDeletionRequestWithID:": {
+      "name": "shareDeletionRequestWithID:",
+      "bridgedName": "shareDeletionRequestWithID",
+      "args": [
+        {
+          "name": "shareID",
+          "type": "SCKObjectID *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shareCancelUpdateRequestWithID:": {
+      "name": "shareCancelUpdateRequestWithID:",
+      "bridgedName": "shareCancelUpdateRequestWithID",
+      "args": [
+        {
+          "name": "shareID",
+          "type": "SCKObjectID *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {},

@@ -172,6 +172,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "replaceWithInstanceOfSymbol:": {
+      "name": "replaceWithInstanceOfSymbol:",
+      "bridgedName": "replaceWithInstanceOfSymbol",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSymbolInstance *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "layerSnapperObjectClass": {
       "name": "layerSnapperObjectClass",
       "bridgedName": "layerSnapperObjectClass",
@@ -308,13 +322,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "applyOverridesFromSource:": {
-      "name": "applyOverridesFromSource:",
-      "bridgedName": "applyOverridesFromSource",
+    "applyOverrides:": {
+      "name": "applyOverrides:",
+      "bridgedName": "applyOverrides",
       "args": [
         {
-          "name": "dataSource",
-          "type": "id<MSOverrideDataSource>",
+          "name": "overrides",
+          "type": "NSArray<MSImmutableOverrideValue*> *",
           "nullable": false
         }
       ],
@@ -322,17 +336,22 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "acceptsOverrideValue:": {
-      "name": "acceptsOverrideValue:",
-      "bridgedName": "acceptsOverrideValue",
+    "applyOverride:toPoint:": {
+      "name": "applyOverride:toPoint:",
+      "bridgedName": "applyOverride_toPoint",
       "args": [
         {
           "name": "overrideValue",
-          "type": "id",
+          "type": "MSImmutableOverrideValue*",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "MSOverridePoint*",
           "nullable": false
         }
       ],
-      "returns": "BOOL",
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1216,11 +1235,11 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "handlerName": {
-      "name": "handlerName",
-      "bridgedName": "handlerName",
+    "handlerClass": {
+      "name": "handlerClass",
+      "bridgedName": "handlerClass",
       "args": [],
-      "returns": "nullable NSString *",
+      "returns": "nullable Class",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1308,14 +1327,6 @@
       "bridgedName": "inspectorViewControllers",
       "args": [],
       "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "overrideViewControllerClass": {
-      "name": "overrideViewControllerClass",
-      "bridgedName": "overrideViewControllerClass",
-      "args": [],
-      "returns": "Class",
       "kind": "instance",
       "kindIndicator": "-"
     },

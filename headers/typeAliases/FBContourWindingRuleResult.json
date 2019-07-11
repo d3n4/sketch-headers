@@ -1,6 +1,0 @@
-{
-  "typeAlias": true,
-  "name": "FBContourWindingRuleResult",
-  "type": "struct FBContourWindingRuleResult",
-  "pointer": false
-}

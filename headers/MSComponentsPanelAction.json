@@ -1,0 +1,23 @@
+{
+  "name": "MSComponentsPanelAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "componentsPanelAction:": {
+      "name": "componentsPanelAction:",
+      "bridgedName": "componentsPanelAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -3,6 +3,89 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "sum:": {
+      "name": "sum:",
+      "bridgedName": "sum",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCSumBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayWithCapacity:fill:": {
+      "name": "arrayWithCapacity:fill:",
+      "bridgedName": "arrayWithCapacity_fill",
+      "args": [
+        {
+          "name": "count",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "id (^)(NSUInteger index)",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "firstObjectPassingTest:": {
+      "name": "firstObjectPassingTest:",
+      "bridgedName": "firstObjectPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(id obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfFirstObjectPassingTest:": {
+      "name": "indexOfFirstObjectPassingTest:",
+      "bridgedName": "indexOfFirstObjectPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(id obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsObjectPassingTest:": {
+      "name": "containsObjectPassingTest:",
+      "bridgedName": "containsObjectPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(id obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "front": {
+      "name": "front",
+      "bridgedName": "front",
+      "args": [],
+      "returns": "NSArray<ObjectType>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "tail": {
       "name": "tail",
       "bridgedName": "tail",
@@ -390,89 +473,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "sum:": {
-      "name": "sum:",
-      "bridgedName": "sum",
-      "args": [
-        {
-          "name": "block",
-          "type": "BCSumBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "CGFloat",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "arrayWithCapacity:fill:": {
-      "name": "arrayWithCapacity:fill:",
-      "bridgedName": "arrayWithCapacity_fill",
-      "args": [
-        {
-          "name": "count",
-          "type": "NSUInteger",
-          "nullable": false
-        },
-        {
-          "name": "block",
-          "type": "id (^)(NSUInteger index)",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "firstObjectPassingTest:": {
-      "name": "firstObjectPassingTest:",
-      "bridgedName": "firstObjectPassingTest",
-      "args": [
-        {
-          "name": "predicate",
-          "type": "BOOL (^)(id obj)",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "indexOfFirstObjectPassingTest:": {
-      "name": "indexOfFirstObjectPassingTest:",
-      "bridgedName": "indexOfFirstObjectPassingTest",
-      "args": [
-        {
-          "name": "predicate",
-          "type": "BOOL (^)(id obj)",
-          "nullable": false
-        }
-      ],
-      "returns": "NSUInteger",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "containsObjectPassingTest:": {
-      "name": "containsObjectPassingTest:",
-      "bridgedName": "containsObjectPassingTest",
-      "args": [
-        {
-          "name": "predicate",
-          "type": "BOOL (^)(id obj)",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "front": {
-      "name": "front",
-      "bridgedName": "front",
-      "args": [],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "mo_objectForIndexedSubscript:": {
       "name": "mo_objectForIndexedSubscript:",
       "bridgedName": "mo_objectForIndexedSubscript",
@@ -544,7 +544,5 @@
     }
   },
   "properties": {},
-  "generics": [
-    "ObjectType"
-  ]
+  "generics": []
 }

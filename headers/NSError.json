@@ -33,6 +33,16 @@
         "readonly",
         "getter=isCloudNotAuthorized"
       ]
+    },
+    "urlCancelled": {
+      "name": "urlCancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isURLCancelled"
+      ]
     }
   },
   "generics": []

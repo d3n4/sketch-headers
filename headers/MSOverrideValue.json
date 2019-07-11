@@ -1,35 +1,21 @@
 {
   "name": "MSOverrideValue",
-  "extends": "NSObject",
+  "extends": "_MSOverrideValue",
   "interfaces": [],
   "methods": {
-    "overrideValuesFromDictionary:": {
-      "name": "overrideValuesFromDictionary:",
-      "bridgedName": "overrideValuesFromDictionary",
+    "addPredecessor:": {
+      "name": "addPredecessor:",
+      "bridgedName": "addPredecessor",
       "args": [
         {
-          "name": "dict",
-          "type": "NSDictionary*",
+          "name": "predecessor",
+          "type": "MSOverrideValue *",
           "nullable": false
         }
       ],
-      "returns": "NSArray<MSOverrideValue *> *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "dictionaryFromOverrideValues:": {
-      "name": "dictionaryFromOverrideValues:",
-      "bridgedName": "dictionaryFromOverrideValues",
-      "args": [
-        {
-          "name": "overrideValues",
-          "type": "NSArray<MSOverrideValue *> *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSDictionary*",
-      "kind": "class",
-      "kindIndicator": "+"
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     },
     "initWithName:value:": {
       "name": "initWithName:value:",
@@ -42,7 +28,7 @@
         },
         {
           "name": "value",
-          "type": "id",
+          "type": "NSObject<NSCopying>*",
           "nullable": false
         }
       ],
@@ -52,21 +38,21 @@
     }
   },
   "properties": {
-    "overrideName": {
-      "name": "overrideName",
+    "isInherited": {
+      "name": "isInherited",
       "pointer": false,
-      "type": "NSString ",
+      "type": "BOOL",
       "attributes": [
-        "nonatomic",
-        "readonly"
+        "nonatomic"
       ]
     },
-    "value": {
-      "name": "value",
+    "predecessor": {
+      "name": "predecessor",
       "pointer": false,
-      "type": "id",
+      "type": "MSOverrideValue ",
       "attributes": [
         "nonatomic",
+        "nullable",
         "readonly"
       ]
     }

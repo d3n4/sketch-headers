@@ -45,13 +45,35 @@
         "weak"
       ]
     },
-    "includeDocument": {
-      "name": "includeDocument",
+    "existingShare": {
+      "name": "existingShare",
+      "pointer": false,
+      "type": "SCKShare ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "cancelled": {
+      "name": "cancelled",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
         "nonatomic",
-        "assign"
+        "assign",
+        "readonly"
+      ]
+    },
+    "progress": {
+      "name": "progress",
+      "pointer": false,
+      "type": "NSProgress ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
       ]
     }
   },

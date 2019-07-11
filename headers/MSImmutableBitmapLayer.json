@@ -32,15 +32,6 @@
         "nonatomic",
         "readwrite"
       ]
-    },
-    "hasNineSliceEnabled": {
-      "name": "hasNineSliceEnabled",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
     }
   },
   "generics": []

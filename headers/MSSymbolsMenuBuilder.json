@@ -2,7 +2,40 @@
   "name": "MSSymbolsMenuBuilder",
   "extends": "MSSortableObjectMenuBuilder",
   "interfaces": [],
-  "methods": {},
-  "properties": {},
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithPreviewColorSpace:": {
+      "name": "initWithPreviewColorSpace:",
+      "bridgedName": "initWithPreviewColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "previewColorSpace": {
+      "name": "previewColorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

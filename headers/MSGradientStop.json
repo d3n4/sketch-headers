@@ -2,7 +2,7 @@
   "name": "MSGradientStop",
   "extends": "_MSGradientStop",
   "interfaces": [
-    "MSColorSpaceConvertible"
+    "MSColorConvertible"
   ],
   "methods": {
     "stopWithPosition:color:": {

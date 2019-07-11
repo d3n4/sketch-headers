@@ -4,9 +4,23 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "hsbColorPickerColorSpace:": {
-      "name": "hsbColorPickerColorSpace:",
-      "bridgedName": "hsbColorPickerColorSpace",
+    "hsbColorPickerDocumentColorSpace:": {
+      "name": "hsbColorPickerDocumentColorSpace:",
+      "bridgedName": "hsbColorPickerDocumentColorSpace",
+      "args": [
+        {
+          "name": "colorPicker",
+          "type": "BCHSBColorPicker *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hsbColorPickerPreviewColorSpace:": {
+      "name": "hsbColorPickerPreviewColorSpace:",
+      "bridgedName": "hsbColorPickerPreviewColorSpace",
       "args": [
         {
           "name": "colorPicker",

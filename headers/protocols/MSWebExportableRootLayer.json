@@ -30,14 +30,6 @@
     }
   },
   "properties": {
-    "exporterRequiresContentClipping": {
-      "name": "exporterRequiresContentClipping",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "readonly"
-      ]
-    },
     "webExporterBackgoundColor": {
       "name": "webExporterBackgoundColor",
       "pointer": false,

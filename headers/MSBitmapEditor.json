@@ -132,10 +132,10 @@
         "weak"
       ]
     },
-    "bitmapLayer": {
-      "name": "bitmapLayer",
+    "bitmapEditableLayer": {
+      "name": "bitmapEditableLayer",
       "pointer": false,
-      "type": "MSBitmapLayer ",
+      "type": "MSLayer<MSBitmapEditable> ",
       "attributes": [
         "nonatomic",
         "readonly"

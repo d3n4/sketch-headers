@@ -233,10 +233,28 @@
         "readonly"
       ]
     },
+    "isSelectable": {
+      "name": "isSelectable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "validate": {
       "name": "validate",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "validationStatus": {
+      "name": "validationStatus",
+      "pointer": false,
+      "type": "MSActionValidation",
       "attributes": [
         "nonatomic",
         "readonly"

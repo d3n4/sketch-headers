@@ -3,9 +3,9 @@
   "extends": "MSLayerRendererCG",
   "interfaces": [],
   "methods": {
-    "renderSubLayersOfGroup:ignoreDirtyRect:context:": {
-      "name": "renderSubLayersOfGroup:ignoreDirtyRect:context:",
-      "bridgedName": "renderSubLayersOfGroup_ignoreDirtyRect_context",
+    "renderSubLayersOfGroup:ignoreDrawingArea:context:": {
+      "name": "renderSubLayersOfGroup:ignoreDrawingArea:context:",
+      "bridgedName": "renderSubLayersOfGroup_ignoreDrawingArea_context",
       "args": [
         {
           "name": "group",
@@ -13,7 +13,7 @@
           "nullable": false
         },
         {
-          "name": "ignoreDirtyRect",
+          "name": "ignoreDrawingArea",
           "type": "BOOL",
           "nullable": false
         },

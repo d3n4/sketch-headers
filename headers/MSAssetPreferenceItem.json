@@ -16,6 +16,14 @@
       "returns": "MSAssetPreferenceItem*",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "evaluateSecondaryTitle": {
+      "name": "evaluateSecondaryTitle",
+      "bridgedName": "evaluateSecondaryTitle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -55,8 +63,26 @@
         "assign"
       ]
     },
-    "valid": {
-      "name": "valid",
+    "updateAvailable": {
+      "name": "updateAvailable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "downloadAvailable": {
+      "name": "downloadAvailable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "validForSecondaryTextField": {
+      "name": "validForSecondaryTextField",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
@@ -81,6 +107,42 @@
       "attributes": [
         "nullable",
         "readonly"
+      ]
+    },
+    "hasAppcastURL": {
+      "name": "hasAppcastURL",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentlyDownloading": {
+      "name": "currentlyDownloading",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "fileSize": {
+      "name": "fileSize",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "downloadedSoFar": {
+      "name": "downloadedSoFar",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
       ]
     }
   },

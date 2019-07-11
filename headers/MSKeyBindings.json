@@ -1,6 +1,6 @@
 {
   "name": "MSKeyBindings",
-  "extends": "CHSingletonObject",
+  "extends": "BCSingleton",
   "interfaces": [],
   "methods": {},
   "properties": {

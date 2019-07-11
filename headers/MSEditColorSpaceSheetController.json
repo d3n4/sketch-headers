@@ -56,6 +56,15 @@
         "weak"
       ]
     },
+    "assignDescriptionTextField": {
+      "name": "assignDescriptionTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
     "colorSpacePopUpButton": {
       "name": "colorSpacePopUpButton",
       "pointer": false,
@@ -87,6 +96,15 @@
       "name": "convertButton",
       "pointer": false,
       "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "convertDescriptionTextField": {
+      "name": "convertDescriptionTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
       "attributes": [
         "nonatomic",
         "weak"

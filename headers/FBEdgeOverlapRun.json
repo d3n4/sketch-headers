@@ -19,6 +19,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "removeCrossings": {
+      "name": "removeCrossings",
+      "bridgedName": "removeCrossings",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addMiddleCrossing": {
       "name": "addMiddleCrossing",
       "bridgedName": "addMiddleCrossing",
@@ -27,9 +35,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addStartAndStopCrossings": {
-      "name": "addStartAndStopCrossings",
-      "bridgedName": "addStartAndStopCrossings",
+    "addStartCrossing": {
+      "name": "addStartCrossing",
+      "bridgedName": "addStartCrossing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStopCrossing": {
+      "name": "addStopCrossing",
+      "bridgedName": "addStopCrossing",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -49,6 +65,51 @@
       "name": "overlaps",
       "pointer": false,
       "type": "NSArray <FBEdgeOverlap *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "startIsInsideContour1": {
+      "name": "startIsInsideContour1",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "stopIsInsideContour1": {
+      "name": "stopIsInsideContour1",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "startIsInsideContour2": {
+      "name": "startIsInsideContour2",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "stopIsInsideContour2": {
+      "name": "stopIsInsideContour2",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "crossingType": {
+      "name": "crossingType",
+      "pointer": false,
+      "type": "FBEdgeOverlapRunCrossingType",
       "attributes": [
         "nonatomic",
         "readonly"

@@ -3,9 +3,9 @@
   "extends": "NSScrubberItemView",
   "interfaces": [],
   "methods": {
-    "initWithAssetAtIndex:amongAssetsassets documentColorSpace:tailPadding:": {
-      "name": "initWithAssetAtIndex:amongAssetsassets documentColorSpace:tailPadding:",
-      "bridgedName": "initWithAssetAtIndex_amongAssetsassets documentColorSpace_tailPadding",
+    "initWithAssetAtIndex:amongAssetsassets canvasColorSpace:tailPadding:": {
+      "name": "initWithAssetAtIndex:amongAssetsassets canvasColorSpace:tailPadding:",
+      "bridgedName": "initWithAssetAtIndex_amongAssetsassets canvasColorSpace_tailPadding",
       "args": [
         {
           "name": "index",
@@ -38,8 +38,8 @@
         "readonly"
       ]
     },
-    "documentColorSpace": {
-      "name": "documentColorSpace",
+    "canvasColorSpace": {
+      "name": "canvasColorSpace",
       "pointer": false,
       "type": "NSColorSpace ",
       "attributes": [

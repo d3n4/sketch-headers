@@ -22,11 +22,11 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "eventHandlerName": {
-      "name": "eventHandlerName",
-      "bridgedName": "eventHandlerName",
+    "eventHandlerClass": {
+      "name": "eventHandlerClass",
+      "bridgedName": "eventHandlerClass",
       "args": [],
-      "returns": "NSString *",
+      "returns": "Class",
       "kind": "instance",
       "kindIndicator": "-"
     }

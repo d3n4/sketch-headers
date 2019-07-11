@@ -22,8 +22,27 @@
       "bridgedName": "compare",
       "args": [
         {
-          "name": "otherColor",
+          "name": "otherCounter",
           "type": "MSColorCounter *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSComparisonResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "compare:byColorUse:": {
+      "name": "compare:byColorUse:",
+      "bridgedName": "compare_byColorUse",
+      "args": [
+        {
+          "name": "otherCounter",
+          "type": "MSColorCounter *",
+          "nullable": false
+        },
+        {
+          "name": "use",
+          "type": "MSColorUse",
           "nullable": false
         }
       ],

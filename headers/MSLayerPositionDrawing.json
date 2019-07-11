@@ -29,16 +29,6 @@
     }
   },
   "properties": {
-    "delegate": {
-      "name": "delegate",
-      "pointer": false,
-      "type": "id <MSBasicDelegate>",
-      "attributes": [
-        "nonatomic",
-        "weak",
-        "nullable"
-      ]
-    },
     "targetLayer": {
       "name": "targetLayer",
       "pointer": false,
@@ -77,6 +67,14 @@
       "name": "selectedLayers",
       "pointer": false,
       "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "currentPage": {
+      "name": "currentPage",
+      "pointer": false,
+      "type": "MSPage ",
       "attributes": [
         "nonatomic"
       ]

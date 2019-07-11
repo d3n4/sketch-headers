@@ -3,12 +3,16 @@
   "name": "MSColorSpace",
   "members": [
     {
-      "name": "MSColorSpaceSRGB",
+      "name": "MSColorSpaceUnmanaged",
       "value": "0"
     },
     {
-      "name": "MSColorSpaceDisplayP3",
+      "name": "MSColorSpaceSRGB",
       "value": "1"
+    },
+    {
+      "name": "MSColorSpaceDisplayP3",
+      "value": "2"
     }
   ]
 }

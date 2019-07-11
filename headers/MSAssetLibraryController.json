@@ -146,13 +146,92 @@
       "returns": "nullable MSAssetLibrary*",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "loadLibrariesWithDispatchGroup:": {
+      "name": "loadLibrariesWithDispatchGroup:",
+      "bridgedName": "loadLibrariesWithDispatchGroup",
+      "args": [
+        {
+          "name": "dispatchGroup",
+          "type": "dispatch_group_t",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadInternalLibraryRepresentationWithCompletionHandler:": {
+      "name": "loadInternalLibraryRepresentationWithCompletionHandler:",
+      "bridgedName": "loadInternalLibraryRepresentationWithCompletionHandler",
+      "args": [
+        {
+          "name": "completionHandler",
+          "type": "void (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadAssetLibraryAppcastsWithHandler:completionHandler:": {
+      "name": "downloadAssetLibraryAppcastsWithHandler:completionHandler:",
+      "bridgedName": "downloadAssetLibraryAppcastsWithHandler_completionHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^)(NSError *error, MSRemoteAssetLibrary *library)",
+          "nullable": true
+        },
+        {
+          "name": "completionBlock",
+          "type": "void (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startDownloadingAssetLibrary:progressHandler:completionHandler:": {
+      "name": "startDownloadingAssetLibrary:progressHandler:completionHandler:",
+      "bridgedName": "startDownloadingAssetLibrary_progressHandler_completionHandler",
+      "args": [
+        {
+          "name": "assetLibrary",
+          "type": "MSRemoteAssetLibrary *",
+          "nullable": false
+        },
+        {
+          "name": "progressHandler",
+          "type": "void (^)(NSUInteger fileSize, NSUInteger downloadedSoFar)",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "librariesWithUpdates": {
+      "name": "librariesWithUpdates",
+      "bridgedName": "librariesWithUpdates",
+      "args": [],
+      "returns": "NSArray <MSRemoteAssetLibrary *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
     "availableLibraries": {
       "name": "availableLibraries",
       "pointer": false,
-      "type": "NSArray<MSAssetLibrary*> ",
+      "type": "NSArray <MSAssetLibrary*> ",
       "attributes": [
         "nonatomic",
         "readonly"

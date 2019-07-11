@@ -16,6 +16,25 @@
       "returns": "id",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "imageForColorTracker:documentColorSpace:": {
+      "name": "imageForColorTracker:documentColorSpace:",
+      "bridgedName": "imageForColorTracker_documentColorSpace",
+      "args": [
+        {
+          "name": "colorTracker",
+          "type": "MSColorCounter *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {

@@ -2,7 +2,22 @@
   "name": "MSSymbolInstanceSection",
   "extends": "MSLayerSection",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "symbolSwappingAction:": {
+      "name": "symbolSwappingAction:",
+      "bridgedName": "symbolSwappingAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "sharedObjectsPopUpButton": {
       "name": "sharedObjectsPopUpButton",
@@ -13,10 +28,10 @@
         "strong"
       ]
     },
-    "overridesHeaderView": {
-      "name": "overridesHeaderView",
+    "symbolSwappingButton": {
+      "name": "symbolSwappingButton",
       "pointer": false,
-      "type": "IBOutlet NSView ",
+      "type": "IBOutlet NSButton ",
       "attributes": [
         "nonatomic",
         "strong"

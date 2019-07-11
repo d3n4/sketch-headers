@@ -1,15 +1,15 @@
 {
   "name": "MSTile",
-  "extends": "CALayer",
+  "extends": "MSRenderingCALayer",
   "interfaces": [],
   "methods": {
-    "initWithDriver:size:colorSpace:": {
-      "name": "initWithDriver:size:colorSpace:",
-      "bridgedName": "initWithDriver_size_colorSpace",
+    "initWithTiledLayer:size:colorSpace:": {
+      "name": "initWithTiledLayer:size:colorSpace:",
+      "bridgedName": "initWithTiledLayer_size_colorSpace",
       "args": [
         {
-          "name": "driver",
-          "type": "MSRenderingDriver*",
+          "name": "tiledLayer",
+          "type": "MSTiledLayer*",
           "nullable": false
         },
         {
@@ -97,9 +97,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "enableDebugFramesInner:outer:": {
-      "name": "enableDebugFramesInner:outer:",
-      "bridgedName": "enableDebugFramesInner_outer",
+    "setDebugOptionsToDrawInner:outer:dirty:": {
+      "name": "setDebugOptionsToDrawInner:outer:dirty:",
+      "bridgedName": "setDebugOptionsToDrawInner_outer_dirty",
       "args": [
         {
           "name": "inner",
@@ -108,6 +108,11 @@
         },
         {
           "name": "outer",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "dirty",
           "type": "BOOL",
           "nullable": false
         }
@@ -126,15 +131,6 @@
     }
   },
   "properties": {
-    "tileDelegate": {
-      "name": "tileDelegate",
-      "pointer": false,
-      "type": "id <MSTileDelegate>",
-      "attributes": [
-        "nonatomic",
-        "weak"
-      ]
-    },
     "colorSpace": {
       "name": "colorSpace",
       "pointer": false,
@@ -171,15 +167,6 @@
         "assign"
       ]
     },
-    "drawDottedDirtyRect": {
-      "name": "drawDottedDirtyRect",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "assign"
-      ]
-    },
     "shouldHideOverlayControls": {
       "name": "shouldHideOverlayControls",
       "pointer": false,
@@ -205,6 +192,15 @@
         "nonatomic",
         "strong",
         "readonly"
+      ]
+    },
+    "index": {
+      "name": "index",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
       ]
     },
     "renderingCacheProvider": {

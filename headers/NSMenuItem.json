@@ -107,10 +107,15 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "generateSymbolPreviewWithCompletion:": {
-      "name": "generateSymbolPreviewWithCompletion:",
-      "bridgedName": "generateSymbolPreviewWithCompletion",
+    "generateSymbolPreviewWithColorSpace:completionHandler:": {
+      "name": "generateSymbolPreviewWithColorSpace:completionHandler:",
+      "bridgedName": "generateSymbolPreviewWithColorSpace_completionHandler",
       "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
         {
           "name": "block",
           "type": "MSSymbolPreviewGeneratorBlock",

@@ -41,52 +41,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "shouldDraw": {
-      "name": "shouldDraw",
-      "bridgedName": "shouldDraw",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "drawInRect:baseLine:atZoom:": {
-      "name": "drawInRect:baseLine:atZoom:",
-      "bridgedName": "drawInRect_baseLine_atZoom",
-      "args": [
-        {
-          "name": "dirtyRect",
-          "type": "NSRect",
-          "nullable": false
-        },
-        {
-          "name": "origin",
-          "type": "NSPoint",
-          "nullable": false
-        },
-        {
-          "name": "zoomValue",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "displayableAtZoom:": {
-      "name": "displayableAtZoom:",
-      "bridgedName": "displayableAtZoom",
-      "args": [
-        {
-          "name": "zoom",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "defaultGrid": {
       "name": "defaultGrid",
       "bridgedName": "defaultGrid",
@@ -108,6 +62,14 @@
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "shouldDraw": {
+      "name": "shouldDraw",
+      "bridgedName": "shouldDraw",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     },
     "drawInRect:horizontalRuler:verticalRuler:": {
       "name": "drawInRect:horizontalRuler:verticalRuler:",

@@ -5,7 +5,7 @@
     "MSArtboardGroup",
     "MSRootLayer",
     "MSLayerWithBackgroundColor",
-    "MSColorSpaceConvertible"
+    "MSColorConvertible"
   ],
   "methods": {
     "optimalBoundingBox": {

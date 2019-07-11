@@ -59,25 +59,11 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "rectFromBitmapToBoundsCoordinates:": {
-      "name": "rectFromBitmapToBoundsCoordinates:",
-      "bridgedName": "rectFromBitmapToBoundsCoordinates",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "NSRect",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bitmapLayer": {
-      "name": "bitmapLayer",
-      "bridgedName": "bitmapLayer",
+    "bitmapEditableLayer": {
+      "name": "bitmapEditableLayer",
+      "bridgedName": "bitmapEditableLayer",
       "args": [],
-      "returns": "MSBitmapLayer *",
+      "returns": "MSLayer<MSBitmapEditable> *",
       "kind": "instance",
       "kindIndicator": "-"
     },

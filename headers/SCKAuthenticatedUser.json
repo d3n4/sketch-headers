@@ -5,24 +5,29 @@
     "SCKAPIAuthentication"
   ],
   "methods": {
+    "initWithObjectID:authToken:": {
+      "name": "initWithObjectID:authToken:",
+      "bridgedName": "initWithObjectID_authToken",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "nonnull SCKObjectID *",
+          "nullable": false
+        },
+        {
+          "name": "authToken",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "current": {
       "name": "current",
       "bridgedName": "current",
       "args": [],
-      "returns": "nullable instancetype",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "keychainUserForEnvironment:": {
-      "name": "keychainUserForEnvironment:",
-      "bridgedName": "keychainUserForEnvironment",
-      "args": [
-        {
-          "name": "environment",
-          "type": "nonnull SCKEnvironment *",
-          "nullable": false
-        }
-      ],
       "returns": "nullable instancetype",
       "kind": "class",
       "kindIndicator": "+"

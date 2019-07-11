@@ -40,7 +40,7 @@
     "contentLayer": {
       "name": "contentLayer",
       "pointer": false,
-      "type": "CALayer ",
+      "type": "MSContentCALayer ",
       "attributes": [
         "nonatomic",
         "strong",
@@ -76,8 +76,8 @@
         "assign"
       ]
     },
-    "drawDottedDirtyRect": {
-      "name": "drawDottedDirtyRect",
+    "showDrawingArea": {
+      "name": "showDrawingArea",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
@@ -117,16 +117,6 @@
       "name": "document",
       "pointer": false,
       "type": "MSImmutableDocumentData ",
-      "attributes": [
-        "nonatomic",
-        "strong",
-        "nullable"
-      ]
-    },
-    "artboardFrames": {
-      "name": "artboardFrames",
-      "pointer": false,
-      "type": "NSArray ",
       "attributes": [
         "nonatomic",
         "strong",

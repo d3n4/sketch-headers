@@ -130,6 +130,15 @@
         "nonatomic",
         "copy"
       ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "SCKAPIRequestType",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
     }
   },
   "generics": []

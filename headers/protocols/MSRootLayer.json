@@ -39,6 +39,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   }
 }

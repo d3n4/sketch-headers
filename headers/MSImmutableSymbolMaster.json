@@ -3,42 +3,18 @@
   "extends": "_MSImmutableSymbolMaster",
   "interfaces": [],
   "methods": {
-    "masterWithOverrides:allSymbols:": {
-      "name": "masterWithOverrides:allSymbols:",
-      "bridgedName": "masterWithOverrides_allSymbols",
+    "modifiedMasterByApplyingInstance:inDocument:": {
+      "name": "modifiedMasterByApplyingInstance:inDocument:",
+      "bridgedName": "modifiedMasterByApplyingInstance_inDocument",
       "args": [
         {
-          "name": "overrides",
-          "type": "NSDictionary *",
+          "name": "instance",
+          "type": "MSImmutableSymbolInstance *",
           "nullable": false
         },
         {
-          "name": "allSymbols",
-          "type": "NSArray <MSImmutableSymbolMaster *>*",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "masterWithOverrides:size:allSymbols:": {
-      "name": "masterWithOverrides:size:allSymbols:",
-      "bridgedName": "masterWithOverrides_size_allSymbols",
-      "args": [
-        {
-          "name": "overrides",
-          "type": "NSDictionary *",
-          "nullable": false
-        },
-        {
-          "name": "size",
-          "type": "NSSize",
-          "nullable": false
-        },
-        {
-          "name": "allSymbols",
-          "type": "NSArray <MSImmutableSymbolMaster *>*",
+          "name": "document",
+          "type": "MSImmutableDocumentData*",
           "nullable": false
         }
       ],

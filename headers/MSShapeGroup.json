@@ -83,14 +83,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "imageFillForOverrides": {
-      "name": "imageFillForOverrides",
-      "bridgedName": "imageFillForOverrides",
-      "args": [],
-      "returns": "MSStyleFill *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "bezierOperationChain": {
       "name": "bezierOperationChain",
       "bridgedName": "bezierOperationChain",

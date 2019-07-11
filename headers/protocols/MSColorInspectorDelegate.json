@@ -64,6 +64,34 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "colorInspectorShouldAdjustInspectorToPopover:": {
+      "name": "colorInspectorShouldAdjustInspectorToPopover:",
+      "bridgedName": "colorInspectorShouldAdjustInspectorToPopover",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorInspectorUndoManager:": {
+      "name": "colorInspectorUndoManager:",
+      "bridgedName": "colorInspectorUndoManager",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUndoManager *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {}

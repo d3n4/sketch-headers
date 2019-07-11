@@ -175,6 +175,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "segmentMirroredAtOffset:": {
+      "name": "segmentMirroredAtOffset:",
+      "bridgedName": "segmentMirroredAtOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "tanget:andPoint:atOffset:": {
       "name": "tanget:andPoint:atOffset:",
       "bridgedName": "tanget_andPoint_atOffset",
@@ -454,6 +468,15 @@
     },
     "lineLength": {
       "name": "lineLength",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "arcLength": {
+      "name": "arcLength",
       "pointer": false,
       "type": "CGFloat",
       "attributes": [

@@ -12,6 +12,17 @@
       "kindIndicator": "+"
     }
   },
-  "properties": {},
+  "properties": {
+    "isComponentsPanelEnabled": {
+      "name": "isComponentsPanelEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    }
+  },
   "generics": []
 }

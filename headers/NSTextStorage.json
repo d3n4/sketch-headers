@@ -37,6 +37,58 @@
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "attributeValuesByRangeForKey:": {
+      "name": "attributeValuesByRangeForKey:",
+      "bridgedName": "attributeValuesByRangeForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "attributeValuesByRangeForKey:range:": {
+      "name": "attributeValuesByRangeForKey:range:",
+      "bridgedName": "attributeValuesByRangeForKey_range",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "range",
+          "type": "NSRange",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setAttributeValuesByRange:forKey:": {
+      "name": "setAttributeValuesByRange:forKey:",
+      "bridgedName": "setAttributeValuesByRange_forKey",
+      "args": [
+        {
+          "name": "valuesByRange",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

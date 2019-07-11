@@ -2,7 +2,7 @@
   "name": "MSStyleShadow",
   "extends": "_MSStyleShadow",
   "interfaces": [
-    "MSColorSpaceConvertible"
+    "MSColorConvertible"
   ],
   "methods": {
     "CSSAttributeString": {

@@ -3,6 +3,25 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
+    "gatherSymbolsInDocument:filter:": {
+      "name": "gatherSymbolsInDocument:filter:",
+      "bridgedName": "gatherSymbolsInDocument_filter",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "filter",
+          "type": "MSForeignSymbolMenuBuilderFilter",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSDictionary *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "initWithDocument:": {
       "name": "initWithDocument:",
       "bridgedName": "initWithDocument",
@@ -131,6 +150,16 @@
     }
   },
   "properties": {
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
     "filter": {
       "name": "filter",
       "pointer": false,

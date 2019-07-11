@@ -3,6 +3,14 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
+    "readSettingsFromDefaults": {
+      "name": "readSettingsFromDefaults",
+      "bridgedName": "readSettingsFromDefaults",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "exportRequestsFromExportableLayer:": {
       "name": "exportRequestsFromExportableLayer:",
       "bridgedName": "exportRequestsFromExportableLayer",
@@ -390,6 +398,15 @@
       "attributes": [
         "strong",
         "nonatomic"
+      ]
+    },
+    "artboard": {
+      "name": "artboard",
+      "pointer": false,
+      "type": "MSImmutableArtboardGroup ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     },
     "format": {

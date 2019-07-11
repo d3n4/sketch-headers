@@ -45,34 +45,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "visibleSubpathsOfDirectoryWithoutGoingIntoPackages:": {
-      "name": "visibleSubpathsOfDirectoryWithoutGoingIntoPackages:",
-      "bridgedName": "visibleSubpathsOfDirectoryWithoutGoingIntoPackages",
-      "args": [
-        {
-          "name": "path",
-          "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "visibleSubpathsOfDirectoryAtURLWithoutGoingIntoPackages:": {
-      "name": "visibleSubpathsOfDirectoryAtURLWithoutGoingIntoPackages:",
-      "bridgedName": "visibleSubpathsOfDirectoryAtURLWithoutGoingIntoPackages",
-      "args": [
-        {
-          "name": "url",
-          "type": "NSURL *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "shallowSubpathsOfDirectoryAtURL:": {
       "name": "shallowSubpathsOfDirectoryAtURL:",
       "bridgedName": "shallowSubpathsOfDirectoryAtURL",
@@ -239,6 +211,34 @@
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "visibleSubpathsOfDirectoryWithoutGoingIntoPackages:": {
+      "name": "visibleSubpathsOfDirectoryWithoutGoingIntoPackages:",
+      "bridgedName": "visibleSubpathsOfDirectoryWithoutGoingIntoPackages",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "visibleSubpathsOfDirectoryAtURLWithoutGoingIntoPackages:": {
+      "name": "visibleSubpathsOfDirectoryAtURLWithoutGoingIntoPackages:",
+      "bridgedName": "visibleSubpathsOfDirectoryAtURLWithoutGoingIntoPackages",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

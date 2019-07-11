@@ -130,7 +130,7 @@
       "bridgedName": "NSColorWithColorSpace",
       "args": [
         {
-          "name": "space",
+          "name": "colorSpace",
           "type": "NSColorSpace *",
           "nullable": false
         }
@@ -235,8 +235,60 @@
       "bridgedName": "fuzzyIsEqual",
       "args": [
         {
-          "name": "otherColor",
+          "name": "other",
           "type": "MSImmutableColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fuzzyIsEqual:precision:": {
+      "name": "fuzzyIsEqual:precision:",
+      "bridgedName": "fuzzyIsEqual_precision",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        },
+        {
+          "name": "precision",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fuzzyIsEqualExcludingAlpha:": {
+      "name": "fuzzyIsEqualExcludingAlpha:",
+      "bridgedName": "fuzzyIsEqualExcludingAlpha",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fuzzyIsEqualExcludingAlpha:precision:": {
+      "name": "fuzzyIsEqualExcludingAlpha:precision:",
+      "bridgedName": "fuzzyIsEqualExcludingAlpha_precision",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        },
+        {
+          "name": "precision",
+          "type": "CGFloat",
           "nullable": false
         }
       ],

@@ -1,15 +1,19 @@
 {
   "name": "MSOverrideViewController",
   "extends": "NSViewController",
-  "interfaces": [
-    "MSInspectorSection"
-  ],
+  "interfaces": [],
   "methods": {
-    "build": {
-      "name": "build",
-      "bridgedName": "build",
-      "args": [],
-      "returns": "void",
+    "initWithPrimaryOverride:": {
+      "name": "initWithPrimaryOverride:",
+      "bridgedName": "initWithPrimaryOverride",
+      "args": [
+        {
+          "name": "override",
+          "type": "MSAvailableOverride*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -18,6 +22,14 @@
       "bridgedName": "labelView",
       "args": [],
       "returns": "NSTextField *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "build": {
+      "name": "build",
+      "bridgedName": "build",
+      "args": [],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -40,6 +52,14 @@
         }
       ],
       "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasStandardCellHeight": {
+      "name": "hasStandardCellHeight",
+      "bridgedName": "hasStandardCellHeight",
+      "args": [],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -73,40 +93,31 @@
     }
   },
   "properties": {
+    "primaryOverride": {
+      "name": "primaryOverride",
+      "pointer": false,
+      "type": "MSAvailableOverride ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "instances": {
       "name": "instances",
       "pointer": false,
-      "type": "NSArray ",
+      "type": "NSArray<MSSymbolInstance*> ",
       "attributes": [
         "nonatomic",
         "strong"
       ]
     },
-    "layerInsideSymbol": {
-      "name": "layerInsideSymbol",
+    "hasSingleOverride": {
+      "name": "hasSingleOverride",
       "pointer": false,
-      "type": "MSLayer ",
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
-        "strong"
-      ]
-    },
-    "info": {
-      "name": "info",
-      "pointer": false,
-      "type": "id",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "overrides": {
-      "name": "overrides",
-      "pointer": false,
-      "type": "NSSet ",
-      "attributes": [
-        "nonatomic",
-        "strong"
+        "readonly"
       ]
     }
   },

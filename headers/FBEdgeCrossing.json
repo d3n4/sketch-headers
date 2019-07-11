@@ -151,12 +151,23 @@
         "getter = isSelfCrossing"
       ]
     },
+    "overlapRun": {
+      "name": "overlapRun",
+      "pointer": false,
+      "type": "FBEdgeOverlapRun ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
     "fromCrossingOverlap": {
       "name": "fromCrossingOverlap",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "readonly",
+        "getter=isFromCrossingOverlap"
       ]
     },
     "index": {

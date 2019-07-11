@@ -3,6 +3,14 @@
   "extends": "_MSSymbolMaster",
   "interfaces": [],
   "methods": {
+    "availableOverrides": {
+      "name": "availableOverrides",
+      "bridgedName": "availableOverrides",
+      "args": [],
+      "returns": "NSArray<MSAvailableOverride *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "convertArtboardToSymbol:": {
       "name": "convertArtboardToSymbol:",
       "bridgedName": "convertArtboardToSymbol",
@@ -47,17 +55,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "influencingSymbolIDsWithOverrides:": {
-      "name": "influencingSymbolIDsWithOverrides:",
-      "bridgedName": "influencingSymbolIDsWithOverrides",
+    "copyWithIDMapping:": {
+      "name": "copyWithIDMapping:",
+      "bridgedName": "copyWithIDMapping",
       "args": [
         {
-          "name": "overrides",
-          "type": "NSDictionary*",
-          "nullable": true
+          "name": "idMap",
+          "type": "NSMutableDictionary*",
+          "nullable": false
         }
       ],
-      "returns": "NSSet<NSString *> *",
+      "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },

@@ -1,16 +1,8 @@
 {
   "name": "MSModelResources",
-  "extends": "CHSingletonObject",
+  "extends": "BCSingleton",
   "interfaces": [],
   "methods": {
-    "sharedInstance": {
-      "name": "sharedInstance",
-      "bridgedName": "sharedInstance",
-      "args": [],
-      "returns": "instancetype",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "preloadResources": {
       "name": "preloadResources",
       "bridgedName": "preloadResources",

@@ -62,13 +62,42 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "initWithAttributedString:": {
-      "name": "initWithAttributedString:",
-      "bridgedName": "initWithAttributedString",
+    "initWithAttributedString:colorSpace:convert:": {
+      "name": "initWithAttributedString:colorSpace:convert:",
+      "bridgedName": "initWithAttributedString_colorSpace_convert",
       "args": [
         {
           "name": "attributedString",
           "type": "NSAttributedString *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "convert",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithAttributedString:documentColorSpace:": {
+      "name": "initWithAttributedString:documentColorSpace:",
+      "bridgedName": "initWithAttributedString_documentColorSpace",
+      "args": [
+        {
+          "name": "attributedString",
+          "type": "NSAttributedString *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
           "nullable": false
         }
       ],

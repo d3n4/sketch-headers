@@ -35,6 +35,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "initWithName:": {
+      "name": "initWithName:",
+      "bridgedName": "initWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "resolveLocationOnDisk": {
       "name": "resolveLocationOnDisk",
       "bridgedName": "resolveLocationOnDisk",
@@ -51,10 +65,15 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "loadAsyncWithCompletion:": {
-      "name": "loadAsyncWithCompletion:",
-      "bridgedName": "loadAsyncWithCompletion",
+    "loadAsyncWithDispatchGroup:completionHandler:": {
+      "name": "loadAsyncWithDispatchGroup:completionHandler:",
+      "bridgedName": "loadAsyncWithDispatchGroup_completionHandler",
       "args": [
+        {
+          "name": "dispatchGroup",
+          "type": "dispatch_group_t",
+          "nullable": true
+        },
         {
           "name": "block",
           "type": "dispatch_block_t",
@@ -72,9 +91,33 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "handleAssetLibraryUpdateWithCompletionHandler:": {
+      "name": "handleAssetLibraryUpdateWithCompletionHandler:",
+      "bridgedName": "handleAssetLibraryUpdateWithCompletionHandler",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
+    "assetLibraryFolder": {
+      "name": "assetLibraryFolder",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "class",
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "enabled": {
       "name": "enabled",
       "pointer": false,
@@ -149,10 +192,19 @@
         "readonly"
       ]
     },
-    "isUserLibrary": {
-      "name": "isUserLibrary",
+    "libraryType": {
+      "name": "libraryType",
       "pointer": false,
-      "type": "BOOL",
+      "type": "MSAssetLibraryType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "propertyListDictionaryRepresentation": {
+      "name": "propertyListDictionaryRepresentation",
+      "pointer": false,
+      "type": "NSDictionary ",
       "attributes": [
         "nonatomic",
         "readonly"
