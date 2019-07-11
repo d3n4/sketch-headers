@@ -1,0 +1,17 @@
+{
+  "name": "TDAny",
+  "extends": "TDTerminal",
+  "interfaces": [],
+  "methods": {
+    "any": {
+      "name": "any",
+      "bridgedName": "any",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

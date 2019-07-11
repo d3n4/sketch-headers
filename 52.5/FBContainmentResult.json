@@ -1,0 +1,121 @@
+{
+  "name": "FBContainmentResult",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithTestContour:inGraph:evenOddInside:nonZeroInside:testEdge:intersections:": {
+      "name": "initWithTestContour:inGraph:evenOddInside:nonZeroInside:testEdge:intersections:",
+      "bridgedName": "initWithTestContour_inGraph_evenOddInside_nonZeroInside_testEdge_intersections",
+      "args": [
+        {
+          "name": "testContour",
+          "type": "FBBezierContour *",
+          "nullable": false
+        },
+        {
+          "name": "graph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        },
+        {
+          "name": "evenOdd",
+          "type": "FBContourInside",
+          "nullable": false
+        },
+        {
+          "name": "nonZero",
+          "type": "FBContourInside",
+          "nullable": false
+        },
+        {
+          "name": "testEdge",
+          "type": "FBBezierCurve *",
+          "nullable": true
+        },
+        {
+          "name": "intersections",
+          "type": "NSArray <FBBezierIntersection *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "evenOdd": {
+      "name": "evenOdd",
+      "pointer": false,
+      "type": "FBContourInside",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "nonZero": {
+      "name": "nonZero",
+      "pointer": false,
+      "type": "FBContourInside",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "testEdge": {
+      "name": "testEdge",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "intersections": {
+      "name": "intersections",
+      "pointer": false,
+      "type": "NSArray <FBBezierIntersection *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "testContour": {
+      "name": "testContour",
+      "pointer": false,
+      "type": "FBBezierContour ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "graph": {
+      "name": "graph",
+      "pointer": false,
+      "type": "FBBezierGraph ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "container": {
+      "name": "container",
+      "pointer": false,
+      "type": "FBBezierContour ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

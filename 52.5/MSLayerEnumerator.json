@@ -1,0 +1,21 @@
+{
+  "name": "MSLayerEnumerator",
+  "extends": "NSEnumerator",
+  "interfaces": [
+    "ObjectType"
+  ],
+  "methods": {
+    "skipDescendants": {
+      "name": "skipDescendants",
+      "bridgedName": "skipDescendants",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": [
+    "ObjectType"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSZoomActions",
+  "extends": "MSActionGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

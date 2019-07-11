@@ -1,0 +1,136 @@
+{
+  "name": "MSStyleInspectorSection",
+  "extends": "MSNestedInspectorSection",
+  "interfaces": [],
+  "methods": {
+    "openPopoverForStylePart:atIndex:": {
+      "name": "openPopoverForStylePart:atIndex:",
+      "bridgedName": "openPopoverForStylePart_atIndex",
+      "args": [
+        {
+          "name": "stylePart",
+          "type": "MSStylePartType",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closeAnyColorPopover": {
+      "name": "closeAnyColorPopover",
+      "bridgedName": "closeAnyColorPopover",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "restorePopover": {
+      "name": "restorePopover",
+      "bridgedName": "restorePopover",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showFillOptionsAction:": {
+      "name": "showFillOptionsAction:",
+      "bridgedName": "showFillOptionsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showBorderOptionsAction:": {
+      "name": "showBorderOptionsAction:",
+      "bridgedName": "showBorderOptionsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "fillViewController": {
+      "name": "fillViewController",
+      "pointer": false,
+      "type": "MSMultipleFillInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "borderViewController": {
+      "name": "borderViewController",
+      "pointer": false,
+      "type": "MSMultipleBorderInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shadowViewController": {
+      "name": "shadowViewController",
+      "pointer": false,
+      "type": "MSMultipleShadowInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "innerShadowViewController": {
+      "name": "innerShadowViewController",
+      "pointer": false,
+      "type": "MSMultipleInnerShadowInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "blurViewController": {
+      "name": "blurViewController",
+      "pointer": false,
+      "type": "MSBlurInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorControlsViewController": {
+      "name": "colorControlsViewController",
+      "pointer": false,
+      "type": "MSColorControlsInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasContent": {
+      "name": "hasContent",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

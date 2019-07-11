@@ -1,0 +1,74 @@
+{
+  "enum": true,
+  "name": "SUError",
+  "members": [
+    {
+      "name": "SUAppcastParseError",
+      "value": "1000"
+    },
+    {
+      "name": "SUNoUpdateError",
+      "value": "1001"
+    },
+    {
+      "name": "SUAppcastError",
+      "value": "1002"
+    },
+    {
+      "name": "SURunningFromDiskImageError",
+      "value": "1003"
+    },
+    {
+      "name": "SUTemporaryDirectoryError",
+      "value": "2000"
+    },
+    {
+      "name": "SUDownloadError",
+      "value": "2001"
+    },
+    {
+      "name": "SUUnarchivingError",
+      "value": "3000"
+    },
+    {
+      "name": "SUSignatureError",
+      "value": "3001"
+    },
+    {
+      "name": "SUFileCopyFailure",
+      "value": "4000"
+    },
+    {
+      "name": "SUAuthenticationFailure",
+      "value": "4001"
+    },
+    {
+      "name": "SUMissingUpdateError",
+      "value": "4002"
+    },
+    {
+      "name": "SUMissingInstallerToolError",
+      "value": "4003"
+    },
+    {
+      "name": "SURelaunchError",
+      "value": "4004"
+    },
+    {
+      "name": "SUInstallationError",
+      "value": "4005"
+    },
+    {
+      "name": "SUDowngradeError",
+      "value": "4006"
+    },
+    {
+      "name": "SUInstallationCancelledError",
+      "value": "4007"
+    },
+    {
+      "name": "SUSystemPowerOffError",
+      "value": "5000"
+    }
+  ]
+}

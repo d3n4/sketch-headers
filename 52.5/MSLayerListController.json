@@ -1,0 +1,11 @@
+{
+  "name": "MSLayerListController",
+  "extends": "MSSidebarListController",
+  "interfaces": [
+    "BCOutlineViewDataControllerDataSource",
+    "BCOutlineViewDataControllerDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

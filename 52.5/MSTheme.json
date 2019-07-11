@@ -1,0 +1,1279 @@
+{
+  "name": "MSTheme",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "layerListSelectionColorForWindow:isActiveOutlineView:": {
+      "name": "layerListSelectionColorForWindow:isActiveOutlineView:",
+      "bridgedName": "layerListSelectionColorForWindow_isActiveOutlineView",
+      "args": [
+        {
+          "name": "window",
+          "type": "NSWindow *",
+          "nullable": false
+        },
+        {
+          "name": "isActive",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerListSymbolOverrideSelectionColorForWindow:isActiveOutlineView:": {
+      "name": "layerListSymbolOverrideSelectionColorForWindow:isActiveOutlineView:",
+      "bridgedName": "layerListSymbolOverrideSelectionColorForWindow_isActiveOutlineView",
+      "args": [
+        {
+          "name": "window",
+          "type": "NSWindow *",
+          "nullable": false
+        },
+        {
+          "name": "isActive",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerListTextColorForBackgroundStyle:nodeIsHidden:editing:selected:active:": {
+      "name": "layerListTextColorForBackgroundStyle:nodeIsHidden:editing:selected:active:",
+      "bridgedName": "layerListTextColorForBackgroundStyle_nodeIsHidden_editing_selected_active",
+      "args": [
+        {
+          "name": "style",
+          "type": "NSBackgroundStyle",
+          "nullable": false
+        },
+        {
+          "name": "hidden",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "editing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "selected",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "active",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validate": {
+      "name": "validate",
+      "bridgedName": "validate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorNamed:": {
+      "name": "colorNamed:",
+      "bridgedName": "colorNamed",
+      "args": [
+        {
+          "name": "colorName",
+          "type": "NSColorName",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorNamed:options:": {
+      "name": "colorNamed:options:",
+      "bridgedName": "colorNamed_options",
+      "args": [
+        {
+          "name": "colorName",
+          "type": "NSColorName",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSThemeResolvingOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageNamed:": {
+      "name": "imageNamed:",
+      "bridgedName": "imageNamed",
+      "args": [
+        {
+          "name": "imageName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageNamed:options:": {
+      "name": "imageNamed:options:",
+      "bridgedName": "imageNamed_options",
+      "args": [
+        {
+          "name": "imageName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSThemeResolvingOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cacheImage:forKey:owner:": {
+      "name": "cacheImage:forKey:owner:",
+      "bridgedName": "cacheImage_forKey_owner",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cachedImageForKey:owner:": {
+      "name": "cachedImageForKey:owner:",
+      "bridgedName": "cachedImageForKey_owner",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cachedImageForKey:owner:createBlock:": {
+      "name": "cachedImageForKey:owner:createBlock:",
+      "bridgedName": "cachedImageForKey_owner_createBlock",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCCacheCreateObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeApplicationAppearanceInBlock:": {
+      "name": "changeApplicationAppearanceInBlock:",
+      "bridgedName": "changeApplicationAppearanceInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "attributedStringWithString:color:controlSize:": {
+      "name": "attributedStringWithString:color:controlSize:",
+      "bridgedName": "attributedStringWithString_color_controlSize",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "controlSize",
+          "type": "NSControlSize",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAttributedString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "inspectorAccentColor": {
+      "name": "inspectorAccentColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAccentedIconColor": {
+      "name": "inspectorAccentedIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorHighlightedAccentedIconColor": {
+      "name": "inspectorHighlightedAccentedIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAccentedColorModePickerIconColor": {
+      "name": "inspectorAccentedColorModePickerIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorHighlightedAccentedColorModePickerIconColor": {
+      "name": "inspectorHighlightedAccentedColorModePickerIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAlignmentDisabledStrutColor": {
+      "name": "inspectorAlignmentDisabledStrutColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAlignmentStrutColor": {
+      "name": "inspectorAlignmentStrutColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAlignmentActiveStrutColor": {
+      "name": "inspectorAlignmentActiveStrutColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAlignmentHighlightedActiveStrutColor": {
+      "name": "inspectorAlignmentHighlightedActiveStrutColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAlignmentViewBackgroundColor": {
+      "name": "inspectorAlignmentViewBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorBackgroundColor": {
+      "name": "inspectorBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorBorderColor": {
+      "name": "inspectorBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorButtonBackgroundColor": {
+      "name": "inspectorButtonBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorButtonDropShadowColor": {
+      "name": "inspectorButtonDropShadowColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorButtonHighlightedBackgroundColor": {
+      "name": "inspectorButtonHighlightedBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorDisabledIconColor": {
+      "name": "inspectorDisabledIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorHighlightedAccentColor": {
+      "name": "inspectorHighlightedAccentColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorHighlightedBorderColor": {
+      "name": "inspectorHighlightedBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorHighlightedIconColor": {
+      "name": "inspectorHighlightedIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorHighlightedSliderKnobColor": {
+      "name": "inspectorHighlightedSliderKnobColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorIconColor": {
+      "name": "inspectorIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAccentedBackgroundIconColor": {
+      "name": "inspectorAccentedBackgroundIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorInlineLabelTextColor": {
+      "name": "inspectorInlineLabelTextColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorLabelBackgroundColor": {
+      "name": "inspectorLabelBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorLabelBorderColor": {
+      "name": "inspectorLabelBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorLabelTextColor": {
+      "name": "inspectorLabelTextColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorPushButtonBackgroundColor": {
+      "name": "inspectorPushButtonBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorResizePreviewBackgroundColor": {
+      "name": "inspectorResizePreviewBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorResizePreviewEdgeIndicatorColor": {
+      "name": "inspectorResizePreviewEdgeIndicatorColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorResizePreviewInnerLayerBackgroundColor": {
+      "name": "inspectorResizePreviewInnerLayerBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorResizePreviewInnerLayerBorderColor": {
+      "name": "inspectorResizePreviewInnerLayerBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorSectionBackgroundColor": {
+      "name": "inspectorSectionBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorSectionHeaderTextColor": {
+      "name": "inspectorSectionHeaderTextColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorSectionSeparatorColor": {
+      "name": "inspectorSectionSeparatorColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorSeparatorColor": {
+      "name": "inspectorSeparatorColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorSliderKnobBorderColor": {
+      "name": "inspectorSliderKnobBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorSliderKnobColor": {
+      "name": "inspectorSliderKnobColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorSliderRightTrackColor": {
+      "name": "inspectorSliderRightTrackColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorStylePreviewButtonOverlayHighlightingColor": {
+      "name": "inspectorStylePreviewButtonOverlayHighlightingColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorArtboardPresetHeaderColor": {
+      "name": "inspectorArtboardPresetHeaderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorArtboardPresetTableViewBackgroundColor": {
+      "name": "inspectorArtboardPresetTableViewBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorSecondaryLabelTextColor": {
+      "name": "inspectorSecondaryLabelTextColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorSecondaryLabelTextColorHighlighted": {
+      "name": "inspectorSecondaryLabelTextColorHighlighted",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cache": {
+      "name": "cache",
+      "pointer": false,
+      "type": "BCCache ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "colorPlist": {
+      "name": "colorPlist",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "tintedImages": {
+      "name": "tintedImages",
+      "pointer": false,
+      "type": "MSTintedImages ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListArtboardBorderColor": {
+      "name": "layerListArtboardBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListSelectedArtboardBorderColor": {
+      "name": "layerListSelectedArtboardBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListBackgroundColor": {
+      "name": "layerListBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListLightBackgroundColor": {
+      "name": "layerListLightBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListFilterBarBackgroundColor": {
+      "name": "layerListFilterBarBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListFilterBarBorderColor": {
+      "name": "layerListFilterBarBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListFilterTokenBackgroundColor": {
+      "name": "layerListFilterTokenBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListFilterTokenSelectedBackgroundColor": {
+      "name": "layerListFilterTokenSelectedBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListFilterTokenTitleColor": {
+      "name": "layerListFilterTokenTitleColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListFilterTokenSelectedTitleColor": {
+      "name": "layerListFilterTokenSelectedTitleColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListIconTintColor": {
+      "name": "layerListIconTintColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListIconPressedTintColor": {
+      "name": "layerListIconPressedTintColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListIconPressedTintColorSelected": {
+      "name": "layerListIconPressedTintColorSelected",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListIconSelectedActiveTintColor": {
+      "name": "layerListIconSelectedActiveTintColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListIconSelectedInactiveTintColor": {
+      "name": "layerListIconSelectedInactiveTintColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListIconSharedTintColor": {
+      "name": "layerListIconSharedTintColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListSplitViewDividerColor": {
+      "name": "layerListSplitViewDividerColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListSymbolOverrideIconTintColor": {
+      "name": "layerListSymbolOverrideIconTintColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListTabButtonColor": {
+      "name": "layerListTabButtonColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasArtboardTitleColor": {
+      "name": "canvasArtboardTitleColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasBackgroundColor": {
+      "name": "canvasBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasFlowArrowColor": {
+      "name": "canvasFlowArrowColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasLayerHighlightColor": {
+      "name": "canvasLayerHighlightColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasLayerSelectionColor": {
+      "name": "canvasLayerSelectionColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasMeasurementLabelBackgroundColor": {
+      "name": "canvasMeasurementLabelBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasPageBackgroundColor": {
+      "name": "canvasPageBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasPixelLineColor": {
+      "name": "canvasPixelLineColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasRulerBackgroundColor": {
+      "name": "canvasRulerBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasRulerLineColor": {
+      "name": "canvasRulerLineColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasRulerLineOccupiedColor": {
+      "name": "canvasRulerLineOccupiedColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasRulerLockColor": {
+      "name": "canvasRulerLockColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasRulerOccupiedColor": {
+      "name": "canvasRulerOccupiedColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasRulerTextColor": {
+      "name": "canvasRulerTextColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasRulerTextBackgroundColor": {
+      "name": "canvasRulerTextBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasSliceOutlineColor": {
+      "name": "canvasSliceOutlineColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasSymbolErrorBackgroundColor": {
+      "name": "canvasSymbolErrorBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasSymbolErrorBorderColor": {
+      "name": "canvasSymbolErrorBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasSymbolErrorTextColor": {
+      "name": "canvasSymbolErrorTextColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasSymbolTitleColor": {
+      "name": "canvasSymbolTitleColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorPickerAssetBorderColor": {
+      "name": "colorPickerAssetBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorPickerCheckerboardBackgroundColor": {
+      "name": "colorPickerCheckerboardBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorPickerCheckerboardBorderColor": {
+      "name": "colorPickerCheckerboardBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorPickerDarkShadowColor": {
+      "name": "colorPickerDarkShadowColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorPickerLightShadowColor": {
+      "name": "colorPickerLightShadowColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorPickerMarkerFillColor": {
+      "name": "colorPickerMarkerFillColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorPickerMarkerShadowColor": {
+      "name": "colorPickerMarkerShadowColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorPickerSeparatorColor": {
+      "name": "colorPickerSeparatorColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "licenseWindowErrorTextColor": {
+      "name": "licenseWindowErrorTextColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "preferencesWindowErrorTextColor": {
+      "name": "preferencesWindowErrorTextColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "windowBadgeFontsMissingColor": {
+      "name": "windowBadgeFontsMissingColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "windowBadgeLibraryChangesAvailableColor": {
+      "name": "windowBadgeLibraryChangesAvailableColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "windowBadgePluginUpdatesAvailableColor": {
+      "name": "windowBadgePluginUpdatesAvailableColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cloudPopoverButtonTintColor": {
+      "name": "cloudPopoverButtonTintColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cloudPopoverButtonTintColorPressed": {
+      "name": "cloudPopoverButtonTintColorPressed",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cloudPopoverCancelButtonTintColor": {
+      "name": "cloudPopoverCancelButtonTintColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cloudPopoverCancelButtonTintColorPressed": {
+      "name": "cloudPopoverCancelButtonTintColorPressed",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "windowBadgeTrialMessageColor": {
+      "name": "windowBadgeTrialMessageColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "windowBadgeMultipleNotificationsColor": {
+      "name": "windowBadgeMultipleNotificationsColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "windowBadgeTextColor": {
+      "name": "windowBadgeTextColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "windowBadgeUnfocusedPillColor": {
+      "name": "windowBadgeUnfocusedPillColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hoverButtonHoverColor": {
+      "name": "hoverButtonHoverColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hoverButtonNormalColor": {
+      "name": "hoverButtonNormalColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "splitViewDividerColor": {
+      "name": "splitViewDividerColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedTheme": {
+      "name": "sharedTheme",
+      "pointer": false,
+      "type": "MSTheme ",
+      "attributes": [
+        "class",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isDark": {
+      "name": "isDark",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isGraphiteAccentColor": {
+      "name": "isGraphiteAccentColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "darkModeScheme": {
+      "name": "darkModeScheme",
+      "pointer": false,
+      "type": "MSThemeDarkModeScheme",
+      "attributes": [
+        "readwrite",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

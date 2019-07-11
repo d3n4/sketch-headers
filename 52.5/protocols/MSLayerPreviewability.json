@@ -1,0 +1,43 @@
+{
+  "protocol": true,
+  "name": "MSLayerPreviewability",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "selectedPreviewTemplateImage": {
+      "name": "selectedPreviewTemplateImage",
+      "bridgedName": "selectedPreviewTemplateImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unselectedPreviewTemplateImage": {
+      "name": "unselectedPreviewTemplateImage",
+      "bridgedName": "unselectedPreviewTemplateImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contextualMenuPreviewTemplateImage": {
+      "name": "contextualMenuPreviewTemplateImage",
+      "bridgedName": "contextualMenuPreviewTemplateImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "badgeType": {
+      "name": "badgeType",
+      "pointer": false,
+      "type": "MSLayerPreviewBadgeType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

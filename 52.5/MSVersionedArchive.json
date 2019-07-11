@@ -1,0 +1,138 @@
+{
+  "name": "MSVersionedArchive",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "globalArchiveWithName:extension:version:": {
+      "name": "globalArchiveWithName:extension:version:",
+      "bridgedName": "globalArchiveWithName_extension_version",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "extension",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "MSDocumentVersion",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithURL:version:": {
+      "name": "initWithURL:version:",
+      "bridgedName": "initWithURL_version",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "MSDocumentVersion",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unarchiveRootObjectVersion:error:": {
+      "name": "unarchiveRootObjectVersion:error:",
+      "bridgedName": "unarchiveRootObjectVersion_error",
+      "args": [
+        {
+          "name": "version",
+          "type": "MSDocumentVersion*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError*__autoreleasing*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "archiveRootObject:error:": {
+      "name": "archiveRootObject:error:",
+      "bridgedName": "archiveRootObject_error",
+      "args": [
+        {
+          "name": "rootObject",
+          "type": "id <NSObject, MSCoding>",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError*__autoreleasing*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "URLNeedingMigration": {
+      "name": "URLNeedingMigration",
+      "bridgedName": "URLNeedingMigration",
+      "args": [],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exists": {
+      "name": "exists",
+      "bridgedName": "exists",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "versionedURLWithBase:extension:version:": {
+      "name": "versionedURLWithBase:extension:version:",
+      "bridgedName": "versionedURLWithBase_extension_version",
+      "args": [
+        {
+          "name": "base",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "extension",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "cleanupAfterTesting": {
+      "name": "cleanupAfterTesting",
+      "bridgedName": "cleanupAfterTesting",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

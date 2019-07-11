@@ -1,0 +1,23 @@
+{
+  "name": "MSPreviousPageAction",
+  "extends": "MSChangePageAction",
+  "interfaces": [],
+  "methods": {
+    "previousPage:": {
+      "name": "previousPage:",
+      "bridgedName": "previousPage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

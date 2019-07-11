@@ -1,0 +1,8 @@
+{
+  "name": "MSDataTableView",
+  "extends": "BCKeyEventActionTableView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

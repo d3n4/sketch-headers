@@ -1,0 +1,8 @@
+{
+  "name": "MSPlainButtonCell",
+  "extends": "MSHoverButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

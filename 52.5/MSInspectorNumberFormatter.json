@@ -1,0 +1,41 @@
+{
+  "name": "MSInspectorNumberFormatter",
+  "extends": "NSNumberFormatter",
+  "interfaces": [],
+  "methods": {
+    "standardFloatFormatter": {
+      "name": "standardFloatFormatter",
+      "bridgedName": "standardFloatFormatter",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "standardIntegerFormatter": {
+      "name": "standardIntegerFormatter",
+      "bridgedName": "standardIntegerFormatter",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "standardPercentFormatter": {
+      "name": "standardPercentFormatter",
+      "bridgedName": "standardPercentFormatter",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "standardPercentFormatterWithoutPercentSign": {
+      "name": "standardPercentFormatterWithoutPercentSign",
+      "bridgedName": "standardPercentFormatterWithoutPercentSign",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorSliderCell",
+  "extends": "NSSliderCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,56 @@
+{
+  "name": "MSMemoryBuffer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithSize:": {
+      "name": "initWithSize:",
+      "bridgedName": "initWithSize",
+      "args": [
+        {
+          "name": "size",
+          "type": "size_t",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "zerofill:": {
+      "name": "zerofill:",
+      "bridgedName": "zerofill",
+      "args": [
+        {
+          "name": "bytesToFill",
+          "type": "size_t",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "size_t",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bytes": {
+      "name": "bytes",
+      "pointer": false,
+      "type": "void ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

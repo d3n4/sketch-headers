@@ -1,0 +1,66 @@
+{
+  "name": "MOInstanceVariableDescription",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "instanceVariableWithName:typeEncoding:": {
+      "name": "instanceVariableWithName:typeEncoding:",
+      "bridgedName": "instanceVariableWithName_typeEncoding",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "typeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MOInstanceVariableDescription *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithName:typeEncoding:": {
+      "name": "initWithName:typeEncoding:",
+      "bridgedName": "initWithName_typeEncoding",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "typeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readwrite"
+      ]
+    },
+    "typeEncoding": {
+      "name": "typeEncoding",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,588 @@
+{
+  "name": "NSDictionary",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "stringForKey_bc:": {
+      "name": "stringForKey_bc:",
+      "bridgedName": "stringForKey_bc",
+      "args": [
+        {
+          "name": "aKey",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayForKey_bc:": {
+      "name": "arrayForKey_bc:",
+      "bridgedName": "arrayForKey_bc",
+      "args": [
+        {
+          "name": "aKey",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryForKey_bc:": {
+      "name": "dictionaryForKey_bc:",
+      "bridgedName": "dictionaryForKey_bc",
+      "args": [
+        {
+          "name": "aKey",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberForKey_bc:": {
+      "name": "numberForKey_bc:",
+      "bridgedName": "numberForKey_bc",
+      "args": [
+        {
+          "name": "aKey",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boolForKey_bc:": {
+      "name": "boolForKey_bc:",
+      "bridgedName": "boolForKey_bc",
+      "args": [
+        {
+          "name": "aKey",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "urlForKey_bc:": {
+      "name": "urlForKey_bc:",
+      "bridgedName": "urlForKey_bc",
+      "args": [
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByAddingOrRemovingObject:forKey:": {
+      "name": "dictionaryByAddingOrRemovingObject:forKey:",
+      "bridgedName": "dictionaryByAddingOrRemovingObject_forKey",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id<NSCopying>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mutableCopyDeep": {
+      "name": "mutableCopyDeep",
+      "bridgedName": "mutableCopyDeep",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByAddingDictionary:": {
+      "name": "dictionaryByAddingDictionary:",
+      "bridgedName": "dictionaryByAddingDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filter:": {
+      "name": "filter:",
+      "bridgedName": "filter",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCDictionaryFilterBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByReplacing:usingBlock:": {
+      "name": "dictionaryByReplacing:usingBlock:",
+      "bridgedName": "dictionaryByReplacing_usingBlock",
+      "args": [
+        {
+          "name": "key",
+          "type": "id<NSCopying>",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void(^)(id,NSMutableDictionary*)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByMappingKeys_bc:": {
+      "name": "dictionaryByMappingKeys_bc:",
+      "bridgedName": "dictionaryByMappingKeys_bc",
+      "args": [
+        {
+          "name": "map",
+          "type": "NSDictionary< id<NSCopying>, id<NSCopying> > *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByReverseMappingKeys_bc:": {
+      "name": "dictionaryByReverseMappingKeys_bc:",
+      "bridgedName": "dictionaryByReverseMappingKeys_bc",
+      "args": [
+        {
+          "name": "map",
+          "type": "NSDictionary< id<NSCopying>, id<NSCopying> > *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mo_objectForKeyedSubscript:": {
+      "name": "mo_objectForKeyedSubscript:",
+      "bridgedName": "mo_objectForKeyedSubscript",
+      "args": [
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueForKey:intoBool:": {
+      "name": "valueForKey:intoBool:",
+      "bridgedName": "valueForKey_intoBool",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "valueOut",
+          "type": "BOOL*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueForKey:intoDouble:": {
+      "name": "valueForKey:intoDouble:",
+      "bridgedName": "valueForKey_intoDouble",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "valueOut",
+          "type": "double*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointForKey:": {
+      "name": "pointForKey:",
+      "bridgedName": "pointForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sizeForKey:": {
+      "name": "sizeForKey:",
+      "bridgedName": "sizeForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "CGSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectForKey:": {
+      "name": "rectForKey:",
+      "bridgedName": "rectForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryWithoutKey:": {
+      "name": "dictionaryWithoutKey:",
+      "bridgedName": "dictionaryWithoutKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForKey:ofType:": {
+      "name": "objectForKey:ofType:",
+      "bridgedName": "objectForKey_ofType",
+      "args": [
+        {
+          "name": "aKey",
+          "type": "nonnull id",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "nonnull Class",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dateForKey:": {
+      "name": "dateForKey:",
+      "bridgedName": "dateForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSDate *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "urlForKey:": {
+      "name": "urlForKey:",
+      "bridgedName": "urlForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boolForKey:": {
+      "name": "boolForKey:",
+      "bridgedName": "boolForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForKeys:ofType:": {
+      "name": "objectForKeys:ofType:",
+      "bridgedName": "objectForKeys_ofType",
+      "args": [
+        {
+          "name": "possibleKeys",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "nonnull Class",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cloudObjectForKey:ofType:parentObject:": {
+      "name": "cloudObjectForKey:ofType:parentObject:",
+      "bridgedName": "cloudObjectForKey_ofType_parentObject",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "nonnull Class",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SCKObject *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable SCKObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cloudObjectArrayForKey:ofType:parentObject:": {
+      "name": "cloudObjectArrayForKey:ofType:parentObject:",
+      "bridgedName": "cloudObjectArrayForKey_ofType_parentObject",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "nonnull Class",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SCKObject *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull NSArray<SCKObject *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sizeForWidthKey:heightKey:": {
+      "name": "sizeForWidthKey:heightKey:",
+      "bridgedName": "sizeForWidthKey_heightKey",
+      "args": [
+        {
+          "name": "widthKey",
+          "type": "nonnull id",
+          "nullable": false
+        },
+        {
+          "name": "heightKey",
+          "type": "nonnull id",
+          "nullable": false
+        }
+      ],
+      "returns": "CGSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointForXKey:yKey:": {
+      "name": "pointForXKey:yKey:",
+      "bridgedName": "pointForXKey_yKey",
+      "args": [
+        {
+          "name": "xKey",
+          "type": "nonnull id",
+          "nullable": false
+        },
+        {
+          "name": "yKey",
+          "type": "nonnull id",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectForXKey:yKey:widthKey:heightKey:": {
+      "name": "rectForXKey:yKey:widthKey:heightKey:",
+      "bridgedName": "rectForXKey_yKey_widthKey_heightKey",
+      "args": [
+        {
+          "name": "xKey",
+          "type": "nonnull id",
+          "nullable": false
+        },
+        {
+          "name": "yKey",
+          "type": "nonnull id",
+          "nullable": false
+        },
+        {
+          "name": "widthKey",
+          "type": "nonnull id",
+          "nullable": false
+        },
+        {
+          "name": "heightKey",
+          "type": "nonnull id",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareStringAttributesForEncoding": {
+      "name": "prepareStringAttributesForEncoding",
+      "bridgedName": "prepareStringAttributesForEncoding",
+      "args": [],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareStringAttributesAfterDecoding": {
+      "name": "prepareStringAttributesAfterDecoding",
+      "bridgedName": "prepareStringAttributesAfterDecoding",
+      "args": [],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByMappingFontToFontDescriptors": {
+      "name": "dictionaryByMappingFontToFontDescriptors",
+      "bridgedName": "dictionaryByMappingFontToFontDescriptors",
+      "args": [],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByMappingFontDescriptorsToFont": {
+      "name": "dictionaryByMappingFontDescriptorsToFont",
+      "bridgedName": "dictionaryByMappingFontDescriptorsToFont",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByRefreshingFontDescriptors": {
+      "name": "dictionaryByRefreshingFontDescriptors",
+      "bridgedName": "dictionaryByRefreshingFontDescriptors",
+      "args": [],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByMappingComponentsDictionaryToMSImmutableColor": {
+      "name": "dictionaryByMappingComponentsDictionaryToMSImmutableColor",
+      "bridgedName": "dictionaryByMappingComponentsDictionaryToMSImmutableColor",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByConvertingNSColorsToMSImmutableColorsInColorSpace:": {
+      "name": "dictionaryByConvertingNSColorsToMSImmutableColorsInColorSpace:",
+      "bridgedName": "dictionaryByConvertingNSColorsToMSImmutableColorsInColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByConvertingMSImmutableColorsToNSColorsInColorSpace:": {
+      "name": "dictionaryByConvertingMSImmutableColorsToNSColorsInColorSpace:",
+      "bridgedName": "dictionaryByConvertingMSImmutableColorsToNSColorsInColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByTranslatingNSColorsToMSImmutableColorsInColorSpace:": {
+      "name": "dictionaryByTranslatingNSColorsToMSImmutableColorsInColorSpace:",
+      "bridgedName": "dictionaryByTranslatingNSColorsToMSImmutableColorsInColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSZoomPopUpButtonCell",
+  "extends": "NSPopUpButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

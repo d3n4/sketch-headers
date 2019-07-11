@@ -1,0 +1,35 @@
+{
+  "name": "MSExportPreviewView",
+  "extends": "NSView",
+  "interfaces": [
+    "NSDraggingSource",
+    "NSPasteboardWriting"
+  ],
+  "methods": {
+    "initWithViewModel:": {
+      "name": "initWithViewModel:",
+      "bridgedName": "initWithViewModel",
+      "args": [
+        {
+          "name": "viewModel",
+          "type": "MSExportPreviewViewModel *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "viewModel": {
+      "name": "viewModel",
+      "pointer": false,
+      "type": "MSExportPreviewViewModel ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

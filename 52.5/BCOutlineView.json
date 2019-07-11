@@ -1,0 +1,255 @@
+{
+  "name": "BCOutlineView",
+  "extends": "NSOutlineView",
+  "interfaces": [],
+  "methods": {
+    "applyAppearance": {
+      "name": "applyAppearance",
+      "bridgedName": "applyAppearance",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processMouseEventTakingFloatingStateOfRowViewIntoAccount:atRow:withBlock:": {
+      "name": "processMouseEventTakingFloatingStateOfRowViewIntoAccount:atRow:withBlock:",
+      "bridgedName": "processMouseEventTakingFloatingStateOfRowViewIntoAccount_atRow_withBlock",
+      "args": [
+        {
+          "name": "rowView",
+          "type": "NSTableRowView *",
+          "nullable": false
+        },
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "eventProcessingBlock",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processMouseEventTakingFloatingGroupRowIntoAccount:withBlock:": {
+      "name": "processMouseEventTakingFloatingGroupRowIntoAccount:withBlock:",
+      "bridgedName": "processMouseEventTakingFloatingGroupRowIntoAccount_withBlock",
+      "args": [
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "eventProcessingBlock",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectOfRowTakingFloatingGroupRowIntoAccount:": {
+      "name": "rectOfRowTakingFloatingGroupRowIntoAccount:",
+      "bridgedName": "rectOfRowTakingFloatingGroupRowIntoAccount",
+      "args": [
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectOfRowIgnoringFloatingState:": {
+      "name": "rectOfRowIgnoringFloatingState:",
+      "bridgedName": "rectOfRowIgnoringFloatingState",
+      "args": [
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rowAtPointTakingFloatingGroupRowIntoAccount:": {
+      "name": "rowAtPointTakingFloatingGroupRowIntoAccount:",
+      "bridgedName": "rowAtPointTakingFloatingGroupRowIntoAccount",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deliberateScrollRowToVisible:": {
+      "name": "deliberateScrollRowToVisible:",
+      "bridgedName": "deliberateScrollRowToVisible",
+      "args": [
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scrollRowToVisible:": {
+      "name": "scrollRowToVisible:",
+      "bridgedName": "scrollRowToVisible",
+      "args": [
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "noteUserDidActivateOutlineView": {
+      "name": "noteUserDidActivateOutlineView",
+      "bridgedName": "noteUserDidActivateOutlineView",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setUpCoordinationWithCounterpartOutlineView:": {
+      "name": "setUpCoordinationWithCounterpartOutlineView:",
+      "bridgedName": "setUpCoordinationWithCounterpartOutlineView",
+      "args": [
+        {
+          "name": "counterpart",
+          "type": "BCOutlineView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "yieldToDefaultFirstResponder": {
+      "name": "yieldToDefaultFirstResponder",
+      "bridgedName": "yieldToDefaultFirstResponder",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendRenameNodeActionForRowIfAppropriate:": {
+      "name": "sendRenameNodeActionForRowIfAppropriate:",
+      "bridgedName": "sendRenameNodeActionForRowIfAppropriate",
+      "args": [
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<BCOutlineViewDelegate>",
+      "attributes": [
+        "atomic",
+        "nullable",
+        "weak"
+      ]
+    },
+    "dataController": {
+      "name": "dataController",
+      "pointer": false,
+      "type": "BCOutlineViewDataController ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "discloserTriangleClickedItem": {
+      "name": "discloserTriangleClickedItem",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "counterpartOutlineView": {
+      "name": "counterpartOutlineView",
+      "pointer": false,
+      "type": "BCOutlineView ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "weak"
+      ]
+    },
+    "activeStateScheme": {
+      "name": "activeStateScheme",
+      "pointer": false,
+      "type": "BCOutlineViewActiveStateScheme",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isActiveOutlineView": {
+      "name": "isActiveOutlineView",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "floatingRowDragged": {
+      "name": "floatingRowDragged",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "shouldIgnorePendingNodeRenameRequestIfDraggingSessionIntervened": {
+      "name": "shouldIgnorePendingNodeRenameRequestIfDraggingSessionIntervened",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "useHighlightedBackgroundColor": {
+      "name": "useHighlightedBackgroundColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

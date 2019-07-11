@@ -1,0 +1,39 @@
+{
+  "name": "MSSymbolMasterReferenceDescriptor",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSPasteboardWriting",
+    "NSPasteboardReading"
+  ],
+  "methods": {
+    "pasteboardType": {
+      "name": "pasteboardType",
+      "bridgedName": "pasteboardType",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "libraryLocation": {
+      "name": "libraryLocation",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "symbolID": {
+      "name": "symbolID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

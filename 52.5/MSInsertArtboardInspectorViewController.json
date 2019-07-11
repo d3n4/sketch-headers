@@ -1,0 +1,37 @@
+{
+  "name": "MSInsertArtboardInspectorViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorChildController"
+  ],
+  "methods": {},
+  "properties": {
+    "shouldAddInsertFromSelectionItem": {
+      "name": "shouldAddInsertFromSelectionItem",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "proposedArtboardSize": {
+      "name": "proposedArtboardSize",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "eventHandler": {
+      "name": "eventHandler",
+      "pointer": false,
+      "type": "MSInsertArtboardEventHandler ",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

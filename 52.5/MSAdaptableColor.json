@@ -1,0 +1,8 @@
+{
+  "name": "MSAdaptableColor",
+  "extends": "NSColor",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSStylePartInspectorValueAdaptor",
+  "extends": "MSInspectorValueAdaptor",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

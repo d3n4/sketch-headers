@@ -1,0 +1,17 @@
+{
+  "name": "MSImmutableExportOptions",
+  "extends": "_MSImmutableExportOptions",
+  "interfaces": [],
+  "methods": {
+    "firstFormat": {
+      "name": "firstFormat",
+      "bridgedName": "firstFormat",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

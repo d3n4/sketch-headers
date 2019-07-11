@@ -1,0 +1,31 @@
+{
+  "name": "MSCloudPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [],
+  "methods": {
+    "updateWindowFrame": {
+      "name": "updateWindowFrame",
+      "bridgedName": "updateWindowFrame",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loginWithURLParameters:": {
+      "name": "loginWithURLParameters:",
+      "bridgedName": "loginWithURLParameters",
+      "args": [
+        {
+          "name": "parameters",
+          "type": "NSDictionary *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

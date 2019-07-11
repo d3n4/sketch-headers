@@ -1,0 +1,84 @@
+{
+  "name": "MSDocumentTree",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDocumentData:": {
+      "name": "initWithDocumentData:",
+      "bridgedName": "initWithDocumentData",
+      "args": [
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentForObject:": {
+      "name": "parentForObject:",
+      "bridgedName": "parentForObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSImmutableModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ancestorsOfObject:": {
+      "name": "ancestorsOfObject:",
+      "bridgedName": "ancestorsOfObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSImmutableModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ancestorLayersOfObject:": {
+      "name": "ancestorLayersOfObject:",
+      "bridgedName": "ancestorLayersOfObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cache": {
+      "name": "cache",
+      "pointer": false,
+      "type": "BCCache ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

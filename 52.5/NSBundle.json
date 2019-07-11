@@ -1,0 +1,49 @@
+{
+  "name": "NSBundle",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "bundleName": {
+      "name": "bundleName",
+      "bridgedName": "bundleName",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bundleVersion": {
+      "name": "bundleVersion",
+      "bridgedName": "bundleVersion",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bundleBuild": {
+      "name": "bundleBuild",
+      "bridgedName": "bundleBuild",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bundleFullVersion": {
+      "name": "bundleFullVersion",
+      "bridgedName": "bundleFullVersion",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bundleCopyright": {
+      "name": "bundleCopyright",
+      "bridgedName": "bundleCopyright",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

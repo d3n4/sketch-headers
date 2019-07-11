@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSEventType",
+  "members": [
+    {
+      "name": "MSEventTypeUndefined",
+      "value": "0"
+    },
+    {
+      "name": "MSEventTypeMouse",
+      "value": "1"
+    }
+  ]
+}

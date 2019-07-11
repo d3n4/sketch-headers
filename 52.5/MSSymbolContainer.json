@@ -1,0 +1,8 @@
+{
+  "name": "MSSymbolContainer",
+  "extends": "_MSSymbolContainer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

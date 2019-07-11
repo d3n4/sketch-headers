@@ -1,0 +1,31 @@
+{
+  "name": "MSSingleItemInspectorSection",
+  "extends": "MSBaseInspectorSection",
+  "interfaces": [],
+  "methods": {
+    "itemClass": {
+      "name": "itemClass",
+      "bridgedName": "itemClass",
+      "args": [],
+      "returns": "nullable Class",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "canHandleLayer:": {
+      "name": "canHandleLayer:",
+      "bridgedName": "canHandleLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

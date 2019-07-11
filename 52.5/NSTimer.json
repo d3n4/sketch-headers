@@ -1,0 +1,33 @@
+{
+  "name": "NSTimer",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "scheduledTimerWithTimeInterval:repeats:block_ch:": {
+      "name": "scheduledTimerWithTimeInterval:repeats:block_ch:",
+      "bridgedName": "scheduledTimerWithTimeInterval_repeats_block_ch",
+      "args": [
+        {
+          "name": "interval",
+          "type": "NSTimeInterval",
+          "nullable": false
+        },
+        {
+          "name": "repeats",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCTimerBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSTimer *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

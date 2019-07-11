@@ -1,0 +1,28 @@
+{
+  "name": "MSReplaceWithSymbolMenuBuilder",
+  "extends": "MSMenuBuilder",
+  "interfaces": [],
+  "methods": {
+    "updateMenuItem:forDocument:": {
+      "name": "updateMenuItem:forDocument:",
+      "bridgedName": "updateMenuItem_forDocument",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSMenuItem*",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocument*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

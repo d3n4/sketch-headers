@@ -1,0 +1,27 @@
+{
+  "name": "MSSymbolInstanceOverrideInspectorItem",
+  "extends": "MSOverrideInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "labelField": {
+      "name": "labelField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "popupButton": {
+      "name": "popupButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

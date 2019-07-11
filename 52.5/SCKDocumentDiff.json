@@ -1,0 +1,82 @@
+{
+  "name": "SCKDocumentDiff",
+  "extends": "NSObject",
+  "interfaces": [
+    "SCKDiff"
+  ],
+  "methods": {
+    "initWithObject:comparedTo:": {
+      "name": "initWithObject:comparedTo:",
+      "bridgedName": "initWithObject_comparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKDocument *",
+          "nullable": false
+        },
+        {
+          "name": "otherObject",
+          "type": "nonnull SCKDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "object": {
+      "name": "object",
+      "pointer": false,
+      "type": "SCKDocument ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "comparedObject": {
+      "name": "comparedObject",
+      "pointer": false,
+      "type": "SCKDocument ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "attributes": {
+      "name": "attributes",
+      "pointer": false,
+      "type": "SCKDocumentAttributes",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pageDiff": {
+      "name": "pageDiff",
+      "pointer": false,
+      "type": "SCKCollectionDiff ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "artboardsDiff": {
+      "name": "artboardsDiff",
+      "pointer": false,
+      "type": "SCKCollectionDiff ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

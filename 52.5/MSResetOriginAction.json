@@ -1,0 +1,23 @@
+{
+  "name": "MSResetOriginAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "resetRulerOrigin:": {
+      "name": "resetRulerOrigin:",
+      "bridgedName": "resetRulerOrigin",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,45 @@
+{
+  "protocol": true,
+  "name": "MSAssetSyncSheetItem",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "MSAssetSyncSheetItemType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "library": {
+      "name": "library",
+      "pointer": false,
+      "type": "MSAssetLibrary ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "displayName": {
+      "name": "displayName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldSync": {
+      "name": "shouldSync",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

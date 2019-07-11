@@ -1,0 +1,34 @@
+{
+  "name": "MSBeepSuppressor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "failSilentlyInBlock:": {
+      "name": "failSilentlyInBlock:",
+      "bridgedName": "failSilentlyInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void(^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "shouldSuppressBeep": {
+      "name": "shouldSuppressBeep",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

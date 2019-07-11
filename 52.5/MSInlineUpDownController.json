@@ -1,0 +1,8 @@
+{
+  "name": "MSInlineUpDownController",
+  "extends": "MSUpDownController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

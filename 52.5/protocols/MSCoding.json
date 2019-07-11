@@ -1,0 +1,72 @@
+{
+  "protocol": true,
+  "name": "MSCoding",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "encodeWithArchiver:": {
+      "name": "encodeWithArchiver:",
+      "bridgedName": "encodeWithArchiver",
+      "args": [
+        {
+          "name": "archiver",
+          "type": "nonnull MSBaseArchiver*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithUnarchiver:": {
+      "name": "initWithUnarchiver:",
+      "bridgedName": "initWithUnarchiver",
+      "args": [
+        {
+          "name": "unarchiver",
+          "type": "nonnull MSBaseUnarchiver*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithUnarchiver:migratingFrom:toVersion:": {
+      "name": "initWithUnarchiver:migratingFrom:toVersion:",
+      "bridgedName": "initWithUnarchiver_migratingFrom_toVersion",
+      "args": [
+        {
+          "name": "unarchiver",
+          "type": "nonnull MSBaseUnarchiver*",
+          "nullable": false
+        },
+        {
+          "name": "fromVersion",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "toVersion",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "archiveReferenceIdentifier_bc": {
+      "name": "archiveReferenceIdentifier_bc",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  }
+}

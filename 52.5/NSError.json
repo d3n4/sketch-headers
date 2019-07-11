@@ -1,0 +1,75 @@
+{
+  "name": "NSError",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "errorFromAPIResponse:data:": {
+      "name": "errorFromAPIResponse:data:",
+      "bridgedName": "errorFromAPIResponse_data",
+      "args": [
+        {
+          "name": "response",
+          "type": "NSURLResponse *",
+          "nullable": true
+        },
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSError *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "isCloudError": {
+      "name": "isCloudError",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isCloudUnauthorized": {
+      "name": "isCloudUnauthorized",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isCloudForbidden": {
+      "name": "isCloudForbidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isUrlCancelled": {
+      "name": "isUrlCancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fields": {
+      "name": "fields",
+      "pointer": false,
+      "type": "NSArray<NSDictionary *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

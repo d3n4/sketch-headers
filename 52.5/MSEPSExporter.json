@@ -1,0 +1,8 @@
+{
+  "name": "MSEPSExporter",
+  "extends": "MSExporter",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

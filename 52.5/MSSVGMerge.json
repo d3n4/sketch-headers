@@ -1,0 +1,23 @@
+{
+  "name": "MSSVGMerge",
+  "extends": "MSSVGfeFilterPrimitive",
+  "interfaces": [],
+  "methods": {
+    "addMergeNodeNamed:": {
+      "name": "addMergeNodeNamed:",
+      "bridgedName": "addMergeNodeNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

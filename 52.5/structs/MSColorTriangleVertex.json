@@ -1,0 +1,46 @@
+{
+  "struct": true,
+  "name": "MSColorTriangleVertex",
+  "members": [
+    {
+      "name": "x",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "y",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "z",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "w",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "r",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "g",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "b",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "a",
+      "pointer": false,
+      "type": "float"
+    }
+  ]
+}

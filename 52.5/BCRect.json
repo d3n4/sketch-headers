@@ -1,0 +1,57 @@
+{
+  "name": "BCRect",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying",
+    "BCRect"
+  ],
+  "methods": {
+    "rectWithRect:": {
+      "name": "rectWithRect:",
+      "bridgedName": "rectWithRect",
+      "args": [
+        {
+          "name": "aRect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithRect:": {
+      "name": "initWithRect:",
+      "bridgedName": "initWithRect",
+      "args": [
+        {
+          "name": "aRect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

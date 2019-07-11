@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableStyleBorder",
+  "extends": "MSImmutableStyleBasicFill",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "position": {
+      "name": "position",
+      "pointer": false,
+      "type": "MSBorderPositionType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "thickness": {
+      "name": "thickness",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

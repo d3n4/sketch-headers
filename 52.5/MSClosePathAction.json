@@ -1,0 +1,23 @@
+{
+  "name": "MSClosePathAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "closePath:": {
+      "name": "closePath:",
+      "bridgedName": "closePath",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

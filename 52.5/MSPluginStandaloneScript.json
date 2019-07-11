@@ -1,0 +1,49 @@
+{
+  "name": "MSPluginStandaloneScript",
+  "extends": "MSPluginScript",
+  "interfaces": [],
+  "methods": {
+    "wrappedScript:handler:": {
+      "name": "wrappedScript:handler:",
+      "bridgedName": "wrappedScript_handler",
+      "args": [
+        {
+          "name": "script",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "rawScript": {
+      "name": "rawScript",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "handler": {
+      "name": "handler",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

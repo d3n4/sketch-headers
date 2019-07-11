@@ -1,0 +1,56 @@
+{
+  "name": "MSCloudLoginWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSCloudLoginWindowControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "environment": {
+      "name": "environment",
+      "pointer": false,
+      "type": "SCKAPIEnvironment ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nonnull"
+      ]
+    },
+    "isLoading": {
+      "name": "isLoading",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "email": {
+      "name": "email",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "password": {
+      "name": "password",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

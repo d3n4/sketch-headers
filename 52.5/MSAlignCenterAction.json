@@ -1,0 +1,8 @@
+{
+  "name": "MSAlignCenterAction",
+  "extends": "MSBaseAlignAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

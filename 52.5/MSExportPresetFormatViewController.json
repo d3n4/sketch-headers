@@ -1,0 +1,8 @@
+{
+  "name": "MSExportPresetFormatViewController",
+  "extends": "MSExportFormatViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

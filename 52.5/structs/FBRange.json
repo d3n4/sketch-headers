@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "FBRange",
+  "members": [
+    {
+      "name": "minimum",
+      "pointer": false,
+      "type": "FBFloat"
+    },
+    {
+      "name": "maximum",
+      "pointer": false,
+      "type": "FBFloat"
+    }
+  ]
+}

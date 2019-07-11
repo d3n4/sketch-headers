@@ -1,0 +1,52 @@
+{
+  "name": "SMKWebConnection",
+  "extends": "SMKConnection",
+  "interfaces": [],
+  "methods": {
+    "initWithAdvertisement:": {
+      "name": "initWithAdvertisement:",
+      "bridgedName": "initWithAdvertisement",
+      "args": [
+        {
+          "name": "advertisement",
+          "type": "nonnull NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "destroy": {
+      "name": "destroy",
+      "bridgedName": "destroy",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "advertisement": {
+      "name": "advertisement",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readwrite"
+      ]
+    },
+    "advertising": {
+      "name": "advertising",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

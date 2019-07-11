@@ -1,0 +1,17 @@
+{
+  "protocol": true,
+  "name": "MSLayerWithMutableBackgroundColor",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  }
+}

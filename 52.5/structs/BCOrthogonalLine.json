@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "BCOrthogonalLine",
+  "members": [
+    {
+      "name": "position",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis"
+    }
+  ]
+}

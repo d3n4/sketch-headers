@@ -1,0 +1,41 @@
+{
+  "protocol": true,
+  "name": "MSInspectorSection",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "views": {
+      "name": "views",
+      "bridgedName": "views",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "wantsSeparatorAfterViews": {
+      "name": "wantsSeparatorAfterViews",
+      "bridgedName": "wantsSeparatorAfterViews",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "separatorInsets": {
+      "name": "separatorInsets",
+      "bridgedName": "separatorInsets",
+      "args": [],
+      "returns": "NSEdgeInsets",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "footerViews": {
+      "name": "footerViews",
+      "bridgedName": "footerViews",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

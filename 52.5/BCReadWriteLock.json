@@ -1,0 +1,37 @@
+{
+  "name": "BCReadWriteLock",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "protectedRead:": {
+      "name": "protectedRead:",
+      "bridgedName": "protectedRead",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "protectedWrite:": {
+      "name": "protectedWrite:",
+      "bridgedName": "protectedWrite",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

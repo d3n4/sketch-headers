@@ -1,0 +1,8 @@
+{
+  "name": "MSPasteHereAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

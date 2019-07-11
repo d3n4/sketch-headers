@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "MSOverlayRenderingDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "renderOverlayInRect:context:pageOverlayRenderOptions:": {
+      "name": "renderOverlayInRect:context:pageOverlayRenderOptions:",
+      "bridgedName": "renderOverlayInRect_context_pageOverlayRenderOptions",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "nonnull CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSArtboardPresetClipView",
+  "extends": "NSClipView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

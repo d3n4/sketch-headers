@@ -1,0 +1,8 @@
+{
+  "name": "MSPopUpToolbarItem",
+  "extends": "MSToolbarItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

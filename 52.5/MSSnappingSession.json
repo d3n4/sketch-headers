@@ -1,0 +1,169 @@
+{
+  "name": "MSSnappingSession",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "moveSnappingSessionWithItem:": {
+      "name": "moveSnappingSessionWithItem:",
+      "bridgedName": "moveSnappingSessionWithItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSSnapItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSnappingSession *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "resizeSnappingSessionWithItem:corner:": {
+      "name": "resizeSnappingSessionWithItem:corner:",
+      "bridgedName": "resizeSnappingSessionWithItem_corner",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSSnapItem *",
+          "nullable": false
+        },
+        {
+          "name": "corner",
+          "type": "BCCorner",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSnappingSession *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "keySnappingSessionWithItem:": {
+      "name": "keySnappingSessionWithItem:",
+      "bridgedName": "keySnappingSessionWithItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSSnapItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSnappingSession *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "sessionType": {
+      "name": "sessionType",
+      "pointer": false,
+      "type": "MSSnappingSessionType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "snapDistance": {
+      "name": "snapDistance",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "zoomScale": {
+      "name": "zoomScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "effectiveSnapDistance": {
+      "name": "effectiveSnapDistance",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "allowedAxes": {
+      "name": "allowedAxes",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "item": {
+      "name": "item",
+      "pointer": false,
+      "type": "MSSnapItem ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray<MSLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "corner": {
+      "name": "corner",
+      "pointer": false,
+      "type": "BCCorner",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "snappableEdges": {
+      "name": "snappableEdges",
+      "pointer": false,
+      "type": "BCEdge",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "snappableAttributes": {
+      "name": "snappableAttributes",
+      "pointer": false,
+      "type": "NSIndexSet ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "shouldSnapToLayers": {
+      "name": "shouldSnapToLayers",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "snappableGuidesMask": {
+      "name": "snappableGuidesMask",
+      "pointer": false,
+      "type": "MSAlignmentGuideMask",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

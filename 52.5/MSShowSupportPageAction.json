@@ -1,0 +1,23 @@
+{
+  "name": "MSShowSupportPageAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "showSupportPage:": {
+      "name": "showSupportPage:",
+      "bridgedName": "showSupportPage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

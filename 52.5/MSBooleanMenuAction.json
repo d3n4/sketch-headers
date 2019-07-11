@@ -1,0 +1,8 @@
+{
+  "name": "MSBooleanMenuAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}
