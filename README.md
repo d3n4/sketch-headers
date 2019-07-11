@@ -6,6 +6,7 @@
 
 | Version                                              | Compare | Patch |
 | ---------------------------------------------------- | ------- | ----- |
+| [53.2](https://github.com/skpm/sketch-headers/tree/53.2) | [53.1...53.2](https://github.com/skpm/sketch-headers/compare/53.1...53.2) | [53.1...53.2](https://github.com/skpm/sketch-headers/compare/53.1...53.2.diff) |
 | [53.1](https://github.com/skpm/sketch-headers/tree/53.1) | [53...53.1](https://github.com/skpm/sketch-headers/compare/53...53.1) | [53...53.1](https://github.com/skpm/sketch-headers/compare/53...53.1.diff) |
 | [53](https://github.com/skpm/sketch-headers/tree/53) | [52.6...53](https://github.com/skpm/sketch-headers/compare/52.6...53) | [52.6...53](https://github.com/skpm/sketch-headers/compare/52.6...53.diff) |
 | [52.6](https://github.com/skpm/sketch-headers/tree/52.6) | [52.5...52.6](https://github.com/skpm/sketch-headers/compare/52.5...52.6) | [52.5...52.6](https://github.com/skpm/sketch-headers/compare/52.5...52.6.diff) |

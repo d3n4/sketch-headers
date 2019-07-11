@@ -1,0 +1,23 @@
+{
+  "name": "MSForceResyncLibraryAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "forceResyncAllLibraryObjects:": {
+      "name": "forceResyncAllLibraryObjects:",
+      "bridgedName": "forceResyncAllLibraryObjects",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

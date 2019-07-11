@@ -1955,6 +1955,7 @@
   "MSUpDownComboBox.json",
   "MSFontSizeUpDownComboBox.json",
   "MSFontWatcher.json",
+  "MSForceResyncLibraryAction.json",
   "MSForeignObjectProvider.json",
   "MSForeignSymbolProvider.json",
   "MSSharedLayerStyleProvider.json",
