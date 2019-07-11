@@ -1,0 +1,42 @@
+{
+  "enum": true,
+  "name": "ECCommandLineResult",
+  "members": [
+    {
+      "name": "ECCommandLineResultOKButTerminate",
+      "value": "-2"
+    },
+    {
+      "name": "ECCommandLineResultStayRunning",
+      "value": "-1"
+    },
+    {
+      "name": "ECCommandLineResultOK",
+      "value": "0"
+    },
+    {
+      "name": "ECCommandLineResultUnknownCommand"
+    },
+    {
+      "name": "ECCommandLineResultMissingCommandClass"
+    },
+    {
+      "name": "ECCommandLineResultNotImplemented"
+    },
+    {
+      "name": "ECCommandLineResultMissingArguments"
+    },
+    {
+      "name": "ECCommandLineResultImplementationReturnedError"
+    },
+    {
+      "name": "ECCommandLineResultMissingBundle"
+    },
+    {
+      "name": "ECCommandLineResultJSONConversionFailed"
+    },
+    {
+      "name": "ECCommandLineResultJSONOutputFailed"
+    }
+  ]
+}

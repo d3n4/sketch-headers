@@ -1,0 +1,11 @@
+{
+  "name": "MSImmutableShapeGroup",
+  "extends": "_MSImmutableShapeGroup",
+  "interfaces": [
+    "MSShapeGroup",
+    "MSImmutablePathLayer"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

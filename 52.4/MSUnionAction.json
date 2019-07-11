@@ -1,0 +1,23 @@
+{
+  "name": "MSUnionAction",
+  "extends": "MSBaseBooleanAction",
+  "interfaces": [],
+  "methods": {
+    "booleanUnion:": {
+      "name": "booleanUnion:",
+      "bridgedName": "booleanUnion",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

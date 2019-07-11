@@ -1,0 +1,23 @@
+{
+  "name": "MSInsertArtboardAction",
+  "extends": "MSBaseInsertAction",
+  "interfaces": [],
+  "methods": {
+    "insertArtboard:": {
+      "name": "insertArtboard:",
+      "bridgedName": "insertArtboard",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

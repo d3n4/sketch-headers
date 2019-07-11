@@ -1,0 +1,147 @@
+{
+  "name": "SCKArtboard",
+  "extends": "SCKObject",
+  "interfaces": [],
+  "methods": {
+    "diffComparedTo:": {
+      "name": "diffComparedTo:",
+      "bridgedName": "diffComparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKArtboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull SCKArtboardDiff *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fileAtScale:ofType:)": {
+      "name": "fileAtScale:ofType:)",
+      "bridgedName": "fileAtScale_ofType_)",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "SCKFileImageType",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable SCKFile *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "page": {
+      "name": "page",
+      "pointer": false,
+      "type": "SCKPage ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "slug": {
+      "name": "slug",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "order": {
+      "name": "order",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "unread": {
+      "name": "unread",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "viewport": {
+      "name": "viewport",
+      "pointer": false,
+      "type": "SCKArtboardViewport",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "files": {
+      "name": "files",
+      "pointer": false,
+      "type": "NSArray<SCKFile *> ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "possibleFileTypes": {
+      "name": "possibleFileTypes",
+      "pointer": false,
+      "type": "SCKFileImageType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray<SCKLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "isFlowHome": {
+      "name": "isFlowHome",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

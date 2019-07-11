@@ -1,0 +1,75 @@
+{
+  "name": "MSSubtreeRoot",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "contentDirtyDiffRectForPage:": {
+      "name": "contentDirtyDiffRectForPage:",
+      "bridgedName": "contentDirtyDiffRectForPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overlayDirtyDiffRectForPage:": {
+      "name": "overlayDirtyDiffRectForPage:",
+      "bridgedName": "overlayDirtyDiffRectForPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "webExportableRootLayer": {
+      "name": "webExportableRootLayer",
+      "pointer": false,
+      "type": "MSImmutableLayerGroup<MSWebExportableRootLayer> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "object": {
+      "name": "object",
+      "pointer": false,
+      "type": "MSImmutableModelObject ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "ancestorsOfObject": {
+      "name": "ancestorsOfObject",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

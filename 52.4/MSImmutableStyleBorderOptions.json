@@ -1,0 +1,56 @@
+{
+  "name": "MSImmutableStyleBorderOptions",
+  "extends": "_MSImmutableStyleBorderOptions",
+  "interfaces": [],
+  "methods": {
+    "addSVGAttributes:exporter:": {
+      "name": "addSVGAttributes:exporter:",
+      "bridgedName": "addSVGAttributes_exporter",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "CGLineJoin": {
+      "name": "CGLineJoin",
+      "pointer": false,
+      "type": "CGLineJoin",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "CGLineCap": {
+      "name": "CGLineCap",
+      "pointer": false,
+      "type": "CGLineCap",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasDashPattern": {
+      "name": "hasDashPattern",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

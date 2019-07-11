@@ -1,0 +1,67 @@
+{
+  "name": "MSFlowRendererCollector",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithLayers:onPage:document:zoomLevel:cache:": {
+      "name": "initWithLayers:onPage:document:zoomLevel:cache:",
+      "bridgedName": "initWithLayers_onPage_document_zoomLevel_cache",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldInvalidateCollectedFlowsWithDiff:": {
+      "name": "shouldInvalidateCollectedFlowsWithDiff:",
+      "bridgedName": "shouldInvalidateCollectedFlowsWithDiff",
+      "args": [
+        {
+          "name": "diff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "flowRenderers": {
+      "name": "flowRenderers",
+      "pointer": false,
+      "type": "NSArray<MSFlowRenderer *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "BITCrashErrorReason",
+  "members": [
+    {
+      "name": "BITCrashErrorUnknown"
+    },
+    {
+      "name": "BITCrashAPIAppVersionRejected"
+    },
+    {
+      "name": "BITCrashAPIReceivedEmptyResponse"
+    },
+    {
+      "name": "BITCrashAPIErrorWithStatusCode"
+    }
+  ]
+}

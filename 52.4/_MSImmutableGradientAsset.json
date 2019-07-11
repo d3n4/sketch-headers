@@ -1,0 +1,19 @@
+{
+  "name": "_MSImmutableGradientAsset",
+  "extends": "MSImmutableAssetContainer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "gradient": {
+      "name": "gradient",
+      "pointer": false,
+      "type": "MSImmutableGradient ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

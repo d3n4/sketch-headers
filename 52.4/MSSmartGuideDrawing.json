@@ -1,0 +1,25 @@
+{
+  "name": "MSSmartGuideDrawing",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "smartGuideColor": {
+      "name": "smartGuideColor",
+      "bridgedName": "smartGuideColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "resetSmartGuideColor": {
+      "name": "resetSmartGuideColor",
+      "bridgedName": "resetSmartGuideColor",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

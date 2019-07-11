@@ -1,0 +1,208 @@
+{
+  "name": "BCSTCommand",
+  "extends": "ECCommandLineCommand",
+  "interfaces": [],
+  "methods": {
+    "processDocumentsAtPaths:engine:": {
+      "name": "processDocumentsAtPaths:engine:",
+      "bridgedName": "processDocumentsAtPaths_engine",
+      "args": [
+        {
+          "name": "paths",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processDocumentURL:engine:": {
+      "name": "processDocumentURL:engine:",
+      "bridgedName": "processDocumentURL_engine",
+      "args": [
+        {
+          "name": "documentURL",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processItemsForPage:engine:": {
+      "name": "processItemsForPage:engine:",
+      "bridgedName": "processItemsForPage_engine",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentDataForURL:engine:": {
+      "name": "documentDataForURL:engine:",
+      "bridgedName": "documentDataForURL_engine",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDocumentData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentForURL:engine:": {
+      "name": "documentForURL:engine:",
+      "bridgedName": "documentForURL_engine",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDocumentReader*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pagesForURL:engine:": {
+      "name": "pagesForURL:engine:",
+      "bridgedName": "pagesForURL_engine",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scalesToUseForSlice:scales:": {
+      "name": "scalesToUseForSlice:scales:",
+      "bridgedName": "scalesToUseForSlice_scales",
+      "args": [
+        {
+          "name": "slice",
+          "type": "MSSliceLayer *",
+          "nullable": false
+        },
+        {
+          "name": "scales",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "suffixForScale:": {
+      "name": "suffixForScale:",
+      "bridgedName": "suffixForScale",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "specifiedItemsWithEngine:": {
+      "name": "specifiedItemsWithEngine:",
+      "bridgedName": "specifiedItemsWithEngine",
+      "args": [
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filteredArtboardsForPage:engine:": {
+      "name": "filteredArtboardsForPage:engine:",
+      "bridgedName": "filteredArtboardsForPage_engine",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldExportLayer:forMatch:": {
+      "name": "shouldExportLayer:forMatch:",
+      "bridgedName": "shouldExportLayer_forMatch",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "nameOrID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

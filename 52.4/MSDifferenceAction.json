@@ -1,0 +1,23 @@
+{
+  "name": "MSDifferenceAction",
+  "extends": "MSBaseBooleanAction",
+  "interfaces": [],
+  "methods": {
+    "booleanDifference:": {
+      "name": "booleanDifference:",
+      "bridgedName": "booleanDifference",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

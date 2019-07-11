@@ -1,0 +1,23 @@
+{
+  "name": "MSFlipHorizontalAction",
+  "extends": "MSBaseFlipAction",
+  "interfaces": [],
+  "methods": {
+    "flipHorizontal:": {
+      "name": "flipHorizontal:",
+      "bridgedName": "flipHorizontal",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

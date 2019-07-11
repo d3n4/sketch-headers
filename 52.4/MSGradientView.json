@@ -1,0 +1,90 @@
+{
+  "name": "MSGradientView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "topColour": {
+      "name": "topColour",
+      "pointer": false,
+      "type": "IBInspectable NSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "bottomColour": {
+      "name": "bottomColour",
+      "pointer": false,
+      "type": "IBInspectable NSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "borderColour": {
+      "name": "borderColour",
+      "pointer": false,
+      "type": "IBInspectable NSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "gradientAngle": {
+      "name": "gradientAngle",
+      "pointer": false,
+      "type": "IBInspectable float",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "borderSize": {
+      "name": "borderSize",
+      "pointer": false,
+      "type": "IBInspectable float",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "topBorder": {
+      "name": "topBorder",
+      "pointer": false,
+      "type": "IBInspectable BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "leftBorder": {
+      "name": "leftBorder",
+      "pointer": false,
+      "type": "IBInspectable BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "rightBorder": {
+      "name": "rightBorder",
+      "pointer": false,
+      "type": "IBInspectable BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "bottomBorder": {
+      "name": "bottomBorder",
+      "pointer": false,
+      "type": "IBInspectable BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

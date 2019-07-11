@@ -1,0 +1,8 @@
+{
+  "name": "SUAutomaticUpdateDriver",
+  "extends": "SUBasicUpdateDriver",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

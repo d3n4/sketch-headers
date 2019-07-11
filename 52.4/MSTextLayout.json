@@ -1,0 +1,80 @@
+{
+  "name": "MSTextLayout",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "textLayoutForLayoutManager:": {
+      "name": "textLayoutForLayoutManager:",
+      "bridgedName": "textLayoutForLayoutManager",
+      "args": [
+        {
+          "name": "layoutManager",
+          "type": "NSLayoutManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "baselineOffsets": {
+      "name": "baselineOffsets",
+      "pointer": false,
+      "type": "NSArray <NSNumber *> ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "lineFragmentRectangles": {
+      "name": "lineFragmentRectangles",
+      "pointer": false,
+      "type": "NSArray <NSNumber *> ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "firstBaselineOffset": {
+      "name": "firstBaselineOffset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "lastBaselineOffset": {
+      "name": "lastBaselineOffset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "lineFragmentBounds": {
+      "name": "lineFragmentBounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "firstLineCapOffset": {
+      "name": "firstLineCapOffset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

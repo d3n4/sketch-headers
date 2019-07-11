@@ -1,0 +1,81 @@
+{
+  "name": "BCFilterInfo",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "filterTypeApplies:": {
+      "name": "filterTypeApplies:",
+      "bridgedName": "filterTypeApplies",
+      "args": [
+        {
+          "name": "filterType",
+          "type": "BCOutlineViewFilterTypeMask",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldIncludeNode:": {
+      "name": "shouldIncludeNode:",
+      "bridgedName": "shouldIncludeNode",
+      "args": [
+        {
+          "name": "node",
+          "type": "id<BCOutlineViewNode>",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetCacheGeneration": {
+      "name": "resetCacheGeneration",
+      "bridgedName": "resetCacheGeneration",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "filterString": {
+      "name": "filterString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "filterTypeMask": {
+      "name": "filterTypeMask",
+      "pointer": false,
+      "type": "BCOutlineViewFilterTypeMask",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "cacheGeneration": {
+      "name": "cacheGeneration",
+      "pointer": false,
+      "type": "NSObject ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isActive": {
+      "name": "isActive",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

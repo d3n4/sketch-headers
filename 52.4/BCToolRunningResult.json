@@ -1,0 +1,54 @@
+{
+  "name": "BCToolRunningResult",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "errorOutput": {
+      "name": "errorOutput",
+      "pointer": false,
+      "type": "NSData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exitStatus": {
+      "name": "exitStatus",
+      "pointer": false,
+      "type": "int",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "output": {
+      "name": "output",
+      "pointer": false,
+      "type": "NSData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "terminationReason": {
+      "name": "terminationReason",
+      "pointer": false,
+      "type": "NSTaskTerminationReason",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

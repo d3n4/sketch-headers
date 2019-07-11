@@ -1,0 +1,44 @@
+{
+  "name": "MSSharedStylesInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "beginRenameSharedObject:completionBlock:": {
+      "name": "beginRenameSharedObject:completionBlock:",
+      "bridgedName": "beginRenameSharedObject_completionBlock",
+      "args": [
+        {
+          "name": "sharedObject",
+          "type": "MSSharedObject *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSRenameSharedObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshIfNecessary:": {
+      "name": "refreshIfNecessary:",
+      "bridgedName": "refreshIfNecessary",
+      "args": [
+        {
+          "name": "treeDiff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "SUUnarchiver",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "unarchiverForPath:updatingHostBundlePath:decryptionPassword:": {
+      "name": "unarchiverForPath:updatingHostBundlePath:decryptionPassword:",
+      "bridgedName": "unarchiverForPath_updatingHostBundlePath_decryptionPassword",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "hostPath",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "decryptionPassword",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable id <SUUnarchiverProtocol>",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

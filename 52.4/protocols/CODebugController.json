@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "CODebugController",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "output:args:": {
+      "name": "output:args:",
+      "bridgedName": "output_args",
+      "args": [
+        {
+          "name": "format",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "args",
+          "type": "va_list",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSFlowInspectorSection",
+  "extends": "MSBaseInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

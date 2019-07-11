@@ -1,0 +1,230 @@
+{
+  "name": "MSMathInspectorValueAdaptor",
+  "extends": "MSInspectorValueAdaptor",
+  "interfaces": [],
+  "methods": {
+    "initWithModelsController:floatValueGetter:floatValueSetter:modelKeyPathsToWatch:": {
+      "name": "initWithModelsController:floatValueGetter:floatValueSetter:modelKeyPathsToWatch:",
+      "bridgedName": "initWithModelsController_floatValueGetter_floatValueSetter_modelKeyPathsToWatch",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "floatValueGetter",
+          "type": "CGFloat (^)(id model)",
+          "nullable": false
+        },
+        {
+          "name": "floatValueSetter",
+          "type": "void (^)(ModelType model, CGFloat value, id context)",
+          "nullable": false
+        },
+        {
+          "name": "modelKeyPathsToWatch",
+          "type": "NSArray <NSString *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkAndAdjustValues:contexts:withNumberFormatter:error:": {
+      "name": "checkAndAdjustValues:contexts:withNumberFormatter:error:",
+      "bridgedName": "checkAndAdjustValues_contexts_withNumberFormatter_error",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray <NSNumber *>*",
+          "nullable": false
+        },
+        {
+          "name": "contexts",
+          "type": "__autoreleasing NSPointerArray *",
+          "nullable": false
+        },
+        {
+          "name": "numberFormatter",
+          "type": "NSNumberFormatter *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "__autoreleasing NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSNumber *>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "effectiveNumberFormatter": {
+      "name": "effectiveNumberFormatter",
+      "bridgedName": "effectiveNumberFormatter",
+      "args": [],
+      "returns": "NSNumberFormatter *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentAdjustOptions": {
+      "name": "currentAdjustOptions",
+      "bridgedName": "currentAdjustOptions",
+      "args": [],
+      "returns": "MSValueAdaptorAdjustOptions",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueFromPrefixStrippedString:forModel:originalString:error:": {
+      "name": "valueFromPrefixStrippedString:forModel:originalString:error:",
+      "bridgedName": "valueFromPrefixStrippedString_forModel_originalString_error",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "model",
+          "type": "ModelType",
+          "nullable": false
+        },
+        {
+          "name": "originalString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "__autoreleasing NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "errorWithUnparsableString:": {
+      "name": "errorWithUnparsableString:",
+      "bridgedName": "errorWithUnparsableString",
+      "args": [
+        {
+          "name": "unparsable",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSError *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trimValueString:getMathPrefix:": {
+      "name": "trimValueString:getMathPrefix:",
+      "bridgedName": "trimValueString_getMathPrefix",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "prefix",
+          "type": "__autoreleasing NSString **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "forceRelativeMathForBlock:": {
+      "name": "forceRelativeMathForBlock:",
+      "bridgedName": "forceRelativeMathForBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void(^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithModelsController:modelKeyPath:valueTransformer:": {
+      "name": "initWithModelsController:modelKeyPath:valueTransformer:",
+      "bridgedName": "initWithModelsController_modelKeyPath_valueTransformer",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "keyPath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "transformer",
+          "type": "NSValueTransformer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "clampsValues": {
+      "name": "clampsValues",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "adjustIndividually": {
+      "name": "adjustIndividually",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "numberFormatter": {
+      "name": "numberFormatter",
+      "pointer": false,
+      "type": "NSNumberFormatter ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSInspectorMathValueAdaptorDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "isIncrementing": {
+      "name": "isIncrementing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": [
+    "ModelType",
+    "ModelValueType",
+    "AdaptorValueType"
+  ]
+}

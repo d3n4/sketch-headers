@@ -1,0 +1,8 @@
+{
+  "name": "MSMotionBlurInspectorItem",
+  "extends": "MSBaseBlurInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

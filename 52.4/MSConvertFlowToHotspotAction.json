@@ -1,0 +1,23 @@
+{
+  "name": "MSConvertFlowToHotspotAction",
+  "extends": "MSFlowBaseAction",
+  "interfaces": [],
+  "methods": {
+    "convertFlowToHotspot:": {
+      "name": "convertFlowToHotspot:",
+      "bridgedName": "convertFlowToHotspot",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

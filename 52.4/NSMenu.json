@@ -1,0 +1,454 @@
+{
+  "name": "NSMenu",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "addItemWithTitle:action:": {
+      "name": "addItemWithTitle:action:",
+      "bridgedName": "addItemWithTitle_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "aSelector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addItemWithTitle:small:target:action:": {
+      "name": "addItemWithTitle:small:target:action:",
+      "bridgedName": "addItemWithTitle_small_target_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "smallFont",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "aSelector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addItemWithTitle:target:action:": {
+      "name": "addItemWithTitle:target:action:",
+      "bridgedName": "addItemWithTitle_target_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "aTarget",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addItemWithTitle:target:action:representedObject:": {
+      "name": "addItemWithTitle:target:action:representedObject:",
+      "bridgedName": "addItemWithTitle_target_action_representedObject",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "aTarget",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "anObject",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addItemWithTitle:target:action:submenu:": {
+      "name": "addItemWithTitle:target:action:submenu:",
+      "bridgedName": "addItemWithTitle_target_action_submenu",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "aTarget",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "submenu",
+          "type": "NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addItemWithTitle:target:action:image:": {
+      "name": "addItemWithTitle:target:action:image:",
+      "bridgedName": "addItemWithTitle_target_action_image",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "NSImage*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addItemWithTitle:target:action:imageNamed:": {
+      "name": "addItemWithTitle:target:action:imageNamed:",
+      "bridgedName": "addItemWithTitle_target_action_imageNamed",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "aTarget",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSmallItalicItemWithTitle:target:action:": {
+      "name": "addSmallItalicItemWithTitle:target:action:",
+      "bridgedName": "addSmallItalicItemWithTitle_target_action",
+      "args": [
+        {
+          "name": "aString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "aTarget",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "aSelector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSmallItemWithTitle:target:action:": {
+      "name": "addSmallItemWithTitle:target:action:",
+      "bridgedName": "addSmallItemWithTitle_target_action",
+      "args": [
+        {
+          "name": "aString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "aTarget",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "aSelector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addItemWithTitle:font:target:action:": {
+      "name": "addItemWithTitle:font:target:action:",
+      "bridgedName": "addItemWithTitle_font_target_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "font",
+          "type": "NSFont *",
+          "nullable": false
+        },
+        {
+          "name": "aTarget",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "aSelector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addItemsFromArray:": {
+      "name": "addItemsFromArray:",
+      "bridgedName": "addItemsFromArray",
+      "args": [
+        {
+          "name": "array",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceItemWithAction:withMenuItem_ms:": {
+      "name": "replaceItemWithAction:withMenuItem_ms:",
+      "bridgedName": "replaceItemWithAction_withMenuItem_ms",
+      "args": [
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "newItem",
+          "type": "NSMenuItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceMenuItem:withMenuItem_ms:": {
+      "name": "replaceMenuItem:withMenuItem_ms:",
+      "bridgedName": "replaceMenuItem_withMenuItem_ms",
+      "args": [
+        {
+          "name": "oldItem",
+          "type": "NSMenuItem *",
+          "nullable": false
+        },
+        {
+          "name": "newItem",
+          "type": "NSMenuItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showPopUpMenuForEvent:relativeToRect:ofView:": {
+      "name": "showPopUpMenuForEvent:relativeToRect:ofView:",
+      "bridgedName": "showPopUpMenuForEvent_relativeToRect_ofView",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showPopUpMenuForEvent:relativeToRect:ofView:deferred:": {
+      "name": "showPopUpMenuForEvent:relativeToRect:ofView:deferred:",
+      "bridgedName": "showPopUpMenuForEvent_relativeToRect_ofView_deferred",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "defer",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showPopUpMenuForEvent:relativeToRect:ofView:deferred:triggerControlViewActionOnZeroItems:": {
+      "name": "showPopUpMenuForEvent:relativeToRect:ofView:deferred:triggerControlViewActionOnZeroItems:",
+      "bridgedName": "showPopUpMenuForEvent_relativeToRect_ofView_deferred_triggerControlViewActionOnZeroItems",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "controlView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "defer",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "triggerControlViewActionOnZeroItems",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuWithItems:": {
+      "name": "menuWithItems:",
+      "bridgedName": "menuWithItems",
+      "args": [
+        {
+          "name": "menuItems",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenu *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "parentMenuItem_bc": {
+      "name": "parentMenuItem_bc",
+      "bridgedName": "parentMenuItem_bc",
+      "args": [],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isInMainMenu": {
+      "name": "isInMainMenu",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isDarkMode_ms": {
+      "name": "isDarkMode_ms",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

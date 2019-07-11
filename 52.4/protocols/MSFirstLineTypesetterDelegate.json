@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSFirstLineTypesetterDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "baselineAdjustmentForLayoutManager:": {
+      "name": "baselineAdjustmentForLayoutManager:",
+      "bridgedName": "baselineAdjustmentForLayoutManager",
+      "args": [
+        {
+          "name": "layoutManager",
+          "type": "NSLayoutManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

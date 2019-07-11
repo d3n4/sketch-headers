@@ -1,0 +1,23 @@
+{
+  "name": "SUSystemProfiler",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "systemProfileArrayForHost:": {
+      "name": "systemProfileArrayForHost:",
+      "bridgedName": "systemProfileArrayForHost",
+      "args": [
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSDictionary<NSString *, NSString *> *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

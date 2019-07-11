@@ -1,0 +1,239 @@
+{
+  "name": "NSMutableArray",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "removeObjectsPassingTest:": {
+      "name": "removeObjectsPassingTest:",
+      "bridgedName": "removeObjectsPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(id obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayWithCapacity:fill:": {
+      "name": "arrayWithCapacity:fill:",
+      "bridgedName": "arrayWithCapacity_fill",
+      "args": [
+        {
+          "name": "count",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "id (^)(NSUInteger index)",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addObjectIfNotNil:": {
+      "name": "addObjectIfNotNil:",
+      "bridgedName": "addObjectIfNotNil",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeFirstObject": {
+      "name": "removeFirstObject",
+      "bridgedName": "removeFirstObject",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceObject:withObject:": {
+      "name": "replaceObject:withObject:",
+      "bridgedName": "replaceObject_withObject",
+      "args": [
+        {
+          "name": "obj1",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "obj2",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mo_setObject:forIndexedSubscript:": {
+      "name": "mo_setObject:forIndexedSubscript:",
+      "bridgedName": "mo_setObject_forIndexedSubscript",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "idx",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfAttributeWithName:": {
+      "name": "indexOfAttributeWithName:",
+      "bridgedName": "indexOfAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeForID:": {
+      "name": "addAttributeForID:",
+      "bridgedName": "addAttributeForID",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeWithName:stringValue:": {
+      "name": "addAttributeWithName:stringValue:",
+      "bridgedName": "addAttributeWithName_stringValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeWithName:pixelValue:": {
+      "name": "addAttributeWithName:pixelValue:",
+      "bridgedName": "addAttributeWithName_pixelValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeWithName:numberValue:": {
+      "name": "addAttributeWithName:numberValue:",
+      "bridgedName": "addAttributeWithName_numberValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeWithName:percentageValue:": {
+      "name": "addAttributeWithName:percentageValue:",
+      "bridgedName": "addAttributeWithName_percentageValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeWithName:percentageFractionalValue:": {
+      "name": "addAttributeWithName:percentageFractionalValue:",
+      "bridgedName": "addAttributeWithName_percentageFractionalValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAttributeWithName:": {
+      "name": "removeAttributeWithName:",
+      "bridgedName": "removeAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

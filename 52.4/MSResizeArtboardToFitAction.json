@@ -1,0 +1,23 @@
+{
+  "name": "MSResizeArtboardToFitAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "resizeArtboardToFit:": {
+      "name": "resizeArtboardToFit:",
+      "bridgedName": "resizeArtboardToFit",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

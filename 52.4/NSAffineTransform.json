@@ -1,0 +1,214 @@
+{
+  "name": "NSAffineTransform",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "transformByTranslatingXBy:yBy:": {
+      "name": "transformByTranslatingXBy:yBy:",
+      "bridgedName": "transformByTranslatingXBy_yBy",
+      "args": [
+        {
+          "name": "x",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "y",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "transformByScaling:": {
+      "name": "transformByScaling:",
+      "bridgedName": "transformByScaling",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "transformWithOffset:": {
+      "name": "transformWithOffset:",
+      "bridgedName": "transformWithOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotationTransformWithDegrees:aroundPoint:": {
+      "name": "rotationTransformWithDegrees:aroundPoint:",
+      "bridgedName": "rotationTransformWithDegrees_aroundPoint",
+      "args": [
+        {
+          "name": "degrees",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "transformFromStruct:aroundPoint:": {
+      "name": "transformFromStruct:aroundPoint:",
+      "bridgedName": "transformFromStruct_aroundPoint",
+      "args": [
+        {
+          "name": "transformStruct",
+          "type": "CHTransformStruct",
+          "nullable": false
+        },
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "transformFromStruct:aroundPoint:inPlace:": {
+      "name": "transformFromStruct:aroundPoint:inPlace:",
+      "bridgedName": "transformFromStruct_aroundPoint_inPlace",
+      "args": [
+        {
+          "name": "transformStruct",
+          "type": "CHTransformStruct",
+          "nullable": false
+        },
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "transformInPlace",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "translateByOffset:": {
+      "name": "translateByOffset:",
+      "bridgedName": "translateByOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transactionWithBlock:": {
+      "name": "transactionWithBlock:",
+      "bridgedName": "transactionWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rotateWithDegrees:aroundPoint:": {
+      "name": "rotateWithDegrees:aroundPoint:",
+      "bridgedName": "rotateWithDegrees_aroundPoint",
+      "args": [
+        {
+          "name": "degrees",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invertedTransform": {
+      "name": "invertedTransform",
+      "bridgedName": "invertedTransform",
+      "args": [],
+      "returns": "NSAffineTransform *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "CGAffineTransform_ms": {
+      "name": "CGAffineTransform_ms",
+      "bridgedName": "CGAffineTransform_ms",
+      "args": [],
+      "returns": "CGAffineTransform",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformWithCGAffineTransform_ms:": {
+      "name": "transformWithCGAffineTransform_ms:",
+      "bridgedName": "transformWithCGAffineTransform_ms",
+      "args": [
+        {
+          "name": "t",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "determinant": {
+      "name": "determinant",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "includesFlip": {
+      "name": "includesFlip",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

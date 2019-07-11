@@ -1,0 +1,108 @@
+{
+  "name": "BCJSONZippedDecoder",
+  "extends": "BCJSONDecoder",
+  "interfaces": [],
+  "methods": {
+    "initWithURL:": {
+      "name": "initWithURL:",
+      "bridgedName": "initWithURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "nonnull NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rawDataAtSubpath:error:": {
+      "name": "rawDataAtSubpath:error:",
+      "bridgedName": "rawDataAtSubpath_error",
+      "args": [
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeFileAtSubpath:error:": {
+      "name": "decodeFileAtSubpath:error:",
+      "bridgedName": "decodeFileAtSubpath_error",
+      "args": [
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsFileAtSubpath:": {
+      "name": "containsFileAtSubpath:",
+      "bridgedName": "containsFileAtSubpath",
+      "args": [
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "previewImageForDocumentAtURL:": {
+      "name": "previewImageForDocumentAtURL:",
+      "bridgedName": "previewImageForDocumentAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "thumbnailDataForDocumentAtURL:maxSize:": {
+      "name": "thumbnailDataForDocumentAtURL:maxSize:",
+      "bridgedName": "thumbnailDataForDocumentAtURL_maxSize",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "maxSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

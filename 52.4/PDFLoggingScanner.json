@@ -1,0 +1,28 @@
+{
+  "name": "PDFLoggingScanner",
+  "extends": "PDFScanner",
+  "interfaces": [],
+  "methods": {
+    "log:method:": {
+      "name": "log:method:",
+      "bridgedName": "log_method",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "method",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSColorHexFieldCell",
+  "extends": "MSInlineUpDownTextFieldCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

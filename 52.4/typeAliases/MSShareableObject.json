@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "MSShareableObject",
+  "type": "MSModelObject<BCSortable,MSSharedObjectStyling>",
+  "pointer": false
+}

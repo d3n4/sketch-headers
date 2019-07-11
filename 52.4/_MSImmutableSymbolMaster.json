@@ -1,0 +1,40 @@
+{
+  "name": "_MSImmutableSymbolMaster",
+  "extends": "MSImmutableArtboardGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "allowsOverrides": {
+      "name": "allowsOverrides",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "includeBackgroundColorInInstance": {
+      "name": "includeBackgroundColorInInstance",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "symbolID": {
+      "name": "symbolID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

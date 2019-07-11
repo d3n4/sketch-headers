@@ -1,0 +1,19 @@
+{
+  "name": "MSDefaultStyle",
+  "extends": "MSDefaultArchive",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "defaultStyle": {
+      "name": "defaultStyle",
+      "pointer": false,
+      "type": "MSStyle ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "class"
+      ]
+    }
+  },
+  "generics": []
+}

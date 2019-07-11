@@ -1,0 +1,50 @@
+{
+  "name": "MSBadgeController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDocument:": {
+      "name": "initWithDocument:",
+      "bridgedName": "initWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refresh": {
+      "name": "refresh",
+      "bridgedName": "refresh",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "activeWindowBadgingActions": {
+      "name": "activeWindowBadgingActions",
+      "pointer": false,
+      "type": "NSArray<__kindof MSAction <MSWindowBadgeAction> *> ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

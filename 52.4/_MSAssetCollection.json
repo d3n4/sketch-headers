@@ -1,0 +1,631 @@
+{
+  "name": "_MSAssetCollection",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {
+    "addColorAsset:": {
+      "name": "addColorAsset:",
+      "bridgedName": "addColorAsset",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSColorAsset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addColorAssets:": {
+      "name": "addColorAssets:",
+      "bridgedName": "addColorAssets",
+      "args": [
+        {
+          "name": "colorAssets",
+          "type": "NSArray<MSColorAsset *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertColorAsset:atIndex:": {
+      "name": "insertColorAsset:atIndex:",
+      "bridgedName": "insertColorAsset_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSColorAsset *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertColorAsset:beforeColorAsset:": {
+      "name": "insertColorAsset:beforeColorAsset:",
+      "bridgedName": "insertColorAsset_beforeColorAsset",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSColorAsset *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSColorAsset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertColorAssets:beforeColorAsset:": {
+      "name": "insertColorAssets:beforeColorAsset:",
+      "bridgedName": "insertColorAssets_beforeColorAsset",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSColorAsset *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSColorAsset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertColorAsset:afterColorAsset:": {
+      "name": "insertColorAsset:afterColorAsset:",
+      "bridgedName": "insertColorAsset_afterColorAsset",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSColorAsset *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSColorAsset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertColorAssets:afterColorAsset:": {
+      "name": "insertColorAssets:afterColorAsset:",
+      "bridgedName": "insertColorAssets_afterColorAsset",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSColorAsset *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSColorAsset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeColorAsset:": {
+      "name": "removeColorAsset:",
+      "bridgedName": "removeColorAsset",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSColorAsset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeColorAssetAtIndex:": {
+      "name": "removeColorAssetAtIndex:",
+      "bridgedName": "removeColorAssetAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeColorAssetsAtIndexes:": {
+      "name": "removeColorAssetsAtIndexes:",
+      "bridgedName": "removeColorAssetsAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllColorAssets": {
+      "name": "removeAllColorAssets",
+      "bridgedName": "removeAllColorAssets",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveColorAssetIndex:toIndex:": {
+      "name": "moveColorAssetIndex:toIndex:",
+      "bridgedName": "moveColorAssetIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addExportPreset:": {
+      "name": "addExportPreset:",
+      "bridgedName": "addExportPreset",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSExportPreset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addExportPresets:": {
+      "name": "addExportPresets:",
+      "bridgedName": "addExportPresets",
+      "args": [
+        {
+          "name": "exportPresets",
+          "type": "NSArray<MSExportPreset *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertExportPreset:atIndex:": {
+      "name": "insertExportPreset:atIndex:",
+      "bridgedName": "insertExportPreset_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSExportPreset *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertExportPreset:beforeExportPreset:": {
+      "name": "insertExportPreset:beforeExportPreset:",
+      "bridgedName": "insertExportPreset_beforeExportPreset",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSExportPreset *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSExportPreset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertExportPresets:beforeExportPreset:": {
+      "name": "insertExportPresets:beforeExportPreset:",
+      "bridgedName": "insertExportPresets_beforeExportPreset",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSExportPreset *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSExportPreset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertExportPreset:afterExportPreset:": {
+      "name": "insertExportPreset:afterExportPreset:",
+      "bridgedName": "insertExportPreset_afterExportPreset",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSExportPreset *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSExportPreset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertExportPresets:afterExportPreset:": {
+      "name": "insertExportPresets:afterExportPreset:",
+      "bridgedName": "insertExportPresets_afterExportPreset",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSExportPreset *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSExportPreset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeExportPreset:": {
+      "name": "removeExportPreset:",
+      "bridgedName": "removeExportPreset",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSExportPreset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeExportPresetAtIndex:": {
+      "name": "removeExportPresetAtIndex:",
+      "bridgedName": "removeExportPresetAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeExportPresetsAtIndexes:": {
+      "name": "removeExportPresetsAtIndexes:",
+      "bridgedName": "removeExportPresetsAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllExportPresets": {
+      "name": "removeAllExportPresets",
+      "bridgedName": "removeAllExportPresets",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveExportPresetIndex:toIndex:": {
+      "name": "moveExportPresetIndex:toIndex:",
+      "bridgedName": "moveExportPresetIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addGradientAsset:": {
+      "name": "addGradientAsset:",
+      "bridgedName": "addGradientAsset",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSGradientAsset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addGradientAssets:": {
+      "name": "addGradientAssets:",
+      "bridgedName": "addGradientAssets",
+      "args": [
+        {
+          "name": "gradientAssets",
+          "type": "NSArray<MSGradientAsset *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertGradientAsset:atIndex:": {
+      "name": "insertGradientAsset:atIndex:",
+      "bridgedName": "insertGradientAsset_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSGradientAsset *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertGradientAsset:beforeGradientAsset:": {
+      "name": "insertGradientAsset:beforeGradientAsset:",
+      "bridgedName": "insertGradientAsset_beforeGradientAsset",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSGradientAsset *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSGradientAsset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertGradientAssets:beforeGradientAsset:": {
+      "name": "insertGradientAssets:beforeGradientAsset:",
+      "bridgedName": "insertGradientAssets_beforeGradientAsset",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSGradientAsset *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSGradientAsset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertGradientAsset:afterGradientAsset:": {
+      "name": "insertGradientAsset:afterGradientAsset:",
+      "bridgedName": "insertGradientAsset_afterGradientAsset",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSGradientAsset *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSGradientAsset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertGradientAssets:afterGradientAsset:": {
+      "name": "insertGradientAssets:afterGradientAsset:",
+      "bridgedName": "insertGradientAssets_afterGradientAsset",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSGradientAsset *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSGradientAsset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeGradientAsset:": {
+      "name": "removeGradientAsset:",
+      "bridgedName": "removeGradientAsset",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSGradientAsset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeGradientAssetAtIndex:": {
+      "name": "removeGradientAssetAtIndex:",
+      "bridgedName": "removeGradientAssetAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeGradientAssetsAtIndexes:": {
+      "name": "removeGradientAssetsAtIndexes:",
+      "bridgedName": "removeGradientAssetsAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllGradientAssets": {
+      "name": "removeAllGradientAssets",
+      "bridgedName": "removeAllGradientAssets",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveGradientAssetIndex:toIndex:": {
+      "name": "moveGradientAssetIndex:toIndex:",
+      "bridgedName": "moveGradientAssetIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "images": {
+      "name": "images",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "colorAssets": {
+      "name": "colorAssets",
+      "pointer": false,
+      "type": "NSArray<__kindof MSColorAsset *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "exportPresets": {
+      "name": "exportPresets",
+      "pointer": false,
+      "type": "NSArray<__kindof MSExportPreset *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "gradientAssets": {
+      "name": "gradientAssets",
+      "pointer": false,
+      "type": "NSArray<__kindof MSGradientAsset *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "imageCollection": {
+      "name": "imageCollection",
+      "pointer": false,
+      "type": "MSImageCollection ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

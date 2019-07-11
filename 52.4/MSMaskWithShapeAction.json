@@ -1,0 +1,23 @@
+{
+  "name": "MSMaskWithShapeAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "maskWithShape:": {
+      "name": "maskWithShape:",
+      "bridgedName": "maskWithShape",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

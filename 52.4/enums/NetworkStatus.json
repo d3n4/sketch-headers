@@ -1,0 +1,16 @@
+{
+  "enum": true,
+  "name": "NetworkStatus",
+  "members": [
+    {
+      "name": "NotReachable",
+      "value": "0"
+    },
+    {
+      "name": "ReachableViaWiFi"
+    },
+    {
+      "name": "ReachableViaWWAN"
+    }
+  ]
+}

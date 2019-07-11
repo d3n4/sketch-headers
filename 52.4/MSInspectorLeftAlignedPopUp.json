@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorLeftAlignedPopUp",
+  "extends": "NSPopUpButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

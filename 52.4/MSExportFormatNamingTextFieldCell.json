@@ -1,0 +1,8 @@
+{
+  "name": "MSExportFormatNamingTextFieldCell",
+  "extends": "MSTextFieldWithDropDownMenuCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

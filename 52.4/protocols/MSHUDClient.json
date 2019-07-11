@@ -1,0 +1,44 @@
+{
+  "protocol": true,
+  "name": "MSHUDClient",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "hudSetMonitor:": {
+      "name": "hudSetMonitor:",
+      "bridgedName": "hudSetMonitor",
+      "args": [
+        {
+          "name": "monitor",
+          "type": "MSRenderMonitor*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hudClientName": {
+      "name": "hudClientName",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hudDocumentData": {
+      "name": "hudDocumentData",
+      "pointer": false,
+      "type": "MSDocumentData*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

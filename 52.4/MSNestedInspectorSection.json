@@ -1,0 +1,10 @@
+{
+  "name": "MSNestedInspectorSection",
+  "extends": "MSBaseInspectorSection",
+  "interfaces": [
+    "MSInspectorSectionDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

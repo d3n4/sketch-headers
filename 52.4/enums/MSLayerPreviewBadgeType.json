@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSLayerPreviewBadgeType",
+  "members": [
+    {
+      "name": "MSLayerPreviewBadgeTypeNone"
+    },
+    {
+      "name": "MSLayerPreviewBadgeTypeSlice"
+    },
+    {
+      "name": "MSLayerPreviewBadgeTypeFlow"
+    }
+  ]
+}

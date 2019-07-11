@@ -1,0 +1,94 @@
+{
+  "name": "MSImmutableShapePathLayer",
+  "extends": "_MSImmutableShapePathLayer",
+  "interfaces": [
+    "MSImmutablePathLayer"
+  ],
+  "methods": {
+    "migratePropertiesFromShapeGroup:": {
+      "name": "migratePropertiesFromShapeGroup:",
+      "bridgedName": "migratePropertiesFromShapeGroup",
+      "args": [
+        {
+          "name": "shape",
+          "type": "MSImmutableShapeGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "migrateByTakingStyleFrom:": {
+      "name": "migrateByTakingStyleFrom:",
+      "bridgedName": "migrateByTakingStyleFrom",
+      "args": [
+        {
+          "name": "shape",
+          "type": "MSImmutableShapeGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isEditing": {
+      "name": "isEditing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "usedStyle": {
+      "name": "usedStyle",
+      "pointer": false,
+      "type": "MSImmutableStyle ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "isPolygon": {
+      "name": "isPolygon",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isPolyline": {
+      "name": "isPolyline",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isRectangle": {
+      "name": "isRectangle",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfCurvePoints": {
+      "name": "numberOfCurvePoints",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

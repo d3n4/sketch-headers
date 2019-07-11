@@ -1,0 +1,78 @@
+{
+  "name": "MOBridgeSupportFunction",
+  "extends": "MOBridgeSupportSymbol",
+  "interfaces": [],
+  "methods": {
+    "addArgument:": {
+      "name": "addArgument:",
+      "bridgedName": "addArgument",
+      "args": [
+        {
+          "name": "argument",
+          "type": "MOBridgeSupportArgument *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeArgument:": {
+      "name": "removeArgument:",
+      "bridgedName": "removeArgument",
+      "args": [
+        {
+          "name": "argument",
+          "type": "MOBridgeSupportArgument *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "variadic": {
+      "name": "variadic",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isVariadic"
+      ]
+    },
+    "sentinel": {
+      "name": "sentinel",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "inlineFunction": {
+      "name": "inlineFunction",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isInlineFunction"
+      ]
+    },
+    "arguments": {
+      "name": "arguments",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "returnValue": {
+      "name": "returnValue",
+      "pointer": false,
+      "type": "MOBridgeSupportArgument ",
+      "attributes": [
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

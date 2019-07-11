@@ -1,0 +1,65 @@
+{
+  "name": "MSCanvasUpdatingSheet",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {
+    "performOperation": {
+      "name": "performOperation",
+      "bridgedName": "performOperation",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "schedulePerformOperation": {
+      "name": "schedulePerformOperation",
+      "bridgedName": "schedulePerformOperation",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "triggerPerformOperation": {
+      "name": "triggerPerformOperation",
+      "bridgedName": "triggerPerformOperation",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "storeState": {
+      "name": "storeState",
+      "bridgedName": "storeState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "restoreState": {
+      "name": "restoreState",
+      "bridgedName": "restoreState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "historyMomentTitle": {
+      "name": "historyMomentTitle",
+      "bridgedName": "historyMomentTitle",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doc": {
+      "name": "doc",
+      "bridgedName": "doc",
+      "args": [],
+      "returns": "MSDocument *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

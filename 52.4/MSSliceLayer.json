@@ -1,0 +1,26 @@
+{
+  "name": "MSSliceLayer",
+  "extends": "_MSSliceLayer",
+  "interfaces": [
+    "MSLayerWithMutableBackgroundColor",
+    "MSColorConvertible"
+  ],
+  "methods": {
+    "sliceLayerFromLayer:": {
+      "name": "sliceLayerFromLayer:",
+      "bridgedName": "sliceLayerFromLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,46 @@
+{
+  "name": "AppDelegate",
+  "extends": "NSObject",
+  "interfaces": [
+    "UIApplicationDelegate",
+    "NSApplicationDelegate",
+    "NSApplicationDelegate"
+  ],
+  "methods": {},
+  "properties": {
+    "window": {
+      "name": "window",
+      "pointer": false,
+      "type": "IBOutlet NSWindow ",
+      "attributes": [
+        "assign"
+      ]
+    },
+    "navigationController": {
+      "name": "navigationController",
+      "pointer": false,
+      "type": "UINavigationController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "tableView": {
+      "name": "tableView",
+      "pointer": false,
+      "type": "IBOutlet NSTableView ",
+      "attributes": [
+        "strong"
+      ]
+    },
+    "postsArrayController": {
+      "name": "postsArrayController",
+      "pointer": false,
+      "type": "IBOutlet NSArrayController ",
+      "attributes": [
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

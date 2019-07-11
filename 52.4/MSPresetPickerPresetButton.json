@@ -1,0 +1,19 @@
+{
+  "name": "MSPresetPickerPresetButton",
+  "extends": "MSPresetPickerButton",
+  "interfaces": [
+    "NSDraggingSource"
+  ],
+  "methods": {
+    "frameConsideringAnimation": {
+      "name": "frameConsideringAnimation",
+      "bridgedName": "frameConsideringAnimation",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

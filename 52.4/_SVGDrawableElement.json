@@ -1,0 +1,203 @@
+{
+  "name": "_SVGDrawableElement",
+  "extends": "SVGElement",
+  "interfaces": [],
+  "methods": {
+    "propertyNames": {
+      "name": "propertyNames",
+      "bridgedName": "propertyNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "relationshipNames": {
+      "name": "relationshipNames",
+      "bridgedName": "relationshipNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeNames": {
+      "name": "attributeNames",
+      "bridgedName": "attributeNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "primitiveSetClip:": {
+      "name": "primitiveSetClip:",
+      "bridgedName": "primitiveSetClip",
+      "args": [
+        {
+          "name": "clip",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveSetFill:": {
+      "name": "primitiveSetFill:",
+      "bridgedName": "primitiveSetFill",
+      "args": [
+        {
+          "name": "fill",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveSetFont:": {
+      "name": "primitiveSetFont:",
+      "bridgedName": "primitiveSetFont",
+      "args": [
+        {
+          "name": "font",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveSetMask:": {
+      "name": "primitiveSetMask:",
+      "bridgedName": "primitiveSetMask",
+      "args": [
+        {
+          "name": "mask",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveSetStroke:": {
+      "name": "primitiveSetStroke:",
+      "bridgedName": "primitiveSetStroke",
+      "args": [
+        {
+          "name": "stroke",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "blendMode": {
+      "name": "blendMode",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "clips": {
+      "name": "clips",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "hidden": {
+      "name": "hidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "opacity": {
+      "name": "opacity",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "transform": {
+      "name": "transform",
+      "pointer": false,
+      "type": "NSAffineTransform*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "clip": {
+      "name": "clip",
+      "pointer": false,
+      "type": "SVGClipPath*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "fill": {
+      "name": "fill",
+      "pointer": false,
+      "type": "SVGFill*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "font": {
+      "name": "font",
+      "pointer": false,
+      "type": "SVGFont*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "mask": {
+      "name": "mask",
+      "pointer": false,
+      "type": "SVGMask*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "stroke": {
+      "name": "stroke",
+      "pointer": false,
+      "type": "SVGStroke*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

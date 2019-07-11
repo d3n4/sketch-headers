@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSUpdaterStatus",
+  "members": [
+    {
+      "name": "MSUpdaterNotUpdating"
+    },
+    {
+      "name": "MSUpdaterActive"
+    },
+    {
+      "name": "MSUpdaterCancelling"
+    },
+    {
+      "name": "MSUpdaterFinished"
+    }
+  ]
+}

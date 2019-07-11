@@ -1,0 +1,8 @@
+{
+  "name": "MSInsertHotspotEventHandler",
+  "extends": "MSInsertLayerEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

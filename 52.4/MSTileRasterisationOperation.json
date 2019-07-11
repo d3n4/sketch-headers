@@ -1,0 +1,73 @@
+{
+  "name": "MSTileRasterisationOperation",
+  "extends": "NSOperation",
+  "interfaces": [],
+  "methods": {
+    "operationWithMemory:bytesPerRow:rect:zoomValue:backingScaleFactor:page:document:driver:contextPool:cacheProvider:colorSpace:": {
+      "name": "operationWithMemory:bytesPerRow:rect:zoomValue:backingScaleFactor:page:document:driver:contextPool:cacheProvider:colorSpace:",
+      "bridgedName": "operationWithMemory_bytesPerRow_rect_zoomValue_backingScaleFactor_page_document_driver_contextPool_cacheProvider_colorSpace",
+      "args": [
+        {
+          "name": "memory",
+          "type": "nonnull void *",
+          "nullable": false
+        },
+        {
+          "name": "bytesPerRow",
+          "type": "size_t",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "BCIntRect",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "nonnull MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "nonnull MSRenderingDriver *",
+          "nullable": false
+        },
+        {
+          "name": "contextPool",
+          "type": "MSCGContextPool *",
+          "nullable": true
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id<MSRenderingContextCacheProvider>",
+          "nullable": true
+        },
+        {
+          "name": "colorSpace",
+          "type": "nonnull CGColorSpaceRef",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull MSTileRasterisationOperation *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

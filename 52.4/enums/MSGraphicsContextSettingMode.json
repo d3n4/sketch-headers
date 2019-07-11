@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSGraphicsContextSettingMode",
+  "members": [
+    {
+      "name": "MSGraphicsSettingBlending",
+      "value": "1"
+    },
+    {
+      "name": "MSGraphicsSettingOpacity",
+      "value": "2"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "JSTPSymbolGroup",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "addSymbol:": {
+      "name": "addSymbol:",
+      "bridgedName": "addSymbol",
+      "args": [
+        {
+          "name": "aSymbol",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "args": {
+      "name": "args",
+      "pointer": false,
+      "type": "NSMutableArray ",
+      "attributes": [
+        "retain"
+      ]
+    },
+    "parent": {
+      "name": "parent",
+      "pointer": false,
+      "type": "JSTPSymbolGroup ",
+      "attributes": [
+        "retain"
+      ]
+    }
+  },
+  "generics": []
+}

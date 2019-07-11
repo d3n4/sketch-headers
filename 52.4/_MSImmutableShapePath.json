@@ -1,0 +1,39 @@
+{
+  "name": "_MSImmutableShapePath",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "isClosed": {
+      "name": "isClosed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pointRadiusBehaviour": {
+      "name": "pointRadiusBehaviour",
+      "pointer": false,
+      "type": "MSPointRadiusBehaviour",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "points": {
+      "name": "points",
+      "pointer": false,
+      "type": "NSArray<MSImmutableCurvePoint *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

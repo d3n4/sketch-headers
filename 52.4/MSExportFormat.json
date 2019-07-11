@@ -1,0 +1,145 @@
+{
+  "name": "MSExportFormat",
+  "extends": "_MSExportFormat",
+  "interfaces": [],
+  "methods": {
+    "formatWithScale:name:fileFormat:": {
+      "name": "formatWithScale:name:fileFormat:",
+      "bridgedName": "formatWithScale_name_fileFormat",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "format",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSExportFormat*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "formatWithScale:name:fileFormat:absoluteSize:namingScheme:": {
+      "name": "formatWithScale:name:fileFormat:absoluteSize:namingScheme:",
+      "bridgedName": "formatWithScale_name_fileFormat_absoluteSize_namingScheme",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "format",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "absoluteSize",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "namingScheme",
+          "type": "MSExportFormatNamingScheme",
+          "nullable": false
+        }
+      ],
+      "returns": "MSExportFormat *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "validFormats": {
+      "name": "validFormats",
+      "bridgedName": "validFormats",
+      "args": [],
+      "returns": "NSSet*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportableFilenameBodyForLayerName:exportFormat:": {
+      "name": "exportableFilenameBodyForLayerName:exportFormat:",
+      "bridgedName": "exportableFilenameBodyForLayerName_exportFormat",
+      "args": [
+        {
+          "name": "layerName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "format",
+          "type": "MSImmutableExportFormat *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportableFilenameForLayerName:exportFormat:": {
+      "name": "exportableFilenameForLayerName:exportFormat:",
+      "bridgedName": "exportableFilenameForLayerName_exportFormat",
+      "args": [
+        {
+          "name": "layerName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "format",
+          "type": "MSImmutableExportFormat *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "container": {
+      "name": "container",
+      "bridgedName": "container",
+      "args": [],
+      "returns": "id<MSExportFormatContainer>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentLayer": {
+      "name": "parentLayer",
+      "bridgedName": "parentLayer",
+      "args": [],
+      "returns": "MSLayer <MSLayerWithBackgroundColor> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "remove": {
+      "name": "remove",
+      "bridgedName": "remove",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isScalableExport": {
+      "name": "isScalableExport",
+      "bridgedName": "isScalableExport",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

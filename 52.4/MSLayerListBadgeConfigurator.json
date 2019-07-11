@@ -1,0 +1,25 @@
+{
+  "name": "MSLayerListBadgeConfigurator",
+  "extends": "NSObject",
+  "interfaces": [
+    "BCOutlineViewPopupConfigurator"
+  ],
+  "methods": {
+    "configuratorWithLayer:": {
+      "name": "configuratorWithLayer:",
+      "bridgedName": "configuratorWithLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerListBadgeConfigurator *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

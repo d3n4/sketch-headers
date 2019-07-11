@@ -1,0 +1,26 @@
+{
+  "name": "MSTransformEventHandler",
+  "extends": "MSPointsEventHandler",
+  "interfaces": [],
+  "methods": {
+    "transformLayers": {
+      "name": "transformLayers",
+      "bridgedName": "transformLayers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "originalRect": {
+      "name": "originalRect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

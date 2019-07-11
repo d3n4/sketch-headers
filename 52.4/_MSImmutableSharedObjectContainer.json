@@ -1,0 +1,19 @@
+{
+  "name": "_MSImmutableSharedObjectContainer",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "objects": {
+      "name": "objects",
+      "pointer": false,
+      "type": "NSArray<MSImmutableSharedObject *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

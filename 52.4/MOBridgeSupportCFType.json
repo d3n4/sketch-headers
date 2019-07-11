@@ -1,0 +1,41 @@
+{
+  "name": "MOBridgeSupportCFType",
+  "extends": "MOBridgeSupportSymbol",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "type64": {
+      "name": "type64",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "tollFreeBridgedClassName": {
+      "name": "tollFreeBridgedClassName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "getTypeIDFunctionName": {
+      "name": "getTypeIDFunctionName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

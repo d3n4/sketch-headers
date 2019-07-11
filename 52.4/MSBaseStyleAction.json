@@ -1,0 +1,8 @@
+{
+  "name": "MSBaseStyleAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}
