@@ -1,0 +1,23 @@
+{
+  "name": "MSCollapseAllGroupsAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "collapseAllGroups:": {
+      "name": "collapseAllGroups:",
+      "bridgedName": "collapseAllGroups",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

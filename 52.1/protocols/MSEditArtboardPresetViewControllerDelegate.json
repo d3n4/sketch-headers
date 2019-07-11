@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSEditArtboardPresetViewControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "editArtboardPresetViewController:savePreset:": {
+      "name": "editArtboardPresetViewController:savePreset:",
+      "bridgedName": "editArtboardPresetViewController_savePreset",
+      "args": [
+        {
+          "name": "sender",
+          "type": "MSEditArtboardPresetViewController *",
+          "nullable": false
+        },
+        {
+          "name": "preset",
+          "type": "MSArtboardPreset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

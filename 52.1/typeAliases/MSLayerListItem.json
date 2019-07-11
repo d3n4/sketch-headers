@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "MSLayerListItem",
+  "type": "NSObject<MSLayerListLayerExtensions>",
+  "pointer": false
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSPasteStyleAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "pasteStyle:": {
+      "name": "pasteStyle:",
+      "bridgedName": "pasteStyle",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

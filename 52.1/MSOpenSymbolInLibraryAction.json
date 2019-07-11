@@ -1,0 +1,23 @@
+{
+  "name": "MSOpenSymbolInLibraryAction",
+  "extends": "MSOpenInLibraryAction",
+  "interfaces": [],
+  "methods": {
+    "openLibraryForForeignSymbols:": {
+      "name": "openLibraryForForeignSymbols:",
+      "bridgedName": "openLibraryForForeignSymbols",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

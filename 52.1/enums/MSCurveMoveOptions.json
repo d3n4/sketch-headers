@@ -1,0 +1,10 @@
+{
+  "enum": true,
+  "name": "MSCurveMoveOptions",
+  "members": [
+    {
+      "name": "MSCurveMoveIndependently",
+      "value": "1 << 0"
+    }
+  ]
+}

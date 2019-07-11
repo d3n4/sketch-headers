@@ -1,0 +1,46 @@
+{
+  "name": "COSAlertWindow",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "addTextFieldWithValue:": {
+      "name": "addTextFieldWithValue:",
+      "bridgedName": "addTextFieldWithValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAccessoryView:": {
+      "name": "addAccessoryView:",
+      "bridgedName": "addAccessoryView",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "alert": {
+      "name": "alert",
+      "pointer": false,
+      "type": "NSAlert ",
+      "attributes": [
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

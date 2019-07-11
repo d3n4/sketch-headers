@@ -1,0 +1,878 @@
+{
+  "name": "_MSDocumentData",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {
+    "addForeignLayerStyle:": {
+      "name": "addForeignLayerStyle:",
+      "bridgedName": "addForeignLayerStyle",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSForeignLayerStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addForeignLayerStyles:": {
+      "name": "addForeignLayerStyles:",
+      "bridgedName": "addForeignLayerStyles",
+      "args": [
+        {
+          "name": "foreignLayerStyles",
+          "type": "NSArray<MSForeignLayerStyle *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignLayerStyle:atIndex:": {
+      "name": "insertForeignLayerStyle:atIndex:",
+      "bridgedName": "insertForeignLayerStyle_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSForeignLayerStyle *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignLayerStyle:beforeForeignLayerStyle:": {
+      "name": "insertForeignLayerStyle:beforeForeignLayerStyle:",
+      "bridgedName": "insertForeignLayerStyle_beforeForeignLayerStyle",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSForeignLayerStyle *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSForeignLayerStyle *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignLayerStyles:beforeForeignLayerStyle:": {
+      "name": "insertForeignLayerStyles:beforeForeignLayerStyle:",
+      "bridgedName": "insertForeignLayerStyles_beforeForeignLayerStyle",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSForeignLayerStyle *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSForeignLayerStyle *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignLayerStyle:afterForeignLayerStyle:": {
+      "name": "insertForeignLayerStyle:afterForeignLayerStyle:",
+      "bridgedName": "insertForeignLayerStyle_afterForeignLayerStyle",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSForeignLayerStyle *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSForeignLayerStyle *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignLayerStyles:afterForeignLayerStyle:": {
+      "name": "insertForeignLayerStyles:afterForeignLayerStyle:",
+      "bridgedName": "insertForeignLayerStyles_afterForeignLayerStyle",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSForeignLayerStyle *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSForeignLayerStyle *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeForeignLayerStyle:": {
+      "name": "removeForeignLayerStyle:",
+      "bridgedName": "removeForeignLayerStyle",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSForeignLayerStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeForeignLayerStyleAtIndex:": {
+      "name": "removeForeignLayerStyleAtIndex:",
+      "bridgedName": "removeForeignLayerStyleAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeForeignLayerStylesAtIndexes:": {
+      "name": "removeForeignLayerStylesAtIndexes:",
+      "bridgedName": "removeForeignLayerStylesAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllForeignLayerStyles": {
+      "name": "removeAllForeignLayerStyles",
+      "bridgedName": "removeAllForeignLayerStyles",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveForeignLayerStyleIndex:toIndex:": {
+      "name": "moveForeignLayerStyleIndex:toIndex:",
+      "bridgedName": "moveForeignLayerStyleIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addForeignSymbol:": {
+      "name": "addForeignSymbol:",
+      "bridgedName": "addForeignSymbol",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSForeignSymbol *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addForeignSymbols:": {
+      "name": "addForeignSymbols:",
+      "bridgedName": "addForeignSymbols",
+      "args": [
+        {
+          "name": "foreignSymbols",
+          "type": "NSArray<MSForeignSymbol *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignSymbol:atIndex:": {
+      "name": "insertForeignSymbol:atIndex:",
+      "bridgedName": "insertForeignSymbol_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSForeignSymbol *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignSymbol:beforeForeignSymbol:": {
+      "name": "insertForeignSymbol:beforeForeignSymbol:",
+      "bridgedName": "insertForeignSymbol_beforeForeignSymbol",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSForeignSymbol *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSForeignSymbol *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignSymbols:beforeForeignSymbol:": {
+      "name": "insertForeignSymbols:beforeForeignSymbol:",
+      "bridgedName": "insertForeignSymbols_beforeForeignSymbol",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSForeignSymbol *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSForeignSymbol *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignSymbol:afterForeignSymbol:": {
+      "name": "insertForeignSymbol:afterForeignSymbol:",
+      "bridgedName": "insertForeignSymbol_afterForeignSymbol",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSForeignSymbol *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSForeignSymbol *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignSymbols:afterForeignSymbol:": {
+      "name": "insertForeignSymbols:afterForeignSymbol:",
+      "bridgedName": "insertForeignSymbols_afterForeignSymbol",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSForeignSymbol *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSForeignSymbol *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeForeignSymbol:": {
+      "name": "removeForeignSymbol:",
+      "bridgedName": "removeForeignSymbol",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSForeignSymbol *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeForeignSymbolAtIndex:": {
+      "name": "removeForeignSymbolAtIndex:",
+      "bridgedName": "removeForeignSymbolAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeForeignSymbolsAtIndexes:": {
+      "name": "removeForeignSymbolsAtIndexes:",
+      "bridgedName": "removeForeignSymbolsAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllForeignSymbols": {
+      "name": "removeAllForeignSymbols",
+      "bridgedName": "removeAllForeignSymbols",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveForeignSymbolIndex:toIndex:": {
+      "name": "moveForeignSymbolIndex:toIndex:",
+      "bridgedName": "moveForeignSymbolIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addForeignTextStyle:": {
+      "name": "addForeignTextStyle:",
+      "bridgedName": "addForeignTextStyle",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSForeignTextStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addForeignTextStyles:": {
+      "name": "addForeignTextStyles:",
+      "bridgedName": "addForeignTextStyles",
+      "args": [
+        {
+          "name": "foreignTextStyles",
+          "type": "NSArray<MSForeignTextStyle *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignTextStyle:atIndex:": {
+      "name": "insertForeignTextStyle:atIndex:",
+      "bridgedName": "insertForeignTextStyle_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSForeignTextStyle *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignTextStyle:beforeForeignTextStyle:": {
+      "name": "insertForeignTextStyle:beforeForeignTextStyle:",
+      "bridgedName": "insertForeignTextStyle_beforeForeignTextStyle",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSForeignTextStyle *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSForeignTextStyle *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignTextStyles:beforeForeignTextStyle:": {
+      "name": "insertForeignTextStyles:beforeForeignTextStyle:",
+      "bridgedName": "insertForeignTextStyles_beforeForeignTextStyle",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSForeignTextStyle *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSForeignTextStyle *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignTextStyle:afterForeignTextStyle:": {
+      "name": "insertForeignTextStyle:afterForeignTextStyle:",
+      "bridgedName": "insertForeignTextStyle_afterForeignTextStyle",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSForeignTextStyle *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSForeignTextStyle *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertForeignTextStyles:afterForeignTextStyle:": {
+      "name": "insertForeignTextStyles:afterForeignTextStyle:",
+      "bridgedName": "insertForeignTextStyles_afterForeignTextStyle",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSForeignTextStyle *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSForeignTextStyle *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeForeignTextStyle:": {
+      "name": "removeForeignTextStyle:",
+      "bridgedName": "removeForeignTextStyle",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSForeignTextStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeForeignTextStyleAtIndex:": {
+      "name": "removeForeignTextStyleAtIndex:",
+      "bridgedName": "removeForeignTextStyleAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeForeignTextStylesAtIndexes:": {
+      "name": "removeForeignTextStylesAtIndexes:",
+      "bridgedName": "removeForeignTextStylesAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllForeignTextStyles": {
+      "name": "removeAllForeignTextStyles",
+      "bridgedName": "removeAllForeignTextStyles",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveForeignTextStyleIndex:toIndex:": {
+      "name": "moveForeignTextStyleIndex:toIndex:",
+      "bridgedName": "moveForeignTextStyleIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addPage:": {
+      "name": "addPage:",
+      "bridgedName": "addPage",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addPages:": {
+      "name": "addPages:",
+      "bridgedName": "addPages",
+      "args": [
+        {
+          "name": "pages",
+          "type": "NSArray<MSPage *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertPage:atIndex:": {
+      "name": "insertPage:atIndex:",
+      "bridgedName": "insertPage_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertPage:beforePage:": {
+      "name": "insertPage:beforePage:",
+      "bridgedName": "insertPage_beforePage",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSPage *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertPages:beforePage:": {
+      "name": "insertPages:beforePage:",
+      "bridgedName": "insertPages_beforePage",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSPage *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSPage *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertPage:afterPage:": {
+      "name": "insertPage:afterPage:",
+      "bridgedName": "insertPage_afterPage",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSPage *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertPages:afterPage:": {
+      "name": "insertPages:afterPage:",
+      "bridgedName": "insertPages_afterPage",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSPage *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSPage *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removePage:": {
+      "name": "removePage:",
+      "bridgedName": "removePage",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removePageAtIndex:": {
+      "name": "removePageAtIndex:",
+      "bridgedName": "removePageAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removePagesAtIndexes:": {
+      "name": "removePagesAtIndexes:",
+      "bridgedName": "removePagesAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllPages": {
+      "name": "removeAllPages",
+      "bridgedName": "removeAllPages",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "movePageIndex:toIndex:": {
+      "name": "movePageIndex:toIndex:",
+      "bridgedName": "movePageIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "MSColorSpace",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "currentPageIndex": {
+      "name": "currentPageIndex",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "userInfo": {
+      "name": "userInfo",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "assets": {
+      "name": "assets",
+      "pointer": false,
+      "type": "MSAssetCollection ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "foreignLayerStyles": {
+      "name": "foreignLayerStyles",
+      "pointer": false,
+      "type": "NSArray<__kindof MSForeignLayerStyle *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "foreignSymbols": {
+      "name": "foreignSymbols",
+      "pointer": false,
+      "type": "NSArray<__kindof MSForeignSymbol *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "foreignTextStyles": {
+      "name": "foreignTextStyles",
+      "pointer": false,
+      "type": "NSArray<__kindof MSForeignTextStyle *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "layerStyles": {
+      "name": "layerStyles",
+      "pointer": false,
+      "type": "MSSharedStyleContainer ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "layerSymbols": {
+      "name": "layerSymbols",
+      "pointer": false,
+      "type": "MSSymbolContainer ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "layerTextStyles": {
+      "name": "layerTextStyles",
+      "pointer": false,
+      "type": "MSSharedTextStyleContainer ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "pages": {
+      "name": "pages",
+      "pointer": false,
+      "type": "NSArray<__kindof MSPage *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

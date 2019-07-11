@@ -1,0 +1,8 @@
+{
+  "name": "MSJSONFileReference",
+  "extends": "MSJSONArchiveReference",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

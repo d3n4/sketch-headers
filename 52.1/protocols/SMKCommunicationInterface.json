@@ -1,0 +1,103 @@
+{
+  "protocol": true,
+  "name": "SMKCommunicationInterface",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "startUsingOptions:webPort:": {
+      "name": "startUsingOptions:webPort:",
+      "bridgedName": "startUsingOptions_webPort",
+      "args": [
+        {
+          "name": "options",
+          "type": "SMKCommunicationOptions",
+          "nullable": false
+        },
+        {
+          "name": "port",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "connectionInfoWithReply:": {
+      "name": "connectionInfoWithReply:",
+      "bridgedName": "connectionInfoWithReply",
+      "args": [
+        {
+          "name": "reply",
+          "type": "void (^)(NSArray<SMKConnectionInfo *> *infos)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "connect:": {
+      "name": "connect:",
+      "bridgedName": "connect",
+      "args": [
+        {
+          "name": "connectionID",
+          "type": "NSUUID *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disconnect:": {
+      "name": "disconnect:",
+      "bridgedName": "disconnect",
+      "args": [
+        {
+          "name": "connectionID",
+          "type": "NSUUID *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "broadcastData:": {
+      "name": "broadcastData:",
+      "bridgedName": "broadcastData",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendData:to:": {
+      "name": "sendData:to:",
+      "bridgedName": "sendData_to",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        },
+        {
+          "name": "connectionID",
+          "type": "NSUUID *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MSTextFieldWithDropDownMenuCell",
+  "extends": "MSInlineUpDownTextFieldCell",
+  "interfaces": [],
+  "methods": {
+    "drawArrowWithFrame:inView:": {
+      "name": "drawArrowWithFrame:inView:",
+      "bridgedName": "drawArrowWithFrame_inView",
+      "args": [
+        {
+          "name": "cellFrame",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "controlView",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

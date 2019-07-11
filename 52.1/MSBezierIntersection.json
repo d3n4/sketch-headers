@@ -1,0 +1,106 @@
+{
+  "name": "MSBezierIntersection",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "intersectionWithSegment1:segment2:segment1Offset:segment2Offset:": {
+      "name": "intersectionWithSegment1:segment2:segment1Offset:segment2Offset:",
+      "bridgedName": "intersectionWithSegment1_segment2_segment1Offset_segment2Offset",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment1Offset",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "segment2Offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithSegment1:segment2:segment1Offset:segment2Offset:": {
+      "name": "initWithSegment1:segment2:segment1Offset:segment2Offset:",
+      "bridgedName": "initWithSegment1_segment2_segment1Offset_segment2Offset",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment1Offset",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "segment2Offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "segment1": {
+      "name": "segment1",
+      "pointer": false,
+      "type": "MSBezierSegment ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "segment2": {
+      "name": "segment2",
+      "pointer": false,
+      "type": "MSBezierSegment ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "segment1Offset": {
+      "name": "segment1Offset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "segment2Offset": {
+      "name": "segment2Offset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

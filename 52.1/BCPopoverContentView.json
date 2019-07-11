@@ -1,0 +1,43 @@
+{
+  "name": "BCPopoverContentView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {
+    "availableContentRect": {
+      "name": "availableContentRect",
+      "bridgedName": "availableContentRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "arrowEdge": {
+      "name": "arrowEdge",
+      "pointer": false,
+      "type": "NSRectEdge",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "arrowPosition": {
+      "name": "arrowPosition",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSBlurredImageOptions",
+  "members": [
+    {
+      "name": "MSBlurredImageOptionsNone",
+      "value": "0"
+    },
+    {
+      "name": "MSBlurredImageOptionsWhiteBackground",
+      "value": "1<<1"
+    },
+    {
+      "name": "MSBlurredImageOptionsBlurTwice",
+      "value": "1<<2"
+    }
+  ]
+}

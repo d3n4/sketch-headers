@@ -1,0 +1,50 @@
+{
+  "name": "MSVectorRounding",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "precision": {
+      "name": "precision",
+      "bridgedName": "precision",
+      "args": [],
+      "returns": "MSVectorPrecision",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "roundPoint:layer:": {
+      "name": "roundPoint:layer:",
+      "bridgedName": "roundPoint_layer",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "roundPoint:": {
+      "name": "roundPoint:",
+      "bridgedName": "roundPoint",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

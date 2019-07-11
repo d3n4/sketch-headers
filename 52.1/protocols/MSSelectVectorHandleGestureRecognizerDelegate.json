@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSSelectVectorHandleGestureRecognizerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "gestureRecognizerShouldDelaySelectionUntilMouseUp:": {
+      "name": "gestureRecognizerShouldDelaySelectionUntilMouseUp:",
+      "bridgedName": "gestureRecognizerShouldDelaySelectionUntilMouseUp",
+      "args": [
+        {
+          "name": "sender",
+          "type": "MSSelectVectorHandleGestureRecognizer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

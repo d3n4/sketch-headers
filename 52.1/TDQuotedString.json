@@ -1,0 +1,17 @@
+{
+  "name": "TDQuotedString",
+  "extends": "TDTerminal",
+  "interfaces": [],
+  "methods": {
+    "quotedString": {
+      "name": "quotedString",
+      "bridgedName": "quotedString",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

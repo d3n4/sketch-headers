@@ -1,0 +1,26 @@
+{
+  "name": "MSDrawingInfo",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedController": {
+      "name": "sharedController",
+      "bridgedName": "sharedController",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "isDragging": {
+      "name": "isDragging",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

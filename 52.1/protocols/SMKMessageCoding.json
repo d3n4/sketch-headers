@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "SMKMessageCoding",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "initWithDictionary:": {
+      "name": "initWithDictionary:",
+      "bridgedName": "initWithDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dictionaryRepresentation": {
+      "name": "dictionaryRepresentation",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

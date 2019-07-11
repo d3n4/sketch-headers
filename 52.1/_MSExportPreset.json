@@ -1,0 +1,230 @@
+{
+  "name": "_MSExportPreset",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {
+    "addExportFormat:": {
+      "name": "addExportFormat:",
+      "bridgedName": "addExportFormat",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSExportFormat *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addExportFormats:": {
+      "name": "addExportFormats:",
+      "bridgedName": "addExportFormats",
+      "args": [
+        {
+          "name": "exportFormats",
+          "type": "NSArray<MSExportFormat *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertExportFormat:atIndex:": {
+      "name": "insertExportFormat:atIndex:",
+      "bridgedName": "insertExportFormat_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSExportFormat *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertExportFormat:beforeExportFormat:": {
+      "name": "insertExportFormat:beforeExportFormat:",
+      "bridgedName": "insertExportFormat_beforeExportFormat",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSExportFormat *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSExportFormat *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertExportFormats:beforeExportFormat:": {
+      "name": "insertExportFormats:beforeExportFormat:",
+      "bridgedName": "insertExportFormats_beforeExportFormat",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSExportFormat *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSExportFormat *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertExportFormat:afterExportFormat:": {
+      "name": "insertExportFormat:afterExportFormat:",
+      "bridgedName": "insertExportFormat_afterExportFormat",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSExportFormat *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSExportFormat *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertExportFormats:afterExportFormat:": {
+      "name": "insertExportFormats:afterExportFormat:",
+      "bridgedName": "insertExportFormats_afterExportFormat",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSExportFormat *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSExportFormat *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeExportFormat:": {
+      "name": "removeExportFormat:",
+      "bridgedName": "removeExportFormat",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSExportFormat *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeExportFormatAtIndex:": {
+      "name": "removeExportFormatAtIndex:",
+      "bridgedName": "removeExportFormatAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeExportFormatsAtIndexes:": {
+      "name": "removeExportFormatsAtIndexes:",
+      "bridgedName": "removeExportFormatsAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllExportFormats": {
+      "name": "removeAllExportFormats",
+      "bridgedName": "removeAllExportFormats",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveExportFormatIndex:toIndex:": {
+      "name": "moveExportFormatIndex:toIndex:",
+      "bridgedName": "moveExportFormatIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "shouldApplyAutomatically": {
+      "name": "shouldApplyAutomatically",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "exportFormats": {
+      "name": "exportFormats",
+      "pointer": false,
+      "type": "NSArray<__kindof MSExportFormat *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

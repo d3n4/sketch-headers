@@ -1,0 +1,23 @@
+{
+  "name": "MSCheckForUpdatesAction",
+  "extends": "MSSilentCheckForUpdatesAction",
+  "interfaces": [],
+  "methods": {
+    "checkForUpdates:": {
+      "name": "checkForUpdates:",
+      "bridgedName": "checkForUpdates",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

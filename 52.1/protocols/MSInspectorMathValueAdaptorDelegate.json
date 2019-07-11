@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSInspectorMathValueAdaptorDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "inspectorValueAdaptorAllowFloat:": {
+      "name": "inspectorValueAdaptorAllowFloat:",
+      "bridgedName": "inspectorValueAdaptorAllowFloat",
+      "args": [
+        {
+          "name": "adaptor",
+          "type": "MSInspectorValueAdaptor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

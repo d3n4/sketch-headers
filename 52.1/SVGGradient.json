@@ -1,0 +1,43 @@
+{
+  "name": "SVGGradient",
+  "extends": "_SVGGradient",
+  "interfaces": [],
+  "methods": {
+    "from": {
+      "name": "from",
+      "bridgedName": "from",
+      "args": [],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "to": {
+      "name": "to",
+      "bridgedName": "to",
+      "args": [],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stopsElements": {
+      "name": "stopsElements",
+      "bridgedName": "stopsElements",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "usesAbsoluteUnits": {
+      "name": "usesAbsoluteUnits",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

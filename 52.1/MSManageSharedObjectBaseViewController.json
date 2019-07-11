@@ -1,0 +1,54 @@
+{
+  "name": "MSManageSharedObjectBaseViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "NSTableViewDataSource",
+    "NSTableViewDelegate"
+  ],
+  "methods": {
+    "deleteSelectedObjects:": {
+      "name": "deleteSelectedObjects:",
+      "bridgedName": "deleteSelectedObjects",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "tableView": {
+      "name": "tableView",
+      "pointer": false,
+      "type": "IBOutlet NSTableView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "sharedObjectsSortedByName": {
+      "name": "sharedObjectsSortedByName",
+      "pointer": false,
+      "type": "NSArray<MSSharedObject*> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

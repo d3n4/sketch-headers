@@ -1,0 +1,8 @@
+{
+  "name": "BCSplitView",
+  "extends": "NSSplitView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

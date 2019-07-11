@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "ECCommandLineOptionMode",
+  "members": [
+    {
+      "name": "ECCommandLineOptionModeNone"
+    },
+    {
+      "name": "ECCommandLineOptionModeRequired"
+    },
+    {
+      "name": "ECCommandLineOptionModeOptinal"
+    }
+  ]
+}

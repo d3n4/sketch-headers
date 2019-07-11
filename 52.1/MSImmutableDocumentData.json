@@ -1,0 +1,312 @@
+{
+  "name": "MSImmutableDocumentData",
+  "extends": "_MSImmutableDocumentData",
+  "interfaces": [
+    "MSDocumentData"
+  ],
+  "methods": {
+    "loadDocumentDataWithMetadata:loadBlock:": {
+      "name": "loadDocumentDataWithMetadata:loadBlock:",
+      "bridgedName": "loadDocumentDataWithMetadata_loadBlock",
+      "args": [
+        {
+          "name": "metadata",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "loadBlock",
+          "type": "MSImmutableDocumentData*(^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableDocumentData *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "defaultPagesArray": {
+      "name": "defaultPagesArray",
+      "bridgedName": "defaultPagesArray",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "usedFontNames": {
+      "name": "usedFontNames",
+      "bridgedName": "usedFontNames",
+      "args": [],
+      "returns": "NSSet <NSString *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pageWithID:": {
+      "name": "pageWithID:",
+      "bridgedName": "pageWithID",
+      "args": [
+        {
+          "name": "pageID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSImmutablePage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolWithID:": {
+      "name": "symbolWithID:",
+      "bridgedName": "symbolWithID",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSImmutableSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardWithID:": {
+      "name": "artboardWithID:",
+      "bridgedName": "artboardWithID",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSImmutableArtboardGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textStyleWithID:": {
+      "name": "textStyleWithID:",
+      "bridgedName": "textStyleWithID",
+      "args": [
+        {
+          "name": "sharedStyleID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSImmutableSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerStyleWithID:": {
+      "name": "layerStyleWithID:",
+      "bridgedName": "layerStyleWithID",
+      "args": [
+        {
+          "name": "sharedStyleID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSImmutableSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardWithID:page:": {
+      "name": "artboardWithID:page:",
+      "bridgedName": "artboardWithID_page",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "pageOut",
+          "type": "MSImmutablePage * _Nullable __autoreleasing * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSImmutableArtboardGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "wasSavedByOldVersion": {
+      "name": "wasSavedByOldVersion",
+      "bridgedName": "wasSavedByOldVersion",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "wasSavedByTestVersion": {
+      "name": "wasSavedByTestVersion",
+      "bridgedName": "wasSavedByTestVersion",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allArtboards": {
+      "name": "allArtboards",
+      "bridgedName": "allArtboards",
+      "args": [],
+      "returns": "NSArray <MSImmutableArtboardGroup *>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allSymbols": {
+      "name": "allSymbols",
+      "bridgedName": "allSymbols",
+      "args": [],
+      "returns": "NSArray <MSImmutableSymbolMaster *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pagesAndArtboardsMetadata": {
+      "name": "pagesAndArtboardsMetadata",
+      "bridgedName": "pagesAndArtboardsMetadata",
+      "args": [],
+      "returns": "NSDictionary <NSString*, NSDictionary*> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "findFrequentColorsForUse:maximumColorCount:ignoreAlpha:excludeForeignSymbols:completionHandler:": {
+      "name": "findFrequentColorsForUse:maximumColorCount:ignoreAlpha:excludeForeignSymbols:completionHandler:",
+      "bridgedName": "findFrequentColorsForUse_maximumColorCount_ignoreAlpha_excludeForeignSymbols_completionHandler",
+      "args": [
+        {
+          "name": "colorUse",
+          "type": "MSColorUse",
+          "nullable": false
+        },
+        {
+          "name": "maxCount",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "ignoreAlpha",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "excludeForeignSymbols",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSColorFinderCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trackColors:excludeForeignSymbols:": {
+      "name": "trackColors:excludeForeignSymbols:",
+      "bridgedName": "trackColors_excludeForeignSymbols",
+      "args": [
+        {
+          "name": "tracker",
+          "type": "MSFrequentColorTracker *",
+          "nullable": false
+        },
+        {
+          "name": "excludeForeignSymbols",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolsChangedSincePreviousDocument:": {
+      "name": "symbolsChangedSincePreviousDocument:",
+      "bridgedName": "symbolsChangedSincePreviousDocument",
+      "args": [
+        {
+          "name": "lastImmutable",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareForRender:": {
+      "name": "prepareForRender:",
+      "bridgedName": "prepareForRender",
+      "args": [
+        {
+          "name": "diff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "metadata": {
+      "name": "metadata",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentPage": {
+      "name": "currentPage",
+      "pointer": false,
+      "type": "MSImmutablePage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectedOverrides": {
+      "name": "selectedOverrides",
+      "pointer": false,
+      "type": "NSArray<NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "fontNames": {
+      "name": "fontNames",
+      "pointer": false,
+      "type": "NSSet <NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "unavailableFontNames": {
+      "name": "unavailableFontNames",
+      "pointer": false,
+      "type": "NSSet <NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "containsUnavailableFontNames": {
+      "name": "containsUnavailableFontNames",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

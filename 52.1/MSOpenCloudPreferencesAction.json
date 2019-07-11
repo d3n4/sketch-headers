@@ -1,0 +1,23 @@
+{
+  "name": "MSOpenCloudPreferencesAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "openCloudPreferences:": {
+      "name": "openCloudPreferences:",
+      "bridgedName": "openCloudPreferences",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

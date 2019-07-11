@@ -1,0 +1,49 @@
+{
+  "name": "_MSImmutableColor",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "alpha": {
+      "name": "alpha",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "blue": {
+      "name": "blue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "green": {
+      "name": "green",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "red": {
+      "name": "red",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

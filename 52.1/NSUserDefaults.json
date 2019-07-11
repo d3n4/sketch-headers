@@ -1,0 +1,42 @@
+{
+  "name": "NSUserDefaults",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "setColor:forKey:": {
+      "name": "setColor:forKey:",
+      "bridgedName": "setColor_forKey",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorForKey:": {
+      "name": "colorForKey:",
+      "bridgedName": "colorForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SVGEllipseShape",
+  "extends": "_SVGEllipseShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

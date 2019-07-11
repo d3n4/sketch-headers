@@ -1,0 +1,39 @@
+{
+  "protocol": true,
+  "name": "MSExportFormatContainer",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "containingLayer": {
+      "name": "containingLayer",
+      "bridgedName": "containingLayer",
+      "args": [],
+      "returns": "MSLayer * _Nullable",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportFormats": {
+      "name": "exportFormats",
+      "bridgedName": "exportFormats",
+      "args": [],
+      "returns": "NSArray<MSExportFormat *> * _Nullable",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeExportFormat:": {
+      "name": "removeExportFormat:",
+      "bridgedName": "removeExportFormat",
+      "args": [
+        {
+          "name": "exportFormat",
+          "type": "MSExportFormat * _Nonnull",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

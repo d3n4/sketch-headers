@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "SUPermissionPromptResult",
+  "members": [
+    {
+      "name": "SUAutomaticallyCheck"
+    },
+    {
+      "name": "SUDoNotAutomaticallyCheck"
+    }
+  ]
+}

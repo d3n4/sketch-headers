@@ -1,0 +1,220 @@
+{
+  "name": "MSTileMipLevel",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "tileMipLevelWithScaleRangeMax:": {
+      "name": "tileMipLevelWithScaleRangeMax:",
+      "bridgedName": "tileMipLevelWithScaleRangeMax",
+      "args": [
+        {
+          "name": "rangeMax",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithScaleRangeMax:": {
+      "name": "initWithScaleRangeMax:",
+      "bridgedName": "initWithScaleRangeMax",
+      "args": [
+        {
+          "name": "max",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enqueueRenderableTilesForVisibleRect:": {
+      "name": "enqueueRenderableTilesForVisibleRect:",
+      "bridgedName": "enqueueRenderableTilesForVisibleRect",
+      "args": [
+        {
+          "name": "visibleRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSTile *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "countExistingTilesForVisibleRect:": {
+      "name": "countExistingTilesForVisibleRect:",
+      "bridgedName": "countExistingTilesForVisibleRect",
+      "args": [
+        {
+          "name": "visibleRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "findWritableTileAt:": {
+      "name": "findWritableTileAt:",
+      "bridgedName": "findWritableTileAt",
+      "args": [
+        {
+          "name": "point",
+          "type": "BCIntPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "MSTile *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTile:": {
+      "name": "addTile:",
+      "bridgedName": "addTile",
+      "args": [
+        {
+          "name": "tile",
+          "type": "MSTile *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllTiles": {
+      "name": "removeAllTiles",
+      "bridgedName": "removeAllTiles",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllTilesAndClearDirtyRegion": {
+      "name": "removeAllTilesAndClearDirtyRegion",
+      "bridgedName": "removeAllTilesAndClearDirtyRegion",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllTilesAndResetDirtyRegionToRect:": {
+      "name": "removeAllTilesAndResetDirtyRegionToRect:",
+      "bridgedName": "removeAllTilesAndResetDirtyRegionToRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "BCIntRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isCurrentColorSpaceEqualTo:": {
+      "name": "isCurrentColorSpaceEqualTo:",
+      "bridgedName": "isCurrentColorSpaceEqualTo",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "CGColorSpaceRef",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "uniteDirtyRect:": {
+      "name": "uniteDirtyRect:",
+      "bridgedName": "uniteDirtyRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subtractDirtyRect:": {
+      "name": "subtractDirtyRect:",
+      "bridgedName": "subtractDirtyRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "BCIntRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "scaleRangeMax": {
+      "name": "scaleRangeMax",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "currentColorSpace": {
+      "name": "currentColorSpace",
+      "pointer": false,
+      "type": "CGColorSpaceRef",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "clearBeforeUpload": {
+      "name": "clearBeforeUpload",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "atomic",
+        "readwrite"
+      ]
+    },
+    "dirtyRegion": {
+      "name": "dirtyRegion",
+      "pointer": false,
+      "type": "MSRegion ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "tileCount": {
+      "name": "tileCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

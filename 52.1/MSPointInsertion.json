@@ -1,0 +1,67 @@
+{
+  "name": "MSPointInsertion",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "insertPointAtLocation:index:layer:options:": {
+      "name": "insertPointAtLocation:index:layer:options:",
+      "bridgedName": "insertPointAtLocation_index_layer_options",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSShapePathLayer *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSPointInsertionOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSCurvePoint *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "canInsertAtProposedLocation:index:layer:options:": {
+      "name": "canInsertAtProposedLocation:index:layer:options:",
+      "bridgedName": "canInsertAtProposedLocation_index_layer_options",
+      "args": [
+        {
+          "name": "proposedPoint",
+          "type": "NSPoint *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSShapePathLayer *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSPointInsertionOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

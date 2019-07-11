@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "BCTime",
+  "type": "uint64_t",
+  "pointer": false
+}

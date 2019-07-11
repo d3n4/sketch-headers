@@ -1,0 +1,8 @@
+{
+  "name": "MSStarShapeItem",
+  "extends": "MSCustomShapeItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

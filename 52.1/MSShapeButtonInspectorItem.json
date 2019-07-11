@@ -1,0 +1,26 @@
+{
+  "name": "MSShapeButtonInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "shapeEventHandler": {
+      "name": "shapeEventHandler",
+      "pointer": false,
+      "type": "MSShapeEventHandler ",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "pathController": {
+      "name": "pathController",
+      "pointer": false,
+      "type": "MSPathController ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

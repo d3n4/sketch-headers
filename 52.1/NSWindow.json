@@ -1,0 +1,39 @@
+{
+  "name": "NSWindow",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "convertPointFromScreen_ch:": {
+      "name": "convertPointFromScreen_ch:",
+      "bridgedName": "convertPointFromScreen_ch",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closePopovers": {
+      "name": "closePopovers",
+      "bridgedName": "closePopovers",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "commitEditedTextRetainingFirstResponder": {
+      "name": "commitEditedTextRetainingFirstResponder",
+      "bridgedName": "commitEditedTextRetainingFirstResponder",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

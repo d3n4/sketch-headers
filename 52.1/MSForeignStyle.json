@@ -1,0 +1,28 @@
+{
+  "name": "MSForeignStyle",
+  "extends": "_MSForeignStyle",
+  "interfaces": [],
+  "methods": {
+    "initAsOverrideReferenceForSymbol:withOriginal:": {
+      "name": "initAsOverrideReferenceForSymbol:withOriginal:",
+      "bridgedName": "initAsOverrideReferenceForSymbol_withOriginal",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSForeignSymbol *",
+          "nullable": false
+        },
+        {
+          "name": "original",
+          "type": "MSSharedStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

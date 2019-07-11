@@ -1,0 +1,363 @@
+{
+  "name": "AFHTTPRequestOperationManager",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSSecureCoding",
+    "NSCopying"
+  ],
+  "methods": {
+    "manager": {
+      "name": "manager",
+      "bridgedName": "manager",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithBaseURL:": {
+      "name": "initWithBaseURL:",
+      "bridgedName": "initWithBaseURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "HTTPRequestOperationWithRequest:success:failure:": {
+      "name": "HTTPRequestOperationWithRequest:success:failure:",
+      "bridgedName": "HTTPRequestOperationWithRequest_success_failure",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(AFHTTPRequestOperation *operation, id responseObject)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(AFHTTPRequestOperation *operation, NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "GET:parameters:success:failure:": {
+      "name": "GET:parameters:success:failure:",
+      "bridgedName": "GET_parameters_success_failure",
+      "args": [
+        {
+          "name": "URLString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "void (^)(AFHTTPRequestOperation *operation, id responseObject)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(AFHTTPRequestOperation * __nullable operation, NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "HEAD:parameters:success:failure:": {
+      "name": "HEAD:parameters:success:failure:",
+      "bridgedName": "HEAD_parameters_success_failure",
+      "args": [
+        {
+          "name": "URLString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "void (^)(AFHTTPRequestOperation *operation)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(AFHTTPRequestOperation * __nullable operation, NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "POST:parameters:success:failure:": {
+      "name": "POST:parameters:success:failure:",
+      "bridgedName": "POST_parameters_success_failure",
+      "args": [
+        {
+          "name": "URLString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "void (^)(AFHTTPRequestOperation *operation, id responseObject)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(AFHTTPRequestOperation * __nullable operation, NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "POST:parameters:constructingBodyWithBlock:success:failure:": {
+      "name": "POST:parameters:constructingBodyWithBlock:success:failure:",
+      "bridgedName": "POST_parameters_constructingBodyWithBlock_success_failure",
+      "args": [
+        {
+          "name": "URLString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "block",
+          "type": "void (^)(id <AFMultipartFormData> formData)",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "void (^)(AFHTTPRequestOperation *operation, id responseObject)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(AFHTTPRequestOperation * __nullable operation, NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "PUT:parameters:success:failure:": {
+      "name": "PUT:parameters:success:failure:",
+      "bridgedName": "PUT_parameters_success_failure",
+      "args": [
+        {
+          "name": "URLString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "void (^)(AFHTTPRequestOperation *operation, id responseObject)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(AFHTTPRequestOperation * __nullable operation, NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "PATCH:parameters:success:failure:": {
+      "name": "PATCH:parameters:success:failure:",
+      "bridgedName": "PATCH_parameters_success_failure",
+      "args": [
+        {
+          "name": "URLString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "void (^)(AFHTTPRequestOperation *operation, id responseObject)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(AFHTTPRequestOperation * __nullable operation, NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "DELETE:parameters:success:failure:": {
+      "name": "DELETE:parameters:success:failure:",
+      "bridgedName": "DELETE_parameters_success_failure",
+      "args": [
+        {
+          "name": "URLString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "void (^)(AFHTTPRequestOperation *operation, id responseObject)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(AFHTTPRequestOperation * __nullable operation, NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "baseURL": {
+      "name": "baseURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "requestSerializer": {
+      "name": "requestSerializer",
+      "pointer": false,
+      "type": "AFHTTPRequestSerializer <AFURLRequestSerialization> *",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "responseSerializer": {
+      "name": "responseSerializer",
+      "pointer": false,
+      "type": "AFHTTPResponseSerializer <AFURLResponseSerialization> *",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "operationQueue": {
+      "name": "operationQueue",
+      "pointer": false,
+      "type": "NSOperationQueue ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "shouldUseCredentialStorage": {
+      "name": "shouldUseCredentialStorage",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "credential": {
+      "name": "credential",
+      "pointer": false,
+      "type": "NSURLCredential ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "securityPolicy": {
+      "name": "securityPolicy",
+      "pointer": false,
+      "type": "AFSecurityPolicy ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "reachabilityManager": {
+      "name": "reachabilityManager",
+      "pointer": false,
+      "type": "AFNetworkReachabilityManager ",
+      "attributes": [
+        "readwrite",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "completionQueue": {
+      "name": "completionQueue",
+      "pointer": false,
+      "type": "dispatch_queue_t",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "nullable"
+      ]
+    },
+    "completionGroup": {
+      "name": "completionGroup",
+      "pointer": false,
+      "type": "dispatch_group_t",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

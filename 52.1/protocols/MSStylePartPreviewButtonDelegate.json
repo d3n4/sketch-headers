@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSStylePartPreviewButtonDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "stylePartPreviewButtonPreviewColorSpace:": {
+      "name": "stylePartPreviewButtonPreviewColorSpace:",
+      "bridgedName": "stylePartPreviewButtonPreviewColorSpace",
+      "args": [
+        {
+          "name": "button",
+          "type": "MSStylePartPreviewButton *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleLayerListVisibilityAction",
+  "extends": "MSToggleVisibilityAction",
+  "interfaces": [],
+  "methods": {
+    "toggleLayerListVisibility:": {
+      "name": "toggleLayerListVisibility:",
+      "bridgedName": "toggleLayerListVisibility",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

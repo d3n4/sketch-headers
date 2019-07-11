@@ -1,0 +1,70 @@
+{
+  "name": "MSPopoverAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "popoverClass": {
+      "name": "popoverClass",
+      "bridgedName": "popoverClass",
+      "args": [],
+      "returns": "Class",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "showPopover:": {
+      "name": "showPopover:",
+      "bridgedName": "showPopover",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closePopover": {
+      "name": "closePopover",
+      "bridgedName": "closePopover",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverWillClose:": {
+      "name": "popoverWillClose:",
+      "bridgedName": "popoverWillClose",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "popoverViewController": {
+      "name": "popoverViewController",
+      "pointer": false,
+      "type": "NSViewController ",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "popoverVisible": {
+      "name": "popoverVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

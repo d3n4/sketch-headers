@@ -1,0 +1,8 @@
+{
+  "name": "MSShapeAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

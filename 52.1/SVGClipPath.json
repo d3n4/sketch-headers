@@ -1,0 +1,8 @@
+{
+  "name": "SVGClipPath",
+  "extends": "_SVGClipPath",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

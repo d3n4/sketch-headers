@@ -1,0 +1,252 @@
+{
+  "name": "NSCell",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "inheritedBackgroundStyle": {
+      "name": "inheritedBackgroundStyle",
+      "bridgedName": "inheritedBackgroundStyle",
+      "args": [],
+      "returns": "NSBackgroundStyle",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentInspectorIconColor": {
+      "name": "currentInspectorIconColor",
+      "bridgedName": "currentInspectorIconColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorIconColorForCellEnabled:highlighted:": {
+      "name": "inspectorIconColorForCellEnabled:highlighted:",
+      "bridgedName": "inspectorIconColorForCellEnabled_highlighted",
+      "args": [
+        {
+          "name": "enabled",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "highlighted",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "currentInspectorAccentColor": {
+      "name": "currentInspectorAccentColor",
+      "bridgedName": "currentInspectorAccentColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorAccentColorForCellHighlighted:": {
+      "name": "inspectorAccentColorForCellHighlighted:",
+      "bridgedName": "inspectorAccentColorForCellHighlighted",
+      "args": [
+        {
+          "name": "highlighted",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawInspectorButtonImage:centeredInRect:": {
+      "name": "drawInspectorButtonImage:centeredInRect:",
+      "bridgedName": "drawInspectorButtonImage_centeredInRect",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInspectorButtonImage:centeredInRect:accented:": {
+      "name": "drawInspectorButtonImage:centeredInRect:accented:",
+      "bridgedName": "drawInspectorButtonImage_centeredInRect_accented",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "accented",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInspectorButtonImage:centeredInRect:accented:accentsImage:": {
+      "name": "drawInspectorButtonImage:centeredInRect:accented:accentsImage:",
+      "bridgedName": "drawInspectorButtonImage_centeredInRect_accented_accentsImage",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "accented",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "accentsImage",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInspectorButtonImage:centeredInRect:withColor:": {
+      "name": "drawInspectorButtonImage:centeredInRect:withColor:",
+      "bridgedName": "drawInspectorButtonImage_centeredInRect_withColor",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawInspectorStatelessControlImage:centeredInRect:": {
+      "name": "drawInspectorStatelessControlImage:centeredInRect:",
+      "bridgedName": "drawInspectorStatelessControlImage_centeredInRect",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInspectorButtonPath:accented:highlighted:": {
+      "name": "drawInspectorButtonPath:accented:highlighted:",
+      "bridgedName": "drawInspectorButtonPath_accented_highlighted",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        },
+        {
+          "name": "accented",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "highlighted",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInspectorTextFieldBackgroundWithPath:": {
+      "name": "drawInspectorTextFieldBackgroundWithPath:",
+      "bridgedName": "drawInspectorTextFieldBackgroundWithPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInspectorFocusRingMaskWithWithPath:": {
+      "name": "drawInspectorFocusRingMaskWithWithPath:",
+      "bridgedName": "drawInspectorFocusRingMaskWithWithPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorFocusRingMaskBoundsForFrame:inView:": {
+      "name": "inspectorFocusRingMaskBoundsForFrame:inView:",
+      "bridgedName": "inspectorFocusRingMaskBoundsForFrame_inView",
+      "args": [
+        {
+          "name": "cellFrame",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "controlView",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

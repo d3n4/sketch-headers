@@ -1,0 +1,281 @@
+{
+  "name": "SMKArtboardRequest",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithArtboardID:rect:additive:constrainedToSize:scale:type:": {
+      "name": "initWithArtboardID:rect:additive:constrainedToSize:scale:type:",
+      "bridgedName": "initWithArtboardID_rect_additive_constrainedToSize_scale_type",
+      "args": [
+        {
+          "name": "artboardID",
+          "type": "SCKObjectID *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "additive",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "constrainingSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "SCKFileImageType",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "requestForArtboardID:atScale:type:": {
+      "name": "requestForArtboardID:atScale:type:",
+      "bridgedName": "requestForArtboardID_atScale_type",
+      "args": [
+        {
+          "name": "artboardID",
+          "type": "SCKObjectID *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "SCKFileImageType",
+          "nullable": false
+        }
+      ],
+      "returns": "SMKArtboardRequest *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "requestForArtboardID:atScale:constrainedToSize:type:": {
+      "name": "requestForArtboardID:atScale:constrainedToSize:type:",
+      "bridgedName": "requestForArtboardID_atScale_constrainedToSize_type",
+      "args": [
+        {
+          "name": "artboardID",
+          "type": "SCKObjectID *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "SCKFileImageType",
+          "nullable": false
+        }
+      ],
+      "returns": "SMKArtboardRequest *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "requestForArtboardID:atScale:constrainedToSize:inRect:type:": {
+      "name": "requestForArtboardID:atScale:constrainedToSize:inRect:type:",
+      "bridgedName": "requestForArtboardID_atScale_constrainedToSize_inRect_type",
+      "args": [
+        {
+          "name": "artboardID",
+          "type": "SCKObjectID *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "SCKFileImageType",
+          "nullable": false
+        }
+      ],
+      "returns": "SMKArtboardRequest *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "requestForArtboardID:atScale:additiveInRect:type:": {
+      "name": "requestForArtboardID:atScale:additiveInRect:type:",
+      "bridgedName": "requestForArtboardID_atScale_additiveInRect_type",
+      "args": [
+        {
+          "name": "artboardID",
+          "type": "SCKObjectID *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "SCKFileImageType",
+          "nullable": false
+        }
+      ],
+      "returns": "SMKArtboardRequest *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "squashableWithRequest:": {
+      "name": "squashableWithRequest:",
+      "bridgedName": "squashableWithRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "SMKArtboardRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "squashedWithRequest:": {
+      "name": "squashedWithRequest:",
+      "bridgedName": "squashedWithRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "SMKArtboardRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "SMKArtboardRequest *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "urlWithHost:port:token:": {
+      "name": "urlWithHost:port:token:",
+      "bridgedName": "urlWithHost_port_token",
+      "args": [
+        {
+          "name": "host",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "port",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "token",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "artboardID": {
+      "name": "artboardID",
+      "pointer": false,
+      "type": "SCKObjectID ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "constrainingSize": {
+      "name": "constrainingSize",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isConstrained": {
+      "name": "isConstrained",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isAdditive": {
+      "name": "isAdditive",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "SCKFileImageType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

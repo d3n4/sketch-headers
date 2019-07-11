@@ -1,0 +1,61 @@
+{
+  "name": "_SVGCircleShape",
+  "extends": "SVGBasicShape",
+  "interfaces": [],
+  "methods": {
+    "propertyNames": {
+      "name": "propertyNames",
+      "bridgedName": "propertyNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "relationshipNames": {
+      "name": "relationshipNames",
+      "bridgedName": "relationshipNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeNames": {
+      "name": "attributeNames",
+      "bridgedName": "attributeNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "cx": {
+      "name": "cx",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "cy": {
+      "name": "cy",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "r": {
+      "name": "r",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

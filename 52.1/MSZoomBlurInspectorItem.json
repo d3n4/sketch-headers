@@ -1,0 +1,8 @@
+{
+  "name": "MSZoomBlurInspectorItem",
+  "extends": "MSBaseBlurInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

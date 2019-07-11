@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSCurveAdjustmentHandleVisibility",
+  "members": [
+    {
+      "name": "MSCurveAdjustmentHandleVisibilityDirect"
+    },
+    {
+      "name": "MSCurveAdjustmentHandleVisibilityAdjacent"
+    },
+    {
+      "name": "MSCurveAdjustmentHandleVisibilityExtended"
+    },
+    {
+      "name": "MSCurveAdjustmentHandleVisibilityAll"
+    }
+  ]
+}

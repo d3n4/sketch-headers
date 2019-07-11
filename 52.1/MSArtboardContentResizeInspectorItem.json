@@ -1,0 +1,8 @@
+{
+  "name": "MSArtboardContentResizeInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

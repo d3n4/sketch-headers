@@ -1,0 +1,90 @@
+{
+  "name": "MSNormalEventData",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "hasMultipleTouches": {
+      "name": "hasMultipleTouches",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "didMouseDown": {
+      "name": "didMouseDown",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "mouseDown": {
+      "name": "mouseDown",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "midPoint": {
+      "name": "midPoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "originalScrollOrigin": {
+      "name": "originalScrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "resizingLayer": {
+      "name": "resizingLayer",
+      "pointer": false,
+      "type": "__kindof MSLayer ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "resizingHandle": {
+      "name": "resizingHandle",
+      "pointer": false,
+      "type": "BCCorner",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "dragMode": {
+      "name": "dragMode",
+      "pointer": false,
+      "type": "MSEventHandlerDragMode",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "snapperData": {
+      "name": "snapperData",
+      "pointer": false,
+      "type": "MSSnapperData ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

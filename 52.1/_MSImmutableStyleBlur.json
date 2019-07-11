@@ -1,0 +1,59 @@
+{
+  "name": "_MSImmutableStyleBlur",
+  "extends": "MSImmutableStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "center": {
+      "name": "center",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "motionAngle": {
+      "name": "motionAngle",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "radius": {
+      "name": "radius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "saturation": {
+      "name": "saturation",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "MSStyleBlurType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

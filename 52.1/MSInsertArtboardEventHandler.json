@@ -1,0 +1,23 @@
+{
+  "name": "MSInsertArtboardEventHandler",
+  "extends": "MSInsertLayerEventHandler",
+  "interfaces": [],
+  "methods": {
+    "insertArtboardFromPreset:": {
+      "name": "insertArtboardFromPreset:",
+      "bridgedName": "insertArtboardFromPreset",
+      "args": [
+        {
+          "name": "preset",
+          "type": "MSArtboardPreset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

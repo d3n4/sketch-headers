@@ -1,0 +1,75 @@
+{
+  "name": "BCSketchToolRunner",
+  "extends": "BCToolRunner",
+  "interfaces": [],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithSketchToolURL:maximumConcurrentOperations:": {
+      "name": "initWithSketchToolURL:maximumConcurrentOperations:",
+      "bridgedName": "initWithSketchToolURL_maximumConcurrentOperations",
+      "args": [
+        {
+          "name": "toolURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "maxConcurrency",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportPreviewImageForDocumentAtURL:additionalArguments:intoURL:completionHandler:": {
+      "name": "exportPreviewImageForDocumentAtURL:additionalArguments:intoURL:completionHandler:",
+      "bridgedName": "exportPreviewImageForDocumentAtURL_additionalArguments_intoURL_completionHandler",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "additionalArguments",
+          "type": "NSArray <NSString *> *",
+          "nullable": false
+        },
+        {
+          "name": "previewImageURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "MSDocumentPreviewImageHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "sketchToolURL": {
+      "name": "sketchToolURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

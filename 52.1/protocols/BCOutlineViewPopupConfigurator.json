@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "BCOutlineViewPopupConfigurator",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "updatePopup:forState:": {
+      "name": "updatePopup:forState:",
+      "bridgedName": "updatePopup_forState",
+      "args": [
+        {
+          "name": "button",
+          "type": "NSPopUpButton *",
+          "nullable": false
+        },
+        {
+          "name": "state",
+          "type": "BCOutlineViewPreviewState",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

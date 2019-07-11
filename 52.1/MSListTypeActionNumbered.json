@@ -1,0 +1,23 @@
+{
+  "name": "MSListTypeActionNumbered",
+  "extends": "MSListTypeAction",
+  "interfaces": [],
+  "methods": {
+    "setListTypeNumbered:": {
+      "name": "setListTypeNumbered:",
+      "bridgedName": "setListTypeNumbered",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

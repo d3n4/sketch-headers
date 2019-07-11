@@ -1,0 +1,80 @@
+{
+  "name": "SCKFile",
+  "extends": "SCKObject",
+  "interfaces": [],
+  "methods": {
+    "thumbnailConstrainedToSize:)": {
+      "name": "thumbnailConstrainedToSize:)",
+      "bridgedName": "thumbnailConstrainedToSize_)",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable SCKThumbnail *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dimensions": {
+      "name": "dimensions",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fileSize": {
+      "name": "fileSize",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "thumbnails": {
+      "name": "thumbnails",
+      "pointer": false,
+      "type": "NSArray<SCKThumbnail *> ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "url": {
+      "name": "url",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "SCKFileImageType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,83 @@
+{
+  "name": "NSFont",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "preventsAutoActivation_bc": {
+      "name": "preventsAutoActivation_bc",
+      "bridgedName": "preventsAutoActivation_bc",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setPreventsAutoActivation_bc:": {
+      "name": "setPreventsAutoActivation_bc:",
+      "bridgedName": "setPreventsAutoActivation_bc",
+      "args": [
+        {
+          "name": "flag",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fontWithName:size_bc:": {
+      "name": "fontWithName:size_bc:",
+      "bridgedName": "fontWithName_size_bc",
+      "args": [
+        {
+          "name": "fontName",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "fontSize",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSFont *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fontPreventingAutoActivationWithName:size_bc:": {
+      "name": "fontPreventingAutoActivationWithName:size_bc:",
+      "bridgedName": "fontPreventingAutoActivationWithName_size_bc",
+      "args": [
+        {
+          "name": "fontName",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "fontSize",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSFont *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addSVGAttributes:": {
+      "name": "addSVGAttributes:",
+      "bridgedName": "addSVGAttributes",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

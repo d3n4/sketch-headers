@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "BITCrashManagerCallbacks",
+  "members": [
+    {
+      "name": "context",
+      "pointer": true,
+      "type": "void"
+    },
+    {
+      "name": "handleSignal",
+      "pointer": false,
+      "type": "BITCrashManagerPostCrashSignalCallback"
+    }
+  ]
+}

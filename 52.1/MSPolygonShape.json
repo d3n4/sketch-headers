@@ -1,0 +1,8 @@
+{
+  "name": "MSPolygonShape",
+  "extends": "_MSPolygonShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

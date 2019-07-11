@@ -1,0 +1,23 @@
+{
+  "name": "MSTogglePixelLinesAction",
+  "extends": "MSToggleViewPreferenceAction",
+  "interfaces": [],
+  "methods": {
+    "togglePixelLines:": {
+      "name": "togglePixelLines:",
+      "bridgedName": "togglePixelLines",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

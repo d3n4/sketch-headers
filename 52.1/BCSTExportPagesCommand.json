@@ -1,0 +1,8 @@
+{
+  "name": "BCSTExportPagesCommand",
+  "extends": "BCSTCommand",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

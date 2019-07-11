@@ -1,0 +1,8 @@
+{
+  "name": "SVGDescription",
+  "extends": "SVGElement",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "MSRegion",
+  "members": [
+    {
+      "name": "_bounds",
+      "pointer": false,
+      "type": "BCIntRect"
+    },
+    {
+      "name": "_runHead",
+      "pointer": true,
+      "type": "MSRegionRunHead"
+    }
+  ]
+}

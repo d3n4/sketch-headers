@@ -1,0 +1,106 @@
+{
+  "name": "MSCoordinateInspectorValueAdaptor",
+  "extends": "MSMathInspectorValueAdaptor",
+  "interfaces": [],
+  "methods": {
+    "initWithLayerController:layerKeyPath:axis:": {
+      "name": "initWithLayerController:layerKeyPath:axis:",
+      "bridgedName": "initWithLayerController_layerKeyPath_axis",
+      "args": [
+        {
+          "name": "layerController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "keyPath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithLayerController:valueGetter:valueSetter:layerKeyPathsToWatch:axis:": {
+      "name": "initWithLayerController:valueGetter:valueSetter:layerKeyPathsToWatch:axis:",
+      "bridgedName": "initWithLayerController_valueGetter_valueSetter_layerKeyPathsToWatch_axis",
+      "args": [
+        {
+          "name": "layerController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "valueGetter",
+          "type": "CGFloat (^)(MSLayer *layer)",
+          "nullable": false
+        },
+        {
+          "name": "valueSetter",
+          "type": "void (^)(MSLayer *layer, CGFloat value, id context)",
+          "nullable": false
+        },
+        {
+          "name": "layerKeyPathsToWatch",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithModelsController:floatValueGetter:floatValueSetter:modelKeyPathsToWatch:NS_UNAVAILABLE": {
+      "name": "initWithModelsController:floatValueGetter:floatValueSetter:modelKeyPathsToWatch:NS_UNAVAILABLE",
+      "bridgedName": "initWithModelsController_floatValueGetter_floatValueSetter_modelKeyPathsToWatch_NS_UNAVAILABLE",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "valueGetter",
+          "type": "CGFloat (^)(id model)",
+          "nullable": false
+        },
+        {
+          "name": "valueSetter",
+          "type": "void (^)(id model, CGFloat value, id context)",
+          "nullable": false
+        },
+        {
+          "name": "modelKeyPathsToWatch",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

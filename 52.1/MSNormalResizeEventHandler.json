@@ -1,0 +1,26 @@
+{
+  "name": "MSNormalResizeEventHandler",
+  "extends": "MSNormalBaseEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "snappingSession": {
+      "name": "snappingSession",
+      "pointer": false,
+      "type": "MSSnappingSession ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "eventData": {
+      "name": "eventData",
+      "pointer": false,
+      "type": "MSNormalEventData ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

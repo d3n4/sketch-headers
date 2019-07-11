@@ -1,0 +1,76 @@
+{
+  "protocol": true,
+  "name": "BCSketchFileMigrator",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "validateDocumentAtBookmark:withReply:": {
+      "name": "validateDocumentAtBookmark:withReply:",
+      "bridgedName": "validateDocumentAtBookmark_withReply",
+      "args": [
+        {
+          "name": "bookmark",
+          "type": "NSData*",
+          "nullable": false
+        },
+        {
+          "name": "reply",
+          "type": "void (^)(BCSketchFileMigratorError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "migrateDocumentAtBookmark:intoFolderAtBookmark:withReply:": {
+      "name": "migrateDocumentAtBookmark:intoFolderAtBookmark:withReply:",
+      "bridgedName": "migrateDocumentAtBookmark_intoFolderAtBookmark_withReply",
+      "args": [
+        {
+          "name": "fromBookmark",
+          "type": "NSData*",
+          "nullable": false
+        },
+        {
+          "name": "toBookmark",
+          "type": "NSData*",
+          "nullable": false
+        },
+        {
+          "name": "reply",
+          "type": "void (^)(BCSketchFileMigratorError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "migrateResourcesNamed:inFolderAtBookmark:withReply:": {
+      "name": "migrateResourcesNamed:inFolderAtBookmark:withReply:",
+      "bridgedName": "migrateResourcesNamed_inFolderAtBookmark_withReply",
+      "args": [
+        {
+          "name": "names",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "bookmark",
+          "type": "NSData*",
+          "nullable": false
+        },
+        {
+          "name": "reply",
+          "type": "void (^)(BCSketchFileMigratorError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

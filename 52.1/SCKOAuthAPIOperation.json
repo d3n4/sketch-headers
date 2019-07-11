@@ -1,0 +1,77 @@
+{
+  "name": "SCKOAuthAPIOperation",
+  "extends": "SCKAPIOperation",
+  "interfaces": [],
+  "methods": {
+    "initWithRequest:)": {
+      "name": "initWithRequest:)",
+      "bridgedName": "initWithRequest_)",
+      "args": [
+        {
+          "name": "request",
+          "type": "SCKOAuthAPIURLRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "signinWithEmail:password:handler:)": {
+      "name": "signinWithEmail:password:handler:)",
+      "bridgedName": "signinWithEmail_password_handler_)",
+      "args": [
+        {
+          "name": "email",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "password",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "SCKOAuthAPIHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "refreshAuthentication:handler:": {
+      "name": "refreshAuthentication:handler:",
+      "bridgedName": "refreshAuthentication_handler",
+      "args": [
+        {
+          "name": "authentication",
+          "type": "SCKAPIAuthentication *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "SCKOAuthAPIHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "authentication": {
+      "name": "authentication",
+      "pointer": false,
+      "type": "SCKAPIAuthentication ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

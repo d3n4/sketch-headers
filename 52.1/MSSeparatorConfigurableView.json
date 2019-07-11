@@ -1,0 +1,25 @@
+{
+  "name": "MSSeparatorConfigurableView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "wantsSeparator": {
+      "name": "wantsSeparator",
+      "pointer": false,
+      "type": "IBInspectable BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "inset": {
+      "name": "inset",
+      "pointer": false,
+      "type": "IBInspectable BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

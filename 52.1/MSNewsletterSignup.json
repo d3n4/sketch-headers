@@ -1,0 +1,8 @@
+{
+  "name": "MSNewsletterSignup",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

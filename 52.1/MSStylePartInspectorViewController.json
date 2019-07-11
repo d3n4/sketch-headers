@@ -1,0 +1,127 @@
+{
+  "name": "MSStylePartInspectorViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorSection",
+    "NSWindowDelegate"
+  ],
+  "methods": {
+    "stylePartViewController": {
+      "name": "stylePartViewController",
+      "bridgedName": "stylePartViewController",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "prepareForReuse": {
+      "name": "prepareForReuse",
+      "bridgedName": "prepareForReuse",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasEnabledStyle": {
+      "name": "hasEnabledStyle",
+      "bridgedName": "hasEnabledStyle",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didGetAddedToInspector": {
+      "name": "didGetAddedToInspector",
+      "bridgedName": "didGetAddedToInspector",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepare": {
+      "name": "prepare",
+      "bridgedName": "prepare",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportedActionsForLayers:": {
+      "name": "supportedActionsForLayers:",
+      "bridgedName": "supportedActionsForLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSMultipleStylePartInspectorAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closePopover": {
+      "name": "closePopover",
+      "bridgedName": "closePopover",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateDisplayedValues": {
+      "name": "updateDisplayedValues",
+      "bridgedName": "updateDisplayedValues",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "styleParts": {
+      "name": "styleParts",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "arrayController": {
+      "name": "arrayController",
+      "pointer": false,
+      "type": "IBOutlet NSArrayController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSStylePartInspectorDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "index": {
+      "name": "index",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray <MSLayer *>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}
