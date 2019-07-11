@@ -1,0 +1,8 @@
+{
+  "name": "MSSizeInspectorValueAdaptor",
+  "extends": "MSCoordinateInspectorValueAdaptor",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

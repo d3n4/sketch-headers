@@ -1,0 +1,23 @@
+{
+  "name": "MSResetSymbolSizeAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "resetSymbolSize:": {
+      "name": "resetSymbolSize:",
+      "bridgedName": "resetSymbolSize",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

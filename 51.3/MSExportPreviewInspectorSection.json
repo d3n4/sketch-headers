@@ -1,0 +1,8 @@
+{
+  "name": "MSExportPreviewInspectorSection",
+  "extends": "MSBaseInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

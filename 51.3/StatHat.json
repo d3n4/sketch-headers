@@ -1,0 +1,239 @@
+{
+  "name": "StatHat",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "postEZStat:withValue:forUser:delegate:": {
+      "name": "postEZStat:withValue:forUser:delegate:",
+      "bridgedName": "postEZStat_withValue_forUser_delegate",
+      "args": [
+        {
+          "name": "statName",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "ezkey",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<StatHatDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "StatHat*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "postEZStat:withCount:forUser:delegate:": {
+      "name": "postEZStat:withCount:forUser:delegate:",
+      "bridgedName": "postEZStat_withCount_forUser_delegate",
+      "args": [
+        {
+          "name": "statName",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "count",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "ezkey",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<StatHatDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "StatHat*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "postStatKey:withValue:forUser:delegate:": {
+      "name": "postStatKey:withValue:forUser:delegate:",
+      "bridgedName": "postStatKey_withValue_forUser_delegate",
+      "args": [
+        {
+          "name": "statKey",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "userKey",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<StatHatDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "StatHat*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "postStatKey:withCount:forUser:delegate:": {
+      "name": "postStatKey:withCount:forUser:delegate:",
+      "bridgedName": "postStatKey_withCount_forUser_delegate",
+      "args": [
+        {
+          "name": "statKey",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "count",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "userKey",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<StatHatDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "StatHat*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ezPostStat:withValue:forUser:": {
+      "name": "ezPostStat:withValue:forUser:",
+      "bridgedName": "ezPostStat_withValue_forUser",
+      "args": [
+        {
+          "name": "statName",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "ezkey",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ezPostStat:withCount:forUser:": {
+      "name": "ezPostStat:withCount:forUser:",
+      "bridgedName": "ezPostStat_withCount_forUser",
+      "args": [
+        {
+          "name": "statName",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "count",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "ezkey",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "postStatKey:withValue:forUserKey:": {
+      "name": "postStatKey:withValue:forUserKey:",
+      "bridgedName": "postStatKey_withValue_forUserKey",
+      "args": [
+        {
+          "name": "statKey",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "userKey",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "postStatKey:withCount:forUserKey:": {
+      "name": "postStatKey:withCount:forUserKey:",
+      "bridgedName": "postStatKey_withCount_forUserKey",
+      "args": [
+        {
+          "name": "statKey",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "count",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "userKey",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<StatHatDelegate>",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

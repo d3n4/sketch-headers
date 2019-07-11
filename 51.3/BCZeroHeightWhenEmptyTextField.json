@@ -1,0 +1,17 @@
+{
+  "name": "BCZeroHeightWhenEmptyTextField",
+  "extends": "NSTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "paddingIfNotEmpty": {
+      "name": "paddingIfNotEmpty",
+      "pointer": false,
+      "type": "IBInspectable CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,134 @@
+{
+  "protocol": true,
+  "name": "MSSharedObjectStyling",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "generatePreviewForMenuItem:withColorSpace:backingScale:completionBlock:": {
+      "name": "generatePreviewForMenuItem:withColorSpace:backingScale:completionBlock:",
+      "bridgedName": "generatePreviewForMenuItem_withColorSpace_backingScale_completionBlock",
+      "args": [
+        {
+          "name": "menuItem",
+          "type": "NSMenuItem*",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "backingScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "generatePreviewForPopup:backingScale:completionBlock:": {
+      "name": "generatePreviewForPopup:backingScale:completionBlock:",
+      "bridgedName": "generatePreviewForPopup_backingScale_completionBlock",
+      "args": [
+        {
+          "name": "cell",
+          "type": "NSPopUpButtonCell*",
+          "nullable": false
+        },
+        {
+          "name": "backingScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "generatePreviewForManageSheetWithBackingScale:completionBlock:": {
+      "name": "generatePreviewForManageSheetWithBackingScale:completionBlock:",
+      "bridgedName": "generatePreviewForManageSheetWithBackingScale_completionBlock",
+      "args": [
+        {
+          "name": "backingScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "generatePreviewForSyncSheetWithSize:backingScale:shadow:colorSpace:completionBlock:": {
+      "name": "generatePreviewForSyncSheetWithSize:backingScale:shadow:colorSpace:completionBlock:",
+      "bridgedName": "generatePreviewForSyncSheetWithSize_backingScale_shadow_colorSpace_completionBlock",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "backingScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "shadow",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace*",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyStyleToMenuItem:withColorSpace:": {
+      "name": "applyStyleToMenuItem:withColorSpace:",
+      "bridgedName": "applyStyleToMenuItem_withColorSpace",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSMenuItem *",
+          "nullable": true
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,117 @@
+{
+  "name": "MOBridgeSupportLibrary",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "addDependency:": {
+      "name": "addDependency:",
+      "bridgedName": "addDependency",
+      "args": [
+        {
+          "name": "dependency",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeDependency:": {
+      "name": "removeDependency:",
+      "bridgedName": "removeDependency",
+      "args": [
+        {
+          "name": "dependency",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolWithName:": {
+      "name": "symbolWithName:",
+      "bridgedName": "symbolWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MOBridgeSupportSymbol *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setSymbol:forName:": {
+      "name": "setSymbol:forName:",
+      "bridgedName": "setSymbol_forName",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MOBridgeSupportSymbol *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeSymbolForName:": {
+      "name": "removeSymbolForName:",
+      "bridgedName": "removeSymbolForName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "URL": {
+      "name": "URL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "dependencies": {
+      "name": "dependencies",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "symbols": {
+      "name": "symbols",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,70 @@
+{
+  "protocol": true,
+  "name": "BCTableRowViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "isNodeSelectedInTableRowView:": {
+      "name": "isNodeSelectedInTableRowView:",
+      "bridgedName": "isNodeSelectedInTableRowView",
+      "args": [
+        {
+          "name": "view",
+          "type": "BCTableRowView*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNodeExpandedInTableRowView:": {
+      "name": "isNodeExpandedInTableRowView:",
+      "bridgedName": "isNodeExpandedInTableRowView",
+      "args": [
+        {
+          "name": "view",
+          "type": "BCTableRowView*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfTableRowView:": {
+      "name": "indexOfTableRowView:",
+      "bridgedName": "indexOfTableRowView",
+      "args": [
+        {
+          "name": "view",
+          "type": "BCTableRowView*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableRowView:displayTypeOfRowAtIndex:": {
+      "name": "tableRowView:displayTypeOfRowAtIndex:",
+      "bridgedName": "tableRowView_displayTypeOfRowAtIndex",
+      "args": [
+        {
+          "name": "view",
+          "type": "BCTableRowView*",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BCOutlineViewDisplayType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

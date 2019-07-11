@@ -1,0 +1,45 @@
+{
+  "name": "_MSStyleColorControls",
+  "extends": "MSStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "brightness": {
+      "name": "brightness",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "contrast": {
+      "name": "contrast",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "hue": {
+      "name": "hue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "saturation": {
+      "name": "saturation",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

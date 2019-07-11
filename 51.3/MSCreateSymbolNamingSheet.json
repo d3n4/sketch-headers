@@ -1,0 +1,79 @@
+{
+  "name": "MSCreateSymbolNamingSheet",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {
+    "setSymbolPageName:": {
+      "name": "setSymbolPageName:",
+      "bridgedName": "setSymbolPageName",
+      "args": [
+        {
+          "name": "symbolPageName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setSuggestedName:": {
+      "name": "setSuggestedName:",
+      "bridgedName": "setSuggestedName",
+      "args": [
+        {
+          "name": "suggestedName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setShouldShowMoveCheckbox:": {
+      "name": "setShouldShowMoveCheckbox:",
+      "bridgedName": "setShouldShowMoveCheckbox",
+      "args": [
+        {
+          "name": "showCheckbox",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "symbolNameField": {
+      "name": "symbolNameField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "symbolPageField": {
+      "name": "symbolPageField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "completionBlock": {
+      "name": "completionBlock",
+      "pointer": false,
+      "type": "MSCreateSymbolCompletionBlock",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

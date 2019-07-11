@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSLayerChangeObserver",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "layerDidChange:": {
+      "name": "layerDidChange:",
+      "bridgedName": "layerDidChange",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

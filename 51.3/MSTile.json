@@ -1,0 +1,207 @@
+{
+  "name": "MSTile",
+  "extends": "MSRenderingCALayer",
+  "interfaces": [],
+  "methods": {
+    "initWithTiledLayer:size:colorSpace:": {
+      "name": "initWithTiledLayer:size:colorSpace:",
+      "bridgedName": "initWithTiledLayer_size_colorSpace",
+      "args": [
+        {
+          "name": "tiledLayer",
+          "type": "MSTiledLayer*",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "colorspace",
+          "type": "CGColorSpaceRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelDrawing": {
+      "name": "cancelDrawing",
+      "bridgedName": "cancelDrawing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tileRenderingDidFinish": {
+      "name": "tileRenderingDidFinish",
+      "bridgedName": "tileRenderingDidFinish",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderOperationForContentRect:page:renderingRequest:contextPool:": {
+      "name": "renderOperationForContentRect:page:renderingRequest:contextPool:",
+      "bridgedName": "renderOperationForContentRect_page_renderingRequest_contextPool",
+      "args": [
+        {
+          "name": "contentRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "renderingRequest",
+          "type": "MSRenderingRequest *",
+          "nullable": false
+        },
+        {
+          "name": "contextPool",
+          "type": "MSCGContextPool *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSTileRenderOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveToPosition:": {
+      "name": "moveToPosition:",
+      "bridgedName": "moveToPosition",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDebugOptionsToDrawInner:outer:dirty:": {
+      "name": "setDebugOptionsToDrawInner:outer:dirty:",
+      "bridgedName": "setDebugOptionsToDrawInner_outer_dirty",
+      "args": [
+        {
+          "name": "inner",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "outer",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "dirty",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "CGColorSpaceRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "scrollOrigin": {
+      "name": "scrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "distanceFromScrollOrigin": {
+      "name": "distanceFromScrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "contentLayerScale": {
+      "name": "contentLayerScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "drawingIsCancelled": {
+      "name": "drawingIsCancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "driver": {
+      "name": "driver",
+      "pointer": false,
+      "type": "MSRenderingDriver*",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "index": {
+      "name": "index",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "contentLayer": {
+      "name": "contentLayer",
+      "pointer": false,
+      "type": "MSContentCALayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "renderingRequest": {
+      "name": "renderingRequest",
+      "pointer": false,
+      "type": "MSRenderingRequest ",
+      "attributes": [
+        "atomic"
+      ]
+    },
+    "completedFirstRenderOrWasCancelled": {
+      "name": "completedFirstRenderOrWasCancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

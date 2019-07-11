@@ -1,0 +1,46 @@
+{
+  "name": "MSPasteboardTextWriting",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "supportedTypes": {
+      "name": "supportedTypes",
+      "bridgedName": "supportedTypes",
+      "args": [],
+      "returns": "NSArray<NSString *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "writeAttributedString:toPasteboard:type:documentColorSpace:": {
+      "name": "writeAttributedString:toPasteboard:type:documentColorSpace:",
+      "bridgedName": "writeAttributedString_toPasteboard_type_documentColorSpace",
+      "args": [
+        {
+          "name": "attributedString",
+          "type": "NSAttributedString *",
+          "nullable": false
+        },
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

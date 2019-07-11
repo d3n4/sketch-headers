@@ -1,0 +1,47 @@
+{
+  "name": "MSCloudPreferencesViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "popToRootViewController:": {
+      "name": "popToRootViewController:",
+      "bridgedName": "popToRootViewController",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showAlert:": {
+      "name": "showAlert:",
+      "bridgedName": "showAlert",
+      "args": [
+        {
+          "name": "alert",
+          "type": "NSAlert * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "preferencePane": {
+      "name": "preferencePane",
+      "pointer": false,
+      "type": "MSCloudPreferencePane ",
+      "attributes": [
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

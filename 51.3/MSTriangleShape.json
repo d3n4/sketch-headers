@@ -1,0 +1,8 @@
+{
+  "name": "MSTriangleShape",
+  "extends": "_MSTriangleShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

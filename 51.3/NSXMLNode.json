@@ -1,0 +1,271 @@
+{
+  "name": "NSXMLNode",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "doubleFromString:scale:": {
+      "name": "doubleFromString:scale:",
+      "bridgedName": "doubleFromString_scale",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "numberFromString:scale:": {
+      "name": "numberFromString:scale:",
+      "bridgedName": "numberFromString_scale",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSNumber*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "numbersFromString:scale:": {
+      "name": "numbersFromString:scale:",
+      "bridgedName": "numbersFromString_scale",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "doubleValueFromAttributeWithName:": {
+      "name": "doubleValueFromAttributeWithName:",
+      "bridgedName": "doubleValueFromAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleValue": {
+      "name": "doubleValue",
+      "bridgedName": "doubleValue",
+      "args": [],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleValueWithScale:": {
+      "name": "doubleValueWithScale:",
+      "bridgedName": "doubleValueWithScale",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberValue": {
+      "name": "numberValue",
+      "bridgedName": "numberValue",
+      "args": [],
+      "returns": "NSNumber*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberValueWithScale:": {
+      "name": "numberValueWithScale:",
+      "bridgedName": "numberValueWithScale",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSNumber*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberValues": {
+      "name": "numberValues",
+      "bridgedName": "numberValues",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberValuesWithScale:": {
+      "name": "numberValuesWithScale:",
+      "bridgedName": "numberValuesWithScale",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "integerValue": {
+      "name": "integerValue",
+      "bridgedName": "integerValue",
+      "args": [],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectValue": {
+      "name": "rectValue",
+      "bridgedName": "rectValue",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "attributeWithName:pixelValue:": {
+      "name": "attributeWithName:pixelValue:",
+      "bridgedName": "attributeWithName_pixelValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeWithName:numberValue:": {
+      "name": "attributeWithName:numberValue:",
+      "bridgedName": "attributeWithName_numberValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeWithName:percentageValue:": {
+      "name": "attributeWithName:percentageValue:",
+      "bridgedName": "attributeWithName_percentageValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeWithName:percentageFractionalValue:": {
+      "name": "attributeWithName:percentageFractionalValue:",
+      "bridgedName": "attributeWithName_percentageFractionalValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "simplifyAttributesIgnoringElements:attributes:": {
+      "name": "simplifyAttributesIgnoringElements:attributes:",
+      "bridgedName": "simplifyAttributesIgnoringElements_attributes",
+      "args": [
+        {
+          "name": "elementsToIgnore",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "attributesToIgnore",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cssClassNamesWithBase:": {
+      "name": "cssClassNamesWithBase:",
+      "bridgedName": "cssClassNamesWithBase",
+      "args": [
+        {
+          "name": "base",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

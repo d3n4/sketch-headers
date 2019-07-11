@@ -1,0 +1,164 @@
+{
+  "name": "MSRulerGuides",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "findHoverGuidesOnPage:mouse:rulesVisible:zoomScale:": {
+      "name": "findHoverGuidesOnPage:mouse:rulesVisible:zoomScale:",
+      "bridgedName": "findHoverGuidesOnPage_mouse_rulesVisible_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "horizontalGuidesForVerticalRulerOnPage:forDrawing:rulersVisible:zoomScale:": {
+      "name": "horizontalGuidesForVerticalRulerOnPage:forDrawing:rulersVisible:zoomScale:",
+      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_forDrawing_rulersVisible_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "forDrawing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "horizontalGuidesForVerticalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:": {
+      "name": "horizontalGuidesForVerticalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:",
+      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_forDrawing_inRect_rulersVisible_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "forDrawing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "verticalGuidesForHorizontalRulerOnPage:forDrawing:rulersVisible:zoomScale:": {
+      "name": "verticalGuidesForHorizontalRulerOnPage:forDrawing:rulersVisible:zoomScale:",
+      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_forDrawing_rulersVisible_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "forDrawing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "verticalGuidesForHorizontalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:": {
+      "name": "verticalGuidesForHorizontalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:",
+      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_forDrawing_inRect_rulersVisible_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "forDrawing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

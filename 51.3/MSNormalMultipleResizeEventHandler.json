@@ -1,0 +1,119 @@
+{
+  "name": "MSNormalMultipleResizeEventHandler",
+  "extends": "MSNormalBaseEventHandler",
+  "interfaces": [],
+  "methods": {
+    "calculateOppositePoint": {
+      "name": "calculateOppositePoint",
+      "bridgedName": "calculateOppositePoint",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculateMidPoint": {
+      "name": "calculateMidPoint",
+      "bridgedName": "calculateMidPoint",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "displayResizeCursor": {
+      "name": "displayResizeCursor",
+      "bridgedName": "displayResizeCursor",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "storeCurrentLayerFrame": {
+      "name": "storeCurrentLayerFrame",
+      "bridgedName": "storeCurrentLayerFrame",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeRectConform:toProportions:": {
+      "name": "makeRectConform:toProportions:",
+      "bridgedName": "makeRectConform_toProportions",
+      "args": [
+        {
+          "name": "newFrame",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "constrainProportions",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "placeRectInOppositeCorner:": {
+      "name": "placeRectInOppositeCorner:",
+      "bridgedName": "placeRectInOppositeCorner",
+      "args": [
+        {
+          "name": "newFrame",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "oppositeCorner": {
+      "name": "oppositeCorner",
+      "bridgedName": "oppositeCorner",
+      "args": [],
+      "returns": "BCCorner",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "resizingCorner": {
+      "name": "resizingCorner",
+      "pointer": false,
+      "type": "BCCorner",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "layerSnapper": {
+      "name": "layerSnapper",
+      "pointer": false,
+      "type": "MSSnapper ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "eventData": {
+      "name": "eventData",
+      "pointer": false,
+      "type": "MSNormalEventData ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

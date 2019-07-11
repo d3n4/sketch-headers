@@ -1,0 +1,46 @@
+{
+  "protocol": true,
+  "name": "MSPasteboardReader",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "supportedPasteboardTypes": {
+      "name": "supportedPasteboardTypes",
+      "bridgedName": "supportedPasteboardTypes",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pasteboardDataFromPasteboard:colorSpace:options:sender:": {
+      "name": "pasteboardDataFromPasteboard:colorSpace:options:sender:",
+      "bridgedName": "pasteboardDataFromPasteboard_colorSpace_options_sender",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSPasteboardReaderOptions",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id<NSDraggingInfo>",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSPasteboardLayers *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

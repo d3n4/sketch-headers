@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSEventHandlerManagerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "eventHandlerManager:didChangeCurrentHandler:": {
+      "name": "eventHandlerManager:didChangeCurrentHandler:",
+      "bridgedName": "eventHandlerManager_didChangeCurrentHandler",
+      "args": [
+        {
+          "name": "manager",
+          "type": "MSEventHandlerManager *",
+          "nullable": false
+        },
+        {
+          "name": "newHandler",
+          "type": "MSEventHandler *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

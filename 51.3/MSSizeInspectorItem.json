@@ -1,0 +1,8 @@
+{
+  "name": "MSSizeInspectorItem",
+  "extends": "MSTwoTextFieldInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

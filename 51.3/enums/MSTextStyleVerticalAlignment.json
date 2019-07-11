@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "MSTextStyleVerticalAlignment",
+  "members": [
+    {
+      "name": "MSTextStyleVerticalAlignmentTop",
+      "value": "0"
+    },
+    {
+      "name": "MSTextStyleVerticalAlignmentMiddle",
+      "value": "1"
+    },
+    {
+      "name": "MSTextStyleVerticalAlignmentBottom",
+      "value": "2"
+    },
+    {
+      "name": "MSTextStyleVerticalAlignmentDefault",
+      "value": "MSTextStyleVerticalAlignmentTop"
+    }
+  ]
+}

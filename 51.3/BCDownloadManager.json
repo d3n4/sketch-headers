@@ -1,0 +1,213 @@
+{
+  "name": "BCDownloadManager",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "initWithSessionConfiguration:delegate:completionHandler:": {
+      "name": "initWithSessionConfiguration:delegate:completionHandler:",
+      "bridgedName": "initWithSessionConfiguration_delegate_completionHandler",
+      "args": [
+        {
+          "name": "sessionConfiguration",
+          "type": "NSURLSessionConfiguration *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<BCDownloadManagerDelegate>",
+          "nullable": true
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(void)",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDownloadTaskWithDownloadRequestURL:": {
+      "name": "addDownloadTaskWithDownloadRequestURL:",
+      "bridgedName": "addDownloadTaskWithDownloadRequestURL",
+      "args": [
+        {
+          "name": "downloadRequestURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDownloadTaskWithDownloadRequest:": {
+      "name": "addDownloadTaskWithDownloadRequest:",
+      "bridgedName": "addDownloadTaskWithDownloadRequest",
+      "args": [
+        {
+          "name": "downloadRequest",
+          "type": "NSURLRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDownloadTaskWithDownloadRequest:completionHandler:": {
+      "name": "addDownloadTaskWithDownloadRequest:completionHandler:",
+      "bridgedName": "addDownloadTaskWithDownloadRequest_completionHandler",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSURL * _Nullable location, NSURLResponse * _Nullable response, NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeDownloadTaskWithIdentifier:": {
+      "name": "removeDownloadTaskWithIdentifier:",
+      "bridgedName": "removeDownloadTaskWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resumeDownloadTaskWithIdentifier:": {
+      "name": "resumeDownloadTaskWithIdentifier:",
+      "bridgedName": "resumeDownloadTaskWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "suspendDownloadTaskWithIdentifier:": {
+      "name": "suspendDownloadTaskWithIdentifier:",
+      "bridgedName": "suspendDownloadTaskWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelAllTasksAndInvalidate": {
+      "name": "cancelAllTasksAndInvalidate",
+      "bridgedName": "cancelAllTasksAndInvalidate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "finishTasksAndInvalidate": {
+      "name": "finishTasksAndInvalidate",
+      "bridgedName": "finishTasksAndInvalidate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadTaskCurrentStateWithIdentifier:": {
+      "name": "downloadTaskCurrentStateWithIdentifier:",
+      "bridgedName": "downloadTaskCurrentStateWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSDictionary <NSString *, NSNumber *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelTaskWithIdentifier:": {
+      "name": "cancelTaskWithIdentifier:",
+      "bridgedName": "cancelTaskWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "identifier": {
+      "name": "identifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "hasBeenInvalidated": {
+      "name": "hasBeenInvalidated",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canAcceptNewDownloadTasks": {
+      "name": "canAcceptNewDownloadTasks",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfUnfinishedDownloadTasks": {
+      "name": "numberOfUnfinishedDownloadTasks",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "allTasksIdentifiers": {
+      "name": "allTasksIdentifiers",
+      "pointer": false,
+      "type": "NSArray <NSString*> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

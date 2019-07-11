@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSPluginDataSupplierDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "isPluginForDataSupplierEnabled:": {
+      "name": "isPluginForDataSupplierEnabled:",
+      "bridgedName": "isPluginForDataSupplierEnabled",
+      "args": [
+        {
+          "name": "pluginDataSupplier",
+          "type": "MSPluginDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

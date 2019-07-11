@@ -1,0 +1,8 @@
+{
+  "name": "SMKUSBHTTPResponse",
+  "extends": "SMKURLResponse",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "MSInsertSharedTextAction",
+  "extends": "MSSharedObjectAction",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,591 @@
+{
+  "name": "NSArray",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "front": {
+      "name": "front",
+      "bridgedName": "front",
+      "args": [],
+      "returns": "NSArray<ObjectType>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tail": {
+      "name": "tail",
+      "bridgedName": "tail",
+      "args": [],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayByRemovingLastObject": {
+      "name": "arrayByRemovingLastObject",
+      "bridgedName": "arrayByRemovingLastObject",
+      "args": [],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateTailUsingBlock:": {
+      "name": "enumerateTailUsingBlock:",
+      "bridgedName": "enumerateTailUsingBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(ObjectType object)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reversedArray": {
+      "name": "reversedArray",
+      "bridgedName": "reversedArray",
+      "args": [],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "map:": {
+      "name": "map:",
+      "bridgedName": "map",
+      "args": [
+        {
+          "name": "block",
+          "type": "id (^)(__kindof ObjectType object)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flatMap:": {
+      "name": "flatMap:",
+      "bridgedName": "flatMap",
+      "args": [
+        {
+          "name": "block",
+          "type": "id (^)(ObjectType object)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mapWithIndex:": {
+      "name": "mapWithIndex:",
+      "bridgedName": "mapWithIndex",
+      "args": [
+        {
+          "name": "block",
+          "type": "id (^)(ObjectType object, NSUInteger index)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerate:": {
+      "name": "enumerate:",
+      "bridgedName": "enumerate",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(ObjectType object)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateWithIndex:": {
+      "name": "enumerateWithIndex:",
+      "bridgedName": "enumerateWithIndex",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(id ObjectType, NSUInteger index)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filter:": {
+      "name": "filter:",
+      "bridgedName": "filter",
+      "args": [
+        {
+          "name": "block",
+          "type": "BOOL (^)(ObjectType object)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsObjectPassingTest:": {
+      "name": "containsObjectPassingTest:",
+      "bridgedName": "containsObjectPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(ObjectType obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstObjectPassingTest:": {
+      "name": "firstObjectPassingTest:",
+      "bridgedName": "firstObjectPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(ObjectType obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "ObjectType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfFirstObjectPassingTest:": {
+      "name": "indexOfFirstObjectPassingTest:",
+      "bridgedName": "indexOfFirstObjectPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(ObjectType obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filterWithIndex:": {
+      "name": "filterWithIndex:",
+      "bridgedName": "filterWithIndex",
+      "args": [
+        {
+          "name": "block",
+          "type": "BOOL (^)(ObjectType object, NSUInteger index)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filteredByObjectsOfClass:": {
+      "name": "filteredByObjectsOfClass:",
+      "bridgedName": "filteredByObjectsOfClass",
+      "args": [
+        {
+          "name": "aClass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsObjectOfClass:": {
+      "name": "containsObjectOfClass:",
+      "bridgedName": "containsObjectOfClass",
+      "args": [
+        {
+          "name": "aClass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsOnlyObjectsOfClass:": {
+      "name": "containsOnlyObjectsOfClass:",
+      "bridgedName": "containsOnlyObjectsOfClass",
+      "args": [
+        {
+          "name": "aClass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstObjectOfClass:": {
+      "name": "firstObjectOfClass:",
+      "bridgedName": "firstObjectOfClass",
+      "args": [
+        {
+          "name": "aClass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sum:": {
+      "name": "sum:",
+      "bridgedName": "sum",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCSumBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayWithCapacity:fill:": {
+      "name": "arrayWithCapacity:fill:",
+      "bridgedName": "arrayWithCapacity_fill",
+      "args": [
+        {
+          "name": "count",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "id (^)(NSUInteger index)",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "arrayByRemovingNull": {
+      "name": "arrayByRemovingNull",
+      "bridgedName": "arrayByRemovingNull",
+      "args": [],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "copyDeep": {
+      "name": "copyDeep",
+      "bridgedName": "copyDeep",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sortedArray": {
+      "name": "sortedArray",
+      "bridgedName": "sortedArray",
+      "args": [],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sortedArrayUsingKey:": {
+      "name": "sortedArrayUsingKey:",
+      "bridgedName": "sortedArrayUsingKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sortedArrayUsingKey:selector:": {
+      "name": "sortedArrayUsingKey:selector:",
+      "bridgedName": "sortedArrayUsingKey_selector",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shuffledArray": {
+      "name": "shuffledArray",
+      "bridgedName": "shuffledArray",
+      "args": [],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayByRemovingObject:": {
+      "name": "arrayByRemovingObject:",
+      "bridgedName": "arrayByRemovingObject",
+      "args": [
+        {
+          "name": "anObject",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayByRemovingObjects:": {
+      "name": "arrayByRemovingObjects:",
+      "bridgedName": "arrayByRemovingObjects",
+      "args": [
+        {
+          "name": "objects",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayByAddingObjects:": {
+      "name": "arrayByAddingObjects:",
+      "bridgedName": "arrayByAddingObjects",
+      "args": [
+        {
+          "name": "firstObj",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "args",
+          "type": "va_list",
+          "optional": true
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionaryByIndexingObjectForKey:": {
+      "name": "dictionaryByIndexingObjectForKey:",
+      "bridgedName": "dictionaryByIndexingObjectForKey",
+      "args": [
+        {
+          "name": "aKey",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayByMergingArrays:": {
+      "name": "arrayByMergingArrays:",
+      "bridgedName": "arrayByMergingArrays",
+      "args": [
+        {
+          "name": "array",
+          "type": "NSArray <ObjectType> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "isValidIndex:": {
+      "name": "isValidIndex:",
+      "bridgedName": "isValidIndex",
+      "args": [
+        {
+          "name": "anIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectAtIndexOrNil:": {
+      "name": "objectAtIndexOrNil:",
+      "bridgedName": "objectAtIndexOrNil",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "ObjectType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subArrayToIndex:": {
+      "name": "subArrayToIndex:",
+      "bridgedName": "subArrayToIndex",
+      "args": [
+        {
+          "name": "anIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "uniqueObjects": {
+      "name": "uniqueObjects",
+      "bridgedName": "uniqueObjects",
+      "args": [],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rotateTwoDimensionalArray": {
+      "name": "rotateTwoDimensionalArray",
+      "bridgedName": "rotateTwoDimensionalArray",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfSubArray:": {
+      "name": "indexOfSubArray:",
+      "bridgedName": "indexOfSubArray",
+      "args": [
+        {
+          "name": "array",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mapWithMaxConcurrencyCount:usingBlock:completionBlock:": {
+      "name": "mapWithMaxConcurrencyCount:usingBlock:completionBlock:",
+      "bridgedName": "mapWithMaxConcurrencyCount_usingBlock_completionBlock",
+      "args": [
+        {
+          "name": "maxConcurrentCount",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "id (^)(ObjectType object)",
+          "nullable": false
+        },
+        {
+          "name": "completionBlock",
+          "type": "BCConcurrentMapCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mo_objectForIndexedSubscript:": {
+      "name": "mo_objectForIndexedSubscript:",
+      "bridgedName": "mo_objectForIndexedSubscript",
+      "args": [
+        {
+          "name": "idx",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cloudObjectsOfType:parentObject:": {
+      "name": "cloudObjectsOfType:parentObject:",
+      "bridgedName": "cloudObjectsOfType_parentObject",
+      "args": [
+        {
+          "name": "type",
+          "type": "Class",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SCKObject *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSArray<SCKObject *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sck_flatMap:": {
+      "name": "sck_flatMap:",
+      "bridgedName": "sck_flatMap",
+      "args": [
+        {
+          "name": "transform",
+          "type": "id(^)(id item)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "smk_map:": {
+      "name": "smk_map:",
+      "bridgedName": "smk_map",
+      "args": [
+        {
+          "name": "mappingBlock",
+          "type": "id _Nonnull (^ _Nullable)(id _Nonnull element)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray * _Nonnull",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "length": {
+      "name": "length",
+      "bridgedName": "length",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": [
+    "ObjectType"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "_MSOvalShape",
+  "extends": "MSShapePathLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

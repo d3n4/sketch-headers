@@ -1,0 +1,73 @@
+{
+  "name": "MSPluginCommandSpecifier",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithPluginBundleIdentifier:commandIdentifier:": {
+      "name": "initWithPluginBundleIdentifier:commandIdentifier:",
+      "bridgedName": "initWithPluginBundleIdentifier_commandIdentifier",
+      "args": [
+        {
+          "name": "pluginBundleIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "commandIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqualToCommandSpecifier:": {
+      "name": "isEqualToCommandSpecifier:",
+      "bridgedName": "isEqualToCommandSpecifier",
+      "args": [
+        {
+          "name": "specifier",
+          "type": "MSPluginCommandSpecifier *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringValue": {
+      "name": "stringValue",
+      "bridgedName": "stringValue",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pluginBundleIdentifier": {
+      "name": "pluginBundleIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "commandIdentifier": {
+      "name": "commandIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

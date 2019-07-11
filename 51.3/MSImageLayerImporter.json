@@ -1,0 +1,28 @@
+{
+  "name": "MSImageLayerImporter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "layerWithContentsOfPath:mode:": {
+      "name": "layerWithContentsOfPath:mode:",
+      "bridgedName": "layerWithContentsOfPath_mode",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "importPreference",
+          "type": "MSPasteboardImagePreferMode",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayer *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

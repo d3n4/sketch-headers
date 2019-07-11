@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "BCColorPreviewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorPreviewColorSpace:": {
+      "name": "colorPreviewColorSpace:",
+      "bridgedName": "colorPreviewColorSpace",
+      "args": [
+        {
+          "name": "colorPreviewView",
+          "type": "BCColorPreview *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,10 @@
+{
+  "name": "MSBlurInspectorViewController",
+  "extends": "MSStylePartInspectorViewController",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

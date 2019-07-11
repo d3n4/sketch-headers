@@ -1,0 +1,55 @@
+{
+  "name": "_MSStyleFill",
+  "extends": "MSStyleBasicFill",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "noiseIndex": {
+      "name": "noiseIndex",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "noiseIntensity": {
+      "name": "noiseIntensity",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "patternFillType": {
+      "name": "patternFillType",
+      "pointer": false,
+      "type": "MSPatternFillType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "patternTileScale": {
+      "name": "patternTileScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

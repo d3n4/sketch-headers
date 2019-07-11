@@ -1,0 +1,25 @@
+{
+  "name": "MSArtboardPresetTableCellView",
+  "extends": "NSTableCellView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "checkmark": {
+      "name": "checkmark",
+      "pointer": false,
+      "type": "IBOutlet NSImageView ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "sizeLabel": {
+      "name": "sizeLabel",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

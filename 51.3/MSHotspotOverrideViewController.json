@@ -1,0 +1,10 @@
+{
+  "name": "MSHotspotOverrideViewController",
+  "extends": "MSOverrideViewController",
+  "interfaces": [
+    "MSFlowMenuBuilderTarget"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

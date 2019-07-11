@@ -1,0 +1,59 @@
+{
+  "name": "_MSImmutablePage",
+  "extends": "MSImmutableLayerGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "includeInCloudUpload": {
+      "name": "includeInCloudUpload",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "grid": {
+      "name": "grid",
+      "pointer": false,
+      "type": "MSImmutableSimpleGrid ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "horizontalRulerData": {
+      "name": "horizontalRulerData",
+      "pointer": false,
+      "type": "MSImmutableRulerData ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layout": {
+      "name": "layout",
+      "pointer": false,
+      "type": "MSImmutableLayoutGrid ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "verticalRulerData": {
+      "name": "verticalRulerData",
+      "pointer": false,
+      "type": "MSImmutableRulerData ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

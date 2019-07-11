@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "MSSharedStylePasting",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "handlePasteIntoDocument:": {
+      "name": "handlePasteIntoDocument:",
+      "bridgedName": "handlePasteIntoDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "currentObjectID_MSSharedStylePasting": {
+      "name": "currentObjectID_MSSharedStylePasting",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

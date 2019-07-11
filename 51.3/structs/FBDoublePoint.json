@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "FBDoublePoint",
+  "members": [
+    {
+      "name": "x",
+      "pointer": false,
+      "type": "FBDouble"
+    },
+    {
+      "name": "y",
+      "pointer": false,
+      "type": "FBDouble"
+    }
+  ]
+}

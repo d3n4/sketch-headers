@@ -1,0 +1,67 @@
+{
+  "name": "MSDocumentationSearchEntry",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "searchEntryWithDictionary:": {
+      "name": "searchEntryWithDictionary:",
+      "bridgedName": "searchEntryWithDictionary",
+      "args": [
+        {
+          "name": "dict",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "markSearchEntriesAsDuplicates:": {
+      "name": "markSearchEntriesAsDuplicates:",
+      "bridgedName": "markSearchEntriesAsDuplicates",
+      "args": [
+        {
+          "name": "entries",
+          "type": "NSArray <MSDocumentationSearchEntry *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "titles": {
+      "name": "titles",
+      "bridgedName": "titles",
+      "args": [],
+      "returns": "NSArray <NSString *>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "matchesSearchQuery:": {
+      "name": "matchesSearchQuery:",
+      "bridgedName": "matchesSearchQuery",
+      "args": [
+        {
+          "name": "query",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "show": {
+      "name": "show",
+      "bridgedName": "show",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

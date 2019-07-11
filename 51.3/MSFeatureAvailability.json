@@ -1,0 +1,68 @@
+{
+  "name": "MSFeatureAvailability",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "enableFeatureAvailability": {
+      "name": "enableFeatureAvailability",
+      "bridgedName": "enableFeatureAvailability",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "libraryStylesEnabled": {
+      "name": "libraryStylesEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
+    "dataSuppliersEnabled": {
+      "name": "dataSuppliersEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
+    "isComponentsPanelEnabled": {
+      "name": "isComponentsPanelEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
+    "builtInRemoteLibrariesEnabled": {
+      "name": "builtInRemoteLibrariesEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
+    "cloudDocumentsEnabled": {
+      "name": "cloudDocumentsEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    }
+  },
+  "generics": []
+}

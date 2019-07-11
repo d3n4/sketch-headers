@@ -1,0 +1,8 @@
+{
+  "name": "MSSubtleSectionSeparatorView",
+  "extends": "MSSectionBackgroundSeparatorView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSPresetPickerButton",
+  "extends": "NSButton",
+  "interfaces": [],
+  "methods": {
+    "animateToOrigin:": {
+      "name": "animateToOrigin:",
+      "bridgedName": "animateToOrigin",
+      "args": [
+        {
+          "name": "origin",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

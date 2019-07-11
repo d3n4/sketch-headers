@@ -1,0 +1,258 @@
+{
+  "name": "MSRenderingRequest",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDocument:colorSpace:pointScale:zoomLevel:cacheProvider:backgroundBlurLayer:options:": {
+      "name": "initWithDocument:colorSpace:pointScale:zoomLevel:cacheProvider:backgroundBlurLayer:options:",
+      "bridgedName": "initWithDocument_colorSpace_pointScale_zoomLevel_cacheProvider_backgroundBlurLayer_options",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "CGColorSpaceRef",
+          "nullable": false
+        },
+        {
+          "name": "pointScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id <MSRenderingContextCacheProvider>",
+          "nullable": true
+        },
+        {
+          "name": "backgroundBlurLayer",
+          "type": "MSImmutableLayer *",
+          "nullable": true
+        },
+        {
+          "name": "options",
+          "type": "MSRenderingRequestOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDocument:colorSpace:pointScale:zoomLevel:cacheProvider:options:": {
+      "name": "initWithDocument:colorSpace:pointScale:zoomLevel:cacheProvider:options:",
+      "bridgedName": "initWithDocument_colorSpace_pointScale_zoomLevel_cacheProvider_options",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "CGColorSpaceRef",
+          "nullable": false
+        },
+        {
+          "name": "pointScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id <MSRenderingContextCacheProvider>",
+          "nullable": true
+        },
+        {
+          "name": "options",
+          "type": "MSRenderingRequestOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "requestWithOptions:": {
+      "name": "requestWithOptions:",
+      "bridgedName": "requestWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSRenderingRequestOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "cacheProvider": {
+      "name": "cacheProvider",
+      "pointer": false,
+      "type": "id <MSRenderingContextCacheProvider>",
+      "attributes": [
+        "strong",
+        "readwrite",
+        "nonatomic"
+      ]
+    },
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "CGColorSpaceRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "pointScale": {
+      "name": "pointScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "zoomLevel": {
+      "name": "zoomLevel",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "backgroundBlurLayer": {
+      "name": "backgroundBlurLayer",
+      "pointer": false,
+      "type": "MSImmutableLayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "options": {
+      "name": "options",
+      "pointer": false,
+      "type": "MSRenderingRequestOptions",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exporting": {
+      "name": "exporting",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isExporting"
+      ]
+    },
+    "drawingMask": {
+      "name": "drawingMask",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isDrawingMask"
+      ]
+    },
+    "drawingPixelated": {
+      "name": "drawingPixelated",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isDrawingPixelated"
+      ]
+    },
+    "willDrawPixelated": {
+      "name": "willDrawPixelated",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "includeArtboardBackground": {
+      "name": "includeArtboardBackground",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "printing": {
+      "name": "printing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isPrinting"
+      ]
+    },
+    "skipLayerInclusionTests": {
+      "name": "skipLayerInclusionTests",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldFlipShadows": {
+      "name": "shouldFlipShadows",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "renderingQuality": {
+      "name": "renderingQuality",
+      "pointer": false,
+      "type": "MSRenderingQuality",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

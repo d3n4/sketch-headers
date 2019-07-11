@@ -1,0 +1,8 @@
+{
+  "name": "MSManageTextStyleView",
+  "extends": "MSManageSharedObjectBaseViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

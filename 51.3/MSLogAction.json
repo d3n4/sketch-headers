@@ -1,0 +1,25 @@
+{
+  "name": "MSLogAction",
+  "extends": "MSAction",
+  "interfaces": [
+    "MSPluginLogAction"
+  ],
+  "methods": {
+    "log:": {
+      "name": "log:",
+      "bridgedName": "log",
+      "args": [
+        {
+          "name": "value",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,113 @@
+{
+  "name": "MSRenderingDriverSettings",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithGridLightColor:gridDarkColor:layoutGridStyle:flowColor:flowTipImage:flowBackImage:flowOtherPageImage:": {
+      "name": "initWithGridLightColor:gridDarkColor:layoutGridStyle:flowColor:flowTipImage:flowBackImage:flowOtherPageImage:",
+      "bridgedName": "initWithGridLightColor_gridDarkColor_layoutGridStyle_flowColor_flowTipImage_flowBackImage_flowOtherPageImage",
+      "args": [
+        {
+          "name": "gridLightColor",
+          "type": "CGColorRef",
+          "nullable": false
+        },
+        {
+          "name": "gridDarkColor",
+          "type": "CGColorRef",
+          "nullable": false
+        },
+        {
+          "name": "layoutGridStyle",
+          "type": "MSLayoutGridStyle",
+          "nullable": false
+        },
+        {
+          "name": "flowColor",
+          "type": "CGColorRef",
+          "nullable": false
+        },
+        {
+          "name": "tipImage",
+          "type": "CGImageRef",
+          "nullable": true
+        },
+        {
+          "name": "backImage",
+          "type": "CGImageRef",
+          "nullable": true
+        },
+        {
+          "name": "otherPageImage",
+          "type": "CGImageRef",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowTipImage": {
+      "name": "flowTipImage",
+      "bridgedName": "flowTipImage",
+      "args": [],
+      "returns": "CGImageRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowBackImage": {
+      "name": "flowBackImage",
+      "bridgedName": "flowBackImage",
+      "args": [],
+      "returns": "CGImageRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowOtherPageImage": {
+      "name": "flowOtherPageImage",
+      "bridgedName": "flowOtherPageImage",
+      "args": [],
+      "returns": "CGImageRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowColor": {
+      "name": "flowColor",
+      "bridgedName": "flowColor",
+      "args": [],
+      "returns": "CGColorRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layoutGridStyle": {
+      "name": "layoutGridStyle",
+      "pointer": false,
+      "type": "MSLayoutGridStyle",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "gridLightColor": {
+      "name": "gridLightColor",
+      "pointer": false,
+      "type": "CGColorRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "gridDarkColor": {
+      "name": "gridDarkColor",
+      "pointer": false,
+      "type": "CGColorRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

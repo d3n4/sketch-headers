@@ -1,0 +1,96 @@
+{
+  "name": "MSNoise",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "noiseIsOpaqueForType:": {
+      "name": "noiseIsOpaqueForType:",
+      "bridgedName": "noiseIsOpaqueForType",
+      "args": [
+        {
+          "name": "type",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawWithIntensity:ofType:inRect:zoomValue:context:": {
+      "name": "drawWithIntensity:ofType:inRect:zoomValue:context:",
+      "bridgedName": "drawWithIntensity_ofType_inRect_zoomValue_context",
+      "args": [
+        {
+          "name": "intensity",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawWithIntensity:ofType:inPath:windingRule:zoomValue:context:": {
+      "name": "drawWithIntensity:ofType:inPath:windingRule:zoomValue:context:",
+      "bridgedName": "drawWithIntensity_ofType_inPath_windingRule_zoomValue_context",
+      "args": [
+        {
+          "name": "intensity",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "windingRule",
+          "type": "NSWindingRule",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

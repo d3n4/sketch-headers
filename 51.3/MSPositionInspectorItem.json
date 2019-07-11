@@ -1,0 +1,8 @@
+{
+  "name": "MSPositionInspectorItem",
+  "extends": "MSTwoTextFieldInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

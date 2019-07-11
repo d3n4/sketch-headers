@@ -1,0 +1,33 @@
+{
+  "name": "TDTokenizerState",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "nextTokenFromReader:startingWith:tokenizer:": {
+      "name": "nextTokenFromReader:startingWith:tokenizer:",
+      "bridgedName": "nextTokenFromReader_startingWith_tokenizer",
+      "args": [
+        {
+          "name": "r",
+          "type": "TDReader *",
+          "nullable": false
+        },
+        {
+          "name": "cin",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "t",
+          "type": "TDTokenizer *",
+          "nullable": false
+        }
+      ],
+      "returns": "TDToken *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

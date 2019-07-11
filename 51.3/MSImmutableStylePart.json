@@ -1,0 +1,10 @@
+{
+  "name": "MSImmutableStylePart",
+  "extends": "_MSImmutableStylePart",
+  "interfaces": [
+    "MSStylePart"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

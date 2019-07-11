@@ -1,0 +1,8 @@
+{
+  "name": "SVGGradientStop",
+  "extends": "_SVGGradientStop",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

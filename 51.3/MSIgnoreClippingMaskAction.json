@@ -1,0 +1,23 @@
+{
+  "name": "MSIgnoreClippingMaskAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "ignoreClippingMask:": {
+      "name": "ignoreClippingMask:",
+      "bridgedName": "ignoreClippingMask",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "MSImmutableRect",
+  "extends": "_MSImmutableRect",
+  "interfaces": [
+    "MSRect"
+  ],
+  "methods": {
+    "initWithRect:": {
+      "name": "initWithRect:",
+      "bridgedName": "initWithRect",
+      "args": [
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

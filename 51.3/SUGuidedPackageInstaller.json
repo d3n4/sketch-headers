@@ -1,0 +1,35 @@
+{
+  "name": "SUGuidedPackageInstaller",
+  "extends": "NSObject",
+  "interfaces": [
+    "SUInstallerProtocol"
+  ],
+  "methods": {
+    "initWithPackagePath:installationPath:fileOperationToolPath:": {
+      "name": "initWithPackagePath:installationPath:fileOperationToolPath:",
+      "bridgedName": "initWithPackagePath_installationPath_fileOperationToolPath",
+      "args": [
+        {
+          "name": "packagePath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "installationPath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "fileOperationToolPath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

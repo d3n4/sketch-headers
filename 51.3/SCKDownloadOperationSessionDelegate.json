@@ -1,0 +1,30 @@
+{
+  "name": "SCKDownloadOperationSessionDelegate",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSURLSessionDownloadDelegate"
+  ],
+  "methods": {
+    "setDownloadTaskDelegate:forTask:": {
+      "name": "setDownloadTaskDelegate:forTask:",
+      "bridgedName": "setDownloadTaskDelegate_forTask",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<NSURLSessionDownloadDelegate>",
+          "nullable": false
+        },
+        {
+          "name": "task",
+          "type": "NSURLSessionTask *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "SUVersionComparison",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "compareVersion:toVersion:": {
+      "name": "compareVersion:toVersion:",
+      "bridgedName": "compareVersion_toVersion",
+      "args": [
+        {
+          "name": "versionA",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "versionB",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSComparisonResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

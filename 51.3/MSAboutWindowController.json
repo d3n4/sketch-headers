@@ -1,0 +1,196 @@
+{
+  "name": "MSAboutWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [],
+  "methods": {
+    "showAboutWindow": {
+      "name": "showAboutWindow",
+      "bridgedName": "showAboutWindow",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "showAboutUsPage:": {
+      "name": "showAboutUsPage:",
+      "bridgedName": "showAboutUsPage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showAcknowledgementsPage:": {
+      "name": "showAcknowledgementsPage:",
+      "bridgedName": "showAcknowledgementsPage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showPurchaseLicensePage:": {
+      "name": "showPurchaseLicensePage:",
+      "bridgedName": "showPurchaseLicensePage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showRenewLicensePage:": {
+      "name": "showRenewLicensePage:",
+      "bridgedName": "showRenewLicensePage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unlinkDevice:": {
+      "name": "unlinkDevice:",
+      "bridgedName": "unlinkDevice",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "backgroundImageView": {
+      "name": "backgroundImageView",
+      "pointer": false,
+      "type": "IBOutlet NSImageView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "buildNumberTextField": {
+      "name": "buildNumberTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "copyrightTextField": {
+      "name": "copyrightTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "expirationTitleTextField": {
+      "name": "expirationTitleTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "expirationDateTextField": {
+      "name": "expirationDateTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "purchaseLicenseButton": {
+      "name": "purchaseLicenseButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "registeredToTextField": {
+      "name": "registeredToTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "renewLicenseButton": {
+      "name": "renewLicenseButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "trialNoteTextField": {
+      "name": "trialNoteTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "unlinkDeviceButton": {
+      "name": "unlinkDeviceButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "variantNameTextField": {
+      "name": "variantNameTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "versionTextField": {
+      "name": "versionTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

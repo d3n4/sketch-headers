@@ -1,0 +1,8 @@
+{
+  "name": "MSArtboardPresetsTableView",
+  "extends": "NSTableView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

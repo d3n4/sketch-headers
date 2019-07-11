@@ -1,0 +1,60 @@
+{
+  "name": "SMKMirrorClient",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "clientWithConnectionInfo:": {
+      "name": "clientWithConnectionInfo:",
+      "bridgedName": "clientWithConnectionInfo",
+      "args": [
+        {
+          "name": "connectionInfo",
+          "type": "SMKConnectionInfo *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "connectionID": {
+      "name": "connectionID",
+      "pointer": false,
+      "type": "NSUUID ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "advertisement": {
+      "name": "advertisement",
+      "pointer": false,
+      "type": "SMKAdvertisement ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "status": {
+      "name": "status",
+      "pointer": false,
+      "type": "SMKConnectionStatus",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "SMKConnectionType",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

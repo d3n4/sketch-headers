@@ -1,0 +1,45 @@
+{
+  "name": "MSNormalResizeEventHandler",
+  "extends": "MSNormalBaseEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "resizingCorner": {
+      "name": "resizingCorner",
+      "pointer": false,
+      "type": "BCCorner",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "resizingLayer": {
+      "name": "resizingLayer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "layerSnapper": {
+      "name": "layerSnapper",
+      "pointer": false,
+      "type": "MSSnapper ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "eventData": {
+      "name": "eventData",
+      "pointer": false,
+      "type": "MSNormalEventData ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}
