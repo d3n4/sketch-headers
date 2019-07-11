@@ -1,0 +1,8 @@
+{
+  "name": "MSShowFontsAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

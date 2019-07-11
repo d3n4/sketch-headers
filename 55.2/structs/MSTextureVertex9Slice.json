@@ -1,0 +1,86 @@
+{
+  "struct": true,
+  "name": "MSTextureVertex9Slice",
+  "members": [
+    {
+      "name": "v0",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v1",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v2",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v3",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v4",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v5",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v6",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v7",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v8",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v9",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v10",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v11",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v12",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v13",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v14",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v15",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    }
+  ]
+}

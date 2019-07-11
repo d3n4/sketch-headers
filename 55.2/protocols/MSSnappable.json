@@ -1,0 +1,137 @@
+{
+  "protocol": true,
+  "name": "MSSnappable",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "alignmentRectInCoordinateSpace:options:": {
+      "name": "alignmentRectInCoordinateSpace:options:",
+      "bridgedName": "alignmentRectInCoordinateSpace_options",
+      "args": [
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        },
+        {
+          "name": "options",
+          "type": "MSAlignmentRectOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "coordinateSpace": {
+      "name": "coordinateSpace",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "leftAnchor": {
+      "name": "leftAnchor",
+      "pointer": false,
+      "type": "MSLayoutPosition ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "rightAnchor": {
+      "name": "rightAnchor",
+      "pointer": false,
+      "type": "MSLayoutPosition ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "topAnchor": {
+      "name": "topAnchor",
+      "pointer": false,
+      "type": "MSLayoutPosition ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bottomAnchor": {
+      "name": "bottomAnchor",
+      "pointer": false,
+      "type": "MSLayoutPosition ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "centerXAnchor": {
+      "name": "centerXAnchor",
+      "pointer": false,
+      "type": "MSLayoutPosition ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "centerYAnchor": {
+      "name": "centerYAnchor",
+      "pointer": false,
+      "type": "MSLayoutPosition ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "widthAnchor": {
+      "name": "widthAnchor",
+      "pointer": false,
+      "type": "MSLayoutDimension ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "heightAnchor": {
+      "name": "heightAnchor",
+      "pointer": false,
+      "type": "MSLayoutDimension ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "baselineAnchor": {
+      "name": "baselineAnchor",
+      "pointer": false,
+      "type": "MSLayoutPosition ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "midXHeightAnchor": {
+      "name": "midXHeightAnchor",
+      "pointer": false,
+      "type": "MSLayoutPosition ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

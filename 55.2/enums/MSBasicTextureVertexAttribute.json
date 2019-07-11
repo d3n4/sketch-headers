@@ -1,0 +1,13 @@
+{
+  "enum": true,
+  "name": "MSBasicTextureVertexAttribute",
+  "members": [
+    {
+      "name": "MSBasicTextureVertexAttributeXY",
+      "value": "0"
+    },
+    {
+      "name": "MSBasicTextureVertexAttributeUV"
+    }
+  ]
+}

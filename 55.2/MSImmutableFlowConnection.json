@@ -1,0 +1,95 @@
+{
+  "name": "MSImmutableFlowConnection",
+  "extends": "_MSImmutableFlowConnection",
+  "interfaces": [],
+  "methods": {
+    "flowTypeForTransitionFromParentLayer:toArtboard:": {
+      "name": "flowTypeForTransitionFromParentLayer:toArtboard:",
+      "bridgedName": "flowTypeForTransitionFromParentLayer_toArtboard",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "artboard",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSFlowType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowInfoFromParentLayer:toArtboard:": {
+      "name": "flowInfoFromParentLayer:toArtboard:",
+      "bridgedName": "flowInfoFromParentLayer_toArtboard",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "destinationArtboard",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSFlowInfo",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowInfoFromParentLayer:toArtboard:type:": {
+      "name": "flowInfoFromParentLayer:toArtboard:type:",
+      "bridgedName": "flowInfoFromParentLayer_toArtboard_type",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "destinationArtboard",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "flowType",
+          "type": "MSFlowType",
+          "nullable": false
+        }
+      ],
+      "returns": "MSFlowInfo",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isValidFlowConnectionInDocumentData:": {
+      "name": "isValidFlowConnectionInDocumentData:",
+      "bridgedName": "isValidFlowConnectionInDocumentData",
+      "args": [
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isBackAction": {
+      "name": "isBackAction",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

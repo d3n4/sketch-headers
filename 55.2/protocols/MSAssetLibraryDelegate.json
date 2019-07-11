@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSAssetLibraryDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "assetLibraryChangedOnDisk:": {
+      "name": "assetLibraryChangedOnDisk:",
+      "bridgedName": "assetLibraryChangedOnDisk",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetLibraryEnableStateChanged:": {
+      "name": "assetLibraryEnableStateChanged:",
+      "bridgedName": "assetLibraryEnableStateChanged",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

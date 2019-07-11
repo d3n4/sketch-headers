@@ -1,0 +1,134 @@
+{
+  "protocol": true,
+  "name": "MSLayerContainment",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "containedLayers": {
+      "name": "containedLayers",
+      "bridgedName": "containedLayers",
+      "args": [],
+      "returns": "nullable NSArray <__kindof MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containedLayersCount": {
+      "name": "containedLayersCount",
+      "bridgedName": "containedLayersCount",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstLayer": {
+      "name": "firstLayer",
+      "bridgedName": "firstLayer",
+      "args": [],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lastLayer": {
+      "name": "lastLayer",
+      "bridgedName": "lastLayer",
+      "args": [],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsNoOrOneLayers": {
+      "name": "containsNoOrOneLayers",
+      "bridgedName": "containsNoOrOneLayers",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsLayers": {
+      "name": "containsLayers",
+      "bridgedName": "containsLayers",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsOneLayer": {
+      "name": "containsOneLayer",
+      "bridgedName": "containsOneLayer",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsMultipleLayers": {
+      "name": "containsMultipleLayers",
+      "bridgedName": "containsMultipleLayers",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerAtIndex:": {
+      "name": "layerAtIndex:",
+      "bridgedName": "layerAtIndex",
+      "args": [
+        {
+          "name": "i",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfLayer:": {
+      "name": "indexOfLayer:",
+      "bridgedName": "indexOfLayer",
+      "args": [
+        {
+          "name": "aLayer",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateLayers:": {
+      "name": "enumerateLayers:",
+      "bridgedName": "enumerateLayers",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSLayerSimpleEnumeratorBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateLayersWithOptions:block:": {
+      "name": "enumerateLayersWithOptions:block:",
+      "bridgedName": "enumerateLayersWithOptions_block",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSLayerEnumeratorOptions",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSLayerEnumeratorBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

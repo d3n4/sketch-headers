@@ -1,0 +1,36 @@
+{
+  "name": "SVGPattern",
+  "extends": "_SVGPattern",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "imageData": {
+      "name": "imageData",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sketchPatternFillType": {
+      "name": "sketchPatternFillType",
+      "pointer": false,
+      "type": "MSPatternFillType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

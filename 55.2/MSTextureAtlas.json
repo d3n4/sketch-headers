@@ -1,0 +1,130 @@
+{
+  "name": "MSTextureAtlas",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithTextures:colorSpace:": {
+      "name": "initWithTextures:colorSpace:",
+      "bridgedName": "initWithTextures_colorSpace",
+      "args": [
+        {
+          "name": "textures",
+          "type": "NSDictionary <NSString *, id> *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "CGColorSpaceRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "relativeRectForTextureNamed:": {
+      "name": "relativeRectForTextureNamed:",
+      "bridgedName": "relativeRectForTextureNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "absoluteRectForTextureNamed:": {
+      "name": "absoluteRectForTextureNamed:",
+      "bridgedName": "absoluteRectForTextureNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textureForRenderer:": {
+      "name": "textureForRenderer:",
+      "bridgedName": "textureForRenderer",
+      "args": [
+        {
+          "name": "renderer",
+          "type": "id <MSGPURenderer>",
+          "nullable": false
+        }
+      ],
+      "returns": "id <MSGPUTexture>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "relativeRectForResizeableTextureNamed:withEdgePaddings:": {
+      "name": "relativeRectForResizeableTextureNamed:withEdgePaddings:",
+      "bridgedName": "relativeRectForResizeableTextureNamed_withEdgePaddings",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "paddings",
+          "type": "BCEdgePaddings",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "textures": {
+      "name": "textures",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, id>",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "absoluteRects": {
+      "name": "absoluteRects",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, NSValue *>",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "relativeRects": {
+      "name": "relativeRects",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, NSValue *>",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "atlasImage": {
+      "name": "atlasImage",
+      "pointer": false,
+      "type": "CGImageRef",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

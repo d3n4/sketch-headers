@@ -1,0 +1,8 @@
+{
+  "name": "MSMainMenuDataAction",
+  "extends": "MSDataMenuBaseAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

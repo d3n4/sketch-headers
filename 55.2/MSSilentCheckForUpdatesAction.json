@@ -1,0 +1,8 @@
+{
+  "name": "MSSilentCheckForUpdatesAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

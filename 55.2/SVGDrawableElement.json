@@ -1,0 +1,74 @@
+{
+  "name": "SVGDrawableElement",
+  "extends": "_SVGDrawableElement",
+  "interfaces": [],
+  "methods": {
+    "dontCollapse": {
+      "name": "dontCollapse",
+      "bridgedName": "dontCollapse",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processStyles:parent:": {
+      "name": "processStyles:parent:",
+      "bridgedName": "processStyles_parent",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement *",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SVGDrawableElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "emptyLayerWithParentLayer:": {
+      "name": "emptyLayerWithParentLayer:",
+      "bridgedName": "emptyLayerWithParentLayer",
+      "args": [
+        {
+          "name": "parentLayer",
+          "type": "MSLayerGroup*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayer*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyEffectsToLayer:": {
+      "name": "applyEffectsToLayer:",
+      "bridgedName": "applyEffectsToLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "deferredClipping": {
+      "name": "deferredClipping",
+      "pointer": false,
+      "type": "NSXMLElement*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

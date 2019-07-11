@@ -1,0 +1,8 @@
+{
+  "name": "CHOutlineView",
+  "extends": "NSOutlineView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

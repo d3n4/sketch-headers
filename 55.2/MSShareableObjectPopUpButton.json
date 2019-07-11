@@ -1,0 +1,42 @@
+{
+  "name": "MSShareableObjectPopUpButton",
+  "extends": "NSPopUpButton",
+  "interfaces": [],
+  "methods": {
+    "updateWithMenuBuilder:forLayers:": {
+      "name": "updateWithMenuBuilder:forLayers:",
+      "bridgedName": "updateWithMenuBuilder_forLayers",
+      "args": [
+        {
+          "name": "menuBuilder",
+          "type": "MSForeignObjectMenuBuilder*",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshIfNecessary:": {
+      "name": "refreshIfNecessary:",
+      "bridgedName": "refreshIfNecessary",
+      "args": [
+        {
+          "name": "treeDiff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

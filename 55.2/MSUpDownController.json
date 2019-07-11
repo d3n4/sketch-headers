@@ -1,0 +1,188 @@
+{
+  "name": "MSUpDownController",
+  "extends": "NSResponder",
+  "interfaces": [],
+  "methods": {
+    "initWithTextField:createStepper:": {
+      "name": "initWithTextField:createStepper:",
+      "bridgedName": "initWithTextField_createStepper",
+      "args": [
+        {
+          "name": "field",
+          "type": "NSTextField <MSUpDownProtocol> *",
+          "nullable": false
+        },
+        {
+          "name": "makeStepper",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "becomeFirstResponder": {
+      "name": "becomeFirstResponder",
+      "bridgedName": "becomeFirstResponder",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textDidEndEditing": {
+      "name": "textDidEndEditing",
+      "bridgedName": "textDidEndEditing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textDidChange:": {
+      "name": "textDidChange:",
+      "bridgedName": "textDidChange",
+      "args": [
+        {
+          "name": "note",
+          "type": "NSNotification *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doCommandBySelector:": {
+      "name": "doCommandBySelector:",
+      "bridgedName": "doCommandBySelector",
+      "args": [
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelTextEditingForInvalidReplacementString:": {
+      "name": "cancelTextEditingForInvalidReplacementString:",
+      "bridgedName": "cancelTextEditingForInvalidReplacementString",
+      "args": [
+        {
+          "name": "replacementStrings",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "keyUp": {
+      "name": "keyUp",
+      "bridgedName": "keyUp",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "increment": {
+      "name": "increment",
+      "bridgedName": "increment",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decrement": {
+      "name": "decrement",
+      "bridgedName": "decrement",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "floatValue": {
+      "name": "floatValue",
+      "bridgedName": "floatValue",
+      "args": [],
+      "returns": "float",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "incrementBy:": {
+      "name": "incrementBy:",
+      "bridgedName": "incrementBy",
+      "args": [
+        {
+          "name": "amount",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "incrementValueAccountingForModifierFlags": {
+      "name": "incrementValueAccountingForModifierFlags",
+      "bridgedName": "incrementValueAccountingForModifierFlags",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hideStepper:": {
+      "name": "hideStepper:",
+      "bridgedName": "hideStepper",
+      "args": [
+        {
+          "name": "hide",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFloatValueAndNotifyBindings:": {
+      "name": "setFloatValueAndNotifyBindings:",
+      "bridgedName": "setFloatValueAndNotifyBindings",
+      "args": [
+        {
+          "name": "newValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "incrementDecrementDelegate": {
+      "name": "incrementDecrementDelegate",
+      "pointer": false,
+      "type": "id<MSIncrementDecrementDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "textField": {
+      "name": "textField",
+      "pointer": false,
+      "type": "NSTextField <MSUpDownProtocol> ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

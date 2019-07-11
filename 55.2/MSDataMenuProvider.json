@@ -1,0 +1,73 @@
+{
+  "name": "MSDataMenuProvider",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "initWithDataManager:presentationContext:": {
+      "name": "initWithDataManager:presentationContext:",
+      "bridgedName": "initWithDataManager_presentationContext",
+      "args": [
+        {
+          "name": "dataManager",
+          "type": "MSDataSupplierManager *",
+          "nullable": false
+        },
+        {
+          "name": "presentationContext",
+          "type": "MSDataMenuPresentationContext",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuNeedsUpdate:": {
+      "name": "menuNeedsUpdate:",
+      "bridgedName": "menuNeedsUpdate",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dataManager": {
+      "name": "dataManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSDataMenuProviderDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "presentationContext": {
+      "name": "presentationContext",
+      "pointer": false,
+      "type": "MSDataMenuPresentationContext",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

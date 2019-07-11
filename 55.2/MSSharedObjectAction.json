@@ -1,0 +1,44 @@
+{
+  "name": "MSSharedObjectAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "sortedObjectMenuItemsForMenu:": {
+      "name": "sortedObjectMenuItemsForMenu:",
+      "bridgedName": "sortedObjectMenuItemsForMenu",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSArray<NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "sharedObjectName": {
+      "name": "sharedObjectName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "noSharedObjectMenuItemTitle": {
+      "name": "noSharedObjectMenuItemTitle",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

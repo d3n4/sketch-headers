@@ -1,0 +1,33 @@
+{
+  "name": "MOBridgeSupportStruct",
+  "extends": "MOBridgeSupportSymbol",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "type64": {
+      "name": "type64",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "opaque": {
+      "name": "opaque",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isOpaque"
+      ]
+    }
+  },
+  "generics": []
+}

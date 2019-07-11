@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSUnavailableUpdatesReason",
+  "members": [
+    {
+      "name": "MSUnavailableUpdatesRenewalRequired"
+    },
+    {
+      "name": "MSUnavailableUpdatesMacOSUpdateRequired"
+    },
+    {
+      "name": "MSUnavailableUpdatesRenewalAndMacOSUpdateRequired"
+    }
+  ]
+}

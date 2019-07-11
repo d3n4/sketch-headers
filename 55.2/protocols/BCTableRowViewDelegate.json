@@ -1,0 +1,120 @@
+{
+  "protocol": true,
+  "name": "BCTableRowViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "isNodeOfTableRowViewSelected:": {
+      "name": "isNodeOfTableRowViewSelected:",
+      "bridgedName": "isNodeOfTableRowViewSelected",
+      "args": [
+        {
+          "name": "view",
+          "type": "nonnull BCTableRowView*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNodeSelectedOnRow:": {
+      "name": "isNodeSelectedOnRow:",
+      "bridgedName": "isNodeSelectedOnRow",
+      "args": [
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNodeOfTableRowViewHovered:": {
+      "name": "isNodeOfTableRowViewHovered:",
+      "bridgedName": "isNodeOfTableRowViewHovered",
+      "args": [
+        {
+          "name": "rowView",
+          "type": "nonnull BCTableRowView *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectedNodes": {
+      "name": "selectedNodes",
+      "bridgedName": "selectedNodes",
+      "args": [],
+      "returns": "nonnull NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNodeExpandedInTableRowView:": {
+      "name": "isNodeExpandedInTableRowView:",
+      "bridgedName": "isNodeExpandedInTableRowView",
+      "args": [
+        {
+          "name": "view",
+          "type": "nonnull BCTableRowView*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfTableRowView:": {
+      "name": "indexOfTableRowView:",
+      "bridgedName": "indexOfTableRowView",
+      "args": [
+        {
+          "name": "view",
+          "type": "nonnull BCTableRowView*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableRowView:displayTypeOfRowAtIndex:": {
+      "name": "tableRowView:displayTypeOfRowAtIndex:",
+      "bridgedName": "tableRowView_displayTypeOfRowAtIndex",
+      "args": [
+        {
+          "name": "view",
+          "type": "nonnull BCTableRowView*",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BCOutlineViewDisplayType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateVisualStateOfRowView:": {
+      "name": "updateVisualStateOfRowView:",
+      "bridgedName": "updateVisualStateOfRowView",
+      "args": [
+        {
+          "name": "rowView",
+          "type": "nonnull BCTableRowView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

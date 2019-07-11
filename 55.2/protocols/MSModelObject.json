@@ -1,0 +1,19 @@
+{
+  "protocol": true,
+  "name": "MSModelObject",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "modelObjectCacheGeneration": {
+      "name": "modelObjectCacheGeneration",
+      "pointer": false,
+      "type": "MSModelObjectCacheGeneration ",
+      "attributes": [
+        "nullable",
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  }
+}

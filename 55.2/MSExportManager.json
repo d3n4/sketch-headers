@@ -1,0 +1,76 @@
+{
+  "name": "MSExportManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "exportedDataForRequest:": {
+      "name": "exportedDataForRequest:",
+      "bridgedName": "exportedDataForRequest",
+      "args": [
+        {
+          "name": "exportRequest",
+          "type": "MSExportRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportFileForRequest:toFileURL:": {
+      "name": "exportFileForRequest:toFileURL:",
+      "bridgedName": "exportFileForRequest_toFileURL",
+      "args": [
+        {
+          "name": "exportRequest",
+          "type": "MSExportRequest *",
+          "nullable": false
+        },
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportFilesForRequests:": {
+      "name": "exportFilesForRequests:",
+      "bridgedName": "exportFilesForRequests",
+      "args": [
+        {
+          "name": "exportRequests",
+          "type": "NSArray <MSExportRequest *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "sliceCompletionBlock": {
+      "name": "sliceCompletionBlock",
+      "pointer": false,
+      "type": "MSExportManagerSliceCompletionBlock",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

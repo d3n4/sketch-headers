@@ -1,0 +1,17 @@
+{
+  "name": "MSToolbar",
+  "extends": "NSToolbar",
+  "interfaces": [],
+  "methods": {
+    "toolbarHeight_ms": {
+      "name": "toolbarHeight_ms",
+      "bridgedName": "toolbarHeight_ms",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

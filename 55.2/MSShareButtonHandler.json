@@ -1,0 +1,46 @@
+{
+  "name": "MSShareButtonHandler",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSSharingServiceDelegate",
+    "NSSharingServicePickerDelegate"
+  ],
+  "methods": {
+    "showShareMenuForLayers:sender:canvas:": {
+      "name": "showShareMenuForLayers:sender:canvas:",
+      "bridgedName": "showShareMenuForLayers_sender_canvas",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "canvas",
+          "type": "MSContentDrawView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "window": {
+      "name": "window",
+      "pointer": false,
+      "type": "NSWindow ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

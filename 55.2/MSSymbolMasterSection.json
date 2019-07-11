@@ -1,0 +1,8 @@
+{
+  "name": "MSSymbolMasterSection",
+  "extends": "MSArtboardInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

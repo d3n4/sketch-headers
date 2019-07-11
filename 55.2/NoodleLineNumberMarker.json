@@ -1,0 +1,60 @@
+{
+  "name": "NoodleLineNumberMarker",
+  "extends": "NSRulerMarker",
+  "interfaces": [],
+  "methods": {
+    "initWithRulerView:lineNumber:image:imageOrigin:": {
+      "name": "initWithRulerView:lineNumber:image:imageOrigin:",
+      "bridgedName": "initWithRulerView_lineNumber_image_imageOrigin",
+      "args": [
+        {
+          "name": "aRulerView",
+          "type": "NSRulerView *",
+          "nullable": false
+        },
+        {
+          "name": "line",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "anImage",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "imageOrigin",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setLineNumber:": {
+      "name": "setLineNumber:",
+      "bridgedName": "setLineNumber",
+      "args": [
+        {
+          "name": "line",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lineNumber": {
+      "name": "lineNumber",
+      "bridgedName": "lineNumber",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

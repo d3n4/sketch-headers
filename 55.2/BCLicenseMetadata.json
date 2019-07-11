@@ -1,0 +1,59 @@
+{
+  "name": "BCLicenseMetadata",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithUpdateExpirationDate:": {
+      "name": "initWithUpdateExpirationDate:",
+      "bridgedName": "initWithUpdateExpirationDate",
+      "args": [
+        {
+          "name": "updateExpirationDate",
+          "type": "NSDate *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDictionary:applicationID:publicCertificate:": {
+      "name": "initWithDictionary:applicationID:publicCertificate:",
+      "bridgedName": "initWithDictionary_applicationID_publicCertificate",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary*",
+          "nullable": true
+        },
+        {
+          "name": "applicationID",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "certificate",
+          "type": "NSString*",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "updateExpirationDate": {
+      "name": "updateExpirationDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,108 @@
+{
+  "name": "MSDataMenuHelper",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDataManager:": {
+      "name": "initWithDataManager:",
+      "bridgedName": "initWithDataManager",
+      "args": [
+        {
+          "name": "manager",
+          "type": "MSDataSupplierManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyDataFromSupplier:": {
+      "name": "applyDataFromSupplier:",
+      "bridgedName": "applyDataFromSupplier",
+      "args": [
+        {
+          "name": "dataSupplier",
+          "type": "MSDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshDataOnSelection": {
+      "name": "refreshDataOnSelection",
+      "bridgedName": "refreshDataOnSelection",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearDataIdentifiersOnSelectedLayers": {
+      "name": "clearDataIdentifiersOnSelectedLayers",
+      "bridgedName": "clearDataIdentifiersOnSelectedLayers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "applicableDataTypesDataTypeFromCurrentSelection": {
+      "name": "applicableDataTypesDataTypeFromCurrentSelection",
+      "pointer": false,
+      "type": "MSDataType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dataIdentifiersInCurrentSelection": {
+      "name": "dataIdentifiersInCurrentSelection",
+      "pointer": false,
+      "type": "NSSet<NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "refreshDataText": {
+      "name": "refreshDataText",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canRefreshDataOnSelection": {
+      "name": "canRefreshDataOnSelection",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectedLayersHaveClearableDataIdentifiers": {
+      "name": "selectedLayersHaveClearableDataIdentifiers",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSFlexibleColorHexStringTransformer",
+  "extends": "MSColorHexStringTransformer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSAngularGradientEventHandler",
+  "extends": "MSGradientEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

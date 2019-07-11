@@ -1,0 +1,17 @@
+{
+  "name": "MOBridgeSupportFunctionAlias",
+  "extends": "MOBridgeSupportSymbol",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "original": {
+      "name": "original",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

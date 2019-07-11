@@ -1,0 +1,216 @@
+{
+  "name": "MSOverrideInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [
+    "MSDataMenuProviderDelegate"
+  ],
+  "methods": {
+    "initWithPrimaryOverrideRepresentation:": {
+      "name": "initWithPrimaryOverrideRepresentation:",
+      "bridgedName": "initWithPrimaryOverrideRepresentation",
+      "args": [
+        {
+          "name": "overrideRepresentation",
+          "type": "MSOverrideRepresentation*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allOverridesInLayers:match:": {
+      "name": "allOverridesInLayers:match:",
+      "bridgedName": "allOverridesInLayers_match",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "availableOverride",
+          "type": "MSAvailableOverride *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "labelView": {
+      "name": "labelView",
+      "bridgedName": "labelView",
+      "args": [],
+      "returns": "NSTextField *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "build": {
+      "name": "build",
+      "bridgedName": "build",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "controlViewForEditingOverride": {
+      "name": "controlViewForEditingOverride",
+      "bridgedName": "controlViewForEditingOverride",
+      "args": [],
+      "returns": "NSView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueFromControlView:": {
+      "name": "valueFromControlView:",
+      "bridgedName": "valueFromControlView",
+      "args": [
+        {
+          "name": "controlView",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overrideValueAction:": {
+      "name": "overrideValueAction:",
+      "bridgedName": "overrideValueAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyOverrideToSelectedLayers:": {
+      "name": "applyOverrideToSelectedLayers:",
+      "bridgedName": "applyOverrideToSelectedLayers",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setIndentationLevel:": {
+      "name": "setIndentationLevel:",
+      "bridgedName": "setIndentationLevel",
+      "args": [
+        {
+          "name": "level",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "heightForOverride:layers:shouldShowLabel:indentationLevel:": {
+      "name": "heightForOverride:layers:shouldShowLabel:indentationLevel:",
+      "bridgedName": "heightForOverride_layers_shouldShowLabel_indentationLevel",
+      "args": [
+        {
+          "name": "overrideRepresentation",
+          "type": "MSOverrideRepresentation*",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "shouldShowLabel",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "level",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "primaryOverride": {
+      "name": "primaryOverride",
+      "pointer": false,
+      "type": "MSAvailableOverride ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overrideRepresentation": {
+      "name": "overrideRepresentation",
+      "pointer": false,
+      "type": "MSOverrideRepresentation ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasSingleOverride": {
+      "name": "hasSingleOverride",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contentView": {
+      "name": "contentView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "displaysLabel": {
+      "name": "displaysLabel",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

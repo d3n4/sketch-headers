@@ -1,0 +1,120 @@
+{
+  "name": "MSExportPreviewViewModel",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithPreviewImage:cachedExportRequest:ancestry:": {
+      "name": "initWithPreviewImage:cachedExportRequest:ancestry:",
+      "bridgedName": "initWithPreviewImage_cachedExportRequest_ancestry",
+      "args": [
+        {
+          "name": "previewImage",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "cachedExportRequest",
+          "type": "MSExportRequest *",
+          "nullable": false
+        },
+        {
+          "name": "ancestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageDataInFormat:": {
+      "name": "imageDataInFormat:",
+      "bridgedName": "imageDataInFormat",
+      "args": [
+        {
+          "name": "fileFormat",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportDataInFormat:toURL:": {
+      "name": "exportDataInFormat:toURL:",
+      "bridgedName": "exportDataInFormat_toURL",
+      "args": [
+        {
+          "name": "fileFormat",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "previewImage": {
+      "name": "previewImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cachedExportRequest": {
+      "name": "cachedExportRequest",
+      "pointer": false,
+      "type": "MSExportRequest ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerName": {
+      "name": "layerName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "defaultExportFormat": {
+      "name": "defaultExportFormat",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isVectorFormat": {
+      "name": "isVectorFormat",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "previewFrame": {
+      "name": "previewFrame",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

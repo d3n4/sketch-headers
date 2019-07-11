@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSStylePartPreviewButtonDisabledTarget",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "stylePartPreviewButtonDisabledAction:": {
+      "name": "stylePartPreviewButtonDisabledAction:",
+      "bridgedName": "stylePartPreviewButtonDisabledAction",
+      "args": [
+        {
+          "name": "button",
+          "type": "MSStylePartPreviewButton *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

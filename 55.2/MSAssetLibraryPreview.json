@@ -1,0 +1,29 @@
+{
+  "name": "MSAssetLibraryPreview",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "libraryPreview": {
+      "name": "libraryPreview",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    },
+    "preview": {
+      "name": "preview",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

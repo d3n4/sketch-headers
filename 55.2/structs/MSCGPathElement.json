@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "MSCGPathElement",
+  "members": [
+    {
+      "name": "type",
+      "pointer": false,
+      "type": "CGPathElementType"
+    },
+    {
+      "name": "controlPoints",
+      "pointer": false,
+      "type": "CGPoint[2]"
+    },
+    {
+      "name": "toPoint",
+      "pointer": false,
+      "type": "CGPoint"
+    }
+  ]
+}

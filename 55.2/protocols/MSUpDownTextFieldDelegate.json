@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSUpDownTextFieldDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "refreshAction:": {
+      "name": "refreshAction:",
+      "bridgedName": "refreshAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

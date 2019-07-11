@@ -1,0 +1,35 @@
+{
+  "name": "MSStyleBorder",
+  "extends": "_MSStyleBorder",
+  "interfaces": [
+    "MSColorConvertible"
+  ],
+  "methods": {
+    "CSSAttributeString": {
+      "name": "CSSAttributeString",
+      "bridgedName": "CSSAttributeString",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportsAdvancedBorderSettings": {
+      "name": "supportsAdvancedBorderSettings",
+      "bridgedName": "supportsAdvancedBorderSettings",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "asFill": {
+      "name": "asFill",
+      "bridgedName": "asFill",
+      "args": [],
+      "returns": "MSStyleFill *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,56 @@
+{
+  "name": "TDWhitespaceState",
+  "extends": "TDTokenizerState",
+  "interfaces": [],
+  "methods": {
+    "isWhitespaceChar:": {
+      "name": "isWhitespaceChar:",
+      "bridgedName": "isWhitespaceChar",
+      "args": [
+        {
+          "name": "cin",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setWhitespaceChars:from:to:": {
+      "name": "setWhitespaceChars:from:to:",
+      "bridgedName": "setWhitespaceChars_from_to",
+      "args": [
+        {
+          "name": "yn",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "start",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "end",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "reportsWhitespaceTokens": {
+      "name": "reportsWhitespaceTokens",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

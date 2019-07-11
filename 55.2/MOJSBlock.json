@@ -1,0 +1,70 @@
+{
+  "name": "MOJSBlock",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "blockWithSignature:function:": {
+      "name": "blockWithSignature:function:",
+      "bridgedName": "blockWithSignature_function",
+      "args": [
+        {
+          "name": "signature",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "function",
+          "type": "MOJavaScriptObject*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithSignature:function:": {
+      "name": "initWithSignature:function:",
+      "bridgedName": "initWithSignature_function",
+      "args": [
+        {
+          "name": "signature",
+          "type": "const char*",
+          "nullable": false
+        },
+        {
+          "name": "function",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "function": {
+      "name": "function",
+      "pointer": false,
+      "type": "MOJavaScriptObject*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "signature": {
+      "name": "signature",
+      "pointer": false,
+      "type": "NSMethodSignature*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "BCKeyEventActionTableView",
+  "extends": "NSTableView",
+  "interfaces": [],
+  "methods": {
+    "setTarget:action:forKeyDownEventWithCharacters:": {
+      "name": "setTarget:action:forKeyDownEventWithCharacters:",
+      "bridgedName": "setTarget_action_forKeyDownEventWithCharacters",
+      "args": [
+        {
+          "name": "target",
+          "type": "id <NSObject>",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "characters",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

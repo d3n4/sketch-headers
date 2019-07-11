@@ -1,0 +1,8 @@
+{
+  "name": "MSSeparatorInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

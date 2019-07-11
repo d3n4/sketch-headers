@@ -1,0 +1,67 @@
+{
+  "name": "MSGenericButtonController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "buttonWithNibName:target:action:": {
+      "name": "buttonWithNibName:target:action:",
+      "bridgedName": "buttonWithNibName_target_action",
+      "args": [
+        {
+          "name": "nibName",
+          "type": "nonnull NSNibName",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "action",
+          "type": "nonnull SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithNibName:target:action:": {
+      "name": "initWithNibName:target:action:",
+      "bridgedName": "initWithNibName_target_action",
+      "args": [
+        {
+          "name": "nibName",
+          "type": "nonnull NSNibName",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "action",
+          "type": "nonnull SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "button": {
+      "name": "button",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

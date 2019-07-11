@@ -1,0 +1,61 @@
+{
+  "name": "MSLayoutPosition",
+  "extends": "MSLayoutAnchor",
+  "interfaces": [],
+  "methods": {
+    "positionAnchorWithLine:inLayer:attribute:": {
+      "name": "positionAnchorWithLine:inLayer:attribute:",
+      "bridgedName": "positionAnchorWithLine_inLayer_attribute",
+      "args": [
+        {
+          "name": "line",
+          "type": "BCOrthogonalLine",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "attribute",
+          "type": "MSLayoutAttribute",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "positionInCoordinateSpace:": {
+      "name": "positionInCoordinateSpace:",
+      "bridgedName": "positionInCoordinateSpace",
+      "args": [
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snappingTargetInCoordinateSpace:": {
+      "name": "snappingTargetInCoordinateSpace:",
+      "bridgedName": "snappingTargetInCoordinateSpace",
+      "args": [
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSSnappingTarget *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

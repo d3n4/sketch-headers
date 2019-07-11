@@ -1,0 +1,33 @@
+{
+  "name": "MSOverrideManagementAllowOverridesItem",
+  "extends": "MSOverrideManagementItem",
+  "interfaces": [],
+  "methods": {
+    "initWithMaster:": {
+      "name": "initWithMaster:",
+      "bridgedName": "initWithMaster",
+      "args": [
+        {
+          "name": "master",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "allowsOverrides": {
+      "name": "allowsOverrides",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

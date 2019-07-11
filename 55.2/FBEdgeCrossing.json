@@ -1,0 +1,309 @@
+{
+  "name": "FBEdgeCrossing",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "crossingWithIntersection:": {
+      "name": "crossingWithIntersection:",
+      "bridgedName": "crossingWithIntersection",
+      "args": [
+        {
+          "name": "intersection",
+          "type": "FBBezierIntersection *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithIntersection:": {
+      "name": "initWithIntersection:",
+      "bridgedName": "initWithIntersection",
+      "args": [
+        {
+          "name": "intersection",
+          "type": "FBBezierIntersection *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeFromEdge": {
+      "name": "removeFromEdge",
+      "bridgedName": "removeFromEdge",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isCoincidentWith:": {
+      "name": "isCoincidentWith:",
+      "bridgedName": "isCoincidentWith",
+      "args": [
+        {
+          "name": "crossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nextUsingNonself:": {
+      "name": "nextUsingNonself:",
+      "bridgedName": "nextUsingNonself",
+      "args": [
+        {
+          "name": "useNonself",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "FBEdgeCrossing *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "previousUsingNonself:": {
+      "name": "previousUsingNonself:",
+      "bridgedName": "previousUsingNonself",
+      "args": [
+        {
+          "name": "useNonself",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "FBEdgeCrossing *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqualToEdgeCrossing:": {
+      "name": "isEqualToEdgeCrossing:",
+      "bridgedName": "isEqualToEdgeCrossing",
+      "args": [
+        {
+          "name": "crossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "edge": {
+      "name": "edge",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "counterpart": {
+      "name": "counterpart",
+      "pointer": false,
+      "type": "FBEdgeCrossing ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "order": {
+      "name": "order",
+      "pointer": false,
+      "type": "FBFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "entry": {
+      "name": "entry",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter = isEntry"
+      ]
+    },
+    "processed": {
+      "name": "processed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter = isProcessed"
+      ]
+    },
+    "selfCrossing": {
+      "name": "selfCrossing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter = isSelfCrossing"
+      ]
+    },
+    "overlapRun": {
+      "name": "overlapRun",
+      "pointer": false,
+      "type": "FBEdgeOverlapRun ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "fromCrossingOverlap": {
+      "name": "fromCrossingOverlap",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isFromCrossingOverlap"
+      ]
+    },
+    "index": {
+      "name": "index",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "suspicious": {
+      "name": "suspicious",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter = isSuspicious"
+      ]
+    },
+    "next": {
+      "name": "next",
+      "pointer": false,
+      "type": "FBEdgeCrossing ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "previous": {
+      "name": "previous",
+      "pointer": false,
+      "type": "FBEdgeCrossing ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "parameter": {
+      "name": "parameter",
+      "pointer": false,
+      "type": "FBFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "curve": {
+      "name": "curve",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "leftCurve": {
+      "name": "leftCurve",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "rightCurve": {
+      "name": "rightCurve",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "atStart": {
+      "name": "atStart",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isAtStart"
+      ]
+    },
+    "atEnd": {
+      "name": "atEnd",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isAtEnd"
+      ]
+    },
+    "closeToStart": {
+      "name": "closeToStart",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isCloseToStart"
+      ]
+    },
+    "closeToEnd": {
+      "name": "closeToEnd",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isCloseToEnd"
+      ]
+    },
+    "location": {
+      "name": "location",
+      "pointer": false,
+      "type": "FBPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "intersection": {
+      "name": "intersection",
+      "pointer": false,
+      "type": "FBBezierIntersection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

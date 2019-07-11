@@ -1,0 +1,29 @@
+{
+  "name": "SMKServerController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "connections": {
+      "name": "connections",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<SMKServerControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

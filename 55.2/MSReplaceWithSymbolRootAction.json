@@ -1,0 +1,23 @@
+{
+  "name": "MSReplaceWithSymbolRootAction",
+  "extends": "MSSharedSymbolAction",
+  "interfaces": [],
+  "methods": {
+    "replaceWithSymbolRoot:": {
+      "name": "replaceWithSymbolRoot:",
+      "bridgedName": "replaceWithSymbolRoot",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

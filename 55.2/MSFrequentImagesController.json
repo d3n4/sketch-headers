@@ -1,0 +1,8 @@
+{
+  "name": "MSFrequentImagesController",
+  "extends": "MSFrequentObjectsController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

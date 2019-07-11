@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "SCKDiffable",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "diffComparedTo:": {
+      "name": "diffComparedTo:",
+      "bridgedName": "diffComparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKObject<SCKDiffable> *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull id<SCKDiff>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

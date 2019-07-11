@@ -1,0 +1,54 @@
+{
+  "name": "MSSpecialLayerViewController",
+  "extends": "MSNestedInspectorSection",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "changeTextLayerFont:": {
+      "name": "changeTextLayerFont:",
+      "bridgedName": "changeTextLayerFont",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valuesPossiblyChanged": {
+      "name": "valuesPossiblyChanged",
+      "bridgedName": "valuesPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "textSection": {
+      "name": "textSection",
+      "pointer": false,
+      "type": "MSBaseInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "symbolInstanceSection": {
+      "name": "symbolInstanceSection",
+      "pointer": false,
+      "type": "MSBaseInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,696 @@
+{
+  "name": "MSRenderingContext",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithName:driver:renderingRequest:": {
+      "name": "initWithName:driver:renderingRequest:",
+      "bridgedName": "initWithName_driver_renderingRequest",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver *",
+          "nullable": false
+        },
+        {
+          "name": "renderingRequest",
+          "type": "MSRenderingRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderLayer:ignoreCacheAndDrawingArea:": {
+      "name": "renderLayer:ignoreCacheAndDrawingArea:",
+      "bridgedName": "renderLayer_ignoreCacheAndDrawingArea",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        },
+        {
+          "name": "ignoreCacheAndDrawingArea",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderRect:withStyle:": {
+      "name": "renderRect:withStyle:",
+      "bridgedName": "renderRect_withStyle",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "style",
+          "type": "MSImmutableStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderInBlock:": {
+      "name": "renderInBlock:",
+      "bridgedName": "renderInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setUp": {
+      "name": "setUp",
+      "bridgedName": "setUp",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tearDown": {
+      "name": "tearDown",
+      "bridgedName": "tearDown",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setCachedValue:forModelObject:key:zoomIndependent:": {
+      "name": "setCachedValue:forModelObject:key:zoomIndependent:",
+      "bridgedName": "setCachedValue_forModelObject_key_zoomIndependent",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "modelObject",
+          "type": "MSModelObjectCommon *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id <NSCopying>",
+          "nullable": false
+        },
+        {
+          "name": "zoomIndependent",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cachedValueForModelObject:key:zoomIndependent:orCreateWithBlock:": {
+      "name": "cachedValueForModelObject:key:zoomIndependent:orCreateWithBlock:",
+      "bridgedName": "cachedValueForModelObject_key_zoomIndependent_orCreateWithBlock",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSModelObjectCommon *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id <NSCopying>",
+          "nullable": false
+        },
+        {
+          "name": "zoomIndependent",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCCacheCreateObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "concatTransform:": {
+      "name": "concatTransform:",
+      "bridgedName": "concatTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "accumulatedTransform": {
+      "name": "accumulatedTransform",
+      "bridgedName": "accumulatedTransform",
+      "args": [],
+      "returns": "CGAffineTransform",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "accumulatedRotateFlipTransform": {
+      "name": "accumulatedRotateFlipTransform",
+      "bridgedName": "accumulatedRotateFlipTransform",
+      "args": [],
+      "returns": "CGAffineTransform",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pushGraphicsState": {
+      "name": "pushGraphicsState",
+      "bridgedName": "pushGraphicsState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popGraphicsState": {
+      "name": "popGraphicsState",
+      "bridgedName": "popGraphicsState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pushParentGroup:": {
+      "name": "pushParentGroup:",
+      "bridgedName": "pushParentGroup",
+      "args": [
+        {
+          "name": "layerGroup",
+          "type": "MSImmutableLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popParentGroup": {
+      "name": "popParentGroup",
+      "bridgedName": "popParentGroup",
+      "args": [],
+      "returns": "MSImmutableLayerGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentGroupForLayer:": {
+      "name": "parentGroupForLayer:",
+      "bridgedName": "parentGroupForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableLayerGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancel": {
+      "name": "cancel",
+      "bridgedName": "cancel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transparencyLayerInBlock:": {
+      "name": "transparencyLayerInBlock:",
+      "bridgedName": "transparencyLayerInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transparencyLayerInRect:inBlock:": {
+      "name": "transparencyLayerInRect:inBlock:",
+      "bridgedName": "transparencyLayerInRect_inBlock",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginTransparencyLayerInRect:": {
+      "name": "beginTransparencyLayerInRect:",
+      "bridgedName": "beginTransparencyLayerInRect",
+      "args": [
+        {
+          "name": "aRect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginTransparencyLayerInRect:inheritClip:": {
+      "name": "beginTransparencyLayerInRect:inheritClip:",
+      "bridgedName": "beginTransparencyLayerInRect_inheritClip",
+      "args": [
+        {
+          "name": "aRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "inheritClip",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginTransparencyLayer": {
+      "name": "beginTransparencyLayer",
+      "bridgedName": "beginTransparencyLayer",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endTransparencyLayer:": {
+      "name": "endTransparencyLayer:",
+      "bridgedName": "endTransparencyLayer",
+      "args": [
+        {
+          "name": "oldAlpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "multiplyAlphaBy:": {
+      "name": "multiplyAlphaBy:",
+      "bridgedName": "multiplyAlphaBy",
+      "args": [
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setAlpha:": {
+      "name": "setAlpha:",
+      "bridgedName": "setAlpha",
+      "args": [
+        {
+          "name": "oldAlpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setBlendMode:": {
+      "name": "setBlendMode:",
+      "bridgedName": "setBlendMode",
+      "args": [
+        {
+          "name": "blendMode",
+          "type": "CGBlendMode",
+          "nullable": false
+        }
+      ],
+      "returns": "CGBlendMode",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareLayerDrawing:inBlock:": {
+      "name": "prepareLayerDrawing:inBlock:",
+      "bridgedName": "prepareLayerDrawing_inBlock",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableStyledLayer *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applySettings:withOptions:inBlock:": {
+      "name": "applySettings:withOptions:inBlock:",
+      "bridgedName": "applySettings_withOptions_inBlock",
+      "args": [
+        {
+          "name": "settings",
+          "type": "MSImmutableGraphicsContextSettings *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyLayerTransform:inBlock:": {
+      "name": "applyLayerTransform:inBlock:",
+      "bridgedName": "applyLayerTransform_inBlock",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldDrawLayer:withMaskingShapeGroup:ignoreDrawingArea:": {
+      "name": "shouldDrawLayer:withMaskingShapeGroup:ignoreDrawingArea:",
+      "bridgedName": "shouldDrawLayer_withMaskingShapeGroup_ignoreDrawingArea",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "MSImmutableShapeGroup *",
+          "nullable": true
+        },
+        {
+          "name": "ignoreDrawingArea",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clipToRect:": {
+      "name": "clipToRect:",
+      "bridgedName": "clipToRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyFillColor:": {
+      "name": "applyFillColor:",
+      "bridgedName": "applyFillColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyStrokeColor:": {
+      "name": "applyStrokeColor:",
+      "bridgedName": "applyStrokeColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyShadow:": {
+      "name": "applyShadow:",
+      "bridgedName": "applyShadow",
+      "args": [
+        {
+          "name": "shadow",
+          "type": "MSImmutableStyleShadow *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canDrawSymbolMasterWithoutRiskingRecursion:": {
+      "name": "canDrawSymbolMasterWithoutRiskingRecursion:",
+      "bridgedName": "canDrawSymbolMasterWithoutRiskingRecursion",
+      "args": [
+        {
+          "name": "master",
+          "type": "MSImmutableSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isDrawingSymbol": {
+      "name": "isDrawingSymbol",
+      "bridgedName": "isDrawingSymbol",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isDrawingSymbolInstance": {
+      "name": "isDrawingSymbolInstance",
+      "bridgedName": "isDrawingSymbolInstance",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawSymbolMaster:inBlock:": {
+      "name": "drawSymbolMaster:inBlock:",
+      "bridgedName": "drawSymbolMaster_inBlock",
+      "args": [
+        {
+          "name": "master",
+          "type": "MSImmutableSymbolMaster *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawSymbolInstance:inBlock:": {
+      "name": "drawSymbolInstance:inBlock:",
+      "bridgedName": "drawSymbolInstance_inBlock",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSImmutableSymbolInstance *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldSkipDrawingShadow:": {
+      "name": "shouldSkipDrawingShadow:",
+      "bridgedName": "shouldSkipDrawingShadow",
+      "args": [
+        {
+          "name": "shadow",
+          "type": "MSImmutableStyleShadow *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldLog": {
+      "name": "shouldLog",
+      "bridgedName": "shouldLog",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "renderingRequest": {
+      "name": "renderingRequest",
+      "pointer": false,
+      "type": "MSRenderingRequest ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "rootLayer": {
+      "name": "rootLayer",
+      "pointer": false,
+      "type": "MSImmutableLayerGroup ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "cancelled": {
+      "name": "cancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isCancelled"
+      ]
+    },
+    "drawingArea": {
+      "name": "drawingArea",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "driver": {
+      "name": "driver",
+      "pointer": false,
+      "type": "MSRenderingDriver*",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "zoomLevelForShadows": {
+      "name": "zoomLevelForShadows",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "rotateFlipTransform": {
+      "name": "rotateFlipTransform",
+      "pointer": false,
+      "type": "CGAffineTransform",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldRenderSymbolsAsDetachedGroups": {
+      "name": "shouldRenderSymbolsAsDetachedGroups",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

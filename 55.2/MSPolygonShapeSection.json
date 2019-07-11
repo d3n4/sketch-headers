@@ -1,0 +1,8 @@
+{
+  "name": "MSPolygonShapeSection",
+  "extends": "MSSingleItemInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

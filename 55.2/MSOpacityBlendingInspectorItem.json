@@ -1,0 +1,10 @@
+{
+  "name": "MSOpacityBlendingInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

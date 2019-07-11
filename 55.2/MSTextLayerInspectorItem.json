@@ -1,0 +1,219 @@
+{
+  "name": "MSTextLayerInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [
+    "NSMenuDelegate",
+    "MSColorInspectorDelegate",
+    "NSComboBoxDataSource",
+    "MSStylePartPreviewButtonDelegate"
+  ],
+  "methods": {
+    "fontFamilyAction:": {
+      "name": "fontFamilyAction:",
+      "bridgedName": "fontFamilyAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fontWeightAction:": {
+      "name": "fontWeightAction:",
+      "bridgedName": "fontWeightAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showColorPickerAction:": {
+      "name": "showColorPickerAction:",
+      "bridgedName": "showColorPickerAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verticalAlignmentAction:": {
+      "name": "verticalAlignmentAction:",
+      "bridgedName": "verticalAlignmentAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeTextLayerFont:": {
+      "name": "changeTextLayerFont:",
+      "bridgedName": "changeTextLayerFont",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textView": {
+      "name": "textView",
+      "bridgedName": "textView",
+      "args": [],
+      "returns": "MSTextLayerTextView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "putFocusOnTextView": {
+      "name": "putFocusOnTextView",
+      "bridgedName": "putFocusOnTextView",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "editTextPropertiesInBlock:": {
+      "name": "editTextPropertiesInBlock:",
+      "bridgedName": "editTextPropertiesInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeRun:": {
+      "name": "writeRun:",
+      "bridgedName": "writeRun",
+      "args": [
+        {
+          "name": "run",
+          "type": "MSTextAttributeRun *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "basicView": {
+      "name": "basicView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "fontFamilyButton": {
+      "name": "fontFamilyButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "fontWeightPopUpButton": {
+      "name": "fontWeightPopUpButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "fontSizeField": {
+      "name": "fontSizeField",
+      "pointer": false,
+      "type": "IBOutlet MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "colorPickerButton": {
+      "name": "colorPickerButton",
+      "pointer": false,
+      "type": "IBOutlet MSStylePartPreviewButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "kerningField": {
+      "name": "kerningField",
+      "pointer": false,
+      "type": "IBOutlet MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "lineHeightField": {
+      "name": "lineHeightField",
+      "pointer": false,
+      "type": "IBOutlet MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "paragraphHeightField": {
+      "name": "paragraphHeightField",
+      "pointer": false,
+      "type": "IBOutlet MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "alignmentButton": {
+      "name": "alignmentButton",
+      "pointer": false,
+      "type": "IBOutlet NSSegmentedControl ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "verticalAlignmentButton": {
+      "name": "verticalAlignmentButton",
+      "pointer": false,
+      "type": "IBOutlet NSSegmentedControl ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

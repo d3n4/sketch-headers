@@ -1,0 +1,17 @@
+{
+  "name": "TDComment",
+  "extends": "TDTerminal",
+  "interfaces": [],
+  "methods": {
+    "comment": {
+      "name": "comment",
+      "bridgedName": "comment",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,121 @@
+{
+  "name": "MSPasteboardManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "readPasteboardLayersFromPasteboard:colorSpace:options:": {
+      "name": "readPasteboardLayersFromPasteboard:colorSpace:options:",
+      "bridgedName": "readPasteboardLayersFromPasteboard_colorSpace_options",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSPasteboardReaderOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPasteboardLayers *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "readPasteboardLayersFromDrag:colorSpace:": {
+      "name": "readPasteboardLayersFromDrag:colorSpace:",
+      "bridgedName": "readPasteboardLayersFromDrag_colorSpace",
+      "args": [
+        {
+          "name": "dragInfo",
+          "type": "id<NSDraggingInfo>",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPasteboardLayers *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "writePasteboardLayers:toPasteboard:": {
+      "name": "writePasteboardLayers:toPasteboard:",
+      "bridgedName": "writePasteboardLayers_toPasteboard",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        },
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "registerReader:": {
+      "name": "registerReader:",
+      "bridgedName": "registerReader",
+      "args": [
+        {
+          "name": "reader",
+          "type": "id<MSPasteboardReader>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "registerWriter:": {
+      "name": "registerWriter:",
+      "bridgedName": "registerWriter",
+      "args": [
+        {
+          "name": "writer",
+          "type": "id<MSPasteboardWriter>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "registerViewForSupportedDraggedTypes:": {
+      "name": "registerViewForSupportedDraggedTypes:",
+      "bridgedName": "registerViewForSupportedDraggedTypes",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "registerDefaultReadersAndWriters": {
+      "name": "registerDefaultReadersAndWriters",
+      "bridgedName": "registerDefaultReadersAndWriters",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

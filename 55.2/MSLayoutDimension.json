@@ -1,0 +1,27 @@
+{
+  "name": "MSLayoutDimension",
+  "extends": "MSLayoutAnchor",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "length": {
+      "name": "length",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "vector": {
+      "name": "vector",
+      "pointer": false,
+      "type": "CGVector",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

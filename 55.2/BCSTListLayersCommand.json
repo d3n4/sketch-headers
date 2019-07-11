@@ -1,0 +1,8 @@
+{
+  "name": "BCSTListLayersCommand",
+  "extends": "BCSTListSlicesCommand",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

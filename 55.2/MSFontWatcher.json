@@ -1,0 +1,23 @@
+{
+  "name": "MSFontWatcher",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDocumentController:": {
+      "name": "initWithDocumentController:",
+      "bridgedName": "initWithDocumentController",
+      "args": [
+        {
+          "name": "documentController",
+          "type": "NSDocumentController *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

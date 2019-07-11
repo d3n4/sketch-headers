@@ -1,0 +1,66 @@
+{
+  "name": "NSError",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "cloudErrorFromAPIResponse_sck:data:)": {
+      "name": "cloudErrorFromAPIResponse_sck:data:)",
+      "bridgedName": "cloudErrorFromAPIResponse_sck_data_)",
+      "args": [
+        {
+          "name": "response",
+          "type": "NSURLResponse *",
+          "nullable": true
+        },
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSError *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "cloudCode_sck": {
+      "name": "cloudCode_sck",
+      "pointer": false,
+      "type": "SCKErrorCode",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isCloudServerRelated_sck": {
+      "name": "isCloudServerRelated_sck",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isURLCancelled_sck": {
+      "name": "isURLCancelled_sck",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cloudFields_sck": {
+      "name": "cloudFields_sck",
+      "pointer": false,
+      "type": "NSArray<NSDictionary *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

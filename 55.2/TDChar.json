@@ -1,0 +1,17 @@
+{
+  "name": "TDChar",
+  "extends": "TDTerminal",
+  "interfaces": [],
+  "methods": {
+    "char": {
+      "name": "char",
+      "bridgedName": "char",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

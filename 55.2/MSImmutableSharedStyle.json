@@ -1,0 +1,19 @@
+{
+  "name": "MSImmutableSharedStyle",
+  "extends": "_MSImmutableSharedStyle",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "style": {
+      "name": "style",
+      "pointer": false,
+      "type": "MSImmutableStyle ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

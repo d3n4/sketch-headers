@@ -1,0 +1,8 @@
+{
+  "protocol": true,
+  "name": "MSCurvePoint",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {}
+}

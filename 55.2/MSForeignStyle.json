@@ -1,0 +1,69 @@
+{
+  "name": "MSForeignStyle",
+  "extends": "_MSForeignStyle",
+  "interfaces": [],
+  "methods": {
+    "symbolPrivateStyleWithID:forForeignSymbol:fromDocument:": {
+      "name": "symbolPrivateStyleWithID:forForeignSymbol:fromDocument:",
+      "bridgedName": "symbolPrivateStyleWithID_forForeignSymbol_fromDocument",
+      "args": [
+        {
+          "name": "sharedStyleID",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "foreignSymbol",
+          "type": "MSForeignSymbol *",
+          "nullable": false
+        },
+        {
+          "name": "remoteDocument",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSForeignStyle *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "remoteSharedIDFromSymbolPrivateID:": {
+      "name": "remoteSharedIDFromSymbolPrivateID:",
+      "bridgedName": "remoteSharedIDFromSymbolPrivateID",
+      "args": [
+        {
+          "name": "styleID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "findOrCreatePublicVersion": {
+      "name": "findOrCreatePublicVersion",
+      "bridgedName": "findOrCreatePublicVersion",
+      "args": [],
+      "returns": "nullable MSForeignStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addOrReplaceInDocument:": {
+      "name": "addOrReplaceInDocument:",
+      "bridgedName": "addOrReplaceInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

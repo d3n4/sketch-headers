@@ -1,0 +1,83 @@
+{
+  "name": "MSFlowConnection",
+  "extends": "_MSFlowConnection",
+  "interfaces": [],
+  "methods": {
+    "flowConnectionTo:ofType:": {
+      "name": "flowConnectionTo:ofType:",
+      "bridgedName": "flowConnectionTo_ofType",
+      "args": [
+        {
+          "name": "to",
+          "type": "MSArtboardGroup *",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSFlowAnimationType",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "flowConnectionBack": {
+      "name": "flowConnectionBack",
+      "bridgedName": "flowConnectionBack",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "defaultAnimationType": {
+      "name": "defaultAnimationType",
+      "bridgedName": "defaultAnimationType",
+      "args": [],
+      "returns": "MSFlowAnimationType",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "isBackAction": {
+      "name": "isBackAction",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isValidFlowConnection": {
+      "name": "isValidFlowConnection",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sendingLayer": {
+      "name": "sendingLayer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "destinationArtboard": {
+      "name": "destinationArtboard",
+      "pointer": false,
+      "type": "MSArtboardGroup ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

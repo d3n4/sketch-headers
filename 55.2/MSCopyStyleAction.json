@@ -1,0 +1,23 @@
+{
+  "name": "MSCopyStyleAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "copyStyle:": {
+      "name": "copyStyle:",
+      "bridgedName": "copyStyle",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

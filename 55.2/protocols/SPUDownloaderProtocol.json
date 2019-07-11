@@ -1,0 +1,71 @@
+{
+  "protocol": true,
+  "name": "SPUDownloaderProtocol",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "startPersistentDownloadWithRequest:bundleIdentifier:desiredFilename:": {
+      "name": "startPersistentDownloadWithRequest:bundleIdentifier:desiredFilename:",
+      "bridgedName": "startPersistentDownloadWithRequest_bundleIdentifier_desiredFilename",
+      "args": [
+        {
+          "name": "request",
+          "type": "SPUURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "bundleIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "desiredFilename",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startTemporaryDownloadWithRequest:": {
+      "name": "startTemporaryDownloadWithRequest:",
+      "bridgedName": "startTemporaryDownloadWithRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "SPUURLRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadDidFinish": {
+      "name": "downloadDidFinish",
+      "bridgedName": "downloadDidFinish",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cleanup": {
+      "name": "cleanup",
+      "bridgedName": "cleanup",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancel": {
+      "name": "cancel",
+      "bridgedName": "cancel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,693 @@
+{
+  "name": "FBBezierContour",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "bezierContourWithCurve:": {
+      "name": "bezierContourWithCurve:",
+      "bridgedName": "bezierContourWithCurve",
+      "args": [
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addCurve:": {
+      "name": "addCurve:",
+      "bridgedName": "addCurve",
+      "args": [
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addCurveFrom:to:": {
+      "name": "addCurveFrom:to:",
+      "bridgedName": "addCurveFrom_to",
+      "args": [
+        {
+          "name": "startCrossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        },
+        {
+          "name": "endCrossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addReverseCurve:": {
+      "name": "addReverseCurve:",
+      "bridgedName": "addReverseCurve",
+      "args": [
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addReverseCurveFrom:to:": {
+      "name": "addReverseCurveFrom:to:",
+      "bridgedName": "addReverseCurveFrom_to",
+      "args": [
+        {
+          "name": "startCrossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        },
+        {
+          "name": "endCrossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "intersectionsWithRay:withBlock:": {
+      "name": "intersectionsWithRay:withBlock:",
+      "bridgedName": "intersectionsWithRay_withBlock",
+      "args": [
+        {
+          "name": "testEdge",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(FBBezierIntersection *intersection, FBBezierIntersectRange *intersectionRange, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfIntersectionsWithRay:": {
+      "name": "numberOfIntersectionsWithRay:",
+      "bridgedName": "numberOfIntersectionsWithRay",
+      "args": [
+        {
+          "name": "testEdge",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsPoint:isAmbiguous:": {
+      "name": "containsPoint:isAmbiguous:",
+      "bridgedName": "containsPoint_isAmbiguous",
+      "args": [
+        {
+          "name": "testPoint",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "ambiguous",
+          "type": "BOOL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsPoint:usingRayWithVector:isAmbiguous:": {
+      "name": "containsPoint:usingRayWithVector:isAmbiguous:",
+      "bridgedName": "containsPoint_usingRayWithVector_isAmbiguous",
+      "args": [
+        {
+          "name": "testPoint",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "vector",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "ambiguous",
+          "type": "BOOL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "markCrossingsAsEntryOrExitWithContour:markInside:": {
+      "name": "markCrossingsAsEntryOrExitWithContour:markInside:",
+      "bridgedName": "markCrossingsAsEntryOrExitWithContour_markInside",
+      "args": [
+        {
+          "name": "otherContour",
+          "type": "FBBezierContour *",
+          "nullable": false
+        },
+        {
+          "name": "markInside",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsPointUsingNonZeroWindingRule:": {
+      "name": "containsPointUsingNonZeroWindingRule:",
+      "bridgedName": "containsPointUsingNonZeroWindingRule",
+      "args": [
+        {
+          "name": "point",
+          "type": "FBPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsCrossingUsingNonZeroWindingRule:": {
+      "name": "containsCrossingUsingNonZeroWindingRule:",
+      "bridgedName": "containsCrossingUsingNonZeroWindingRule",
+      "args": [
+        {
+          "name": "testIntersection",
+          "type": "FBBezierIntersection *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPath": {
+      "name": "bezierPath",
+      "bridgedName": "bezierPath",
+      "args": [],
+      "returns": "FBBezierPath*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "close": {
+      "name": "close",
+      "bridgedName": "close",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathFromEdge:toEdge:": {
+      "name": "bezierPathFromEdge:toEdge:",
+      "bridgedName": "bezierPathFromEdge_toEdge",
+      "args": [
+        {
+          "name": "curve1",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "curve2",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reversedContour": {
+      "name": "reversedContour",
+      "bridgedName": "reversedContour",
+      "args": [],
+      "returns": "FBBezierContour*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contourMadeClockwiseIfNecessary": {
+      "name": "contourMadeClockwiseIfNecessary",
+      "bridgedName": "contourMadeClockwiseIfNecessary",
+      "args": [],
+      "returns": "FBBezierContour*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contourWithTransform:": {
+      "name": "contourWithTransform:",
+      "bridgedName": "contourWithTransform",
+      "args": [
+        {
+          "name": "t",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierContour *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contourByMergingLinearRuns": {
+      "name": "contourByMergingLinearRuns",
+      "bridgedName": "contourByMergingLinearRuns",
+      "args": [],
+      "returns": "FBBezierContour *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addOverlap:": {
+      "name": "addOverlap:",
+      "bridgedName": "addOverlap",
+      "args": [
+        {
+          "name": "overlap",
+          "type": "FBContourOverlap *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllOverlaps": {
+      "name": "removeAllOverlaps",
+      "bridgedName": "removeAllOverlaps",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEquivalent:": {
+      "name": "isEquivalent:",
+      "bridgedName": "isEquivalent",
+      "args": [
+        {
+          "name": "other",
+          "type": "FBBezierContour *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startEdge": {
+      "name": "startEdge",
+      "bridgedName": "startEdge",
+      "args": [],
+      "returns": "FBBezierCurve *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "testRayForContainment:": {
+      "name": "testRayForContainment:",
+      "bridgedName": "testRayForContainment",
+      "args": [
+        {
+          "name": "bounds",
+          "type": "FBRect",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierCurve *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closestLocationToPoint:": {
+      "name": "closestLocationToPoint:",
+      "bridgedName": "closestLocationToPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "FBPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "FBCurveLocation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clone": {
+      "name": "clone",
+      "bridgedName": "clone",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "crossesOwnContour:": {
+      "name": "crossesOwnContour:",
+      "bridgedName": "crossesOwnContour",
+      "args": [
+        {
+          "name": "contour",
+          "type": "FBBezierContour *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contourWithFlatness:": {
+      "name": "contourWithFlatness:",
+      "bridgedName": "contourWithFlatness",
+      "args": [
+        {
+          "name": "flatness",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierContour *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "markSelfCrossingsAsEntryOrExit": {
+      "name": "markSelfCrossingsAsEntryOrExit",
+      "bridgedName": "markSelfCrossingsAsEntryOrExit",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sortCoincidentCrossings": {
+      "name": "sortCoincidentCrossings",
+      "bridgedName": "sortCoincidentCrossings",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "crossingContainmentRay:": {
+      "name": "crossingContainmentRay:",
+      "bridgedName": "crossingContainmentRay",
+      "args": [
+        {
+          "name": "testPoint",
+          "type": "FBPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierCurve *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugPathForIntersectionType:withTransform:andSizeTransform:": {
+      "name": "debugPathForIntersectionType:withTransform:andSizeTransform:",
+      "bridgedName": "debugPathForIntersectionType_withTransform_andSizeTransform",
+      "args": [
+        {
+          "name": "itersectionType",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        },
+        {
+          "name": "sizeTransform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugPathForJointsWithTransform:andSizeTransform:": {
+      "name": "debugPathForJointsWithTransform:andSizeTransform:",
+      "bridgedName": "debugPathForJointsWithTransform_andSizeTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        },
+        {
+          "name": "sizeTransform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugPathForContainmentOfCrossing:transform:": {
+      "name": "debugPathForContainmentOfCrossing:transform:",
+      "bridgedName": "debugPathForContainmentOfCrossing_transform",
+      "args": [
+        {
+          "name": "testIntersection",
+          "type": "FBBezierIntersection *",
+          "nullable": false
+        },
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugPathForWindingRuleContainmentWithTransform:andSizeTransform:": {
+      "name": "debugPathForWindingRuleContainmentWithTransform:andSizeTransform:",
+      "bridgedName": "debugPathForWindingRuleContainmentWithTransform_andSizeTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        },
+        {
+          "name": "sizeTransform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "forEachEdgeOverlapDo:": {
+      "name": "forEachEdgeOverlapDo:",
+      "bridgedName": "forEachEdgeOverlapDo",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(FBEdgeOverlap *overlap)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doesOverlapContainCrossing:": {
+      "name": "doesOverlapContainCrossing:",
+      "bridgedName": "doesOverlapContainCrossing",
+      "args": [
+        {
+          "name": "crossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doesOverlapContainParameter:onEdge:": {
+      "name": "doesOverlapContainParameter:onEdge:",
+      "bridgedName": "doesOverlapContainParameter_onEdge",
+      "args": [
+        {
+          "name": "parameter",
+          "type": "FBFloat",
+          "nullable": false
+        },
+        {
+          "name": "edge",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugDrawColor:scale:": {
+      "name": "debugDrawColor:scale:",
+      "bridgedName": "debugDrawColor_scale",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "edges": {
+      "name": "edges",
+      "pointer": false,
+      "type": "NSArray <FBBezierCurve *> ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "nonPointEdges": {
+      "name": "nonPointEdges",
+      "pointer": false,
+      "type": "NSArray <FBBezierCurve *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "bounds": {
+      "name": "bounds",
+      "pointer": false,
+      "type": "FBRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "boundingRect": {
+      "name": "boundingRect",
+      "pointer": false,
+      "type": "FBRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "firstPoint": {
+      "name": "firstPoint",
+      "pointer": false,
+      "type": "FBPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inside": {
+      "name": "inside",
+      "pointer": false,
+      "type": "FBContourInside",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "intersectingContours": {
+      "name": "intersectingContours",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "isEmpty": {
+      "name": "isEmpty",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isClosed": {
+      "name": "isClosed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "direction": {
+      "name": "direction",
+      "pointer": false,
+      "type": "FBContourDirection",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "CGPath": {
+      "name": "CGPath",
+      "pointer": false,
+      "type": "CGPathRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overlaps": {
+      "name": "overlaps",
+      "pointer": false,
+      "type": "NSArray <FBContourOverlap *> *",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "crossings": {
+      "name": "crossings",
+      "pointer": false,
+      "type": "NSArray <FBEdgeCrossing *> *",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

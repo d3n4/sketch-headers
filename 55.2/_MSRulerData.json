@@ -1,0 +1,36 @@
+{
+  "name": "_MSRulerData",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "base": {
+      "name": "base",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "guides": {
+      "name": "guides",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "temporaryGuide": {
+      "name": "temporaryGuide",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

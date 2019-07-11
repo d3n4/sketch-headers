@@ -1,0 +1,11 @@
+{
+  "name": "MSPageListController",
+  "extends": "MSSidebarListController",
+  "interfaces": [
+    "BCOutlineViewDataControllerDataSource",
+    "BCOutlineViewDataControllerDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

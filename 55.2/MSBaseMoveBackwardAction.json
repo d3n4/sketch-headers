@@ -1,0 +1,8 @@
+{
+  "name": "MSBaseMoveBackwardAction",
+  "extends": "MSBaseMoveAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,83 @@
+{
+  "name": "MSOverrideRepresentationBase",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "childrenForLayerList": {
+      "name": "childrenForLayerList",
+      "bridgedName": "childrenForLayerList",
+      "args": [],
+      "returns": "NSArray<MSLayerListItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerate:": {
+      "name": "enumerate:",
+      "bridgedName": "enumerate",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(MSOverrideRepresentation *)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstOverridePassingTest:": {
+      "name": "firstOverridePassingTest:",
+      "bridgedName": "firstOverridePassingTest",
+      "args": [
+        {
+          "name": "block",
+          "type": "BOOL (^)(MSOverrideRepresentation *override)",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSOverrideRepresentation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isExpanded": {
+      "name": "isExpanded",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "children": {
+      "name": "children",
+      "pointer": false,
+      "type": "NSArray<MSOverrideRepresentation *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flattenedChildren": {
+      "name": "flattenedChildren",
+      "pointer": false,
+      "type": "NSArray<MSOverrideRepresentation *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "instance": {
+      "name": "instance",
+      "pointer": false,
+      "type": "MSSymbolInstance ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSCallToActionButtonCell",
+  "extends": "MSHoverButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

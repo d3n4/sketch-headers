@@ -1,0 +1,95 @@
+{
+  "name": "MSReplaceColorSheetController",
+  "extends": "CHSheetController",
+  "interfaces": [
+    "NSWindowDelegate",
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "pickOriginalColor:": {
+      "name": "pickOriginalColor:",
+      "bridgedName": "pickOriginalColor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleIgnoreAlpha:": {
+      "name": "toggleIgnoreAlpha:",
+      "bridgedName": "toggleIgnoreAlpha",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "cancelButton": {
+      "name": "cancelButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "ignoreAlphaWhenMatchingOriginalColorButton": {
+      "name": "ignoreAlphaWhenMatchingOriginalColorButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "originalColorButton": {
+      "name": "originalColorButton",
+      "pointer": false,
+      "type": "IBOutlet MSStylePartPreviewButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "replacementColorButton": {
+      "name": "replacementColorButton",
+      "pointer": false,
+      "type": "IBOutlet MSColorWell ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "keepAlphaOfOriginalColorButton": {
+      "name": "keepAlphaOfOriginalColorButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "replaceButton": {
+      "name": "replaceButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

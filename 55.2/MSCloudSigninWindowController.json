@@ -1,0 +1,47 @@
+{
+  "name": "MSCloudSigninWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "environment": {
+      "name": "environment",
+      "pointer": false,
+      "type": "SCKAPIEnvironment ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nonnull"
+      ]
+    },
+    "isLoading": {
+      "name": "isLoading",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "email": {
+      "name": "email",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "password": {
+      "name": "password",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

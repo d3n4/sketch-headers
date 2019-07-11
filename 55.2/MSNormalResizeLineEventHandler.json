@@ -1,0 +1,35 @@
+{
+  "name": "MSNormalResizeLineEventHandler",
+  "extends": "MSNormalBaseEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "MSShapePathLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "pointIndex": {
+      "name": "pointIndex",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "normalEventHandler": {
+      "name": "normalEventHandler",
+      "pointer": false,
+      "type": "MSNormalEventHandler ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

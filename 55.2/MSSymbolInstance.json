@@ -1,0 +1,243 @@
+{
+  "name": "MSSymbolInstance",
+  "extends": "_MSSymbolInstance",
+  "interfaces": [],
+  "methods": {
+    "overrideMatchingPoint:": {
+      "name": "overrideMatchingPoint:",
+      "bridgedName": "overrideMatchingPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSOverridePoint *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSAvailableOverride *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolMaster": {
+      "name": "symbolMaster",
+      "bridgedName": "symbolMaster",
+      "args": [],
+      "returns": "MSSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isInstanceForMaster:": {
+      "name": "isInstanceForMaster:",
+      "bridgedName": "isInstanceForMaster",
+      "args": [
+        {
+          "name": "symbolMaster",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeInstanceToSymbol:": {
+      "name": "changeInstanceToSymbol:",
+      "bridgedName": "changeInstanceToSymbol",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfVisibleCells": {
+      "name": "numberOfVisibleCells",
+      "bridgedName": "numberOfVisibleCells",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "detachStylesAndReplaceWithGroupRecursively:": {
+      "name": "detachStylesAndReplaceWithGroupRecursively:",
+      "bridgedName": "detachStylesAndReplaceWithGroupRecursively",
+      "args": [
+        {
+          "name": "detachRecursively",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSLayerGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "detachByReplacingWithGroupRecursively:withDocument:visitedSymbols:": {
+      "name": "detachByReplacingWithGroupRecursively:withDocument:visitedSymbols:",
+      "bridgedName": "detachByReplacingWithGroupRecursively_withDocument_visitedSymbols",
+      "args": [
+        {
+          "name": "detachRecursively",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSLayerGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeInstanceToFitSymbol:": {
+      "name": "resizeInstanceToFitSymbol:",
+      "bridgedName": "resizeInstanceToFitSymbol",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetSizeToMaster": {
+      "name": "resetSizeToMaster",
+      "bridgedName": "resetSizeToMaster",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setValue:forOverridePoint:": {
+      "name": "setValue:forOverridePoint:",
+      "bridgedName": "setValue_forOverridePoint",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "point",
+          "type": "MSOverridePoint*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateOverridesWithObjectIDMap:": {
+      "name": "updateOverridesWithObjectIDMap:",
+      "bridgedName": "updateOverridesWithObjectIDMap",
+      "args": [
+        {
+          "name": "idMap",
+          "type": "NSDictionary<NSString*,NSString*> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateIfAffectedBySymbolMastersIn:": {
+      "name": "invalidateIfAffectedBySymbolMastersIn:",
+      "bridgedName": "invalidateIfAffectedBySymbolMastersIn",
+      "args": [
+        {
+          "name": "modifiedSymbols",
+          "type": "NSSet<NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeShareableObjectsFromOverrides:": {
+      "name": "removeShareableObjectsFromOverrides:",
+      "bridgedName": "removeShareableObjectsFromOverrides",
+      "args": [
+        {
+          "name": "removed",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "overridePoints": {
+      "name": "overridePoints",
+      "pointer": false,
+      "type": "NSArray<MSOverridePoint *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "availableOverrides": {
+      "name": "availableOverrides",
+      "pointer": false,
+      "type": "NSArray<MSAvailableOverride *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overrides": {
+      "name": "overrides",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "overrideContainer": {
+      "name": "overrideContainer",
+      "pointer": false,
+      "type": "MSOverrideRepresentationContainer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "modifiedMaster": {
+      "name": "modifiedMaster",
+      "pointer": false,
+      "type": "MSImmutableSymbolMaster ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "influencingSymbolIDs": {
+      "name": "influencingSymbolIDs",
+      "pointer": false,
+      "type": "NSSet<NSString*> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

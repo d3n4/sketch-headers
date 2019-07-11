@@ -1,0 +1,376 @@
+{
+  "protocol": true,
+  "name": "MSGPURenderer",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "isCompatibleWithAvailableGPUs": {
+      "name": "isCompatibleWithAvailableGPUs",
+      "bridgedName": "isCompatibleWithAvailableGPUs",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "scheduleDrawBlock:": {
+      "name": "scheduleDrawBlock:",
+      "bridgedName": "scheduleDrawBlock",
+      "args": [
+        {
+          "name": "renderBlock",
+          "type": "void (^ _Nonnull)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginFrameWithClearColor:drawableSize:backingScaleFactor:colorSpace:": {
+      "name": "beginFrameWithClearColor:drawableSize:backingScaleFactor:colorSpace:",
+      "bridgedName": "beginFrameWithClearColor_drawableSize_backingScaleFactor_colorSpace",
+      "args": [
+        {
+          "name": "color",
+          "type": "nonnull NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "drawableSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "nonnull CGColorSpaceRef",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endFrameAndWaitForFrame:": {
+      "name": "endFrameAndWaitForFrame:",
+      "bridgedName": "endFrameAndWaitForFrame",
+      "args": [
+        {
+          "name": "wait",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawColorQuadInRect:color:": {
+      "name": "drawColorQuadInRect:color:",
+      "bridgedName": "drawColorQuadInRect_color",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "MSRGBAColor",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawColorTriangleMesh:disableOverlappingFragmentBlending:": {
+      "name": "drawColorTriangleMesh:disableOverlappingFragmentBlending:",
+      "bridgedName": "drawColorTriangleMesh_disableOverlappingFragmentBlending",
+      "args": [
+        {
+          "name": "mesh",
+          "type": "nonnull const MSColorTriangleMesh *",
+          "nullable": false
+        },
+        {
+          "name": "disableOverlappingFragmentBlending",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawTexturedTriangleMesh:sourceTexture:": {
+      "name": "drawTexturedTriangleMesh:sourceTexture:",
+      "bridgedName": "drawTexturedTriangleMesh_sourceTexture",
+      "args": [
+        {
+          "name": "mesh",
+          "type": "nonnull const MSTexturedTriangleMesh *",
+          "nullable": false
+        },
+        {
+          "name": "sourceTexture",
+          "type": "nonnull id<MSGPUTexture>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawTexturedQuadInDestinationRect:sourceTexture:bilinearFilter:": {
+      "name": "drawTexturedQuadInDestinationRect:sourceTexture:bilinearFilter:",
+      "bridgedName": "drawTexturedQuadInDestinationRect_sourceTexture_bilinearFilter",
+      "args": [
+        {
+          "name": "destinationRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "sourceTexture",
+          "type": "nonnull id<MSGPUTexture>",
+          "nullable": false
+        },
+        {
+          "name": "bilinearFilter",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawTexturedQuadInDestinationRect:sourceTexture:sourceRect:bilinearFilter:": {
+      "name": "drawTexturedQuadInDestinationRect:sourceTexture:sourceRect:bilinearFilter:",
+      "bridgedName": "drawTexturedQuadInDestinationRect_sourceTexture_sourceRect_bilinearFilter",
+      "args": [
+        {
+          "name": "destinationRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "sourceTexture",
+          "type": "nonnull id<MSGPUTexture>",
+          "nullable": false
+        },
+        {
+          "name": "sourceRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "bilinearFilter",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawShadowForArtboardInRect:selected:shadow:": {
+      "name": "drawShadowForArtboardInRect:selected:shadow:",
+      "bridgedName": "drawShadowForArtboardInRect_selected_shadow",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "selected",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "shadow",
+          "type": "nonnull MSGPUArtboardShadow *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setScissorRectWithX:y:width:height:": {
+      "name": "setScissorRectWithX:y:width:height:",
+      "bridgedName": "setScissorRectWithX_y_width_height",
+      "args": [
+        {
+          "name": "x",
+          "type": "int",
+          "nullable": false
+        },
+        {
+          "name": "y",
+          "type": "int",
+          "nullable": false
+        },
+        {
+          "name": "width",
+          "type": "int",
+          "nullable": false
+        },
+        {
+          "name": "height",
+          "type": "int",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetScissorRect": {
+      "name": "resetScissorRect",
+      "bridgedName": "resetScissorRect",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createTextureWithWidth:height:": {
+      "name": "createTextureWithWidth:height:",
+      "bridgedName": "createTextureWithWidth_height",
+      "args": [
+        {
+          "name": "width",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "height",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull id<MSGPUTexture>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layer": {
+      "name": "layer",
+      "bridgedName": "layer",
+      "args": [],
+      "returns": "nonnull CALayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "requiresSynchronousRendering": {
+      "name": "requiresSynchronousRendering",
+      "bridgedName": "requiresSynchronousRendering",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lockTextures": {
+      "name": "lockTextures",
+      "bridgedName": "lockTextures",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unlockTextures": {
+      "name": "unlockTextures",
+      "bridgedName": "unlockTextures",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawColorTriangleMesh:modelViewTransform:": {
+      "name": "drawColorTriangleMesh:modelViewTransform:",
+      "bridgedName": "drawColorTriangleMesh_modelViewTransform",
+      "args": [
+        {
+          "name": "mesh",
+          "type": "nonnull const MSColorTriangleMesh *",
+          "nullable": false
+        },
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawArcVertexBuffer:color:modelViewTransform:backingScale:": {
+      "name": "drawArcVertexBuffer:color:modelViewTransform:backingScale:",
+      "bridgedName": "drawArcVertexBuffer_color_modelViewTransform_backingScale",
+      "args": [
+        {
+          "name": "buffer",
+          "type": "nonnull MSArcVertexBuffer *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "nonnull const MSRGBAColor *",
+          "nullable": false
+        },
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        },
+        {
+          "name": "backingScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawTextureVertexBuffer:sourceTexture:modelViewTransform:": {
+      "name": "drawTextureVertexBuffer:sourceTexture:modelViewTransform:",
+      "bridgedName": "drawTextureVertexBuffer_sourceTexture_modelViewTransform",
+      "args": [
+        {
+          "name": "buffer",
+          "type": "nonnull MSTextureVertexBuffer *",
+          "nullable": false
+        },
+        {
+          "name": "sourceTexture",
+          "type": "nonnull id<MSGPUTexture>",
+          "nullable": false
+        },
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "maximumTextureSize": {
+      "name": "maximumTextureSize",
+      "bridgedName": "maximumTextureSize",
+      "args": [],
+      "returns": "BCIntSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

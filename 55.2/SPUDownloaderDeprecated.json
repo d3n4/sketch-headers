@@ -1,0 +1,10 @@
+{
+  "name": "SPUDownloaderDeprecated",
+  "extends": "SPUDownloader",
+  "interfaces": [
+    "SPUDownloaderProtocol"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

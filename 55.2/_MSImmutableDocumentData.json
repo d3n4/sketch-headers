@@ -1,0 +1,120 @@
+{
+  "name": "_MSImmutableDocumentData",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "MSColorSpace",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentPageIndex": {
+      "name": "currentPageIndex",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "userInfo": {
+      "name": "userInfo",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "assets": {
+      "name": "assets",
+      "pointer": false,
+      "type": "MSImmutableAssetCollection ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "foreignLayerStyles": {
+      "name": "foreignLayerStyles",
+      "pointer": false,
+      "type": "NSArray<MSImmutableForeignLayerStyle *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "foreignSymbols": {
+      "name": "foreignSymbols",
+      "pointer": false,
+      "type": "NSArray<MSImmutableForeignSymbol *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "foreignTextStyles": {
+      "name": "foreignTextStyles",
+      "pointer": false,
+      "type": "NSArray<MSImmutableForeignTextStyle *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerStyles": {
+      "name": "layerStyles",
+      "pointer": false,
+      "type": "MSImmutableSharedStyleContainer ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerSymbols": {
+      "name": "layerSymbols",
+      "pointer": false,
+      "type": "MSImmutableSymbolContainer ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerTextStyles": {
+      "name": "layerTextStyles",
+      "pointer": false,
+      "type": "MSImmutableSharedTextStyleContainer ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pages": {
+      "name": "pages",
+      "pointer": false,
+      "type": "NSArray<MSImmutablePage *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

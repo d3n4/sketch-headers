@@ -1,0 +1,27 @@
+{
+  "name": "MSDataAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "helper": {
+      "name": "helper",
+      "pointer": false,
+      "type": "MSDataMenuHelper ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dataSupplierManager": {
+      "name": "dataSupplierManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MSCloudManifestMaker",
+  "extends": "MSManifestMaker",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSCloudManifestMakerDelegate>",
+      "attributes": [
+        "nonatomic",
+        ""
+      ]
+    },
+    "organizationID": {
+      "name": "organizationID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

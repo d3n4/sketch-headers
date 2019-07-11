@@ -1,0 +1,8 @@
+{
+  "name": "MSCloudPreferencesAccountViewController",
+  "extends": "MSCloudPreferencesViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,65 @@
+{
+  "name": "MSPreviewImageCache",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithSubdirectoryName:": {
+      "name": "initWithSubdirectoryName:",
+      "bridgedName": "initWithSubdirectoryName",
+      "args": [
+        {
+          "name": "subdirectory",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fetchPreviewImageForDocumentAtURL:maximumPixelSize:handler:": {
+      "name": "fetchPreviewImageForDocumentAtURL:maximumPixelSize:handler:",
+      "bridgedName": "fetchPreviewImageForDocumentAtURL_maximumPixelSize_handler",
+      "args": [
+        {
+          "name": "documentURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "maxPixelSize",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "MSPreviewImageHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "directoryURL": {
+      "name": "directoryURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,87 @@
+{
+  "name": "MSFlowRenderer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "renderFlowItems:selectedLayerIDs:backingScaleFactor:translation:zoomLevel:renderer:settings:": {
+      "name": "renderFlowItems:selectedLayerIDs:backingScaleFactor:translation:zoomLevel:renderer:settings:",
+      "bridgedName": "renderFlowItems_selectedLayerIDs_backingScaleFactor_translation_zoomLevel_renderer_settings",
+      "args": [
+        {
+          "name": "flowItems",
+          "type": "NSSet <MSFlowItem *> *",
+          "nullable": false
+        },
+        {
+          "name": "selectedLayerIDs",
+          "type": "NSSet *",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "p",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "renderer",
+          "type": "id<MSGPURenderer>",
+          "nullable": false
+        },
+        {
+          "name": "settings",
+          "type": "MSRenderingDriverSettings *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderFlowsItems:selectedLayerIDs:context:zoomLevel:settings:": {
+      "name": "renderFlowsItems:selectedLayerIDs:context:zoomLevel:settings:",
+      "bridgedName": "renderFlowsItems_selectedLayerIDs_context_zoomLevel_settings",
+      "args": [
+        {
+          "name": "flowItems",
+          "type": "NSSet <MSFlowItem *> *",
+          "nullable": false
+        },
+        {
+          "name": "selectedLayerIDs",
+          "type": "NSSet *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "settings",
+          "type": "MSRenderingDriverSettings *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

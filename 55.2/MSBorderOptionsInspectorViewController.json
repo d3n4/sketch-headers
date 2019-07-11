@@ -1,0 +1,104 @@
+{
+  "name": "MSBorderOptionsInspectorViewController",
+  "extends": "MSStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {
+    "startDecorationAction:": {
+      "name": "startDecorationAction:",
+      "bridgedName": "startDecorationAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endDecorationAction:": {
+      "name": "endDecorationAction:",
+      "bridgedName": "endDecorationAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "capAction:": {
+      "name": "capAction:",
+      "bridgedName": "capAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "joinAction:": {
+      "name": "joinAction:",
+      "bridgedName": "joinAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dashPatternAction:": {
+      "name": "dashPatternAction:",
+      "bridgedName": "dashPatternAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadData": {
+      "name": "reloadData",
+      "bridgedName": "reloadData",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasOpenPathLayer": {
+      "name": "hasOpenPathLayer",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "hasPathWithAdjustableCaps": {
+      "name": "hasPathWithAdjustableCaps",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}
