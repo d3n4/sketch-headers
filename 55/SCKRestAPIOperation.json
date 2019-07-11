@@ -1,0 +1,64 @@
+{
+  "name": "SCKRestAPIOperation",
+  "extends": "SCKAPIOperation",
+  "interfaces": [],
+  "methods": {
+    "processData:response:error:": {
+      "name": "processData:response:error:",
+      "bridgedName": "processData_response_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": true
+        },
+        {
+          "name": "response",
+          "type": "NSHTTPURLResponse *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "executeRequest:completionHandler:": {
+      "name": "executeRequest:completionHandler:",
+      "bridgedName": "executeRequest_completionHandler",
+      "args": [
+        {
+          "name": "request",
+          "type": "SCKAPIURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "void (^ _Nullable)(NSArray * _Nullable objects, NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "result": {
+      "name": "result",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "atomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

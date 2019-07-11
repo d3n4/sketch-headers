@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "MSTextureVertexQuad",
+  "members": [
+    {
+      "name": "v0",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v1",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v2",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    },
+    {
+      "name": "v3",
+      "pointer": false,
+      "type": "union {\n    struct {\n      MSTextureVertex"
+    }
+  ]
+}

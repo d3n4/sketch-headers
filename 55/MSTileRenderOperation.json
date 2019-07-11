@@ -1,0 +1,256 @@
+{
+  "name": "MSTileRenderOperation",
+  "extends": "NSOperation",
+  "interfaces": [],
+  "methods": {
+    "bitmapImageRenderForPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:": {
+      "name": "bitmapImageRenderForPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:",
+      "bridgedName": "bitmapImageRenderForPage_inDocument_visibleContentRect_backingScaleFactor_pixelViewSize_zoomValue_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace_colorSettings",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "visibleContentRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelViewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelated",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id<MSRenderingContextCacheProvider>",
+          "nullable": false
+        },
+        {
+          "name": "canvasColorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "colorSettings",
+          "type": "MSOverlayColorSettings *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bitmapImageFromRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:": {
+      "name": "bitmapImageFromRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:",
+      "bridgedName": "bitmapImageFromRenderPasses_visibleContentRect_backingScaleFactor_pixelViewSize_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace_colorSettings",
+      "args": [
+        {
+          "name": "renderPasses",
+          "type": "NSArray <MSTileRenderPass *> *",
+          "nullable": false
+        },
+        {
+          "name": "visibleContentRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelViewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "pixelated",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id<MSRenderingContextCacheProvider>",
+          "nullable": false
+        },
+        {
+          "name": "canvasColorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "colorSettings",
+          "type": "MSOverlayColorSettings *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "renderOperationWithPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:": {
+      "name": "renderOperationWithPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:",
+      "bridgedName": "renderOperationWithPage_inDocument_visibleContentRect_backingScaleFactor_pixelViewSize_zoomValue_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace_colorSettings",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "visibleContentRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelViewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelated",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id<MSRenderingContextCacheProvider>",
+          "nullable": false
+        },
+        {
+          "name": "canvasColorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "colorSettings",
+          "type": "MSOverlayColorSettings *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "renderOperationWithRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:": {
+      "name": "renderOperationWithRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:",
+      "bridgedName": "renderOperationWithRenderPasses_visibleContentRect_backingScaleFactor_pixelViewSize_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace_colorSettings",
+      "args": [
+        {
+          "name": "renderPasses",
+          "type": "NSArray <MSTileRenderPass *> *",
+          "nullable": false
+        },
+        {
+          "name": "visibleContentRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelViewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "pixelated",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id<MSRenderingContextCacheProvider>",
+          "nullable": false
+        },
+        {
+          "name": "canvasColorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "colorSettings",
+          "type": "MSOverlayColorSettings *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "renderedImage": {
+      "name": "renderedImage",
+      "pointer": false,
+      "type": "NSBitmapImageRep ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

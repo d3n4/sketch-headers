@@ -1,0 +1,137 @@
+{
+  "name": "CHProgressSheet",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {
+    "setProgressMaximum:": {
+      "name": "setProgressMaximum:",
+      "bridgedName": "setProgressMaximum",
+      "args": [
+        {
+          "name": "max",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "incrementProgress": {
+      "name": "incrementProgress",
+      "bridgedName": "incrementProgress",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "incrementProgressBy:": {
+      "name": "incrementProgressBy:",
+      "bridgedName": "incrementProgressBy",
+      "args": [
+        {
+          "name": "amount",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isMaximum": {
+      "name": "isMaximum",
+      "bridgedName": "isMaximum",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setMessage:": {
+      "name": "setMessage:",
+      "bridgedName": "setMessage",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTitle:": {
+      "name": "setTitle:",
+      "bridgedName": "setTitle",
+      "args": [
+        {
+          "name": "aTitle",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setSubtitle:": {
+      "name": "setSubtitle:",
+      "bridgedName": "setSubtitle",
+      "args": [
+        {
+          "name": "subtitle",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setCancelButtonTitle:": {
+      "name": "setCancelButtonTitle:",
+      "bridgedName": "setCancelButtonTitle",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setShowsCancelButton:": {
+      "name": "setShowsCancelButton:",
+      "bridgedName": "setShowsCancelButton",
+      "args": [
+        {
+          "name": "flag",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setIndeterminate:": {
+      "name": "setIndeterminate:",
+      "bridgedName": "setIndeterminate",
+      "args": [
+        {
+          "name": "flag",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

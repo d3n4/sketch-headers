@@ -1,0 +1,88 @@
+{
+  "name": "Canvas",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "beginPathAtLocation:withWidth:color:": {
+      "name": "beginPathAtLocation:withWidth:color:",
+      "bridgedName": "beginPathAtLocation_withWidth_color",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "extendPathToLocation:": {
+      "name": "extendPathToLocation:",
+      "bridgedName": "extendPathToLocation",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endPath": {
+      "name": "endPath",
+      "bridgedName": "endPath",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawRect:": {
+      "name": "drawRect:",
+      "bridgedName": "drawRect",
+      "args": [
+        {
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "showPoints": {
+      "name": "showPoints",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    },
+    "simplify": {
+      "name": "simplify",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    },
+    "fitCurve": {
+      "name": "fitCurve",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    }
+  },
+  "generics": []
+}

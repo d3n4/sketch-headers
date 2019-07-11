@@ -1,0 +1,17 @@
+{
+  "name": "MSNewsTrigger",
+  "extends": "BCSingleton",
+  "interfaces": [],
+  "methods": {
+    "checkForNews": {
+      "name": "checkForNews",
+      "bridgedName": "checkForNews",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,19 @@
+{
+  "enum": true,
+  "name": "MSColorVertexBufferIndex",
+  "members": [
+    {
+      "name": "MSColorVertexBufferIndexXYZW",
+      "value": "0"
+    },
+    {
+      "name": "MSColorVertexBufferIndexRGBA"
+    },
+    {
+      "name": "MSColorVertexBufferIndexProjectionMatrix"
+    },
+    {
+      "name": "MSColorVertexBufferIndexCanvasMatrix"
+    }
+  ]
+}

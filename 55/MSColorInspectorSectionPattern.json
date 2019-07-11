@@ -1,0 +1,17 @@
+{
+  "name": "MSColorInspectorSectionPattern",
+  "extends": "MSColorInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "frequentImages": {
+      "name": "frequentImages",
+      "pointer": false,
+      "type": "NSArray<MSImageCounter *> ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

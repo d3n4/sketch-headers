@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "MSGestureRecognizerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "gestureRecognizer:shouldAttemptToRecognizeAtPoint:modifierFlags:": {
+      "name": "gestureRecognizer:shouldAttemptToRecognizeAtPoint:modifierFlags:",
+      "bridgedName": "gestureRecognizer_shouldAttemptToRecognizeAtPoint_modifierFlags",
+      "args": [
+        {
+          "name": "gestureRecognizer",
+          "type": "MSGestureRecognizer *",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

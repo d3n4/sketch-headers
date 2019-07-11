@@ -1,0 +1,28 @@
+{
+  "name": "MSGridConstructor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "makeGridWithLayers:options:": {
+      "name": "makeGridWithLayers:options:",
+      "bridgedName": "makeGridWithLayers_options",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSMakeGridOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,56 @@
+{
+  "protocol": true,
+  "name": "MSAssetCollectionViewSourceDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "collectionViewSourceDidMutate:": {
+      "name": "collectionViewSourceDidMutate:",
+      "bridgedName": "collectionViewSourceDidMutate",
+      "args": [
+        {
+          "name": "source",
+          "type": "MSAssetCollectionViewDataSource *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "collectionViewSource:getUpdatedIndexes:": {
+      "name": "collectionViewSource:getUpdatedIndexes:",
+      "bridgedName": "collectionViewSource_getUpdatedIndexes",
+      "args": [
+        {
+          "name": "source",
+          "type": "MSAssetCollectionViewDataSource *",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "void(^)(NSIndexSet *updatedIndexes)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "collectionViewSourceMarkUpdatedIndexesAsRead:": {
+      "name": "collectionViewSourceMarkUpdatedIndexesAsRead:",
+      "bridgedName": "collectionViewSourceMarkUpdatedIndexesAsRead",
+      "args": [
+        {
+          "name": "source",
+          "type": "MSAssetCollectionViewDataSource *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,174 @@
+{
+  "name": "SCKShareItemUploadOperation",
+  "extends": "BCOperation",
+  "interfaces": [
+    "NSURLSessionTaskDelegate",
+    "NSProgressReporting"
+  ],
+  "methods": {
+    "itemUploadOperationWithItem:fromURL:": {
+      "name": "itemUploadOperationWithItem:fromURL:",
+      "bridgedName": "itemUploadOperationWithItem_fromURL",
+      "args": [
+        {
+          "name": "item",
+          "type": "SCKFileUploadSpecs *",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "itemUploadOperationWithDocumentUploadURL:fromURL:": {
+      "name": "itemUploadOperationWithDocumentUploadURL:fromURL:",
+      "bridgedName": "itemUploadOperationWithDocumentUploadURL_fromURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "localURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fileSizeOfItemAtURL:": {
+      "name": "fileSizeOfItemAtURL:",
+      "bridgedName": "fileSizeOfItemAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fileSizeOfItemAtURL:multipartIndex:maxChunkSize:": {
+      "name": "fileSizeOfItemAtURL:multipartIndex:maxChunkSize:",
+      "bridgedName": "fileSizeOfItemAtURL_multipartIndex_maxChunkSize",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "part",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "maxSize",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "urlSession": {
+      "name": "urlSession",
+      "pointer": false,
+      "type": "NSURLSession ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "taskIdentifier": {
+      "name": "taskIdentifier",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sourceURL": {
+      "name": "sourceURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "multipartIndex": {
+      "name": "multipartIndex",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "documentMultipartSpecs": {
+      "name": "documentMultipartSpecs",
+      "pointer": false,
+      "type": "SCKDocumentUploadMultipartSpecs ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "item": {
+      "name": "item",
+      "pointer": false,
+      "type": "SCKFileUploadSpecs ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "progress": {
+      "name": "progress",
+      "pointer": false,
+      "type": "NSProgress ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "additionalRetryAttempts": {
+      "name": "additionalRetryAttempts",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "atomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

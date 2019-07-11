@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "SPUDownloadMode",
+  "members": [
+    {
+      "name": "SPUDownloadModePersistent"
+    },
+    {
+      "name": "SPUDownloadModeTemporary"
+    }
+  ]
+}

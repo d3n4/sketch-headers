@@ -1,0 +1,27 @@
+{
+  "name": "MSThemeImageView",
+  "extends": "NSImageView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "imageName": {
+      "name": "imageName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSThemeImageViewDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

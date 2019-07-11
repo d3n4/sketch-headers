@@ -1,0 +1,8 @@
+{
+  "name": "MSPatternImageView",
+  "extends": "MSImageView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

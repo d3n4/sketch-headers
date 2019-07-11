@@ -1,0 +1,377 @@
+{
+  "name": "MSImmutableStyle",
+  "extends": "_MSImmutableStyle",
+  "interfaces": [],
+  "methods": {
+    "clearTextStyle": {
+      "name": "clearTextStyle",
+      "bridgedName": "clearTextStyle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boundingBoxForBiggestShadowSpreadForLayer:": {
+      "name": "boundingBoxForBiggestShadowSpreadForLayer:",
+      "bridgedName": "boundingBoxForBiggestShadowSpreadForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boundsForPath:": {
+      "name": "boundsForPath:",
+      "bridgedName": "boundsForPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderBitmapEffects:bounds:parentCoordinateTransform:": {
+      "name": "renderBitmapEffects:bounds:parentCoordinateTransform:",
+      "bridgedName": "renderBitmapEffects_bounds_parentCoordinateTransform",
+      "args": [
+        {
+          "name": "image",
+          "type": "CIImage *",
+          "nullable": false
+        },
+        {
+          "name": "bounds",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "parentCoordinateTransform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "CIImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "requiresPathDefinition:": {
+      "name": "requiresPathDefinition:",
+      "bridgedName": "requiresPathDefinition",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfElementsWithExporter:": {
+      "name": "numberOfElementsWithExporter:",
+      "bridgedName": "numberOfElementsWithExporter",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSVGAttributes:exporter:elementPosition:": {
+      "name": "addSVGAttributes:exporter:elementPosition:",
+      "bridgedName": "addSVGAttributes_exporter_elementPosition",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        },
+        {
+          "name": "position",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "borderAtElementPosition:exporter:": {
+      "name": "borderAtElementPosition:exporter:",
+      "bridgedName": "borderAtElementPosition_exporter",
+      "args": [
+        {
+          "name": "position",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableStyleBorder *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillAtElementPosition:exporter:": {
+      "name": "fillAtElementPosition:exporter:",
+      "bridgedName": "fillAtElementPosition_exporter",
+      "args": [
+        {
+          "name": "position",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableStyleFill *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasMarkers": {
+      "name": "hasMarkers",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasMoreThanOneEnabledFill": {
+      "name": "hasMoreThanOneEnabledFill",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledShadow": {
+      "name": "hasEnabledShadow",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledInnerShadow": {
+      "name": "hasEnabledInnerShadow",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledBorder": {
+      "name": "hasEnabledBorder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledFill": {
+      "name": "hasEnabledFill",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasBlending": {
+      "name": "hasBlending",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "thickestStroke": {
+      "name": "thickestStroke",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "thickestInnerStroke": {
+      "name": "thickestInnerStroke",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "outerPaddingForBiggestStroke": {
+      "name": "outerPaddingForBiggestStroke",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "outerPaddingForBiggestShadowSpread": {
+      "name": "outerPaddingForBiggestShadowSpread",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledBackgroundBlur": {
+      "name": "hasEnabledBackgroundBlur",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shadowType": {
+      "name": "shadowType",
+      "pointer": false,
+      "type": "MSShadowType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shadowStrokeType": {
+      "name": "shadowStrokeType",
+      "pointer": false,
+      "type": "MSShadowBorderType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "firstEnabledShadow": {
+      "name": "firstEnabledShadow",
+      "pointer": false,
+      "type": "MSImmutableStyleShadow ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "firstEnabledInnerShadow": {
+      "name": "firstEnabledInnerShadow",
+      "pointer": false,
+      "type": "MSImmutableStyleInnerShadow ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "firstEnabledFill": {
+      "name": "firstEnabledFill",
+      "pointer": false,
+      "type": "MSImmutableStyleFill ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "firstEnabledBorder": {
+      "name": "firstEnabledBorder",
+      "pointer": false,
+      "type": "MSImmutableStyleBorder ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "enabledFills": {
+      "name": "enabledFills",
+      "pointer": false,
+      "type": "NSArray <MSImmutableStyleFill *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "enabledBorders": {
+      "name": "enabledBorders",
+      "pointer": false,
+      "type": "NSArray <MSImmutableStyleBorder *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "enabledShadows": {
+      "name": "enabledShadows",
+      "pointer": false,
+      "type": "NSArray <MSImmutableStyleShadow *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "enabledInnerShadows": {
+      "name": "enabledInnerShadows",
+      "pointer": false,
+      "type": "NSArray <MSImmutableStyleInnerShadow *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledOpaqueFill": {
+      "name": "hasEnabledOpaqueFill",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "renderableFills": {
+      "name": "renderableFills",
+      "pointer": false,
+      "type": "NSArray <MSImmutableStyleFill *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nonnull"
+      ]
+    }
+  },
+  "generics": []
+}

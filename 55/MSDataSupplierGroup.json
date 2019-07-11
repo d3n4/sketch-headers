@@ -1,0 +1,237 @@
+{
+  "name": "MSDataSupplierGroup",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCoding"
+  ],
+  "methods": {
+    "addDataSuppliers:": {
+      "name": "addDataSuppliers:",
+      "bridgedName": "addDataSuppliers",
+      "args": [
+        {
+          "name": "dataSuppliers",
+          "type": "NSSet <__kindof MSDataSupplier *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "postDecodingInitializingWithDelegate:": {
+      "name": "postDecodingInitializingWithDelegate:",
+      "bridgedName": "postDecodingInitializingWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSDataSupplierDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeGroupIdentifier": {
+      "name": "makeGroupIdentifier",
+      "bridgedName": "makeGroupIdentifier",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeDataSupplier:": {
+      "name": "removeDataSupplier:",
+      "bridgedName": "removeDataSupplier",
+      "args": [
+        {
+          "name": "dataSupplier",
+          "type": "__kindof MSDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "usableDataSuppliersOfDataType:": {
+      "name": "usableDataSuppliersOfDataType:",
+      "bridgedName": "usableDataSuppliersOfDataType",
+      "args": [
+        {
+          "name": "dataType",
+          "type": "MSDataType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <__kindof MSDataSupplier *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "new NS_UNAVAILABLE": {
+      "name": "new NS_UNAVAILABLE",
+      "bridgedName": "new NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithDataSuppliers:delegate:": {
+      "name": "initWithDataSuppliers:delegate:",
+      "bridgedName": "initWithDataSuppliers_delegate",
+      "args": [
+        {
+          "name": "dataSuppliers",
+          "type": "NSSet <__kindof MSDataSupplier *> *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<MSDataSupplierDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCoder:": {
+      "name": "initWithCoder:",
+      "bridgedName": "initWithCoder",
+      "args": [
+        {
+          "name": "aDecoder",
+          "type": "NSCoder *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataSupplierMenuItemForDataType:": {
+      "name": "dataSupplierMenuItemForDataType:",
+      "bridgedName": "dataSupplierMenuItemForDataType",
+      "args": [
+        {
+          "name": "dataType",
+          "type": "MSDataType",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "notifyDelegateOfChanges": {
+      "name": "notifyDelegateOfChanges",
+      "bridgedName": "notifyDelegateOfChanges",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dataSuppliers": {
+      "name": "dataSuppliers",
+      "pointer": false,
+      "type": "NSArray <__kindof MSDataSupplier *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dataSuppliersDictionary": {
+      "name": "dataSuppliersDictionary",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, __kindof MSDataSupplier *>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "groupName": {
+      "name": "groupName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "anyDataSupplier": {
+      "name": "anyDataSupplier",
+      "pointer": false,
+      "type": "__kindof MSDataSupplier ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "groupIdentifier": {
+      "name": "groupIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "oneDataSupplierInGroup": {
+      "name": "oneDataSupplierInGroup",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dataType": {
+      "name": "dataType",
+      "pointer": false,
+      "type": "MSDataType",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSDataSupplierDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "valid": {
+      "name": "valid",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

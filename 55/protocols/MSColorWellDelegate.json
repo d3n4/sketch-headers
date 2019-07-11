@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSColorWellDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "initialColorPickerColorForColorWell:": {
+      "name": "initialColorPickerColorForColorWell:",
+      "bridgedName": "initialColorPickerColorForColorWell",
+      "args": [
+        {
+          "name": "colorWell",
+          "type": "MSColorWell *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

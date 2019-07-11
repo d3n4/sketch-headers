@@ -1,0 +1,8 @@
+{
+  "name": "MSRectangleShapeItem",
+  "extends": "MSCustomShapeItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

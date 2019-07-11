@@ -1,0 +1,23 @@
+{
+  "name": "MSReplaceOverrideAction",
+  "extends": "MSOverrideAction",
+  "interfaces": [],
+  "methods": {
+    "overrideMenuRootAction:": {
+      "name": "overrideMenuRootAction:",
+      "bridgedName": "overrideMenuRootAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

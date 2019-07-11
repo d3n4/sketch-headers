@@ -1,0 +1,17 @@
+{
+  "name": "TDDigit",
+  "extends": "TDTerminal",
+  "interfaces": [],
+  "methods": {
+    "digit": {
+      "name": "digit",
+      "bridgedName": "digit",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

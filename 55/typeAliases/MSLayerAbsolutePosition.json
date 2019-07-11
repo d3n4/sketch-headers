@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "MSLayerAbsolutePosition",
+  "type": "NSPoint",
+  "pointer": false
+}

@@ -1,0 +1,27 @@
+{
+  "name": "BCURLOperation",
+  "extends": "BCOperation",
+  "interfaces": [],
+  "methods": {
+    "defaultURLSession": {
+      "name": "defaultURLSession",
+      "bridgedName": "defaultURLSession",
+      "args": [],
+      "returns": "NSURLSession *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "urlSession": {
+      "name": "urlSession",
+      "pointer": false,
+      "type": "NSURLSession ",
+      "attributes": [
+        "atomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

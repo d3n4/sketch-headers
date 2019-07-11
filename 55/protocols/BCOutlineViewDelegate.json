@@ -1,0 +1,42 @@
+{
+  "protocol": true,
+  "name": "BCOutlineViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "isOutlineViewShowingContextMenu:": {
+      "name": "isOutlineViewShowingContextMenu:",
+      "bridgedName": "isOutlineViewShowingContextMenu",
+      "args": [
+        {
+          "name": "outlineView",
+          "type": "nonnull BCOutlineView *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outlineView:disclosureTriangleClickedForItem:": {
+      "name": "outlineView:disclosureTriangleClickedForItem:",
+      "bridgedName": "outlineView_disclosureTriangleClickedForItem",
+      "args": [
+        {
+          "name": "outlineView",
+          "type": "nonnull BCOutlineView *",
+          "nullable": false
+        },
+        {
+          "name": "item",
+          "type": "nonnull id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

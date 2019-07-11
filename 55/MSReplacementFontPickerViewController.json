@@ -1,0 +1,8 @@
+{
+  "name": "MSReplacementFontPickerViewController",
+  "extends": "MSFontFamilyPickerViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

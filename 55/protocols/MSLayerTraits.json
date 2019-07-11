@@ -1,0 +1,17 @@
+{
+  "protocol": true,
+  "name": "MSLayerTraits",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "traits": {
+      "name": "traits",
+      "bridgedName": "traits",
+      "args": [],
+      "returns": "MSTraits",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorHighlightBackgroundButtonCell",
+  "extends": "MSInspectorButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

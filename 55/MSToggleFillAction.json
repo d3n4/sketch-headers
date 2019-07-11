@@ -1,0 +1,8 @@
+{
+  "name": "MSToggleFillAction",
+  "extends": "MSToggleStylePartAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

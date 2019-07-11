@@ -1,0 +1,28 @@
+{
+  "name": "MSLayerPickerMenuBuilder",
+  "extends": "MSMenuBuilder",
+  "interfaces": [],
+  "methods": {
+    "layerPickerMenuItemForPage:atPoint:": {
+      "name": "layerPickerMenuItemForPage:atPoint:",
+      "bridgedName": "layerPickerMenuItemForPage_atPoint",
+      "args": [
+        {
+          "name": "page",
+          "type": "nonnull MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

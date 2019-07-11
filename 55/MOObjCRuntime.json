@@ -1,0 +1,36 @@
+{
+  "name": "MOObjCRuntime",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedRuntime": {
+      "name": "sharedRuntime",
+      "bridgedName": "sharedRuntime",
+      "args": [],
+      "returns": "MOObjCRuntime *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "classes": {
+      "name": "classes",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "protocols": {
+      "name": "protocols",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,74 @@
+{
+  "name": "SUUpdateAlert",
+  "extends": "NSWindowController",
+  "interfaces": [],
+  "methods": {
+    "initWithAppcastItem:host:completionBlock:": {
+      "name": "initWithAppcastItem:host:completionBlock:",
+      "bridgedName": "initWithAppcastItem_host_completionBlock",
+      "args": [
+        {
+          "name": "item",
+          "type": "SUAppcastItem *",
+          "nullable": false
+        },
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        },
+        {
+          "name": "c",
+          "type": "void(^)(SUUpdateAlertChoice)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installUpdatesender": {
+      "name": "installUpdatesender",
+      "bridgedName": "installUpdatesender",
+      "args": [],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "skipThisVersionsender": {
+      "name": "skipThisVersionsender",
+      "bridgedName": "skipThisVersionsender",
+      "args": [],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "remindMeLatersender": {
+      "name": "remindMeLatersender",
+      "bridgedName": "remindMeLatersender",
+      "args": [],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disableKeyboardShortcutForInstallButton": {
+      "name": "disableKeyboardShortcutForInstallButton",
+      "bridgedName": "disableKeyboardShortcutForInstallButton",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "versionDisplayer": {
+      "name": "versionDisplayer",
+      "pointer": false,
+      "type": "id<SUVersionDisplay>",
+      "attributes": [
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

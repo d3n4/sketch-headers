@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorAltButtonCell",
+  "extends": "MSAltButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

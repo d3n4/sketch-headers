@@ -1,0 +1,34 @@
+{
+  "name": "MSAssetCollectionLayout",
+  "extends": "NSCollectionViewFlowLayout",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "updatedIndexes": {
+      "name": "updatedIndexes",
+      "pointer": false,
+      "type": "NSIndexSet ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "displayMode": {
+      "name": "displayMode",
+      "pointer": false,
+      "type": "MSAssetPickerDisplayMode",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "itemSizeMode": {
+      "name": "itemSizeMode",
+      "pointer": false,
+      "type": "MSAssetPickerItemSizeMode",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

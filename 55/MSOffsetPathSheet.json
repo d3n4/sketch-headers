@@ -1,0 +1,25 @@
+{
+  "name": "MSOffsetPathSheet",
+  "extends": "MSCanvasUpdatingSheet",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "offset": {
+      "name": "offset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "duplicateLayers": {
+      "name": "duplicateLayers",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

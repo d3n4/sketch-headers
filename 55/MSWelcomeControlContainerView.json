@@ -1,0 +1,8 @@
+{
+  "name": "MSWelcomeControlContainerView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

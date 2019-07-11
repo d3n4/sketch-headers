@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "MSRegionIterator",
+  "members": [
+    {
+      "name": "_runs",
+      "pointer": true,
+      "type": "const int32_t"
+    },
+    {
+      "name": "_rect",
+      "pointer": false,
+      "type": "BCIntRect"
+    },
+    {
+      "name": "_done",
+      "pointer": false,
+      "type": "BOOL"
+    }
+  ]
+}

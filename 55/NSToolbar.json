@@ -1,0 +1,23 @@
+{
+  "name": "NSToolbar",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "itemWithIdentifier:": {
+      "name": "itemWithIdentifier:",
+      "bridgedName": "itemWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSToolbarItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

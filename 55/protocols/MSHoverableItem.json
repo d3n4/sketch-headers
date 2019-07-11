@@ -1,0 +1,66 @@
+{
+  "protocol": true,
+  "name": "MSHoverableItem",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "drawHoverWithZoom:color:cache:": {
+      "name": "drawHoverWithZoom:color:cache:",
+      "bridgedName": "drawHoverWithZoom_color_cache",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canBeHoveredOnPage:": {
+      "name": "canBeHoveredOnPage:",
+      "bridgedName": "canBeHoveredOnPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlay": {
+      "name": "refreshOverlay",
+      "bridgedName": "refreshOverlay",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hoveredLayer": {
+      "name": "hoveredLayer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

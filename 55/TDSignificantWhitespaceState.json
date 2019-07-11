@@ -1,0 +1,8 @@
+{
+  "name": "TDSignificantWhitespaceState",
+  "extends": "TDWhitespaceState",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSViewRestorationState",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "valueForKey:": {
+      "name": "valueForKey:",
+      "bridgedName": "valueForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

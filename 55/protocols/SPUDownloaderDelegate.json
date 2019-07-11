@@ -1,0 +1,84 @@
+{
+  "protocol": true,
+  "name": "SPUDownloaderDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "downloaderDidSetDestinationName:temporaryDirectory:": {
+      "name": "downloaderDidSetDestinationName:temporaryDirectory:",
+      "bridgedName": "downloaderDidSetDestinationName_temporaryDirectory",
+      "args": [
+        {
+          "name": "destinationName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "temporaryDirectory",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidReceiveExpectedContentLength:": {
+      "name": "downloaderDidReceiveExpectedContentLength:",
+      "bridgedName": "downloaderDidReceiveExpectedContentLength",
+      "args": [
+        {
+          "name": "expectedContentLength",
+          "type": "int64_t",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidReceiveDataOfLength:": {
+      "name": "downloaderDidReceiveDataOfLength:",
+      "bridgedName": "downloaderDidReceiveDataOfLength",
+      "args": [
+        {
+          "name": "length",
+          "type": "uint64_t",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidFinishWithTemporaryDownloadData:": {
+      "name": "downloaderDidFinishWithTemporaryDownloadData:",
+      "bridgedName": "downloaderDidFinishWithTemporaryDownloadData",
+      "args": [
+        {
+          "name": "downloadData",
+          "type": "SPUDownloadData * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidFailWithError:": {
+      "name": "downloaderDidFailWithError:",
+      "bridgedName": "downloaderDidFailWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

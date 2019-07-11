@@ -1,0 +1,42 @@
+{
+  "enum": true,
+  "name": "MSSnapMask",
+  "members": [
+    {
+      "name": "MSSnapMaskLayerCenter",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSSnapMaskLayerEdges",
+      "value": "1 << 1"
+    },
+    {
+      "name": "MSSnapMaskSizing",
+      "value": "1 << 2"
+    },
+    {
+      "name": "MSSnapMaskSpacing",
+      "value": "1 << 3"
+    },
+    {
+      "name": "MSSnapMaskBaselines",
+      "value": "1 << 4"
+    },
+    {
+      "name": "MSSnapMaskGuides",
+      "value": "1 << 5"
+    },
+    {
+      "name": "MSSnapMaskGrid",
+      "value": "1 << 6"
+    },
+    {
+      "name": "MSSnapMaskAll",
+      "value": "MSSnapMaskLayerCenter|MSSnapMaskLayerEdges|MSSnapMaskSizing|MSSnapMaskSpacing|MSSnapMaskBaselines|MSSnapMaskGuides|MSSnapMaskGrid"
+    },
+    {
+      "name": "MSSnapMaskLayerCenterAndEdges",
+      "value": "MSSnapMaskLayerCenter|MSSnapMaskLayerEdges"
+    }
+  ]
+}

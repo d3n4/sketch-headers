@@ -1,0 +1,80 @@
+{
+  "name": "SUCodeSigningVerifier",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "codeSignatureAtBundleURL:matchesSignatureAtBundleURL:error:": {
+      "name": "codeSignatureAtBundleURL:matchesSignatureAtBundleURL:error:",
+      "bridgedName": "codeSignatureAtBundleURL_matchesSignatureAtBundleURL_error",
+      "args": [
+        {
+          "name": "oldBundlePath",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "newBundlePath",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError  **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "codeSignatureIsValidAtBundleURL:error:": {
+      "name": "codeSignatureIsValidAtBundleURL:error:",
+      "bridgedName": "codeSignatureIsValidAtBundleURL_error",
+      "args": [
+        {
+          "name": "bundlePath",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bundleAtURLIsCodeSigned:": {
+      "name": "bundleAtURLIsCodeSigned:",
+      "bridgedName": "bundleAtURLIsCodeSigned",
+      "args": [
+        {
+          "name": "bundlePath",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "codeSignatureInfoAtBundleURL:": {
+      "name": "codeSignatureInfoAtBundleURL:",
+      "bridgedName": "codeSignatureInfoAtBundleURL",
+      "args": [
+        {
+          "name": "bundlePath",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,38 @@
+{
+  "name": "MSColorInspectorSectionGradient",
+  "extends": "MSColorInspectorSectionWithColorPicker",
+  "interfaces": [
+    "MSGradientEventHandlerDelegate",
+    "MSGradientBarViewDelegate"
+  ],
+  "methods": {
+    "switchToGradientHandlerIfNecessary": {
+      "name": "switchToGradientHandlerIfNecessary",
+      "bridgedName": "switchToGradientHandlerIfNecessary",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closeGradientHandler": {
+      "name": "closeGradientHandler",
+      "bridgedName": "closeGradientHandler",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "gradientBarView": {
+      "name": "gradientBarView",
+      "pointer": false,
+      "type": "IBOutlet MSGradientBarView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

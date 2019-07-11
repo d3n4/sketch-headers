@@ -1,0 +1,25 @@
+{
+  "name": "MSImmutableGraphicsContextSettings",
+  "extends": "_MSImmutableGraphicsContextSettings",
+  "interfaces": [],
+  "methods": {
+    "shouldChangeGraphicsContext": {
+      "name": "shouldChangeGraphicsContext",
+      "bridgedName": "shouldChangeGraphicsContext",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "CGBlendMode": {
+      "name": "CGBlendMode",
+      "bridgedName": "CGBlendMode",
+      "args": [],
+      "returns": "CGBlendMode",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

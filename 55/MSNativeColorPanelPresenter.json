@@ -1,0 +1,50 @@
+{
+  "name": "MSNativeColorPanelPresenter",
+  "extends": "NSResponder",
+  "interfaces": [],
+  "methods": {
+    "initWithNextResponderView:delegate:": {
+      "name": "initWithNextResponderView:delegate:",
+      "bridgedName": "initWithNextResponderView_delegate",
+      "args": [
+        {
+          "name": "nextResponderView",
+          "type": "nonnull NSView *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<MSNativeColorPanelPresenterDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "presentWithColor:": {
+      "name": "presentWithColor:",
+      "bridgedName": "presentWithColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closeColorPanel": {
+      "name": "closeColorPanel",
+      "bridgedName": "closeColorPanel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

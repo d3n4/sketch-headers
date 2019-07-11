@@ -1,0 +1,8 @@
+{
+  "name": "MSAlignmentBackgroundView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MSOverrideManagementViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "rowHeight": {
+      "name": "rowHeight",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    },
+    "managementItem": {
+      "name": "managementItem",
+      "pointer": false,
+      "type": "__kindof MSOverrideManagementItem ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

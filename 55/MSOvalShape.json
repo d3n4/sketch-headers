@@ -1,0 +1,8 @@
+{
+  "name": "MSOvalShape",
+  "extends": "_MSOvalShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,250 @@
+{
+  "name": "SCKAPISession",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "currentSessionWithError:)": {
+      "name": "currentSessionWithError:)",
+      "bridgedName": "currentSessionWithError_)",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable SCKAPISession *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setCurrentWithError:": {
+      "name": "setCurrentWithError:",
+      "bridgedName": "setCurrentWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeCurrentWithError:)": {
+      "name": "removeCurrentWithError:)",
+      "bridgedName": "removeCurrentWithError_)",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "invalidateCurrentCache": {
+      "name": "invalidateCurrentCache",
+      "bridgedName": "invalidateCurrentCache",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithOAuthDictionary:": {
+      "name": "initWithOAuthDictionary:",
+      "bridgedName": "initWithOAuthDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithTokenData:forUserID:": {
+      "name": "initWithTokenData:forUserID:",
+      "bridgedName": "initWithTokenData_forUserID",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        },
+        {
+          "name": "userID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sessionWithRefreshToken:": {
+      "name": "sessionWithRefreshToken:",
+      "bridgedName": "sessionWithRefreshToken",
+      "args": [
+        {
+          "name": "refreshToken",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithToken:ofType:refreshToken:forUserID:": {
+      "name": "initWithToken:ofType:refreshToken:forUserID:",
+      "bridgedName": "initWithToken_ofType_refreshToken_forUserID",
+      "args": [
+        {
+          "name": "token",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "tokenType",
+          "type": "SCKAPISessionTokenType",
+          "nullable": false
+        },
+        {
+          "name": "refreshToken",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "userID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isRefreshedByAuthentication:)": {
+      "name": "isRefreshedByAuthentication:)",
+      "bridgedName": "isRefreshedByAuthentication_)",
+      "args": [
+        {
+          "name": "authentication",
+          "type": "SCKAPISession *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasCurrent": {
+      "name": "hasCurrent",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    },
+    "isCurrent": {
+      "name": "isCurrent",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "refreshToken": {
+      "name": "refreshToken",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "tokenData": {
+      "name": "tokenData",
+      "pointer": false,
+      "type": "NSData ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "token": {
+      "name": "token",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "userID": {
+      "name": "userID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "tokenType": {
+      "name": "tokenType",
+      "pointer": false,
+      "type": "SCKAPISessionTokenType",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "expirationDate": {
+      "name": "expirationDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "isValid": {
+      "name": "isValid",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "httpAuthorizationValue": {
+      "name": "httpAuthorizationValue",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

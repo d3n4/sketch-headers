@@ -1,0 +1,41 @@
+{
+  "name": "MSLicenseRegistrationWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [
+    "NSWindowDelegate"
+  ],
+  "methods": {
+    "showTrialExpiredModal": {
+      "name": "showTrialExpiredModal",
+      "bridgedName": "showTrialExpiredModal",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "showRegistrationWindow": {
+      "name": "showRegistrationWindow",
+      "bridgedName": "showRegistrationWindow",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "registerWithKey:": {
+      "name": "registerWithKey:",
+      "bridgedName": "registerWithKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

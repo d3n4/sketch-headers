@@ -1,0 +1,10 @@
+{
+  "name": "MSLogAction",
+  "extends": "MSAction",
+  "interfaces": [
+    "MSPluginLogAction"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

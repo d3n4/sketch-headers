@@ -1,0 +1,33 @@
+{
+  "name": "MSCloudPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [],
+  "methods": {
+    "updateWindowFrame": {
+      "name": "updateWindowFrame",
+      "bridgedName": "updateWindowFrame",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showAndSignIn": {
+      "name": "showAndSignIn",
+      "bridgedName": "showAndSignIn",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "signIn": {
+      "name": "signIn",
+      "bridgedName": "signIn",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,55 @@
+{
+  "name": "MOMethod",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "methodWithTarget:selector:": {
+      "name": "methodWithTarget:selector:",
+      "bridgedName": "methodWithTarget_selector",
+      "args": [
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "MOMethod *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "target": {
+      "name": "target",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "strong",
+        "readwrite"
+      ]
+    },
+    "selector": {
+      "name": "selector",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "readwrite"
+      ]
+    },
+    "block": {
+      "name": "block",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "copy",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

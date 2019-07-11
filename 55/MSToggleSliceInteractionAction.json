@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleSliceInteractionAction",
+  "extends": "MSToggleViewPreferenceAction",
+  "interfaces": [],
+  "methods": {
+    "toggleSliceInteraction:": {
+      "name": "toggleSliceInteraction:",
+      "bridgedName": "toggleSliceInteraction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

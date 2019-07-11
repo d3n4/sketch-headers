@@ -1,0 +1,38 @@
+{
+  "name": "MSForeignSymbol",
+  "extends": "_MSForeignSymbol",
+  "interfaces": [],
+  "methods": {
+    "foreignSymbolWithMaster:inLibrary:": {
+      "name": "foreignSymbolWithMaster:inLibrary:",
+      "bridgedName": "foreignSymbolWithMaster_inLibrary",
+      "args": [
+        {
+          "name": "master",
+          "type": "MSSymbolMaster*",
+          "nullable": false
+        },
+        {
+          "name": "library",
+          "type": "id<MSLibraryObject>",
+          "nullable": false
+        }
+      ],
+      "returns": "MSForeignSymbol*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "remoteSymbolID": {
+      "name": "remoteSymbolID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

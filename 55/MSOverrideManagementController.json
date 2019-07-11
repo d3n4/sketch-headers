@@ -1,0 +1,29 @@
+{
+  "name": "MSOverrideManagementController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "master": {
+      "name": "master",
+      "pointer": false,
+      "type": "MSSymbolMaster ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "items": {
+      "name": "items",
+      "pointer": false,
+      "type": "NSArray<__kindof MSOverrideManagementItem *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

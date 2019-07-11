@@ -1,0 +1,207 @@
+{
+  "name": "SUUpdater",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedUpdater": {
+      "name": "sharedUpdater",
+      "bridgedName": "sharedUpdater",
+      "args": [],
+      "returns": "SUUpdater *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "updaterForBundle:": {
+      "name": "updaterForBundle:",
+      "bridgedName": "updaterForBundle",
+      "args": [
+        {
+          "name": "bundle",
+          "type": "NSBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "SUUpdater *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initForBundle:": {
+      "name": "initForBundle:",
+      "bridgedName": "initForBundle",
+      "args": [
+        {
+          "name": "bundle",
+          "type": "NSBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkForUpdates:": {
+      "name": "checkForUpdates:",
+      "bridgedName": "checkForUpdates",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateMenuItem:": {
+      "name": "validateMenuItem:",
+      "bridgedName": "validateMenuItem",
+      "args": [
+        {
+          "name": "menuItem",
+          "type": "NSMenuItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkForUpdatesInBackground": {
+      "name": "checkForUpdatesInBackground",
+      "bridgedName": "checkForUpdatesInBackground",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkForUpdateInformation": {
+      "name": "checkForUpdateInformation",
+      "bridgedName": "checkForUpdateInformation",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installUpdatesIfAvailable": {
+      "name": "installUpdatesIfAvailable",
+      "bridgedName": "installUpdatesIfAvailable",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetUpdateCycle": {
+      "name": "resetUpdateCycle",
+      "bridgedName": "resetUpdateCycle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id<SUUpdaterDelegate>",
+      "attributes": [
+        "unsafe_unretained"
+      ]
+    },
+    "automaticallyChecksForUpdates": {
+      "name": "automaticallyChecksForUpdates",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    },
+    "automaticallyDownloadsUpdates": {
+      "name": "automaticallyDownloadsUpdates",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    },
+    "updateCheckInterval": {
+      "name": "updateCheckInterval",
+      "pointer": false,
+      "type": "NSTimeInterval",
+      "attributes": []
+    },
+    "feedURL": {
+      "name": "feedURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "hostBundle": {
+      "name": "hostBundle",
+      "pointer": false,
+      "type": "NSBundle ",
+      "attributes": [
+        "readonly",
+        "strong"
+      ]
+    },
+    "sparkleBundle": {
+      "name": "sparkleBundle",
+      "pointer": false,
+      "type": "NSBundle ",
+      "attributes": [
+        "strong",
+        "readonly"
+      ]
+    },
+    "userAgentString": {
+      "name": "userAgentString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "httpHeaders": {
+      "name": "httpHeaders",
+      "pointer": true,
+      "type": "NSDictionary<NSString *, NSString *>",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "sendsSystemProfile": {
+      "name": "sendsSystemProfile",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    },
+    "decryptionPassword": {
+      "name": "decryptionPassword",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "lastUpdateCheckDate": {
+      "name": "lastUpdateCheckDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "readonly",
+        "copy"
+      ]
+    },
+    "updateInProgress": {
+      "name": "updateInProgress",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

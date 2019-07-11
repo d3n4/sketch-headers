@@ -1,0 +1,8 @@
+{
+  "name": "SMKUSBConnection",
+  "extends": "SMKConnection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

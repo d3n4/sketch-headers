@@ -1,0 +1,8 @@
+{
+  "name": "MSCurvePointAsymmetricBehaviour",
+  "extends": "MSCurvePointBehaviour",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

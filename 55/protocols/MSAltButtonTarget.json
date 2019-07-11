@@ -1,0 +1,42 @@
+{
+  "protocol": true,
+  "name": "MSAltButtonTarget",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "altButtonCanShowAltImage:": {
+      "name": "altButtonCanShowAltImage:",
+      "bridgedName": "altButtonCanShowAltImage",
+      "args": [
+        {
+          "name": "altButton",
+          "type": "nonnull MSAltButton *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toolTipForAltButton:alternate:": {
+      "name": "toolTipForAltButton:alternate:",
+      "bridgedName": "toolTipForAltButton_alternate",
+      "args": [
+        {
+          "name": "altButton",
+          "type": "nonnull MSAltButton *",
+          "nullable": false
+        },
+        {
+          "name": "alternateTooltip",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

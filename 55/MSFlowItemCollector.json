@@ -1,0 +1,61 @@
+{
+  "name": "MSFlowItemCollector",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithLayers:onPage:document:": {
+      "name": "initWithLayers:onPage:document:",
+      "bridgedName": "initWithLayers_onPage_document",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "collectFlows:": {
+      "name": "collectFlows:",
+      "bridgedName": "collectFlows",
+      "args": [
+        {
+          "name": "existingFlows",
+          "type": "NSDictionary <id, MSFlowItem *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary <id, MSFlowItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldInvalidateCollectedFlowsWithDiff:": {
+      "name": "shouldInvalidateCollectedFlowsWithDiff:",
+      "bridgedName": "shouldInvalidateCollectedFlowsWithDiff",
+      "args": [
+        {
+          "name": "diff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

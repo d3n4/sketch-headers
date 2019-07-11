@@ -1,0 +1,10 @@
+{
+  "name": "MSUpdatePluginsAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "MSWindowBadgeAction"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "MSLibraryUpdatesAvailableBadgeAction",
+  "extends": "MSAction",
+  "interfaces": [
+    "MSWindowBadgeAction"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

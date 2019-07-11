@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSPasteboardReaderOptions",
+  "members": [
+    {
+      "name": "MSPasteboardReaderOptionsNone",
+      "value": "0"
+    },
+    {
+      "name": "MSPasteboardReaderOptionsStripTextStyle",
+      "value": "1<<0"
+    },
+    {
+      "name": "MSPasteboardReaderOptionsDefault",
+      "value": "MSPasteboardReaderOptionsStripTextStyle"
+    }
+  ]
+}

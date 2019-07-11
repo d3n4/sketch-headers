@@ -1,0 +1,36 @@
+{
+  "name": "MSPathWithColor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "path": {
+      "name": "path",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "representedString": {
+      "name": "representedString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

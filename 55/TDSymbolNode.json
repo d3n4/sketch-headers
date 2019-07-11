@@ -1,0 +1,39 @@
+{
+  "name": "TDSymbolNode",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithParent:character:": {
+      "name": "initWithParent:character:",
+      "bridgedName": "initWithParent_character",
+      "args": [
+        {
+          "name": "p",
+          "type": "TDSymbolNode *",
+          "nullable": false
+        },
+        {
+          "name": "c",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "ancestry": {
+      "name": "ancestry",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "retain"
+      ]
+    }
+  },
+  "generics": []
+}

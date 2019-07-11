@@ -1,0 +1,32 @@
+{
+  "name": "MSPerspectiveInstructions",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "applyToImage:": {
+      "name": "applyToImage:",
+      "bridgedName": "applyToImage",
+      "args": [
+        {
+          "name": "image",
+          "type": "CIImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "CIImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

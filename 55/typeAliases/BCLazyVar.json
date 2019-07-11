@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "BCLazyVar",
+  "type": "struct BCLazyVar",
+  "pointer": false
+}

@@ -1,0 +1,18 @@
+{
+  "name": "BCAlphaColorPicker",
+  "extends": "BCColorPickerSliderView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSFlexibleColor ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    }
+  },
+  "generics": []
+}

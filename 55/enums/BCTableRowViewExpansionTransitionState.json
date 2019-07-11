@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "BCTableRowViewExpansionTransitionState",
+  "members": [
+    {
+      "name": "BCTableRowViewExpansionTransitionStateAtRest"
+    },
+    {
+      "name": "BCTableRowViewExpansionTransitionStateCollapsing"
+    },
+    {
+      "name": "BCTableRowViewExpansionTransitionStateExpanding"
+    }
+  ]
+}

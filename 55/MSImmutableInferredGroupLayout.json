@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableInferredGroupLayout",
+  "extends": "_MSImmutableInferredGroupLayout",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

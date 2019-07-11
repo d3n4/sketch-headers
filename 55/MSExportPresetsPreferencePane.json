@@ -1,0 +1,242 @@
+{
+  "name": "MSExportPresetsPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [
+    "NSTableViewDataSource",
+    "NSTableViewDelegate"
+  ],
+  "methods": {
+    "editExportPreset:": {
+      "name": "editExportPreset:",
+      "bridgedName": "editExportPreset",
+      "args": [
+        {
+          "name": "preset",
+          "type": "MSExportPreset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addExportPreset:": {
+      "name": "addExportPreset:",
+      "bridgedName": "addExportPreset",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeExportPreset:": {
+      "name": "removeExportPreset:",
+      "bridgedName": "removeExportPreset",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pickDefaultExportPreset:": {
+      "name": "pickDefaultExportPreset:",
+      "bridgedName": "pickDefaultExportPreset",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "restoreDefaultExportPresets:": {
+      "name": "restoreDefaultExportPresets:",
+      "bridgedName": "restoreDefaultExportPresets",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addExportFormat:": {
+      "name": "addExportFormat:",
+      "bridgedName": "addExportFormat",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeExportFormatFromPreset:": {
+      "name": "removeExportFormatFromPreset:",
+      "bridgedName": "removeExportFormatFromPreset",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "commitExportPresetName:": {
+      "name": "commitExportPresetName:",
+      "bridgedName": "commitExportPresetName",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "localizedNewExportPresetName": {
+      "name": "localizedNewExportPresetName",
+      "bridgedName": "localizedNewExportPresetName",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "addButton": {
+      "name": "addButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "addFormatButton": {
+      "name": "addFormatButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "exportFormatEditorView": {
+      "name": "exportFormatEditorView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "exportFormatFooterView": {
+      "name": "exportFormatFooterView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "exportFormatFooterBottomConstraint": {
+      "name": "exportFormatFooterBottomConstraint",
+      "pointer": false,
+      "type": "IBOutlet NSLayoutConstraint ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "exportFormatsView": {
+      "name": "exportFormatsView",
+      "pointer": false,
+      "type": "IBOutlet NSStackView ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "exportFormatsViewController": {
+      "name": "exportFormatsViewController",
+      "pointer": false,
+      "type": "IBOutlet MSExportFormatViewController ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "noPresetsPlaceholderView": {
+      "name": "noPresetsPlaceholderView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "presetNameTextField": {
+      "name": "presetNameTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "removeButton": {
+      "name": "removeButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "tableView": {
+      "name": "tableView",
+      "pointer": false,
+      "type": "IBOutlet NSTableView ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "presets": {
+      "name": "presets",
+      "pointer": false,
+      "type": "NSArray<MSExportPreset *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

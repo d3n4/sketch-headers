@@ -1,0 +1,8 @@
+{
+  "name": "MSIntegerSlider",
+  "extends": "NSSlider",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

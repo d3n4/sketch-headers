@@ -1,0 +1,21 @@
+{
+  "enum": true,
+  "name": "MSDataMenuPresentationContext",
+  "members": [
+    {
+      "name": "MSDataMenuPresentationContextMainMenu"
+    },
+    {
+      "name": "MSDataMenuPresentationContextContextMenu"
+    },
+    {
+      "name": "MSDataMenuPresentationContextToolbar"
+    },
+    {
+      "name": "MSDataMenuPresentationContextInspectorOverride"
+    },
+    {
+      "name": "MSDataMenuPresentationContextFillPattern"
+    }
+  ]
+}

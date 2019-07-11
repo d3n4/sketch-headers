@@ -1,0 +1,8 @@
+{
+  "protocol": true,
+  "name": "MSRenderer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {}
+}

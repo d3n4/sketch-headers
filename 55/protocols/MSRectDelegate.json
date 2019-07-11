@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSRectDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "rect:didChangeFromRect:": {
+      "name": "rect:didChangeFromRect:",
+      "bridgedName": "rect_didChangeFromRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "MSRect *",
+          "nullable": false
+        },
+        {
+          "name": "oldRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

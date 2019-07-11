@@ -1,0 +1,33 @@
+{
+  "name": "MSActionGroup",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "actionNames": {
+      "name": "actionNames",
+      "bridgedName": "actionNames",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "childActions": {
+      "name": "childActions",
+      "bridgedName": "childActions",
+      "args": [],
+      "returns": "NSArray <MSAction *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportsState": {
+      "name": "supportsState",
+      "bridgedName": "supportsState",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

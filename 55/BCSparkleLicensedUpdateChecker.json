@@ -1,0 +1,160 @@
+{
+  "name": "BCSparkleLicensedUpdateChecker",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sparkleCheckerWithLicenseExpirationDate:buildNumber:appcastResults:": {
+      "name": "sparkleCheckerWithLicenseExpirationDate:buildNumber:appcastResults:",
+      "bridgedName": "sparkleCheckerWithLicenseExpirationDate_buildNumber_appcastResults",
+      "args": [
+        {
+          "name": "date",
+          "type": "NSDate*",
+          "nullable": false
+        },
+        {
+          "name": "buildNumber",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "results",
+          "type": "NSArray<NSDictionary*>*",
+          "nullable": false
+        }
+      ],
+      "returns": "BCSparkleLicensedUpdateChecker*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "numberOfUnavailableReleases": {
+      "name": "numberOfUnavailableReleases",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasAvailableUpdates": {
+      "name": "hasAvailableUpdates",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfUpdatesRequiringRenewal": {
+      "name": "numberOfUpdatesRequiringRenewal",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "numberOfUpdatesRequiringHostUpdate": {
+      "name": "numberOfUpdatesRequiringHostUpdate",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "numberOfUpdatesRequiringHostUpdateAndRenewal": {
+      "name": "numberOfUpdatesRequiringHostUpdateAndRenewal",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "latestUnavailableVersion": {
+      "name": "latestUnavailableVersion",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableBuildNumber": {
+      "name": "latestUnavailableBuildNumber",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableVersionBeforeRenewing": {
+      "name": "latestUnavailableVersionBeforeRenewing",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableBuildNumberBeforeRenewing": {
+      "name": "latestUnavailableBuildNumberBeforeRenewing",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableVersionBeforeUpdatingMac": {
+      "name": "latestUnavailableVersionBeforeUpdatingMac",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableBuildNumberBeforeUpdatingMac": {
+      "name": "latestUnavailableBuildNumberBeforeUpdatingMac",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableVersionBeforeUpdatingMacAndRenewing": {
+      "name": "latestUnavailableVersionBeforeUpdatingMacAndRenewing",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableBuildNumberBeforeUpdatingMacAndRenewing": {
+      "name": "latestUnavailableBuildNumberBeforeUpdatingMacAndRenewing",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "indexOfBestUpdate": {
+      "name": "indexOfBestUpdate",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,93 @@
+{
+  "name": "MSFlashController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "displayFlashMessage:": {
+      "name": "displayFlashMessage:",
+      "bridgedName": "displayFlashMessage",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "displayWarningMessage:withHelpHandler:": {
+      "name": "displayWarningMessage:withHelpHandler:",
+      "bridgedName": "displayWarningMessage_withHelpHandler",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "helpBlock",
+          "type": "MSFlashControllerHelpBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "displayFixedMessage:withHelpHandler:": {
+      "name": "displayFixedMessage:withHelpHandler:",
+      "bridgedName": "displayFixedMessage_withHelpHandler",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "helpBlock",
+          "type": "MSFlashControllerHelpBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeMessage:": {
+      "name": "removeMessage:",
+      "bridgedName": "removeMessage",
+      "args": [
+        {
+          "name": "message",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearFlash": {
+      "name": "clearFlash",
+      "bridgedName": "clearFlash",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "stackView": {
+      "name": "stackView",
+      "pointer": false,
+      "type": "IBOutlet NSStackView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

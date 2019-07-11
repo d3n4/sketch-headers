@@ -1,0 +1,23 @@
+{
+  "name": "MSShowFillOptionsAction",
+  "extends": "MSBaseStyleAction",
+  "interfaces": [],
+  "methods": {
+    "showFillOptions:": {
+      "name": "showFillOptions:",
+      "bridgedName": "showFillOptions",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

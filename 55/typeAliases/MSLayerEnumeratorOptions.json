@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "MSLayerEnumeratorOptions",
+  "type": "NSUInteger",
+  "pointer": false
+}

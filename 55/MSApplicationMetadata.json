@@ -1,0 +1,25 @@
+{
+  "name": "MSApplicationMetadata",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "metadata": {
+      "name": "metadata",
+      "bridgedName": "metadata",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "applicationKeys": {
+      "name": "applicationKeys",
+      "bridgedName": "applicationKeys",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

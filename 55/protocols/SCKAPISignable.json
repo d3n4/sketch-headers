@@ -1,0 +1,18 @@
+{
+  "protocol": true,
+  "name": "SCKAPISignable",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "signableString": {
+      "name": "signableString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

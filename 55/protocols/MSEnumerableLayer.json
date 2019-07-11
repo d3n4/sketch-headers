@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSEnumerableLayer",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "enumeratorWithOptions:": {
+      "name": "enumeratorWithOptions:",
+      "bridgedName": "enumeratorWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSLayerEnumeratorFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerEnumerator<id<MSLayer>> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

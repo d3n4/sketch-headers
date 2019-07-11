@@ -1,0 +1,23 @@
+{
+  "name": "MSWelcomeToSketchAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "welcomeToSketch:": {
+      "name": "welcomeToSketch:",
+      "bridgedName": "welcomeToSketch",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

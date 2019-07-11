@@ -1,0 +1,8 @@
+{
+  "name": "MSZoomOutAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

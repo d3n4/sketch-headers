@@ -1,0 +1,77 @@
+{
+  "name": "SCKShare",
+  "extends": "SCKObject",
+  "interfaces": [],
+  "methods": {
+    "readOnlyCopy": {
+      "name": "readOnlyCopy",
+      "bridgedName": "readOnlyCopy",
+      "args": [],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "shortID": {
+      "name": "shortID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "publicURL": {
+      "name": "publicURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "isPrivate": {
+      "name": "isPrivate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentVersion": {
+      "name": "currentVersion",
+      "pointer": false,
+      "type": "SCKShareVersion ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "canUpdate": {
+      "name": "canUpdate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "owner": {
+      "name": "owner",
+      "pointer": false,
+      "type": "SCKUser ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

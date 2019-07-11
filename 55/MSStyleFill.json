@@ -1,0 +1,58 @@
+{
+  "name": "MSStyleFill",
+  "extends": "_MSStyleFill",
+  "interfaces": [
+    "MSImageOwner"
+  ],
+  "methods": {
+    "CSSAttributeString": {
+      "name": "CSSAttributeString",
+      "bridgedName": "CSSAttributeString",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasOpacity": {
+      "name": "hasOpacity",
+      "bridgedName": "hasOpacity",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setOpacity:": {
+      "name": "setOpacity:",
+      "bridgedName": "setOpacity",
+      "args": [
+        {
+          "name": "opacity",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "NSImage": {
+      "name": "NSImage",
+      "bridgedName": "NSImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "interfaceOpacity": {
+      "name": "interfaceOpacity",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}
