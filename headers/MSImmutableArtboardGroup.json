@@ -28,15 +28,6 @@
     }
   },
   "properties": {
-    "contentBounds": {
-      "name": "contentBounds",
-      "pointer": false,
-      "type": "NSRect",
-      "attributes": [
-        "readonly",
-        "nonatomic"
-      ]
-    },
     "unscaledNameSize": {
       "name": "unscaledNameSize",
       "pointer": false,

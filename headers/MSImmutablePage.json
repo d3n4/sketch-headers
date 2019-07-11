@@ -4,7 +4,22 @@
   "interfaces": [
     "MSImmutableRootLayer"
   ],
-  "methods": {},
+  "methods": {
+    "contentBoundsForDocument:": {
+      "name": "contentBoundsForDocument:",
+      "bridgedName": "contentBoundsForDocument",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "selectedLayerIDs": {
       "name": "selectedLayerIDs",

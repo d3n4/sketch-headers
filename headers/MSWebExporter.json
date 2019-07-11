@@ -85,6 +85,20 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "exportBitmapImageForRequest:": {
+      "name": "exportBitmapImageForRequest:",
+      "bridgedName": "exportBitmapImageForRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "MSWebExportRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "exportArtboardsWithCompletionBlock:": {
       "name": "exportArtboardsWithCompletionBlock:",
       "bridgedName": "exportArtboardsWithCompletionBlock",

@@ -47,9 +47,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "artboardGroup": {
-      "name": "artboardGroup",
-      "bridgedName": "artboardGroup",
+    "makeArtboardGroup": {
+      "name": "makeArtboardGroup",
+      "bridgedName": "makeArtboardGroup",
       "args": [],
       "returns": "MSArtboardGroup*",
       "kind": "instance",

@@ -94,13 +94,27 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "pathWithSubPaths:": {
-      "name": "pathWithSubPaths:",
-      "bridgedName": "pathWithSubPaths",
+    "pathWithSubpaths:": {
+      "name": "pathWithSubpaths:",
+      "bridgedName": "pathWithSubpaths",
       "args": [
         {
-          "name": "subPaths",
+          "name": "subpaths",
           "type": "NSArray <MSPath *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathWithContours:": {
+      "name": "pathWithContours:",
+      "bridgedName": "pathWithContours",
+      "args": [
+        {
+          "name": "contours",
+          "type": "NSArray <MSBezierContour *> *",
           "nullable": false
         }
       ],
@@ -243,6 +257,20 @@
         {
           "name": "pathRef",
           "type": "CGPathRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithContours:": {
+      "name": "initWithContours:",
+      "bridgedName": "initWithContours",
+      "args": [
+        {
+          "name": "contours",
+          "type": "NSArray <MSBezierContour *> *",
           "nullable": false
         }
       ],
@@ -535,14 +563,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "subPaths": {
-      "name": "subPaths",
-      "bridgedName": "subPaths",
-      "args": [],
-      "returns": "NSArray<MSPath *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "pointAtIndex:": {
       "name": "pointAtIndex:",
       "bridgedName": "pointAtIndex",
@@ -595,13 +615,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "bezierIndexForPoint:": {
-      "name": "bezierIndexForPoint:",
-      "bridgedName": "bezierIndexForPoint",
+    "bezierIndexForPoint:tolerance:": {
+      "name": "bezierIndexForPoint:tolerance:",
+      "bridgedName": "bezierIndexForPoint_tolerance",
       "args": [
         {
           "name": "point",
           "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "tolerance",
+          "type": "CGFloat",
           "nullable": false
         }
       ],
@@ -909,6 +934,33 @@
       "name": "safeBounds",
       "pointer": false,
       "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "subpaths": {
+      "name": "subpaths",
+      "pointer": false,
+      "type": "NSArray<MSPath *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "openSubpaths": {
+      "name": "openSubpaths",
+      "pointer": false,
+      "type": "NSArray<MSPath *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "closedSubpaths": {
+      "name": "closedSubpaths",
+      "pointer": false,
+      "type": "NSArray<MSPath *> ",
       "attributes": [
         "nonatomic",
         "readonly"

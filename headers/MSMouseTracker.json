@@ -190,6 +190,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "canUpdateCursor": {
+      "name": "canUpdateCursor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

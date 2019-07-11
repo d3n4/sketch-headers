@@ -85,14 +85,6 @@
     }
   },
   "properties": {
-    "currentMode": {
-      "name": "currentMode",
-      "pointer": false,
-      "type": "MSBitmapEditMode",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
     "accumulatedSelection": {
       "name": "accumulatedSelection",
       "pointer": false,

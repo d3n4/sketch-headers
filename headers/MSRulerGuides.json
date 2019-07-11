@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "findHoverGuidesOnPage:mouse:rulesVisible:": {
-      "name": "findHoverGuidesOnPage:mouse:rulesVisible:",
-      "bridgedName": "findHoverGuidesOnPage_mouse_rulesVisible",
+    "findHoverGuidesOnPage:mouse:rulesVisible:zoomScale:": {
+      "name": "findHoverGuidesOnPage:mouse:rulesVisible:zoomScale:",
+      "bridgedName": "findHoverGuidesOnPage_mouse_rulesVisible_zoomScale",
       "args": [
         {
           "name": "page",
@@ -21,15 +21,20 @@
           "name": "rulersVisible",
           "type": "BOOL",
           "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
         }
       ],
-      "returns": "NSArray <MSSnapLine *> *",
+      "returns": "NSArray <MSLayoutPosition *> *",
       "kind": "class",
       "kindIndicator": "+"
     },
-    "horizontalGuidesForVerticalRulerOnPage:forDrawing:rulersVisible:": {
-      "name": "horizontalGuidesForVerticalRulerOnPage:forDrawing:rulersVisible:",
-      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_forDrawing_rulersVisible",
+    "horizontalGuidesForVerticalRulerOnPage:forDrawing:rulersVisible:zoomScale:": {
+      "name": "horizontalGuidesForVerticalRulerOnPage:forDrawing:rulersVisible:zoomScale:",
+      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_forDrawing_rulersVisible_zoomScale",
       "args": [
         {
           "name": "page",
@@ -45,68 +50,20 @@
           "name": "rulersVisible",
           "type": "BOOL",
           "nullable": false
-        }
-      ],
-      "returns": "NSArray <MSSnapLine *> *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "horizontalGuidesForVerticalRulerOnPage:forDrawing:inRect:rulersVisible:": {
-      "name": "horizontalGuidesForVerticalRulerOnPage:forDrawing:inRect:rulersVisible:",
-      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_forDrawing_inRect_rulersVisible",
-      "args": [
-        {
-          "name": "page",
-          "type": "MSPage *",
-          "nullable": false
         },
         {
-          "name": "forDrawing",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        },
-        {
-          "name": "rulersVisible",
-          "type": "BOOL",
+          "name": "zoomScale",
+          "type": "CGFloat",
           "nullable": false
         }
       ],
-      "returns": "NSArray <MSSnapLine *> *",
+      "returns": "NSArray <MSLayoutPosition *> *",
       "kind": "class",
       "kindIndicator": "+"
     },
-    "verticalGuidesForHorizontalRulerOnPage:forDrawing:rulersVisible:": {
-      "name": "verticalGuidesForHorizontalRulerOnPage:forDrawing:rulersVisible:",
-      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_forDrawing_rulersVisible",
-      "args": [
-        {
-          "name": "page",
-          "type": "MSPage *",
-          "nullable": false
-        },
-        {
-          "name": "forDrawing",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "rulersVisible",
-          "type": "BOOL",
-          "nullable": false
-        }
-      ],
-      "returns": "NSArray <MSSnapLine *> *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "verticalGuidesForHorizontalRulerOnPage:forDrawing:inRect:rulersVisible:": {
-      "name": "verticalGuidesForHorizontalRulerOnPage:forDrawing:inRect:rulersVisible:",
-      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_forDrawing_inRect_rulersVisible",
+    "horizontalGuidesForVerticalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:": {
+      "name": "horizontalGuidesForVerticalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:",
+      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_forDrawing_inRect_rulersVisible_zoomScale",
       "args": [
         {
           "name": "page",
@@ -127,9 +84,77 @@
           "name": "rulersVisible",
           "type": "BOOL",
           "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
         }
       ],
-      "returns": "NSArray <MSSnapLine *> *",
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "verticalGuidesForHorizontalRulerOnPage:forDrawing:rulersVisible:zoomScale:": {
+      "name": "verticalGuidesForHorizontalRulerOnPage:forDrawing:rulersVisible:zoomScale:",
+      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_forDrawing_rulersVisible_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "forDrawing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "verticalGuidesForHorizontalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:": {
+      "name": "verticalGuidesForHorizontalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:",
+      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_forDrawing_inRect_rulersVisible_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "forDrawing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
       "kind": "class",
       "kindIndicator": "+"
     }

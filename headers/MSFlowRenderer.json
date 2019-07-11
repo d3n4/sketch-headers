@@ -29,8 +29,8 @@
     }
   },
   "properties": {
-    "flowParentLayerIDs": {
-      "name": "flowParentLayerIDs",
+    "flowInfluencingLayerIDs": {
+      "name": "flowInfluencingLayerIDs",
       "pointer": false,
       "type": "NSArray ",
       "attributes": [

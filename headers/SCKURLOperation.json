@@ -1,0 +1,27 @@
+{
+  "name": "SCKURLOperation",
+  "extends": "SCKOperation",
+  "interfaces": [],
+  "methods": {
+    "sharedURLSession": {
+      "name": "sharedURLSession",
+      "bridgedName": "sharedURLSession",
+      "args": [],
+      "returns": "NSURLSession *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "session": {
+      "name": "session",
+      "pointer": false,
+      "type": "NSURLSession ",
+      "attributes": [
+        "atomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -161,9 +161,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "invaliateImmutableObject": {
-      "name": "invaliateImmutableObject",
-      "bridgedName": "invaliateImmutableObject",
+    "invaliateImmutableObject DEPRECATED_ATTRIBUTE": {
+      "name": "invaliateImmutableObject DEPRECATED_ATTRIBUTE",
+      "bridgedName": "invaliateImmutableObject DEPRECATED_ATTRIBUTE",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateImmutableObject": {
+      "name": "invalidateImmutableObject",
+      "bridgedName": "invalidateImmutableObject",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateImmutableObjectAndAncestors": {
+      "name": "invalidateImmutableObjectAndAncestors",
+      "bridgedName": "invalidateImmutableObjectAndAncestors",
       "args": [],
       "returns": "void",
       "kind": "instance",

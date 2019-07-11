@@ -3,14 +3,6 @@
   "extends": "_MSSymbolInstance",
   "interfaces": [],
   "methods": {
-    "availableOverrides": {
-      "name": "availableOverrides",
-      "bridgedName": "availableOverrides",
-      "args": [],
-      "returns": "NSArray<MSAvailableOverride *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "symbolMaster": {
       "name": "symbolMaster",
       "bridgedName": "symbolMaster",
@@ -47,25 +39,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "updateInstances:preservingOverridesInBlock:": {
-      "name": "updateInstances:preservingOverridesInBlock:",
-      "bridgedName": "updateInstances_preservingOverridesInBlock",
-      "args": [
-        {
-          "name": "instances",
-          "type": "NSSet<MSSymbolInstance *> *",
-          "nullable": false
-        },
-        {
-          "name": "block",
-          "type": "BCVoidBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "numberOfVisibleCells": {
       "name": "numberOfVisibleCells",
       "bridgedName": "numberOfVisibleCells",
@@ -79,25 +52,6 @@
       "bridgedName": "detachByReplacingWithGroup",
       "args": [],
       "returns": "nullable MSLayerGroup *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "canInsertIntoGroupWithoutInfiniteRecursion:symbolInstancesBySymbolID:": {
-      "name": "canInsertIntoGroupWithoutInfiniteRecursion:symbolInstancesBySymbolID:",
-      "bridgedName": "canInsertIntoGroupWithoutInfiniteRecursion_symbolInstancesBySymbolID",
-      "args": [
-        {
-          "name": "group",
-          "type": "MSLayerGroup *",
-          "nullable": false
-        },
-        {
-          "name": "symbolInstancesBySymbolID",
-          "type": "NSDictionary <NSString *, NSSet <MSSymbolInstance *> *> *",
-          "nullable": true
-        }
-      ],
-      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -155,9 +109,32 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "invalidateIfAffectedBySymbolMastersIn:": {
+      "name": "invalidateIfAffectedBySymbolMastersIn:",
+      "bridgedName": "invalidateIfAffectedBySymbolMastersIn",
+      "args": [
+        {
+          "name": "modifiedSymbols",
+          "type": "NSSet<NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
+    "availableOverrides": {
+      "name": "availableOverrides",
+      "pointer": false,
+      "type": "NSArray<MSAvailableOverride *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "overrides": {
       "name": "overrides",
       "pointer": false,
@@ -165,6 +142,15 @@
       "attributes": [
         "nonatomic",
         "copy"
+      ]
+    },
+    "masterRefreshCounter": {
+      "name": "masterRefreshCounter",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
       ]
     },
     "influencingSymbolIDs": {

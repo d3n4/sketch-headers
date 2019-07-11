@@ -420,7 +420,7 @@
         },
         {
           "name": "tangent",
-          "type": "MSTangent",
+          "type": "MSLine",
           "nullable": false
         },
         {

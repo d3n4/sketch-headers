@@ -3,11 +3,31 @@
   "extends": "_MSImmutableStyledLayer",
   "interfaces": [],
   "methods": {
-    "windingRule": {
-      "name": "windingRule",
-      "bridgedName": "windingRule",
-      "args": [],
-      "returns": "NSWindingRule",
+    "bezierPathForStartDecorationOnPath:": {
+      "name": "bezierPathForStartDecorationOnPath:",
+      "bridgedName": "bezierPathForStartDecorationOnPath",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "MSPath * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathForEndDecorationOnPath:": {
+      "name": "bezierPathForEndDecorationOnPath:",
+      "bridgedName": "bezierPathForEndDecorationOnPath",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "MSPath * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -27,6 +47,46 @@
         }
       ],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillPathWithDecorations:context:strokePath:": {
+      "name": "fillPathWithDecorations:context:strokePath:",
+      "bridgedName": "fillPathWithDecorations_context_strokePath",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "contextRefIn",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "strokePathOut",
+          "type": "MSPath * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillStyleForDecoratedPath": {
+      "name": "fillStyleForDecoratedPath",
+      "bridgedName": "fillStyleForDecoratedPath",
+      "args": [],
+      "returns": "MSImmutableStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "strokeStyleForDecoratedPath": {
+      "name": "strokeStyleForDecoratedPath",
+      "bridgedName": "strokeStyleForDecoratedPath",
+      "args": [],
+      "returns": "MSImmutableStyle *",
       "kind": "instance",
       "kindIndicator": "-"
     }

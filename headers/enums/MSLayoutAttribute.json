@@ -45,6 +45,12 @@
       "name": "MSLayoutAttributeCapHeight"
     },
     {
+      "name": "MSLayoutAttributeGuideX"
+    },
+    {
+      "name": "MSLayoutAttributeGuideY"
+    },
+    {
       "name": "MSLayoutAttributeNotAnAttribute",
       "value": "NSLayoutAttributeNotAnAttribute"
     }

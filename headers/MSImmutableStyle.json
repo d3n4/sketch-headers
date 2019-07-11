@@ -11,6 +11,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "boundingBoxForBiggestShadowSpreadForLayer:": {
+      "name": "boundingBoxForBiggestShadowSpreadForLayer:",
+      "bridgedName": "boundingBoxForBiggestShadowSpreadForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "renderBitmapEffects:": {
       "name": "renderBitmapEffects:",
       "bridgedName": "renderBitmapEffects",
@@ -117,8 +131,8 @@
     }
   },
   "properties": {
-    "hasDecorations": {
-      "name": "hasDecorations",
+    "hasMarkers": {
+      "name": "hasMarkers",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
@@ -286,6 +300,25 @@
       "attributes": [
         "nonatomic",
         "readonly"
+      ]
+    },
+    "hasEnabledOpaqueFill": {
+      "name": "hasEnabledOpaqueFill",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "renderableFills": {
+      "name": "renderableFills",
+      "pointer": false,
+      "type": "NSArray <MSImmutableStyleFill *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nonnull"
       ]
     }
   },

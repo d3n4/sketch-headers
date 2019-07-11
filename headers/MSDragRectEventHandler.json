@@ -97,7 +97,7 @@
     "snapper": {
       "name": "snapper",
       "pointer": false,
-      "type": "MSPointSnapper ",
+      "type": "MSAlignmentEngine ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -106,7 +106,7 @@
     "snappingResult": {
       "name": "snappingResult",
       "pointer": false,
-      "type": "MSPointSnappingResult ",
+      "type": "MSAlignmentEngineResult ",
       "attributes": [
         "nonatomic",
         "nullable"

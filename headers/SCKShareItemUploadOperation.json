@@ -150,6 +150,15 @@
         "readonly"
       ]
     },
+    "additionalRetryAttempts": {
+      "name": "additionalRetryAttempts",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
     "error": {
       "name": "error",
       "pointer": false,

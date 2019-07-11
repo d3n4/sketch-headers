@@ -5,6 +5,16 @@
     "MSActionObserver"
   ],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "dataManager": {
+      "name": "dataManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
   "generics": []
 }

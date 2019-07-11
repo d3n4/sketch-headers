@@ -198,34 +198,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "startDownloadingLibrary:": {
-      "name": "startDownloadingLibrary:",
-      "bridgedName": "startDownloadingLibrary",
-      "args": [
-        {
-          "name": "remoteLibrary",
-          "type": "MSRemoteAssetLibrary *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "displayDuplicateAlertSheetForRemoteAssetLibrary:": {
-      "name": "displayDuplicateAlertSheetForRemoteAssetLibrary:",
-      "bridgedName": "displayDuplicateAlertSheetForRemoteAssetLibrary",
-      "args": [
-        {
-          "name": "remoteAssetLibrary",
-          "type": "MSRemoteAssetLibrary *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "sharedInstance": {
       "name": "sharedInstance",
       "bridgedName": "sharedInstance",
@@ -424,16 +396,6 @@
         "weak"
       ]
     },
-    "connectionController": {
-      "name": "connectionController",
-      "pointer": false,
-      "type": "MSIOSConnectionController ",
-      "attributes": [
-        "strong",
-        "readonly",
-        "nonatomic"
-      ]
-    },
     "dataFeedMenuItem": {
       "name": "dataFeedMenuItem",
       "pointer": false,
@@ -623,6 +585,15 @@
         "nonatomic",
         "assign",
         "readonly"
+      ]
+    },
+    "needToInformUserPluginsAreDisabled": {
+      "name": "needToInformUserPluginsAreDisabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
       ]
     },
     "canShowWelcomeWindowForUserAction": {

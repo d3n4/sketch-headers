@@ -5,30 +5,6 @@
     "NSTouchBarDelegate"
   ],
   "methods": {
-    "degreesForPoint:inLayer:rotationCenter:": {
-      "name": "degreesForPoint:inLayer:rotationCenter:",
-      "bridgedName": "degreesForPoint_inLayer_rotationCenter",
-      "args": [
-        {
-          "name": "p",
-          "type": "NSPoint",
-          "nullable": false
-        },
-        {
-          "name": "layer",
-          "type": "MSLayer *",
-          "nullable": false
-        },
-        {
-          "name": "rotationCenter",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "NSInteger",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "cursorForDegrees:": {
       "name": "cursorForDegrees:",
       "bridgedName": "cursorForDegrees",
@@ -57,6 +33,22 @@
       "name": "disableMoving",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "rotationCenterPoint": {
+      "name": "rotationCenterPoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "rotationAnchorPoint": {
+      "name": "rotationAnchorPoint",
+      "pointer": false,
+      "type": "NSPoint",
       "attributes": [
         "nonatomic"
       ]

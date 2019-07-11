@@ -7,6 +7,39 @@
     "NSTouchBarDelegate"
   ],
   "methods": {
+    "connectToValueAdapter:": {
+      "name": "connectToValueAdapter:",
+      "bridgedName": "connectToValueAdapter",
+      "args": [
+        {
+          "name": "valueAdaptor",
+          "type": "MSMathInspectorValueAdaptor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "connectToValueAdapter:bindingOptions:": {
+      "name": "connectToValueAdapter:bindingOptions:",
+      "bridgedName": "connectToValueAdapter_bindingOptions",
+      "args": [
+        {
+          "name": "valueAdaptor",
+          "type": "MSMathInspectorValueAdaptor *",
+          "nullable": false
+        },
+        {
+          "name": "bindingOptions",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "incrementValue": {
       "name": "incrementValue",
       "bridgedName": "incrementValue",

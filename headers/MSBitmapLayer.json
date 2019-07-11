@@ -5,34 +5,6 @@
     "MSImageOwner"
   ],
   "methods": {
-    "bitmapLayerWithImageFromPasteboard:": {
-      "name": "bitmapLayerWithImageFromPasteboard:",
-      "bridgedName": "bitmapLayerWithImageFromPasteboard",
-      "args": [
-        {
-          "name": "pasteboard",
-          "type": "NSPasteboard *",
-          "nullable": false
-        }
-      ],
-      "returns": "MSBitmapLayer *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "bitmapLayerWithImageFromPath:": {
-      "name": "bitmapLayerWithImageFromPath:",
-      "bridgedName": "bitmapLayerWithImageFromPath",
-      "args": [
-        {
-          "name": "fileURL",
-          "type": "NSURL *",
-          "nullable": false
-        }
-      ],
-      "returns": "MSBitmapLayer *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "initWithFrame:image:": {
       "name": "initWithFrame:image:",
       "bridgedName": "initWithFrame_image",

@@ -4,8 +4,8 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "localDataItem": {
-      "name": "localDataItem",
+    "dataItem": {
+      "name": "dataItem",
       "pointer": false,
       "type": "MSDataPreferenceItem ",
       "attributes": [

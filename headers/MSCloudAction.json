@@ -158,15 +158,6 @@
         "strong"
       ]
     },
-    "uploadError": {
-      "name": "uploadError",
-      "pointer": false,
-      "type": "NSError ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
     "refreshOperation": {
       "name": "refreshOperation",
       "pointer": false,

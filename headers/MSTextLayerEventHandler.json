@@ -24,10 +24,38 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "applyTextColor:": {
+      "name": "applyTextColor:",
+      "bridgedName": "applyTextColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "nonnull MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "updateTextViewStyling": {
       "name": "updateTextViewStyling",
       "bridgedName": "updateTextViewStyling",
       "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setListType:": {
+      "name": "setListType:",
+      "bridgedName": "setListType",
+      "args": [
+        {
+          "name": "list",
+          "type": "nonnull NSTextList *",
+          "nullable": false
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

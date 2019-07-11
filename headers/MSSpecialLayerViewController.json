@@ -19,6 +19,14 @@
       "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "valuesPossiblyChanged": {
+      "name": "valuesPossiblyChanged",
+      "bridgedName": "valuesPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

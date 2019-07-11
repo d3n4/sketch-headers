@@ -53,20 +53,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "snapLineWithPosition:": {
-      "name": "snapLineWithPosition:",
-      "bridgedName": "snapLineWithPosition",
-      "args": [
-        {
-          "name": "position",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "MSSnapLine *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "baseLine": {
       "name": "baseLine",
       "bridgedName": "baseLine",

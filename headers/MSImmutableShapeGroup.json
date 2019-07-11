@@ -5,97 +5,9 @@
     "MSShapeGroup"
   ],
   "methods": {
-    "bezierPathForStartDecorationOnPath:": {
-      "name": "bezierPathForStartDecorationOnPath:",
-      "bridgedName": "bezierPathForStartDecorationOnPath",
-      "args": [
-        {
-          "name": "bezier",
-          "type": "MSPath *",
-          "nullable": false
-        }
-      ],
-      "returns": "MSPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathForEndDecorationOnPath:": {
-      "name": "bezierPathForEndDecorationOnPath:",
-      "bridgedName": "bezierPathForEndDecorationOnPath",
-      "args": [
-        {
-          "name": "bezier",
-          "type": "MSPath *",
-          "nullable": false
-        }
-      ],
-      "returns": "MSPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathForStartDecorationOnPath:decorationType:": {
-      "name": "bezierPathForStartDecorationOnPath:decorationType:",
-      "bridgedName": "bezierPathForStartDecorationOnPath_decorationType",
-      "args": [
-        {
-          "name": "bezier",
-          "type": "MSPath *",
-          "nullable": false
-        },
-        {
-          "name": "decoration",
-          "type": "MSDecorationType",
-          "nullable": false
-        }
-      ],
-      "returns": "MSPath *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "bezierPathForEndDecorationOnPath:decorationType:": {
-      "name": "bezierPathForEndDecorationOnPath:decorationType:",
-      "bridgedName": "bezierPathForEndDecorationOnPath_decorationType",
-      "args": [
-        {
-          "name": "bezier",
-          "type": "MSPath *",
-          "nullable": false
-        },
-        {
-          "name": "decoration",
-          "type": "MSDecorationType",
-          "nullable": false
-        }
-      ],
-      "returns": "MSPath *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "cacheDecorations": {
-      "name": "cacheDecorations",
-      "bridgedName": "cacheDecorations",
-      "args": [],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "pathForDecorationType:": {
-      "name": "pathForDecorationType:",
-      "bridgedName": "pathForDecorationType",
-      "args": [
-        {
-          "name": "type",
-          "type": "MSDecorationType",
-          "nullable": false
-        }
-      ],
-      "returns": "MSPath *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "bezierPathWithExporter:border:": {
-      "name": "bezierPathWithExporter:border:",
-      "bridgedName": "bezierPathWithExporter_border",
+    "pathWithExporter:border:": {
+      "name": "pathWithExporter:border:",
+      "bridgedName": "pathWithExporter_border",
       "args": [
         {
           "name": "exporter",
@@ -108,7 +20,7 @@
           "nullable": true
         }
       ],
-      "returns": "nullable NSBezierPath *",
+      "returns": "nullable MSPath *",
       "kind": "instance",
       "kindIndicator": "-"
     }

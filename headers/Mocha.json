@@ -21,7 +21,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "id",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -252,25 +252,6 @@
       "returns": "Mocha *",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "initWithGlobalContext:name:": {
-      "name": "initWithGlobalContext:name:",
-      "bridgedName": "initWithGlobalContext_name",
-      "args": [
-        {
-          "name": "ctx",
-          "type": "JSGlobalContextRef",
-          "nullable": false
-        },
-        {
-          "name": "name",
-          "type": "NSString*",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
     },
     "JSValueForObject:inContext:": {
       "name": "JSValueForObject:inContext:",

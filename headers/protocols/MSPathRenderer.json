@@ -4,13 +4,18 @@
   "extends": "MSRenderer",
   "interfaces": [],
   "methods": {
-    "renderPath:layer:inRect:fallbackColor:context:": {
-      "name": "renderPath:layer:inRect:fallbackColor:context:",
-      "bridgedName": "renderPath_layer_inRect_fallbackColor_context",
+    "renderPath:style:layer:inRect:fallbackColor:context:": {
+      "name": "renderPath:style:layer:inRect:fallbackColor:context:",
+      "bridgedName": "renderPath_style_layer_inRect_fallbackColor_context",
       "args": [
         {
           "name": "path",
           "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "style",
+          "type": "MSImmutableStyle*",
           "nullable": false
         },
         {

@@ -3,6 +3,20 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
+    "noiseIsOpaqueForType:": {
+      "name": "noiseIsOpaqueForType:",
+      "bridgedName": "noiseIsOpaqueForType",
+      "args": [
+        {
+          "name": "type",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "drawWithIntensity:ofType:inRect:zoomValue:context:": {
       "name": "drawWithIntensity:ofType:inRect:zoomValue:context:",
       "bridgedName": "drawWithIntensity_ofType_inRect_zoomValue_context",

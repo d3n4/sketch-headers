@@ -17,6 +17,30 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "contourWithPolygonAtPoint:radius:sides:": {
+      "name": "contourWithPolygonAtPoint:radius:sides:",
+      "bridgedName": "contourWithPolygonAtPoint_radius_sides",
+      "args": [
+        {
+          "name": "center",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "radius",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "sides",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "initWithSegments:closed:": {
       "name": "initWithSegments:closed:",
       "bridgedName": "initWithSegments_closed",
@@ -39,6 +63,14 @@
     "reversedContour": {
       "name": "reversedContour",
       "bridgedName": "reversedContour",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closedContour": {
+      "name": "closedContour",
+      "bridgedName": "closedContour",
       "args": [],
       "returns": "instancetype",
       "kind": "instance",
@@ -102,6 +134,20 @@
         }
       ],
       "returns": "nullable MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "intersectionsWithSegment:": {
+      "name": "intersectionsWithSegment:",
+      "bridgedName": "intersectionsWithSegment",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet <MSBezierIntersection *> *",
       "kind": "instance",
       "kindIndicator": "-"
     }

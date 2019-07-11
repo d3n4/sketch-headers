@@ -195,7 +195,7 @@
       "args": [
         {
           "name": "tangent",
-          "type": "MSTangent * _Nullable",
+          "type": "MSLine * _Nullable",
           "nullable": false
         },
         {
@@ -223,7 +223,7 @@
           "nullable": false
         }
       ],
-      "returns": "MSTangent",
+      "returns": "MSLine",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -350,7 +350,7 @@
       "args": [
         {
           "name": "tangent",
-          "type": "MSTangent",
+          "type": "MSLine",
           "nullable": false
         }
       ],
@@ -534,6 +534,15 @@
       "name": "isAPoint",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lineSegment": {
+      "name": "lineSegment",
+      "pointer": false,
+      "type": "MSLineSegment",
       "attributes": [
         "nonatomic",
         "readonly"

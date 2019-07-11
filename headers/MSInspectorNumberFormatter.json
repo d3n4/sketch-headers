@@ -3,17 +3,25 @@
   "extends": "NSNumberFormatter",
   "interfaces": [],
   "methods": {
-    "sharedStandardFloatFormatter": {
-      "name": "sharedStandardFloatFormatter",
-      "bridgedName": "sharedStandardFloatFormatter",
+    "standardFloatFormatter": {
+      "name": "standardFloatFormatter",
+      "bridgedName": "standardFloatFormatter",
       "args": [],
       "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
-    "sharedStandardIntegerFormatter": {
-      "name": "sharedStandardIntegerFormatter",
-      "bridgedName": "sharedStandardIntegerFormatter",
+    "standardIntegerFormatter": {
+      "name": "standardIntegerFormatter",
+      "bridgedName": "standardIntegerFormatter",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "standardPercentFormatter": {
+      "name": "standardPercentFormatter",
+      "bridgedName": "standardPercentFormatter",
       "args": [],
       "returns": "instancetype",
       "kind": "class",

@@ -25,6 +25,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "availableOverridesWithDocument:": {
+      "name": "availableOverridesWithDocument:",
+      "bridgedName": "availableOverridesWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSAvailableOverride *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "updateOverridesWithObjectIDMapping:afterChangingSymbolMasterWithID:": {
       "name": "updateOverridesWithObjectIDMapping:afterChangingSymbolMasterWithID:",
       "bridgedName": "updateOverridesWithObjectIDMapping_afterChangingSymbolMasterWithID",
@@ -72,13 +86,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "availableOverridesWithDocument:": {
-      "name": "availableOverridesWithDocument:",
-      "bridgedName": "availableOverridesWithDocument",
+    "calculateAvailableOverridesWithDocument:": {
+      "name": "calculateAvailableOverridesWithDocument:",
+      "bridgedName": "calculateAvailableOverridesWithDocument",
       "args": [
         {
           "name": "document",
-          "type": "MSImmutableDocumentData*",
+          "type": "MSImmutableDocumentData *",
           "nullable": false
         }
       ],
@@ -135,6 +149,15 @@
       "name": "modifiedMasterCacheKey",
       "pointer": false,
       "type": "id<NSCopying>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "masterRefreshCounter": {
+      "name": "masterRefreshCounter",
+      "pointer": false,
+      "type": "NSUInteger",
       "attributes": [
         "nonatomic",
         "readonly"

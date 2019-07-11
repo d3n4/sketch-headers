@@ -1,0 +1,263 @@
+{
+  "name": "MSInspectorValueAdaptor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "transformedValuesFromString:contexts:error:": {
+      "name": "transformedValuesFromString:contexts:error:",
+      "bridgedName": "transformedValuesFromString_contexts_error",
+      "args": [
+        {
+          "name": "valueString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "contextsOut",
+          "type": "__autoreleasing NSPointerArray **",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "__autoreleasing NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSNumber *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformValueString:forModel:context:error:": {
+      "name": "transformValueString:forModel:context:error:",
+      "bridgedName": "transformValueString_forModel_context_error",
+      "args": [
+        {
+          "name": "valueString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "model",
+          "type": "ModelType",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "__autoreleasing id *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkAndAdjustValues:contexts:withNumberFormatter:error:": {
+      "name": "checkAndAdjustValues:contexts:withNumberFormatter:error:",
+      "bridgedName": "checkAndAdjustValues_contexts_withNumberFormatter_error",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray <NSNumber *>*",
+          "nullable": false
+        },
+        {
+          "name": "contexts",
+          "type": "__autoreleasing NSPointerArray *",
+          "nullable": false
+        },
+        {
+          "name": "numberFormatter",
+          "type": "NSNumberFormatter *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "__autoreleasing NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSNumber *>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "actualNumberFormatter": {
+      "name": "actualNumberFormatter",
+      "bridgedName": "actualNumberFormatter",
+      "args": [],
+      "returns": "NSNumberFormatter *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentAdjustOptions": {
+      "name": "currentAdjustOptions",
+      "bridgedName": "currentAdjustOptions",
+      "args": [],
+      "returns": "MSValueAdaptorAdjustOptions",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithModelsController:valueGetter:valueSetter:modelKeyPathsToWatch:": {
+      "name": "initWithModelsController:valueGetter:valueSetter:modelKeyPathsToWatch:",
+      "bridgedName": "initWithModelsController_valueGetter_valueSetter_modelKeyPathsToWatch",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "valueGetter",
+          "type": "CGFloat (^)(ModelType model)",
+          "nullable": false
+        },
+        {
+          "name": "valueSetter",
+          "type": "void (^)(ModelType model, CGFloat value, id context)",
+          "nullable": false
+        },
+        {
+          "name": "modelKeyPathsToWatch",
+          "type": "NSArray <NSString *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithModelsController:valueGetter:valueSetter:": {
+      "name": "initWithModelsController:valueGetter:valueSetter:",
+      "bridgedName": "initWithModelsController_valueGetter_valueSetter",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "valueGetter",
+          "type": "CGFloat (^)(ModelType model)",
+          "nullable": false
+        },
+        {
+          "name": "valueSetter",
+          "type": "void (^)(ModelType model, CGFloat value, id context)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithModelsController:modelKeyPath:": {
+      "name": "initWithModelsController:modelKeyPath:",
+      "bridgedName": "initWithModelsController_modelKeyPath",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "keyPath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valuesDidChange": {
+      "name": "valuesDidChange",
+      "bridgedName": "valuesDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSInspectorValueAdaptorDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "numberFormatter": {
+      "name": "numberFormatter",
+      "pointer": false,
+      "type": "NSNumberFormatter ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "modelsController": {
+      "name": "modelsController",
+      "pointer": false,
+      "type": "NSArrayController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "clampsValues": {
+      "name": "clampsValues",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "adjustIndividually": {
+      "name": "adjustIndividually",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "showsDefaultAlerts": {
+      "name": "showsDefaultAlerts",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "view": {
+      "name": "view",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

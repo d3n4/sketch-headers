@@ -16,6 +16,53 @@
       "returns": "NSPoint",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "translationInLayer:": {
+      "name": "translationInLayer:",
+      "bridgedName": "translationInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "CGVector",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTranslation:inLayer:": {
+      "name": "setTranslation:inLayer:",
+      "bridgedName": "setTranslation_inLayer",
+      "args": [
+        {
+          "name": "translation",
+          "type": "CGVector",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "translationAsPointInLayer:": {
+      "name": "translationAsPointInLayer:",
+      "bridgedName": "translationAsPointInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -23,14 +70,6 @@
       "name": "beginsUponMouseDown",
       "pointer": false,
       "type": "BOOL",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
-    "translation": {
-      "name": "translation",
-      "pointer": false,
-      "type": "NSPoint",
       "attributes": [
         "nonatomic"
       ]

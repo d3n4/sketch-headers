@@ -1,7 +1,9 @@
 {
   "name": "MSExportPropertiesInspectorItem",
   "extends": "MSInspectorItem",
-  "interfaces": [],
+  "interfaces": [
+    "MSLayerChangeObserver"
+  ],
   "methods": {},
   "properties": {},
   "generics": []

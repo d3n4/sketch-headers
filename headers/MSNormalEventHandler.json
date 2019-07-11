@@ -72,8 +72,8 @@
         "readonly"
       ]
     },
-    "hoveredLayer": {
-      "name": "hoveredLayer",
+    "highlightedLayer": {
+      "name": "highlightedLayer",
       "pointer": false,
       "type": "MSLayer ",
       "attributes": [

@@ -22,6 +22,34 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "isPluginForDataSupplierEnabled:": {
+      "name": "isPluginForDataSupplierEnabled:",
+      "bridgedName": "isPluginForDataSupplierEnabled",
+      "args": [
+        {
+          "name": "pluginDataSupplier",
+          "type": "MSPluginDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isThereAPluginForDataSupplier:": {
+      "name": "isThereAPluginForDataSupplier:",
+      "bridgedName": "isThereAPluginForDataSupplier",
+      "args": [
+        {
+          "name": "pluginDataSupplier",
+          "type": "MSPluginDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {}

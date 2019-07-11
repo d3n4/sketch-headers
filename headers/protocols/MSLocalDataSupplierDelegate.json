@@ -4,9 +4,9 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "locaDataSupplierDataChanged:": {
-      "name": "locaDataSupplierDataChanged:",
-      "bridgedName": "locaDataSupplierDataChanged",
+    "localDataSupplierDataChanged:": {
+      "name": "localDataSupplierDataChanged:",
+      "bridgedName": "localDataSupplierDataChanged",
       "args": [
         {
           "name": "localDataSupplier",

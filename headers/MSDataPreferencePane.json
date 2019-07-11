@@ -16,8 +16,8 @@
         "weak"
       ]
     },
-    "localDataArrayController": {
-      "name": "localDataArrayController",
+    "dataArrayController": {
+      "name": "dataArrayController",
       "pointer": false,
       "type": "IBOutlet NSArrayController ",
       "attributes": [
@@ -25,8 +25,8 @@
         "strong"
       ]
     },
-    "localData": {
-      "name": "localData",
+    "data": {
+      "name": "data",
       "pointer": false,
       "type": "NSArray <MSDataPreferenceItem *> ",
       "attributes": [

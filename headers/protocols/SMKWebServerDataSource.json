@@ -9,8 +9,8 @@
       "bridgedName": "renderExportForRequest_handler",
       "args": [
         {
-          "name": "request",
-          "type": "nonnull SMKExportRequest *",
+          "name": "requestURL",
+          "type": "nonnull NSURL *",
           "nullable": false
         },
         {

@@ -215,14 +215,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "symbolInstancesBySymbolID": {
-      "name": "symbolInstancesBySymbolID",
-      "bridgedName": "symbolInstancesBySymbolID",
-      "args": [],
-      "returns": "NSDictionary <NSString *, NSSet <MSSymbolInstance *> *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "allArtboards": {
       "name": "allArtboards",
       "bridgedName": "allArtboards",
@@ -425,6 +417,14 @@
     "purgeForeignObjects": {
       "name": "purgeForeignObjects",
       "bridgedName": "purgeForeignObjects",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateAffectedSymbolInstances": {
+      "name": "invalidateAffectedSymbolInstances",
+      "bridgedName": "invalidateAffectedSymbolInstances",
       "args": [],
       "returns": "void",
       "kind": "instance",

@@ -25,6 +25,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "keyForFlowAnimationType:": {
+      "name": "keyForFlowAnimationType:",
+      "bridgedName": "keyForFlowAnimationType",
+      "args": [
+        {
+          "name": "type",
+          "type": "MSFlowAnimationType",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "metadataForRootLayer:onPage:earlierSlugs:": {
       "name": "metadataForRootLayer:onPage:earlierSlugs:",
       "bridgedName": "metadataForRootLayer_onPage_earlierSlugs",
@@ -46,6 +60,30 @@
         }
       ],
       "returns": "nullable NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filesMetadataForRootLayer:onPage:id:": {
+      "name": "filesMetadataForRootLayer:onPage:id:",
+      "bridgedName": "filesMetadataForRootLayer_onPage_id",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull MSImmutableLayerGroup <MSWebExportableRootLayer> *",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "nonnull MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "fileID",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSArray *",
       "kind": "instance",
       "kindIndicator": "-"
     }

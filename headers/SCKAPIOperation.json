@@ -1,16 +1,8 @@
 {
   "name": "SCKAPIOperation",
-  "extends": "SCKOperation",
+  "extends": "SCKURLOperation",
   "interfaces": [],
   "methods": {
-    "sharedURLSession": {
-      "name": "sharedURLSession",
-      "bridgedName": "sharedURLSession",
-      "args": [],
-      "returns": "NSURLSession *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "initWithRequest:": {
       "name": "initWithRequest:",
       "bridgedName": "initWithRequest",
@@ -78,15 +70,6 @@
         "nonatomic",
         "strong",
         "readonly"
-      ]
-    },
-    "session": {
-      "name": "session",
-      "pointer": false,
-      "type": "NSURLSession ",
-      "attributes": [
-        "atomic",
-        "strong"
       ]
     },
     "error": {

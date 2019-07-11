@@ -127,6 +127,15 @@
         "readonly"
       ]
     },
+    "dataIdentifier": {
+      "name": "dataIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "valid": {
       "name": "valid",
       "pointer": false,
@@ -134,6 +143,15 @@
       "attributes": [
         "nonatomic",
         "readonly"
+      ]
+    },
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
       ]
     }
   },

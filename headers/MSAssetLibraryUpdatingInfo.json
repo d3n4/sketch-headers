@@ -65,7 +65,7 @@
         {
           "name": "otherVersion",
           "type": "NSString *",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "BOOL",

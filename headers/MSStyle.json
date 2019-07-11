@@ -92,6 +92,22 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "disableAllShadows": {
+      "name": "disableAllShadows",
+      "bridgedName": "disableAllShadows",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disableAllInnerShadows": {
+      "name": "disableAllInnerShadows",
+      "bridgedName": "disableAllInnerShadows",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "hasTextStyle": {
       "name": "hasTextStyle",
       "bridgedName": "hasTextStyle",
@@ -173,8 +189,8 @@
         "readonly"
       ]
     },
-    "hasDecorations": {
-      "name": "hasDecorations",
+    "hasMarkers": {
+      "name": "hasMarkers",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

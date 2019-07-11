@@ -29,8 +29,8 @@
         "readonly"
       ]
     },
-    "hasDecorations": {
-      "name": "hasDecorations",
+    "hasMarkers": {
+      "name": "hasMarkers",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

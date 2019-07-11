@@ -1,0 +1,57 @@
+{
+  "name": "MSLayoutAnchor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithItem:attribute:": {
+      "name": "initWithItem:attribute:",
+      "bridgedName": "initWithItem_attribute",
+      "args": [
+        {
+          "name": "item",
+          "type": "id <MSSnappable>",
+          "nullable": false
+        },
+        {
+          "name": "attribute",
+          "type": "MSLayoutAttribute",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "item": {
+      "name": "item",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "attribute": {
+      "name": "attribute",
+      "pointer": false,
+      "type": "MSLayoutAttribute",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

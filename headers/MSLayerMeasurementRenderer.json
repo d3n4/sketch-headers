@@ -68,7 +68,7 @@
     "measurementOptions": {
       "name": "measurementOptions",
       "pointer": false,
-      "type": "MSLayerMeasurementOptions",
+      "type": "MSAlignmentRectOptions",
       "attributes": [
         "nonatomic"
       ]

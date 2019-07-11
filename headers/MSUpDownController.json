@@ -112,12 +112,12 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "setFloatValueAndNotifyBindings:": {
-      "name": "setFloatValueAndNotifyBindings:",
-      "bridgedName": "setFloatValueAndNotifyBindings",
+    "incrementBy:": {
+      "name": "incrementBy:",
+      "bridgedName": "incrementBy",
       "args": [
         {
-          "name": "newValue",
+          "name": "amount",
           "type": "CGFloat",
           "nullable": false
         }
@@ -125,8 +125,26 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "incrementValueAccountingForModifierFlags": {
+      "name": "incrementValueAccountingForModifierFlags",
+      "bridgedName": "incrementValueAccountingForModifierFlags",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "incrementDecrementDelegate": {
+      "name": "incrementDecrementDelegate",
+      "pointer": false,
+      "type": "id<MSIncrementDecrementDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
   "generics": []
 }

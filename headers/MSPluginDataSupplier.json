@@ -3,6 +3,35 @@
   "extends": "MSDataSupplier",
   "interfaces": [],
   "methods": {
+    "identifierWithPluginIdentifier:commandIdentifier:dynamicDataKey:dataName:": {
+      "name": "identifierWithPluginIdentifier:commandIdentifier:dynamicDataKey:dataName:",
+      "bridgedName": "identifierWithPluginIdentifier_commandIdentifier_dynamicDataKey_dataName",
+      "args": [
+        {
+          "name": "pluginIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "commandIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dynamicDataKey",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "initWithDataIdentifier:dataName:dataType:NS_UNAVAILABLE": {
       "name": "initWithDataIdentifier:dataName:dataType:NS_UNAVAILABLE",
       "bridgedName": "initWithDataIdentifier_dataName_dataType_NS_UNAVAILABLE",
@@ -20,20 +49,6 @@
         {
           "name": "dataType",
           "type": "MSDataType",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "initWithCoder:NS_UNAVAILABLE": {
-      "name": "initWithCoder:NS_UNAVAILABLE",
-      "bridgedName": "initWithCoder_NS_UNAVAILABLE",
-      "args": [
-        {
-          "name": "aDecoder",
-          "type": "NSCoder *",
           "nullable": false
         }
       ],
@@ -77,6 +92,15 @@
     }
   },
   "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSPluginDataSupplierDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
     "pluginIdentifier": {
       "name": "pluginIdentifier",
       "pointer": false,
@@ -103,6 +127,15 @@
         "nonatomic",
         "readonly",
         "nullable"
+      ]
+    },
+    "registered": {
+      "name": "registered",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
       ]
     }
   },

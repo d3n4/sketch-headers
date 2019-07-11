@@ -52,6 +52,52 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "layerDidResizeFromInspector:": {
+      "name": "layerDidResizeFromInspector:",
+      "bridgedName": "layerDidResizeFromInspector",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boundsOfParentLayer": {
+      "name": "boundsOfParentLayer",
+      "bridgedName": "boundsOfParentLayer",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "minimumAdjustedRectForValue:axis:anchor:": {
+      "name": "minimumAdjustedRectForValue:axis:anchor:",
+      "bridgedName": "minimumAdjustedRectForValue_axis_anchor",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "anchor",
+          "type": "BCCorner",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "canMoveToLayer:beforeLayer:": {
       "name": "canMoveToLayer:beforeLayer:",
       "bridgedName": "canMoveToLayer_beforeLayer",
@@ -294,14 +340,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "overridePoints": {
-      "name": "overridePoints",
-      "bridgedName": "overridePoints",
-      "args": [],
-      "returns": "NSArray<MSOverridePoint *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "applyOverrides:": {
       "name": "applyOverrides:",
       "bridgedName": "applyOverrides",
@@ -335,6 +373,58 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "userVisibleRotationForRotation:": {
+      "name": "userVisibleRotationForRotation:",
+      "bridgedName": "userVisibleRotationForRotation",
+      "args": [
+        {
+          "name": "r",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "applyRotation:explicitRotationCenter:": {
+      "name": "applyRotation:explicitRotationCenter:",
+      "bridgedName": "applyRotation_explicitRotationCenter",
+      "args": [
+        {
+          "name": "rotation",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "rotationCenter",
+          "type": "NSValue *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyUserVisibleRotation:explicitRotationCenter:": {
+      "name": "applyUserVisibleRotation:explicitRotationCenter:",
+      "bridgedName": "applyUserVisibleRotation_explicitRotationCenter",
+      "args": [
+        {
+          "name": "userVisibleRotation",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "rotationCenter",
+          "type": "NSValue *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "resetSharedStyle": {
       "name": "resetSharedStyle",
       "bridgedName": "resetSharedStyle",
@@ -350,20 +440,6 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "userVisibleRotationForRotation:": {
-      "name": "userVisibleRotationForRotation:",
-      "bridgedName": "userVisibleRotationForRotation",
-      "args": [
-        {
-          "name": "r",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "CGFloat",
-      "kind": "class",
-      "kindIndicator": "+"
     },
     "initWithFrame:": {
       "name": "initWithFrame:",
@@ -521,7 +597,7 @@
       "args": [
         {
           "name": "offset",
-          "type": "NSSize",
+          "type": "CGVector",
           "nullable": false
         }
       ],
@@ -582,6 +658,33 @@
     "absoluteInfluenceRect": {
       "name": "absoluteInfluenceRect",
       "bridgedName": "absoluteInfluenceRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "alignmentRectInLayer:options:": {
+      "name": "alignmentRectInLayer:options:",
+      "bridgedName": "alignmentRectInLayer_options",
+      "args": [
+        {
+          "name": "targetLayer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSAlignmentRectOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boundsRectForAlignment": {
+      "name": "boundsRectForAlignment",
+      "bridgedName": "boundsRectForAlignment",
       "args": [],
       "returns": "NSRect",
       "kind": "instance",
@@ -783,13 +886,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "convertRectToAbsoluteCoordinates:": {
-      "name": "convertRectToAbsoluteCoordinates:",
-      "bridgedName": "convertRectToAbsoluteCoordinates",
+    "convertRect:toLayer:": {
+      "name": "convertRect:toLayer:",
+      "bridgedName": "convertRect_toLayer",
       "args": [
         {
           "name": "r",
           "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": " MSLayer *",
           "nullable": false
         }
       ],
@@ -841,6 +949,34 @@
         }
       ],
       "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformForConvertingToLayer:": {
+      "name": "transformForConvertingToLayer:",
+      "bridgedName": "transformForConvertingToLayer",
+      "args": [
+        {
+          "name": "target",
+          "type": " MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGAffineTransform",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformForConvertingFromLayer:": {
+      "name": "transformForConvertingFromLayer:",
+      "bridgedName": "transformForConvertingFromLayer",
+      "args": [
+        {
+          "name": "sourceLayer",
+          "type": " MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGAffineTransform",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1290,34 +1426,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layerDidResizeFromInspector:": {
-      "name": "layerDidResizeFromInspector:",
-      "bridgedName": "layerDidResizeFromInspector",
-      "args": [
-        {
-          "name": "axis",
-          "type": "BCAxis",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "boundsForParentInDocument:": {
-      "name": "boundsForParentInDocument:",
-      "bridgedName": "boundsForParentInDocument",
-      "args": [
-        {
-          "name": "document",
-          "type": "MSDocument *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSRect",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "inspectorViewControllerNames": {
       "name": "inspectorViewControllerNames",
       "bridgedName": "inspectorViewControllerNames",
@@ -1331,20 +1439,6 @@
       "bridgedName": "inspectorViewControllers",
       "args": [],
       "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "measurementRectWithOptions:": {
-      "name": "measurementRectWithOptions:",
-      "bridgedName": "measurementRectWithOptions",
-      "args": [
-        {
-          "name": "options",
-          "type": "MSLayerMeasurementOptions",
-          "nullable": false
-        }
-      ],
-      "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1476,6 +1570,24 @@
         "nonatomic"
       ]
     },
+    "overridePoints": {
+      "name": "overridePoints",
+      "pointer": false,
+      "type": "NSArray<MSOverridePoint *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "userVisibleRotation": {
+      "name": "userVisibleRotation",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "isSharedStyleOutOfSync": {
       "name": "isSharedStyleOutOfSync",
       "pointer": false,
@@ -1494,14 +1606,6 @@
         "weak"
       ]
     },
-    "userVisibleRotation": {
-      "name": "userVisibleRotation",
-      "pointer": false,
-      "type": "CGFloat",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
     "constrainProportions": {
       "name": "constrainProportions",
       "pointer": false,
@@ -1518,8 +1622,8 @@
         "nonatomic"
       ]
     },
-    "isHovering": {
-      "name": "isHovering",
+    "isHighlighted": {
+      "name": "isHighlighted",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

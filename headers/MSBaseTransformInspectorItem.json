@@ -27,7 +27,7 @@
     "textField": {
       "name": "textField",
       "pointer": false,
-      "type": "IBOutlet NSTextField ",
+      "type": "IBOutlet MSUpDownTextField ",
       "attributes": [
         "nonatomic",
         "strong"

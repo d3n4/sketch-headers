@@ -3,6 +3,20 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
+    "initWithItem:": {
+      "name": "initWithItem:",
+      "bridgedName": "initWithItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSSnapItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "accumulatorForAxis:": {
       "name": "accumulatorForAxis:",
       "bridgedName": "accumulatorForAxis",
@@ -17,9 +31,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "firstDimensionMeasurementForAxis:": {
-      "name": "firstDimensionMeasurementForAxis:",
-      "bridgedName": "firstDimensionMeasurementForAxis",
+    "firstDimensionSnapForAxis:": {
+      "name": "firstDimensionSnapForAxis:",
+      "bridgedName": "firstDimensionSnapForAxis",
       "args": [
         {
           "name": "axis",
@@ -27,17 +41,17 @@
           "nullable": false
         }
       ],
-      "returns": "MSDimensionMeasurement *",
+      "returns": "MSLayoutRelationship *",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addDimensionMeasurement:": {
-      "name": "addDimensionMeasurement:",
-      "bridgedName": "addDimensionMeasurement",
+    "addDimensionSnap:": {
+      "name": "addDimensionSnap:",
+      "bridgedName": "addDimensionSnap",
       "args": [
         {
-          "name": "measurement",
-          "type": "MSDimensionMeasurement *",
+          "name": "snap",
+          "type": "MSLayoutRelationship *",
           "nullable": false
         }
       ],
@@ -45,9 +59,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "firstDistanceMeasurementForAxis:": {
-      "name": "firstDistanceMeasurementForAxis:",
-      "bridgedName": "firstDistanceMeasurementForAxis",
+    "firstSpacingSnapForAxis:": {
+      "name": "firstSpacingSnapForAxis:",
+      "bridgedName": "firstSpacingSnapForAxis",
       "args": [
         {
           "name": "axis",
@@ -55,17 +69,17 @@
           "nullable": false
         }
       ],
-      "returns": "MSDistanceMeasurement *",
+      "returns": "MSLayoutRelationship *",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addDistanceMeasurement:": {
-      "name": "addDistanceMeasurement:",
-      "bridgedName": "addDistanceMeasurement",
+    "addSpacingSnap:": {
+      "name": "addSpacingSnap:",
+      "bridgedName": "addSpacingSnap",
       "args": [
         {
-          "name": "instruction",
-          "type": "MSDistanceMeasurement *",
+          "name": "snap",
+          "type": "MSLayoutRelationship *",
           "nullable": false
         }
       ],
@@ -73,13 +87,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "enumerateMeasurementsUsingBlock:": {
-      "name": "enumerateMeasurementsUsingBlock:",
-      "bridgedName": "enumerateMeasurementsUsingBlock",
+    "addEdgeSnap:": {
+      "name": "addEdgeSnap:",
+      "bridgedName": "addEdgeSnap",
       "args": [
         {
-          "name": "block",
-          "type": "void (^)(MSSnappingMeasurement *measurement)",
+          "name": "relationship",
+          "type": "MSLayoutRelationship *",
           "nullable": false
         }
       ],
@@ -87,47 +101,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addTarget:": {
-      "name": "addTarget:",
-      "bridgedName": "addTarget",
-      "args": [
-        {
-          "name": "target",
-          "type": "MSSnappingTarget *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "extendGuideForAxis:toStartPosition:endPosition:": {
-      "name": "extendGuideForAxis:toStartPosition:endPosition:",
-      "bridgedName": "extendGuideForAxis_toStartPosition_endPosition",
-      "args": [
-        {
-          "name": "axis",
-          "type": "BCAxis",
-          "nullable": false
-        },
-        {
-          "name": "start",
-          "type": "CGFloat",
-          "nullable": false
-        },
-        {
-          "name": "end",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "resetSnappingForAxis:": {
-      "name": "resetSnappingForAxis:",
-      "bridgedName": "resetSnappingForAxis",
+    "resetEdgeSnapsForAxis:": {
+      "name": "resetEdgeSnapsForAxis:",
+      "bridgedName": "resetEdgeSnapsForAxis",
       "args": [
         {
           "name": "axis",
@@ -139,9 +115,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "drawForGroup:zoom:": {
-      "name": "drawForGroup:zoom:",
-      "bridgedName": "drawForGroup_zoom",
+    "drawForGroup:zoomScale:": {
+      "name": "drawForGroup:zoomScale:",
+      "bridgedName": "drawForGroup_zoomScale",
       "args": [
         {
           "name": "group",
@@ -160,6 +136,15 @@
     }
   },
   "properties": {
+    "item": {
+      "name": "item",
+      "pointer": false,
+      "type": "MSSnapItem ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "xAxisAccumulator": {
       "name": "xAxisAccumulator",
       "pointer": false,
@@ -178,12 +163,21 @@
         "readonly"
       ]
     },
-    "measurementAxes": {
-      "name": "measurementAxes",
+    "dimensionAxes": {
+      "name": "dimensionAxes",
       "pointer": false,
       "type": "BCAxis",
       "attributes": [
         "readonly"
+      ]
+    },
+    "numberFormatter": {
+      "name": "numberFormatter",
+      "pointer": false,
+      "type": "NSNumberFormatter ",
+      "attributes": [
+        "nonatomic",
+        "null_resettable"
       ]
     }
   },

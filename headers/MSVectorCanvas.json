@@ -195,6 +195,30 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "adjustHandle:toValue:onAxis:": {
+      "name": "adjustHandle:toValue:onAxis:",
+      "bridgedName": "adjustHandle_toValue_onAxis",
+      "args": [
+        {
+          "name": "handle",
+          "type": "NSIndexPath *",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "singleMouseDownAtPoint:modifierFlags:": {
       "name": "singleMouseDownAtPoint:modifierFlags:",
       "bridgedName": "singleMouseDownAtPoint_modifierFlags",
@@ -385,7 +409,7 @@
     "snaps": {
       "name": "snaps",
       "pointer": false,
-      "type": "MSPointSnappingResult ",
+      "type": "MSAlignmentEngineResult ",
       "attributes": [
         "nonatomic",
         "copy",

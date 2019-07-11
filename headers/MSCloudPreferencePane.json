@@ -24,26 +24,8 @@
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "updateAuthenticatedUser": {
-      "name": "updateAuthenticatedUser",
-      "bridgedName": "updateAuthenticatedUser",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
-  "properties": {
-    "isUpdatingAuthenticatedUser": {
-      "name": "isUpdatingAuthenticatedUser",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

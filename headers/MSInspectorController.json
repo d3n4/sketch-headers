@@ -122,13 +122,21 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "focusOnTextField:": {
-      "name": "focusOnTextField:",
-      "bridgedName": "focusOnTextField",
+    "focusOnFirstTextField": {
+      "name": "focusOnFirstTextField",
+      "bridgedName": "focusOnFirstTextField",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "focusOnTextFieldWithIdentifier:": {
+      "name": "focusOnTextFieldWithIdentifier:",
+      "bridgedName": "focusOnTextFieldWithIdentifier",
       "args": [
         {
-          "name": "index",
-          "type": "NSUInteger",
+          "name": "identifier",
+          "type": "NSUserInterfaceItemIdentifier",
           "nullable": false
         }
       ],

@@ -5,14 +5,6 @@
     "BCSortable"
   ],
   "methods": {
-    "availableOverrides": {
-      "name": "availableOverrides",
-      "bridgedName": "availableOverrides",
-      "args": [],
-      "returns": "NSArray<MSAvailableOverride *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "convertArtboardToSymbol:": {
       "name": "convertArtboardToSymbol:",
       "bridgedName": "convertArtboardToSymbol",
@@ -60,6 +52,20 @@
         }
       ],
       "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canInsertInstanceIntoGroupWithoutInfiniteRecursion:": {
+      "name": "canInsertInstanceIntoGroupWithoutInfiniteRecursion:",
+      "bridgedName": "canInsertInstanceIntoGroupWithoutInfiniteRecursion",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -125,10 +131,28 @@
     }
   },
   "properties": {
+    "availableOverrides": {
+      "name": "availableOverrides",
+      "pointer": false,
+      "type": "NSArray<MSAvailableOverride *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "changeIdentifier": {
       "name": "changeIdentifier",
       "pointer": false,
       "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "isDirty": {
+      "name": "isDirty",
+      "pointer": false,
+      "type": "BOOL",
       "attributes": [
         "assign",
         "nonatomic"

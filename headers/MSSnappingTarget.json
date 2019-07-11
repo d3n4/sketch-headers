@@ -80,6 +80,20 @@
       "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "targetsForEdgesAndCentersOfRect:": {
+      "name": "targetsForEdgesAndCentersOfRect:",
+      "bridgedName": "targetsForEdgesAndCentersOfRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSSnappingTarget *> *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {

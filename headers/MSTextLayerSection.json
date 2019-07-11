@@ -208,7 +208,7 @@
       "name": "textView",
       "bridgedName": "textView",
       "args": [],
-      "returns": "NSTextView *",
+      "returns": "MSTextLayerTextView *",
       "kind": "instance",
       "kindIndicator": "-"
     },

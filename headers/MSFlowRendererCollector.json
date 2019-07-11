@@ -37,15 +37,31 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "collect": {
-      "name": "collect",
-      "bridgedName": "collect",
-      "args": [],
-      "returns": "NSArray<MSFlowRenderer *> *",
+    "shouldInvalidateCollectedFlowsWithDiff:": {
+      "name": "shouldInvalidateCollectedFlowsWithDiff:",
+      "bridgedName": "shouldInvalidateCollectedFlowsWithDiff",
+      "args": [
+        {
+          "name": "diff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "flowRenderers": {
+      "name": "flowRenderers",
+      "pointer": false,
+      "type": "NSArray<MSFlowRenderer *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

@@ -20,14 +20,6 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "refreshXYFields": {
-      "name": "refreshXYFields",
-      "bridgedName": "refreshXYFields",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {

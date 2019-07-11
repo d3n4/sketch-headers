@@ -221,7 +221,7 @@
         },
         {
           "name": "flags",
-          "type": "NSUInteger",
+          "type": "NSEventModifierFlags",
           "nullable": false
         }
       ],
@@ -581,7 +581,7 @@
       "args": [
         {
           "name": "offset",
-          "type": "NSSize",
+          "type": "CGVector",
           "nullable": false
         }
       ],
@@ -1235,14 +1235,6 @@
     "focusOnMainWindow": {
       "name": "focusOnMainWindow",
       "bridgedName": "focusOnMainWindow",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "refreshRulers": {
-      "name": "refreshRulers",
-      "bridgedName": "refreshRulers",
       "args": [],
       "returns": "void",
       "kind": "instance",

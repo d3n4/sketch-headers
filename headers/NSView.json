@@ -320,6 +320,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "nestedSubviewWithIdentifier:": {
+      "name": "nestedSubviewWithIdentifier:",
+      "bridgedName": "nestedSubviewWithIdentifier",
+      "args": [
+        {
+          "name": "identifer",
+          "type": "NSUserInterfaceItemIdentifier",
+          "nullable": false
+        }
+      ],
+      "returns": "NSView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "animateToFrameOrigin:completionBlock:": {
       "name": "animateToFrameOrigin:completionBlock:",
       "bridgedName": "animateToFrameOrigin_completionBlock",
@@ -421,6 +435,20 @@
         }
       ],
       "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "separatorInsetBetweenSelfAndView:": {
+      "name": "separatorInsetBetweenSelfAndView:",
+      "bridgedName": "separatorInsetBetweenSelfAndView",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSEdgeInsets",
       "kind": "instance",
       "kindIndicator": "-"
     }

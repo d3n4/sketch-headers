@@ -32,6 +32,20 @@
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "changeColorWithColor:": {
+      "name": "changeColorWithColor:",
+      "bridgedName": "changeColorWithColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

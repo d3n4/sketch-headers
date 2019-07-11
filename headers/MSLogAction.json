@@ -1,15 +1,17 @@
 {
   "name": "MSLogAction",
   "extends": "MSAction",
-  "interfaces": [],
+  "interfaces": [
+    "MSPluginLogAction"
+  ],
   "methods": {
-    "print:": {
-      "name": "print:",
-      "bridgedName": "print",
+    "log:": {
+      "name": "log:",
+      "bridgedName": "log",
       "args": [
         {
-          "name": "string",
-          "type": "NSString *",
+          "name": "value",
+          "type": "NSDictionary *",
           "nullable": false
         }
       ],

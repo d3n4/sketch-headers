@@ -40,6 +40,34 @@
       "returns": "BCEdgePaddings",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "availableOverridesWithDocument:": {
+      "name": "availableOverridesWithDocument:",
+      "bridgedName": "availableOverridesWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSAvailableOverride *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculateAvailableOverridesWithDocument:": {
+      "name": "calculateAvailableOverridesWithDocument:",
+      "bridgedName": "calculateAvailableOverridesWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSAvailableOverride *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

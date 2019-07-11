@@ -2,7 +2,16 @@
   "name": "MSTransformEventHandler",
   "extends": "MSPointsEventHandler",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "transformLayers": {
+      "name": "transformLayers",
+      "bridgedName": "transformLayers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "originalRect": {
       "name": "originalRect",

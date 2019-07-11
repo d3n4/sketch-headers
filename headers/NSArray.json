@@ -3,81 +3,6 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "sum:": {
-      "name": "sum:",
-      "bridgedName": "sum",
-      "args": [
-        {
-          "name": "block",
-          "type": "BCSumBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "CGFloat",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "arrayWithCapacity:fill:": {
-      "name": "arrayWithCapacity:fill:",
-      "bridgedName": "arrayWithCapacity_fill",
-      "args": [
-        {
-          "name": "count",
-          "type": "NSUInteger",
-          "nullable": false
-        },
-        {
-          "name": "block",
-          "type": "id (^)(NSUInteger index)",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "firstObjectPassingTest:": {
-      "name": "firstObjectPassingTest:",
-      "bridgedName": "firstObjectPassingTest",
-      "args": [
-        {
-          "name": "predicate",
-          "type": "BOOL (^)(id obj)",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "indexOfFirstObjectPassingTest:": {
-      "name": "indexOfFirstObjectPassingTest:",
-      "bridgedName": "indexOfFirstObjectPassingTest",
-      "args": [
-        {
-          "name": "predicate",
-          "type": "BOOL (^)(id obj)",
-          "nullable": false
-        }
-      ],
-      "returns": "NSUInteger",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "containsObjectPassingTest:": {
-      "name": "containsObjectPassingTest:",
-      "bridgedName": "containsObjectPassingTest",
-      "args": [
-        {
-          "name": "predicate",
-          "type": "BOOL (^)(id obj)",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "front": {
       "name": "front",
       "bridgedName": "front",
@@ -208,6 +133,48 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "containsObjectPassingTest:": {
+      "name": "containsObjectPassingTest:",
+      "bridgedName": "containsObjectPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(ObjectType obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstObjectPassingTest:": {
+      "name": "firstObjectPassingTest:",
+      "bridgedName": "firstObjectPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(ObjectType obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "ObjectType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfFirstObjectPassingTest:": {
+      "name": "indexOfFirstObjectPassingTest:",
+      "bridgedName": "indexOfFirstObjectPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(ObjectType obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "filterWithIndex:": {
       "name": "filterWithIndex:",
       "bridgedName": "filterWithIndex",
@@ -263,6 +230,53 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "firstObjectOfClass:": {
+      "name": "firstObjectOfClass:",
+      "bridgedName": "firstObjectOfClass",
+      "args": [
+        {
+          "name": "aClass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sum:": {
+      "name": "sum:",
+      "bridgedName": "sum",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCSumBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayWithCapacity:fill:": {
+      "name": "arrayWithCapacity:fill:",
+      "bridgedName": "arrayWithCapacity_fill",
+      "args": [
+        {
+          "name": "count",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "id (^)(NSUInteger index)",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
     },
     "arrayByRemovingNull": {
       "name": "arrayByRemovingNull",
@@ -571,5 +585,7 @@
     }
   },
   "properties": {},
-  "generics": []
+  "generics": [
+    "ObjectType"
+  ]
 }

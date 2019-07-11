@@ -76,6 +76,22 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "resizeHorCursorShort": {
+      "name": "resizeHorCursorShort",
+      "bridgedName": "resizeHorCursorShort",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "resizeHorCursorLong": {
+      "name": "resizeHorCursorLong",
+      "bridgedName": "resizeHorCursorLong",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "resizeVerCursor": {
       "name": "resizeVerCursor",
       "bridgedName": "resizeVerCursor",

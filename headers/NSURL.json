@@ -201,6 +201,74 @@
         "nullable",
         "readonly"
       ]
+    },
+    "isExportRequest": {
+      "name": "isExportRequest",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exportRootLayerID": {
+      "name": "exportRootLayerID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "copy",
+        "readonly"
+      ]
+    },
+    "exportRect": {
+      "name": "exportRect",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exportScale": {
+      "name": "exportScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "constrainedExportSize": {
+      "name": "constrainedExportSize",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exportImageType": {
+      "name": "exportImageType",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "copy",
+        "readonly"
+      ]
+    },
+    "mirrorCacheKey": {
+      "name": "mirrorCacheKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
     }
   },
   "generics": []

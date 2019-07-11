@@ -7,7 +7,21 @@
       "name": "separator",
       "bridgedName": "separator",
       "args": [],
-      "returns": "id",
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "separatorWithInsets:": {
+      "name": "separatorWithInsets:",
+      "bridgedName": "separatorWithInsets",
+      "args": [
+        {
+          "name": "insets",
+          "type": "NSEdgeInsets",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
     }

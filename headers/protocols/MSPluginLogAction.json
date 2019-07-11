@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSPluginLogAction",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "log:": {
+      "name": "log:",
+      "bridgedName": "log",
+      "args": [
+        {
+          "name": "sender",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

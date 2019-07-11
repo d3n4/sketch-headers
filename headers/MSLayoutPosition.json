@@ -1,0 +1,124 @@
+{
+  "name": "MSLayoutPosition",
+  "extends": "MSLayoutAnchor",
+  "interfaces": [],
+  "methods": {
+    "positionAnchorWithLine:inLayer:attribute:": {
+      "name": "positionAnchorWithLine:inLayer:attribute:",
+      "bridgedName": "positionAnchorWithLine_inLayer_attribute",
+      "args": [
+        {
+          "name": "line",
+          "type": "BCLine",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "attribute",
+          "type": "MSLayoutAttribute",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "positionInLayer:": {
+      "name": "positionInLayer:",
+      "bridgedName": "positionInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snappingTargetInLayer:": {
+      "name": "snappingTargetInLayer:",
+      "bridgedName": "snappingTargetInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSSnappingTarget *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectBySnappingToPosition:oldFrame:mayResize:": {
+      "name": "rectBySnappingToPosition:oldFrame:mayResize:",
+      "bridgedName": "rectBySnappingToPosition_oldFrame_mayResize",
+      "args": [
+        {
+          "name": "position",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "oldFrame",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "resize",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapPoint:toLines:onAxis:margin:": {
+      "name": "snapPoint:toLines:onAxis:margin:",
+      "bridgedName": "snapPoint_toLines_onAxis_margin",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "lines",
+          "type": "NSArray<MSLayoutPosition *> *",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "margin",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "snapTag": {
+      "name": "snapTag",
+      "pointer": false,
+      "type": "MSSnapTag",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -48,7 +48,7 @@
     "opacityField": {
       "name": "opacityField",
       "pointer": false,
-      "type": "NSTextField<MSUpDownProtocol> ",
+      "type": "MSUpDownTextField ",
       "attributes": [
         "nonatomic",
         "strong"

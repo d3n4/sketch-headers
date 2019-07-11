@@ -84,6 +84,15 @@
         "readonly"
       ]
     },
+    "dataIdentifier": {
+      "name": "dataIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
     "isSymbolOverride": {
       "name": "isSymbolOverride",
       "pointer": false,

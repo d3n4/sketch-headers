@@ -9,7 +9,7 @@
       "args": [
         {
           "name": "localData",
-          "type": "MSLocalDataSupplier *",
+          "type": "MSDataSupplier *",
           "nullable": false
         }
       ],
@@ -19,10 +19,10 @@
     }
   },
   "properties": {
-    "localData": {
-      "name": "localData",
+    "data": {
+      "name": "data",
       "pointer": false,
-      "type": "MSLocalDataSupplier ",
+      "type": "MSDataSupplier ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -65,8 +65,56 @@
         "readonly"
       ]
     },
-    "isBuiltinDataSupplier": {
-      "name": "isBuiltinDataSupplier",
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "canRevealInFinder": {
+      "name": "canRevealInFinder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "localData": {
+      "name": "localData",
+      "pointer": false,
+      "type": "MSLocalDataSupplier ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pluginData": {
+      "name": "pluginData",
+      "pointer": false,
+      "type": "MSPluginDataSupplier ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pluginBundleIcon": {
+      "name": "pluginBundleIcon",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isPluginEnabled": {
+      "name": "isPluginEnabled",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

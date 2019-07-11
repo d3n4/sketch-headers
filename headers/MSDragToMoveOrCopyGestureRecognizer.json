@@ -3,11 +3,17 @@
   "extends": "MSDragGestureRecognizer",
   "interfaces": [],
   "methods": {
-    "translation": {
-      "name": "translation",
-      "bridgedName": "translation",
-      "args": [],
-      "returns": "NSPoint",
+    "translationInLayer:": {
+      "name": "translationInLayer:",
+      "bridgedName": "translationInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "CGVector",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -45,10 +51,18 @@
         "readonly"
       ]
     },
-    "alignMask": {
-      "name": "alignMask",
+    "alignModifierMask": {
+      "name": "alignModifierMask",
       "pointer": false,
       "type": "NSEventModifierFlags",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "shouldInterpretAlignment": {
+      "name": "shouldInterpretAlignment",
+      "pointer": false,
+      "type": "BOOL",
       "attributes": [
         "nonatomic"
       ]

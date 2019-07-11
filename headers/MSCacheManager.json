@@ -5,6 +5,28 @@
     "MSRenderingContextCacheProvider"
   ],
   "methods": {
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithZoomIndependentCache:": {
+      "name": "initWithZoomIndependentCache:",
+      "bridgedName": "initWithZoomIndependentCache",
+      "args": [
+        {
+          "name": "zoomIndependentCache",
+          "type": "BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "clearCachesExceptForOwners:": {
       "name": "clearCachesExceptForOwners:",
       "bridgedName": "clearCachesExceptForOwners",

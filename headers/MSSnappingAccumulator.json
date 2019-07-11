@@ -17,58 +17,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addTarget:": {
-      "name": "addTarget:",
-      "bridgedName": "addTarget",
-      "args": [
-        {
-          "name": "target",
-          "type": "MSSnappingTarget *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "extendGuideToStartPosition:endPosition:": {
-      "name": "extendGuideToStartPosition:endPosition:",
-      "bridgedName": "extendGuideToStartPosition_endPosition",
-      "args": [
-        {
-          "name": "start",
-          "type": "CGFloat",
-          "nullable": false
-        },
-        {
-          "name": "end",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "resetLineSnapping": {
-      "name": "resetLineSnapping",
-      "bridgedName": "resetLineSnapping",
+    "removeAllEdgeSnaps": {
+      "name": "removeAllEdgeSnaps",
+      "bridgedName": "removeAllEdgeSnaps",
       "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "removeAllDimensionMeasurements": {
-      "name": "removeAllDimensionMeasurements",
-      "bridgedName": "removeAllDimensionMeasurements",
+    "removeAllDimensionSnaps": {
+      "name": "removeAllDimensionSnaps",
+      "bridgedName": "removeAllDimensionSnaps",
       "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "removeAllDistanceMeasurements": {
-      "name": "removeAllDistanceMeasurements",
-      "bridgedName": "removeAllDistanceMeasurements",
+    "removeAllSpacingSnaps": {
+      "name": "removeAllSpacingSnaps",
+      "bridgedName": "removeAllSpacingSnaps",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -85,64 +52,28 @@
         "readonly"
       ]
     },
-    "snappedToLine": {
-      "name": "snappedToLine",
+    "edgeSnaps": {
+      "name": "edgeSnaps",
       "pointer": false,
-      "type": "BOOL",
+      "type": "NSArray<MSLayoutRelationship *> ",
       "attributes": [
         "nonatomic",
         "readonly"
       ]
     },
-    "position": {
-      "name": "position",
+    "dimensionSnaps": {
+      "name": "dimensionSnaps",
       "pointer": false,
-      "type": "CGFloat",
+      "type": "NSArray<MSLayoutRelationship *> ",
       "attributes": [
         "nonatomic",
         "readonly"
       ]
     },
-    "wantsGuide": {
-      "name": "wantsGuide",
+    "spacingSnaps": {
+      "name": "spacingSnaps",
       "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "guideStartPosition": {
-      "name": "guideStartPosition",
-      "pointer": false,
-      "type": "CGFloat",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "guideEndPosition": {
-      "name": "guideEndPosition",
-      "pointer": false,
-      "type": "CGFloat",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "dimensionMeasurements": {
-      "name": "dimensionMeasurements",
-      "pointer": false,
-      "type": "NSArray<MSDimensionMeasurement *> ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "distanceMeasurements": {
-      "name": "distanceMeasurements",
-      "pointer": false,
-      "type": "NSArray<MSDistanceMeasurement *> ",
+      "type": "NSArray<MSLayoutRelationship *> ",
       "attributes": [
         "nonatomic",
         "readonly"

@@ -29,8 +29,27 @@
         "copy"
       ]
     },
+    "lineFragmentRectangles": {
+      "name": "lineFragmentRectangles",
+      "pointer": false,
+      "type": "NSArray <NSNumber *> ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy"
+      ]
+    },
     "firstBaselineOffset": {
       "name": "firstBaselineOffset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "lastBaselineOffset": {
+      "name": "lastBaselineOffset",
       "pointer": false,
       "type": "CGFloat",
       "attributes": [

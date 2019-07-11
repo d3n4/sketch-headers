@@ -218,6 +218,48 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "safeSubstringToIndex_ms:": {
+      "name": "safeSubstringToIndex_ms:",
+      "bridgedName": "safeSubstringToIndex_ms",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "safeSubstringFromIndex_ms:": {
+      "name": "safeSubstringFromIndex_ms:",
+      "bridgedName": "safeSubstringFromIndex_ms",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "safeSubstringWithRange_ms:": {
+      "name": "safeSubstringWithRange_ms:",
+      "bridgedName": "safeSubstringWithRange_ms",
+      "args": [
+        {
+          "name": "range",
+          "type": "NSRange",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "parent": {
       "name": "parent",
       "bridgedName": "parent",
@@ -560,9 +602,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "floatValueInContextOfSize:onAxis:": {
-      "name": "floatValueInContextOfSize:onAxis:",
-      "bridgedName": "floatValueInContextOfSize_onAxis",
+    "numberValueInContextOfSize:onAxis:": {
+      "name": "numberValueInContextOfSize:onAxis:",
+      "bridgedName": "numberValueInContextOfSize_onAxis",
       "args": [
         {
           "name": "size",
@@ -575,7 +617,7 @@
           "nullable": false
         }
       ],
-      "returns": "CGFloat",
+      "returns": "nullable NSNumber *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -601,6 +643,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "numberValueUsingMath": {
+      "name": "numberValueUsingMath",
+      "bridgedName": "numberValueUsingMath",
+      "args": [],
+      "returns": "nullable NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "containsMathSymbols": {
       "name": "containsMathSymbols",
       "bridgedName": "containsMathSymbols",
@@ -609,11 +659,19 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "floatValueByUsingNumberFormatter": {
-      "name": "floatValueByUsingNumberFormatter",
-      "bridgedName": "floatValueByUsingNumberFormatter",
+    "mathPrefix": {
+      "name": "mathPrefix",
+      "bridgedName": "mathPrefix",
       "args": [],
-      "returns": "CGFloat",
+      "returns": "nullable NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberValueByUsingNumberFormatter": {
+      "name": "numberValueByUsingNumberFormatter",
+      "bridgedName": "numberValueByUsingNumberFormatter",
+      "args": [],
+      "returns": "nullable NSNumber *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -621,6 +679,30 @@
       "name": "nativeDecimalSeparator",
       "bridgedName": "nativeDecimalSeparator",
       "args": [],
+      "returns": "nonnull NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "mathStringWithOperand1:operator:operand2:": {
+      "name": "mathStringWithOperand1:operator:operand2:",
+      "bridgedName": "mathStringWithOperand1_operator_operand2",
+      "args": [
+        {
+          "name": "operand1",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "operator",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "operand2",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
       "returns": "nonnull NSString *",
       "kind": "class",
       "kindIndicator": "+"

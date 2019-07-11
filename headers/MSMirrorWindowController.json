@@ -31,6 +31,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "transitionToArtboardID:animatedBy:": {
+      "name": "transitionToArtboardID:animatedBy:",
+      "bridgedName": "transitionToArtboardID_animatedBy",
+      "args": [
+        {
+          "name": "artboardID",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "animationType",
+          "type": "MSFlowAnimationType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "sharedController": {
       "name": "sharedController",
       "bridgedName": "sharedController",

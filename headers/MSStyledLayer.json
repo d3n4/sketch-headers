@@ -3,6 +3,34 @@
   "extends": "_MSStyledLayer",
   "interfaces": [],
   "methods": {
+    "layerWithImageFromPasteboard:": {
+      "name": "layerWithImageFromPasteboard:",
+      "bridgedName": "layerWithImageFromPasteboard",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "layerWithImageFromFileURL:": {
+      "name": "layerWithImageFromFileURL:",
+      "bridgedName": "layerWithImageFromFileURL",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "copyStyleToPasteboard": {
       "name": "copyStyleToPasteboard",
       "bridgedName": "copyStyleToPasteboard",

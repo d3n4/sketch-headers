@@ -73,6 +73,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "removePluginDataSuppliersNotIdentifiedWithIdentifiers:": {
+      "name": "removePluginDataSuppliersNotIdentifiedWithIdentifiers:",
+      "bridgedName": "removePluginDataSuppliersNotIdentifiedWithIdentifiers",
+      "args": [
+        {
+          "name": "dataSupplierIdentifiers",
+          "type": "NSDictionary <NSString *, NSDictionary <NSString *, NSArray *> *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "requestDataFromPluginDataSupplier:numberOfItems:applierBlock:": {
       "name": "requestDataFromPluginDataSupplier:numberOfItems:applierBlock:",
       "bridgedName": "requestDataFromPluginDataSupplier_numberOfItems_applierBlock",
@@ -130,9 +144,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "removeDataSupplier:": {
-      "name": "removeDataSupplier:",
-      "bridgedName": "removeDataSupplier",
+    "removeLocalDataSupplier:": {
+      "name": "removeLocalDataSupplier:",
+      "bridgedName": "removeLocalDataSupplier",
       "args": [
         {
           "name": "dataSupplier",
@@ -144,27 +158,31 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "loadLocalData": {
-      "name": "loadLocalData",
-      "bridgedName": "loadLocalData",
-      "args": [],
+    "loadDataSuppliersWithResetBuiltin:": {
+      "name": "loadDataSuppliersWithResetBuiltin:",
+      "bridgedName": "loadDataSuppliersWithResetBuiltin",
+      "args": [
+        {
+          "name": "resetBuiltin",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "loadBuiltinData": {
-      "name": "loadBuiltinData",
-      "bridgedName": "loadBuiltinData",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "resetSketchBuiltinData": {
-      "name": "resetSketchBuiltinData",
-      "bridgedName": "resetSketchBuiltinData",
-      "args": [],
-      "returns": "void",
+    "hasLocalDataSupplierWithURL:": {
+      "name": "hasLocalDataSupplierWithURL:",
+      "bridgedName": "hasLocalDataSupplierWithURL",
+      "args": [
+        {
+          "name": "dataURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -181,18 +199,66 @@
       "returns": "BOOL",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "dataSupplierWithIdentifier:": {
+      "name": "dataSupplierWithIdentifier:",
+      "bridgedName": "dataSupplierWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSDataSupplier *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDataIdentifierToUserInfo:forKey:toLayer:": {
+      "name": "setDataIdentifierToUserInfo:forKey:toLayer:",
+      "bridgedName": "setDataIdentifierToUserInfo_forKey_toLayer",
+      "args": [
+        {
+          "name": "dataIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataIdentifierFromUserInfoForKey:onLayer:": {
+      "name": "dataIdentifierFromUserInfoForKey:onLayer:",
+      "bridgedName": "dataIdentifierFromUserInfoForKey_onLayer",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
-    "localDataSuppliers": {
-      "name": "localDataSuppliers",
-      "pointer": false,
-      "type": "NSArray <MSLocalDataSupplier *> ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "dataSuppliers": {
       "name": "dataSuppliers",
       "pointer": false,

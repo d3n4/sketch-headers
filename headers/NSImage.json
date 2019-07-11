@@ -391,6 +391,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "horizontallyFlipped": {
+      "name": "horizontallyFlipped",
+      "bridgedName": "horizontallyFlipped",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "verticallyFlipped": {
       "name": "verticallyFlipped",
       "bridgedName": "verticallyFlipped",

@@ -39,6 +39,40 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "presentColorInspectorPopoverForViewController:document:globalAssets:relativeToView:colorInspectorSetupHandler:": {
+      "name": "presentColorInspectorPopoverForViewController:document:globalAssets:relativeToView:colorInspectorSetupHandler:",
+      "bridgedName": "presentColorInspectorPopoverForViewController_document_globalAssets_relativeToView_colorInspectorSetupHandler",
+      "args": [
+        {
+          "name": "viewController",
+          "type": "NSViewController<MSColorInspectorDelegate> *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "globalAssets",
+          "type": "MSPersistentAssetCollection *",
+          "nullable": false
+        },
+        {
+          "name": "positioningView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "setupHandler",
+          "type": "MSColorInspectorSetupBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "BCPopover *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:colorInspectorSetupHandler:": {
       "name": "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:colorInspectorSetupHandler:",
       "bridgedName": "presentColorInspectorPopoverForViewController_inspectorController_relativeToView_colorInspectorSetupHandler",

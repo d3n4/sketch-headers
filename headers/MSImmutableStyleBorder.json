@@ -66,9 +66,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "bezierPathWithExporter:": {
-      "name": "bezierPathWithExporter:",
-      "bridgedName": "bezierPathWithExporter",
+    "pathWithExporter:": {
+      "name": "pathWithExporter:",
+      "bridgedName": "pathWithExporter",
       "args": [
         {
           "name": "exporter",
@@ -76,7 +76,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSBezierPath *",
+      "returns": "MSPath *",
       "kind": "instance",
       "kindIndicator": "-"
     },

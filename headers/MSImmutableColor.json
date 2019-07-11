@@ -431,6 +431,16 @@
         "nonnull",
         "readonly"
       ]
+    },
+    "opaque": {
+      "name": "opaque",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isOpaque"
+      ]
     }
   },
   "generics": []

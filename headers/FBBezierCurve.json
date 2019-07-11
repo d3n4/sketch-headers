@@ -169,6 +169,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "pointAtParameter:": {
+      "name": "pointAtParameter:",
+      "bridgedName": "pointAtParameter",
+      "args": [
+        {
+          "name": "parameter",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "FBPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "pointAtParameter:leftBezierCurve:rightBezierCurve:": {
       "name": "pointAtParameter:leftBezierCurve:rightBezierCurve:",
       "bridgedName": "pointAtParameter_leftBezierCurve_rightBezierCurve",

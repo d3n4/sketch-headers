@@ -4,10 +4,16 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "contentBounds": {
-      "name": "contentBounds",
-      "bridgedName": "contentBounds",
-      "args": [],
+    "contentBoundsForDocument:": {
+      "name": "contentBoundsForDocument:",
+      "bridgedName": "contentBoundsForDocument",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
@@ -30,15 +36,6 @@
       "type": "MSImmutableLayoutGrid ",
       "attributes": [
         "copy",
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "contentBounds": {
-      "name": "contentBounds",
-      "pointer": false,
-      "type": "NSRect",
-      "attributes": [
         "nonatomic",
         "readonly"
       ]

@@ -359,6 +359,14 @@
       "value": "103"
     },
     {
+      "name": "MSDocumentRefactorWindingRule",
+      "value": "104"
+    },
+    {
+      "name": "MSDocumentFancyArrowHeads",
+      "value": "105"
+    },
+    {
       "name": "MSDocumentNextVersion"
     },
     {

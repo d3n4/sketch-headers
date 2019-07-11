@@ -187,6 +187,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "visibleCanvasRectForDocumentData:": {
+      "name": "visibleCanvasRectForDocumentData:",
+      "bridgedName": "visibleCanvasRectForDocumentData",
+      "args": [
+        {
+          "name": "data",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {}

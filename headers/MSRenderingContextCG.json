@@ -66,30 +66,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "subContextWithDefaultSettingsForCGContext:contextIsVectorBacked:renderingRequest:": {
-      "name": "subContextWithDefaultSettingsForCGContext:contextIsVectorBacked:renderingRequest:",
-      "bridgedName": "subContextWithDefaultSettingsForCGContext_contextIsVectorBacked_renderingRequest",
-      "args": [
-        {
-          "name": "cgContext",
-          "type": "CGContextRef",
-          "nullable": false
-        },
-        {
-          "name": "vectorBacked",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "renderingRequest",
-          "type": "MSRenderingRequest *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "subContextWithCGContext:contextIsVectorBacked:pointScale:zoomLevel:options:": {
       "name": "subContextWithCGContext:contextIsVectorBacked:pointScale:zoomLevel:options:",
       "bridgedName": "subContextWithCGContext_contextIsVectorBacked_pointScale_zoomLevel_options",
@@ -146,25 +122,6 @@
         {
           "name": "rect",
           "type": "CGRect",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bitmapBackedSubContextWithCGContext:size:": {
-      "name": "bitmapBackedSubContextWithCGContext:size:",
-      "bridgedName": "bitmapBackedSubContextWithCGContext_size",
-      "args": [
-        {
-          "name": "cgContext",
-          "type": "CGContextRef",
-          "nullable": false
-        },
-        {
-          "name": "size",
-          "type": "NSSize",
           "nullable": false
         }
       ],

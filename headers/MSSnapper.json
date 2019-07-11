@@ -3,15 +3,10 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "snapItemByDistance:edges:resize:": {
-      "name": "snapItemByDistance:edges:resize:",
-      "bridgedName": "snapItemByDistance_edges_resize",
+    "snapByDistanceEdges:resize:": {
+      "name": "snapByDistanceEdges:resize:",
+      "bridgedName": "snapByDistanceEdges_resize",
       "args": [
-        {
-          "name": "aLayer",
-          "type": "MSSnapItem *",
-          "nullable": false
-        },
         {
           "name": "mask",
           "type": "NSInteger",
@@ -27,15 +22,10 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "snapLayerSize:snap:edges:": {
-      "name": "snapLayerSize:snap:edges:",
-      "bridgedName": "snapLayerSize_snap_edges",
+    "snapSize:edges:": {
+      "name": "snapSize:edges:",
+      "bridgedName": "snapSize_edges",
       "args": [
-        {
-          "name": "snapItem",
-          "type": "MSSnapItem *",
-          "nullable": false
-        },
         {
           "name": "snap",
           "type": "BCAxis",
@@ -118,15 +108,10 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "snapItem:attributes:toLines:visible:snap:resize:": {
-      "name": "snapItem:attributes:toLines:visible:snap:resize:",
-      "bridgedName": "snapItem_attributes_toLines_visible_snap_resize",
+    "snapAttributes:toLines:visible:snap:resize:": {
+      "name": "snapAttributes:toLines:visible:snap:resize:",
+      "bridgedName": "snapAttributes_toLines_visible_snap_resize",
       "args": [
-        {
-          "name": "item",
-          "type": "MSSnapItem *",
-          "nullable": false
-        },
         {
           "name": "attributeMask",
           "type": "NSIndexSet *",
@@ -134,7 +119,7 @@
         },
         {
           "name": "lines",
-          "type": "NSArray<MSSnapLine *> *",
+          "type": "NSArray<MSLayoutPosition *> *",
           "nullable": false
         },
         {

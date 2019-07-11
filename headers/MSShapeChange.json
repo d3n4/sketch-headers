@@ -60,6 +60,30 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "moveHandle:toLocation:onAxis:": {
+      "name": "moveHandle:toLocation:onAxis:",
+      "bridgedName": "moveHandle_toLocation_onAxis",
+      "args": [
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        },
+        {
+          "name": "location",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapeChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "nudgeWithKey:distance:flags:": {
       "name": "nudgeWithKey:distance:flags:",
       "bridgedName": "nudgeWithKey_distance_flags",

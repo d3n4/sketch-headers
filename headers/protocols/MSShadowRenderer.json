@@ -10,7 +10,7 @@
       "args": [
         {
           "name": "shadow",
-          "type": "MSImmutableStyleShadow*",
+          "type": "MSImmutableStyleShadow *",
           "nullable": false
         },
         {
@@ -20,7 +20,7 @@
         },
         {
           "name": "cacheObject",
-          "type": "MSModelObjectCommon*",
+          "type": "MSModelObjectCommon *",
           "nullable": false
         },
         {
@@ -69,7 +69,7 @@
       "args": [
         {
           "name": "shadow",
-          "type": "MSImmutableStyleShadow*",
+          "type": "MSImmutableStyleShadow *",
           "nullable": false
         },
         {
@@ -92,13 +92,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "renderInnerShadow:path:windingRule:context:": {
-      "name": "renderInnerShadow:path:windingRule:context:",
-      "bridgedName": "renderInnerShadow_path_windingRule_context",
+    "renderInnerShadow:path:windingRule:context:cacheObject:": {
+      "name": "renderInnerShadow:path:windingRule:context:cacheObject:",
+      "bridgedName": "renderInnerShadow_path_windingRule_context_cacheObject",
       "args": [
         {
           "name": "shadow",
-          "type": "MSImmutableStyleInnerShadow*",
+          "type": "MSImmutableStyleInnerShadow *",
           "nullable": false
         },
         {
@@ -114,6 +114,11 @@
         {
           "name": "context",
           "type": "MSRenderingContext *",
+          "nullable": false
+        },
+        {
+          "name": "cacheObject",
+          "type": "MSModelObjectCommon *",
           "nullable": false
         }
       ],

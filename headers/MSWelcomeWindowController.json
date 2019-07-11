@@ -154,6 +154,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "revealDocumentInCloud:": {
+      "name": "revealDocumentInCloud:",
+      "bridgedName": "revealDocumentInCloud",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "clearRecentDocuments:": {
       "name": "clearRecentDocuments:",
       "bridgedName": "clearRecentDocuments",

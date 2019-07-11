@@ -4,6 +4,20 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "firstFlowWithSymbolsFromDocument:": {
+      "name": "firstFlowWithSymbolsFromDocument:",
+      "bridgedName": "firstFlowWithSymbolsFromDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSImmutableFlowConnection *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "containsFlowWithSymbolsFromDocument:": {
       "name": "containsFlowWithSymbolsFromDocument:",
       "bridgedName": "containsFlowWithSymbolsFromDocument",

@@ -2,24 +2,7 @@
   "name": "MSTextSnapItem",
   "extends": "MSSnapItem",
   "interfaces": [],
-  "methods": {
-    "baseline": {
-      "name": "baseline",
-      "bridgedName": "baseline",
-      "args": [],
-      "returns": "CGFloat",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "xHeight": {
-      "name": "xHeight",
-      "bridgedName": "xHeight",
-      "args": [],
-      "returns": "CGFloat",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {},
   "generics": []
 }

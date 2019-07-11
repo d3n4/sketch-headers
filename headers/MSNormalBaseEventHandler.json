@@ -3,9 +3,9 @@
   "extends": "MSEventHandler",
   "interfaces": [],
   "methods": {
-    "cursorForCorner:transformStruct:": {
-      "name": "cursorForCorner:transformStruct:",
-      "bridgedName": "cursorForCorner_transformStruct",
+    "cursorForCorner:ofLayer:": {
+      "name": "cursorForCorner:ofLayer:",
+      "bridgedName": "cursorForCorner_ofLayer",
       "args": [
         {
           "name": "corner",
@@ -13,12 +13,12 @@
           "nullable": false
         },
         {
-          "name": "rotation",
-          "type": "CHTransformStruct",
-          "nullable": false
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
         }
       ],
-      "returns": "NSCursor *",
+      "returns": "nullable NSCursor *",
       "kind": "instance",
       "kindIndicator": "-"
     },

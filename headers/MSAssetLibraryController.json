@@ -240,6 +240,30 @@
       "returns": "NSArray <MSRemoteAssetLibrary *> *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "addRemoteLibraryFromAppcastURL:context:callback:": {
+      "name": "addRemoteLibraryFromAppcastURL:context:callback:",
+      "bridgedName": "addRemoteLibraryFromAppcastURL_context_callback",
+      "args": [
+        {
+          "name": "appcastURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "coscript",
+          "type": "COScript *",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

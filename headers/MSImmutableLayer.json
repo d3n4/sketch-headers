@@ -112,7 +112,7 @@
         {
           "name": "doc",
           "type": "MSImmutableDocumentData *",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "visitedSymbols",
@@ -131,7 +131,7 @@
         {
           "name": "doc",
           "type": "MSImmutableDocumentData *",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "visitedSymbols",
@@ -150,12 +150,26 @@
         {
           "name": "doc",
           "type": "MSImmutableDocumentData *",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "visitedSymbols",
           "type": "NSSet *",
           "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForBoundsOrCalculateInBlock:": {
+      "name": "influenceRectForBoundsOrCalculateInBlock:",
+      "bridgedName": "influenceRectForBoundsOrCalculateInBlock",
+      "args": [
+        {
+          "name": "creatorBlock",
+          "type": "NSRect (^)(void)",
+          "nullable": false
         }
       ],
       "returns": "NSRect",
@@ -209,14 +223,6 @@
       "bridgedName": "canSkipAdvancedClipForStrokes",
       "args": [],
       "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "calculateInfluenceRectForBounds": {
-      "name": "calculateInfluenceRectForBounds",
-      "bridgedName": "calculateInfluenceRectForBounds",
-      "args": [],
-      "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -488,15 +494,6 @@
     }
   },
   "properties": {
-    "manifestLayers": {
-      "name": "manifestLayers",
-      "pointer": false,
-      "type": "NSArray<MSImmutableLayer *> ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "center": {
       "name": "center",
       "pointer": false,
@@ -556,15 +553,6 @@
       "name": "isLayerExportable",
       "pointer": false,
       "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "influenceRectForFrame": {
-      "name": "influenceRectForFrame",
-      "pointer": false,
-      "type": "NSRect",
       "attributes": [
         "nonatomic",
         "readonly"

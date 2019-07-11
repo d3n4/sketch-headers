@@ -4,10 +4,10 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "previewView": {
-      "name": "previewView",
+    "previewContainer": {
+      "name": "previewContainer",
       "pointer": false,
-      "type": "IBOutlet MSSliceDragView ",
+      "type": "IBOutlet NSView ",
       "attributes": [
         "nonatomic",
         "strong"

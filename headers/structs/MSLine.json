@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "MSLine",
+  "members": [
+    {
+      "name": "A",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "B",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "C",
+      "pointer": false,
+      "type": "CGFloat"
+    }
+  ]
+}

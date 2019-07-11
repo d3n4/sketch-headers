@@ -3,6 +3,76 @@
   "extends": "_MSRectangleShape",
   "interfaces": [],
   "methods": {
+    "looksLikeComponentString:": {
+      "name": "looksLikeComponentString:",
+      "bridgedName": "looksLikeComponentString",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "componentStringWithValues:": {
+      "name": "componentStringWithValues:",
+      "bridgedName": "componentStringWithValues",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray <NSNumber *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "validateComponentString:": {
+      "name": "validateComponentString:",
+      "bridgedName": "validateComponentString",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "validateProposedCornerRadiusSizeWithString:": {
+      "name": "validateProposedCornerRadiusSizeWithString:",
+      "bridgedName": "validateProposedCornerRadiusSizeWithString",
+      "args": [
+        {
+          "name": "radiusString",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateProposedCornerRadiusWithFloat:": {
+      "name": "validateProposedCornerRadiusWithFloat:",
+      "bridgedName": "validateProposedCornerRadiusWithFloat",
+      "args": [
+        {
+          "name": "radius",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "resetPathsToRect": {
       "name": "resetPathsToRect",
       "bridgedName": "resetPathsToRect",
@@ -78,6 +148,15 @@
       "name": "smoothCornersAllowed",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "maximumAllowedRadius": {
+      "name": "maximumAllowedRadius",
+      "pointer": false,
+      "type": "CGFloat",
       "attributes": [
         "nonatomic",
         "readonly"

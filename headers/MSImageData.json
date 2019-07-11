@@ -7,6 +7,20 @@
     "MSJSONArchiverAlternativeFileReference"
   ],
   "methods": {
+    "CGImageSuitableForDrawingWithSize:": {
+      "name": "CGImageSuitableForDrawingWithSize:",
+      "bridgedName": "CGImageSuitableForDrawingWithSize",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        }
+      ],
+      "returns": "CGImageRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "initWithImage:": {
       "name": "initWithImage:",
       "bridgedName": "initWithImage",
@@ -98,6 +112,15 @@
       "type": "NSImage*",
       "attributes": [
         "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cgImage": {
+      "name": "cgImage",
+      "pointer": false,
+      "type": "CGImageRef",
+      "attributes": [
         "nonatomic",
         "readonly"
       ]

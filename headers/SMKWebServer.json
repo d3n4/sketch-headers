@@ -88,8 +88,8 @@
       "bridgedName": "dataForExportRequest",
       "args": [
         {
-          "name": "request",
-          "type": "SMKExportRequest *",
+          "name": "requestURL",
+          "type": "NSURL *",
           "nullable": false
         }
       ],

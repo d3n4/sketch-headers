@@ -4,55 +4,7 @@
   "interfaces": [
     "NSMenuDelegate"
   ],
-  "methods": {
-    "editZoomCenter:": {
-      "name": "editZoomCenter:",
-      "bridgedName": "editZoomCenter",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "blurPopUpAction:": {
-      "name": "blurPopUpAction:",
-      "bridgedName": "blurPopUpAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
-  "properties": {
-    "editButton": {
-      "name": "editButton",
-      "pointer": false,
-      "type": "IBOutlet NSButton ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "backgroundBlurMenuItem": {
-      "name": "backgroundBlurMenuItem",
-      "pointer": false,
-      "type": "IBOutlet NSMenuItem ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    }
-  },
+  "methods": {},
+  "properties": {},
   "generics": []
 }

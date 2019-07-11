@@ -193,7 +193,7 @@
       "type": "NSValue ",
       "attributes": [
         "strong",
-        "nonatomic",
+        "atomic",
         "nullable"
       ]
     },
