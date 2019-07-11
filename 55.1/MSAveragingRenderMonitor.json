@@ -1,0 +1,42 @@
+{
+  "name": "MSAveragingRenderMonitor",
+  "extends": "MSRenderMonitor",
+  "interfaces": [],
+  "methods": {
+    "initWithUpdateBlock:": {
+      "name": "initWithUpdateBlock:",
+      "bridgedName": "initWithUpdateBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSAveragingRenderMonitorUpdateBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "start": {
+      "name": "start",
+      "pointer": false,
+      "type": "BCTime",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "updateTimer": {
+      "name": "updateTimer",
+      "pointer": false,
+      "type": "NSTimer*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

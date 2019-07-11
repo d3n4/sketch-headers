@@ -1,0 +1,23 @@
+{
+  "name": "MSAlignBottomAction",
+  "extends": "MSTextVerticalAlignmentAction",
+  "interfaces": [],
+  "methods": {
+    "alignBottom:": {
+      "name": "alignBottom:",
+      "bridgedName": "alignBottom",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

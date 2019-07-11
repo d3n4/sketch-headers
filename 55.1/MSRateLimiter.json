@@ -1,0 +1,53 @@
+{
+  "name": "MSRateLimiter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithTarget:action:": {
+      "name": "initWithTarget:action:",
+      "bridgedName": "initWithTarget_action",
+      "args": [
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateIfNeeded": {
+      "name": "updateIfNeeded",
+      "bridgedName": "updateIfNeeded",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "update": {
+      "name": "update",
+      "bridgedName": "update",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "needsUpdate": {
+      "name": "needsUpdate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

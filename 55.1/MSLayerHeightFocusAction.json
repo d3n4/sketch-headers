@@ -1,0 +1,8 @@
+{
+  "name": "MSLayerHeightFocusAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

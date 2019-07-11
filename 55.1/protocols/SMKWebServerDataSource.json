@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "SMKWebServerDataSource",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "renderExportForRequest:handler:": {
+      "name": "renderExportForRequest:handler:",
+      "bridgedName": "renderExportForRequest_handler",
+      "args": [
+        {
+          "name": "requestURL",
+          "type": "nonnull NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "void (^ _Nonnull)(NSData * _Nullable)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

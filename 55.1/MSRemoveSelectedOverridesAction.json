@@ -1,0 +1,23 @@
+{
+  "name": "MSRemoveSelectedOverridesAction",
+  "extends": "MSOverrideAction",
+  "interfaces": [],
+  "methods": {
+    "removeSelectedOverrides:": {
+      "name": "removeSelectedOverrides:",
+      "bridgedName": "removeSelectedOverrides",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

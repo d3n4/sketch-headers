@@ -1,0 +1,87 @@
+{
+  "enum": true,
+  "name": "BCReceiptStatus",
+  "members": [
+    {
+      "name": "BCReceiptStatusNotChecked"
+    },
+    {
+      "name": "BCReceiptStatusVerified"
+    },
+    {
+      "name": "BCReceiptStatusInvalidBundleID"
+    },
+    {
+      "name": "BCReceiptStatusInvalidBundleVersion"
+    },
+    {
+      "name": "BCReceiptStatusFailedToCreateStaticCode"
+    },
+    {
+      "name": "BCReceiptStatusFailedToCreateRequirement"
+    },
+    {
+      "name": "BCReceiptStatusInvalidSignature"
+    },
+    {
+      "name": "BCReceiptStatusMissingReceipt"
+    },
+    {
+      "name": "BCReceiptStatusFailedToCreateDecoder"
+    },
+    {
+      "name": "BCReceiptStatusFailedToUpdateMessage"
+    },
+    {
+      "name": "BCReceiptStatusFailedToFinalizeMessage"
+    },
+    {
+      "name": "BCReceiptStatusFailedToDecrypt"
+    },
+    {
+      "name": "BCReceiptStatusFailedToGetSignerCount"
+    },
+    {
+      "name": "BCReceiptStatusNoSignerFound"
+    },
+    {
+      "name": "BCReceiptStatusFailedToGetSignerStatus"
+    },
+    {
+      "name": "BCReceiptStatusNoValidSigner"
+    },
+    {
+      "name": "BCReceiptStatusFailedToCreateASN1Decoder"
+    },
+    {
+      "name": "BCReceiptStatusFailedToDecodePayload"
+    },
+    {
+      "name": "BCReceiptStatusInvalidReceiptID"
+    },
+    {
+      "name": "BCReceiptStatusInvalidReceiptVersion"
+    },
+    {
+      "name": "BCReceiptStatusFailedToGetMACAddress"
+    },
+    {
+      "name": "BCReceiptStatusBadReceiptHash"
+    },
+    {
+      "name": "BCReceiptStatusFailedToDecodeInteger"
+    },
+    {
+      "name": "BCReceiptStatusFailedToDecodeString"
+    },
+    {
+      "name": "BCReceiptStatusFailedToDecodeDate"
+    },
+    {
+      "name": "BCReceiptStatusFailedQuickValidation"
+    },
+    {
+      "name": "BCReceiptStatusUnexpectedError"
+    }
+  ]
+}

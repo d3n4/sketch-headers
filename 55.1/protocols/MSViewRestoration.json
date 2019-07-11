@@ -1,0 +1,31 @@
+{
+  "protocol": true,
+  "name": "MSViewRestoration",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "viewRestorationState_ms": {
+      "name": "viewRestorationState_ms",
+      "bridgedName": "viewRestorationState_ms",
+      "args": [],
+      "returns": "nullable id<MSViewRestorationState>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "restoreWithState_ms:": {
+      "name": "restoreWithState_ms:",
+      "bridgedName": "restoreWithState_ms",
+      "args": [
+        {
+          "name": "state",
+          "type": "id<MSViewRestorationState>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

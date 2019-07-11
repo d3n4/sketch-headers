@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "MSDataType",
+  "members": [
+    {
+      "name": "MSDataTypeNone",
+      "value": "0"
+    },
+    {
+      "name": "MSDataTypeText",
+      "value": "1<<0"
+    },
+    {
+      "name": "MSDataTypeImage",
+      "value": "1<<1"
+    },
+    {
+      "name": "MSDataTypeImageAndText",
+      "value": "MSDataTypeText | MSDataTypeImage"
+    }
+  ]
+}

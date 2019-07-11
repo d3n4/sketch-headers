@@ -1,0 +1,75 @@
+{
+  "name": "MSDiff",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithFirstObjectRoot:secondObjectRoot:": {
+      "name": "initWithFirstObjectRoot:secondObjectRoot:",
+      "bridgedName": "initWithFirstObjectRoot_secondObjectRoot",
+      "args": [
+        {
+          "name": "first",
+          "type": "MSSubtreeRoot *",
+          "nullable": false
+        },
+        {
+          "name": "second",
+          "type": "MSSubtreeRoot *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contentDirtyDiffRectForPage:": {
+      "name": "contentDirtyDiffRectForPage:",
+      "bridgedName": "contentDirtyDiffRectForPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overlayDirtyDiffRectForPage:": {
+      "name": "overlayDirtyDiffRectForPage:",
+      "bridgedName": "overlayDirtyDiffRectForPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "firstObjectRoot": {
+      "name": "firstObjectRoot",
+      "pointer": false,
+      "type": "MSSubtreeRoot ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "secondObjectRoot": {
+      "name": "secondObjectRoot",
+      "pointer": false,
+      "type": "MSSubtreeRoot ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

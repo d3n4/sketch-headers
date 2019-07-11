@@ -1,0 +1,29 @@
+{
+  "enum": true,
+  "name": "MSEventHandlerDragMode",
+  "members": [
+    {
+      "name": "MSEventHandlerDragNone",
+      "value": "-1"
+    },
+    {
+      "name": "MSEventHandlerDragMove",
+      "value": "0"
+    },
+    {
+      "name": "MSEventHandlerDragResize"
+    },
+    {
+      "name": "MSEventHandlerDragRotate",
+      "value": "3"
+    },
+    {
+      "name": "MSEventHandlerDragSelect",
+      "value": "2"
+    },
+    {
+      "name": "MSEventHandlerDragAdjustSpacing",
+      "value": "4"
+    }
+  ]
+}

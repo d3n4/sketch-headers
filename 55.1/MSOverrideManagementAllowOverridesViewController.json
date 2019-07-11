@@ -1,0 +1,8 @@
+{
+  "name": "MSOverrideManagementAllowOverridesViewController",
+  "extends": "MSOverrideManagementViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

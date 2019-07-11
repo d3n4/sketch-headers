@@ -1,0 +1,8 @@
+{
+  "name": "MSOverrideManagementPropertyViewController",
+  "extends": "MSOverrideManagementViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

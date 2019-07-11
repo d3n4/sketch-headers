@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSIncrementDecrementDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "incrementBy:sender:": {
+      "name": "incrementBy:sender:",
+      "bridgedName": "incrementBy_sender",
+      "args": [
+        {
+          "name": "amount",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

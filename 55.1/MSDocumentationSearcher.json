@@ -1,0 +1,19 @@
+{
+  "name": "MSDocumentationSearcher",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSUserInterfaceItemSearching"
+  ],
+  "methods": {
+    "documentationMightHaveChanged": {
+      "name": "documentationMightHaveChanged",
+      "bridgedName": "documentationMightHaveChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

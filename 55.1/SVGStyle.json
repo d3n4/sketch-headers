@@ -1,0 +1,8 @@
+{
+  "name": "SVGStyle",
+  "extends": "SVGElement",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

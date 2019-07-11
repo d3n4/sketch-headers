@@ -1,0 +1,8 @@
+{
+  "name": "MSBezierCurveCurveJoin",
+  "extends": "MSBezierLineCurveJoin",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

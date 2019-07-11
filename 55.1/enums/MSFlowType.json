@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "MSFlowType",
+  "members": [
+    {
+      "name": "MSFlowTypeNone",
+      "value": "-1"
+    },
+    {
+      "name": "MSFlowTypeRegularTranstion"
+    },
+    {
+      "name": "MSFlowTypeBackTransition"
+    },
+    {
+      "name": "MSFlowTypeTransitionToParent"
+    },
+    {
+      "name": "MSFlowTypeOtherPageTransition"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "SUVersionDisplay",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "formatVersion:andVersion:": {
+      "name": "formatVersion:andVersion:",
+      "bridgedName": "formatVersion_andVersion",
+      "args": [
+        {
+          "name": "inOutVersionA",
+          "type": "NSString *_Nonnull*_Nonnull",
+          "nullable": false
+        },
+        {
+          "name": "inOutVersionB",
+          "type": "NSString *_Nonnull*_Nonnull",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

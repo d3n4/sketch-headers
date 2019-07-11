@@ -1,0 +1,19 @@
+{
+  "name": "BCWindowBadge",
+  "extends": "NSButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "tintColor": {
+      "name": "tintColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "null_resettable"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,186 @@
+{
+  "name": "FBTangentIterator",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "tangentIteratorWithIntersection:onCurve:": {
+      "name": "tangentIteratorWithIntersection:onCurve:",
+      "bridgedName": "tangentIteratorWithIntersection_onCurve",
+      "args": [
+        {
+          "name": "intersection",
+          "type": "FBBezierIntersection *",
+          "nullable": false
+        },
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithIntersection:onCurve:": {
+      "name": "initWithIntersection:onCurve:",
+      "bridgedName": "initWithIntersection_onCurve",
+      "args": [
+        {
+          "name": "intersection",
+          "type": "FBBezierIntersection *",
+          "nullable": false
+        },
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tangentIteratorWithOverlapRun:edge1:": {
+      "name": "tangentIteratorWithOverlapRun:edge1:",
+      "bridgedName": "tangentIteratorWithOverlapRun_edge1",
+      "args": [
+        {
+          "name": "overlapRun",
+          "type": "FBEdgeOverlapRun *",
+          "nullable": false
+        },
+        {
+          "name": "edge1",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithOverlapRun:edge1:": {
+      "name": "initWithOverlapRun:edge1:",
+      "bridgedName": "initWithOverlapRun_edge1",
+      "args": [
+        {
+          "name": "overlapRun",
+          "type": "FBEdgeOverlapRun *",
+          "nullable": false
+        },
+        {
+          "name": "edge1",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sync:": {
+      "name": "sync:",
+      "bridgedName": "sync",
+      "args": [
+        {
+          "name": "other",
+          "type": "FBTangentIterator *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nextStart": {
+      "name": "nextStart",
+      "bridgedName": "nextStart",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nextStop": {
+      "name": "nextStop",
+      "bridgedName": "nextStop",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "leftCurve": {
+      "name": "leftCurve",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "rightCurve": {
+      "name": "rightCurve",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "offsetStep": {
+      "name": "offsetStep",
+      "pointer": false,
+      "type": "FBFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "offsetMaximum": {
+      "name": "offsetMaximum",
+      "pointer": false,
+      "type": "FBFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "startPoint": {
+      "name": "startPoint",
+      "pointer": false,
+      "type": "FBPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "stopPoint": {
+      "name": "stopPoint",
+      "pointer": false,
+      "type": "FBPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "startTangent": {
+      "name": "startTangent",
+      "pointer": false,
+      "type": "FBPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "stopTangent": {
+      "name": "stopTangent",
+      "pointer": false,
+      "type": "FBPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

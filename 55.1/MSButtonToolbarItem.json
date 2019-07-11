@@ -1,0 +1,8 @@
+{
+  "name": "MSButtonToolbarItem",
+  "extends": "MSToolbarItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

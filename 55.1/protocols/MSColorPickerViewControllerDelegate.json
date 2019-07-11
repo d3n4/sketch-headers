@@ -1,0 +1,42 @@
+{
+  "protocol": true,
+  "name": "MSColorPickerViewControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorPickerController:colorDidChange:": {
+      "name": "colorPickerController:colorDidChange:",
+      "bridgedName": "colorPickerController_colorDidChange",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSColorPickerViewController *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subviewsChangedInColorPickerController:": {
+      "name": "subviewsChangedInColorPickerController:",
+      "bridgedName": "subviewsChangedInColorPickerController",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSColorPickerViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

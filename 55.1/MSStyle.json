@@ -1,0 +1,280 @@
+{
+  "name": "MSStyle",
+  "extends": "_MSStyle",
+  "interfaces": [
+    "MSSharedObjectInstance",
+    "NSCopying"
+  ],
+  "methods": {
+    "styleWithFillColor:": {
+      "name": "styleWithFillColor:",
+      "bridgedName": "styleWithFillColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "multiplyBy:": {
+      "name": "multiplyBy:",
+      "bridgedName": "multiplyBy",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enabledFills": {
+      "name": "enabledFills",
+      "bridgedName": "enabledFills",
+      "args": [],
+      "returns": "NSArray <MSStyleFill *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enabledBorders": {
+      "name": "enabledBorders",
+      "bridgedName": "enabledBorders",
+      "args": [],
+      "returns": "NSArray <MSStyleBorder *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enabledShadows": {
+      "name": "enabledShadows",
+      "bridgedName": "enabledShadows",
+      "args": [],
+      "returns": "NSArray <MSStyleShadow *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enabledInnerShadows": {
+      "name": "enabledInnerShadows",
+      "bridgedName": "enabledInnerShadows",
+      "args": [],
+      "returns": "NSArray <MSStyleInnerShadow *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstEnabledBorder": {
+      "name": "firstEnabledBorder",
+      "bridgedName": "firstEnabledBorder",
+      "args": [],
+      "returns": "MSStyleBorder *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstEnabledFill": {
+      "name": "firstEnabledFill",
+      "bridgedName": "firstEnabledFill",
+      "args": [],
+      "returns": "MSStyleFill *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstEnabledShadow": {
+      "name": "firstEnabledShadow",
+      "bridgedName": "firstEnabledShadow",
+      "args": [],
+      "returns": "MSStyleShadow *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disableAllBorders": {
+      "name": "disableAllBorders",
+      "bridgedName": "disableAllBorders",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disableAllFills": {
+      "name": "disableAllFills",
+      "bridgedName": "disableAllFills",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disableAllShadows": {
+      "name": "disableAllShadows",
+      "bridgedName": "disableAllShadows",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disableAllInnerShadows": {
+      "name": "disableAllInnerShadows",
+      "bridgedName": "disableAllInnerShadows",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasTextStyle": {
+      "name": "hasTextStyle",
+      "bridgedName": "hasTextStyle",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentLayer": {
+      "name": "parentLayer",
+      "bridgedName": "parentLayer",
+      "args": [],
+      "returns": "MSStyledLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportsAdvancedBorderSettings": {
+      "name": "supportsAdvancedBorderSettings",
+      "bridgedName": "supportsAdvancedBorderSettings",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stylePartsOfType:": {
+      "name": "stylePartsOfType:",
+      "bridgedName": "stylePartsOfType",
+      "args": [
+        {
+          "name": "type",
+          "type": "MSStylePartType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <__kindof MSStylePart *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStylePartOfType:": {
+      "name": "addStylePartOfType:",
+      "bridgedName": "addStylePartOfType",
+      "args": [
+        {
+          "name": "type",
+          "type": "MSStylePartType",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof MSStylePart *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "primitiveTextStyle": {
+      "name": "primitiveTextStyle",
+      "pointer": false,
+      "type": "MSTextStyle ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "primitiveSharedObjectID": {
+      "name": "primitiveSharedObjectID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "hasBlending": {
+      "name": "hasBlending",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasMarkers": {
+      "name": "hasMarkers",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledBackgroundBlur": {
+      "name": "hasEnabledBackgroundBlur",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledBorder": {
+      "name": "hasEnabledBorder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledFill": {
+      "name": "hasEnabledFill",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasEnabledShadow": {
+      "name": "hasEnabledShadow",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasMoreThanOneEnabledFill": {
+      "name": "hasMoreThanOneEnabledFill",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "thickestInnerStroke": {
+      "name": "thickestInnerStroke",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "thickestStroke": {
+      "name": "thickestStroke",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

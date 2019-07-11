@@ -1,0 +1,49 @@
+{
+  "name": "MSPDFImporter",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSImporter"
+  ],
+  "methods": {
+    "pdfImporter": {
+      "name": "pdfImporter",
+      "bridgedName": "pdfImporter",
+      "args": [],
+      "returns": "MSPDFImporter*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "epsImporter": {
+      "name": "epsImporter",
+      "bridgedName": "epsImporter",
+      "args": [],
+      "returns": "MSPDFImporter*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "prepareToImportFromURL:": {
+      "name": "prepareToImportFromURL:",
+      "bridgedName": "prepareToImportFromURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "importAsLayer": {
+      "name": "importAsLayer",
+      "bridgedName": "importAsLayer",
+      "args": [],
+      "returns": "MSLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

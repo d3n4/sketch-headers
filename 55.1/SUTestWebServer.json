@@ -1,0 +1,36 @@
+{
+  "name": "SUTestWebServer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithPort:workingDirectory:": {
+      "name": "initWithPort:workingDirectory:",
+      "bridgedName": "initWithPort_workingDirectory",
+      "args": [
+        {
+          "name": "port",
+          "type": "int",
+          "nullable": false
+        },
+        {
+          "name": "workingDirectory",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "close": {
+      "name": "close",
+      "bridgedName": "close",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

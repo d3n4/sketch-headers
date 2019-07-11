@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "MSArchiveMagic",
+  "members": [
+    {
+      "name": "MSArchiveMagicZip1",
+      "value": "'\\x04\\x03KP'"
+    },
+    {
+      "name": "MSArchiveMagicZip2",
+      "value": "'PK\\x03\\x04'"
+    },
+    {
+      "name": "MSArchiveMagicSQLite1",
+      "value": "'iLQS'"
+    },
+    {
+      "name": "MSArchiveMagicSQLite2",
+      "value": "'SQLi'"
+    },
+    {
+      "name": "MSArchiveMagicPotentialDirectory",
+      "value": "0"
+    }
+  ]
+}

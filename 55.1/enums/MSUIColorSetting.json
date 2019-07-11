@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSUIColorSetting",
+  "members": [
+    {
+      "name": "MSSystemDefaultUIColorSetting",
+      "value": "0"
+    },
+    {
+      "name": "MSLightModeUIColorSetting",
+      "value": "1"
+    },
+    {
+      "name": "MSDarkModeUIColorSetting",
+      "value": "2"
+    }
+  ]
+}

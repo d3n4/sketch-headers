@@ -1,0 +1,93 @@
+{
+  "name": "MSTextureVertexBuffer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithVerticies:vertexCount:indicies:indexCount:": {
+      "name": "initWithVerticies:vertexCount:indicies:indexCount:",
+      "bridgedName": "initWithVerticies_vertexCount_indicies_indexCount",
+      "args": [
+        {
+          "name": "verticies",
+          "type": "MSTextureVertex *",
+          "nullable": false
+        },
+        {
+          "name": "vertexCount",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "indicies",
+          "type": "UInt32 *",
+          "nullable": false
+        },
+        {
+          "name": "indexCount",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "verticies": {
+      "name": "verticies",
+      "pointer": false,
+      "type": "const MSTextureVertex ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "indicies": {
+      "name": "indicies",
+      "pointer": false,
+      "type": "const UInt32 ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "indexCount": {
+      "name": "indexCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "vertexCount": {
+      "name": "vertexCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "indiciesLength": {
+      "name": "indiciesLength",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "verticiesLength": {
+      "name": "verticiesLength",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

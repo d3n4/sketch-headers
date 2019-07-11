@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSVectorRounding",
+  "members": [
+    {
+      "name": "MSVectorRoundingNone"
+    },
+    {
+      "name": "MSVectorRoundingHalfPixel"
+    },
+    {
+      "name": "MSVectorRoundingPixel"
+    }
+  ]
+}

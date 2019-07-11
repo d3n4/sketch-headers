@@ -1,0 +1,331 @@
+{
+  "name": "BCOutlineViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "NSOutlineViewDataSource",
+    "BCOutlineViewDelegate"
+  ],
+  "methods": {
+    "temporarilyDisableGroupRowFloating": {
+      "name": "temporarilyDisableGroupRowFloating",
+      "bridgedName": "temporarilyDisableGroupRowFloating",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enableGroupRowFloatingIfNeeded": {
+      "name": "enableGroupRowFloatingIfNeeded",
+      "bridgedName": "enableGroupRowFloatingIfNeeded",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDataController:": {
+      "name": "initWithDataController:",
+      "bridgedName": "initWithDataController",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshWithMask:": {
+      "name": "refreshWithMask:",
+      "bridgedName": "refreshWithMask",
+      "args": [
+        {
+          "name": "mask",
+          "type": "BCOutlineViewControllerRefreshType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flagsChangedNotification": {
+      "name": "flagsChangedNotification",
+      "bridgedName": "flagsChangedNotification",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renameNode": {
+      "name": "renameNode",
+      "bridgedName": "renameNode",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "executeAfterRefreshCompleted:": {
+      "name": "executeAfterRefreshCompleted:",
+      "bridgedName": "executeAfterRefreshCompleted",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCOutlineViewControllerPostRefreshBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "itemRowCanFloat:": {
+      "name": "itemRowCanFloat:",
+      "bridgedName": "itemRowCanFloat",
+      "args": [
+        {
+          "name": "item",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "applyAppearance": {
+      "name": "applyAppearance",
+      "bridgedName": "applyAppearance",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dataController": {
+      "name": "dataController",
+      "pointer": false,
+      "type": "BCOutlineViewDataController ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "selectionStateUpdating": {
+      "name": "selectionStateUpdating",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "expansionStateUpdating": {
+      "name": "expansionStateUpdating",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "ignoreSelectionChangingEvent": {
+      "name": "ignoreSelectionChangingEvent",
+      "pointer": false,
+      "type": "NSEvent ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "ignoreExpansionChangingEvent": {
+      "name": "ignoreExpansionChangingEvent",
+      "pointer": false,
+      "type": "NSEvent ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "draggingInProgress": {
+      "name": "draggingInProgress",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "shouldRestoreGroupFloatingAfterDragDrop": {
+      "name": "shouldRestoreGroupFloatingAfterDragDrop",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "selectedItems": {
+      "name": "selectedItems",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contextMenuSelection": {
+      "name": "contextMenuSelection",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "currentlyHoveredNode": {
+      "name": "currentlyHoveredNode",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "menuDisabledTextField": {
+      "name": "menuDisabledTextField",
+      "pointer": false,
+      "type": "NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "referencedNodes": {
+      "name": "referencedNodes",
+      "pointer": false,
+      "type": "NSMutableSet ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "refreshMask": {
+      "name": "refreshMask",
+      "pointer": false,
+      "type": "BCOutlineViewControllerRefreshType",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isSelectionDirty": {
+      "name": "isSelectionDirty",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isExpansionDirty": {
+      "name": "isExpansionDirty",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "arePreviewImagesDirty": {
+      "name": "arePreviewImagesDirty",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isLayoutDirty": {
+      "name": "isLayoutDirty",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "viewHasAppearedBefore": {
+      "name": "viewHasAppearedBefore",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "refreshNotificationTime": {
+      "name": "refreshNotificationTime",
+      "pointer": false,
+      "type": "CFAbsoluteTime",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "currentlyHoveredView": {
+      "name": "currentlyHoveredView",
+      "pointer": false,
+      "type": "BCTableCellView ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "postRefreshBlocks": {
+      "name": "postRefreshBlocks",
+      "pointer": false,
+      "type": "NSArray<BCOutlineViewControllerPostRefreshBlock> ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "rowViewVisuals": {
+      "name": "rowViewVisuals",
+      "pointer": false,
+      "type": "BCRowViewVisuals ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "outlineView": {
+      "name": "outlineView",
+      "pointer": false,
+      "type": "IBOutlet BCOutlineView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "preferredHeight": {
+      "name": "preferredHeight",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "filter": {
+      "name": "filter",
+      "pointer": false,
+      "type": "BCFilterInfo ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

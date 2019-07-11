@@ -1,0 +1,45 @@
+{
+  "enum": true,
+  "name": "MSDocumentErrorCode",
+  "members": [
+    {
+      "name": "MSDocumentNoError"
+    },
+    {
+      "name": "MSDocumentWrongType"
+    },
+    {
+      "name": "MSDocumentMissingMetadata"
+    },
+    {
+      "name": "MSDocumentCorruptMetadata"
+    },
+    {
+      "name": "MSDocumentTooNew"
+    },
+    {
+      "name": "MSDocumentCorruptDocument"
+    },
+    {
+      "name": "MSDocumentMissingFonts"
+    },
+    {
+      "name": "MSDocumentMissingWrapper"
+    },
+    {
+      "name": "MSDocumentWrongSize"
+    },
+    {
+      "name": "MSDocumentCouldntLoadData"
+    },
+    {
+      "name": "MSDocumentNeedsMigrationService"
+    },
+    {
+      "name": "MSDocumentUnarchivingError"
+    },
+    {
+      "name": "MSDocumentUnknownError"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "SCKUserController",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "organizationMenuWithTarget:)": {
+      "name": "organizationMenuWithTarget:)",
+      "bridgedName": "organizationMenuWithTarget_)",
+      "args": [
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSMenu *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

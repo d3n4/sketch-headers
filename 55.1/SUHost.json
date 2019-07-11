@@ -1,0 +1,218 @@
+{
+  "name": "SUHost",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithBundle:": {
+      "name": "initWithBundle:",
+      "bridgedName": "initWithBundle",
+      "args": [
+        {
+          "name": "aBundle",
+          "type": "NSBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForInfoDictionaryKey:": {
+      "name": "objectForInfoDictionaryKey:",
+      "bridgedName": "objectForInfoDictionaryKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boolForInfoDictionaryKey:": {
+      "name": "boolForInfoDictionaryKey:",
+      "bridgedName": "boolForInfoDictionaryKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForUserDefaultsKey:": {
+      "name": "objectForUserDefaultsKey:",
+      "bridgedName": "objectForUserDefaultsKey",
+      "args": [
+        {
+          "name": "defaultName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setObject:forUserDefaultsKey:": {
+      "name": "setObject:forUserDefaultsKey:",
+      "bridgedName": "setObject_forUserDefaultsKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "defaultName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boolForUserDefaultsKey:": {
+      "name": "boolForUserDefaultsKey:",
+      "bridgedName": "boolForUserDefaultsKey",
+      "args": [
+        {
+          "name": "defaultName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setBool:forUserDefaultsKey:": {
+      "name": "setBool:forUserDefaultsKey:",
+      "bridgedName": "setBool_forUserDefaultsKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "defaultName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForKey:": {
+      "name": "objectForKey:",
+      "bridgedName": "objectForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boolForKey:": {
+      "name": "boolForKey:",
+      "bridgedName": "boolForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "bundle": {
+      "name": "bundle",
+      "pointer": false,
+      "type": "NSBundle ",
+      "attributes": [
+        "strong",
+        "readonly"
+      ]
+    },
+    "bundlePath": {
+      "name": "bundlePath",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "copy"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "copy"
+      ]
+    },
+    "version": {
+      "name": "version",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "copy"
+      ]
+    },
+    "displayVersion": {
+      "name": "displayVersion",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "copy"
+      ]
+    },
+    "publicKeys": {
+      "name": "publicKeys",
+      "pointer": false,
+      "type": "SUPublicKeys ",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "runningOnReadOnlyVolume": {
+      "name": "runningOnReadOnlyVolume",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isRunningOnReadOnlyVolume",
+        "readonly"
+      ]
+    },
+    "publicDSAKeyFileKey": {
+      "name": "publicDSAKeyFileKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

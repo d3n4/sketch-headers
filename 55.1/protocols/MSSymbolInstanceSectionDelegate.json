@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSSymbolInstanceSectionDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "userInterfaceCacheForSection:": {
+      "name": "userInterfaceCacheForSection:",
+      "bridgedName": "userInterfaceCacheForSection",
+      "args": [
+        {
+          "name": "section",
+          "type": "MSBaseInspectorSection *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSCache *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

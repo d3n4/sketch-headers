@@ -1,0 +1,256 @@
+{
+  "name": "MSInspectorValueAdaptor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "transformedValuesFromAdaptorValue:contexts:error:": {
+      "name": "transformedValuesFromAdaptorValue:contexts:error:",
+      "bridgedName": "transformedValuesFromAdaptorValue_contexts_error",
+      "args": [
+        {
+          "name": "adaptorValue",
+          "type": "AdaptorValueType",
+          "nullable": false
+        },
+        {
+          "name": "contextsOut",
+          "type": "__autoreleasing NSPointerArray **",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "__autoreleasing NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <ModelValueType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformAdaptorValue:forModel:context:error:": {
+      "name": "transformAdaptorValue:forModel:context:error:",
+      "bridgedName": "transformAdaptorValue_forModel_context_error",
+      "args": [
+        {
+          "name": "adaptorValue",
+          "type": "AdaptorValueType",
+          "nullable": false
+        },
+        {
+          "name": "model",
+          "type": "ModelType",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "__autoreleasing id *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "ModelValueType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithModelsController:valueGetter:valueSetter:modelKeyPathsToWatch:": {
+      "name": "initWithModelsController:valueGetter:valueSetter:modelKeyPathsToWatch:",
+      "bridgedName": "initWithModelsController_valueGetter_valueSetter_modelKeyPathsToWatch",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "valueGetter",
+          "type": "ModelValueType _Nullable (^)(ModelType model)",
+          "nullable": false
+        },
+        {
+          "name": "valueSetter",
+          "type": "void (^)(ModelType model, _Nullable ModelValueType value, _Nullable id context)",
+          "nullable": false
+        },
+        {
+          "name": "modelKeyPathsToWatch",
+          "type": "NSArray <NSString *>*",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithModelsController:valueGetter:valueSetter:": {
+      "name": "initWithModelsController:valueGetter:valueSetter:",
+      "bridgedName": "initWithModelsController_valueGetter_valueSetter",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "valueGetter",
+          "type": "ModelValueType _Nullable (^)(ModelType model)",
+          "nullable": false
+        },
+        {
+          "name": "valueSetter",
+          "type": "void (^)(ModelType model, _Nullable ModelValueType value, _Nullable id context)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithModelsController:modelKeyPath:": {
+      "name": "initWithModelsController:modelKeyPath:",
+      "bridgedName": "initWithModelsController_modelKeyPath",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "keyPath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithModelsController:modelKeyPath:keyPathsToWatch:": {
+      "name": "initWithModelsController:modelKeyPath:keyPathsToWatch:",
+      "bridgedName": "initWithModelsController_modelKeyPath_keyPathsToWatch",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "keyPath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "toWatch",
+          "type": "NSArray <NSString *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateValues": {
+      "name": "updateValues",
+      "bridgedName": "updateValues",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeKVOObservers": {
+      "name": "removeKVOObservers",
+      "bridgedName": "removeKVOObservers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addChangeObserver:": {
+      "name": "addChangeObserver:",
+      "bridgedName": "addChangeObserver",
+      "args": [
+        {
+          "name": "observer",
+          "type": "id<MSInspectorValueAdaptorChangeObserver>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeChangeObserver:": {
+      "name": "removeChangeObserver:",
+      "bridgedName": "removeChangeObserver",
+      "args": [
+        {
+          "name": "observer",
+          "type": "id<MSInspectorValueAdaptorChangeObserver>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "modelsController": {
+      "name": "modelsController",
+      "pointer": false,
+      "type": "NSArrayController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "AdaptorValueType",
+      "attributes": [
+        "nullable",
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSInspectorValueAdaptorDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "showsDefaultAlerts": {
+      "name": "showsDefaultAlerts",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "view": {
+      "name": "view",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

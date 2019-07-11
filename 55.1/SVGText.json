@@ -1,0 +1,8 @@
+{
+  "name": "SVGText",
+  "extends": "_SVGText",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

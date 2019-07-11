@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSShadowType",
+  "members": [
+    {
+      "name": "MSShadowFill",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSShadowStroke",
+      "value": "1 << 1"
+    }
+  ]
+}

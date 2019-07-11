@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableColorAsset",
+  "extends": "_MSImmutableColorAsset",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

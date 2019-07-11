@@ -1,0 +1,41 @@
+{
+  "name": "MSSVGImporter",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSImporter"
+  ],
+  "methods": {
+    "svgImporter": {
+      "name": "svgImporter",
+      "bridgedName": "svgImporter",
+      "args": [],
+      "returns": "MSSVGImporter*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "importAsLayer": {
+      "name": "importAsLayer",
+      "bridgedName": "importAsLayer",
+      "args": [],
+      "returns": "MSLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareToImportFromXMLString:": {
+      "name": "prepareToImportFromXMLString:",
+      "bridgedName": "prepareToImportFromXMLString",
+      "args": [
+        {
+          "name": "xmlString",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

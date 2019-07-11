@@ -1,0 +1,8 @@
+{
+  "name": "MSAssetCollectionNoContentViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

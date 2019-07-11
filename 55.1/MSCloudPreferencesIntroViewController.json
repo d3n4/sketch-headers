@@ -1,0 +1,8 @@
+{
+  "name": "MSCloudPreferencesIntroViewController",
+  "extends": "MSCloudPreferencesViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

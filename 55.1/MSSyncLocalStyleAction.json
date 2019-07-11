@@ -1,0 +1,23 @@
+{
+  "name": "MSSyncLocalStyleAction",
+  "extends": "MSUnlinkAndOrSyncAction",
+  "interfaces": [],
+  "methods": {
+    "syncLocalSharedStyle:": {
+      "name": "syncLocalSharedStyle:",
+      "bridgedName": "syncLocalSharedStyle",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

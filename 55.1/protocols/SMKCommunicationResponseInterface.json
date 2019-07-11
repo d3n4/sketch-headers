@@ -1,0 +1,70 @@
+{
+  "protocol": true,
+  "name": "SMKCommunicationResponseInterface",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "connectionInfoDidChange:": {
+      "name": "connectionInfoDidChange:",
+      "bridgedName": "connectionInfoDidChange",
+      "args": [
+        {
+          "name": "info",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "connectionStatusDidChange:": {
+      "name": "connectionStatusDidChange:",
+      "bridgedName": "connectionStatusDidChange",
+      "args": [
+        {
+          "name": "info",
+          "type": "SMKConnectionInfo *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "connectionAdvertisementDidChange:": {
+      "name": "connectionAdvertisementDidChange:",
+      "bridgedName": "connectionAdvertisementDidChange",
+      "args": [
+        {
+          "name": "info",
+          "type": "SMKConnectionInfo *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "connectionInfo:didReceiveData:": {
+      "name": "connectionInfo:didReceiveData:",
+      "bridgedName": "connectionInfo_didReceiveData",
+      "args": [
+        {
+          "name": "info",
+          "type": "SMKConnectionInfo *",
+          "nullable": false
+        },
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,17 @@
+{
+  "name": "TDLetter",
+  "extends": "TDTerminal",
+  "interfaces": [],
+  "methods": {
+    "letter": {
+      "name": "letter",
+      "bridgedName": "letter",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

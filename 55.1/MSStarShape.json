@@ -1,0 +1,8 @@
+{
+  "name": "MSStarShape",
+  "extends": "_MSStarShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

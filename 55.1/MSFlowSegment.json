@@ -1,0 +1,114 @@
+{
+  "name": "MSFlowSegment",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "segmentWithBezierSegment:": {
+      "name": "segmentWithBezierSegment:",
+      "bridgedName": "segmentWithBezierSegment",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "segmentWithBezierSegment:startType:endType:": {
+      "name": "segmentWithBezierSegment:startType:endType:",
+      "bridgedName": "segmentWithBezierSegment_startType_endType",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "startType",
+          "type": "MSFlowSegmentEndType",
+          "nullable": false
+        },
+        {
+          "name": "endType",
+          "type": "MSFlowSegmentEndType",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithBezierSegment:startType:endType:": {
+      "name": "initWithBezierSegment:startType:endType:",
+      "bridgedName": "initWithBezierSegment_startType_endType",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "startType",
+          "type": "MSFlowSegmentEndType",
+          "nullable": false
+        },
+        {
+          "name": "endType",
+          "type": "MSFlowSegmentEndType",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentsByClippingToRect:": {
+      "name": "segmentsByClippingToRect:",
+      "bridgedName": "segmentsByClippingToRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSFlowSegment *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "startType": {
+      "name": "startType",
+      "pointer": false,
+      "type": "MSFlowSegmentEndType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "endType": {
+      "name": "endType",
+      "pointer": false,
+      "type": "MSFlowSegmentEndType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bezierSegment": {
+      "name": "bezierSegment",
+      "pointer": false,
+      "type": "MSBezierSegment ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

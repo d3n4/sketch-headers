@@ -1,0 +1,17 @@
+{
+  "name": "MSInlineTextLabelImageCell",
+  "extends": "NSTextFieldCell",
+  "interfaces": [],
+  "methods": {
+    "inlineTextLabelFont": {
+      "name": "inlineTextLabelFont",
+      "bridgedName": "inlineTextLabelFont",
+      "args": [],
+      "returns": "NSFont *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

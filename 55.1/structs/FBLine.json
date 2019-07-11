@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "FBLine",
+  "members": [
+    {
+      "name": "a",
+      "pointer": false,
+      "type": "FBFloat"
+    },
+    {
+      "name": "b",
+      "pointer": false,
+      "type": "FBFloat"
+    },
+    {
+      "name": "c",
+      "pointer": false,
+      "type": "FBFloat"
+    }
+  ]
+}

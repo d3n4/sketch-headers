@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "SMKServerControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "serverController:connectionsDidChange:": {
+      "name": "serverController:connectionsDidChange:",
+      "bridgedName": "serverController_connectionsDidChange",
+      "args": [
+        {
+          "name": "controller",
+          "type": "SMKServerController *",
+          "nullable": false
+        },
+        {
+          "name": "connections",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

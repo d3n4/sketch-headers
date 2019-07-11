@@ -1,0 +1,174 @@
+{
+  "name": "_MSLayer",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "booleanOperation": {
+      "name": "booleanOperation",
+      "pointer": false,
+      "type": "MSBooleanOperation",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "isFixedToViewport": {
+      "name": "isFixedToViewport",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "isFlippedHorizontal": {
+      "name": "isFlippedHorizontal",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "isFlippedVertical": {
+      "name": "isFlippedVertical",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "isLocked": {
+      "name": "isLocked",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "isVisible": {
+      "name": "isVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "layerListExpandedType": {
+      "name": "layerListExpandedType",
+      "pointer": false,
+      "type": "MSLayerListStatus",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "nameIsFixed": {
+      "name": "nameIsFixed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "originalObjectID": {
+      "name": "originalObjectID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "resizingConstraint": {
+      "name": "resizingConstraint",
+      "pointer": false,
+      "type": "BCConstraint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "resizingType": {
+      "name": "resizingType",
+      "pointer": false,
+      "type": "MSLayerResizingType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "rotation": {
+      "name": "rotation",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "shouldBreakMaskChain": {
+      "name": "shouldBreakMaskChain",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "userInfo": {
+      "name": "userInfo",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "exportOptions": {
+      "name": "exportOptions",
+      "pointer": false,
+      "type": "MSExportOptions ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "flow": {
+      "name": "flow",
+      "pointer": false,
+      "type": "MSFlowConnection ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "frame": {
+      "name": "frame",
+      "pointer": false,
+      "type": "MSRect ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

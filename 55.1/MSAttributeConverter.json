@@ -1,0 +1,82 @@
+{
+  "name": "MSAttributeConverter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "converterWithAttributeName:block:": {
+      "name": "converterWithAttributeName:block:",
+      "bridgedName": "converterWithAttributeName_block",
+      "args": [
+        {
+          "name": "attributeName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "conversionBlock",
+          "type": "MSAttributeConverterBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithAttributeName:block:": {
+      "name": "initWithAttributeName:block:",
+      "bridgedName": "initWithAttributeName_block",
+      "args": [
+        {
+          "name": "attributeName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "conversionBlock",
+          "type": "MSAttributeConverterBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertAttributes:": {
+      "name": "convertAttributes:",
+      "bridgedName": "convertAttributes",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSDictionary<NSString *,id> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary<NSString *,id> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "attributeName": {
+      "name": "attributeName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "conversionBlock": {
+      "name": "conversionBlock",
+      "pointer": false,
+      "type": "MSAttributeConverterBlock",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

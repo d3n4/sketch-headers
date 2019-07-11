@@ -1,0 +1,66 @@
+{
+  "name": "SUSignatureVerifier",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "validatePath:withSignatures:withPublicKeys:": {
+      "name": "validatePath:withSignatures:withPublicKeys:",
+      "bridgedName": "validatePath_withSignatures_withPublicKeys",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "signatures",
+          "type": "SUSignatures *",
+          "nullable": false
+        },
+        {
+          "name": "pkeys",
+          "type": "SUPublicKeys *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithPublicKeys:": {
+      "name": "initWithPublicKeys:",
+      "bridgedName": "initWithPublicKeys",
+      "args": [
+        {
+          "name": "pkeys",
+          "type": "SUPublicKeys *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verifyFileAtPath:signatures:": {
+      "name": "verifyFileAtPath:signatures:",
+      "bridgedName": "verifyFileAtPath_signatures",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "signatures",
+          "type": "SUSignatures *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

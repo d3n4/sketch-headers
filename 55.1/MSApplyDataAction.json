@@ -1,0 +1,37 @@
+{
+  "name": "MSApplyDataAction",
+  "extends": "MSDataAction",
+  "interfaces": [],
+  "methods": {
+    "applyDataToCurrentSelection:": {
+      "name": "applyDataToCurrentSelection:",
+      "bridgedName": "applyDataToCurrentSelection",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyDataToCurrentSelectionRoot:": {
+      "name": "applyDataToCurrentSelectionRoot:",
+      "bridgedName": "applyDataToCurrentSelectionRoot",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

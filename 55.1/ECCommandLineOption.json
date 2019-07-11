@@ -1,0 +1,105 @@
+{
+  "name": "ECCommandLineOption",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "optionWithName:info:": {
+      "name": "optionWithName:info:",
+      "bridgedName": "optionWithName_info",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineOption*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "mode": {
+      "name": "mode",
+      "bridgedName": "mode",
+      "args": [],
+      "returns": "ECCommandLineOptionMode",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shortOption": {
+      "name": "shortOption",
+      "bridgedName": "shortOption",
+      "args": [],
+      "returns": "UniChar",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "help": {
+      "name": "help",
+      "bridgedName": "help",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "longUsage": {
+      "name": "longUsage",
+      "bridgedName": "longUsage",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shortUsage": {
+      "name": "shortUsage",
+      "bridgedName": "shortUsage",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultValue": {
+      "name": "defaultValue",
+      "bridgedName": "defaultValue",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "hidden": {
+      "name": "hidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "getter=isHidden"
+      ]
+    }
+  },
+  "generics": []
+}

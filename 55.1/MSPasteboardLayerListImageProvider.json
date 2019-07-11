@@ -1,0 +1,28 @@
+{
+  "name": "MSPasteboardLayerListImageProvider",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "addLayer:toPasteboard:": {
+      "name": "addLayer:toPasteboard:",
+      "bridgedName": "addLayer_toPasteboard",
+      "args": [
+        {
+          "name": "layer",
+          "type": "nonnull MSLayer*",
+          "nullable": false
+        },
+        {
+          "name": "pboard",
+          "type": "nonnull NSPasteboard*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

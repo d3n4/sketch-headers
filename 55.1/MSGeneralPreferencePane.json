@@ -1,0 +1,110 @@
+{
+  "name": "MSGeneralPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [],
+  "methods": {
+    "analyticsAction:": {
+      "name": "analyticsAction:",
+      "bridgedName": "analyticsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pickDefaultColorSpace:": {
+      "name": "pickDefaultColorSpace:",
+      "bridgedName": "pickDefaultColorSpace",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "defaultColorSpaceDescriptionLabel": {
+      "name": "defaultColorSpaceDescriptionLabel",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "defaultColorSpacePopUpButton": {
+      "name": "defaultColorSpacePopUpButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "appearancePreview": {
+      "name": "appearancePreview",
+      "pointer": false,
+      "type": "IBOutlet NSImageView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "appAppearanceButton": {
+      "name": "appAppearanceButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "canvasAppearanceButton": {
+      "name": "canvasAppearanceButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "appAppearanceLabel": {
+      "name": "appAppearanceLabel",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "canvasAppearanceLabel": {
+      "name": "canvasAppearanceLabel",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "mainContainerView": {
+      "name": "mainContainerView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

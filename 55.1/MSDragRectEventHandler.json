@@ -1,0 +1,136 @@
+{
+  "name": "MSDragRectEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [],
+  "methods": {
+    "handleDrag:NS_REQUIRES_SUPER": {
+      "name": "handleDrag:NS_REQUIRES_SUPER",
+      "bridgedName": "handleDrag_NS_REQUIRES_SUPER",
+      "args": [
+        {
+          "name": "recognizer",
+          "type": "MSDragGestureRecognizer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performActionWithRect:fromLayer:constrainProportions:": {
+      "name": "performActionWithRect:fromLayer:constrainProportions:",
+      "bridgedName": "performActionWithRect_fromLayer_constrainProportions",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "__kindof MSLayer *",
+          "nullable": true
+        },
+        {
+          "name": "constrainProportions",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawRectPreview": {
+      "name": "drawRectPreview",
+      "bridgedName": "drawRectPreview",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "group": {
+      "name": "group",
+      "pointer": false,
+      "type": "MSLayerGroup ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nonnull"
+      ]
+    },
+    "insertionRect": {
+      "name": "insertionRect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "allowsInsertLayerFromExistingLayer": {
+      "name": "allowsInsertLayerFromExistingLayer",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "cursorForInsertingFromExisting": {
+      "name": "cursorForInsertingFromExisting",
+      "pointer": false,
+      "type": "NSCursor ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "layerSelectionOptionsForInsertingFromExistingLayer": {
+      "name": "layerSelectionOptionsForInsertingFromExistingLayer",
+      "pointer": false,
+      "type": "MSLayerSelectionOptions",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "dragGestureRecognizer": {
+      "name": "dragGestureRecognizer",
+      "pointer": false,
+      "type": "MSDragRectGestureRecognizer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "snapper": {
+      "name": "snapper",
+      "pointer": false,
+      "type": "MSAlignmentEngine ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "snappingResult": {
+      "name": "snappingResult",
+      "pointer": false,
+      "type": "MSAlignmentEngineResult ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "insertionCursor": {
+      "name": "insertionCursor",
+      "pointer": false,
+      "type": "NSCursor ",
+      "attributes": [
+        "nonatomic",
+        "null_resettable"
+      ]
+    }
+  },
+  "generics": []
+}

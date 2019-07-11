@@ -1,0 +1,395 @@
+{
+  "name": "SUBasicUpdateDriver",
+  "extends": "SUUpdateDriver",
+  "interfaces": [
+    "SPUDownloaderDelegate"
+  ],
+  "methods": {
+    "checkForUpdatesAtURL:host:": {
+      "name": "checkForUpdatesAtURL:host:",
+      "bridgedName": "checkForUpdatesAtURL_host",
+      "args": [
+        {
+          "name": "URL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isItemNewer:": {
+      "name": "isItemNewer:",
+      "bridgedName": "isItemNewer",
+      "args": [
+        {
+          "name": "ui",
+          "type": "SUAppcastItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hostSupportsItem:": {
+      "name": "hostSupportsItem:",
+      "bridgedName": "hostSupportsItem",
+      "args": [
+        {
+          "name": "ui",
+          "type": "SUAppcastItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "itemContainsSkippedVersion:": {
+      "name": "itemContainsSkippedVersion:",
+      "bridgedName": "itemContainsSkippedVersion",
+      "args": [
+        {
+          "name": "ui",
+          "type": "SUAppcastItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "itemContainsValidUpdate:": {
+      "name": "itemContainsValidUpdate:",
+      "bridgedName": "itemContainsValidUpdate",
+      "args": [
+        {
+          "name": "ui",
+          "type": "SUAppcastItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appcastDidFinishLoading:": {
+      "name": "appcastDidFinishLoading:",
+      "bridgedName": "appcastDidFinishLoading",
+      "args": [
+        {
+          "name": "ac",
+          "type": "SUAppcast *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didFindValidUpdate": {
+      "name": "didFindValidUpdate",
+      "bridgedName": "didFindValidUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didNotFindUpdate": {
+      "name": "didNotFindUpdate",
+      "bridgedName": "didNotFindUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadUpdate": {
+      "name": "downloadUpdate",
+      "bridgedName": "downloadUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidSetDestinationName:temporaryDirectory:": {
+      "name": "downloaderDidSetDestinationName:temporaryDirectory:",
+      "bridgedName": "downloaderDidSetDestinationName_temporaryDirectory",
+      "args": [
+        {
+          "name": "destinationName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "temporaryDirectory",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidReceiveExpectedContentLength:": {
+      "name": "downloaderDidReceiveExpectedContentLength:",
+      "bridgedName": "downloaderDidReceiveExpectedContentLength",
+      "args": [
+        {
+          "name": "expectedContentLength",
+          "type": "int64_t",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidReceiveDataOfLength:": {
+      "name": "downloaderDidReceiveDataOfLength:",
+      "bridgedName": "downloaderDidReceiveDataOfLength",
+      "args": [
+        {
+          "name": "length",
+          "type": "uint64_t",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidFinishWithTemporaryDownloadData:": {
+      "name": "downloaderDidFinishWithTemporaryDownloadData:",
+      "bridgedName": "downloaderDidFinishWithTemporaryDownloadData",
+      "args": [
+        {
+          "name": "downloadData",
+          "type": "SPUDownloadData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidFailWithError:": {
+      "name": "downloaderDidFailWithError:",
+      "bridgedName": "downloaderDidFailWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "extractUpdate": {
+      "name": "extractUpdate",
+      "bridgedName": "extractUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "failedToApplyDeltaUpdate": {
+      "name": "failedToApplyDeltaUpdate",
+      "bridgedName": "failedToApplyDeltaUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unarchiver:extractedProgress:": {
+      "name": "unarchiver:extractedProgress:",
+      "bridgedName": "unarchiver_extractedProgress",
+      "args": [
+        {
+          "name": "ua",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "double",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unarchiverDidFinish:": {
+      "name": "unarchiverDidFinish:",
+      "bridgedName": "unarchiverDidFinish",
+      "args": [
+        {
+          "name": "ua",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installWithToolAndRelaunch:": {
+      "name": "installWithToolAndRelaunch:",
+      "bridgedName": "installWithToolAndRelaunch",
+      "args": [
+        {
+          "name": "relaunch",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installWithToolAndRelaunch:displayingUserInterface:": {
+      "name": "installWithToolAndRelaunch:displayingUserInterface:",
+      "bridgedName": "installWithToolAndRelaunch_displayingUserInterface",
+      "args": [
+        {
+          "name": "relaunch",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "showUI",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installerForHost:failedWithError:": {
+      "name": "installerForHost:failedWithError:",
+      "bridgedName": "installerForHost_failedWithError",
+      "args": [
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cleanUpDownload": {
+      "name": "cleanUpDownload",
+      "bridgedName": "cleanUpDownload",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "abortUpdate": {
+      "name": "abortUpdate",
+      "bridgedName": "abortUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "abortUpdateWithError:": {
+      "name": "abortUpdateWithError:",
+      "bridgedName": "abortUpdateWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "terminateApp": {
+      "name": "terminateApp",
+      "bridgedName": "terminateApp",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bestItemFromAppcastItems:getDeltaItem:withHostVersion:comparator:": {
+      "name": "bestItemFromAppcastItems:getDeltaItem:withHostVersion:comparator:",
+      "bridgedName": "bestItemFromAppcastItems_getDeltaItem_withHostVersion_comparator",
+      "args": [
+        {
+          "name": "appcastItems",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "deltaItem",
+          "type": "SUAppcastItem *_Nullable __autoreleasing *_Nullable",
+          "nullable": false
+        },
+        {
+          "name": "hostVersion",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "comparator",
+          "type": "id<SUVersionComparison>",
+          "nullable": false
+        }
+      ],
+      "returns": "SUAppcastItem *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "updateItem": {
+      "name": "updateItem",
+      "pointer": false,
+      "type": "SUAppcastItem ",
+      "attributes": [
+        "strong",
+        "readonly"
+      ]
+    },
+    "download": {
+      "name": "download",
+      "pointer": false,
+      "type": "SPUDownloader ",
+      "attributes": [
+        "strong",
+        "readonly"
+      ]
+    },
+    "downloadPath": {
+      "name": "downloadPath",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

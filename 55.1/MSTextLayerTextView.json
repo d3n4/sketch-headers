@@ -1,0 +1,64 @@
+{
+  "name": "MSTextLayerTextView",
+  "extends": "NSTextView",
+  "interfaces": [],
+  "methods": {
+    "selectSimilar:": {
+      "name": "selectSimilar:",
+      "bridgedName": "selectSimilar",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectForSelectedRange": {
+      "name": "rectForSelectedRange",
+      "bridgedName": "rectForSelectedRange",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeColorWithColor:": {
+      "name": "changeColorWithColor:",
+      "bridgedName": "changeColorWithColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hangingGlyphView": {
+      "name": "hangingGlyphView",
+      "pointer": false,
+      "type": "MSHangingGlyphView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "textLayerTextViewDelegate": {
+      "name": "textLayerTextViewDelegate",
+      "pointer": false,
+      "type": "id<MSTextLayerTextViewDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

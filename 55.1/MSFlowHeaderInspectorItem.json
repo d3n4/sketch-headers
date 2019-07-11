@@ -1,0 +1,8 @@
+{
+  "name": "MSFlowHeaderInspectorItem",
+  "extends": "MSCollapsibleHeaderInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

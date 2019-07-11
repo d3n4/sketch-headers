@@ -1,0 +1,28 @@
+{
+  "name": "SCKCloudDocumentDiff",
+  "extends": "SCKDocumentDiff",
+  "interfaces": [],
+  "methods": {
+    "initWithObject:comparedTo:": {
+      "name": "initWithObject:comparedTo:",
+      "bridgedName": "initWithObject_comparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKCloudDocument *",
+          "nullable": false
+        },
+        {
+          "name": "otherObject",
+          "type": "nonnull SCKCloudDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

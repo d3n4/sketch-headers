@@ -1,0 +1,60 @@
+{
+  "name": "SUUIBasedUpdateDriver",
+  "extends": "SUBasicUpdateDriver",
+  "interfaces": [],
+  "methods": {
+    "showAlert:": {
+      "name": "showAlert:",
+      "bridgedName": "showAlert",
+      "args": [
+        {
+          "name": "alert",
+          "type": "NSAlert *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelDownload:": {
+      "name": "cancelDownload:",
+      "bridgedName": "cancelDownload",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installAndRestart:": {
+      "name": "installAndRestart:",
+      "bridgedName": "installAndRestart",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "showErrors": {
+      "name": "showErrors",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

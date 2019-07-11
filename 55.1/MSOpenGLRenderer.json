@@ -1,0 +1,25 @@
+{
+  "name": "MSOpenGLRenderer",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSGPURenderer"
+  ],
+  "methods": {
+    "createWithCompletionHandler:": {
+      "name": "createWithCompletionHandler:",
+      "bridgedName": "createWithCompletionHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^ _Nullable)(CGImageRef _Nonnull image)",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "COPrintController",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "scriptEncounteredException:": {
+      "name": "scriptEncounteredException:",
+      "bridgedName": "scriptEncounteredException",
+      "args": [
+        {
+          "name": "exception",
+          "type": "NSException*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "print:": {
+      "name": "print:",
+      "bridgedName": "print",
+      "args": [
+        {
+          "name": "s",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

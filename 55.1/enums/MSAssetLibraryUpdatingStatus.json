@@ -1,0 +1,28 @@
+{
+  "enum": true,
+  "name": "MSAssetLibraryUpdatingStatus",
+  "members": [
+    {
+      "name": "MSAssetLibraryUpdatingStatusNoDownloadAvailable",
+      "value": "0"
+    },
+    {
+      "name": "MSAssetLibraryUpdatingStatusDownloadAvailable"
+    },
+    {
+      "name": "MSAssetLibraryUpdatingStatusUpdateAvailable"
+    },
+    {
+      "name": "MSAssetLibraryUpdatingStatusDownloading"
+    },
+    {
+      "name": "MSAssetLibraryUpdatingStatusDownloadError"
+    },
+    {
+      "name": "MSAssetLibraryUpdatingStatusWaitingForInstall"
+    },
+    {
+      "name": "MSAssetLibraryUpdatingStatusIncompatibleVersion"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "SUUpdatePermissionPrompt",
+  "extends": "NSWindowController",
+  "interfaces": [],
+  "methods": {
+    "promptWithHost:systemProfile:reply:": {
+      "name": "promptWithHost:systemProfile:reply:",
+      "bridgedName": "promptWithHost_systemProfile_reply",
+      "args": [
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        },
+        {
+          "name": "profile",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "reply",
+          "type": "void (^)(SUUpdatePermissionResponse *)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "toggleMoreInfo:": {
+      "name": "toggleMoreInfo:",
+      "bridgedName": "toggleMoreInfo",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "finishPrompt:": {
+      "name": "finishPrompt:",
+      "bridgedName": "finishPrompt",
+      "args": [
+        {
+          "name": "sender",
+          "type": "NSButton *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSMirrorPopUpButtonCell",
+  "extends": "NSPopUpButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

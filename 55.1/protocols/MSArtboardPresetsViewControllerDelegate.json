@@ -1,0 +1,66 @@
+{
+  "protocol": true,
+  "name": "MSArtboardPresetsViewControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "artboardPresetsViewController:didSelectPreset:": {
+      "name": "artboardPresetsViewController:didSelectPreset:",
+      "bridgedName": "artboardPresetsViewController_didSelectPreset",
+      "args": [
+        {
+          "name": "sender",
+          "type": "MSArtboardPresetsViewController *",
+          "nullable": false
+        },
+        {
+          "name": "preset",
+          "type": "MSArtboardPreset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardPresetsViewController:didSelectOrientation:": {
+      "name": "artboardPresetsViewController:didSelectOrientation:",
+      "bridgedName": "artboardPresetsViewController_didSelectOrientation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "MSArtboardPresetsViewController *",
+          "nullable": false
+        },
+        {
+          "name": "orientation",
+          "type": "NSPaperOrientation",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showCustomPresetSheet:preset:": {
+      "name": "showCustomPresetSheet:preset:",
+      "bridgedName": "showCustomPresetSheet_preset",
+      "args": [
+        {
+          "name": "presetsController",
+          "type": "MSArtboardPresetsViewController *",
+          "nullable": false
+        },
+        {
+          "name": "preset",
+          "type": "MSArtboardPreset *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

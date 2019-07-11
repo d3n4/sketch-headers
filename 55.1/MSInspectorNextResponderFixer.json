@@ -1,0 +1,42 @@
+{
+  "name": "MSInspectorNextResponderFixer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "findNextKeyViewFor:inView:": {
+      "name": "findNextKeyViewFor:inView:",
+      "bridgedName": "findNextKeyViewFor_inView",
+      "args": [
+        {
+          "name": "keyView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSView *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "firstKeyViewForInView:": {
+      "name": "firstKeyViewForInView:",
+      "bridgedName": "firstKeyViewForInView",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSView *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

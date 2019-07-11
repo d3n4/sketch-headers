@@ -1,0 +1,73 @@
+{
+  "name": "MSColorStylePartInspectorViewController",
+  "extends": "MSStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {
+    "togglePopover": {
+      "name": "togglePopover",
+      "bridgedName": "togglePopover",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openColorPanelPreferringNative": {
+      "name": "openColorPanelPreferringNative",
+      "bridgedName": "openColorPanelPreferringNative",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkBoxAction:": {
+      "name": "checkBoxAction:",
+      "bridgedName": "checkBoxAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillTypeStringForFillType:": {
+      "name": "fillTypeStringForFillType:",
+      "bridgedName": "fillTypeStringForFillType",
+      "args": [
+        {
+          "name": "fillType",
+          "type": "BCFillType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "colorButton": {
+      "name": "colorButton",
+      "pointer": false,
+      "type": "IBOutlet MSStylePartPreviewButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "colorInspector": {
+      "name": "colorInspector",
+      "pointer": false,
+      "type": "MSColorInspector ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

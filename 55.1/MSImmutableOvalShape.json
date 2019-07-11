@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableOvalShape",
+  "extends": "_MSImmutableOvalShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

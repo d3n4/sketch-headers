@@ -1,0 +1,8 @@
+{
+  "name": "MSWebPExporter",
+  "extends": "MSExporter",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

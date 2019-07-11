@@ -1,0 +1,98 @@
+{
+  "protocol": true,
+  "name": "MSColorInspectorDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorInspector:didChangeToColor:": {
+      "name": "colorInspector:didChangeToColor:",
+      "bridgedName": "colorInspector_didChangeToColor",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorDidChangeType:": {
+      "name": "inspectorDidChangeType:",
+      "bridgedName": "inspectorDidChangeType",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorInspectorDidChange:": {
+      "name": "colorInspectorDidChange:",
+      "bridgedName": "colorInspectorDidChange",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorInspectorWillClose:": {
+      "name": "colorInspectorWillClose:",
+      "bridgedName": "colorInspectorWillClose",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorInspectorShouldAdjustInspectorToPopover:": {
+      "name": "colorInspectorShouldAdjustInspectorToPopover:",
+      "bridgedName": "colorInspectorShouldAdjustInspectorToPopover",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorInspectorUndoManager:": {
+      "name": "colorInspectorUndoManager:",
+      "bridgedName": "colorInspectorUndoManager",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUndoManager *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSImageOverrideViewCell",
+  "extends": "NSImageCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

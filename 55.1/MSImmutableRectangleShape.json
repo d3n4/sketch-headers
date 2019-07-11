@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableRectangleShape",
+  "extends": "_MSImmutableRectangleShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

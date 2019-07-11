@@ -1,0 +1,324 @@
+{
+  "name": "MOClassDescription",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "descriptionForClassWithName:": {
+      "name": "descriptionForClassWithName:",
+      "bridgedName": "descriptionForClassWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MOClassDescription *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "descriptionForClass:": {
+      "name": "descriptionForClass:",
+      "bridgedName": "descriptionForClass",
+      "args": [
+        {
+          "name": "aClass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "MOClassDescription *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "allocateDescriptionForClassWithName:superclass:": {
+      "name": "allocateDescriptionForClassWithName:superclass:",
+      "bridgedName": "allocateDescriptionForClassWithName_superclass",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "superclass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "MOClassDescription *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "registerClass": {
+      "name": "registerClass",
+      "bridgedName": "registerClass",
+      "args": [],
+      "returns": "Class",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addInstanceVariableWithName:typeEncoding:": {
+      "name": "addInstanceVariableWithName:typeEncoding:",
+      "bridgedName": "addInstanceVariableWithName_typeEncoding",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "typeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addClassMethodWithSelector:typeEncoding:block:": {
+      "name": "addClassMethodWithSelector:typeEncoding:block:",
+      "bridgedName": "addClassMethodWithSelector_typeEncoding_block",
+      "args": [
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "typeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addClassMethodWithSelector:function:": {
+      "name": "addClassMethodWithSelector:function:",
+      "bridgedName": "addClassMethodWithSelector_function",
+      "args": [
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "function",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addInstanceMethodWithSelector:typeEncoding:block:": {
+      "name": "addInstanceMethodWithSelector:typeEncoding:block:",
+      "bridgedName": "addInstanceMethodWithSelector_typeEncoding_block",
+      "args": [
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "typeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addInstanceMethodWithSelector:function:": {
+      "name": "addInstanceMethodWithSelector:function:",
+      "bridgedName": "addInstanceMethodWithSelector_function",
+      "args": [
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "function",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addProperty:": {
+      "name": "addProperty:",
+      "bridgedName": "addProperty",
+      "args": [
+        {
+          "name": "property",
+          "type": "MOPropertyDescription *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addProtocol:": {
+      "name": "addProtocol:",
+      "bridgedName": "addProtocol",
+      "args": [
+        {
+          "name": "protocol",
+          "type": "MOProtocolDescription *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "descriptedClass": {
+      "name": "descriptedClass",
+      "pointer": false,
+      "type": "Class",
+      "attributes": [
+        "unsafe_unretained",
+        "readonly"
+      ]
+    },
+    "superclass": {
+      "name": "superclass",
+      "pointer": false,
+      "type": "MOClassDescription ",
+      "attributes": [
+        "weak",
+        "readonly"
+      ]
+    },
+    "ancestors": {
+      "name": "ancestors",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "instanceVariables": {
+      "name": "instanceVariables",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "instanceVariablesWithAncestors": {
+      "name": "instanceVariablesWithAncestors",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "classMethods": {
+      "name": "classMethods",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "classMethodsWithAncestors": {
+      "name": "classMethodsWithAncestors",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "instanceMethods": {
+      "name": "instanceMethods",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "instanceMethodsWithAncestors": {
+      "name": "instanceMethodsWithAncestors",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "properties": {
+      "name": "properties",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "propertiesWithAncestors": {
+      "name": "propertiesWithAncestors",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "protocols": {
+      "name": "protocols",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "protocolsWithAncestors": {
+      "name": "protocolsWithAncestors",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "BCLayerListViewController",
+  "extends": "BCOutlineViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

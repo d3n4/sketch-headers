@@ -1,0 +1,42 @@
+{
+  "name": "MSOverrideRepresentationContainer",
+  "extends": "MSOverrideRepresentationBase",
+  "interfaces": [],
+  "methods": {
+    "rootRepresentationForSymbolInstance:": {
+      "name": "rootRepresentationForSymbolInstance:",
+      "bridgedName": "rootRepresentationForSymbolInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSSymbolInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "inspectorOverrides": {
+      "name": "inspectorOverrides",
+      "pointer": false,
+      "type": "NSArray<MSOverrideRepresentation *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectedOverrides": {
+      "name": "selectedOverrides",
+      "pointer": false,
+      "type": "NSArray<MSOverrideRepresentation *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

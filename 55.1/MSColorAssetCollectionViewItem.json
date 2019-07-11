@@ -1,0 +1,8 @@
+{
+  "name": "MSColorAssetCollectionViewItem",
+  "extends": "MSAssetCollectionViewItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

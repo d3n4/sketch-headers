@@ -1,0 +1,11 @@
+{
+  "name": "MSPasteboardLayersReaderWriter",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSPasteboardReader",
+    "MSPasteboardWriter"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

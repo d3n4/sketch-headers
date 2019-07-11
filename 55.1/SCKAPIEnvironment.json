@@ -1,0 +1,230 @@
+{
+  "name": "SCKAPIEnvironment",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "keychainAuthenticationWithError:": {
+      "name": "keychainAuthenticationWithError:",
+      "bridgedName": "keychainAuthenticationWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable SCKAPISession *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setKeychainAuthentication:error:": {
+      "name": "setKeychainAuthentication:error:",
+      "bridgedName": "setKeychainAuthentication_error",
+      "args": [
+        {
+          "name": "session",
+          "type": "SCKAPISession *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "accountSettingsURLForUserID:)": {
+      "name": "accountSettingsURLForUserID:)",
+      "bridgedName": "accountSettingsURLForUserID_)",
+      "args": [
+        {
+          "name": "userID",
+          "type": "SCKObjectID *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "settingsURLForShare:)": {
+      "name": "settingsURLForShare:)",
+      "bridgedName": "settingsURLForShare_)",
+      "args": [
+        {
+          "name": "share",
+          "type": "SCKShare *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharesOverviewURLForUserID:)": {
+      "name": "sharesOverviewURLForUserID:)",
+      "bridgedName": "sharesOverviewURLForUserID_)",
+      "args": [
+        {
+          "name": "userID",
+          "type": "SCKObjectID *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithHost:": {
+      "name": "initWithHost:",
+      "bridgedName": "initWithHost",
+      "args": [
+        {
+          "name": "host",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull SCKAPIEnvironment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithName:": {
+      "name": "initWithName:",
+      "bridgedName": "initWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull SCKAPIEnvironment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDefinition:": {
+      "name": "initWithDefinition:",
+      "bridgedName": "initWithDefinition",
+      "args": [
+        {
+          "name": "definition",
+          "type": "SCKAPIEnvironmentDefinition",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull SCKAPIEnvironment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "current": {
+      "name": "current",
+      "bridgedName": "current",
+      "args": [],
+      "returns": "nonnull instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setCurrent": {
+      "name": "setCurrent",
+      "bridgedName": "setCurrent",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "signUpURL": {
+      "name": "signUpURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "resetPasswordURL": {
+      "name": "resetPasswordURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "requestSignatureSecret": {
+      "name": "requestSignatureSecret",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "publicKeys": {
+      "name": "publicKeys",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "definition": {
+      "name": "definition",
+      "pointer": false,
+      "type": "SCKAPIEnvironmentDefinition",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "host": {
+      "name": "host",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "displayName": {
+      "name": "displayName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "suffixRepresentation": {
+      "name": "suffixRepresentation",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

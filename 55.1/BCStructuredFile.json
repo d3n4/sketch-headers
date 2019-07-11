@@ -1,0 +1,83 @@
+{
+  "name": "BCStructuredFile",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithURL:error:": {
+      "name": "initWithURL:error:",
+      "bridgedName": "initWithURL_error",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "metadata": {
+      "name": "metadata",
+      "bridgedName": "metadata",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "metaDataWithKey:": {
+      "name": "metaDataWithKey:",
+      "bridgedName": "metaDataWithKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataWithKey:error:": {
+      "name": "dataWithKey:error:",
+      "bridgedName": "dataWithKey_error",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError* __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "close:": {
+      "name": "close:",
+      "bridgedName": "close",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError* __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

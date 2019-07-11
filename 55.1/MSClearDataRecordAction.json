@@ -1,0 +1,23 @@
+{
+  "name": "MSClearDataRecordAction",
+  "extends": "MSDataAction",
+  "interfaces": [],
+  "methods": {
+    "clearDataRecordFromCurrentSelection:": {
+      "name": "clearDataRecordFromCurrentSelection:",
+      "bridgedName": "clearDataRecordFromCurrentSelection",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

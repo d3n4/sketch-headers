@@ -1,0 +1,429 @@
+{
+  "enum": true,
+  "name": "MSDocumentVersion",
+  "members": [
+    {
+      "name": "MSDocumentUnknownVersion",
+      "value": "-1"
+    },
+    {
+      "name": "MSDocumentEarlyVersion",
+      "value": "0"
+    },
+    {
+      "name": "MSDocument211to212Version",
+      "value": "2"
+    },
+    {
+      "name": "MSDocument213to214Version",
+      "value": "3"
+    },
+    {
+      "name": "MSDocument220Version",
+      "value": "4"
+    },
+    {
+      "name": "MSDocument221Version",
+      "value": "8"
+    },
+    {
+      "name": "MSDocument222to223Version",
+      "value": "9"
+    },
+    {
+      "name": "MSDocument224to23Version",
+      "value": "10"
+    },
+    {
+      "name": "MSDocumentFirstComaVersion",
+      "value": "14"
+    },
+    {
+      "name": "MSDocumentAKArrayRenamedVersion",
+      "value": "16"
+    },
+    {
+      "name": "MSDocumentDontStoreDefaultsAndOptimiseColors",
+      "value": "17"
+    },
+    {
+      "name": "MSDocumentArchiveColorsAsDoubles",
+      "value": "18"
+    },
+    {
+      "name": "MSDocumentMigrationTest",
+      "value": "19"
+    },
+    {
+      "name": "MSDocumentSymbols",
+      "value": "20"
+    },
+    {
+      "name": "MSDocumentDontSyncFlagOnText",
+      "value": "21"
+    },
+    {
+      "name": "MSDocumentRemovedSliceContainers",
+      "value": "22"
+    },
+    {
+      "name": "MSDocumentAddedExportOptions",
+      "value": "23"
+    },
+    {
+      "name": "MSDocumentUnifiedTextStyleSymbols",
+      "value": "24"
+    },
+    {
+      "name": "MSDocumentMigrateArtboardAssociatedSlice",
+      "value": "25"
+    },
+    {
+      "name": "MSDocumentMergeLayerContainers",
+      "value": "26"
+    },
+    {
+      "name": "MSDocumentColorControlsLoadingFix",
+      "value": "27"
+    },
+    {
+      "name": "MSDocumentAddedWindingRule",
+      "value": "28"
+    },
+    {
+      "name": "MSDocumentClearStylesOnArtboards",
+      "value": "29"
+    },
+    {
+      "name": "MSDocumentOriginalObjectIDOnLayers",
+      "value": "30"
+    },
+    {
+      "name": "MSDocumentDeprecateAdaptableColor",
+      "value": "31"
+    },
+    {
+      "name": "MSDocumentNoiseAsSeparateFill",
+      "value": "32"
+    },
+    {
+      "name": "MSDocumentImageCollection",
+      "value": "33"
+    },
+    {
+      "name": "MSDocumentExportableLayers",
+      "value": "34"
+    },
+    {
+      "name": "MSDocumentStripUnsupportedAttributes",
+      "value": "35"
+    },
+    {
+      "name": "MSDocumentMergeStraightAndRoundedCornerEnums",
+      "value": "36"
+    },
+    {
+      "name": "MSDocumentSplitGridAndLayout",
+      "value": "37"
+    },
+    {
+      "name": "MSDocumentStructuredFile",
+      "value": "40"
+    },
+    {
+      "name": "MSDocumentPatternsUsesImageCollection",
+      "value": "41"
+    },
+    {
+      "name": "MSDocumentPatternsImagePropertyRemoved",
+      "value": "42"
+    },
+    {
+      "name": "MSDocumentImageNameRemoved",
+      "value": "43"
+    },
+    {
+      "name": "MSDocumentDontEncodeArchivedColor",
+      "value": "44"
+    },
+    {
+      "name": "MSDocumentTextHeightIsClippedProperty",
+      "value": "45"
+    },
+    {
+      "name": "MSDocumentNewLineSpacingBehaviour",
+      "value": "46"
+    },
+    {
+      "name": "MSDocumentPersistentLayerListFolding",
+      "value": "47"
+    },
+    {
+      "name": "MSDocumentDefaultStyleIncludesPatternImages",
+      "value": "48"
+    },
+    {
+      "name": "MSDocumentArtisticStrokeRemoved",
+      "value": "49"
+    },
+    {
+      "name": "MSDocumentDecorationsRemoved",
+      "value": "50"
+    },
+    {
+      "name": "MSDocumentAddedLayerUserInfo",
+      "value": "51"
+    },
+    {
+      "name": "MSDocumentArrowMoveToStyle",
+      "value": "52"
+    },
+    {
+      "name": "MSDocumentColorControlsHue",
+      "value": "53"
+    },
+    {
+      "name": "MSDocumentLocalAssets",
+      "value": "54"
+    },
+    {
+      "name": "MSDocumentImagesStoredInLocalAssets",
+      "value": "55"
+    },
+    {
+      "name": "MSDocumentSaveImmutableVariants",
+      "value": "56"
+    },
+    {
+      "name": "MSDocumentSaveImageWrappersThemselves",
+      "value": "57"
+    },
+    {
+      "name": "MSDocumentArtboardsOnFullPixels",
+      "value": "58"
+    },
+    {
+      "name": "MSDocumentRemoveHasDashPatternProperty",
+      "value": "59"
+    },
+    {
+      "name": "MSDocumentNineSliceScaleAdded",
+      "value": "60"
+    },
+    {
+      "name": "MSDocumentFillReplacesImage",
+      "value": "61"
+    },
+    {
+      "name": "MSDocumentNineSliceScaleBugFix",
+      "value": "62"
+    },
+    {
+      "name": "MSDocumentSharedStylesOnInappropriateLayersBugFix",
+      "value": "63"
+    },
+    {
+      "name": "MSDocumentRestoreImmutableVariants",
+      "value": "70"
+    },
+    {
+      "name": "MSDocumentCloudShareIDSupport",
+      "value": "71"
+    },
+    {
+      "name": "MSDocumentRenameSharedLayerToSymbol",
+      "value": "72"
+    },
+    {
+      "name": "MSDocumentRenamedExportSizeToExportFormat",
+      "value": "73"
+    },
+    {
+      "name": "MSDocumentRetinaCanvasAndDefaultZoomValueRemoved",
+      "value": "74"
+    },
+    {
+      "name": "MSDocumentImageCollectionDeprecated",
+      "value": "75"
+    },
+    {
+      "name": "MSDocumentImageCollectionCleared",
+      "value": "76"
+    },
+    {
+      "name": "MSDocumentConsistentBaselineTypesetter",
+      "value": "77"
+    },
+    {
+      "name": "MSDocumentTextLayerGlyphBounds",
+      "value": "78"
+    },
+    {
+      "name": "MSDocumentSymbolsAsArtboards",
+      "value": "79"
+    },
+    {
+      "name": "MSDocumentCloudExport",
+      "value": "80"
+    },
+    {
+      "name": "MSDocumentRemoveNSTextStorage",
+      "value": "81"
+    },
+    {
+      "name": "MSDocumentRemoveNSFontFromMSTextStyle",
+      "value": "82"
+    },
+    {
+      "name": "MSDocumentHistoryBasedUndoIntroduced",
+      "value": "83"
+    },
+    {
+      "name": "MSDocumentDataUserInfoAdded",
+      "value": "84"
+    },
+    {
+      "name": "MSDocumentRepairSymbolOverrideMissingRootDictionary",
+      "value": "85"
+    },
+    {
+      "name": "MSDocumentReplaceMSArray",
+      "value": "86"
+    },
+    {
+      "name": "MSDocumentLayerResizing",
+      "value": "87"
+    },
+    {
+      "name": "MSDocumentZippedJSON",
+      "value": "88"
+    },
+    {
+      "name": "MSDocumentShapeLayerPointRadiusType",
+      "value": "89"
+    },
+    {
+      "name": "MSDocumentRemoveGridIndex",
+      "value": "90"
+    },
+    {
+      "name": "MSDocumentResizingMask",
+      "value": "91"
+    },
+    {
+      "name": "MSDocumentDuplicateIDFix",
+      "value": "92"
+    },
+    {
+      "name": "MSDocumentVerticalAlignmentAsComaProperty",
+      "value": "93"
+    },
+    {
+      "name": "MSDocumentSmoothPointRadiusBehaviour",
+      "value": "94"
+    },
+    {
+      "name": "MSDocumentColorManagementThatDidntShip",
+      "value": "95"
+    },
+    {
+      "name": "MSDocumentColorManagementForReal",
+      "value": "96"
+    },
+    {
+      "name": "MSDocumentOverrideValues",
+      "value": "97"
+    },
+    {
+      "name": "MSDocumentRefactorBCTextBehaviour",
+      "value": "98"
+    },
+    {
+      "name": "MSDocumentMSAttributedStringJSON",
+      "value": "99"
+    },
+    {
+      "name": "MSDocumentRemoveShapePathClass",
+      "value": "100"
+    },
+    {
+      "name": "MSDocumentPersistentArtboardPresets",
+      "value": "101"
+    },
+    {
+      "name": "MSDocumentForeignStyles",
+      "value": "102"
+    },
+    {
+      "name": "MSDocumentUseGenericDocumentMetadataKey",
+      "value": "103"
+    },
+    {
+      "name": "MSDocumentRefactorWindingRule",
+      "value": "104"
+    },
+    {
+      "name": "MSDocumentFancyArrowHeads",
+      "value": "105"
+    },
+    {
+      "name": "MSDocumentPlusLigherPlusDarkerBlendModes",
+      "value": "106"
+    },
+    {
+      "name": "MSDocumentBackgroundBlurSaturation",
+      "value": "107"
+    },
+    {
+      "name": "MSDocumentNestedBooleanOperations",
+      "value": "110"
+    },
+    {
+      "name": "MSDocumentZoomBlurCoordinateSystem",
+      "value": "111"
+    },
+    {
+      "name": "MSDocumentMoveSharedStyleID",
+      "value": "112"
+    },
+    {
+      "name": "MSDocumentLocalizeDefaultExportPreset",
+      "value": "113"
+    },
+    {
+      "name": "MSDocumentAddOverrideProperties",
+      "value": "114"
+    },
+    {
+      "name": "MSDocumentWrappedColorAndGradientAssets",
+      "value": "115"
+    },
+    {
+      "name": "MSDocumentNoiseAsPattern",
+      "value": "116"
+    },
+    {
+      "name": "MSDocumentLocalizedColorPresets",
+      "value": "117"
+    },
+    {
+      "name": "MSDocumentPresetsAsZippedJSON",
+      "value": "118"
+    },
+    {
+      "name": "MSDocumentNextVersion"
+    },
+    {
+      "name": "MSDocumentCurrentVersion",
+      "value": "MSDocumentNextVersion - 1"
+    },
+    {
+      "name": "MSDocumentCompatibilityVersion",
+      "value": "MSDocumentMSAttributedStringJSON"
+    },
+    {
+      "name": "MSDocumentNewestVersionRequiringMigration",
+      "value": "MSDocumentStructuredFile"
+    }
+  ]
+}

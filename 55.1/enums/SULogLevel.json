@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "SULogLevel",
+  "members": [
+    {
+      "name": "SULogLevelDefault"
+    },
+    {
+      "name": "SULogLevelError"
+    }
+  ]
+}

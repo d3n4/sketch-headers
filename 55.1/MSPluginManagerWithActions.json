@@ -1,0 +1,45 @@
+{
+  "name": "MSPluginManagerWithActions",
+  "extends": "MSPluginManager",
+  "interfaces": [
+    "MSActionObserver"
+  ],
+  "methods": {
+    "sendToCommandActionsForCommand:withID:context:": {
+      "name": "sendToCommandActionsForCommand:withID:context:",
+      "bridgedName": "sendToCommandActionsForCommand_withID_context",
+      "args": [
+        {
+          "name": "commandSpecifier",
+          "type": "MSPluginCommandSpecifier *",
+          "nullable": false
+        },
+        {
+          "name": "actionID",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dataManager": {
+      "name": "dataManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}
