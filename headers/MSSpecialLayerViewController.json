@@ -38,6 +38,15 @@
         "nonatomic",
         "copy"
       ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSInspectorSectionDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
     }
   },
   "generics": []

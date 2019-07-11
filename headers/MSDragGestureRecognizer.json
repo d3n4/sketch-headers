@@ -63,6 +63,20 @@
       "returns": "NSPoint",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "originInLayer:": {
+      "name": "originInLayer:",
+      "bridgedName": "originInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -74,12 +88,13 @@
         "nonatomic"
       ]
     },
-    "lockTranslation": {
-      "name": "lockTranslation",
+    "translationLocked": {
+      "name": "translationLocked",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "getter=isTranslationLocked"
       ]
     },
     "modifierFlags": {

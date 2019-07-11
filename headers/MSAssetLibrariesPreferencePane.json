@@ -48,6 +48,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "visitLibrariesPageAction:": {
+      "name": "visitLibrariesPageAction:",
+      "bridgedName": "visitLibrariesPageAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addLibrariesFromURLS:": {
       "name": "addLibrariesFromURLS:",
       "bridgedName": "addLibrariesFromURLS",
