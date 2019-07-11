@@ -154,6 +154,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "isAffectedLayerOrParentHidden": {
+      "name": "isAffectedLayerOrParentHidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []
