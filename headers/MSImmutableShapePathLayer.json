@@ -2,7 +2,16 @@
   "name": "MSImmutableShapePathLayer",
   "extends": "_MSImmutableShapePathLayer",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "resetDowngradedProperties": {
+      "name": "resetDowngradedProperties",
+      "bridgedName": "resetDowngradedProperties",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "isEditing": {
       "name": "isEditing",
@@ -53,6 +62,15 @@
       "name": "numberOfCurvePoints",
       "pointer": false,
       "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "decoded52Style": {
+      "name": "decoded52Style",
+      "pointer": false,
+      "type": "MSImmutableStyle ",
       "attributes": [
         "nonatomic",
         "readonly"

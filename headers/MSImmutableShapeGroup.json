@@ -5,6 +5,20 @@
     "MSShapeGroup"
   ],
   "methods": {
+    "initDowngradedShapeWithPath:": {
+      "name": "initDowngradedShapeWithPath:",
+      "bridgedName": "initDowngradedShapeWithPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSImmutableShapePathLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "pathWithExporter:border:": {
       "name": "pathWithExporter:border:",
       "bridgedName": "pathWithExporter_border",

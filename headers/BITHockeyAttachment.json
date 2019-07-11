@@ -2,8 +2,6 @@
   "name": "BITHockeyAttachment",
   "extends": "NSObject",
   "interfaces": [
-    "NSCoding",
-    "NSCoding",
     "NSCoding"
   ],
   "methods": {
