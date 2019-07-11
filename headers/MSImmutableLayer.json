@@ -6,6 +6,20 @@
     "MSLayerTraits"
   ],
   "methods": {
+    "influenceRectEdgePaddingsThatDoNotCascadeInDocument:": {
+      "name": "influenceRectEdgePaddingsThatDoNotCascadeInDocument:",
+      "bridgedName": "influenceRectEdgePaddingsThatDoNotCascadeInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BCEdgePaddings",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "absoluteRectForAncestorGroups:": {
       "name": "absoluteRectForAncestorGroups:",
       "bridgedName": "absoluteRectForAncestorGroups",
@@ -166,9 +180,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "pathInBoundsInDocument:asSubpath:": {
-      "name": "pathInBoundsInDocument:asSubpath:",
-      "bridgedName": "pathInBoundsInDocument_asSubpath",
+    "pathInBoundsInDocument:asSubpath:visitedSymbols:": {
+      "name": "pathInBoundsInDocument:asSubpath:visitedSymbols:",
+      "bridgedName": "pathInBoundsInDocument_asSubpath_visitedSymbols",
       "args": [
         {
           "name": "doc",
@@ -179,15 +193,20 @@
           "name": "asSubpath",
           "type": "BOOL",
           "nullable": false
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
         }
       ],
       "returns": "MSPath *",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "calculatePathInBoundsInDocument:asSubpath:": {
-      "name": "calculatePathInBoundsInDocument:asSubpath:",
-      "bridgedName": "calculatePathInBoundsInDocument_asSubpath",
+    "calculatePathInBoundsInDocument:asSubpath:visitedSymbols:": {
+      "name": "calculatePathInBoundsInDocument:asSubpath:visitedSymbols:",
+      "bridgedName": "calculatePathInBoundsInDocument_asSubpath_visitedSymbols",
       "args": [
         {
           "name": "doc",
@@ -198,6 +217,11 @@
           "name": "asSubpath",
           "type": "BOOL",
           "nullable": false
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
         }
       ],
       "returns": "MSPath *",
@@ -714,15 +738,6 @@
     },
     "influenceRectEdgePaddingsThatCascadeToContainedLayers": {
       "name": "influenceRectEdgePaddingsThatCascadeToContainedLayers",
-      "pointer": false,
-      "type": "BCEdgePaddings",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "influenceRectEdgePaddingsThatDoNotCascade": {
-      "name": "influenceRectEdgePaddingsThatDoNotCascade",
       "pointer": false,
       "type": "BCEdgePaddings",
       "attributes": [

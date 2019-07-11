@@ -175,6 +175,16 @@
         "nullable",
         "readonly"
       ]
+    },
+    "currentURL": {
+      "name": "currentURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
     }
   },
   "generics": []

@@ -375,8 +375,8 @@
         "nonatomic"
       ]
     },
-    "backgroundColor": {
-      "name": "backgroundColor",
+    "exportBackgroundColor": {
+      "name": "exportBackgroundColor",
       "pointer": false,
       "type": "MSImmutableColor ",
       "attributes": [
