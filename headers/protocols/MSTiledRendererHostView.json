@@ -12,6 +12,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "hasUserFocus": {
+      "name": "hasUserFocus",
+      "bridgedName": "hasUserFocus",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "driver": {
       "name": "driver",
       "bridgedName": "driver",

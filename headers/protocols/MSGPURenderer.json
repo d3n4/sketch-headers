@@ -47,10 +47,16 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "endFrame": {
-      "name": "endFrame",
-      "bridgedName": "endFrame",
-      "args": [],
+    "endFrameAndWaitForFrame:": {
+      "name": "endFrameAndWaitForFrame:",
+      "bridgedName": "endFrameAndWaitForFrame",
+      "args": [
+        {
+          "name": "wait",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

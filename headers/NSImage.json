@@ -339,6 +339,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "firstCGImageRep": {
+      "name": "firstCGImageRep",
+      "bridgedName": "firstCGImageRep",
+      "args": [],
+      "returns": "nullable NSImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "firstBitmapImageRepOfScale:": {
       "name": "firstBitmapImageRepOfScale:",
       "bridgedName": "firstBitmapImageRepOfScale",

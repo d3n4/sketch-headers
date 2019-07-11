@@ -81,20 +81,6 @@
       "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "cancelAction:": {
-      "name": "cancelAction:",
-      "bridgedName": "cancelAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
