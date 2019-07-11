@@ -181,15 +181,6 @@
         "copy"
       ]
     },
-    "masterRefreshCounter": {
-      "name": "masterRefreshCounter",
-      "pointer": false,
-      "type": "NSInteger",
-      "attributes": [
-        "nonatomic",
-        "assign"
-      ]
-    },
     "overrideContainer": {
       "name": "overrideContainer",
       "pointer": false,

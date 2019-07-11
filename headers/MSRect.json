@@ -171,6 +171,44 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "editedFromRect:": {
+      "name": "editedFromRect:",
+      "bridgedName": "editedFromRect",
+      "args": [
+        {
+          "name": "previousRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processEditing": {
+      "name": "processEditing",
+      "bridgedName": "processEditing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginEditing": {
+      "name": "beginEditing",
+      "bridgedName": "beginEditing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endEditing": {
+      "name": "endEditing",
+      "bridgedName": "endEditing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "makeOriginIntegral": {
       "name": "makeOriginIntegral",
       "bridgedName": "makeOriginIntegral",

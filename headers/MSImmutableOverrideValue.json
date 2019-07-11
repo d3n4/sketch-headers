@@ -69,6 +69,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "isValid": {
+      "name": "isValid",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

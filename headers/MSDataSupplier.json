@@ -192,6 +192,15 @@
         "readonly"
       ]
     },
+    "uttDataType": {
+      "name": "uttDataType",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "dataIdentifier": {
       "name": "dataIdentifier",
       "pointer": false,

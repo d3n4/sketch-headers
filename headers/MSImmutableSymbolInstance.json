@@ -168,15 +168,6 @@
     }
   },
   "properties": {
-    "masterRefreshCounter": {
-      "name": "masterRefreshCounter",
-      "pointer": false,
-      "type": "NSUInteger",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "overrides": {
       "name": "overrides",
       "pointer": false,

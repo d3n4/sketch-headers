@@ -432,6 +432,22 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "beginEditingFrame": {
+      "name": "beginEditingFrame",
+      "bridgedName": "beginEditingFrame",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endEditingFrame": {
+      "name": "endEditingFrame",
+      "bridgedName": "endEditingFrame",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "initWithFrame:": {
       "name": "initWithFrame:",
       "bridgedName": "initWithFrame",

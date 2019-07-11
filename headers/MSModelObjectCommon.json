@@ -81,20 +81,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "performMigrationsWithUnarchiver:": {
-      "name": "performMigrationsWithUnarchiver:",
-      "bridgedName": "performMigrationsWithUnarchiver",
-      "args": [
-        {
-          "name": "coder",
-          "type": "MSBaseUnarchiver*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "hasObjectID": {
       "name": "hasObjectID",
       "bridgedName": "hasObjectID",
