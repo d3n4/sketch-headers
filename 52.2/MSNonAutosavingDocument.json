@@ -1,0 +1,8 @@
+{
+  "name": "MSNonAutosavingDocument",
+  "extends": "MSDocument",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

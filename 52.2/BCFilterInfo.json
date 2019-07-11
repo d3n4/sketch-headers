@@ -1,0 +1,64 @@
+{
+  "name": "BCFilterInfo",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "filterTypeMatches:": {
+      "name": "filterTypeMatches:",
+      "bridgedName": "filterTypeMatches",
+      "args": [
+        {
+          "name": "filterType",
+          "type": "BCOutlineViewFilterTypeMask",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldIncludeNode:": {
+      "name": "shouldIncludeNode:",
+      "bridgedName": "shouldIncludeNode",
+      "args": [
+        {
+          "name": "node",
+          "type": "id<BCOutlineViewNode>",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "filterTypeMask": {
+      "name": "filterTypeMask",
+      "pointer": false,
+      "type": "BCOutlineViewFilterTypeMask",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "filterString": {
+      "name": "filterString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "isActive": {
+      "name": "isActive",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,47 @@
+{
+  "protocol": true,
+  "name": "MSAlignmentEngineDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "alignmentEngine:alignPoint:": {
+      "name": "alignmentEngine:alignPoint:",
+      "bridgedName": "alignmentEngine_alignPoint",
+      "args": [
+        {
+          "name": "engine",
+          "type": "MSAlignmentEngine *",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "alignmentEngine:roundPoint:": {
+      "name": "alignmentEngine:roundPoint:",
+      "bridgedName": "alignmentEngine_roundPoint",
+      "args": [
+        {
+          "name": "engine",
+          "type": "MSAlignmentEngine *",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

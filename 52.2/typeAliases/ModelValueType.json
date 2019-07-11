@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "ModelValueType",
+  "type": "id",
+  "pointer": false
+}

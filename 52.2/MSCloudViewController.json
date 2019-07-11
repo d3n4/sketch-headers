@@ -1,0 +1,83 @@
+{
+  "name": "MSCloudViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "initWithAction:": {
+      "name": "initWithAction:",
+      "bridgedName": "initWithAction",
+      "args": [
+        {
+          "name": "action",
+          "type": "MSCloudAction *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setContentViewController:animated:": {
+      "name": "setContentViewController:animated:",
+      "bridgedName": "setContentViewController_animated",
+      "args": [
+        {
+          "name": "contentViewController",
+          "type": "MSCloudBaseViewController *",
+          "nullable": false
+        },
+        {
+          "name": "animated",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetContentViewController:": {
+      "name": "resetContentViewController:",
+      "bridgedName": "resetContentViewController",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateFrame": {
+      "name": "updateFrame",
+      "bridgedName": "updateFrame",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "action": {
+      "name": "action",
+      "pointer": false,
+      "type": "MSCloudAction ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contentViewController": {
+      "name": "contentViewController",
+      "pointer": false,
+      "type": "MSCloudBaseViewController ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

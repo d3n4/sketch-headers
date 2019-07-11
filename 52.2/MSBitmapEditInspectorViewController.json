@@ -1,0 +1,46 @@
+{
+  "name": "MSBitmapEditInspectorViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorChildController"
+  ],
+  "methods": {
+    "refresh": {
+      "name": "refresh",
+      "bridgedName": "refresh",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "currentMode": {
+      "name": "currentMode",
+      "pointer": false,
+      "type": "MSBitmapEditMode",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "selectionSize": {
+      "name": "selectionSize",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "eventHandler": {
+      "name": "eventHandler",
+      "pointer": false,
+      "type": "MSBitmapEditEventHandler ",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

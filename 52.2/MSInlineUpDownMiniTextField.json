@@ -1,0 +1,8 @@
+{
+  "name": "MSInlineUpDownMiniTextField",
+  "extends": "MSInlineUpDownTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

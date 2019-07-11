@@ -1,0 +1,119 @@
+{
+  "protocol": true,
+  "name": "BCOutlineViewNode",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "previewIconWithState:": {
+      "name": "previewIconWithState:",
+      "bridgedName": "previewIconWithState",
+      "args": [
+        {
+          "name": "state",
+          "type": "BCOutlineViewPreviewState",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "maskIconWithState:": {
+      "name": "maskIconWithState:",
+      "bridgedName": "maskIconWithState",
+      "args": [
+        {
+          "name": "state",
+          "type": "BCOutlineViewPreviewState",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "badgeMenuConfigurator": {
+      "name": "badgeMenuConfigurator",
+      "bridgedName": "badgeMenuConfigurator",
+      "args": [],
+      "returns": "id<BCOutlineViewPopupConfigurator>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "displayType": {
+      "name": "displayType",
+      "pointer": false,
+      "type": "BCOutlineViewDisplayType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "filterTypeMask": {
+      "name": "filterTypeMask",
+      "pointer": false,
+      "type": "BCOutlineViewFilterTypeMask",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "nodeName": {
+      "name": "nodeName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "isActive": {
+      "name": "isActive",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isEditableInLayerList": {
+      "name": "isEditableInLayerList",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasBadgedIcon": {
+      "name": "hasBadgedIcon",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "badgeImages": {
+      "name": "badgeImages",
+      "pointer": false,
+      "type": "MSTintedImages ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "isExpanded": {
+      "name": "isExpanded",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

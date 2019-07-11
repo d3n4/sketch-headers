@@ -1,0 +1,27 @@
+{
+  "name": "BCMagnifierWindowContentView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "screenGrab": {
+      "name": "screenGrab",
+      "pointer": false,
+      "type": "BCScreenGrab ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "currentColor": {
+      "name": "currentColor",
+      "pointer": false,
+      "type": "BCFlexibleColor ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    }
+  },
+  "generics": []
+}

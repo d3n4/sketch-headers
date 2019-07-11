@@ -1,0 +1,37 @@
+{
+  "name": "_MSSymbolMaster",
+  "extends": "MSArtboardGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "allowsOverrides": {
+      "name": "allowsOverrides",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "includeBackgroundColorInInstance": {
+      "name": "includeBackgroundColorInInstance",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "symbolID": {
+      "name": "symbolID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSBitmapLayerSection",
+  "extends": "MSSingleItemInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

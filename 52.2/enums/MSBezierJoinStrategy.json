@@ -1,0 +1,42 @@
+{
+  "enum": true,
+  "name": "MSBezierJoinStrategy",
+  "members": [
+    {
+      "name": "MSBezierJoinStrategyNone",
+      "value": "1<<0"
+    },
+    {
+      "name": "MSBezierJoinStrategyConnectEndpoints",
+      "value": "1<<1"
+    },
+    {
+      "name": "MSBezierJoinStrategyIntersect",
+      "value": "1<<2"
+    },
+    {
+      "name": "MSBezierJoinStrategyExtend",
+      "value": "1<<3"
+    },
+    {
+      "name": "MSBezierJoinStrategyMirror",
+      "value": "1<<4"
+    },
+    {
+      "name": "MSBezierJoinStrategyExtendTangent",
+      "value": "1<<5"
+    },
+    {
+      "name": "MSBezierJoinStrategyArc",
+      "value": "1<<6"
+    },
+    {
+      "name": "MSBezierJoinStrategyAny",
+      "value": "MSBezierJoinStrategyConnectEndpoints | MSBezierJoinStrategyIntersect | MSBezierJoinStrategyExtend | MSBezierJoinStrategyExtendTangent | MSBezierJoinStrategyMirror"
+    },
+    {
+      "name": "MSBezierJoinStrategyDefault",
+      "value": "MSBezierJoinStrategyAny"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSColorControlsBrightnessValueTransformer",
+  "extends": "MSArbitraryRangePercentValueTransformer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSLayerRenameOptions",
+  "members": [
+    {
+      "name": "MSLayerRenameNumbersOnly",
+      "value": "0"
+    },
+    {
+      "name": "MSLayerRenameIncludeCopy",
+      "value": "1"
+    }
+  ]
+}

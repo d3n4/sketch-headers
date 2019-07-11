@@ -1,0 +1,42 @@
+{
+  "name": "MSSegmentedToolbarItem",
+  "extends": "NSToolbarItemGroup",
+  "interfaces": [],
+  "methods": {
+    "initWithAction:forToolbar:": {
+      "name": "initWithAction:forToolbar:",
+      "bridgedName": "initWithAction_forToolbar",
+      "args": [
+        {
+          "name": "action",
+          "type": "MSActionGroup *",
+          "nullable": false
+        },
+        {
+          "name": "forToolbar",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateWithAction:": {
+      "name": "validateWithAction:",
+      "bridgedName": "validateWithAction",
+      "args": [
+        {
+          "name": "action",
+          "type": "MSActionGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

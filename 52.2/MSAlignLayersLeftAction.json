@@ -1,0 +1,23 @@
+{
+  "name": "MSAlignLayersLeftAction",
+  "extends": "MSBaseAlignLayersAction",
+  "interfaces": [],
+  "methods": {
+    "alignLayersLeft:": {
+      "name": "alignLayersLeft:",
+      "bridgedName": "alignLayersLeft",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

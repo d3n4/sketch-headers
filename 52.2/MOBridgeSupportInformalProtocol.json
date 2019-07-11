@@ -1,0 +1,60 @@
+{
+  "name": "MOBridgeSupportInformalProtocol",
+  "extends": "MOBridgeSupportSymbol",
+  "interfaces": [],
+  "methods": {
+    "addMethod:": {
+      "name": "addMethod:",
+      "bridgedName": "addMethod",
+      "args": [
+        {
+          "name": "method",
+          "type": "MOBridgeSupportMethod *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeMethod:": {
+      "name": "removeMethod:",
+      "bridgedName": "removeMethod",
+      "args": [
+        {
+          "name": "method",
+          "type": "MOBridgeSupportMethod *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "methodWithSelector:": {
+      "name": "methodWithSelector:",
+      "bridgedName": "methodWithSelector",
+      "args": [
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "MOBridgeSupportMethod *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "methods": {
+      "name": "methods",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

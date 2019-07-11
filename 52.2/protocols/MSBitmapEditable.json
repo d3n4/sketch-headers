@@ -1,0 +1,27 @@
+{
+  "protocol": true,
+  "name": "MSBitmapEditable",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "NSImage": {
+      "name": "NSImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

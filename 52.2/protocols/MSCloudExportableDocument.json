@@ -1,0 +1,58 @@
+{
+  "protocol": true,
+  "name": "MSCloudExportableDocument",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "UIMetadata": {
+      "name": "UIMetadata",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "cacheManager": {
+      "name": "cacheManager",
+      "pointer": false,
+      "type": "MSCacheManager ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "cloudShare": {
+      "name": "cloudShare",
+      "pointer": false,
+      "type": "SCKShare ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "cloudName": {
+      "name": "cloudName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  }
+}

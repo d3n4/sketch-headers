@@ -1,0 +1,25 @@
+{
+  "protocol": true,
+  "name": "MSTiledRendererHostView",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "scheduleRedraw": {
+      "name": "scheduleRedraw",
+      "bridgedName": "scheduleRedraw",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "driver": {
+      "name": "driver",
+      "bridgedName": "driver",
+      "args": [],
+      "returns": "nullable MSRenderingDriver *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

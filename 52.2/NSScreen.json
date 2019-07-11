@@ -1,0 +1,28 @@
+{
+  "name": "NSScreen",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "isOnRetinaScreen": {
+      "name": "isOnRetinaScreen",
+      "bridgedName": "isOnRetinaScreen",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "highestBackingScale_bc": {
+      "name": "highestBackingScale_bc",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "class"
+      ]
+    }
+  },
+  "generics": []
+}

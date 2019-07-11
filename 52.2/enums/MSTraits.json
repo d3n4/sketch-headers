@@ -1,0 +1,78 @@
+{
+  "enum": true,
+  "name": "MSTraits",
+  "members": [
+    {
+      "name": "MSTraitStyled",
+      "value": "1<<8"
+    },
+    {
+      "name": "MSTraitText",
+      "value": "1<<9"
+    },
+    {
+      "name": "MSTraitImage",
+      "value": "1<<10"
+    },
+    {
+      "name": "MSTraitSlice",
+      "value": "1<<11"
+    },
+    {
+      "name": "MSTraitGroup",
+      "value": "1<<12"
+    },
+    {
+      "name": "MSTraitArtboard",
+      "value": "1<<13"
+    },
+    {
+      "name": "MSTraitShape",
+      "value": "1<<14"
+    },
+    {
+      "name": "MSTraitPage",
+      "value": "1<<15"
+    },
+    {
+      "name": "MSTraitContainer",
+      "value": "1<<16"
+    },
+    {
+      "name": "MSTraitRoot",
+      "value": "1<<17"
+    },
+    {
+      "name": "MSTraitPath",
+      "value": "1<<18"
+    },
+    {
+      "name": "MSTraitSymbolInstance",
+      "value": "1<<19"
+    },
+    {
+      "name": "MSTraitSymbolMaster",
+      "value": "1<<20"
+    },
+    {
+      "name": "MSTraitHotspot",
+      "value": "1<<21"
+    },
+    {
+      "name": "MSTraitExportable",
+      "value": "1<<22"
+    },
+    {
+      "name": "MSTraitShapeOrPath",
+      "value": "1<<23"
+    },
+    {
+      "name": "MSTraitAllTraits",
+      "value": "MSTraitStyled | MSTraitText | MSTraitImage | MSTraitSlice | MSTraitGroup| MSTraitArtboard | MSTraitShape | MSTraitPage | MSTraitContainer | MSTraitRoot | MSTraitPath | MSTraitSymbolInstance | MSTraitSymbolMaster | MSTraitHotspot | MSTraitExportable | MSTraitShapeOrPath"
+    },
+    {
+      "name": "MSTraitNone",
+      "value": "0"
+    }
+  ]
+}

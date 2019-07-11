@@ -1,0 +1,8 @@
+{
+  "name": "MSInsertArrowAction",
+  "extends": "MSInsertLineAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

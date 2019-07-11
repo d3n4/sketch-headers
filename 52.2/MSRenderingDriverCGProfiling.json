@@ -1,0 +1,23 @@
+{
+  "name": "MSRenderingDriverCGProfiling",
+  "extends": "MSRenderingDriverCG",
+  "interfaces": [],
+  "methods": {
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSProfilingRendererDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

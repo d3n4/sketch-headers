@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSGradientBarViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "gradientBarViewPreviewColorSpace:": {
+      "name": "gradientBarViewPreviewColorSpace:",
+      "bridgedName": "gradientBarViewPreviewColorSpace",
+      "args": [
+        {
+          "name": "gradientBarView",
+          "type": "MSGradientBarView *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "gradientBarChanged:": {
+      "name": "gradientBarChanged:",
+      "bridgedName": "gradientBarChanged",
+      "args": [
+        {
+          "name": "gradientView",
+          "type": "MSGradientBarView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

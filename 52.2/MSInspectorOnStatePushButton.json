@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorOnStatePushButton",
+  "extends": "MSInspectorPushButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

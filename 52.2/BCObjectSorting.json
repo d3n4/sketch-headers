@@ -1,0 +1,51 @@
+{
+  "name": "BCObjectSorting",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sortObjectsAlphabetically:": {
+      "name": "sortObjectsAlphabetically:",
+      "bridgedName": "sortObjectsAlphabetically",
+      "args": [
+        {
+          "name": "sortableObjects",
+          "type": "NSArray <id<BCSortable>> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSDictionary *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "sortObjectsWithNesting:": {
+      "name": "sortObjectsWithNesting:",
+      "bridgedName": "sortObjectsWithNesting",
+      "args": [
+        {
+          "name": "sortableObjects",
+          "type": "NSArray <id<BCSortable>> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSDictionary *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "sortObjectsWithCompressedNesting:": {
+      "name": "sortObjectsWithCompressedNesting:",
+      "bridgedName": "sortObjectsWithCompressedNesting",
+      "args": [
+        {
+          "name": "sortableObjects",
+          "type": "NSArray <id<BCSortable>> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSDictionary *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,38 @@
+{
+  "name": "MSJSONDictionaryUnarchiver",
+  "extends": "MSJSONUnarchiver",
+  "interfaces": [],
+  "methods": {
+    "unarchiveObjectFromDictionary:asVersion:corruptionDetected:error:": {
+      "name": "unarchiveObjectFromDictionary:asVersion:corruptionDetected:error:",
+      "bridgedName": "unarchiveObjectFromDictionary_asVersion_corruptionDetected_error",
+      "args": [
+        {
+          "name": "dict",
+          "type": "nonnull NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "MSDocumentVersion",
+          "nullable": false
+        },
+        {
+          "name": "corruption",
+          "type": "BOOL *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

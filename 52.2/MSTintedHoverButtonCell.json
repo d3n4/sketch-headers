@@ -1,0 +1,27 @@
+{
+  "name": "MSTintedHoverButtonCell",
+  "extends": "MSHoverButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "normalTint": {
+      "name": "normalTint",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hoverTint": {
+      "name": "hoverTint",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

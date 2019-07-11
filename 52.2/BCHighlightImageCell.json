@@ -1,0 +1,8 @@
+{
+  "name": "BCHighlightImageCell",
+  "extends": "NSImageCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

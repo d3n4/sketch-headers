@@ -1,0 +1,51 @@
+{
+  "name": "MSSVGColorMatrix",
+  "extends": "MSSVGfeFilterPrimitive",
+  "interfaces": [],
+  "methods": {
+    "colorMatrixForColor:": {
+      "name": "colorMatrixForColor:",
+      "bridgedName": "colorMatrixForColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSImmutableColor<MSColor> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "in": {
+      "name": "in",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "values": {
+      "name": "values",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

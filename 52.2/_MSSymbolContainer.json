@@ -1,0 +1,8 @@
+{
+  "name": "_MSSymbolContainer",
+  "extends": "MSSharedObjectContainer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

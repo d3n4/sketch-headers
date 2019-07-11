@@ -1,0 +1,62 @@
+{
+  "name": "COSFiber",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "createWithCocoaScript:": {
+      "name": "createWithCocoaScript:",
+      "bridgedName": "createWithCocoaScript",
+      "args": [
+        {
+          "name": "cos",
+          "type": "COScript*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "onCleanup:": {
+      "name": "onCleanup:",
+      "bridgedName": "onCleanup",
+      "args": [
+        {
+          "name": "jsFunction",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cleanup": {
+      "name": "cleanup",
+      "bridgedName": "cleanup",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "coscript": {
+      "name": "coscript",
+      "pointer": false,
+      "type": "COScript ",
+      "attributes": [
+        "weak"
+      ]
+    },
+    "cleanUpJSfunc": {
+      "name": "cleanUpJSfunc",
+      "pointer": false,
+      "type": "MOJavaScriptObject ",
+      "attributes": [
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

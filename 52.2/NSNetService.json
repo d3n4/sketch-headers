@@ -1,0 +1,34 @@
+{
+  "name": "NSNetService",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "addressStringWithData:": {
+      "name": "addressStringWithData:",
+      "bridgedName": "addressStringWithData",
+      "args": [
+        {
+          "name": "data",
+          "type": "nonnull NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "addressStrings": {
+      "name": "addressStrings",
+      "pointer": false,
+      "type": "NSArray<NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,34 @@
+{
+  "name": "TDCollectionParser",
+  "extends": "TDParser",
+  "interfaces": [],
+  "methods": {
+    "add:": {
+      "name": "add:",
+      "bridgedName": "add",
+      "args": [
+        {
+          "name": "p",
+          "type": "TDParser *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "subparsers": {
+      "name": "subparsers",
+      "pointer": false,
+      "type": "NSMutableArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "retain"
+      ]
+    }
+  },
+  "generics": []
+}

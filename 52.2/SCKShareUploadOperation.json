@@ -1,0 +1,68 @@
+{
+  "name": "SCKShareUploadOperation",
+  "extends": "SCKAPIOperation",
+  "interfaces": [
+    "NSProgressReporting"
+  ],
+  "methods": {
+    "initWithRequest:": {
+      "name": "initWithRequest:",
+      "bridgedName": "initWithRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "SCKShareAPIURLRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dataSource": {
+      "name": "dataSource",
+      "pointer": false,
+      "type": "id<SCKShareUploadDataSource>",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    },
+    "progress": {
+      "name": "progress",
+      "pointer": false,
+      "type": "NSProgress ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "share": {
+      "name": "share",
+      "pointer": false,
+      "type": "SCKShare ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "errors": {
+      "name": "errors",
+      "pointer": false,
+      "type": "NSArray<NSError *> ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

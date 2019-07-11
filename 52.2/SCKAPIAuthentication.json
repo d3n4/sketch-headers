@@ -1,0 +1,319 @@
+{
+  "name": "SCKAPIAuthentication",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "currentAuthenticationWithError:)": {
+      "name": "currentAuthenticationWithError:)",
+      "bridgedName": "currentAuthenticationWithError_)",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable SCKAPIAuthentication *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setCurrentWithError:": {
+      "name": "setCurrentWithError:",
+      "bridgedName": "setCurrentWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateCurrentWithError:": {
+      "name": "updateCurrentWithError:",
+      "bridgedName": "updateCurrentWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeCurrentAuthenticationWithError:)": {
+      "name": "removeCurrentAuthenticationWithError:)",
+      "bridgedName": "removeCurrentAuthenticationWithError_)",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "invalidateCurrentCache": {
+      "name": "invalidateCurrentCache",
+      "bridgedName": "invalidateCurrentCache",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithToken:ofType:forUserID:": {
+      "name": "initWithToken:ofType:forUserID:",
+      "bridgedName": "initWithToken_ofType_forUserID",
+      "args": [
+        {
+          "name": "token",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "tokenType",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "userID",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithOAuthDictionary:": {
+      "name": "initWithOAuthDictionary:",
+      "bridgedName": "initWithOAuthDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithAuthenticatedUserDictionary:": {
+      "name": "initWithAuthenticatedUserDictionary:",
+      "bridgedName": "initWithAuthenticatedUserDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithTokenData:forUserID:": {
+      "name": "initWithTokenData:forUserID:",
+      "bridgedName": "initWithTokenData_forUserID",
+      "args": [
+        {
+          "name": "data",
+          "type": "nonnull NSData *",
+          "nullable": false
+        },
+        {
+          "name": "userID",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithAuthToken:forUserID:": {
+      "name": "initWithAuthToken:forUserID:",
+      "bridgedName": "initWithAuthToken_forUserID",
+      "args": [
+        {
+          "name": "token",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "userID",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isRefreshedByAuthentication:": {
+      "name": "isRefreshedByAuthentication:",
+      "bridgedName": "isRefreshedByAuthentication",
+      "args": [
+        {
+          "name": "authentication",
+          "type": "nonnull SCKAPIAuthentication *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasCurrent": {
+      "name": "hasCurrent",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    },
+    "isCurrent": {
+      "name": "isCurrent",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "accessToken": {
+      "name": "accessToken",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "refreshToken": {
+      "name": "refreshToken",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "tokenType": {
+      "name": "tokenType",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "validityPeriod": {
+      "name": "validityPeriod",
+      "pointer": false,
+      "type": "NSTimeInterval",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "recommendedRefreshDate": {
+      "name": "recommendedRefreshDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "shouldRefresh": {
+      "name": "shouldRefresh",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "tokenData": {
+      "name": "tokenData",
+      "pointer": false,
+      "type": "NSData ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "userID": {
+      "name": "userID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "expirationDate": {
+      "name": "expirationDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "isLegacy": {
+      "name": "isLegacy",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isValid": {
+      "name": "isValid",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "httpAuthorizationValue": {
+      "name": "httpAuthorizationValue",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

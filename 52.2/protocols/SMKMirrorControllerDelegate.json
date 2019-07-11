@@ -1,0 +1,47 @@
+{
+  "protocol": true,
+  "name": "SMKMirrorControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "mirrorController:didChangeClients:": {
+      "name": "mirrorController:didChangeClients:",
+      "bridgedName": "mirrorController_didChangeClients",
+      "args": [
+        {
+          "name": "controller",
+          "type": "nonnull SMKMirrorController *",
+          "nullable": false
+        },
+        {
+          "name": "clients",
+          "type": "NSArray<SMKMirrorClient *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mirrorController:didChangeWebURL:": {
+      "name": "mirrorController:didChangeWebURL:",
+      "bridgedName": "mirrorController_didChangeWebURL",
+      "args": [
+        {
+          "name": "controller",
+          "type": "nonnull SMKMirrorController *",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

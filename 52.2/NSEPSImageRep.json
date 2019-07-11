@@ -1,0 +1,17 @@
+{
+  "name": "NSEPSImageRep",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "PDFRepresentation_ms": {
+      "name": "PDFRepresentation_ms",
+      "bridgedName": "PDFRepresentation_ms",
+      "args": [],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

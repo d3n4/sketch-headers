@@ -1,0 +1,281 @@
+{
+  "name": "MSMultipleStylePartInspectorViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSReorderingContainerDelegate"
+  ],
+  "methods": {
+    "prepare": {
+      "name": "prepare",
+      "bridgedName": "prepare",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareForReuse": {
+      "name": "prepareForReuse",
+      "bridgedName": "prepareForReuse",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stylePartType": {
+      "name": "stylePartType",
+      "bridgedName": "stylePartType",
+      "args": [],
+      "returns": "MSStylePartType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rotatedStyleParts": {
+      "name": "rotatedStyleParts",
+      "bridgedName": "rotatedStyleParts",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStylePartAction:": {
+      "name": "addStylePartAction:",
+      "bridgedName": "addStylePartAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deleteStylePartAction:": {
+      "name": "deleteStylePartAction:",
+      "bridgedName": "deleteStylePartAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deleteUnusedStylePartsAction:": {
+      "name": "deleteUnusedStylePartsAction:",
+      "bridgedName": "deleteUnusedStylePartsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStylePartsForSelection": {
+      "name": "addStylePartsForSelection",
+      "bridgedName": "addStylePartsForSelection",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasEnabledStyle": {
+      "name": "hasEnabledStyle",
+      "bridgedName": "hasEnabledStyle",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareInspector:parts:index:": {
+      "name": "prepareInspector:parts:index:",
+      "bridgedName": "prepareInspector_parts_index",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSStylePartInspectorViewController *",
+          "nullable": false
+        },
+        {
+          "name": "styleParts",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadViewControllers": {
+      "name": "loadViewControllers",
+      "bridgedName": "loadViewControllers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateSpecialButtons": {
+      "name": "validateSpecialButtons",
+      "bridgedName": "validateSpecialButtons",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateRemoveDisabledStylesButton": {
+      "name": "validateRemoveDisabledStylesButton",
+      "bridgedName": "validateRemoveDisabledStylesButton",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeViewToFit": {
+      "name": "resizeViewToFit",
+      "bridgedName": "resizeViewToFit",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "styleDidEnableOrDisable": {
+      "name": "styleDidEnableOrDisable",
+      "bridgedName": "styleDidEnableOrDisable",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorForStyleParts:atIndex:": {
+      "name": "inspectorForStyleParts:atIndex:",
+      "bridgedName": "inspectorForStyleParts_atIndex",
+      "args": [
+        {
+          "name": "styleParts",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldShowAdvancedOptionsButton": {
+      "name": "shouldShowAdvancedOptionsButton",
+      "bridgedName": "shouldShowAdvancedOptionsButton",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lastEnabledStylePartController": {
+      "name": "lastEnabledStylePartController",
+      "bridgedName": "lastEnabledStylePartController",
+      "args": [],
+      "returns": "MSStylePartInspectorViewController *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateDisplayedValues": {
+      "name": "updateDisplayedValues",
+      "bridgedName": "updateDisplayedValues",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "stylePartViewControllers": {
+      "name": "stylePartViewControllers",
+      "pointer": false,
+      "type": "NSArray <MSStylePartInspectorViewController *>",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSStylePartInspectorDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "reorderingContainer": {
+      "name": "reorderingContainer",
+      "pointer": false,
+      "type": "IBOutlet MSReorderingContainerView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "nameView": {
+      "name": "nameView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "removeDisabledStylesButton": {
+      "name": "removeDisabledStylesButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "showAdvancedOptionsButton": {
+      "name": "showAdvancedOptionsButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "headerButton": {
+      "name": "headerButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

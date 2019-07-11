@@ -1,0 +1,27 @@
+{
+  "name": "MSTextLabelForUpDownField",
+  "extends": "NSTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "upDownTextField": {
+      "name": "upDownTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField<MSUpDownProtocol> ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "textFields": {
+      "name": "textFields",
+      "pointer": false,
+      "type": "IBOutlet NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSChangeFlowAnimationFromLeftAnimationAction",
+  "extends": "MSChangeFlowAnimationAction",
+  "interfaces": [],
+  "methods": {
+    "changeFlowAnimationToFromLeftAnimation:": {
+      "name": "changeFlowAnimationToFromLeftAnimation:",
+      "bridgedName": "changeFlowAnimationToFromLeftAnimation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

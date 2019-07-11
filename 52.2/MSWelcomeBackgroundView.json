@@ -1,0 +1,8 @@
+{
+  "name": "MSWelcomeBackgroundView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

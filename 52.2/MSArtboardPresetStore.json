@@ -1,0 +1,148 @@
+{
+  "name": "MSArtboardPresetStore",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "presetWithSize:preferredCategory:": {
+      "name": "presetWithSize:preferredCategory:",
+      "bridgedName": "presetWithSize_preferredCategory",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "preferredCategory",
+          "type": "MSArtboardPresetsCategory *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSArtboardPreset *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizablePresetMatchingSize:preferredCategory:": {
+      "name": "resizablePresetMatchingSize:preferredCategory:",
+      "bridgedName": "resizablePresetMatchingSize_preferredCategory",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "preferredCategory",
+          "type": "MSArtboardPresetsCategory *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSArtboardPreset *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "savePreset:error:": {
+      "name": "savePreset:error:",
+      "bridgedName": "savePreset_error",
+      "args": [
+        {
+          "name": "newPreset",
+          "type": "MSArtboardPreset *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removePreset:error:": {
+      "name": "removePreset:error:",
+      "bridgedName": "removePreset_error",
+      "args": [
+        {
+          "name": "aPreset",
+          "type": "MSArtboardPreset *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "suggestedNameForUserPreset": {
+      "name": "suggestedNameForUserPreset",
+      "bridgedName": "suggestedNameForUserPreset",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "systemCategories": {
+      "name": "systemCategories",
+      "bridgedName": "systemCategories",
+      "args": [],
+      "returns": "NSArray<MSArtboardPresetsCategory *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "presetWithName:matchingSize:": {
+      "name": "presetWithName:matchingSize:",
+      "bridgedName": "presetWithName_matchingSize",
+      "args": [
+        {
+          "name": "presetName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSArtboardPreset *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "categories": {
+      "name": "categories",
+      "pointer": false,
+      "type": "NSArray<MSArtboardPresetsCategory *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "customPresetsCategory": {
+      "name": "customPresetsCategory",
+      "pointer": false,
+      "type": "MSArtboardPresetsCategory ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "indexOfLastSelectedCategory": {
+      "name": "indexOfLastSelectedCategory",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "class"
+      ]
+    }
+  },
+  "generics": []
+}

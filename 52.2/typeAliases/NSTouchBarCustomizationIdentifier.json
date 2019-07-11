@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "NSTouchBarCustomizationIdentifier",
+  "type": "NSString *",
+  "pointer": false
+}

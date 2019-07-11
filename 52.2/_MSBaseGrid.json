@@ -1,0 +1,18 @@
+{
+  "name": "_MSBaseGrid",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "isEnabled": {
+      "name": "isEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

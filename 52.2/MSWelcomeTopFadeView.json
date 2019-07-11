@@ -1,0 +1,8 @@
+{
+  "name": "MSWelcomeTopFadeView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

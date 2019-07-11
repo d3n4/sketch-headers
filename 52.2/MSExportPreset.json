@@ -1,0 +1,30 @@
+{
+  "name": "MSExportPreset",
+  "extends": "_MSExportPreset",
+  "interfaces": [
+    "MSExportFormatContainer"
+  ],
+  "methods": {
+    "initWithName:formats:": {
+      "name": "initWithName:formats:",
+      "bridgedName": "initWithName_formats",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "formats",
+          "type": "NSArray<MSExportFormat *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

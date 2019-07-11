@@ -1,0 +1,27 @@
+{
+  "name": "MSWelcomeProgressView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "pointer": false,
+      "type": "IBInspectable NSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "collectionItem": {
+      "name": "collectionItem",
+      "pointer": false,
+      "type": "MSCloudShareCollectionItem ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

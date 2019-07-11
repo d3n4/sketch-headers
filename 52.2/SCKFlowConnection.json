@@ -1,0 +1,66 @@
+{
+  "name": "SCKFlowConnection",
+  "extends": "SCKObject",
+  "interfaces": [],
+  "methods": {
+    "diffComparedTo:": {
+      "name": "diffComparedTo:",
+      "bridgedName": "diffComparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKFlowConnection *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull SCKFlowConnectionDiff *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isBackAction": {
+      "name": "isBackAction",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "destinationArtboardID": {
+      "name": "destinationArtboardID",
+      "pointer": false,
+      "type": "SCKObjectID ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "animationType": {
+      "name": "animationType",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "SCKLayer ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

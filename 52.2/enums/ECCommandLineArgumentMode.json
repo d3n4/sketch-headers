@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "ECCommandLineArgumentMode",
+  "members": [
+    {
+      "name": "ECCommandLineArgumentModeNone"
+    },
+    {
+      "name": "ECCommandLineArgumentModeRequired"
+    },
+    {
+      "name": "ECCommandLineArgumentModeOptinal"
+    }
+  ]
+}

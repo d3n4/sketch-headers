@@ -1,0 +1,8 @@
+{
+  "name": "MSStyleOverrideInspectorItem",
+  "extends": "MSOverrideInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

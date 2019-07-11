@@ -1,0 +1,87 @@
+{
+  "name": "TDCommentState",
+  "extends": "TDTokenizerState",
+  "interfaces": [],
+  "methods": {
+    "addSingleLineStartSymbol:": {
+      "name": "addSingleLineStartSymbol:",
+      "bridgedName": "addSingleLineStartSymbol",
+      "args": [
+        {
+          "name": "start",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeSingleLineStartSymbol:": {
+      "name": "removeSingleLineStartSymbol:",
+      "bridgedName": "removeSingleLineStartSymbol",
+      "args": [
+        {
+          "name": "start",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addMultiLineStartSymbol:endSymbol:": {
+      "name": "addMultiLineStartSymbol:endSymbol:",
+      "bridgedName": "addMultiLineStartSymbol_endSymbol",
+      "args": [
+        {
+          "name": "start",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "end",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeMultiLineStartSymbol:": {
+      "name": "removeMultiLineStartSymbol:",
+      "bridgedName": "removeMultiLineStartSymbol",
+      "args": [
+        {
+          "name": "start",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "reportsCommentTokens": {
+      "name": "reportsCommentTokens",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "balancesEOFTerminatedComments": {
+      "name": "balancesEOFTerminatedComments",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

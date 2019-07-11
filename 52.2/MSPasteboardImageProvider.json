@@ -1,0 +1,28 @@
+{
+  "name": "MSPasteboardImageProvider",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "preparePasteboard:withExportRequest:": {
+      "name": "preparePasteboard:withExportRequest:",
+      "bridgedName": "preparePasteboard_withExportRequest",
+      "args": [
+        {
+          "name": "pboard",
+          "type": "nonnull NSPasteboard*",
+          "nullable": false
+        },
+        {
+          "name": "request",
+          "type": "nonnull MSExportRequest*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

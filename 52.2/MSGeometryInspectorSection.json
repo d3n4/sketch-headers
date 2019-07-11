@@ -1,0 +1,8 @@
+{
+  "name": "MSGeometryInspectorSection",
+  "extends": "MSBaseInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,42 @@
+{
+  "name": "MSBorderInspectorViewController",
+  "extends": "MSColorStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {
+    "enableAction:": {
+      "name": "enableAction:",
+      "bridgedName": "enableAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "positionControl": {
+      "name": "positionControl",
+      "pointer": false,
+      "type": "IBOutlet NSSegmentedControl ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "thicknessField": {
+      "name": "thicknessField",
+      "pointer": false,
+      "type": "IBOutlet MSUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

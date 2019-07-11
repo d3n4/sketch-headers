@@ -1,0 +1,30 @@
+{
+  "enum": true,
+  "name": "SMKErrorCode",
+  "members": [
+    {
+      "name": "SMKConnectionNotEstablishedErrorCode",
+      "value": "2000"
+    },
+    {
+      "name": "SMKConnectionDidBecomeCorruptErrorCode",
+      "value": "2001"
+    },
+    {
+      "name": "SMKConnectionDidReceiveInvalidDataErrorCode",
+      "value": "2002"
+    },
+    {
+      "name": "SMKConnectionCouldNotArchiveObjectErrorCode",
+      "value": "2003"
+    },
+    {
+      "name": "SMKConnectionDidTimeoutErrorCode",
+      "value": "2004"
+    },
+    {
+      "name": "SMKImageUpdateDataNotAvailableErrorCode",
+      "value": "2005"
+    }
+  ]
+}

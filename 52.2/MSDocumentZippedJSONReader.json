@@ -1,0 +1,23 @@
+{
+  "name": "MSDocumentZippedJSONReader",
+  "extends": "MSDocumentReader",
+  "interfaces": [],
+  "methods": {
+    "initWithFileURL:": {
+      "name": "initWithFileURL:",
+      "bridgedName": "initWithFileURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

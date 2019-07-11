@@ -1,0 +1,10 @@
+{
+  "name": "MSHotspotOverrideInspectorItem",
+  "extends": "MSOverrideInspectorItem",
+  "interfaces": [
+    "MSFlowMenuBuilderTarget"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

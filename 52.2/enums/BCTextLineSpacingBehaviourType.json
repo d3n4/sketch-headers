@@ -1,0 +1,30 @@
+{
+  "enum": true,
+  "name": "BCTextLineSpacingBehaviourType",
+  "members": [
+    {
+      "name": "BCTextLineSpacingBehaviourUnknown",
+      "value": "-1"
+    },
+    {
+      "name": "BCTextLineSpacingBehaviourV1",
+      "value": "0"
+    },
+    {
+      "name": "BCTextLineSpacingBehaviourV2",
+      "value": "1"
+    },
+    {
+      "name": "BCTextLineSpacingBehaviourV3",
+      "value": "2"
+    },
+    {
+      "name": "BCTextLineSpacingBehaviourCurrent",
+      "value": "BCTextLineSpacingBehaviourV3"
+    },
+    {
+      "name": "BCTextLineSpacingBehaviourDefault",
+      "value": "BCTextLineSpacingBehaviourCurrent"
+    }
+  ]
+}

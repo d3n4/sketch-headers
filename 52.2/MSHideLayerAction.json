@@ -1,0 +1,23 @@
+{
+  "name": "MSHideLayerAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "hideLayer:": {
+      "name": "hideLayer:",
+      "bridgedName": "hideLayer",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

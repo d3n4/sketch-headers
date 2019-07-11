@@ -1,0 +1,27 @@
+{
+  "name": "MSConstraintAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "actionKeyPath": {
+      "name": "actionKeyPath",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "validationKeyPath": {
+      "name": "validationKeyPath",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

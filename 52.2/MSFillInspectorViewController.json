@@ -1,0 +1,26 @@
+{
+  "name": "MSFillInspectorViewController",
+  "extends": "MSColorStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "opacityField": {
+      "name": "opacityField",
+      "pointer": false,
+      "type": "MSUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "fillPropertiesPopUp": {
+      "name": "fillPropertiesPopUp",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

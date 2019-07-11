@@ -1,0 +1,84 @@
+{
+  "name": "NSControl",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "inpectorBorderPathForRect:": {
+      "name": "inpectorBorderPathForRect:",
+      "bridgedName": "inpectorBorderPathForRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "inpectorCheckmarkBorderPathForRect:": {
+      "name": "inpectorCheckmarkBorderPathForRect:",
+      "bridgedName": "inpectorCheckmarkBorderPathForRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "inpectorBorderPathForRectWithMaxRadius:": {
+      "name": "inpectorBorderPathForRectWithMaxRadius:",
+      "bridgedName": "inpectorBorderPathForRectWithMaxRadius",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "inpectorBorderPathForRect:borderRadius:": {
+      "name": "inpectorBorderPathForRect:borderRadius:",
+      "bridgedName": "inpectorBorderPathForRect_borderRadius",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "borderRadius",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "inpectorFocusRingPathForRect:": {
+      "name": "inpectorFocusRingPathForRect:",
+      "bridgedName": "inpectorFocusRingPathForRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

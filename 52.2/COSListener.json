@@ -1,0 +1,48 @@
+{
+  "name": "COSListener",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedListener": {
+      "name": "sharedListener",
+      "bridgedName": "sharedListener",
+      "args": [],
+      "returns": "COSListener*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "listen": {
+      "name": "listen",
+      "bridgedName": "listen",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "listenWithRootObject:": {
+      "name": "listenWithRootObject:",
+      "bridgedName": "listenWithRootObject",
+      "args": [
+        {
+          "name": "rootObject",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "rootObject": {
+      "name": "rootObject",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

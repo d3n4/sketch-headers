@@ -1,0 +1,101 @@
+{
+  "name": "MSCloudShareUploadController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDocument:": {
+      "name": "initWithDocument:",
+      "bridgedName": "initWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "nonnull id<MSCloudExportableDocument>",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startUpload": {
+      "name": "startUpload",
+      "bridgedName": "startUpload",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancel": {
+      "name": "cancel",
+      "bridgedName": "cancel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSCloudShareUploadControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    },
+    "previousUpload": {
+      "name": "previousUpload",
+      "pointer": false,
+      "type": "MSCloudShareUploadController ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    },
+    "existingShare": {
+      "name": "existingShare",
+      "pointer": false,
+      "type": "SCKShare ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "organization": {
+      "name": "organization",
+      "pointer": false,
+      "type": "SCKOrganization ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "cancelled": {
+      "name": "cancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "progress": {
+      "name": "progress",
+      "pointer": false,
+      "type": "NSProgress ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "_MSSharedObject",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "MSModelObjectCommon ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

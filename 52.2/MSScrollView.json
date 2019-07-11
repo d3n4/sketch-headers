@@ -1,0 +1,17 @@
+{
+  "name": "MSScrollView",
+  "extends": "NSScrollView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "allowsScrolling": {
+      "name": "allowsScrolling",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSUnicodeAdditions",
+  "members": [
+    {
+      "name": "MSUnicodeEscapeKey",
+      "value": "27"
+    },
+    {
+      "name": "MSUnicodeFNLeftKey",
+      "value": "63273"
+    },
+    {
+      "name": "MSUnicodeFNRightKey",
+      "value": "63275"
+    }
+  ]
+}

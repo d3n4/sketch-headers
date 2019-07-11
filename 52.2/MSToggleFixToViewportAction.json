@@ -1,0 +1,33 @@
+{
+  "name": "MSToggleFixToViewportAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "toggleFixToViewport:": {
+      "name": "toggleFixToViewport:",
+      "bridgedName": "toggleFixToViewport",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "state": {
+      "name": "state",
+      "pointer": false,
+      "type": "NSCellStateValue",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

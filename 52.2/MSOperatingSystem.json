@@ -1,0 +1,39 @@
+{
+  "name": "MSOperatingSystem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "operatingSystemVersion": {
+      "name": "operatingSystemVersion",
+      "bridgedName": "operatingSystemVersion",
+      "args": [],
+      "returns": "NSOperatingSystemVersion",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "isOperatingSystemAtLeastVersion:": {
+      "name": "isOperatingSystemAtLeastVersion:",
+      "bridgedName": "isOperatingSystemAtLeastVersion",
+      "args": [
+        {
+          "name": "version",
+          "type": "NSOperatingSystemVersion",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "systemVersionString": {
+      "name": "systemVersionString",
+      "bridgedName": "systemVersionString",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

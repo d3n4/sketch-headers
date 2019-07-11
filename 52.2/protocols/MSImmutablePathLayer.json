@@ -1,0 +1,47 @@
+{
+  "protocol": true,
+  "name": "MSImmutablePathLayer",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "decoratedPathInBoundsInDocument:asSubpath:": {
+      "name": "decoratedPathInBoundsInDocument:asSubpath:",
+      "bridgedName": "decoratedPathInBoundsInDocument_asSubpath",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "asSubpath",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasMarkers": {
+      "name": "hasMarkers",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "style": {
+      "name": "style",
+      "pointer": false,
+      "type": "MSImmutableStyle ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

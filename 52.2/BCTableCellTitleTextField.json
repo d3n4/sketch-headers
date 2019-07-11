@@ -1,0 +1,8 @@
+{
+  "name": "BCTableCellTitleTextField",
+  "extends": "NSTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

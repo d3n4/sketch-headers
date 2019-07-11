@@ -1,0 +1,131 @@
+{
+  "name": "MSExportFormatViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "prepare": {
+      "name": "prepare",
+      "bridgedName": "prepare",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeExportFormat:": {
+      "name": "removeExportFormat:",
+      "bridgedName": "removeExportFormat",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "formatPopupAction:": {
+      "name": "formatPopupAction:",
+      "bridgedName": "formatPopupAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scaleFieldAction:": {
+      "name": "scaleFieldAction:",
+      "bridgedName": "scaleFieldAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "formatPopup": {
+      "name": "formatPopup",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "removeSizeButton": {
+      "name": "removeSizeButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "sizeView": {
+      "name": "sizeView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "suffixTextField": {
+      "name": "suffixTextField",
+      "pointer": false,
+      "type": "IBOutlet MSExportFormatNamingTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "exportFormats": {
+      "name": "exportFormats",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "scaleField": {
+      "name": "scaleField",
+      "pointer": false,
+      "type": "IBOutlet MSTextFieldWithDropDownMenu ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "removeButtonHidden": {
+      "name": "removeButtonHidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter=isRemoveButtonHidden"
+      ]
+    },
+    "drawOldFashioned": {
+      "name": "drawOldFashioned",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

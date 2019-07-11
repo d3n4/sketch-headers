@@ -1,0 +1,17 @@
+{
+  "protocol": true,
+  "name": "MSPreferencePaneSizing",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "preferredSize": {
+      "name": "preferredSize",
+      "bridgedName": "preferredSize",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

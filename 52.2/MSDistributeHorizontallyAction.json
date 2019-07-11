@@ -1,0 +1,23 @@
+{
+  "name": "MSDistributeHorizontallyAction",
+  "extends": "MSDistributeAction",
+  "interfaces": [],
+  "methods": {
+    "distributeHorizontally:": {
+      "name": "distributeHorizontally:",
+      "bridgedName": "distributeHorizontally",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

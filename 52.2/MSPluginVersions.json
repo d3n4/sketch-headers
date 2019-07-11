@@ -1,0 +1,149 @@
+{
+  "name": "MSPluginVersions",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithIdentifier:appcastURL:": {
+      "name": "initWithIdentifier:appcastURL:",
+      "bridgedName": "initWithIdentifier_appcastURL",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "appcastURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addVersions:": {
+      "name": "addVersions:",
+      "bridgedName": "addVersions",
+      "args": [
+        {
+          "name": "versionsDictionary",
+          "type": "NSDictionary <NSString *, NSDictionary *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadURLForVersion:": {
+      "name": "downloadURLForVersion:",
+      "bridgedName": "downloadURLForVersion",
+      "args": [
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isVersionDownloaded:": {
+      "name": "isVersionDownloaded:",
+      "bridgedName": "isVersionDownloaded",
+      "args": [
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isVersionListed:": {
+      "name": "isVersionListed:",
+      "bridgedName": "isVersionListed",
+      "args": [
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isUpdateAvailableForVersion:": {
+      "name": "isUpdateAvailableForVersion:",
+      "bridgedName": "isUpdateAvailableForVersion",
+      "args": [
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "identifier": {
+      "name": "identifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "appcastURL": {
+      "name": "appcastURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "versions": {
+      "name": "versions",
+      "pointer": false,
+      "type": "NSArray <NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "versionsDictionary": {
+      "name": "versionsDictionary",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, NSDictionary *>",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "latestVersionAvailable": {
+      "name": "latestVersionAvailable",
+      "pointer": false,
+      "type": "NSString * __nullable",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}
