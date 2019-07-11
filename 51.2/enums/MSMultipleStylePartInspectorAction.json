@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSMultipleStylePartInspectorAction",
+  "members": [
+    {
+      "name": "MSMultipleStylePartInspectorActionNone",
+      "value": "0"
+    },
+    {
+      "name": "MSMultipleStylePartInspectorActionDuplicate",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSMultipleStylePartInspectorActionRemove",
+      "value": "1 << 1"
+    }
+  ]
+}

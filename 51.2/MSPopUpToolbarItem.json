@@ -1,0 +1,61 @@
+{
+  "name": "MSPopUpToolbarItem",
+  "extends": "NSToolbarItem",
+  "interfaces": [],
+  "methods": {
+    "initWithItemIdentifier:size:": {
+      "name": "initWithItemIdentifier:size:",
+      "bridgedName": "initWithItemIdentifier_size",
+      "args": [
+        {
+          "name": "ident",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "NSToolbarSizeMode",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuButtonWithSize:": {
+      "name": "menuButtonWithSize:",
+      "bridgedName": "menuButtonWithSize",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSToolbarSizeMode",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "menu": {
+      "name": "menu",
+      "pointer": false,
+      "type": "NSMenu ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "actionObject": {
+      "name": "actionObject",
+      "pointer": false,
+      "type": "id<MSPopToolbarItemActionObject>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

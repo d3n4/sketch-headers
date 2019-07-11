@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "BCFloatRange",
+  "members": [
+    {
+      "name": "location",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "length",
+      "pointer": false,
+      "type": "CGFloat"
+    }
+  ]
+}

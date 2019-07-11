@@ -1,0 +1,29 @@
+{
+  "name": "SCKShareUploadSpecs",
+  "extends": "SCKShare",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "cloudDocumentID": {
+      "name": "cloudDocumentID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "fileUploadSpecs": {
+      "name": "fileUploadSpecs",
+      "pointer": false,
+      "type": "NSArray<SCKFileUploadSpecs *> ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

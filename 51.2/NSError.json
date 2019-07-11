@@ -1,0 +1,49 @@
+{
+  "name": "NSError",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "errorFromAPIResponse:data:": {
+      "name": "errorFromAPIResponse:data:",
+      "bridgedName": "errorFromAPIResponse_data",
+      "args": [
+        {
+          "name": "response",
+          "type": "NSURLResponse *",
+          "nullable": true
+        },
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSError *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "cloudUnauthorized": {
+      "name": "cloudUnauthorized",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isCloudUnauthorized"
+      ]
+    },
+    "urlCancelled": {
+      "name": "urlCancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isURLCancelled"
+      ]
+    }
+  },
+  "generics": []
+}

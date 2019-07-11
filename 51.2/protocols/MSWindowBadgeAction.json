@@ -1,0 +1,38 @@
+{
+  "protocol": true,
+  "name": "MSWindowBadgeAction",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "numberOfBadges": {
+      "name": "numberOfBadges",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "badgeTitle": {
+      "name": "badgeTitle",
+      "pointer": false,
+      "type": "NSAttributedString ",
+      "attributes": [
+        "nonnull",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "badgeTint": {
+      "name": "badgeTint",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

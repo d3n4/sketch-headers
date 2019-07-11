@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "BCStructuredMode",
+  "members": [
+    {
+      "name": "BCStructuredRead"
+    },
+    {
+      "name": "BCStructuredReadWrite"
+    },
+    {
+      "name": "BCStructuredCreate"
+    }
+  ]
+}

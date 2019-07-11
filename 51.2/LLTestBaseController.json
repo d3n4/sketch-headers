@@ -1,0 +1,41 @@
+{
+  "name": "LLTestBaseController",
+  "extends": "NSObject",
+  "interfaces": [
+    "BCOutlineViewDataSource",
+    "BCOutlineViewDelegate"
+  ],
+  "methods": {
+    "dataController:removeNodes:": {
+      "name": "dataController:removeNodes:",
+      "bridgedName": "dataController_removeNodes",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController *",
+          "nullable": false
+        },
+        {
+          "name": "nodes",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "root": {
+      "name": "root",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

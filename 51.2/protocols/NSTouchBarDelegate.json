@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "NSTouchBarDelegate",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "touchBar:makeItemForIdentifier:": {
+      "name": "touchBar:makeItemForIdentifier:",
+      "bridgedName": "touchBar_makeItemForIdentifier",
+      "args": [
+        {
+          "name": "touchBar",
+          "type": "NSTouchBar*",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSTouchBarItemIdentifier",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSTouchBarItem*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

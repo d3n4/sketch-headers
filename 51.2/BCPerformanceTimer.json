@@ -1,0 +1,8 @@
+{
+  "name": "BCPerformanceTimer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

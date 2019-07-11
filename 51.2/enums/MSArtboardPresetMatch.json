@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "MSArtboardPresetMatch",
+  "members": [
+    {
+      "name": "MSArtboardPresetMatchInvalid",
+      "value": "0"
+    },
+    {
+      "name": "MSArtboardPresetMatchValid",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSArtboardPresetMatchTall",
+      "value": "1 << 1"
+    },
+    {
+      "name": "MSArtboardPresetMatchScaled",
+      "value": "1 << 2"
+    },
+    {
+      "name": "MSArtboardPresetMatchRotated",
+      "value": "1 << 3"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSInpectorLocation",
+  "members": [
+    {
+      "name": "MSInspectorLocationNone"
+    },
+    {
+      "name": "MSInspectorLocationTakeOverEntireInspector"
+    },
+    {
+      "name": "MSInspectorLocationAboveNormalInspector"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSCopyCSSAttributesAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "copyCSSAttributes:": {
+      "name": "copyCSSAttributes:",
+      "bridgedName": "copyCSSAttributes",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

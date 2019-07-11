@@ -1,0 +1,202 @@
+{
+  "name": "MSImmutableStyleShadow",
+  "extends": "_MSImmutableStyleShadow",
+  "interfaces": [],
+  "methods": {
+    "shadowInsetForStrokeType:lineWidth:": {
+      "name": "shadowInsetForStrokeType:lineWidth:",
+      "bridgedName": "shadowInsetForStrokeType_lineWidth",
+      "args": [
+        {
+          "name": "strokeType",
+          "type": "MSShadowBorderType",
+          "nullable": false
+        },
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSpread:withInput:output:filter:": {
+      "name": "addSpread:withInput:output:filter:",
+      "bridgedName": "addSpread_withInput_output_filter",
+      "args": [
+        {
+          "name": "spread",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "input",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "output",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "filter",
+          "type": "MSSVGFilter*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSVGMorphology*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addBlurWithRadius:input:output:filter:": {
+      "name": "addBlurWithRadius:input:output:filter:",
+      "bridgedName": "addBlurWithRadius_input_output_filter",
+      "args": [
+        {
+          "name": "radius",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "input",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "output",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "filter",
+          "type": "MSSVGFilter*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSVGGaussianBlur*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addCompositeMask:mask:output:filter:": {
+      "name": "addCompositeMask:mask:output:filter:",
+      "bridgedName": "addCompositeMask_mask_output_filter",
+      "args": [
+        {
+          "name": "src",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "output",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "filter",
+          "type": "MSSVGFilter*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSVGComposite*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addOffsetTo:dx:dy:output:filter:": {
+      "name": "addOffsetTo:dx:dy:output:filter:",
+      "bridgedName": "addOffsetTo_dx_dy_output_filter",
+      "args": [
+        {
+          "name": "input",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "dx",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "dy",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "output",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "filter",
+          "type": "MSSVGFilter*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSVGOffset*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addColorMatrix:color:output:filter:": {
+      "name": "addColorMatrix:color:output:filter:",
+      "bridgedName": "addColorMatrix_color_output_filter",
+      "args": [
+        {
+          "name": "input",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "MSImmutableColor<MSColor> *",
+          "nullable": false
+        },
+        {
+          "name": "output",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "filter",
+          "type": "MSSVGFilter*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSVGColorMatrix*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSVGFilterWithParent:exporter:index:": {
+      "name": "addSVGFilterWithParent:exporter:index:",
+      "bridgedName": "addSVGFilterWithParent_exporter_index",
+      "args": [
+        {
+          "name": "parent",
+          "type": "MSImmutableStyle*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

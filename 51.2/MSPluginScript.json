@@ -1,0 +1,86 @@
+{
+  "name": "MSPluginScript",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithURL:error:": {
+      "name": "initWithURL:error:",
+      "bridgedName": "initWithURL_error",
+      "args": [
+        {
+          "name": "URL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithString:filename:": {
+      "name": "initWithString:filename:",
+      "bridgedName": "initWithString_filename",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "filename",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reload": {
+      "name": "reload",
+      "bridgedName": "reload",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "URL": {
+      "name": "URL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "filename": {
+      "name": "filename",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "script": {
+      "name": "script",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

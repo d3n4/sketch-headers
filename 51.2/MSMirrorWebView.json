@@ -1,0 +1,17 @@
+{
+  "name": "MSMirrorWebView",
+  "extends": "WKWebView",
+  "interfaces": [],
+  "methods": {
+    "developerToolsEnabled": {
+      "name": "developerToolsEnabled",
+      "bridgedName": "developerToolsEnabled",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

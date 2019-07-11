@@ -1,0 +1,78 @@
+{
+  "name": "MOBoxManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithContext:": {
+      "name": "initWithContext:",
+      "bridgedName": "initWithContext",
+      "args": [
+        {
+          "name": "context",
+          "type": "JSGlobalContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cleanup": {
+      "name": "cleanup",
+      "bridgedName": "cleanup",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boxForObject:": {
+      "name": "boxForObject:",
+      "bridgedName": "boxForObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "MOBox*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeBoxForObject:jsClass:": {
+      "name": "makeBoxForObject:jsClass:",
+      "bridgedName": "makeBoxForObject_jsClass",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "jsClass",
+          "type": "JSClassRef",
+          "nullable": false
+        }
+      ],
+      "returns": "JSObjectRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeBoxForObject:": {
+      "name": "removeBoxForObject:",
+      "bridgedName": "removeBoxForObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

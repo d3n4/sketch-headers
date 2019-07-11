@@ -1,0 +1,207 @@
+{
+  "protocol": true,
+  "name": "MSDocumentDataDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "documentData:didChangeToPage:": {
+      "name": "documentData:didChangeToPage:",
+      "bridgedName": "documentData_didChangeToPage",
+      "args": [
+        {
+          "name": "data",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "newPage",
+          "type": "MSPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentData:sharedObjectDidChange:": {
+      "name": "documentData:sharedObjectDidChange:",
+      "bridgedName": "documentData_sharedObjectDidChange",
+      "args": [
+        {
+          "name": "data",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "id<MSSharedObjectInstance>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentData:temporarilyHideSelectionForLayers:": {
+      "name": "documentData:temporarilyHideSelectionForLayers:",
+      "bridgedName": "documentData_temporarilyHideSelectionForLayers",
+      "args": [
+        {
+          "name": "data",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentDataImmediatelyShowSelectionForAllLayers:": {
+      "name": "documentDataImmediatelyShowSelectionForAllLayers:",
+      "bridgedName": "documentDataImmediatelyShowSelectionForAllLayers",
+      "args": [
+        {
+          "name": "data",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentDidChange:": {
+      "name": "documentDidChange:",
+      "bridgedName": "documentDidChange",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentData:storeMetadata:forKey:object:": {
+      "name": "documentData:storeMetadata:forKey:object:",
+      "bridgedName": "documentData_storeMetadata_forKey_object",
+      "args": [
+        {
+          "name": "data",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "metadata",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "MSModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentData:metadataForKey:object:": {
+      "name": "documentData:metadataForKey:object:",
+      "bridgedName": "documentData_metadataForKey_object",
+      "args": [
+        {
+          "name": "data",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "MSModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerTreeLayoutDidChange": {
+      "name": "layerTreeLayoutDidChange",
+      "bridgedName": "layerTreeLayoutDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlayInRect:": {
+      "name": "refreshOverlayInRect:",
+      "bridgedName": "refreshOverlayInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlay": {
+      "name": "refreshOverlay",
+      "bridgedName": "refreshOverlay",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerSelectionMightHaveChanged": {
+      "name": "layerSelectionMightHaveChanged",
+      "bridgedName": "layerSelectionMightHaveChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "determineCurrentArtboard": {
+      "name": "determineCurrentArtboard",
+      "bridgedName": "determineCurrentArtboard",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "visibleCanvasRectForDocumentData:": {
+      "name": "visibleCanvasRectForDocumentData:",
+      "bridgedName": "visibleCanvasRectForDocumentData",
+      "args": [
+        {
+          "name": "data",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

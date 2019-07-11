@@ -1,0 +1,8 @@
+{
+  "name": "ECCommandLineMissingClassCommand",
+  "extends": "ECCommandLineCommand",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

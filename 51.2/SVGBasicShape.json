@@ -1,0 +1,23 @@
+{
+  "name": "SVGBasicShape",
+  "extends": "_SVGBasicShape",
+  "interfaces": [],
+  "methods": {
+    "shapeGroupForLayer:": {
+      "name": "shapeGroupForLayer:",
+      "bridgedName": "shapeGroupForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapeGroup*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

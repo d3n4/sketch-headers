@@ -1,0 +1,8 @@
+{
+  "name": "MSPasteboardLayerListReaderWriter",
+  "extends": "MSPasteboardLayersReaderWriter",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

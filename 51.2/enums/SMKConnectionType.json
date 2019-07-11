@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "SMKConnectionType",
+  "members": [
+    {
+      "name": "SMKConnectionTypeUSB"
+    },
+    {
+      "name": "SMKConnectionTypeBonjour"
+    },
+    {
+      "name": "SMKConnectionTypeWeb"
+    }
+  ]
+}

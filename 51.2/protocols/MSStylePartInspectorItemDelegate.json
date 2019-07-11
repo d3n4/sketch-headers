@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSStylePartInspectorItemDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "stylePartInspectorItemDocument:": {
+      "name": "stylePartInspectorItemDocument:",
+      "bridgedName": "stylePartInspectorItemDocument",
+      "args": [
+        {
+          "name": "inspectorItem",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDocument *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valuesPossiblyChanged:": {
+      "name": "valuesPossiblyChanged:",
+      "bridgedName": "valuesPossiblyChanged",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

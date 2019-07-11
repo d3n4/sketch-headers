@@ -1,0 +1,17 @@
+{
+  "name": "BCHueColorPicker",
+  "extends": "BCColorPickerSliderView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "hueValue": {
+      "name": "hueValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

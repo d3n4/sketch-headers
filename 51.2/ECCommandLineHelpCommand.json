@@ -1,0 +1,8 @@
+{
+  "name": "ECCommandLineHelpCommand",
+  "extends": "ECCommandLineCommand",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

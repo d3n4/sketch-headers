@@ -1,0 +1,20 @@
+{
+  "name": "MSPluginManagerWithActions",
+  "extends": "MSPluginManager",
+  "interfaces": [
+    "MSActionObserver"
+  ],
+  "methods": {},
+  "properties": {
+    "dataManager": {
+      "name": "dataManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

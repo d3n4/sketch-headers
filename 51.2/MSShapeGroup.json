@@ -1,0 +1,229 @@
+{
+  "name": "MSShapeGroup",
+  "extends": "_MSShapeGroup",
+  "interfaces": [
+    "MSShapeGroup"
+  ],
+  "methods": {
+    "prepareAsMask": {
+      "name": "prepareAsMask",
+      "bridgedName": "prepareAsMask",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canProbablyFlatten": {
+      "name": "canProbablyFlatten",
+      "bridgedName": "canProbablyFlatten",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canFlatten": {
+      "name": "canFlatten",
+      "bridgedName": "canFlatten",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layersByConvertingToOutlines": {
+      "name": "layersByConvertingToOutlines",
+      "bridgedName": "layersByConvertingToOutlines",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canCutSegments": {
+      "name": "canCutSegments",
+      "bridgedName": "canCutSegments",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "possiblyFixRectangleBorderBeforeCut": {
+      "name": "possiblyFixRectangleBorderBeforeCut",
+      "bridgedName": "possiblyFixRectangleBorderBeforeCut",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cutBezierSegmentAtIndex:": {
+      "name": "cutBezierSegmentAtIndex:",
+      "bridgedName": "cutBezierSegmentAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "splitPathsIntoShapes": {
+      "name": "splitPathsIntoShapes",
+      "bridgedName": "splitPathsIntoShapes",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeInnerOuterBordersIfHasOpenPaths": {
+      "name": "changeInnerOuterBordersIfHasOpenPaths",
+      "bridgedName": "changeInnerOuterBordersIfHasOpenPaths",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shapeWithBezierPath:": {
+      "name": "shapeWithBezierPath:",
+      "bridgedName": "shapeWithBezierPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shapeWithPath:": {
+      "name": "shapeWithPath:",
+      "bridgedName": "shapeWithPath",
+      "args": [
+        {
+          "name": "subPath",
+          "type": "MSShapePathLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shapeWithRect:": {
+      "name": "shapeWithRect:",
+      "bridgedName": "shapeWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "isLine": {
+      "name": "isLine",
+      "bridgedName": "isLine",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isHorizontalLine": {
+      "name": "isHorizontalLine",
+      "bridgedName": "isHorizontalLine",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isVerticalLine": {
+      "name": "isVerticalLine",
+      "bridgedName": "isVerticalLine",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "simplify": {
+      "name": "simplify",
+      "bridgedName": "simplify",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flatten": {
+      "name": "flatten",
+      "bridgedName": "flatten",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveTransformsToChildren": {
+      "name": "moveTransformsToChildren",
+      "bridgedName": "moveTransformsToChildren",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setEdited:": {
+      "name": "setEdited:",
+      "bridgedName": "setEdited",
+      "args": [
+        {
+          "name": "flag",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeLinePixelAligned": {
+      "name": "makeLinePixelAligned",
+      "bridgedName": "makeLinePixelAligned",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustStyleToFitSubPaths": {
+      "name": "adjustStyleToFitSubPaths",
+      "bridgedName": "adjustStyleToFitSubPaths",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pathInFrame": {
+      "name": "pathInFrame",
+      "pointer": false,
+      "type": "MSPath ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readwrite"
+      ]
+    },
+    "isClosed": {
+      "name": "isClosed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

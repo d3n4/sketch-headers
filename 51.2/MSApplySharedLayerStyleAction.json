@@ -1,0 +1,23 @@
+{
+  "name": "MSApplySharedLayerStyleAction",
+  "extends": "MSApplySharedStyleAction",
+  "interfaces": [],
+  "methods": {
+    "applySharedLayerStyle:": {
+      "name": "applySharedLayerStyle:",
+      "bridgedName": "applySharedLayerStyle",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

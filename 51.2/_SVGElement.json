@@ -1,0 +1,176 @@
+{
+  "name": "_SVGElement",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "propertyNames": {
+      "name": "propertyNames",
+      "bridgedName": "propertyNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "relationshipNames": {
+      "name": "relationshipNames",
+      "bridgedName": "relationshipNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeNames": {
+      "name": "attributeNames",
+      "bridgedName": "attributeNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "primitiveAddChildrenObject:": {
+      "name": "primitiveAddChildrenObject:",
+      "bridgedName": "primitiveAddChildrenObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveRemoveChildrenObject:": {
+      "name": "primitiveRemoveChildrenObject:",
+      "bridgedName": "primitiveRemoveChildrenObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveAddLinkedObject:": {
+      "name": "primitiveAddLinkedObject:",
+      "bridgedName": "primitiveAddLinkedObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveRemoveLinkedObject:": {
+      "name": "primitiveRemoveLinkedObject:",
+      "bridgedName": "primitiveRemoveLinkedObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveSetParent:": {
+      "name": "primitiveSetParent:",
+      "bridgedName": "primitiveSetParent",
+      "args": [
+        {
+          "name": "parent",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "desc": {
+      "name": "desc",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "identifier": {
+      "name": "identifier",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "index": {
+      "name": "index",
+      "pointer": false,
+      "type": "int64_t",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "children": {
+      "name": "children",
+      "pointer": false,
+      "type": "NSSet*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "linked": {
+      "name": "linked",
+      "pointer": false,
+      "type": "NSSet*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "parent": {
+      "name": "parent",
+      "pointer": false,
+      "type": "SVGElement*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

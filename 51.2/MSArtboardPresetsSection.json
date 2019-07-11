@@ -1,0 +1,110 @@
+{
+  "name": "MSArtboardPresetsSection",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithName:presets:": {
+      "name": "initWithName:presets:",
+      "bridgedName": "initWithName_presets",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "presets",
+          "type": "NSArray<MSArtboardPreset *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDictionaryRepresentation:": {
+      "name": "initWithDictionaryRepresentation:",
+      "bridgedName": "initWithDictionaryRepresentation",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sectionsWithContentsOfURL:": {
+      "name": "sectionsWithContentsOfURL:",
+      "bridgedName": "sectionsWithContentsOfURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSArtboardPresetsSection *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "writeSections:toURL:error:": {
+      "name": "writeSections:toURL:error:",
+      "bridgedName": "writeSections_toURL_error",
+      "args": [
+        {
+          "name": "collections",
+          "type": "NSArray<MSArtboardPresetsSection *> *",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "presets": {
+      "name": "presets",
+      "pointer": false,
+      "type": "NSArray<MSArtboardPreset *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "dictionaryRepresentation": {
+      "name": "dictionaryRepresentation",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SVGLineShape",
+  "extends": "_SVGLineShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

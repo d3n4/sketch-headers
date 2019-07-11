@@ -1,0 +1,25 @@
+{
+  "name": "MSStyleColorControls",
+  "extends": "_MSStyleColorControls",
+  "interfaces": [],
+  "methods": {
+    "hasDefaultColorControlsValues": {
+      "name": "hasDefaultColorControlsValues",
+      "bridgedName": "hasDefaultColorControlsValues",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetToDefaultValues": {
+      "name": "resetToDefaultValues",
+      "bridgedName": "resetToDefaultValues",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

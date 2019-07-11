@@ -1,0 +1,50 @@
+{
+  "name": "MSCloudBaseViewController",
+  "extends": "MSToolbarPopoverContentViewController",
+  "interfaces": [],
+  "methods": {
+    "initWithAction:": {
+      "name": "initWithAction:",
+      "bridgedName": "initWithAction",
+      "args": [
+        {
+          "name": "action",
+          "type": "MSCloudAction *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cloudBaseViewControllerDidAppear": {
+      "name": "cloudBaseViewControllerDidAppear",
+      "bridgedName": "cloudBaseViewControllerDidAppear",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "cloudAction": {
+      "name": "cloudAction",
+      "pointer": false,
+      "type": "MSCloudAction ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cloudViewController": {
+      "name": "cloudViewController",
+      "pointer": false,
+      "type": "MSCloudViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,77 @@
+{
+  "name": "MSArtboardPresetsCategory",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "categoriesWithContentsOfURL:": {
+      "name": "categoriesWithContentsOfURL:",
+      "bridgedName": "categoriesWithContentsOfURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSArray<MSArtboardPresetsCategory *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithName:sections:": {
+      "name": "initWithName:sections:",
+      "bridgedName": "initWithName_sections",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "sections",
+          "type": "NSArray<MSArtboardPresetsSection *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDictionaryRepresentation:": {
+      "name": "initWithDictionaryRepresentation:",
+      "bridgedName": "initWithDictionaryRepresentation",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "sections": {
+      "name": "sections",
+      "pointer": false,
+      "type": "NSArray<MSArtboardPresetsSection *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

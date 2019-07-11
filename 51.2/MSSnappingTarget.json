@@ -1,0 +1,138 @@
+{
+  "name": "MSSnappingTarget",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithPoint:": {
+      "name": "initWithPoint:",
+      "bridgedName": "initWithPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithPosition:onAxis:": {
+      "name": "initWithPosition:onAxis:",
+      "bridgedName": "initWithPosition_onAxis",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithLine:": {
+      "name": "initWithLine:",
+      "bridgedName": "initWithLine",
+      "args": [
+        {
+          "name": "line",
+          "type": "BCLine",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithPoint:snappableAxes:wantsGuide:length:": {
+      "name": "initWithPoint:snappableAxes:wantsGuide:length:",
+      "bridgedName": "initWithPoint_snappableAxes_wantsGuide_length",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "axes",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "showGuide",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "length",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "targetsForEdgesAndCentersOfRect:": {
+      "name": "targetsForEdgesAndCentersOfRect:",
+      "bridgedName": "targetsForEdgesAndCentersOfRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSSnappingTarget *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "axes": {
+      "name": "axes",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "point": {
+      "name": "point",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "wantsGuide": {
+      "name": "wantsGuide",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "length": {
+      "name": "length",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

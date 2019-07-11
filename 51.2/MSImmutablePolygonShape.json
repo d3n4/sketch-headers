@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutablePolygonShape",
+  "extends": "_MSImmutablePolygonShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

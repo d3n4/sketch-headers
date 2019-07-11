@@ -1,0 +1,45 @@
+{
+  "name": "MSDragToSelectGestureRecognizer",
+  "extends": "MSDragGestureRecognizer",
+  "interfaces": [],
+  "methods": {
+    "selectionRect": {
+      "name": "selectionRect",
+      "bridgedName": "selectionRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "extendSelection": {
+      "name": "extendSelection",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectionExtensionMask": {
+      "name": "selectionExtensionMask",
+      "pointer": false,
+      "type": "NSEventModifierFlags",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "initialSelection": {
+      "name": "initialSelection",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

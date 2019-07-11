@@ -1,0 +1,65 @@
+{
+  "name": "_MSExportFormat",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "absoluteSize": {
+      "name": "absoluteSize",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "fileFormat": {
+      "name": "fileFormat",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "namingScheme": {
+      "name": "namingScheme",
+      "pointer": false,
+      "type": "MSExportFormatNamingScheme",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "visibleScaleType": {
+      "name": "visibleScaleType",
+      "pointer": false,
+      "type": "MSUserVisibleScaleType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

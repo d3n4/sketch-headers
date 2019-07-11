@@ -1,0 +1,45 @@
+{
+  "name": "MOJavaScriptObject",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "objectWithJSObject:context:": {
+      "name": "objectWithJSObject:context:",
+      "bridgedName": "objectWithJSObject_context",
+      "args": [
+        {
+          "name": "jsObject",
+          "type": "JSObjectRef",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "MOJavaScriptObject *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "JSObject": {
+      "name": "JSObject",
+      "pointer": false,
+      "type": "JSObjectRef",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "JSContext": {
+      "name": "JSContext",
+      "pointer": false,
+      "type": "JSContextRef",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

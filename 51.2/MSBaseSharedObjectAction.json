@@ -1,0 +1,36 @@
+{
+  "name": "MSBaseSharedObjectAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "performSharedObjectAction": {
+      "name": "performSharedObjectAction",
+      "bridgedName": "performSharedObjectAction",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "updater": {
+      "name": "updater",
+      "pointer": false,
+      "type": "MSShareableObjectUpdater ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "needsRenameAfterAction": {
+      "name": "needsRenameAfterAction",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

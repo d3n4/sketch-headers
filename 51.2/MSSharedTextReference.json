@@ -1,0 +1,8 @@
+{
+  "name": "MSSharedTextReference",
+  "extends": "MSSharedStyleReference",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

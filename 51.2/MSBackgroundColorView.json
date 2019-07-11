@@ -1,0 +1,19 @@
+{
+  "name": "MSBackgroundColorView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "pointer": false,
+      "type": "IBInspectable NSColor ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

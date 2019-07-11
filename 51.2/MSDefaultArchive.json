@@ -1,0 +1,59 @@
+{
+  "name": "MSDefaultArchive",
+  "extends": "BCSingleton",
+  "interfaces": [],
+  "methods": {
+    "archivesNeedingMigration": {
+      "name": "archivesNeedingMigration",
+      "bridgedName": "archivesNeedingMigration",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "oldDefaultsName": {
+      "name": "oldDefaultsName",
+      "bridgedName": "oldDefaultsName",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filename": {
+      "name": "filename",
+      "bridgedName": "filename",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultClass": {
+      "name": "defaultClass",
+      "bridgedName": "defaultClass",
+      "args": [],
+      "returns": "Class",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "newObject": {
+      "name": "newObject",
+      "bridgedName": "newObject",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "defaultObject": {
+      "name": "defaultObject",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

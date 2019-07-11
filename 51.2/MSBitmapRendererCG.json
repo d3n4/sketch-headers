@@ -1,0 +1,8 @@
+{
+  "name": "MSBitmapRendererCG",
+  "extends": "MSLayerRendererCG",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

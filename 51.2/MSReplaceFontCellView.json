@@ -1,0 +1,27 @@
+{
+  "name": "MSReplaceFontCellView",
+  "extends": "NSTableCellView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "fontFamilyButton": {
+      "name": "fontFamilyButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "fontWeightPopUpButton": {
+      "name": "fontWeightPopUpButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

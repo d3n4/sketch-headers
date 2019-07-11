@@ -1,0 +1,35 @@
+{
+  "name": "MSInsertLayerEventHandler",
+  "extends": "MSDragRectEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "prototypeLayer": {
+      "name": "prototypeLayer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "shouldApplyDefaultStyle": {
+      "name": "shouldApplyDefaultStyle",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "insertedLayer": {
+      "name": "insertedLayer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

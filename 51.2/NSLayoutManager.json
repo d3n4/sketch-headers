@@ -1,0 +1,42 @@
+{
+  "name": "NSLayoutManager",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "temporaryAttributesForKey:": {
+      "name": "temporaryAttributesForKey:",
+      "bridgedName": "temporaryAttributesForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTemporaryAttributes:forKey:": {
+      "name": "setTemporaryAttributes:forKey:",
+      "bridgedName": "setTemporaryAttributes_forKey",
+      "args": [
+        {
+          "name": "attrs",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

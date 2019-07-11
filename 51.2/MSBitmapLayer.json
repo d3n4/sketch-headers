@@ -1,0 +1,76 @@
+{
+  "name": "MSBitmapLayer",
+  "extends": "_MSBitmapLayer",
+  "interfaces": [
+    "MSImageOwner"
+  ],
+  "methods": {
+    "initWithFrame:image:": {
+      "name": "initWithFrame:image:",
+      "bridgedName": "initWithFrame_image",
+      "args": [
+        {
+          "name": "frame",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "MSImageData *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceImageWithImage:": {
+      "name": "replaceImageWithImage:",
+      "bridgedName": "replaceImageWithImage",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "NSImage": {
+      "name": "NSImage",
+      "bridgedName": "NSImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isAtOriginalSize": {
+      "name": "isAtOriginalSize",
+      "bridgedName": "isAtOriginalSize",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeToOriginalSize": {
+      "name": "resizeToOriginalSize",
+      "bridgedName": "resizeToOriginalSize",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "correctInvalidGamma": {
+      "name": "correctInvalidGamma",
+      "bridgedName": "correctInvalidGamma",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

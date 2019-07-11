@@ -1,0 +1,66 @@
+{
+  "name": "SCKLayer",
+  "extends": "SCKObject",
+  "interfaces": [],
+  "methods": {
+    "diffComparedTo:": {
+      "name": "diffComparedTo:",
+      "bridgedName": "diffComparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull SCKLayerDiff *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong",
+        "readonly"
+      ]
+    },
+    "boundingRect": {
+      "name": "boundingRect",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "flowConnection": {
+      "name": "flowConnection",
+      "pointer": false,
+      "type": "SCKFlowConnection ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong",
+        "readonly"
+      ]
+    },
+    "artboard": {
+      "name": "artboard",
+      "pointer": false,
+      "type": "SCKArtboard ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

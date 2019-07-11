@@ -1,0 +1,8 @@
+{
+  "name": "MSAssetSyncSheet",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

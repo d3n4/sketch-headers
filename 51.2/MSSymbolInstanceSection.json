@@ -1,0 +1,8 @@
+{
+  "name": "MSSymbolInstanceSection",
+  "extends": "MSLayerSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

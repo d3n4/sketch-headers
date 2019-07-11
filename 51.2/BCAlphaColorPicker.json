@@ -1,0 +1,27 @@
+{
+  "name": "BCAlphaColorPicker",
+  "extends": "BCColorPickerSliderView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "colorAlphaValue": {
+      "name": "colorAlphaValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "BCFlexibleColor ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    }
+  },
+  "generics": []
+}

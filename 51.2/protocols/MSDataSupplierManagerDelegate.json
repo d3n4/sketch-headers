@@ -1,0 +1,56 @@
+{
+  "protocol": true,
+  "name": "MSDataSupplierManagerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "requestDataFromPluginDataSupplier:pluginContext:": {
+      "name": "requestDataFromPluginDataSupplier:pluginContext:",
+      "bridgedName": "requestDataFromPluginDataSupplier_pluginContext",
+      "args": [
+        {
+          "name": "pluginDataSupplier",
+          "type": "MSPluginDataSupplier *",
+          "nullable": false
+        },
+        {
+          "name": "pluginContext",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isPluginForDataSupplierEnabled:": {
+      "name": "isPluginForDataSupplierEnabled:",
+      "bridgedName": "isPluginForDataSupplierEnabled",
+      "args": [
+        {
+          "name": "pluginDataSupplier",
+          "type": "MSPluginDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isThereAPluginForDataSupplier:": {
+      "name": "isThereAPluginForDataSupplier:",
+      "bridgedName": "isThereAPluginForDataSupplier",
+      "args": [
+        {
+          "name": "pluginDataSupplier",
+          "type": "MSPluginDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

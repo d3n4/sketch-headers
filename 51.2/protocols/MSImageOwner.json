@@ -1,0 +1,52 @@
+{
+  "protocol": true,
+  "name": "MSImageOwner",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "setReducedImage:": {
+      "name": "setReducedImage:",
+      "bridgedName": "setReducedImage",
+      "args": [
+        {
+          "name": "image",
+          "type": "MSImageData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "targetSizeForReduction": {
+      "name": "targetSizeForReduction",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canReduceImageSize": {
+      "name": "canReduceImageSize",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSArtboardInspectorSection",
+  "extends": "MSLayerSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

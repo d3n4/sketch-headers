@@ -1,0 +1,185 @@
+{
+  "name": "MSSnapperData",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithItem:": {
+      "name": "initWithItem:",
+      "bridgedName": "initWithItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSSnapItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "accumulatorForAxis:": {
+      "name": "accumulatorForAxis:",
+      "bridgedName": "accumulatorForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSSnappingAccumulator *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstDimensionSnapForAxis:": {
+      "name": "firstDimensionSnapForAxis:",
+      "bridgedName": "firstDimensionSnapForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayoutRelationship *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDimensionSnap:": {
+      "name": "addDimensionSnap:",
+      "bridgedName": "addDimensionSnap",
+      "args": [
+        {
+          "name": "snap",
+          "type": "MSLayoutRelationship *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstSpacingSnapForAxis:": {
+      "name": "firstSpacingSnapForAxis:",
+      "bridgedName": "firstSpacingSnapForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayoutRelationship *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSpacingSnap:": {
+      "name": "addSpacingSnap:",
+      "bridgedName": "addSpacingSnap",
+      "args": [
+        {
+          "name": "snap",
+          "type": "MSLayoutRelationship *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addEdgeSnap:": {
+      "name": "addEdgeSnap:",
+      "bridgedName": "addEdgeSnap",
+      "args": [
+        {
+          "name": "relationship",
+          "type": "MSLayoutRelationship *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetEdgeSnapsForAxis:": {
+      "name": "resetEdgeSnapsForAxis:",
+      "bridgedName": "resetEdgeSnapsForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawForGroup:zoomScale:": {
+      "name": "drawForGroup:zoomScale:",
+      "bridgedName": "drawForGroup_zoomScale",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "item": {
+      "name": "item",
+      "pointer": false,
+      "type": "MSSnapItem ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "xAxisAccumulator": {
+      "name": "xAxisAccumulator",
+      "pointer": false,
+      "type": "MSSnappingAccumulator ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "yAxisAccumulator": {
+      "name": "yAxisAccumulator",
+      "pointer": false,
+      "type": "MSSnappingAccumulator ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dimensionAxes": {
+      "name": "dimensionAxes",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "numberFormatter": {
+      "name": "numberFormatter",
+      "pointer": false,
+      "type": "NSNumberFormatter ",
+      "attributes": [
+        "nonatomic",
+        "null_resettable"
+      ]
+    }
+  },
+  "generics": []
+}

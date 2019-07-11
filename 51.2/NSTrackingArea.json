@@ -1,0 +1,42 @@
+{
+  "name": "NSTrackingArea",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "mouseEnterExitTrackingArea:": {
+      "name": "mouseEnterExitTrackingArea:",
+      "bridgedName": "mouseEnterExitTrackingArea",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSTrackingArea *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "trackingAreaWithOptions:owner:": {
+      "name": "trackingAreaWithOptions:owner:",
+      "bridgedName": "trackingAreaWithOptions_owner",
+      "args": [
+        {
+          "name": "options",
+          "type": "NSTrackingAreaOptions",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSTrackingArea *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}
