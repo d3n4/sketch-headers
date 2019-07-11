@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleLayerHighlightAction",
+  "extends": "MSToggleViewPreferenceAction",
+  "interfaces": [],
+  "methods": {
+    "toggleLayerHighlight:": {
+      "name": "toggleLayerHighlight:",
+      "bridgedName": "toggleLayerHighlight",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

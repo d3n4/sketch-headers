@@ -1,0 +1,10 @@
+{
+  "name": "MSFillRendererCG",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSFillRenderer"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

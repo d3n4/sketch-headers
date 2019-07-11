@@ -1,0 +1,8 @@
+{
+  "name": "BCStringWithoutNewlineTransformer",
+  "extends": "NSValueTransformer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

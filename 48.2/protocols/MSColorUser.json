@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSColorUser",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "updateColorCounter:": {
+      "name": "updateColorCounter:",
+      "bridgedName": "updateColorCounter",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColorCounter *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

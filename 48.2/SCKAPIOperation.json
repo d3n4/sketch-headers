@@ -1,0 +1,113 @@
+{
+  "name": "SCKAPIOperation",
+  "extends": "SCKOperation",
+  "interfaces": [],
+  "methods": {
+    "sharedURLSession": {
+      "name": "sharedURLSession",
+      "bridgedName": "sharedURLSession",
+      "args": [],
+      "returns": "NSURLSession *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithRequest:": {
+      "name": "initWithRequest:",
+      "bridgedName": "initWithRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "SCKAPIRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processData:response:error:": {
+      "name": "processData:response:error:",
+      "bridgedName": "processData_response_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": true
+        },
+        {
+          "name": "response",
+          "type": "NSHTTPURLResponse *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "executeRequest:completionHandler:": {
+      "name": "executeRequest:completionHandler:",
+      "bridgedName": "executeRequest_completionHandler",
+      "args": [
+        {
+          "name": "request",
+          "type": "SCKAPIRequest *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "void (^)(NSArray<SCKObject *>  * _Nullable objects, NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "request": {
+      "name": "request",
+      "pointer": false,
+      "type": "SCKAPIRequest ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "session": {
+      "name": "session",
+      "pointer": false,
+      "type": "NSURLSession ",
+      "attributes": [
+        "strong"
+      ]
+    },
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "result": {
+      "name": "result",
+      "pointer": false,
+      "type": "NSArray<SCKObject *> ",
+      "attributes": [
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

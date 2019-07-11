@@ -1,0 +1,8 @@
+{
+  "name": "SUUserInitiatedUpdateDriver",
+  "extends": "SUUIBasedUpdateDriver",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

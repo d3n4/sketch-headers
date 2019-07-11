@@ -1,0 +1,17 @@
+{
+  "name": "LLTestPageListController",
+  "extends": "LLTestBaseController",
+  "interfaces": [],
+  "methods": {
+    "addPage": {
+      "name": "addPage",
+      "bridgedName": "addPage",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

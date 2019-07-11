@@ -1,0 +1,8 @@
+{
+  "name": "MSNewDocumentCollectionItem",
+  "extends": "MSWelcomeCollectionItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

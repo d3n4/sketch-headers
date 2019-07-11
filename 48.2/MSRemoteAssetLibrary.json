@@ -1,0 +1,104 @@
+{
+  "name": "MSRemoteAssetLibrary",
+  "extends": "MSAssetLibrary",
+  "interfaces": [],
+  "methods": {
+    "initWithName:appcastURL:version:infoText:": {
+      "name": "initWithName:appcastURL:version:infoText:",
+      "bridgedName": "initWithName_appcastURL_version_infoText",
+      "args": [
+        {
+          "name": "libraryName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "appcastURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "libraryVersion",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "infoText",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "appcastURL": {
+      "name": "appcastURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "libraryVersion": {
+      "name": "libraryVersion",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "infoText": {
+      "name": "infoText",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "newUpdatingInfo": {
+      "name": "newUpdatingInfo",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "updatingInfo": {
+      "name": "updatingInfo",
+      "pointer": false,
+      "type": "MSAssetLibraryUpdatingInfo ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "downloadAvailable": {
+      "name": "downloadAvailable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "updateAvailable": {
+      "name": "updateAvailable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,106 @@
+{
+  "name": "SCKShareAPIRequest",
+  "extends": "SCKAPIRequest",
+  "interfaces": [],
+  "methods": {
+    "shareRequestWithID:": {
+      "name": "shareRequestWithID:",
+      "bridgedName": "shareRequestWithID",
+      "args": [
+        {
+          "name": "shareID",
+          "type": "SCKObjectID *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shareRequestWithShortID:": {
+      "name": "shareRequestWithShortID:",
+      "bridgedName": "shareRequestWithShortID",
+      "args": [
+        {
+          "name": "shortID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "userSharesListRequest": {
+      "name": "userSharesListRequest",
+      "bridgedName": "userSharesListRequest",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shareCreationRequestWithManifest:": {
+      "name": "shareCreationRequestWithManifest:",
+      "bridgedName": "shareCreationRequestWithManifest",
+      "args": [
+        {
+          "name": "manifest",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shareUpdateRequestWithManifest:existingShare:": {
+      "name": "shareUpdateRequestWithManifest:existingShare:",
+      "bridgedName": "shareUpdateRequestWithManifest_existingShare",
+      "args": [
+        {
+          "name": "manifest",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "share",
+          "type": "SCKShare *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shareDeletionRequestWithID:": {
+      "name": "shareDeletionRequestWithID:",
+      "bridgedName": "shareDeletionRequestWithID",
+      "args": [
+        {
+          "name": "shareID",
+          "type": "SCKObjectID *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shareCancelUpdateRequestWithID:": {
+      "name": "shareCancelUpdateRequestWithID:",
+      "bridgedName": "shareCancelUpdateRequestWithID",
+      "args": [
+        {
+          "name": "shareID",
+          "type": "SCKObjectID *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

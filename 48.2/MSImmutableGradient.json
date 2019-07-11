@@ -1,0 +1,147 @@
+{
+  "name": "MSImmutableGradient",
+  "extends": "_MSImmutableGradient",
+  "interfaces": [],
+  "methods": {
+    "defaultGradientStops": {
+      "name": "defaultGradientStops",
+      "bridgedName": "defaultGradientStops",
+      "args": [],
+      "returns": "NSArray<MSImmutableGradientStop *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "defaultStopsArray": {
+      "name": "defaultStopsArray",
+      "bridgedName": "defaultStopsArray",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "conditionedEllipseLength": {
+      "name": "conditionedEllipseLength",
+      "bridgedName": "conditionedEllipseLength",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointAtIndex:": {
+      "name": "pointAtIndex:",
+      "bridgedName": "pointAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "newCGGradientForColorSpace:": {
+      "name": "newCGGradientForColorSpace:",
+      "bridgedName": "newCGGradientForColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "CGColorSpaceRef",
+          "nullable": false
+        }
+      ],
+      "returns": "CGGradientRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "NSGradientWithColorSpace:": {
+      "name": "NSGradientWithColorSpace:",
+      "bridgedName": "NSGradientWithColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSGradient *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ellipseTransformInRect:": {
+      "name": "ellipseTransformInRect:",
+      "bridgedName": "ellipseTransformInRect",
+      "args": [
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "CGAffineTransform",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "angularGradientImageInRect:colorSpace:": {
+      "name": "angularGradientImageInRect:colorSpace:",
+      "bridgedName": "angularGradientImageInRect_colorSpace",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawFillInRect:forBorderThickness:context:cacheKey:": {
+      "name": "drawFillInRect:forBorderThickness:context:cacheKey:",
+      "bridgedName": "drawFillInRect_forBorderThickness_context_cacheKey",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "thickness",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        },
+        {
+          "name": "cacheKey",
+          "type": "MSModelObjectCacheGeneration *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasOpacity": {
+      "name": "hasOpacity",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

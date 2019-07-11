@@ -1,0 +1,106 @@
+{
+  "name": "AFSecurityPolicy",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSSecureCoding",
+    "NSCopying"
+  ],
+  "methods": {
+    "defaultPolicy": {
+      "name": "defaultPolicy",
+      "bridgedName": "defaultPolicy",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "policyWithPinningMode:": {
+      "name": "policyWithPinningMode:",
+      "bridgedName": "policyWithPinningMode",
+      "args": [
+        {
+          "name": "pinningMode",
+          "type": "AFSSLPinningMode",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "evaluateServerTrust:DEPRECATED_ATTRIBUTE": {
+      "name": "evaluateServerTrust:DEPRECATED_ATTRIBUTE",
+      "bridgedName": "evaluateServerTrust_DEPRECATED_ATTRIBUTE",
+      "args": [
+        {
+          "name": "serverTrust",
+          "type": "SecTrustRef",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "evaluateServerTrust:forDomain:": {
+      "name": "evaluateServerTrust:forDomain:",
+      "bridgedName": "evaluateServerTrust_forDomain",
+      "args": [
+        {
+          "name": "serverTrust",
+          "type": "SecTrustRef",
+          "nullable": false
+        },
+        {
+          "name": "domain",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "SSLPinningMode": {
+      "name": "SSLPinningMode",
+      "pointer": false,
+      "type": "AFSSLPinningMode",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "pinnedCertificates": {
+      "name": "pinnedCertificates",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "allowInvalidCertificates": {
+      "name": "allowInvalidCertificates",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "validatesDomainName": {
+      "name": "validatesDomainName",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

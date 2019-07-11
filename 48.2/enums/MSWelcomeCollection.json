@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSWelcomeCollection",
+  "members": [
+    {
+      "name": "MSWelcomeCollectionRecents",
+      "value": "0"
+    },
+    {
+      "name": "MSWelcomeCollectionTemplates",
+      "value": "1"
+    },
+    {
+      "name": "MSWelcomeCollectionCloud",
+      "value": "2"
+    }
+  ]
+}

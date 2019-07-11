@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSLayerGroupResizeOption",
+  "members": [
+    {
+      "name": "MSLayerGroupResizeOptionLayerOnly",
+      "value": "0"
+    },
+    {
+      "name": "MSLayerGroupResizeOptionResizeParentUponRectChange",
+      "value": "1 << 0"
+    }
+  ]
+}

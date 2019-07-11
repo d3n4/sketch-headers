@@ -1,0 +1,16 @@
+{
+  "enum": true,
+  "name": "MSSharedObjectType",
+  "members": [
+    {
+      "name": "MSSharedObjectTypeLayerStyles",
+      "value": "1"
+    },
+    {
+      "name": "MSSharedObjectTypeTextStyles"
+    },
+    {
+      "name": "MSSharedObjectTypeUnknown"
+    }
+  ]
+}

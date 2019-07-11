@@ -1,0 +1,151 @@
+{
+  "name": "NSMenuItem",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "itemWithTitle:action:": {
+      "name": "itemWithTitle:action:",
+      "bridgedName": "itemWithTitle_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "itemWithTitle:target:action:": {
+      "name": "itemWithTitle:target:action:",
+      "bridgedName": "itemWithTitle_target_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "aTarget",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "itemWithTitle:small:target:action:": {
+      "name": "itemWithTitle:small:target:action:",
+      "bridgedName": "itemWithTitle_small_target_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "smallFont",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "aTarget",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "isInMainMenu": {
+      "name": "isInMainMenu",
+      "bridgedName": "isInMainMenu",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuItemWithTruncatedTitle:target:action:": {
+      "name": "menuItemWithTruncatedTitle:target:action:",
+      "bridgedName": "menuItemWithTruncatedTitle_target_action",
+      "args": [
+        {
+          "name": "aString",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "aTarget",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "anAction",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "generateSymbolPreviewWithColorSpace:completionHandler:": {
+      "name": "generateSymbolPreviewWithColorSpace:completionHandler:",
+      "bridgedName": "generateSymbolPreviewWithColorSpace_completionHandler",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSSymbolPreviewGeneratorBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "sharedObjects": {
+      "name": "sharedObjects",
+      "pointer": false,
+      "type": "NSArray <__kindof MSSharedObject *> ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "symbolMasterReferences": {
+      "name": "symbolMasterReferences",
+      "pointer": false,
+      "type": "NSArray <MSSymbolMasterReference *> ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,31 @@
+{
+  "name": "SUSystemProfiler",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedSystemProfiler": {
+      "name": "sharedSystemProfiler",
+      "bridgedName": "sharedSystemProfiler",
+      "args": [],
+      "returns": "SUSystemProfiler *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "systemProfileArrayForHost:": {
+      "name": "systemProfileArrayForHost:",
+      "bridgedName": "systemProfileArrayForHost",
+      "args": [
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMutableArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

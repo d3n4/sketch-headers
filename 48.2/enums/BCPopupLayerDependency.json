@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "BCPopupLayerDependency",
+  "members": [
+    {
+      "name": "BCPopoverLayerDependant"
+    },
+    {
+      "name": "BCPopoverLayerIndependent"
+    }
+  ]
+}

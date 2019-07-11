@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableStyleBasicFill",
+  "extends": "_MSImmutableStyleBasicFill",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

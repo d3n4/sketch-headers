@@ -1,0 +1,559 @@
+{
+  "name": "AFURLSessionManager",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSURLSessionDelegate",
+    "NSURLSessionTaskDelegate",
+    "NSURLSessionDataDelegate",
+    "NSURLSessionDownloadDelegate",
+    "NSSecureCoding",
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithSessionConfiguration:": {
+      "name": "initWithSessionConfiguration:",
+      "bridgedName": "initWithSessionConfiguration",
+      "args": [
+        {
+          "name": "configuration",
+          "type": "NSURLSessionConfiguration *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateSessionCancelingTasks:": {
+      "name": "invalidateSessionCancelingTasks:",
+      "bridgedName": "invalidateSessionCancelingTasks",
+      "args": [
+        {
+          "name": "cancelPendingTasks",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataTaskWithRequest:completionHandler:": {
+      "name": "dataTaskWithRequest:completionHandler:",
+      "bridgedName": "dataTaskWithRequest_completionHandler",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSURLResponse *response, id __nullable responseObject,  NSError * __nullable error)",
+          "nullable": true
+        }
+      ],
+      "returns": "NSURLSessionDataTask *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "uploadTaskWithRequest:fromFile:progress:completionHandler:": {
+      "name": "uploadTaskWithRequest:fromFile:progress:completionHandler:",
+      "bridgedName": "uploadTaskWithRequest_fromFile_progress_completionHandler",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "NSProgress * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSURLResponse *response, id __nullable responseObject, NSError  * __nullable error)",
+          "nullable": true
+        }
+      ],
+      "returns": "NSURLSessionUploadTask *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "uploadTaskWithRequest:fromData:progress:completionHandler:": {
+      "name": "uploadTaskWithRequest:fromData:progress:completionHandler:",
+      "bridgedName": "uploadTaskWithRequest_fromData_progress_completionHandler",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "bodyData",
+          "type": "NSData *",
+          "nullable": true
+        },
+        {
+          "name": "progress",
+          "type": "NSProgress * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSURLResponse *response, id __nullable responseObject, NSError * __nullable error)",
+          "nullable": true
+        }
+      ],
+      "returns": "NSURLSessionUploadTask *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "uploadTaskWithStreamedRequest:progress:completionHandler:": {
+      "name": "uploadTaskWithStreamedRequest:progress:completionHandler:",
+      "bridgedName": "uploadTaskWithStreamedRequest_progress_completionHandler",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "NSProgress * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSURLResponse *response, id __nullable responseObject, NSError * __nullable error)",
+          "nullable": true
+        }
+      ],
+      "returns": "NSURLSessionUploadTask *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadTaskWithRequest:progress:destination:completionHandler:": {
+      "name": "downloadTaskWithRequest:progress:destination:completionHandler:",
+      "bridgedName": "downloadTaskWithRequest_progress_destination_completionHandler",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "NSProgress * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        },
+        {
+          "name": "destination",
+          "type": "NSURL * (^)(NSURL *targetPath, NSURLResponse *response)",
+          "nullable": true
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSURLResponse *response, NSURL * __nullable filePath, NSError * __nullable error)",
+          "nullable": true
+        }
+      ],
+      "returns": "NSURLSessionDownloadTask *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadTaskWithResumeData:progress:destination:completionHandler:": {
+      "name": "downloadTaskWithResumeData:progress:destination:completionHandler:",
+      "bridgedName": "downloadTaskWithResumeData_progress_destination_completionHandler",
+      "args": [
+        {
+          "name": "resumeData",
+          "type": "NSData *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "NSProgress * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        },
+        {
+          "name": "destination",
+          "type": "NSURL * (^)(NSURL *targetPath, NSURLResponse *response)",
+          "nullable": true
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSURLResponse *response, NSURL * __nullable filePath, NSError * __nullable error)",
+          "nullable": true
+        }
+      ],
+      "returns": "NSURLSessionDownloadTask *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "uploadProgressForTask:": {
+      "name": "uploadProgressForTask:",
+      "bridgedName": "uploadProgressForTask",
+      "args": [
+        {
+          "name": "uploadTask",
+          "type": "NSURLSessionUploadTask *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSProgress *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadProgressForTask:": {
+      "name": "downloadProgressForTask:",
+      "bridgedName": "downloadProgressForTask",
+      "args": [
+        {
+          "name": "downloadTask",
+          "type": "NSURLSessionDownloadTask *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSProgress *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setSessionDidBecomeInvalidBlock:": {
+      "name": "setSessionDidBecomeInvalidBlock:",
+      "bridgedName": "setSessionDidBecomeInvalidBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(NSURLSession *session, NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setSessionDidReceiveAuthenticationChallengeBlock:": {
+      "name": "setSessionDidReceiveAuthenticationChallengeBlock:",
+      "bridgedName": "setSessionDidReceiveAuthenticationChallengeBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "NSURLSessionAuthChallengeDisposition (^)(NSURLSession *session, NSURLAuthenticationChallenge *challenge, NSURLCredential * __nullable __autoreleasing * __nullable credential)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTaskNeedNewBodyStreamBlock:": {
+      "name": "setTaskNeedNewBodyStreamBlock:",
+      "bridgedName": "setTaskNeedNewBodyStreamBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "NSInputStream * (^)(NSURLSession *session, NSURLSessionTask *task)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTaskWillPerformHTTPRedirectionBlock:": {
+      "name": "setTaskWillPerformHTTPRedirectionBlock:",
+      "bridgedName": "setTaskWillPerformHTTPRedirectionBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "NSURLRequest * (^)(NSURLSession *session, NSURLSessionTask *task, NSURLResponse *response, NSURLRequest *request)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTaskDidReceiveAuthenticationChallengeBlock:": {
+      "name": "setTaskDidReceiveAuthenticationChallengeBlock:",
+      "bridgedName": "setTaskDidReceiveAuthenticationChallengeBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "NSURLSessionAuthChallengeDisposition (^)(NSURLSession *session, NSURLSessionTask *task, NSURLAuthenticationChallenge *challenge, NSURLCredential * __nullable __autoreleasing * __nullable credential)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTaskDidSendBodyDataBlock:": {
+      "name": "setTaskDidSendBodyDataBlock:",
+      "bridgedName": "setTaskDidSendBodyDataBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(NSURLSession *session, NSURLSessionTask *task, int64_t bytesSent, int64_t totalBytesSent, int64_t totalBytesExpectedToSend)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTaskDidCompleteBlock:": {
+      "name": "setTaskDidCompleteBlock:",
+      "bridgedName": "setTaskDidCompleteBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(NSURLSession *session, NSURLSessionTask *task, NSError * __nullable error)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDataTaskDidReceiveResponseBlock:": {
+      "name": "setDataTaskDidReceiveResponseBlock:",
+      "bridgedName": "setDataTaskDidReceiveResponseBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "NSURLSessionResponseDisposition (^)(NSURLSession *session, NSURLSessionDataTask *dataTask, NSURLResponse *response)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDataTaskDidBecomeDownloadTaskBlock:": {
+      "name": "setDataTaskDidBecomeDownloadTaskBlock:",
+      "bridgedName": "setDataTaskDidBecomeDownloadTaskBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(NSURLSession *session, NSURLSessionDataTask *dataTask, NSURLSessionDownloadTask *downloadTask)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDataTaskDidReceiveDataBlock:": {
+      "name": "setDataTaskDidReceiveDataBlock:",
+      "bridgedName": "setDataTaskDidReceiveDataBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(NSURLSession *session, NSURLSessionDataTask *dataTask, NSData *data)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDataTaskWillCacheResponseBlock:": {
+      "name": "setDataTaskWillCacheResponseBlock:",
+      "bridgedName": "setDataTaskWillCacheResponseBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "NSCachedURLResponse * (^)(NSURLSession *session, NSURLSessionDataTask *dataTask, NSCachedURLResponse *proposedResponse)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDidFinishEventsForBackgroundURLSessionBlock:": {
+      "name": "setDidFinishEventsForBackgroundURLSessionBlock:",
+      "bridgedName": "setDidFinishEventsForBackgroundURLSessionBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(NSURLSession *session)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDownloadTaskDidFinishDownloadingBlock:": {
+      "name": "setDownloadTaskDidFinishDownloadingBlock:",
+      "bridgedName": "setDownloadTaskDidFinishDownloadingBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "NSURL * __nullable  (^)(NSURLSession *session, NSURLSessionDownloadTask *downloadTask, NSURL *location)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDownloadTaskDidWriteDataBlock:": {
+      "name": "setDownloadTaskDidWriteDataBlock:",
+      "bridgedName": "setDownloadTaskDidWriteDataBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(NSURLSession *session, NSURLSessionDownloadTask *downloadTask, int64_t bytesWritten, int64_t totalBytesWritten, int64_t totalBytesExpectedToWrite)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDownloadTaskDidResumeBlock:": {
+      "name": "setDownloadTaskDidResumeBlock:",
+      "bridgedName": "setDownloadTaskDidResumeBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(NSURLSession *session, NSURLSessionDownloadTask *downloadTask, int64_t fileOffset, int64_t expectedTotalBytes)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "session": {
+      "name": "session",
+      "pointer": false,
+      "type": "NSURLSession ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "operationQueue": {
+      "name": "operationQueue",
+      "pointer": false,
+      "type": "NSOperationQueue ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "responseSerializer": {
+      "name": "responseSerializer",
+      "pointer": false,
+      "type": "id <AFURLResponseSerialization>",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "securityPolicy": {
+      "name": "securityPolicy",
+      "pointer": false,
+      "type": "AFSecurityPolicy ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "reachabilityManager": {
+      "name": "reachabilityManager",
+      "pointer": false,
+      "type": "AFNetworkReachabilityManager ",
+      "attributes": [
+        "readwrite",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "tasks": {
+      "name": "tasks",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "dataTasks": {
+      "name": "dataTasks",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "uploadTasks": {
+      "name": "uploadTasks",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "downloadTasks": {
+      "name": "downloadTasks",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "completionQueue": {
+      "name": "completionQueue",
+      "pointer": false,
+      "type": "dispatch_queue_t",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "nullable"
+      ]
+    },
+    "completionGroup": {
+      "name": "completionGroup",
+      "pointer": false,
+      "type": "dispatch_group_t",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "nullable"
+      ]
+    },
+    "attemptsToRecreateUploadTasksForBackgroundSessions": {
+      "name": "attemptsToRecreateUploadTasksForBackgroundSessions",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSAlignLayersCenterAction",
+  "extends": "MSBaseAlignLayersAction",
+  "interfaces": [],
+  "methods": {
+    "alignLayersCenter:": {
+      "name": "alignLayersCenter:",
+      "bridgedName": "alignLayersCenter",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

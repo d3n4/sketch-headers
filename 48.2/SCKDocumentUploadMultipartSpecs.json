@@ -1,0 +1,64 @@
+{
+  "name": "SCKDocumentUploadMultipartSpecs",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDictionary:": {
+      "name": "initWithDictionary:",
+      "bridgedName": "initWithDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "uploadID": {
+      "name": "uploadID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "uploadKey": {
+      "name": "uploadKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "partSize": {
+      "name": "partSize",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "uploadURLs": {
+      "name": "uploadURLs",
+      "pointer": false,
+      "type": "NSArray<NSURL *> ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

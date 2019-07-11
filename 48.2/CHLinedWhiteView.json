@@ -1,0 +1,8 @@
+{
+  "name": "CHLinedWhiteView",
+  "extends": "CHPlainWhiteView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

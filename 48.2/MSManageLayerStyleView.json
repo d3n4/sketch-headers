@@ -1,0 +1,8 @@
+{
+  "name": "MSManageLayerStyleView",
+  "extends": "MSManageSharedObjectBaseViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

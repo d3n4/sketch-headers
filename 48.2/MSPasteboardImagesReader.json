@@ -1,0 +1,10 @@
+{
+  "name": "MSPasteboardImagesReader",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSPasteboardReader"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

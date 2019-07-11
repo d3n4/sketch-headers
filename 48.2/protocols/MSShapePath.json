@@ -1,0 +1,47 @@
+{
+  "protocol": true,
+  "name": "MSShapePath",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "pathInRect:": {
+      "name": "pathInRect:",
+      "bridgedName": "pathInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathInRect:": {
+      "name": "bezierPathInRect:",
+      "bridgedName": "bezierPathInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "numberOfPoints": {
+      "name": "numberOfPoints",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

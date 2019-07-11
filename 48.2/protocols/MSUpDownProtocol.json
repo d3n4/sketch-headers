@@ -1,0 +1,44 @@
+{
+  "protocol": true,
+  "name": "MSUpDownProtocol",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "incrementValue": {
+      "name": "incrementValue",
+      "bridgedName": "incrementValue",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "minimum": {
+      "name": "minimum",
+      "bridgedName": "minimum",
+      "args": [],
+      "returns": "NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "maximum": {
+      "name": "maximum",
+      "bridgedName": "maximum",
+      "args": [],
+      "returns": "NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "upDownController": {
+      "name": "upDownController",
+      "pointer": false,
+      "type": "MSUpDownController ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  }
+}

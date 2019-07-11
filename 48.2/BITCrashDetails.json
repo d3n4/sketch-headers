@@ -1,0 +1,128 @@
+{
+  "name": "BITCrashDetails",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "isAppKill": {
+      "name": "isAppKill",
+      "bridgedName": "isAppKill",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "incidentIdentifier": {
+      "name": "incidentIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "reporterKey": {
+      "name": "reporterKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "signal": {
+      "name": "signal",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "exceptionName": {
+      "name": "exceptionName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "exceptionReason": {
+      "name": "exceptionReason",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "appStartTime": {
+      "name": "appStartTime",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "crashTime": {
+      "name": "crashTime",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "osVersion": {
+      "name": "osVersion",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "osBuild": {
+      "name": "osBuild",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "appVersion": {
+      "name": "appVersion",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "appBuild": {
+      "name": "appBuild",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

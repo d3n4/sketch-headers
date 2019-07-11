@@ -1,0 +1,17 @@
+{
+  "name": "TDNum",
+  "extends": "TDTerminal",
+  "interfaces": [],
+  "methods": {
+    "num": {
+      "name": "num",
+      "bridgedName": "num",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

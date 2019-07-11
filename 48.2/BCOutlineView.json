@@ -1,0 +1,75 @@
+{
+  "name": "BCOutlineView",
+  "extends": "NSOutlineView",
+  "interfaces": [],
+  "methods": {
+    "deliberateScrollRowToVisible:": {
+      "name": "deliberateScrollRowToVisible:",
+      "bridgedName": "deliberateScrollRowToVisible",
+      "args": [
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scrollRowToVisible:": {
+      "name": "scrollRowToVisible:",
+      "bridgedName": "scrollRowToVisible",
+      "args": [
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerView:withIdentifier:": {
+      "name": "registerView:withIdentifier:",
+      "bridgedName": "registerView_withIdentifier",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dataController": {
+      "name": "dataController",
+      "pointer": false,
+      "type": "BCOutlineViewDataController ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "discloserTriangleClickedItem": {
+      "name": "discloserTriangleClickedItem",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,87 @@
+{
+  "name": "MSAssetLibraryUpdatingInfo",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCoding"
+  ],
+  "methods": {
+    "initWithDownloadURL:newVersionNumber:downloadSize:": {
+      "name": "initWithDownloadURL:newVersionNumber:downloadSize:",
+      "bridgedName": "initWithDownloadURL_newVersionNumber_downloadSize",
+      "args": [
+        {
+          "name": "downloadURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "newVersionNumber",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "downloadSize",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqual:": {
+      "name": "isEqual:",
+      "bridgedName": "isEqual",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "downloadURL": {
+      "name": "downloadURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "versionNumberForUpdate": {
+      "name": "versionNumberForUpdate",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "downloadSize": {
+      "name": "downloadSize",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "folderMonitor": {
+      "name": "folderMonitor",
+      "pointer": false,
+      "type": "MSFolderMonitor ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

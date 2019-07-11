@@ -1,0 +1,23 @@
+{
+  "name": "MSImmutableImageCollection",
+  "extends": "_MSImmutableImageCollection",
+  "interfaces": [],
+  "methods": {
+    "imageWithSHA1:": {
+      "name": "imageWithSHA1:",
+      "bridgedName": "imageWithSHA1",
+      "args": [
+        {
+          "name": "sha1",
+          "type": "NSData*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImageData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "MSImmutableStyleFill",
+  "extends": "_MSImmutableStyleFill",
+  "interfaces": [],
+  "methods": {
+    "NSImage": {
+      "name": "NSImage",
+      "bridgedName": "NSImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasOpacity": {
+      "name": "hasOpacity",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

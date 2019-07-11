@@ -1,0 +1,74 @@
+{
+  "name": "MSArtboardGroup",
+  "extends": "_MSArtboardGroup",
+  "interfaces": [
+    "MSArtboardGroup",
+    "MSRootLayer",
+    "MSLayerWithBackgroundColor",
+    "MSColorConvertible"
+  ],
+  "methods": {
+    "optimalBoundingBox": {
+      "name": "optimalBoundingBox",
+      "bridgedName": "optimalBoundingBox",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hitTestInNameLabel:zoomValue:": {
+      "name": "hitTestInNameLabel:zoomValue:",
+      "bridgedName": "hitTestInNameLabel_zoomValue",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveChildrenToIdenticalPositionAfterResizeFromRect:": {
+      "name": "moveChildrenToIdenticalPositionAfterResizeFromRect:",
+      "bridgedName": "moveChildrenToIdenticalPositionAfterResizeFromRect",
+      "args": [
+        {
+          "name": "oldRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeChildRectsIntegral": {
+      "name": "makeChildRectsIntegral",
+      "bridgedName": "makeChildRectsIntegral",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "sliceWatcher": {
+      "name": "sliceWatcher",
+      "pointer": false,
+      "type": "id<MSSliceLayerWatcher>",
+      "attributes": [
+        "weak",
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

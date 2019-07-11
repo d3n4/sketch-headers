@@ -1,0 +1,570 @@
+{
+  "name": "MSBezierSegment",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "lineSegmentWithEndPoint1:endPoint2:": {
+      "name": "lineSegmentWithEndPoint1:endPoint2:",
+      "bridgedName": "lineSegmentWithEndPoint1_endPoint2",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "quadraticSegmentWithEndPoint1:endPoint2:controlPoint:": {
+      "name": "quadraticSegmentWithEndPoint1:endPoint2:controlPoint:",
+      "bridgedName": "quadraticSegmentWithEndPoint1_endPoint2_controlPoint",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "cubicSegmentWithEndPoint1:endPoint2:controlPoint1:controlPoint2:": {
+      "name": "cubicSegmentWithEndPoint1:endPoint2:controlPoint1:controlPoint2:",
+      "bridgedName": "cubicSegmentWithEndPoint1_endPoint2_controlPoint1_controlPoint2",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithEndPoint1:endPoint2:": {
+      "name": "initWithEndPoint1:endPoint2:",
+      "bridgedName": "initWithEndPoint1_endPoint2",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithEndPoint1:endPoint2:controlPoint:": {
+      "name": "initWithEndPoint1:endPoint2:controlPoint:",
+      "bridgedName": "initWithEndPoint1_endPoint2_controlPoint",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithEndPoint1:endPoint2:controlPoint1:controlPoint2:": {
+      "name": "initWithEndPoint1:endPoint2:controlPoint1:controlPoint2:",
+      "bridgedName": "initWithEndPoint1_endPoint2_controlPoint1_controlPoint2",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentWithEndPoint1:": {
+      "name": "segmentWithEndPoint1:",
+      "bridgedName": "segmentWithEndPoint1",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentWithEndPoint2:": {
+      "name": "segmentWithEndPoint2:",
+      "bridgedName": "segmentWithEndPoint2",
+      "args": [
+        {
+          "name": "endPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentMirroredAtOffset:": {
+      "name": "segmentMirroredAtOffset:",
+      "bridgedName": "segmentMirroredAtOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tanget:andPoint:atOffset:": {
+      "name": "tanget:andPoint:atOffset:",
+      "bridgedName": "tanget_andPoint_atOffset",
+      "args": [
+        {
+          "name": "tangent",
+          "type": "MSTangent * _Nullable",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "CGPoint * _Nullable",
+          "nullable": false
+        },
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tangentAtOffset:": {
+      "name": "tangentAtOffset:",
+      "bridgedName": "tangentAtOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSTangent",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointAtOffset:": {
+      "name": "pointAtOffset:",
+      "bridgedName": "pointAtOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "curvatureAtOffset:": {
+      "name": "curvatureAtOffset:",
+      "bridgedName": "curvatureAtOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentToOffset:": {
+      "name": "segmentToOffset:",
+      "bridgedName": "segmentToOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentFromOffset:": {
+      "name": "segmentFromOffset:",
+      "bridgedName": "segmentFromOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentWithTransform:": {
+      "name": "segmentWithTransform:",
+      "bridgedName": "segmentWithTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentWithInset:": {
+      "name": "segmentWithInset:",
+      "bridgedName": "segmentWithInset",
+      "args": [
+        {
+          "name": "inset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "offsetForNormalToPoint:": {
+      "name": "offsetForNormalToPoint:",
+      "bridgedName": "offsetForNormalToPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "offsetsOfIntersectionsWithTangent:": {
+      "name": "offsetsOfIntersectionsWithTangent:",
+      "bridgedName": "offsetsOfIntersectionsWithTangent",
+      "args": [
+        {
+          "name": "tangent",
+          "type": "MSTangent",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet <NSNumber *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "intersectionsWithSegment:": {
+      "name": "intersectionsWithSegment:",
+      "bridgedName": "intersectionsWithSegment",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet <MSBezierIntersection *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lineRepresentation": {
+      "name": "lineRepresentation",
+      "bridgedName": "lineRepresentation",
+      "args": [],
+      "returns": "nullable MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "quadraticRepresentation": {
+      "name": "quadraticRepresentation",
+      "bridgedName": "quadraticRepresentation",
+      "args": [],
+      "returns": "nullable MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cubicRepresentation": {
+      "name": "cubicRepresentation",
+      "bridgedName": "cubicRepresentation",
+      "args": [],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "representationUsingType:": {
+      "name": "representationUsingType:",
+      "bridgedName": "representationUsingType",
+      "args": [
+        {
+          "name": "type",
+          "type": "MSBezierSegmentType",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reversedSegment": {
+      "name": "reversedSegment",
+      "bridgedName": "reversedSegment",
+      "args": [],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqualToBezierSegment:": {
+      "name": "isEqualToBezierSegment:",
+      "bridgedName": "isEqualToBezierSegment",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "derivative": {
+      "name": "derivative",
+      "bridgedName": "derivative",
+      "args": [],
+      "returns": "nullable MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bounds": {
+      "name": "bounds",
+      "bridgedName": "bounds",
+      "args": [],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPath": {
+      "name": "bezierPath",
+      "bridgedName": "bezierPath",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "segmentType": {
+      "name": "segmentType",
+      "pointer": false,
+      "type": "MSBezierSegmentType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "endPoint1": {
+      "name": "endPoint1",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "endPoint2": {
+      "name": "endPoint2",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lineLength": {
+      "name": "lineLength",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "arcLength": {
+      "name": "arcLength",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "controlPoint1": {
+      "name": "controlPoint1",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "controlPoint2": {
+      "name": "controlPoint2",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "looksLikeALine": {
+      "name": "looksLikeALine",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isAPoint": {
+      "name": "isAPoint",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "xAxisRoots": {
+      "name": "xAxisRoots",
+      "pointer": false,
+      "type": "NSSet <NSNumber *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "yAxisRoots": {
+      "name": "yAxisRoots",
+      "pointer": false,
+      "type": "NSSet <NSNumber *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inflectionOffsets": {
+      "name": "inflectionOffsets",
+      "pointer": false,
+      "type": "NSSet <NSNumber *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "curviness": {
+      "name": "curviness",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "transformForXAxisAlignment": {
+      "name": "transformForXAxisAlignment",
+      "pointer": false,
+      "type": "CGAffineTransform",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

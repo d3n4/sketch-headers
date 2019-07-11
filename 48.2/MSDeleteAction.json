@@ -1,0 +1,8 @@
+{
+  "name": "MSDeleteAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,103 @@
+{
+  "name": "MSHighLevelExporter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "exporterWithDelgate:": {
+      "name": "exporterWithDelgate:",
+      "bridgedName": "exporterWithDelgate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSHighLevelExportDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSHighLevelExportDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDelegate:driver:": {
+      "name": "initWithDelegate:driver:",
+      "bridgedName": "initWithDelegate_driver",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSHighLevelExportDelegate>",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "formatsToExport": {
+      "name": "formatsToExport",
+      "bridgedName": "formatsToExport",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportLayers:": {
+      "name": "exportLayers:",
+      "bridgedName": "exportLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportPage:": {
+      "name": "exportPage:",
+      "bridgedName": "exportPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSHighLevelExportDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

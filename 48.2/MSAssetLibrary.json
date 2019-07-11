@@ -1,0 +1,215 @@
+{
+  "name": "MSAssetLibrary",
+  "extends": "NSObject",
+  "interfaces": [
+    "BCSortable",
+    "NSCoding",
+    "MSLibraryObject"
+  ],
+  "methods": {
+    "URLForTemplateLibraryNamed:": {
+      "name": "URLForTemplateLibraryNamed:",
+      "bridgedName": "URLForTemplateLibraryNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSURL*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithDocumentAtURL:": {
+      "name": "initWithDocumentAtURL:",
+      "bridgedName": "initWithDocumentAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithName:": {
+      "name": "initWithName:",
+      "bridgedName": "initWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resolveLocationOnDisk": {
+      "name": "resolveLocationOnDisk",
+      "bridgedName": "resolveLocationOnDisk",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadSynchronously": {
+      "name": "loadSynchronously",
+      "bridgedName": "loadSynchronously",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadAsyncWithDispatchGroup:completionHandler:": {
+      "name": "loadAsyncWithDispatchGroup:completionHandler:",
+      "bridgedName": "loadAsyncWithDispatchGroup_completionHandler",
+      "args": [
+        {
+          "name": "dispatchGroup",
+          "type": "dispatch_group_t",
+          "nullable": true
+        },
+        {
+          "name": "block",
+          "type": "dispatch_block_t",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unload": {
+      "name": "unload",
+      "bridgedName": "unload",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handleAssetLibraryUpdateWithCompletionHandler:": {
+      "name": "handleAssetLibraryUpdateWithCompletionHandler:",
+      "bridgedName": "handleAssetLibraryUpdateWithCompletionHandler",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "assetLibraryFolder": {
+      "name": "assetLibraryFolder",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "class",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "valid": {
+      "name": "valid",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "status": {
+      "name": "status",
+      "pointer": false,
+      "type": "MSAssetLibraryStatus",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "locationOnDisk": {
+      "name": "locationOnDisk",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "atomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSAssetLibraryDelegate>",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    },
+    "dateLastModified": {
+      "name": "dateLastModified",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "libraryType": {
+      "name": "libraryType",
+      "pointer": false,
+      "type": "MSAssetLibraryType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "propertyListDictionaryRepresentation": {
+      "name": "propertyListDictionaryRepresentation",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,192 @@
+{
+  "name": "TDAssembly",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "assemblyWithString:": {
+      "name": "assemblyWithString:",
+      "bridgedName": "assemblyWithString",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithString:": {
+      "name": "initWithString:",
+      "bridgedName": "initWithString",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "peek": {
+      "name": "peek",
+      "bridgedName": "peek",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "next": {
+      "name": "next",
+      "bridgedName": "next",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasMore": {
+      "name": "hasMore",
+      "bridgedName": "hasMore",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "consumedObjectsJoinedByString:": {
+      "name": "consumedObjectsJoinedByString:",
+      "bridgedName": "consumedObjectsJoinedByString",
+      "args": [
+        {
+          "name": "delimiter",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "remainingObjectsJoinedByString:": {
+      "name": "remainingObjectsJoinedByString:",
+      "bridgedName": "remainingObjectsJoinedByString",
+      "args": [
+        {
+          "name": "delimiter",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pop": {
+      "name": "pop",
+      "bridgedName": "pop",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "push:": {
+      "name": "push:",
+      "bridgedName": "push",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isStackEmpty": {
+      "name": "isStackEmpty",
+      "bridgedName": "isStackEmpty",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectsAbove:": {
+      "name": "objectsAbove:",
+      "bridgedName": "objectsAbove",
+      "args": [
+        {
+          "name": "fence",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "length": {
+      "name": "length",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "objectsConsumed": {
+      "name": "objectsConsumed",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "objectsRemaining": {
+      "name": "objectsRemaining",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "defaultDelimiter": {
+      "name": "defaultDelimiter",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "retain"
+      ]
+    },
+    "stack": {
+      "name": "stack",
+      "pointer": false,
+      "type": "NSMutableArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "retain"
+      ]
+    },
+    "target": {
+      "name": "target",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    }
+  },
+  "generics": []
+}

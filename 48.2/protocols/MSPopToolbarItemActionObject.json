@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSPopToolbarItemActionObject",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "toolbarItemShouldDrawWithArrow:": {
+      "name": "toolbarItemShouldDrawWithArrow:",
+      "bridgedName": "toolbarItemShouldDrawWithArrow",
+      "args": [
+        {
+          "name": "toolbarItem",
+          "type": "MSPopUpToolbarItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Brush",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "mouseDown:inView:onCanvas:": {
+      "name": "mouseDown:inView:onCanvas:",
+      "bridgedName": "mouseDown_inView_onCanvas",
+      "args": [
+        {
+          "name": "theEvent",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "canvas",
+          "type": "Canvas *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseDragged:inView:onCanvas:": {
+      "name": "mouseDragged:inView:onCanvas:",
+      "bridgedName": "mouseDragged_inView_onCanvas",
+      "args": [
+        {
+          "name": "theEvent",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "canvas",
+          "type": "Canvas *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseUp:inView:onCanvas:": {
+      "name": "mouseUp:inView:onCanvas:",
+      "bridgedName": "mouseUp_inView_onCanvas",
+      "args": [
+        {
+          "name": "theEvent",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "canvas",
+          "type": "Canvas *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,56 @@
+{
+  "protocol": true,
+  "name": "SUUnarchiverDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "unarchiverDidFinish:": {
+      "name": "unarchiverDidFinish:",
+      "bridgedName": "unarchiverDidFinish",
+      "args": [
+        {
+          "name": "unarchiver",
+          "type": "SUUnarchiver *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unarchiverDidFail:": {
+      "name": "unarchiverDidFail:",
+      "bridgedName": "unarchiverDidFail",
+      "args": [
+        {
+          "name": "unarchiver",
+          "type": "SUUnarchiver *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unarchiver:extractedProgress:": {
+      "name": "unarchiver:extractedProgress:",
+      "bridgedName": "unarchiver_extractedProgress",
+      "args": [
+        {
+          "name": "unarchiver",
+          "type": "SUUnarchiver *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "double",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

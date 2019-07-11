@@ -1,0 +1,169 @@
+{
+  "name": "MSAvailableOverride",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "availableOverrideWithOverridePoint:master:overrideValue:inParent:": {
+      "name": "availableOverrideWithOverridePoint:master:overrideValue:inParent:",
+      "bridgedName": "availableOverrideWithOverridePoint_master_overrideValue_inParent",
+      "args": [
+        {
+          "name": "overridePoint",
+          "type": "MSOverridePoint*",
+          "nullable": false
+        },
+        {
+          "name": "master",
+          "type": "MSImmutableSymbolMaster*",
+          "nullable": false
+        },
+        {
+          "name": "overrideValue",
+          "type": "MSOverrideValue*",
+          "nullable": true
+        },
+        {
+          "name": "parent",
+          "type": "MSAvailableOverride*",
+          "nullable": true
+        }
+      ],
+      "returns": "MSAvailableOverride*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "enumerateOverrides:withBlock:": {
+      "name": "enumerateOverrides:withBlock:",
+      "bridgedName": "enumerateOverrides_withBlock",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSArray<MSAvailableOverride *>*",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void(^)(MSAvailableOverride*)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "createOverrideViewController": {
+      "name": "createOverrideViewController",
+      "bridgedName": "createOverrideViewController",
+      "args": [],
+      "returns": "MSOverrideViewController *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "parent": {
+      "name": "parent",
+      "pointer": false,
+      "type": "MSAvailableOverride ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "weak",
+        "nullable"
+      ]
+    },
+    "master": {
+      "name": "master",
+      "pointer": false,
+      "type": "MSImmutableSymbolMaster ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "affectedLayer": {
+      "name": "affectedLayer",
+      "pointer": false,
+      "type": "MSImmutableLayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overridePoint": {
+      "name": "overridePoint",
+      "pointer": false,
+      "type": "MSOverridePoint ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "children": {
+      "name": "children",
+      "pointer": false,
+      "type": "NSArray<MSAvailableOverride *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "overrideValue": {
+      "name": "overrideValue",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "currentValue": {
+      "name": "currentValue",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "defaultValue": {
+      "name": "defaultValue",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasOverride": {
+      "name": "hasOverride",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isAffectedLayerOrParentLocked": {
+      "name": "isAffectedLayerOrParentLocked",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isAffectedLayerOrParentHidden": {
+      "name": "isAffectedLayerOrParentHidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

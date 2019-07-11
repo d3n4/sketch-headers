@@ -1,0 +1,124 @@
+{
+  "name": "MSVectorHandleStateDecider",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "reset": {
+      "name": "reset",
+      "bridgedName": "reset",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isHandleAtIndexPathSelected:": {
+      "name": "isHandleAtIndexPathSelected:",
+      "bridgedName": "isHandleAtIndexPathSelected",
+      "args": [
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isHandleAtIndexPathVisible:": {
+      "name": "isHandleAtIndexPathVisible:",
+      "bridgedName": "isHandleAtIndexPathVisible",
+      "args": [
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stateOfCurvePointAtIndexPath:curveToState:curveFromState:": {
+      "name": "stateOfCurvePointAtIndexPath:curveToState:curveFromState:",
+      "bridgedName": "stateOfCurvePointAtIndexPath_curveToState_curveFromState",
+      "args": [
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        },
+        {
+          "name": "curveToState",
+          "type": "MSHandleState *",
+          "nullable": false
+        },
+        {
+          "name": "curveFromState",
+          "type": "MSHandleState *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSHandleState",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexPathOfHandleAtPoint:tolerance:": {
+      "name": "indexPathOfHandleAtPoint:tolerance:",
+      "bridgedName": "indexPathOfHandleAtPoint_tolerance",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "tolerance",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSIndexPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "visibilityAroundSelectedHandles": {
+      "name": "visibilityAroundSelectedHandles",
+      "pointer": false,
+      "type": "MSCurveAdjustmentHandleVisibility",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "visibilityAroundHighlight": {
+      "name": "visibilityAroundHighlight",
+      "pointer": false,
+      "type": "MSCurveAdjustmentHandleVisibility",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "selectionContext": {
+      "name": "selectionContext",
+      "pointer": false,
+      "type": "MSShapeChangeContext ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "indexPathForHighlightedHandle": {
+      "name": "indexPathForHighlightedHandle",
+      "pointer": false,
+      "type": "NSIndexPath ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

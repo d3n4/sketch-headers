@@ -1,0 +1,28 @@
+{
+  "name": "MSFeatureAvailability",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "enableFeatureAvailability": {
+      "name": "enableFeatureAvailability",
+      "bridgedName": "enableFeatureAvailability",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "isComponentsPanelEnabled": {
+      "name": "isComponentsPanelEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    }
+  },
+  "generics": []
+}

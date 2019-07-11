@@ -1,0 +1,8 @@
+{
+  "name": "MSColorInspectorSeparatorView",
+  "extends": "MSSectionBackgroundSeparatorView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

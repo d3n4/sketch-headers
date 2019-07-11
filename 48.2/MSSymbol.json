@@ -1,0 +1,8 @@
+{
+  "name": "MSSymbol",
+  "extends": "_MSSymbol",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSAlignmentActions",
+  "extends": "MSTouchBarGroupAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

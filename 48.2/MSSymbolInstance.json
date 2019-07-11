@@ -1,0 +1,198 @@
+{
+  "name": "MSSymbolInstance",
+  "extends": "_MSSymbolInstance",
+  "interfaces": [],
+  "methods": {
+    "availableOverrides": {
+      "name": "availableOverrides",
+      "bridgedName": "availableOverrides",
+      "args": [],
+      "returns": "NSArray<MSAvailableOverride *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolMaster": {
+      "name": "symbolMaster",
+      "bridgedName": "symbolMaster",
+      "args": [],
+      "returns": "MSSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isInstanceForMaster:": {
+      "name": "isInstanceForMaster:",
+      "bridgedName": "isInstanceForMaster",
+      "args": [
+        {
+          "name": "symbolMaster",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeInstanceToSymbol:": {
+      "name": "changeInstanceToSymbol:",
+      "bridgedName": "changeInstanceToSymbol",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfVisibleCells": {
+      "name": "numberOfVisibleCells",
+      "bridgedName": "numberOfVisibleCells",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "detachByReplacingWithGroup": {
+      "name": "detachByReplacingWithGroup",
+      "bridgedName": "detachByReplacingWithGroup",
+      "args": [],
+      "returns": "nullable MSLayerGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canInsertIntoGroupWithoutInfiniteRecursion:symbolInstancesBySymbolID:": {
+      "name": "canInsertIntoGroupWithoutInfiniteRecursion:symbolInstancesBySymbolID:",
+      "bridgedName": "canInsertIntoGroupWithoutInfiniteRecursion_symbolInstancesBySymbolID",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "symbolInstancesBySymbolID",
+          "type": "NSDictionary <NSString *, NSSet <MSSymbolInstance *> *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeInstanceToFitSymbol:": {
+      "name": "resizeInstanceToFitSymbol:",
+      "bridgedName": "resizeInstanceToFitSymbol",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolMasterDidChange:withInfluencePaddings:": {
+      "name": "symbolMasterDidChange:withInfluencePaddings:",
+      "bridgedName": "symbolMasterDidChange_withInfluencePaddings",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        },
+        {
+          "name": "paddings",
+          "type": "BCEdgePaddings",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetSizeToMaster": {
+      "name": "resetSizeToMaster",
+      "bridgedName": "resetSizeToMaster",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setValue:forOverridePoint:": {
+      "name": "setValue:forOverridePoint:",
+      "bridgedName": "setValue_forOverridePoint",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "point",
+          "type": "MSOverridePoint*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateOverridesWithObjectIDMap:": {
+      "name": "updateOverridesWithObjectIDMap:",
+      "bridgedName": "updateOverridesWithObjectIDMap",
+      "args": [
+        {
+          "name": "idMap",
+          "type": "NSDictionary<NSString*,NSString*> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "overrides": {
+      "name": "overrides",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "symbolMasterEdgePaddings": {
+      "name": "symbolMasterEdgePaddings",
+      "pointer": false,
+      "type": "BCEdgePaddings",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "masterRefreshCounter": {
+      "name": "masterRefreshCounter",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "influencingSymbolIDs": {
+      "name": "influencingSymbolIDs",
+      "pointer": false,
+      "type": "NSSet<NSString*> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "_MSTextStyle",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "encodedAttributes": {
+      "name": "encodedAttributes",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "verticalAlignment": {
+      "name": "verticalAlignment",
+      "pointer": false,
+      "type": "MSTextStyleVerticalAlignment",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

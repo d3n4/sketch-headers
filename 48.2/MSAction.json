@@ -1,0 +1,265 @@
+{
+  "name": "MSAction",
+  "extends": "NSResponder",
+  "interfaces": [
+    "MSPopToolbarItemActionObject"
+  ],
+  "methods": {
+    "menuItems": {
+      "name": "menuItems",
+      "bridgedName": "menuItems",
+      "args": [],
+      "returns": "NSArray<NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuItemsForMenu:": {
+      "name": "menuItemsForMenu:",
+      "bridgedName": "menuItemsForMenu",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeToolbarItemForToolbar:": {
+      "name": "makeToolbarItemForToolbar:",
+      "bridgedName": "makeToolbarItemForToolbar",
+      "args": [
+        {
+          "name": "willInsertIntoToolbar",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSToolbarItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performAction:NS_REQUIRES_SUPER": {
+      "name": "performAction:NS_REQUIRES_SUPER",
+      "bridgedName": "performAction_NS_REQUIRES_SUPER",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doPerformAction:": {
+      "name": "doPerformAction:",
+      "bridgedName": "doPerformAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "submenuActionIDs": {
+      "name": "submenuActionIDs",
+      "bridgedName": "submenuActionIDs",
+      "args": [],
+      "returns": "NSArray <NSString *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsActionWithID:": {
+      "name": "containsActionWithID:",
+      "bridgedName": "containsActionWithID",
+      "args": [
+        {
+          "name": "actionIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contextForActionObservers": {
+      "name": "contextForActionObservers",
+      "bridgedName": "contextForActionObservers",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handlesKeyEvent:": {
+      "name": "handlesKeyEvent:",
+      "bridgedName": "handlesKeyEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "badgeTitle": {
+      "name": "badgeTitle",
+      "pointer": false,
+      "type": "NSAttributedString ",
+      "attributes": [
+        "nonnull",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "preferredMenuAction": {
+      "name": "preferredMenuAction",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "showInToolbar": {
+      "name": "showInToolbar",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "tooltip": {
+      "name": "tooltip",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "controller": {
+      "name": "controller",
+      "pointer": false,
+      "type": "MSActionController ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "toolbarItem": {
+      "name": "toolbarItem",
+      "pointer": false,
+      "type": "NSToolbarItem ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "hasSubMenu": {
+      "name": "hasSubMenu",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasDynamicTitle": {
+      "name": "hasDynamicTitle",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "imageName": {
+      "name": "imageName",
+      "pointer": false,
+      "type": " NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "label": {
+      "name": "label",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shortcutCharacter": {
+      "name": "shortcutCharacter",
+      "pointer": false,
+      "type": "unichar",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isActive": {
+      "name": "isActive",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isSelectable": {
+      "name": "isSelectable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "validate": {
+      "name": "validate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "validationStatus": {
+      "name": "validationStatus",
+      "pointer": false,
+      "type": "MSActionValidation",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

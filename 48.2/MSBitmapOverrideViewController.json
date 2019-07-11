@@ -1,0 +1,17 @@
+{
+  "name": "MSBitmapOverrideViewController",
+  "extends": "MSOverrideViewController",
+  "interfaces": [],
+  "methods": {
+    "NSImage": {
+      "name": "NSImage",
+      "bridgedName": "NSImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

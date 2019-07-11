@@ -1,0 +1,95 @@
+{
+  "name": "MSLayerFlattener",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "flattenLayers:": {
+      "name": "flattenLayers:",
+      "bridgedName": "flattenLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageFromLayers:immutablePage:immutableDoc:": {
+      "name": "imageFromLayers:immutablePage:immutableDoc:",
+      "bridgedName": "imageFromLayers_immutablePage_immutableDoc",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "immutablePage",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "immutableDoc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trimmedRectFromLayers:immutablePage:immutableDoc:": {
+      "name": "trimmedRectFromLayers:immutablePage:immutableDoc:",
+      "bridgedName": "trimmedRectFromLayers_immutablePage_immutableDoc",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "immutablePage",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "immutableDoc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitmapFromRect:fromLayers:withImage:": {
+      "name": "bitmapFromRect:fromLayers:withImage:",
+      "bridgedName": "bitmapFromRect_fromLayers_withImage",
+      "args": [
+        {
+          "name": "bitmapRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBitmapLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

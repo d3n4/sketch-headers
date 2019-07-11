@@ -1,0 +1,8 @@
+{
+  "name": "MSGeneralPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

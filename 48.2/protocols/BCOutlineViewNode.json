@@ -1,0 +1,100 @@
+{
+  "protocol": true,
+  "name": "BCOutlineViewNode",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "displayType": {
+      "name": "displayType",
+      "pointer": false,
+      "type": "BCOutlineViewDisplayType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "filterType": {
+      "name": "filterType",
+      "pointer": false,
+      "type": "BCOutlineViewFilterType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "nodeName": {
+      "name": "nodeName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "isActive": {
+      "name": "isActive",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasHighlight": {
+      "name": "hasHighlight",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasSliceIcon": {
+      "name": "hasSliceIcon",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "badgeMap": {
+      "name": "badgeMap",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "previewImages": {
+      "name": "previewImages",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "badgeMenu": {
+      "name": "badgeMenu",
+      "pointer": false,
+      "type": "NSMenu ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "selectedBadgeMenuItem": {
+      "name": "selectedBadgeMenuItem",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

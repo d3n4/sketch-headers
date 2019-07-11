@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "MSStyleBlurType",
+  "members": [
+    {
+      "name": "MSStyleBlurGaussian",
+      "value": "0"
+    },
+    {
+      "name": "MSStyleBlurMotion",
+      "value": "1"
+    },
+    {
+      "name": "MSStyleBlurZoom",
+      "value": "2"
+    },
+    {
+      "name": "MSStyleBlurBackground",
+      "value": "3"
+    }
+  ]
+}

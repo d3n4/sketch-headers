@@ -1,0 +1,45 @@
+{
+  "name": "MSCrashLogManager",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSActionObserver",
+    "BITHockeyManagerDelegate",
+    "BITCrashManagerDelegate"
+  ],
+  "methods": {
+    "log:": {
+      "name": "log:",
+      "bridgedName": "log",
+      "args": [
+        {
+          "name": "text",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setup": {
+      "name": "setup",
+      "bridgedName": "setup",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "text": {
+      "name": "text",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

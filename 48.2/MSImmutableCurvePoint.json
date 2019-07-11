@@ -1,0 +1,29 @@
+{
+  "name": "MSImmutableCurvePoint",
+  "extends": "_MSImmutableCurvePoint",
+  "interfaces": [
+    "MSCurvePoint"
+  ],
+  "methods": {},
+  "properties": {
+    "isStraight": {
+      "name": "isStraight",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isRounded": {
+      "name": "isRounded",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

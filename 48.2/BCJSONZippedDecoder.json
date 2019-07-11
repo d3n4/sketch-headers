@@ -1,0 +1,75 @@
+{
+  "name": "BCJSONZippedDecoder",
+  "extends": "BCJSONDecoder",
+  "interfaces": [],
+  "methods": {
+    "initWithURL:": {
+      "name": "initWithURL:",
+      "bridgedName": "initWithURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "nonnull NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rawDataAtSubpath:error:": {
+      "name": "rawDataAtSubpath:error:",
+      "bridgedName": "rawDataAtSubpath_error",
+      "args": [
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeFileAtSubpath:error:": {
+      "name": "decodeFileAtSubpath:error:",
+      "bridgedName": "decodeFileAtSubpath_error",
+      "args": [
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsFileAtSubpath:": {
+      "name": "containsFileAtSubpath:",
+      "bridgedName": "containsFileAtSubpath",
+      "args": [
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

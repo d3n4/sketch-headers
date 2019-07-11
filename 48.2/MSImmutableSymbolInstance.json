@@ -1,0 +1,111 @@
+{
+  "name": "MSImmutableSymbolInstance",
+  "extends": "_MSImmutableSymbolInstance",
+  "interfaces": [],
+  "methods": {
+    "initWithGroupForMigration:": {
+      "name": "initWithGroupForMigration:",
+      "bridgedName": "initWithGroupForMigration",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSImmutableLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isScaled": {
+      "name": "isScaled",
+      "bridgedName": "isScaled",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateOverridesWithObjectIDMapping:afterChangingSymbolMasterWithID:": {
+      "name": "updateOverridesWithObjectIDMapping:afterChangingSymbolMasterWithID:",
+      "bridgedName": "updateOverridesWithObjectIDMapping_afterChangingSymbolMasterWithID",
+      "args": [
+        {
+          "name": "objectIDMapping",
+          "type": "NSDictionary*",
+          "nullable": false
+        },
+        {
+          "name": "symbolID",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overridesWithGridIndexRemoved:": {
+      "name": "overridesWithGridIndexRemoved:",
+      "bridgedName": "overridesWithGridIndexRemoved",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overridePointsInDocument:": {
+      "name": "overridePointsInDocument:",
+      "bridgedName": "overridePointsInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSOverridePoint *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "availableOverridesWithDocument:": {
+      "name": "availableOverridesWithDocument:",
+      "bridgedName": "availableOverridesWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSAvailableOverride *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "masterRefreshCounter": {
+      "name": "masterRefreshCounter",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overrides": {
+      "name": "overrides",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}
