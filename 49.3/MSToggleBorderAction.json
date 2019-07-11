@@ -1,0 +1,8 @@
+{
+  "name": "MSToggleBorderAction",
+  "extends": "MSToggleStylePartAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

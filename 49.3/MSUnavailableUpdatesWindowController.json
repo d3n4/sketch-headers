@@ -1,0 +1,30 @@
+{
+  "name": "MSUnavailableUpdatesWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [
+    "NSWindowDelegate"
+  ],
+  "methods": {
+    "showModalWithVersion:buildNumber:": {
+      "name": "showModalWithVersion:buildNumber:",
+      "bridgedName": "showModalWithVersion_buildNumber",
+      "args": [
+        {
+          "name": "version",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "buildNumber",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

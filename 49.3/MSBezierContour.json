@@ -1,0 +1,150 @@
+{
+  "name": "MSBezierContour",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "contourWithRect:": {
+      "name": "contourWithRect:",
+      "bridgedName": "contourWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithSegments:closed:": {
+      "name": "initWithSegments:closed:",
+      "bridgedName": "initWithSegments_closed",
+      "args": [
+        {
+          "name": "segments",
+          "type": "NSArray <MSBezierSegment *> *",
+          "nullable": false
+        },
+        {
+          "name": "isClosed",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reversedContour": {
+      "name": "reversedContour",
+      "bridgedName": "reversedContour",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contourWithInset:": {
+      "name": "contourWithInset:",
+      "bridgedName": "contourWithInset",
+      "args": [
+        {
+          "name": "inset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentBefore:": {
+      "name": "segmentBefore:",
+      "bridgedName": "segmentBefore",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentAfter:": {
+      "name": "segmentAfter:",
+      "bridgedName": "segmentAfter",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "closed": {
+      "name": "closed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isClosed"
+      ]
+    },
+    "clockwise": {
+      "name": "clockwise",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isClockwise"
+      ]
+    },
+    "segments": {
+      "name": "segments",
+      "pointer": false,
+      "type": "NSArray <MSBezierSegment *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    },
+    "bounds": {
+      "name": "bounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "path": {
+      "name": "path",
+      "pointer": false,
+      "type": "MSPath ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isRectangular": {
+      "name": "isRectangular",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

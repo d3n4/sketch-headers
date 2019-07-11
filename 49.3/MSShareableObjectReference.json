@@ -1,0 +1,74 @@
+{
+  "name": "MSShareableObjectReference",
+  "extends": "NSObject",
+  "interfaces": [
+    "BCSortable",
+    "MSSharedObjectStyling"
+  ],
+  "methods": {
+    "referenceForShareableObject:": {
+      "name": "referenceForShareableObject:",
+      "bridgedName": "referenceForShareableObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSShareableObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "referenceForShareableObject:inLibrary:": {
+      "name": "referenceForShareableObject:inLibrary:",
+      "bridgedName": "referenceForShareableObject_inLibrary",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSShareableObject *",
+          "nullable": false
+        },
+        {
+          "name": "library",
+          "type": "MSAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "sourceLibrary": {
+      "name": "sourceLibrary",
+      "pointer": false,
+      "type": "MSAssetLibrary ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "shareableObject": {
+      "name": "shareableObject",
+      "pointer": false,
+      "type": "MSShareableObject ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "locationPath": {
+      "name": "locationPath",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

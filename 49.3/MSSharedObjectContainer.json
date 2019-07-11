@@ -1,0 +1,265 @@
+{
+  "name": "MSSharedObjectContainer",
+  "extends": "_MSSharedObjectContainer",
+  "interfaces": [],
+  "methods": {
+    "addSharedObjectWithName:firstInstance:": {
+      "name": "addSharedObjectWithName:firstInstance:",
+      "bridgedName": "addSharedObjectWithName_firstInstance",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "firstInstance",
+          "type": "MSSharedObjectInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mergeSharedObjectWithName:sharedObjectID:instance:": {
+      "name": "mergeSharedObjectWithName:sharedObjectID:instance:",
+      "bridgedName": "mergeSharedObjectWithName_sharedObjectID_instance",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "sharedObjectID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "instance",
+          "type": "MSSharedObjectInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeSharedObject:": {
+      "name": "removeSharedObject:",
+      "bridgedName": "removeSharedObject",
+      "args": [
+        {
+          "name": "sharedObject",
+          "type": "MSSharedObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "instancesOf:inContainer:": {
+      "name": "instancesOf:inContainer:",
+      "bridgedName": "instancesOf_inContainer",
+      "args": [
+        {
+          "name": "sharedObject",
+          "type": "MSSharedObject*",
+          "nullable": false
+        },
+        {
+          "name": "container",
+          "type": "id<MSLayerContainment>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isSharedObjectForInstance:": {
+      "name": "isSharedObjectForInstance:",
+      "bridgedName": "isSharedObjectForInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSSharedObjectInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedObjectForInstance:": {
+      "name": "sharedObjectForInstance:",
+      "bridgedName": "sharedObjectForInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSSharedObjectInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedObjectWithID:": {
+      "name": "sharedObjectWithID:",
+      "bridgedName": "sharedObjectWithID",
+      "args": [
+        {
+          "name": "sharedObjectID",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedObjectAtIndex:": {
+      "name": "sharedObjectAtIndex:",
+      "bridgedName": "sharedObjectAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfSharedObject:": {
+      "name": "indexOfSharedObject:",
+      "bridgedName": "indexOfSharedObject",
+      "args": [
+        {
+          "name": "sharedObject",
+          "type": "MSSharedObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfSharedObjects": {
+      "name": "numberOfSharedObjects",
+      "bridgedName": "numberOfSharedObjects",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerInstance:withSharedObject:": {
+      "name": "registerInstance:withSharedObject:",
+      "bridgedName": "registerInstance_withSharedObject",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSSharedObjectInstance *",
+          "nullable": false
+        },
+        {
+          "name": "sharedObject",
+          "type": "MSSharedObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unregisterInstance:": {
+      "name": "unregisterInstance:",
+      "bridgedName": "unregisterInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSSharedObjectInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "syncSharedObjectWithInstance:": {
+      "name": "syncSharedObjectWithInstance:",
+      "bridgedName": "syncSharedObjectWithInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSSharedObjectInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetSharedObjectInstance:": {
+      "name": "resetSharedObjectInstance:",
+      "bridgedName": "resetSharedObjectInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSSharedObjectInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedObjectsInLayers:": {
+      "name": "sharedObjectsInLayers:",
+      "bridgedName": "sharedObjectsInLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumeratePotentialInstancesInContainer:block:": {
+      "name": "enumeratePotentialInstancesInContainer:block:",
+      "bridgedName": "enumeratePotentialInstancesInContainer_block",
+      "args": [
+        {
+          "name": "container",
+          "type": "id<MSLayerContainment>",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "SharedObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectsSortedByName": {
+      "name": "objectsSortedByName",
+      "bridgedName": "objectsSortedByName",
+      "args": [],
+      "returns": "NSArray <MSSharedObject *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

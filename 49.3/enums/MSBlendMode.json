@@ -1,0 +1,70 @@
+{
+  "enum": true,
+  "name": "MSBlendMode",
+  "members": [
+    {
+      "name": "MSBlendModeNormal",
+      "value": "0"
+    },
+    {
+      "name": "MSBlendModeDarken",
+      "value": "1"
+    },
+    {
+      "name": "MSBlendModeMultiply",
+      "value": "2"
+    },
+    {
+      "name": "MSBlendModeColorBurn",
+      "value": "3"
+    },
+    {
+      "name": "MSBlendModeLighten",
+      "value": "4"
+    },
+    {
+      "name": "MSBlendModeScreen",
+      "value": "5"
+    },
+    {
+      "name": "MSBlendModeColorDodge",
+      "value": "6"
+    },
+    {
+      "name": "MSBlendModeOverlay",
+      "value": "7"
+    },
+    {
+      "name": "MSBlendModeSoftLight",
+      "value": "8"
+    },
+    {
+      "name": "MSBlendModeHardLight",
+      "value": "9"
+    },
+    {
+      "name": "MSBlendModeDifference",
+      "value": "10"
+    },
+    {
+      "name": "MSBlendModeExclusion",
+      "value": "11"
+    },
+    {
+      "name": "MSBlendModeHue",
+      "value": "12"
+    },
+    {
+      "name": "MSBlendModeSaturation",
+      "value": "13"
+    },
+    {
+      "name": "MSBlendModeColor",
+      "value": "14"
+    },
+    {
+      "name": "MSBlendModeLuminosity",
+      "value": "15"
+    }
+  ]
+}

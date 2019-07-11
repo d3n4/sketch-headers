@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "FBContourInside",
+  "members": [
+    {
+      "name": "FBContourInsideFilled"
+    },
+    {
+      "name": "FBContourInsideHole"
+    }
+  ]
+}

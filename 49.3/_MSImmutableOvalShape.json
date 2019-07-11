@@ -1,0 +1,8 @@
+{
+  "name": "_MSImmutableOvalShape",
+  "extends": "MSImmutableShapePathLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

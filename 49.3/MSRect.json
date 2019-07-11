@@ -1,0 +1,251 @@
+{
+  "name": "MSRect",
+  "extends": "_MSRect",
+  "interfaces": [
+    "MSRect"
+  ],
+  "methods": {
+    "rectWithX:y:width:height:": {
+      "name": "rectWithX:y:width:height:",
+      "bridgedName": "rectWithX_y_width_height",
+      "args": [
+        {
+          "name": "x",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "y",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "w",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "h",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rectWithRect:": {
+      "name": "rectWithRect:",
+      "bridgedName": "rectWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rectWithUnionOfRects:": {
+      "name": "rectWithUnionOfRects:",
+      "bridgedName": "rectWithUnionOfRects",
+      "args": [
+        {
+          "name": "rects",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithX:y:width:height:": {
+      "name": "initWithX:y:width:height:",
+      "bridgedName": "initWithX_y_width_height",
+      "args": [
+        {
+          "name": "x",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "y",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "w",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "h",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithRect:": {
+      "name": "initWithRect:",
+      "bridgedName": "initWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculateProportions": {
+      "name": "calculateProportions",
+      "bridgedName": "calculateProportions",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performUpdatesWithUnconstrainedProportions:": {
+      "name": "performUpdatesWithUnconstrainedProportions:",
+      "bridgedName": "performUpdatesWithUnconstrainedProportions",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setRectByIgnoringProportions:": {
+      "name": "setRectByIgnoringProportions:",
+      "bridgedName": "setRectByIgnoringProportions",
+      "args": [
+        {
+          "name": "newRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldConstrainProportions": {
+      "name": "shouldConstrainProportions",
+      "bridgedName": "shouldConstrainProportions",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsPoint:": {
+      "name": "containsPoint:",
+      "bridgedName": "containsPoint",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isIntegral": {
+      "name": "isIntegral",
+      "bridgedName": "isIntegral",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeOriginIntegral": {
+      "name": "makeOriginIntegral",
+      "bridgedName": "makeOriginIntegral",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeRectIntegral": {
+      "name": "makeRectIntegral",
+      "bridgedName": "makeRectIntegral",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "log": {
+      "name": "log",
+      "bridgedName": "log",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "origin": {
+      "name": "origin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "mid": {
+      "name": "mid",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "primitiveConstrainProportions": {
+      "name": "primitiveConstrainProportions",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "proportions": {
+      "name": "proportions",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

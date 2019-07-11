@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSTransformDirectionLock",
+  "members": [
+    {
+      "name": "MSTransformDirectionLockNone",
+      "value": "0"
+    },
+    {
+      "name": "MSTransformDirectionLockX",
+      "value": "1"
+    },
+    {
+      "name": "MSTransformDirectionLockY",
+      "value": "2"
+    }
+  ]
+}

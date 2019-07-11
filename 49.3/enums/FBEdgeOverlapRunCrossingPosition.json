@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "FBEdgeOverlapRunCrossingPosition",
+  "members": [
+    {
+      "name": "FBEdgeOverlapRunCrossingPositionMiddle"
+    },
+    {
+      "name": "FBEdgeOverlapRunCrossingPositionInside"
+    },
+    {
+      "name": "FBEdgeOverlapRunCrossingPositionOutside"
+    }
+  ]
+}

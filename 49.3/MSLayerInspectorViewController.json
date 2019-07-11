@@ -1,0 +1,170 @@
+{
+  "name": "MSLayerInspectorViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorSection",
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "setXAction:": {
+      "name": "setXAction:",
+      "bridgedName": "setXAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setYAction:": {
+      "name": "setYAction:",
+      "bridgedName": "setYAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setWidthAction:": {
+      "name": "setWidthAction:",
+      "bridgedName": "setWidthAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setHeightAction:": {
+      "name": "setHeightAction:",
+      "bridgedName": "setHeightAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshAction:": {
+      "name": "refreshAction:",
+      "bridgedName": "refreshAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeConstraintsAction:": {
+      "name": "resizeConstraintsAction:",
+      "bridgedName": "resizeConstraintsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerPositionPossiblyChanged": {
+      "name": "layerPositionPossiblyChanged",
+      "bridgedName": "layerPositionPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "document": {
+      "name": "document",
+      "bridgedName": "document",
+      "args": [],
+      "returns": "MSDocument *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canHandleColorMagnifierAction": {
+      "name": "canHandleColorMagnifierAction",
+      "bridgedName": "canHandleColorMagnifierAction",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorMagnifierAction:": {
+      "name": "colorMagnifierAction:",
+      "bridgedName": "colorMagnifierAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "flipSegmentedControl": {
+      "name": "flipSegmentedControl",
+      "pointer": false,
+      "type": "IBOutlet NSSegmentedControl ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "lineFlipSegmentedControl": {
+      "name": "lineFlipSegmentedControl",
+      "pointer": false,
+      "type": "IBOutlet NSSegmentedControl ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "shouldShowPositions": {
+      "name": "shouldShowPositions",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

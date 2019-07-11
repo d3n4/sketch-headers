@@ -1,0 +1,158 @@
+{
+  "name": "MSPathController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "setSelectionIndexPath:": {
+      "name": "setSelectionIndexPath:",
+      "bridgedName": "setSelectionIndexPath",
+      "args": [
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runChange:": {
+      "name": "runChange:",
+      "bridgedName": "runChange",
+      "args": [
+        {
+          "name": "change",
+          "type": "MSShapeChange *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runChange:context:": {
+      "name": "runChange:context:",
+      "bridgedName": "runChange_context",
+      "args": [
+        {
+          "name": "change",
+          "type": "MSShapeChange *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSShapeChangeContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectNext:": {
+      "name": "selectNext:",
+      "bridgedName": "selectNext",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectPrevious:": {
+      "name": "selectPrevious:",
+      "bridgedName": "selectPrevious",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentCurveMode": {
+      "name": "currentCurveMode",
+      "bridgedName": "currentCurveMode",
+      "args": [],
+      "returns": "NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeCurveMode:": {
+      "name": "changeCurveMode:",
+      "bridgedName": "changeCurveMode",
+      "args": [
+        {
+          "name": "mode",
+          "type": "MSCurveMode",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "remove:": {
+      "name": "remove:",
+      "bridgedName": "remove",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "content": {
+      "name": "content",
+      "pointer": false,
+      "type": "NSArray <MSShapePathLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "selectionIndexPaths": {
+      "name": "selectionIndexPaths",
+      "pointer": false,
+      "type": "NSArray <NSIndexPath *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "selectedObjects": {
+      "name": "selectedObjects",
+      "pointer": false,
+      "type": "NSArray <MSCurvePoint *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "changeContext": {
+      "name": "changeContext",
+      "pointer": false,
+      "type": "MSShapeChangeContext ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

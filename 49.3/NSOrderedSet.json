@@ -1,0 +1,37 @@
+{
+  "name": "NSOrderedSet",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "mo_objectForIndexedSubscript:": {
+      "name": "mo_objectForIndexedSubscript:",
+      "bridgedName": "mo_objectForIndexedSubscript",
+      "args": [
+        {
+          "name": "idx",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "smk_map:": {
+      "name": "smk_map:",
+      "bridgedName": "smk_map",
+      "args": [
+        {
+          "name": "mappingBlock",
+          "type": "id _Nonnull (^ _Nullable)(id _Nonnull element)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSOrderedSet * _Nonnull",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

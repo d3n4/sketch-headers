@@ -1,0 +1,81 @@
+{
+  "protocol": true,
+  "name": "PDFParser",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithScanner:": {
+      "name": "initWithScanner:",
+      "bridgedName": "initWithScanner",
+      "args": [
+        {
+          "name": "scanner",
+          "type": "PDFScanner*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadDocumentFromURL:": {
+      "name": "loadDocumentFromURL:",
+      "bridgedName": "loadDocumentFromURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadDocumentFromData:": {
+      "name": "loadDocumentFromData:",
+      "bridgedName": "loadDocumentFromData",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parseWithProgress:": {
+      "name": "parseWithProgress:",
+      "bridgedName": "parseWithProgress",
+      "args": [
+        {
+          "name": "progress",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pageCount": {
+      "name": "pageCount",
+      "bridgedName": "pageCount",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "name": {
+      "name": "name",
+      "bridgedName": "name",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

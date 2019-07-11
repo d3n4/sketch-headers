@@ -1,0 +1,48 @@
+{
+  "name": "MSImmutablePage",
+  "extends": "_MSImmutablePage",
+  "interfaces": [
+    "MSImmutableRootLayer"
+  ],
+  "methods": {},
+  "properties": {
+    "selectedLayerIDs": {
+      "name": "selectedLayerIDs",
+      "pointer": false,
+      "type": "NSSet <NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "artboards": {
+      "name": "artboards",
+      "pointer": false,
+      "type": "NSArray <MSImmutableArtboardGroup *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasArtboards": {
+      "name": "hasArtboards",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "symbols": {
+      "name": "symbols",
+      "pointer": false,
+      "type": "NSArray <MSImmutableSymbolMaster *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

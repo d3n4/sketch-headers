@@ -1,0 +1,8 @@
+{
+  "name": "InterfaceController",
+  "extends": "WKInterfaceController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

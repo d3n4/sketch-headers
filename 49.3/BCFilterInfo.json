@@ -1,0 +1,33 @@
+{
+  "name": "BCFilterInfo",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "shouldIncludeNode:": {
+      "name": "shouldIncludeNode:",
+      "bridgedName": "shouldIncludeNode",
+      "args": [
+        {
+          "name": "node",
+          "type": "id<BCOutlineViewNode>",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "filterString": {
+      "name": "filterString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,24 @@
+{
+  "enum": true,
+  "name": "BCOutlineViewNodeExpansionState",
+  "members": [
+    {
+      "name": "BCOutlineViewNodeExpansionStateModelExpanded"
+    },
+    {
+      "name": "BCOutlineViewNodeExpansionStateUserExpanded"
+    },
+    {
+      "name": "BCOutlineViewNodeExpansionStateDragAutoExpanded"
+    },
+    {
+      "name": "BCOutlineViewNodeExpansionStateModelCollapsed"
+    },
+    {
+      "name": "BCOutlineViewNodeExpansionStateUserCollapsed"
+    },
+    {
+      "name": "BCOutlineViewNodeExpansionStateDragAutoCollapsed"
+    }
+  ]
+}

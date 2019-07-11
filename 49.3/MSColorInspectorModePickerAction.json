@@ -1,0 +1,8 @@
+{
+  "name": "MSColorInspectorModePickerAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

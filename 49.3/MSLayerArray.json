@@ -1,0 +1,188 @@
+{
+  "name": "MSLayerArray",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSLayerContainment",
+    "NSFastEnumeration"
+  ],
+  "methods": {
+    "addStylePartsOfType:": {
+      "name": "addStylePartsOfType:",
+      "bridgedName": "addStylePartsOfType",
+      "args": [
+        {
+          "name": "type",
+          "type": "MSStylePartType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeUnusedStylePartsOfType:": {
+      "name": "removeUnusedStylePartsOfType:",
+      "bridgedName": "removeUnusedStylePartsOfType",
+      "args": [
+        {
+          "name": "type",
+          "type": "MSStylePartType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "copyByGivingNewObjectIDs": {
+      "name": "copyByGivingNewObjectIDs",
+      "bridgedName": "copyByGivingNewObjectIDs",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayWithLayer:": {
+      "name": "arrayWithLayer:",
+      "bridgedName": "arrayWithLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer*",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "arrayWithLayers:": {
+      "name": "arrayWithLayers:",
+      "bridgedName": "arrayWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "emptyArray": {
+      "name": "emptyArray",
+      "bridgedName": "emptyArray",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithLayers:": {
+      "name": "initWithLayers:",
+      "bridgedName": "initWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentOfFirstLayer": {
+      "name": "parentOfFirstLayer",
+      "bridgedName": "parentOfFirstLayer",
+      "args": [],
+      "returns": "nullable MSLayerGroup*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "uniqueParents": {
+      "name": "uniqueParents",
+      "bridgedName": "uniqueParents",
+      "args": [],
+      "returns": "nullable MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "effectivePage": {
+      "name": "effectivePage",
+      "bridgedName": "effectivePage",
+      "args": [],
+      "returns": "nullable MSPage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "effectiveArtboard": {
+      "name": "effectiveArtboard",
+      "bridgedName": "effectiveArtboard",
+      "args": [],
+      "returns": "nullable MSArtboardGroup*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerToInsertAfter": {
+      "name": "layerToInsertAfter",
+      "bridgedName": "layerToInsertAfter",
+      "args": [],
+      "returns": "nullable MSLayer*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layersSuitableForInsertingIntoGroup:": {
+      "name": "layersSuitableForInsertingIntoGroup:",
+      "bridgedName": "layersSuitableForInsertingIntoGroup",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSLayerGroup*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "commonArtboard": {
+      "name": "commonArtboard",
+      "bridgedName": "commonArtboard",
+      "args": [],
+      "returns": "nullable MSArtboardGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "map:": {
+      "name": "map:",
+      "bridgedName": "map",
+      "args": [
+        {
+          "name": "block",
+          "type": "id (^)(__kindof ObjectType layer)",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sortedArrayByUsingComparator:": {
+      "name": "sortedArrayByUsingComparator:",
+      "bridgedName": "sortedArrayByUsingComparator",
+      "args": [
+        {
+          "name": "comparator",
+          "type": "NSComparisonResult (^)(MSLayer *a, MSLayer *b)",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,37 @@
+{
+  "name": "SUApplicationInfo",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "isBackgroundApplication:": {
+      "name": "isBackgroundApplication:",
+      "bridgedName": "isBackgroundApplication",
+      "args": [
+        {
+          "name": "application",
+          "type": "NSApplication *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bestIconForHost:": {
+      "name": "bestIconForHost:",
+      "bridgedName": "bestIconForHost",
+      "args": [
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

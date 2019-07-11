@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSLineDrawingOptions",
+  "members": [
+    {
+      "name": "MSShortLine",
+      "value": "0x01"
+    },
+    {
+      "name": "MSDarkLine",
+      "value": "0x02"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MSBitmapBackedRendering",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "imageToCacheForLayer:context:": {
+      "name": "imageToCacheForLayer:context:",
+      "bridgedName": "imageToCacheForLayer_context",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerCachedImage*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

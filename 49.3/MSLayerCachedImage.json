@@ -1,0 +1,27 @@
+{
+  "name": "MSLayerCachedImage",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "CGImageRef",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

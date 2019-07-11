@@ -1,0 +1,8 @@
+{
+  "name": "TDSingleLineCommentState",
+  "extends": "TDTokenizerState",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,32 @@
+{
+  "name": "MOPointer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithValue:": {
+      "name": "initWithValue:",
+      "bridgedName": "initWithValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

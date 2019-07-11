@@ -1,0 +1,122 @@
+{
+  "name": "MSRenderingDriver",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "defaultDriver": {
+      "name": "defaultDriver",
+      "bridgedName": "defaultDriver",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithSettings:": {
+      "name": "initWithSettings:",
+      "bridgedName": "initWithSettings",
+      "args": [
+        {
+          "name": "settings",
+          "type": "MSRenderingDriverSettings *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setupRendererMap": {
+      "name": "setupRendererMap",
+      "bridgedName": "setupRendererMap",
+      "args": [],
+      "returns": "NSMapTable*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rendererForObject:protocol:": {
+      "name": "rendererForObject:protocol:",
+      "bridgedName": "rendererForObject_protocol",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "protocol",
+          "type": "Protocol*",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof id<MSRenderer>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contextWithName:forCGContext:renderingRequest:": {
+      "name": "contextWithName:forCGContext:renderingRequest:",
+      "bridgedName": "contextWithName_forCGContext_renderingRequest",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "contextRef",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "renderingRequest",
+          "type": "MSRenderingRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSRenderingContext*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contextWithName:forCGContext:zoomLevel:document:": {
+      "name": "contextWithName:forCGContext:zoomLevel:document:",
+      "bridgedName": "contextWithName_forCGContext_zoomLevel_document",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "contextRef",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSRenderingContext*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "settings": {
+      "name": "settings",
+      "pointer": false,
+      "type": "MSRenderingDriverSettings ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

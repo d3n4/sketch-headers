@@ -1,0 +1,55 @@
+{
+  "name": "MSImmutableStyledLayer",
+  "extends": "_MSImmutableStyledLayer",
+  "interfaces": [],
+  "methods": {
+    "windingRule": {
+      "name": "windingRule",
+      "bridgedName": "windingRule",
+      "args": [],
+      "returns": "NSWindingRule",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareDrawingInContext:inBlock:": {
+      "name": "prepareDrawingInContext:inBlock:",
+      "bridgedName": "prepareDrawingInContext_inBlock",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "usedStyle": {
+      "name": "usedStyle",
+      "pointer": false,
+      "type": "MSImmutableStyle ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldRasterize": {
+      "name": "shouldRasterize",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

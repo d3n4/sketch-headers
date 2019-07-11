@@ -1,0 +1,34 @@
+{
+  "name": "AFCompoundResponseSerializer",
+  "extends": "AFHTTPResponseSerializer",
+  "interfaces": [],
+  "methods": {
+    "compoundSerializerWithResponseSerializers:": {
+      "name": "compoundSerializerWithResponseSerializers:",
+      "bridgedName": "compoundSerializerWithResponseSerializers",
+      "args": [
+        {
+          "name": "responseSerializers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "responseSerializers": {
+      "name": "responseSerializers",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

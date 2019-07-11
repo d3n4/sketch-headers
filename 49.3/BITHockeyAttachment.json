@@ -1,0 +1,68 @@
+{
+  "name": "BITHockeyAttachment",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCoding",
+    "NSCoding",
+    "NSCoding"
+  ],
+  "methods": {
+    "initWithFilename:hockeyAttachmentData:contentType:": {
+      "name": "initWithFilename:hockeyAttachmentData:contentType:",
+      "bridgedName": "initWithFilename_hockeyAttachmentData_contentType",
+      "args": [
+        {
+          "name": "filename",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "hockeyAttachmentData",
+          "type": "NSData *",
+          "nullable": false
+        },
+        {
+          "name": "contentType",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "filename": {
+      "name": "filename",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    },
+    "hockeyAttachmentData": {
+      "name": "hockeyAttachmentData",
+      "pointer": false,
+      "type": "NSData ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "contentType": {
+      "name": "contentType",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

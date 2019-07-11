@@ -1,0 +1,331 @@
+{
+  "name": "MSSidebarListController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSSidebarControllerDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "readDragNodesFromPasteboard:": {
+      "name": "readDragNodesFromPasteboard:",
+      "bridgedName": "readDragNodesFromPasteboard",
+      "args": [
+        {
+          "name": "pboard",
+          "type": "NSPasteboard*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerForNode:": {
+      "name": "layerForNode:",
+      "bridgedName": "layerForNode",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayer*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canMoveNode:toParent:after:": {
+      "name": "canMoveNode:toParent:after:",
+      "bridgedName": "canMoveNode_toParent_after",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "previousNode",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canCopyNode:toParent:after:": {
+      "name": "canCopyNode:toParent:after:",
+      "bridgedName": "canCopyNode_toParent_after",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "previousNode",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveNode:toParent:after:": {
+      "name": "moveNode:toParent:after:",
+      "bridgedName": "moveNode_toParent_after",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "previousNode",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dragTypesForDataController:": {
+      "name": "dragTypesForDataController:",
+      "bridgedName": "dragTypesForDataController",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataController:writeNodes:toPasteboard:": {
+      "name": "dataController:writeNodes:toPasteboard:",
+      "bridgedName": "dataController_writeNodes_toPasteboard",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController*",
+          "nullable": false
+        },
+        {
+          "name": "nodes",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "pboard",
+          "type": "NSPasteboard*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataController:canMoveFromPasteboard:toParent:after:": {
+      "name": "dataController:canMoveFromPasteboard:toParent:after:",
+      "bridgedName": "dataController_canMoveFromPasteboard_toParent_after",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController*",
+          "nullable": false
+        },
+        {
+          "name": "pboard",
+          "type": "NSPasteboard*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "previousNode",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataController:canCopyFromPasteboard:toParent:after:": {
+      "name": "dataController:canCopyFromPasteboard:toParent:after:",
+      "bridgedName": "dataController_canCopyFromPasteboard_toParent_after",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController*",
+          "nullable": false
+        },
+        {
+          "name": "pboard",
+          "type": "NSPasteboard*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "previousNode",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataController:moveFromPasteboard:toParent:after:": {
+      "name": "dataController:moveFromPasteboard:toParent:after:",
+      "bridgedName": "dataController_moveFromPasteboard_toParent_after",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController*",
+          "nullable": false
+        },
+        {
+          "name": "pboard",
+          "type": "NSPasteboard*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "previousNode",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataController:copyFromPasteboard:toParent:after:": {
+      "name": "dataController:copyFromPasteboard:toParent:after:",
+      "bridgedName": "dataController_copyFromPasteboard_toParent_after",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController*",
+          "nullable": false
+        },
+        {
+          "name": "pboard",
+          "type": "NSPasteboard*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "previousNode",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataController:exportNodes:toFolder:": {
+      "name": "dataController:exportNodes:toFolder:",
+      "bridgedName": "dataController_exportNodes_toFolder",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController*",
+          "nullable": false
+        },
+        {
+          "name": "nodes",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "folder",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSSidebarControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "weak"
+      ]
+    },
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSDocumentData*",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "rootObject": {
+      "name": "rootObject",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

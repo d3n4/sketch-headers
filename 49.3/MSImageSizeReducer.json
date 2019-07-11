@@ -1,0 +1,47 @@
+{
+  "name": "MSImageSizeReducer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "reduceImageSizeOfLayers:windowForSheet:completionBlock:": {
+      "name": "reduceImageSizeOfLayers:windowForSheet:completionBlock:",
+      "bridgedName": "reduceImageSizeOfLayers_windowForSheet_completionBlock",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSStyledLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "windowForSheet",
+          "type": "NSWindow *",
+          "nullable": true
+        },
+        {
+          "name": "completionBlock",
+          "type": "BCVoidBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "largestSizeForImagesMapTableFromOwners:": {
+      "name": "largestSizeForImagesMapTableFromOwners:",
+      "bridgedName": "largestSizeForImagesMapTableFromOwners",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <id<MSImageOwner>> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMapTable <MSImageData *, NSValue *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

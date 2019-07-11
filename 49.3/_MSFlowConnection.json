@@ -1,0 +1,28 @@
+{
+  "name": "_MSFlowConnection",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "animationType": {
+      "name": "animationType",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "destinationArtboardID": {
+      "name": "destinationArtboardID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,186 @@
+{
+  "name": "MSPasteboardLayers",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSLayerTraits"
+  ],
+  "methods": {
+    "pasteboardLayersWithLayers:": {
+      "name": "pasteboardLayersWithLayers:",
+      "bridgedName": "pasteboardLayersWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pasteboardLayersWithForeignLayers:": {
+      "name": "pasteboardLayersWithForeignLayers:",
+      "bridgedName": "pasteboardLayersWithForeignLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "insertOnPage:viewport:hint:": {
+      "name": "insertOnPage:viewport:hint:",
+      "bridgedName": "insertOnPage_viewport_hint",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "viewport",
+          "type": "MSPastingViewport *",
+          "nullable": false
+        },
+        {
+          "name": "destinationHint",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "MSPastingViewport *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertInGroup:atPosition:afterLayer:": {
+      "name": "insertInGroup:atPosition:afterLayer:",
+      "bridgedName": "insertInGroup_atPosition_afterLayer",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "position",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "afterLayer",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "traits": {
+      "name": "traits",
+      "bridgedName": "traits",
+      "args": [],
+      "returns": "MSTraits",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canBeContainedInLayer:": {
+      "name": "canBeContainedInLayer:",
+      "bridgedName": "canBeContainedInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unionSize": {
+      "name": "unionSize",
+      "bridgedName": "unionSize",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerPositionsRelativeToUnion": {
+      "name": "layerPositionsRelativeToUnion",
+      "bridgedName": "layerPositionsRelativeToUnion",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "suggestedRect": {
+      "name": "suggestedRect",
+      "bridgedName": "suggestedRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "sharedObjects": {
+      "name": "sharedObjects",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "localSymbols": {
+      "name": "localSymbols",
+      "pointer": true,
+      "type": "NSDictionary<NSString*, MSSymbolMaster*>",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "foreignSymbols": {
+      "name": "foreignSymbols",
+      "pointer": true,
+      "type": "NSDictionary<NSString*, MSForeignSymbol*>",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "suggestedPosition": {
+      "name": "suggestedPosition",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "parentTraits": {
+      "name": "parentTraits",
+      "pointer": false,
+      "type": "MSTraits",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

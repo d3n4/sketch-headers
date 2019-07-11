@@ -1,0 +1,27 @@
+{
+  "name": "MSSVGfeFilterPrimitive",
+  "extends": "MSXMLElementWrapper",
+  "interfaces": [],
+  "methods": {
+    "filter": {
+      "name": "filter",
+      "bridgedName": "filter",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "result": {
+      "name": "result",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

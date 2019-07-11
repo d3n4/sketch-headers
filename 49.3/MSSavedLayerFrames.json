@@ -1,0 +1,55 @@
+{
+  "name": "MSSavedLayerFrames",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithLayer:": {
+      "name": "initWithLayer:",
+      "bridgedName": "initWithLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "savedFrameForLayer:": {
+      "name": "savedFrameForLayer:",
+      "bridgedName": "savedFrameForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "restore": {
+      "name": "restore",
+      "bridgedName": "restore",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSMoveForwardAction",
+  "extends": "MSBaseMoveForwardAction",
+  "interfaces": [],
+  "methods": {
+    "moveForward:": {
+      "name": "moveForward:",
+      "bridgedName": "moveForward",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

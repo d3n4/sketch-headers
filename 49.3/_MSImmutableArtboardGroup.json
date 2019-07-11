@@ -1,0 +1,120 @@
+{
+  "name": "_MSImmutableArtboardGroup",
+  "extends": "MSImmutableLayerGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "hasBackgroundColor": {
+      "name": "hasBackgroundColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "includeBackgroundColorInExport": {
+      "name": "includeBackgroundColorInExport",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "includeInCloudUpload": {
+      "name": "includeInCloudUpload",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isFlowHome": {
+      "name": "isFlowHome",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "presetDictionary": {
+      "name": "presetDictionary",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "resizesContent": {
+      "name": "resizesContent",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "grid": {
+      "name": "grid",
+      "pointer": false,
+      "type": "MSImmutableSimpleGrid ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "horizontalRulerData": {
+      "name": "horizontalRulerData",
+      "pointer": false,
+      "type": "MSImmutableRulerData ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layout": {
+      "name": "layout",
+      "pointer": false,
+      "type": "MSImmutableLayoutGrid ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "verticalRulerData": {
+      "name": "verticalRulerData",
+      "pointer": false,
+      "type": "MSImmutableRulerData ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableSharedStyleContainer",
+  "extends": "_MSImmutableSharedStyleContainer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

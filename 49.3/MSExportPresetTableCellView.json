@@ -1,0 +1,17 @@
+{
+  "name": "MSExportPresetTableCellView",
+  "extends": "NSTableCellView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "defaultPresetButton": {
+      "name": "defaultPresetButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

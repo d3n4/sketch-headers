@@ -1,0 +1,30 @@
+{
+  "name": "_MSImmutableSharedObject",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "MSImmutableModelObject ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

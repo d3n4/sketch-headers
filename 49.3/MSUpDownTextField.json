@@ -1,0 +1,40 @@
+{
+  "name": "MSUpDownTextField",
+  "extends": "NSTextField",
+  "interfaces": [
+    "NSTextViewDelegate",
+    "MSUpDownProtocol",
+    "NSTouchBarDelegate"
+  ],
+  "methods": {
+    "incrementValue": {
+      "name": "incrementValue",
+      "bridgedName": "incrementValue",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "refreshDelegate": {
+      "name": "refreshDelegate",
+      "pointer": false,
+      "type": "IBOutlet id",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "upDownController": {
+      "name": "upDownController",
+      "pointer": false,
+      "type": "MSUpDownController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

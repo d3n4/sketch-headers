@@ -1,0 +1,36 @@
+{
+  "name": "FBEdgeOverlap",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "range": {
+      "name": "range",
+      "pointer": false,
+      "type": "FBBezierIntersectRange ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "edge1": {
+      "name": "edge1",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "edge2": {
+      "name": "edge2",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

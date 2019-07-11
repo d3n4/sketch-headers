@@ -1,0 +1,243 @@
+{
+  "name": "MSPDFTextState",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "textStateWithState:": {
+      "name": "textStateWithState:",
+      "bridgedName": "textStateWithState",
+      "args": [
+        {
+          "name": "state",
+          "type": "MSPDFState*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPDFTextState*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shouldFill": {
+      "name": "shouldFill",
+      "bridgedName": "shouldFill",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldStroke": {
+      "name": "shouldStroke",
+      "bridgedName": "shouldStroke",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldClip": {
+      "name": "shouldClip",
+      "bridgedName": "shouldClip",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTransform:resettingLineTransform:": {
+      "name": "setTransform:resettingLineTransform:",
+      "bridgedName": "setTransform_resettingLineTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "NSAffineTransform*",
+          "nullable": false
+        },
+        {
+          "name": "resettingLineTransform",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetRenderingTransform": {
+      "name": "resetRenderingTransform",
+      "bridgedName": "resetRenderingTransform",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendText:": {
+      "name": "appendText:",
+      "bridgedName": "appendText",
+      "args": [
+        {
+          "name": "text",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "attributes": {
+      "name": "attributes",
+      "bridgedName": "attributes",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "characterSpacing": {
+      "name": "characterSpacing",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "font": {
+      "name": "font",
+      "pointer": false,
+      "type": "NSFont*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "fontName": {
+      "name": "fontName",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "fontInfo": {
+      "name": "fontInfo",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "leading": {
+      "name": "leading",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "lineTransform": {
+      "name": "lineTransform",
+      "pointer": false,
+      "type": "NSAffineTransform*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "mode": {
+      "name": "mode",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "offset": {
+      "name": "offset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "renderingTransform": {
+      "name": "renderingTransform",
+      "pointer": false,
+      "type": "NSAffineTransform*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "rise": {
+      "name": "rise",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "state": {
+      "name": "state",
+      "pointer": false,
+      "type": "MSPDFState*",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "text": {
+      "name": "text",
+      "pointer": false,
+      "type": "NSMutableAttributedString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "transform": {
+      "name": "transform",
+      "pointer": false,
+      "type": "NSAffineTransform*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "wordSpacing": {
+      "name": "wordSpacing",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

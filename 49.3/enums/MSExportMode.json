@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSExportMode",
+  "members": [
+    {
+      "name": "MSExportModeImagesAndMetadata"
+    },
+    {
+      "name": "MSExportModeMetadataOnly"
+    }
+  ]
+}

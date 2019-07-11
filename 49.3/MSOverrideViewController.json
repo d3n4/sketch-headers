@@ -1,0 +1,127 @@
+{
+  "name": "MSOverrideViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSDataMenuProviderDelegate"
+  ],
+  "methods": {
+    "initWithPrimaryOverride:": {
+      "name": "initWithPrimaryOverride:",
+      "bridgedName": "initWithPrimaryOverride",
+      "args": [
+        {
+          "name": "override",
+          "type": "MSAvailableOverride*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "labelView": {
+      "name": "labelView",
+      "bridgedName": "labelView",
+      "args": [],
+      "returns": "NSTextField *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "build": {
+      "name": "build",
+      "bridgedName": "build",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportedDataProviders": {
+      "name": "supportedDataProviders",
+      "bridgedName": "supportedDataProviders",
+      "args": [],
+      "returns": "MSDataType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "controlViewForEditingOverride": {
+      "name": "controlViewForEditingOverride",
+      "bridgedName": "controlViewForEditingOverride",
+      "args": [],
+      "returns": "NSControl *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueFromControlView:": {
+      "name": "valueFromControlView:",
+      "bridgedName": "valueFromControlView",
+      "args": [
+        {
+          "name": "controlView",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overrideValueAction:": {
+      "name": "overrideValueAction:",
+      "bridgedName": "overrideValueAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyOverrideToSelectedLayers:": {
+      "name": "applyOverrideToSelectedLayers:",
+      "bridgedName": "applyOverrideToSelectedLayers",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "primaryOverride": {
+      "name": "primaryOverride",
+      "pointer": false,
+      "type": "MSAvailableOverride ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "instances": {
+      "name": "instances",
+      "pointer": false,
+      "type": "NSArray<MSSymbolInstance*> ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "hasSingleOverride": {
+      "name": "hasSingleOverride",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

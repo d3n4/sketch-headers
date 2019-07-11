@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "BCRect",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "origin": {
+      "name": "origin",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  }
+}

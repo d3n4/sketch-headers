@@ -1,0 +1,597 @@
+{
+  "name": "MSPluginManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initialisePlugins": {
+      "name": "initialisePlugins",
+      "bridgedName": "initialisePlugins",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "mainPluginsFolderURL": {
+      "name": "mainPluginsFolderURL",
+      "bridgedName": "mainPluginsFolderURL",
+      "args": [],
+      "returns": "NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "defaultPluginURL": {
+      "name": "defaultPluginURL",
+      "bridgedName": "defaultPluginURL",
+      "args": [],
+      "returns": "NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pluginsURLs": {
+      "name": "pluginsURLs",
+      "bridgedName": "pluginsURLs",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "warehousePluginFolderForIdentifier:withVersion:": {
+      "name": "warehousePluginFolderForIdentifier:withVersion:",
+      "bridgedName": "warehousePluginFolderForIdentifier_withVersion",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithPluginsFolderURLs:updater:pluginStateManager:": {
+      "name": "initWithPluginsFolderURLs:updater:pluginStateManager:",
+      "bridgedName": "initWithPluginsFolderURLs_updater_pluginStateManager",
+      "args": [
+        {
+          "name": "pluginsFolderURLs",
+          "type": "NSArray *",
+          "nullable": true
+        },
+        {
+          "name": "updater",
+          "type": "id <MSPluginUpdater>",
+          "nullable": true
+        },
+        {
+          "name": "stateManager",
+          "type": "MSPluginManagingState *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enablePlugin:": {
+      "name": "enablePlugin:",
+      "bridgedName": "enablePlugin",
+      "args": [
+        {
+          "name": "pluginBundle",
+          "type": "MSPluginBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disablePlugin:": {
+      "name": "disablePlugin:",
+      "bridgedName": "disablePlugin",
+      "args": [
+        {
+          "name": "pluginBundle",
+          "type": "MSPluginBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enabledPlugins": {
+      "name": "enabledPlugins",
+      "bridgedName": "enabledPlugins",
+      "args": [],
+      "returns": "NSArray<MSPluginBundle*>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disabledPlugins": {
+      "name": "disabledPlugins",
+      "bridgedName": "disabledPlugins",
+      "args": [],
+      "returns": "NSArray<MSPluginBundle*>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "versionsForPlugin:": {
+      "name": "versionsForPlugin:",
+      "bridgedName": "versionsForPlugin",
+      "args": [
+        {
+          "name": "pluginBundle",
+          "type": "MSPluginBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPluginVersions *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadPlugins": {
+      "name": "reloadPlugins",
+      "bridgedName": "reloadPlugins",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "commandWithSpecifier:": {
+      "name": "commandWithSpecifier:",
+      "bridgedName": "commandWithSpecifier",
+      "args": [
+        {
+          "name": "specifier",
+          "type": "MSPluginCommandSpecifier *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSPluginCommand *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addPluginsToMenu:selector:": {
+      "name": "addPluginsToMenu:selector:",
+      "bridgedName": "addPluginsToMenu_selector",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stopTrackingLongRunningCommandWithSpecifier:": {
+      "name": "stopTrackingLongRunningCommandWithSpecifier:",
+      "bridgedName": "stopTrackingLongRunningCommandWithSpecifier",
+      "args": [
+        {
+          "name": "specifier",
+          "type": "MSPluginCommandSpecifier*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSPluginCommand*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trackLongRunningCommand:onComplete:": {
+      "name": "trackLongRunningCommand:onComplete:",
+      "bridgedName": "trackLongRunningCommand_onComplete",
+      "args": [
+        {
+          "name": "command",
+          "type": "MSPluginCommand*",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "void (^)(NSString*)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "editBundle:": {
+      "name": "editBundle:",
+      "bridgedName": "editBundle",
+      "args": [
+        {
+          "name": "bundle",
+          "type": "MSPluginBundle*",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runHandlerWithKey:fromCommand:inPlugin:withContext:": {
+      "name": "runHandlerWithKey:fromCommand:inPlugin:withContext:",
+      "bridgedName": "runHandlerWithKey_fromCommand_inPlugin_withContext",
+      "args": [
+        {
+          "name": "handlerKey",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "commandIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "pluginIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary <NSString *, id> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkForPluginUpdatesWithHandler:completionHandler:": {
+      "name": "checkForPluginUpdatesWithHandler:completionHandler:",
+      "bridgedName": "checkForPluginUpdatesWithHandler_completionHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^)(NSError *error, MSPluginBundle *plugin, NSString *latestAvailableUpdateVersion)",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(void)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkForPluginUpdates:handler:completionHandler:": {
+      "name": "checkForPluginUpdates:handler:completionHandler:",
+      "bridgedName": "checkForPluginUpdates_handler_completionHandler",
+      "args": [
+        {
+          "name": "plugins",
+          "type": "NSArray <MSPluginBundle*> *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "void (^)(NSError *error, MSPluginBundle *plugin, NSString *latestAvailableUpdateVersion)",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(void)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadCompatiblePluginUpdatesWithCompletionHandler:": {
+      "name": "downloadCompatiblePluginUpdatesWithCompletionHandler:",
+      "bridgedName": "downloadCompatiblePluginUpdatesWithCompletionHandler",
+      "args": [
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSArray <NSError *> *errors)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadLatestPluginUpdatesWithCompletionHandler:": {
+      "name": "downloadLatestPluginUpdatesWithCompletionHandler:",
+      "bridgedName": "downloadLatestPluginUpdatesWithCompletionHandler",
+      "args": [
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSArray <NSError *> *errors)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadPluginUpdates:withCompletionHandler:": {
+      "name": "downloadPluginUpdates:withCompletionHandler:",
+      "bridgedName": "downloadPluginUpdates_withCompletionHandler",
+      "args": [
+        {
+          "name": "updates",
+          "type": "NSDictionary <NSString *, NSDictionary <NSString *, NSURL *> *> *",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSArray <NSError *> *errors)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isPluginUpdateDownloadedWithIdentifier:version:": {
+      "name": "isPluginUpdateDownloadedWithIdentifier:version:",
+      "bridgedName": "isPluginUpdateDownloadedWithIdentifier_version",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadPluginUpdate:withVersion:completionHandler:": {
+      "name": "downloadPluginUpdate:withVersion:completionHandler:",
+      "bridgedName": "downloadPluginUpdate_withVersion_completionHandler",
+      "args": [
+        {
+          "name": "pluginIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "pluginVersion",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "downloadCompletionHandler",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadAndInstallPluginWithIdentifier:version:downloadCompletionHandler:": {
+      "name": "downloadAndInstallPluginWithIdentifier:version:downloadCompletionHandler:",
+      "bridgedName": "downloadAndInstallPluginWithIdentifier_version_downloadCompletionHandler",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "downloadCompletionHandler",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installPluginWithIdentifier:version:error:": {
+      "name": "installPluginWithIdentifier:version:error:",
+      "bridgedName": "installPluginWithIdentifier_version_error",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isPluginWithIdentifier:incompatibleWithVersion:": {
+      "name": "isPluginWithIdentifier:incompatibleWithVersion:",
+      "bridgedName": "isPluginWithIdentifier_incompatibleWithVersion",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelDownloadingPluginVersions": {
+      "name": "cancelDownloadingPluginVersions",
+      "bridgedName": "cancelDownloadingPluginVersions",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearPluginsCache": {
+      "name": "clearPluginsCache",
+      "bridgedName": "clearPluginsCache",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearFolderMonitors": {
+      "name": "clearFolderMonitors",
+      "bridgedName": "clearFolderMonitors",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerIncompatiblePlugins": {
+      "name": "registerIncompatiblePlugins",
+      "bridgedName": "registerIncompatiblePlugins",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadRemotePluginsBlacklist": {
+      "name": "downloadRemotePluginsBlacklist",
+      "bridgedName": "downloadRemotePluginsBlacklist",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pluginsFolderURLs": {
+      "name": "pluginsFolderURLs",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "mainPluginsFolderURL": {
+      "name": "mainPluginsFolderURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "plugins": {
+      "name": "plugins",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, MSPluginBundle*>",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "numberOfPluginsWithUpdates": {
+      "name": "numberOfPluginsWithUpdates",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfPluginsWithSketchCompatibleUpdates": {
+      "name": "numberOfPluginsWithSketchCompatibleUpdates",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfIncompatiblePluginsDisabled": {
+      "name": "numberOfIncompatiblePluginsDisabled",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readwrite"
+      ]
+    },
+    "incompatiblePluginsWithCompatibleUpdates": {
+      "name": "incompatiblePluginsWithCompatibleUpdates",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, NSString *>",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "pluginsWarehouseURL": {
+      "name": "pluginsWarehouseURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "class",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "updatesAddedToWarehouse": {
+      "name": "updatesAddedToWarehouse",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "disableAllPlugins": {
+      "name": "disableAllPlugins",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,68 @@
+{
+  "name": "SCKAuthenticatedUser",
+  "extends": "SCKUser",
+  "interfaces": [
+    "SCKAPIAuthentication"
+  ],
+  "methods": {
+    "initWithObjectID:authToken:": {
+      "name": "initWithObjectID:authToken:",
+      "bridgedName": "initWithObjectID_authToken",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "nonnull SCKObjectID *",
+          "nullable": false
+        },
+        {
+          "name": "authToken",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "current": {
+      "name": "current",
+      "bridgedName": "current",
+      "args": [],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "logout": {
+      "name": "logout",
+      "bridgedName": "logout",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "login": {
+      "name": "login",
+      "bridgedName": "login",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loginToEnvironment:": {
+      "name": "loginToEnvironment:",
+      "bridgedName": "loginToEnvironment",
+      "args": [
+        {
+          "name": "environment",
+          "type": "nonnull SCKEnvironment *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

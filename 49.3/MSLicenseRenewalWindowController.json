@@ -1,0 +1,19 @@
+{
+  "name": "MSLicenseRenewalWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [
+    "NSWindowDelegate"
+  ],
+  "methods": {
+    "showLicenseUpdateWindow": {
+      "name": "showLicenseUpdateWindow",
+      "bridgedName": "showLicenseUpdateWindow",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

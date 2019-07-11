@@ -1,0 +1,119 @@
+{
+  "name": "MSRenderMonitor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "recordEvent:": {
+      "name": "recordEvent:",
+      "bridgedName": "recordEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "MSRenderMonitorEvent",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "recordEvent:timestamp:": {
+      "name": "recordEvent:timestamp:",
+      "bridgedName": "recordEvent_timestamp",
+      "args": [
+        {
+          "name": "event",
+          "type": "MSRenderMonitorEvent",
+          "nullable": false
+        },
+        {
+          "name": "timestamp",
+          "type": "BCTime",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "timestampForEvent:": {
+      "name": "timestampForEvent:",
+      "bridgedName": "timestampForEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "MSRenderMonitorEvent",
+          "nullable": false
+        }
+      ],
+      "returns": "BCTime",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "timeIntervalBetweenStartEvent:endEvent:": {
+      "name": "timeIntervalBetweenStartEvent:endEvent:",
+      "bridgedName": "timeIntervalBetweenStartEvent_endEvent",
+      "args": [
+        {
+          "name": "startEvent",
+          "type": "MSRenderMonitorEvent",
+          "nullable": false
+        },
+        {
+          "name": "endEvent",
+          "type": "MSRenderMonitorEvent",
+          "nullable": false
+        }
+      ],
+      "returns": "NSTimeInterval",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerHook:forEvent:": {
+      "name": "registerHook:forEvent:",
+      "bridgedName": "registerHook_forEvent",
+      "args": [
+        {
+          "name": "hook",
+          "type": "MSRenderMonitorHook",
+          "nullable": false
+        },
+        {
+          "name": "event",
+          "type": "MSRenderMonitorEvent",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "shouldRemoveWhenDone": {
+      "name": "shouldRemoveWhenDone",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "shouldClearAllCaches": {
+      "name": "shouldClearAllCaches",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "shouldForceFullRedraw": {
+      "name": "shouldForceFullRedraw",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

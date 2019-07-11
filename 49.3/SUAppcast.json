@@ -1,0 +1,91 @@
+{
+  "name": "SUAppcast",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSURLDownloadDelegate"
+  ],
+  "methods": {
+    "fetchAppcastFromURL:inBackground:completionBlock:": {
+      "name": "fetchAppcastFromURL:inBackground:completionBlock:",
+      "bridgedName": "fetchAppcastFromURL_inBackground_completionBlock",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "bg",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "err",
+          "type": "void (^)(NSError *_Nullable)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "copyWithoutDeltaUpdates": {
+      "name": "copyWithoutDeltaUpdates",
+      "bridgedName": "copyWithoutDeltaUpdates",
+      "args": [],
+      "returns": "SUAppcast *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parseAppcastItemsFromXMLFile:error:": {
+      "name": "parseAppcastItemsFromXMLFile:error:",
+      "bridgedName": "parseAppcastItemsFromXMLFile_error",
+      "args": [
+        {
+          "name": "appcastFile",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "errorp",
+          "type": "NSError *_Nullable __autoreleasing *_Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "userAgentString": {
+      "name": "userAgentString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "nullable"
+      ]
+    },
+    "httpHeaders": {
+      "name": "httpHeaders",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy",
+        "nullable"
+      ]
+    },
+    "items": {
+      "name": "items",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "readonly",
+        "copy",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

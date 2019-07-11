@@ -1,0 +1,984 @@
+{
+  "name": "PDFScanner",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scanPage:parser:": {
+      "name": "scanPage:parser:",
+      "bridgedName": "scanPage_parser",
+      "args": [
+        {
+          "name": "page",
+          "type": "CGPDFPageRef",
+          "nullable": false
+        },
+        {
+          "name": "parser",
+          "type": "PDFParser*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scanStream:dictionary:": {
+      "name": "scanStream:dictionary:",
+      "bridgedName": "scanStream_dictionary",
+      "args": [
+        {
+          "name": "stream",
+          "type": "CGPDFContentStreamRef",
+          "nullable": false
+        },
+        {
+          "name": "dictionary",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popBool": {
+      "name": "popBool",
+      "bridgedName": "popBool",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popDouble": {
+      "name": "popDouble",
+      "bridgedName": "popDouble",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popInteger": {
+      "name": "popInteger",
+      "bridgedName": "popInteger",
+      "args": [],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popRGBColor": {
+      "name": "popRGBColor",
+      "bridgedName": "popRGBColor",
+      "args": [],
+      "returns": "NSColor*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popCMYKColor": {
+      "name": "popCMYKColor",
+      "bridgedName": "popCMYKColor",
+      "args": [],
+      "returns": "NSColor*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popNumber": {
+      "name": "popNumber",
+      "bridgedName": "popNumber",
+      "args": [],
+      "returns": "NSNumber*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popPoint": {
+      "name": "popPoint",
+      "bridgedName": "popPoint",
+      "args": [],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popString": {
+      "name": "popString",
+      "bridgedName": "popString",
+      "args": [],
+      "returns": "PDFString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popName": {
+      "name": "popName",
+      "bridgedName": "popName",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popTransform": {
+      "name": "popTransform",
+      "bridgedName": "popTransform",
+      "args": [],
+      "returns": "NSAffineTransform*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popArray": {
+      "name": "popArray",
+      "bridgedName": "popArray",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popObject": {
+      "name": "popObject",
+      "bridgedName": "popObject",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertObject:": {
+      "name": "convertObject:",
+      "bridgedName": "convertObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "CGPDFObjectRef",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "convertArray:": {
+      "name": "convertArray:",
+      "bridgedName": "convertArray",
+      "args": [
+        {
+          "name": "array",
+          "type": "CGPDFArrayRef",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "convertDictionary:": {
+      "name": "convertDictionary:",
+      "bridgedName": "convertDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "CGPDFDictionaryRef",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorSpaceWithInfo:mapping:": {
+      "name": "colorSpaceWithInfo:mapping:",
+      "bridgedName": "colorSpaceWithInfo_mapping",
+      "args": [
+        {
+          "name": "info",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "mapping",
+          "type": "PDFFunction*__autoreleasing*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "gradientForPattern:": {
+      "name": "gradientForPattern:",
+      "bridgedName": "gradientForPattern",
+      "args": [
+        {
+          "name": "pattern",
+          "type": "PDFPattern *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSGradient*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentPoint": {
+      "name": "currentPoint",
+      "bridgedName": "currentPoint",
+      "args": [],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentLeading": {
+      "name": "currentLeading",
+      "bridgedName": "currentLeading",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentFillColorSpace": {
+      "name": "currentFillColorSpace",
+      "bridgedName": "currentFillColorSpace",
+      "args": [],
+      "returns": "NSColorSpace*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentFillColorSpaceMapping": {
+      "name": "currentFillColorSpaceMapping",
+      "bridgedName": "currentFillColorSpaceMapping",
+      "args": [],
+      "returns": "PDFFunction*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentStrokeColorSpace": {
+      "name": "currentStrokeColorSpace",
+      "bridgedName": "currentStrokeColorSpace",
+      "args": [],
+      "returns": "NSColorSpace*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentStrokeColorSpaceMapping": {
+      "name": "currentStrokeColorSpaceMapping",
+      "bridgedName": "currentStrokeColorSpaceMapping",
+      "args": [],
+      "returns": "PDFFunction*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentFont": {
+      "name": "currentFont",
+      "bridgedName": "currentFont",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveTo:": {
+      "name": "moveTo:",
+      "bridgedName": "moveTo",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lineTo:": {
+      "name": "lineTo:",
+      "bridgedName": "lineTo",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "curveTo:control1:control2:": {
+      "name": "curveTo:control1:control2:",
+      "bridgedName": "curveTo_control1_control2",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "control1",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "control2",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closePath": {
+      "name": "closePath",
+      "bridgedName": "closePath",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endPath": {
+      "name": "endPath",
+      "bridgedName": "endPath",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendRectangle:": {
+      "name": "appendRectangle:",
+      "bridgedName": "appendRectangle",
+      "args": [
+        {
+          "name": "rectangle",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defineMarkedPoint": {
+      "name": "defineMarkedPoint",
+      "bridgedName": "defineMarkedPoint",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processXObject:": {
+      "name": "processXObject:",
+      "bridgedName": "processXObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "PDFStream*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processForm:": {
+      "name": "processForm:",
+      "bridgedName": "processForm",
+      "args": [
+        {
+          "name": "form",
+          "type": "PDFStream*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processImage:info:": {
+      "name": "processImage:info:",
+      "bridgedName": "processImage_info",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage*",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "concatMatrix:": {
+      "name": "concatMatrix:",
+      "bridgedName": "concatMatrix",
+      "args": [
+        {
+          "name": "transform",
+          "type": "NSAffineTransform*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "saveGraphicState": {
+      "name": "saveGraphicState",
+      "bridgedName": "saveGraphicState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "restoreGraphicState": {
+      "name": "restoreGraphicState",
+      "bridgedName": "restoreGraphicState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setLineWidth:": {
+      "name": "setLineWidth:",
+      "bridgedName": "setLineWidth",
+      "args": [
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setLineJoin:": {
+      "name": "setLineJoin:",
+      "bridgedName": "setLineJoin",
+      "args": [
+        {
+          "name": "join",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setLineCap:": {
+      "name": "setLineCap:",
+      "bridgedName": "setLineCap",
+      "args": [
+        {
+          "name": "cap",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setLineDash:phase:": {
+      "name": "setLineDash:phase:",
+      "bridgedName": "setLineDash_phase",
+      "args": [
+        {
+          "name": "dashes",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "phase",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setMitreLimit:": {
+      "name": "setMitreLimit:",
+      "bridgedName": "setMitreLimit",
+      "args": [
+        {
+          "name": "limit",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setStrokeColourSpace:mapping:": {
+      "name": "setStrokeColourSpace:mapping:",
+      "bridgedName": "setStrokeColourSpace_mapping",
+      "args": [
+        {
+          "name": "space",
+          "type": "NSColorSpace*",
+          "nullable": false
+        },
+        {
+          "name": "mapping",
+          "type": "PDFFunction*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFillColourSpace:mapping:": {
+      "name": "setFillColourSpace:mapping:",
+      "bridgedName": "setFillColourSpace_mapping",
+      "args": [
+        {
+          "name": "space",
+          "type": "NSColorSpace*",
+          "nullable": false
+        },
+        {
+          "name": "mapping",
+          "type": "PDFFunction*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setColourRenderingIntent:": {
+      "name": "setColourRenderingIntent:",
+      "bridgedName": "setColourRenderingIntent",
+      "args": [
+        {
+          "name": "intent",
+          "type": "CGColorRenderingIntent",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFillColour:": {
+      "name": "setFillColour:",
+      "bridgedName": "setFillColour",
+      "args": [
+        {
+          "name": "colour",
+          "type": "NSColor*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setStrokeColour:": {
+      "name": "setStrokeColour:",
+      "bridgedName": "setStrokeColour",
+      "args": [
+        {
+          "name": "colour",
+          "type": "NSColor*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFillPattern:": {
+      "name": "setFillPattern:",
+      "bridgedName": "setFillPattern",
+      "args": [
+        {
+          "name": "pattern",
+          "type": "PDFPattern*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setStrokePattern:": {
+      "name": "setStrokePattern:",
+      "bridgedName": "setStrokePattern",
+      "args": [
+        {
+          "name": "pattern",
+          "type": "PDFPattern*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFillAlphaConstant:": {
+      "name": "setFillAlphaConstant:",
+      "bridgedName": "setFillAlphaConstant",
+      "args": [
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setStrokeAlphaConstant:": {
+      "name": "setStrokeAlphaConstant:",
+      "bridgedName": "setStrokeAlphaConstant",
+      "args": [
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clipWithWinding:": {
+      "name": "clipWithWinding:",
+      "bridgedName": "clipWithWinding",
+      "args": [
+        {
+          "name": "winding",
+          "type": "NSWindingRule",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillWithWinding:": {
+      "name": "fillWithWinding:",
+      "bridgedName": "fillWithWinding",
+      "args": [
+        {
+          "name": "winding",
+          "type": "NSWindingRule",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillWithShadingPattern:": {
+      "name": "fillWithShadingPattern:",
+      "bridgedName": "fillWithShadingPattern",
+      "args": [
+        {
+          "name": "pattern",
+          "type": "PDFPattern*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "strokeWithWinding:": {
+      "name": "strokeWithWinding:",
+      "bridgedName": "strokeWithWinding",
+      "args": [
+        {
+          "name": "winding",
+          "type": "NSWindingRule",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginCompatibility": {
+      "name": "beginCompatibility",
+      "bridgedName": "beginCompatibility",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endCompatibility": {
+      "name": "endCompatibility",
+      "bridgedName": "endCompatibility",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginMarkedContentWithProperty": {
+      "name": "beginMarkedContentWithProperty",
+      "bridgedName": "beginMarkedContentWithProperty",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginMarkedContent": {
+      "name": "beginMarkedContent",
+      "bridgedName": "beginMarkedContent",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endMarkedContent": {
+      "name": "endMarkedContent",
+      "bridgedName": "endMarkedContent",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginImage": {
+      "name": "beginImage",
+      "bridgedName": "beginImage",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setOverprintMode:": {
+      "name": "setOverprintMode:",
+      "bridgedName": "setOverprintMode",
+      "args": [
+        {
+          "name": "mode",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginText": {
+      "name": "beginText",
+      "bridgedName": "beginText",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFontName:size:info:": {
+      "name": "setFontName:size:info:",
+      "bridgedName": "setFontName_size_info",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTextCharacterSpacing:": {
+      "name": "setTextCharacterSpacing:",
+      "bridgedName": "setTextCharacterSpacing",
+      "args": [
+        {
+          "name": "spacing",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTextWordSpacing:": {
+      "name": "setTextWordSpacing:",
+      "bridgedName": "setTextWordSpacing",
+      "args": [
+        {
+          "name": "spacing",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTextLeading:": {
+      "name": "setTextLeading:",
+      "bridgedName": "setTextLeading",
+      "args": [
+        {
+          "name": "spacing",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTextRise:": {
+      "name": "setTextRise:",
+      "bridgedName": "setTextRise",
+      "args": [
+        {
+          "name": "spacing",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTextScale:": {
+      "name": "setTextScale:",
+      "bridgedName": "setTextScale",
+      "args": [
+        {
+          "name": "spacing",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTextMode:": {
+      "name": "setTextMode:",
+      "bridgedName": "setTextMode",
+      "args": [
+        {
+          "name": "mode",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTextMatrix:": {
+      "name": "setTextMatrix:",
+      "bridgedName": "setTextMatrix",
+      "args": [
+        {
+          "name": "matrix",
+          "type": "NSAffineTransform*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "offset:": {
+      "name": "offset:",
+      "bridgedName": "offset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nextLineWithOffset:": {
+      "name": "nextLineWithOffset:",
+      "bridgedName": "nextLineWithOffset",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendText:": {
+      "name": "appendText:",
+      "bridgedName": "appendText",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endText": {
+      "name": "endText",
+      "bridgedName": "endText",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "declareGlyph": {
+      "name": "declareGlyph",
+      "bridgedName": "declareGlyph",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "glyphBounds": {
+      "name": "glyphBounds",
+      "bridgedName": "glyphBounds",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dictionary": {
+      "name": "dictionary",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

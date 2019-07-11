@@ -1,0 +1,28 @@
+{
+  "name": "NSGradient",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "interpolatedGradientWithExtraStops:function:": {
+      "name": "interpolatedGradientWithExtraStops:function:",
+      "bridgedName": "interpolatedGradientWithExtraStops_function",
+      "args": [
+        {
+          "name": "extraStops",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "function",
+          "type": "GradientInterpolationFunction",
+          "nullable": false
+        }
+      ],
+      "returns": "NSGradient*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

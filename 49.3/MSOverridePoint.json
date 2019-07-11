@@ -1,0 +1,84 @@
+{
+  "name": "MSOverridePoint",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithLayer:property:parent:": {
+      "name": "initWithLayer:property:parent:",
+      "bridgedName": "initWithLayer_property_parent",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer*",
+          "nullable": false
+        },
+        {
+          "name": "property",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "MSOverridePoint*",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "comparisonScoreAgainst:": {
+      "name": "comparisonScoreAgainst:",
+      "bridgedName": "comparisonScoreAgainst",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSOverridePoint*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layerID": {
+      "name": "layerID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "property": {
+      "name": "property",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isSymbolOverride": {
+      "name": "isSymbolOverride",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,106 @@
+{
+  "name": "MSImmutableShapePathLayer",
+  "extends": "_MSImmutableShapePathLayer",
+  "interfaces": [],
+  "methods": {
+    "bezierPathInRect:": {
+      "name": "bezierPathInRect:",
+      "bridgedName": "bezierPathInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathWithoutTransformsInRect:": {
+      "name": "bezierPathWithoutTransformsInRect:",
+      "bridgedName": "bezierPathWithoutTransformsInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathInRect:": {
+      "name": "pathInRect:",
+      "bridgedName": "pathInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isEditing": {
+      "name": "isEditing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "usedStyle": {
+      "name": "usedStyle",
+      "pointer": false,
+      "type": "MSImmutableStyle ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "isPolygon": {
+      "name": "isPolygon",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isPolyline": {
+      "name": "isPolyline",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isRectangle": {
+      "name": "isRectangle",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfCurvePoints": {
+      "name": "numberOfCurvePoints",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

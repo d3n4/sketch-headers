@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSLayoutGridStyle",
+  "members": [
+    {
+      "name": "MSLayoutGridStyleFill"
+    },
+    {
+      "name": "MSLayoutGridStyleBorder"
+    }
+  ]
+}

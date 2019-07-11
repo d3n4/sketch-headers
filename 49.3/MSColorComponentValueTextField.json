@@ -1,0 +1,18 @@
+{
+  "name": "MSColorComponentValueTextField",
+  "extends": "MSTextFieldKeyEventForwarder",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "counterpart": {
+      "name": "counterpart",
+      "pointer": false,
+      "type": "IBOutlet MSColorComponentValueTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

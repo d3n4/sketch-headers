@@ -1,0 +1,88 @@
+{
+  "name": "BCSparkleLicensedUpdateChecker",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sparkleCheckerWithLicenseExpirationDate:buildNumber:appcastResults:": {
+      "name": "sparkleCheckerWithLicenseExpirationDate:buildNumber:appcastResults:",
+      "bridgedName": "sparkleCheckerWithLicenseExpirationDate_buildNumber_appcastResults",
+      "args": [
+        {
+          "name": "date",
+          "type": "nonnull NSDate*",
+          "nullable": false
+        },
+        {
+          "name": "buildNumber",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "results",
+          "type": "NSArray<NSDictionary*>*",
+          "nullable": false
+        }
+      ],
+      "returns": "BCSparkleLicensedUpdateChecker*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "numberOfUnavailableReleases": {
+      "name": "numberOfUnavailableReleases",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasAvailableUpdates": {
+      "name": "hasAvailableUpdates",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableVersion": {
+      "name": "latestUnavailableVersion",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "latestUnavailableBuildNumber": {
+      "name": "latestUnavailableBuildNumber",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "indexOfBestUpdate": {
+      "name": "indexOfBestUpdate",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasUnlicensedUpdatesOnly": {
+      "name": "hasUnlicensedUpdatesOnly",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

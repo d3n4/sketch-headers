@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSDocumentPreviewGeneration",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "generatePreviewsForDocument:": {
+      "name": "generatePreviewsForDocument:",
+      "bridgedName": "generatePreviewsForDocument",
+      "args": [
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary<NSString *, NSData *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

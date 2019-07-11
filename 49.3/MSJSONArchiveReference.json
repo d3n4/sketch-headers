@@ -1,0 +1,25 @@
+{
+  "name": "MSJSONArchiveReference",
+  "extends": "NSObject",
+  "interfaces": [
+    "BCJSONEncoding"
+  ],
+  "methods": {
+    "initWithReferenceObject:": {
+      "name": "initWithReferenceObject:",
+      "bridgedName": "initWithReferenceObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull NSObject<MSCoding>*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

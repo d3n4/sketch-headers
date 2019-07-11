@@ -1,0 +1,17 @@
+{
+  "name": "MSBaseAlignAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "textAlignment": {
+      "name": "textAlignment",
+      "bridgedName": "textAlignment",
+      "args": [],
+      "returns": "NSTextAlignment",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

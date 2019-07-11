@@ -1,0 +1,50 @@
+{
+  "name": "MSNormalBaseEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [],
+  "methods": {
+    "cursorForCorner:transformStruct:": {
+      "name": "cursorForCorner:transformStruct:",
+      "bridgedName": "cursorForCorner_transformStruct",
+      "args": [
+        {
+          "name": "corner",
+          "type": "BCCorner",
+          "nullable": false
+        },
+        {
+          "name": "rotation",
+          "type": "CHTransformStruct",
+          "nullable": false
+        }
+      ],
+      "returns": "NSCursor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeParentsOfSelectedLayersToFit": {
+      "name": "resizeParentsOfSelectedLayersToFit",
+      "bridgedName": "resizeParentsOfSelectedLayersToFit",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "configureInspector:": {
+      "name": "configureInspector:",
+      "bridgedName": "configureInspector",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSInspectorController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

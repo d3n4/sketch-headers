@@ -1,0 +1,139 @@
+{
+  "name": "NoodleLineNumberView",
+  "extends": "NSRulerView",
+  "interfaces": [],
+  "methods": {
+    "initWithScrollView:": {
+      "name": "initWithScrollView:",
+      "bridgedName": "initWithScrollView",
+      "args": [
+        {
+          "name": "aScrollView",
+          "type": "NSScrollView *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFont:": {
+      "name": "setFont:",
+      "bridgedName": "setFont",
+      "args": [
+        {
+          "name": "aFont",
+          "type": "NSFont *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "font": {
+      "name": "font",
+      "bridgedName": "font",
+      "args": [],
+      "returns": "NSFont *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTextColor:": {
+      "name": "setTextColor:",
+      "bridgedName": "setTextColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textColor": {
+      "name": "textColor",
+      "bridgedName": "textColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setAlternateTextColor:": {
+      "name": "setAlternateTextColor:",
+      "bridgedName": "setAlternateTextColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "alternateTextColor": {
+      "name": "alternateTextColor",
+      "bridgedName": "alternateTextColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setBackgroundColor:": {
+      "name": "setBackgroundColor:",
+      "bridgedName": "setBackgroundColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "bridgedName": "backgroundColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lineNumberForLocation:": {
+      "name": "lineNumberForLocation:",
+      "bridgedName": "lineNumberForLocation",
+      "args": [
+        {
+          "name": "location",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "markerAtLine:": {
+      "name": "markerAtLine:",
+      "bridgedName": "markerAtLine",
+      "args": [
+        {
+          "name": "line",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NoodleLineNumberMarker *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

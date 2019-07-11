@@ -1,0 +1,30 @@
+{
+  "enum": true,
+  "name": "MSPageOverlayRenderOptions",
+  "members": [
+    {
+      "name": "MSPageOverlayRenderTitles",
+      "value": "0x01"
+    },
+    {
+      "name": "MSPageOverlayRenderShadows",
+      "value": "0x02"
+    },
+    {
+      "name": "MSPageOverlayRenderGrids",
+      "value": "0x04"
+    },
+    {
+      "name": "MSPageOverlayRenderPixels",
+      "value": "0x08"
+    },
+    {
+      "name": "MSPageOverlayRenderSlices",
+      "value": "0x10"
+    },
+    {
+      "name": "MSPageOverlayRenderFlows",
+      "value": "0x20"
+    }
+  ]
+}
