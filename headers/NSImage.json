@@ -325,17 +325,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "imageWithDataFixingInvalidGamma:": {
-      "name": "imageWithDataFixingInvalidGamma:",
-      "bridgedName": "imageWithDataFixingInvalidGamma",
+    "pngDataByFixingInvalidGamma:": {
+      "name": "pngDataByFixingInvalidGamma:",
+      "bridgedName": "pngDataByFixingInvalidGamma",
       "args": [
         {
           "name": "data",
-          "type": "NSData*",
+          "type": "NSData *",
           "nullable": false
         }
       ],
-      "returns": "NSImage*",
+      "returns": "NSData *",
       "kind": "class",
       "kindIndicator": "+"
     },
