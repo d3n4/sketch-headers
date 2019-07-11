@@ -1,6 +1,6 @@
 {
-  "name": "MSTextSnapItem",
-  "extends": "MSSnapItem",
+  "name": "MSMainMenuDataAction",
+  "extends": "MSDataMenuBaseAction",
   "interfaces": [],
   "methods": {},
   "properties": {},

@@ -32,6 +32,15 @@
         "nullable",
         "readonly"
       ]
+    },
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   }
 }

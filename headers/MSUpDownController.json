@@ -147,6 +147,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "setFloatValueAndNotifyBindings:": {
+      "name": "setFloatValueAndNotifyBindings:",
+      "bridgedName": "setFloatValueAndNotifyBindings",
+      "args": [
+        {
+          "name": "newValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

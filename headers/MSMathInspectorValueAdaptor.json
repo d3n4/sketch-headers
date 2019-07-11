@@ -203,6 +203,14 @@
         "nonatomic"
       ]
     },
+    "useNSNullForNilValues": {
+      "name": "useNSNullForNilValues",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
     "delegate": {
       "name": "delegate",
       "pointer": false,

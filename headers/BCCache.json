@@ -18,7 +18,7 @@
           "nullable": false
         }
       ],
-      "returns": "__kindof NSObject *",
+      "returns": "nullable __kindof NSObject *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -29,7 +29,7 @@
         {
           "name": "obj",
           "type": "id",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "owner",

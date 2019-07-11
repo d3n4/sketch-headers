@@ -40,6 +40,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "multipleValuesPlaceholderString": {
+      "name": "multipleValuesPlaceholderString",
+      "bridgedName": "multipleValuesPlaceholderString",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "incrementValue": {
       "name": "incrementValue",
       "bridgedName": "incrementValue",

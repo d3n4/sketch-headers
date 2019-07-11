@@ -3,6 +3,39 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
+    "trackMouseWithLocation:": {
+      "name": "trackMouseWithLocation:",
+      "bridgedName": "trackMouseWithLocation",
+      "args": [
+        {
+          "name": "location",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateCursorWithLocation:modifierFlags:": {
+      "name": "updateCursorWithLocation:modifierFlags:",
+      "bridgedName": "updateCursorWithLocation_modifierFlags",
+      "args": [
+        {
+          "name": "location",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "modifierFlags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "drawRect:context:": {
       "name": "drawRect:context:",
       "bridgedName": "drawRect_context",

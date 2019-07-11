@@ -27,13 +27,13 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "positionInLayer:": {
-      "name": "positionInLayer:",
-      "bridgedName": "positionInLayer",
+    "positionInCoordinateSpace:": {
+      "name": "positionInCoordinateSpace:",
+      "bridgedName": "positionInCoordinateSpace",
       "args": [
         {
-          "name": "layer",
-          "type": "MSLayer *",
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
           "nullable": true
         }
       ],
@@ -54,42 +54,8 @@
       "returns": "nullable MSSnappingTarget *",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "rectBySnappingToPosition:oldFrame:mayResize:": {
-      "name": "rectBySnappingToPosition:oldFrame:mayResize:",
-      "bridgedName": "rectBySnappingToPosition_oldFrame_mayResize",
-      "args": [
-        {
-          "name": "position",
-          "type": "CGFloat",
-          "nullable": false
-        },
-        {
-          "name": "oldFrame",
-          "type": "NSRect",
-          "nullable": false
-        },
-        {
-          "name": "resize",
-          "type": "BOOL",
-          "nullable": false
-        }
-      ],
-      "returns": "NSRect",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
-  "properties": {
-    "snapTag": {
-      "name": "snapTag",
-      "pointer": false,
-      "type": "MSSnapTag",
-      "attributes": [
-        "assign",
-        "nonatomic"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

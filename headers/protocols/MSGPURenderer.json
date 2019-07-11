@@ -118,7 +118,7 @@
         },
         {
           "name": "sourceTexture",
-          "type": "id<MSGPUTexture>",
+          "type": "nonnull id<MSGPUTexture>",
           "nullable": false
         }
       ],

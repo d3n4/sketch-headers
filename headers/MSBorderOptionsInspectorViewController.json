@@ -90,6 +90,14 @@
       "attributes": [
         "nonatomic"
       ]
+    },
+    "hasPathWithAdjustableCaps": {
+      "name": "hasPathWithAdjustableCaps",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
     }
   },
   "generics": []

@@ -37,6 +37,45 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "manageTextField:adaptor:identifier:inlineToolTip:touchBarItems:bindingOptions:": {
+      "name": "manageTextField:adaptor:identifier:inlineToolTip:touchBarItems:bindingOptions:",
+      "bridgedName": "manageTextField_adaptor_identifier_inlineToolTip_touchBarItems_bindingOptions",
+      "args": [
+        {
+          "name": "textField",
+          "type": "nonnull MSInlineUpDownTextField *",
+          "nullable": false
+        },
+        {
+          "name": "adaptor",
+          "type": "nonnull MSMathInspectorValueAdaptor *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "nonnull NSUserInterfaceItemIdentifier",
+          "nullable": false
+        },
+        {
+          "name": "toolTip",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "touchBarItems",
+          "type": "NSArray <NSString *>*",
+          "nullable": true
+        },
+        {
+          "name": "bindingOptions",
+          "type": "NSDictionary<NSBindingOption, id> *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "itemForSection:": {
       "name": "itemForSection:",
       "bridgedName": "itemForSection",
@@ -115,19 +154,33 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "sectionWithIdentifierWillCollapse:": {
+      "name": "sectionWithIdentifierWillCollapse:",
+      "bridgedName": "sectionWithIdentifierWillCollapse",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "cacheUserInterfaceElement:withKey:": {
       "name": "cacheUserInterfaceElement:withKey:",
       "bridgedName": "cacheUserInterfaceElement_withKey",
       "args": [
         {
           "name": "element",
-          "type": "id _Nullable",
-          "nullable": false
+          "type": "id",
+          "nullable": true
         },
         {
           "name": "cacheKey",
-          "type": "id _Nullable",
-          "nullable": false
+          "type": "id",
+          "nullable": true
         }
       ],
       "returns": "void",
@@ -140,11 +193,11 @@
       "args": [
         {
           "name": "cacheKey",
-          "type": "id _Nullable",
-          "nullable": false
+          "type": "id",
+          "nullable": true
         }
       ],
-      "returns": "id _Nullable",
+      "returns": "nullable id",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -197,7 +250,8 @@
       "type": "MSDocument ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nullable"
       ]
     }
   },

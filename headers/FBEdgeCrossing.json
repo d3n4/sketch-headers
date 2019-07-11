@@ -266,6 +266,26 @@
         "getter = isAtEnd"
       ]
     },
+    "closeToStart": {
+      "name": "closeToStart",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isCloseToStart"
+      ]
+    },
+    "closeToEnd": {
+      "name": "closeToEnd",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isCloseToEnd"
+      ]
+    },
     "location": {
       "name": "location",
       "pointer": false,

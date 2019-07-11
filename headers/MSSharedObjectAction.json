@@ -30,8 +30,8 @@
         "readonly"
       ]
     },
-    "pluralizedSharedObjectName": {
-      "name": "pluralizedSharedObjectName",
+    "noSharedObjectMenuItemTitle": {
+      "name": "noSharedObjectMenuItemTitle",
       "pointer": false,
       "type": "NSString ",
       "attributes": [

@@ -403,14 +403,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "scheduleReloadInspector": {
-      "name": "scheduleReloadInspector",
-      "bridgedName": "scheduleReloadInspector",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "contentDrawViewWillDraw:": {
       "name": "contentDrawViewWillDraw:",
       "bridgedName": "contentDrawViewWillDraw",

@@ -743,9 +743,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "enumerateWordRanges:": {
-      "name": "enumerateWordRanges:",
-      "bridgedName": "enumerateWordRanges",
+    "enumerateNonWhitespaceRanges:": {
+      "name": "enumerateNonWhitespaceRanges:",
+      "bridgedName": "enumerateNonWhitespaceRanges",
       "args": [
         {
           "name": "block",
@@ -757,9 +757,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "wordRanges": {
-      "name": "wordRanges",
-      "bridgedName": "wordRanges",
+    "nonWhitespaceRanges": {
+      "name": "nonWhitespaceRanges",
+      "bridgedName": "nonWhitespaceRanges",
       "args": [],
       "returns": "NSArray *",
       "kind": "instance",

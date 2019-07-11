@@ -17,6 +17,35 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "inspectorValueAdaptor:nilOperandDropInForModel:operator:operand2:": {
+      "name": "inspectorValueAdaptor:nilOperandDropInForModel:operator:operand2:",
+      "bridgedName": "inspectorValueAdaptor_nilOperandDropInForModel_operator_operand2",
+      "args": [
+        {
+          "name": "adaptor",
+          "type": "MSInspectorValueAdaptor *",
+          "nullable": false
+        },
+        {
+          "name": "model",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "operator",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "operand2",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {}

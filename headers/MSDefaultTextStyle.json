@@ -16,13 +16,27 @@
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "textStyleFromLayer:": {
+      "name": "textStyleFromLayer:",
+      "bridgedName": "textStyleFromLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSTextLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSDictionary<NSAttributedStringKey, id> *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {
     "defaultTextStyle": {
       "name": "defaultTextStyle",
-      "pointer": false,
-      "type": "NSDictionary ",
+      "pointer": true,
+      "type": "NSDictionary<NSAttributedStringKey, id>",
       "attributes": [
         "nonatomic",
         "strong",

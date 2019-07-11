@@ -15,7 +15,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -27,7 +27,8 @@
       "type": "id<MTLTexture>",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     }
   },

@@ -124,28 +124,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "noteUserDidActivateOutlineView": {
-      "name": "noteUserDidActivateOutlineView",
-      "bridgedName": "noteUserDidActivateOutlineView",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "setUpCoordinationWithCounterpartOutlineView:": {
-      "name": "setUpCoordinationWithCounterpartOutlineView:",
-      "bridgedName": "setUpCoordinationWithCounterpartOutlineView",
-      "args": [
-        {
-          "name": "counterpart",
-          "type": "nonnull BCOutlineView *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "yieldToDefaultFirstResponder": {
       "name": "yieldToDefaultFirstResponder",
       "bridgedName": "yieldToDefaultFirstResponder",
@@ -224,33 +202,12 @@
         "nullable"
       ]
     },
-    "counterpartOutlineView": {
-      "name": "counterpartOutlineView",
-      "pointer": false,
-      "type": "BCOutlineView ",
-      "attributes": [
-        "nonatomic",
-        "readonly",
-        "weak",
-        "nullable"
-      ]
-    },
-    "activeStateScheme": {
-      "name": "activeStateScheme",
-      "pointer": false,
-      "type": "BCOutlineViewActiveStateScheme",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "isActiveOutlineView": {
       "name": "isActiveOutlineView",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
-        "nonatomic",
-        "readonly"
+        "nonatomic"
       ]
     },
     "floatingRowDragged": {

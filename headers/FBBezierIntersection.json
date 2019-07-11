@@ -106,6 +106,62 @@
       "returns": "NSInteger",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "isAtStartOfCurve1WithThreshold:": {
+      "name": "isAtStartOfCurve1WithThreshold:",
+      "bridgedName": "isAtStartOfCurve1WithThreshold",
+      "args": [
+        {
+          "name": "threshold",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isAtStopOfCurve1WithThreshold:": {
+      "name": "isAtStopOfCurve1WithThreshold:",
+      "bridgedName": "isAtStopOfCurve1WithThreshold",
+      "args": [
+        {
+          "name": "threshold",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isAtStartOfCurve2WithThreshold:": {
+      "name": "isAtStartOfCurve2WithThreshold:",
+      "bridgedName": "isAtStartOfCurve2WithThreshold",
+      "args": [
+        {
+          "name": "threshold",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isAtStopOfCurve2WithThreshold:": {
+      "name": "isAtStopOfCurve2WithThreshold:",
+      "bridgedName": "isAtStopOfCurve2WithThreshold",
+      "args": [
+        {
+          "name": "threshold",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

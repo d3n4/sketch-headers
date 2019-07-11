@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "managerWithItem:textField:adaptor:identifier:inlineToolTip:touchBarItems:": {
-      "name": "managerWithItem:textField:adaptor:identifier:inlineToolTip:touchBarItems:",
-      "bridgedName": "managerWithItem_textField_adaptor_identifier_inlineToolTip_touchBarItems",
+    "managerWithItem:textField:adaptor:identifier:inlineToolTip:touchBarItems:bindingOptions:": {
+      "name": "managerWithItem:textField:adaptor:identifier:inlineToolTip:touchBarItems:bindingOptions:",
+      "bridgedName": "managerWithItem_textField_adaptor_identifier_inlineToolTip_touchBarItems_bindingOptions",
       "args": [
         {
           "name": "item",
@@ -35,6 +35,11 @@
         {
           "name": "touchBarItems",
           "type": "NSArray <NSString *>*",
+          "nullable": true
+        },
+        {
+          "name": "bindingOptions",
+          "type": "NSDictionary<NSBindingOption, id> *",
           "nullable": true
         }
       ],

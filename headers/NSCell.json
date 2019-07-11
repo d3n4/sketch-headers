@@ -188,6 +188,25 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "drawEnabled:inBlock:": {
+      "name": "drawEnabled:inBlock:",
+      "bridgedName": "drawEnabled_inBlock",
+      "args": [
+        {
+          "name": "enabled",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "drawInspectorStatelessControlImage:centeredInRect:": {
       "name": "drawInspectorStatelessControlImage:centeredInRect:",
       "bridgedName": "drawInspectorStatelessControlImage_centeredInRect",

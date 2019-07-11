@@ -1,11 +1,11 @@
 {
-  "name": "MSOverrideDataAction",
-  "extends": "MSOverrideAction",
+  "name": "MSClearDataRecordAction",
+  "extends": "MSDataAction",
   "interfaces": [],
   "methods": {
-    "dataMenuRootAction:": {
-      "name": "dataMenuRootAction:",
-      "bridgedName": "dataMenuRootAction",
+    "clearDataRecordFromCurrentSelection:": {
+      "name": "clearDataRecordFromCurrentSelection:",
+      "bridgedName": "clearDataRecordFromCurrentSelection",
       "args": [
         {
           "name": "sender",

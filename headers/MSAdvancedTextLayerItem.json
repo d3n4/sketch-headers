@@ -1,5 +1,5 @@
 {
-  "name": "MSParagraphStyleItem",
+  "name": "MSAdvancedTextLayerItem",
   "extends": "MSInspectorItem",
   "interfaces": [],
   "methods": {

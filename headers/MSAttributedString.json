@@ -62,6 +62,39 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "fontNameInDictionary:": {
+      "name": "fontNameInDictionary:",
+      "bridgedName": "fontNameInDictionary",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "replacementFontDescriptorWithFaceName:size:": {
+      "name": "replacementFontDescriptorWithFaceName:size:",
+      "bridgedName": "replacementFontDescriptorWithFaceName_size",
+      "args": [
+        {
+          "name": "face",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSFontDescriptor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "initWithAttributedString:colorSpace:convert:": {
       "name": "initWithAttributedString:colorSpace:convert:",
       "bridgedName": "initWithAttributedString_colorSpace_convert",

@@ -88,6 +88,14 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "requestCloudUser": {
+      "name": "requestCloudUser",
+      "bridgedName": "requestCloudUser",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "updateProgressImage": {
       "name": "updateProgressImage",
       "bridgedName": "updateProgressImage",
@@ -141,7 +149,7 @@
         {
           "name": "contextInfo",
           "type": "void *",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "void",
@@ -186,7 +194,8 @@
       "type": "MSCloudShareUploadController ",
       "attributes": [
         "nonatomic",
-        "strong"
+        "strong",
+        "nullable"
       ]
     },
     "refreshOperation": {
@@ -195,7 +204,8 @@
       "type": "SCKAPIOperation ",
       "attributes": [
         "nonatomic",
-        "strong"
+        "strong",
+        "nullable"
       ]
     },
     "shouldPrepareForTermination": {

@@ -153,25 +153,6 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "includeRulerGuideTargetsForPage:zoomScale:": {
-      "name": "includeRulerGuideTargetsForPage:zoomScale:",
-      "bridgedName": "includeRulerGuideTargetsForPage_zoomScale",
-      "args": [
-        {
-          "name": "page",
-          "type": "MSPage *",
-          "nullable": false
-        },
-        {
-          "name": "zoomScale",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "enumeratorForPossibleSnapTargetLayersInGroup:": {
       "name": "enumeratorForPossibleSnapTargetLayersInGroup:",
       "bridgedName": "enumeratorForPossibleSnapTargetLayersInGroup",

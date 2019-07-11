@@ -20,6 +20,20 @@
       "returns": "MSLayer *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "prepareToImportFromXMLString:": {
+      "name": "prepareToImportFromXMLString:",
+      "bridgedName": "prepareToImportFromXMLString",
+      "args": [
+        {
+          "name": "xmlString",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

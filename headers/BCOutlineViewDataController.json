@@ -214,11 +214,11 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "multipleNodesSelected": {
-      "name": "multipleNodesSelected",
-      "bridgedName": "multipleNodesSelected",
+    "selectedNodes": {
+      "name": "selectedNodes",
+      "bridgedName": "selectedNodes",
       "args": [],
-      "returns": "BOOL",
+      "returns": "NSArray *",
       "kind": "instance",
       "kindIndicator": "-"
     },

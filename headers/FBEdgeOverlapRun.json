@@ -11,14 +11,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "isCrossingUsingNonZeroWindingRule": {
-      "name": "isCrossingUsingNonZeroWindingRule",
-      "bridgedName": "isCrossingUsingNonZeroWindingRule",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "removeCrossings": {
       "name": "removeCrossings",
       "bridgedName": "removeCrossings",

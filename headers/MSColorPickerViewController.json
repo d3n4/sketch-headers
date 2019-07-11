@@ -60,6 +60,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "connectToColorPanel": {
+      "name": "connectToColorPanel",
+      "bridgedName": "connectToColorPanel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "disconnectFromColorPanel": {
       "name": "disconnectFromColorPanel",
       "bridgedName": "disconnectFromColorPanel",

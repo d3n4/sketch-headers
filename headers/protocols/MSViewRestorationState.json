@@ -1,20 +1,20 @@
 {
   "protocol": true,
-  "name": "MSUpDownTextFieldDelegate",
+  "name": "MSViewRestorationState",
   "extends": null,
   "interfaces": [],
   "methods": {
-    "refreshAction:": {
-      "name": "refreshAction:",
-      "bridgedName": "refreshAction",
+    "valueForKey:": {
+      "name": "valueForKey:",
+      "bridgedName": "valueForKey",
       "args": [
         {
-          "name": "sender",
-          "type": "id",
+          "name": "key",
+          "type": "NSString *",
           "nullable": false
         }
       ],
-      "returns": "void",
+      "returns": "id",
       "kind": "instance",
       "kindIndicator": "-"
     }

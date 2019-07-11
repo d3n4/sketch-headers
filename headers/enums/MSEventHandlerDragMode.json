@@ -20,6 +20,10 @@
     {
       "name": "MSEventHandlerDragSelect",
       "value": "2"
+    },
+    {
+      "name": "MSEventHandlerDragAdjustSpacing",
+      "value": "4"
     }
   ]
 }

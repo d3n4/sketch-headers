@@ -163,6 +163,35 @@
     }
   },
   "properties": {
+    "dataMenuProvider": {
+      "name": "dataMenuProvider",
+      "pointer": false,
+      "type": "MSDataMenuProvider ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "dataSupplier": {
+      "name": "dataSupplier",
+      "pointer": false,
+      "type": "MSDataSupplier ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "dataSupplierType": {
+      "name": "dataSupplierType",
+      "pointer": false,
+      "type": "MSDataType",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
     "shareableObjectReferences": {
       "name": "shareableObjectReferences",
       "pointer": false,

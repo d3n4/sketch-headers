@@ -11,6 +11,15 @@
       "attributes": [
         "readonly"
       ]
+    },
+    "lockSize": {
+      "name": "lockSize",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
     }
   },
   "generics": []

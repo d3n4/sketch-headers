@@ -10,7 +10,7 @@
         {
           "name": "anObject",
           "type": "id",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "void",

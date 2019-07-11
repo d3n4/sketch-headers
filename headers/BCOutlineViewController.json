@@ -226,7 +226,8 @@
       "pointer": false,
       "type": "BOOL",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "readonly"
       ]
     },
     "isExpansionDirty": {
@@ -234,7 +235,8 @@
       "pointer": false,
       "type": "BOOL",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "readonly"
       ]
     },
     "arePreviewImagesDirty": {
@@ -242,7 +244,8 @@
       "pointer": false,
       "type": "BOOL",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "readonly"
       ]
     },
     "isLayoutDirty": {
@@ -250,13 +253,22 @@
       "pointer": false,
       "type": "BOOL",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "readonly"
       ]
     },
     "viewHasAppearedBefore": {
       "name": "viewHasAppearedBefore",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "refreshNotificationTime": {
+      "name": "refreshNotificationTime",
+      "pointer": false,
+      "type": "CFAbsoluteTime",
       "attributes": [
         "nonatomic"
       ]

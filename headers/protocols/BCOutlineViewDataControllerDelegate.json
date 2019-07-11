@@ -80,9 +80,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "multipleNodesSelectedForDataController:": {
-      "name": "multipleNodesSelectedForDataController:",
-      "bridgedName": "multipleNodesSelectedForDataController",
+    "selectedNodesForDataController:": {
+      "name": "selectedNodesForDataController:",
+      "bridgedName": "selectedNodesForDataController",
       "args": [
         {
           "name": "dataController",
@@ -90,7 +90,7 @@
           "nullable": false
         }
       ],
-      "returns": "BOOL",
+      "returns": "NSArray *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -469,6 +469,20 @@
         }
       ],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "multipleNodesSelectedForDataController:": {
+      "name": "multipleNodesSelectedForDataController:",
+      "bridgedName": "multipleNodesSelectedForDataController",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     }

@@ -5,13 +5,18 @@
     "NSMenuDelegate"
   ],
   "methods": {
-    "initWithDataManager:": {
-      "name": "initWithDataManager:",
-      "bridgedName": "initWithDataManager",
+    "initWithDataManager:presentationContext:": {
+      "name": "initWithDataManager:presentationContext:",
+      "bridgedName": "initWithDataManager_presentationContext",
       "args": [
         {
           "name": "dataManager",
           "type": "MSDataSupplierManager *",
+          "nullable": false
+        },
+        {
+          "name": "presentationContext",
+          "type": "MSDataMenuPresentationContext",
           "nullable": false
         }
       ],
@@ -19,93 +24,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "menu": {
-      "name": "menu",
-      "bridgedName": "menu",
-      "args": [],
-      "returns": "NSMenu *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "overridesMenu": {
-      "name": "overridesMenu",
-      "bridgedName": "overridesMenu",
-      "args": [],
-      "returns": "NSMenu *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "menuItemsForDataType:indentationLevel:": {
-      "name": "menuItemsForDataType:indentationLevel:",
-      "bridgedName": "menuItemsForDataType_indentationLevel",
+    "menuNeedsUpdate:": {
+      "name": "menuNeedsUpdate:",
+      "bridgedName": "menuNeedsUpdate",
       "args": [
         {
-          "name": "dataType",
-          "type": "MSDataType",
-          "nullable": false
-        },
-        {
-          "name": "menuItemIndentation",
-          "type": "NSInteger",
+          "name": "menu",
+          "type": "NSMenu *",
           "nullable": false
         }
       ],
-      "returns": "NSArray <NSMenuItem *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "menuItemsForDataType:": {
-      "name": "menuItemsForDataType:",
-      "bridgedName": "menuItemsForDataType",
-      "args": [
-        {
-          "name": "dataType",
-          "type": "MSDataType",
-          "nullable": false
-        }
-      ],
-      "returns": "NSArray <NSMenuItem *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "clearDataMenuItem": {
-      "name": "clearDataMenuItem",
-      "bridgedName": "clearDataMenuItem",
-      "args": [],
-      "returns": "nullable NSMenuItem *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "refreshDataMenuItemsWithOverridesMenu:displayKeyboardShortcuts:": {
-      "name": "refreshDataMenuItemsWithOverridesMenu:displayKeyboardShortcuts:",
-      "bridgedName": "refreshDataMenuItemsWithOverridesMenu_displayKeyboardShortcuts",
-      "args": [
-        {
-          "name": "overridesMenu",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "displayKeyboardShortcuts",
-          "type": "BOOL",
-          "nullable": false
-        }
-      ],
-      "returns": "NSArray <NSMenuItem *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "addImageToMenuItems:": {
-      "name": "addImageToMenuItems:",
-      "bridgedName": "addImageToMenuItems",
-      "args": [
-        {
-          "name": "menuItems",
-          "type": "NSArray <NSMenuItem *> *",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable NSImage *",
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -128,6 +57,15 @@
       "attributes": [
         "nonatomic",
         "weak"
+      ]
+    },
+    "presentationContext": {
+      "name": "presentationContext",
+      "pointer": false,
+      "type": "MSDataMenuPresentationContext",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

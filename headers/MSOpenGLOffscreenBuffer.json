@@ -38,7 +38,8 @@
       "type": "NSOpenGLContext ",
       "attributes": [
         "nonatomic",
-        "readwrite"
+        "readwrite",
+        "nonnull"
       ]
     },
     "colorspace": {

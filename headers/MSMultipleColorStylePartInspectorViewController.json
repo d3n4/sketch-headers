@@ -37,16 +37,6 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {
-    "currentPopoverIndex": {
-      "name": "currentPopoverIndex",
-      "pointer": false,
-      "type": "NSNumber ",
-      "attributes": [
-        "nonatomic",
-        "nullable"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

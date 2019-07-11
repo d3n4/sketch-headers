@@ -12,7 +12,7 @@
         {
           "name": "sender",
           "type": "id",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "IBAction",

@@ -1267,6 +1267,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "defaultSnapMask": {
+      "name": "defaultSnapMask",
+      "bridgedName": "defaultSnapMask",
+      "args": [],
+      "returns": "MSSnapMask",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "nudgeDistanceForFlags:": {
       "name": "nudgeDistanceForFlags:",
       "bridgedName": "nudgeDistanceForFlags",

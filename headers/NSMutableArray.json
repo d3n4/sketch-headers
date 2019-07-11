@@ -43,7 +43,7 @@
         {
           "name": "obj",
           "type": "id",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "void",

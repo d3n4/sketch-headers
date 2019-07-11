@@ -1,6 +1,6 @@
 {
-  "name": "MSRotatedSnapItem",
-  "extends": "MSSnapItem",
+  "name": "MSDataMenuBaseAction",
+  "extends": "MSDocumentAction",
   "interfaces": [],
   "methods": {},
   "properties": {},

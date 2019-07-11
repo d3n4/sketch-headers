@@ -110,10 +110,10 @@
         "nonatomic"
       ]
     },
-    "rulersAreVisible": {
-      "name": "rulersAreVisible",
+    "snapMask": {
+      "name": "snapMask",
       "pointer": false,
-      "type": "BOOL",
+      "type": "MSSnapMask",
       "attributes": [
         "nonatomic"
       ]

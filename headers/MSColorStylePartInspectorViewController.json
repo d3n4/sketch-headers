@@ -58,16 +58,6 @@
         "strong"
       ]
     },
-    "popover": {
-      "name": "popover",
-      "pointer": false,
-      "type": "BCPopover ",
-      "attributes": [
-        "nonatomic",
-        "strong",
-        "readonly"
-      ]
-    },
     "colorInspector": {
       "name": "colorInspector",
       "pointer": false,

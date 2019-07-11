@@ -96,7 +96,7 @@
         },
         {
           "name": "block",
-          "type": "void (^)(FBBezierIntersection *intersection)",
+          "type": "void (^)(FBBezierIntersection *intersection, FBBezierIntersectRange *intersectionRange, BOOL *stop)",
           "nullable": false
         }
       ],
@@ -124,6 +124,30 @@
       "args": [
         {
           "name": "testPoint",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "ambiguous",
+          "type": "BOOL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsPoint:usingRayWithVector:isAmbiguous:": {
+      "name": "containsPoint:usingRayWithVector:isAmbiguous:",
+      "bridgedName": "containsPoint_usingRayWithVector_isAmbiguous",
+      "args": [
+        {
+          "name": "testPoint",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "vector",
           "type": "FBPoint",
           "nullable": false
         },

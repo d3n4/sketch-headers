@@ -24,25 +24,6 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "axisAlignedOrDiagonalConstraintFromPoint:toPoint:": {
-      "name": "axisAlignedOrDiagonalConstraintFromPoint:toPoint:",
-      "bridgedName": "axisAlignedOrDiagonalConstraintFromPoint_toPoint",
-      "args": [
-        {
-          "name": "sourcePoint",
-          "type": "NSPoint",
-          "nullable": false
-        },
-        {
-          "name": "unsnappedDestination",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable instancetype",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "initWithPoint:direction:": {
       "name": "initWithPoint:direction:",
       "bridgedName": "initWithPoint_direction",

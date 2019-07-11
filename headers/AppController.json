@@ -6,7 +6,6 @@
     "NSWindowDelegate",
     "NSMenuDelegate",
     "NSUserNotificationCenterDelegate",
-    "MSDataMenuProviderDelegate",
     "MSDataSupplierManagerDelegate"
   ],
   "methods": {
@@ -425,15 +424,6 @@
         "weak"
       ]
     },
-    "dataFeedMenuItem": {
-      "name": "dataFeedMenuItem",
-      "pointer": false,
-      "type": "IBOutlet NSMenuItem ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
     "cloudEnvironmentMenuItem": {
       "name": "cloudEnvironmentMenuItem",
       "pointer": false,
@@ -477,15 +467,6 @@
       "attributes": [
         "nonatomic",
         "strong"
-      ]
-    },
-    "dataFeedProvider": {
-      "name": "dataFeedProvider",
-      "pointer": false,
-      "type": "MSDataMenuProvider ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
       ]
     },
     "dataSupplierManager": {

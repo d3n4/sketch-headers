@@ -98,7 +98,7 @@
     "dragGestureRecognizer": {
       "name": "dragGestureRecognizer",
       "pointer": false,
-      "type": "MSDragGestureRecognizer ",
+      "type": "MSDragRectGestureRecognizer ",
       "attributes": [
         "nonatomic",
         "readonly"

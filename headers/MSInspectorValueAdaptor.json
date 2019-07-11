@@ -67,18 +67,18 @@
         },
         {
           "name": "valueGetter",
-          "type": "ModelValueType (^)(ModelType model)",
+          "type": "ModelValueType _Nullable (^)(ModelType model)",
           "nullable": false
         },
         {
           "name": "valueSetter",
-          "type": "void (^)(ModelType model, ModelValueType value, id context)",
+          "type": "void (^)(ModelType model, _Nullable ModelValueType value, _Nullable id context)",
           "nullable": false
         },
         {
           "name": "modelKeyPathsToWatch",
           "type": "NSArray <NSString *>*",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "instancetype",
@@ -96,12 +96,12 @@
         },
         {
           "name": "valueGetter",
-          "type": "ModelValueType (^)(ModelType model)",
+          "type": "ModelValueType _Nullable (^)(ModelType model)",
           "nullable": false
         },
         {
           "name": "valueSetter",
-          "type": "void (^)(ModelType model, ModelValueType value, id context)",
+          "type": "void (^)(ModelType model, _Nullable ModelValueType value, _Nullable id context)",
           "nullable": false
         }
       ],
@@ -145,7 +145,7 @@
         {
           "name": "toWatch",
           "type": "NSArray <NSString *> *",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "instancetype",
@@ -220,6 +220,7 @@
       "pointer": false,
       "type": "AdaptorValueType",
       "attributes": [
+        "nullable",
         "nonatomic"
       ]
     },
@@ -229,7 +230,8 @@
       "type": "id<MSInspectorValueAdaptorDelegate>",
       "attributes": [
         "nonatomic",
-        "weak"
+        "weak",
+        "nullable"
       ]
     },
     "showsDefaultAlerts": {

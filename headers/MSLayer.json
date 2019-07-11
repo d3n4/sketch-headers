@@ -120,11 +120,27 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "snapItemClass": {
-      "name": "snapItemClass",
-      "bridgedName": "snapItemClass",
-      "args": [],
-      "returns": "Class",
+    "enumerateAnchorsForSnappingOnAxes:includingCenter:usingBlock:": {
+      "name": "enumerateAnchorsForSnappingOnAxes:includingCenter:usingBlock:",
+      "bridgedName": "enumerateAnchorsForSnappingOnAxes_includingCenter_usingBlock",
+      "args": [
+        {
+          "name": "axes",
+          "type": "BCAxisMask",
+          "nullable": false
+        },
+        {
+          "name": "includeCenter",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(MSLayoutPosition *anchor)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },

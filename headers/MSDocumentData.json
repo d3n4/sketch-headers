@@ -157,14 +157,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layerTreeLayoutDidChange": {
-      "name": "layerTreeLayoutDidChange",
-      "bridgedName": "layerTreeLayoutDidChange",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "layerWithID:": {
       "name": "layerWithID:",
       "bridgedName": "layerWithID",

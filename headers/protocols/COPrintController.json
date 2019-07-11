@@ -4,6 +4,20 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "scriptEncounteredException:": {
+      "name": "scriptEncounteredException:",
+      "bridgedName": "scriptEncounteredException",
+      "args": [
+        {
+          "name": "exception",
+          "type": "NSException*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "print:": {
       "name": "print:",
       "bridgedName": "print",

@@ -18,7 +18,8 @@
       "type": "id<MSRotationBarDelegate>",
       "attributes": [
         "nonatomic",
-        "weak"
+        "weak",
+        "nullable"
       ]
     }
   },

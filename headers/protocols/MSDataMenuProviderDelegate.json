@@ -4,189 +4,69 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "dataMenuProvider:canChooseDataOfType:": {
-      "name": "dataMenuProvider:canChooseDataOfType:",
-      "bridgedName": "dataMenuProvider_canChooseDataOfType",
+    "refreshDataOnCurrentSelection:": {
+      "name": "refreshDataOnCurrentSelection:",
+      "bridgedName": "refreshDataOnCurrentSelection",
       "args": [
         {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
-          "nullable": false
-        },
-        {
-          "name": "type",
-          "type": "MSDataType",
+          "name": "sender",
+          "type": "id",
           "nullable": false
         }
       ],
-      "returns": "BOOL",
+      "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataMenuProviderCanApplyMasterDataToInstances:": {
-      "name": "dataMenuProviderCanApplyMasterDataToInstances:",
-      "bridgedName": "dataMenuProviderCanApplyMasterDataToInstances",
+    "applyDataToCurrentSelection:": {
+      "name": "applyDataToCurrentSelection:",
+      "bridgedName": "applyDataToCurrentSelection",
       "args": [
         {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
+          "name": "sender",
+          "type": "id",
           "nullable": false
         }
       ],
-      "returns": "BOOL",
+      "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataMenuProviderCanRefreshData:": {
-      "name": "dataMenuProviderCanRefreshData:",
-      "bridgedName": "dataMenuProviderCanRefreshData",
+    "applyDataToCurrentSelectionRoot:": {
+      "name": "applyDataToCurrentSelectionRoot:",
+      "bridgedName": "applyDataToCurrentSelectionRoot",
       "args": [
         {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
+          "name": "sender",
+          "type": "id",
           "nullable": false
         }
       ],
-      "returns": "BOOL",
+      "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataMenuProviderSelectedLayersWithAppliedData:": {
-      "name": "dataMenuProviderSelectedLayersWithAppliedData:",
-      "bridgedName": "dataMenuProviderSelectedLayersWithAppliedData",
+    "clearDataRecordFromCurrentSelection:": {
+      "name": "clearDataRecordFromCurrentSelection:",
+      "bridgedName": "clearDataRecordFromCurrentSelection",
       "args": [
         {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
+          "name": "sender",
+          "type": "id",
           "nullable": false
         }
       ],
-      "returns": "NSArray <MSLayer *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "dataMenuProviderDataTypeForMenuBuilding:": {
-      "name": "dataMenuProviderDataTypeForMenuBuilding:",
-      "bridgedName": "dataMenuProviderDataTypeForMenuBuilding",
-      "args": [
-        {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
-          "nullable": false
-        }
-      ],
-      "returns": "MSDataType",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "dataMenuProviderIsOverrideMenu:": {
-      "name": "dataMenuProviderIsOverrideMenu:",
-      "bridgedName": "dataMenuProviderIsOverrideMenu",
-      "args": [
-        {
-          "name": "provider",
-          "type": "MSDataMenuProvider *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "dataMenuProvider:didChooseData:": {
-      "name": "dataMenuProvider:didChooseData:",
-      "bridgedName": "dataMenuProvider_didChooseData",
-      "args": [
-        {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
-          "nullable": false
-        },
-        {
-          "name": "data",
-          "type": "MSDataSupplier *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "dataMenuProviderRefreshData:": {
-      "name": "dataMenuProviderRefreshData:",
-      "bridgedName": "dataMenuProviderRefreshData",
-      "args": [
-        {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "dataMenuProviderRefreshMasterData:": {
-      "name": "dataMenuProviderRefreshMasterData:",
-      "bridgedName": "dataMenuProviderRefreshMasterData",
-      "args": [
-        {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "dataMenuProviderRemoveDataRecord:": {
-      "name": "dataMenuProviderRemoveDataRecord:",
-      "bridgedName": "dataMenuProviderRemoveDataRecord",
-      "args": [
-        {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "dataMenuProviderDataIdentifier:": {
-      "name": "dataMenuProviderDataIdentifier:",
-      "bridgedName": "dataMenuProviderDataIdentifier",
-      "args": [
-        {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable NSString *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "dataMenuProvider:willUpdateMenu:": {
-      "name": "dataMenuProvider:willUpdateMenu:",
-      "bridgedName": "dataMenuProvider_willUpdateMenu",
-      "args": [
-        {
-          "name": "controller",
-          "type": "MSDataMenuProvider *",
-          "nullable": false
-        },
-        {
-          "name": "menu",
-          "type": "NSMenu *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
+      "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
     }
   },
-  "properties": {}
+  "properties": {
+    "overrideItemForInspector": {
+      "name": "overrideItemForInspector",
+      "pointer": false,
+      "type": "MSAvailableOverride ",
+      "attributes": []
+    }
+  }
 }

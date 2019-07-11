@@ -69,7 +69,7 @@
       "args": [
         {
           "name": "block",
-          "type": "id (^)(__kindof ObjectType object)",
+          "type": "id (^)(__kindof ObjectType _Nonnull object)",
           "nullable": true
         }
       ],
@@ -171,7 +171,7 @@
           "nullable": false
         }
       ],
-      "returns": "ObjectType",
+      "returns": "nullable ObjectType",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -255,7 +255,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "nullable id",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -456,7 +456,7 @@
           "nullable": false
         }
       ],
-      "returns": "ObjectType",
+      "returns": "nullable ObjectType",
       "kind": "instance",
       "kindIndicator": "-"
     },

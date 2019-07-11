@@ -11,6 +11,25 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "initWithCompletionHandler:syncFirstFrame:": {
+      "name": "initWithCompletionHandler:syncFirstFrame:",
+      "bridgedName": "initWithCompletionHandler_syncFirstFrame",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^ _Nullable)(CGImageRef _Nonnull image)",
+          "nullable": false
+        },
+        {
+          "name": "syncFirstFrame",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "initWithCompletionHandler:": {
       "name": "initWithCompletionHandler:",
       "bridgedName": "initWithCompletionHandler",

@@ -15,7 +15,7 @@
           "nullable": false
         }
       ],
-      "returns": "SCKAPISession *",
+      "returns": "nullable SCKAPISession *",
       "kind": "instance",
       "kindIndicator": "-"
     },

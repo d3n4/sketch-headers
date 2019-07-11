@@ -311,6 +311,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "scriptEncounteredException:": {
+      "name": "scriptEncounteredException:",
+      "bridgedName": "scriptEncounteredException",
+      "args": [
+        {
+          "name": "e",
+          "type": "NSException*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "valueForKey:onLayer:forPluginIdentifier:": {
       "name": "valueForKey:onLayer:forPluginIdentifier:",
       "bridgedName": "valueForKey_onLayer_forPluginIdentifier",
