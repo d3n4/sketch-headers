@@ -1,0 +1,60 @@
+{
+  "name": "_MSImmutableSymbolInstance",
+  "extends": "MSImmutableStyledLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "horizontalSpacing": {
+      "name": "horizontalSpacing",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "symbolID": {
+      "name": "symbolID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "verticalSpacing": {
+      "name": "verticalSpacing",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overrideValues": {
+      "name": "overrideValues",
+      "pointer": false,
+      "type": "NSArray<MSImmutableOverrideValue *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

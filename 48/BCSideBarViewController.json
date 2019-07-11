@@ -1,0 +1,134 @@
+{
+  "name": "BCSideBarViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "initWithPageListDataSource:delegate:layerListDataSource:delegate:": {
+      "name": "initWithPageListDataSource:delegate:layerListDataSource:delegate:",
+      "bridgedName": "initWithPageListDataSource_delegate_layerListDataSource_delegate",
+      "args": [
+        {
+          "name": "pageListDataSource",
+          "type": "NSObject<BCOutlineViewDataSource>*",
+          "nullable": false
+        },
+        {
+          "name": "pageListDelegate",
+          "type": "NSObject<BCOutlineViewDelegate>*",
+          "nullable": false
+        },
+        {
+          "name": "layerListDataSource",
+          "type": "NSObject<BCOutlineViewDataSource>*",
+          "nullable": false
+        },
+        {
+          "name": "layerListDelegate",
+          "type": "NSObject<BCOutlineViewDelegate>*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshWithMask:": {
+      "name": "refreshWithMask:",
+      "bridgedName": "refreshWithMask",
+      "args": [
+        {
+          "name": "mask",
+          "type": "BCSideBarRefreshType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renamePage": {
+      "name": "renamePage",
+      "bridgedName": "renamePage",
+      "args": [],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renameLayer": {
+      "name": "renameLayer",
+      "bridgedName": "renameLayer",
+      "args": [],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renameLayerAfterNextLayerListRefresh": {
+      "name": "renameLayerAfterNextLayerListRefresh",
+      "bridgedName": "renameLayerAfterNextLayerListRefresh",
+      "args": [],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "findLayer:": {
+      "name": "findLayer:",
+      "bridgedName": "findLayer",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flagsChangedNotification": {
+      "name": "flagsChangedNotification",
+      "bridgedName": "flagsChangedNotification",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showPageView": {
+      "name": "showPageView",
+      "bridgedName": "showPageView",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "NSObject<BCSideBarViewControllerDelegate> ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "sliceCount": {
+      "name": "sliceCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "filter": {
+      "name": "filter",
+      "pointer": false,
+      "type": "BCFilterInfo ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

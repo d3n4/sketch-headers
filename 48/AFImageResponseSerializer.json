@@ -1,0 +1,27 @@
+{
+  "name": "AFImageResponseSerializer",
+  "extends": "AFHTTPResponseSerializer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "imageScale": {
+      "name": "imageScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "automaticallyInflatesResponseImage": {
+      "name": "automaticallyInflatesResponseImage",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

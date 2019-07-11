@@ -1,0 +1,10 @@
+{
+  "name": "SUAutomaticUpdateDriver",
+  "extends": "SUBasicUpdateDriver",
+  "interfaces": [
+    "SUUnarchiverDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

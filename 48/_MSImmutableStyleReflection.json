@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableStyleReflection",
+  "extends": "MSImmutableStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "distance": {
+      "name": "distance",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "strength": {
+      "name": "strength",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

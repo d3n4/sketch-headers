@@ -1,0 +1,36 @@
+{
+  "name": "MSPageOverlayRendererCG",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSPageOverlayRenderer"
+  ],
+  "methods": {
+    "initWithTitleFont:": {
+      "name": "initWithTitleFont:",
+      "bridgedName": "initWithTitleFont",
+      "args": [
+        {
+          "name": "font",
+          "type": "NSFont*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "titleFont": {
+      "name": "titleFont",
+      "pointer": false,
+      "type": "NSFont*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

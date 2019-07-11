@@ -1,0 +1,70 @@
+{
+  "protocol": true,
+  "name": "BITCrashManagerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "showMainApplicationWindowForCrashManager:__attribute__((deprecated(\"The default crash report UI is not shown modal any longer, so this delegate is now called right away. We recommend to remove the implementation of this method.\")))": {
+      "name": "showMainApplicationWindowForCrashManager:__attribute__((deprecated(\"The default crash report UI is not shown modal any longer, so this delegate is now called right away. We recommend to remove the implementation of this method.\")))",
+      "bridgedName": "showMainApplicationWindowForCrashManager___attribute__((deprecated(\"The default crash report UI is not shown modal any longer, so this delegate is now called right away. We recommend to remove the implementation of this method.\")))",
+      "args": [
+        {
+          "name": "crashManager",
+          "type": "BITCrashManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "crashManagerWillSendCrashReport:": {
+      "name": "crashManagerWillSendCrashReport:",
+      "bridgedName": "crashManagerWillSendCrashReport",
+      "args": [
+        {
+          "name": "crashManager",
+          "type": "BITCrashManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "crashManager:didFailWithError:": {
+      "name": "crashManager:didFailWithError:",
+      "bridgedName": "crashManager_didFailWithError",
+      "args": [
+        {
+          "name": "crashManager",
+          "type": "BITCrashManager *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "crashManagerDidFinishSendingCrashReport:": {
+      "name": "crashManagerDidFinishSendingCrashReport:",
+      "bridgedName": "crashManagerDidFinishSendingCrashReport",
+      "args": [
+        {
+          "name": "crashManager",
+          "type": "BITCrashManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

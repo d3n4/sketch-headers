@@ -1,0 +1,93 @@
+{
+  "protocol": true,
+  "name": "BCTableCellViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "isTableCellViewNodeSelected:": {
+      "name": "isTableCellViewNodeSelected:",
+      "bridgedName": "isTableCellViewNodeSelected",
+      "args": [
+        {
+          "name": "tableCellView",
+          "type": "BCTableCellView*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableCellViewHandleBadgePressed:": {
+      "name": "tableCellViewHandleBadgePressed:",
+      "bridgedName": "tableCellViewHandleBadgePressed",
+      "args": [
+        {
+          "name": "tableCellView",
+          "type": "BCTableCellView*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableCellViewMouseEntered:": {
+      "name": "tableCellViewMouseEntered:",
+      "bridgedName": "tableCellViewMouseEntered",
+      "args": [
+        {
+          "name": "tableCellView",
+          "type": "BCTableCellView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableCellViewMouseExited:": {
+      "name": "tableCellViewMouseExited:",
+      "bridgedName": "tableCellViewMouseExited",
+      "args": [
+        {
+          "name": "tableCellView",
+          "type": "BCTableCellView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableCellViewDidBeginEditing:": {
+      "name": "tableCellViewDidBeginEditing:",
+      "bridgedName": "tableCellViewDidBeginEditing",
+      "args": [
+        {
+          "name": "tableCellView",
+          "type": "BCTableCellView*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableCellViewDestinationWindow:": {
+      "name": "tableCellViewDestinationWindow:",
+      "bridgedName": "tableCellViewDestinationWindow",
+      "args": [
+        {
+          "name": "view",
+          "type": "BCTableCellView*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSWindow*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,46 @@
+{
+  "name": "MSDragHandleGestureRecognizer",
+  "extends": "MSDragToMoveOrCopyGestureRecognizer",
+  "interfaces": [],
+  "methods": {
+    "setCenterForCurveAdjustmentLocking:slope:": {
+      "name": "setCenterForCurveAdjustmentLocking:slope:",
+      "bridgedName": "setCenterForCurveAdjustmentLocking_slope",
+      "args": [
+        {
+          "name": "mainPoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "slope",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "originalHandleLocation": {
+      "name": "originalHandleLocation",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "shouldSteadyCurveAdjustmentHandle": {
+      "name": "shouldSteadyCurveAdjustmentHandle",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

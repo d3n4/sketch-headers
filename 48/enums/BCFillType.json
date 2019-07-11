@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "BCFillType",
+  "members": [
+    {
+      "name": "BCFillTypeColor",
+      "value": "0"
+    },
+    {
+      "name": "BCFillTypeGradient",
+      "value": "1"
+    },
+    {
+      "name": "BCFillTypePattern",
+      "value": "4"
+    },
+    {
+      "name": "BCFillTypeNoise",
+      "value": "5"
+    }
+  ]
+}

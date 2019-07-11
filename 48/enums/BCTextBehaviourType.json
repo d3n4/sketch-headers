@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "BCTextBehaviourType",
+  "members": [
+    {
+      "name": "BCTextBehaviourFlexibleWidth"
+    },
+    {
+      "name": "BCTextBehaviourFixedWidth"
+    }
+  ]
+}

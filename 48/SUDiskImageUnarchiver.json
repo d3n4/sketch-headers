@@ -1,0 +1,8 @@
+{
+  "name": "SUDiskImageUnarchiver",
+  "extends": "SUUnarchiver",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

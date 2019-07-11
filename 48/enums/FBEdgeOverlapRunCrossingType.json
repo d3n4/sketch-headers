@@ -1,0 +1,30 @@
+{
+  "enum": true,
+  "name": "FBEdgeOverlapRunCrossingType",
+  "members": [
+    {
+      "name": "FBEdgeOverlapRunCrossingTypeUnknown",
+      "value": "0"
+    },
+    {
+      "name": "FBEdgeOverlapRunCrossingTypeCrossing",
+      "value": "1<<1"
+    },
+    {
+      "name": "FBEdgeOverlapRunCrossingTypeContainedByContour1",
+      "value": "1<<2"
+    },
+    {
+      "name": "FBEdgeOverlapRunCrossingTypeContainedByContour2",
+      "value": "1<<3"
+    },
+    {
+      "name": "FBEdgeOverlapRunCrossingTypeDisjoint",
+      "value": "1<<4"
+    },
+    {
+      "name": "FBEdgeOverlapRunCrossingTypeContainedMask",
+      "value": "FBEdgeOverlapRunCrossingTypeContainedByContour1 | FBEdgeOverlapRunCrossingTypeContainedByContour2"
+    }
+  ]
+}

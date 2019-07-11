@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSAssetLibraryControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "assetLibraryController:libraryChanged:": {
+      "name": "assetLibraryController:libraryChanged:",
+      "bridgedName": "assetLibraryController_libraryChanged",
+      "args": [
+        {
+          "name": "assetLibraryController",
+          "type": "MSAssetLibraryController *",
+          "nullable": false
+        },
+        {
+          "name": "library",
+          "type": "MSAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

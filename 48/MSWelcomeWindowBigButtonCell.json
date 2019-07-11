@@ -1,0 +1,8 @@
+{
+  "name": "MSWelcomeWindowBigButtonCell",
+  "extends": "MSHoverButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

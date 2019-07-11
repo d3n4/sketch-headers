@@ -1,0 +1,8 @@
+{
+  "name": "MSSharedStylesPopUpButtonCell",
+  "extends": "NSPopUpButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

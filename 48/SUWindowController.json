@@ -1,0 +1,23 @@
+{
+  "name": "SUWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [],
+  "methods": {
+    "initWithWindowNibName:": {
+      "name": "initWithWindowNibName:",
+      "bridgedName": "initWithWindowNibName",
+      "args": [
+        {
+          "name": "nibName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

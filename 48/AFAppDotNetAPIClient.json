@@ -1,0 +1,17 @@
+{
+  "name": "AFAppDotNetAPIClient",
+  "extends": "AFHTTPSessionManager",
+  "interfaces": [],
+  "methods": {
+    "sharedClient": {
+      "name": "sharedClient",
+      "bridgedName": "sharedClient",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

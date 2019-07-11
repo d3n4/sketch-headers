@@ -1,0 +1,29 @@
+{
+  "name": "SMKAdvertisementMessageContent",
+  "extends": "NSObject",
+  "interfaces": [
+    "SMKMessageCoding"
+  ],
+  "methods": {},
+  "properties": {
+    "advertisement": {
+      "name": "advertisement",
+      "pointer": false,
+      "type": "SMKAdvertisement ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "challenge": {
+      "name": "challenge",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

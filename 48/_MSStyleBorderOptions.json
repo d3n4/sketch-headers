@@ -1,0 +1,36 @@
+{
+  "name": "_MSStyleBorderOptions",
+  "extends": "MSStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "dashPattern": {
+      "name": "dashPattern",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "lineCapStyle": {
+      "name": "lineCapStyle",
+      "pointer": false,
+      "type": "NSLineCapStyle",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "lineJoinStyle": {
+      "name": "lineJoinStyle",
+      "pointer": false,
+      "type": "NSLineJoinStyle",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,303 @@
+{
+  "name": "MSBaseUnarchiver",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "unarchiveObjectWithData:": {
+      "name": "unarchiveObjectWithData:",
+      "bridgedName": "unarchiveObjectWithData",
+      "args": [
+        {
+          "name": "data",
+          "type": "nonnull NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "unarchiveObjectWithData:actualVersion:error:": {
+      "name": "unarchiveObjectWithData:actualVersion:error:",
+      "bridgedName": "unarchiveObjectWithData_actualVersion_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "nonnull NSData*",
+          "nullable": false
+        },
+        {
+          "name": "actualVersion",
+          "type": "MSDocumentVersion*",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "unarchiveObjectWithData:asVersion:corruptionDetected:error:": {
+      "name": "unarchiveObjectWithData:asVersion:corruptionDetected:error:",
+      "bridgedName": "unarchiveObjectWithData_asVersion_corruptionDetected_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "nonnull NSData *",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "MSDocumentVersion",
+          "nullable": false
+        },
+        {
+          "name": "corruption",
+          "type": "BOOL *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "unarchiveObjectAsVersion:corruptionDetected:error:": {
+      "name": "unarchiveObjectAsVersion:corruptionDetected:error:",
+      "bridgedName": "unarchiveObjectAsVersion_corruptionDetected_error",
+      "args": [
+        {
+          "name": "version",
+          "type": "MSDocumentVersion",
+          "nullable": false
+        },
+        {
+          "name": "corruption",
+          "type": "BOOL *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeObjectOfClass:forKey:": {
+      "name": "decodeObjectOfClass:forKey:",
+      "bridgedName": "decodeObjectOfClass_forKey",
+      "args": [
+        {
+          "name": "class",
+          "type": "nonnull Class",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeObjectOfClasses:forKey:": {
+      "name": "decodeObjectOfClasses:forKey:",
+      "bridgedName": "decodeObjectOfClasses_forKey",
+      "args": [
+        {
+          "name": "classes",
+          "type": "NSSet<Class> *",
+          "nullable": true
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "instanciateObject:": {
+      "name": "instanciateObject:",
+      "bridgedName": "instanciateObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsValueForKey:": {
+      "name": "containsValueForKey:",
+      "bridgedName": "containsValueForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeObjectForKey:": {
+      "name": "decodeObjectForKey:",
+      "bridgedName": "decodeObjectForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeDoubleForKey:": {
+      "name": "decodeDoubleForKey:",
+      "bridgedName": "decodeDoubleForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeBoolForKey:": {
+      "name": "decodeBoolForKey:",
+      "bridgedName": "decodeBoolForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeRectForKey:": {
+      "name": "decodeRectForKey:",
+      "bridgedName": "decodeRectForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodePointForKey:": {
+      "name": "decodePointForKey:",
+      "bridgedName": "decodePointForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeIntegerForKey:": {
+      "name": "decodeIntegerForKey:",
+      "bridgedName": "decodeIntegerForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeSizeForKey:": {
+      "name": "decodeSizeForKey:",
+      "bridgedName": "decodeSizeForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "CGSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "currentVersion": {
+      "name": "currentVersion",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "archiveVersion": {
+      "name": "archiveVersion",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "corruptionDetected": {
+      "name": "corruptionDetected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readwrite",
+        "nonatomic"
+      ]
+    },
+    "actualSymbolIDs": {
+      "name": "actualSymbolIDs",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "readwrite",
+        "nonatomic",
+        "strong",
+        "nonnull"
+      ]
+    }
+  },
+  "generics": []
+}

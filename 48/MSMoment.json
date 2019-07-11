@@ -1,0 +1,65 @@
+{
+  "name": "MSMoment",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithTitle:documentData:": {
+      "name": "initWithTitle:documentData:",
+      "bridgedName": "initWithTitle_documentData",
+      "args": [
+        {
+          "name": "newTitle",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "timestamp": {
+      "name": "timestamp",
+      "pointer": false,
+      "type": "NSTimeInterval",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "adaptability": {
+      "name": "adaptability",
+      "pointer": false,
+      "type": "MSMomentAdaptability",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

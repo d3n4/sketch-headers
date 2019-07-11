@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "SUBinaryDeltaMinorVersion",
+  "members": [
+    {
+      "name": "SUAzureMinorVersion",
+      "value": "1"
+    },
+    {
+      "name": "SUBeigeMinorVersion",
+      "value": "1"
+    }
+  ]
+}

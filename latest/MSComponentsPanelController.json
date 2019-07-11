@@ -1,0 +1,75 @@
+{
+  "name": "MSComponentsPanelController",
+  "extends": "NSWindowController",
+  "interfaces": [
+    "NSWindowDelegate",
+    "NSCollectionViewDelegate",
+    "NSCollectionViewDataSource",
+    "NSCollectionViewDelegateFlowLayout"
+  ],
+  "methods": {
+    "reloadData": {
+      "name": "reloadData",
+      "bridgedName": "reloadData",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fadeIn": {
+      "name": "fadeIn",
+      "bridgedName": "fadeIn",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fadeOut": {
+      "name": "fadeOut",
+      "bridgedName": "fadeOut",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "highlightedSymbolID": {
+      "name": "highlightedSymbolID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "didChooseSymbolBlock": {
+      "name": "didChooseSymbolBlock",
+      "pointer": false,
+      "type": "MSComponentsPanelDidChooseSymbolBlock",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "symbolFilterBlock": {
+      "name": "symbolFilterBlock",
+      "pointer": false,
+      "type": "MSForeignSymbolMenuBuilderFilter",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "allowDragging": {
+      "name": "allowDragging",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

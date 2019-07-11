@@ -1,0 +1,56 @@
+{
+  "name": "MSImmutableOverrideValue",
+  "extends": "_MSImmutableOverrideValue",
+  "interfaces": [],
+  "methods": {
+    "initWithName:value:": {
+      "name": "initWithName:value:",
+      "bridgedName": "initWithName_value",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "NSObject<NSCopying>*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overrideValuesFromDictionary:": {
+      "name": "overrideValuesFromDictionary:",
+      "bridgedName": "overrideValuesFromDictionary",
+      "args": [
+        {
+          "name": "dict",
+          "type": "NSDictionary*",
+          "nullable": true
+        }
+      ],
+      "returns": "NSArray<MSImmutableOverrideValue *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "dictionaryFromOverrideValues:": {
+      "name": "dictionaryFromOverrideValues:",
+      "bridgedName": "dictionaryFromOverrideValues",
+      "args": [
+        {
+          "name": "overrideValues",
+          "type": "NSArray<MSImmutableOverrideValue *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

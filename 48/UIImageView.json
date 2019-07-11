@@ -1,0 +1,111 @@
+{
+  "name": "UIImageView",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "sharedImageCache": {
+      "name": "sharedImageCache",
+      "bridgedName": "sharedImageCache",
+      "args": [],
+      "returns": "id <AFImageCache>",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setSharedImageCache:": {
+      "name": "setSharedImageCache:",
+      "bridgedName": "setSharedImageCache",
+      "args": [
+        {
+          "name": "imageCache",
+          "type": "__nullable id <AFImageCache>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setImageWithURL:": {
+      "name": "setImageWithURL:",
+      "bridgedName": "setImageWithURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setImageWithURL:placeholderImage:": {
+      "name": "setImageWithURL:placeholderImage:",
+      "bridgedName": "setImageWithURL_placeholderImage",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "placeholderImage",
+          "type": "UIImage *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setImageWithURLRequest:placeholderImage:success:failure:": {
+      "name": "setImageWithURLRequest:placeholderImage:success:failure:",
+      "bridgedName": "setImageWithURLRequest_placeholderImage_success_failure",
+      "args": [
+        {
+          "name": "urlRequest",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "placeholderImage",
+          "type": "UIImage *",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "void (^)(NSURLRequest *request, NSHTTPURLResponse * __nullable response, UIImage *image)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSURLRequest *request, NSHTTPURLResponse * __nullable response, NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelImageRequestOperation": {
+      "name": "cancelImageRequestOperation",
+      "bridgedName": "cancelImageRequestOperation",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "imageResponseSerializer": {
+      "name": "imageResponseSerializer",
+      "pointer": false,
+      "type": "id <AFURLResponseSerialization>",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

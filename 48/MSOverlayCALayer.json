@@ -1,0 +1,30 @@
+{
+  "name": "MSOverlayCALayer",
+  "extends": "MSRenderingCALayer",
+  "interfaces": [
+    "CALayerDelegate"
+  ],
+  "methods": {
+    "initWithTiledLayer:size:": {
+      "name": "initWithTiledLayer:size:",
+      "bridgedName": "initWithTiledLayer_size",
+      "args": [
+        {
+          "name": "tiledLayer",
+          "type": "MSTiledLayer*",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

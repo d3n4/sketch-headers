@@ -1,0 +1,8 @@
+{
+  "name": "SVGCircleShape",
+  "extends": "_SVGCircleShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,119 @@
+{
+  "name": "MSReplaceColorSheetController",
+  "extends": "CHSheetController",
+  "interfaces": [
+    "NSWindowDelegate",
+    "NSMenuDelegate",
+    "MSColorInspectorDelegate"
+  ],
+  "methods": {
+    "pickOriginalColor:": {
+      "name": "pickOriginalColor:",
+      "bridgedName": "pickOriginalColor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pickReplacementColor:": {
+      "name": "pickReplacementColor:",
+      "bridgedName": "pickReplacementColor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleIgnoreAlpha:": {
+      "name": "toggleIgnoreAlpha:",
+      "bridgedName": "toggleIgnoreAlpha",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "cancelButton": {
+      "name": "cancelButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "ignoreAlphaWhenMatchingOriginalColorButton": {
+      "name": "ignoreAlphaWhenMatchingOriginalColorButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "originalColorButton": {
+      "name": "originalColorButton",
+      "pointer": false,
+      "type": "IBOutlet MSColorPreviewButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "replacementColorButton": {
+      "name": "replacementColorButton",
+      "pointer": false,
+      "type": "IBOutlet MSColorPreviewButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "keepAlphaOfOriginalColorButton": {
+      "name": "keepAlphaOfOriginalColorButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "replacementColorPopoverDismissingView": {
+      "name": "replacementColorPopoverDismissingView",
+      "pointer": false,
+      "type": "IBOutlet MSPopoverDismisserView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "replaceButton": {
+      "name": "replaceButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

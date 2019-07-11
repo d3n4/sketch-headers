@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSLayoutGridRenderStyle",
+  "members": [
+    {
+      "name": "MSLayoutGridRenderStyleFill"
+    },
+    {
+      "name": "MSLayoutGridRenderStyleBorder"
+    }
+  ]
+}

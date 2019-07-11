@@ -1,0 +1,8 @@
+{
+  "name": "MSPDFExporter",
+  "extends": "MSExporter",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

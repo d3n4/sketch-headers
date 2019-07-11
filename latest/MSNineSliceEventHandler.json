@@ -1,8 +1,0 @@
-{
-  "name": "MSNineSliceEventHandler",
-  "extends": "MSPointsEventHandler",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

@@ -1,0 +1,8 @@
+{
+  "name": "MSCloudExplanatoryViewController",
+  "extends": "MSCloudViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

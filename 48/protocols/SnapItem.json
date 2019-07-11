@@ -1,0 +1,47 @@
+{
+  "protocol": true,
+  "name": "SnapItem",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "distanceRectangleToItem:axis:": {
+      "name": "distanceRectangleToItem:axis:",
+      "bridgedName": "distanceRectangleToItem_axis",
+      "args": [
+        {
+          "name": "other",
+          "type": "id<SnapItem>",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "snapLines": {
+      "name": "snapLines",
+      "pointer": false,
+      "type": "NSArray <MSLine *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "rectForSnapping": {
+      "name": "rectForSnapping",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

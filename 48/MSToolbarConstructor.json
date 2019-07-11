@@ -1,0 +1,71 @@
+{
+  "name": "MSToolbarConstructor",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSToolbarDelegate"
+  ],
+  "methods": {
+    "toolbarForDocument:": {
+      "name": "toolbarForDocument:",
+      "bridgedName": "toolbarForDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithDocument:": {
+      "name": "initWithDocument:",
+      "bridgedName": "initWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "constructToolbarForWindow:": {
+      "name": "constructToolbarForWindow:",
+      "bridgedName": "constructToolbarForWindow",
+      "args": [
+        {
+          "name": "window",
+          "type": "NSWindow *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allActions": {
+      "name": "allActions",
+      "bridgedName": "allActions",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "doc": {
+      "name": "doc",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

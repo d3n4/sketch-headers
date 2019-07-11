@@ -1,0 +1,8 @@
+{
+  "name": "MSPageOverlayRendererCGDebug",
+  "extends": "MSPageOverlayRendererCG",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "MSComponentsPanelWindow",
+  "extends": "NSPanel",
+  "interfaces": [],
+  "methods": {
+    "fadeIn": {
+      "name": "fadeIn",
+      "bridgedName": "fadeIn",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fadeOut": {
+      "name": "fadeOut",
+      "bridgedName": "fadeOut",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

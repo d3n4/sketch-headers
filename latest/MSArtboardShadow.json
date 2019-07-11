@@ -1,0 +1,28 @@
+{
+  "name": "MSArtboardShadow",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "drawInRect:context:": {
+      "name": "drawInRect:context:",
+      "bridgedName": "drawInRect_context",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

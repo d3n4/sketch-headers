@@ -1,0 +1,56 @@
+{
+  "name": "MSImmutableShapePathLayer",
+  "extends": "_MSImmutableShapePathLayer",
+  "interfaces": [],
+  "methods": {
+    "bezierPathInRect:": {
+      "name": "bezierPathInRect:",
+      "bridgedName": "bezierPathInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathInRect:": {
+      "name": "pathInRect:",
+      "bridgedName": "pathInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isEditing": {
+      "name": "isEditing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "usedStyle": {
+      "name": "usedStyle",
+      "pointer": false,
+      "type": "MSImmutableStyle ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

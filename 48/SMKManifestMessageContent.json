@@ -1,0 +1,20 @@
+{
+  "name": "SMKManifestMessageContent",
+  "extends": "NSObject",
+  "interfaces": [
+    "SMKMessageCoding"
+  ],
+  "methods": {},
+  "properties": {
+    "manifest": {
+      "name": "manifest",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

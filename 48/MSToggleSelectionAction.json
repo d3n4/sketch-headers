@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleSelectionAction",
+  "extends": "MSToggleViewPreferenceAction",
+  "interfaces": [],
+  "methods": {
+    "toggleSelection:": {
+      "name": "toggleSelection:",
+      "bridgedName": "toggleSelection",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,34 @@
+{
+  "enum": true,
+  "name": "MSLayerSelectionOptions",
+  "members": [
+    {
+      "name": "MSLayerSelectionClickThroughAllGroups",
+      "value": "1 << 1"
+    },
+    {
+      "name": "MSLayerSelectionClickThroughNonSlices",
+      "value": "1 << 2"
+    },
+    {
+      "name": "MSLayerSelectionIgnoreSlices",
+      "value": "1 << 3"
+    },
+    {
+      "name": "MSLayerSelectionSlicesAsOutlines",
+      "value": "1 << 4"
+    },
+    {
+      "name": "MSLayerSelectionPreferSecondMatch",
+      "value": "1 << 5"
+    },
+    {
+      "name": "MSLayerSelectionFullyContained",
+      "value": "1 << 6"
+    },
+    {
+      "name": "MSLayerSelectionAllArtboards",
+      "value": "1 << 7"
+    }
+  ]
+}

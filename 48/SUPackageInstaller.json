@@ -1,0 +1,8 @@
+{
+  "name": "SUPackageInstaller",
+  "extends": "SUPlainInstaller",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

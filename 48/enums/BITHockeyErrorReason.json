@@ -1,0 +1,9 @@
+{
+  "enum": true,
+  "name": "BITHockeyErrorReason",
+  "members": [
+    {
+      "name": "BITHockeyErrorUnknown"
+    }
+  ]
+}

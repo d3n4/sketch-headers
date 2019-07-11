@@ -1,0 +1,8 @@
+{
+  "name": "MSPolygonShapeAction",
+  "extends": "MSBaseShapeAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

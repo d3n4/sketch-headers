@@ -1,0 +1,23 @@
+{
+  "name": "MSGroupAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "group:": {
+      "name": "group:",
+      "bridgedName": "group",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,53 @@
+{
+  "name": "MSMirrorDataProvider",
+  "extends": "NSObject",
+  "interfaces": [
+    "SMKMirrorDataSource"
+  ],
+  "methods": {
+    "currentDocumentDidChange": {
+      "name": "currentDocumentDidChange",
+      "bridgedName": "currentDocumentDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentDocumentNameDidChange": {
+      "name": "currentDocumentNameDidChange",
+      "bridgedName": "currentDocumentNameDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentArtboardDidChange": {
+      "name": "currentArtboardDidChange",
+      "bridgedName": "currentArtboardDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendUpdate": {
+      "name": "sendUpdate",
+      "bridgedName": "sendUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "connectionController": {
+      "name": "connectionController",
+      "pointer": false,
+      "type": "SMKMirrorController ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

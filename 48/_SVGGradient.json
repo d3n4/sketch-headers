@@ -1,0 +1,222 @@
+{
+  "name": "_SVGGradient",
+  "extends": "SVGElement",
+  "interfaces": [],
+  "methods": {
+    "propertyNames": {
+      "name": "propertyNames",
+      "bridgedName": "propertyNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "relationshipNames": {
+      "name": "relationshipNames",
+      "bridgedName": "relationshipNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeNames": {
+      "name": "attributeNames",
+      "bridgedName": "attributeNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "primitiveAddLinkedFromObject:": {
+      "name": "primitiveAddLinkedFromObject:",
+      "bridgedName": "primitiveAddLinkedFromObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveRemoveLinkedFromObject:": {
+      "name": "primitiveRemoveLinkedFromObject:",
+      "bridgedName": "primitiveRemoveLinkedFromObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveSetLinkedTo:": {
+      "name": "primitiveSetLinkedTo:",
+      "bridgedName": "primitiveSetLinkedTo",
+      "args": [
+        {
+          "name": "linkedTo",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveAddUsedByFillsObject:": {
+      "name": "primitiveAddUsedByFillsObject:",
+      "bridgedName": "primitiveAddUsedByFillsObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveRemoveUsedByFillsObject:": {
+      "name": "primitiveRemoveUsedByFillsObject:",
+      "bridgedName": "primitiveRemoveUsedByFillsObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveAddUsedByStrokesObject:": {
+      "name": "primitiveAddUsedByStrokesObject:",
+      "bridgedName": "primitiveAddUsedByStrokesObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveRemoveUsedByStrokesObject:": {
+      "name": "primitiveRemoveUsedByStrokesObject:",
+      "bridgedName": "primitiveRemoveUsedByStrokesObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "fromX": {
+      "name": "fromX",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "fromY": {
+      "name": "fromY",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "radial": {
+      "name": "radial",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "toX": {
+      "name": "toX",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "toY": {
+      "name": "toY",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "transform": {
+      "name": "transform",
+      "pointer": false,
+      "type": "NSAffineTransform*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "linkedFrom": {
+      "name": "linkedFrom",
+      "pointer": false,
+      "type": "NSSet*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "linkedTo": {
+      "name": "linkedTo",
+      "pointer": false,
+      "type": "SVGGradient*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "usedByFills": {
+      "name": "usedByFills",
+      "pointer": false,
+      "type": "NSSet*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "usedByStrokes": {
+      "name": "usedByStrokes",
+      "pointer": false,
+      "type": "NSSet*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

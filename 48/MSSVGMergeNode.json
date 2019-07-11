@@ -1,0 +1,33 @@
+{
+  "name": "MSSVGMergeNode",
+  "extends": "MSXMLElementWrapper",
+  "interfaces": [],
+  "methods": {
+    "mergeNodeNamed:": {
+      "name": "mergeNodeNamed:",
+      "bridgedName": "mergeNodeNamed",
+      "args": [
+        {
+          "name": "nodeName",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "in": {
+      "name": "in",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

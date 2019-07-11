@@ -1,8 +1,0 @@
-{
-  "name": "MSNineSliceAction",
-  "extends": "MSDocumentAction",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

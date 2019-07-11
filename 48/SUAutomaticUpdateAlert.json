@@ -1,0 +1,57 @@
+{
+  "name": "SUAutomaticUpdateAlert",
+  "extends": "SUWindowController",
+  "interfaces": [],
+  "methods": {
+    "initWithAppcastItem:host:completionBlock:": {
+      "name": "initWithAppcastItem:host:completionBlock:",
+      "bridgedName": "initWithAppcastItem_host_completionBlock",
+      "args": [
+        {
+          "name": "item",
+          "type": "SUAppcastItem *",
+          "nullable": false
+        },
+        {
+          "name": "hostBundle",
+          "type": "SUHost *",
+          "nullable": false
+        },
+        {
+          "name": "c",
+          "type": "void (^)(SUAutomaticInstallationChoice)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installNowsender": {
+      "name": "installNowsender",
+      "bridgedName": "installNowsender",
+      "args": [],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installLatersender": {
+      "name": "installLatersender",
+      "bridgedName": "installLatersender",
+      "args": [],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doNotInstallsender": {
+      "name": "doNotInstallsender",
+      "bridgedName": "doNotInstallsender",
+      "args": [],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

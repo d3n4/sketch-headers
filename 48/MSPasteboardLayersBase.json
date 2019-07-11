@@ -1,0 +1,37 @@
+{
+  "name": "MSPasteboardLayersBase",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "dataForPasteboardData:": {
+      "name": "dataForPasteboardData:",
+      "bridgedName": "dataForPasteboardData",
+      "args": [
+        {
+          "name": "pasteboardData",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pasteboardDataFromData:": {
+      "name": "pasteboardDataFromData:",
+      "bridgedName": "pasteboardDataFromData",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSPasteboardLayers *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

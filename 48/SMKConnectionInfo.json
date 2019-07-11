@@ -1,0 +1,72 @@
+{
+  "name": "SMKConnectionInfo",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSSecureCoding"
+  ],
+  "methods": {
+    "compareConnectionInfo:": {
+      "name": "compareConnectionInfo:",
+      "bridgedName": "compareConnectionInfo",
+      "args": [
+        {
+          "name": "info",
+          "type": "SMKConnectionInfo *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSComparisonResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "UUID": {
+      "name": "UUID",
+      "pointer": false,
+      "type": "NSUUID ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "status": {
+      "name": "status",
+      "pointer": false,
+      "type": "SMKConnectionStatus",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "SMKConnectionType",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "advertisement": {
+      "name": "advertisement",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "hidden": {
+      "name": "hidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isHidden"
+      ]
+    }
+  },
+  "generics": []
+}

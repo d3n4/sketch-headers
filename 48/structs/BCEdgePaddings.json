@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "BCEdgePaddings",
+  "members": [
+    {
+      "name": "maxYEdge",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "minXEdge",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "minYEdge",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "maxXEdge",
+      "pointer": false,
+      "type": "CGFloat"
+    }
+  ]
+}

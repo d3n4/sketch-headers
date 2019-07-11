@@ -1,0 +1,45 @@
+{
+  "name": "MSVectorHandle",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "drawAtProposedPoint:inView:": {
+      "name": "drawAtProposedPoint:inView:",
+      "bridgedName": "drawAtProposedPoint_inView",
+      "args": [
+        {
+          "name": "proposedPoint",
+          "type": "NSPoint *",
+          "nullable": false
+        },
+        {
+          "name": "canvasView",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawingSize": {
+      "name": "drawingSize",
+      "bridgedName": "drawingSize",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "state": {
+      "name": "state",
+      "pointer": false,
+      "type": "MSHandleState",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,41 @@
+{
+  "struct": true,
+  "name": "MSMakeGridOptions",
+  "members": [
+    {
+      "name": "numberOfRows",
+      "pointer": false,
+      "type": "NSUInteger"
+    },
+    {
+      "name": "numberOfColumns",
+      "pointer": false,
+      "type": "NSUInteger"
+    },
+    {
+      "name": "horizontalPadding",
+      "pointer": false,
+      "type": "NSInteger"
+    },
+    {
+      "name": "verticalPadding",
+      "pointer": false,
+      "type": "NSInteger"
+    },
+    {
+      "name": "hasHorizontalPadding",
+      "pointer": false,
+      "type": "BOOL"
+    },
+    {
+      "name": "hasVerticalPadding",
+      "pointer": false,
+      "type": "BOOL"
+    },
+    {
+      "name": "skipFillingHoles",
+      "pointer": false,
+      "type": "BOOL"
+    }
+  ]
+}

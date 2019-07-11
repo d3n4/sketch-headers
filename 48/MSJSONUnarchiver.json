@@ -1,0 +1,61 @@
+{
+  "name": "MSJSONUnarchiver",
+  "extends": "MSBaseUnarchiver",
+  "interfaces": [],
+  "methods": {
+    "decodeReferenceObjectOfClass:withIdentifier:": {
+      "name": "decodeReferenceObjectOfClass:withIdentifier:",
+      "bridgedName": "decodeReferenceObjectOfClass_withIdentifier",
+      "args": [
+        {
+          "name": "className",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "identifier",
+          "type": "NSString*",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "referenceObjectWithIdentifier:": {
+      "name": "referenceObjectWithIdentifier:",
+      "bridgedName": "referenceObjectWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString*",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addReference:withIdentifier:": {
+      "name": "addReference:withIdentifier:",
+      "bridgedName": "addReference_withIdentifier",
+      "args": [
+        {
+          "name": "reference",
+          "type": "nonnull id",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

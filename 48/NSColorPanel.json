@@ -1,0 +1,31 @@
+{
+  "name": "NSColorPanel",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "shouldIgnoreChangeColorMessage": {
+      "name": "shouldIgnoreChangeColorMessage",
+      "bridgedName": "shouldIgnoreChangeColorMessage",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setColorWithoutNotifying:": {
+      "name": "setColorWithoutNotifying:",
+      "bridgedName": "setColorWithoutNotifying",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}
