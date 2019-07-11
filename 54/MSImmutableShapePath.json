@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableShapePath",
+  "extends": "_MSImmutableShapePath",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

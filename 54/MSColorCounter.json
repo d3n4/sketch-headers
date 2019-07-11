@@ -1,0 +1,39 @@
+{
+  "name": "MSColorCounter",
+  "extends": "MSObjectCounter",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "immutableColor": {
+      "name": "immutableColor",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

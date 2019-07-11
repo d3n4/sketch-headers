@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "ge_p3",
+  "members": [
+    {
+      "name": "X",
+      "pointer": false,
+      "type": "fe"
+    },
+    {
+      "name": "Y",
+      "pointer": false,
+      "type": "fe"
+    },
+    {
+      "name": "Z",
+      "pointer": false,
+      "type": "fe"
+    },
+    {
+      "name": "T",
+      "pointer": false,
+      "type": "fe"
+    }
+  ]
+}

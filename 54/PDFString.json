@@ -1,0 +1,53 @@
+{
+  "name": "PDFString",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithStringRef:": {
+      "name": "initWithStringRef:",
+      "bridgedName": "initWithStringRef",
+      "args": [
+        {
+          "name": "stringRef",
+          "type": "CGPDFStringRef",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "string": {
+      "name": "string",
+      "bridgedName": "string",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "data": {
+      "name": "data",
+      "bridgedName": "data",
+      "args": [],
+      "returns": "NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringWithMap:": {
+      "name": "stringWithMap:",
+      "bridgedName": "stringWithMap",
+      "args": [
+        {
+          "name": "map",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

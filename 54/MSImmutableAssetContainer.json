@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableAssetContainer",
+  "extends": "_MSImmutableAssetContainer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

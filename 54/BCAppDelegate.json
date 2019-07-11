@@ -1,0 +1,59 @@
+{
+  "name": "BCAppDelegate",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSApplicationDelegate",
+    "BCPopoverDelegate",
+    "NSApplicationDelegate"
+  ],
+  "methods": {
+    "attach:": {
+      "name": "attach:",
+      "bridgedName": "attach",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resize:": {
+      "name": "resize:",
+      "bridgedName": "resize",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "window": {
+      "name": "window",
+      "pointer": false,
+      "type": "IBOutlet NSWindow ",
+      "attributes": [
+        "weak"
+      ]
+    },
+    "button": {
+      "name": "button",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

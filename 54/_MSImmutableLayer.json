@@ -1,0 +1,191 @@
+{
+  "name": "_MSImmutableLayer",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "booleanOperation": {
+      "name": "booleanOperation",
+      "pointer": false,
+      "type": "MSBooleanOperation",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isFixedToViewport": {
+      "name": "isFixedToViewport",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isFlippedHorizontal": {
+      "name": "isFlippedHorizontal",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isFlippedVertical": {
+      "name": "isFlippedVertical",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isLocked": {
+      "name": "isLocked",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isVisible": {
+      "name": "isVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListExpandedType": {
+      "name": "layerListExpandedType",
+      "pointer": false,
+      "type": "MSLayerListStatus",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "nameIsFixed": {
+      "name": "nameIsFixed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "originalObjectID": {
+      "name": "originalObjectID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "resizingConstraint": {
+      "name": "resizingConstraint",
+      "pointer": false,
+      "type": "BCConstraint",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "resizingType": {
+      "name": "resizingType",
+      "pointer": false,
+      "type": "MSLayerResizingType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "rotation": {
+      "name": "rotation",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldBreakMaskChain": {
+      "name": "shouldBreakMaskChain",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "userInfo": {
+      "name": "userInfo",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "exportOptions": {
+      "name": "exportOptions",
+      "pointer": false,
+      "type": "MSImmutableExportOptions ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flow": {
+      "name": "flow",
+      "pointer": false,
+      "type": "MSImmutableFlowConnection ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "frame": {
+      "name": "frame",
+      "pointer": false,
+      "type": "MSImmutableRect ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

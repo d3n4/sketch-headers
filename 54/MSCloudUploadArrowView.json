@@ -1,0 +1,17 @@
+{
+  "name": "MSCloudUploadArrowView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {
+    "startAnimation": {
+      "name": "startAnimation",
+      "bridgedName": "startAnimation",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

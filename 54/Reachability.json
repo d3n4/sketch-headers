@@ -1,0 +1,85 @@
+{
+  "name": "Reachability",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "reachabilityWithHostName:": {
+      "name": "reachabilityWithHostName:",
+      "bridgedName": "reachabilityWithHostName",
+      "args": [
+        {
+          "name": "hostName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "reachabilityWithAddress:": {
+      "name": "reachabilityWithAddress:",
+      "bridgedName": "reachabilityWithAddress",
+      "args": [
+        {
+          "name": "hostAddress",
+          "type": "const struct sockaddr_in *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "reachabilityForInternetConnection": {
+      "name": "reachabilityForInternetConnection",
+      "bridgedName": "reachabilityForInternetConnection",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "reachabilityForLocalWiFi": {
+      "name": "reachabilityForLocalWiFi",
+      "bridgedName": "reachabilityForLocalWiFi",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "startNotifier": {
+      "name": "startNotifier",
+      "bridgedName": "startNotifier",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stopNotifier": {
+      "name": "stopNotifier",
+      "bridgedName": "stopNotifier",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentReachabilityStatus": {
+      "name": "currentReachabilityStatus",
+      "bridgedName": "currentReachabilityStatus",
+      "args": [],
+      "returns": "NetworkStatus",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "connectionRequired": {
+      "name": "connectionRequired",
+      "bridgedName": "connectionRequired",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

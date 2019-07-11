@@ -1,0 +1,60 @@
+{
+  "name": "BCCloudLicense",
+  "extends": "NSObject",
+  "interfaces": [
+    "BCLicense"
+  ],
+  "methods": {
+    "initWithDictionary:applicationID:publicCertificate:": {
+      "name": "initWithDictionary:applicationID:publicCertificate:",
+      "bridgedName": "initWithDictionary_applicationID_publicCertificate",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary*",
+          "nullable": true
+        },
+        {
+          "name": "applicationID",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "certificate",
+          "type": "NSString*",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithToken:": {
+      "name": "initWithToken:",
+      "bridgedName": "initWithToken",
+      "args": [
+        {
+          "name": "token",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "userID": {
+      "name": "userID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

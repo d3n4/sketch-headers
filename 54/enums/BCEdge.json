@@ -1,0 +1,42 @@
+{
+  "enum": true,
+  "name": "BCEdge",
+  "members": [
+    {
+      "name": "BCEdgeLeft",
+      "value": "1<<0"
+    },
+    {
+      "name": "BCEdgeRight",
+      "value": "1<<1"
+    },
+    {
+      "name": "BCEdgeTop",
+      "value": "1<<2"
+    },
+    {
+      "name": "BCEdgeBottom",
+      "value": "1<<3"
+    },
+    {
+      "name": "BCEdgeMidX",
+      "value": "1<<4"
+    },
+    {
+      "name": "BCEdgeMidY",
+      "value": "1<<5"
+    },
+    {
+      "name": "BCEdgeAll",
+      "value": "BCEdgeLeft | BCEdgeRight | BCEdgeTop | BCEdgeBottom | BCEdgeMidX | BCEdgeMidY"
+    },
+    {
+      "name": "BCEdgeVertical",
+      "value": "BCEdgeLeft | BCEdgeRight | BCEdgeMidX"
+    },
+    {
+      "name": "BCEdgeHorizontal",
+      "value": "BCEdgeTop | BCEdgeBottom | BCEdgeMidY"
+    }
+  ]
+}

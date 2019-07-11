@@ -1,0 +1,35 @@
+{
+  "name": "SPUURLRequest",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSSecureCoding"
+  ],
+  "methods": {
+    "URLRequestWithRequest:": {
+      "name": "URLRequestWithRequest:",
+      "bridgedName": "URLRequestWithRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "request": {
+      "name": "request",
+      "pointer": false,
+      "type": "NSURLRequest ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

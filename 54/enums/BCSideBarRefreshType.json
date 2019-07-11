@@ -1,0 +1,30 @@
+{
+  "enum": true,
+  "name": "BCSideBarRefreshType",
+  "members": [
+    {
+      "name": "BCSideBarRefreshTypeSelectionAndExpansion",
+      "value": "BCOutlineViewControllerRefreshTypeSelection | BCOutlineViewControllerRefreshTypeExpansion"
+    },
+    {
+      "name": "BCSideBarRefreshTypeLayout",
+      "value": "BCOutlineViewControllerRefreshTypeLayout"
+    },
+    {
+      "name": "BCSideBarRefreshTypePreviewImages",
+      "value": "BCOutlineViewControllerRefreshTypePreviewImages"
+    },
+    {
+      "name": "BCSideBarRefreshTypeAll",
+      "value": "BCOutlineViewControllerRefreshTypeAll"
+    },
+    {
+      "name": "BCSideBarRefreshTypeLayerList",
+      "value": "0x10"
+    },
+    {
+      "name": "BCSideBarRefreshTypePageList",
+      "value": "0x20"
+    }
+  ]
+}

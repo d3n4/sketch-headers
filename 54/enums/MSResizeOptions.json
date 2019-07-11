@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSResizeOptions",
+  "members": [
+    {
+      "name": "MSResizeDisableSnapping",
+      "value": "NSEventModifierFlagCommand"
+    },
+    {
+      "name": "MSResizeConstrainProportions",
+      "value": "NSEventModifierFlagShift"
+    },
+    {
+      "name": "MSResizeAboutCenter",
+      "value": "NSEventModifierFlagOption"
+    }
+  ]
+}

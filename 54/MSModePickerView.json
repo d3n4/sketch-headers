@@ -1,0 +1,34 @@
+{
+  "name": "MSModePickerView",
+  "extends": "NSStackView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "pickerMode": {
+      "name": "pickerMode",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id<MSModeModePickerDelegate>",
+      "attributes": [
+        "atomic",
+        "weak"
+      ]
+    },
+    "disabledModes": {
+      "name": "disabledModes",
+      "pointer": false,
+      "type": "NSIndexSet ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

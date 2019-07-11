@@ -1,0 +1,191 @@
+{
+  "name": "MSMirrorWindowController",
+  "extends": "NSWindowController",
+  "interfaces": [],
+  "methods": {
+    "sortedArtboards:": {
+      "name": "sortedArtboards:",
+      "bridgedName": "sortedArtboards",
+      "args": [
+        {
+          "name": "artboards",
+          "type": "NSArray<MSImmutableArtboardGroup *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSArray<MSImmutableArtboardGroup *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeVisibleArtboardID:": {
+      "name": "changeVisibleArtboardID:",
+      "bridgedName": "changeVisibleArtboardID",
+      "args": [
+        {
+          "name": "artboardID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transitionToArtboardID:animatedBy:": {
+      "name": "transitionToArtboardID:animatedBy:",
+      "bridgedName": "transitionToArtboardID_animatedBy",
+      "args": [
+        {
+          "name": "artboardID",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "animationType",
+          "type": "MSFlowAnimationType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedController": {
+      "name": "sharedController",
+      "bridgedName": "sharedController",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "show": {
+      "name": "show",
+      "bridgedName": "show",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "close": {
+      "name": "close",
+      "bridgedName": "close",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "viewPort": {
+      "name": "viewPort",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "dataProvider": {
+      "name": "dataProvider",
+      "pointer": false,
+      "type": "MSMirrorDataProvider ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "currentDocument": {
+      "name": "currentDocument",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "currentMutableDocument": {
+      "name": "currentMutableDocument",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "currentArtboardID": {
+      "name": "currentArtboardID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "firstArtboardID": {
+      "name": "firstArtboardID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "visibleArtboardID": {
+      "name": "visibleArtboardID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "defaultArtboardID": {
+      "name": "defaultArtboardID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "currentStartpoint": {
+      "name": "currentStartpoint",
+      "pointer": false,
+      "type": "MSImmutableArtboardGroup ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "startpoints": {
+      "name": "startpoints",
+      "pointer": false,
+      "type": "NSArray<MSImmutableArtboardGroup *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "currentURL": {
+      "name": "currentURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,339 @@
+{
+  "name": "BCJSONEncoder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "encoderForWritingToMutableData:": {
+      "name": "encoderForWritingToMutableData:",
+      "bridgedName": "encoderForWritingToMutableData",
+      "args": [
+        {
+          "name": "data",
+          "type": "nonnull NSMutableData*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull BCJSONEncoder*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "encodeObjectAsData:error:": {
+      "name": "encodeObjectAsData:error:",
+      "bridgedName": "encodeObjectAsData_error",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setAliasName:forClass:": {
+      "name": "setAliasName:forClass:",
+      "bridgedName": "setAliasName_forClass",
+      "args": [
+        {
+          "name": "codedName",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "class",
+          "type": "nonnull Class",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "encodeRootObject:error:": {
+      "name": "encodeRootObject:error:",
+      "bridgedName": "encodeRootObject_error",
+      "args": [
+        {
+          "name": "root",
+          "type": "NSObject*",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeObject:forKey:": {
+      "name": "encodeObject:forKey:",
+      "bridgedName": "encodeObject_forKey",
+      "args": [
+        {
+          "name": "object",
+          "type": "NSObject*",
+          "nullable": true
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeDouble:forKey:": {
+      "name": "encodeDouble:forKey:",
+      "bridgedName": "encodeDouble_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeBool:forKey:": {
+      "name": "encodeBool:forKey:",
+      "bridgedName": "encodeBool_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeRect:forKey:": {
+      "name": "encodeRect:forKey:",
+      "bridgedName": "encodeRect_forKey",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodePoint:forKey:": {
+      "name": "encodePoint:forKey:",
+      "bridgedName": "encodePoint_forKey",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeInteger:forKey:": {
+      "name": "encodeInteger:forKey:",
+      "bridgedName": "encodeInteger_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeSize:forKey:": {
+      "name": "encodeSize:forKey:",
+      "bridgedName": "encodeSize_forKey",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encoderForWritingToFile:": {
+      "name": "encoderForWritingToFile:",
+      "bridgedName": "encoderForWritingToFile",
+      "args": [
+        {
+          "name": "file",
+          "type": "nonnull NSFileHandle*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull BCJSONEncoder*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "encodeObject:toFile:error:": {
+      "name": "encodeObject:toFile:error:",
+      "bridgedName": "encodeObject_toFile_error",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        },
+        {
+          "name": "file",
+          "type": "nonnull NSFileHandle*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "encoderForWritingToURL:": {
+      "name": "encoderForWritingToURL:",
+      "bridgedName": "encoderForWritingToURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "nonnull NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull BCJSONEncoder*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "encodeObject:toURL:error:": {
+      "name": "encodeObject:toURL:error:",
+      "bridgedName": "encodeObject_toURL_error",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "nonnull NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "encodeObjectAsString:error:": {
+      "name": "encodeObjectAsString:error:",
+      "bridgedName": "encodeObjectAsString_error",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "userInfo": {
+      "name": "userInfo",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "archiver": {
+      "name": "archiver",
+      "pointer": false,
+      "type": "MSJSONArchiver ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

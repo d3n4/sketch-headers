@@ -1,0 +1,109 @@
+{
+  "name": "MSGradientEventHandler",
+  "extends": "MSPointsEventHandler",
+  "interfaces": [
+    "MSGradientPointArrayDelegate"
+  ],
+  "methods": {
+    "gradientHandlerForStylePart:manager:": {
+      "name": "gradientHandlerForStylePart:manager:",
+      "bridgedName": "gradientHandlerForStylePart_manager",
+      "args": [
+        {
+          "name": "part",
+          "type": "MSStyleBasicFill *",
+          "nullable": false
+        },
+        {
+          "name": "manager",
+          "type": "MSEventHandlerManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSGradientEventHandler *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "gradient": {
+      "name": "gradient",
+      "bridgedName": "gradient",
+      "args": [],
+      "returns": "MSGradient *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectPointCursor": {
+      "name": "selectPointCursor",
+      "bridgedName": "selectPointCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertPointCursor": {
+      "name": "insertPointCursor",
+      "bridgedName": "insertPointCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canInsertPointAtMouse:": {
+      "name": "canInsertPointAtMouse:",
+      "bridgedName": "canInsertPointAtMouse",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStopAtPosition:": {
+      "name": "addStopAtPosition:",
+      "bridgedName": "addStopAtPosition",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "repairGradientIfNecessary": {
+      "name": "repairGradientIfNecessary",
+      "bridgedName": "repairGradientIfNecessary",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "stylePart": {
+      "name": "stylePart",
+      "pointer": false,
+      "type": "MSStyleBasicFill ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "gradientDelegate": {
+      "name": "gradientDelegate",
+      "pointer": false,
+      "type": "id <MSGradientEventHandlerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

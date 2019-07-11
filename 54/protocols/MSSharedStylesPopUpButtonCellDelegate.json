@@ -1,0 +1,52 @@
+{
+  "protocol": true,
+  "name": "MSSharedStylesPopUpButtonCellDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "popupButtonCell:didCreatePreviewImage:forSharedObject:": {
+      "name": "popupButtonCell:didCreatePreviewImage:forSharedObject:",
+      "bridgedName": "popupButtonCell_didCreatePreviewImage_forSharedObject",
+      "args": [
+        {
+          "name": "cell",
+          "type": "MSSharedStylesPopUpButtonCell *",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "sharedObject",
+          "type": "MSShareableObjectReference *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cachedImageForPopupButtonCell:withSharedObject:": {
+      "name": "cachedImageForPopupButtonCell:withSharedObject:",
+      "bridgedName": "cachedImageForPopupButtonCell_withSharedObject",
+      "args": [
+        {
+          "name": "cell",
+          "type": "MSSharedStylesPopUpButtonCell *",
+          "nullable": false
+        },
+        {
+          "name": "sharedObject",
+          "type": "MSShareableObjectReference *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

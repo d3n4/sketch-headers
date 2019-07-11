@@ -1,0 +1,8 @@
+{
+  "name": "MSGraphicsContextSettings",
+  "extends": "_MSGraphicsContextSettings",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

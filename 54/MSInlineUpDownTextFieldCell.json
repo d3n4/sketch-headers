@@ -1,0 +1,17 @@
+{
+  "name": "MSInlineUpDownTextFieldCell",
+  "extends": "NSTextFieldCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "drawOldFashioned": {
+      "name": "drawOldFashioned",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

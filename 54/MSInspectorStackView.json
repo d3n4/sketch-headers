@@ -1,0 +1,72 @@
+{
+  "name": "MSInspectorStackView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {
+    "reloadWithViewControllers:": {
+      "name": "reloadWithViewControllers:",
+      "bridgedName": "reloadWithViewControllers",
+      "args": [
+        {
+          "name": "controllers",
+          "type": "NSArray <NSViewController *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadSubviews": {
+      "name": "reloadSubviews",
+      "bridgedName": "reloadSubviews",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "recalculateHeight": {
+      "name": "recalculateHeight",
+      "bridgedName": "recalculateHeight",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stack": {
+      "name": "stack",
+      "bridgedName": "stack",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subViewFrameDidChange:": {
+      "name": "subViewFrameDidChange:",
+      "bridgedName": "subViewFrameDidChange",
+      "args": [
+        {
+          "name": "subview",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "sectionViewControllers": {
+      "name": "sectionViewControllers",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "readonly",
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

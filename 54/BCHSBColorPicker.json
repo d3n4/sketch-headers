@@ -1,0 +1,50 @@
+{
+  "name": "BCHSBColorPicker",
+  "extends": "NSControl",
+  "interfaces": [
+    "BCColorPreviewDelegate",
+    "BCMagnifierButtonDelegate"
+  ],
+  "methods": {
+    "setColor:multipleValues:": {
+      "name": "setColor:multipleValues:",
+      "bridgedName": "setColor_multipleValues",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSFlexibleColor *",
+          "nullable": false
+        },
+        {
+          "name": "multiple",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id<BCHSBColorPickerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSFlexibleColor ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

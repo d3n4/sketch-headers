@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "NSOperatingSystemVersion",
+  "members": [
+    {
+      "name": "majorVersion",
+      "pointer": false,
+      "type": "NSInteger"
+    },
+    {
+      "name": "minorVersion",
+      "pointer": false,
+      "type": "NSInteger"
+    },
+    {
+      "name": "patchVersion",
+      "pointer": false,
+      "type": "NSInteger"
+    }
+  ]
+}

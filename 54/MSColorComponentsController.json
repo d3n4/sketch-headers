@@ -1,0 +1,57 @@
+{
+  "name": "MSColorComponentsController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSKeyViewProvider"
+  ],
+  "methods": {
+    "setColor:multipleValues:": {
+      "name": "setColor:multipleValues:",
+      "bridgedName": "setColor_multipleValues",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSFlexibleColor *",
+          "nullable": false
+        },
+        {
+          "name": "multiple",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSFlexibleColor*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorModel": {
+      "name": "colorModel",
+      "pointer": false,
+      "type": "MSComponentColorModel",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSColorComponentsControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

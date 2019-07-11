@@ -1,0 +1,75 @@
+{
+  "name": "MSViewPort",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "viewPortWithScrollOrigin:zoom:": {
+      "name": "viewPortWithScrollOrigin:zoom:",
+      "bridgedName": "viewPortWithScrollOrigin_zoom",
+      "args": [
+        {
+          "name": "origin",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSViewPort *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "cappedZoom:": {
+      "name": "cappedZoom:",
+      "bridgedName": "cappedZoom",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "minimumZoomValue": {
+      "name": "minimumZoomValue",
+      "bridgedName": "minimumZoomValue",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "maximumZoomValue": {
+      "name": "maximumZoomValue",
+      "bridgedName": "maximumZoomValue",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "scrollOrigin": {
+      "name": "scrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

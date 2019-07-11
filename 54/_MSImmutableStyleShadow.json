@@ -1,0 +1,69 @@
+{
+  "name": "_MSImmutableStyleShadow",
+  "extends": "MSImmutableStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "blurRadius": {
+      "name": "blurRadius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "offsetX": {
+      "name": "offsetX",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "offsetY": {
+      "name": "offsetY",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "spread": {
+      "name": "spread",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contextSettings": {
+      "name": "contextSettings",
+      "pointer": false,
+      "type": "MSImmutableGraphicsContextSettings ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

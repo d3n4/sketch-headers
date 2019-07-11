@@ -1,0 +1,27 @@
+{
+  "protocol": true,
+  "name": "MSPluginUpdater",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "downloadingAppcastsStatus": {
+      "name": "downloadingAppcastsStatus",
+      "pointer": false,
+      "type": "MSUpdaterStatus",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "downloadingPluginVersionsStatus": {
+      "name": "downloadingPluginVersionsStatus",
+      "pointer": false,
+      "type": "MSUpdaterStatus",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSAssetLibraryType",
+  "members": [
+    {
+      "name": "MSAssetLibraryTypeInternal",
+      "value": "0"
+    },
+    {
+      "name": "MSAssetLibraryTypeUser",
+      "value": "1"
+    },
+    {
+      "name": "MSAssetLibraryTypeRemote",
+      "value": "2"
+    }
+  ]
+}

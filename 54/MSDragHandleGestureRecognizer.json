@@ -1,0 +1,37 @@
+{
+  "name": "MSDragHandleGestureRecognizer",
+  "extends": "MSDragToMoveOrCopyGestureRecognizer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "originalHandleLocation": {
+      "name": "originalHandleLocation",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "lockingConstraint": {
+      "name": "lockingConstraint",
+      "pointer": false,
+      "type": "MSAlignmentEngineConstraint ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "copy"
+      ]
+    },
+    "effectiveLockingConstraint": {
+      "name": "effectiveLockingConstraint",
+      "pointer": false,
+      "type": "MSAlignmentEngineConstraint ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "SMKCommunicationOptions",
+  "members": [
+    {
+      "name": "SMKCommunicationOptionsNone",
+      "value": "0"
+    },
+    {
+      "name": "SMKCommunicationOptionsDisableUSB",
+      "value": "1 << 0"
+    },
+    {
+      "name": "SMKCommunicationOptionsDisableWeb",
+      "value": "1 << 1"
+    },
+    {
+      "name": "SMKCommunicationOptionsDisableNetService",
+      "value": "1 << 2"
+    }
+  ]
+}

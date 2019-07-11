@@ -1,0 +1,36 @@
+{
+  "name": "MSSVGOffset",
+  "extends": "MSSVGfeFilterPrimitive",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "in": {
+      "name": "in",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "dx": {
+      "name": "dx",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "dy": {
+      "name": "dy",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

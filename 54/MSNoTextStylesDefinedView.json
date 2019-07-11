@@ -1,0 +1,8 @@
+{
+  "name": "MSNoTextStylesDefinedView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

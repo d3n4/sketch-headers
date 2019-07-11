@@ -1,0 +1,85 @@
+{
+  "name": "MSTextWindow",
+  "extends": "NSWindow",
+  "interfaces": [],
+  "methods": {
+    "initWithRect:": {
+      "name": "initWithRect:",
+      "bridgedName": "initWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveToRect:contentDrawViewRect:behaviour:": {
+      "name": "moveToRect:contentDrawViewRect:behaviour:",
+      "bridgedName": "moveToRect_contentDrawViewRect_behaviour",
+      "args": [
+        {
+          "name": "textViewRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "contentDrawViewRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "behaviour",
+          "type": "BCTextBehaviourType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTextView:toView:": {
+      "name": "addTextView:toView:",
+      "bridgedName": "addTextView_toView",
+      "args": [
+        {
+          "name": "textView",
+          "type": "NSTextView *",
+          "nullable": false
+        },
+        {
+          "name": "childView",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "contentDrawView": {
+      "name": "contentDrawView",
+      "pointer": false,
+      "type": "MSContentDrawView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "textView": {
+      "name": "textView",
+      "pointer": false,
+      "type": "NSTextView ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

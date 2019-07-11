@@ -1,0 +1,111 @@
+{
+  "name": "MSLayerLine",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithPosition:onAxis:forLayer:": {
+      "name": "initWithPosition:onAxis:forLayer:",
+      "bridgedName": "initWithPosition_onAxis_forLayer",
+      "args": [
+        {
+          "name": "position",
+          "type": "BCOrdered",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "compare:": {
+      "name": "compare:",
+      "bridgedName": "compare",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSLayerLine *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSComparisonResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "commitProposedOffset": {
+      "name": "commitProposedOffset",
+      "bridgedName": "commitProposedOffset",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readwrite"
+      ]
+    },
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "position": {
+      "name": "position",
+      "pointer": false,
+      "type": "BCOrdered",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "previousLayerLine": {
+      "name": "previousLayerLine",
+      "pointer": false,
+      "type": "MSLayerLine ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "proposedOffset": {
+      "name": "proposedOffset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

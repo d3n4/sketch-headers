@@ -1,0 +1,81 @@
+{
+  "name": "SMKDiskCache",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithQOS:": {
+      "name": "initWithQOS:",
+      "bridgedName": "initWithQOS",
+      "args": [
+        {
+          "name": "qosClass",
+          "type": "dispatch_qos_class_t",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForKeyedSubscript:": {
+      "name": "objectForKeyedSubscript:",
+      "bridgedName": "objectForKeyedSubscript",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setObject:forKeyedSubscript:": {
+      "name": "setObject:forKeyedSubscript:",
+      "bridgedName": "setObject_forKeyedSubscript",
+      "args": [
+        {
+          "name": "obj",
+          "type": "NSData *",
+          "nullable": true
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsObjectForKey:": {
+      "name": "containsObjectForKey:",
+      "bridgedName": "containsObjectForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<SMKDiskCacheDelegate>",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

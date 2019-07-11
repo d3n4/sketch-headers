@@ -1,0 +1,8 @@
+{
+  "name": "MSArtboardPresetsRowView",
+  "extends": "NSTableRowView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

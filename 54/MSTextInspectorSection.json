@@ -1,0 +1,8 @@
+{
+  "name": "MSTextInspectorSection",
+  "extends": "MSBaseInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

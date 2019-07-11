@@ -1,0 +1,28 @@
+{
+  "name": "MSNormalEventContextualMenuBuilder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "menuForLayers:inContext:": {
+      "name": "menuForLayers:inContext:",
+      "bridgedName": "menuForLayers_inContext",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSContextualMenuBuilderContext",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenu *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

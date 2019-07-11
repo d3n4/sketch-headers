@@ -1,0 +1,220 @@
+{
+  "name": "MSCurvePoint",
+  "extends": "_MSCurvePoint",
+  "interfaces": [
+    "MSCurvePoint",
+    "NSCopying"
+  ],
+  "methods": {
+    "point": {
+      "name": "point",
+      "bridgedName": "point",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pointWithPoint:": {
+      "name": "pointWithPoint:",
+      "bridgedName": "pointWithPoint",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pointWithPoint:curveTo:curveFrom:": {
+      "name": "pointWithPoint:curveTo:curveFrom:",
+      "bridgedName": "pointWithPoint_curveTo_curveFrom",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "p2",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "p1",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithPoint:": {
+      "name": "initWithPoint:",
+      "bridgedName": "initWithPoint",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithPoint:curveTo:curveFrom:": {
+      "name": "initWithPoint:curveTo:curveFrom:",
+      "bridgedName": "initWithPoint_curveTo_curveFrom",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "p2",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "p1",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeCurveModeTo:usingPoint:": {
+      "name": "changeCurveModeTo:usingPoint:",
+      "bridgedName": "changeCurveModeTo_usingPoint",
+      "args": [
+        {
+          "name": "m",
+          "type": "MSCurveMode",
+          "nullable": false
+        },
+        {
+          "name": "pointType",
+          "type": "MSPointType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isRounded": {
+      "name": "isRounded",
+      "bridgedName": "isRounded",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inferCurveMode": {
+      "name": "inferCurveMode",
+      "bridgedName": "inferCurveMode",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "locationOfPoint:": {
+      "name": "locationOfPoint:",
+      "bridgedName": "locationOfPoint",
+      "args": [
+        {
+          "name": "pointType",
+          "type": "MSPointType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "movePointTo:": {
+      "name": "movePointTo:",
+      "bridgedName": "movePointTo",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveCurveFromTo:": {
+      "name": "moveCurveFromTo:",
+      "bridgedName": "moveCurveFromTo",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveCurveToTo:": {
+      "name": "moveCurveToTo:",
+      "bridgedName": "moveCurveToTo",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "multiplyBy:": {
+      "name": "multiplyBy:",
+      "bridgedName": "multiplyBy",
+      "args": [
+        {
+          "name": "amount",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isStraight": {
+      "name": "isStraight",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isEffectivelyStraight": {
+      "name": "isEffectivelyStraight",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

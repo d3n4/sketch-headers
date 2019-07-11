@@ -1,0 +1,81 @@
+{
+  "name": "MSPluginDataSupplierGroup",
+  "extends": "MSDataSupplierGroup",
+  "interfaces": [],
+  "methods": {
+    "initWithDataSuppliers:delegate:NS_UNAVAILABLE": {
+      "name": "initWithDataSuppliers:delegate:NS_UNAVAILABLE",
+      "bridgedName": "initWithDataSuppliers_delegate_NS_UNAVAILABLE",
+      "args": [
+        {
+          "name": "dataSuppliers",
+          "type": "NSSet<__kindof MSDataSupplier *> *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<MSDataSupplierDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithPluginDataSuppliers:delegate:": {
+      "name": "initWithPluginDataSuppliers:delegate:",
+      "bridgedName": "initWithPluginDataSuppliers_delegate",
+      "args": [
+        {
+          "name": "pluginDataSuppliers",
+          "type": "NSSet <MSPluginDataSupplier *> *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<MSDataSupplierDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCoder:": {
+      "name": "initWithCoder:",
+      "bridgedName": "initWithCoder",
+      "args": [
+        {
+          "name": "aDecoder",
+          "type": "NSCoder *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pluginDataSuppliers": {
+      "name": "pluginDataSuppliers",
+      "pointer": false,
+      "type": "NSArray <MSPluginDataSupplier *> ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "pluginIdentifier": {
+      "name": "pluginIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

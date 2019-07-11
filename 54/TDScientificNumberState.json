@@ -1,0 +1,8 @@
+{
+  "name": "TDScientificNumberState",
+  "extends": "TDNumberState",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

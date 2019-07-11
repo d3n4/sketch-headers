@@ -1,0 +1,52 @@
+{
+  "protocol": true,
+  "name": "MSPathLayer",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "simplify": {
+      "name": "simplify",
+      "bridgedName": "simplify",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reversePath": {
+      "name": "reversePath",
+      "bridgedName": "reversePath",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isClosed": {
+      "name": "isClosed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "edited": {
+      "name": "edited",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "pathInFrame": {
+      "name": "pathInFrame",
+      "pointer": false,
+      "type": "MSPath ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readwrite"
+      ]
+    }
+  }
+}

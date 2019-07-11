@@ -1,0 +1,250 @@
+{
+  "name": "MSLayerGroup",
+  "extends": "_MSLayerGroup",
+  "interfaces": [
+    "MSLayerGroup"
+  ],
+  "methods": {
+    "prepareAsMaskContainer": {
+      "name": "prepareAsMaskContainer",
+      "bridgedName": "prepareAsMaskContainer",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateLayersAvoidingFaultingWithOptions:passingTest:usingBlock:": {
+      "name": "enumerateLayersAvoidingFaultingWithOptions:passingTest:usingBlock:",
+      "bridgedName": "enumerateLayersAvoidingFaultingWithOptions_passingTest_usingBlock",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSLayerEnumeratorFlags",
+          "nullable": false
+        },
+        {
+          "name": "predicate",
+          "type": "MSLayerIteratorTestBlock",
+          "nullable": false
+        },
+        {
+          "name": "enumeratorBlock",
+          "type": "MSLayerIteratorBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ungroup": {
+      "name": "ungroup",
+      "bridgedName": "ungroup",
+      "args": [],
+      "returns": "NSArray <__kindof MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ungroupSingleChildDescendentGroups": {
+      "name": "ungroupSingleChildDescendentGroups",
+      "bridgedName": "ungroupSingleChildDescendentGroups",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyTransformsToLayers:": {
+      "name": "applyTransformsToLayers:",
+      "bridgedName": "applyTransformsToLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "groupWithLayer:": {
+      "name": "groupWithLayer:",
+      "bridgedName": "groupWithLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "groupWithLayers:": {
+      "name": "groupWithLayers:",
+      "bridgedName": "groupWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "disableAutomaticScalingInBlock:": {
+      "name": "disableAutomaticScalingInBlock:",
+      "bridgedName": "disableAutomaticScalingInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "optimalBoundingBoxInParentCoordinates": {
+      "name": "optimalBoundingBoxInParentCoordinates",
+      "bridgedName": "optimalBoundingBoxInParentCoordinates",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "optimalBoundingBox": {
+      "name": "optimalBoundingBox",
+      "bridgedName": "optimalBoundingBox",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldResizeToFitBounds:": {
+      "name": "shouldResizeToFitBounds:",
+      "bridgedName": "shouldResizeToFitBounds",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "groupBoundsShouldBeIntegral": {
+      "name": "groupBoundsShouldBeIntegral",
+      "bridgedName": "groupBoundsShouldBeIntegral",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deselectLayerAndParent": {
+      "name": "deselectLayerAndParent",
+      "bridgedName": "deselectLayerAndParent",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fixGeometryWithOptions:": {
+      "name": "fixGeometryWithOptions:",
+      "bridgedName": "fixGeometryWithOptions",
+      "args": [
+        {
+          "name": "resizeOption",
+          "type": "MSFixGroupGeometryOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveTransformsToChildren": {
+      "name": "moveTransformsToChildren",
+      "bridgedName": "moveTransformsToChildren",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertLayer:afterLayerOrAtEnd:": {
+      "name": "insertLayer:afterLayerOrAtEnd:",
+      "bridgedName": "insertLayer_afterLayerOrAtEnd",
+      "args": [
+        {
+          "name": "layer",
+          "type": "__kindof MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeChildrenWithOldSize:": {
+      "name": "resizeChildrenWithOldSize:",
+      "bridgedName": "resizeChildrenWithOldSize",
+      "args": [
+        {
+          "name": "oldSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldStripShadowsAndInnerShadow": {
+      "name": "shouldStripShadowsAndInnerShadow",
+      "bridgedName": "shouldStripShadowsAndInnerShadow",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultLayout": {
+      "name": "defaultLayout",
+      "bridgedName": "defaultLayout",
+      "args": [],
+      "returns": "MSGroupLayout *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasInferredLayout": {
+      "name": "hasInferredLayout",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isAutomaticScalingEnabled": {
+      "name": "isAutomaticScalingEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

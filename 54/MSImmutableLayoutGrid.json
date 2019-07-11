@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableLayoutGrid",
+  "extends": "_MSImmutableLayoutGrid",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

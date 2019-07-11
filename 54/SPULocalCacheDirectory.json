@@ -1,0 +1,51 @@
+{
+  "name": "SPULocalCacheDirectory",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "cachePathForBundleIdentifier:": {
+      "name": "cachePathForBundleIdentifier:",
+      "bridgedName": "cachePathForBundleIdentifier",
+      "args": [
+        {
+          "name": "bundleIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "removeOldItemsInDirectory:": {
+      "name": "removeOldItemsInDirectory:",
+      "bridgedName": "removeOldItemsInDirectory",
+      "args": [
+        {
+          "name": "directory",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "createUniqueDirectoryInDirectory:": {
+      "name": "createUniqueDirectoryInDirectory:",
+      "bridgedName": "createUniqueDirectoryInDirectory",
+      "args": [
+        {
+          "name": "directory",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString * _Nullable",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSRulerBlockCell",
+  "extends": "MSTintedHoverButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,42 @@
+{
+  "protocol": true,
+  "name": "MSNativeColorPanelPresenterDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorPanelPresenter:didChangeColor:": {
+      "name": "colorPanelPresenter:didChangeColor:",
+      "bridgedName": "colorPanelPresenter_didChangeColor",
+      "args": [
+        {
+          "name": "presenter",
+          "type": "MSNativeColorPanelPresenter *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "companionPopoverForColorPanelPresenter:": {
+      "name": "companionPopoverForColorPanelPresenter:",
+      "bridgedName": "companionPopoverForColorPanelPresenter",
+      "args": [
+        {
+          "name": "presenter",
+          "type": "MSNativeColorPanelPresenter *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable BCPopover *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

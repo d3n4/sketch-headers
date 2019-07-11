@@ -1,0 +1,87 @@
+{
+  "name": "MSBuiltinDataSupplierGroup",
+  "extends": "MSDataSupplierGroup",
+  "interfaces": [
+    "NSCoding"
+  ],
+  "methods": {
+    "initWithDataSuppliers:delegate:NS_UNAVAILABLE": {
+      "name": "initWithDataSuppliers:delegate:NS_UNAVAILABLE",
+      "bridgedName": "initWithDataSuppliers_delegate_NS_UNAVAILABLE",
+      "args": [
+        {
+          "name": "dataSuppliers",
+          "type": "NSSet <__kindof MSDataSupplier *> *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<MSDataSupplierDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCoder:": {
+      "name": "initWithCoder:",
+      "bridgedName": "initWithCoder",
+      "args": [
+        {
+          "name": "aDecoder",
+          "type": "NSCoder *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithBuiltinDataSuppliers:delegate:": {
+      "name": "initWithBuiltinDataSuppliers:delegate:",
+      "bridgedName": "initWithBuiltinDataSuppliers_delegate",
+      "args": [
+        {
+          "name": "builtinDataSuppliers",
+          "type": "NSSet <MSBuiltinDataSupplier *> *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<MSDataSupplierDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "includesEncodedIdentifier:": {
+      "name": "includesEncodedIdentifier:",
+      "bridgedName": "includesEncodedIdentifier",
+      "args": [
+        {
+          "name": "builtinDataIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "builtinDataSuppliers": {
+      "name": "builtinDataSuppliers",
+      "pointer": false,
+      "type": "NSArray <MSBuiltinDataSupplier *> ",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

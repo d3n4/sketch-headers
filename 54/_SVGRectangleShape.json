@@ -1,0 +1,43 @@
+{
+  "name": "_SVGRectangleShape",
+  "extends": "SVGBasicShape",
+  "interfaces": [],
+  "methods": {
+    "propertyNames": {
+      "name": "propertyNames",
+      "bridgedName": "propertyNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "relationshipNames": {
+      "name": "relationshipNames",
+      "bridgedName": "relationshipNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeNames": {
+      "name": "attributeNames",
+      "bridgedName": "attributeNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "cornerRadius": {
+      "name": "cornerRadius",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

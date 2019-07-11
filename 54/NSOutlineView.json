@@ -1,0 +1,135 @@
+{
+  "name": "NSOutlineView",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "selectItems:byExtendingSelection:": {
+      "name": "selectItems:byExtendingSelection:",
+      "bridgedName": "selectItems_byExtendingSelection",
+      "args": [
+        {
+          "name": "items",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "extend",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectItem:byExtendingSelection:": {
+      "name": "selectItem:byExtendingSelection:",
+      "bridgedName": "selectItem_byExtendingSelection",
+      "args": [
+        {
+          "name": "item",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "extend",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectItem:": {
+      "name": "selectItem:",
+      "bridgedName": "selectItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "simpleExpandedState": {
+      "name": "simpleExpandedState",
+      "bridgedName": "simpleExpandedState",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setSimpleExpandedState:": {
+      "name": "setSimpleExpandedState:",
+      "bridgedName": "setSimpleExpandedState",
+      "args": [
+        {
+          "name": "state",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "saveSimpleExpandedState": {
+      "name": "saveSimpleExpandedState",
+      "bridgedName": "saveSimpleExpandedState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "restoreSimpleExpandedState": {
+      "name": "restoreSimpleExpandedState",
+      "bridgedName": "restoreSimpleExpandedState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "expandAllItems": {
+      "name": "expandAllItems",
+      "bridgedName": "expandAllItems",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "collapseAllItems": {
+      "name": "collapseAllItems",
+      "bridgedName": "collapseAllItems",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "floatingGroupRow": {
+      "name": "floatingGroupRow",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "floatingGroupRowView": {
+      "name": "floatingGroupRowView",
+      "pointer": false,
+      "type": "NSTableRowView ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

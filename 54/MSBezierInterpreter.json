@@ -1,0 +1,54 @@
+{
+  "name": "MSBezierInterpreter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "pointsFromBezierPath:inRect:": {
+      "name": "pointsFromBezierPath:inRect:",
+      "bridgedName": "pointsFromBezierPath_inRect",
+      "args": [
+        {
+          "name": "bezierPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "points": {
+      "name": "points",
+      "bridgedName": "points",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "bezierPath": {
+      "name": "bezierPath",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

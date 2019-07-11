@@ -1,0 +1,38 @@
+{
+  "protocol": true,
+  "name": "MSGridRenderer",
+  "extends": "MSRenderer",
+  "interfaces": [],
+  "methods": {
+    "renderGrid:in:origin:context:": {
+      "name": "renderGrid:in:origin:context:",
+      "bridgedName": "renderGrid_in_origin_context",
+      "args": [
+        {
+          "name": "grid",
+          "type": "MSImmutableBaseGrid*",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "origin",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

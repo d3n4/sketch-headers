@@ -1,0 +1,23 @@
+{
+  "name": "MSTileScaleViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "initWithStylesController:": {
+      "name": "initWithStylesController:",
+      "bridgedName": "initWithStylesController",
+      "args": [
+        {
+          "name": "stylesController",
+          "type": "NSArrayController *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

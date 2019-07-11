@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSModelComparisonPurpose",
+  "members": [
+    {
+      "name": "MSModelComparisonPurposeDefault",
+      "value": "0"
+    },
+    {
+      "name": "MSModelComparisonPurposePaste",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSModelComparisonPurposeSync",
+      "value": "1 << 1"
+    }
+  ]
+}

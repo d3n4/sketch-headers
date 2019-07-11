@@ -1,0 +1,67 @@
+{
+  "name": "BCReceiptValidationException",
+  "extends": "NSException",
+  "interfaces": [],
+  "methods": {
+    "exceptionWithStatus:": {
+      "name": "exceptionWithStatus:",
+      "bridgedName": "exceptionWithStatus",
+      "args": [
+        {
+          "name": "status",
+          "type": "BCReceiptStatus",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "raiseWithStatus:": {
+      "name": "raiseWithStatus:",
+      "bridgedName": "raiseWithStatus",
+      "args": [
+        {
+          "name": "status",
+          "type": "BCReceiptStatus",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "raiseWithStatus:error:": {
+      "name": "raiseWithStatus:error:",
+      "bridgedName": "raiseWithStatus_error",
+      "args": [
+        {
+          "name": "status",
+          "type": "BCReceiptStatus",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "OSStatus",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "status": {
+      "name": "status",
+      "pointer": false,
+      "type": "BCReceiptStatus",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

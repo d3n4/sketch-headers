@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSSnappingTargetGuideType",
+  "members": [
+    {
+      "name": "MSSnappingTargetGuideNone"
+    },
+    {
+      "name": "MSSnappingTargetGuidePoint"
+    },
+    {
+      "name": "MSSnappingTargetGuideSegment"
+    }
+  ]
+}

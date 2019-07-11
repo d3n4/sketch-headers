@@ -1,0 +1,23 @@
+{
+  "name": "MSManageShareableObjectsAction",
+  "extends": "MSBaseSharedObjectAction",
+  "interfaces": [],
+  "methods": {
+    "showOrganiserSheet:": {
+      "name": "showOrganiserSheet:",
+      "bridgedName": "showOrganiserSheet",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

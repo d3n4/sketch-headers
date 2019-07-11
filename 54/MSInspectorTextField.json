@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorTextField",
+  "extends": "NSTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

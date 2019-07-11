@@ -1,0 +1,23 @@
+{
+  "name": "MSDistributeAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "distributeAlongAxis:": {
+      "name": "distributeAlongAxis:",
+      "bridgedName": "distributeAlongAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

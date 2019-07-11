@@ -1,0 +1,38 @@
+{
+  "name": "MSImmutableArtboardGroup",
+  "extends": "_MSImmutableArtboardGroup",
+  "interfaces": [
+    "MSLayerWithBackgroundColor",
+    "MSArtboardGroup",
+    "MSImmutableRootLayer"
+  ],
+  "methods": {
+    "shouldDrawBackgroundInContext:": {
+      "name": "shouldDrawBackgroundInContext:",
+      "bridgedName": "shouldDrawBackgroundInContext",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "preset": {
+      "name": "preset",
+      "pointer": false,
+      "type": "MSArtboardPreset ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

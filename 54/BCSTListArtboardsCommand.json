@@ -1,0 +1,8 @@
+{
+  "name": "BCSTListArtboardsCommand",
+  "extends": "BCSTListCommand",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

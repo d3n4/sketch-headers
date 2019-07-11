@@ -1,0 +1,150 @@
+{
+  "name": "BCRegularLicenseOperation",
+  "extends": "BCURLOperation",
+  "interfaces": [
+    "BCLicenseOperation"
+  ],
+  "methods": {
+    "configureWithApplicationID:publicCertificate:": {
+      "name": "configureWithApplicationID:publicCertificate:",
+      "bridgedName": "configureWithApplicationID_publicCertificate",
+      "args": [
+        {
+          "name": "applicationID",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "publicCertificate",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithRequest:": {
+      "name": "initWithRequest:",
+      "bridgedName": "initWithRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerWithLicenseKey:handler:": {
+      "name": "registerWithLicenseKey:handler:",
+      "bridgedName": "registerWithLicenseKey_handler",
+      "args": [
+        {
+          "name": "license",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "BCLicenseRequestHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "refreshLicense:handler:": {
+      "name": "refreshLicense:handler:",
+      "bridgedName": "refreshLicense_handler",
+      "args": [
+        {
+          "name": "license",
+          "type": "id<BCLicense>",
+          "nullable": true
+        },
+        {
+          "name": "handler",
+          "type": "BCLicenseRequestHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "requestTrialWithHandler:": {
+      "name": "requestTrialWithHandler:",
+      "bridgedName": "requestTrialWithHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "BCLicenseRequestHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "unregisterLicense:": {
+      "name": "unregisterLicense:",
+      "bridgedName": "unregisterLicense",
+      "args": [
+        {
+          "name": "license",
+          "type": "id<BCLicense>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "requestMetadataForLicense:handler:": {
+      "name": "requestMetadataForLicense:handler:",
+      "bridgedName": "requestMetadataForLicense_handler",
+      "args": [
+        {
+          "name": "license",
+          "type": "id<BCLicense>",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "BCLicenseMetadataRequestHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "result": {
+      "name": "result",
+      "pointer": false,
+      "type": "id<BCLicenseOperationResult>",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

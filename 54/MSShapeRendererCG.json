@@ -1,0 +1,8 @@
+{
+  "name": "MSShapeRendererCG",
+  "extends": "MSGroupRendererCG",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

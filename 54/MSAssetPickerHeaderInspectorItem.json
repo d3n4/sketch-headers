@@ -1,0 +1,8 @@
+{
+  "name": "MSAssetPickerHeaderInspectorItem",
+  "extends": "MSColorHeaderInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

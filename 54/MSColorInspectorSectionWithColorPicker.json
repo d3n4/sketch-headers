@@ -1,0 +1,19 @@
+{
+  "name": "MSColorInspectorSectionWithColorPicker",
+  "extends": "MSColorInspectorSection",
+  "interfaces": [
+    "MSCollapsibleHeaderInspectorItemTarget"
+  ],
+  "methods": {
+    "colorPickerViews": {
+      "name": "colorPickerViews",
+      "bridgedName": "colorPickerViews",
+      "args": [],
+      "returns": "NSArray<NSView*>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

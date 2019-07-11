@@ -1,0 +1,23 @@
+{
+  "name": "MSApplyLandscapeOrientationAction",
+  "extends": "MSApplyOrientationAction",
+  "interfaces": [],
+  "methods": {
+    "applyLandscapeOrientation:": {
+      "name": "applyLandscapeOrientation:",
+      "bridgedName": "applyLandscapeOrientation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

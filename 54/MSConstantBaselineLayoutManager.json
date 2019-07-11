@@ -1,0 +1,8 @@
+{
+  "name": "MSConstantBaselineLayoutManager",
+  "extends": "NSLayoutManager",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

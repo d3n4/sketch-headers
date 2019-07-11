@@ -1,0 +1,36 @@
+{
+  "name": "MSLayerMeasuringController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "renderer": {
+      "name": "renderer",
+      "pointer": false,
+      "type": "MSSpecRenderer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "viewModel": {
+      "name": "viewModel",
+      "pointer": false,
+      "type": "MSLayerMeasurementViewModel ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberFormatter": {
+      "name": "numberFormatter",
+      "pointer": false,
+      "type": "NSNumberFormatter ",
+      "attributes": [
+        "nonatomic",
+        "null_resettable"
+      ]
+    }
+  },
+  "generics": []
+}

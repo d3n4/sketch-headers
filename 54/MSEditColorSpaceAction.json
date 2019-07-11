@@ -1,0 +1,23 @@
+{
+  "name": "MSEditColorSpaceAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "editDocumentColorSpace:": {
+      "name": "editDocumentColorSpace:",
+      "bridgedName": "editDocumentColorSpace",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

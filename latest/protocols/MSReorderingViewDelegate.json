@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSReorderingViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "reorderingView:shouldDeleteItemForDragPosition:": {
+      "name": "reorderingView:shouldDeleteItemForDragPosition:",
+      "bridgedName": "reorderingView_shouldDeleteItemForDragPosition",
+      "args": [
+        {
+          "name": "reorderingView",
+          "type": "MSReorderingView *",
+          "nullable": false
+        },
+        {
+          "name": "dragPosition",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

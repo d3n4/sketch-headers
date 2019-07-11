@@ -1,0 +1,169 @@
+{
+  "name": "MSShareableObjectUpdater",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "performCreateNewStyleAction": {
+      "name": "performCreateNewStyleAction",
+      "bridgedName": "performCreateNewStyleAction",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performSyncAndOrUnlinkAction": {
+      "name": "performSyncAndOrUnlinkAction",
+      "bridgedName": "performSyncAndOrUnlinkAction",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performResetAction": {
+      "name": "performResetAction",
+      "bridgedName": "performResetAction",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performDetachAction": {
+      "name": "performDetachAction",
+      "bridgedName": "performDetachAction",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "selectedLayers": {
+      "name": "selectedLayers",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "shareableObjectType": {
+      "name": "shareableObjectType",
+      "pointer": false,
+      "type": "MSShareableObjectType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasOutOfSyncStyles": {
+      "name": "hasOutOfSyncStyles",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "allSharedObjects": {
+      "name": "allSharedObjects",
+      "pointer": false,
+      "type": "NSSet<MSShareableObject *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shareableObject": {
+      "name": "shareableObject",
+      "pointer": false,
+      "type": "__kindof MSShareableObject ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "selectedStyle": {
+      "name": "selectedStyle",
+      "pointer": false,
+      "type": "MSStyle ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "foreignSharedObjects": {
+      "name": "foreignSharedObjects",
+      "pointer": false,
+      "type": "NSSet<MSForeignObject *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "menuItemTitleForCreateNewStyleAction": {
+      "name": "menuItemTitleForCreateNewStyleAction",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "menuItemTitleForSyncAction": {
+      "name": "menuItemTitleForSyncAction",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "menuItemTitleForUnlinkAction": {
+      "name": "menuItemTitleForUnlinkAction",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "menuItemTitleForUnlinkAndSyncAction": {
+      "name": "menuItemTitleForUnlinkAndSyncAction",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "menuItemTitleForResetStyleAction": {
+      "name": "menuItemTitleForResetStyleAction",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "menuItemTitleForDetachAction": {
+      "name": "menuItemTitleForDetachAction",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

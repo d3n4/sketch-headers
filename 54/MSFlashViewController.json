@@ -1,0 +1,33 @@
+{
+  "name": "MSFlashViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "flashViewControllerWithMessage:closeBlock:helpBlock:": {
+      "name": "flashViewControllerWithMessage:closeBlock:helpBlock:",
+      "bridgedName": "flashViewControllerWithMessage_closeBlock_helpBlock",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "closeBlock",
+          "type": "MSFlashViewControllerBlock",
+          "nullable": true
+        },
+        {
+          "name": "helpBlock",
+          "type": "MSFlashViewControllerBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

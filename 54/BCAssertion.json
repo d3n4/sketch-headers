@@ -1,0 +1,28 @@
+{
+  "name": "BCAssertion",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "assertObject:isOfClass:": {
+      "name": "assertObject:isOfClass:",
+      "bridgedName": "assertObject_isOfClass",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "c",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

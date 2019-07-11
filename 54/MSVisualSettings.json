@@ -1,0 +1,25 @@
+{
+  "name": "MSVisualSettings",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "overlayColorSettingsFromTheme": {
+      "name": "overlayColorSettingsFromTheme",
+      "bridgedName": "overlayColorSettingsFromTheme",
+      "args": [],
+      "returns": "MSOverlayColorSettings *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "updateSettings": {
+      "name": "updateSettings",
+      "bridgedName": "updateSettings",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

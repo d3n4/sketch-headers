@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSDocumentTextPreviews",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "createPreviewPDFDataForTextLayers:document:": {
+      "name": "createPreviewPDFDataForTextLayers:document:",
+      "bridgedName": "createPreviewPDFDataForTextLayers_document",
+      "args": [
+        {
+          "name": "layers",
+          "type": "nonnull NSSet<MSImmutableTextLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

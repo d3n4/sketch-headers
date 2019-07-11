@@ -1,0 +1,30 @@
+{
+  "name": "MSReplaceOverrideSymbolAction",
+  "extends": "MSOverrideAction",
+  "interfaces": [
+    "MSReplaceOverride"
+  ],
+  "methods": {
+    "applySymbolOverride:fromMenuItem:": {
+      "name": "applySymbolOverride:fromMenuItem:",
+      "bridgedName": "applySymbolOverride_fromMenuItem",
+      "args": [
+        {
+          "name": "availableOverride",
+          "type": "MSAvailableOverride *",
+          "nullable": false
+        },
+        {
+          "name": "item",
+          "type": "NSMenuItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

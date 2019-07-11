@@ -1,0 +1,46 @@
+{
+  "name": "MSSharedStyle",
+  "extends": "_MSSharedStyle",
+  "interfaces": [],
+  "methods": {
+    "resetReferencingInstances": {
+      "name": "resetReferencingInstances",
+      "bridgedName": "resetReferencingInstances",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithName:style:": {
+      "name": "initWithName:style:",
+      "bridgedName": "initWithName_style",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "style",
+          "type": "MSStyle*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "style": {
+      "name": "style",
+      "pointer": false,
+      "type": "MSStyle*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

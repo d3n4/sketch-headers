@@ -1,0 +1,23 @@
+{
+  "name": "MSArchiveReader",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "first4bytesOfFileAtURL:": {
+      "name": "first4bytesOfFileAtURL:",
+      "bridgedName": "first4bytesOfFileAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "uint32_t",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

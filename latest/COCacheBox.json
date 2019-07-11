@@ -1,0 +1,46 @@
+{
+  "name": "COCacheBox",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithJSValueRef:inContext:": {
+      "name": "initWithJSValueRef:inContext:",
+      "bridgedName": "initWithJSValueRef_inContext",
+      "args": [
+        {
+          "name": "jsValue",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "JSGlobalContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cleanup": {
+      "name": "cleanup",
+      "bridgedName": "cleanup",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "jsValueRef": {
+      "name": "jsValueRef",
+      "pointer": false,
+      "type": "JSValueRef",
+      "attributes": [
+        "assign",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

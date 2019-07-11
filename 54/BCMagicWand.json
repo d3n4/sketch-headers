@@ -1,0 +1,34 @@
+{
+  "name": "BCMagicWand",
+  "extends": "NSOperation",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "startPoint": {
+      "name": "startPoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "tolerance": {
+      "name": "tolerance",
+      "pointer": false,
+      "type": "int",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "bitmap": {
+      "name": "bitmap",
+      "pointer": false,
+      "type": "NSBitmapImageRep ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

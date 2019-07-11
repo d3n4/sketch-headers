@@ -1,0 +1,61 @@
+{
+  "name": "SCKUser",
+  "extends": "SCKObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "email": {
+      "name": "email",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "changedEmail": {
+      "name": "changedEmail",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "avatar": {
+      "name": "avatar",
+      "pointer": false,
+      "type": "SCKAvatar ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "organizations": {
+      "name": "organizations",
+      "pointer": false,
+      "type": "NSArray<SCKOrganization *> ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

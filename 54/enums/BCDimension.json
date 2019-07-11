@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "BCDimension",
+  "members": [
+    {
+      "name": "BCDimensionWidth",
+      "value": "BCAxisX"
+    },
+    {
+      "name": "BCDimensionHeight",
+      "value": "BCAxisY"
+    }
+  ]
+}

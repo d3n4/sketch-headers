@@ -1,0 +1,8 @@
+{
+  "name": "MSExportInitialHeaderItem",
+  "extends": "MSHeaderInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

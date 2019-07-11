@@ -1,0 +1,8 @@
+{
+  "name": "MSRenderingDriverCG",
+  "extends": "MSRenderingDriver",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

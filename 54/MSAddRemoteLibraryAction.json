@@ -1,0 +1,37 @@
+{
+  "name": "MSAddRemoteLibraryAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "addCloudLibraryWithID:": {
+      "name": "addCloudLibraryWithID:",
+      "bridgedName": "addCloudLibraryWithID",
+      "args": [
+        {
+          "name": "shortID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAppcastURL:": {
+      "name": "addAppcastURL:",
+      "bridgedName": "addAppcastURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

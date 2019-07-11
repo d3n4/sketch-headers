@@ -1,0 +1,25 @@
+{
+  "name": "MSBackgroundBlurInspectorItem",
+  "extends": "MSBaseBlurInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "saturationField": {
+      "name": "saturationField",
+      "pointer": false,
+      "type": "IBOutlet MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "saturationSlider": {
+      "name": "saturationSlider",
+      "pointer": false,
+      "type": "IBOutlet NSSlider ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

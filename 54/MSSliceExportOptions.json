@@ -1,0 +1,23 @@
+{
+  "name": "MSSliceExportOptions",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "exportOptionsForRequests:": {
+      "name": "exportOptionsForRequests:",
+      "bridgedName": "exportOptionsForRequests",
+      "args": [
+        {
+          "name": "requests",
+          "type": "NSArray<MSExportRequest*>*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSliceExportOptions *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}
