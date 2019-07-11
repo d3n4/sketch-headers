@@ -1,0 +1,195 @@
+{
+  "name": "MSSnapItem",
+  "extends": "NSObject",
+  "interfaces": [
+    "SnapItem"
+  ],
+  "methods": {
+    "snapperObjectWithLayers:": {
+      "name": "snapperObjectWithLayers:",
+      "bridgedName": "snapperObjectWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "snapLinesForLayer:": {
+      "name": "snapLinesForLayer:",
+      "bridgedName": "snapLinesForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLine *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "snapInBlock:": {
+      "name": "snapInBlock:",
+      "bridgedName": "snapInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapLines": {
+      "name": "snapLines",
+      "bridgedName": "snapLines",
+      "args": [],
+      "returns": "NSArray <MSLine *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapItemForDrawing": {
+      "name": "snapItemForDrawing",
+      "bridgedName": "snapItemForDrawing",
+      "args": [],
+      "returns": "MSSnapItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardForSnapping": {
+      "name": "artboardForSnapping",
+      "bridgedName": "artboardForSnapping",
+      "args": [],
+      "returns": "nullable MSArtboardGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "otherLayersForSnapping": {
+      "name": "otherLayersForSnapping",
+      "bridgedName": "otherLayersForSnapping",
+      "args": [],
+      "returns": "NSArray <MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "otherLayersForSizeSnapping": {
+      "name": "otherLayersForSizeSnapping",
+      "bridgedName": "otherLayersForSizeSnapping",
+      "args": [],
+      "returns": "NSArray <MSLayer *>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "originalRect": {
+      "name": "originalRect",
+      "bridgedName": "originalRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldDrawDistanceOnSnapTo:": {
+      "name": "shouldDrawDistanceOnSnapTo:",
+      "bridgedName": "shouldDrawDistanceOnSnapTo",
+      "args": [
+        {
+          "name": "snapItem",
+          "type": "id<SnapItem>",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlayWithAbsoluteMargins:": {
+      "name": "refreshOverlayWithAbsoluteMargins:",
+      "bridgedName": "refreshOverlayWithAbsoluteMargins",
+      "args": [
+        {
+          "name": "margins",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "preDrawingTransform": {
+      "name": "preDrawingTransform",
+      "bridgedName": "preDrawingTransform",
+      "args": [],
+      "returns": "CGAffineTransform",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldConstrainProportions": {
+      "name": "shouldConstrainProportions",
+      "bridgedName": "shouldConstrainProportions",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportsResizingForSnapping": {
+      "name": "supportsResizingForSnapping",
+      "bridgedName": "supportsResizingForSnapping",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rotation": {
+      "name": "rotation",
+      "bridgedName": "rotation",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "concatAncestorsAndSelfTransforms": {
+      "name": "concatAncestorsAndSelfTransforms",
+      "bridgedName": "concatAncestorsAndSelfTransforms",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boundsRect": {
+      "name": "boundsRect",
+      "bridgedName": "boundsRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "rectForSnapping": {
+      "name": "rectForSnapping",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

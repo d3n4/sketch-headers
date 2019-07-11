@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "MSRenderingContextCacheProvider",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "cacheForZoomLevel:": {
+      "name": "cacheForZoomLevel:",
+      "bridgedName": "cacheForZoomLevel",
+      "args": [
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BCCache *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "zoomIndependentCache": {
+      "name": "zoomIndependentCache",
+      "pointer": false,
+      "type": "BCCache ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

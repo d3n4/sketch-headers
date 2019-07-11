@@ -1,0 +1,8 @@
+{
+  "name": "MSImageView",
+  "extends": "NSImageView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

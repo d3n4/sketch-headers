@@ -1,0 +1,120 @@
+{
+  "protocol": true,
+  "name": "MSImporter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "prepareToImportFromData:": {
+      "name": "prepareToImportFromData:",
+      "bridgedName": "prepareToImportFromData",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareToImportFromURL:": {
+      "name": "prepareToImportFromURL:",
+      "bridgedName": "prepareToImportFromURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "importIntoPage:name:progress:": {
+      "name": "importIntoPage:name:progress:",
+      "bridgedName": "importIntoPage_name_progress",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage*",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "finishImporting": {
+      "name": "finishImporting",
+      "bridgedName": "finishImporting",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstPhaseSubtitle": {
+      "name": "firstPhaseSubtitle",
+      "bridgedName": "firstPhaseSubtitle",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "secondPhaseSubtitleForValue:maximum:": {
+      "name": "secondPhaseSubtitleForValue:maximum:",
+      "bridgedName": "secondPhaseSubtitleForValue_maximum",
+      "args": [
+        {
+          "name": "value",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "maximum",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldExpandPages": {
+      "name": "shouldExpandPages",
+      "bridgedName": "shouldExpandPages",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldCollapseSinglePage": {
+      "name": "shouldCollapseSinglePage",
+      "bridgedName": "shouldCollapseSinglePage",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "importAsLayer": {
+      "name": "importAsLayer",
+      "bridgedName": "importAsLayer",
+      "args": [],
+      "returns": "MSLayer*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

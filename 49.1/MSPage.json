@@ -1,0 +1,276 @@
+{
+  "name": "MSPage",
+  "extends": "_MSPage",
+  "interfaces": [
+    "MSRootLayer"
+  ],
+  "methods": {
+    "page": {
+      "name": "page",
+      "bridgedName": "page",
+      "args": [],
+      "returns": "MSPage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "selectedLayers": {
+      "name": "selectedLayers",
+      "bridgedName": "selectedLayers",
+      "args": [],
+      "returns": "MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardWithID:": {
+      "name": "artboardWithID:",
+      "bridgedName": "artboardWithID",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSArtboardGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isLayerSelected:": {
+      "name": "isLayerSelected:",
+      "bridgedName": "isLayerSelected",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeSelectionUsingBlock:": {
+      "name": "changeSelectionUsingBlock:",
+      "bridgedName": "changeSelectionUsingBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSSelectionModifierBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeSelectionBySelectingLayers:": {
+      "name": "changeSelectionBySelectingLayers:",
+      "bridgedName": "changeSelectionBySelectingLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearSelectionCache": {
+      "name": "clearSelectionCache",
+      "bridgedName": "clearSelectionCache",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addOrRemoveLayerFromArtboardIfNecessary:": {
+      "name": "addOrRemoveLayerFromArtboardIfNecessary:",
+      "bridgedName": "addOrRemoveLayerFromArtboardIfNecessary",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tryToMoveLayer:toArtboards:": {
+      "name": "tryToMoveLayer:toArtboards:",
+      "bridgedName": "tryToMoveLayer_toArtboards",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "artboards",
+          "type": "NSArray <MSArtboardGroup *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "destinationArtboardForLayers:artboards:": {
+      "name": "destinationArtboardForLayers:artboards:",
+      "bridgedName": "destinationArtboardForLayers_artboards",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "artboards",
+          "type": "NSArray <MSArtboardGroup *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSArtboardGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveLayersToArtboards": {
+      "name": "moveLayersToArtboards",
+      "bridgedName": "moveLayersToArtboards",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "originForNewArtboardWithSize:": {
+      "name": "originForNewArtboardWithSize:",
+      "bridgedName": "originForNewArtboardWithSize",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layersByObjectID": {
+      "name": "layersByObjectID",
+      "bridgedName": "layersByObjectID",
+      "args": [],
+      "returns": "NSDictionary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contentIntersectsWithRect:": {
+      "name": "contentIntersectsWithRect:",
+      "bridgedName": "contentIntersectsWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustRulerDataToTopLeftInViewBounds": {
+      "name": "adjustRulerDataToTopLeftInViewBounds",
+      "bridgedName": "adjustRulerDataToTopLeftInViewBounds",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scrollOriginToCenterContentInViewBounds:": {
+      "name": "scrollOriginToCenterContentInViewBounds:",
+      "bridgedName": "scrollOriginToCenterContentInViewBounds",
+      "args": [
+        {
+          "name": "viewBounds",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "currentArtboard": {
+      "name": "currentArtboard",
+      "pointer": false,
+      "type": "MSArtboardGroup ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "artboards": {
+      "name": "artboards",
+      "pointer": false,
+      "type": "NSArray <MSArtboardGroup *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "weak"
+      ]
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "scrollOrigin": {
+      "name": "scrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "symbols": {
+      "name": "symbols",
+      "pointer": false,
+      "type": "NSArray <MSSymbolMaster *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exportableLayers": {
+      "name": "exportableLayers",
+      "pointer": false,
+      "type": "NSArray <MSLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentRoot": {
+      "name": "currentRoot",
+      "pointer": false,
+      "type": "MSLayerGroup <MSRootLayer> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

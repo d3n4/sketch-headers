@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSSharedObjectInstance",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "type": {
+      "name": "type",
+      "bridgedName": "type",
+      "args": [],
+      "returns": "MSSharedStyleType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "sharedObjectID": {
+      "name": "sharedObjectID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  }
+}

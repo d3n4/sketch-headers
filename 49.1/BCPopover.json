@@ -1,0 +1,141 @@
+{
+  "name": "BCPopover",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSWindowDelegate",
+    "NSViewControllerPresentationAnimator"
+  ],
+  "methods": {
+    "showRelativeToView:preferredEdge:": {
+      "name": "showRelativeToView:preferredEdge:",
+      "bridgedName": "showRelativeToView_preferredEdge",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "edge",
+          "type": "NSRectEdge",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "close": {
+      "name": "close",
+      "bridgedName": "close",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "move": {
+      "name": "move",
+      "bridgedName": "move",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popoverWindowFrame": {
+      "name": "popoverWindowFrame",
+      "bridgedName": "popoverWindowFrame",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "contentViewController": {
+      "name": "contentViewController",
+      "pointer": false,
+      "type": "NSViewController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<BCPopoverDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "minimumHeight": {
+      "name": "minimumHeight",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "window": {
+      "name": "window",
+      "pointer": false,
+      "type": "BCPopoverWindow ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "screenEdgeBehaviour": {
+      "name": "screenEdgeBehaviour",
+      "pointer": false,
+      "type": "BCPopoverScreenEdgeBehaviour",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "layerDependency": {
+      "name": "layerDependency",
+      "pointer": false,
+      "type": "BCPopupLayerDependency",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "closesOnWindowDidResignKey": {
+      "name": "closesOnWindowDidResignKey",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "attachedToView": {
+      "name": "attachedToView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "attachedToViewMargin": {
+      "name": "attachedToViewMargin",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "preferredEdge": {
+      "name": "preferredEdge",
+      "pointer": false,
+      "type": "NSRectEdge",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

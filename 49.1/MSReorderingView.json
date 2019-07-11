@@ -1,0 +1,47 @@
+{
+  "name": "MSReorderingView",
+  "extends": "NSView",
+  "interfaces": [
+    "NSDraggingSource"
+  ],
+  "methods": {},
+  "properties": {
+    "deleteAction": {
+      "name": "deleteAction",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "duplicateAction": {
+      "name": "duplicateAction",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "target": {
+      "name": "target",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "reorderingTag": {
+      "name": "reorderingTag",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

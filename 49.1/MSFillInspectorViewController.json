@@ -1,0 +1,59 @@
+{
+  "name": "MSFillInspectorViewController",
+  "extends": "MSStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {
+    "prepare": {
+      "name": "prepare",
+      "bridgedName": "prepare",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "opacityFieldAction:": {
+      "name": "opacityFieldAction:",
+      "bridgedName": "opacityFieldAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "blendingPopUpButton": {
+      "name": "blendingPopUpButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "colorButton": {
+      "name": "colorButton",
+      "pointer": false,
+      "type": "MSStylePartPreviewButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "opacityField": {
+      "name": "opacityField",
+      "pointer": false,
+      "type": "NSTextField<MSUpDownProtocol> ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

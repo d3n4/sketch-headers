@@ -1,0 +1,55 @@
+{
+  "protocol": true,
+  "name": "MSTiledLayerPileHostView",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "driver": {
+      "name": "driver",
+      "bridgedName": "driver",
+      "args": [],
+      "returns": "MSRenderingDriver*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tiledLayerPile:requiresRedrawInRect:": {
+      "name": "tiledLayerPile:requiresRedrawInRect:",
+      "bridgedName": "tiledLayerPile_requiresRedrawInRect",
+      "args": [
+        {
+          "name": "pile",
+          "type": "MSTiledLayerPile *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tiledLayerPileDidRefreshTileContent:finishTime:": {
+      "name": "tiledLayerPileDidRefreshTileContent:finishTime:",
+      "bridgedName": "tiledLayerPileDidRefreshTileContent_finishTime",
+      "args": [
+        {
+          "name": "pile",
+          "type": "MSTiledLayerPile *",
+          "nullable": false
+        },
+        {
+          "name": "finishTime",
+          "type": "BCTime",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

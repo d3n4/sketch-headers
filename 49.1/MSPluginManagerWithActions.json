@@ -1,0 +1,10 @@
+{
+  "name": "MSPluginManagerWithActions",
+  "extends": "MSPluginManager",
+  "interfaces": [
+    "MSActionObserver"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

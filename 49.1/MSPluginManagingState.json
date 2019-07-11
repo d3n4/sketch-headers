@@ -1,0 +1,126 @@
+{
+  "name": "MSPluginManagingState",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithMetadataURL:incompatiblePlugins:": {
+      "name": "initWithMetadataURL:incompatiblePlugins:",
+      "bridgedName": "initWithMetadataURL_incompatiblePlugins",
+      "args": [
+        {
+          "name": "metadataURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "incompatiblePlugins",
+          "type": "NSDictionary <NSString *, NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setEnabled:forPluginIdentifier:withVersion:": {
+      "name": "setEnabled:forPluginIdentifier:withVersion:",
+      "bridgedName": "setEnabled_forPluginIdentifier_withVersion",
+      "args": [
+        {
+          "name": "enable",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldEnablePluginIdentifier:withVersion:": {
+      "name": "shouldEnablePluginIdentifier:withVersion:",
+      "bridgedName": "shouldEnablePluginIdentifier_withVersion",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateMetadataWithPluginIndentifiers:": {
+      "name": "updateMetadataWithPluginIndentifiers:",
+      "bridgedName": "updateMetadataWithPluginIndentifiers",
+      "args": [
+        {
+          "name": "identifiers",
+          "type": "NSArray <NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isPluginWithIdentifier:incompatibleWithVersion:": {
+      "name": "isPluginWithIdentifier:incompatibleWithVersion:",
+      "bridgedName": "isPluginWithIdentifier_incompatibleWithVersion",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "version",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerPluginIncompatibilityForVersions:": {
+      "name": "registerPluginIncompatibilityForVersions:",
+      "bridgedName": "registerPluginIncompatibilityForVersions",
+      "args": [
+        {
+          "name": "pluginsDictionary",
+          "type": "NSDictionary <NSString *, NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetIncompatiblePluginMetadata": {
+      "name": "resetIncompatiblePluginMetadata",
+      "bridgedName": "resetIncompatiblePluginMetadata",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

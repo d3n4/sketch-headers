@@ -1,0 +1,36 @@
+{
+  "name": "MSImmutableStyleBorderOptions",
+  "extends": "_MSImmutableStyleBorderOptions",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "CGLineJoin": {
+      "name": "CGLineJoin",
+      "pointer": false,
+      "type": "CGLineJoin",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "CGLineCap": {
+      "name": "CGLineCap",
+      "pointer": false,
+      "type": "CGLineCap",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasDashPattern": {
+      "name": "hasDashPattern",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

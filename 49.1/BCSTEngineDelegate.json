@@ -1,0 +1,20 @@
+{
+  "name": "BCSTEngineDelegate",
+  "extends": "NSObject",
+  "interfaces": [
+    "ECCommandLineEngineDelegate"
+  ],
+  "methods": {},
+  "properties": {
+    "resources": {
+      "name": "resources",
+      "pointer": false,
+      "type": "NSBundle*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

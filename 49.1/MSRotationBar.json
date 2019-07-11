@@ -1,0 +1,17 @@
+{
+  "name": "MSRotationBar",
+  "extends": "NSControl",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "rotation": {
+      "name": "rotation",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

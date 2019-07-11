@@ -1,0 +1,8 @@
+{
+  "name": "MSStackViewScrollView",
+  "extends": "NSScrollView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

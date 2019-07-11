@@ -1,0 +1,8 @@
+{
+  "name": "MSCurvePointDisconnectedBehaviour",
+  "extends": "MSCurvePointBehaviour",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

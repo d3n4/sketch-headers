@@ -1,0 +1,23 @@
+{
+  "name": "MSShowReplaceColorSheetAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "showReplaceColorSheet:": {
+      "name": "showReplaceColorSheet:",
+      "bridgedName": "showReplaceColorSheet",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

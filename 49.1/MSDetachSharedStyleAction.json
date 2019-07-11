@@ -1,0 +1,23 @@
+{
+  "name": "MSDetachSharedStyleAction",
+  "extends": "MSBaseSharedStyleAction",
+  "interfaces": [],
+  "methods": {
+    "detachSharedStyle:": {
+      "name": "detachSharedStyle:",
+      "bridgedName": "detachSharedStyle",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

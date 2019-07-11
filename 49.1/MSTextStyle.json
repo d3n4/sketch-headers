@@ -1,0 +1,108 @@
+{
+  "name": "MSTextStyle",
+  "extends": "_MSTextStyle",
+  "interfaces": [],
+  "methods": {
+    "generatePreviewWithText:imageSize:previewSize:colorSpace:completionBlock:": {
+      "name": "generatePreviewWithText:imageSize:previewSize:colorSpace:completionBlock:",
+      "bridgedName": "generatePreviewWithText_imageSize_previewSize_colorSpace_completionBlock",
+      "args": [
+        {
+          "name": "text",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "imageSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "previewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "styleWithAttributes:": {
+      "name": "styleWithAttributes:",
+      "bridgedName": "styleWithAttributes",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "syncOwningTextLayerWithThisStyle": {
+      "name": "syncOwningTextLayerWithThisStyle",
+      "bridgedName": "syncOwningTextLayerWithThisStyle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateAttributesWithoutSyncingOwningTextLayer:": {
+      "name": "updateAttributesWithoutSyncingOwningTextLayer:",
+      "bridgedName": "updateAttributesWithoutSyncingOwningTextLayer",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "attributes": {
+      "name": "attributes",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readwrite",
+        "copy"
+      ]
+    },
+    "isRequiredFontAvailable": {
+      "name": "isRequiredFontAvailable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fontPostscriptName": {
+      "name": "fontPostscriptName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

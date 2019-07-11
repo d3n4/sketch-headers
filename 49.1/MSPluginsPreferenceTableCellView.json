@@ -1,0 +1,82 @@
+{
+  "name": "MSPluginsPreferenceTableCellView",
+  "extends": "NSTableCellView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "updateAvailableContainer": {
+      "name": "updateAvailableContainer",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nullable",
+        "nonatomic"
+      ]
+    },
+    "pluginIncompatibleContainer": {
+      "name": "pluginIncompatibleContainer",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nullable",
+        "nonatomic"
+      ]
+    },
+    "updateAvailableInfo": {
+      "name": "updateAvailableInfo",
+      "pointer": false,
+      "type": "IBOutlet MSPluginsPreferencesUpdateButton ",
+      "attributes": [
+        "nullable",
+        "nonatomic"
+      ]
+    },
+    "updatePlugin": {
+      "name": "updatePlugin",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nullable",
+        "nonatomic"
+      ]
+    },
+    "pluginUpdating": {
+      "name": "pluginUpdating",
+      "pointer": false,
+      "type": "IBOutlet NSProgressIndicator ",
+      "attributes": [
+        "nullable",
+        "nonatomic"
+      ]
+    },
+    "updateAvailableHeightConstraint": {
+      "name": "updateAvailableHeightConstraint",
+      "pointer": false,
+      "type": "IBOutlet NSLayoutConstraint ",
+      "attributes": [
+        "nullable",
+        "nonatomic"
+      ]
+    },
+    "incompatiblePluginHeightConstraint": {
+      "name": "incompatiblePluginHeightConstraint",
+      "pointer": false,
+      "type": "IBOutlet NSLayoutConstraint ",
+      "attributes": [
+        "nullable",
+        "nonatomic"
+      ]
+    },
+    "tableCellWidthConstraint": {
+      "name": "tableCellWidthConstraint",
+      "pointer": false,
+      "type": "NSLayoutConstraint ",
+      "attributes": [
+        "nullable",
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

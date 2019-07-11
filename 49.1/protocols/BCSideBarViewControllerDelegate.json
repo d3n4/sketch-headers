@@ -1,0 +1,18 @@
+{
+  "protocol": true,
+  "name": "BCSideBarViewControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "pageListHeight": {
+      "name": "pageListHeight",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  }
+}

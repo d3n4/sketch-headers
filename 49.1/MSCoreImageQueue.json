@@ -1,0 +1,96 @@
+{
+  "name": "MSCoreImageQueue",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "drawImage:withEffect:inRect:fromObject:context:colorSpace:options:": {
+      "name": "drawImage:withEffect:inRect:fromObject:context:colorSpace:options:",
+      "bridgedName": "drawImage_withEffect_inRect_fromObject_context_colorSpace_options",
+      "args": [
+        {
+          "name": "imageRef",
+          "type": "CGImageRef",
+          "nullable": false
+        },
+        {
+          "name": "effect",
+          "type": "MSCoreImageEffect",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "source",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "contextRef",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSRenderingRequestOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "cachedImage:withEffect:fromObject:colorSpace:": {
+      "name": "cachedImage:withEffect:fromObject:colorSpace:",
+      "bridgedName": "cachedImage_withEffect_fromObject_colorSpace",
+      "args": [
+        {
+          "name": "imageRef",
+          "type": "CGImageRef",
+          "nullable": false
+        },
+        {
+          "name": "effect",
+          "type": "MSCoreImageEffect",
+          "nullable": false
+        },
+        {
+          "name": "source",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerCachedImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "averageLuminanceOfImage:": {
+      "name": "averageLuminanceOfImage:",
+      "bridgedName": "averageLuminanceOfImage",
+      "args": [
+        {
+          "name": "inputImage",
+          "type": "CGImageRef",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

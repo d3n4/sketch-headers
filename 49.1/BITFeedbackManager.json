@@ -1,0 +1,45 @@
+{
+  "name": "BITFeedbackManager",
+  "extends": "BITHockeyBaseManager",
+  "interfaces": [],
+  "methods": {
+    "showFeedbackWindow": {
+      "name": "showFeedbackWindow",
+      "bridgedName": "showFeedbackWindow",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "requireUserName": {
+      "name": "requireUserName",
+      "pointer": false,
+      "type": "BITFeedbackUserDataElement",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "requireUserEmail": {
+      "name": "requireUserEmail",
+      "pointer": false,
+      "type": "BITFeedbackUserDataElement",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "showAlertOnIncomingMessages": {
+      "name": "showAlertOnIncomingMessages",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

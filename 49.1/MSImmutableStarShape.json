@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableStarShape",
+  "extends": "_MSImmutableStarShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

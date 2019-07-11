@@ -1,0 +1,202 @@
+{
+  "name": "MSTilePlacer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithTiledLayer:": {
+      "name": "initWithTiledLayer:",
+      "bridgedName": "initWithTiledLayer",
+      "args": [
+        {
+          "name": "newLayer",
+          "type": "MSTiledLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveTiles": {
+      "name": "moveTiles",
+      "bridgedName": "moveTiles",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tileRemovingOffscreenTiles:": {
+      "name": "tileRemovingOffscreenTiles:",
+      "bridgedName": "tileRemovingOffscreenTiles",
+      "args": [
+        {
+          "name": "removeOffscreenTiles",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allTiles": {
+      "name": "allTiles",
+      "bridgedName": "allTiles",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allTileIDs": {
+      "name": "allTileIDs",
+      "bridgedName": "allTileIDs",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "identifiersOfVisibleTilesIncludingMargin:": {
+      "name": "identifiersOfVisibleTilesIncludingMargin:",
+      "bridgedName": "identifiersOfVisibleTilesIncludingMargin",
+      "args": [
+        {
+          "name": "takeExtraMargin",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeNewTilesWithIDs:": {
+      "name": "makeNewTilesWithIDs:",
+      "bridgedName": "makeNewTilesWithIDs",
+      "args": [
+        {
+          "name": "tileIDs",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTiles:shouldRedraw:": {
+      "name": "addTiles:shouldRedraw:",
+      "bridgedName": "addTiles_shouldRedraw",
+      "args": [
+        {
+          "name": "tiles",
+          "type": "NSSet *",
+          "nullable": false
+        },
+        {
+          "name": "shouldRedraw",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeTilesWithIDs:": {
+      "name": "removeTilesWithIDs:",
+      "bridgedName": "removeTilesWithIDs",
+      "args": [
+        {
+          "name": "tileIDs",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeTilesWithIDsFromSuperLayer:": {
+      "name": "removeTilesWithIDsFromSuperLayer:",
+      "bridgedName": "removeTilesWithIDsFromSuperLayer",
+      "args": [
+        {
+          "name": "tileIDs",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unregisterTilesWithIDs:": {
+      "name": "unregisterTilesWithIDs:",
+      "bridgedName": "unregisterTilesWithIDs",
+      "args": [
+        {
+          "name": "tileIDs",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelAllDrawing": {
+      "name": "cancelAllDrawing",
+      "bridgedName": "cancelAllDrawing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tileSize": {
+      "name": "tileSize",
+      "bridgedName": "tileSize",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSTilePlacerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "scrollOrigin": {
+      "name": "scrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "viewBounds": {
+      "name": "viewBounds",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "tiledLayer": {
+      "name": "tiledLayer",
+      "pointer": false,
+      "type": "MSTiledLayer ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

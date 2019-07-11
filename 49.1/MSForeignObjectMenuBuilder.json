@@ -1,0 +1,170 @@
+{
+  "name": "MSForeignObjectMenuBuilder",
+  "extends": "MSSortableObjectMenuBuilder",
+  "interfaces": [],
+  "methods": {
+    "initWithCollector:delegate:": {
+      "name": "initWithCollector:delegate:",
+      "bridgedName": "initWithCollector_delegate",
+      "args": [
+        {
+          "name": "collector",
+          "type": "MSForeignObjectCollector*",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<MSMenuBuilderDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithProvider:delegate:": {
+      "name": "initWithProvider:delegate:",
+      "bridgedName": "initWithProvider_delegate",
+      "args": [
+        {
+          "name": "provider",
+          "type": "id<MSForeignObjectProvider>",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id<MSMenuBuilderDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "buildMenuItemsForMenu:withTarget:selector:": {
+      "name": "buildMenuItemsForMenu:withTarget:selector:",
+      "bridgedName": "buildMenuItemsForMenu_withTarget_selector",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "buildMenuItemsForMenu:withAction:": {
+      "name": "buildMenuItemsForMenu:withAction:",
+      "bridgedName": "buildMenuItemsForMenu_withAction",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "MSAction*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "gatherSymbolsForMenus": {
+      "name": "gatherSymbolsForMenus",
+      "bridgedName": "gatherSymbolsForMenus",
+      "args": [],
+      "returns": "NSArray<NSDictionary *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuItemForLibrary:mainMenu:target:selector:": {
+      "name": "menuItemForLibrary:mainMenu:target:selector:",
+      "bridgedName": "menuItemForLibrary_mainMenu_target_selector",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary*",
+          "nullable": true
+        },
+        {
+          "name": "mainMenu",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": true
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filterForReplacingSymbolInstances:": {
+      "name": "filterForReplacingSymbolInstances:",
+      "bridgedName": "filterForReplacingSymbolInstances",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray<MSSymbolInstance*> *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSForeignObjectCollectionFilter",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "filter": {
+      "name": "filter",
+      "pointer": false,
+      "type": "MSForeignObjectCollectionFilter",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "copy"
+      ]
+    },
+    "requiresSymbolSubmenu": {
+      "name": "requiresSymbolSubmenu",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "collector": {
+      "name": "collector",
+      "pointer": false,
+      "type": "MSForeignObjectCollector ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

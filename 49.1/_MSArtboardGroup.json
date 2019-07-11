@@ -1,0 +1,109 @@
+{
+  "name": "_MSArtboardGroup",
+  "extends": "MSLayerGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "hasBackgroundColor": {
+      "name": "hasBackgroundColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "includeBackgroundColorInExport": {
+      "name": "includeBackgroundColorInExport",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "includeInCloudUpload": {
+      "name": "includeInCloudUpload",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "isFlowHome": {
+      "name": "isFlowHome",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "presetDictionary": {
+      "name": "presetDictionary",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "resizesContent": {
+      "name": "resizesContent",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "grid": {
+      "name": "grid",
+      "pointer": false,
+      "type": "MSSimpleGrid ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "horizontalRulerData": {
+      "name": "horizontalRulerData",
+      "pointer": false,
+      "type": "MSRulerData ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "layout": {
+      "name": "layout",
+      "pointer": false,
+      "type": "MSLayoutGrid ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "verticalRulerData": {
+      "name": "verticalRulerData",
+      "pointer": false,
+      "type": "MSRulerData ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,182 @@
+{
+  "name": "MSLine",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "horizontalLineWithPosition:": {
+      "name": "horizontalLineWithPosition:",
+      "bridgedName": "horizontalLineWithPosition",
+      "args": [
+        {
+          "name": "pos",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "verticalLineWithPosition:": {
+      "name": "verticalLineWithPosition:",
+      "bridgedName": "verticalLineWithPosition",
+      "args": [
+        {
+          "name": "pos",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "lineOnAxis:position:inRect:snapTag:snapClass:associatedObject:": {
+      "name": "lineOnAxis:position:inRect:snapTag:snapClass:associatedObject:",
+      "bridgedName": "lineOnAxis_position_inRect_snapTag_snapClass_associatedObject",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "position",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "snapTag",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "snapClass",
+          "type": "Class",
+          "nullable": true
+        },
+        {
+          "name": "associatedObject",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "linesForRect:associatedObject:": {
+      "name": "linesForRect:associatedObject:",
+      "bridgedName": "linesForRect_associatedObject",
+      "args": [
+        {
+          "name": "frame",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addRect:": {
+      "name": "addRect:",
+      "bridgedName": "addRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawWithZoomValue:": {
+      "name": "drawWithZoomValue:",
+      "bridgedName": "drawWithZoomValue",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dirtyAbsoluteRectInFrame:": {
+      "name": "dirtyAbsoluteRectInFrame:",
+      "bridgedName": "dirtyAbsoluteRectInFrame",
+      "args": [
+        {
+          "name": "frame",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "position": {
+      "name": "position",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "snapTag": {
+      "name": "snapTag",
+      "pointer": false,
+      "type": "MSSnapTag",
+      "attributes": [
+        "assign",
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "associatedObject": {
+      "name": "associatedObject",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "snapClass": {
+      "name": "snapClass",
+      "pointer": false,
+      "type": "Class",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

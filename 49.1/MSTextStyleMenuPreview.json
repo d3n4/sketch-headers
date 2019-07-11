@@ -1,0 +1,67 @@
+{
+  "name": "MSTextStyleMenuPreview",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "applyTextStylesToMenuItem:colorSpace:includeStyleInfo:": {
+      "name": "applyTextStylesToMenuItem:colorSpace:includeStyleInfo:",
+      "bridgedName": "applyTextStylesToMenuItem_colorSpace_includeStyleInfo",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSMenuItem *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "includeInfo",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributedTitle:styles:colorSpace:includeStyleInfo:inMainMenu:": {
+      "name": "attributedTitle:styles:colorSpace:includeStyleInfo:inMainMenu:",
+      "bridgedName": "attributedTitle_styles_colorSpace_includeStyleInfo_inMainMenu",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "textStyles",
+          "type": "NSArray<MSSharedStyle *> *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "includeInfo",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "inMainMenu",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAttributedString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

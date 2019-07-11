@@ -1,0 +1,23 @@
+{
+  "name": "MSLockLayerAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "lockLayer:": {
+      "name": "lockLayer:",
+      "bridgedName": "lockLayer",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

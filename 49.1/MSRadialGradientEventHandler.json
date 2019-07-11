@@ -1,0 +1,39 @@
+{
+  "name": "MSRadialGradientEventHandler",
+  "extends": "MSGradientEventHandler",
+  "interfaces": [],
+  "methods": {
+    "ellipsePoint": {
+      "name": "ellipsePoint",
+      "bridgedName": "ellipsePoint",
+      "args": [],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setEllipsePoint:": {
+      "name": "setEllipsePoint:",
+      "bridgedName": "setEllipsePoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ovalPath": {
+      "name": "ovalPath",
+      "bridgedName": "ovalPath",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

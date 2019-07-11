@@ -1,0 +1,236 @@
+{
+  "name": "MSPointsEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [],
+  "methods": {
+    "drawDotAtPoint:index:selected:": {
+      "name": "drawDotAtPoint:index:selected:",
+      "bridgedName": "drawDotAtPoint_index_selected",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "selected",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawHandleLines": {
+      "name": "drawHandleLines",
+      "bridgedName": "drawHandleLines",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setLayer:": {
+      "name": "setLayer:",
+      "bridgedName": "setLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "useSnaps": {
+      "name": "useSnaps",
+      "bridgedName": "useSnaps",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapsForShape": {
+      "name": "snapsForShape",
+      "bridgedName": "snapsForShape",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapsForPoints:": {
+      "name": "snapsForPoints:",
+      "bridgedName": "snapsForPoints",
+      "args": [
+        {
+          "name": "points",
+          "type": "MSPointArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "points": {
+      "name": "points",
+      "bridgedName": "points",
+      "args": [],
+      "returns": "MSPointArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bounds": {
+      "name": "bounds",
+      "bridgedName": "bounds",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "relMouse:": {
+      "name": "relMouse:",
+      "bridgedName": "relMouse",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "point:isNearPoint:": {
+      "name": "point:isNearPoint:",
+      "bridgedName": "point_isNearPoint",
+      "args": [
+        {
+          "name": "p1",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "p2",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointAtIndex:": {
+      "name": "pointAtIndex:",
+      "bridgedName": "pointAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replacePointAtIndex:withPoint:": {
+      "name": "replacePointAtIndex:withPoint:",
+      "bridgedName": "replacePointAtIndex_withPoint",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "new",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertPointToAbsoluteCoordinates:": {
+      "name": "convertPointToAbsoluteCoordinates:",
+      "bridgedName": "convertPointToAbsoluteCoordinates",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexForMouse:": {
+      "name": "indexForMouse:",
+      "bridgedName": "indexForMouse",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerFromSelectedLayers": {
+      "name": "layerFromSelectedLayers",
+      "bridgedName": "layerFromSelectedLayers",
+      "args": [],
+      "returns": "MSLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "concatTransformsForDrawSnaps": {
+      "name": "concatTransformsForDrawSnaps",
+      "bridgedName": "concatTransformsForDrawSnaps",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handleLinesColor": {
+      "name": "handleLinesColor",
+      "bridgedName": "handleLinesColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handleLinesPath": {
+      "name": "handleLinesPath",
+      "bridgedName": "handleLinesPath",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "selectedPoint": {
+      "name": "selectedPoint",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

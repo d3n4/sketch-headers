@@ -1,0 +1,19 @@
+{
+  "enum": true,
+  "name": "MSHistoryUpdate",
+  "members": [
+    {
+      "name": "MSHistoryUpdateNoChange",
+      "value": "0"
+    },
+    {
+      "name": "MSHistoryUpdateAddedMoment"
+    },
+    {
+      "name": "MSHistoryUpdateCoalescedMoment"
+    },
+    {
+      "name": "MSHistoryUpdateAmendedMoment"
+    }
+  ]
+}

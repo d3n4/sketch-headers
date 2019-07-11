@@ -1,0 +1,23 @@
+{
+  "name": "MSCompoundSnapItem",
+  "extends": "MSSnapItem",
+  "interfaces": [],
+  "methods": {
+    "initWithLayers:": {
+      "name": "initWithLayers:",
+      "bridgedName": "initWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

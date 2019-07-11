@@ -1,0 +1,8 @@
+{
+  "name": "BCFeedbackController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

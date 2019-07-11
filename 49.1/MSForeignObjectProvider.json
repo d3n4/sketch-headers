@@ -1,0 +1,44 @@
+{
+  "name": "MSForeignObjectProvider",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSForeignObjectProvider"
+  ],
+  "methods": {
+    "initWithDocument:": {
+      "name": "initWithDocument:",
+      "bridgedName": "initWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "providerForLayers:inDocument:": {
+      "name": "providerForLayers:inDocument:",
+      "bridgedName": "providerForLayers_inDocument",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray*",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocument*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSForeignObjectProvider *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

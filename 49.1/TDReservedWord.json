@@ -1,0 +1,23 @@
+{
+  "name": "TDReservedWord",
+  "extends": "TDWord",
+  "interfaces": [],
+  "methods": {
+    "setReservedWords:": {
+      "name": "setReservedWords:",
+      "bridgedName": "setReservedWords",
+      "args": [
+        {
+          "name": "inWords",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

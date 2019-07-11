@@ -1,0 +1,35 @@
+{
+  "name": "MSWelcomeCollectionImageView",
+  "extends": "NSImageView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "doubleClickAction": {
+      "name": "doubleClickAction",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "imageInterpolation": {
+      "name": "imageInterpolation",
+      "pointer": false,
+      "type": "NSImageInterpolation",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "selected": {
+      "name": "selected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter=isSelected"
+      ]
+    }
+  },
+  "generics": []
+}

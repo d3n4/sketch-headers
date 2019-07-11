@@ -1,0 +1,168 @@
+{
+  "name": "MSSnapperData",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "hasSizeInstructionsForAxis:": {
+      "name": "hasSizeInstructionsForAxis:",
+      "bridgedName": "hasSizeInstructionsForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstSizeForAxis:": {
+      "name": "firstSizeForAxis:",
+      "bridgedName": "firstSizeForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSnapDrawSizeInstruction *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSizeInstruction:": {
+      "name": "addSizeInstruction:",
+      "bridgedName": "addSizeInstruction",
+      "args": [
+        {
+          "name": "instruction",
+          "type": "MSSnapDrawSizeInstruction *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllSizeInstructionsForAxis:": {
+      "name": "removeAllSizeInstructionsForAxis:",
+      "bridgedName": "removeAllSizeInstructionsForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasDistanceInstructionsForAxis:": {
+      "name": "hasDistanceInstructionsForAxis:",
+      "bridgedName": "hasDistanceInstructionsForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstDistanceForAxis:": {
+      "name": "firstDistanceForAxis:",
+      "bridgedName": "firstDistanceForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSnapDrawDistanceInstruction *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDistanceInstruction:": {
+      "name": "addDistanceInstruction:",
+      "bridgedName": "addDistanceInstruction",
+      "args": [
+        {
+          "name": "instruction",
+          "type": "MSSnapDrawDistanceInstruction *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllDistanceInstructionsForAxis:": {
+      "name": "removeAllDistanceInstructionsForAxis:",
+      "bridgedName": "removeAllDistanceInstructionsForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "linesForAxis:": {
+      "name": "linesForAxis:",
+      "bridgedName": "linesForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMutableArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateInstructions:": {
+      "name": "enumerateInstructions:",
+      "bridgedName": "enumerateInstructions",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSSnapperDataEnumerator",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawForGroup:zoom:": {
+      "name": "drawForGroup:zoom:",
+      "bridgedName": "drawForGroup_zoom",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSManageTextStylesAction",
+  "extends": "MSManageShareableObjectsAction",
+  "interfaces": [],
+  "methods": {
+    "showOrganizeSharedTextStylesSheet:": {
+      "name": "showOrganizeSharedTextStylesSheet:",
+      "bridgedName": "showOrganizeSharedTextStylesSheet",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

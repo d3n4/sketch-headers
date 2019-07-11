@@ -1,0 +1,220 @@
+{
+  "name": "NSMutableDictionary",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "objectForKey:orBySettingMissingObject:": {
+      "name": "objectForKey:orBySettingMissingObject:",
+      "bridgedName": "objectForKey_orBySettingMissingObject",
+      "args": [
+        {
+          "name": "aKey",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "anObject",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addObject:forKey:": {
+      "name": "addObject:forKey:",
+      "bridgedName": "addObject_forKey",
+      "args": [
+        {
+          "name": "anObject",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "aKey",
+          "type": "id<NSCopying>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mo_setObject:forKeyedSubscript:": {
+      "name": "mo_setObject:forKeyedSubscript:",
+      "bridgedName": "mo_setObject_forKeyedSubscript",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id <NSCopying>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setPoint:forKey:": {
+      "name": "setPoint:forKey:",
+      "bridgedName": "setPoint_forKey",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setSize:forKey:": {
+      "name": "setSize:forKey:",
+      "bridgedName": "setSize_forKey",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setRect:forKey:": {
+      "name": "setRect:forKey:",
+      "bridgedName": "setRect_forKey",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mergeEntriesFromDictionary:": {
+      "name": "mergeEntriesFromDictionary:",
+      "bridgedName": "mergeEntriesFromDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDate:forKey:": {
+      "name": "setDate:forKey:",
+      "bridgedName": "setDate_forKey",
+      "args": [
+        {
+          "name": "date",
+          "type": "NSDate *",
+          "nullable": true
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "visible": {
+      "name": "visible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "locked": {
+      "name": "locked",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "selected": {
+      "name": "selected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "hovered": {
+      "name": "hovered",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "isFlow": {
+      "name": "isFlow",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "isSlice": {
+      "name": "isSlice",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "exportFileName": {
+      "name": "exportFileName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

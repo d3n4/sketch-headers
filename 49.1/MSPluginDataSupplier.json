@@ -1,0 +1,110 @@
+{
+  "name": "MSPluginDataSupplier",
+  "extends": "MSDataSupplier",
+  "interfaces": [],
+  "methods": {
+    "initWithDataIdentifier:dataName:dataType:NS_UNAVAILABLE": {
+      "name": "initWithDataIdentifier:dataName:dataType:NS_UNAVAILABLE",
+      "bridgedName": "initWithDataIdentifier_dataName_dataType_NS_UNAVAILABLE",
+      "args": [
+        {
+          "name": "dataIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataType",
+          "type": "MSDataType",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCoder:NS_UNAVAILABLE": {
+      "name": "initWithCoder:NS_UNAVAILABLE",
+      "bridgedName": "initWithCoder_NS_UNAVAILABLE",
+      "args": [
+        {
+          "name": "aDecoder",
+          "type": "NSCoder *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithPluginIdentifier:commandIdentifier:dataName:dataTypeStringRepresentation:dynamicDataKey:": {
+      "name": "initWithPluginIdentifier:commandIdentifier:dataName:dataTypeStringRepresentation:dynamicDataKey:",
+      "bridgedName": "initWithPluginIdentifier_commandIdentifier_dataName_dataTypeStringRepresentation_dynamicDataKey",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "commandIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataType",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dynamicDataKey",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pluginIdentifier": {
+      "name": "pluginIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "commandIdentifier": {
+      "name": "commandIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dynamicDataKey": {
+      "name": "dynamicDataKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

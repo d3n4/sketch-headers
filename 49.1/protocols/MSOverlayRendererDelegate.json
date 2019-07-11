@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSOverlayRendererDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "refreshOverlayInRect:": {
+      "name": "refreshOverlayInRect:",
+      "bridgedName": "refreshOverlayInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

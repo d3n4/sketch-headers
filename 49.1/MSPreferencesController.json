@@ -1,0 +1,52 @@
+{
+  "name": "MSPreferencesController",
+  "extends": "NSWindowController",
+  "interfaces": [
+    "NSWindowDelegate"
+  ],
+  "methods": {
+    "switchToPaneWithIdentifier:": {
+      "name": "switchToPaneWithIdentifier:",
+      "bridgedName": "switchToPaneWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof MSPreferencePane *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedController": {
+      "name": "sharedController",
+      "bridgedName": "sharedController",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "updateWindowFrame": {
+      "name": "updateWindowFrame",
+      "bridgedName": "updateWindowFrame",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "currentPreferencePane": {
+      "name": "currentPreferencePane",
+      "pointer": false,
+      "type": "MSPreferencePane ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

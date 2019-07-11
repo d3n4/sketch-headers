@@ -1,0 +1,37 @@
+{
+  "name": "MSSliceTrimming",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "trimmedRectForLayerAncestry:": {
+      "name": "trimmedRectForLayerAncestry:",
+      "bridgedName": "trimmedRectForLayerAncestry",
+      "args": [
+        {
+          "name": "ancestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "simpleSafeRectFromLayerAncestry:": {
+      "name": "simpleSafeRectFromLayerAncestry:",
+      "bridgedName": "simpleSafeRectFromLayerAncestry",
+      "args": [
+        {
+          "name": "ancestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

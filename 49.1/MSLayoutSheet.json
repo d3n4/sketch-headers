@@ -1,0 +1,61 @@
+{
+  "name": "MSLayoutSheet",
+  "extends": "MSGridSheetBase",
+  "interfaces": [],
+  "methods": {
+    "setAsDefault:": {
+      "name": "setAsDefault:",
+      "bridgedName": "setAsDefault",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "centerGrid:": {
+      "name": "centerGrid:",
+      "bridgedName": "centerGrid",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "offsetChanged:": {
+      "name": "offsetChanged:",
+      "bridgedName": "offsetChanged",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "centerGridButton": {
+      "name": "centerGridButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

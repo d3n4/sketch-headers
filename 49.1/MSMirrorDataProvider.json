@@ -1,0 +1,73 @@
+{
+  "name": "MSMirrorDataProvider",
+  "extends": "NSObject",
+  "interfaces": [
+    "SMKMirrorDataSource"
+  ],
+  "methods": {
+    "currentArtboardDidChange": {
+      "name": "currentArtboardDidChange",
+      "bridgedName": "currentArtboardDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setNeedsUpdate": {
+      "name": "setNeedsUpdate",
+      "bridgedName": "setNeedsUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setNeedsUpdateMetadata": {
+      "name": "setNeedsUpdateMetadata",
+      "bridgedName": "setNeedsUpdateMetadata",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "connectionController": {
+      "name": "connectionController",
+      "pointer": false,
+      "type": "SMKMirrorController ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "requiresImmediateUpdate": {
+      "name": "requiresImmediateUpdate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

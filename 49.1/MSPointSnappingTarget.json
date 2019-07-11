@@ -1,0 +1,110 @@
+{
+  "name": "MSPointSnappingTarget",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithPoint:": {
+      "name": "initWithPoint:",
+      "bridgedName": "initWithPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initLineWithValue:onAxis:": {
+      "name": "initLineWithValue:onAxis:",
+      "bridgedName": "initLineWithValue_onAxis",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCenter:snappableAxes:showGuide:length:": {
+      "name": "initWithCenter:snappableAxes:showGuide:length:",
+      "bridgedName": "initWithCenter_snappableAxes_showGuide_length",
+      "args": [
+        {
+          "name": "center",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "axes",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "showGuide",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "length",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "center": {
+      "name": "center",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "snappableAxes": {
+      "name": "snappableAxes",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "showGuide": {
+      "name": "showGuide",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "guideLength": {
+      "name": "guideLength",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

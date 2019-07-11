@@ -1,0 +1,442 @@
+{
+  "name": "FBBezierGraph",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "bezierGraph": {
+      "name": "bezierGraph",
+      "bridgedName": "bezierGraph",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierGraphWithCGPath:": {
+      "name": "bezierGraphWithCGPath:",
+      "bridgedName": "bezierGraphWithCGPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "CGPathRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierGraphWithBezierPath:": {
+      "name": "bezierGraphWithBezierPath:",
+      "bridgedName": "bezierGraphWithBezierPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "FBBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierGraphWithContours:": {
+      "name": "bezierGraphWithContours:",
+      "bridgedName": "bezierGraphWithContours",
+      "args": [
+        {
+          "name": "contours",
+          "type": "NSArray <FBBezierContour *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithBezierPath:": {
+      "name": "initWithBezierPath:",
+      "bridgedName": "initWithBezierPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "FBBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unionWithBezierGraph:": {
+      "name": "unionWithBezierGraph:",
+      "bridgedName": "unionWithBezierGraph",
+      "args": [
+        {
+          "name": "graph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "intersectWithBezierGraph:": {
+      "name": "intersectWithBezierGraph:",
+      "bridgedName": "intersectWithBezierGraph",
+      "args": [
+        {
+          "name": "graph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "differenceWithBezierGraph:": {
+      "name": "differenceWithBezierGraph:",
+      "bridgedName": "differenceWithBezierGraph",
+      "args": [
+        {
+          "name": "graph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "xorWithBezierGraph:": {
+      "name": "xorWithBezierGraph:",
+      "bridgedName": "xorWithBezierGraph",
+      "args": [
+        {
+          "name": "graph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "noneWithBezierGraph:": {
+      "name": "noneWithBezierGraph:",
+      "bridgedName": "noneWithBezierGraph",
+      "args": [
+        {
+          "name": "graph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPath": {
+      "name": "bezierPath",
+      "bridgedName": "bezierPath",
+      "args": [],
+      "returns": "FBBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathWithClass:": {
+      "name": "bezierPathWithClass:",
+      "bridgedName": "bezierPathWithClass",
+      "args": [
+        {
+          "name": "bezierClass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closestLocationToPoint:": {
+      "name": "closestLocationToPoint:",
+      "bridgedName": "closestLocationToPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "FBPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "FBCurveLocation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closestCrossingToPoint:": {
+      "name": "closestCrossingToPoint:",
+      "bridgedName": "closestCrossingToPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "FBPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "FBEdgeCrossing *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertToNoneZeroWindingRule": {
+      "name": "convertToNoneZeroWindingRule",
+      "bridgedName": "convertToNoneZeroWindingRule",
+      "args": [],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertToEvenOddWindingRule": {
+      "name": "convertToEvenOddWindingRule",
+      "bridgedName": "convertToEvenOddWindingRule",
+      "args": [],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierGraphBySplittingSelfCrossingContours:": {
+      "name": "bezierGraphBySplittingSelfCrossingContours:",
+      "bridgedName": "bezierGraphBySplittingSelfCrossingContours",
+      "args": [
+        {
+          "name": "singleCrossingContoursOut",
+          "type": "NSMutableArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierGraphByTrimmingSelfCrossingContours": {
+      "name": "bezierGraphByTrimmingSelfCrossingContours",
+      "bridgedName": "bezierGraphByTrimmingSelfCrossingContours",
+      "args": [],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierGraphWithTransform:": {
+      "name": "bezierGraphWithTransform:",
+      "bridgedName": "bezierGraphWithTransform",
+      "args": [
+        {
+          "name": "t",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierGraphByMergingLinearRunsInContours": {
+      "name": "bezierGraphByMergingLinearRunsInContours",
+      "bridgedName": "bezierGraphByMergingLinearRunsInContours",
+      "args": [],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierGraphWithClockwiseFillsAnticlockwiseHoles": {
+      "name": "bezierGraphWithClockwiseFillsAnticlockwiseHoles",
+      "bridgedName": "bezierGraphWithClockwiseFillsAnticlockwiseHoles",
+      "args": [],
+      "returns": "FBBezierGraph *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containmentResultForContour:": {
+      "name": "containmentResultForContour:",
+      "bridgedName": "containmentResultForContour",
+      "args": [
+        {
+          "name": "testContour",
+          "type": "FBBezierContour *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBContainmentResult *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debuggingInsertCrossingsForUnionWithBezierGraph:": {
+      "name": "debuggingInsertCrossingsForUnionWithBezierGraph:",
+      "bridgedName": "debuggingInsertCrossingsForUnionWithBezierGraph",
+      "args": [
+        {
+          "name": "otherGraph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debuggingInsertCrossingsForIntersectWithBezierGraph:": {
+      "name": "debuggingInsertCrossingsForIntersectWithBezierGraph:",
+      "bridgedName": "debuggingInsertCrossingsForIntersectWithBezierGraph",
+      "args": [
+        {
+          "name": "otherGraph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debuggingInsertCrossingsForDifferenceWithBezierGraph:": {
+      "name": "debuggingInsertCrossingsForDifferenceWithBezierGraph:",
+      "bridgedName": "debuggingInsertCrossingsForDifferenceWithBezierGraph",
+      "args": [
+        {
+          "name": "otherGraph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debuggingInsertIntersectionsWithBezierGraph:": {
+      "name": "debuggingInsertIntersectionsWithBezierGraph:",
+      "bridgedName": "debuggingInsertIntersectionsWithBezierGraph",
+      "args": [
+        {
+          "name": "otherGraph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debuggingInsertCrossingsForFillConversion": {
+      "name": "debuggingInsertCrossingsForFillConversion",
+      "bridgedName": "debuggingInsertCrossingsForFillConversion",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugPathForContainmentOfContour:": {
+      "name": "debugPathForContainmentOfContour:",
+      "bridgedName": "debugPathForContainmentOfContour",
+      "args": [
+        {
+          "name": "contour",
+          "type": "FBBezierContour *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugPathForContainmentOfContour:transform:": {
+      "name": "debugPathForContainmentOfContour:transform:",
+      "bridgedName": "debugPathForContainmentOfContour_transform",
+      "args": [
+        {
+          "name": "testContour",
+          "type": "FBBezierContour *",
+          "nullable": false
+        },
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugPathForJointsOfContour:": {
+      "name": "debugPathForJointsOfContour:",
+      "bridgedName": "debugPathForJointsOfContour",
+      "args": [
+        {
+          "name": "testContour",
+          "type": "FBBezierContour *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugFindCurvesThatShouldIntersectWith:withBlock:": {
+      "name": "debugFindCurvesThatShouldIntersectWith:withBlock:",
+      "bridgedName": "debugFindCurvesThatShouldIntersectWith_withBlock",
+      "args": [
+        {
+          "name": "otherGraph",
+          "type": "FBBezierGraph *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(FBBezierCurve *curve1, FBBezierCurve *curve2)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "nonEmptyContours": {
+      "name": "nonEmptyContours",
+      "pointer": false,
+      "type": "NSArray <FBBezierContour *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contours": {
+      "name": "contours",
+      "pointer": false,
+      "type": "NSArray <FBBezierContour *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bounds": {
+      "name": "bounds",
+      "pointer": false,
+      "type": "FBRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "CGPath": {
+      "name": "CGPath",
+      "pointer": false,
+      "type": "CGPathRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

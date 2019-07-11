@@ -1,0 +1,118 @@
+{
+  "name": "MSPointSnapper",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "snapPoint:inLayer:": {
+      "name": "snapPoint:inLayer:",
+      "bridgedName": "snapPoint_inLayer",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPointSnappingResult *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shapePointTargetsWithContext:excludingPointsAtIndexPaths:": {
+      "name": "shapePointTargetsWithContext:excludingPointsAtIndexPaths:",
+      "bridgedName": "shapePointTargetsWithContext_excludingPointsAtIndexPaths",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSShapeChangeContext *",
+          "nullable": false
+        },
+        {
+          "name": "excludedPoints",
+          "type": "NSArray<NSIndexPath *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSArray<MSPointSnappingTarget *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "targetsForMidpointsOfLayers:": {
+      "name": "targetsForMidpointsOfLayers:",
+      "bridgedName": "targetsForMidpointsOfLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray<MSShapePathLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSPointSnappingTarget *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "configureRulerGuideTargetsForPage:": {
+      "name": "configureRulerGuideTargetsForPage:",
+      "bridgedName": "configureRulerGuideTargetsForPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "snapThreshold": {
+      "name": "snapThreshold",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "allowedAxes": {
+      "name": "allowedAxes",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "snapTargets": {
+      "name": "snapTargets",
+      "pointer": false,
+      "type": "NSArray<MSPointSnappingTarget *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "rulerGuideTargets": {
+      "name": "rulerGuideTargets",
+      "pointer": false,
+      "type": "NSArray<MSPointSnappingTarget *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "snapToRulerGuides": {
+      "name": "snapToRulerGuides",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

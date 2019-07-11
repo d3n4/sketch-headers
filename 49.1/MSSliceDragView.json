@@ -1,0 +1,39 @@
+{
+  "name": "MSSliceDragView",
+  "extends": "NSView",
+  "interfaces": [
+    "NSDraggingSource",
+    "NSPasteboardWriting"
+  ],
+  "methods": {
+    "setExportableLayer:previewCompletionBlock:": {
+      "name": "setExportableLayer:previewCompletionBlock:",
+      "bridgedName": "setExportableLayer_previewCompletionBlock",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "completionBlock",
+          "type": "dispatch_block_t",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sizeToFit": {
+      "name": "sizeToFit",
+      "bridgedName": "sizeToFit",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

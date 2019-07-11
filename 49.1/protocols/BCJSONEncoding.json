@@ -1,0 +1,51 @@
+{
+  "protocol": true,
+  "name": "BCJSONEncoding",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "encodeAsJSON:": {
+      "name": "encodeAsJSON:",
+      "bridgedName": "encodeAsJSON",
+      "args": [
+        {
+          "name": "coder",
+          "type": "nonnull BCJSONEncoder*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithJSONDecoder:": {
+      "name": "initWithJSONDecoder:",
+      "bridgedName": "initWithJSONDecoder",
+      "args": [
+        {
+          "name": "decoder",
+          "type": "nonnull BCJSONDecoder*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replacementObjectForJSONEncoder:": {
+      "name": "replacementObjectForJSONEncoder:",
+      "bridgedName": "replacementObjectForJSONEncoder",
+      "args": [
+        {
+          "name": "coder",
+          "type": "nonnull BCJSONEncoder*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSObject*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

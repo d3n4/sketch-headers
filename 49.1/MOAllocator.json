@@ -1,0 +1,26 @@
+{
+  "name": "MOAllocator",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "allocator": {
+      "name": "allocator",
+      "bridgedName": "allocator",
+      "args": [],
+      "returns": "MOAllocator *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "objectClass": {
+      "name": "objectClass",
+      "pointer": false,
+      "type": "Class",
+      "attributes": [
+        "unsafe_unretained"
+      ]
+    }
+  },
+  "generics": []
+}

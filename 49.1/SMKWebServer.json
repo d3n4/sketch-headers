@@ -1,0 +1,133 @@
+{
+  "name": "SMKWebServer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "start": {
+      "name": "start",
+      "bridgedName": "start",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stop": {
+      "name": "stop",
+      "bridgedName": "stop",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "authorizeAdvertisementID:": {
+      "name": "authorizeAdvertisementID:",
+      "bridgedName": "authorizeAdvertisementID",
+      "args": [
+        {
+          "name": "connectionID",
+          "type": "NSUUID *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tokenForAdvertisementID:": {
+      "name": "tokenForAdvertisementID:",
+      "bridgedName": "tokenForAdvertisementID",
+      "args": [
+        {
+          "name": "connectionID",
+          "type": "NSUUID *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deauthorizeAdvertisementID:": {
+      "name": "deauthorizeAdvertisementID:",
+      "bridgedName": "deauthorizeAdvertisementID",
+      "args": [
+        {
+          "name": "connectionID",
+          "type": "NSUUID *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateArtboardID:": {
+      "name": "invalidateArtboardID:",
+      "bridgedName": "invalidateArtboardID",
+      "args": [
+        {
+          "name": "artboardID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateAllArtboards": {
+      "name": "invalidateAllArtboards",
+      "bridgedName": "invalidateAllArtboards",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataForExportRequest:": {
+      "name": "dataForExportRequest:",
+      "bridgedName": "dataForExportRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "SMKExportRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "URL": {
+      "name": "URL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "dataSource": {
+      "name": "dataSource",
+      "pointer": false,
+      "type": "id<SMKWebServerDataSource>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "port": {
+      "name": "port",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

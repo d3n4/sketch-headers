@@ -1,0 +1,48 @@
+{
+  "name": "MSGoogleAnalyticsWrapper",
+  "extends": "NSObject",
+  "interfaces": [
+    "WebFrameLoadDelegate",
+    "WebResourceLoadDelegate",
+    "WebUIDelegate"
+  ],
+  "methods": {
+    "start": {
+      "name": "start",
+      "bridgedName": "start",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stop": {
+      "name": "stop",
+      "bridgedName": "stop",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendAction:arguments:": {
+      "name": "sendAction:arguments:",
+      "bridgedName": "sendAction_arguments",
+      "args": [
+        {
+          "name": "action",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "arguments",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

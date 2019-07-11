@@ -1,0 +1,87 @@
+{
+  "name": "SMKExportRequest",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithURLRequest:": {
+      "name": "initWithURLRequest:",
+      "bridgedName": "initWithURLRequest",
+      "args": [
+        {
+          "name": "urlRequest",
+          "type": "nonnull NSURLRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithStringValue:": {
+      "name": "initWithStringValue:",
+      "bridgedName": "initWithStringValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "stringValue": {
+      "name": "stringValue",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "artboardID": {
+      "name": "artboardID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "copy"
+      ]
+    },
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "constrainingSize": {
+      "name": "constrainingSize",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

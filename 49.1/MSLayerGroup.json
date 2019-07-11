@@ -1,0 +1,196 @@
+{
+  "name": "MSLayerGroup",
+  "extends": "_MSLayerGroup",
+  "interfaces": [
+    "MSLayerGroup"
+  ],
+  "methods": {
+    "prepareAsMaskContainer": {
+      "name": "prepareAsMaskContainer",
+      "bridgedName": "prepareAsMaskContainer",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "groupFromLayers:": {
+      "name": "groupFromLayers:",
+      "bridgedName": "groupFromLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerGroup *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "enumerateLayersAvoidingFaultingWithOptions:passingTest:usingBlock:": {
+      "name": "enumerateLayersAvoidingFaultingWithOptions:passingTest:usingBlock:",
+      "bridgedName": "enumerateLayersAvoidingFaultingWithOptions_passingTest_usingBlock",
+      "args": [
+        {
+          "name": "options",
+          "type": "MSLayerEnumeratorFlags",
+          "nullable": false
+        },
+        {
+          "name": "predicate",
+          "type": "MSLayerIteratorTestBlock",
+          "nullable": false
+        },
+        {
+          "name": "enumeratorBlock",
+          "type": "MSLayerIteratorBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ungroup": {
+      "name": "ungroup",
+      "bridgedName": "ungroup",
+      "args": [],
+      "returns": "NSArray <__kindof MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ungroupSingleChildDescendentGroups": {
+      "name": "ungroupSingleChildDescendentGroups",
+      "bridgedName": "ungroupSingleChildDescendentGroups",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveTransformsToChildren:": {
+      "name": "moveTransformsToChildren:",
+      "bridgedName": "moveTransformsToChildren",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disableAutomaticScalingInBlock:": {
+      "name": "disableAutomaticScalingInBlock:",
+      "bridgedName": "disableAutomaticScalingInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "groupBoundsForContainer:": {
+      "name": "groupBoundsForContainer:",
+      "bridgedName": "groupBoundsForContainer",
+      "args": [
+        {
+          "name": "containter",
+          "type": "id <MSLayerContainment>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "groupBoundsShouldBeIntegral": {
+      "name": "groupBoundsShouldBeIntegral",
+      "bridgedName": "groupBoundsShouldBeIntegral",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "deselectLayerAndParent": {
+      "name": "deselectLayerAndParent",
+      "bridgedName": "deselectLayerAndParent",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeToFitChildrenWithOption:": {
+      "name": "resizeToFitChildrenWithOption:",
+      "bridgedName": "resizeToFitChildrenWithOption",
+      "args": [
+        {
+          "name": "resizeOption",
+          "type": "MSLayerGroupResizeOption",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertLayer:afterLayerOrAtEnd:": {
+      "name": "insertLayer:afterLayerOrAtEnd:",
+      "bridgedName": "insertLayer_afterLayerOrAtEnd",
+      "args": [
+        {
+          "name": "layer",
+          "type": "__kindof MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeChildrenWithOldSize:": {
+      "name": "resizeChildrenWithOldSize:",
+      "bridgedName": "resizeChildrenWithOldSize",
+      "args": [
+        {
+          "name": "oldSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldStripShadowsAndInnerShadow": {
+      "name": "shouldStripShadowsAndInnerShadow",
+      "bridgedName": "shouldStripShadowsAndInnerShadow",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isAutomaticScalingEnabled": {
+      "name": "isAutomaticScalingEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

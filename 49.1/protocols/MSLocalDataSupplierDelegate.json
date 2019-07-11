@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSLocalDataSupplierDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "locaDataSupplierDataChanged:": {
+      "name": "locaDataSupplierDataChanged:",
+      "bridgedName": "locaDataSupplierDataChanged",
+      "args": [
+        {
+          "name": "localDataSupplier",
+          "type": "MSLocalDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SVGPolygonShape",
+  "extends": "_SVGPolygonShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

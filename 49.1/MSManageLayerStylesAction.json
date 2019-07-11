@@ -1,0 +1,23 @@
+{
+  "name": "MSManageLayerStylesAction",
+  "extends": "MSManageShareableObjectsAction",
+  "interfaces": [],
+  "methods": {
+    "showOrganizeSharedLayerStylesSheet:": {
+      "name": "showOrganizeSharedLayerStylesSheet:",
+      "bridgedName": "showOrganizeSharedLayerStylesSheet",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

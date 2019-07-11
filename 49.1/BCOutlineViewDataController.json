@@ -1,0 +1,334 @@
+{
+  "name": "BCOutlineViewDataController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDataSource:delegate:": {
+      "name": "initWithDataSource:delegate:",
+      "bridgedName": "initWithDataSource_delegate",
+      "args": [
+        {
+          "name": "dataSource",
+          "type": "NSObject<BCOutlineViewDataSource>*",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "NSObject<BCOutlineViewDelegate>*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "childrenOfNode:": {
+      "name": "childrenOfNode:",
+      "bridgedName": "childrenOfNode",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfChildrenOfNode:": {
+      "name": "numberOfChildrenOfNode:",
+      "bridgedName": "numberOfChildrenOfNode",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "childOfNode:atIndex:": {
+      "name": "childOfNode:atIndex:",
+      "bridgedName": "childOfNode_atIndex",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldExpandNode:": {
+      "name": "shouldExpandNode:",
+      "bridgedName": "shouldExpandNode",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeNodes:toPasteboard:": {
+      "name": "writeNodes:toPasteboard:",
+      "bridgedName": "writeNodes_toPasteboard",
+      "args": [
+        {
+          "name": "nodes",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handleDragWithPasteboard:forProposedItem:proposedChildIndex:copying:validationOnly:": {
+      "name": "handleDragWithPasteboard:forProposedItem:proposedChildIndex:copying:validationOnly:",
+      "bridgedName": "handleDragWithPasteboard_forProposedItem_proposedChildIndex_copying_validationOnly",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard*",
+          "nullable": false
+        },
+        {
+          "name": "item",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "copying",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "validating",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeSelectionTo:": {
+      "name": "changeSelectionTo:",
+      "bridgedName": "changeSelectionTo",
+      "args": [
+        {
+          "name": "selection",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNodeSelected:": {
+      "name": "isNodeSelected:",
+      "bridgedName": "isNodeSelected",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNodeExpanded:": {
+      "name": "isNodeExpanded:",
+      "bridgedName": "isNodeExpanded",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNodeExpandable:": {
+      "name": "isNodeExpandable:",
+      "bridgedName": "isNodeExpandable",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateNode:expandedState:": {
+      "name": "updateNode:expandedState:",
+      "bridgedName": "updateNode_expandedState",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "expanded",
+          "type": "BCOutlineViewNodeExpansionState",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuItemsForSelectedObjects:": {
+      "name": "menuItemsForSelectedObjects:",
+      "bridgedName": "menuItemsForSelectedObjects",
+      "args": [
+        {
+          "name": "selection",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hoverNodeDidChangeTo:": {
+      "name": "hoverNodeDidChangeTo:",
+      "bridgedName": "hoverNodeDidChangeTo",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handleBadgePressedOnNode:withAltState:": {
+      "name": "handleBadgePressedOnNode:withAltState:",
+      "bridgedName": "handleBadgePressedOnNode_withAltState",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "alt",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshPreviewsOnNodes:": {
+      "name": "refreshPreviewsOnNodes:",
+      "bridgedName": "refreshPreviewsOnNodes",
+      "args": [
+        {
+          "name": "nodes",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "namesOfPromisedFilesDroppedAtDestination:forDraggedItems:": {
+      "name": "namesOfPromisedFilesDroppedAtDestination:forDraggedItems:",
+      "bridgedName": "namesOfPromisedFilesDroppedAtDestination_forDraggedItems",
+      "args": [
+        {
+          "name": "dropDestination",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "items",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSString*>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "filter": {
+      "name": "filter",
+      "pointer": false,
+      "type": "BCFilterInfo ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "rootObject": {
+      "name": "rootObject",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dragTypes": {
+      "name": "dragTypes",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canProvideContextMenuItems": {
+      "name": "canProvideContextMenuItems",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

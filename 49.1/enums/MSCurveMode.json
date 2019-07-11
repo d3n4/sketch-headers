@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "MSCurveMode",
+  "members": [
+    {
+      "name": "MSCurveModeUndefined",
+      "value": "0"
+    },
+    {
+      "name": "MSCurveModeStraight",
+      "value": "1"
+    },
+    {
+      "name": "MSCurveModeMirrored",
+      "value": "2"
+    },
+    {
+      "name": "MSCurveModeAsymmetric",
+      "value": "3"
+    },
+    {
+      "name": "MSCurveModeDisconnected",
+      "value": "4"
+    }
+  ]
+}

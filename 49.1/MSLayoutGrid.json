@@ -1,0 +1,25 @@
+{
+  "name": "MSLayoutGrid",
+  "extends": "_MSLayoutGrid",
+  "interfaces": [],
+  "methods": {
+    "totalNumberOfGutters": {
+      "name": "totalNumberOfGutters",
+      "bridgedName": "totalNumberOfGutters",
+      "args": [],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "determineAppropriateColumnWidth": {
+      "name": "determineAppropriateColumnWidth",
+      "bridgedName": "determineAppropriateColumnWidth",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

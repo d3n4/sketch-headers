@@ -1,0 +1,8 @@
+{
+  "name": "_MSImmutableFreeformGroupLayout",
+  "extends": "MSImmutableGroupLayout",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}
