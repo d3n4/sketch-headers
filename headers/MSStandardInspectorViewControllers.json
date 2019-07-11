@@ -22,6 +22,15 @@
         "readonly"
       ]
     },
+    "layoutSection": {
+      "name": "layoutSection",
+      "pointer": false,
+      "type": "MSLayoutInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "styleSection": {
       "name": "styleSection",
       "pointer": false,

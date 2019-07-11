@@ -3,6 +3,16 @@
   "extends": "_MSColorAsset",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "displayName": {
+      "name": "displayName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

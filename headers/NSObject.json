@@ -473,13 +473,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "propertiesAreEqual:": {
-      "name": "propertiesAreEqual:",
-      "bridgedName": "propertiesAreEqual",
+    "propertiesAreEqual:forPurpose:": {
+      "name": "propertiesAreEqual:forPurpose:",
+      "bridgedName": "propertiesAreEqual_forPurpose",
       "args": [
         {
           "name": "object",
           "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "purpose",
+          "type": "MSModelComparisonPurpose",
           "nullable": false
         }
       ],

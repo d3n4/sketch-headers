@@ -26,6 +26,14 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "isOptionClick": {
+      "name": "isOptionClick",
+      "bridgedName": "isOptionClick",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

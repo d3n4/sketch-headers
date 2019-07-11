@@ -98,14 +98,19 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addAsset:": {
-      "name": "addAsset:",
-      "bridgedName": "addAsset",
+    "addAsset:withName:": {
+      "name": "addAsset:withName:",
+      "bridgedName": "addAsset_withName",
       "args": [
         {
           "name": "asset",
           "type": "id<MSAsset>",
           "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": true
         }
       ],
       "returns": "NSIndexPath *",
@@ -128,6 +133,20 @@
         }
       ],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nameOfAssetAtIndexPath:": {
+      "name": "nameOfAssetAtIndexPath:",
+      "bridgedName": "nameOfAssetAtIndexPath",
+      "args": [
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
       "kind": "instance",
       "kindIndicator": "-"
     },

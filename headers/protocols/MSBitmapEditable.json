@@ -22,6 +22,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   }
 }

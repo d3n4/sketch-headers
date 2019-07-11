@@ -89,6 +89,16 @@
         "strong",
         "nonatomic"
       ]
+    },
+    "hidden": {
+      "name": "hidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "getter=isHidden"
+      ]
     }
   },
   "generics": []

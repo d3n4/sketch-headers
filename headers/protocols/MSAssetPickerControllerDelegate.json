@@ -23,20 +23,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "createNewAssetForAssetPickerController:": {
-      "name": "createNewAssetForAssetPickerController:",
-      "bridgedName": "createNewAssetForAssetPickerController",
-      "args": [
-        {
-          "name": "controller",
-          "type": "MSAssetPickerController *",
-          "nullable": false
-        }
-      ],
-      "returns": "id<MSAsset>",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "layoutChangedForAssetPickerCollection:": {
       "name": "layoutChangedForAssetPickerCollection:",
       "bridgedName": "layoutChangedForAssetPickerCollection",

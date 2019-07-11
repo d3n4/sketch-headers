@@ -96,25 +96,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "candidateSpacingsBetweenLayers:alongAxis:": {
-      "name": "candidateSpacingsBetweenLayers:alongAxis:",
-      "bridgedName": "candidateSpacingsBetweenLayers_alongAxis",
-      "args": [
-        {
-          "name": "layers",
-          "type": "NSArray<MSLayer *> *",
-          "nullable": false
-        },
-        {
-          "name": "axis",
-          "type": "BCAxis",
-          "nullable": false
-        }
-      ],
-      "returns": "NSArray<MSInterLayerSpace *> *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "artboardForSnapping": {
       "name": "artboardForSnapping",
       "bridgedName": "artboardForSnapping",

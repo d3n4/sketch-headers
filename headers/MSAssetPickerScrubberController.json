@@ -58,7 +58,8 @@
       "pointer": false,
       "type": "id<MSAssetPickerScrubberControllerDelegate>",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "weak"
       ]
     }
   },

@@ -38,13 +38,13 @@
     }
   },
   "properties": {
-    "enabled": {
-      "name": "enabled",
+    "hidden": {
+      "name": "hidden",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
         "nonatomic",
-        "getter=isEnabled"
+        "getter=isHidden"
       ]
     },
     "hostView": {

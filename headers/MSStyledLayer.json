@@ -235,20 +235,6 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "applyPropertiesToBezier:": {
-      "name": "applyPropertiesToBezier:",
-      "bridgedName": "applyPropertiesToBezier",
-      "args": [
-        {
-          "name": "bezier",
-          "type": "NSBezierPath *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {

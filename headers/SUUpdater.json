@@ -164,8 +164,8 @@
     },
     "httpHeaders": {
       "name": "httpHeaders",
-      "pointer": false,
-      "type": "NSDictionary ",
+      "pointer": true,
+      "type": "NSDictionary<NSString *, NSString *>",
       "attributes": [
         "copy"
       ]

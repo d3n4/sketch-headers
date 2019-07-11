@@ -4,14 +4,13 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "imageFileProviderBlock": {
-      "name": "imageFileProviderBlock",
+    "delegate": {
+      "name": "delegate",
       "pointer": false,
-      "type": "MSManifestImageProviderBlock",
+      "type": "id<MSCloudManifestMakerDelegate>",
       "attributes": [
         "nonatomic",
-        "copy",
-        "nullable"
+        ""
       ]
     },
     "organizationID": {

@@ -12,6 +12,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "vector": {
+      "name": "vector",
+      "pointer": false,
+      "type": "CGVector",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

@@ -1,0 +1,10 @@
+{
+  "name": "SPUDownloaderSession",
+  "extends": "SPUDownloader",
+  "interfaces": [
+    "SPUDownloaderProtocol"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

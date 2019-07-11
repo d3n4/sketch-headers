@@ -319,20 +319,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "pageDidChange:": {
-      "name": "pageDidChange:",
-      "bridgedName": "pageDidChange",
-      "args": [
-        {
-          "name": "page",
-          "type": "MSPage *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "windowDidResize:": {
       "name": "windowDidResize:",
       "bridgedName": "windowDidResize",
@@ -534,15 +520,6 @@
       "attributes": [
         "nonatomic",
         "strong"
-      ]
-    },
-    "rendererColorSettings": {
-      "name": "rendererColorSettings",
-      "pointer": false,
-      "type": "MSOverlayColorSettings ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
       ]
     },
     "driver": {

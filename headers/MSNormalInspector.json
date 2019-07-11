@@ -111,9 +111,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "openPopoverForStylePart:atIndex:": {
-      "name": "openPopoverForStylePart:atIndex:",
-      "bridgedName": "openPopoverForStylePart_atIndex",
+    "openPopoverForStylePart:atIndex:preferringNative:": {
+      "name": "openPopoverForStylePart:atIndex:preferringNative:",
+      "bridgedName": "openPopoverForStylePart_atIndex_preferringNative",
       "args": [
         {
           "name": "stylePart",
@@ -123,6 +123,11 @@
         {
           "name": "index",
           "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "prefersNative",
+          "type": "BOOL",
           "nullable": false
         }
       ],

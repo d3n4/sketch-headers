@@ -37,10 +37,10 @@
         "nonatomic"
       ]
     },
-    "eventData": {
-      "name": "eventData",
+    "normalEventHandler": {
+      "name": "normalEventHandler",
       "pointer": false,
-      "type": "MSNormalEventData ",
+      "type": "MSNormalEventHandler ",
       "attributes": [
         "nonatomic",
         "strong"

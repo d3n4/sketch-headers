@@ -2,7 +2,7 @@
   "name": "SUBasicUpdateDriver",
   "extends": "SUUpdateDriver",
   "interfaces": [
-    "NSURLDownloadDelegate"
+    "SPUDownloaderDelegate"
   ],
   "methods": {
     "checkForUpdatesAtURL:host:": {
@@ -118,17 +118,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "download:decideDestinationWithSuggestedFilename:": {
-      "name": "download:decideDestinationWithSuggestedFilename:",
-      "bridgedName": "download_decideDestinationWithSuggestedFilename",
+    "downloaderDidSetDestinationName:temporaryDirectory:": {
+      "name": "downloaderDidSetDestinationName:temporaryDirectory:",
+      "bridgedName": "downloaderDidSetDestinationName_temporaryDirectory",
       "args": [
         {
-          "name": "d",
-          "type": "NSURLDownload *",
+          "name": "destinationName",
+          "type": "NSString *",
           "nullable": false
         },
         {
-          "name": "name",
+          "name": "temporaryDirectory",
           "type": "NSString *",
           "nullable": false
         }
@@ -137,13 +137,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "downloadDidFinish:": {
-      "name": "downloadDidFinish:",
-      "bridgedName": "downloadDidFinish",
+    "downloaderDidReceiveExpectedContentLength:": {
+      "name": "downloaderDidReceiveExpectedContentLength:",
+      "bridgedName": "downloaderDidReceiveExpectedContentLength",
       "args": [
         {
-          "name": "d",
-          "type": "NSURLDownload *",
+          "name": "expectedContentLength",
+          "type": "int64_t",
           "nullable": false
         }
       ],
@@ -151,15 +151,38 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "download:didFailWithError:": {
-      "name": "download:didFailWithError:",
-      "bridgedName": "download_didFailWithError",
+    "downloaderDidReceiveDataOfLength:": {
+      "name": "downloaderDidReceiveDataOfLength:",
+      "bridgedName": "downloaderDidReceiveDataOfLength",
       "args": [
         {
-          "name": "download",
-          "type": "NSURLDownload *",
+          "name": "length",
+          "type": "uint64_t",
           "nullable": false
-        },
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidFinishWithTemporaryDownloadData:": {
+      "name": "downloaderDidFinishWithTemporaryDownloadData:",
+      "bridgedName": "downloaderDidFinishWithTemporaryDownloadData",
+      "args": [
+        {
+          "name": "downloadData",
+          "type": "SPUDownloadData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloaderDidFailWithError:": {
+      "name": "downloaderDidFailWithError:",
+      "bridgedName": "downloaderDidFailWithError",
+      "args": [
         {
           "name": "error",
           "type": "NSError *",
@@ -352,7 +375,7 @@
     "download": {
       "name": "download",
       "pointer": false,
-      "type": "NSURLDownload ",
+      "type": "SPUDownloader ",
       "attributes": [
         "strong",
         "readonly"

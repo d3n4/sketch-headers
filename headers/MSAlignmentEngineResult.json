@@ -5,9 +5,9 @@
     "NSCopying"
   ],
   "methods": {
-    "initWithPoint:guides:": {
-      "name": "initWithPoint:guides:",
-      "bridgedName": "initWithPoint_guides",
+    "initWithPoint:guides:snappedAxes:": {
+      "name": "initWithPoint:guides:snappedAxes:",
+      "bridgedName": "initWithPoint_guides_snappedAxes",
       "args": [
         {
           "name": "point",
@@ -17,6 +17,11 @@
         {
           "name": "guides",
           "type": "NSArray <MSAlignmentEngineResultGuide *> *",
+          "nullable": false
+        },
+        {
+          "name": "axes",
+          "type": "BCAxisMask",
           "nullable": false
         }
       ],
@@ -70,6 +75,15 @@
       "attributes": [
         "nonatomic",
         "copy",
+        "readonly"
+      ]
+    },
+    "snappedAxes": {
+      "name": "snappedAxes",
+      "pointer": false,
+      "type": "BCAxisMask",
+      "attributes": [
+        "nonatomic",
         "readonly"
       ]
     }

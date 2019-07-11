@@ -69,25 +69,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "distanceRectangleToItem:axis:": {
-      "name": "distanceRectangleToItem:axis:",
-      "bridgedName": "distanceRectangleToItem_axis",
-      "args": [
-        {
-          "name": "other",
-          "type": "id <MSSnappable>",
-          "nullable": false
-        },
-        {
-          "name": "axis",
-          "type": "BCAxis",
-          "nullable": false
-        }
-      ],
-      "returns": "NSRect",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "shouldDrawDistanceOnSnapTo:": {
       "name": "shouldDrawDistanceOnSnapTo:",
       "bridgedName": "shouldDrawDistanceOnSnapTo",

@@ -4,9 +4,9 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "isNodeSelectedInTableRowView:": {
-      "name": "isNodeSelectedInTableRowView:",
-      "bridgedName": "isNodeSelectedInTableRowView",
+    "isNodeOfTableRowViewSelected:": {
+      "name": "isNodeOfTableRowViewSelected:",
+      "bridgedName": "isNodeOfTableRowViewSelected",
       "args": [
         {
           "name": "view",
@@ -25,6 +25,20 @@
         {
           "name": "row",
           "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNodeOfTableRowViewHovered:": {
+      "name": "isNodeOfTableRowViewHovered:",
+      "bridgedName": "isNodeOfTableRowViewHovered",
+      "args": [
+        {
+          "name": "rowView",
+          "type": "nonnull BCTableRowView *",
           "nullable": false
         }
       ],
@@ -84,6 +98,20 @@
         }
       ],
       "returns": "BCOutlineViewDisplayType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateVisualStateOfRowView:": {
+      "name": "updateVisualStateOfRowView:",
+      "bridgedName": "updateVisualStateOfRowView",
+      "args": [
+        {
+          "name": "rowView",
+          "type": "nonnull BCTableRowView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     }

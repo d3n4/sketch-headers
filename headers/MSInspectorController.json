@@ -5,20 +5,6 @@
     "NSTouchBarDelegate"
   ],
   "methods": {
-    "selectionDidChangeTo:": {
-      "name": "selectionDidChangeTo:",
-      "bridgedName": "selectionDidChangeTo",
-      "args": [
-        {
-          "name": "layers",
-          "type": "MSLayerArray *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "changeColor:": {
       "name": "changeColor:",
       "bridgedName": "changeColor",
@@ -43,6 +29,14 @@
           "nullable": false
         }
       ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateAfterDocumentModelReverted": {
+      "name": "updateAfterDocumentModelReverted",
+      "bridgedName": "updateAfterDocumentModelReverted",
+      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -178,9 +172,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "openPopoverForStylePart:atIndex:": {
-      "name": "openPopoverForStylePart:atIndex:",
-      "bridgedName": "openPopoverForStylePart_atIndex",
+    "openPopoverForStylePart:atIndex:preferringNative:": {
+      "name": "openPopoverForStylePart:atIndex:preferringNative:",
+      "bridgedName": "openPopoverForStylePart_atIndex_preferringNative",
       "args": [
         {
           "name": "stylePart",
@@ -190,6 +184,11 @@
         {
           "name": "index",
           "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "prefersNative",
+          "type": "BOOL",
           "nullable": false
         }
       ],
@@ -212,14 +211,6 @@
           "nullable": false
         }
       ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "closeAnyColorPopover": {
-      "name": "closeAnyColorPopover",
-      "bridgedName": "closeAnyColorPopover",
-      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

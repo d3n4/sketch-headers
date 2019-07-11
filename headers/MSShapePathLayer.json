@@ -254,6 +254,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "cornerForLinePointAtIndex:": {
+      "name": "cornerForLinePointAtIndex:",
+      "bridgedName": "cornerForLinePointAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BCCorner",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "insertionCursor": {
       "name": "insertionCursor",
       "bridgedName": "insertionCursor",

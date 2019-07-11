@@ -270,15 +270,6 @@
         "readonly"
       ]
     },
-    "isConfigurable": {
-      "name": "isConfigurable",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "isVisible": {
       "name": "isVisible",
       "pointer": false,

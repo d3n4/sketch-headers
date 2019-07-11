@@ -29,6 +29,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "pluralizedSharedObjectName": {
+      "name": "pluralizedSharedObjectName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

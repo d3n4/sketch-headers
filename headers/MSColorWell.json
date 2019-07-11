@@ -15,7 +15,7 @@
         {
           "name": "color",
           "type": "NSColor *",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "void",
@@ -31,6 +31,15 @@
       "attributes": [
         "nonatomic",
         "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSColorWellDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
       ]
     }
   },

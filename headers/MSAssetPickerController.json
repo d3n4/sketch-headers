@@ -3,6 +3,20 @@
   "extends": "NSViewController",
   "interfaces": [],
   "methods": {
+    "addAsset:": {
+      "name": "addAsset:",
+      "bridgedName": "addAsset",
+      "args": [
+        {
+          "name": "asset",
+          "type": "id<MSAsset>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "switchToDataSourceAtIndex:": {
       "name": "switchToDataSourceAtIndex:",
       "bridgedName": "switchToDataSourceAtIndex",
@@ -69,10 +83,10 @@
         "copy"
       ]
     },
-    "sectionHeaderAccessoryViews": {
-      "name": "sectionHeaderAccessoryViews",
+    "assetDisplayModeButton": {
+      "name": "assetDisplayModeButton",
       "pointer": false,
-      "type": "NSArray<NSView *> ",
+      "type": "NSView ",
       "attributes": [
         "nonatomic",
         "readonly"

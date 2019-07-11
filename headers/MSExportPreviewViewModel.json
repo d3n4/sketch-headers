@@ -40,6 +40,25 @@
       "returns": "NSData *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "exportDataInFormat:toURL:": {
+      "name": "exportDataInFormat:toURL:",
+      "bridgedName": "exportDataInFormat_toURL",
+      "args": [
+        {
+          "name": "fileFormat",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

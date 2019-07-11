@@ -3,17 +3,19 @@
   "extends": "MSStylePartInspectorViewController",
   "interfaces": [],
   "methods": {
-    "previewCellAction:": {
-      "name": "previewCellAction:",
-      "bridgedName": "previewCellAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
+    "togglePopover": {
+      "name": "togglePopover",
+      "bridgedName": "togglePopover",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openColorPanelPreferringNative": {
+      "name": "openColorPanelPreferringNative",
+      "bridgedName": "openColorPanelPreferringNative",
+      "args": [],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },

@@ -17,13 +17,18 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "initWithSubjectPath:": {
-      "name": "initWithSubjectPath:",
-      "bridgedName": "initWithSubjectPath",
+    "initWithSubjectPath:maximumElementCount:": {
+      "name": "initWithSubjectPath:maximumElementCount:",
+      "bridgedName": "initWithSubjectPath_maximumElementCount",
       "args": [
         {
           "name": "subject",
           "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "elementCount",
+          "type": "NSUInteger",
           "nullable": false
         }
       ],
@@ -46,7 +51,7 @@
           "nullable": false
         }
       ],
-      "returns": "void",
+      "returns": "MSBooleanOperation",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -59,6 +64,16 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "maximumElementCount": {
+      "name": "maximumElementCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

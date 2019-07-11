@@ -1,6 +1,6 @@
 {
   "name": "MSColorInspectorSectionGradient",
-  "extends": "MSColorInspectorSectionWithPicker",
+  "extends": "MSColorInspectorSectionWithColorPicker",
   "interfaces": [
     "MSGradientEventHandlerDelegate",
     "MSGradientBarViewDelegate"

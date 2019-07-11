@@ -118,13 +118,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "containsPoint:": {
-      "name": "containsPoint:",
-      "bridgedName": "containsPoint",
+    "containsPoint:isAmbiguous:": {
+      "name": "containsPoint:isAmbiguous:",
+      "bridgedName": "containsPoint_isAmbiguous",
       "args": [
         {
-          "name": "point",
+          "name": "testPoint",
           "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "ambiguous",
+          "type": "BOOL *",
           "nullable": false
         }
       ],

@@ -188,14 +188,6 @@
     }
   },
   "properties": {
-    "themeCachingKey": {
-      "name": "themeCachingKey",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
     "manifestComponents": {
       "name": "manifestComponents",
       "pointer": false,

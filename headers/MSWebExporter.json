@@ -1,7 +1,9 @@
 {
   "name": "MSWebExporter",
   "extends": "NSObject",
-  "interfaces": [],
+  "interfaces": [
+    "MSCloudManifestMakerDelegate"
+  ],
   "methods": {
     "initWithDocument:name:localURL:": {
       "name": "initWithDocument:name:localURL:",
@@ -132,6 +134,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "exportArtboardsIncludingManifest:error:": {
+      "name": "exportArtboardsIncludingManifest:error:",
+      "bridgedName": "exportArtboardsIncludingManifest_error",
+      "args": [
+        {
+          "name": "includeManifest",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "cancel": {
       "name": "cancel",
       "bridgedName": "cancel",
@@ -201,14 +222,6 @@
         "nonatomic",
         "readonly",
         "copy"
-      ]
-    },
-    "cacheManager": {
-      "name": "cacheManager",
-      "pointer": false,
-      "type": "MSCacheManager ",
-      "attributes": [
-        "nonatomic"
       ]
     },
     "selectiveExport": {

@@ -69,6 +69,14 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "scale": {
+      "name": "scale",
+      "bridgedName": "scale",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

@@ -222,7 +222,7 @@
       "type": "MSRulerData ",
       "attributes": [
         "nonatomic",
-        "strong"
+        "readonly"
       ]
     },
     "document": {

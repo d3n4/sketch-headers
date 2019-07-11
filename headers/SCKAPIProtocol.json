@@ -1,8 +1,0 @@
-{
-  "name": "SCKAPIProtocol",
-  "extends": "NSURLProtocol",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

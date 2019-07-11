@@ -9,12 +9,12 @@
       "args": [
         {
           "name": "date",
-          "type": "nonnull NSDate*",
+          "type": "NSDate*",
           "nullable": false
         },
         {
           "name": "buildNumber",
-          "type": "nonnull NSString*",
+          "type": "NSString*",
           "nullable": false
         },
         {

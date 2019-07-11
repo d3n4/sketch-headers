@@ -28,7 +28,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "id _Nonnull",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -57,7 +57,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "id _Nonnull",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -86,7 +86,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "id _Nonnull",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -183,11 +183,11 @@
       "args": [
         {
           "name": "space",
-          "type": "NSColorSpace *",
+          "type": "NSColorSpace * _Nonnull",
           "nullable": false
         }
       ],
-      "returns": "NSColor *",
+      "returns": "NSColor *_Nonnull ",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -195,7 +195,7 @@
       "name": "msColor",
       "bridgedName": "msColor",
       "args": [],
-      "returns": "MSColor *",
+      "returns": "MSColor * _Nonnull",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -203,7 +203,7 @@
       "name": "init NS_UNAVAILABLE",
       "bridgedName": "init NS_UNAVAILABLE",
       "args": [],
-      "returns": "instancetype",
+      "returns": "instancetype _Nonnull",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -211,7 +211,7 @@
       "name": "new NS_UNAVAILABLE",
       "bridgedName": "new NS_UNAVAILABLE",
       "args": [],
-      "returns": "instancetype",
+      "returns": "instancetype _Nonnull",
       "kind": "class",
       "kindIndicator": "+"
     }

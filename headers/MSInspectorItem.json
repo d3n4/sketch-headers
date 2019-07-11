@@ -147,6 +147,20 @@
       "returns": "id _Nullable",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "adjustLayerHierarchyAfterEditingLayers:": {
+      "name": "adjustLayerHierarchyAfterEditingLayers:",
+      "bridgedName": "adjustLayerHierarchyAfterEditingLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {

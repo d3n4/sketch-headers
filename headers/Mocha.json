@@ -58,6 +58,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "evalJSString:scriptPath:": {
+      "name": "evalJSString:scriptPath:",
+      "bridgedName": "evalJSString_scriptPath",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "scriptPath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "callFunctionWithName:": {
       "name": "callFunctionWithName:",
       "bridgedName": "callFunctionWithName",
@@ -485,6 +504,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "setJSValue:withName:": {
+      "name": "setJSValue:withName:",
+      "bridgedName": "setJSValue_withName",
+      "args": [
+        {
+          "name": "jsValue",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "setObject:withName:attributes:": {
       "name": "setObject:withName:attributes:",
       "bridgedName": "setObject_withName_attributes",
@@ -492,6 +530,30 @@
         {
           "name": "object",
           "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "attributes",
+          "type": "JSPropertyAttributes",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setJSValue:withName:attributes:": {
+      "name": "setJSValue:withName:attributes:",
+      "bridgedName": "setJSValue_withName_attributes",
+      "args": [
+        {
+          "name": "jsValue",
+          "type": "JSValueRef",
           "nullable": false
         },
         {
@@ -529,25 +591,6 @@
       "args": [
         {
           "name": "string",
-          "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "JSValueRef",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "evalJSString:scriptPath:": {
-      "name": "evalJSString:scriptPath:",
-      "bridgedName": "evalJSString_scriptPath",
-      "args": [
-        {
-          "name": "string",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "scriptPath",
           "type": "NSString *",
           "nullable": false
         }

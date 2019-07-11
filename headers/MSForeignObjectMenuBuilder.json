@@ -134,6 +134,74 @@
       "returns": "MSForeignObjectCollectionFilter",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "addStyleOverridesToMenu:withTarget:action:forOverride:inDocument:": {
+      "name": "addStyleOverridesToMenu:withTarget:action:forOverride:inDocument:",
+      "bridgedName": "addStyleOverridesToMenu_withTarget_action_forOverride_inDocument",
+      "args": [
+        {
+          "name": "menu",
+          "type": "nonnull NSMenu *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "action",
+          "type": "nonnull SEL",
+          "nullable": false
+        },
+        {
+          "name": "availableOverride",
+          "type": "nonnull MSAvailableOverride *",
+          "nullable": false
+        },
+        {
+          "name": "documentData",
+          "type": "nonnull MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSymbolOverridesToMenu:withTarget:action:forOverride:inDocument:": {
+      "name": "addSymbolOverridesToMenu:withTarget:action:forOverride:inDocument:",
+      "bridgedName": "addSymbolOverridesToMenu_withTarget_action_forOverride_inDocument",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "availableOverride",
+          "type": "MSAvailableOverride *",
+          "nullable": false
+        },
+        {
+          "name": "documentData",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

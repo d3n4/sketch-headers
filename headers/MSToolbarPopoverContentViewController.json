@@ -17,9 +17,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "newActionButtonWithTitle:action:": {
-      "name": "newActionButtonWithTitle:action:",
-      "bridgedName": "newActionButtonWithTitle_action",
+    "makeButtonWithTitle:action:": {
+      "name": "makeButtonWithTitle:action:",
+      "bridgedName": "makeButtonWithTitle_action",
       "args": [
         {
           "name": "title",
@@ -33,6 +33,44 @@
         }
       ],
       "returns": "NSButton *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeActionButtonWithTitle:action:": {
+      "name": "makeActionButtonWithTitle:action:",
+      "bridgedName": "makeActionButtonWithTitle_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSButton *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makePopupButtonWithTitle:action:": {
+      "name": "makePopupButtonWithTitle:action:",
+      "bridgedName": "makePopupButtonWithTitle_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPopUpButton *",
       "kind": "instance",
       "kindIndicator": "-"
     },

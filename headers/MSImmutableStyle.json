@@ -39,20 +39,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "applyPropertiesToBezier:": {
-      "name": "applyPropertiesToBezier:",
-      "bridgedName": "applyPropertiesToBezier",
-      "args": [
-        {
-          "name": "bezier",
-          "type": "NSBezierPath *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "renderBitmapEffects:bounds:parentCoordinateTransform:": {
       "name": "renderBitmapEffects:bounds:parentCoordinateTransform:",
       "bridgedName": "renderBitmapEffects_bounds_parentCoordinateTransform",

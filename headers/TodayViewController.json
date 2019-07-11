@@ -1,8 +1,0 @@
-{
-  "name": "TodayViewController",
-  "extends": "UIViewController",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

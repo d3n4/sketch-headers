@@ -154,6 +154,30 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "refreshAllRowViews": {
+      "name": "refreshAllRowViews",
+      "bridgedName": "refreshAllRowViews",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshGroupRowViews": {
+      "name": "refreshGroupRowViews",
+      "bridgedName": "refreshGroupRowViews",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshSelectedRowViews": {
+      "name": "refreshSelectedRowViews",
+      "bridgedName": "refreshSelectedRowViews",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "sendRenameNodeActionForRowIfAppropriate:": {
       "name": "sendRenameNodeActionForRowIfAppropriate:",
       "bridgedName": "sendRenameNodeActionForRowIfAppropriate",

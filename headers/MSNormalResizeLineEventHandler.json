@@ -21,19 +21,10 @@
         "nonatomic"
       ]
     },
-    "layerSnapper": {
-      "name": "layerSnapper",
+    "normalEventHandler": {
+      "name": "normalEventHandler",
       "pointer": false,
-      "type": "MSSnapper ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "eventData": {
-      "name": "eventData",
-      "pointer": false,
-      "type": "MSNormalEventData ",
+      "type": "MSNormalEventHandler ",
       "attributes": [
         "nonatomic",
         "strong"

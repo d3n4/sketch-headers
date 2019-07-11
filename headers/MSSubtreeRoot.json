@@ -33,16 +33,6 @@
     }
   },
   "properties": {
-    "webExportableRootLayer": {
-      "name": "webExportableRootLayer",
-      "pointer": false,
-      "type": "MSImmutableLayerGroup<MSWebExportableRootLayer> ",
-      "attributes": [
-        "nonatomic",
-        "nullable",
-        "readonly"
-      ]
-    },
     "object": {
       "name": "object",
       "pointer": false,
@@ -68,6 +58,16 @@
       "attributes": [
         "nonatomic",
         "readwrite"
+      ]
+    },
+    "webExportableRootLayer": {
+      "name": "webExportableRootLayer",
+      "pointer": false,
+      "type": "MSImmutableLayerGroup<MSWebExportableRootLayer> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
       ]
     }
   },

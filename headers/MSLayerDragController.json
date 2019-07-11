@@ -48,10 +48,10 @@
     }
   },
   "properties": {
-    "layerMover": {
-      "name": "layerMover",
+    "positioningTool": {
+      "name": "positioningTool",
       "pointer": false,
-      "type": "MSLayerMover ",
+      "type": "MSLayerPositioningTool ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -127,10 +127,10 @@
         "nullable"
       ]
     },
-    "snapperData": {
-      "name": "snapperData",
+    "snappingResult": {
+      "name": "snappingResult",
       "pointer": false,
-      "type": "MSSnapperData ",
+      "type": "MSLayerSnappingResult ",
       "attributes": [
         "nonatomic",
         "nullable",

@@ -3,9 +3,9 @@
   "extends": "_MSForeignStyle",
   "interfaces": [],
   "methods": {
-    "addOrReplaceSymbolPrivateStyleWithID:forForeignSymbol:fromDocument:": {
-      "name": "addOrReplaceSymbolPrivateStyleWithID:forForeignSymbol:fromDocument:",
-      "bridgedName": "addOrReplaceSymbolPrivateStyleWithID_forForeignSymbol_fromDocument",
+    "symbolPrivateStyleWithID:forForeignSymbol:fromDocument:": {
+      "name": "symbolPrivateStyleWithID:forForeignSymbol:fromDocument:",
+      "bridgedName": "symbolPrivateStyleWithID_forForeignSymbol_fromDocument",
       "args": [
         {
           "name": "sharedStyleID",
@@ -46,6 +46,20 @@
       "bridgedName": "findOrCreatePublicVersion",
       "args": [],
       "returns": "nullable MSForeignStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addOrReplaceInDocument:": {
+      "name": "addOrReplaceInDocument:",
+      "bridgedName": "addOrReplaceInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     }

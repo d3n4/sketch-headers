@@ -141,9 +141,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "requestDataFromPluginDataSupplier:dataContext:applierBlock:": {
-      "name": "requestDataFromPluginDataSupplier:dataContext:applierBlock:",
-      "bridgedName": "requestDataFromPluginDataSupplier_dataContext_applierBlock",
+    "requestDataFromPluginDataSupplier:dataContext:applierBlock:completionHandler:": {
+      "name": "requestDataFromPluginDataSupplier:dataContext:applierBlock:completionHandler:",
+      "bridgedName": "requestDataFromPluginDataSupplier_dataContext_applierBlock_completionHandler",
       "args": [
         {
           "name": "dataSupplier",
@@ -159,6 +159,11 @@
           "name": "applierBlock",
           "type": "MSDataApplierBlock",
           "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "BCVoidBlock",
+          "nullable": true
         }
       ],
       "returns": "void",

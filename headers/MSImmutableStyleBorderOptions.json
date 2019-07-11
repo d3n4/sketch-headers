@@ -3,6 +3,34 @@
   "extends": "_MSImmutableStyleBorderOptions",
   "interfaces": [],
   "methods": {
+    "validDashLengthFromProposedDashLength:": {
+      "name": "validDashLengthFromProposedDashLength:",
+      "bridgedName": "validDashLengthFromProposedDashLength",
+      "args": [
+        {
+          "name": "proposed",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "dashPatternHasVisibleGapsWithStrokeWidth:": {
+      "name": "dashPatternHasVisibleGapsWithStrokeWidth:",
+      "bridgedName": "dashPatternHasVisibleGapsWithStrokeWidth",
+      "args": [
+        {
+          "name": "strokeWidth",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addSVGAttributes:exporter:": {
       "name": "addSVGAttributes:exporter:",
       "bridgedName": "addSVGAttributes_exporter",

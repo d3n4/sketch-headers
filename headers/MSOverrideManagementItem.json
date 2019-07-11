@@ -10,25 +10,6 @@
       "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "initWithAvailableOverride:onMaster:": {
-      "name": "initWithAvailableOverride:onMaster:",
-      "bridgedName": "initWithAvailableOverride_onMaster",
-      "args": [
-        {
-          "name": "availableOverride",
-          "type": "MSAvailableOverride *",
-          "nullable": false
-        },
-        {
-          "name": "master",
-          "type": "MSSymbolMaster *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -36,15 +17,6 @@
       "name": "indentationLevel",
       "pointer": false,
       "type": "NSUInteger",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "title": {
-      "name": "title",
-      "pointer": false,
-      "type": "NSString ",
       "attributes": [
         "nonatomic",
         "readonly"

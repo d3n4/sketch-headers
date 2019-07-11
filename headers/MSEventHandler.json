@@ -832,6 +832,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "prepareToDraw:": {
+      "name": "prepareToDraw:",
+      "bridgedName": "prepareToDraw",
+      "args": [
+        {
+          "name": "treeDiff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "selectedLayers": {
       "name": "selectedLayers",
       "bridgedName": "selectedLayers",

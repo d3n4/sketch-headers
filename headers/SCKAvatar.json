@@ -29,15 +29,6 @@
         "readonly"
       ]
     },
-    "type": {
-      "name": "type",
-      "pointer": false,
-      "type": "SCKAvatarType",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "url": {
       "name": "url",
       "pointer": false,

@@ -41,6 +41,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "closeAllPopovers": {
+      "name": "closeAllPopovers",
+      "bridgedName": "closeAllPopovers",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "popoverWindowFrame": {
       "name": "popoverWindowFrame",
       "bridgedName": "popoverWindowFrame",

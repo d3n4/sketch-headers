@@ -39,9 +39,31 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "assetCollectionWithURL:": {
+      "name": "assetCollectionWithURL:",
+      "bridgedName": "assetCollectionWithURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "save": {
       "name": "save",
       "bridgedName": "save",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "saveIfNeeded": {
+      "name": "saveIfNeeded",
+      "bridgedName": "saveIfNeeded",
       "args": [],
       "returns": "void",
       "kind": "instance",

@@ -4,18 +4,13 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "previewImagesRequireRefreshWithDocumentData:forOwner:": {
-      "name": "previewImagesRequireRefreshWithDocumentData:forOwner:",
-      "bridgedName": "previewImagesRequireRefreshWithDocumentData_forOwner",
+    "previewImagesRequireRefreshWithDocumentData:": {
+      "name": "previewImagesRequireRefreshWithDocumentData:",
+      "bridgedName": "previewImagesRequireRefreshWithDocumentData",
       "args": [
         {
           "name": "documentData",
           "type": "MSImmutableDocumentData *",
-          "nullable": false
-        },
-        {
-          "name": "owner",
-          "type": "id<MSInterfaceImageOwner>",
           "nullable": false
         }
       ],
@@ -23,18 +18,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshPreviewImagesWithDocumentData:forOwner:": {
-      "name": "refreshPreviewImagesWithDocumentData:forOwner:",
-      "bridgedName": "refreshPreviewImagesWithDocumentData_forOwner",
+    "refreshPreviewImagesWithDocumentData:": {
+      "name": "refreshPreviewImagesWithDocumentData:",
+      "bridgedName": "refreshPreviewImagesWithDocumentData",
       "args": [
         {
           "name": "documentData",
           "type": "MSImmutableDocumentData *",
-          "nullable": false
-        },
-        {
-          "name": "owner",
-          "type": "id<MSInterfaceImageOwner>",
           "nullable": false
         }
       ],

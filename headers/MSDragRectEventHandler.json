@@ -3,6 +3,20 @@
   "extends": "MSEventHandler",
   "interfaces": [],
   "methods": {
+    "handleDrag:NS_REQUIRES_SUPER": {
+      "name": "handleDrag:NS_REQUIRES_SUPER",
+      "bridgedName": "handleDrag_NS_REQUIRES_SUPER",
+      "args": [
+        {
+          "name": "recognizer",
+          "type": "MSDragGestureRecognizer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "performActionWithRect:fromLayer:constrainProportions:": {
       "name": "performActionWithRect:fromLayer:constrainProportions:",
       "bridgedName": "performActionWithRect_fromLayer_constrainProportions",
@@ -23,21 +37,7 @@
           "nullable": false
         }
       ],
-      "returns": "nullable __kindof MSLayer *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "drawingRectForInsertionRect:": {
-      "name": "drawingRectForInsertionRect:",
-      "bridgedName": "drawingRectForInsertionRect",
-      "args": [
-        {
-          "name": "insertionRect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "NSRect",
+      "returns": "nullable id",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -51,6 +51,16 @@
     }
   },
   "properties": {
+    "group": {
+      "name": "group",
+      "pointer": false,
+      "type": "MSLayerGroup ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nonnull"
+      ]
+    },
     "insertionRect": {
       "name": "insertionRect",
       "pointer": false,

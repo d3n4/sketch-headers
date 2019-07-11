@@ -4,25 +4,6 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "documentData:didChangeToPage:": {
-      "name": "documentData:didChangeToPage:",
-      "bridgedName": "documentData_didChangeToPage",
-      "args": [
-        {
-          "name": "data",
-          "type": "MSDocumentData *",
-          "nullable": false
-        },
-        {
-          "name": "newPage",
-          "type": "MSPage *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "documentData:temporarilyHideSelectionForLayers:": {
       "name": "documentData:temporarilyHideSelectionForLayers:",
       "bridgedName": "documentData_temporarilyHideSelectionForLayers",
@@ -35,20 +16,6 @@
         {
           "name": "layers",
           "type": "NSArray <MSLayer *>*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "documentDataImmediatelyShowSelectionForAllLayers:": {
-      "name": "documentDataImmediatelyShowSelectionForAllLayers:",
-      "bridgedName": "documentDataImmediatelyShowSelectionForAllLayers",
-      "args": [
-        {
-          "name": "data",
-          "type": "MSDocumentData *",
           "nullable": false
         }
       ],
@@ -134,14 +101,6 @@
     "refreshOverlay": {
       "name": "refreshOverlay",
       "bridgedName": "refreshOverlay",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "determineCurrentArtboard": {
-      "name": "determineCurrentArtboard",
-      "bridgedName": "determineCurrentArtboard",
       "args": [],
       "returns": "void",
       "kind": "instance",

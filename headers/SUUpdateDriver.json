@@ -1,9 +1,7 @@
 {
   "name": "SUUpdateDriver",
   "extends": "NSObject",
-  "interfaces": [
-    "NSURLDownloadDelegate"
-  ],
+  "interfaces": [],
   "methods": {
     "initWithUpdater:": {
       "name": "initWithUpdater:",

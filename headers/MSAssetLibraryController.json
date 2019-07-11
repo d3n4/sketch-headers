@@ -5,6 +5,20 @@
     "MSAssetLibraryDelegate"
   ],
   "methods": {
+    "existingLibraryForDocumentAtURL:": {
+      "name": "existingLibraryForDocumentAtURL:",
+      "bridgedName": "existingLibraryForDocumentAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSAssetLibrary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addAssetLibraryAtURL:": {
       "name": "addAssetLibraryAtURL:",
       "bridgedName": "addAssetLibraryAtURL",

@@ -4,21 +4,20 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "snappingSession": {
-      "name": "snappingSession",
+    "handle": {
+      "name": "handle",
       "pointer": false,
-      "type": "MSSnappingSession ",
+      "type": "BCCorner",
       "attributes": [
         "nonatomic"
       ]
     },
-    "eventData": {
-      "name": "eventData",
+    "normalEventHandler": {
+      "name": "normalEventHandler",
       "pointer": false,
-      "type": "MSNormalEventData ",
+      "type": "MSNormalEventHandler ",
       "attributes": [
-        "nonatomic",
-        "strong"
+        "nonatomic"
       ]
     }
   },

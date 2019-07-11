@@ -5,28 +5,6 @@
     "MSContentDrawViewDelegate"
   ],
   "methods": {
-    "currentArtboardDidChange": {
-      "name": "currentArtboardDidChange",
-      "bridgedName": "currentArtboardDidChange",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "changeToPage:": {
-      "name": "changeToPage:",
-      "bridgedName": "changeToPage",
-      "args": [
-        {
-          "name": "page",
-          "type": "MSPage *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "prepareForDealloc": {
       "name": "prepareForDealloc",
       "bridgedName": "prepareForDealloc",

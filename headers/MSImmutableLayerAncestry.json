@@ -153,6 +153,15 @@
         "strong",
         "readonly"
       ]
+    },
+    "hash": {
+      "name": "hash",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

@@ -129,9 +129,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "generateDataForLayers:dataSupplierManager:dataApplier:": {
-      "name": "generateDataForLayers:dataSupplierManager:dataApplier:",
-      "bridgedName": "generateDataForLayers_dataSupplierManager_dataApplier",
+    "generateDataForLayers:dataSupplierManager:dataApplier:completionHandler:": {
+      "name": "generateDataForLayers:dataSupplierManager:dataApplier:completionHandler:",
+      "bridgedName": "generateDataForLayers_dataSupplierManager_dataApplier_completionHandler",
       "args": [
         {
           "name": "layers",
@@ -147,15 +147,20 @@
           "name": "applierBlock",
           "type": "MSDataApplierBlock",
           "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "BCVoidBlock",
+          "nullable": true
         }
       ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "generateDataForOverrides:dataSupplierManager:dataApplier:": {
-      "name": "generateDataForOverrides:dataSupplierManager:dataApplier:",
-      "bridgedName": "generateDataForOverrides_dataSupplierManager_dataApplier",
+    "generateDataForOverrides:dataSupplierManager:dataApplier:completionHandler:": {
+      "name": "generateDataForOverrides:dataSupplierManager:dataApplier:completionHandler:",
+      "bridgedName": "generateDataForOverrides_dataSupplierManager_dataApplier_completionHandler",
       "args": [
         {
           "name": "overrides",
@@ -171,6 +176,11 @@
           "name": "applierBlock",
           "type": "MSDataApplierBlock",
           "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "BCVoidBlock",
+          "nullable": true
         }
       ],
       "returns": "void",

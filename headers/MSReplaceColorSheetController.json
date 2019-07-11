@@ -3,27 +3,12 @@
   "extends": "CHSheetController",
   "interfaces": [
     "NSWindowDelegate",
-    "NSMenuDelegate",
-    "MSColorInspectorDelegate"
+    "NSMenuDelegate"
   ],
   "methods": {
     "pickOriginalColor:": {
       "name": "pickOriginalColor:",
       "bridgedName": "pickOriginalColor",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "pickReplacementColor:": {
-      "name": "pickReplacementColor:",
-      "bridgedName": "pickReplacementColor",
       "args": [
         {
           "name": "sender",
@@ -81,7 +66,7 @@
     "replacementColorButton": {
       "name": "replacementColorButton",
       "pointer": false,
-      "type": "IBOutlet MSStylePartPreviewButton ",
+      "type": "IBOutlet MSColorWell ",
       "attributes": [
         "nonatomic",
         "weak"
@@ -91,15 +76,6 @@
       "name": "keepAlphaOfOriginalColorButton",
       "pointer": false,
       "type": "IBOutlet NSButton ",
-      "attributes": [
-        "nonatomic",
-        "weak"
-      ]
-    },
-    "replacementColorPopoverDismissingView": {
-      "name": "replacementColorPopoverDismissingView",
-      "pointer": false,
-      "type": "IBOutlet MSPopoverDismisserView ",
       "attributes": [
         "nonatomic",
         "weak"

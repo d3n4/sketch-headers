@@ -3,16 +3,6 @@
   "extends": "MSOverrideManagementViewController",
   "interfaces": [],
   "methods": {},
-  "properties": {
-    "propertyTitle": {
-      "name": "propertyTitle",
-      "pointer": false,
-      "type": "MSOverrideManagementPropertyTitle ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

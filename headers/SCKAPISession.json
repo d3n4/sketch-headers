@@ -33,20 +33,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "updateCurrentWithError:": {
-      "name": "updateCurrentWithError:",
-      "bridgedName": "updateCurrentWithError",
-      "args": [
-        {
-          "name": "error",
-          "type": "NSError * _Nullable * _Nullable",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "removeCurrentWithError:)": {
       "name": "removeCurrentWithError:)",
       "bridgedName": "removeCurrentWithError_)",
@@ -89,49 +75,16 @@
       "args": [
         {
           "name": "data",
-          "type": "nonnull NSData *",
+          "type": "NSData *",
           "nullable": false
         },
         {
           "name": "userID",
-          "type": "nonnull NSString *",
+          "type": "NSString *",
           "nullable": false
         }
       ],
       "returns": "nullable instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "initWithAuthenticatedUserDictionary:": {
-      "name": "initWithAuthenticatedUserDictionary:",
-      "bridgedName": "initWithAuthenticatedUserDictionary",
-      "args": [
-        {
-          "name": "dictionary",
-          "type": "NSDictionary *",
-          "nullable": true
-        }
-      ],
-      "returns": "nullable instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "initWithAuthToken:forUserID:": {
-      "name": "initWithAuthToken:forUserID:",
-      "bridgedName": "initWithAuthToken_forUserID",
-      "args": [
-        {
-          "name": "token",
-          "type": "nonnull NSString *",
-          "nullable": false
-        },
-        {
-          "name": "userID",
-          "type": "nonnull NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -141,21 +94,21 @@
       "args": [
         {
           "name": "refreshToken",
-          "type": "nonnull NSString *",
+          "type": "NSString *",
           "nullable": false
         }
       ],
-      "returns": "nonnull instancetype",
+      "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "initWithToken:ofType:forUserID:": {
-      "name": "initWithToken:ofType:forUserID:",
-      "bridgedName": "initWithToken_ofType_forUserID",
+    "initWithToken:ofType:refreshToken:forUserID:": {
+      "name": "initWithToken:ofType:refreshToken:forUserID:",
+      "bridgedName": "initWithToken_ofType_refreshToken_forUserID",
       "args": [
         {
           "name": "token",
-          "type": "nonnull NSString *",
+          "type": "NSString *",
           "nullable": false
         },
         {
@@ -164,12 +117,17 @@
           "nullable": false
         },
         {
+          "name": "refreshToken",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
           "name": "userID",
-          "type": "nonnull NSString *",
+          "type": "NSString *",
           "nullable": false
         }
       ],
-      "returns": "nonnull instancetype",
+      "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -215,34 +173,6 @@
       "attributes": [
         "nonatomic",
         "copy",
-        "nullable",
-        "readonly"
-      ]
-    },
-    "validityPeriod": {
-      "name": "validityPeriod",
-      "pointer": false,
-      "type": "NSTimeInterval",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "recommendedRefreshDate": {
-      "name": "recommendedRefreshDate",
-      "pointer": false,
-      "type": "NSDate ",
-      "attributes": [
-        "nonatomic",
-        "nullable"
-      ]
-    },
-    "shouldRefresh": {
-      "name": "shouldRefresh",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
         "readonly"
       ]
     },
@@ -263,7 +193,6 @@
       "attributes": [
         "nonatomic",
         "copy",
-        "nonnull",
         "readonly"
       ]
     },

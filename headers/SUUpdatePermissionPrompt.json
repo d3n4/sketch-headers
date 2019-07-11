@@ -47,7 +47,7 @@
       "args": [
         {
           "name": "sender",
-          "type": "id",
+          "type": "NSButton *",
           "nullable": false
         }
       ],

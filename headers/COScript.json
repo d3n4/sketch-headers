@@ -142,6 +142,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "pushJSValue:withName:": {
+      "name": "pushJSValue:withName:",
+      "bridgedName": "pushJSValue_withName",
+      "args": [
+        {
+          "name": "obj",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "deleteObjectWithName:": {
       "name": "deleteObjectWithName:",
       "bridgedName": "deleteObjectWithName",
@@ -180,7 +199,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "JSValueRef",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -422,15 +441,6 @@
       "name": "coreModuleMap",
       "pointer": false,
       "type": "NSDictionary*",
-      "attributes": [
-        "strong",
-        "nonatomic"
-      ]
-    },
-    "moduleCache": {
-      "name": "moduleCache",
-      "pointer": false,
-      "type": "NSMutableDictionary*",
       "attributes": [
         "strong",
         "nonatomic"

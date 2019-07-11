@@ -120,6 +120,24 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "selectionHasChanged": {
+      "name": "selectionHasChanged",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentPageHasChanged": {
+      "name": "currentPageHasChanged",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

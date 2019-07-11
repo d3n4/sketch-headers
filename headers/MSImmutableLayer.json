@@ -468,13 +468,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "configureBackgroundOfRequest:": {
-      "name": "configureBackgroundOfRequest:",
-      "bridgedName": "configureBackgroundOfRequest",
+    "configureBackgroundOfRequest:isContainedInGroup:": {
+      "name": "configureBackgroundOfRequest:isContainedInGroup:",
+      "bridgedName": "configureBackgroundOfRequest_isContainedInGroup",
       "args": [
         {
           "name": "request",
           "type": "MSExportRequest *",
+          "nullable": false
+        },
+        {
+          "name": "isContainedInGroup",
+          "type": "BOOL",
           "nullable": false
         }
       ],

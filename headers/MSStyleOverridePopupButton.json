@@ -9,17 +9,17 @@
       "args": [
         {
           "name": "primaryOverride",
-          "type": "MSAvailableOverride *",
+          "type": "nonnull MSAvailableOverride *",
           "nullable": false
         },
         {
           "name": "menuBuilder",
-          "type": "MSForeignObjectMenuBuilder *",
+          "type": "nonnull MSForeignObjectMenuBuilder *",
           "nullable": false
         },
         {
           "name": "document",
-          "type": "MSDocumentData *",
+          "type": "nonnull MSDocumentData *",
           "nullable": false
         },
         {
@@ -38,7 +38,7 @@
       "args": [
         {
           "name": "image",
-          "type": "NSImage *",
+          "type": "nonnull NSImage *",
           "nullable": false
         }
       ],

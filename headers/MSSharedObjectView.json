@@ -16,7 +16,7 @@
     "label": {
       "name": "label",
       "pointer": false,
-      "type": "IBInspectable NSString ",
+      "type": "NSString ",
       "attributes": [
         "nonatomic",
         "nullable",

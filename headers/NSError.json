@@ -3,9 +3,9 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "errorFromAPIResponse:data:": {
-      "name": "errorFromAPIResponse:data:",
-      "bridgedName": "errorFromAPIResponse_data",
+    "cloudErrorFromAPIResponse_sck:data:)": {
+      "name": "cloudErrorFromAPIResponse_sck:data:)",
+      "bridgedName": "cloudErrorFromAPIResponse_sck_data_)",
       "args": [
         {
           "name": "response",
@@ -24,8 +24,17 @@
     }
   },
   "properties": {
-    "isCloudError": {
-      "name": "isCloudError",
+    "cloudCode_sck": {
+      "name": "cloudCode_sck",
+      "pointer": false,
+      "type": "SCKErrorCode",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isCloudServerRelated_sck": {
+      "name": "isCloudServerRelated_sck",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
@@ -33,8 +42,8 @@
         "readonly"
       ]
     },
-    "isCloudUnauthorized": {
-      "name": "isCloudUnauthorized",
+    "isURLCancelled_sck": {
+      "name": "isURLCancelled_sck",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
@@ -42,35 +51,8 @@
         "readonly"
       ]
     },
-    "isCloudForbidden": {
-      "name": "isCloudForbidden",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "isCloudServerError": {
-      "name": "isCloudServerError",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "isUrlCancelled": {
-      "name": "isUrlCancelled",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "fields": {
-      "name": "fields",
+    "cloudFields_sck": {
+      "name": "cloudFields_sck",
       "pointer": false,
       "type": "NSArray<NSDictionary *> ",
       "attributes": [

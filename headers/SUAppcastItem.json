@@ -82,12 +82,12 @@
         "readonly"
       ]
     },
-    "DSASignature": {
-      "name": "DSASignature",
+    "signatures": {
+      "name": "signatures",
       "pointer": false,
-      "type": "NSString ",
+      "type": "SUSignatures ",
       "attributes": [
-        "copy",
+        "strong",
         "readonly"
       ]
     },

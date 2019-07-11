@@ -7,6 +7,14 @@
     "BITCrashManagerDelegate"
   ],
   "methods": {
+    "clearEnvironment": {
+      "name": "clearEnvironment",
+      "bridgedName": "clearEnvironment",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "setEnvironmentValue:forKey:": {
       "name": "setEnvironmentValue:forKey:",
       "bridgedName": "setEnvironmentValue_forKey",

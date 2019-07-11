@@ -7,7 +7,7 @@
       "name": "preferredAcceleratorClassName",
       "bridgedName": "preferredAcceleratorClassName",
       "args": [],
-      "returns": "NSString *",
+      "returns": "NSString * _Nonnull ",
       "kind": "class",
       "kindIndicator": "+"
     },

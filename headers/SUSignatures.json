@@ -1,0 +1,49 @@
+{
+  "name": "SUSignatures",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDsa:ed:": {
+      "name": "initWithDsa:ed:",
+      "bridgedName": "initWithDsa_ed",
+      "args": [
+        {
+          "name": "dsa",
+          "type": "NSString * _Nullable",
+          "nullable": false
+        },
+        {
+          "name": "ed",
+          "type": "NSString * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dsaSignature": {
+      "name": "dsaSignature",
+      "pointer": false,
+      "type": "NSData ",
+      "attributes": [
+        "strong",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "ed25519Signature": {
+      "name": "ed25519Signature",
+      "pointer": false,
+      "type": "const unsigned char ",
+      "attributes": [
+        "readonly",
+        "nullable",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

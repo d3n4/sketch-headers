@@ -138,6 +138,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "detachedMasterInDocument:withCache:": {
+      "name": "detachedMasterInDocument:withCache:",
+      "bridgedName": "detachedMasterInDocument_withCache",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": true
+        }
+      ],
+      "returns": "MSImmutableLayerGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "overridePointsInDocument:": {
       "name": "overridePointsInDocument:",
       "bridgedName": "overridePointsInDocument",

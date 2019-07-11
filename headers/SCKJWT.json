@@ -97,6 +97,26 @@
         "readonly"
       ]
     },
+    "recommendedRefreshTime": {
+      "name": "recommendedRefreshTime",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "criticalRefreshTime": {
+      "name": "criticalRefreshTime",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
     "sessionID": {
       "name": "sessionID",
       "pointer": false,

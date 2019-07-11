@@ -275,34 +275,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "addCopyOfMasterToDocumentIfNecessary:": {
-      "name": "addCopyOfMasterToDocumentIfNecessary:",
-      "bridgedName": "addCopyOfMasterToDocumentIfNecessary",
-      "args": [
-        {
-          "name": "master",
-          "type": "MSSymbolMaster *",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable MSSymbolMaster *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "addCopyOfInstanceMasterToDocumentIfNecessary:": {
-      "name": "addCopyOfInstanceMasterToDocumentIfNecessary:",
-      "bridgedName": "addCopyOfInstanceMasterToDocumentIfNecessary",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSSymbolInstance *",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable MSSymbolMaster *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "addSymbolMaster:": {
       "name": "addSymbolMaster:",
       "bridgedName": "addSymbolMaster",
@@ -365,19 +337,11 @@
       "bridgedName": "temporarilyHideSelectionForLayers",
       "args": [
         {
-          "name": "layer",
+          "name": "layers",
           "type": "NSArray <MSLayer *>*",
           "nullable": false
         }
       ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "immediatelyShowSelectionForAllLayers": {
-      "name": "immediatelyShowSelectionForAllLayers",
-      "bridgedName": "immediatelyShowSelectionForAllLayers",
-      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -393,14 +357,6 @@
     "refreshOverlay": {
       "name": "refreshOverlay",
       "bridgedName": "refreshOverlay",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "determineCurrentArtboard": {
-      "name": "determineCurrentArtboard",
-      "bridgedName": "determineCurrentArtboard",
       "args": [],
       "returns": "void",
       "kind": "instance",

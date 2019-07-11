@@ -36,25 +36,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "isOutOfDateWithLibrary:includePrivate:": {
-      "name": "isOutOfDateWithLibrary:includePrivate:",
-      "bridgedName": "isOutOfDateWithLibrary_includePrivate",
-      "args": [
-        {
-          "name": "library",
-          "type": "id<MSLibraryObject>",
-          "nullable": false
-        },
-        {
-          "name": "includePrivate",
-          "type": "BOOL",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "syncWithRemote:": {
       "name": "syncWithRemote:",
       "bridgedName": "syncWithRemote",

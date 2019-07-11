@@ -186,6 +186,14 @@
         "copy"
       ]
     },
+    "publicKeys": {
+      "name": "publicKeys",
+      "pointer": false,
+      "type": "SUPublicKeys ",
+      "attributes": [
+        "readonly"
+      ]
+    },
     "runningOnReadOnlyVolume": {
       "name": "runningOnReadOnlyVolume",
       "pointer": false,
@@ -193,15 +201,6 @@
       "attributes": [
         "getter=isRunningOnReadOnlyVolume",
         "readonly"
-      ]
-    },
-    "publicDSAKey": {
-      "name": "publicDSAKey",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "readonly",
-        "copy"
       ]
     },
     "publicDSAKeyFileKey": {

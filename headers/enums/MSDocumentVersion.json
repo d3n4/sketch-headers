@@ -403,6 +403,14 @@
       "value": "116"
     },
     {
+      "name": "MSDocumentLocalizedColorPresets",
+      "value": "117"
+    },
+    {
+      "name": "MSDocumentPresetsAsZippedJSON",
+      "value": "118"
+    },
+    {
       "name": "MSDocumentNextVersion"
     },
     {

@@ -87,10 +87,20 @@
         "readonly"
       ]
     },
-    "remainingDays": {
-      "name": "remainingDays",
+    "provider": {
+      "name": "provider",
       "pointer": false,
-      "type": "NSInteger",
+      "type": "BCLicenseProvider",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    },
+    "remainingTimeInterval": {
+      "name": "remainingTimeInterval",
+      "pointer": false,
+      "type": "NSTimeInterval",
       "attributes": [
         "nonatomic",
         "readonly"

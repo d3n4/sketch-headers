@@ -1,9 +1,7 @@
 {
   "name": "SUAppcast",
   "extends": "NSObject",
-  "interfaces": [
-    "NSURLDownloadDelegate"
-  ],
+  "interfaces": [],
   "methods": {
     "fetchAppcastFromURL:inBackground:completionBlock:": {
       "name": "fetchAppcastFromURL:inBackground:completionBlock:",
@@ -69,8 +67,8 @@
     },
     "httpHeaders": {
       "name": "httpHeaders",
-      "pointer": false,
-      "type": "NSDictionary ",
+      "pointer": true,
+      "type": "NSDictionary<NSString *, NSString *>",
       "attributes": [
         "copy",
         "nullable"

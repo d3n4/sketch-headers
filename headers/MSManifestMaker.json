@@ -100,16 +100,6 @@
         "readonly"
       ]
     },
-    "cacheManager": {
-      "name": "cacheManager",
-      "pointer": false,
-      "type": "MSCacheManager ",
-      "attributes": [
-        "nonatomic",
-        "strong",
-        "nonnull"
-      ]
-    },
     "name": {
       "name": "name",
       "pointer": false,

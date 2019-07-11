@@ -3,11 +3,11 @@
   "extends": "MSBitmapEditor",
   "interfaces": [],
   "methods": {
-    "sizeForLabel": {
-      "name": "sizeForLabel",
-      "bridgedName": "sizeForLabel",
+    "rectForLabel": {
+      "name": "rectForLabel",
+      "bridgedName": "rectForLabel",
       "args": [],
-      "returns": "NSSize",
+      "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
     }

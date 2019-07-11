@@ -31,13 +31,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataSourcesWithContentForAssetType:": {
-      "name": "dataSourcesWithContentForAssetType:",
-      "bridgedName": "dataSourcesWithContentForAssetType",
+    "dataSourcesWithContentForAssetType:exludingDocumentsAtURLs:": {
+      "name": "dataSourcesWithContentForAssetType:exludingDocumentsAtURLs:",
+      "bridgedName": "dataSourcesWithContentForAssetType_exludingDocumentsAtURLs",
       "args": [
         {
           "name": "asset",
           "type": "MSAsset",
+          "nullable": false
+        },
+        {
+          "name": "documentsToExclude",
+          "type": "NSArray<NSURL*>* ",
           "nullable": false
         }
       ],

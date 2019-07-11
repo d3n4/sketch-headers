@@ -2,16 +2,7 @@
   "name": "MSNormalEventData",
   "extends": "NSObject",
   "interfaces": [],
-  "methods": {
-    "reset": {
-      "name": "reset",
-      "bridgedName": "reset",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {
     "hasMultipleTouches": {
       "name": "hasMultipleTouches",
@@ -56,32 +47,6 @@
       "attributes": [
         "assign",
         "nonatomic"
-      ]
-    },
-    "dragMode": {
-      "name": "dragMode",
-      "pointer": false,
-      "type": "MSEventHandlerDragMode",
-      "attributes": [
-        "assign",
-        "nonatomic"
-      ]
-    },
-    "resizingHandle": {
-      "name": "resizingHandle",
-      "pointer": false,
-      "type": "BCCorner",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
-    "snapperData": {
-      "name": "snapperData",
-      "pointer": false,
-      "type": "MSSnapperData ",
-      "attributes": [
-        "nonatomic",
-        "strong"
       ]
     }
   },

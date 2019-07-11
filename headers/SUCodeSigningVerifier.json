@@ -59,6 +59,20 @@
       "returns": "BOOL",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "codeSignatureInfoAtBundleURL:": {
+      "name": "codeSignatureInfoAtBundleURL:",
+      "bridgedName": "codeSignatureInfoAtBundleURL",
+      "args": [
+        {
+          "name": "bundlePath",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {},

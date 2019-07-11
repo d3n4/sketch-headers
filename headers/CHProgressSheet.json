@@ -89,6 +89,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "setCancelButtonTitle:": {
+      "name": "setCancelButtonTitle:",
+      "bridgedName": "setCancelButtonTitle",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "setShowsCancelButton:": {
       "name": "setShowsCancelButton:",
       "bridgedName": "setShowsCancelButton",

@@ -63,26 +63,6 @@
         "class"
       ]
     },
-    "cloudOAuthEnabled": {
-      "name": "cloudOAuthEnabled",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "assign",
-        "class"
-      ]
-    },
-    "cloudOrganizationsEnabled": {
-      "name": "cloudOrganizationsEnabled",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "assign",
-        "class"
-      ]
-    },
     "inferredLayoutEnabled": {
       "name": "inferredLayoutEnabled",
       "pointer": false,

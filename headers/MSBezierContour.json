@@ -150,6 +150,28 @@
       "returns": "NSSet <MSBezierIntersection *> *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "contourWithFBBezierContour:": {
+      "name": "contourWithFBBezierContour:",
+      "bridgedName": "contourWithFBBezierContour",
+      "args": [
+        {
+          "name": "contour",
+          "type": "FBBezierContour *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "FBBezierContour": {
+      "name": "FBBezierContour",
+      "bridgedName": "FBBezierContour",
+      "args": [],
+      "returns": "FBBezierContour *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

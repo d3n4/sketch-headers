@@ -1,0 +1,50 @@
+{
+  "enum": true,
+  "name": "BCCornerMask",
+  "members": [
+    {
+      "name": "BCCornerTopLeftMask",
+      "value": "1 << BCCornerTopLeft"
+    },
+    {
+      "name": "BCCornerTopRightMask",
+      "value": "1 << BCCornerTopRight"
+    },
+    {
+      "name": "BCCornerBottomLeftMask",
+      "value": "1 << BCCornerBottomLeft"
+    },
+    {
+      "name": "BCCornerBottomRightMask",
+      "value": "1 << BCCornerBottomRight"
+    },
+    {
+      "name": "BCCornerMidTopMask",
+      "value": "1 << BCCornerMidTop"
+    },
+    {
+      "name": "BCCornerMidLeftMask",
+      "value": "1 << BCCornerMidLeft"
+    },
+    {
+      "name": "BCCornerMidRightMask",
+      "value": "1 << BCCornerMidRight"
+    },
+    {
+      "name": "BCCornerMidBottomMask",
+      "value": "1 << BCCornerMidBottom"
+    },
+    {
+      "name": "BCCornerMaskAll",
+      "value": "(BCCornerTopLeftMask | BCCornerTopRightMask | BCCornerBottomLeftMask | BCCornerBottomRightMask | BCCornerMidTopMask | BCCornerMidLeftMask | BCCornerMidRightMask | BCCornerMidBottomMask)"
+    },
+    {
+      "name": "BCCornerMaskCorners",
+      "value": "(BCCornerTopLeftMask | BCCornerTopRightMask | BCCornerBottomLeftMask | BCCornerBottomRightMask)"
+    },
+    {
+      "name": "BCCornerMaskMids",
+      "value": "(BCCornerMidTopMask | BCCornerMidLeftMask | BCCornerMidRightMask | BCCornerMidBottomMask)"
+    }
+  ]
+}

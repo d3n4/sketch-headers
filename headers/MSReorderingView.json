@@ -6,6 +6,15 @@
   ],
   "methods": {},
   "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id<MSReorderingViewDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
     "deleteAction": {
       "name": "deleteAction",
       "pointer": false,

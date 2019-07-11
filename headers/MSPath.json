@@ -5,6 +5,30 @@
     "NSCopying"
   ],
   "methods": {
+    "outlinePathWithBorderPosition:lineWidth:borderOptions:": {
+      "name": "outlinePathWithBorderPosition:lineWidth:borderOptions:",
+      "bridgedName": "outlinePathWithBorderPosition_lineWidth_borderOptions",
+      "args": [
+        {
+          "name": "borderPosition",
+          "type": "MSBorderPositionType",
+          "nullable": false
+        },
+        {
+          "name": "lineWidth",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "booleanOp:withPath:": {
       "name": "booleanOp:withPath:",
       "bridgedName": "booleanOp_withPath",
@@ -80,22 +104,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "outlinedPathWithBorder:options:": {
-      "name": "outlinedPathWithBorder:options:",
-      "bridgedName": "outlinedPathWithBorder_options",
+    "pathWithFBBezierGraph:": {
+      "name": "pathWithFBBezierGraph:",
+      "bridgedName": "pathWithFBBezierGraph",
       "args": [
         {
-          "name": "border",
-          "type": "MSImmutableStyleBorder *",
-          "nullable": false
-        },
-        {
-          "name": "style",
-          "type": "MSImmutableStyle *",
+          "name": "graph",
+          "type": "FBBezierGraph *",
           "nullable": false
         }
       ],
-      "returns": "MSPath *",
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "FBBezierGraph": {
+      "name": "FBBezierGraph",
+      "bridgedName": "FBBezierGraph",
+      "args": [],
+      "returns": "FBBezierGraph *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -884,20 +911,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "pathWithDashPattern:": {
-      "name": "pathWithDashPattern:",
-      "bridgedName": "pathWithDashPattern",
-      "args": [
-        {
-          "name": "dashPattern",
-          "type": "NSArray *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "outerPathWithRect:": {
       "name": "outerPathWithRect:",
       "bridgedName": "outerPathWithRect",
@@ -940,25 +953,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "insetPathBy:borderOptions:": {
-      "name": "insetPathBy:borderOptions:",
-      "bridgedName": "insetPathBy_borderOptions",
-      "args": [
-        {
-          "name": "size",
-          "type": "CGFloat",
-          "nullable": false
-        },
-        {
-          "name": "options",
-          "type": "MSImmutableStyleBorderOptions *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "pathByGrowingBy:": {
       "name": "pathByGrowingBy:",
       "bridgedName": "pathByGrowingBy",
@@ -973,18 +967,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "outlinePathWithLineWidth:borderOptions:": {
-      "name": "outlinePathWithLineWidth:borderOptions:",
-      "bridgedName": "outlinePathWithLineWidth_borderOptions",
+    "pathWithDashPattern:": {
+      "name": "pathWithDashPattern:",
+      "bridgedName": "pathWithDashPattern",
       "args": [
         {
-          "name": "lineWidth",
-          "type": "CGFloat",
-          "nullable": false
-        },
-        {
-          "name": "borderOptions",
-          "type": "MSImmutableStyleBorderOptions *",
+          "name": "dashPattern",
+          "type": "NSArray *",
           "nullable": false
         }
       ],

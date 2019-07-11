@@ -422,16 +422,6 @@
     }
   },
   "properties": {
-    "manifestComponents": {
-      "name": "manifestComponents",
-      "pointer": false,
-      "type": "NSArray ",
-      "attributes": [
-        "nonatomic",
-        "nonnull",
-        "readonly"
-      ]
-    },
     "opaque": {
       "name": "opaque",
       "pointer": false,
@@ -440,6 +430,16 @@
         "nonatomic",
         "readonly",
         "getter=isOpaque"
+      ]
+    },
+    "manifestComponents": {
+      "name": "manifestComponents",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
       ]
     }
   },

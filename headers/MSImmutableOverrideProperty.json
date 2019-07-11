@@ -3,6 +3,16 @@
   "extends": "_MSImmutableOverrideProperty",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "displayOrder": {
+      "name": "displayOrder",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

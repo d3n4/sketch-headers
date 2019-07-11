@@ -3,20 +3,6 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "stringRepresentationForSeconds:": {
-      "name": "stringRepresentationForSeconds:",
-      "bridgedName": "stringRepresentationForSeconds",
-      "args": [
-        {
-          "name": "numberOfSeconds",
-          "type": "NSUInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "NSString *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "stringByDeletingPrefix:": {
       "name": "stringByDeletingPrefix:",
       "bridgedName": "stringByDeletingPrefix",

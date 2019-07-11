@@ -43,9 +43,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "initWithPoint:line:": {
-      "name": "initWithPoint:line:",
-      "bridgedName": "initWithPoint_line",
+    "initWithPoint:direction:": {
+      "name": "initWithPoint:direction:",
+      "bridgedName": "initWithPoint_direction",
       "args": [
         {
           "name": "sourcePoint",
@@ -53,12 +53,34 @@
           "nullable": false
         },
         {
-          "name": "line",
-          "type": "BCLine",
+          "name": "direction",
+          "type": "CGVector",
           "nullable": false
         }
       ],
       "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "constraintByApplyingTransform:": {
+      "name": "constraintByApplyingTransform:",
+      "bridgedName": "constraintByApplyingTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "MSAlignmentEngineConstraint *",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -68,6 +90,15 @@
       "name": "sourcePoint",
       "pointer": false,
       "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "direction": {
+      "name": "direction",
+      "pointer": false,
+      "type": "CGVector",
       "attributes": [
         "nonatomic",
         "readonly"

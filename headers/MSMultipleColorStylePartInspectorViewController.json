@@ -3,13 +3,18 @@
   "extends": "MSMultipleStylePartInspectorViewController",
   "interfaces": [],
   "methods": {
-    "openPopoverAtIndex:": {
-      "name": "openPopoverAtIndex:",
-      "bridgedName": "openPopoverAtIndex",
+    "openPopoverAtIndex:preferringNative:": {
+      "name": "openPopoverAtIndex:preferringNative:",
+      "bridgedName": "openPopoverAtIndex_preferringNative",
       "args": [
         {
           "name": "index",
           "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "prefersNative",
+          "type": "BOOL",
           "nullable": false
         }
       ],

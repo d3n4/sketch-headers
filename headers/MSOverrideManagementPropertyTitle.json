@@ -2,12 +2,41 @@
   "name": "MSOverrideManagementPropertyTitle",
   "extends": "MSOverrideManagementItem",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "initWithAvailableOverride:onMaster:": {
+      "name": "initWithAvailableOverride:onMaster:",
+      "bridgedName": "initWithAvailableOverride_onMaster",
+      "args": [
+        {
+          "name": "availableOverride",
+          "type": "MSAvailableOverride *",
+          "nullable": false
+        },
+        {
+          "name": "master",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "previewIcon": {
       "name": "previewIcon",
       "pointer": false,
       "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString ",
       "attributes": [
         "nonatomic",
         "readonly"

@@ -115,6 +115,14 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "colorPickerController": {
+      "name": "colorPickerController",
+      "bridgedName": "colorPickerController",
+      "args": [],
+      "returns": "MSColorPickerViewController *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

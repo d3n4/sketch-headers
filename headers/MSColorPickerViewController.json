@@ -59,6 +59,14 @@
       "returns": "NSArray <NSViewController *>*",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "disconnectFromColorPanel": {
+      "name": "disconnectFromColorPanel",
+      "bridgedName": "disconnectFromColorPanel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

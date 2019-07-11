@@ -3,6 +3,15 @@
   "extends": "NSButtonCell",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "fakeReturnButtonLook": {
+      "name": "fakeReturnButtonLook",
+      "pointer": false,
+      "type": "IBInspectable BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
   "generics": []
 }

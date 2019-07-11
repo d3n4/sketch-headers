@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "initWithDownloadPath:dsaSignature:host:performingPrevalidation:": {
-      "name": "initWithDownloadPath:dsaSignature:host:performingPrevalidation:",
-      "bridgedName": "initWithDownloadPath_dsaSignature_host_performingPrevalidation",
+    "initWithDownloadPath:signatures:host:": {
+      "name": "initWithDownloadPath:signatures:host:",
+      "bridgedName": "initWithDownloadPath_signatures_host",
       "args": [
         {
           "name": "downloadPath",
@@ -13,22 +13,25 @@
           "nullable": false
         },
         {
-          "name": "dsaSignature",
-          "type": "NSString *",
+          "name": "signatures",
+          "type": "SUSignatures *",
           "nullable": false
         },
         {
           "name": "host",
           "type": "SUHost *",
           "nullable": false
-        },
-        {
-          "name": "performingPrevalidation",
-          "type": "BOOL",
-          "nullable": false
         }
       ],
       "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateDownloadPath": {
+      "name": "validateDownloadPath",
+      "bridgedName": "validateDownloadPath",
+      "args": [],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -47,16 +50,6 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {
-    "canValidate": {
-      "name": "canValidate",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

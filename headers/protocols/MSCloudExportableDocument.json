@@ -25,16 +25,6 @@
         "readonly"
       ]
     },
-    "cacheManager": {
-      "name": "cacheManager",
-      "pointer": false,
-      "type": "MSCacheManager ",
-      "attributes": [
-        "nonatomic",
-        "nullable",
-        "readonly"
-      ]
-    },
     "cloudShare": {
       "name": "cloudShare",
       "pointer": false,

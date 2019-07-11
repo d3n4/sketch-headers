@@ -18,9 +18,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "unsafeIfArchiveIsNotValidated": {
-      "name": "unsafeIfArchiveIsNotValidated",
-      "bridgedName": "unsafeIfArchiveIsNotValidated",
+    "mustValidateBeforeExtraction": {
+      "name": "mustValidateBeforeExtraction",
+      "bridgedName": "mustValidateBeforeExtraction",
       "args": [],
       "returns": "BOOL",
       "kind": "class",

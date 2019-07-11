@@ -1,0 +1,35 @@
+{
+  "protocol": true,
+  "name": "MSReplaceOverride",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "buildMenu:": {
+      "name": "buildMenu:",
+      "bridgedName": "buildMenu",
+      "args": [
+        {
+          "name": "menu",
+          "type": "nonnull NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "menuBuilder": {
+      "name": "menuBuilder",
+      "pointer": false,
+      "type": "MSForeignObjectMenuBuilder ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable",
+        "strong"
+      ]
+    }
+  }
+}

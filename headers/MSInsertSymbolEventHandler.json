@@ -4,8 +4,8 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "symbolReference": {
-      "name": "symbolReference",
+    "masterReference": {
+      "name": "masterReference",
       "pointer": false,
       "type": "MSSymbolMasterReference ",
       "attributes": [

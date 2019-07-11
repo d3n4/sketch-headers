@@ -58,10 +58,37 @@
         "readonly"
       ]
     },
-    "measurementRenderer": {
-      "name": "measurementRenderer",
+    "dragMode": {
+      "name": "dragMode",
       "pointer": false,
-      "type": "MSLayerMeasurementRenderer ",
+      "type": "MSEventHandlerDragMode",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "selectionOverlayController": {
+      "name": "selectionOverlayController",
+      "pointer": false,
+      "type": "MSSelectionOverlayController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "measuringController": {
+      "name": "measuringController",
+      "pointer": false,
+      "type": "MSLayerMeasuringController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "snapsController": {
+      "name": "snapsController",
+      "pointer": false,
+      "type": "MSSnapOverlayController ",
       "attributes": [
         "nonatomic",
         "readonly"

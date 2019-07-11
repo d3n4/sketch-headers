@@ -10,6 +10,20 @@
       "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "isEqualToColorSettings:": {
+      "name": "isEqualToColorSettings:",
+      "bridgedName": "isEqualToColorSettings",
+      "args": [
+        {
+          "name": "settings",
+          "type": "MSOverlayColorSettings *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

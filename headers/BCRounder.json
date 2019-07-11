@@ -17,6 +17,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "roundValue:)": {
       "name": "roundValue:)",
       "bridgedName": "roundValue_)",
@@ -137,6 +145,39 @@
         }
       ],
       "returns": "CGSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "roundVector:": {
+      "name": "roundVector:",
+      "bridgedName": "roundVector",
+      "args": [
+        {
+          "name": "vector",
+          "type": "CGVector",
+          "nullable": false
+        }
+      ],
+      "returns": "CGVector",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "roundVector:mask:": {
+      "name": "roundVector:mask:",
+      "bridgedName": "roundVector_mask",
+      "args": [
+        {
+          "name": "vector",
+          "type": "CGVector",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "BCAxisMask",
+          "nullable": false
+        }
+      ],
+      "returns": "CGVector",
       "kind": "instance",
       "kindIndicator": "-"
     },

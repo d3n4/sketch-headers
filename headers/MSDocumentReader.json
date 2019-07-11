@@ -1,6 +1,6 @@
 {
   "name": "MSDocumentReader",
-  "extends": "NSObject",
+  "extends": "MSArchiveReader",
   "interfaces": [],
   "methods": {
     "readerForDocumentAtURL:": {

@@ -63,6 +63,14 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "localizedFamilyName": {
+      "name": "localizedFamilyName",
+      "bridgedName": "localizedFamilyName",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addSVGAttributes:": {
       "name": "addSVGAttributes:",
       "bridgedName": "addSVGAttributes",

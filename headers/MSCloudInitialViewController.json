@@ -3,17 +3,6 @@
   "extends": "MSCloudBaseViewController",
   "interfaces": [],
   "methods": {},
-  "properties": {
-    "organizations": {
-      "name": "organizations",
-      "pointer": false,
-      "type": "NSArray<SCKOrganization *> ",
-      "attributes": [
-        "nonatomic",
-        "nullable",
-        "strong"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

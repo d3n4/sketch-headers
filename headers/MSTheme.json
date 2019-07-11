@@ -10,7 +10,7 @@
         {
           "name": "window",
           "type": "NSWindow *",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "isActive",
@@ -18,7 +18,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSColor *",
+      "returns": "nonnull NSColor *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -29,7 +29,7 @@
         {
           "name": "window",
           "type": "NSWindow *",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "isActive",
@@ -37,7 +37,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSColor *",
+      "returns": "nonnull NSColor *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -71,7 +71,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSColor *",
+      "returns": "nonnull NSColor *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -82,6 +82,14 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "setupAppearance": {
+      "name": "setupAppearance",
+      "bridgedName": "setupAppearance",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
     },
     "colorNamed:": {
       "name": "colorNamed:",
@@ -149,9 +157,42 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "cacheImage:forKey:owner:": {
-      "name": "cacheImage:forKey:owner:",
-      "bridgedName": "cacheImage_forKey_owner",
+    "localizedImageNamed:": {
+      "name": "localizedImageNamed:",
+      "bridgedName": "localizedImageNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "localizedImageNamed:options:": {
+      "name": "localizedImageNamed:options:",
+      "bridgedName": "localizedImageNamed_options",
+      "args": [
+        {
+          "name": "baseImageName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSThemeResolvingOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cacheImage:forKey:imageOwner:": {
+      "name": "cacheImage:forKey:imageOwner:",
+      "bridgedName": "cacheImage_forKey_imageOwner",
       "args": [
         {
           "name": "image",
@@ -165,7 +206,7 @@
         },
         {
           "name": "owner",
-          "type": "id<MSInterfaceImageOwner>",
+          "type": "nonnull id",
           "nullable": false
         }
       ],
@@ -173,9 +214,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "cachedImageForKey:owner:": {
-      "name": "cachedImageForKey:owner:",
-      "bridgedName": "cachedImageForKey_owner",
+    "cachedImageForKey:imageOwner:": {
+      "name": "cachedImageForKey:imageOwner:",
+      "bridgedName": "cachedImageForKey_imageOwner",
       "args": [
         {
           "name": "key",
@@ -184,7 +225,7 @@
         },
         {
           "name": "owner",
-          "type": "id<MSInterfaceImageOwner>",
+          "type": "nonnull id",
           "nullable": false
         }
       ],
@@ -192,9 +233,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "cachedImageForKey:owner:createBlock:": {
-      "name": "cachedImageForKey:owner:createBlock:",
-      "bridgedName": "cachedImageForKey_owner_createBlock",
+    "cachedImageForKey:imageOwner:createBlock:": {
+      "name": "cachedImageForKey:imageOwner:createBlock:",
+      "bridgedName": "cachedImageForKey_imageOwner_createBlock",
       "args": [
         {
           "name": "key",
@@ -203,7 +244,7 @@
         },
         {
           "name": "owner",
-          "type": "id<MSInterfaceImageOwner>",
+          "type": "nonnull id",
           "nullable": false
         },
         {
@@ -227,6 +268,20 @@
         }
       ],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorForResolvedName:": {
+      "name": "colorForResolvedName:",
+      "bridgedName": "colorForResolvedName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSColor *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -357,6 +412,15 @@
     },
     "inspectorBorderColor": {
       "name": "inspectorBorderColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorBorderDisabledColor": {
+      "name": "inspectorBorderDisabledColor",
       "pointer": false,
       "type": "NSColor ",
       "attributes": [
@@ -667,7 +731,8 @@
       "type": "MSTintedImages ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nullable"
       ]
     },
     "layerListArtboardBorderColor": {
@@ -676,7 +741,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListSelectedArtboardBorderColor": {
@@ -685,7 +751,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListBackgroundColor": {
@@ -694,7 +761,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListLightBackgroundColor": {
@@ -703,7 +771,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListFilterBarBackgroundColor": {
@@ -712,7 +781,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListFilterBarBorderColor": {
@@ -721,7 +791,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListFilterTokenBackgroundColor": {
@@ -730,7 +801,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListFilterTokenSelectedBackgroundColor": {
@@ -739,7 +811,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListFilterTokenTitleColor": {
@@ -748,7 +821,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListFilterTokenSelectedTitleColor": {
@@ -757,7 +831,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListIconTintColor": {
@@ -766,7 +841,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListIconPressedTintColor": {
@@ -775,7 +851,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListIconPressedTintColorSelected": {
@@ -784,7 +861,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListIconSelectedActiveTintColor": {
@@ -793,7 +871,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListIconSelectedInactiveTintColor": {
@@ -802,7 +881,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListIconSharedTintColor": {
@@ -811,7 +891,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListSplitViewDividerColor": {
@@ -820,7 +901,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListSymbolOverrideIconTintColor": {
@@ -829,7 +911,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "layerListTabButtonColor": {
@@ -838,7 +921,8 @@
       "type": "NSColor ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "canvasArtboardTitleColor": {
@@ -852,6 +936,24 @@
     },
     "canvasBackgroundColor": {
       "name": "canvasBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasDarkModeBackgroundColor": {
+      "name": "canvasDarkModeBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasLightModeBackgroundColor": {
+      "name": "canvasLightModeBackgroundColor",
       "pointer": false,
       "type": "NSColor ",
       "attributes": [
@@ -897,6 +999,24 @@
     },
     "canvasPageBackgroundColor": {
       "name": "canvasPageBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasDarkModePageBackgroundColor": {
+      "name": "canvasDarkModePageBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canvasLightModePageBackgroundColor": {
+      "name": "canvasLightModePageBackgroundColor",
       "pointer": false,
       "type": "NSColor ",
       "attributes": [

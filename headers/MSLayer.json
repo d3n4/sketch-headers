@@ -626,6 +626,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "compareFrameFrom:withComparisonforPurpose:": {
+      "name": "compareFrameFrom:withComparisonforPurpose:",
+      "bridgedName": "compareFrameFrom_withComparisonforPurpose",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "purpose",
+          "type": "MSModelComparisonPurpose",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "selectionCornerMaskWithZoomValue:": {
       "name": "selectionCornerMaskWithZoomValue:",
       "bridgedName": "selectionCornerMaskWithZoomValue",
@@ -636,7 +655,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSUInteger",
+      "returns": "BCCornerMask",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -832,7 +851,7 @@
       "name": "ancestorsAndSelf",
       "bridgedName": "ancestorsAndSelf",
       "args": [],
-      "returns": "nonnull NSArray *",
+      "returns": "nonnull NSArray<__kindof MSLayer *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -840,7 +859,7 @@
       "name": "ancestors",
       "bridgedName": "ancestors",
       "args": [],
-      "returns": "nonnull NSArray *",
+      "returns": "nonnull NSArray<__kindof MSLayer *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -855,30 +874,6 @@
         }
       ],
       "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "adjustmentHandleAtPoint:zoomScale:resizing:": {
-      "name": "adjustmentHandleAtPoint:zoomScale:resizing:",
-      "bridgedName": "adjustmentHandleAtPoint_zoomScale_resizing",
-      "args": [
-        {
-          "name": "point",
-          "type": "NSPoint",
-          "nullable": false
-        },
-        {
-          "name": "zoom",
-          "type": "CGFloat",
-          "nullable": false
-        },
-        {
-          "name": "resizing",
-          "type": "BOOL",
-          "nullable": false
-        }
-      ],
-      "returns": "BCCorner",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1251,6 +1246,15 @@
         "readonly"
       ]
     },
+    "isActivePartInBooleanOperation": {
+      "name": "isActivePartInBooleanOperation",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "shareableObjectType": {
       "name": "shareableObjectType",
       "pointer": false,
@@ -1454,7 +1458,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "nonnull"
+        "nullable"
       ]
     },
     "ancestry": {

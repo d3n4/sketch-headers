@@ -13,6 +13,15 @@
         "class",
         "readonly"
       ]
+    },
+    "managementItem": {
+      "name": "managementItem",
+      "pointer": false,
+      "type": "__kindof MSOverrideManagementItem ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
     }
   },
   "generics": []

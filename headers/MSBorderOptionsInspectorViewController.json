@@ -82,6 +82,15 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "hasOpenPathLayer": {
+      "name": "hasOpenPathLayer",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
   "generics": []
 }

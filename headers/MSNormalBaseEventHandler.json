@@ -19,8 +19,8 @@
         }
       ],
       "returns": "nullable NSCursor *",
-      "kind": "instance",
-      "kindIndicator": "-"
+      "kind": "class",
+      "kindIndicator": "+"
     },
     "resizeParentsOfSelectedLayersToFit": {
       "name": "resizeParentsOfSelectedLayersToFit",

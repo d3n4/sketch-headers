@@ -3,9 +3,9 @@
   "extends": "MSMultipleColorStylePartInspectorViewController",
   "interfaces": [],
   "methods": {
-    "shouldHideAddStylePartButton": {
-      "name": "shouldHideAddStylePartButton",
-      "bridgedName": "shouldHideAddStylePartButton",
+    "shouldDisableAddStylePartButton": {
+      "name": "shouldDisableAddStylePartButton",
+      "bridgedName": "shouldDisableAddStylePartButton",
       "args": [],
       "returns": "BOOL",
       "kind": "instance",

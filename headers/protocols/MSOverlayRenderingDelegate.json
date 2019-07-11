@@ -38,7 +38,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSSet <MSFlowItem *> *",
+      "returns": "NSSet <MSFlowItem *> * _Nullable",
       "kind": "instance",
       "kindIndicator": "-"
     }

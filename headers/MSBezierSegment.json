@@ -557,6 +557,28 @@
       "returns": "NSBezierPath *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "segmentWithFBBezierCurve:": {
+      "name": "segmentWithFBBezierCurve:",
+      "bridgedName": "segmentWithFBBezierCurve",
+      "args": [
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "FBBezierCurve": {
+      "name": "FBBezierCurve",
+      "bridgedName": "FBBezierCurve",
+      "args": [],
+      "returns": "FBBezierCurve *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

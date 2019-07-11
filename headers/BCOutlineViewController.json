@@ -93,6 +93,14 @@
       "returns": "BOOL",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "applyAppearance": {
+      "name": "applyAppearance",
+      "bridgedName": "applyAppearance",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -267,6 +275,14 @@
       "name": "postRefreshBlocks",
       "pointer": false,
       "type": "NSArray<BCOutlineViewControllerPostRefreshBlock> ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "rowViewVisuals": {
+      "name": "rowViewVisuals",
+      "pointer": false,
+      "type": "BCRowViewVisuals ",
       "attributes": [
         "nonatomic"
       ]

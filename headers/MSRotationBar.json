@@ -4,12 +4,21 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "userVisibleRotation": {
-      "name": "userVisibleRotation",
+    "layers": {
+      "name": "layers",
       "pointer": false,
-      "type": "CGFloat",
+      "type": "NSArray<MSLayer*>",
       "attributes": [
         "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSRotationBarDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
       ]
     }
   },

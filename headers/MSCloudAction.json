@@ -160,6 +160,16 @@
         "readonly"
       ]
     },
+    "userController": {
+      "name": "userController",
+      "pointer": false,
+      "type": "SCKUserController ",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    },
     "cloudEnabled": {
       "name": "cloudEnabled",
       "pointer": false,
