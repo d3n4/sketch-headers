@@ -1,0 +1,47 @@
+{
+  "name": "MSCloudAction",
+  "extends": "MSPopoverAction",
+  "interfaces": [],
+  "methods": {
+    "cloudEnabled": {
+      "name": "cloudEnabled",
+      "bridgedName": "cloudEnabled",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "openCloudUploadURL:parameters:": {
+      "name": "openCloudUploadURL:parameters:",
+      "bridgedName": "openCloudUploadURL_parameters",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "cloudController": {
+      "name": "cloudController",
+      "pointer": false,
+      "type": "MSCloudController ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSHUDViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

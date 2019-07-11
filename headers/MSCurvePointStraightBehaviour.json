@@ -1,0 +1,8 @@
+{
+  "name": "MSCurvePointStraightBehaviour",
+  "extends": "MSCurvePointBehaviour",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

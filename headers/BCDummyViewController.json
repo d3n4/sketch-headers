@@ -1,0 +1,8 @@
+{
+  "name": "BCDummyViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

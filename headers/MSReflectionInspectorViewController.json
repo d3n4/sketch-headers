@@ -1,0 +1,8 @@
+{
+  "name": "MSReflectionInspectorViewController",
+  "extends": "MSStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

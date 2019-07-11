@@ -1,0 +1,138 @@
+{
+  "name": "MSExporter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "exporterForRequest:colorSpace:": {
+      "name": "exporterForRequest:colorSpace:",
+      "bridgedName": "exporterForRequest_colorSpace",
+      "args": [
+        {
+          "name": "request",
+          "type": "nonnull MSExportRequest *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "data": {
+      "name": "data",
+      "bridgedName": "data",
+      "args": [],
+      "returns": "nullable NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "image": {
+      "name": "image",
+      "bridgedName": "image",
+      "args": [],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "previewImage": {
+      "name": "previewImage",
+      "bridgedName": "previewImage",
+      "args": [],
+      "returns": "nullable NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawRect:context:": {
+      "name": "drawRect:context:",
+      "bridgedName": "drawRect_context",
+      "args": [
+        {
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "contextRef",
+          "type": "nonnull CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportToFileURL:": {
+      "name": "exportToFileURL:",
+      "bridgedName": "exportToFileURL",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "nonnull NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitmapImageRep": {
+      "name": "bitmapImageRep",
+      "bridgedName": "bitmapImageRep",
+      "args": [],
+      "returns": "nullable NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "basicBitmapImageRep": {
+      "name": "basicBitmapImageRep",
+      "bridgedName": "basicBitmapImageRep",
+      "args": [],
+      "returns": "nullable NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boundsForVectorRender": {
+      "name": "boundsForVectorRender",
+      "bridgedName": "boundsForVectorRender",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "request": {
+      "name": "request",
+      "pointer": false,
+      "type": "MSExportRequest ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "isPrinting": {
+      "name": "isPrinting",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

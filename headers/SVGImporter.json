@@ -1,0 +1,224 @@
+{
+  "name": "SVGImporter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithURL:": {
+      "name": "initWithURL:",
+      "bridgedName": "initWithURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithData:": {
+      "name": "initWithData:",
+      "bridgedName": "initWithData",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithXMLString:": {
+      "name": "initWithXMLString:",
+      "bridgedName": "initWithXMLString",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "importObjectGraph": {
+      "name": "importObjectGraph",
+      "bridgedName": "importObjectGraph",
+      "args": [],
+      "returns": "SVGElement*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addedDrawableElement:": {
+      "name": "addedDrawableElement:",
+      "bridgedName": "addedDrawableElement",
+      "args": [
+        {
+          "name": "element",
+          "type": "SVGDrawableElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawableElementCount": {
+      "name": "drawableElementCount",
+      "bridgedName": "drawableElementCount",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "elementOfType:xml:parent:": {
+      "name": "elementOfType:xml:parent:",
+      "bridgedName": "elementOfType_xml_parent",
+      "args": [
+        {
+          "name": "type",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SVGElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "SVGElement*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerElementWithIdentifier:type:element:": {
+      "name": "registerElementWithIdentifier:type:element:",
+      "bridgedName": "registerElementWithIdentifier_type_element",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "element",
+          "type": "SVGElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addReferenceToIdentifier:type:target:property:": {
+      "name": "addReferenceToIdentifier:type:target:property:",
+      "bridgedName": "addReferenceToIdentifier_type_target_property",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "property",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "relativeURLForLink:": {
+      "name": "relativeURLForLink:",
+      "bridgedName": "relativeURLForLink",
+      "args": [
+        {
+          "name": "link",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerStylesheet:": {
+      "name": "registerStylesheet:",
+      "bridgedName": "registerStylesheet",
+      "args": [
+        {
+          "name": "stylesheet",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "styleAttributesForElement:defaults:": {
+      "name": "styleAttributesForElement:defaults:",
+      "bridgedName": "styleAttributesForElement_defaults",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "defaults",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "documentWidth": {
+      "name": "documentWidth",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "documentHeight": {
+      "name": "documentHeight",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

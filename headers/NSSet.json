@@ -1,0 +1,93 @@
+{
+  "name": "NSSet",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "sortedArrayUsingKey:": {
+      "name": "sortedArrayUsingKey:",
+      "bridgedName": "sortedArrayUsingKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setMinusSet:": {
+      "name": "setMinusSet:",
+      "bridgedName": "setMinusSet",
+      "args": [
+        {
+          "name": "otherSet",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "each:": {
+      "name": "each:",
+      "bridgedName": "each",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(id object)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "map:": {
+      "name": "map:",
+      "bridgedName": "map",
+      "args": [
+        {
+          "name": "block",
+          "type": "id (^)(id object)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsObjectPassingTest:": {
+      "name": "containsObjectPassingTest:",
+      "bridgedName": "containsObjectPassingTest",
+      "args": [
+        {
+          "name": "predicate",
+          "type": "BOOL (^)(id obj)",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sck_flatMap:": {
+      "name": "sck_flatMap:",
+      "bridgedName": "sck_flatMap",
+      "args": [
+        {
+          "name": "transform",
+          "type": "id(^)(id item)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

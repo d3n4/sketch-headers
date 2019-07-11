@@ -1,0 +1,25 @@
+{
+  "name": "MSReplaceFontsAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "MSWindowBadgeAction"
+  ],
+  "methods": {
+    "replaceMissingFonts:": {
+      "name": "replaceMissingFonts:",
+      "bridgedName": "replaceMissingFonts",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

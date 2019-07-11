@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "BCHSBColorPickerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "hsbColorPickerColorSpace:": {
+      "name": "hsbColorPickerColorSpace:",
+      "bridgedName": "hsbColorPickerColorSpace",
+      "args": [
+        {
+          "name": "colorPicker",
+          "type": "BCHSBColorPicker *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

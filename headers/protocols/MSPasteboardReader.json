@@ -1,0 +1,41 @@
+{
+  "protocol": true,
+  "name": "MSPasteboardReader",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "supportedPasteboardTypes": {
+      "name": "supportedPasteboardTypes",
+      "bridgedName": "supportedPasteboardTypes",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pasteboardDataFromPasteboard:options:sender:": {
+      "name": "pasteboardDataFromPasteboard:options:sender:",
+      "bridgedName": "pasteboardDataFromPasteboard_options_sender",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSPasteboardReaderOptions",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id<NSDraggingInfo>",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSPasteboardLayers *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

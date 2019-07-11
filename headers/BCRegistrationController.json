@@ -1,0 +1,23 @@
+{
+  "name": "BCRegistrationController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "unregisterSketch:": {
+      "name": "unregisterSketch:",
+      "bridgedName": "unregisterSketch",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

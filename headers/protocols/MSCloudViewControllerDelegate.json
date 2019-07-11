@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSCloudViewControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "cloudViewControllerNeedsResizing:": {
+      "name": "cloudViewControllerNeedsResizing:",
+      "bridgedName": "cloudViewControllerNeedsResizing",
+      "args": [
+        {
+          "name": "viewController",
+          "type": "nonnull MSCloudViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,69 @@
+{
+  "name": "MSCGContextPool",
+  "extends": "BCObjectPool",
+  "interfaces": [],
+  "methods": {
+    "initWithSize:colorSpace:": {
+      "name": "initWithSize:colorSpace:",
+      "bridgedName": "initWithSize_colorSpace",
+      "args": [
+        {
+          "name": "contextSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "CGColorSpaceRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "vendOrCreateContext CF_RETURNS_RETAINED": {
+      "name": "vendOrCreateContext CF_RETURNS_RETAINED",
+      "bridgedName": "vendOrCreateContext CF_RETURNS_RETAINED",
+      "args": [],
+      "returns": "CGContextRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "recycleContext:": {
+      "name": "recycleContext:",
+      "bridgedName": "recycleContext",
+      "args": [
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "CGColorSpaceRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contextSize": {
+      "name": "contextSize",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

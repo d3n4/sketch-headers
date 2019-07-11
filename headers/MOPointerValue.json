@@ -1,0 +1,46 @@
+{
+  "name": "MOPointerValue",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithPointerValue:typeEncoding:": {
+      "name": "initWithPointerValue:typeEncoding:",
+      "bridgedName": "initWithPointerValue_typeEncoding",
+      "args": [
+        {
+          "name": "pointerValue",
+          "type": "void *",
+          "nullable": false
+        },
+        {
+          "name": "typeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pointerValue": {
+      "name": "pointerValue",
+      "pointer": false,
+      "type": "void *",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "typeEncoding": {
+      "name": "typeEncoding",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

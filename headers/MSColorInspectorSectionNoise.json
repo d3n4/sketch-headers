@@ -1,0 +1,8 @@
+{
+  "name": "MSColorInspectorSectionNoise",
+  "extends": "MSColorInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

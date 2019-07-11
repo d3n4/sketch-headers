@@ -1,0 +1,569 @@
+{
+  "name": "MOFunctionArgument",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "setTypeEncoding:withCustomStorage:": {
+      "name": "setTypeEncoding:withCustomStorage:",
+      "bridgedName": "setTypeEncoding_withCustomStorage",
+      "args": [
+        {
+          "name": "typeEncoding",
+          "type": "char",
+          "nullable": false
+        },
+        {
+          "name": "storagePtr",
+          "type": "void *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setPointerTypeEncoding:withCustomStorage:": {
+      "name": "setPointerTypeEncoding:withCustomStorage:",
+      "bridgedName": "setPointerTypeEncoding_withCustomStorage",
+      "args": [
+        {
+          "name": "pointerTypeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "storagePtr",
+          "type": "void *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setStructureTypeEncoding:withCustomStorage:": {
+      "name": "setStructureTypeEncoding:withCustomStorage:",
+      "bridgedName": "setStructureTypeEncoding_withCustomStorage",
+      "args": [
+        {
+          "name": "structureTypeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "storagePtr",
+          "type": "void *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getValueAsJSValueInContext:": {
+      "name": "getValueAsJSValueInContext:",
+      "bridgedName": "getValueAsJSValueInContext",
+      "args": [
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setValueAsJSValue:context:": {
+      "name": "setValueAsJSValue:context:",
+      "bridgedName": "setValueAsJSValue_context",
+      "args": [
+        {
+          "name": "value",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getValueAsJSValueInContext:dereference:": {
+      "name": "getValueAsJSValueInContext:dereference:",
+      "bridgedName": "getValueAsJSValueInContext_dereference",
+      "args": [
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        },
+        {
+          "name": "dereference",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setValueAsJSValue:context:dereference:": {
+      "name": "setValueAsJSValue:context:dereference:",
+      "bridgedName": "setValueAsJSValue_context_dereference",
+      "args": [
+        {
+          "name": "value",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        },
+        {
+          "name": "dereference",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getAlignment:ofTypeEncoding:": {
+      "name": "getAlignment:ofTypeEncoding:",
+      "bridgedName": "getAlignment_ofTypeEncoding",
+      "args": [
+        {
+          "name": "alignment",
+          "type": "size_t *",
+          "nullable": false
+        },
+        {
+          "name": "encoding",
+          "type": "char",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "getSize:ofTypeEncoding:": {
+      "name": "getSize:ofTypeEncoding:",
+      "bridgedName": "getSize_ofTypeEncoding",
+      "args": [
+        {
+          "name": "size",
+          "type": "size_t *",
+          "nullable": false
+        },
+        {
+          "name": "encoding",
+          "type": "char",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "ffiTypeForTypeEncoding:": {
+      "name": "ffiTypeForTypeEncoding:",
+      "bridgedName": "ffiTypeForTypeEncoding",
+      "args": [
+        {
+          "name": "encoding",
+          "type": "char",
+          "nullable": false
+        }
+      ],
+      "returns": "ffi_type *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "descriptionOfTypeEncoding:": {
+      "name": "descriptionOfTypeEncoding:",
+      "bridgedName": "descriptionOfTypeEncoding",
+      "args": [
+        {
+          "name": "encoding",
+          "type": "char",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "descriptionOfTypeEncoding:fullTypeEncoding:": {
+      "name": "descriptionOfTypeEncoding:fullTypeEncoding:",
+      "bridgedName": "descriptionOfTypeEncoding_fullTypeEncoding",
+      "args": [
+        {
+          "name": "typeEncoding",
+          "type": "char",
+          "nullable": false
+        },
+        {
+          "name": "fullTypeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "sizeOfStructureTypeEncoding:": {
+      "name": "sizeOfStructureTypeEncoding:",
+      "bridgedName": "sizeOfStructureTypeEncoding",
+      "args": [
+        {
+          "name": "encoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "size_t",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "structureNameFromStructureTypeEncoding:": {
+      "name": "structureNameFromStructureTypeEncoding:",
+      "bridgedName": "structureNameFromStructureTypeEncoding",
+      "args": [
+        {
+          "name": "encoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "structureTypeEncodingDescription:": {
+      "name": "structureTypeEncodingDescription:",
+      "bridgedName": "structureTypeEncodingDescription",
+      "args": [
+        {
+          "name": "structureTypeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "structureFullTypeEncodingFromStructureTypeEncoding:": {
+      "name": "structureFullTypeEncodingFromStructureTypeEncoding:",
+      "bridgedName": "structureFullTypeEncodingFromStructureTypeEncoding",
+      "args": [
+        {
+          "name": "encoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "structureFullTypeEncodingFromStructureName:": {
+      "name": "structureFullTypeEncodingFromStructureName:",
+      "bridgedName": "structureFullTypeEncodingFromStructureName",
+      "args": [
+        {
+          "name": "structureName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "typeEncodingsFromStructureTypeEncoding:": {
+      "name": "typeEncodingsFromStructureTypeEncoding:",
+      "bridgedName": "typeEncodingsFromStructureTypeEncoding",
+      "args": [
+        {
+          "name": "structureTypeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "typeEncodingsFromStructureTypeEncoding:parsedCount:": {
+      "name": "typeEncodingsFromStructureTypeEncoding:parsedCount:",
+      "bridgedName": "typeEncodingsFromStructureTypeEncoding_parsedCount",
+      "args": [
+        {
+          "name": "structureTypeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "count",
+          "type": "NSInteger *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fromJSValue:inContext:typeEncoding:fullTypeEncoding:storage:": {
+      "name": "fromJSValue:inContext:typeEncoding:fullTypeEncoding:storage:",
+      "bridgedName": "fromJSValue_inContext_typeEncoding_fullTypeEncoding_storage",
+      "args": [
+        {
+          "name": "value",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        },
+        {
+          "name": "typeEncoding",
+          "type": "char",
+          "nullable": false
+        },
+        {
+          "name": "fullTypeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "ptr",
+          "type": "void *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "toJSValue:inContext:typeEncoding:fullTypeEncoding:storage:": {
+      "name": "toJSValue:inContext:typeEncoding:fullTypeEncoding:storage:",
+      "bridgedName": "toJSValue_inContext_typeEncoding_fullTypeEncoding_storage",
+      "args": [
+        {
+          "name": "value",
+          "type": "JSValueRef *",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        },
+        {
+          "name": "typeEncoding",
+          "type": "char",
+          "nullable": false
+        },
+        {
+          "name": "fullTypeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "ptr",
+          "type": "void *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "structureFromJSObject:inContext:inParentJSValueRef:cString:storage:": {
+      "name": "structureFromJSObject:inContext:inParentJSValueRef:cString:storage:",
+      "bridgedName": "structureFromJSObject_inContext_inParentJSValueRef_cString_storage",
+      "args": [
+        {
+          "name": "object",
+          "type": "JSObjectRef",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        },
+        {
+          "name": "parentValue",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "c",
+          "type": "char *",
+          "nullable": false
+        },
+        {
+          "name": "ptr",
+          "type": "void **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "structureToJSValue:inContext:cString:storage:": {
+      "name": "structureToJSValue:inContext:cString:storage:",
+      "bridgedName": "structureToJSValue_inContext_cString_storage",
+      "args": [
+        {
+          "name": "value",
+          "type": "JSValueRef *",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        },
+        {
+          "name": "c",
+          "type": "char *",
+          "nullable": false
+        },
+        {
+          "name": "ptr",
+          "type": "void **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "structureToJSValue:inContext:cString:storage:initialValues:initialValueCount:convertedValueCount:": {
+      "name": "structureToJSValue:inContext:cString:storage:initialValues:initialValueCount:convertedValueCount:",
+      "bridgedName": "structureToJSValue_inContext_cString_storage_initialValues_initialValueCount_convertedValueCount",
+      "args": [
+        {
+          "name": "value",
+          "type": "JSValueRef *",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        },
+        {
+          "name": "c",
+          "type": "char *",
+          "nullable": false
+        },
+        {
+          "name": "ptr",
+          "type": "void **",
+          "nullable": false
+        },
+        {
+          "name": "initialValues",
+          "type": "JSValueRef *",
+          "nullable": false
+        },
+        {
+          "name": "initialValueCount",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "convertedValueCount",
+          "type": "NSInteger *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "typeEncoding": {
+      "name": "typeEncoding",
+      "pointer": false,
+      "type": "char",
+      "attributes": []
+    },
+    "pointerTypeEncoding": {
+      "name": "pointerTypeEncoding",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "structureTypeEncoding": {
+      "name": "structureTypeEncoding",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "pointer": {
+      "name": "pointer",
+      "pointer": false,
+      "type": "MOPointer ",
+      "attributes": [
+        "strong"
+      ]
+    },
+    "returnValue": {
+      "name": "returnValue",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isReturnValue"
+      ]
+    },
+    "ffiType": {
+      "name": "ffiType",
+      "pointer": false,
+      "type": "ffi_type ",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "storage": {
+      "name": "storage",
+      "pointer": false,
+      "type": "void**",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "typeDescription": {
+      "name": "typeDescription",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

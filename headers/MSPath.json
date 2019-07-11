@@ -1,0 +1,460 @@
+{
+  "name": "MSPath",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "booleanOp:withPath:": {
+      "name": "booleanOp:withPath:",
+      "bridgedName": "booleanOp_withPath",
+      "args": [
+        {
+          "name": "op",
+          "type": "MSBooleanOperation",
+          "nullable": false
+        },
+        {
+          "name": "otherPath",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "booleanUnionWith:": {
+      "name": "booleanUnionWith:",
+      "bridgedName": "booleanUnionWith",
+      "args": [
+        {
+          "name": "otherPath",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "booleanIntersectWith:": {
+      "name": "booleanIntersectWith:",
+      "bridgedName": "booleanIntersectWith",
+      "args": [
+        {
+          "name": "otherPath",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "booleanSubtractWith:": {
+      "name": "booleanSubtractWith:",
+      "bridgedName": "booleanSubtractWith",
+      "args": [
+        {
+          "name": "otherPath",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "booleanExclusiveOrWith:": {
+      "name": "booleanExclusiveOrWith:",
+      "bridgedName": "booleanExclusiveOrWith",
+      "args": [
+        {
+          "name": "otherPath",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathWithSubPaths:": {
+      "name": "pathWithSubPaths:",
+      "bridgedName": "pathWithSubPaths",
+      "args": [
+        {
+          "name": "subPaths",
+          "type": "NSArray <MSPath *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathWithRect:": {
+      "name": "pathWithRect:",
+      "bridgedName": "pathWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathWithEllipseInRect:": {
+      "name": "pathWithEllipseInRect:",
+      "bridgedName": "pathWithEllipseInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithCGPath:": {
+      "name": "initWithCGPath:",
+      "bridgedName": "initWithCGPath",
+      "args": [
+        {
+          "name": "pathRef",
+          "type": "CGPathRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithRect:": {
+      "name": "initWithRect:",
+      "bridgedName": "initWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithRoundedRect:radius:": {
+      "name": "initWithRoundedRect:radius:",
+      "bridgedName": "initWithRoundedRect_radius",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "radius",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithSquircleInRect:radius:": {
+      "name": "initWithSquircleInRect:radius:",
+      "bridgedName": "initWithSquircleInRect_radius",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "radius",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithEllipseInRect:": {
+      "name": "initWithEllipseInRect:",
+      "bridgedName": "initWithEllipseInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithBezierPath:": {
+      "name": "initWithBezierPath:",
+      "bridgedName": "initWithBezierPath",
+      "args": [
+        {
+          "name": "bezierPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformedPathUsingAffineTransform:": {
+      "name": "transformedPathUsingAffineTransform:",
+      "bridgedName": "transformedPathUsingAffineTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathWithInset:": {
+      "name": "pathWithInset:",
+      "bridgedName": "pathWithInset",
+      "args": [
+        {
+          "name": "inset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clipContext:windingRule:inBlock:": {
+      "name": "clipContext:windingRule:inBlock:",
+      "bridgedName": "clipContext_windingRule_inBlock",
+      "args": [
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "windingRule",
+          "type": "NSWindingRule",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(CGContextRef context)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addClipForWindingRule:context:": {
+      "name": "addClipForWindingRule:context:",
+      "bridgedName": "addClipForWindingRule_context",
+      "args": [
+        {
+          "name": "windingRule",
+          "type": "NSWindingRule",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outerPathWithRect:": {
+      "name": "outerPathWithRect:",
+      "bridgedName": "outerPathWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathWithOuterPathOfSize:": {
+      "name": "pathWithOuterPathOfSize:",
+      "bridgedName": "pathWithOuterPathOfSize",
+      "args": [
+        {
+          "name": "amount",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insetPathBy:": {
+      "name": "insetPathBy:",
+      "bridgedName": "insetPathBy",
+      "args": [
+        {
+          "name": "inset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insetPathBy:borderOptions:context:": {
+      "name": "insetPathBy:borderOptions:context:",
+      "bridgedName": "insetPathBy_borderOptions_context",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathByGrowingBy:": {
+      "name": "pathByGrowingBy:",
+      "bridgedName": "pathByGrowingBy",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outlinePathWithLineWidth:borderOptions:context:": {
+      "name": "outlinePathWithLineWidth:borderOptions:context:",
+      "bridgedName": "outlinePathWithLineWidth_borderOptions_context",
+      "args": [
+        {
+          "name": "lineWidth",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "borderOptions",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "CGPath": {
+      "name": "CGPath",
+      "pointer": false,
+      "type": "CGPathRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isEmpty": {
+      "name": "isEmpty",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "elementCount": {
+      "name": "elementCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contours": {
+      "name": "contours",
+      "pointer": false,
+      "type": "NSArray <MSBezierContour *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    },
+    "bounds": {
+      "name": "bounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "controlPointBounds": {
+      "name": "controlPointBounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "safeBounds": {
+      "name": "safeBounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

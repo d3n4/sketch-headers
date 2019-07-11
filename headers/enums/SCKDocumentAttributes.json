@@ -1,0 +1,34 @@
+{
+  "enum": true,
+  "name": "SCKDocumentAttributes",
+  "members": [
+    {
+      "name": "SCKDocumentNoAttribute",
+      "value": "0"
+    },
+    {
+      "name": "SCKDocumentNameAttribute",
+      "value": "1 << 0"
+    },
+    {
+      "name": "SCKDocumentSlugAttribute",
+      "value": "1 << 1"
+    },
+    {
+      "name": "SCKDocumentDownloadURLAttribute",
+      "value": "1 << 2"
+    },
+    {
+      "name": "SCKDocumentProcessingAttribute",
+      "value": "1 << 3"
+    },
+    {
+      "name": "SCKDocumentMetaImageURLAttribute",
+      "value": "1 << 4"
+    },
+    {
+      "name": "SCKDocumentPagesAttribute",
+      "value": "1 << 5"
+    }
+  ]
+}

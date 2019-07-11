@@ -1,0 +1,370 @@
+{
+  "name": "AFAmazonS3Manager",
+  "extends": "AFHTTPRequestOperationManager",
+  "interfaces": [
+    "NSSecureCoding",
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithAccessKeyID:secret:": {
+      "name": "initWithAccessKeyID:secret:",
+      "bridgedName": "initWithAccessKeyID_secret",
+      "args": [
+        {
+          "name": "accessKey",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "secret",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enqueueS3RequestOperationWithMethod:path:parameters:success:failure:": {
+      "name": "enqueueS3RequestOperationWithMethod:path:parameters:success:failure:",
+      "bridgedName": "enqueueS3RequestOperationWithMethod_path_parameters_success_failure",
+      "args": [
+        {
+          "name": "method",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(id responseObject)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getServiceWithSuccess:failure:": {
+      "name": "getServiceWithSuccess:failure:",
+      "bridgedName": "getServiceWithSuccess_failure",
+      "args": [
+        {
+          "name": "success",
+          "type": "void (^)(id responseObject)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getBucket:success:failure:": {
+      "name": "getBucket:success:failure:",
+      "bridgedName": "getBucket_success_failure",
+      "args": [
+        {
+          "name": "bucket",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(id responseObject)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "putBucket:parameters:success:failure:": {
+      "name": "putBucket:parameters:success:failure:",
+      "bridgedName": "putBucket_parameters_success_failure",
+      "args": [
+        {
+          "name": "bucket",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(id responseObject)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deleteBucket:success:failure:": {
+      "name": "deleteBucket:success:failure:",
+      "bridgedName": "deleteBucket_success_failure",
+      "args": [
+        {
+          "name": "bucket",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(id responseObject)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "headObjectWithPath:success:failure:": {
+      "name": "headObjectWithPath:success:failure:",
+      "bridgedName": "headObjectWithPath_success_failure",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(NSHTTPURLResponse *response)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getObjectWithPath:progress:success:failure:": {
+      "name": "getObjectWithPath:progress:success:failure:",
+      "bridgedName": "getObjectWithPath_progress_success_failure",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "void (^)(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead)",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(id responseObject, NSData *responseData)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getObjectWithPath:outputStream:progress:success:failure:": {
+      "name": "getObjectWithPath:outputStream:progress:success:failure:",
+      "bridgedName": "getObjectWithPath_outputStream_progress_success_failure",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "outputStream",
+          "type": "NSOutputStream *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "void (^)(NSUInteger bytesRead, long long totalBytesRead, long long totalBytesExpectedToRead)",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(id responseObject)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "postObjectWithFile:destinationPath:parameters:progress:success:failure:": {
+      "name": "postObjectWithFile:destinationPath:parameters:progress:success:failure:",
+      "bridgedName": "postObjectWithFile_destinationPath_parameters_progress_success_failure",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "destinationPath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "void (^)(NSUInteger bytesWritten, long long totalBytesWritten, long long totalBytesExpectedToWrite)",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(id responseObject)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "putObjectWithFile:destinationPath:parameters:progress:success:failure:": {
+      "name": "putObjectWithFile:destinationPath:parameters:progress:success:failure:",
+      "bridgedName": "putObjectWithFile_destinationPath_parameters_progress_success_failure",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "destinationPath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "void (^)(NSUInteger bytesWritten, long long totalBytesWritten, long long totalBytesExpectedToWrite)",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(id responseObject)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deleteObjectWithPath:success:failure:": {
+      "name": "deleteObjectWithPath:success:failure:",
+      "bridgedName": "deleteObjectWithPath_success_failure",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "success",
+          "type": "void (^)(id responseObject)",
+          "nullable": false
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "AFHTTPRequestOperation *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "baseURL": {
+      "name": "baseURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "requestSerializer": {
+      "name": "requestSerializer",
+      "pointer": false,
+      "type": "AFAmazonS3RequestSerializer <AFURLRequestSerialization> *",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

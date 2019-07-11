@@ -1,0 +1,63 @@
+{
+  "name": "SCKAuthenticatedUser",
+  "extends": "SCKUser",
+  "interfaces": [
+    "SCKAPIAuthentication"
+  ],
+  "methods": {
+    "current": {
+      "name": "current",
+      "bridgedName": "current",
+      "args": [],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "keychainUserForEnvironment:": {
+      "name": "keychainUserForEnvironment:",
+      "bridgedName": "keychainUserForEnvironment",
+      "args": [
+        {
+          "name": "environment",
+          "type": "nonnull SCKEnvironment *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "logout": {
+      "name": "logout",
+      "bridgedName": "logout",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "login": {
+      "name": "login",
+      "bridgedName": "login",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loginToEnvironment:": {
+      "name": "loginToEnvironment:",
+      "bridgedName": "loginToEnvironment",
+      "args": [
+        {
+          "name": "environment",
+          "type": "nonnull SCKEnvironment *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

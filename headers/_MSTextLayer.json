@@ -1,0 +1,74 @@
+{
+  "name": "_MSTextLayer",
+  "extends": "MSStyledLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "attributedString": {
+      "name": "attributedString",
+      "pointer": false,
+      "type": "MSAttributedString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "automaticallyDrawOnUnderlyingPath": {
+      "name": "automaticallyDrawOnUnderlyingPath",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "dontSynchroniseWithSymbol": {
+      "name": "dontSynchroniseWithSymbol",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "glyphBounds": {
+      "name": "glyphBounds",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "lineSpacingBehaviour": {
+      "name": "lineSpacingBehaviour",
+      "pointer": false,
+      "type": "BCTextLineSpacingBehaviourType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "preview": {
+      "name": "preview",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "textBehaviour": {
+      "name": "textBehaviour",
+      "pointer": false,
+      "type": "BCTextBehaviourType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

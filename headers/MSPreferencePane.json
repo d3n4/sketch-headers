@@ -1,0 +1,66 @@
+{
+  "name": "MSPreferencePane",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "initWithPreferencesController:": {
+      "name": "initWithPreferencesController:",
+      "bridgedName": "initWithPreferencesController",
+      "args": [
+        {
+          "name": "preferencesController",
+          "type": "MSPreferencesController *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "identifier": {
+      "name": "identifier",
+      "bridgedName": "identifier",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "title": {
+      "name": "title",
+      "bridgedName": "title",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "toolbarIcon": {
+      "name": "toolbarIcon",
+      "bridgedName": "toolbarIcon",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "nibName": {
+      "name": "nibName",
+      "bridgedName": "nibName",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "preferencesController": {
+      "name": "preferencesController",
+      "pointer": false,
+      "type": "MSPreferencesController ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

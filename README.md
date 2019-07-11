@@ -4,9 +4,9 @@
 
 ## History
 
-| Version | Compare | Patch |
-| ------- | ------- | ----- |
-
+| Version                                              | Compare | Patch |
+| ---------------------------------------------------- | ------- | ----- |
+| [47](https://github.com/skpm/sketch-headers/tree/47) | X       | X     |
 
 ## API
 

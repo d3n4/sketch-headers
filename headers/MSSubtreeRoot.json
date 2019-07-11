@@ -1,0 +1,27 @@
+{
+  "name": "MSSubtreeRoot",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "object": {
+      "name": "object",
+      "pointer": false,
+      "type": "MSImmutableModelObject ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "ancestorsOfObject": {
+      "name": "ancestorsOfObject",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

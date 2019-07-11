@@ -1,0 +1,36 @@
+{
+  "protocol": true,
+  "name": "MSInspectorSection",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "views": {
+      "name": "views",
+      "bridgedName": "views",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "wantsSeparatorBetweenView:andView:": {
+      "name": "wantsSeparatorBetweenView:andView:",
+      "bridgedName": "wantsSeparatorBetweenView_andView",
+      "args": [
+        {
+          "name": "firstView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "secondView",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,46 @@
+{
+  "name": "_MSBitmapLayer",
+  "extends": "MSStyledLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "clippingMask": {
+      "name": "clippingMask",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "fillReplacesImage": {
+      "name": "fillReplacesImage",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "intendedDPI": {
+      "name": "intendedDPI",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

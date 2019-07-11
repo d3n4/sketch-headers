@@ -1,0 +1,8 @@
+{
+  "name": "MSSymbolsMenuBuilder",
+  "extends": "MSSortableObjectMenuBuilder",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

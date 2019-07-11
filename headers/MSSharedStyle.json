@@ -1,0 +1,27 @@
+{
+  "name": "MSSharedStyle",
+  "extends": "_MSSharedStyle",
+  "interfaces": [],
+  "methods": {
+    "newInstance": {
+      "name": "newInstance",
+      "bridgedName": "newInstance",
+      "args": [],
+      "returns": "MSStyle*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "style": {
+      "name": "style",
+      "pointer": false,
+      "type": "MSStyle*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

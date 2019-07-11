@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSGradientBarViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "gradientBarChanged:": {
+      "name": "gradientBarChanged:",
+      "bridgedName": "gradientBarChanged",
+      "args": [
+        {
+          "name": "gradientView",
+          "type": "MSGradientBarView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

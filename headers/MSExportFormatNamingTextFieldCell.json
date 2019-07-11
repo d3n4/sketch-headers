@@ -1,0 +1,8 @@
+{
+  "name": "MSExportFormatNamingTextFieldCell",
+  "extends": "NSTextFieldCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

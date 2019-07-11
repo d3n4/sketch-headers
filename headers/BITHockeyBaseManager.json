@@ -1,0 +1,18 @@
+{
+  "name": "BITHockeyBaseManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "serverURL": {
+      "name": "serverURL",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

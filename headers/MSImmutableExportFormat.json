@@ -1,0 +1,45 @@
+{
+  "name": "MSImmutableExportFormat",
+  "extends": "_MSImmutableExportFormat",
+  "interfaces": [],
+  "methods": {
+    "defaultNameForScale:": {
+      "name": "defaultNameForScale:",
+      "bridgedName": "defaultNameForScale",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportScaleInRect:": {
+      "name": "exportScaleInRect:",
+      "bridgedName": "exportScaleInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isVectorExport": {
+      "name": "isVectorExport",
+      "bridgedName": "isVectorExport",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

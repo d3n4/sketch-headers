@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSTransparencyOption",
+  "members": [
+    {
+      "name": "MSTransparencyDontUseLayer"
+    },
+    {
+      "name": "MSTransparencyUseLayer"
+    }
+  ]
+}

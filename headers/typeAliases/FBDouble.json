@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "FBDouble",
+  "type": "double",
+  "pointer": false
+}

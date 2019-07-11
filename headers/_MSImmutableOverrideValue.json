@@ -1,0 +1,39 @@
+{
+  "name": "_MSImmutableOverrideValue",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "isEditing": {
+      "name": "isEditing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overrideName": {
+      "name": "overrideName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "NSObject<NSCopying> ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

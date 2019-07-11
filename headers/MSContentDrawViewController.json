@@ -1,0 +1,114 @@
+{
+  "name": "MSContentDrawViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSContentDrawViewDelegate"
+  ],
+  "methods": {
+    "currentArtboardDidChange": {
+      "name": "currentArtboardDidChange",
+      "bridgedName": "currentArtboardDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeToPage:": {
+      "name": "changeToPage:",
+      "bridgedName": "changeToPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareForDealloc": {
+      "name": "prepareForDealloc",
+      "bridgedName": "prepareForDealloc",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "contentDrawView": {
+      "name": "contentDrawView",
+      "pointer": false,
+      "type": "IBOutlet MSContentDrawView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "horizontalRuler": {
+      "name": "horizontalRuler",
+      "pointer": false,
+      "type": "IBOutlet MSRulerView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "verticalRuler": {
+      "name": "verticalRuler",
+      "pointer": false,
+      "type": "IBOutlet MSRulerView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "rulerCornerView": {
+      "name": "rulerCornerView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "rulerWidthConstraint": {
+      "name": "rulerWidthConstraint",
+      "pointer": false,
+      "type": "IBOutlet NSLayoutConstraint ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "rulerHeightConstraint": {
+      "name": "rulerHeightConstraint",
+      "pointer": false,
+      "type": "IBOutlet NSLayoutConstraint ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "flashController": {
+      "name": "flashController",
+      "pointer": false,
+      "type": "MSFlashController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

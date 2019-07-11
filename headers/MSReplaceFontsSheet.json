@@ -1,0 +1,8 @@
+{
+  "name": "MSReplaceFontsSheet",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

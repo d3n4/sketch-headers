@@ -1,0 +1,82 @@
+{
+  "name": "MSRenderingDriver",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "defaultDriver": {
+      "name": "defaultDriver",
+      "bridgedName": "defaultDriver",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setupRendererMap": {
+      "name": "setupRendererMap",
+      "bridgedName": "setupRendererMap",
+      "args": [],
+      "returns": "NSMapTable*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rendererForObject:protocol:": {
+      "name": "rendererForObject:protocol:",
+      "bridgedName": "rendererForObject_protocol",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "protocol",
+          "type": "Protocol*",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof id<MSRenderer>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contextForCGContext:": {
+      "name": "contextForCGContext:",
+      "bridgedName": "contextForCGContext",
+      "args": [
+        {
+          "name": "contextRef",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "MSRenderingContext*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contextForCGContext:zoomLevel:document:": {
+      "name": "contextForCGContext:zoomLevel:document:",
+      "bridgedName": "contextForCGContext_zoomLevel_document",
+      "args": [
+        {
+          "name": "contextRef",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSRenderingContext*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

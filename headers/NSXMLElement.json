@@ -1,0 +1,448 @@
+{
+  "name": "NSXMLElement",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "gotAttributeWithName:": {
+      "name": "gotAttributeWithName:",
+      "bridgedName": "gotAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleValueFromAttributeWithName:": {
+      "name": "doubleValueFromAttributeWithName:",
+      "bridgedName": "doubleValueFromAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleValueFromAttributeWithName:scale:": {
+      "name": "doubleValueFromAttributeWithName:scale:",
+      "bridgedName": "doubleValueFromAttributeWithName_scale",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleValueFromPercentageAttributeWithName:": {
+      "name": "doubleValueFromPercentageAttributeWithName:",
+      "bridgedName": "doubleValueFromPercentageAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleValueFromPercentageAttributeWithName:orDefault:": {
+      "name": "doubleValueFromPercentageAttributeWithName:orDefault:",
+      "bridgedName": "doubleValueFromPercentageAttributeWithName_orDefault",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "def",
+          "type": "double",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleValueFromAttributeWithName:alternate:": {
+      "name": "doubleValueFromAttributeWithName:alternate:",
+      "bridgedName": "doubleValueFromAttributeWithName_alternate",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "alternate",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleValueFromPercentageAttributeWithName:alternate:": {
+      "name": "doubleValueFromPercentageAttributeWithName:alternate:",
+      "bridgedName": "doubleValueFromPercentageAttributeWithName_alternate",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "alternate",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberFromAttributeWithName:": {
+      "name": "numberFromAttributeWithName:",
+      "bridgedName": "numberFromAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSNumber*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberFromAttributeWithName:scale:": {
+      "name": "numberFromAttributeWithName:scale:",
+      "bridgedName": "numberFromAttributeWithName_scale",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSNumber*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numbersFromAttributeWithName:": {
+      "name": "numbersFromAttributeWithName:",
+      "bridgedName": "numbersFromAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numbersFromAttributeWithName:scale:": {
+      "name": "numbersFromAttributeWithName:scale:",
+      "bridgedName": "numbersFromAttributeWithName_scale",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "intValueFromAttributeWithName:": {
+      "name": "intValueFromAttributeWithName:",
+      "bridgedName": "intValueFromAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectValueFromAttributeWithName:": {
+      "name": "rectValueFromAttributeWithName:",
+      "bridgedName": "rectValueFromAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectValue": {
+      "name": "rectValue",
+      "bridgedName": "rectValue",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectValueWithXScale:yScale:": {
+      "name": "rectValueWithXScale:yScale:",
+      "bridgedName": "rectValueWithXScale_yScale",
+      "args": [
+        {
+          "name": "xScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "yScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorFromAttributeWithName:": {
+      "name": "colorFromAttributeWithName:",
+      "bridgedName": "colorFromAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableColor*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringFromAttributeWithName:": {
+      "name": "stringFromAttributeWithName:",
+      "bridgedName": "stringFromAttributeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nodeOrParentNodeWithName:": {
+      "name": "nodeOrParentNodeWithName:",
+      "bridgedName": "nodeOrParentNodeWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSXMLNode *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "attributesWithStyleMergedDefaults:": {
+      "name": "attributesWithStyleMergedDefaults:",
+      "bridgedName": "attributesWithStyleMergedDefaults",
+      "args": [
+        {
+          "name": "defaults",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "simplifyAttributesIgnoringElements:attributes:": {
+      "name": "simplifyAttributesIgnoringElements:attributes:",
+      "bridgedName": "simplifyAttributesIgnoringElements_attributes",
+      "args": [
+        {
+          "name": "elementsToIgnore",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "attributesToIgnore",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "urlLink": {
+      "name": "urlLink",
+      "bridgedName": "urlLink",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "localLink": {
+      "name": "localLink",
+      "bridgedName": "localLink",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cssClassNamesWithBase:": {
+      "name": "cssClassNamesWithBase:",
+      "bridgedName": "cssClassNamesWithBase",
+      "args": [
+        {
+          "name": "base",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeWithName:stringValue:": {
+      "name": "addAttributeWithName:stringValue:",
+      "bridgedName": "addAttributeWithName_stringValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeWithName:pixelValue:": {
+      "name": "addAttributeWithName:pixelValue:",
+      "bridgedName": "addAttributeWithName_pixelValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeWithName:numberValue:": {
+      "name": "addAttributeWithName:numberValue:",
+      "bridgedName": "addAttributeWithName_numberValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeWithName:percentageValue:": {
+      "name": "addAttributeWithName:percentageValue:",
+      "bridgedName": "addAttributeWithName_percentageValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAttributeWithName:percentageFractionalValue:": {
+      "name": "addAttributeWithName:percentageFractionalValue:",
+      "bridgedName": "addAttributeWithName_percentageFractionalValue",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSClickableTextFieldDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "textFieldCanBeClicked:": {
+      "name": "textFieldCanBeClicked:",
+      "bridgedName": "textFieldCanBeClicked",
+      "args": [
+        {
+          "name": "textField",
+          "type": "nonnull NSTextField *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textFieldDidClick:": {
+      "name": "textFieldDidClick:",
+      "bridgedName": "textFieldDidClick",
+      "args": [
+        {
+          "name": "textField",
+          "type": "nonnull NSTextField *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

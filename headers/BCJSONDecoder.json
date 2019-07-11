@@ -1,0 +1,237 @@
+{
+  "name": "BCJSONDecoder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "setClass:forClassName:": {
+      "name": "setClass:forClassName:",
+      "bridgedName": "setClass_forClassName",
+      "args": [
+        {
+          "name": "class",
+          "type": "Class",
+          "nullable": true
+        },
+        {
+          "name": "codedName",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "decodeFileAtURL:error:": {
+      "name": "decodeFileAtURL:error:",
+      "bridgedName": "decodeFileAtURL_error",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError* __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "decodeData:error:": {
+      "name": "decodeData:error:",
+      "bridgedName": "decodeData_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError* __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeDictionary:error:": {
+      "name": "decodeDictionary:error:",
+      "bridgedName": "decodeDictionary_error",
+      "args": [
+        {
+          "name": "dict",
+          "type": "NSDictionary*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError* __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsValueForKey:": {
+      "name": "containsValueForKey:",
+      "bridgedName": "containsValueForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeObjectForKey:": {
+      "name": "decodeObjectForKey:",
+      "bridgedName": "decodeObjectForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeDoubleForKey:": {
+      "name": "decodeDoubleForKey:",
+      "bridgedName": "decodeDoubleForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "double",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeBoolForKey:": {
+      "name": "decodeBoolForKey:",
+      "bridgedName": "decodeBoolForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeRectForKey:": {
+      "name": "decodeRectForKey:",
+      "bridgedName": "decodeRectForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodePointForKey:": {
+      "name": "decodePointForKey:",
+      "bridgedName": "decodePointForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeIntegerForKey:": {
+      "name": "decodeIntegerForKey:",
+      "bridgedName": "decodeIntegerForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeSizeForKey:": {
+      "name": "decodeSizeForKey:",
+      "bridgedName": "decodeSizeForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "CGSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "userInfo": {
+      "name": "userInfo",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError*",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<BCJSONDecoderDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "unarchiver": {
+      "name": "unarchiver",
+      "pointer": false,
+      "type": "MSJSONUnarchiver ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

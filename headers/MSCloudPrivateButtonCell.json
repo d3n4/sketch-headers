@@ -1,0 +1,8 @@
+{
+  "name": "MSCloudPrivateButtonCell",
+  "extends": "NSButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

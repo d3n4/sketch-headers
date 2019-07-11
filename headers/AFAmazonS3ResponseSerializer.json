@@ -1,0 +1,8 @@
+{
+  "name": "AFAmazonS3ResponseSerializer",
+  "extends": "AFHTTPResponseSerializer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

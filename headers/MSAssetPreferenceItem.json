@@ -1,0 +1,88 @@
+{
+  "name": "MSAssetPreferenceItem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "preferenceItemForLibrary:": {
+      "name": "preferenceItemForLibrary:",
+      "bridgedName": "preferenceItemForLibrary",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSAssetPreferenceItem*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSAssetPreferenceItemDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "library": {
+      "name": "library",
+      "pointer": false,
+      "type": "MSAssetLibrary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "valid": {
+      "name": "valid",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "preview": {
+      "name": "preview",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "secondaryTitle": {
+      "name": "secondaryTitle",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

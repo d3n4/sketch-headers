@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSColorSpaceConverter",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "convertMSColor:": {
+      "name": "convertMSColor:",
+      "bridgedName": "convertMSColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertNSColor:": {
+      "name": "convertNSColor:",
+      "bridgedName": "convertNSColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

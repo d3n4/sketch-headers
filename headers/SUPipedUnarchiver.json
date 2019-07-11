@@ -1,0 +1,8 @@
+{
+  "name": "SUPipedUnarchiver",
+  "extends": "SUUnarchiver",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

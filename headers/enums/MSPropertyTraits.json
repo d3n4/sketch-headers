@@ -1,0 +1,30 @@
+{
+  "enum": true,
+  "name": "MSPropertyTraits",
+  "members": [
+    {
+      "name": "MSPropertyTraitNone",
+      "value": "0"
+    },
+    {
+      "name": "MSPropertyTraitInfluencesContentRender",
+      "value": "1<<1"
+    },
+    {
+      "name": "MSPropertyTraitInfluencesOverlayRender",
+      "value": "1<<2"
+    },
+    {
+      "name": "MSPropertyTraitChangesHistory",
+      "value": "1<<3"
+    },
+    {
+      "name": "MSPropertyTraitAmendsHistory",
+      "value": "1<<4"
+    },
+    {
+      "name": "MSPropertyTraitInfluencesLayerStructure",
+      "value": "1<<5"
+    }
+  ]
+}

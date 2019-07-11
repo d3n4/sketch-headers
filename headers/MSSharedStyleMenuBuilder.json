@@ -1,0 +1,8 @@
+{
+  "name": "MSSharedStyleMenuBuilder",
+  "extends": "MSSortableObjectMenuBuilder",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

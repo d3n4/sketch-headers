@@ -1,0 +1,19 @@
+{
+  "name": "MSStyleShadow",
+  "extends": "_MSStyleShadow",
+  "interfaces": [
+    "MSColorSpaceConvertible"
+  ],
+  "methods": {
+    "CSSAttributeString": {
+      "name": "CSSAttributeString",
+      "bridgedName": "CSSAttributeString",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

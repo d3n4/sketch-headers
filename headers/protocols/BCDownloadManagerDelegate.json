@@ -1,0 +1,95 @@
+{
+  "protocol": true,
+  "name": "BCDownloadManagerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "downloadManager:downloadTaskHasUpdatedForIdentifier:": {
+      "name": "downloadManager:downloadTaskHasUpdatedForIdentifier:",
+      "bridgedName": "downloadManager_downloadTaskHasUpdatedForIdentifier",
+      "args": [
+        {
+          "name": "downloadManager",
+          "type": "BCDownloadManager *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadManager:downloadTaskFinishedForIdentifier:downloadedURL:": {
+      "name": "downloadManager:downloadTaskFinishedForIdentifier:downloadedURL:",
+      "bridgedName": "downloadManager_downloadTaskFinishedForIdentifier_downloadedURL",
+      "args": [
+        {
+          "name": "downloadManager",
+          "type": "BCDownloadManager *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "downloadedURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadManager:downloadTaskFailedWithError:forTaskIdentifier:": {
+      "name": "downloadManager:downloadTaskFailedWithError:forTaskIdentifier:",
+      "bridgedName": "downloadManager_downloadTaskFailedWithError_forTaskIdentifier",
+      "args": [
+        {
+          "name": "downloadManager",
+          "type": "BCDownloadManager *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadManager:sessionBecameInvalidWithError:": {
+      "name": "downloadManager:sessionBecameInvalidWithError:",
+      "bridgedName": "downloadManager_sessionBecameInvalidWithError",
+      "args": [
+        {
+          "name": "downloadManager",
+          "type": "BCDownloadManager *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

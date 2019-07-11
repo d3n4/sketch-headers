@@ -1,0 +1,23 @@
+{
+  "name": "BCMagnifier",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "pickColorWithCompletionBlock:": {
+      "name": "pickColorWithCompletionBlock:",
+      "bridgedName": "pickColorWithCompletionBlock",
+      "args": [
+        {
+          "name": "completionBlock",
+          "type": "BCMagnifierCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

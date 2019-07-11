@@ -1,0 +1,172 @@
+{
+  "name": "MSAssetLibraryController",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSAssetLibraryDelegate"
+  ],
+  "methods": {
+    "addAssetLibraryAtURL:": {
+      "name": "addAssetLibraryAtURL:",
+      "bridgedName": "addAssetLibraryAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSAssetLibraryControllerAddStatus",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAssetLibrary:": {
+      "name": "removeAssetLibrary:",
+      "bridgedName": "removeAssetLibrary",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDelegate:": {
+      "name": "addDelegate:",
+      "bridgedName": "addDelegate",
+      "args": [
+        {
+          "name": "watcher",
+          "type": "id<MSAssetLibraryControllerDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeDelegate:": {
+      "name": "removeDelegate:",
+      "bridgedName": "removeDelegate",
+      "args": [
+        {
+          "name": "watcher",
+          "type": "id<MSAssetLibraryControllerDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "importForeignSymbol:fromLibrary:intoDocument:": {
+      "name": "importForeignSymbol:fromLibrary:intoDocument:",
+      "bridgedName": "importForeignSymbol_fromLibrary_intoDocument",
+      "args": [
+        {
+          "name": "libraryMaster",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        },
+        {
+          "name": "sourceLibrary",
+          "type": "MSAssetLibrary*",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSForeignSymbol *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "syncForeignSymbol:withMaster:fromLibrary:": {
+      "name": "syncForeignSymbol:withMaster:fromLibrary:",
+      "bridgedName": "syncForeignSymbol_withMaster_fromLibrary",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSForeignSymbol*",
+          "nullable": false
+        },
+        {
+          "name": "master",
+          "type": "MSSymbolMaster*",
+          "nullable": false
+        },
+        {
+          "name": "library",
+          "type": "MSAssetLibrary*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateForeignSymbolsInDocument:includeDisabled:block:": {
+      "name": "enumerateForeignSymbolsInDocument:includeDisabled:block:",
+      "bridgedName": "enumerateForeignSymbolsInDocument_includeDisabled_block",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "includeDisabled",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void(^)(MSForeignSymbol *foreignSymbol, MSAssetLibrary *library, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "libraryForSymbol:": {
+      "name": "libraryForSymbol:",
+      "bridgedName": "libraryForSymbol",
+      "args": [
+        {
+          "name": "symbol",
+          "type": "MSSymbolMaster*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSAssetLibrary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "availableLibraries": {
+      "name": "availableLibraries",
+      "pointer": false,
+      "type": "NSArray<MSAssetLibrary*> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "libraries": {
+      "name": "libraries",
+      "pointer": false,
+      "type": "NSArray <MSAssetLibrary *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "MSSmartRotateSheet",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "explanationLabel": {
+      "name": "explanationLabel",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "numberOfCopies": {
+      "name": "numberOfCopies",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

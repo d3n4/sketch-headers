@@ -1,0 +1,8 @@
+{
+  "name": "MSStyleReflection",
+  "extends": "_MSStyleReflection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,63 @@
+{
+  "name": "MSNormalEventHandler",
+  "extends": "MSNormalBaseEventHandler",
+  "interfaces": [],
+  "methods": {
+    "selectLayer:": {
+      "name": "selectLayer:",
+      "bridgedName": "selectLayer",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ignoreNextKeyDownEventUntilModifiersChange": {
+      "name": "ignoreNextKeyDownEventUntilModifiersChange",
+      "bridgedName": "ignoreNextKeyDownEventUntilModifiersChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelOperation:": {
+      "name": "cancelOperation:",
+      "bridgedName": "cancelOperation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawSelectedShapePathLayers": {
+      "name": "drawSelectedShapePathLayers",
+      "bridgedName": "drawSelectedShapePathLayers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "positionDrawing": {
+      "name": "positionDrawing",
+      "pointer": false,
+      "type": "MSLayerPositionDrawing ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

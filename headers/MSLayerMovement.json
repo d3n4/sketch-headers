@@ -1,0 +1,93 @@
+{
+  "name": "MSLayerMovement",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "moveForward:": {
+      "name": "moveForward:",
+      "bridgedName": "moveForward",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "moveBackward:": {
+      "name": "moveBackward:",
+      "bridgedName": "moveBackward",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "canMoveLayerUpHierarchy:": {
+      "name": "canMoveLayerUpHierarchy:",
+      "bridgedName": "canMoveLayerUpHierarchy",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "moveUpHierarchy:": {
+      "name": "moveUpHierarchy:",
+      "bridgedName": "moveUpHierarchy",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "moveToFront:": {
+      "name": "moveToFront:",
+      "bridgedName": "moveToFront",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "moveToBack:": {
+      "name": "moveToBack:",
+      "bridgedName": "moveToBack",
+      "args": [
+        {
+          "name": "selectedLayers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

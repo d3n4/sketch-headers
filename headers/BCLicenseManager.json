@@ -1,0 +1,27 @@
+{
+  "name": "BCLicenseManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "canRenewLicense": {
+      "name": "canRenewLicense",
+      "bridgedName": "canRenewLicense",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "canUseCloud": {
+      "name": "canUseCloud",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

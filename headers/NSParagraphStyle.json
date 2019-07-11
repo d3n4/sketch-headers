@@ -1,0 +1,33 @@
+{
+  "name": "NSParagraphStyle",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "addSVGAttributes:": {
+      "name": "addSVGAttributes:",
+      "bridgedName": "addSVGAttributes",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "fixedLineHeight_ms": {
+      "name": "fixedLineHeight_ms",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,46 @@
+{
+  "name": "MSMainSplitViewController",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSSplitViewDelegate"
+  ],
+  "methods": {
+    "didEnterVersionBrowser": {
+      "name": "didEnterVersionBrowser",
+      "bridgedName": "didEnterVersionBrowser",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didExitVersionBrowser": {
+      "name": "didExitVersionBrowser",
+      "bridgedName": "didExitVersionBrowser",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "splitView": {
+      "name": "splitView",
+      "pointer": false,
+      "type": "IBOutlet NSSplitView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "window": {
+      "name": "window",
+      "pointer": false,
+      "type": "IBOutlet NSWindow ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

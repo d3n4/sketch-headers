@@ -1,0 +1,23 @@
+{
+  "name": "MSConvertSymbolOrDetachInstancesAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "detachSymbolInstances:": {
+      "name": "detachSymbolInstances:",
+      "bridgedName": "detachSymbolInstances",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

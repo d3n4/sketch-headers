@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSPointInsertionOptions",
+  "members": [
+    {
+      "name": "MSPointInsertionStraight",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSPointInsertionCenter",
+      "value": "1 << 1"
+    }
+  ]
+}

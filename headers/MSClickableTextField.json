@@ -1,0 +1,8 @@
+{
+  "name": "MSClickableTextField",
+  "extends": "NSTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

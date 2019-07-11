@@ -1,0 +1,62 @@
+{
+  "name": "MSManifestMaker",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "manifestForDocument:withName:selectiveExport:usePageIfMissingArtboard:imageProviderBlock:": {
+      "name": "manifestForDocument:withName:selectiveExport:usePageIfMissingArtboard:imageProviderBlock:",
+      "bridgedName": "manifestForDocument_withName_selectiveExport_usePageIfMissingArtboard_imageProviderBlock",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "selectiveExport",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "usePageIfMissingArtboard",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSManifestImageProviderBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "wouldManifestChangeBetweenOldDoc:andNewDoc:": {
+      "name": "wouldManifestChangeBetweenOldDoc:andNewDoc:",
+      "bridgedName": "wouldManifestChangeBetweenOldDoc_andNewDoc",
+      "args": [
+        {
+          "name": "oldDoc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "newDoc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

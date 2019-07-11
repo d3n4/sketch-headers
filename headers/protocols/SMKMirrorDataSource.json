@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "SMKMirrorDataSource",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "currentArtboardID": {
+      "name": "currentArtboardID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "manifestContent": {
+      "name": "manifestContent",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "shouldScrollToSelectedArtboard": {
+      "name": "shouldScrollToSelectedArtboard",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  }
+}

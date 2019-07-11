@@ -1,0 +1,187 @@
+{
+  "protocol": true,
+  "name": "AFMultipartFormData",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "appendPartWithFileURL:name:error:": {
+      "name": "appendPartWithFileURL:name:error:",
+      "bridgedName": "appendPartWithFileURL_name_error",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendPartWithFileURL:name:fileName:mimeType:error:": {
+      "name": "appendPartWithFileURL:name:fileName:mimeType:error:",
+      "bridgedName": "appendPartWithFileURL_name_fileName_mimeType_error",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "fileName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "mimeType",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendPartWithInputStream:name:fileName:length:mimeType:": {
+      "name": "appendPartWithInputStream:name:fileName:length:mimeType:",
+      "bridgedName": "appendPartWithInputStream_name_fileName_length_mimeType",
+      "args": [
+        {
+          "name": "inputStream",
+          "type": "NSInputStream *",
+          "nullable": true
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "fileName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "length",
+          "type": "int64_t",
+          "nullable": false
+        },
+        {
+          "name": "mimeType",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendPartWithFileData:name:fileName:mimeType:": {
+      "name": "appendPartWithFileData:name:fileName:mimeType:",
+      "bridgedName": "appendPartWithFileData_name_fileName_mimeType",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "fileName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "mimeType",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendPartWithFormData:name:": {
+      "name": "appendPartWithFormData:name:",
+      "bridgedName": "appendPartWithFormData_name",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendPartWithHeaders:body:": {
+      "name": "appendPartWithHeaders:body:",
+      "bridgedName": "appendPartWithHeaders_body",
+      "args": [
+        {
+          "name": "headers",
+          "type": "NSDictionary *",
+          "nullable": true
+        },
+        {
+          "name": "body",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "throttleBandwidthWithPacketSize:delay:": {
+      "name": "throttleBandwidthWithPacketSize:delay:",
+      "bridgedName": "throttleBandwidthWithPacketSize_delay",
+      "args": [
+        {
+          "name": "numberOfBytes",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "delay",
+          "type": "NSTimeInterval",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

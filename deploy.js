@@ -15,7 +15,7 @@ if (!version) {
 
 const readme = fs.readFileSync('./README.md', {encoding: 'utf8'})
 
-const delimiter = '| -------------- | ----------------- | ------ |'
+const delimiter = '| ---------------------------------------------------- | ------- | ----- |'
 const startOfTable = readme.indexOf(delimiter) + delimiter.length
 
 const startOfReadme = readme.slice(0, startOfTable)

@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSColorSpace",
+  "members": [
+    {
+      "name": "MSColorSpaceSRGB",
+      "value": "0"
+    },
+    {
+      "name": "MSColorSpaceDisplayP3",
+      "value": "1"
+    }
+  ]
+}

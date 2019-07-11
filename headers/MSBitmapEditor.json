@@ -1,0 +1,155 @@
+{
+  "name": "MSBitmapEditor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "draw": {
+      "name": "draw",
+      "bridgedName": "draw",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseDown:flags:": {
+      "name": "mouseDown:flags:",
+      "bridgedName": "mouseDown_flags",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseDragged:": {
+      "name": "mouseDragged:",
+      "bridgedName": "mouseDragged",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseUp:flags:": {
+      "name": "mouseUp:flags:",
+      "bridgedName": "mouseUp_flags",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshRectInBitmapCoordinates:": {
+      "name": "refreshRectInBitmapCoordinates:",
+      "bridgedName": "refreshRectInBitmapCoordinates",
+      "args": [
+        {
+          "name": "bitmapRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawMarchingAntsForPath:": {
+      "name": "drawMarchingAntsForPath:",
+      "bridgedName": "drawMarchingAntsForPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointInBitmapLayer:": {
+      "name": "pointInBitmapLayer:",
+      "bridgedName": "pointInBitmapLayer",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageSize": {
+      "name": "imageSize",
+      "bridgedName": "imageSize",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageBounds": {
+      "name": "imageBounds",
+      "bridgedName": "imageBounds",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "eventHandler": {
+      "name": "eventHandler",
+      "pointer": false,
+      "type": "MSBitmapEditEventHandler ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "bitmapLayer": {
+      "name": "bitmapLayer",
+      "pointer": false,
+      "type": "MSBitmapLayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "accumulatedSelection": {
+      "name": "accumulatedSelection",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

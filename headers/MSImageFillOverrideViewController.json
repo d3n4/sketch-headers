@@ -1,0 +1,8 @@
+{
+  "name": "MSImageFillOverrideViewController",
+  "extends": "MSBitmapOverrideViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

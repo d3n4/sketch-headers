@@ -1,0 +1,42 @@
+{
+  "enum": true,
+  "name": "BCConstraint",
+  "members": [
+    {
+      "name": "BCConstraintNone",
+      "value": "0"
+    },
+    {
+      "name": "BCConstraintMaxXSizeable",
+      "value": "1U << 0"
+    },
+    {
+      "name": "BCConstraintWidthSizeable",
+      "value": "1U << 1"
+    },
+    {
+      "name": "BCConstraintMinXSizeable",
+      "value": "1U << 2"
+    },
+    {
+      "name": "BCConstraintMaxYSizeable",
+      "value": "1U << 3"
+    },
+    {
+      "name": "BCConstraintHeightSizeable",
+      "value": "1U << 4"
+    },
+    {
+      "name": "BCConstraintMinYSizeable",
+      "value": "1U << 5"
+    },
+    {
+      "name": "BCConstraintAllFixed",
+      "value": "1U << 6"
+    },
+    {
+      "name": "BCConstraintAllSizeable",
+      "value": "BCConstraintMinXSizeable | BCConstraintWidthSizeable  | BCConstraintMaxXSizeable |\n                                BCConstraintMinYSizeable | BCConstraintHeightSizeable | BCConstraintMaxYSizeable"
+    }
+  ]
+}

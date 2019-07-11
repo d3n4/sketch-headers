@@ -1,0 +1,23 @@
+{
+  "name": "MSSubtractAction",
+  "extends": "MSBaseBooleanAction",
+  "interfaces": [],
+  "methods": {
+    "booleanSubtract:": {
+      "name": "booleanSubtract:",
+      "bridgedName": "booleanSubtract",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

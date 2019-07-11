@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "BCRect",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "origin": {
+      "name": "origin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  }
+}

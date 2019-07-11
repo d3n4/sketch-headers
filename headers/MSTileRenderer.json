@@ -1,0 +1,125 @@
+{
+  "name": "MSTileRenderer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "cancel": {
+      "name": "cancel",
+      "bridgedName": "cancel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderWithDriver:context:zoomValue:": {
+      "name": "renderWithDriver:context:zoomValue:",
+      "bridgedName": "renderWithDriver_context_zoomValue",
+      "args": [
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver*",
+          "nullable": false
+        },
+        {
+          "name": "contextRef",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "immutablePage": {
+      "name": "immutablePage",
+      "pointer": false,
+      "type": "MSImmutablePage ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "tileRect": {
+      "name": "tileRect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "backingScale": {
+      "name": "backingScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "shouldDrawPixelated": {
+      "name": "shouldDrawPixelated",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "drawDottedDirtyRect": {
+      "name": "drawDottedDirtyRect",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "cancelled": {
+      "name": "cancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly",
+        "getter=isCancelled"
+      ]
+    },
+    "cacheProvider": {
+      "name": "cacheProvider",
+      "pointer": false,
+      "type": "id <MSRenderingContextCacheProvider>",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "contextPool": {
+      "name": "contextPool",
+      "pointer": false,
+      "type": "MSCGContextPool ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

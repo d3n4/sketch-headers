@@ -1,0 +1,131 @@
+{
+  "name": "SUStatusController",
+  "extends": "SUWindowController",
+  "interfaces": [],
+  "methods": {
+    "initWithHost:": {
+      "name": "initWithHost:",
+      "bridgedName": "initWithHost",
+      "args": [
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginActionWithTitle:maxProgressValue:statusText:": {
+      "name": "beginActionWithTitle:maxProgressValue:statusText:",
+      "bridgedName": "beginActionWithTitle_maxProgressValue_statusText",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "maxProgressValue",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "statusText",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setButtonTitle:target:action:isDefault:": {
+      "name": "setButtonTitle:target:action:isDefault:",
+      "bridgedName": "setButtonTitle_target_action_isDefault",
+      "args": [
+        {
+          "name": "buttonTitle",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "isDefault",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "actionButton": {
+      "name": "actionButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "weak"
+      ]
+    },
+    "progressBar": {
+      "name": "progressBar",
+      "pointer": false,
+      "type": "IBOutlet NSProgressIndicator ",
+      "attributes": [
+        "weak"
+      ]
+    },
+    "statusTextField": {
+      "name": "statusTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "weak"
+      ]
+    },
+    "statusText": {
+      "name": "statusText",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "progressValue": {
+      "name": "progressValue",
+      "pointer": false,
+      "type": "double",
+      "attributes": []
+    },
+    "maxProgressValue": {
+      "name": "maxProgressValue",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "buttonEnabled": {
+      "name": "buttonEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isButtonEnabled"
+      ]
+    }
+  },
+  "generics": []
+}

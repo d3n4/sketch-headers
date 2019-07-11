@@ -1,0 +1,8 @@
+{
+  "name": "SVGImage",
+  "extends": "_SVGImage",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

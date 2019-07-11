@@ -1,0 +1,23 @@
+{
+  "name": "MSScaleAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "scale:": {
+      "name": "scale:",
+      "bridgedName": "scale",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

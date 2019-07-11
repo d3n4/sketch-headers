@@ -1,0 +1,200 @@
+{
+  "name": "MSEventHandlerManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id <MSEventHandlerManagerDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handlerForKey:": {
+      "name": "handlerForKey:",
+      "bridgedName": "handlerForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof MSEventHandler *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "switchToEventHandlerKey:": {
+      "name": "switchToEventHandlerKey:",
+      "bridgedName": "switchToEventHandlerKey",
+      "args": [
+        {
+          "name": "handlerKey",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSEventHandler *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleHandlerKey:": {
+      "name": "toggleHandlerKey:",
+      "bridgedName": "toggleHandlerKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof MSEventHandler *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInRect:cache:": {
+      "name": "drawInRect:cache:",
+      "bridgedName": "drawInRect_cache",
+      "args": [
+        {
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendMouseDownEvent:": {
+      "name": "sendMouseDownEvent:",
+      "bridgedName": "sendMouseDownEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendMouseDraggedEvent:": {
+      "name": "sendMouseDraggedEvent:",
+      "bridgedName": "sendMouseDraggedEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendMouseUpEvent:": {
+      "name": "sendMouseUpEvent:",
+      "bridgedName": "sendMouseUpEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendMouseMovedEvent:": {
+      "name": "sendMouseMovedEvent:",
+      "bridgedName": "sendMouseMovedEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "recordEvent:": {
+      "name": "recordEvent:",
+      "bridgedName": "recordEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSEventHandlerManagerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "currentHandler": {
+      "name": "currentHandler",
+      "pointer": false,
+      "type": "__kindof MSEventHandler ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "normalHandler": {
+      "name": "normalHandler",
+      "pointer": false,
+      "type": "MSNormalEventHandler ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lastMouseDownClickCount": {
+      "name": "lastMouseDownClickCount",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lastEventType": {
+      "name": "lastEventType",
+      "pointer": false,
+      "type": "MSEventType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

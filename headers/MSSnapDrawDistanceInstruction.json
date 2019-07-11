@@ -1,0 +1,54 @@
+{
+  "name": "MSSnapDrawDistanceInstruction",
+  "extends": "MSSnapDrawInstruction",
+  "interfaces": [],
+  "methods": {
+    "distanceInstructionBetween:axis:": {
+      "name": "distanceInstructionBetween:axis:",
+      "bridgedName": "distanceInstructionBetween_axis",
+      "args": [
+        {
+          "name": "items",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rect": {
+      "name": "rect",
+      "bridgedName": "rect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "items": {
+      "name": "items",
+      "pointer": false,
+      "type": "NSArray <MSSnapItem *> ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

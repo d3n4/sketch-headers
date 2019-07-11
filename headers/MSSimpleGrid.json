@@ -1,0 +1,47 @@
+{
+  "name": "MSSimpleGrid",
+  "extends": "_MSSimpleGrid",
+  "interfaces": [],
+  "methods": {
+    "horizontalGuidesForRulerData:inRect:": {
+      "name": "horizontalGuidesForRulerData:inRect:",
+      "bridgedName": "horizontalGuidesForRulerData_inRect",
+      "args": [
+        {
+          "name": "rulerData",
+          "type": "MSRulerData *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verticalGuidesForRulerData:inRect:": {
+      "name": "verticalGuidesForRulerData:inRect:",
+      "bridgedName": "verticalGuidesForRulerData_inRect",
+      "args": [
+        {
+          "name": "rulerData",
+          "type": "MSRulerData *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

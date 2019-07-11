@@ -1,0 +1,8 @@
+{
+  "name": "MSSharedSymbolAction",
+  "extends": "MSSharedObjectAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

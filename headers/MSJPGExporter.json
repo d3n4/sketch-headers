@@ -1,0 +1,8 @@
+{
+  "name": "MSJPGExporter",
+  "extends": "MSExporter",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

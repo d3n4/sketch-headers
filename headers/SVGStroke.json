@@ -1,0 +1,33 @@
+{
+  "name": "SVGStroke",
+  "extends": "_SVGStroke",
+  "interfaces": [],
+  "methods": {
+    "strokeForXML:element:parent:": {
+      "name": "strokeForXML:element:parent:",
+      "bridgedName": "strokeForXML_element_parent",
+      "args": [
+        {
+          "name": "xml",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "element",
+          "type": "SVGElement*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SVGDrawableElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "SVGStroke*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

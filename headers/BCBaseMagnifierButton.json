@@ -1,0 +1,17 @@
+{
+  "name": "BCBaseMagnifierButton",
+  "extends": "NSButton",
+  "interfaces": [],
+  "methods": {
+    "color": {
+      "name": "color",
+      "bridgedName": "color",
+      "args": [],
+      "returns": "BCFlexibleColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

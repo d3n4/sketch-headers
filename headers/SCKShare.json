@@ -1,0 +1,67 @@
+{
+  "name": "SCKShare",
+  "extends": "SCKObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "shortID": {
+      "name": "shortID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "publicURL": {
+      "name": "publicURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "isPrivate": {
+      "name": "isPrivate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "userID": {
+      "name": "userID",
+      "pointer": false,
+      "type": "SCKObjectID ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "commentsEnabled": {
+      "name": "commentsEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentVersion": {
+      "name": "currentVersion",
+      "pointer": false,
+      "type": "SCKShareVersion ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

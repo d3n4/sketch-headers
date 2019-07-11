@@ -1,0 +1,62 @@
+{
+  "name": "MSTextStyleMenuPreview",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "applyStyle:toMenuItem:includeStyleInfo:": {
+      "name": "applyStyle:toMenuItem:includeStyleInfo:",
+      "bridgedName": "applyStyle_toMenuItem_includeStyleInfo",
+      "args": [
+        {
+          "name": "style",
+          "type": "MSSharedStyle *",
+          "nullable": false
+        },
+        {
+          "name": "item",
+          "type": "NSMenuItem *",
+          "nullable": false
+        },
+        {
+          "name": "includeInfo",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributedTitle:style:includeStyleInfo:inMainMenu:": {
+      "name": "attributedTitle:style:includeStyleInfo:inMainMenu:",
+      "bridgedName": "attributedTitle_style_includeStyleInfo_inMainMenu",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "textStyle",
+          "type": "MSSharedStyle *",
+          "nullable": false
+        },
+        {
+          "name": "includeInfo",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "inMainMenu",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAttributedString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}
