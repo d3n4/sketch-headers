@@ -3,16 +3,6 @@
   "extends": "NSLayoutManager",
   "interfaces": [],
   "methods": {},
-  "properties": {
-    "constantBaselineTypesetter": {
-      "name": "constantBaselineTypesetter",
-      "pointer": false,
-      "type": "MSConstantBaselineTypesetter ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

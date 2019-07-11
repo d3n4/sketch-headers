@@ -38,6 +38,14 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "removeAllObjects": {
+      "name": "removeAllObjects",
+      "bridgedName": "removeAllObjects",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

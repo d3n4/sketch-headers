@@ -37,6 +37,7 @@
       "type": "MSSymbolInstance ",
       "attributes": [
         "nonatomic",
+        "weak",
         "readonly"
       ]
     }
