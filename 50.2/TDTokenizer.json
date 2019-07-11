@@ -1,0 +1,141 @@
+{
+  "name": "TDTokenizer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "tokenizer": {
+      "name": "tokenizer",
+      "bridgedName": "tokenizer",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tokenizerWithString:": {
+      "name": "tokenizerWithString:",
+      "bridgedName": "tokenizerWithString",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithString:": {
+      "name": "initWithString:",
+      "bridgedName": "initWithString",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nextToken": {
+      "name": "nextToken",
+      "bridgedName": "nextToken",
+      "args": [],
+      "returns": "TDToken *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setTokenizerState:from:to:": {
+      "name": "setTokenizerState:from:to:",
+      "bridgedName": "setTokenizerState_from_to",
+      "args": [
+        {
+          "name": "state",
+          "type": "TDTokenizerState *",
+          "nullable": false
+        },
+        {
+          "name": "start",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "end",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "string": {
+      "name": "string",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    },
+    "numberState": {
+      "name": "numberState",
+      "pointer": false,
+      "type": "TDNumberState ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    },
+    "quoteState": {
+      "name": "quoteState",
+      "pointer": false,
+      "type": "TDQuoteState ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    },
+    "commentState": {
+      "name": "commentState",
+      "pointer": false,
+      "type": "TDCommentState ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    },
+    "symbolState": {
+      "name": "symbolState",
+      "pointer": false,
+      "type": "TDSymbolState ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    },
+    "whitespaceState": {
+      "name": "whitespaceState",
+      "pointer": false,
+      "type": "TDWhitespaceState ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    },
+    "wordState": {
+      "name": "wordState",
+      "pointer": false,
+      "type": "TDWordState ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    }
+  },
+  "generics": []
+}

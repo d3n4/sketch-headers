@@ -1,0 +1,78 @@
+{
+  "name": "PDFPattern",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "patternWithResource:": {
+      "name": "patternWithResource:",
+      "bridgedName": "patternWithResource",
+      "args": [
+        {
+          "name": "resource",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "PDFPattern*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithResource:": {
+      "name": "initWithResource:",
+      "bridgedName": "initWithResource",
+      "args": [
+        {
+          "name": "resource",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "shadingType": {
+      "name": "shadingType",
+      "pointer": false,
+      "type": "ShadingType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "function": {
+      "name": "function",
+      "pointer": false,
+      "type": "PDFFunction*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "space": {
+      "name": "space",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "coords": {
+      "name": "coords",
+      "pointer": false,
+      "type": "NSArray*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

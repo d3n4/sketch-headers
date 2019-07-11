@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSLocalDataSupplierDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "locaDataSupplierDataChanged:": {
+      "name": "locaDataSupplierDataChanged:",
+      "bridgedName": "locaDataSupplierDataChanged",
+      "args": [
+        {
+          "name": "localDataSupplier",
+          "type": "MSLocalDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isBuiltinDataSupplier:": {
+      "name": "isBuiltinDataSupplier:",
+      "bridgedName": "isBuiltinDataSupplier",
+      "args": [
+        {
+          "name": "localDataSupplier",
+          "type": "MSLocalDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

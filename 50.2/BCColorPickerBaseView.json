@@ -1,0 +1,131 @@
+{
+  "name": "BCColorPickerBaseView",
+  "extends": "NSControl",
+  "interfaces": [],
+  "methods": {
+    "initInBounds:": {
+      "name": "initInBounds:",
+      "bridgedName": "initInBounds",
+      "args": [
+        {
+          "name": "colorPickerBounds",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawContentInRect:dirtyRect:": {
+      "name": "drawContentInRect:dirtyRect:",
+      "bridgedName": "drawContentInRect_dirtyRect",
+      "args": [
+        {
+          "name": "contentRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawCheckerboardPatternInRect:": {
+      "name": "drawCheckerboardPatternInRect:",
+      "bridgedName": "drawCheckerboardPatternInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawMarkerInRect:": {
+      "name": "drawMarkerInRect:",
+      "bridgedName": "drawMarkerInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contentBounds": {
+      "name": "contentBounds",
+      "bridgedName": "contentBounds",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "markerShadow": {
+      "name": "markerShadow",
+      "bridgedName": "markerShadow",
+      "args": [],
+      "returns": "NSShadow *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "darkShadow": {
+      "name": "darkShadow",
+      "bridgedName": "darkShadow",
+      "args": [],
+      "returns": "NSShadow *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawFrameInRect:block:": {
+      "name": "drawFrameInRect:block:",
+      "bridgedName": "drawFrameInRect_block",
+      "args": [
+        {
+          "name": "contentRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "target": {
+      "name": "target",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    },
+    "action": {
+      "name": "action",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "atomic"
+      ]
+    }
+  },
+  "generics": []
+}

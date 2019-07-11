@@ -1,0 +1,21 @@
+{
+  "name": "MSWelcomeCollectionViewItem",
+  "extends": "NSCollectionViewItem",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {},
+  "properties": {
+    "collectionItem": {
+      "name": "collectionItem",
+      "pointer": false,
+      "type": "MSWelcomeCollectionItem ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

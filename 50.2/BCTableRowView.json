@@ -1,0 +1,54 @@
+{
+  "name": "BCTableRowView",
+  "extends": "NSTableRowView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "parent": {
+      "name": "parent",
+      "pointer": false,
+      "type": "NSTableView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "node": {
+      "name": "node",
+      "pointer": false,
+      "type": "NSObject<BCOutlineViewNode> ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "NSObject<BCTableRowViewDelegate> ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "displayType": {
+      "name": "displayType",
+      "pointer": false,
+      "type": "BCOutlineViewDisplayType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "expansionState": {
+      "name": "expansionState",
+      "pointer": false,
+      "type": "BCOutlineViewNodeExpansionState",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

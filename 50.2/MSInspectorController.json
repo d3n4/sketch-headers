@@ -1,0 +1,295 @@
+{
+  "name": "MSInspectorController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "NSTouchBarDelegate"
+  ],
+  "methods": {
+    "selectionDidChangeTo:": {
+      "name": "selectionDidChangeTo:",
+      "bridgedName": "selectionDidChangeTo",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeColor:": {
+      "name": "changeColor:",
+      "bridgedName": "changeColor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerPositionPossiblyChanged": {
+      "name": "layerPositionPossiblyChanged",
+      "bridgedName": "layerPositionPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentHandlerChanged": {
+      "name": "currentHandlerChanged",
+      "bridgedName": "currentHandlerChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handlerManager": {
+      "name": "handlerManager",
+      "bridgedName": "handlerManager",
+      "args": [],
+      "returns": "MSEventHandlerManager *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeTextLayerFont:": {
+      "name": "changeTextLayerFont:",
+      "bridgedName": "changeTextLayerFont",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginRenameSharedObject:completionBlock:": {
+      "name": "beginRenameSharedObject:completionBlock:",
+      "bridgedName": "beginRenameSharedObject_completionBlock",
+      "args": [
+        {
+          "name": "sharedObject",
+          "type": "MSSharedObject *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSRenameSharedObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWithSharedStyleDidChange": {
+      "name": "layerWithSharedStyleDidChange",
+      "bridgedName": "layerWithSharedStyleDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadSharedObjectsSection": {
+      "name": "reloadSharedObjectsSection",
+      "bridgedName": "reloadSharedObjectsSection",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateAlignmentButtons": {
+      "name": "validateAlignmentButtons",
+      "bridgedName": "validateAlignmentButtons",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reload": {
+      "name": "reload",
+      "bridgedName": "reload",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "focusOnTextField:": {
+      "name": "focusOnTextField:",
+      "bridgedName": "focusOnTextField",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layoutExportPanel": {
+      "name": "layoutExportPanel",
+      "bridgedName": "layoutExportPanel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showFillOptionsAction:": {
+      "name": "showFillOptionsAction:",
+      "bridgedName": "showFillOptionsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showBorderOptionsAction:": {
+      "name": "showBorderOptionsAction:",
+      "bridgedName": "showBorderOptionsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openPopoverForStylePart:atIndex:": {
+      "name": "openPopoverForStylePart:atIndex:",
+      "bridgedName": "openPopoverForStylePart_atIndex",
+      "args": [
+        {
+          "name": "stylePart",
+          "type": "MSStylePartType",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustInspectorToColorPopover:sender:": {
+      "name": "adjustInspectorToColorPopover:sender:",
+      "bridgedName": "adjustInspectorToColorPopover_sender",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closeAnyColorPopover": {
+      "name": "closeAnyColorPopover",
+      "bridgedName": "closeAnyColorPopover",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadTouchBars": {
+      "name": "reloadTouchBars",
+      "bridgedName": "reloadTouchBars",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "currentController": {
+      "name": "currentController",
+      "pointer": false,
+      "type": "NSViewController <MSInspectorChildController> ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "globalAssets": {
+      "name": "globalAssets",
+      "pointer": false,
+      "type": "MSPersistentAssetCollection ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "bottomExporter": {
+      "name": "bottomExporter",
+      "pointer": false,
+      "type": "MSExportInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "alignmentBarHidden": {
+      "name": "alignmentBarHidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "exportPanelHidden": {
+      "name": "exportPanelHidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "sharedStyleInspectorVisible": {
+      "name": "sharedStyleInspectorVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "BCReceiptValidationContext",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

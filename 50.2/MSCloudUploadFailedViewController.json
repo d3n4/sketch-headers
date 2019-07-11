@@ -1,0 +1,29 @@
+{
+  "name": "MSCloudUploadFailedViewController",
+  "extends": "MSCloudBaseViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "existingShare": {
+      "name": "existingShare",
+      "pointer": false,
+      "type": "SCKShare ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSCurveModeDisconnectedAction",
+  "extends": "MSCurveModeAdjustAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

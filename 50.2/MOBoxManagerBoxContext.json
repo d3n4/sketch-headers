@@ -1,0 +1,42 @@
+{
+  "name": "MOBoxManagerBoxContext",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithManager:object:": {
+      "name": "initWithManager:object:",
+      "bridgedName": "initWithManager_object",
+      "args": [
+        {
+          "name": "manager",
+          "type": "MOBoxManager*",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "finishMakingBoxForObject:": {
+      "name": "finishMakingBoxForObject:",
+      "bridgedName": "finishMakingBoxForObject",
+      "args": [
+        {
+          "name": "jsObject",
+          "type": "JSObjectRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

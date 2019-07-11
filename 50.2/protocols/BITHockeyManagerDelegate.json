@@ -1,0 +1,66 @@
+{
+  "protocol": true,
+  "name": "BITHockeyManagerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "userIDForHockeyManager:componentManager:": {
+      "name": "userIDForHockeyManager:componentManager:",
+      "bridgedName": "userIDForHockeyManager_componentManager",
+      "args": [
+        {
+          "name": "hockeyManager",
+          "type": "BITHockeyManager *",
+          "nullable": false
+        },
+        {
+          "name": "componentManager",
+          "type": "BITHockeyBaseManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "userNameForHockeyManager:componentManager:": {
+      "name": "userNameForHockeyManager:componentManager:",
+      "bridgedName": "userNameForHockeyManager_componentManager",
+      "args": [
+        {
+          "name": "hockeyManager",
+          "type": "BITHockeyManager *",
+          "nullable": false
+        },
+        {
+          "name": "componentManager",
+          "type": "BITHockeyBaseManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "userEmailForHockeyManager:componentManager:": {
+      "name": "userEmailForHockeyManager:componentManager:",
+      "bridgedName": "userEmailForHockeyManager_componentManager",
+      "args": [
+        {
+          "name": "hockeyManager",
+          "type": "BITHockeyManager *",
+          "nullable": false
+        },
+        {
+          "name": "componentManager",
+          "type": "BITHockeyBaseManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

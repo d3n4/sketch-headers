@@ -1,0 +1,35 @@
+{
+  "name": "MSSharedStyle",
+  "extends": "_MSSharedStyle",
+  "interfaces": [],
+  "methods": {
+    "resetReferencingInstances": {
+      "name": "resetReferencingInstances",
+      "bridgedName": "resetReferencingInstances",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "newInstance": {
+      "name": "newInstance",
+      "bridgedName": "newInstance",
+      "args": [],
+      "returns": "MSStyle*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "style": {
+      "name": "style",
+      "pointer": false,
+      "type": "MSStyle*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

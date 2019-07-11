@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "MSBackgroundBlurRenderer",
+  "extends": "MSRenderer",
+  "interfaces": [],
+  "methods": {
+    "renderBackgroundBlurBehindShape:context:clippedToPath:": {
+      "name": "renderBackgroundBlurBehindShape:context:clippedToPath:",
+      "bridgedName": "renderBackgroundBlurBehindShape_context_clippedToPath",
+      "args": [
+        {
+          "name": "shape",
+          "type": "MSImmutableShapeGroup*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        },
+        {
+          "name": "path",
+          "type": "MSPath*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

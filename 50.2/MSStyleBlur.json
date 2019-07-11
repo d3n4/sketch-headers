@@ -1,0 +1,17 @@
+{
+  "name": "MSStyleBlur",
+  "extends": "_MSStyleBlur",
+  "interfaces": [],
+  "methods": {
+    "cropRadius": {
+      "name": "cropRadius",
+      "bridgedName": "cropRadius",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

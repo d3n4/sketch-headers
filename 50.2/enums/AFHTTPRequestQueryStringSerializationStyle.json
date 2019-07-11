@@ -1,0 +1,10 @@
+{
+  "enum": true,
+  "name": "AFHTTPRequestQueryStringSerializationStyle",
+  "members": [
+    {
+      "name": "AFHTTPRequestQueryStringDefaultStyle",
+      "value": "0"
+    }
+  ]
+}

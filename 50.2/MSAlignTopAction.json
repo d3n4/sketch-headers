@@ -1,0 +1,23 @@
+{
+  "name": "MSAlignTopAction",
+  "extends": "MSTextVerticalAlignmentAction",
+  "interfaces": [],
+  "methods": {
+    "alignTop:": {
+      "name": "alignTop:",
+      "bridgedName": "alignTop",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,38 @@
+{
+  "name": "MSImmutableBitmapLayer",
+  "extends": "_MSImmutableBitmapLayer",
+  "interfaces": [],
+  "methods": {
+    "NSImage": {
+      "name": "NSImage",
+      "bridgedName": "NSImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "fillReplacesImage": {
+      "name": "fillReplacesImage",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

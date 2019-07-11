@@ -1,0 +1,18 @@
+{
+  "name": "BCLicense",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "applicationID": {
+      "name": "applicationID",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,67 @@
+{
+  "name": "SMKWebServerConnection",
+  "extends": "SMKConnection",
+  "interfaces": [],
+  "methods": {
+    "port": {
+      "name": "port",
+      "bridgedName": "port",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithNetService:": {
+      "name": "initWithNetService:",
+      "bridgedName": "initWithNetService",
+      "args": [
+        {
+          "name": "netService",
+          "type": "nonnull NSNetService *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithWebSocket:": {
+      "name": "initWithWebSocket:",
+      "bridgedName": "initWithWebSocket",
+      "args": [
+        {
+          "name": "webSocket",
+          "type": "nonnull PSWebSocket *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "netService": {
+      "name": "netService",
+      "pointer": false,
+      "type": "NSNetService ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "webSocket": {
+      "name": "webSocket",
+      "pointer": false,
+      "type": "PSWebSocket ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

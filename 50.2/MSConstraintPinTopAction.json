@@ -1,0 +1,23 @@
+{
+  "name": "MSConstraintPinTopAction",
+  "extends": "MSConstraintAction",
+  "interfaces": [],
+  "methods": {
+    "pinTopAction:": {
+      "name": "pinTopAction:",
+      "bridgedName": "pinTopAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

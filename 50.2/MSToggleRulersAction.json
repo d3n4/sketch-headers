@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleRulersAction",
+  "extends": "MSToggleVisibilityAction",
+  "interfaces": [],
+  "methods": {
+    "toggleRulers:": {
+      "name": "toggleRulers:",
+      "bridgedName": "toggleRulers",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

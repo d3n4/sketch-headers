@@ -1,0 +1,46 @@
+{
+  "name": "MSImmutableStyleFill",
+  "extends": "_MSImmutableStyleFill",
+  "interfaces": [],
+  "methods": {
+    "NSImage": {
+      "name": "NSImage",
+      "bridgedName": "NSImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSVGAttributes:exporter:": {
+      "name": "addSVGAttributes:exporter:",
+      "bridgedName": "addSVGAttributes_exporter",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasOpacity": {
+      "name": "hasOpacity",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

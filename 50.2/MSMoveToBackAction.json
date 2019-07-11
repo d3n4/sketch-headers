@@ -1,0 +1,23 @@
+{
+  "name": "MSMoveToBackAction",
+  "extends": "MSBaseMoveBackwardAction",
+  "interfaces": [],
+  "methods": {
+    "moveToBack:": {
+      "name": "moveToBack:",
+      "bridgedName": "moveToBack",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

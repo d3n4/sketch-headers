@@ -1,0 +1,8 @@
+{
+  "name": "MSBitmapLayerSection",
+  "extends": "MSLayerSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

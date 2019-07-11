@@ -1,0 +1,8 @@
+{
+  "name": "MSAutoCappingNumberFormatter",
+  "extends": "MSMathNumberFormatter",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

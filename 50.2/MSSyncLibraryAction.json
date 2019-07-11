@@ -1,0 +1,10 @@
+{
+  "name": "MSSyncLibraryAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "MSWindowBadgeAction"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

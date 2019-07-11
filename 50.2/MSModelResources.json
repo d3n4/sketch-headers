@@ -1,0 +1,87 @@
+{
+  "name": "MSModelResources",
+  "extends": "BCSingleton",
+  "interfaces": [],
+  "methods": {
+    "preloadResources": {
+      "name": "preloadResources",
+      "bridgedName": "preloadResources",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "URLForImageResource:": {
+      "name": "URLForImageResource:",
+      "bridgedName": "URLForImageResource",
+      "args": [
+        {
+          "name": "resource",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "URLForResource:withExtension:": {
+      "name": "URLForResource:withExtension:",
+      "bridgedName": "URLForResource_withExtension",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "ext",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resourcesNeedingMigration": {
+      "name": "resourcesNeedingMigration",
+      "bridgedName": "resourcesNeedingMigration",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "bundle": {
+      "name": "bundle",
+      "pointer": false,
+      "type": "NSBundle*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "noiseImages": {
+      "name": "noiseImages",
+      "pointer": false,
+      "type": "NSArray*",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "errorPattern": {
+      "name": "errorPattern",
+      "pointer": false,
+      "type": "NSBitmapImageRep*",
+      "attributes": [
+        "copy",
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,325 @@
+{
+  "name": "SketchSVGExporter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithImmutableDocument:exportRect:layerIDs:": {
+      "name": "initWithImmutableDocument:exportRect:layerIDs:",
+      "bridgedName": "initWithImmutableDocument_exportRect_layerIDs",
+      "args": [
+        {
+          "name": "immutableDocument",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "exportRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "layerIDs",
+          "type": "NSSet <NSString*>*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithName:exportRequest:": {
+      "name": "initWithName:exportRequest:",
+      "bridgedName": "initWithName_exportRequest",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "request",
+          "type": "MSExportRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportLayers:": {
+      "name": "exportLayers:",
+      "bridgedName": "exportLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pushParent:": {
+      "name": "pushParent:",
+      "bridgedName": "pushParent",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "popParent": {
+      "name": "popParent",
+      "bridgedName": "popParent",
+      "args": [],
+      "returns": "MSImmutableLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "parentForLayer:": {
+      "name": "parentForLayer:",
+      "bridgedName": "parentForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performWithParent:block:": {
+      "name": "performWithParent:block:",
+      "bridgedName": "performWithParent_block",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ancestorsForLayer:": {
+      "name": "ancestorsForLayer:",
+      "bridgedName": "ancestorsForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawSymbolInstance:inBlock:": {
+      "name": "drawSymbolInstance:inBlock:",
+      "bridgedName": "drawSymbolInstance_inBlock",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSImmutableSymbolInstance*",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isDrawingSymbol": {
+      "name": "isDrawingSymbol",
+      "bridgedName": "isDrawingSymbol",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDefinitionWithName:children:attributes:": {
+      "name": "addDefinitionWithName:children:attributes:",
+      "bridgedName": "addDefinitionWithName_children_attributes",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "children",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "attributes",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSXMLElement*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addGradient:inRect:": {
+      "name": "addGradient:inRect:",
+      "bridgedName": "addGradient_inRect",
+      "args": [
+        {
+          "name": "gradient",
+          "type": "MSImmutableGradient*",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "MSImmutableRect *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "gradientElement:inRect:": {
+      "name": "gradientElement:inRect:",
+      "bridgedName": "gradientElement_inRect",
+      "args": [
+        {
+          "name": "gradient",
+          "type": "MSImmutableGradient*",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "MSImmutableRect *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSXMLElement*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "uniqueIDForElementWithName:": {
+      "name": "uniqueIDForElementWithName:",
+      "bridgedName": "uniqueIDForElementWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginFilterGroup": {
+      "name": "beginFilterGroup",
+      "bridgedName": "beginFilterGroup",
+      "args": [],
+      "returns": "MSSVGFilter*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endFilterGroup": {
+      "name": "endFilterGroup",
+      "bridgedName": "endFilterGroup",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerIsIncluded:": {
+      "name": "layerIsIncluded:",
+      "bridgedName": "layerIsIncluded",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "exportBounds": {
+      "name": "exportBounds",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "mask": {
+      "name": "mask",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "currentShapeDef": {
+      "name": "currentShapeDef",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "currentFilterGroup": {
+      "name": "currentFilterGroup",
+      "pointer": false,
+      "type": "MSSVGFilter ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentSymbolInstance": {
+      "name": "currentSymbolInstance",
+      "pointer": false,
+      "type": "MSImmutableSymbolInstance ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

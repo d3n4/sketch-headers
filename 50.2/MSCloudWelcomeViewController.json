@@ -1,0 +1,8 @@
+{
+  "name": "MSCloudWelcomeViewController",
+  "extends": "MSCloudBaseViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

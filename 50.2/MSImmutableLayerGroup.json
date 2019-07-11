@@ -1,0 +1,79 @@
+{
+  "name": "MSImmutableLayerGroup",
+  "extends": "_MSImmutableLayerGroup",
+  "interfaces": [
+    "MSLayerGroup"
+  ],
+  "methods": {
+    "influenceRectClipsToBounds": {
+      "name": "influenceRectClipsToBounds",
+      "bridgedName": "influenceRectClipsToBounds",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "includeChildrenInCalculatingStyleSize": {
+      "name": "includeChildrenInCalculatingStyleSize",
+      "bridgedName": "includeChildrenInCalculatingStyleSize",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "constraintForLayer:": {
+      "name": "constraintForLayer:",
+      "bridgedName": "constraintForLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BCConstraint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addChildrenToElement:exporter:": {
+      "name": "addChildrenToElement:exporter:",
+      "bridgedName": "addChildrenToElement_exporter",
+      "args": [
+        {
+          "name": "parentElement",
+          "type": "NSXMLElement*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "mirrorExportScale": {
+      "name": "mirrorExportScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "mirrorViewPortSize": {
+      "name": "mirrorViewPortSize",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

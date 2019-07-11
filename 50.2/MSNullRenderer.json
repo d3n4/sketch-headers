@@ -1,0 +1,10 @@
+{
+  "name": "MSNullRenderer",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSAllRenderers"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,191 @@
+{
+  "name": "MSSnapperData",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "accumulatorForAxis:": {
+      "name": "accumulatorForAxis:",
+      "bridgedName": "accumulatorForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSSnappingAccumulator *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstDimensionMeasurementForAxis:": {
+      "name": "firstDimensionMeasurementForAxis:",
+      "bridgedName": "firstDimensionMeasurementForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDimensionMeasurement *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDimensionMeasurement:": {
+      "name": "addDimensionMeasurement:",
+      "bridgedName": "addDimensionMeasurement",
+      "args": [
+        {
+          "name": "measurement",
+          "type": "MSDimensionMeasurement *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstDistanceMeasurementForAxis:": {
+      "name": "firstDistanceMeasurementForAxis:",
+      "bridgedName": "firstDistanceMeasurementForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDistanceMeasurement *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addDistanceMeasurement:": {
+      "name": "addDistanceMeasurement:",
+      "bridgedName": "addDistanceMeasurement",
+      "args": [
+        {
+          "name": "instruction",
+          "type": "MSDistanceMeasurement *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateMeasurementsUsingBlock:": {
+      "name": "enumerateMeasurementsUsingBlock:",
+      "bridgedName": "enumerateMeasurementsUsingBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(MSSnappingMeasurement *measurement)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTarget:": {
+      "name": "addTarget:",
+      "bridgedName": "addTarget",
+      "args": [
+        {
+          "name": "target",
+          "type": "MSSnappingTarget *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "extendGuideForAxis:toStartPosition:endPosition:": {
+      "name": "extendGuideForAxis:toStartPosition:endPosition:",
+      "bridgedName": "extendGuideForAxis_toStartPosition_endPosition",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "start",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "end",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetSnappingForAxis:": {
+      "name": "resetSnappingForAxis:",
+      "bridgedName": "resetSnappingForAxis",
+      "args": [
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawForGroup:zoom:": {
+      "name": "drawForGroup:zoom:",
+      "bridgedName": "drawForGroup_zoom",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "xAxisAccumulator": {
+      "name": "xAxisAccumulator",
+      "pointer": false,
+      "type": "MSSnappingAccumulator ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "yAxisAccumulator": {
+      "name": "yAxisAccumulator",
+      "pointer": false,
+      "type": "MSSnappingAccumulator ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "measurementAxes": {
+      "name": "measurementAxes",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,120 @@
+{
+  "name": "CHSheetController",
+  "extends": "CHWindowController",
+  "interfaces": [
+    "NSTouchBarDelegate"
+  ],
+  "methods": {
+    "runForWindow:": {
+      "name": "runForWindow:",
+      "bridgedName": "runForWindow",
+      "args": [
+        {
+          "name": "window",
+          "type": "NSWindow *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "runForWindow:withObject:": {
+      "name": "runForWindow:withObject:",
+      "bridgedName": "runForWindow_withObject",
+      "args": [
+        {
+          "name": "window",
+          "type": "NSWindow *",
+          "nullable": false
+        },
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "run": {
+      "name": "run",
+      "bridgedName": "run",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "confirm:": {
+      "name": "confirm:",
+      "bridgedName": "confirm",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancel:": {
+      "name": "cancel:",
+      "bridgedName": "cancel",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "_init": {
+      "name": "_init",
+      "bridgedName": "_init",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "touchBarItemIdentifiers": {
+      "name": "touchBarItemIdentifiers",
+      "bridgedName": "touchBarItemIdentifiers",
+      "args": [],
+      "returns": "NSArray <NSTouchBarItemIdentifier> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectorForTouchbarItemIdentifier:": {
+      "name": "selectorForTouchbarItemIdentifier:",
+      "bridgedName": "selectorForTouchbarItemIdentifier",
+      "args": [
+        {
+          "name": "itemIdentifier",
+          "type": "NSTouchBarItemIdentifier",
+          "nullable": false
+        }
+      ],
+      "returns": "SEL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "object": {
+      "name": "object",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

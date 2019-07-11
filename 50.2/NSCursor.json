@@ -1,0 +1,170 @@
+{
+  "name": "NSCursor",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "cursorWithImageNamed:": {
+      "name": "cursorWithImageNamed:",
+      "bridgedName": "cursorWithImageNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "cursorWithImageNamed:hotSpot:": {
+      "name": "cursorWithImageNamed:hotSpot:",
+      "bridgedName": "cursorWithImageNamed_hotSpot",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "spot",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "penCursor": {
+      "name": "penCursor",
+      "bridgedName": "penCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "penAddCursor": {
+      "name": "penAddCursor",
+      "bridgedName": "penAddCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "penCloseCursor": {
+      "name": "penCloseCursor",
+      "bridgedName": "penCloseCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pencilCursor": {
+      "name": "pencilCursor",
+      "bridgedName": "pencilCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "resizeHorCursor": {
+      "name": "resizeHorCursor",
+      "bridgedName": "resizeHorCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "resizeVerCursor": {
+      "name": "resizeVerCursor",
+      "bridgedName": "resizeVerCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "resizeTopLeftToBottomRightCursor": {
+      "name": "resizeTopLeftToBottomRightCursor",
+      "bridgedName": "resizeTopLeftToBottomRightCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "resizeBottomLeftToTopRightCursor": {
+      "name": "resizeBottomLeftToTopRightCursor",
+      "bridgedName": "resizeBottomLeftToTopRightCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotateBottomRightCursor": {
+      "name": "rotateBottomRightCursor",
+      "bridgedName": "rotateBottomRightCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotateBottomLeftCursor": {
+      "name": "rotateBottomLeftCursor",
+      "bridgedName": "rotateBottomLeftCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotateTopLeftCursor": {
+      "name": "rotateTopLeftCursor",
+      "bridgedName": "rotateTopLeftCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotateTopRightCursor": {
+      "name": "rotateTopRightCursor",
+      "bridgedName": "rotateTopRightCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotateLeftCursor": {
+      "name": "rotateLeftCursor",
+      "bridgedName": "rotateLeftCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotateRightCursor": {
+      "name": "rotateRightCursor",
+      "bridgedName": "rotateRightCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotateTopCursor": {
+      "name": "rotateTopCursor",
+      "bridgedName": "rotateTopCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotateBottomCursor": {
+      "name": "rotateBottomCursor",
+      "bridgedName": "rotateBottomCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

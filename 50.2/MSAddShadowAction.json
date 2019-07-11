@@ -1,0 +1,23 @@
+{
+  "name": "MSAddShadowAction",
+  "extends": "MSBaseStyleAction",
+  "interfaces": [],
+  "methods": {
+    "addShadow:": {
+      "name": "addShadow:",
+      "bridgedName": "addShadow",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

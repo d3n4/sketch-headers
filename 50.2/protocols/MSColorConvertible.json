@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSColorConvertible",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "convertColorsUsing:": {
+      "name": "convertColorsUsing:",
+      "bridgedName": "convertColorsUsing",
+      "args": [
+        {
+          "name": "converter",
+          "type": "id<MSColorConverter>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

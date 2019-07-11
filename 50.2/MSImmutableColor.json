@@ -1,0 +1,437 @@
+{
+  "name": "MSImmutableColor",
+  "extends": "_MSImmutableColor",
+  "interfaces": [
+    "MSColor"
+  ],
+  "methods": {
+    "colorWithNSColor:": {
+      "name": "colorWithNSColor:",
+      "bridgedName": "colorWithNSColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorWithRed:green:blue:alpha:": {
+      "name": "colorWithRed:green:blue:alpha:",
+      "bridgedName": "colorWithRed_green_blue_alpha",
+      "args": [
+        {
+          "name": "red",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "green",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "blue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorWithWhite:alpha:": {
+      "name": "colorWithWhite:alpha:",
+      "bridgedName": "colorWithWhite_alpha",
+      "args": [
+        {
+          "name": "white",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorWithIntegerRed:green:blue:": {
+      "name": "colorWithIntegerRed:green:blue:",
+      "bridgedName": "colorWithIntegerRed_green_blue",
+      "args": [
+        {
+          "name": "red",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "green",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "blue",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorWithIntegerRed:green:blue:alpha:": {
+      "name": "colorWithIntegerRed:green:blue:alpha:",
+      "bridgedName": "colorWithIntegerRed_green_blue_alpha",
+      "args": [
+        {
+          "name": "red",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "green",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "blue",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "whiteColor": {
+      "name": "whiteColor",
+      "bridgedName": "whiteColor",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "blackColor": {
+      "name": "blackColor",
+      "bridgedName": "blackColor",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "availableRGBColorSpaces": {
+      "name": "availableRGBColorSpaces",
+      "bridgedName": "availableRGBColorSpaces",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "NSColorWithColorSpace:": {
+      "name": "NSColorWithColorSpace:",
+      "bridgedName": "NSColorWithColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "newCGColorWithColorSpace:": {
+      "name": "newCGColorWithColorSpace:",
+      "bridgedName": "newCGColorWithColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "CGColorSpaceRef",
+          "nullable": false
+        }
+      ],
+      "returns": "CGColorRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getRed:green:blue:fromHexValue:": {
+      "name": "getRed:green:blue:fromHexValue:",
+      "bridgedName": "getRed_green_blue_fromHexValue",
+      "args": [
+        {
+          "name": "red",
+          "type": "CGFloat *",
+          "nullable": false
+        },
+        {
+          "name": "green",
+          "type": "CGFloat *",
+          "nullable": false
+        },
+        {
+          "name": "blue",
+          "type": "CGFloat *",
+          "nullable": false
+        },
+        {
+          "name": "hexValue",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "hexValueForRed:green:blue:": {
+      "name": "hexValueForRed:green:blue:",
+      "bridgedName": "hexValueForRed_green_blue",
+      "args": [
+        {
+          "name": "red",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "green",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "blue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "hexValue": {
+      "name": "hexValue",
+      "bridgedName": "hexValue",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isWhite": {
+      "name": "isWhite",
+      "bridgedName": "isWhite",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isBlack": {
+      "name": "isBlack",
+      "bridgedName": "isBlack",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isGrayscale": {
+      "name": "isGrayscale",
+      "bridgedName": "isGrayscale",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fuzzyIsEqual:": {
+      "name": "fuzzyIsEqual:",
+      "bridgedName": "fuzzyIsEqual",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fuzzyIsEqual:precision:": {
+      "name": "fuzzyIsEqual:precision:",
+      "bridgedName": "fuzzyIsEqual_precision",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        },
+        {
+          "name": "precision",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fuzzyIsEqualExcludingAlpha:": {
+      "name": "fuzzyIsEqualExcludingAlpha:",
+      "bridgedName": "fuzzyIsEqualExcludingAlpha",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fuzzyIsEqualExcludingAlpha:precision:": {
+      "name": "fuzzyIsEqualExcludingAlpha:precision:",
+      "bridgedName": "fuzzyIsEqualExcludingAlpha_precision",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        },
+        {
+          "name": "precision",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorWithAlphaComponent:": {
+      "name": "colorWithAlphaComponent:",
+      "bridgedName": "colorWithAlphaComponent",
+      "args": [
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringValueWithAlpha:": {
+      "name": "stringValueWithAlpha:",
+      "bridgedName": "stringValueWithAlpha",
+      "args": [
+        {
+          "name": "includeAlpha",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringValueWithAlpha:alphaMultiplication:": {
+      "name": "stringValueWithAlpha:alphaMultiplication:",
+      "bridgedName": "stringValueWithAlpha_alphaMultiplication",
+      "args": [
+        {
+          "name": "includeAlpha",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "alphaMultiplication",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "namedColor:": {
+      "name": "namedColor:",
+      "bridgedName": "namedColor",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorWithSVGString:": {
+      "name": "colorWithSVGString:",
+      "bridgedName": "colorWithSVGString",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "svgRepresentation": {
+      "name": "svgRepresentation",
+      "bridgedName": "svgRepresentation",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "NSColorForContext:": {
+      "name": "NSColorForContext:",
+      "bridgedName": "NSColorForContext",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "manifestComponents": {
+      "name": "manifestComponents",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "MSPasteboardImageWriter",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSPasteboardWriter"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

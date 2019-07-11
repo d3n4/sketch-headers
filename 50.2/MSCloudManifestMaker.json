@@ -1,0 +1,19 @@
+{
+  "name": "MSCloudManifestMaker",
+  "extends": "MSManifestMaker",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "imageFileProviderBlock": {
+      "name": "imageFileProviderBlock",
+      "pointer": false,
+      "type": "MSManifestImageProviderBlock",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

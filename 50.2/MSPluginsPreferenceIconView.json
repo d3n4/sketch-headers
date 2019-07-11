@@ -1,0 +1,17 @@
+{
+  "name": "MSPluginsPreferenceIconView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "icon": {
+      "name": "icon",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

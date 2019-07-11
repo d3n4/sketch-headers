@@ -1,0 +1,8 @@
+{
+  "name": "CHVerticallyCentredPopupButtonCell",
+  "extends": "NSPopUpButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

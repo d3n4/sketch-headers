@@ -1,0 +1,23 @@
+{
+  "name": "MSLogAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "print:": {
+      "name": "print:",
+      "bridgedName": "print",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "AFURLRequestSerialization",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "requestBySerializingRequest:withParameters:error:": {
+      "name": "requestBySerializingRequest:withParameters:error:",
+      "bridgedName": "requestBySerializingRequest_withParameters_error",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSURLRequest *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

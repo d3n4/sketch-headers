@@ -1,0 +1,153 @@
+{
+  "name": "_SVGPattern",
+  "extends": "SVGElement",
+  "interfaces": [],
+  "methods": {
+    "propertyNames": {
+      "name": "propertyNames",
+      "bridgedName": "propertyNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "relationshipNames": {
+      "name": "relationshipNames",
+      "bridgedName": "relationshipNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeNames": {
+      "name": "attributeNames",
+      "bridgedName": "attributeNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "primitiveAddUsedByFillsObject:": {
+      "name": "primitiveAddUsedByFillsObject:",
+      "bridgedName": "primitiveAddUsedByFillsObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveRemoveUsedByFillsObject:": {
+      "name": "primitiveRemoveUsedByFillsObject:",
+      "bridgedName": "primitiveRemoveUsedByFillsObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveAddUsedByStrokesObject:": {
+      "name": "primitiveAddUsedByStrokesObject:",
+      "bridgedName": "primitiveAddUsedByStrokesObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveRemoveUsedByStrokesObject:": {
+      "name": "primitiveRemoveUsedByStrokesObject:",
+      "bridgedName": "primitiveRemoveUsedByStrokesObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "height": {
+      "name": "height",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "patternUnits": {
+      "name": "patternUnits",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "width": {
+      "name": "width",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "x": {
+      "name": "x",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "y": {
+      "name": "y",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "usedByFills": {
+      "name": "usedByFills",
+      "pointer": false,
+      "type": "NSSet*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "usedByStrokes": {
+      "name": "usedByStrokes",
+      "pointer": false,
+      "type": "NSSet*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

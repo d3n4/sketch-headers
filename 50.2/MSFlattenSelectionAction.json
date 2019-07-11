@@ -1,0 +1,23 @@
+{
+  "name": "MSFlattenSelectionAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "flattenSelection:": {
+      "name": "flattenSelection:",
+      "bridgedName": "flattenSelection",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

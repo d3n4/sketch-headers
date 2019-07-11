@@ -1,0 +1,303 @@
+{
+  "name": "MSRulerView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {
+    "refreshGuideInDrawViewAtIndex:": {
+      "name": "refreshGuideInDrawViewAtIndex:",
+      "bridgedName": "refreshGuideInDrawViewAtIndex",
+      "args": [
+        {
+          "name": "anIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshGuideInDrawViewAtPosition:": {
+      "name": "refreshGuideInDrawViewAtPosition:",
+      "bridgedName": "refreshGuideInDrawViewAtPosition",
+      "args": [
+        {
+          "name": "line",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseEventToPoint:": {
+      "name": "mouseEventToPoint:",
+      "bridgedName": "mouseEventToPoint",
+      "args": [
+        {
+          "name": "anEvent",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "document": {
+      "name": "document",
+      "bridgedName": "document",
+      "args": [],
+      "returns": "MSDocument *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapLineWithPosition:": {
+      "name": "snapLineWithPosition:",
+      "bridgedName": "snapLineWithPosition",
+      "args": [
+        {
+          "name": "position",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSnapLine *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "baseLine": {
+      "name": "baseLine",
+      "bridgedName": "baseLine",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "baseLineIncludingScrollOrigin:": {
+      "name": "baseLineIncludingScrollOrigin:",
+      "bridgedName": "baseLineIncludingScrollOrigin",
+      "args": [
+        {
+          "name": "includeOrigin",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawGuidesOnCanvasInRect:": {
+      "name": "drawGuidesOnCanvasInRect:",
+      "bridgedName": "drawGuidesOnCanvasInRect",
+      "args": [
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathForLineAtPosition:inRect:": {
+      "name": "bezierPathForLineAtPosition:inRect:",
+      "bridgedName": "bezierPathForLineAtPosition_inRect",
+      "args": [
+        {
+          "name": "line",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "occupiedRegionForRect:withOffset:zoom:": {
+      "name": "occupiedRegionForRect:withOffset:zoom:",
+      "bridgedName": "occupiedRegionForRect_withOffset_zoom",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "left",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scrollOrigin": {
+      "name": "scrollOrigin",
+      "bridgedName": "scrollOrigin",
+      "args": [],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "bridgedName": "zoomValue",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rulerLength": {
+      "name": "rulerLength",
+      "bridgedName": "rulerLength",
+      "args": [],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshTemporaryRulerGuide": {
+      "name": "refreshTemporaryRulerGuide",
+      "bridgedName": "refreshTemporaryRulerGuide",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "relevantAxisForPoint:": {
+      "name": "relevantAxisForPoint:",
+      "bridgedName": "relevantAxisForPoint",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "otherAxisForPoint:": {
+      "name": "otherAxisForPoint:",
+      "bridgedName": "otherAxisForPoint",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setResizeCursor": {
+      "name": "setResizeCursor",
+      "bridgedName": "setResizeCursor",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareRulerViewLayer:": {
+      "name": "prepareRulerViewLayer:",
+      "bridgedName": "prepareRulerViewLayer",
+      "args": [
+        {
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "rulerData": {
+      "name": "rulerData",
+      "pointer": false,
+      "type": "MSRulerData ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "contentView": {
+      "name": "contentView",
+      "pointer": false,
+      "type": "IBOutlet MSContentDrawView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "mouseDidDrag": {
+      "name": "mouseDidDrag",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "mouseDownPoint": {
+      "name": "mouseDownPoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "temporaryRulerGuide": {
+      "name": "temporaryRulerGuide",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "rulerDraggingLocked": {
+      "name": "rulerDraggingLocked",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "class"
+      ]
+    }
+  },
+  "generics": []
+}

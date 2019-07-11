@@ -1,0 +1,34 @@
+{
+  "name": "MSMeasurementData",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "sourceRect": {
+      "name": "sourceRect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "targetRect": {
+      "name": "targetRect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "targetLines": {
+      "name": "targetLines",
+      "pointer": false,
+      "type": "NSArray<MSSnapLine *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,51 @@
+{
+  "name": "MSToggleVisibilityAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "show": {
+      "name": "show",
+      "bridgedName": "show",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hide": {
+      "name": "hide",
+      "bridgedName": "hide",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultsKey": {
+      "name": "defaultsKey",
+      "bridgedName": "defaultsKey",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareForNewWindow": {
+      "name": "prepareForNewWindow",
+      "bridgedName": "prepareForNewWindow",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isActive": {
+      "name": "isActive",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

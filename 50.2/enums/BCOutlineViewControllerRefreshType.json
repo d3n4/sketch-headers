@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "BCOutlineViewControllerRefreshType",
+  "members": [
+    {
+      "name": "BCOutlineViewControllerRefreshTypeSelection",
+      "value": "0x01"
+    },
+    {
+      "name": "BCOutlineViewControllerRefreshTypeExpansion",
+      "value": "0x02"
+    },
+    {
+      "name": "BCOutlineViewControllerRefreshTypeLayout",
+      "value": "0x04"
+    },
+    {
+      "name": "BCOutlineViewControllerRefreshTypePreviewImages",
+      "value": "0x08"
+    },
+    {
+      "name": "BCOutlineViewControllerRefreshTypeAll",
+      "value": "0x0F"
+    }
+  ]
+}

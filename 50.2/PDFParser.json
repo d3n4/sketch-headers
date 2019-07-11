@@ -1,0 +1,20 @@
+{
+  "name": "PDFParser",
+  "extends": "NSObject",
+  "interfaces": [
+    "PDFParser"
+  ],
+  "methods": {},
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

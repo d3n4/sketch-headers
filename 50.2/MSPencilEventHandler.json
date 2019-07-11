@@ -1,0 +1,8 @@
+{
+  "name": "MSPencilEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

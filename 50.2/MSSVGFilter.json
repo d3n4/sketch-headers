@@ -1,0 +1,126 @@
+{
+  "name": "MSSVGFilter",
+  "extends": "MSXMLElementWrapper",
+  "interfaces": [],
+  "methods": {
+    "filter": {
+      "name": "filter",
+      "bridgedName": "filter",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addFilterItem:": {
+      "name": "addFilterItem:",
+      "bridgedName": "addFilterItem",
+      "args": [
+        {
+          "name": "filterItem",
+          "type": "NSXMLElement*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addFilterOutput:": {
+      "name": "addFilterOutput:",
+      "bridgedName": "addFilterOutput",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "close": {
+      "name": "close",
+      "bridgedName": "close",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "x": {
+      "name": "x",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "y": {
+      "name": "y",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "width": {
+      "name": "width",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "height": {
+      "name": "height",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "filterRes": {
+      "name": "filterRes",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "filterUnits": {
+      "name": "filterUnits",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "primitiveUnits": {
+      "name": "primitiveUnits",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "href": {
+      "name": "href",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

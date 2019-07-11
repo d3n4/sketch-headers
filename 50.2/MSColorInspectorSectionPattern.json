@@ -1,0 +1,73 @@
+{
+  "name": "MSColorInspectorSectionPattern",
+  "extends": "MSColorInspectorSection",
+  "interfaces": [],
+  "methods": {
+    "choosePatternImage:": {
+      "name": "choosePatternImage:",
+      "bridgedName": "choosePatternImage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "patternWellAction:": {
+      "name": "patternWellAction:",
+      "bridgedName": "patternWellAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updatePatternWellImage": {
+      "name": "updatePatternWellImage",
+      "bridgedName": "updatePatternWellImage",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "patternWell": {
+      "name": "patternWell",
+      "pointer": false,
+      "type": "IBOutlet NSImageView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "choosePatternButton": {
+      "name": "choosePatternButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "patternTilButton": {
+      "name": "patternTilButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

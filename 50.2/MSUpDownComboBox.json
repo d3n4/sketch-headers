@@ -1,0 +1,27 @@
+{
+  "name": "MSUpDownComboBox",
+  "extends": "NSComboBox",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "refreshDelegate": {
+      "name": "refreshDelegate",
+      "pointer": false,
+      "type": "IBOutlet id",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "upDownController": {
+      "name": "upDownController",
+      "pointer": false,
+      "type": "MSUpDownController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

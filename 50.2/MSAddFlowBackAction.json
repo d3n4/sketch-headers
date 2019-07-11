@@ -1,0 +1,23 @@
+{
+  "name": "MSAddFlowBackAction",
+  "extends": "MSFlowBaseAction",
+  "interfaces": [],
+  "methods": {
+    "addFlowBack:": {
+      "name": "addFlowBack:",
+      "bridgedName": "addFlowBack",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

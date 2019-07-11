@@ -1,0 +1,63 @@
+{
+  "name": "MSExportSheetItem",
+  "extends": "NSCollectionViewItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "previewView": {
+      "name": "previewView",
+      "pointer": false,
+      "type": "IBOutlet MSSliceDragView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "checkBox": {
+      "name": "checkBox",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "warningView": {
+      "name": "warningView",
+      "pointer": false,
+      "type": "IBOutlet NSImageView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "exportSheet": {
+      "name": "exportSheet",
+      "pointer": false,
+      "type": "MSExportSheet ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "showWarningLabel": {
+      "name": "showWarningLabel",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "isExportable": {
+      "name": "isExportable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

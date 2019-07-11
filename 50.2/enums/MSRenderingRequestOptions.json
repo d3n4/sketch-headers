@@ -1,0 +1,54 @@
+{
+  "enum": true,
+  "name": "MSRenderingRequestOptions",
+  "members": [
+    {
+      "name": "MSRenderingRequestOptionsNone",
+      "value": "0"
+    },
+    {
+      "name": "MSRenderingRequestOptionsExporting",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSRenderingRequestOptionsDrawingMask",
+      "value": "1 << 1"
+    },
+    {
+      "name": "MSRenderingRequestOptionsDrawingPixelated",
+      "value": "1 << 2"
+    },
+    {
+      "name": "MSRenderingRequestOptionsIncludeArtboardBackground",
+      "value": "1 << 3"
+    },
+    {
+      "name": "MSRenderingRequestOptionsPrinting",
+      "value": "1 << 4"
+    },
+    {
+      "name": "MSRenderingRequestOptionsFlipShadows",
+      "value": "1 << 5"
+    },
+    {
+      "name": "MSRenderingRequestOptionsSkipLayerInclusionTests",
+      "value": "1 << 6"
+    },
+    {
+      "name": "MSRenderingRequestOptionsVectorBacked",
+      "value": "1 << 7"
+    },
+    {
+      "name": "MSRenderingRequestOptionsQualityLow",
+      "value": "1 << 30"
+    },
+    {
+      "name": "MSRenderingRequestOptionsQualityHigh",
+      "value": "1 << 31"
+    },
+    {
+      "name": "MSRenderingRequestOptionsDefault",
+      "value": "MSRenderingRequestOptionsNone | MSRenderingRequestOptionsIncludeArtboardBackground | MSRenderingRequestOptionsQualityHigh"
+    }
+  ]
+}

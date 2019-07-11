@@ -1,0 +1,38 @@
+{
+  "name": "SCKShareVersion",
+  "extends": "SCKObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "number": {
+      "name": "number",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "message": {
+      "name": "message",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "SCKCloudDocument ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

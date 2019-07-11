@@ -1,0 +1,47 @@
+{
+  "name": "TDWordState",
+  "extends": "TDTokenizerState",
+  "interfaces": [],
+  "methods": {
+    "setWordChars:from:to:": {
+      "name": "setWordChars:from:to:",
+      "bridgedName": "setWordChars_from_to",
+      "args": [
+        {
+          "name": "yn",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "start",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "end",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isWordChar:": {
+      "name": "isWordChar:",
+      "bridgedName": "isWordChar",
+      "args": [
+        {
+          "name": "c",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

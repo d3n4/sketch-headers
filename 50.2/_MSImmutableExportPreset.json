@@ -1,0 +1,40 @@
+{
+  "name": "_MSImmutableExportPreset",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "shouldApplyAutomatically": {
+      "name": "shouldApplyAutomatically",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exportFormats": {
+      "name": "exportFormats",
+      "pointer": false,
+      "type": "NSArray<MSImmutableExportFormat *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

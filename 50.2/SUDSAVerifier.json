@@ -1,0 +1,85 @@
+{
+  "name": "SUDSAVerifier",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "validatePath:withEncodedDSASignature:withPublicDSAKey:": {
+      "name": "validatePath:withEncodedDSASignature:withPublicDSAKey:",
+      "bridgedName": "validatePath_withEncodedDSASignature_withPublicDSAKey",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "encodedSignature",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "pkeyString",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithPublicKeyData:": {
+      "name": "initWithPublicKeyData:",
+      "bridgedName": "initWithPublicKeyData",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verifyFileAtPath:signature:": {
+      "name": "verifyFileAtPath:signature:",
+      "bridgedName": "verifyFileAtPath_signature",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "signature",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verifyStream:signature:": {
+      "name": "verifyStream:signature:",
+      "bridgedName": "verifyStream_signature",
+      "args": [
+        {
+          "name": "stream",
+          "type": "NSInputStream *",
+          "nullable": false
+        },
+        {
+          "name": "signature",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

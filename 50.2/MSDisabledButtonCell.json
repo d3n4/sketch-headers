@@ -1,0 +1,8 @@
+{
+  "name": "MSDisabledButtonCell",
+  "extends": "NSButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

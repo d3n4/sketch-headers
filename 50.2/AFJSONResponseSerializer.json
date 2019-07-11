@@ -1,0 +1,50 @@
+{
+  "name": "AFJSONResponseSerializer",
+  "extends": "AFHTTPResponseSerializer",
+  "interfaces": [],
+  "methods": {
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "serializerWithReadingOptions:": {
+      "name": "serializerWithReadingOptions:",
+      "bridgedName": "serializerWithReadingOptions",
+      "args": [
+        {
+          "name": "readingOptions",
+          "type": "NSJSONReadingOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "readingOptions": {
+      "name": "readingOptions",
+      "pointer": false,
+      "type": "NSJSONReadingOptions",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "removesKeysWithNullValues": {
+      "name": "removesKeysWithNullValues",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

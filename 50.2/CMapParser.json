@@ -1,0 +1,47 @@
+{
+  "name": "CMapParser",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithStream:": {
+      "name": "initWithStream:",
+      "bridgedName": "initWithStream",
+      "args": [
+        {
+          "name": "stream",
+          "type": "PDFStream*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithData:": {
+      "name": "initWithData:",
+      "bridgedName": "initWithData",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "map": {
+      "name": "map",
+      "pointer": false,
+      "type": "NSMutableDictionary*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

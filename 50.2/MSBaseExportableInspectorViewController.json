@@ -1,0 +1,77 @@
+{
+  "name": "MSBaseExportableInspectorViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSLayerChangeObserver",
+    "MSInspectorChildController"
+  ],
+  "methods": {
+    "refreshAction:": {
+      "name": "refreshAction:",
+      "bridgedName": "refreshAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllSliceViews": {
+      "name": "removeAllSliceViews",
+      "bridgedName": "removeAllSliceViews",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scheduleSliceViewReload": {
+      "name": "scheduleSliceViewReload",
+      "bridgedName": "scheduleSliceViewReload",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerPositionPossiblyChanged": {
+      "name": "layerPositionPossiblyChanged",
+      "bridgedName": "layerPositionPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "previewContainerView": {
+      "name": "previewContainerView",
+      "bridgedName": "previewContainerView",
+      "args": [],
+      "returns": "NSView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "stackView": {
+      "name": "stackView",
+      "pointer": false,
+      "type": "IBOutlet MSInspectorStackView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "MSBitmapRectangleEditor",
+  "extends": "MSBitmapEditor",
+  "interfaces": [],
+  "methods": {
+    "sizeForLabel": {
+      "name": "sizeForLabel",
+      "bridgedName": "sizeForLabel",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

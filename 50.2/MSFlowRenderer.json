@@ -1,0 +1,85 @@
+{
+  "name": "MSFlowRenderer",
+  "extends": "MSOverlayRenderer",
+  "interfaces": [],
+  "methods": {
+    "drawRect:context:selectedLayerIDs:": {
+      "name": "drawRect:context:selectedLayerIDs:",
+      "bridgedName": "drawRect_context_selectedLayerIDs",
+      "args": [
+        {
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        },
+        {
+          "name": "selectedLayerIDs",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "flowParentLayerIDs": {
+      "name": "flowParentLayerIDs",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "shouldDrawSourceLayerBounds": {
+      "name": "shouldDrawSourceLayerBounds",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "sourceLayerBounds": {
+      "name": "sourceLayerBounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "flowType": {
+      "name": "flowType",
+      "pointer": false,
+      "type": "MSFlowType",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "flowPath": {
+      "name": "flowPath",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "flowClipPath": {
+      "name": "flowClipPath",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

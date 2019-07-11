@@ -1,0 +1,125 @@
+{
+  "name": "MSBezierJoin",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "joinWithSegment1:segment2:": {
+      "name": "joinWithSegment1:segment2:",
+      "bridgedName": "joinWithSegment1_segment2",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "joinWithSegment1:segment2:strategy:": {
+      "name": "joinWithSegment1:segment2:strategy:",
+      "bridgedName": "joinWithSegment1_segment2_strategy",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "strategy",
+          "type": "MSBezierJoinStrategy",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithSegment1:segment2:joinedSegments:": {
+      "name": "initWithSegment1:segment2:joinedSegments:",
+      "bridgedName": "initWithSegment1_segment2_joinedSegments",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "joinedSegments",
+          "type": "NSArray<MSBezierSegment *> *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentsByJoiningSegment1:segment2:": {
+      "name": "segmentsByJoiningSegment1:segment2:",
+      "bridgedName": "segmentsByJoiningSegment1_segment2",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSBezierSegment *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "segment1": {
+      "name": "segment1",
+      "pointer": false,
+      "type": "MSBezierSegment ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "segment2": {
+      "name": "segment2",
+      "pointer": false,
+      "type": "MSBezierSegment ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "joinedSegments": {
+      "name": "joinedSegments",
+      "pointer": false,
+      "type": "NSArray <MSBezierSegment *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}
