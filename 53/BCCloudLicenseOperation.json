@@ -1,0 +1,10 @@
+{
+  "name": "BCCloudLicenseOperation",
+  "extends": "SCKOAuthAPIOperation",
+  "interfaces": [
+    "BCLicenseOperation"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSRemoveAllOverridesAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "removeAllOverridesFromSelection:": {
+      "name": "removeAllOverridesFromSelection:",
+      "bridgedName": "removeAllOverridesFromSelection",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,8 +1,0 @@
-{
-  "name": "MSLayerAdjustedPopupButtonCell",
-  "extends": "NSPopUpButtonCell",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

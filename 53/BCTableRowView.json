@@ -1,0 +1,126 @@
+{
+  "name": "BCTableRowView",
+  "extends": "NSTableRowView",
+  "interfaces": [],
+  "methods": {
+    "refreshSelectionState": {
+      "name": "refreshSelectionState",
+      "bridgedName": "refreshSelectionState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshBadges": {
+      "name": "refreshBadges",
+      "bridgedName": "refreshBadges",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshBackgroundStyle": {
+      "name": "refreshBackgroundStyle",
+      "bridgedName": "refreshBackgroundStyle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "relayoutNow": {
+      "name": "relayoutNow",
+      "bridgedName": "relayoutNow",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "node": {
+      "name": "node",
+      "pointer": false,
+      "type": "NSObject<BCOutlineViewNode> ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "NSObject<BCTableRowViewDelegate> ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "displayType": {
+      "name": "displayType",
+      "pointer": false,
+      "type": "BCOutlineViewDisplayType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "expansionState": {
+      "name": "expansionState",
+      "pointer": false,
+      "type": "BCOutlineViewNodeExpansionState",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "outlineView": {
+      "name": "outlineView",
+      "pointer": false,
+      "type": "BCOutlineView ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "drawsTopBorder": {
+      "name": "drawsTopBorder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "drawsBottomBorder": {
+      "name": "drawsBottomBorder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasBottomPaddingApplied": {
+      "name": "hasBottomPaddingApplied",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasTopPaddingApplied": {
+      "name": "hasTopPaddingApplied",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,37 @@
+{
+  "name": "MSImmutableBaseGrid",
+  "extends": "_MSImmutableBaseGrid",
+  "interfaces": [],
+  "methods": {
+    "shouldDrawAtZoom:": {
+      "name": "shouldDrawAtZoom:",
+      "bridgedName": "shouldDrawAtZoom",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "displayableAtZoom:": {
+      "name": "displayableAtZoom:",
+      "bridgedName": "displayableAtZoom",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

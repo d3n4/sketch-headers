@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSStackViewScrollViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "stackScrollViewDidScroll:": {
+      "name": "stackScrollViewDidScroll:",
+      "bridgedName": "stackScrollViewDidScroll",
+      "args": [
+        {
+          "name": "scrollView",
+          "type": "NSScrollView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

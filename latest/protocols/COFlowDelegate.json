@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "COFlowDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "didClearEventStack:": {
+      "name": "didClearEventStack:",
+      "bridgedName": "didClearEventStack",
+      "args": [
+        {
+          "name": "coscript",
+          "type": "COScript*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

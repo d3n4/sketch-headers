@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "uint32_t",
+  "type": "unsigned short",
+  "pointer": false
+}

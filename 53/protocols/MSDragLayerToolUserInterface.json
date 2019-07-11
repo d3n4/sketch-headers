@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSDragLayerToolUserInterface",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "selectLayers:": {
+      "name": "selectLayers:",
+      "bridgedName": "selectLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray<MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setUndoActionName:": {
+      "name": "setUndoActionName:",
+      "bridgedName": "setUndoActionName",
+      "args": [
+        {
+          "name": "actionName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

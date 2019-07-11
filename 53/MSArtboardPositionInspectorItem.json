@@ -1,0 +1,8 @@
+{
+  "name": "MSArtboardPositionInspectorItem",
+  "extends": "MSPositionInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

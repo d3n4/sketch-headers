@@ -1,0 +1,8 @@
+{
+  "name": "MSBlurNameInspectorItem",
+  "extends": "MSStylePartInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

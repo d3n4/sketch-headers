@@ -1,0 +1,21 @@
+{
+  "enum": true,
+  "name": "MSAsset",
+  "members": [
+    {
+      "name": "MSAssetColor"
+    },
+    {
+      "name": "MSAssetGradient"
+    },
+    {
+      "name": "MSAssetImage"
+    },
+    {
+      "name": "MSAssetSymbol"
+    },
+    {
+      "name": "MSAssetExportPreset"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "MSOverrideAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "selectedOverrides": {
+      "name": "selectedOverrides",
+      "pointer": false,
+      "type": "NSArray<MSOverrideRepresentation *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "instance": {
+      "name": "instance",
+      "pointer": false,
+      "type": "MSSymbolInstance ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectedOverrideRepresentation": {
+      "name": "selectedOverrideRepresentation",
+      "pointer": false,
+      "type": "MSOverrideRepresentation ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

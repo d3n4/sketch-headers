@@ -1,0 +1,33 @@
+{
+  "name": "NSEvent",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "shouldStartDrag": {
+      "name": "shouldStartDrag",
+      "bridgedName": "shouldStartDrag",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isDoubleClick": {
+      "name": "isDoubleClick",
+      "bridgedName": "isDoubleClick",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isRightClick": {
+      "name": "isRightClick",
+      "bridgedName": "isRightClick",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

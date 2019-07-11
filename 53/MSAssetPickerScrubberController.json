@@ -1,0 +1,66 @@
+{
+  "name": "MSAssetPickerScrubberController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithIdentifier:": {
+      "name": "initWithIdentifier:",
+      "bridgedName": "initWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadData": {
+      "name": "reloadData",
+      "bridgedName": "reloadData",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "identifier": {
+      "name": "identifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "item": {
+      "name": "item",
+      "pointer": false,
+      "type": "NSTouchBarItem ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dataSource": {
+      "name": "dataSource",
+      "pointer": false,
+      "type": "MSAssetCollectionViewDataSource ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSAssetPickerScrubberControllerDelegate>",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

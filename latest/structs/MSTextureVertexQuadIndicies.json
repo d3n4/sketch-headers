@@ -1,0 +1,11 @@
+{
+  "struct": true,
+  "name": "MSTextureVertexQuadIndicies",
+  "members": [
+    {
+      "name": "indicies[MSTextureVertexQuadIndexCount]",
+      "pointer": false,
+      "type": "UInt32"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSBuiltinDataSupplier",
+  "extends": "MSLocalDataSupplier",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

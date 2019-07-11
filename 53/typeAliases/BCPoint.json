@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "BCPoint",
+  "type": "CGPoint",
+  "pointer": false
+}

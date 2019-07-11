@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableExportPreset",
+  "extends": "_MSImmutableExportPreset",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

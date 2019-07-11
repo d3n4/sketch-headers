@@ -1,0 +1,72 @@
+{
+  "name": "MSOverlayColorSettings",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "colorSettings": {
+      "name": "colorSettings",
+      "bridgedName": "colorSettings",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "canvasBackgroundColor": {
+      "name": "canvasBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "pageBackgroundColor": {
+      "name": "pageBackgroundColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "pixelGridColor": {
+      "name": "pixelGridColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "sliceOutlineColor": {
+      "name": "sliceOutlineColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "artboardTitleColor": {
+      "name": "artboardTitleColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "symbolTitleColor": {
+      "name": "symbolTitleColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

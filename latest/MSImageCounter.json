@@ -1,0 +1,37 @@
+{
+  "name": "MSImageCounter",
+  "extends": "MSObjectCounter",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "imageData": {
+      "name": "imageData",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "sizeString": {
+      "name": "sizeString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

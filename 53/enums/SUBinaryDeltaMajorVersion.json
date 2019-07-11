@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "SUBinaryDeltaMajorVersion",
+  "members": [
+    {
+      "name": "SUAzureMajorVersion",
+      "value": "1"
+    },
+    {
+      "name": "SUBeigeMajorVersion",
+      "value": "2"
+    }
+  ]
+}

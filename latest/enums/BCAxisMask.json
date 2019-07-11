@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "BCAxisMask",
+  "members": [
+    {
+      "name": "BCAxisMaskX",
+      "value": "1 << BCAxisX"
+    },
+    {
+      "name": "BCAxisMaskY",
+      "value": "1 << BCAxisY"
+    },
+    {
+      "name": "BCAxisMaskNone",
+      "value": "0"
+    },
+    {
+      "name": "BCAxisMaskBoth",
+      "value": "BCAxisMaskX|BCAxisMaskY"
+    }
+  ]
+}

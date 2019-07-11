@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "MSColorModePickerControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorPickerController:didChangeFillType:gradientType:": {
+      "name": "colorPickerController:didChangeFillType:gradientType:",
+      "bridgedName": "colorPickerController_didChangeFillType_gradientType",
+      "args": [
+        {
+          "name": "pickerController",
+          "type": "MSColorModePickerController *",
+          "nullable": false
+        },
+        {
+          "name": "fillType",
+          "type": "BCFillType",
+          "nullable": false
+        },
+        {
+          "name": "gradientType",
+          "type": "MSGradientType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

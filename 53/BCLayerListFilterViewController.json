@@ -1,0 +1,69 @@
+{
+  "name": "BCLayerListFilterViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "applyAppearance": {
+      "name": "applyAppearance",
+      "bridgedName": "applyAppearance",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showFilterMenu:": {
+      "name": "showFilterMenu:",
+      "bridgedName": "showFilterMenu",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleFilter:": {
+      "name": "toggleFilter:",
+      "bridgedName": "toggleFilter",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "findLayer:": {
+      "name": "findLayer:",
+      "bridgedName": "findLayer",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "filter": {
+      "name": "filter",
+      "pointer": false,
+      "type": "BCFilterInfo ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

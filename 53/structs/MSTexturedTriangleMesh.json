@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "MSTexturedTriangleMesh",
+  "members": [
+    {
+      "name": "vertices",
+      "pointer": true,
+      "type": "MSTexturedVertex"
+    },
+    {
+      "name": "count",
+      "pointer": false,
+      "type": "uint32_t"
+    },
+    {
+      "name": "capacity",
+      "pointer": false,
+      "type": "uint32_t"
+    }
+  ]
+}

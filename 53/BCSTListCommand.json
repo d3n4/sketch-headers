@@ -1,0 +1,129 @@
+{
+  "name": "BCSTListCommand",
+  "extends": "BCSTCommand",
+  "interfaces": [],
+  "methods": {
+    "itemsName": {
+      "name": "itemsName",
+      "bridgedName": "itemsName",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "itemsToListFromPages:engine:": {
+      "name": "itemsToListFromPages:engine:",
+      "bridgedName": "itemsToListFromPages_engine",
+      "args": [
+        {
+          "name": "pages",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "itemsToListFromPage:engine:": {
+      "name": "itemsToListFromPage:engine:",
+      "bridgedName": "itemsToListFromPage_engine",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "infoForPage:engine:": {
+      "name": "infoForPage:engine:",
+      "bridgedName": "infoForPage_engine",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "infoForItem:engine:": {
+      "name": "infoForItem:engine:",
+      "bridgedName": "infoForItem_engine",
+      "args": [
+        {
+          "name": "item",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "safeName:": {
+      "name": "safeName:",
+      "bridgedName": "safeName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectDictionary:": {
+      "name": "rectDictionary:",
+      "bridgedName": "rectDictionary",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportedFormats": {
+      "name": "supportedFormats",
+      "bridgedName": "supportedFormats",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,65 @@
+{
+  "name": "MSFrequentObjectsController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "showMenuAtLocation:inView:": {
+      "name": "showMenuAtLocation:inView:",
+      "bridgedName": "showMenuAtLocation_inView",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuItemAttributedTitleForTitle:description:": {
+      "name": "menuItemAttributedTitleForTitle:description:",
+      "bridgedName": "menuItemAttributedTitleForTitle_description",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "description",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAttributedString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "frequentObjects": {
+      "name": "frequentObjects",
+      "pointer": false,
+      "type": "NSArray<MSObjectCounter *> ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSFrequentObjectsControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

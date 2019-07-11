@@ -1,0 +1,26 @@
+{
+  "protocol": true,
+  "name": "MSLayerWithBackgroundColor",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "immutableBackgroundColor": {
+      "name": "immutableBackgroundColor",
+      "bridgedName": "immutableBackgroundColor",
+      "args": [],
+      "returns": "MSImmutableColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasBackgroundColor": {
+      "name": "hasBackgroundColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  }
+}

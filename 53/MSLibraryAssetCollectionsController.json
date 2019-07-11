@@ -1,0 +1,78 @@
+{
+  "name": "MSLibraryAssetCollectionsController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithAssetLibraryController:": {
+      "name": "initWithAssetLibraryController:",
+      "bridgedName": "initWithAssetLibraryController",
+      "args": [
+        {
+          "name": "libraryController",
+          "type": "MSAssetLibraryController *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataSourcesForAssetType:": {
+      "name": "dataSourcesForAssetType:",
+      "bridgedName": "dataSourcesForAssetType",
+      "args": [
+        {
+          "name": "asset",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSAssetCollectionViewDataSource *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataSourcesWithContentForAssetType:": {
+      "name": "dataSourcesWithContentForAssetType:",
+      "bridgedName": "dataSourcesWithContentForAssetType",
+      "args": [
+        {
+          "name": "asset",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSAssetCollectionViewDataSource *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataSourceWithIdentifier:forAssetType:": {
+      "name": "dataSourceWithIdentifier:forAssetType:",
+      "bridgedName": "dataSourceWithIdentifier_forAssetType",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "assetType",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSAssetCollectionViewDataSource *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reload": {
+      "name": "reload",
+      "bridgedName": "reload",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

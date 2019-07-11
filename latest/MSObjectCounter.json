@@ -1,0 +1,119 @@
+{
+  "name": "MSObjectCounter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithObject:": {
+      "name": "initWithObject:",
+      "bridgedName": "initWithObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addUseCase:": {
+      "name": "addUseCase:",
+      "bridgedName": "addUseCase",
+      "args": [
+        {
+          "name": "useCase",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "countForUse:": {
+      "name": "countForUse:",
+      "bridgedName": "countForUse",
+      "args": [
+        {
+          "name": "use",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "compare:": {
+      "name": "compare:",
+      "bridgedName": "compare",
+      "args": [
+        {
+          "name": "otherCounter",
+          "type": "MSObjectCounter *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSComparisonResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "compare:byUse:": {
+      "name": "compare:byUse:",
+      "bridgedName": "compare_byUse",
+      "args": [
+        {
+          "name": "otherCounter",
+          "type": "MSObjectCounter *",
+          "nullable": false
+        },
+        {
+          "name": "use",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSComparisonResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "new NS_UNAVAILABLE": {
+      "name": "new NS_UNAVAILABLE",
+      "bridgedName": "new NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "object": {
+      "name": "object",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "totalCount": {
+      "name": "totalCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

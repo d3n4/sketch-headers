@@ -1,0 +1,8 @@
+{
+  "name": "MSShapePath",
+  "extends": "_MSShapePath",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,63 @@
+{
+  "name": "SCKFlowConnectionDiff",
+  "extends": "NSObject",
+  "interfaces": [
+    "SCKDiff"
+  ],
+  "methods": {
+    "initWithObject:comparedTo:": {
+      "name": "initWithObject:comparedTo:",
+      "bridgedName": "initWithObject_comparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKFlowConnection *",
+          "nullable": false
+        },
+        {
+          "name": "otherObject",
+          "type": "nonnull SCKFlowConnection *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "object": {
+      "name": "object",
+      "pointer": false,
+      "type": "SCKFlowConnection ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "comparedObject": {
+      "name": "comparedObject",
+      "pointer": false,
+      "type": "SCKFlowConnection ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "attributes": {
+      "name": "attributes",
+      "pointer": false,
+      "type": "SCKFlowConnectionAttributes",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSConvertSymbolOrDetachInstancesRecursivelyAction",
+  "extends": "MSBaseConvertSymbolOrDetachInstancesAction",
+  "interfaces": [],
+  "methods": {
+    "detachSymbolInstancesRecursively:": {
+      "name": "detachSymbolInstancesRecursively:",
+      "bridgedName": "detachSymbolInstancesRecursively",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

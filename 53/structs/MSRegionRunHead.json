@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "MSRegionRunHead",
+  "members": [
+    {
+      "name": "_refCnt",
+      "pointer": false,
+      "type": "int32_t"
+    },
+    {
+      "name": "_runCount",
+      "pointer": false,
+      "type": "int32_t"
+    },
+    {
+      "name": "_ySpanCount",
+      "pointer": false,
+      "type": "int32_t"
+    },
+    {
+      "name": "_intervalCount",
+      "pointer": false,
+      "type": "int32_t"
+    }
+  ]
+}

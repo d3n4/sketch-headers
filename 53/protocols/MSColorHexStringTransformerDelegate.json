@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSColorHexStringTransformerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "currentColorValueForTransformer:": {
+      "name": "currentColorValueForTransformer:",
+      "bridgedName": "currentColorValueForTransformer",
+      "args": [
+        {
+          "name": "transformer",
+          "type": "MSColorHexStringTransformer *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

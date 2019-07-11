@@ -1,0 +1,84 @@
+{
+  "name": "SVGTransformImporter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "transformFromString:": {
+      "name": "transformFromString:",
+      "bridgedName": "transformFromString",
+      "args": [
+        {
+          "name": "aString",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "transformFromName:components:": {
+      "name": "transformFromName:components:",
+      "bridgedName": "transformFromName_components",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "paramString",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "translateTransformFromComponents:": {
+      "name": "translateTransformFromComponents:",
+      "bridgedName": "translateTransformFromComponents",
+      "args": [
+        {
+          "name": "params",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rotateTransformFromComponents:": {
+      "name": "rotateTransformFromComponents:",
+      "bridgedName": "rotateTransformFromComponents",
+      "args": [
+        {
+          "name": "params",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "matrixTransformFromComponents:": {
+      "name": "matrixTransformFromComponents:",
+      "bridgedName": "matrixTransformFromComponents",
+      "args": [
+        {
+          "name": "params",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAffineTransform *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

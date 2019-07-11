@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "BCLine",
+  "members": [
+    {
+      "name": "a",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "b",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "c",
+      "pointer": false,
+      "type": "CGFloat"
+    }
+  ]
+}

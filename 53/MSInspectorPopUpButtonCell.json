@@ -1,0 +1,31 @@
+{
+  "name": "MSInspectorPopUpButtonCell",
+  "extends": "NSPopUpButtonCell",
+  "interfaces": [],
+  "methods": {
+    "inspectorPopUpArrowRectForBounds:": {
+      "name": "inspectorPopUpArrowRectForBounds:",
+      "bridgedName": "inspectorPopUpArrowRectForBounds",
+      "args": [
+        {
+          "name": "cellFrame",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorArrowImage": {
+      "name": "inspectorArrowImage",
+      "bridgedName": "inspectorArrowImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

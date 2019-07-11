@@ -1,0 +1,33 @@
+{
+  "name": "_SVGSymbolElement",
+  "extends": "SVGGroupElement",
+  "interfaces": [],
+  "methods": {
+    "propertyNames": {
+      "name": "propertyNames",
+      "bridgedName": "propertyNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "relationshipNames": {
+      "name": "relationshipNames",
+      "bridgedName": "relationshipNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeNames": {
+      "name": "attributeNames",
+      "bridgedName": "attributeNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

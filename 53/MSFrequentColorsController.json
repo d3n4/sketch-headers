@@ -1,0 +1,70 @@
+{
+  "name": "MSFrequentColorsController",
+  "extends": "MSFrequentObjectsController",
+  "interfaces": [],
+  "methods": {
+    "menuItemForColorCounter:target:action:documentColorSpace:colorModel:": {
+      "name": "menuItemForColorCounter:target:action:documentColorSpace:colorModel:",
+      "bridgedName": "menuItemForColorCounter_target_action_documentColorSpace_colorModel",
+      "args": [
+        {
+          "name": "colorCounter",
+          "type": "MSColorCounter *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "colorModel",
+          "type": "MSComponentColorModel",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "colorModel": {
+      "name": "colorModel",
+      "pointer": false,
+      "type": "MSComponentColorModel",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSFrequentColorsControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

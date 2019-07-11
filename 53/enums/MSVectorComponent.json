@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "MSVectorComponent",
+  "members": [
+    {
+      "name": "MSVectorComponentPoint",
+      "value": "MSPointTypeMain"
+    },
+    {
+      "name": "MSVectorComponentHandle1",
+      "value": "MSPointTypeControl1"
+    },
+    {
+      "name": "MSVectorComponentHandle2",
+      "value": "MSPointTypeControl2"
+    },
+    {
+      "name": "MSVectorComponentSegment",
+      "value": "5"
+    }
+  ]
+}

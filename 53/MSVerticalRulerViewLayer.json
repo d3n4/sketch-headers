@@ -1,0 +1,8 @@
+{
+  "name": "MSVerticalRulerViewLayer",
+  "extends": "MSRulerViewLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

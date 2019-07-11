@@ -1,0 +1,26 @@
+{
+  "name": "MSToolController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "reset NS_REQUIRES_SUPER": {
+      "name": "reset NS_REQUIRES_SUPER",
+      "bridgedName": "reset NS_REQUIRES_SUPER",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "state": {
+      "name": "state",
+      "pointer": false,
+      "type": "MSToolControllerState",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableOverrideProperty",
+  "extends": "_MSImmutableOverrideProperty",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

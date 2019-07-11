@@ -1,0 +1,8 @@
+{
+  "name": "MSImageAssetCollectionViewItem",
+  "extends": "MSAssetCollectionViewItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

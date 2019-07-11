@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSTouchBarItemSizing",
+  "members": [
+    {
+      "name": "MSTouchBarItemSizingDefault",
+      "value": "0"
+    },
+    {
+      "name": "MSTouchBarItemSizingNarrow",
+      "value": "1"
+    },
+    {
+      "name": "MSTouchBarItemSizingSquare",
+      "value": "2"
+    }
+  ]
+}

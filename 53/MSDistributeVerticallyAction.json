@@ -1,0 +1,23 @@
+{
+  "name": "MSDistributeVerticallyAction",
+  "extends": "MSDistributeAction",
+  "interfaces": [],
+  "methods": {
+    "distributeVertically:": {
+      "name": "distributeVertically:",
+      "bridgedName": "distributeVertically",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

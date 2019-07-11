@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "ASN1_Data",
+  "members": [
+    {
+      "name": "length",
+      "pointer": false,
+      "type": "size_t"
+    },
+    {
+      "name": "data",
+      "pointer": true,
+      "type": "unsigned char"
+    }
+  ]
+}

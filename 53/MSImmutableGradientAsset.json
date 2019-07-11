@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableGradientAsset",
+  "extends": "_MSImmutableGradientAsset",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableTriangleShape",
+  "extends": "_MSImmutableTriangleShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

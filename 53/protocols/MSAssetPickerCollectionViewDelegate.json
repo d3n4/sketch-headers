@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "MSAssetPickerCollectionViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "collectionView:didDoubleClickWithEvent:item:": {
+      "name": "collectionView:didDoubleClickWithEvent:item:",
+      "bridgedName": "collectionView_didDoubleClickWithEvent_item",
+      "args": [
+        {
+          "name": "collectionView",
+          "type": "NSCollectionView *",
+          "nullable": false
+        },
+        {
+          "name": "event",
+          "type": "nonnull NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "item",
+          "type": "NSCollectionViewItem *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

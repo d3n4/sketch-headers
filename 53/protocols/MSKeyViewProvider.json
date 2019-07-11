@@ -1,0 +1,39 @@
+{
+  "protocol": true,
+  "name": "MSKeyViewProvider",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "firstKeyView": {
+      "name": "firstKeyView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "lastKeyView": {
+      "name": "lastKeyView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "preferredFirstResponder": {
+      "name": "preferredFirstResponder",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  }
+}

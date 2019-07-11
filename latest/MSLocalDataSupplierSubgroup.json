@@ -1,0 +1,115 @@
+{
+  "name": "MSLocalDataSupplierSubgroup",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "localDataSupplierSubgroupWithURL:localDataSupplierGroup:": {
+      "name": "localDataSupplierSubgroupWithURL:localDataSupplierGroup:",
+      "bridgedName": "localDataSupplierSubgroupWithURL_localDataSupplierGroup",
+      "args": [
+        {
+          "name": "subgroupURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "localDataSupplierGroup",
+          "type": "MSLocalDataSupplierGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithLocalDataSupplier:parentGroup:": {
+      "name": "initWithLocalDataSupplier:parentGroup:",
+      "bridgedName": "initWithLocalDataSupplier_parentGroup",
+      "args": [
+        {
+          "name": "localDataSupplier",
+          "type": "MSLocalDataSupplier *",
+          "nullable": false
+        },
+        {
+          "name": "parentGroup",
+          "type": "MSLocalDataSupplierGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "new NS_UNAVAILABLE": {
+      "name": "new NS_UNAVAILABLE",
+      "bridgedName": "new NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "dataSupplierMenuItemForDataType:": {
+      "name": "dataSupplierMenuItemForDataType:",
+      "bridgedName": "dataSupplierMenuItemForDataType",
+      "args": [
+        {
+          "name": "dataType",
+          "type": "MSDataType",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dataSupplierIdentifiers": {
+      "name": "dataSupplierIdentifiers",
+      "pointer": false,
+      "type": "NSArray <NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "subGroups": {
+      "name": "subGroups",
+      "pointer": false,
+      "type": "NSArray <MSLocalDataSupplierSubgroup *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "parentGroup": {
+      "name": "parentGroup",
+      "pointer": false,
+      "type": "MSLocalDataSupplierGroup ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "weak"
+      ]
+    },
+    "subgroupURL": {
+      "name": "subgroupURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

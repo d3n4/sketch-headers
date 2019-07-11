@@ -1,0 +1,19 @@
+{
+  "enum": true,
+  "name": "MSTextureVertexBufferIndex",
+  "members": [
+    {
+      "name": "MSTextureVertexBufferIndexXY",
+      "value": "0"
+    },
+    {
+      "name": "MSTextureVertexBufferIndexUV"
+    },
+    {
+      "name": "MSTextureVertexBufferIndexST"
+    },
+    {
+      "name": "MSTextureVertexBufferIndexUniforms"
+    }
+  ]
+}

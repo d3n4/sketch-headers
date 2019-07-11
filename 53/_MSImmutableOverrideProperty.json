@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableOverrideProperty",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "canOverride": {
+      "name": "canOverride",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overrideName": {
+      "name": "overrideName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

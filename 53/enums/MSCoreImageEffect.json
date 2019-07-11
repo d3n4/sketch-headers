@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSCoreImageEffect",
+  "members": [
+    {
+      "name": "MSCoreImageEffectDefault"
+    },
+    {
+      "name": "MSCoreImageEffectPerspective"
+    },
+    {
+      "name": "MSCoreImageEffectAverageLuminance"
+    },
+    {
+      "name": "MSCoreImageEffectSaturation"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "MSArtboardTitleRenderer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithGPURenderer:": {
+      "name": "initWithGPURenderer:",
+      "bridgedName": "initWithGPURenderer",
+      "args": [
+        {
+          "name": "renderer",
+          "type": "id<MSGPURenderer>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawTitlesForArtboards:titleColor:symbolTitleColor:zoom:backingScaleFactor:baseOrigin:": {
+      "name": "drawTitlesForArtboards:titleColor:symbolTitleColor:zoom:backingScaleFactor:baseOrigin:",
+      "bridgedName": "drawTitlesForArtboards_titleColor_symbolTitleColor_zoom_backingScaleFactor_baseOrigin",
+      "args": [
+        {
+          "name": "artboards",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "titleColor",
+          "type": "CGColorRef",
+          "nullable": false
+        },
+        {
+          "name": "symbolTitleColor",
+          "type": "CGColorRef",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "baseOrigin",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

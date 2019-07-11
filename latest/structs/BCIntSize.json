@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "BCIntSize",
+  "members": [
+    {
+      "name": "width",
+      "pointer": false,
+      "type": "int32_t"
+    },
+    {
+      "name": "height",
+      "pointer": false,
+      "type": "int32_t"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSColorModelPickerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorModelPickerDidChange:": {
+      "name": "colorModelPickerDidChange:",
+      "bridgedName": "colorModelPickerDidChange",
+      "args": [
+        {
+          "name": "picker",
+          "type": "MSColorModelPicker *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

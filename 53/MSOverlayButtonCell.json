@@ -1,0 +1,8 @@
+{
+  "name": "MSOverlayButtonCell",
+  "extends": "NSButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,49 @@
+{
+  "name": "MSSharedObject",
+  "extends": "_MSSharedObject",
+  "interfaces": [
+    "BCSortable"
+  ],
+  "methods": {
+    "initWithName:sharedObjectID:value:": {
+      "name": "initWithName:sharedObjectID:value:",
+      "bridgedName": "initWithName_sharedObjectID_value",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "sharedObjectID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "MSSharedObjectInstance*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isOutOfSyncWithInstance:": {
+      "name": "isOutOfSyncWithInstance:",
+      "bridgedName": "isOutOfSyncWithInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSSharedObjectInstance*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,78 @@
+{
+  "name": "MSAssetCollectionViewItem",
+  "extends": "NSCollectionViewItem",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "setAsset:name:": {
+      "name": "setAsset:name:",
+      "bridgedName": "setAsset_name",
+      "args": [
+        {
+          "name": "asset",
+          "type": "id<MSAsset> _Nonnull",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginNameEditingMode": {
+      "name": "beginNameEditingMode",
+      "bridgedName": "beginNameEditingMode",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldStartEditingNameWithEvent:": {
+      "name": "shouldStartEditingNameWithEvent:",
+      "bridgedName": "shouldStartEditingNameWithEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSAssetCollectionViewItemDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "assetHighlighted": {
+      "name": "assetHighlighted",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "alternativeCollections": {
+      "name": "alternativeCollections",
+      "pointer": false,
+      "type": "NSArray <MSAssetCollectionViewDataSource *>",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

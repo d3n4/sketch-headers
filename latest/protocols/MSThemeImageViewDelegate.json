@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSThemeImageViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "imageForThemeImageView:": {
+      "name": "imageForThemeImageView:",
+      "bridgedName": "imageForThemeImageView",
+      "args": [
+        {
+          "name": "view",
+          "type": "MSThemeImageView *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

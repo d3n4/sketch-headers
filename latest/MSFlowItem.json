@@ -1,0 +1,127 @@
+{
+  "name": "MSFlowItem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithFlowInfo:flowInfluencingLayerIDs:clipToRects:sourceLayerBounds:": {
+      "name": "initWithFlowInfo:flowInfluencingLayerIDs:clipToRects:sourceLayerBounds:",
+      "bridgedName": "initWithFlowInfo_flowInfluencingLayerIDs_clipToRects_sourceLayerBounds",
+      "args": [
+        {
+          "name": "flowInfo",
+          "type": "MSFlowInfo",
+          "nullable": false
+        },
+        {
+          "name": "flowInfluencingLayerIDs",
+          "type": "NSSet *",
+          "nullable": false
+        },
+        {
+          "name": "clipRects",
+          "type": "NSSet *",
+          "nullable": false
+        },
+        {
+          "name": "sourceLayerBounds",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowSegmentForZoomLevel:": {
+      "name": "flowSegmentForZoomLevel:",
+      "bridgedName": "flowSegmentForZoomLevel",
+      "args": [
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "flowInfluencingLayerIDs": {
+      "name": "flowInfluencingLayerIDs",
+      "pointer": false,
+      "type": "NSSet ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    },
+    "shouldDrawSourceLayerBounds": {
+      "name": "shouldDrawSourceLayerBounds",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldDrawSourceLineAndTip": {
+      "name": "shouldDrawSourceLineAndTip",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sourceLayerBounds": {
+      "name": "sourceLayerBounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flowInfo": {
+      "name": "flowInfo",
+      "pointer": false,
+      "type": "MSFlowInfo",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flowType": {
+      "name": "flowType",
+      "pointer": false,
+      "type": "MSFlowType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "startPoint": {
+      "name": "startPoint",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "clipRects": {
+      "name": "clipRects",
+      "pointer": false,
+      "type": "NSSet ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

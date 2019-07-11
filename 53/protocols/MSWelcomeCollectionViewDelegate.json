@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSWelcomeCollectionViewDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "collectionView:newItemForRepresentedObject:": {
+      "name": "collectionView:newItemForRepresentedObject:",
+      "bridgedName": "collectionView_newItemForRepresentedObject",
+      "args": [
+        {
+          "name": "collectionView",
+          "type": "NSCollectionView *",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSCollectionViewItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

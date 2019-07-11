@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSLayerListStatus",
+  "members": [
+    {
+      "name": "MSLayerListStatusUndecided",
+      "value": "0"
+    },
+    {
+      "name": "MSLayerListStatusCollapsed",
+      "value": "1"
+    },
+    {
+      "name": "MSLayerListStatusExpanded",
+      "value": "2"
+    }
+  ]
+}

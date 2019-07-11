@@ -1,0 +1,11 @@
+{
+  "struct": true,
+  "name": "MSTextureVertex9SliceIndicies",
+  "members": [
+    {
+      "name": "indicies[MSTextureVertex9SliceIndexCount]",
+      "pointer": false,
+      "type": "UInt32"
+    }
+  ]
+}

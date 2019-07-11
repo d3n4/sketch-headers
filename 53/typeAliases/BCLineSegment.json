@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "BCLineSegment",
+  "type": "struct BCLineSegment",
+  "pointer": false
+}

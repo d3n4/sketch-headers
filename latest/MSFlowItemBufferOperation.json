@@ -1,0 +1,72 @@
+{
+  "name": "MSFlowItemBufferOperation",
+  "extends": "NSOperation",
+  "interfaces": [],
+  "methods": {
+    "initWithFlowItem:clipToArtboards:zoomLevel:": {
+      "name": "initWithFlowItem:clipToArtboards:zoomLevel:",
+      "bridgedName": "initWithFlowItem_clipToArtboards_zoomLevel",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSFlowItem *",
+          "nullable": false
+        },
+        {
+          "name": "clipToArtboards",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "item": {
+      "name": "item",
+      "pointer": false,
+      "type": "MSFlowItem ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nonnull"
+      ]
+    },
+    "clipToArtboards": {
+      "name": "clipToArtboards",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "zoomLevel": {
+      "name": "zoomLevel",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "buffer": {
+      "name": "buffer",
+      "pointer": false,
+      "type": "MSArcVertexBuffer ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "MSExportFormatNamingTextField",
+  "extends": "MSTextFieldWithDropDownMenu",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "exportFormats": {
+      "name": "exportFormats",
+      "pointer": false,
+      "type": "NSArray<MSExportFormat *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

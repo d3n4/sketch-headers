@@ -1,0 +1,42 @@
+{
+  "name": "MSPDFPage",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithPDFData:": {
+      "name": "initWithPDFData:",
+      "bridgedName": "initWithPDFData",
+      "args": [
+        {
+          "name": "PDFData",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pageRef": {
+      "name": "pageRef",
+      "pointer": false,
+      "type": "CGPDFPageRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "size": {
+      "name": "size",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

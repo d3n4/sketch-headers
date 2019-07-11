@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSCollapsibleHeaderInspectorItemTarget",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "item:wantsSectionToCollapse:": {
+      "name": "item:wantsSectionToCollapse:",
+      "bridgedName": "item_wantsSectionToCollapse",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSViewController *",
+          "nullable": false
+        },
+        {
+          "name": "collapse",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

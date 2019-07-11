@@ -1,0 +1,23 @@
+{
+  "name": "MSCreateSymbolAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "createSymbolAction:": {
+      "name": "createSymbolAction:",
+      "bridgedName": "createSymbolAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

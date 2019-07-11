@@ -1,0 +1,76 @@
+{
+  "name": "TDTokenAssembly",
+  "extends": "TDAssembly",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "assemblyWithTokenizer:": {
+      "name": "assemblyWithTokenizer:",
+      "bridgedName": "assemblyWithTokenizer",
+      "args": [
+        {
+          "name": "t",
+          "type": "TDTokenizer *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithTokenzier:": {
+      "name": "initWithTokenzier:",
+      "bridgedName": "initWithTokenzier",
+      "args": [
+        {
+          "name": "t",
+          "type": "TDTokenizer *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assemblyWithTokenArray:": {
+      "name": "assemblyWithTokenArray:",
+      "bridgedName": "assemblyWithTokenArray",
+      "args": [
+        {
+          "name": "a",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithTokenArray:": {
+      "name": "initWithTokenArray:",
+      "bridgedName": "initWithTokenArray",
+      "args": [
+        {
+          "name": "a",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "preservesWhitespaceTokens": {
+      "name": "preservesWhitespaceTokens",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

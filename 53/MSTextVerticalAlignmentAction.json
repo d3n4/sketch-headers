@@ -1,0 +1,17 @@
+{
+  "name": "MSTextVerticalAlignmentAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "verticalAlignment": {
+      "name": "verticalAlignment",
+      "bridgedName": "verticalAlignment",
+      "args": [],
+      "returns": "MSTextStyleVerticalAlignment",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

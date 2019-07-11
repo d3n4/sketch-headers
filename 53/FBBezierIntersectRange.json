@@ -1,0 +1,277 @@
+{
+  "name": "FBBezierIntersectRange",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "intersectRangeWithCurve1:parameterRange1:curve2:parameterRange2:reversed:": {
+      "name": "intersectRangeWithCurve1:parameterRange1:curve2:parameterRange2:reversed:",
+      "bridgedName": "intersectRangeWithCurve1_parameterRange1_curve2_parameterRange2_reversed",
+      "args": [
+        {
+          "name": "curve1",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "parameterRange1",
+          "type": "FBRange",
+          "nullable": false
+        },
+        {
+          "name": "curve2",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "parameterRange2",
+          "type": "FBRange",
+          "nullable": false
+        },
+        {
+          "name": "reversed",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithCurve1:parameterRange1:curve2:parameterRange2:reversed:": {
+      "name": "initWithCurve1:parameterRange1:curve2:parameterRange2:reversed:",
+      "bridgedName": "initWithCurve1_parameterRange1_curve2_parameterRange2_reversed",
+      "args": [
+        {
+          "name": "curve1",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "parameterRange1",
+          "type": "FBRange",
+          "nullable": false
+        },
+        {
+          "name": "curve2",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "parameterRange2",
+          "type": "FBRange",
+          "nullable": false
+        },
+        {
+          "name": "reversed",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "merge:": {
+      "name": "merge:",
+      "bridgedName": "merge",
+      "args": [
+        {
+          "name": "other",
+          "type": "FBBezierIntersectRange *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flip": {
+      "name": "flip",
+      "bridgedName": "flip",
+      "args": [],
+      "returns": "FBBezierIntersectRange *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "curve1": {
+      "name": "curve1",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "parameterRange1": {
+      "name": "parameterRange1",
+      "pointer": false,
+      "type": "FBRange",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "curve1LeftBezier": {
+      "name": "curve1LeftBezier",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "curve1RightBezier": {
+      "name": "curve1RightBezier",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "curve1OverlappingBezier": {
+      "name": "curve1OverlappingBezier",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "curve2": {
+      "name": "curve2",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "parameterRange2": {
+      "name": "parameterRange2",
+      "pointer": false,
+      "type": "FBRange",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "reversed": {
+      "name": "reversed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "curve2LeftBezier": {
+      "name": "curve2LeftBezier",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "curve2RightBezier": {
+      "name": "curve2RightBezier",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "curve2OverlappingBezier": {
+      "name": "curve2OverlappingBezier",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "startIntersection": {
+      "name": "startIntersection",
+      "pointer": false,
+      "type": "FBBezierIntersection ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "middleIntersection": {
+      "name": "middleIntersection",
+      "pointer": false,
+      "type": "FBBezierIntersection ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "stopIntersection": {
+      "name": "stopIntersection",
+      "pointer": false,
+      "type": "FBBezierIntersection ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "atStartOfCurve1": {
+      "name": "atStartOfCurve1",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isAtStartOfCurve1"
+      ]
+    },
+    "atStopOfCurve1": {
+      "name": "atStopOfCurve1",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isAtStopOfCurve1"
+      ]
+    },
+    "atStartOfCurve2": {
+      "name": "atStartOfCurve2",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isAtStartOfCurve2"
+      ]
+    },
+    "atStopOfCurve2": {
+      "name": "atStopOfCurve2",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isAtStopOfCurve2"
+      ]
+    }
+  },
+  "generics": []
+}

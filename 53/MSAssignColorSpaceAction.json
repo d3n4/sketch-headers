@@ -1,0 +1,23 @@
+{
+  "name": "MSAssignColorSpaceAction",
+  "extends": "MSChangeColorSpaceAction",
+  "interfaces": [],
+  "methods": {
+    "assignDocumentColorSpace:": {
+      "name": "assignDocumentColorSpace:",
+      "bridgedName": "assignDocumentColorSpace",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

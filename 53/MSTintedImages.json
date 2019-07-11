@@ -1,0 +1,233 @@
+{
+  "name": "MSTintedImages",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithTheme:": {
+      "name": "initWithTheme:",
+      "bridgedName": "initWithTheme",
+      "args": [
+        {
+          "name": "theme",
+          "type": "MSTheme *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hideImageWhenNodeIsSelected:active:": {
+      "name": "hideImageWhenNodeIsSelected:active:",
+      "bridgedName": "hideImageWhenNodeIsSelected_active",
+      "args": [
+        {
+          "name": "selected",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "active",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lockImageWhenNodeIsSelected:active:": {
+      "name": "lockImageWhenNodeIsSelected:active:",
+      "bridgedName": "lockImageWhenNodeIsSelected_active",
+      "args": [
+        {
+          "name": "selected",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "active",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pressedHideImageWhenNodeIsSelected:": {
+      "name": "pressedHideImageWhenNodeIsSelected:",
+      "bridgedName": "pressedHideImageWhenNodeIsSelected",
+      "args": [
+        {
+          "name": "selected",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pressedLockImageWhenNodeIsSelected:": {
+      "name": "pressedLockImageWhenNodeIsSelected:",
+      "bridgedName": "pressedLockImageWhenNodeIsSelected",
+      "args": [
+        {
+          "name": "selected",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "selectedActiveHideImage": {
+      "name": "selectedActiveHideImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectedInactiveHideImage": {
+      "name": "selectedInactiveHideImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "unselectedHideImage": {
+      "name": "unselectedHideImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pressedHideImage": {
+      "name": "pressedHideImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pressedSelectedHideImage": {
+      "name": "pressedSelectedHideImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectedActiveLockImage": {
+      "name": "selectedActiveLockImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectedInactiveLockImage": {
+      "name": "selectedInactiveLockImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "unselectedLockImage": {
+      "name": "unselectedLockImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pressedLockImage": {
+      "name": "pressedLockImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pressedSelectedLockImage": {
+      "name": "pressedSelectedLockImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sidebarAddPageImage": {
+      "name": "sidebarAddPageImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sidebarCollapsePageListImage": {
+      "name": "sidebarCollapsePageListImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sidebarExpandPageListImage": {
+      "name": "sidebarExpandPageListImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flowBackImage": {
+      "name": "flowBackImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flowOtherPageImage": {
+      "name": "flowOtherPageImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

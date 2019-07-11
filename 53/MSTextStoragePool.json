@@ -1,0 +1,45 @@
+{
+  "name": "MSTextStoragePool",
+  "extends": "BCObjectPool",
+  "interfaces": [],
+  "methods": {
+    "initWithTextLayer:": {
+      "name": "initWithTextLayer:",
+      "bridgedName": "initWithTextLayer",
+      "args": [
+        {
+          "name": "textLayer",
+          "type": "MSImmutableTextLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "vendTextStorage": {
+      "name": "vendTextStorage",
+      "bridgedName": "vendTextStorage",
+      "args": [],
+      "returns": "NSTextStorage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "recycleTextStorage:": {
+      "name": "recycleTextStorage:",
+      "bridgedName": "recycleTextStorage",
+      "args": [
+        {
+          "name": "textStorage",
+          "type": "NSTextStorage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "BCOrdered",
+  "members": [
+    {
+      "name": "BCOrderedFirst",
+      "value": "0"
+    },
+    {
+      "name": "BCOrderedLast",
+      "value": "1"
+    }
+  ]
+}

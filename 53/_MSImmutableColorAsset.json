@@ -1,0 +1,19 @@
+{
+  "name": "_MSImmutableColorAsset",
+  "extends": "MSImmutableAssetContainer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}
