@@ -99,7 +99,7 @@
     "badgeImages": {
       "name": "badgeImages",
       "pointer": false,
-      "type": "MSLayerBadgeImages ",
+      "type": "MSTintedImages ",
       "attributes": [
         "nonatomic",
         "readonly",

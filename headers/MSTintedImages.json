@@ -1,5 +1,5 @@
 {
-  "name": "MSLayerBadgeImages",
+  "name": "MSTintedImages",
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
@@ -176,6 +176,24 @@
     },
     "pressedSelectedLockImage": {
       "name": "pressedSelectedLockImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flowBackImage": {
+      "name": "flowBackImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flowOtherPageImage": {
+      "name": "flowOtherPageImage",
       "pointer": false,
       "type": "NSImage ",
       "attributes": [

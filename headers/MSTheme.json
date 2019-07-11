@@ -607,10 +607,10 @@
         "nonatomic"
       ]
     },
-    "layerListBadgeImages": {
-      "name": "layerListBadgeImages",
+    "tintedImages": {
+      "name": "tintedImages",
       "pointer": false,
-      "type": "MSLayerBadgeImages ",
+      "type": "MSTintedImages ",
       "attributes": [
         "nonatomic",
         "readonly"

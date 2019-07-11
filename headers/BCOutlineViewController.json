@@ -6,6 +6,22 @@
     "BCOutlineViewDelegate"
   ],
   "methods": {
+    "temporarilyDisableGroupRowFloating": {
+      "name": "temporarilyDisableGroupRowFloating",
+      "bridgedName": "temporarilyDisableGroupRowFloating",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enableGroupRowFloatingIfNeeded": {
+      "name": "enableGroupRowFloatingIfNeeded",
+      "bridgedName": "enableGroupRowFloatingIfNeeded",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "initWithDataController:": {
       "name": "initWithDataController:",
       "bridgedName": "initWithDataController",

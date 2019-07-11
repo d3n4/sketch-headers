@@ -3,9 +3,9 @@
   "extends": "NSOperation",
   "interfaces": [],
   "methods": {
-    "bitmapImageRenderForPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:": {
-      "name": "bitmapImageRenderForPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:",
-      "bridgedName": "bitmapImageRenderForPage_inDocument_visibleContentRect_backingScaleFactor_pixelViewSize_zoomValue_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace",
+    "bitmapImageRenderForPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:": {
+      "name": "bitmapImageRenderForPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:",
+      "bridgedName": "bitmapImageRenderForPage_inDocument_visibleContentRect_backingScaleFactor_pixelViewSize_zoomValue_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace_colorSettings",
       "args": [
         {
           "name": "page",
@@ -56,15 +56,20 @@
           "name": "canvasColorSpace",
           "type": "NSColorSpace *",
           "nullable": false
+        },
+        {
+          "name": "colorSettings",
+          "type": "MSOverlayColorSettings *",
+          "nullable": false
         }
       ],
       "returns": "NSBitmapImageRep *",
       "kind": "class",
       "kindIndicator": "+"
     },
-    "bitmapImageFromRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:": {
-      "name": "bitmapImageFromRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:",
-      "bridgedName": "bitmapImageFromRenderPasses_visibleContentRect_backingScaleFactor_pixelViewSize_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace",
+    "bitmapImageFromRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:": {
+      "name": "bitmapImageFromRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:",
+      "bridgedName": "bitmapImageFromRenderPasses_visibleContentRect_backingScaleFactor_pixelViewSize_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace_colorSettings",
       "args": [
         {
           "name": "renderPasses",
@@ -105,15 +110,20 @@
           "name": "canvasColorSpace",
           "type": "NSColorSpace *",
           "nullable": false
+        },
+        {
+          "name": "colorSettings",
+          "type": "MSOverlayColorSettings *",
+          "nullable": false
         }
       ],
       "returns": "NSBitmapImageRep *",
       "kind": "class",
       "kindIndicator": "+"
     },
-    "renderOperationWithPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:": {
-      "name": "renderOperationWithPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:",
-      "bridgedName": "renderOperationWithPage_inDocument_visibleContentRect_backingScaleFactor_pixelViewSize_zoomValue_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace",
+    "renderOperationWithPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:": {
+      "name": "renderOperationWithPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:",
+      "bridgedName": "renderOperationWithPage_inDocument_visibleContentRect_backingScaleFactor_pixelViewSize_zoomValue_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace_colorSettings",
       "args": [
         {
           "name": "page",
@@ -163,6 +173,11 @@
         {
           "name": "canvasColorSpace",
           "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "colorSettings",
+          "type": "MSOverlayColorSettings *",
           "nullable": false
         }
       ],
@@ -170,9 +185,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "renderOperationWithRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:": {
-      "name": "renderOperationWithRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:",
-      "bridgedName": "renderOperationWithRenderPasses_visibleContentRect_backingScaleFactor_pixelViewSize_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace",
+    "renderOperationWithRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:": {
+      "name": "renderOperationWithRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:colorSettings:",
+      "bridgedName": "renderOperationWithRenderPasses_visibleContentRect_backingScaleFactor_pixelViewSize_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace_colorSettings",
       "args": [
         {
           "name": "renderPasses",
@@ -212,6 +227,11 @@
         {
           "name": "canvasColorSpace",
           "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "colorSettings",
+          "type": "MSOverlayColorSettings *",
           "nullable": false
         }
       ],

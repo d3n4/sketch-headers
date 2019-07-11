@@ -536,6 +536,15 @@
         "strong"
       ]
     },
+    "rendererColorSettings": {
+      "name": "rendererColorSettings",
+      "pointer": false,
+      "type": "MSOverlayColorSettings ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "driver": {
       "name": "driver",
       "pointer": false,
