@@ -1,0 +1,144 @@
+{
+  "name": "MSRulerGuides",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "findHoverGuidesOnPage:mouse:mask:zoomScale:": {
+      "name": "findHoverGuidesOnPage:mouse:mask:zoomScale:",
+      "bridgedName": "findHoverGuidesOnPage_mouse_mask_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "MSAlignmentGuideMask",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "horizontalGuidesForVerticalRulerOnPage:mask:zoomScale:": {
+      "name": "horizontalGuidesForVerticalRulerOnPage:mask:zoomScale:",
+      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_mask_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "MSAlignmentGuideMask",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "horizontalGuidesForVerticalRulerOnPage:mask:inRect:zoomScale:": {
+      "name": "horizontalGuidesForVerticalRulerOnPage:mask:inRect:zoomScale:",
+      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_mask_inRect_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "MSAlignmentGuideMask",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "verticalGuidesForHorizontalRulerOnPage:mask:zoomScale:": {
+      "name": "verticalGuidesForHorizontalRulerOnPage:mask:zoomScale:",
+      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_mask_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "MSAlignmentGuideMask",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "verticalGuidesForHorizontalRulerOnPage:mask:inRect:zoomScale:": {
+      "name": "verticalGuidesForHorizontalRulerOnPage:mask:inRect:zoomScale:",
+      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_mask_inRect_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "MSAlignmentGuideMask",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

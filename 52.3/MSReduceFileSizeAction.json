@@ -1,0 +1,8 @@
+{
+  "name": "MSReduceFileSizeAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

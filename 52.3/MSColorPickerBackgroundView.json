@@ -1,0 +1,8 @@
+{
+  "name": "MSColorPickerBackgroundView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

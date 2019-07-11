@@ -1,0 +1,49 @@
+{
+  "name": "MSGradientStop",
+  "extends": "_MSGradientStop",
+  "interfaces": [
+    "MSColorConvertible"
+  ],
+  "methods": {
+    "stopWithPosition:color:": {
+      "name": "stopWithPosition:color:",
+      "bridgedName": "stopWithPosition_color",
+      "args": [
+        {
+          "name": "pos",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "aColor",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithPosition:color:": {
+      "name": "initWithPosition:color:",
+      "bridgedName": "initWithPosition_color",
+      "args": [
+        {
+          "name": "pos",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "aColor",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

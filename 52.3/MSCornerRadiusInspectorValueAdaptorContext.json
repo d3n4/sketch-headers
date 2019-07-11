@@ -1,0 +1,56 @@
+{
+  "name": "MSCornerRadiusInspectorValueAdaptorContext",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "componentStringWithMathValueForModel:": {
+      "name": "componentStringWithMathValueForModel:",
+      "bridgedName": "componentStringWithMathValueForModel",
+      "args": [
+        {
+          "name": "model",
+          "type": "MSRectangleShape *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "mode": {
+      "name": "mode",
+      "pointer": false,
+      "type": "MSCornerRadiusMode",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "componentString": {
+      "name": "componentString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "mathOperator": {
+      "name": "mathOperator",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

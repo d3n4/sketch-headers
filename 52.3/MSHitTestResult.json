@@ -1,0 +1,28 @@
+{
+  "name": "MSHitTestResult",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overrideRepresentation": {
+      "name": "overrideRepresentation",
+      "pointer": false,
+      "type": "MSOverrideRepresentation ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

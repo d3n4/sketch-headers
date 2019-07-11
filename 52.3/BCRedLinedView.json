@@ -1,0 +1,8 @@
+{
+  "name": "BCRedLinedView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

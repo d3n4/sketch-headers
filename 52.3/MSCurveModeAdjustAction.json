@@ -1,0 +1,8 @@
+{
+  "name": "MSCurveModeAdjustAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSTextOnPathAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "textOnPath:": {
+      "name": "textOnPath:",
+      "bridgedName": "textOnPath",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

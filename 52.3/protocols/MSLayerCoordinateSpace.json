@@ -1,0 +1,189 @@
+{
+  "protocol": true,
+  "name": "MSLayerCoordinateSpace",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "convertPoint:toCoordinateSpace:": {
+      "name": "convertPoint:toCoordinateSpace:",
+      "bridgedName": "convertPoint_toCoordinateSpace",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertPoint:fromCoordinateSpace:": {
+      "name": "convertPoint:fromCoordinateSpace:",
+      "bridgedName": "convertPoint_fromCoordinateSpace",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertRect:toCoordinateSpace:": {
+      "name": "convertRect:toCoordinateSpace:",
+      "bridgedName": "convertRect_toCoordinateSpace",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertRect:fromCoordinateSpace:": {
+      "name": "convertRect:fromCoordinateSpace:",
+      "bridgedName": "convertRect_fromCoordinateSpace",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertVector:toCoordinateSpace:": {
+      "name": "convertVector:toCoordinateSpace:",
+      "bridgedName": "convertVector_toCoordinateSpace",
+      "args": [
+        {
+          "name": "vector",
+          "type": "CGVector",
+          "nullable": false
+        },
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "CGVector",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertVector:fromCoordinateSpace:": {
+      "name": "convertVector:fromCoordinateSpace:",
+      "bridgedName": "convertVector_fromCoordinateSpace",
+      "args": [
+        {
+          "name": "vector",
+          "type": "CGVector",
+          "nullable": false
+        },
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "CGVector",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformForConvertingToCoordinateSpace:": {
+      "name": "transformForConvertingToCoordinateSpace:",
+      "bridgedName": "transformForConvertingToCoordinateSpace",
+      "args": [
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "CGAffineTransform",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformForConvertingFromCoordinateSpace:": {
+      "name": "transformForConvertingFromCoordinateSpace:",
+      "bridgedName": "transformForConvertingFromCoordinateSpace",
+      "args": [
+        {
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "CGAffineTransform",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "bounds": {
+      "name": "bounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "parentCoordinateSpace": {
+      "name": "parentCoordinateSpace",
+      "pointer": false,
+      "type": "id <MSLayerCoordinateSpace>",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "transformForConvertingToParentCoordinateSpace": {
+      "name": "transformForConvertingToParentCoordinateSpace",
+      "pointer": false,
+      "type": "CGAffineTransform",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "transformForConvertingFromParentCoordinateSpace": {
+      "name": "transformForConvertingFromParentCoordinateSpace",
+      "pointer": false,
+      "type": "CGAffineTransform",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  }
+}

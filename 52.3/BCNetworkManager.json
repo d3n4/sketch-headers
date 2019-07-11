@@ -1,0 +1,33 @@
+{
+  "name": "BCNetworkManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sendSynchronousRequest:returningResponse:error:": {
+      "name": "sendSynchronousRequest:returningResponse:error:",
+      "bridgedName": "sendSynchronousRequest_returningResponse_error",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "response",
+          "type": "NSURLResponse * _Nullable * _Nullable",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

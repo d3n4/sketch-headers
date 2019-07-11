@@ -1,0 +1,33 @@
+{
+  "name": "MSExportOptions",
+  "extends": "_MSExportOptions",
+  "interfaces": [
+    "MSExportFormatContainer"
+  ],
+  "methods": {
+    "nextMostAppropriateExportFormatToAdd:": {
+      "name": "nextMostAppropriateExportFormatToAdd:",
+      "bridgedName": "nextMostAppropriateExportFormatToAdd",
+      "args": [
+        {
+          "name": "existingExportFormats",
+          "type": "NSArray <MSExportFormat *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSExportFormat *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addExportFormat": {
+      "name": "addExportFormat",
+      "bridgedName": "addExportFormat",
+      "args": [],
+      "returns": "MSExportFormat *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

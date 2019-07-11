@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "MSPresetIteratorStruct",
+  "type": "struct MSPresetIteratorStruct",
+  "pointer": false
+}

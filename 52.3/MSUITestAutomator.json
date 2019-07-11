@@ -1,0 +1,254 @@
+{
+  "name": "MSUITestAutomator",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "queuePlaybackEvent:": {
+      "name": "queuePlaybackEvent:",
+      "bridgedName": "queuePlaybackEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "dispatch_block_t",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "playback": {
+      "name": "playback",
+      "bridgedName": "playback",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pausePlaybackFor:": {
+      "name": "pausePlaybackFor:",
+      "bridgedName": "pausePlaybackFor",
+      "args": [
+        {
+          "name": "pause",
+          "type": "NSTimeInterval",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "singleClickAtPoint:inView:flags:": {
+      "name": "singleClickAtPoint:inView:flags:",
+      "bridgedName": "singleClickAtPoint_inView_flags",
+      "args": [
+        {
+          "name": "click",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleClickAtPoint:inView:flags:": {
+      "name": "doubleClickAtPoint:inView:flags:",
+      "bridgedName": "doubleClickAtPoint_inView_flags",
+      "args": [
+        {
+          "name": "click",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startDragAtPoint:inView:flags:": {
+      "name": "startDragAtPoint:inView:flags:",
+      "bridgedName": "startDragAtPoint_inView_flags",
+      "args": [
+        {
+          "name": "click",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dragToPoint:inView:flags:": {
+      "name": "dragToPoint:inView:flags:",
+      "bridgedName": "dragToPoint_inView_flags",
+      "args": [
+        {
+          "name": "click",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endDragAtPoint:inView:flags:": {
+      "name": "endDragAtPoint:inView:flags:",
+      "bridgedName": "endDragAtPoint_inView_flags",
+      "args": [
+        {
+          "name": "click",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView*",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendKeyPressEvent:modifiers:": {
+      "name": "sendKeyPressEvent:modifiers:",
+      "bridgedName": "sendKeyPressEvent_modifiers",
+      "args": [
+        {
+          "name": "characters",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendDeleteKeyPressed:": {
+      "name": "sendDeleteKeyPressed:",
+      "bridgedName": "sendDeleteKeyPressed",
+      "args": [
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendRightArrowKeyModifiers:": {
+      "name": "sendRightArrowKeyModifiers:",
+      "bridgedName": "sendRightArrowKeyModifiers",
+      "args": [
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendLeftArrowKeyModifiers:": {
+      "name": "sendLeftArrowKeyModifiers:",
+      "bridgedName": "sendLeftArrowKeyModifiers",
+      "args": [
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendUpArrowKeyModifiers:": {
+      "name": "sendUpArrowKeyModifiers:",
+      "bridgedName": "sendUpArrowKeyModifiers",
+      "args": [
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendDownArrowKeyModifiers:": {
+      "name": "sendDownArrowKeyModifiers:",
+      "bridgedName": "sendDownArrowKeyModifiers",
+      "args": [
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,66 @@
+{
+  "name": "MSGPUArtboardShadow",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithRenderer:": {
+      "name": "initWithRenderer:",
+      "bridgedName": "initWithRenderer",
+      "args": [
+        {
+          "name": "renderer",
+          "type": "id<MSGPURenderer>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "minimumArtboardSizeForDrawingShadow": {
+      "name": "minimumArtboardSizeForDrawingShadow",
+      "bridgedName": "minimumArtboardSizeForDrawingShadow",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cornerSize": {
+      "name": "cornerSize",
+      "bridgedName": "cornerSize",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cornerSourceSize": {
+      "name": "cornerSourceSize",
+      "bridgedName": "cornerSourceSize",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "texture": {
+      "name": "texture",
+      "pointer": false,
+      "type": "id<MSGPUTexture>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectedTexture": {
+      "name": "selectedTexture",
+      "pointer": false,
+      "type": "id<MSGPUTexture>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

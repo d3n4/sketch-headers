@@ -1,0 +1,51 @@
+{
+  "name": "MSInlineUpDownTextField",
+  "extends": "MSUpDownTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "inlineLabel": {
+      "name": "inlineLabel",
+      "pointer": false,
+      "type": "IBInspectable NSString ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "inlineImage": {
+      "name": "inlineImage",
+      "pointer": false,
+      "type": "IBInspectable NSImage ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "inlineFieldWidth": {
+      "name": "inlineFieldWidth",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inlineLabelField": {
+      "name": "inlineLabelField",
+      "pointer": false,
+      "type": "NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inlineToolTip": {
+      "name": "inlineToolTip",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

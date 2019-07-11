@@ -1,0 +1,76 @@
+{
+  "name": "MSImmutableFlowConnection",
+  "extends": "_MSImmutableFlowConnection",
+  "interfaces": [],
+  "methods": {
+    "flowTypeForTransitionFromParentLayer:toArtboard:": {
+      "name": "flowTypeForTransitionFromParentLayer:toArtboard:",
+      "bridgedName": "flowTypeForTransitionFromParentLayer_toArtboard",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "artboard",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSFlowType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathForRenderingFlowFromParentLayer:toArtboard:zoomLevel:": {
+      "name": "bezierPathForRenderingFlowFromParentLayer:toArtboard:zoomLevel:",
+      "bridgedName": "bezierPathForRenderingFlowFromParentLayer_toArtboard_zoomLevel",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "destinationArtboard",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "zoomLevel",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isValidFlowConnectionInDocumentData:": {
+      "name": "isValidFlowConnectionInDocumentData:",
+      "bridgedName": "isValidFlowConnectionInDocumentData",
+      "args": [
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isBackAction": {
+      "name": "isBackAction",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,100 @@
+{
+  "name": "TestFlight",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "manuallyStartSession": {
+      "name": "manuallyStartSession",
+      "bridgedName": "manuallyStartSession",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "manuallyEndSession": {
+      "name": "manuallyEndSession",
+      "bridgedName": "manuallyEndSession",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addCustomEnvironmentInformation:forKey:": {
+      "name": "addCustomEnvironmentInformation:forKey:",
+      "bridgedName": "addCustomEnvironmentInformation_forKey",
+      "args": [
+        {
+          "name": "information",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "takeOff:": {
+      "name": "takeOff:",
+      "bridgedName": "takeOff",
+      "args": [
+        {
+          "name": "applicationToken",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setOptions:": {
+      "name": "setOptions:",
+      "bridgedName": "setOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "passCheckpoint:": {
+      "name": "passCheckpoint:",
+      "bridgedName": "passCheckpoint",
+      "args": [
+        {
+          "name": "checkpointName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "submitFeedback:": {
+      "name": "submitFeedback:",
+      "bridgedName": "submitFeedback",
+      "args": [
+        {
+          "name": "feedback",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

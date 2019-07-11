@@ -1,0 +1,71 @@
+{
+  "name": "_MSImmutableExportFormat",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "absoluteSize": {
+      "name": "absoluteSize",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fileFormat": {
+      "name": "fileFormat",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "namingScheme": {
+      "name": "namingScheme",
+      "pointer": false,
+      "type": "MSExportFormatNamingScheme",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "visibleScaleType": {
+      "name": "visibleScaleType",
+      "pointer": false,
+      "type": "MSUserVisibleScaleType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

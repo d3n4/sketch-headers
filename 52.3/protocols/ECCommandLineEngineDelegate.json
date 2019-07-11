@@ -1,0 +1,61 @@
+{
+  "protocol": true,
+  "name": "ECCommandLineEngineDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "engineDidFinishLaunching:": {
+      "name": "engineDidFinishLaunching:",
+      "bridgedName": "engineDidFinishLaunching",
+      "args": [
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "engine:willProcessCommands:": {
+      "name": "engine:willProcessCommands:",
+      "bridgedName": "engine_willProcessCommands",
+      "args": [
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        },
+        {
+          "name": "commands",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "engine:didProcessCommands:": {
+      "name": "engine:didProcessCommands:",
+      "bridgedName": "engine_didProcessCommands",
+      "args": [
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        },
+        {
+          "name": "commands",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

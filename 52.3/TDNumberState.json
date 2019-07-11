@@ -1,0 +1,17 @@
+{
+  "name": "TDNumberState",
+  "extends": "TDTokenizerState",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "allowsTrailingDot": {
+      "name": "allowsTrailingDot",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

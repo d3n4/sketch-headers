@@ -1,0 +1,131 @@
+{
+  "protocol": true,
+  "name": "MSShadowRenderer",
+  "extends": "MSRenderer",
+  "interfaces": [],
+  "methods": {
+    "renderShadow:path:cacheObject:windingRule:options:type:strokeType:fillShouldClip:lineWidth:context:": {
+      "name": "renderShadow:path:cacheObject:windingRule:options:type:strokeType:fillShouldClip:lineWidth:context:",
+      "bridgedName": "renderShadow_path_cacheObject_windingRule_options_type_strokeType_fillShouldClip_lineWidth_context",
+      "args": [
+        {
+          "name": "shadow",
+          "type": "MSImmutableStyleShadow *",
+          "nullable": false
+        },
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "cacheObject",
+          "type": "MSModelObjectCommon *",
+          "nullable": false
+        },
+        {
+          "name": "windingRule",
+          "type": "NSWindingRule",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        },
+        {
+          "name": "shadowType",
+          "type": "MSShadowType",
+          "nullable": false
+        },
+        {
+          "name": "strokeType",
+          "type": "MSShadowBorderType",
+          "nullable": false
+        },
+        {
+          "name": "fillShouldClip",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderShadow:rect:context:block:": {
+      "name": "renderShadow:rect:context:block:",
+      "bridgedName": "renderShadow_rect_context_block",
+      "args": [
+        {
+          "name": "shadow",
+          "type": "MSImmutableStyleShadow *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderInnerShadow:path:windingRule:context:cacheObject:": {
+      "name": "renderInnerShadow:path:windingRule:context:cacheObject:",
+      "bridgedName": "renderInnerShadow_path_windingRule_context_cacheObject",
+      "args": [
+        {
+          "name": "shadow",
+          "type": "MSImmutableStyleInnerShadow *",
+          "nullable": false
+        },
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "windingRule",
+          "type": "NSWindingRule",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        },
+        {
+          "name": "cacheObject",
+          "type": "MSModelObjectCommon *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

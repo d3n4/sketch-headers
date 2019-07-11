@@ -1,0 +1,27 @@
+{
+  "name": "_MSOverrideProperty",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "canOverride": {
+      "name": "canOverride",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "overrideName": {
+      "name": "overrideName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

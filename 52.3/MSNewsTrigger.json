@@ -1,0 +1,8 @@
+{
+  "name": "MSNewsTrigger",
+  "extends": "BCSingleton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,198 @@
+{
+  "name": "BCCache",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "cachedObjectForOwner:andKey:": {
+      "name": "cachedObjectForOwner:andKey:",
+      "bridgedName": "cachedObjectForOwner_andKey",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id <NSCopying>",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof NSObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setCachedObject:forOwner:andKey:": {
+      "name": "setCachedObject:forOwner:andKey:",
+      "bridgedName": "setCachedObject_forOwner_andKey",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id <NSCopying>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cachedObjectForOwner:andKey:orCreateWithBlock:": {
+      "name": "cachedObjectForOwner:andKey:orCreateWithBlock:",
+      "bridgedName": "cachedObjectForOwner_andKey_orCreateWithBlock",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id<NSCopying>",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCCacheCreateObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof NSObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "blockingCachedObjectForOwner:andKey:orCreateWithBlock:": {
+      "name": "blockingCachedObjectForOwner:andKey:orCreateWithBlock:",
+      "bridgedName": "blockingCachedObjectForOwner_andKey_orCreateWithBlock",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id<NSCopying>",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCCacheCreateObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof NSObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "populateCacheForObjectWithOwner:andKey:creationBlock:": {
+      "name": "populateCacheForObjectWithOwner:andKey:creationBlock:",
+      "bridgedName": "populateCacheForObjectWithOwner_andKey_creationBlock",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id<NSCopying>",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCCacheCreateObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable __kindof NSObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeCachedObjectForOwner:andKey:": {
+      "name": "removeCachedObjectForOwner:andKey:",
+      "bridgedName": "removeCachedObjectForOwner_andKey",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id <NSCopying>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeCachedObjectsForOwner:": {
+      "name": "removeCachedObjectsForOwner:",
+      "bridgedName": "removeCachedObjectsForOwner",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeCachedObjectsExceptForOwners:": {
+      "name": "removeCachedObjectsExceptForOwners:",
+      "bridgedName": "removeCachedObjectsExceptForOwners",
+      "args": [
+        {
+          "name": "ownersToKeep",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllCachedObjects": {
+      "name": "removeAllCachedObjects",
+      "bridgedName": "removeAllCachedObjects",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "count": {
+      "name": "count",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "allOwners": {
+      "name": "allOwners",
+      "pointer": false,
+      "type": "NSSet ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

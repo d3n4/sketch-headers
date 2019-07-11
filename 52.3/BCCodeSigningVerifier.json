@@ -1,0 +1,8 @@
+{
+  "name": "BCCodeSigningVerifier",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

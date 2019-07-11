@@ -1,0 +1,18 @@
+{
+  "name": "MSColorHexStringTransformer",
+  "extends": "NSValueTransformer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSColorHexStringTransformerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

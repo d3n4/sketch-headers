@@ -1,0 +1,198 @@
+{
+  "name": "MSGestureRecognizer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithTarget:action:": {
+      "name": "initWithTarget:action:",
+      "bridgedName": "initWithTarget_action",
+      "args": [
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "locationInLayer:": {
+      "name": "locationInLayer:",
+      "bridgedName": "locationInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reset": {
+      "name": "reset",
+      "bridgedName": "reset",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseDown:clickCount:modifierFlags:": {
+      "name": "mouseDown:clickCount:modifierFlags:",
+      "bridgedName": "mouseDown_clickCount_modifierFlags",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "clickCount",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseUp:location:": {
+      "name": "mouseUp:location:",
+      "bridgedName": "mouseUp_location",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseDragged:modifierFlags:": {
+      "name": "mouseDragged:modifierFlags:",
+      "bridgedName": "mouseDragged_modifierFlags",
+      "args": [
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSEventModifierFlags",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "keyDown:": {
+      "name": "keyDown:",
+      "bridgedName": "keyDown",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "keyUp:flags:": {
+      "name": "keyUp:flags:",
+      "bridgedName": "keyUp_flags",
+      "args": [
+        {
+          "name": "c",
+          "type": "unichar",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flagsChanged:": {
+      "name": "flagsChanged:",
+      "bridgedName": "flagsChanged",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "target": {
+      "name": "target",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "atomic",
+        "nullable",
+        "weak"
+      ]
+    },
+    "action": {
+      "name": "action",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "atomic",
+        "nullable"
+      ]
+    },
+    "state": {
+      "name": "state",
+      "pointer": false,
+      "type": "NSGestureRecognizerState",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSGestureRecognizerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

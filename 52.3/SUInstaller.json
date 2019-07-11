@@ -1,0 +1,67 @@
+{
+  "name": "SUInstaller",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "installerForHost:fileOperationToolPath:updateDirectory:error:": {
+      "name": "installerForHost:fileOperationToolPath:updateDirectory:error:",
+      "bridgedName": "installerForHost_fileOperationToolPath_updateDirectory_error",
+      "args": [
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        },
+        {
+          "name": "fileOperationToolPath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "updateDirectory",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id<SUInstallerProtocol>",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "installSourcePathInUpdateFolder:forHost:isPackage:isGuided:": {
+      "name": "installSourcePathInUpdateFolder:forHost:isPackage:isGuided:",
+      "bridgedName": "installSourcePathInUpdateFolder_forHost_isPackage_isGuided",
+      "args": [
+        {
+          "name": "inUpdateFolder",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        },
+        {
+          "name": "isPackagePtr",
+          "type": "BOOL *",
+          "nullable": false
+        },
+        {
+          "name": "isGuidedPtr",
+          "type": "BOOL *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

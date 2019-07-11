@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSStylePartType",
+  "members": [
+    {
+      "name": "MSStylePartFill"
+    },
+    {
+      "name": "MSStylePartBorder"
+    },
+    {
+      "name": "MSStylePartShadow"
+    },
+    {
+      "name": "MSStylePartInnerShadow"
+    }
+  ]
+}

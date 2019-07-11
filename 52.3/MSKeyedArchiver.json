@@ -1,0 +1,8 @@
+{
+  "name": "MSKeyedArchiver",
+  "extends": "MSBaseArchiver",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

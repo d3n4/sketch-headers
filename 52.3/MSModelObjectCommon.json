@@ -1,0 +1,227 @@
+{
+  "name": "MSModelObjectCommon",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSModelObjectCommon"
+  ],
+  "methods": {
+    "isContainedByInstanceOfForeignSymbol:": {
+      "name": "isContainedByInstanceOfForeignSymbol:",
+      "bridgedName": "isContainedByInstanceOfForeignSymbol",
+      "args": [
+        {
+          "name": "ancestors",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "treeStructure": {
+      "name": "treeStructure",
+      "bridgedName": "treeStructure",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "simpleTreeStructure": {
+      "name": "simpleTreeStructure",
+      "bridgedName": "simpleTreeStructure",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "treeAsDictionary": {
+      "name": "treeAsDictionary",
+      "bridgedName": "treeAsDictionary",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performInitEmptyObject": {
+      "name": "performInitEmptyObject",
+      "bridgedName": "performInitEmptyObject",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initializeUnsetObjectPropertiesWithDefaults": {
+      "name": "initializeUnsetObjectPropertiesWithDefaults",
+      "bridgedName": "initializeUnsetObjectPropertiesWithDefaults",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectDidInit": {
+      "name": "objectDidInit",
+      "bridgedName": "objectDidInit",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateProperties:": {
+      "name": "enumerateProperties:",
+      "bridgedName": "enumerateProperties",
+      "args": [
+        {
+          "name": "enumerator",
+          "type": "MSDataPropertyEnumerator",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performMigrationsWithUnarchiver:": {
+      "name": "performMigrationsWithUnarchiver:",
+      "bridgedName": "performMigrationsWithUnarchiver",
+      "args": [
+        {
+          "name": "coder",
+          "type": "MSBaseUnarchiver*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasObjectID": {
+      "name": "hasObjectID",
+      "bridgedName": "hasObjectID",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveObjectID": {
+      "name": "primitiveObjectID",
+      "bridgedName": "primitiveObjectID",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithBlock:": {
+      "name": "initWithBlock:",
+      "bridgedName": "initWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void(^)(id object)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithMinimalSetup": {
+      "name": "initWithMinimalSetup",
+      "bridgedName": "initWithMinimalSetup",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "generateObjectID": {
+      "name": "generateObjectID",
+      "bridgedName": "generateObjectID",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "recursivelyGenerateObjectID": {
+      "name": "recursivelyGenerateObjectID",
+      "bridgedName": "recursivelyGenerateObjectID",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultName": {
+      "name": "defaultName",
+      "bridgedName": "defaultName",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "enumerateChildProperties:": {
+      "name": "enumerateChildProperties:",
+      "bridgedName": "enumerateChildProperties",
+      "args": [
+        {
+          "name": "enumerator",
+          "type": "MSDataPropertyEnumerator",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateDescendants:": {
+      "name": "enumerateDescendants:",
+      "bridgedName": "enumerateDescendants",
+      "args": [
+        {
+          "name": "enumerator",
+          "type": "MSDescendantEnumerator",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "objectID": {
+      "name": "objectID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "modelObjectCacheGeneration": {
+      "name": "modelObjectCacheGeneration",
+      "pointer": false,
+      "type": "MSModelObjectCacheGeneration ",
+      "attributes": [
+        "readonly",
+        "atomic"
+      ]
+    },
+    "hasModelObjectCacheGeneration": {
+      "name": "hasModelObjectCacheGeneration",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,27 @@
+{
+  "name": "CanvasView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "showPoints": {
+      "name": "showPoints",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    },
+    "simplify": {
+      "name": "simplify",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    },
+    "fitCurve": {
+      "name": "fitCurve",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,10 @@
+{
+  "name": "MSPathRendererCG",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSPathRenderer"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,115 @@
+{
+  "name": "BITSystemProfile",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedSystemProfile": {
+      "name": "sharedSystemProfile",
+      "bridgedName": "sharedSystemProfile",
+      "args": [],
+      "returns": "BITSystemProfile *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "deviceIdentifier": {
+      "name": "deviceIdentifier",
+      "bridgedName": "deviceIdentifier",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "deviceModel": {
+      "name": "deviceModel",
+      "bridgedName": "deviceModel",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "systemVersionString": {
+      "name": "systemVersionString",
+      "bridgedName": "systemVersionString",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "systemDataForBundle:": {
+      "name": "systemDataForBundle:",
+      "bridgedName": "systemDataForBundle",
+      "args": [
+        {
+          "name": "bundle",
+          "type": "NSBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMutableArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "systemData": {
+      "name": "systemData",
+      "bridgedName": "systemData",
+      "args": [],
+      "returns": "NSMutableArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "systemUsageDataForBundle:": {
+      "name": "systemUsageDataForBundle:",
+      "bridgedName": "systemUsageDataForBundle",
+      "args": [
+        {
+          "name": "bundle",
+          "type": "NSBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMutableArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "systemUsageData": {
+      "name": "systemUsageData",
+      "bridgedName": "systemUsageData",
+      "args": [],
+      "returns": "NSMutableArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startUsageForBundle:": {
+      "name": "startUsageForBundle:",
+      "bridgedName": "startUsageForBundle",
+      "args": [
+        {
+          "name": "bundle",
+          "type": "NSBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startUsage": {
+      "name": "startUsage",
+      "bridgedName": "startUsage",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stopUsage": {
+      "name": "stopUsage",
+      "bridgedName": "stopUsage",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

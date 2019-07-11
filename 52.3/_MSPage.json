@@ -1,0 +1,54 @@
+{
+  "name": "_MSPage",
+  "extends": "MSLayerGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "includeInCloudUpload": {
+      "name": "includeInCloudUpload",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "grid": {
+      "name": "grid",
+      "pointer": false,
+      "type": "MSSimpleGrid ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "horizontalRulerData": {
+      "name": "horizontalRulerData",
+      "pointer": false,
+      "type": "MSRulerData ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "layout": {
+      "name": "layout",
+      "pointer": false,
+      "type": "MSLayoutGrid ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "verticalRulerData": {
+      "name": "verticalRulerData",
+      "pointer": false,
+      "type": "MSRulerData ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MSInspectorSegmentedCell",
+  "extends": "NSSegmentedCell",
+  "interfaces": [],
+  "methods": {
+    "setAlternateImage:forSegment:": {
+      "name": "setAlternateImage:forSegment:",
+      "bridgedName": "setAlternateImage_forSegment",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "segment",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

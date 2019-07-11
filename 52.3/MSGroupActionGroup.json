@@ -1,0 +1,8 @@
+{
+  "name": "MSGroupActionGroup",
+  "extends": "MSActionGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

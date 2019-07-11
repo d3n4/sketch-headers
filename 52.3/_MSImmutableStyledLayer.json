@@ -1,0 +1,50 @@
+{
+  "name": "_MSImmutableStyledLayer",
+  "extends": "MSImmutableLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "clippingMaskMode": {
+      "name": "clippingMaskMode",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasClippingMask": {
+      "name": "hasClippingMask",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedStyleID": {
+      "name": "sharedStyleID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "style": {
+      "name": "style",
+      "pointer": false,
+      "type": "MSImmutableStyle ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

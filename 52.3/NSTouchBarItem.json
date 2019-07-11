@@ -1,0 +1,99 @@
+{
+  "name": "NSTouchBarItem",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCoding"
+  ],
+  "methods": {
+    "initWithIdentifier:": {
+      "name": "initWithIdentifier:",
+      "bridgedName": "initWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSTouchBarItemIdentifier",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCoder:": {
+      "name": "initWithCoder:",
+      "bridgedName": "initWithCoder",
+      "args": [
+        {
+          "name": "coder",
+          "type": "NSCoder *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "identifier": {
+      "name": "identifier",
+      "pointer": false,
+      "type": "NSTouchBarItemIdentifier",
+      "attributes": [
+        "readonly",
+        "copy"
+      ]
+    },
+    "visibilityPriority": {
+      "name": "visibilityPriority",
+      "pointer": false,
+      "type": "NSTouchBarItemPriority",
+      "attributes": []
+    },
+    "view": {
+      "name": "view",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "readonly",
+        "nullable"
+      ]
+    },
+    "viewController": {
+      "name": "viewController",
+      "pointer": false,
+      "type": "NSViewController ",
+      "attributes": [
+        "readonly",
+        "nullable"
+      ]
+    },
+    "customizationLabel": {
+      "name": "customizationLabel",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "copy"
+      ]
+    },
+    "visible": {
+      "name": "visible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "getter=isVisible"
+      ]
+    }
+  },
+  "generics": []
+}

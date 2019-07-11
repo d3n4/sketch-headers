@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableForeignObject",
+  "extends": "_MSImmutableForeignObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

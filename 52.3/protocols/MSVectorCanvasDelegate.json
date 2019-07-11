@@ -1,0 +1,132 @@
+{
+  "protocol": true,
+  "name": "MSVectorCanvasDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "vectorCanvas:didHighlightHandleAtIndexPath:": {
+      "name": "vectorCanvas:didHighlightHandleAtIndexPath:",
+      "bridgedName": "vectorCanvas_didHighlightHandleAtIndexPath",
+      "args": [
+        {
+          "name": "canvas",
+          "type": "MSVectorCanvas *",
+          "nullable": false
+        },
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "vectorCanvas:didUnhighlightHandleAtIndexPath:": {
+      "name": "vectorCanvas:didUnhighlightHandleAtIndexPath:",
+      "bridgedName": "vectorCanvas_didUnhighlightHandleAtIndexPath",
+      "args": [
+        {
+          "name": "canvas",
+          "type": "MSVectorCanvas *",
+          "nullable": false
+        },
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "vectorCanvas:didSelectHandlesAtIndexPaths:": {
+      "name": "vectorCanvas:didSelectHandlesAtIndexPaths:",
+      "bridgedName": "vectorCanvas_didSelectHandlesAtIndexPaths",
+      "args": [
+        {
+          "name": "canvas",
+          "type": "MSVectorCanvas *",
+          "nullable": false
+        },
+        {
+          "name": "indexPaths",
+          "type": "NSArray<NSIndexPath *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "vectorCanvas:didDeselectHandlesAtIndexPaths:": {
+      "name": "vectorCanvas:didDeselectHandlesAtIndexPaths:",
+      "bridgedName": "vectorCanvas_didDeselectHandlesAtIndexPaths",
+      "args": [
+        {
+          "name": "canvas",
+          "type": "MSVectorCanvas *",
+          "nullable": false
+        },
+        {
+          "name": "indexPaths",
+          "type": "NSArray<NSIndexPath *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "vectorCanvasDidFinishInteractiveSelection:": {
+      "name": "vectorCanvasDidFinishInteractiveSelection:",
+      "bridgedName": "vectorCanvasDidFinishInteractiveSelection",
+      "args": [
+        {
+          "name": "canvas",
+          "type": "MSVectorCanvas *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "vectorCanvas:didSelectLayers:": {
+      "name": "vectorCanvas:didSelectLayers:",
+      "bridgedName": "vectorCanvas_didSelectLayers",
+      "args": [
+        {
+          "name": "canvas",
+          "type": "MSVectorCanvas *",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "NSArray<MSShapePathLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "vectorCanvasDidEditPoints:": {
+      "name": "vectorCanvasDidEditPoints:",
+      "bridgedName": "vectorCanvasDidEditPoints",
+      "args": [
+        {
+          "name": "canvas",
+          "type": "MSVectorCanvas *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

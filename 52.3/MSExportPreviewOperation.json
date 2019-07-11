@@ -1,0 +1,46 @@
+{
+  "name": "MSExportPreviewOperation",
+  "extends": "NSOperation",
+  "interfaces": [],
+  "methods": {
+    "initWithAncestry:imageSize:": {
+      "name": "initWithAncestry:imageSize:",
+      "bridgedName": "initWithAncestry_imageSize",
+      "args": [
+        {
+          "name": "ancestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "imageSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedPreviewRenderQueue": {
+      "name": "sharedPreviewRenderQueue",
+      "bridgedName": "sharedPreviewRenderQueue",
+      "args": [],
+      "returns": "NSOperationQueue *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "previewViewModel": {
+      "name": "previewViewModel",
+      "pointer": false,
+      "type": "MSExportPreviewViewModel ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

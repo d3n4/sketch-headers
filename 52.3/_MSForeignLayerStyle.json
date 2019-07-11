@@ -1,0 +1,8 @@
+{
+  "name": "_MSForeignLayerStyle",
+  "extends": "MSForeignStyle",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

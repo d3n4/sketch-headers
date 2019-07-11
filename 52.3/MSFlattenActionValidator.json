@@ -1,0 +1,37 @@
+{
+  "name": "MSFlattenActionValidator",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "isValidForSelectedLayers:": {
+      "name": "isValidForSelectedLayers:",
+      "bridgedName": "isValidForSelectedLayers",
+      "args": [
+        {
+          "name": "selectedLayers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "hasFlattenablePathInSelection:": {
+      "name": "hasFlattenablePathInSelection:",
+      "bridgedName": "hasFlattenablePathInSelection",
+      "args": [
+        {
+          "name": "selectedLayers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

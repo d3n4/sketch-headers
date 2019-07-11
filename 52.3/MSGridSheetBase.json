@@ -1,0 +1,122 @@
+{
+  "name": "MSGridSheetBase",
+  "extends": "CHSheetController",
+  "interfaces": [
+    "NSWindowDelegate"
+  ],
+  "methods": {
+    "baseObjectForRootLayer:": {
+      "name": "baseObjectForRootLayer:",
+      "bridgedName": "baseObjectForRootLayer",
+      "args": [
+        {
+          "name": "root",
+          "type": "id<MSRootLayer>",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBaseGrid*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultObject": {
+      "name": "defaultObject",
+      "bridgedName": "defaultObject",
+      "args": [],
+      "returns": "MSBaseGrid*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyObject:toLayer:": {
+      "name": "applyObject:toLayer:",
+      "bridgedName": "applyObject_toLayer",
+      "args": [
+        {
+          "name": "obj",
+          "type": "MSBaseGrid*",
+          "nullable": false
+        },
+        {
+          "name": "root",
+          "type": "id<MSRootLayer>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshView": {
+      "name": "refreshView",
+      "bridgedName": "refreshView",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshCanvas:": {
+      "name": "refreshCanvas:",
+      "bridgedName": "refreshCanvas",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "gridChanged:": {
+      "name": "gridChanged:",
+      "bridgedName": "gridChanged",
+      "args": [
+        {
+          "name": "grid",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelAction:": {
+      "name": "cancelAction:",
+      "bridgedName": "cancelAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "originalSettings": {
+      "name": "originalSettings",
+      "pointer": false,
+      "type": "NSMapTable ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "templateObject": {
+      "name": "templateObject",
+      "pointer": false,
+      "type": "MSBaseGrid ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

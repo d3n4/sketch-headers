@@ -1,0 +1,17 @@
+{
+  "name": "MSFlowBaseAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "refreshLayerListInspectorAndOverlay": {
+      "name": "refreshLayerListInspectorAndOverlay",
+      "bridgedName": "refreshLayerListInspectorAndOverlay",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

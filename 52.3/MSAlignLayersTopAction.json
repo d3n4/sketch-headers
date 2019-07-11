@@ -1,0 +1,23 @@
+{
+  "name": "MSAlignLayersTopAction",
+  "extends": "MSBaseAlignLayersAction",
+  "interfaces": [],
+  "methods": {
+    "alignLayersTop:": {
+      "name": "alignLayersTop:",
+      "bridgedName": "alignLayersTop",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

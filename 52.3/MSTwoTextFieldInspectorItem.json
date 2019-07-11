@@ -1,0 +1,99 @@
+{
+  "name": "MSTwoTextFieldInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {
+    "initWithTitle:field1Label:field2Label:": {
+      "name": "initWithTitle:field1Label:field2Label:",
+      "bridgedName": "initWithTitle_field1Label_field2Label",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "field1",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "field2",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithTitle:field1Label:field2Label:nibName:": {
+      "name": "initWithTitle:field1Label:field2Label:nibName:",
+      "bridgedName": "initWithTitle_field1Label_field2Label_nibName",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "field1",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "field2",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "nibName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "itemLabel": {
+      "name": "itemLabel",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "textField1": {
+      "name": "textField1",
+      "pointer": false,
+      "type": "IBOutlet MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "textField2": {
+      "name": "textField2",
+      "pointer": false,
+      "type": "IBOutlet MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "interTextFieldButton": {
+      "name": "interTextFieldButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

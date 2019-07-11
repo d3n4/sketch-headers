@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "SCKObjectID",
+  "type": "NSString",
+  "pointer": false
+}

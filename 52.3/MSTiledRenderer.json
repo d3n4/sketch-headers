@@ -1,0 +1,157 @@
+{
+  "name": "MSTiledRenderer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithCompletionHandler:": {
+      "name": "initWithCompletionHandler:",
+      "bridgedName": "initWithCompletionHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^ _Nullable)(CGImageRef _Nonnull image)",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateContentInRect:forPage:document:visibleImageRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:renderContentSynchronously:overlayColors:": {
+      "name": "updateContentInRect:forPage:document:visibleImageRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:renderContentSynchronously:overlayColors:",
+      "bridgedName": "updateContentInRect_forPage_document_visibleImageRect_backingScaleFactor_pixelViewSize_zoomValue_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace_renderContentSynchronously_overlayColors",
+      "args": [
+        {
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "nonnull MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "visibleImageRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelViewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelated",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id<MSRenderingContextCacheProvider>",
+          "nullable": true
+        },
+        {
+          "name": "canvasColorSpace",
+          "type": "nonnull NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "renderContentSynchronously",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "colors",
+          "type": "MSOverlayColorSettings *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginFastZooming": {
+      "name": "beginFastZooming",
+      "bridgedName": "beginFastZooming",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "CALayer ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nonnull"
+      ]
+    },
+    "renderingCacheProvider": {
+      "name": "renderingCacheProvider",
+      "pointer": false,
+      "type": "id <MSRenderingContextCacheProvider>",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nonnull"
+      ]
+    },
+    "overlayRenderingDelegate": {
+      "name": "overlayRenderingDelegate",
+      "pointer": false,
+      "type": "id<MSOverlayRenderingDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readwrite",
+        "nullable"
+      ]
+    },
+    "hostView": {
+      "name": "hostView",
+      "pointer": false,
+      "type": "NSView<MSTiledRendererHostView> ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readwrite",
+        "nullable"
+      ]
+    },
+    "hideOverlay": {
+      "name": "hideOverlay",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

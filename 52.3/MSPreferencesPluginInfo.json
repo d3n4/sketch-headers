@@ -1,0 +1,194 @@
+{
+  "name": "MSPreferencesPluginInfo",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "pluginInfoWithPluginBundle:": {
+      "name": "pluginInfoWithPluginBundle:",
+      "bridgedName": "pluginInfoWithPluginBundle",
+      "args": [
+        {
+          "name": "pluginBundle",
+          "type": "MSPluginBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pluginInfoWithName:": {
+      "name": "pluginInfoWithName:",
+      "bridgedName": "pluginInfoWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "pluginDescription": {
+      "name": "pluginDescription",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "attributedTitle": {
+      "name": "attributedTitle",
+      "pointer": false,
+      "type": "NSAttributedString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "icon": {
+      "name": "icon",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "enableCheckboxTitle": {
+      "name": "enableCheckboxTitle",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "version": {
+      "name": "version",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "updateVersionString": {
+      "name": "updateVersionString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "updateAvailable": {
+      "name": "updateAvailable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "isCompatible": {
+      "name": "isCompatible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "warningString": {
+      "name": "warningString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "namePlusAuthor": {
+      "name": "namePlusAuthor",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "homepage": {
+      "name": "homepage",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "isUpdating": {
+      "name": "isUpdating",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "suppliesData": {
+      "name": "suppliesData",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pluginBundle": {
+      "name": "pluginBundle",
+      "pointer": false,
+      "type": "MSPluginBundle ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter=isEnabled"
+      ]
+    }
+  },
+  "generics": []
+}

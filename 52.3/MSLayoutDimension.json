@@ -1,0 +1,8 @@
+{
+  "name": "MSLayoutDimension",
+  "extends": "MSLayoutAnchor",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

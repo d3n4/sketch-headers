@@ -1,0 +1,17 @@
+{
+  "name": "MSDragRectGestureRecognizer",
+  "extends": "MSDragGestureRecognizer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "constrainProportions": {
+      "name": "constrainProportions",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

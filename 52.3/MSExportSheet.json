@@ -1,0 +1,97 @@
+{
+  "name": "MSExportSheet",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {
+    "includeAllCheckboxAction:": {
+      "name": "includeAllCheckboxAction:",
+      "bridgedName": "includeAllCheckboxAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "collectionView:newItemForRepresentedObject:": {
+      "name": "collectionView:newItemForRepresentedObject:",
+      "bridgedName": "collectionView_newItemForRepresentedObject",
+      "args": [
+        {
+          "name": "collectionView",
+          "type": "NSCollectionView *",
+          "nullable": false
+        },
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSCollectionViewItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateIncludeAllSlicesCheckBox": {
+      "name": "validateIncludeAllSlicesCheckBox",
+      "bridgedName": "validateIncludeAllSlicesCheckBox",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isItemSelectedForExport:": {
+      "name": "isItemSelectedForExport:",
+      "bridgedName": "isItemSelectedForExport",
+      "args": [
+        {
+          "name": "item",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleItemSelectedForExportState:": {
+      "name": "toggleItemSelectedForExportState:",
+      "bridgedName": "toggleItemSelectedForExportState",
+      "args": [
+        {
+          "name": "item",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "collectionView": {
+      "name": "collectionView",
+      "pointer": false,
+      "type": "IBOutlet NSCollectionView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "selectedSlices": {
+      "name": "selectedSlices",
+      "pointer": false,
+      "type": "NSMutableArray ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

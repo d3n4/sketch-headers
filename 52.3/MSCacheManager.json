@@ -1,0 +1,65 @@
+{
+  "name": "MSCacheManager",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSRenderingContextCacheProvider"
+  ],
+  "methods": {
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithZoomIndependentCache:": {
+      "name": "initWithZoomIndependentCache:",
+      "bridgedName": "initWithZoomIndependentCache",
+      "args": [
+        {
+          "name": "zoomIndependentCache",
+          "type": "BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearCachesExceptForOwners:": {
+      "name": "clearCachesExceptForOwners:",
+      "bridgedName": "clearCachesExceptForOwners",
+      "args": [
+        {
+          "name": "ownersToKeep",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearAllCaches": {
+      "name": "clearAllCaches",
+      "bridgedName": "clearAllCaches",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "modelCache": {
+      "name": "modelCache",
+      "pointer": false,
+      "type": "BCCache ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

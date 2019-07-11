@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSThemeDarkModeScheme",
+  "members": [
+    {
+      "name": "MSThemeDarkModeSchemeDefault",
+      "value": "0"
+    },
+    {
+      "name": "MSThemeDarkModeSchemeOn",
+      "value": "1"
+    },
+    {
+      "name": "MSThemeDarkModeSchemeOff",
+      "value": "-1"
+    }
+  ]
+}

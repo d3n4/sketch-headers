@@ -1,0 +1,17 @@
+{
+  "name": "MSHeader2InspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "labelText": {
+      "name": "labelText",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,97 @@
+{
+  "name": "SCKCollectionDiff",
+  "extends": "NSObject",
+  "interfaces": [
+    "SCKDiff"
+  ],
+  "methods": {
+    "initWithObject:comparedTo:": {
+      "name": "initWithObject:comparedTo:",
+      "bridgedName": "initWithObject_comparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull NSArray<SCKObject<SCKDiffable> *> *",
+          "nullable": false
+        },
+        {
+          "name": "otherObject",
+          "type": "nonnull NSArray<SCKObject<SCKDiffable> *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCollectionDiffSet:": {
+      "name": "initWithCollectionDiffSet:",
+      "bridgedName": "initWithCollectionDiffSet",
+      "args": [
+        {
+          "name": "diffSet",
+          "type": "nonnull NSSet<SCKCollectionDiff *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "object": {
+      "name": "object",
+      "pointer": false,
+      "type": "NSArray<SCKObject<SCKDiffable> *> ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "copy",
+        "readonly"
+      ]
+    },
+    "comparedObject": {
+      "name": "comparedObject",
+      "pointer": false,
+      "type": "NSArray<SCKObject<SCKDiffable> *> ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "copy",
+        "readonly"
+      ]
+    },
+    "insertions": {
+      "name": "insertions",
+      "pointer": false,
+      "type": "NSSet<SCKObject<SCKDiffable> *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "updateDiffs": {
+      "name": "updateDiffs",
+      "pointer": false,
+      "type": "NSSet<id<SCKDiff>> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "deletions": {
+      "name": "deletions",
+      "pointer": false,
+      "type": "NSSet<SCKObject<SCKDiffable> *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

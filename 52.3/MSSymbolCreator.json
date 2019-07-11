@@ -1,0 +1,47 @@
+{
+  "name": "MSSymbolCreator",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "canCreateSymbolFromLayers:": {
+      "name": "canCreateSymbolFromLayers:",
+      "bridgedName": "canCreateSymbolFromLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "createSymbolFromLayers:withName:onSymbolsPage:": {
+      "name": "createSymbolFromLayers:withName:onSymbolsPage:",
+      "bridgedName": "createSymbolFromLayers_withName_onSymbolsPage",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "useSymbolsPage",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSymbolInstance *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

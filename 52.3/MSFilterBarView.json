@@ -1,0 +1,8 @@
+{
+  "name": "MSFilterBarView",
+  "extends": "MSBarView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

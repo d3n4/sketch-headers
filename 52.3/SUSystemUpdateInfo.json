@@ -1,0 +1,23 @@
+{
+  "name": "SUSystemUpdateInfo",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "systemAllowsAutomaticUpdatesForHost:": {
+      "name": "systemAllowsAutomaticUpdatesForHost:",
+      "bridgedName": "systemAllowsAutomaticUpdatesForHost",
+      "args": [
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

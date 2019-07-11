@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "SCKFlowConnectionAttributes",
+  "members": [
+    {
+      "name": "SCKFlowConnectionNoAttribute",
+      "value": "0"
+    },
+    {
+      "name": "SCKFlowConnectionBackActionAttribute",
+      "value": "1 << 0"
+    },
+    {
+      "name": "SCKFlowConnectionDestinationArtboardIDAttribute",
+      "value": "1 << 1"
+    },
+    {
+      "name": "SCKFlowConnectionAnimationTypeAttribute",
+      "value": "1 << 2"
+    }
+  ]
+}

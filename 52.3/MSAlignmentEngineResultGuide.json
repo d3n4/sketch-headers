@@ -1,0 +1,57 @@
+{
+  "name": "MSAlignmentEngineResultGuide",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithLineSegment:": {
+      "name": "initWithLineSegment:",
+      "bridgedName": "initWithLineSegment",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSLineSegment",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPath": {
+      "name": "bezierPath",
+      "bridgedName": "bezierPath",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawWithLineWidth:": {
+      "name": "drawWithLineWidth:",
+      "bridgedName": "drawWithLineWidth",
+      "args": [
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "lineSegment": {
+      "name": "lineSegment",
+      "pointer": false,
+      "type": "MSLineSegment",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

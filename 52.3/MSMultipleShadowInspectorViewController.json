@@ -1,0 +1,36 @@
+{
+  "name": "MSMultipleShadowInspectorViewController",
+  "extends": "MSMultipleColorStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {
+    "shouldHideAddStylePartButton": {
+      "name": "shouldHideAddStylePartButton",
+      "bridgedName": "shouldHideAddStylePartButton",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "addStylePartButton": {
+      "name": "addStylePartButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "buttonsTrailingConstraint": {
+      "name": "buttonsTrailingConstraint",
+      "pointer": false,
+      "type": "IBOutlet NSLayoutConstraint ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}
