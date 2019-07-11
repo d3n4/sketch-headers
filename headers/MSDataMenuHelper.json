@@ -31,9 +31,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshDataOnSelectedLayers": {
-      "name": "refreshDataOnSelectedLayers",
-      "bridgedName": "refreshDataOnSelectedLayers",
+    "refreshDataOnSelection": {
+      "name": "refreshDataOnSelection",
+      "bridgedName": "refreshDataOnSelection",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -80,6 +80,15 @@
       "name": "refreshDataText",
       "pointer": false,
       "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canRefreshDataOnSelection": {
+      "name": "canRefreshDataOnSelection",
+      "pointer": false,
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
         "readonly"

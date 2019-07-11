@@ -1,5 +1,5 @@
 {
-  "name": "MSTextLayerItem",
+  "name": "MSTextLayerInspectorItem",
   "extends": "MSInspectorItem",
   "interfaces": [
     "NSMenuDelegate",

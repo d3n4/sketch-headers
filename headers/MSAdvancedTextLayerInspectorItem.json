@@ -1,5 +1,5 @@
 {
-  "name": "MSAdvancedTextLayerItem",
+  "name": "MSAdvancedTextLayerInspectorItem",
   "extends": "MSInspectorItem",
   "interfaces": [],
   "methods": {
@@ -36,7 +36,7 @@
     "textItem": {
       "name": "textItem",
       "pointer": false,
-      "type": "MSTextLayerItem ",
+      "type": "MSTextLayerInspectorItem ",
       "attributes": [
         "nonatomic",
         "weak"

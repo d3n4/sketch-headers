@@ -542,6 +542,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "appendToCGPath:orBezierPath:": {
+      "name": "appendToCGPath:orBezierPath:",
+      "bridgedName": "appendToCGPath_orBezierPath",
+      "args": [
+        {
+          "name": "pathRef",
+          "type": "CGMutablePathRef",
+          "nullable": false
+        },
+        {
+          "name": "bezierPath",
+          "type": "NSBezierPath *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "controlPointBounds": {
       "name": "controlPointBounds",
       "bridgedName": "controlPointBounds",

@@ -67,13 +67,14 @@
         "nonatomic"
       ]
     },
-    "align": {
-      "name": "align",
+    "aligned": {
+      "name": "aligned",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "getter=isAligned"
       ]
     },
     "alignmentAxis": {

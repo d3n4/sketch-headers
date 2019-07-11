@@ -1,0 +1,23 @@
+{
+  "name": "NSTextView",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "ms_registerUndoWithRuns:": {
+      "name": "ms_registerUndoWithRuns:",
+      "bridgedName": "ms_registerUndoWithRuns",
+      "args": [
+        {
+          "name": "runs",
+          "type": "NSArray<MSTextAttributeRun *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}
