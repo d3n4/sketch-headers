@@ -42,6 +42,15 @@
     }
   },
   "properties": {
+    "outlineViewNodeIdentifier": {
+      "name": "outlineViewNodeIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "displayType": {
       "name": "displayType",
       "pointer": false,

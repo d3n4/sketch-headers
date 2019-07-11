@@ -265,6 +265,42 @@
         "readonly"
       ]
     },
+    "inspectorAccentedIconColor": {
+      "name": "inspectorAccentedIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorHighlightedAccentedIconColor": {
+      "name": "inspectorHighlightedAccentedIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAccentedColorModePickerIconColor": {
+      "name": "inspectorAccentedColorModePickerIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorHighlightedAccentedColorModePickerIconColor": {
+      "name": "inspectorHighlightedAccentedColorModePickerIconColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "inspectorAlignmentDisabledStrutColor": {
       "name": "inspectorAlignmentDisabledStrutColor",
       "pointer": false,
@@ -276,6 +312,24 @@
     },
     "inspectorAlignmentStrutColor": {
       "name": "inspectorAlignmentStrutColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAlignmentActiveStrutColor": {
+      "name": "inspectorAlignmentActiveStrutColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "inspectorAlignmentHighlightedActiveStrutColor": {
+      "name": "inspectorAlignmentHighlightedActiveStrutColor",
       "pointer": false,
       "type": "NSColor ",
       "attributes": [
@@ -391,8 +445,8 @@
         "readonly"
       ]
     },
-    "inspectorIconAccentColor": {
-      "name": "inspectorIconAccentColor",
+    "inspectorAccentedBackgroundIconColor": {
+      "name": "inspectorAccentedBackgroundIconColor",
       "pointer": false,
       "type": "NSColor ",
       "attributes": [
@@ -1195,6 +1249,15 @@
     },
     "isDark": {
       "name": "isDark",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isGraphiteAccentColor": {
+      "name": "isGraphiteAccentColor",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

@@ -88,14 +88,6 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "cloudEnabled": {
-      "name": "cloudEnabled",
-      "bridgedName": "cloudEnabled",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "openCloudUploadURL:parameters:": {
       "name": "openCloudUploadURL:parameters:",
       "bridgedName": "openCloudUploadURL_parameters",
@@ -204,6 +196,16 @@
         "nonatomic",
         "nonnull",
         "readonly"
+      ]
+    },
+    "cloudEnabled": {
+      "name": "cloudEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "class"
       ]
     },
     "upload": {

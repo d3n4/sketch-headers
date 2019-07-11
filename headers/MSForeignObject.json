@@ -36,6 +36,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "isOutOfDateWithLibrary:includePrivate:": {
+      "name": "isOutOfDateWithLibrary:includePrivate:",
+      "bridgedName": "isOutOfDateWithLibrary_includePrivate",
+      "args": [
+        {
+          "name": "library",
+          "type": "id<MSLibraryObject>",
+          "nullable": false
+        },
+        {
+          "name": "includePrivate",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "syncWithRemote:": {
       "name": "syncWithRemote:",
       "bridgedName": "syncWithRemote",
@@ -72,17 +91,22 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "masterFromDocument:": {
-      "name": "masterFromDocument:",
-      "bridgedName": "masterFromDocument",
+    "masterFromDocument:withID:": {
+      "name": "masterFromDocument:withID:",
+      "bridgedName": "masterFromDocument_withID",
       "args": [
         {
-          "name": "doc",
+          "name": "document",
           "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "documentLocalID",
+          "type": "NSString *",
           "nullable": false
         }
       ],
-      "returns": "nullable __kindof MSModelObject *",
+      "returns": "nullable __kindof MSModelObject*",
       "kind": "instance",
       "kindIndicator": "-"
     },

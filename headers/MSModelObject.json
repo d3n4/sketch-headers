@@ -207,6 +207,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "isDescendantOfObject:": {
+      "name": "isDescendantOfObject:",
+      "bridgedName": "isDescendantOfObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "allowsFaulting": {
       "name": "allowsFaulting",
       "bridgedName": "allowsFaulting",

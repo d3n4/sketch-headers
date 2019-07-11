@@ -69,6 +69,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "willReloadNodes": {
+      "name": "willReloadNodes",
+      "bridgedName": "willReloadNodes",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "shouldExpandNode:": {
       "name": "shouldExpandNode:",
       "bridgedName": "shouldExpandNode",

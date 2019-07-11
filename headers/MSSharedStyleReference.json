@@ -3,6 +3,16 @@
   "extends": "MSShareableObjectReference",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "style": {
+      "name": "style",
+      "pointer": false,
+      "type": "MSStyle ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

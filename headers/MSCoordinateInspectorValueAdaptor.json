@@ -3,9 +3,9 @@
   "extends": "MSMathInspectorValueAdaptor",
   "interfaces": [],
   "methods": {
-    "initWithLayerController:layerKeyPath:axis:": {
-      "name": "initWithLayerController:layerKeyPath:axis:",
-      "bridgedName": "initWithLayerController_layerKeyPath_axis",
+    "initWithLayerController:layerKeyPath:keyPathsToWatch:axis:": {
+      "name": "initWithLayerController:layerKeyPath:keyPathsToWatch:axis:",
+      "bridgedName": "initWithLayerController_layerKeyPath_keyPathsToWatch_axis",
       "args": [
         {
           "name": "layerController",
@@ -15,6 +15,11 @@
         {
           "name": "keyPath",
           "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "toWatch",
+          "type": "NSArray <NSString *>*",
           "nullable": false
         },
         {

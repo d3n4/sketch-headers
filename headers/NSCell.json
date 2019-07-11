@@ -43,6 +43,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "currentInspectorAccentedIconColor": {
+      "name": "currentInspectorAccentedIconColor",
+      "bridgedName": "currentInspectorAccentedIconColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "inspectorIconColorForCellEnabled:highlighted:": {
       "name": "inspectorIconColorForCellEnabled:highlighted:",
       "bridgedName": "inspectorIconColorForCellEnabled_highlighted",

@@ -128,6 +128,30 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "initWithModelsController:modelKeyPath:keyPathsToWatch:": {
+      "name": "initWithModelsController:modelKeyPath:keyPathsToWatch:",
+      "bridgedName": "initWithModelsController_modelKeyPath_keyPathsToWatch",
+      "args": [
+        {
+          "name": "modelsController",
+          "type": "NSArrayController *",
+          "nullable": false
+        },
+        {
+          "name": "keyPath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "toWatch",
+          "type": "NSArray <NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "valuesDidChange": {
       "name": "valuesDidChange",
       "bridgedName": "valuesDidChange",

@@ -55,7 +55,7 @@
       "args": [
         {
           "name": "block",
-          "type": "id (^)(__kindof ObjectType object)",
+          "type": "nonnull id (^)(__kindof ObjectType object)",
           "nullable": false
         }
       ],
@@ -63,14 +63,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "flatMap:": {
-      "name": "flatMap:",
-      "bridgedName": "flatMap",
+    "compactMap:": {
+      "name": "compactMap:",
+      "bridgedName": "compactMap",
       "args": [
         {
           "name": "block",
           "type": "id (^)(__kindof ObjectType object)",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "NSArray *",
@@ -90,6 +90,20 @@
       "returns": "NSArray *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "flattenedArrays:": {
+      "name": "flattenedArrays:",
+      "bridgedName": "flattenedArrays",
+      "args": [
+        {
+          "name": "arrays",
+          "type": "NSArray<NSArray *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
     },
     "enumerate:": {
       "name": "enumerate:",

@@ -87,14 +87,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "flatMap:": {
-      "name": "flatMap:",
-      "bridgedName": "flatMap",
+    "compactMap:": {
+      "name": "compactMap:",
+      "bridgedName": "compactMap",
       "args": [
         {
           "name": "block",
           "type": "id (^)(ObjectType object)",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "NSSet *",

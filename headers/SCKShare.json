@@ -2,7 +2,16 @@
   "name": "SCKShare",
   "extends": "SCKObject",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "readOnlyCopy": {
+      "name": "readOnlyCopy",
+      "bridgedName": "readOnlyCopy",
+      "args": [],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "shortID": {
       "name": "shortID",

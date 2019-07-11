@@ -3,6 +3,82 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
+    "originalSharedStyle:libraryController:": {
+      "name": "originalSharedStyle:libraryController:",
+      "bridgedName": "originalSharedStyle_libraryController",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "controller",
+          "type": "MSAssetLibraryController *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSSharedStyleReference *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolDefaultSharedStyle:libraryController:": {
+      "name": "symbolDefaultSharedStyle:libraryController:",
+      "bridgedName": "symbolDefaultSharedStyle_libraryController",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "controller",
+          "type": "MSAssetLibraryController *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyleReference *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "importableDefaultSharedStyle:libraryController:": {
+      "name": "importableDefaultSharedStyle:libraryController:",
+      "bridgedName": "importableDefaultSharedStyle_libraryController",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "controller",
+          "type": "MSAssetLibraryController *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSSharedStyleReference *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentSharedStyle:libraryController:": {
+      "name": "currentSharedStyle:libraryController:",
+      "bridgedName": "currentSharedStyle_libraryController",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "controller",
+          "type": "MSAssetLibraryController *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyleReference *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "availableOverrideWithOverridePoint:master:overrideValue:otherOverrides:inParent:document:": {
       "name": "availableOverrideWithOverridePoint:master:overrideValue:otherOverrides:inParent:document:",
       "bridgedName": "availableOverrideWithOverridePoint_master_overrideValue_otherOverrides_inParent_document",

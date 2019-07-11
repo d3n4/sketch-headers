@@ -93,6 +93,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "isNodeExpanded:": {
+      "name": "isNodeExpanded:",
+      "bridgedName": "isNodeExpanded",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

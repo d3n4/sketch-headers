@@ -21,6 +21,20 @@
       "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "remoteSharedIDFromSymbolPrivateID:": {
+      "name": "remoteSharedIDFromSymbolPrivateID:",
+      "bridgedName": "remoteSharedIDFromSymbolPrivateID",
+      "args": [
+        {
+          "name": "styleID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {},

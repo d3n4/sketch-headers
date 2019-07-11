@@ -28,7 +28,7 @@
       "attributes": [
         "nonatomic",
         "nullable",
-        "weak"
+        "strong"
       ]
     },
     "progress": {

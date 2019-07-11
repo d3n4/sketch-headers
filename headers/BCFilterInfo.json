@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "filterTypeMatches:": {
-      "name": "filterTypeMatches:",
-      "bridgedName": "filterTypeMatches",
+    "filterTypeApplies:": {
+      "name": "filterTypeApplies:",
+      "bridgedName": "filterTypeApplies",
       "args": [
         {
           "name": "filterType",
@@ -30,9 +30,26 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "resetCacheGeneration": {
+      "name": "resetCacheGeneration",
+      "bridgedName": "resetCacheGeneration",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
+    "filterString": {
+      "name": "filterString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
     "filterTypeMask": {
       "name": "filterTypeMask",
       "pointer": false,
@@ -41,13 +58,13 @@
         "nonatomic"
       ]
     },
-    "filterString": {
-      "name": "filterString",
+    "cacheGeneration": {
+      "name": "cacheGeneration",
       "pointer": false,
-      "type": "NSString ",
+      "type": "NSObject ",
       "attributes": [
         "nonatomic",
-        "copy"
+        "readonly"
       ]
     },
     "isActive": {
