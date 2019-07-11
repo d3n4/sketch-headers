@@ -1,0 +1,210 @@
+{
+  "name": "MSWebExporter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDocument:name:localURL:": {
+      "name": "initWithDocument:name:localURL:",
+      "bridgedName": "initWithDocument_name_localURL",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "localURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportArtboardsOfDocument:withName:toLocalURL:completionBlock:": {
+      "name": "exportArtboardsOfDocument:withName:toLocalURL:completionBlock:",
+      "bridgedName": "exportArtboardsOfDocument_withName_toLocalURL_completionBlock",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "localURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "completionBlock",
+          "type": "MSWebExporterCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportSelectedArtboardsOfDocument:withName:toLocalURL:completionBlock:": {
+      "name": "exportSelectedArtboardsOfDocument:withName:toLocalURL:completionBlock:",
+      "bridgedName": "exportSelectedArtboardsOfDocument_withName_toLocalURL_completionBlock",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "localURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "completionBlock",
+          "type": "MSWebExporterCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportArtboardsWithCompletionBlock:": {
+      "name": "exportArtboardsWithCompletionBlock:",
+      "bridgedName": "exportArtboardsWithCompletionBlock",
+      "args": [
+        {
+          "name": "completionBlock",
+          "type": "MSWebExporterCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportDocumentWithUIMetadata:completionBlock:": {
+      "name": "exportDocumentWithUIMetadata:completionBlock:",
+      "bridgedName": "exportDocumentWithUIMetadata_completionBlock",
+      "args": [
+        {
+          "name": "UIMetadata",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "completionBlock",
+          "type": "MSWebExporterCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancel": {
+      "name": "cancel",
+      "bridgedName": "cancel",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageURLWithHash:inDirectory:": {
+      "name": "imageURLWithHash:inDirectory:",
+      "bridgedName": "imageURLWithHash_inDirectory",
+      "args": [
+        {
+          "name": "dataHash",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "directory",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "documentURLInDirectory:": {
+      "name": "documentURLInDirectory:",
+      "bridgedName": "documentURLInDirectory",
+      "args": [
+        {
+          "name": "directory",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "destinationURL": {
+      "name": "destinationURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    },
+    "cacheManager": {
+      "name": "cacheManager",
+      "pointer": false,
+      "type": "MSCacheManager ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "selectiveExport": {
+      "name": "selectiveExport",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

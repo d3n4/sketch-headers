@@ -1,0 +1,8 @@
+{
+  "name": "CHTableView",
+  "extends": "NSTableView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

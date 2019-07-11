@@ -1,0 +1,23 @@
+{
+  "name": "CATransaction",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "disableAnimationsInBlock:": {
+      "name": "disableAnimationsInBlock:",
+      "bridgedName": "disableAnimationsInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

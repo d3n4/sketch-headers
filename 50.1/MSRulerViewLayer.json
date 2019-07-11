@@ -1,0 +1,113 @@
+{
+  "name": "MSRulerViewLayer",
+  "extends": "CALayer",
+  "interfaces": [],
+  "methods": {
+    "drawBackground": {
+      "name": "drawBackground",
+      "bridgedName": "drawBackground",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawBackgroundForLabel:atPoint:": {
+      "name": "drawBackgroundForLabel:atPoint:",
+      "bridgedName": "drawBackgroundForLabel_atPoint",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "formatter": {
+      "name": "formatter",
+      "pointer": false,
+      "type": "NSNumberFormatter ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "snapColor": {
+      "name": "snapColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "baseLine": {
+      "name": "baseLine",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "occupiedRegion": {
+      "name": "occupiedRegion",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "guides": {
+      "name": "guides",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "shouldDrawGuides": {
+      "name": "shouldDrawGuides",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "parentView": {
+      "name": "parentView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

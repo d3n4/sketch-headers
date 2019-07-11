@@ -1,0 +1,68 @@
+{
+  "name": "MSUpdateController",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "checkNormally": {
+      "name": "checkNormally",
+      "bridgedName": "checkNormally",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkSilently": {
+      "name": "checkSilently",
+      "bridgedName": "checkSilently",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkQuietly": {
+      "name": "checkQuietly",
+      "bridgedName": "checkQuietly",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "commandEnabled": {
+      "name": "commandEnabled",
+      "bridgedName": "commandEnabled",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "commandLabel": {
+      "name": "commandLabel",
+      "bridgedName": "commandLabel",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "unavailableUpdateCount": {
+      "name": "unavailableUpdateCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "hasAvailableUpdates": {
+      "name": "hasAvailableUpdates",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

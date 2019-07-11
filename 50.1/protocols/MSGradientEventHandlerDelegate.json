@@ -1,0 +1,51 @@
+{
+  "protocol": true,
+  "name": "MSGradientEventHandlerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "gradientHandlerDidChangeCurrentPoint:": {
+      "name": "gradientHandlerDidChangeCurrentPoint:",
+      "bridgedName": "gradientHandlerDidChangeCurrentPoint",
+      "args": [
+        {
+          "name": "handler",
+          "type": "MSGradientEventHandler *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "gradientHandlerDidChangeGradient:": {
+      "name": "gradientHandlerDidChangeGradient:",
+      "bridgedName": "gradientHandlerDidChangeGradient",
+      "args": [
+        {
+          "name": "handler",
+          "type": "MSGradientEventHandler *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "gradientHandlerWillLoseFocus:": {
+      "name": "gradientHandlerWillLoseFocus:",
+      "bridgedName": "gradientHandlerWillLoseFocus",
+      "args": [
+        {
+          "name": "handler",
+          "type": "MSGradientEventHandler *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

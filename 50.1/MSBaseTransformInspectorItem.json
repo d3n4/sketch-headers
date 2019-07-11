@@ -1,0 +1,56 @@
+{
+  "name": "MSBaseTransformInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {
+    "initWithTitle:textFieldLabel:": {
+      "name": "initWithTitle:textFieldLabel:",
+      "bridgedName": "initWithTitle_textFieldLabel",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "textFieldLabel",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "textField": {
+      "name": "textField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "flipSegmentedControl": {
+      "name": "flipSegmentedControl",
+      "pointer": false,
+      "type": "IBOutlet NSSegmentedControl ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "textFieldFormatter": {
+      "name": "textFieldFormatter",
+      "pointer": false,
+      "type": "IBOutlet MSMathNumberFormatter ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,61 @@
+{
+  "protocol": true,
+  "name": "MSReorderingContainerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "containerBackground:dragDidReorderChildAtIndex:toIndex:": {
+      "name": "containerBackground:dragDidReorderChildAtIndex:toIndex:",
+      "bridgedName": "containerBackground_dragDidReorderChildAtIndex_toIndex",
+      "args": [
+        {
+          "name": "backgroundView",
+          "type": "MSReorderingContainerView *",
+          "nullable": false
+        },
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startingOffsetForStackingContainerBackground:": {
+      "name": "startingOffsetForStackingContainerBackground:",
+      "bridgedName": "startingOffsetForStackingContainerBackground",
+      "args": [
+        {
+          "name": "backgroundView",
+          "type": "MSReorderingContainerView *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfReorderableSubviewsForContainerBackground:": {
+      "name": "numberOfReorderableSubviewsForContainerBackground:",
+      "bridgedName": "numberOfReorderableSubviewsForContainerBackground",
+      "args": [
+        {
+          "name": "backgroundView",
+          "type": "MSReorderingContainerView *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

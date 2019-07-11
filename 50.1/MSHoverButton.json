@@ -1,0 +1,17 @@
+{
+  "name": "MSHoverButton",
+  "extends": "NSButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "mouseIsHovering": {
+      "name": "mouseIsHovering",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,31 @@
+{
+  "name": "MSEditAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "editableLayerTraits": {
+      "name": "editableLayerTraits",
+      "bridgedName": "editableLayerTraits",
+      "args": [],
+      "returns": "MSTraits",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "edit:": {
+      "name": "edit:",
+      "bridgedName": "edit",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

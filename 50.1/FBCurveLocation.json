@@ -1,0 +1,103 @@
+{
+  "name": "FBCurveLocation",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "curveLocationWithEdge:parameter:distance:": {
+      "name": "curveLocationWithEdge:parameter:distance:",
+      "bridgedName": "curveLocationWithEdge_parameter_distance",
+      "args": [
+        {
+          "name": "edge",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "parameter",
+          "type": "FBFloat",
+          "nullable": false
+        },
+        {
+          "name": "distance",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithEdge:parameter:distance:": {
+      "name": "initWithEdge:parameter:distance:",
+      "bridgedName": "initWithEdge_parameter_distance",
+      "args": [
+        {
+          "name": "edge",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "parameter",
+          "type": "FBFloat",
+          "nullable": false
+        },
+        {
+          "name": "distance",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "graph": {
+      "name": "graph",
+      "pointer": false,
+      "type": "FBBezierGraph ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "contour": {
+      "name": "contour",
+      "pointer": false,
+      "type": "FBBezierContour ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "edge": {
+      "name": "edge",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "parameter": {
+      "name": "parameter",
+      "pointer": false,
+      "type": "FBFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "distance": {
+      "name": "distance",
+      "pointer": false,
+      "type": "FBFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

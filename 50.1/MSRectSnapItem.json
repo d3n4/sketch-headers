@@ -1,0 +1,33 @@
+{
+  "name": "MSRectSnapItem",
+  "extends": "MSSnapItem",
+  "interfaces": [],
+  "methods": {
+    "snapItemWithRect:layer:constrainProportions:": {
+      "name": "snapItemWithRect:layer:constrainProportions:",
+      "bridgedName": "snapItemWithRect_layer_constrainProportions",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "constrainProportions",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

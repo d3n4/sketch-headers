@@ -1,0 +1,27 @@
+{
+  "name": "MSInsertTextEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "textLayer": {
+      "name": "textLayer",
+      "pointer": false,
+      "type": "MSTextLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "completionBlock": {
+      "name": "completionBlock",
+      "pointer": false,
+      "type": "MSInsertTextEventHandlerCompletionBlock",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

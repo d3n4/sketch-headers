@@ -1,0 +1,33 @@
+{
+  "name": "MSReorderingContainerView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {
+    "reorderSubviewsAnimated:": {
+      "name": "reorderSubviewsAnimated:",
+      "bridgedName": "reorderSubviewsAnimated",
+      "args": [
+        {
+          "name": "flag",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id <MSReorderingContainerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

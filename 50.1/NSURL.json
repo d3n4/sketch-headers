@@ -1,0 +1,207 @@
+{
+  "name": "NSURL",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "URLByStrippingInvisiblePeriod_bc": {
+      "name": "URLByStrippingInvisiblePeriod_bc",
+      "bridgedName": "URLByStrippingInvisiblePeriod_bc",
+      "args": [],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "URLByAppendingNameWithSeparators:defaultName:": {
+      "name": "URLByAppendingNameWithSeparators:defaultName:",
+      "bridgedName": "URLByAppendingNameWithSeparators_defaultName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "defaultName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasExtension:": {
+      "name": "hasExtension:",
+      "bridgedName": "hasExtension",
+      "args": [
+        {
+          "name": "extension",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "withExtension:": {
+      "name": "withExtension:",
+      "bridgedName": "withExtension",
+      "args": [
+        {
+          "name": "extension",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "URLByResolvingSymlinksAndAliases": {
+      "name": "URLByResolvingSymlinksAndAliases",
+      "bridgedName": "URLByResolvingSymlinksAndAliases",
+      "args": [],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqualToFileURL_bc:": {
+      "name": "isEqualToFileURL_bc:",
+      "bridgedName": "isEqualToFileURL_bc",
+      "args": [
+        {
+          "name": "otherURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendingCloudDeeplinkComponentsToArtboard:": {
+      "name": "appendingCloudDeeplinkComponentsToArtboard:",
+      "bridgedName": "appendingCloudDeeplinkComponentsToArtboard",
+      "args": [
+        {
+          "name": "artboard",
+          "type": "SCKArtboard *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendingCloudDeeplinkComponentsInPageToArtboard:": {
+      "name": "appendingCloudDeeplinkComponentsInPageToArtboard:",
+      "bridgedName": "appendingCloudDeeplinkComponentsInPageToArtboard",
+      "args": [
+        {
+          "name": "artboard",
+          "type": "SCKArtboard *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendingCloudAuthentication:": {
+      "name": "appendingCloudAuthentication:",
+      "bridgedName": "appendingCloudAuthentication",
+      "args": [
+        {
+          "name": "authentication",
+          "type": "id<SCKAPIAuthentication>",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isInTrash_bc": {
+      "name": "isInTrash_bc",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isCloudShare": {
+      "name": "isCloudShare",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cloudShareURL": {
+      "name": "cloudShareURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "cloudShareShortID": {
+      "name": "cloudShareShortID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "cloudPageSlug": {
+      "name": "cloudPageSlug",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "cloudArtboardSlug": {
+      "name": "cloudArtboardSlug",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "cloudAPIName": {
+      "name": "cloudAPIName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "cloudAPIEnvironment": {
+      "name": "cloudAPIEnvironment",
+      "pointer": false,
+      "type": "SCKEnvironment ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

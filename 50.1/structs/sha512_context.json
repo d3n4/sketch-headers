@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "sha512_context",
+  "members": [
+    {
+      "name": "length",
+      "pointer": false,
+      "type": "uint64_t"
+    },
+    {
+      "name": "state",
+      "pointer": false,
+      "type": "uint64_t[8]"
+    },
+    {
+      "name": "curlen",
+      "pointer": false,
+      "type": "size_t"
+    },
+    {
+      "name": "buf",
+      "pointer": false,
+      "type": "unsigned char[128]"
+    }
+  ]
+}

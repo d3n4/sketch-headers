@@ -1,0 +1,160 @@
+{
+  "name": "MSPointSnapper",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "addTarget:": {
+      "name": "addTarget:",
+      "bridgedName": "addTarget",
+      "args": [
+        {
+          "name": "target",
+          "type": "MSSnappingTarget *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargetAtPoint:": {
+      "name": "addTargetAtPoint:",
+      "bridgedName": "addTargetAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snapPoint:inLayer:": {
+      "name": "snapPoint:inLayer:",
+      "bridgedName": "snapPoint_inLayer",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPointSnappingResult *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "alignResult:toPoint:": {
+      "name": "alignResult:toPoint:",
+      "bridgedName": "alignResult_toPoint",
+      "args": [
+        {
+          "name": "previousResult",
+          "type": "MSPointSnappingResult *",
+          "nullable": false
+        },
+        {
+          "name": "alignedPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargetsForMidpointsOfLayers:": {
+      "name": "addTargetsForMidpointsOfLayers:",
+      "bridgedName": "addTargetsForMidpointsOfLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray<MSShapePathLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargetsForSnappingToMidpointOfLayer:": {
+      "name": "addTargetsForSnappingToMidpointOfLayer:",
+      "bridgedName": "addTargetsForSnappingToMidpointOfLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "nonnull MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "configureRulerGuideTargetsForPage:": {
+      "name": "configureRulerGuideTargetsForPage:",
+      "bridgedName": "configureRulerGuideTargetsForPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "snapDistance": {
+      "name": "snapDistance",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "allowedAxes": {
+      "name": "allowedAxes",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "snapTargets": {
+      "name": "snapTargets",
+      "pointer": false,
+      "type": "NSArray<MSSnappingTarget *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "rulerGuideTargets": {
+      "name": "rulerGuideTargets",
+      "pointer": false,
+      "type": "NSArray<MSSnappingTarget *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "snapToRulerGuides": {
+      "name": "snapToRulerGuides",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSOpenInLibraryAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

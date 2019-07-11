@@ -1,0 +1,17 @@
+{
+  "name": "MSDragSegmentGestureRecognizer",
+  "extends": "MSDragGestureRecognizer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "offset": {
+      "name": "offset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

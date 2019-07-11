@@ -1,0 +1,139 @@
+{
+  "name": "MSRulerGuides",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "findHoverGuidesOnPage:mouse:rulesVisible:": {
+      "name": "findHoverGuidesOnPage:mouse:rulesVisible:",
+      "bridgedName": "findHoverGuidesOnPage_mouse_rulesVisible",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSSnapLine *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "horizontalGuidesForVerticalRulerOnPage:forDrawing:rulersVisible:": {
+      "name": "horizontalGuidesForVerticalRulerOnPage:forDrawing:rulersVisible:",
+      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_forDrawing_rulersVisible",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "forDrawing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSSnapLine *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "horizontalGuidesForVerticalRulerOnPage:forDrawing:inRect:rulersVisible:": {
+      "name": "horizontalGuidesForVerticalRulerOnPage:forDrawing:inRect:rulersVisible:",
+      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_forDrawing_inRect_rulersVisible",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "forDrawing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSSnapLine *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "verticalGuidesForHorizontalRulerOnPage:forDrawing:rulersVisible:": {
+      "name": "verticalGuidesForHorizontalRulerOnPage:forDrawing:rulersVisible:",
+      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_forDrawing_rulersVisible",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "forDrawing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSSnapLine *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "verticalGuidesForHorizontalRulerOnPage:forDrawing:inRect:rulersVisible:": {
+      "name": "verticalGuidesForHorizontalRulerOnPage:forDrawing:inRect:rulersVisible:",
+      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_forDrawing_inRect_rulersVisible",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "forDrawing",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "rulersVisible",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSSnapLine *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

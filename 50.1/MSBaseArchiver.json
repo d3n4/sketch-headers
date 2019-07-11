@@ -1,0 +1,227 @@
+{
+  "name": "MSBaseArchiver",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "archiveRootObject:": {
+      "name": "archiveRootObject:",
+      "bridgedName": "archiveRootObject",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldEncodeAsReference:": {
+      "name": "shouldEncodeAsReference:",
+      "bridgedName": "shouldEncodeAsReference",
+      "args": [
+        {
+          "name": "object",
+          "type": "NSObject*",
+          "nullable": true
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "referenceObjectForObject:": {
+      "name": "referenceObjectForObject:",
+      "bridgedName": "referenceObjectForObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSObject<MSCoding>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "archivedDataWithRootObject:error:": {
+      "name": "archivedDataWithRootObject:error:",
+      "bridgedName": "archivedDataWithRootObject_error",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "archivedDataWithHeaderAndRootObject:": {
+      "name": "archivedDataWithHeaderAndRootObject:",
+      "bridgedName": "archivedDataWithHeaderAndRootObject",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "encodeObject:forKey:": {
+      "name": "encodeObject:forKey:",
+      "bridgedName": "encodeObject_forKey",
+      "args": [
+        {
+          "name": "object",
+          "type": "NSObject*",
+          "nullable": true
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeDouble:forKey:": {
+      "name": "encodeDouble:forKey:",
+      "bridgedName": "encodeDouble_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "double",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeBool:forKey:": {
+      "name": "encodeBool:forKey:",
+      "bridgedName": "encodeBool_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeRect:forKey:": {
+      "name": "encodeRect:forKey:",
+      "bridgedName": "encodeRect_forKey",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodePoint:forKey:": {
+      "name": "encodePoint:forKey:",
+      "bridgedName": "encodePoint_forKey",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeInteger:forKey:": {
+      "name": "encodeInteger:forKey:",
+      "bridgedName": "encodeInteger_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeSize:forKey:": {
+      "name": "encodeSize:forKey:",
+      "bridgedName": "encodeSize_forKey",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "archiveObjectIDs": {
+      "name": "archiveObjectIDs",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

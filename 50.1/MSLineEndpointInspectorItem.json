@@ -1,0 +1,8 @@
+{
+  "name": "MSLineEndpointInspectorItem",
+  "extends": "MSTwoTextFieldInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

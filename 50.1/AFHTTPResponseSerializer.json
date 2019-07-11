@@ -1,0 +1,81 @@
+{
+  "name": "AFHTTPResponseSerializer",
+  "extends": "NSObject",
+  "interfaces": [
+    "AFURLResponseSerialization"
+  ],
+  "methods": {
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "serializer": {
+      "name": "serializer",
+      "bridgedName": "serializer",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "validateResponse:data:error:": {
+      "name": "validateResponse:data:error:",
+      "bridgedName": "validateResponse_data_error",
+      "args": [
+        {
+          "name": "response",
+          "type": "NSHTTPURLResponse *",
+          "nullable": true
+        },
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "stringEncoding": {
+      "name": "stringEncoding",
+      "pointer": false,
+      "type": "NSStringEncoding",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "acceptableStatusCodes": {
+      "name": "acceptableStatusCodes",
+      "pointer": false,
+      "type": "NSIndexSet ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "acceptableContentTypes": {
+      "name": "acceptableContentTypes",
+      "pointer": false,
+      "type": "NSSet ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

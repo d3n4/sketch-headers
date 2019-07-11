@@ -1,0 +1,98 @@
+{
+  "name": "BCOutlineViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "NSOutlineViewDataSource",
+    "NSOutlineViewDelegate"
+  ],
+  "methods": {
+    "initWithDataController:": {
+      "name": "initWithDataController:",
+      "bridgedName": "initWithDataController",
+      "args": [
+        {
+          "name": "dataController",
+          "type": "BCOutlineViewDataController*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshWithMask:": {
+      "name": "refreshWithMask:",
+      "bridgedName": "refreshWithMask",
+      "args": [
+        {
+          "name": "mask",
+          "type": "BCOutlineViewControllerRefreshType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flagsChangedNotification": {
+      "name": "flagsChangedNotification",
+      "bridgedName": "flagsChangedNotification",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renameNode": {
+      "name": "renameNode",
+      "bridgedName": "renameNode",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "executeAfterRefreshCompleted:": {
+      "name": "executeAfterRefreshCompleted:",
+      "bridgedName": "executeAfterRefreshCompleted",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCOutlineViewControllerPostRefreshBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "outlineView": {
+      "name": "outlineView",
+      "pointer": false,
+      "type": "IBOutlet BCOutlineView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "preferredHeight": {
+      "name": "preferredHeight",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "filter": {
+      "name": "filter",
+      "pointer": false,
+      "type": "BCFilterInfo ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

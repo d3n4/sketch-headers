@@ -1,0 +1,23 @@
+{
+  "name": "MSConstraintPinLeftAction",
+  "extends": "MSConstraintAction",
+  "interfaces": [],
+  "methods": {
+    "pinLeftAction:": {
+      "name": "pinLeftAction:",
+      "bridgedName": "pinLeftAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

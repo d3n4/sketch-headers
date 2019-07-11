@@ -1,0 +1,79 @@
+{
+  "name": "MSDataPreferenceItem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "preferenceItemForLocalData:": {
+      "name": "preferenceItemForLocalData:",
+      "bridgedName": "preferenceItemForLocalData",
+      "args": [
+        {
+          "name": "localData",
+          "type": "MSLocalDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDataPreferenceItem*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "localData": {
+      "name": "localData",
+      "pointer": false,
+      "type": "MSLocalDataSupplier ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "preview": {
+      "name": "preview",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "secondaryTitle": {
+      "name": "secondaryTitle",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nullable",
+        "readonly"
+      ]
+    },
+    "valid": {
+      "name": "valid",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isBuiltinDataSupplier": {
+      "name": "isBuiltinDataSupplier",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,71 @@
+{
+  "name": "_SVGClipPath",
+  "extends": "SVGGroupElement",
+  "interfaces": [],
+  "methods": {
+    "propertyNames": {
+      "name": "propertyNames",
+      "bridgedName": "propertyNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "relationshipNames": {
+      "name": "relationshipNames",
+      "bridgedName": "relationshipNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "attributeNames": {
+      "name": "attributeNames",
+      "bridgedName": "attributeNames",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "primitiveAddClippingObject:": {
+      "name": "primitiveAddClippingObject:",
+      "bridgedName": "primitiveAddClippingObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "primitiveRemoveClippingObject:": {
+      "name": "primitiveRemoveClippingObject:",
+      "bridgedName": "primitiveRemoveClippingObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "clipping": {
+      "name": "clipping",
+      "pointer": false,
+      "type": "NSSet*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

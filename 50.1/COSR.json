@@ -1,0 +1,8 @@
+{
+  "name": "COSR",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

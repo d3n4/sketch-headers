@@ -1,0 +1,547 @@
+{
+  "name": "NSImage",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "drawAtPoint:": {
+      "name": "drawAtPoint:",
+      "bridgedName": "drawAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawAtPoint:fraction:": {
+      "name": "drawAtPoint:fraction:",
+      "bridgedName": "drawAtPoint_fraction",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "delta",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scaledImageToSize:": {
+      "name": "scaledImageToSize:",
+      "bridgedName": "scaledImageToSize",
+      "args": [
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawProportionallyInRect:operation:fraction:": {
+      "name": "drawProportionallyInRect:operation:fraction:",
+      "bridgedName": "drawProportionallyInRect_operation_fraction",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "op",
+          "type": "NSCompositingOperation",
+          "nullable": false
+        },
+        {
+          "name": "frac",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInRect:fraction:": {
+      "name": "drawInRect:fraction:",
+      "bridgedName": "drawInRect_fraction",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "delta",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectedImage": {
+      "name": "selectedImage",
+      "bridgedName": "selectedImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hoverImage": {
+      "name": "hoverImage",
+      "bridgedName": "hoverImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pressedImage": {
+      "name": "pressedImage",
+      "bridgedName": "pressedImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "altImage": {
+      "name": "altImage",
+      "bridgedName": "altImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "highlightImage": {
+      "name": "highlightImage",
+      "bridgedName": "highlightImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tintedWithColorNamed:interfaceTheme:": {
+      "name": "tintedWithColorNamed:interfaceTheme:",
+      "bridgedName": "tintedWithColorNamed_interfaceTheme",
+      "args": [
+        {
+          "name": "colorName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "theme",
+          "type": "id<MSInterfaceTheme>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawFlippedAtPoint:": {
+      "name": "drawFlippedAtPoint:",
+      "bridgedName": "drawFlippedAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawFlippedAtPoint:fraction:": {
+      "name": "drawFlippedAtPoint:fraction:",
+      "bridgedName": "drawFlippedAtPoint_fraction",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "fraction",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstBitmapImageRepOrCreateIfNecessary": {
+      "name": "firstBitmapImageRepOrCreateIfNecessary",
+      "bridgedName": "firstBitmapImageRepOrCreateIfNecessary",
+      "args": [],
+      "returns": "NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstBitmapImageRep": {
+      "name": "firstBitmapImageRep",
+      "bridgedName": "firstBitmapImageRep",
+      "args": [],
+      "returns": "nullable NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstBitmapImageRepOfScale:": {
+      "name": "firstBitmapImageRepOfScale:",
+      "bridgedName": "firstBitmapImageRepOfScale",
+      "args": [
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitSafeBitmapImageRep": {
+      "name": "bitSafeBitmapImageRep",
+      "bridgedName": "bitSafeBitmapImageRep",
+      "args": [],
+      "returns": "NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInRect:fromRect:fraction:respectFlipped:colorSpace:": {
+      "name": "drawInRect:fromRect:fraction:respectFlipped:colorSpace:",
+      "bridgedName": "drawInRect_fromRect_fraction_respectFlipped_colorSpace",
+      "args": [
+        {
+          "name": "inRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "fromRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "fraction",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "isFlipped",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "space",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isVectorImage": {
+      "name": "isVectorImage",
+      "bridgedName": "isVectorImage",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "PDFImageWithSize:flipped:drawingHandler:": {
+      "name": "PDFImageWithSize:flipped:drawingHandler:",
+      "bridgedName": "PDFImageWithSize_flipped_drawingHandler",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "drawingHandlerShouldBeCalledWithFlippedContext",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "drawingHandler",
+          "type": "BOOL (^)(NSRect dstRect)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "imageWithPadding:": {
+      "name": "imageWithPadding:",
+      "bridgedName": "imageWithPadding",
+      "args": [
+        {
+          "name": "padding",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isImageSizeLargerThan:": {
+      "name": "isImageSizeLargerThan:",
+      "bridgedName": "isImageSizeLargerThan",
+      "args": [
+        {
+          "name": "targetSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pixelSize": {
+      "name": "pixelSize",
+      "bridgedName": "pixelSize",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageWithShadow:size:": {
+      "name": "imageWithShadow:size:",
+      "bridgedName": "imageWithShadow_size",
+      "args": [
+        {
+          "name": "shadow",
+          "type": "NSShadow*",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "thumbWithSize:cornerRadius:": {
+      "name": "thumbWithSize:cornerRadius:",
+      "bridgedName": "thumbWithSize_cornerRadius",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "cornerRadius",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pngDataByFixingInvalidGamma:": {
+      "name": "pngDataByFixingInvalidGamma:",
+      "bridgedName": "pngDataByFixingInvalidGamma",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintedWithColor:": {
+      "name": "tintedWithColor:",
+      "bridgedName": "tintedWithColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verticallyFlipped": {
+      "name": "verticallyFlipped",
+      "bridgedName": "verticallyFlipped",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawImageWithSize:withBlock:": {
+      "name": "drawImageWithSize:withBlock:",
+      "bridgedName": "drawImageWithSize_withBlock",
+      "args": [
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "aBlock",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawImageFlippedWithSize:withBlock:": {
+      "name": "drawImageFlippedWithSize:withBlock:",
+      "bridgedName": "drawImageFlippedWithSize_withBlock",
+      "args": [
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "aBlock",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawImageFlipped:withSize:withBlock:": {
+      "name": "drawImageFlipped:withSize:withBlock:",
+      "bridgedName": "drawImageFlipped_withSize_withBlock",
+      "args": [
+        {
+          "name": "shouldFlip",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "aBlock",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "imageHasAlpha": {
+      "name": "imageHasAlpha",
+      "bridgedName": "imageHasAlpha",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageFromDataArchive:": {
+      "name": "imageFromDataArchive:",
+      "bridgedName": "imageFromDataArchive",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "dataForArchiving": {
+      "name": "dataForArchiving",
+      "bridgedName": "dataForArchiving",
+      "args": [],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasPDFData": {
+      "name": "hasPDFData",
+      "bridgedName": "hasPDFData",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "PDFImageRep": {
+      "name": "PDFImageRep",
+      "bridgedName": "PDFImageRep",
+      "args": [],
+      "returns": "NSPDFImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasEPSData": {
+      "name": "hasEPSData",
+      "bridgedName": "hasEPSData",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "EPSImageRep": {
+      "name": "EPSImageRep",
+      "bridgedName": "EPSImageRep",
+      "args": [],
+      "returns": "NSEPSImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitmapData": {
+      "name": "bitmapData",
+      "bridgedName": "bitmapData",
+      "args": [],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "embeddedXlinkValue": {
+      "name": "embeddedXlinkValue",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

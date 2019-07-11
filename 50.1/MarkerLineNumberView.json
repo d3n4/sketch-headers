@@ -1,0 +1,8 @@
+{
+  "name": "MarkerLineNumberView",
+  "extends": "NoodleLineNumberView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

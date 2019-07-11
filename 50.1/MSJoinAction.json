@@ -1,0 +1,8 @@
+{
+  "name": "MSJoinAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

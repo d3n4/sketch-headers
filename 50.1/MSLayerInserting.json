@@ -1,0 +1,33 @@
+{
+  "name": "MSLayerInserting",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "rectForCenteringLayerWithSize:inView:selection:": {
+      "name": "rectForCenteringLayerWithSize:inView:selection:",
+      "bridgedName": "rectForCenteringLayerWithSize_inView_selection",
+      "args": [
+        {
+          "name": "layerSize",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "contentDrawView",
+          "type": "MSContentDrawView *",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,77 @@
+{
+  "name": "MSPersistentAssetCollection",
+  "extends": "MSAssetCollection",
+  "interfaces": [],
+  "methods": {
+    "assetCollectionWithName:": {
+      "name": "assetCollectionWithName:",
+      "bridgedName": "assetCollectionWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "save": {
+      "name": "save",
+      "bridgedName": "save",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resourceNeedingMigration": {
+      "name": "resourceNeedingMigration",
+      "bridgedName": "resourceNeedingMigration",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cleanupAfterTesting": {
+      "name": "cleanupAfterTesting",
+      "bridgedName": "cleanupAfterTesting",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetCollectionByMigratingPresetsFromSources:": {
+      "name": "assetCollectionByMigratingPresetsFromSources:",
+      "bridgedName": "assetCollectionByMigratingPresetsFromSources",
+      "args": [
+        {
+          "name": "sources",
+          "type": "MSAssetMigrationSources *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "defaultMigrationSources": {
+      "name": "defaultMigrationSources",
+      "bridgedName": "defaultMigrationSources",
+      "args": [],
+      "returns": "MSAssetMigrationSources *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "defaultExportPresets": {
+      "name": "defaultExportPresets",
+      "bridgedName": "defaultExportPresets",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

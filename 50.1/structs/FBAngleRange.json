@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "FBAngleRange",
+  "members": [
+    {
+      "name": "minimum",
+      "pointer": false,
+      "type": "FBFloat"
+    },
+    {
+      "name": "maximum",
+      "pointer": false,
+      "type": "FBFloat"
+    }
+  ]
+}

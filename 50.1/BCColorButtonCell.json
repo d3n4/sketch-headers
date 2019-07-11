@@ -1,0 +1,69 @@
+{
+  "name": "BCColorButtonCell",
+  "extends": "NSButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "backgroundColorStringRepresentation": {
+      "name": "backgroundColorStringRepresentation",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "backgroundHighlightedColor": {
+      "name": "backgroundHighlightedColor",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "textColor": {
+      "name": "textColor",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "backgroundSelectedColor": {
+      "name": "backgroundSelectedColor",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "backgroundSelectedHighlightedColor": {
+      "name": "backgroundSelectedHighlightedColor",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "textSelectedColor": {
+      "name": "textSelectedColor",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

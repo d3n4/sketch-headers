@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableForeignSymbol",
+  "extends": "MSImmutableForeignObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "originalMaster": {
+      "name": "originalMaster",
+      "pointer": false,
+      "type": "MSImmutableSymbolMaster ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "symbolMaster": {
+      "name": "symbolMaster",
+      "pointer": false,
+      "type": "MSImmutableSymbolMaster ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

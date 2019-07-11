@@ -1,0 +1,61 @@
+{
+  "name": "MSSnappingMeasurement",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "drawUsingHelper:zoomScale:context:": {
+      "name": "drawUsingHelper:zoomScale:context:",
+      "bridgedName": "drawUsingHelper_zoomScale_context",
+      "args": [
+        {
+          "name": "helper",
+          "type": "MSMeasurementDrawing *",
+          "nullable": false
+        },
+        {
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "currentGroup",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberFormatter": {
+      "name": "numberFormatter",
+      "pointer": false,
+      "type": "NSNumberFormatter ",
+      "attributes": [
+        "nonatomic",
+        "null_resettable"
+      ]
+    }
+  },
+  "generics": []
+}

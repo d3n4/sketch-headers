@@ -1,0 +1,57 @@
+{
+  "name": "MSDimensionMeasurement",
+  "extends": "MSSnappingMeasurement",
+  "interfaces": [],
+  "methods": {
+    "initWithItem:axis:": {
+      "name": "initWithItem:axis:",
+      "bridgedName": "initWithItem_axis",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSSnapItem *",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "measurementWithLayer:axis:": {
+      "name": "measurementWithLayer:axis:",
+      "bridgedName": "measurementWithLayer_axis",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "axis",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "item": {
+      "name": "item",
+      "pointer": false,
+      "type": "MSSnapItem ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

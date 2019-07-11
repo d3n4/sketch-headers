@@ -1,0 +1,229 @@
+{
+  "name": "MSImmutableTextLayer",
+  "extends": "_MSImmutableTextLayer",
+  "interfaces": [
+    "MSFirstLineTypesetterDelegate"
+  ],
+  "methods": {
+    "defaultLineHeight:": {
+      "name": "defaultLineHeight:",
+      "bridgedName": "defaultLineHeight",
+      "args": [
+        {
+          "name": "layoutManager",
+          "type": "nonnull NSLayoutManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startingPositionOnPath:": {
+      "name": "startingPositionOnPath:",
+      "bridgedName": "startingPositionOnPath",
+      "args": [
+        {
+          "name": "shape",
+          "type": "nonnull NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textContainerSize": {
+      "name": "textContainerSize",
+      "bridgedName": "textContainerSize",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shapeToUseForTextOnPathWithParentGroup:": {
+      "name": "shapeToUseForTextOnPathWithParentGroup:",
+      "bridgedName": "shapeToUseForTextOnPathWithParentGroup",
+      "args": [
+        {
+          "name": "parentGroup",
+          "type": "nonnull MSImmutableLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSImmutableShapeGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstUnderlyingShapePathWithParentGroup:": {
+      "name": "firstUnderlyingShapePathWithParentGroup:",
+      "bridgedName": "firstUnderlyingShapePathWithParentGroup",
+      "args": [
+        {
+          "name": "parentGroup",
+          "type": "nonnull MSImmutableLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathFromGlyphsInBoundsWithParentGroup:layoutManager:": {
+      "name": "bezierPathFromGlyphsInBoundsWithParentGroup:layoutManager:",
+      "bridgedName": "bezierPathFromGlyphsInBoundsWithParentGroup_layoutManager",
+      "args": [
+        {
+          "name": "parentGroup",
+          "type": "MSImmutableLayerGroup *",
+          "nullable": true
+        },
+        {
+          "name": "layoutManager",
+          "type": "nonnull NSLayoutManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "usedFontNames": {
+      "name": "usedFontNames",
+      "bridgedName": "usedFontNames",
+      "args": [],
+      "returns": "nonnull NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawingPointForText": {
+      "name": "drawingPointForText",
+      "bridgedName": "drawingPointForText",
+      "args": [],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createTextStorage": {
+      "name": "createTextStorage",
+      "bridgedName": "createTextStorage",
+      "args": [],
+      "returns": "nonnull NSTextStorage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textStoragePoolInCache:": {
+      "name": "textStoragePoolInCache:",
+      "bridgedName": "textStoragePoolInCache",
+      "args": [
+        {
+          "name": "cache",
+          "type": "nonnull BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull MSTextStoragePool *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "fontSize": {
+      "name": "fontSize",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "stringValue": {
+      "name": "stringValue",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy",
+        "nonnull"
+      ]
+    },
+    "attributedStringValue": {
+      "name": "attributedStringValue",
+      "pointer": false,
+      "type": "NSAttributedString ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy",
+        "nonnull"
+      ]
+    },
+    "textAlignment": {
+      "name": "textAlignment",
+      "pointer": false,
+      "type": "NSTextAlignment",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "drawingPointForText": {
+      "name": "drawingPointForText",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "textLayout": {
+      "name": "textLayout",
+      "pointer": false,
+      "type": "MSTextLayout ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "nonnull"
+      ]
+    },
+    "transientGlyphBoundsValue": {
+      "name": "transientGlyphBoundsValue",
+      "pointer": false,
+      "type": "NSValue ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "capHeightBounds": {
+      "name": "capHeightBounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "shouldUseBezierRepresentationForRendering": {
+      "name": "shouldUseBezierRepresentationForRendering",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isEditingText": {
+      "name": "isEditingText",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

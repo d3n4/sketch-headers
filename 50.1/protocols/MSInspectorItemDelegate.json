@@ -1,0 +1,51 @@
+{
+  "protocol": true,
+  "name": "MSInspectorItemDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "valuesPossiblyChanged:": {
+      "name": "valuesPossiblyChanged:",
+      "bridgedName": "valuesPossiblyChanged",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "itemDidResize:": {
+      "name": "itemDidResize:",
+      "bridgedName": "itemDidResize",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentForInspectorItem:": {
+      "name": "documentForInspectorItem:",
+      "bridgedName": "documentForInspectorItem",
+      "args": [
+        {
+          "name": "section",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDocument *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

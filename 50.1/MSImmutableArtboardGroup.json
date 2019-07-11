@@ -1,0 +1,61 @@
+{
+  "name": "MSImmutableArtboardGroup",
+  "extends": "_MSImmutableArtboardGroup",
+  "interfaces": [
+    "MSLayerWithBackgroundColor",
+    "MSArtboardGroup",
+    "MSImmutableRootLayer"
+  ],
+  "methods": {
+    "shouldDrawBackgroundInContext:isDrawingAsSymbolInstance:": {
+      "name": "shouldDrawBackgroundInContext:isDrawingAsSymbolInstance:",
+      "bridgedName": "shouldDrawBackgroundInContext_isDrawingAsSymbolInstance",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        },
+        {
+          "name": "isInstance",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "contentBounds": {
+      "name": "contentBounds",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "unscaledNameSize": {
+      "name": "unscaledNameSize",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "preset": {
+      "name": "preset",
+      "pointer": false,
+      "type": "MSArtboardPreset ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

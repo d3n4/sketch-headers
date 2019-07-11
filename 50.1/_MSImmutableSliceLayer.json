@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableSliceLayer",
+  "extends": "MSImmutableLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "hasBackgroundColor": {
+      "name": "hasBackgroundColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

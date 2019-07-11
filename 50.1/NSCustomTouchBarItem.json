@@ -1,0 +1,38 @@
+{
+  "name": "NSCustomTouchBarItem",
+  "extends": "NSTouchBarItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "view": {
+      "name": "view",
+      "pointer": false,
+      "type": "__kindof NSView ",
+      "attributes": [
+        "readwrite",
+        "strong"
+      ]
+    },
+    "viewController": {
+      "name": "viewController",
+      "pointer": false,
+      "type": "__kindof NSViewController ",
+      "attributes": [
+        "readwrite",
+        "strong",
+        "nullable"
+      ]
+    },
+    "customizationLabel": {
+      "name": "customizationLabel",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readwrite",
+        "copy",
+        "null_resettable"
+      ]
+    }
+  },
+  "generics": []
+}

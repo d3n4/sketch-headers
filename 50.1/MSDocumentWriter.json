@@ -1,0 +1,74 @@
+{
+  "name": "MSDocumentWriter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithFileURL:": {
+      "name": "initWithFileURL:",
+      "bridgedName": "initWithFileURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeDocumentData:isAutosave:error:": {
+      "name": "writeDocumentData:isAutosave:error:",
+      "bridgedName": "writeDocumentData_isAutosave_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "isAutosave",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "__autoreleasing NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "metadataForNewFile": {
+      "name": "metadataForNewFile",
+      "bridgedName": "metadataForNewFile",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "UIMetadata": {
+      "name": "UIMetadata",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "previewGenerationBlock": {
+      "name": "previewGenerationBlock",
+      "pointer": false,
+      "type": "imageGenerationBlock",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

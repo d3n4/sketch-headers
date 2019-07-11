@@ -1,0 +1,56 @@
+{
+  "name": "SMKConnectionMessageContent",
+  "extends": "NSObject",
+  "interfaces": [
+    "SMKMessageCoding"
+  ],
+  "methods": {},
+  "properties": {
+    "token": {
+      "name": "token",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "device": {
+      "name": "device",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "serverPort": {
+      "name": "serverPort",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "serverName": {
+      "name": "serverName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "supportsURLRequests": {
+      "name": "supportsURLRequests",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

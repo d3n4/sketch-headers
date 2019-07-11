@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "SCKArtboardViewport",
+  "members": [
+    {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "size",
+      "pointer": false,
+      "type": "CGSize"
+    }
+  ]
+}

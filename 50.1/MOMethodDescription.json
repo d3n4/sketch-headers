@@ -1,0 +1,65 @@
+{
+  "name": "MOMethodDescription",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "methodWithSelector:typeEncoding:": {
+      "name": "methodWithSelector:typeEncoding:",
+      "bridgedName": "methodWithSelector_typeEncoding",
+      "args": [
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "typeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MOMethodDescription *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithSelector:typeEncoding:": {
+      "name": "initWithSelector:typeEncoding:",
+      "bridgedName": "initWithSelector_typeEncoding",
+      "args": [
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "typeEncoding",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "selector": {
+      "name": "selector",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "readwrite"
+      ]
+    },
+    "typeEncoding": {
+      "name": "typeEncoding",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

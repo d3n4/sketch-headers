@@ -1,0 +1,27 @@
+{
+  "name": "MSSVGGaussianBlur",
+  "extends": "MSSVGfeFilterPrimitive",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "in": {
+      "name": "in",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "stdDeviation": {
+      "name": "stdDeviation",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

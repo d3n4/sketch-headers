@@ -1,0 +1,23 @@
+{
+  "name": "MSColorControlsInspectorViewController",
+  "extends": "MSStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {
+    "reset:": {
+      "name": "reset:",
+      "bridgedName": "reset",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

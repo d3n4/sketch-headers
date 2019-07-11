@@ -1,0 +1,47 @@
+{
+  "name": "MSSaveAsTemplateSheet",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {
+    "runForDocument:completionBlock:": {
+      "name": "runForDocument:completionBlock:",
+      "bridgedName": "runForDocument_completionBlock",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSSaveAsTemplateSheetCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "inputCompletionBlock": {
+      "name": "inputCompletionBlock",
+      "pointer": false,
+      "type": "MSSaveAsTemplateSheetCompletionBlock",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "inputField": {
+      "name": "inputField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

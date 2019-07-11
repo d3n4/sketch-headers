@@ -1,0 +1,8 @@
+{
+  "name": "BCSTListPagesCommand",
+  "extends": "BCSTListCommand",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "_MSSymbol",
+  "extends": "MSSharedObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

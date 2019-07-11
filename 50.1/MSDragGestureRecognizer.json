@@ -1,0 +1,57 @@
+{
+  "name": "MSDragGestureRecognizer",
+  "extends": "MSGestureRecognizer",
+  "interfaces": [],
+  "methods": {
+    "locationInLayer:": {
+      "name": "locationInLayer:",
+      "bridgedName": "locationInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "beginsUponMouseDown": {
+      "name": "beginsUponMouseDown",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "translation": {
+      "name": "translation",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "lockTranslation": {
+      "name": "lockTranslation",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "modifierFlags": {
+      "name": "modifierFlags",
+      "pointer": false,
+      "type": "NSEventModifierFlags",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

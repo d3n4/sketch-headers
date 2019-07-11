@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleArtboardShadowAction",
+  "extends": "MSToggleViewPreferenceAction",
+  "interfaces": [],
+  "methods": {
+    "toggleArtboardShadow:": {
+      "name": "toggleArtboardShadow:",
+      "bridgedName": "toggleArtboardShadow",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

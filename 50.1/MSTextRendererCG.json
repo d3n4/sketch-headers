@@ -1,0 +1,8 @@
+{
+  "name": "MSTextRendererCG",
+  "extends": "MSLayerRendererCG",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

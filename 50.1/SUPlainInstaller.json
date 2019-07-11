@@ -1,0 +1,40 @@
+{
+  "name": "SUPlainInstaller",
+  "extends": "NSObject",
+  "interfaces": [
+    "SUInstallerProtocol"
+  ],
+  "methods": {
+    "initWithHost:bundlePath:installationPath:fileOperationToolPath:": {
+      "name": "initWithHost:bundlePath:installationPath:fileOperationToolPath:",
+      "bridgedName": "initWithHost_bundlePath_installationPath_fileOperationToolPath",
+      "args": [
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        },
+        {
+          "name": "bundlePath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "installationPath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "fileOperationToolPath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

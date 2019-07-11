@@ -1,0 +1,23 @@
+{
+  "name": "MSConstraintResetAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "resetConstraintAction:": {
+      "name": "resetConstraintAction:",
+      "bridgedName": "resetConstraintAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

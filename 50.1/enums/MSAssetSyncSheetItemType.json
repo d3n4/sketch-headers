@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSAssetSyncSheetItemType",
+  "members": [
+    {
+      "name": "MSAssetSyncSheetItemTypeHeader"
+    },
+    {
+      "name": "MSAssetSyncSheetItemTypeSymbol"
+    },
+    {
+      "name": "MSAssetSyncSheetItemTypeLayerStyle"
+    },
+    {
+      "name": "MSAssetSyncSheetItemTypeTextStyle"
+    }
+  ]
+}

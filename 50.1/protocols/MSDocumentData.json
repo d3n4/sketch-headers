@@ -1,0 +1,18 @@
+{
+  "protocol": true,
+  "name": "MSDocumentData",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "pages": {
+      "name": "pages",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}
