@@ -1,0 +1,50 @@
+{
+  "name": "MSTextHeaderInspectorItem",
+  "extends": "MSCollapsibleHeaderInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "detailSettingsButton": {
+      "name": "detailSettingsButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "detailSettingsVisible": {
+      "name": "detailSettingsVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "detailSettingsDisclosed": {
+      "name": "detailSettingsDisclosed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "detailSettingsEnabled": {
+      "name": "detailSettingsEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSTextHeaderInspectorItemDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

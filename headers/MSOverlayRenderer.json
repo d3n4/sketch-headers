@@ -47,10 +47,10 @@
         "getter=isEnabled"
       ]
     },
-    "delegate": {
-      "name": "delegate",
+    "hostView": {
+      "name": "hostView",
       "pointer": false,
-      "type": "id<MSOverlayRendererDelegate>",
+      "type": "id<MSTiledRendererHostView>",
       "attributes": [
         "nonatomic",
         "weak"

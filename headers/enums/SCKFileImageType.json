@@ -7,10 +7,12 @@
       "value": "0"
     },
     {
-      "name": "SCKFileImageTypeScrollable"
+      "name": "SCKFileImageTypeScrollable",
+      "value": "1 << 0"
     },
     {
-      "name": "SCKFileImageTypeFixed"
+      "name": "SCKFileImageTypeFixed",
+      "value": "1 << 1"
     }
   ]
 }

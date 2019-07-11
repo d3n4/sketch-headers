@@ -17,13 +17,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "fileAtScale:)": {
-      "name": "fileAtScale:)",
-      "bridgedName": "fileAtScale_)",
+    "fileAtScale:ofType:)": {
+      "name": "fileAtScale:ofType:)",
+      "bridgedName": "fileAtScale_ofType_)",
       "args": [
         {
           "name": "scale",
           "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "SCKFileImageType",
           "nullable": false
         }
       ],
@@ -106,6 +111,15 @@
       "attributes": [
         "nonatomic",
         "nonnull",
+        "readonly"
+      ]
+    },
+    "possibleFileTypes": {
+      "name": "possibleFileTypes",
+      "pointer": false,
+      "type": "SCKFileImageType",
+      "attributes": [
+        "nonatomic",
         "readonly"
       ]
     },

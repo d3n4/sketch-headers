@@ -149,20 +149,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "sharedObjectDidChange:": {
-      "name": "sharedObjectDidChange:",
-      "bridgedName": "sharedObjectDidChange",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSSharedObjectInstance*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "selectedLayers": {
       "name": "selectedLayers",
       "bridgedName": "selectedLayers",
@@ -250,6 +236,34 @@
         }
       ],
       "returns": "MSSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textStyleWithID:": {
+      "name": "textStyleWithID:",
+      "bridgedName": "textStyleWithID",
+      "args": [
+        {
+          "name": "sharedStyleID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerStyleWithID:": {
+      "name": "layerStyleWithID:",
+      "bridgedName": "layerStyleWithID",
+      "args": [
+        {
+          "name": "sharedStyleID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSSharedStyle *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -398,14 +412,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layerSelectionMightHaveChanged": {
-      "name": "layerSelectionMightHaveChanged",
-      "bridgedName": "layerSelectionMightHaveChanged",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "determineCurrentArtboard": {
       "name": "determineCurrentArtboard",
       "bridgedName": "determineCurrentArtboard",
@@ -426,6 +432,20 @@
       "name": "invalidateAffectedSymbolInstances",
       "bridgedName": "invalidateAffectedSymbolInstances",
       "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeShareableObjectsFromInstanceOverrides:": {
+      "name": "removeShareableObjectsFromInstanceOverrides:",
+      "bridgedName": "removeShareableObjectsFromInstanceOverrides",
+      "args": [
+        {
+          "name": "removed",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -551,6 +571,16 @@
         "nonatomic",
         "strong",
         "readonly"
+      ]
+    },
+    "selectedOverrides": {
+      "name": "selectedOverrides",
+      "pointer": false,
+      "type": "NSArray<NSString *> ",
+      "attributes": [
+        "null_resettable",
+        "nonatomic",
+        "strong"
       ]
     }
   },

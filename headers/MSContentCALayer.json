@@ -1,8 +1,0 @@
-{
-  "name": "MSContentCALayer",
-  "extends": "MSRenderingCALayer",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

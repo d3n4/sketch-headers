@@ -68,16 +68,6 @@
       "attributes": [
         "nonatomic"
       ]
-    },
-    "initialRotations": {
-      "name": "initialRotations",
-      "pointer": false,
-      "type": "NSArray ",
-      "attributes": [
-        "nonatomic",
-        "copy",
-        "nullable"
-      ]
     }
   },
   "generics": []

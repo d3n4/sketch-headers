@@ -128,6 +128,14 @@
       "returns": "NSArray *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "invalidateModifiedSymbolCache": {
+      "name": "invalidateModifiedSymbolCache",
+      "bridgedName": "invalidateModifiedSymbolCache",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

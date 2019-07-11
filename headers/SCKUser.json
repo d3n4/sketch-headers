@@ -34,19 +34,21 @@
         "readonly"
       ]
     },
-    "isAdmin": {
-      "name": "isAdmin",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "avatar": {
       "name": "avatar",
       "pointer": false,
       "type": "SCKAvatar ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "organizations": {
+      "name": "organizations",
+      "pointer": false,
+      "type": "NSArray<SCKOrganization *> ",
       "attributes": [
         "nonatomic",
         "strong",

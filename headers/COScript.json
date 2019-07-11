@@ -47,6 +47,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "createFiber": {
+      "name": "createFiber",
+      "bridgedName": "createFiber",
+      "args": [],
+      "returns": "COSFiber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "initWithCoreModules:andName:": {
       "name": "initWithCoreModules:andName:",
       "bridgedName": "initWithCoreModules_andName",
@@ -154,7 +162,7 @@
       "args": [
         {
           "name": "s",
-          "type": "NSString*",
+          "type": "id",
           "nullable": false
         }
       ],
@@ -351,15 +359,7 @@
     "printController": {
       "name": "printController",
       "pointer": false,
-      "type": "id",
-      "attributes": [
-        "weak"
-      ]
-    },
-    "errorController": {
-      "name": "errorController",
-      "pointer": false,
-      "type": "id",
+      "type": "id<COPrintController>",
       "attributes": [
         "weak"
       ]

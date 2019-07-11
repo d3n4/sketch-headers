@@ -17,6 +17,25 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "sectionBackgroundWithController:wantsSeparatorAfterViews:": {
+      "name": "sectionBackgroundWithController:wantsSeparatorAfterViews:",
+      "bridgedName": "sectionBackgroundWithController_wantsSeparatorAfterViews",
+      "args": [
+        {
+          "name": "controller",
+          "type": "NSViewController <MSInspectorSection> *",
+          "nullable": false
+        },
+        {
+          "name": "wantsSeparatorAfterViews",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSectionBackgroundView *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "recalculateHeight": {
       "name": "recalculateHeight",
       "bridgedName": "recalculateHeight",

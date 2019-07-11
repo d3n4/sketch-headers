@@ -1,0 +1,87 @@
+{
+  "name": "MSHeaderInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {
+    "setButtonTarget:action:image:alternate:": {
+      "name": "setButtonTarget:action:image:alternate:",
+      "bridgedName": "setButtonTarget_action_image_alternate",
+      "args": [
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "alternateImage",
+          "type": "NSImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "labelText": {
+      "name": "labelText",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "buttonToolTip": {
+      "name": "buttonToolTip",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "buttonState": {
+      "name": "buttonState",
+      "pointer": false,
+      "type": "NSControlStateValue",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "buttonDisabled": {
+      "name": "buttonDisabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "wantsSeparator": {
+      "name": "wantsSeparator",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "wantsSeparatorInset": {
+      "name": "wantsSeparatorInset",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

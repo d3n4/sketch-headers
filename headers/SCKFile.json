@@ -65,6 +65,15 @@
         "nullable",
         "readonly"
       ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "SCKFileImageType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

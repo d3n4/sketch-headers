@@ -3,122 +3,232 @@
   "extends": "NSOperation",
   "interfaces": [],
   "methods": {
-    "initWithRenderingRequest:contextPool:driver:": {
-      "name": "initWithRenderingRequest:contextPool:driver:",
-      "bridgedName": "initWithRenderingRequest_contextPool_driver",
+    "bitmapImageRenderForPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:": {
+      "name": "bitmapImageRenderForPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:",
+      "bridgedName": "bitmapImageRenderForPage_inDocument_visibleContentRect_backingScaleFactor_pixelViewSize_zoomValue_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace",
       "args": [
         {
-          "name": "renderingRequest",
-          "type": "MSRenderingRequest *",
+          "name": "page",
+          "type": "MSImmutablePage *",
           "nullable": false
         },
         {
-          "name": "contextPool",
-          "type": "MSCGContextPool *",
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
           "nullable": false
         },
         {
-          "name": "driver",
-          "type": "MSRenderingDriver *",
+          "name": "visibleContentRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelViewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelated",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id<MSRenderingContextCacheProvider>",
+          "nullable": false
+        },
+        {
+          "name": "canvasColorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bitmapImageFromRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:": {
+      "name": "bitmapImageFromRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:",
+      "bridgedName": "bitmapImageFromRenderPasses_visibleContentRect_backingScaleFactor_pixelViewSize_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace",
+      "args": [
+        {
+          "name": "renderPasses",
+          "type": "NSArray <MSTileRenderPass *> *",
+          "nullable": false
+        },
+        {
+          "name": "visibleContentRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelViewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "pixelated",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id<MSRenderingContextCacheProvider>",
+          "nullable": false
+        },
+        {
+          "name": "canvasColorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "renderOperationWithPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:": {
+      "name": "renderOperationWithPage:inDocument:visibleContentRect:backingScaleFactor:pixelViewSize:zoomValue:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:",
+      "bridgedName": "renderOperationWithPage_inDocument_visibleContentRect_backingScaleFactor_pixelViewSize_zoomValue_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        },
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "visibleContentRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelViewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelated",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id<MSRenderingContextCacheProvider>",
+          "nullable": false
+        },
+        {
+          "name": "canvasColorSpace",
+          "type": "NSColorSpace *",
           "nullable": false
         }
       ],
       "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
+      "kind": "class",
+      "kindIndicator": "+"
     },
-    "cancelDrawing": {
-      "name": "cancelDrawing",
-      "bridgedName": "cancelDrawing",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
+    "renderOperationWithRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:": {
+      "name": "renderOperationWithRenderPasses:visibleContentRect:backingScaleFactor:pixelViewSize:pixelated:pageOverlayRenderOptions:cacheProvider:canvasColorSpace:",
+      "bridgedName": "renderOperationWithRenderPasses_visibleContentRect_backingScaleFactor_pixelViewSize_pixelated_pageOverlayRenderOptions_cacheProvider_canvasColorSpace",
+      "args": [
+        {
+          "name": "renderPasses",
+          "type": "NSArray <MSTileRenderPass *> *",
+          "nullable": false
+        },
+        {
+          "name": "visibleContentRect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "pixelViewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "pixelated",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        },
+        {
+          "name": "cacheProvider",
+          "type": "id<MSRenderingContextCacheProvider>",
+          "nullable": false
+        },
+        {
+          "name": "canvasColorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {
-    "tile": {
-      "name": "tile",
+    "renderedImage": {
+      "name": "renderedImage",
       "pointer": false,
-      "type": "MSTile ",
+      "type": "NSBitmapImageRep ",
       "attributes": [
         "nonatomic",
-        "weak"
-      ]
-    },
-    "driver": {
-      "name": "driver",
-      "pointer": false,
-      "type": "MSRenderingDriver ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "renderingRequest": {
-      "name": "renderingRequest",
-      "pointer": false,
-      "type": "MSRenderingRequest ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "contentBounds": {
-      "name": "contentBounds",
-      "pointer": false,
-      "type": "CGRect",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
-    "image": {
-      "name": "image",
-      "pointer": false,
-      "type": "CGImageRef",
-      "attributes": [
-        "nonatomic",
-        "assign",
         "readonly",
         "nullable"
-      ]
-    },
-    "contentRectNeedingRedraw": {
-      "name": "contentRectNeedingRedraw",
-      "pointer": false,
-      "type": "NSRect",
-      "attributes": [
-        "nonatomic",
-        "assign"
-      ]
-    },
-    "distanceFromScrollOrigin": {
-      "name": "distanceFromScrollOrigin",
-      "pointer": false,
-      "type": "NSPoint",
-      "attributes": [
-        "nonatomic",
-        "assign"
-      ]
-    },
-    "pageForContent": {
-      "name": "pageForContent",
-      "pointer": false,
-      "type": "MSImmutablePage ",
-      "attributes": [
-        "nonatomic",
-        "strong",
-        "nullable"
-      ]
-    },
-    "contextPool": {
-      "name": "contextPool",
-      "pointer": false,
-      "type": "MSCGContextPool ",
-      "attributes": [
-        "nonatomic",
-        "strong",
-        "readonly"
       ]
     }
   },

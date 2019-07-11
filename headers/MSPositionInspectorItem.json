@@ -1,8 +1,29 @@
 {
   "name": "MSPositionInspectorItem",
-  "extends": "MSTwoTextFieldInspectorItem",
+  "extends": "MSInspectorItem",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "yField": {
+      "name": "yField",
+      "pointer": false,
+      "type": "MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "rotationField": {
+      "name": "rotationField",
+      "pointer": false,
+      "type": "MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

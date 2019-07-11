@@ -57,14 +57,6 @@
         "readonly"
       ]
     },
-    "popupToolbarItem": {
-      "name": "popupToolbarItem",
-      "pointer": false,
-      "type": "MSPopUpToolbarItem ",
-      "attributes": [
-        "readonly"
-      ]
-    },
     "popoverVisible": {
       "name": "popoverVisible",
       "pointer": false,

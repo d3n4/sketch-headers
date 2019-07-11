@@ -70,6 +70,14 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "didSwitchToPane": {
+      "name": "didSwitchToPane",
+      "bridgedName": "didSwitchToPane",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

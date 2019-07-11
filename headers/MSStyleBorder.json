@@ -20,6 +20,14 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "asFill": {
+      "name": "asFill",
+      "bridgedName": "asFill",
+      "args": [],
+      "returns": "MSStyleFill *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

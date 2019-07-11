@@ -1,6 +1,6 @@
 {
   "name": "MSLayerFocusActions",
-  "extends": "MSTouchBarGroupAction",
+  "extends": "MSActionGroup",
   "interfaces": [],
   "methods": {},
   "properties": {},

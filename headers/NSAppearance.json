@@ -1,0 +1,27 @@
+{
+  "name": "NSAppearance",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "sketchDefaultDarkAppearance": {
+      "name": "sketchDefaultDarkAppearance",
+      "bridgedName": "sketchDefaultDarkAppearance",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "isDark_bc": {
+      "name": "isDark_bc",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

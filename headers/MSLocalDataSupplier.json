@@ -32,13 +32,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "initWithFileSystemURL:": {
-      "name": "initWithFileSystemURL:",
-      "bridgedName": "initWithFileSystemURL",
+    "initWithFileSystemURL:isBuiltin:": {
+      "name": "initWithFileSystemURL:isBuiltin:",
+      "bridgedName": "initWithFileSystemURL_isBuiltin",
       "args": [
         {
           "name": "fsURL",
           "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "isBuiltin",
+          "type": "BOOL",
           "nullable": false
         }
       ],
@@ -83,15 +88,6 @@
       "attributes": [
         "nonatomic",
         "readonly"
-      ]
-    },
-    "delegate": {
-      "name": "delegate",
-      "pointer": false,
-      "type": "id<MSLocalDataSupplierDelegate>",
-      "attributes": [
-        "nonatomic",
-        "weak"
       ]
     },
     "isBuiltin": {

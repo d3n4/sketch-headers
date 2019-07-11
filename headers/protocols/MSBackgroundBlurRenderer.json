@@ -4,13 +4,13 @@
   "extends": "MSRenderer",
   "interfaces": [],
   "methods": {
-    "renderBackgroundBlurBehindShape:context:clippedToPath:": {
-      "name": "renderBackgroundBlurBehindShape:context:clippedToPath:",
-      "bridgedName": "renderBackgroundBlurBehindShape_context_clippedToPath",
+    "renderBackgroundBlurBehindLayer:context:clippedToPath:": {
+      "name": "renderBackgroundBlurBehindLayer:context:clippedToPath:",
+      "bridgedName": "renderBackgroundBlurBehindLayer_context_clippedToPath",
       "args": [
         {
           "name": "shape",
-          "type": "MSImmutableShapeGroup*",
+          "type": "MSImmutableStyledLayer*",
           "nullable": false
         },
         {

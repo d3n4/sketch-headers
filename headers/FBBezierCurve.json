@@ -394,6 +394,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "edgesWithFlatness:": {
+      "name": "edgesWithFlatness:",
+      "bridgedName": "edgesWithFlatness",
+      "args": [
+        {
+          "name": "flatness",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <FBBezierCurve *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "mightIntersectWith:": {
       "name": "mightIntersectWith:",
       "bridgedName": "mightIntersectWith",
@@ -741,6 +755,15 @@
       "name": "boundingRect",
       "pointer": false,
       "type": "FBRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flatness": {
+      "name": "flatness",
+      "pointer": false,
+      "type": "FBFloat",
       "attributes": [
         "nonatomic",
         "readonly"

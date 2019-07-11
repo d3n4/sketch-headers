@@ -2,7 +2,16 @@
   "name": "MSBaseBooleanAction",
   "extends": "MSDocumentAction",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "booleanOperation": {
+      "name": "booleanOperation",
+      "bridgedName": "booleanOperation",
+      "args": [],
+      "returns": "MSBooleanOperation",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {},
   "generics": []
 }

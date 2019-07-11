@@ -21,6 +21,14 @@
         "nonatomic",
         "strong"
       ]
+    },
+    "minimumIncrementValue": {
+      "name": "minimumIncrementValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
     }
   },
   "generics": []

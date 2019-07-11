@@ -1,0 +1,8 @@
+{
+  "name": "MSArtboardBackgroundColorInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

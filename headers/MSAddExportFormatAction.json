@@ -23,7 +23,7 @@
       "args": [
         {
           "name": "layer",
-          "type": "MSSliceLayer *",
+          "type": "MSLayer *",
           "nullable": false
         }
       ],

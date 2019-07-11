@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "availableOverrideWithOverridePoint:master:overrideValue:inParent:": {
-      "name": "availableOverrideWithOverridePoint:master:overrideValue:inParent:",
-      "bridgedName": "availableOverrideWithOverridePoint_master_overrideValue_inParent",
+    "availableOverrideWithOverridePoint:master:overrideValue:otherOverrides:inParent:document:": {
+      "name": "availableOverrideWithOverridePoint:master:overrideValue:otherOverrides:inParent:document:",
+      "bridgedName": "availableOverrideWithOverridePoint_master_overrideValue_otherOverrides_inParent_document",
       "args": [
         {
           "name": "overridePoint",
@@ -14,18 +14,28 @@
         },
         {
           "name": "master",
-          "type": "MSImmutableSymbolMaster*",
+          "type": "MSImmutableSymbolMaster *",
           "nullable": false
         },
         {
           "name": "overrideValue",
-          "type": "MSOverrideValue*",
+          "type": "MSOverrideValue *",
           "nullable": true
         },
         {
+          "name": "otherOverrides",
+          "type": "NSArray<MSOverrideValue *> *",
+          "nullable": false
+        },
+        {
           "name": "parent",
-          "type": "MSAvailableOverride*",
+          "type": "MSAvailableOverride *",
           "nullable": true
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
         }
       ],
       "returns": "nullable MSAvailableOverride*",
@@ -51,13 +61,19 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "createOverrideViewController": {
-      "name": "createOverrideViewController",
-      "bridgedName": "createOverrideViewController",
-      "args": [],
-      "returns": "MSOverrideViewController *",
-      "kind": "instance",
-      "kindIndicator": "-"
+    "flattenAvailableOverrides:": {
+      "name": "flattenAvailableOverrides:",
+      "bridgedName": "flattenAvailableOverrides",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSArray<MSAvailableOverride *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSAvailableOverride *>*",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {
@@ -146,8 +162,8 @@
         "readonly"
       ]
     },
-    "isAffectedLayerOrParentLocked": {
-      "name": "isAffectedLayerOrParentLocked",
+    "defaultIsItselfAnOverride": {
+      "name": "defaultIsItselfAnOverride",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
@@ -155,8 +171,8 @@
         "readonly"
       ]
     },
-    "isAffectedLayerOrParentHidden": {
-      "name": "isAffectedLayerOrParentHidden",
+    "isEditable": {
+      "name": "isEditable",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

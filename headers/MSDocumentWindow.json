@@ -1,9 +1,7 @@
 {
   "name": "MSDocumentWindow",
   "extends": "NSWindow",
-  "interfaces": [
-    "MSInterfaceTheme"
-  ],
+  "interfaces": [],
   "methods": {},
   "properties": {
     "titleBarBadge": {

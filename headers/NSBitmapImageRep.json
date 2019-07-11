@@ -84,6 +84,40 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "bitmapImageRepWithSize:pixelSize:flags:colorSpace:drawingBlock:": {
+      "name": "bitmapImageRepWithSize:pixelSize:flags:colorSpace:drawingBlock:",
+      "bridgedName": "bitmapImageRepWithSize_pixelSize_flags_colorSpace_drawingBlock",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "pixelSize",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "DKCGContextCreateFlags",
+          "nullable": false
+        },
+        {
+          "name": "space",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "CGContextDrawBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "rectForTrimming": {
       "name": "rectForTrimming",
       "bridgedName": "rectForTrimming",

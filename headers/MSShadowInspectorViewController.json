@@ -1,31 +1,13 @@
 {
   "name": "MSShadowInspectorViewController",
-  "extends": "MSStylePartInspectorViewController",
+  "extends": "MSColorStylePartInspectorViewController",
   "interfaces": [],
-  "methods": {
-    "prepare": {
-      "name": "prepare",
-      "bridgedName": "prepare",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {
     "type": {
       "name": "type",
       "pointer": false,
       "type": "NSString ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "colorButton": {
-      "name": "colorButton",
-      "pointer": false,
-      "type": "IBOutlet MSStylePartPreviewButton ",
       "attributes": [
         "nonatomic",
         "strong"

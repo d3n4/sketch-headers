@@ -1,17 +1,8 @@
 {
   "name": "MSExportFormatNamingTextField",
-  "extends": "NSTextField",
+  "extends": "MSTextFieldWithDropDownMenu",
   "interfaces": [],
-  "methods": {
-    "sharedFieldEditor": {
-      "name": "sharedFieldEditor",
-      "bridgedName": "sharedFieldEditor",
-      "args": [],
-      "returns": "NSTextView *",
-      "kind": "class",
-      "kindIndicator": "+"
-    }
-  },
+  "methods": {},
   "properties": {
     "exportFormats": {
       "name": "exportFormats",

@@ -22,18 +22,30 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "contentDirtyDiffRect": {
-      "name": "contentDirtyDiffRect",
-      "bridgedName": "contentDirtyDiffRect",
-      "args": [],
+    "contentDirtyDiffRectForPage:": {
+      "name": "contentDirtyDiffRectForPage:",
+      "bridgedName": "contentDirtyDiffRectForPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        }
+      ],
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "overlayDirtyDiffRect": {
-      "name": "overlayDirtyDiffRect",
-      "bridgedName": "overlayDirtyDiffRect",
-      "args": [],
+    "overlayDirtyDiffRectForPage:": {
+      "name": "overlayDirtyDiffRectForPage:",
+      "bridgedName": "overlayDirtyDiffRectForPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        }
+      ],
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"

@@ -3,7 +3,7 @@
   "name": "BCSideBarRefreshType",
   "members": [
     {
-      "name": "BCSideBarRefreshTypeSelection",
+      "name": "BCSideBarRefreshTypeSelectionAndExpansion",
       "value": "BCOutlineViewControllerRefreshTypeSelection | BCOutlineViewControllerRefreshTypeExpansion"
     },
     {

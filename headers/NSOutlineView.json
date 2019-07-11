@@ -110,6 +110,26 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "floatingGroupRow": {
+      "name": "floatingGroupRow",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "floatingGroupRowView": {
+      "name": "floatingGroupRowView",
+      "pointer": false,
+      "type": "NSTableRowView ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
   "generics": []
 }

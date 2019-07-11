@@ -327,6 +327,15 @@
         "strong",
         "nonnull"
       ]
+    },
+    "decodedObjectStack": {
+      "name": "decodedObjectStack",
+      "pointer": false,
+      "type": "NSPointerArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

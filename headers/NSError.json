@@ -24,24 +24,50 @@
     }
   },
   "properties": {
-    "cloudUnauthorized": {
-      "name": "cloudUnauthorized",
+    "isCloudError": {
+      "name": "isCloudError",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
         "nonatomic",
-        "readonly",
-        "getter=isCloudUnauthorized"
+        "readonly"
       ]
     },
-    "urlCancelled": {
-      "name": "urlCancelled",
+    "isCloudUnauthorized": {
+      "name": "isCloudUnauthorized",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
         "nonatomic",
-        "readonly",
-        "getter=isURLCancelled"
+        "readonly"
+      ]
+    },
+    "isCloudForbidden": {
+      "name": "isCloudForbidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isUrlCancelled": {
+      "name": "isUrlCancelled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fields": {
+      "name": "fields",
+      "pointer": false,
+      "type": "NSArray<NSDictionary *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
       ]
     }
   },

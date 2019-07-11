@@ -2,8 +2,8 @@
   "name": "LLTestBaseController",
   "extends": "NSObject",
   "interfaces": [
-    "BCOutlineViewDataSource",
-    "BCOutlineViewDelegate"
+    "BCOutlineViewDataControllerDataSource",
+    "BCOutlineViewDataControllerDelegate"
   ],
   "methods": {
     "dataController:removeNodes:": {

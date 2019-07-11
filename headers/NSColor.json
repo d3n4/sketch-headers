@@ -9,7 +9,7 @@
       "args": [
         {
           "name": "gray",
-          "type": "float",
+          "type": "CGFloat",
           "nullable": false
         }
       ],
@@ -23,12 +23,12 @@
       "args": [
         {
           "name": "gray",
-          "type": "float",
+          "type": "CGFloat",
           "nullable": false
         },
         {
           "name": "alpha",
-          "type": "float",
+          "type": "CGFloat",
           "nullable": false
         }
       ],
@@ -66,31 +66,87 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "safeColorUsingColorSpace_bc:": {
-      "name": "safeColorUsingColorSpace_bc:",
-      "bridgedName": "safeColorUsingColorSpace_bc",
+    "tintColorIntense": {
+      "name": "tintColorIntense",
+      "bridgedName": "tintColorIntense",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintColorIntenseDark": {
+      "name": "tintColorIntenseDark",
+      "bridgedName": "tintColorIntenseDark",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintColorNormal": {
+      "name": "tintColorNormal",
+      "bridgedName": "tintColorNormal",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintColorNormalDark": {
+      "name": "tintColorNormalDark",
+      "bridgedName": "tintColorNormalDark",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintColorMild": {
+      "name": "tintColorMild",
+      "bridgedName": "tintColorMild",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintColorMildDark": {
+      "name": "tintColorMildDark",
+      "bridgedName": "tintColorMildDark",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorByApplyingModifier:": {
+      "name": "colorByApplyingModifier:",
+      "bridgedName": "colorByApplyingModifier",
       "args": [
         {
-          "name": "colorSpace",
-          "type": "NSColorSpace*",
+          "name": "modifier",
+          "type": "NSString *",
           "nullable": false
         }
       ],
-      "returns": "NSColor*",
+      "returns": "NSColor *",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "safeColorUsingColorSpaceName_bc:": {
-      "name": "safeColorUsingColorSpaceName_bc:",
-      "bridgedName": "safeColorUsingColorSpaceName_bc",
+    "colorByApplyingModifiers:": {
+      "name": "colorByApplyingModifiers:",
+      "bridgedName": "colorByApplyingModifiers",
       "args": [
         {
-          "name": "name",
-          "type": "NSString*",
+          "name": "modifiers",
+          "type": "NSArray<NSString *> *",
           "nullable": false
         }
       ],
-      "returns": "NSColor*",
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "highlightedColor": {
+      "name": "highlightedColor",
+      "bridgedName": "highlightedColor",
+      "args": [],
+      "returns": "NSColor *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -132,6 +188,14 @@
     }
   },
   "properties": {
+    "themeCachingKey": {
+      "name": "themeCachingKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
     "manifestComponents": {
       "name": "manifestComponents",
       "pointer": false,

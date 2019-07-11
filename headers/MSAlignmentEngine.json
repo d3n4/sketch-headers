@@ -3,6 +3,20 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
+    "initWithCycle:": {
+      "name": "initWithCycle:",
+      "bridgedName": "initWithCycle",
+      "args": [
+        {
+          "name": "cycle",
+          "type": "MSAlignmentEngineCycle *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "canSnapOnAxis:": {
       "name": "canSnapOnAxis:",
       "bridgedName": "canSnapOnAxis",
@@ -17,23 +31,28 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "beginAlignmentForPoint:": {
-      "name": "beginAlignmentForPoint:",
-      "bridgedName": "beginAlignmentForPoint",
+    "beginCycleWithPoint:constraint:": {
+      "name": "beginCycleWithPoint:constraint:",
+      "bridgedName": "beginCycleWithPoint_constraint",
       "args": [
         {
           "name": "point",
           "type": "NSPoint",
           "nullable": false
+        },
+        {
+          "name": "constraint",
+          "type": "MSAlignmentEngineConstraint *",
+          "nullable": true
         }
       ],
-      "returns": "void",
+      "returns": "MSAlignmentEngineCycle *",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "includeTarget:": {
-      "name": "includeTarget:",
-      "bridgedName": "includeTarget",
+    "addTarget:": {
+      "name": "addTarget:",
+      "bridgedName": "addTarget",
       "args": [
         {
           "name": "target",
@@ -45,9 +64,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "includeTargets:": {
-      "name": "includeTargets:",
-      "bridgedName": "includeTargets",
+    "addTargets:": {
+      "name": "addTargets:",
+      "bridgedName": "addTargets",
       "args": [
         {
           "name": "targets",
@@ -59,13 +78,46 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "includePoint:": {
-      "name": "includePoint:",
-      "bridgedName": "includePoint",
+    "addTargetWithLineSegment:": {
+      "name": "addTargetWithLineSegment:",
+      "bridgedName": "addTargetWithLineSegment",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSLineSegment",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addOrthogonalTargetsThroughPoint:": {
+      "name": "addOrthogonalTargetsThroughPoint:",
+      "bridgedName": "addOrthogonalTargetsThroughPoint",
       "args": [
         {
           "name": "point",
           "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargetsForRect:includeCenter:": {
+      "name": "addTargetsForRect:includeCenter:",
+      "bridgedName": "addTargetsForRect_includeCenter",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "includeCenter",
+          "type": "BOOL",
           "nullable": false
         }
       ],
@@ -105,6 +157,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "enumeratorForPossibleSnapTargetLayersInGroup:": {
+      "name": "enumeratorForPossibleSnapTargetLayersInGroup:",
+      "bridgedName": "enumeratorForPossibleSnapTargetLayersInGroup",
+      "args": [
+        {
+          "name": "group",
+          "type": "nonnull MSLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerEnumerator<MSLayer *> *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {
@@ -116,14 +182,6 @@
         "nonatomic"
       ]
     },
-    "allowedAxes": {
-      "name": "allowedAxes",
-      "pointer": false,
-      "type": "BCAxis",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
     "constraint": {
       "name": "constraint",
       "pointer": false,
@@ -131,16 +189,17 @@
       "attributes": [
         "nonatomic",
         "nullable",
-        "copy"
+        "readonly"
       ]
     },
-    "point": {
-      "name": "point",
+    "currentCycle": {
+      "name": "currentCycle",
       "pointer": false,
-      "type": "NSPoint",
+      "type": "MSAlignmentEngineCycle ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nullable"
       ]
     },
     "alignmentResult": {

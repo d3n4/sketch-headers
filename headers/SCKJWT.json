@@ -1,0 +1,42 @@
+{
+  "name": "SCKJWT",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithString:": {
+      "name": "initWithString:",
+      "bridgedName": "initWithString",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "header": {
+      "name": "header",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "payload": {
+      "name": "payload",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

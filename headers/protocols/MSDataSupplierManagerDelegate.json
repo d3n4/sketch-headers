@@ -23,20 +23,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "isPluginForDataSupplierEnabled:": {
-      "name": "isPluginForDataSupplierEnabled:",
-      "bridgedName": "isPluginForDataSupplierEnabled",
-      "args": [
-        {
-          "name": "pluginDataSupplier",
-          "type": "MSPluginDataSupplier *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "isThereAPluginForDataSupplier:": {
       "name": "isThereAPluginForDataSupplier:",
       "bridgedName": "isThereAPluginForDataSupplier",
@@ -48,6 +34,34 @@
         }
       ],
       "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pluginIconForIdentifier:": {
+      "name": "pluginIconForIdentifier:",
+      "bridgedName": "pluginIconForIdentifier",
+      "args": [
+        {
+          "name": "pluginIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pluginNameForIdentifier:": {
+      "name": "pluginNameForIdentifier:",
+      "bridgedName": "pluginNameForIdentifier",
+      "args": [
+        {
+          "name": "pluginIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
       "kind": "instance",
       "kindIndicator": "-"
     }

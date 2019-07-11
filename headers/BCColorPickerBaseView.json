@@ -88,13 +88,42 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "drawFrameInRect:block:": {
-      "name": "drawFrameInRect:block:",
-      "bridgedName": "drawFrameInRect_block",
+    "drawFrameInRect:forView:block:": {
+      "name": "drawFrameInRect:forView:block:",
+      "bridgedName": "drawFrameInRect_forView_block",
       "args": [
         {
           "name": "contentRect",
           "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawFrameInRect:outlineWidth:block:": {
+      "name": "drawFrameInRect:outlineWidth:block:",
+      "bridgedName": "drawFrameInRect_outlineWidth_block",
+      "args": [
+        {
+          "name": "contentRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "lineWidth",
+          "type": "CGFloat",
           "nullable": false
         },
         {
@@ -124,6 +153,14 @@
       "type": "SEL",
       "attributes": [
         "atomic"
+      ]
+    },
+    "hideSelection": {
+      "name": "hideSelection",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
       ]
     }
   },

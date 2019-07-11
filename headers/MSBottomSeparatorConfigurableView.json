@@ -1,0 +1,17 @@
+{
+  "name": "MSBottomSeparatorConfigurableView",
+  "extends": "MSSeparatorConfigurableView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "wantsBottomSeparator": {
+      "name": "wantsBottomSeparator",
+      "pointer": false,
+      "type": "IBInspectable BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

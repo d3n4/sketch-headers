@@ -218,6 +218,14 @@
       "attributes": [
         "nonatomic"
       ]
+    },
+    "cloudOrganization": {
+      "name": "cloudOrganization",
+      "pointer": false,
+      "type": "SCKOrganization ",
+      "attributes": [
+        "nonatomic"
+      ]
     }
   },
   "generics": []

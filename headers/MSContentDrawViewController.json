@@ -46,10 +46,10 @@
         "strong"
       ]
     },
-    "overlayView": {
-      "name": "overlayView",
+    "contentDrawViewParent": {
+      "name": "contentDrawViewParent",
       "pointer": false,
-      "type": "IBOutlet MSOverlayView ",
+      "type": "IBOutlet MSContentDrawViewParent ",
       "attributes": [
         "nonatomic",
         "strong"

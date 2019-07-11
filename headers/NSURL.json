@@ -80,6 +80,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "cloudShareURLWithShortID:environment:": {
+      "name": "cloudShareURLWithShortID:environment:",
+      "bridgedName": "cloudShareURLWithShortID_environment",
+      "args": [
+        {
+          "name": "shortID",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "environment",
+          "type": "SCKAPIEnvironment *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "appendingCloudDeeplinkComponentsToArtboard:": {
       "name": "appendingCloudDeeplinkComponentsToArtboard:",
       "bridgedName": "appendingCloudDeeplinkComponentsToArtboard",
@@ -114,7 +133,7 @@
       "args": [
         {
           "name": "authentication",
-          "type": "id<SCKAPIAuthentication>",
+          "type": "SCKAPIAuthentication *",
           "nullable": true
         }
       ],
@@ -195,7 +214,7 @@
     "cloudAPIEnvironment": {
       "name": "cloudAPIEnvironment",
       "pointer": false,
-      "type": "SCKEnvironment ",
+      "type": "SCKAPIEnvironment ",
       "attributes": [
         "nonatomic",
         "nullable",

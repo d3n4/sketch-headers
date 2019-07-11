@@ -57,6 +57,35 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "drawCheckerboardBackgroundInRect:size:foreColor:backgroundColor:": {
+      "name": "drawCheckerboardBackgroundInRect:size:foreColor:backgroundColor:",
+      "bridgedName": "drawCheckerboardBackgroundInRect_size_foreColor_backgroundColor",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "CGColorRef",
+          "nullable": false
+        },
+        {
+          "name": "backgroundColor",
+          "type": "CGColorRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "assetCollectionForPresetPicker:": {
       "name": "assetCollectionForPresetPicker:",
       "bridgedName": "assetCollectionForPresetPicker",

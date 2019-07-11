@@ -330,6 +330,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "segmentsWithFlatness:": {
+      "name": "segmentsWithFlatness:",
+      "bridgedName": "segmentsWithFlatness",
+      "args": [
+        {
+          "name": "flatness",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSBezierSegment *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "offsetForNormalToPoint:": {
       "name": "offsetForNormalToPoint:",
       "bridgedName": "offsetForNormalToPoint",
@@ -577,6 +591,15 @@
     },
     "curviness": {
       "name": "curviness",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "flatness": {
+      "name": "flatness",
       "pointer": false,
       "type": "CGFloat",
       "attributes": [

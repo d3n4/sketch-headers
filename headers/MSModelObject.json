@@ -207,14 +207,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "parentGroup": {
-      "name": "parentGroup",
-      "bridgedName": "parentGroup",
-      "args": [],
-      "returns": "__kindof MSLayerGroup *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "allowsFaulting": {
       "name": "allowsFaulting",
       "bridgedName": "allowsFaulting",
@@ -408,6 +400,17 @@
       "type": "BOOL",
       "attributes": [
         "nonatomic",
+        "readonly"
+      ]
+    },
+    "parentGroup": {
+      "name": "parentGroup",
+      "pointer": false,
+      "type": "__kindof MSLayerGroup ",
+      "attributes": [
+        "weak",
+        "nonatomic",
+        "nullable",
         "readonly"
       ]
     }

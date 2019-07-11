@@ -3,7 +3,8 @@
   "extends": "MSPreferencePane",
   "interfaces": [
     "NSTableViewDelegate",
-    "NSTableViewDataSource"
+    "NSTableViewDataSource",
+    "NSTextFieldDelegate"
   ],
   "methods": {
     "importLibraryAction:": {
@@ -37,20 +38,6 @@
     "locateLibraryAction:": {
       "name": "locateLibraryAction:",
       "bridgedName": "locateLibraryAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "visitLibrariesPageAction:": {
-      "name": "visitLibrariesPageAction:",
-      "bridgedName": "visitLibrariesPageAction",
       "args": [
         {
           "name": "sender",
@@ -173,7 +160,7 @@
     "tableView": {
       "name": "tableView",
       "pointer": false,
-      "type": "IBOutlet NSTableView ",
+      "type": "IBOutlet MSAssetLibraryTableView ",
       "attributes": [
         "nonatomic",
         "weak"
@@ -186,6 +173,15 @@
       "attributes": [
         "nonatomic",
         "readonly"
+      ]
+    },
+    "librariesArrayController": {
+      "name": "librariesArrayController",
+      "pointer": false,
+      "type": "IBOutlet NSArrayController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
       ]
     }
   },

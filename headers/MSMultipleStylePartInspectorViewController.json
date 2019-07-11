@@ -13,6 +13,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "prepareForReuse": {
+      "name": "prepareForReuse",
+      "bridgedName": "prepareForReuse",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "stylePartType": {
       "name": "stylePartType",
       "bridgedName": "stylePartType",
@@ -186,23 +194,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "openPopoverAtIndex:": {
-      "name": "openPopoverAtIndex:",
-      "bridgedName": "openPopoverAtIndex",
-      "args": [
-        {
-          "name": "index",
-          "type": "NSUInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "closeAnyColorPopover": {
-      "name": "closeAnyColorPopover",
-      "bridgedName": "closeAnyColorPopover",
+    "updateDisplayedValues": {
+      "name": "updateDisplayedValues",
+      "bridgedName": "updateDisplayedValues",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -222,7 +216,7 @@
     "stylePartViewControllers": {
       "name": "stylePartViewControllers",
       "pointer": false,
-      "type": "NSArray ",
+      "type": "NSArray <MSStylePartInspectorViewController *>",
       "attributes": [
         "nonatomic",
         "strong"
@@ -266,6 +260,15 @@
     },
     "showAdvancedOptionsButton": {
       "name": "showAdvancedOptionsButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "headerButton": {
+      "name": "headerButton",
       "pointer": false,
       "type": "IBOutlet NSButton ",
       "attributes": [

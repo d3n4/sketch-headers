@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "initWithImmutableDocument:exportRect:layerIDs:": {
-      "name": "initWithImmutableDocument:exportRect:layerIDs:",
-      "bridgedName": "initWithImmutableDocument_exportRect_layerIDs",
+    "initWithImmutableDocument:exportRect:layerIDs:includeBackground:": {
+      "name": "initWithImmutableDocument:exportRect:layerIDs:includeBackground:",
+      "bridgedName": "initWithImmutableDocument_exportRect_layerIDs_includeBackground",
       "args": [
         {
           "name": "immutableDocument",
@@ -20,6 +20,11 @@
         {
           "name": "layerIDs",
           "type": "NSSet <NSString*>*",
+          "nullable": false
+        },
+        {
+          "name": "includeBackground",
+          "type": "BOOL",
           "nullable": false
         }
       ],

@@ -3,6 +3,20 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "paragraphStyleWithAlignment_ms:": {
+      "name": "paragraphStyleWithAlignment_ms:",
+      "bridgedName": "paragraphStyleWithAlignment_ms",
+      "args": [
+        {
+          "name": "alignment",
+          "type": "NSTextAlignment",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "addSVGAttributes:": {
       "name": "addSVGAttributes:",
       "bridgedName": "addSVGAttributes",

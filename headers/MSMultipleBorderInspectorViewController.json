@@ -1,6 +1,6 @@
 {
   "name": "MSMultipleBorderInspectorViewController",
-  "extends": "MSMultipleStylePartInspectorViewController",
+  "extends": "MSMultipleColorStylePartInspectorViewController",
   "interfaces": [
     "BCPopoverDelegate"
   ],
@@ -42,6 +42,15 @@
       "name": "thicknessLabel",
       "pointer": false,
       "type": "IBOutlet MSTextLabelForUpDownField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "addStylePartButton": {
+      "name": "addStylePartButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
       "attributes": [
         "nonatomic",
         "strong"

@@ -150,6 +150,35 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "saveDocumentToURL:saveMode:context:callback:": {
+      "name": "saveDocumentToURL:saveMode:context:callback:",
+      "bridgedName": "saveDocumentToURL_saveMode_context_callback",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "saveMode",
+          "type": "NSSaveOperationType",
+          "nullable": false
+        },
+        {
+          "name": "coscript",
+          "type": "COScript *",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "MOJavaScriptObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "contentDrawView": {
       "name": "contentDrawView",
       "bridgedName": "contentDrawView",
@@ -407,6 +436,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "scheduleReloadInspector": {
+      "name": "scheduleReloadInspector",
+      "bridgedName": "scheduleReloadInspector",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "reloadView": {
       "name": "reloadView",
       "bridgedName": "reloadView",
@@ -499,9 +536,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layerSelectionMightHaveChanged": {
-      "name": "layerSelectionMightHaveChanged",
-      "bridgedName": "layerSelectionMightHaveChanged",
+    "layerSelectionDidChange": {
+      "name": "layerSelectionDidChange",
+      "bridgedName": "layerSelectionDidChange",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -758,6 +795,14 @@
     "showNonDefaultColorSpaceWarningIfApplicable": {
       "name": "showNonDefaultColorSpaceWarningIfApplicable",
       "bridgedName": "showNonDefaultColorSpaceWarningIfApplicable",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "returnToDefaultFirstResponder": {
+      "name": "returnToDefaultFirstResponder",
+      "bridgedName": "returnToDefaultFirstResponder",
       "args": [],
       "returns": "void",
       "kind": "instance",

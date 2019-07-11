@@ -70,14 +70,6 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "makeChildRectsIntegral": {
-      "name": "makeChildRectsIntegral",
-      "bridgedName": "makeChildRectsIntegral",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {

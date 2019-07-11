@@ -4,22 +4,7 @@
   "interfaces": [
     "MSPluginLogAction"
   ],
-  "methods": {
-    "log:": {
-      "name": "log:",
-      "bridgedName": "log",
-      "args": [
-        {
-          "name": "value",
-          "type": "NSDictionary *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {},
   "generics": []
 }

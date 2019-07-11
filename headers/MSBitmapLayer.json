@@ -46,6 +46,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "originalSize": {
+      "name": "originalSize",
+      "bridgedName": "originalSize",
+      "args": [],
+      "returns": "CGSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "isAtOriginalSize": {
       "name": "isAtOriginalSize",
       "bridgedName": "isAtOriginalSize",

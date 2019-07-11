@@ -183,7 +183,7 @@
         },
         {
           "name": "flags",
-          "type": "NSUInteger",
+          "type": "NSEventModifierFlags",
           "nullable": false
         }
       ],
@@ -733,9 +733,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layerAtPoint:modifierFlags:": {
-      "name": "layerAtPoint:modifierFlags:",
-      "bridgedName": "layerAtPoint_modifierFlags",
+    "itemAtPoint:modifierFlags:": {
+      "name": "itemAtPoint:modifierFlags:",
+      "bridgedName": "itemAtPoint_modifierFlags",
       "args": [
         {
           "name": "mouse",
@@ -748,7 +748,7 @@
           "nullable": false
         }
       ],
-      "returns": "MSLayer *",
+      "returns": "MSHitTestResult *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -861,6 +861,25 @@
         {
           "name": "layer",
           "type": " MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "extend",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectHitTestResult:extendSelection:": {
+      "name": "selectHitTestResult:extendSelection:",
+      "bridgedName": "selectHitTestResult_extendSelection",
+      "args": [
+        {
+          "name": "hitTestResult",
+          "type": " MSHitTestResult *",
           "nullable": false
         },
         {
@@ -1216,19 +1235,30 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "styleViewControllersForLayers:fromStyleInspectorSection:": {
+      "name": "styleViewControllersForLayers:fromStyleInspectorSection:",
+      "bridgedName": "styleViewControllersForLayers_fromStyleInspectorSection",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "styleSection",
+          "type": "MSStyleInspectorSection *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSViewController *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "inspectorLocation": {
       "name": "inspectorLocation",
       "bridgedName": "inspectorLocation",
       "args": [],
       "returns": "MSInpectorLocation",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "inspectorShouldShowPositions": {
-      "name": "inspectorShouldShowPositions",
-      "bridgedName": "inspectorShouldShowPositions",
-      "args": [],
-      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1267,6 +1297,14 @@
         }
       ],
       "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "willStartExporting": {
+      "name": "willStartExporting",
+      "bridgedName": "willStartExporting",
+      "args": [],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },

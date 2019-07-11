@@ -3,37 +3,6 @@
   "name": "MSStylePartInspectorDelegate",
   "extends": null,
   "interfaces": [],
-  "methods": {
-    "switchToEventHandlerWithName:": {
-      "name": "switchToEventHandlerWithName:",
-      "bridgedName": "switchToEventHandlerWithName",
-      "args": [
-        {
-          "name": "handlerName",
-          "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "layers": {
-      "name": "layers",
-      "bridgedName": "layers",
-      "args": [],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "reload": {
-      "name": "reload",
-      "bridgedName": "reload",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {}
 }

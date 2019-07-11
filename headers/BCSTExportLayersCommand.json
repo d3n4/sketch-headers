@@ -1,8 +1,28 @@
 {
   "name": "BCSTExportLayersCommand",
-  "extends": "BCSTExportSlicesCommand",
+  "extends": "BCSTCommand",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "slicesToExportForPage:engine:": {
+      "name": "slicesToExportForPage:engine:",
+      "bridgedName": "slicesToExportForPage_engine",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {},
   "generics": []
 }

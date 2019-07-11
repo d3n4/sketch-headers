@@ -1,12 +1,34 @@
 {
   "name": "MSImmutableShapePathLayer",
   "extends": "_MSImmutableShapePathLayer",
-  "interfaces": [],
+  "interfaces": [
+    "MSImmutablePathLayer"
+  ],
   "methods": {
-    "resetDowngradedProperties": {
-      "name": "resetDowngradedProperties",
-      "bridgedName": "resetDowngradedProperties",
-      "args": [],
+    "migratePropertiesFromShapeGroup:": {
+      "name": "migratePropertiesFromShapeGroup:",
+      "bridgedName": "migratePropertiesFromShapeGroup",
+      "args": [
+        {
+          "name": "shape",
+          "type": "MSImmutableShapeGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "migrateByTakingStyleFrom:": {
+      "name": "migrateByTakingStyleFrom:",
+      "bridgedName": "migrateByTakingStyleFrom",
+      "args": [
+        {
+          "name": "shape",
+          "type": "MSImmutableShapeGroup *",
+          "nullable": false
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -62,15 +84,6 @@
       "name": "numberOfCurvePoints",
       "pointer": false,
       "type": "NSUInteger",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "decoded52Style": {
-      "name": "decoded52Style",
-      "pointer": false,
-      "type": "MSImmutableStyle ",
       "attributes": [
         "nonatomic",
         "readonly"

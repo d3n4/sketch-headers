@@ -52,7 +52,7 @@
     "resizingLayer": {
       "name": "resizingLayer",
       "pointer": false,
-      "type": "MSLayer ",
+      "type": "__kindof MSLayer ",
       "attributes": [
         "strong",
         "nonatomic"

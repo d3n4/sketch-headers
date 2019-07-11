@@ -1,0 +1,8 @@
+{
+  "name": "MSFlowFixLayerInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

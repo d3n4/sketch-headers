@@ -6,13 +6,13 @@
       "name": "MSCoreImageEffectDefault"
     },
     {
-      "name": "MSCoreImageEffectBackgroundBlur"
-    },
-    {
       "name": "MSCoreImageEffectPerspective"
     },
     {
       "name": "MSCoreImageEffectAverageLuminance"
+    },
+    {
+      "name": "MSCoreImageEffectSaturation"
     }
   ]
 }

@@ -82,16 +82,6 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {
-    "layers": {
-      "name": "layers",
-      "pointer": false,
-      "type": "NSArray ",
-      "attributes": [
-        "nonatomic",
-        "copy"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

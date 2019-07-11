@@ -342,6 +342,191 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "stringBySplittingMixedCaps": {
+      "name": "stringBySplittingMixedCaps",
+      "bridgedName": "stringBySplittingMixedCaps",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "componentsSeparatedByMixedCaps": {
+      "name": "componentsSeparatedByMixedCaps",
+      "bridgedName": "componentsSeparatedByMixedCaps",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lastLines:": {
+      "name": "lastLines:",
+      "bridgedName": "lastLines",
+      "args": [
+        {
+          "name": "count",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstLines:": {
+      "name": "firstLines:",
+      "bridgedName": "firstLines",
+      "args": [
+        {
+          "name": "count",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "matchesString:divergingAfter:atIndex:divergentChar:expectedChar:": {
+      "name": "matchesString:divergingAfter:atIndex:divergentChar:expectedChar:",
+      "bridgedName": "matchesString_divergingAfter_atIndex_divergentChar_expectedChar",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "prefix",
+          "type": "NSString* _Nonnull * _Nonnull",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger*",
+          "nullable": false
+        },
+        {
+          "name": "divergentChar",
+          "type": "UniChar*",
+          "nullable": false
+        },
+        {
+          "name": "expectedChar",
+          "type": "UniChar*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "matchesString:divergingAtLine:after:diverged:expected:": {
+      "name": "matchesString:divergingAtLine:after:diverged:expected:",
+      "bridgedName": "matchesString_divergingAtLine_after_diverged_expected",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "divergingLine",
+          "type": "NSUInteger*",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "NSString* _Nonnull * _Nonnull",
+          "nullable": false
+        },
+        {
+          "name": "diverged",
+          "type": "NSString* _Nonnull * _Nonnull",
+          "nullable": false
+        },
+        {
+          "name": "expected",
+          "type": "NSString* _Nonnull * _Nonnull",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "matchesString:divergingAtLine1:andLine2:diverged:expected:": {
+      "name": "matchesString:divergingAtLine1:andLine2:diverged:expected:",
+      "bridgedName": "matchesString_divergingAtLine1_andLine2_diverged_expected",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "line1",
+          "type": "NSUInteger*",
+          "nullable": false
+        },
+        {
+          "name": "line2",
+          "type": "NSUInteger*",
+          "nullable": false
+        },
+        {
+          "name": "diverged",
+          "type": "NSString* _Nonnull * _Nonnull",
+          "nullable": false
+        },
+        {
+          "name": "expected",
+          "type": "NSString* _Nonnull * _Nonnull",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "matchesString:divergingAtLine1:andLine2:diverged:expected:window:": {
+      "name": "matchesString:divergingAtLine1:andLine2:diverged:expected:window:",
+      "bridgedName": "matchesString_divergingAtLine1_andLine2_diverged_expected_window",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "line1",
+          "type": "NSUInteger*",
+          "nullable": false
+        },
+        {
+          "name": "line2",
+          "type": "NSUInteger*",
+          "nullable": false
+        },
+        {
+          "name": "diverged",
+          "type": "NSString* _Nonnull * _Nonnull",
+          "nullable": false
+        },
+        {
+          "name": "expected",
+          "type": "NSString* _Nonnull * _Nonnull",
+          "nullable": false
+        },
+        {
+          "name": "window",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "drawAtPoint:withFont:": {
       "name": "drawAtPoint:withFont:",
       "bridgedName": "drawAtPoint_withFont",

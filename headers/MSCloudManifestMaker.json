@@ -13,6 +13,16 @@
         "copy",
         "nullable"
       ]
+    },
+    "organizationID": {
+      "name": "organizationID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
     }
   },
   "generics": []

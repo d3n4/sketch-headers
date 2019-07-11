@@ -3,13 +3,13 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "initWithItem:": {
-      "name": "initWithItem:",
-      "bridgedName": "initWithItem",
+    "initWithSnappingSession:": {
+      "name": "initWithSnappingSession:",
+      "bridgedName": "initWithSnappingSession",
       "args": [
         {
-          "name": "item",
-          "type": "MSSnapItem *",
+          "name": "session",
+          "type": "MSSnappingSession *",
           "nullable": false
         }
       ],
@@ -115,6 +115,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "addSpacingMeasurementsForEdgeSnaps": {
+      "name": "addSpacingMeasurementsForEdgeSnaps",
+      "bridgedName": "addSpacingMeasurementsForEdgeSnaps",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "drawForGroup:zoomScale:": {
       "name": "drawForGroup:zoomScale:",
       "bridgedName": "drawForGroup_zoomScale",
@@ -136,6 +144,15 @@
     }
   },
   "properties": {
+    "snappingSession": {
+      "name": "snappingSession",
+      "pointer": false,
+      "type": "MSSnappingSession ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "item": {
       "name": "item",
       "pointer": false,
@@ -165,6 +182,14 @@
     },
     "dimensionAxes": {
       "name": "dimensionAxes",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "spacingAxes": {
+      "name": "spacingAxes",
       "pointer": false,
       "type": "BCAxis",
       "attributes": [

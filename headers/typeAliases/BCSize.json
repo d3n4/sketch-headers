@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "BCSize",
+  "type": "CGSize",
+  "pointer": false
+}

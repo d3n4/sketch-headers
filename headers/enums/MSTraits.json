@@ -63,8 +63,16 @@
       "value": "1<<22"
     },
     {
+      "name": "MSTraitShapeOrPath",
+      "value": "1<<23"
+    },
+    {
       "name": "MSTraitAllTraits",
-      "value": "MSTraitStyled | MSTraitText | MSTraitImage | MSTraitSlice | MSTraitGroup| MSTraitArtboard | MSTraitShape | MSTraitPage | MSTraitContainer | MSTraitRoot | MSTraitPath | MSTraitSymbolInstance | MSTraitSymbolMaster | MSTraitHotspot | MSTraitExportable"
+      "value": "MSTraitStyled | MSTraitText | MSTraitImage | MSTraitSlice | MSTraitGroup| MSTraitArtboard | MSTraitShape | MSTraitPage | MSTraitContainer | MSTraitRoot | MSTraitPath | MSTraitSymbolInstance | MSTraitSymbolMaster | MSTraitHotspot | MSTraitExportable | MSTraitShapeOrPath"
+    },
+    {
+      "name": "MSTraitNone",
+      "value": "0"
     }
   ]
 }

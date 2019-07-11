@@ -2,10 +2,33 @@
   "name": "MSPaddingInspectorItem",
   "extends": "MSInspectorItem",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "paddingWithHeight:": {
+      "name": "paddingWithHeight:",
+      "bridgedName": "paddingWithHeight",
+      "args": [
+        {
+          "name": "height",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
   "properties": {
     "wantsSeparator": {
       "name": "wantsSeparator",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "wantsInsetSeparator": {
+      "name": "wantsInsetSeparator",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

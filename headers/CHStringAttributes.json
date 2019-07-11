@@ -38,6 +38,25 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "stringAttributesWithFont:alignment:": {
+      "name": "stringAttributesWithFont:alignment:",
+      "bridgedName": "stringAttributesWithFont_alignment",
+      "args": [
+        {
+          "name": "aFont",
+          "type": "NSFont *",
+          "nullable": false
+        },
+        {
+          "name": "align",
+          "type": "NSTextAlignment",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "stringAttributesWithFont:color:alignment:": {
       "name": "stringAttributesWithFont:color:alignment:",
       "bridgedName": "stringAttributesWithFont_color_alignment",

@@ -26,6 +26,14 @@
       "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "standardPercentFormatterWithoutPercentSign": {
+      "name": "standardPercentFormatterWithoutPercentSign",
+      "bridgedName": "standardPercentFormatterWithoutPercentSign",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {},

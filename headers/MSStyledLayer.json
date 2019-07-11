@@ -1,8 +1,18 @@
 {
   "name": "MSStyledLayer",
   "extends": "_MSStyledLayer",
-  "interfaces": [],
+  "interfaces": [
+    "MSStyledLayer"
+  ],
   "methods": {
+    "prepareAsMask": {
+      "name": "prepareAsMask",
+      "bridgedName": "prepareAsMask",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "layerWithImageFromPasteboard:": {
       "name": "layerWithImageFromPasteboard:",
       "bridgedName": "layerWithImageFromPasteboard",
@@ -30,6 +40,36 @@
       "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "resetSharedStyle": {
+      "name": "resetSharedStyle",
+      "bridgedName": "resetSharedStyle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createSharedStyleWithName:": {
+      "name": "createSharedStyleWithName:",
+      "bridgedName": "createSharedStyleWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateSharedStyleToMatchSelf": {
+      "name": "updateSharedStyleToMatchSelf",
+      "bridgedName": "updateSharedStyleToMatchSelf",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     },
     "copyStyleToPasteboard": {
       "name": "copyStyleToPasteboard",
@@ -150,14 +190,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "hasSharedStyle": {
-      "name": "hasSharedStyle",
-      "bridgedName": "hasSharedStyle",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "sharedObject": {
       "name": "sharedObject",
       "bridgedName": "sharedObject",
@@ -166,13 +198,21 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "setStyleByPreservingSharedObjectReference:": {
-      "name": "setStyleByPreservingSharedObjectReference:",
-      "bridgedName": "setStyleByPreservingSharedObjectReference",
+    "hasMarkers": {
+      "name": "hasMarkers",
+      "bridgedName": "hasMarkers",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyPropertiesToBezier:": {
+      "name": "applyPropertiesToBezier:",
+      "bridgedName": "applyPropertiesToBezier",
       "args": [
         {
-          "name": "style",
-          "type": "MSStyle *",
+          "name": "bezier",
+          "type": "NSBezierPath *",
           "nullable": false
         }
       ],
@@ -181,6 +221,25 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "isSharedStyleOutOfSync": {
+      "name": "isSharedStyleOutOfSync",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedStyle": {
+      "name": "sharedStyle",
+      "pointer": false,
+      "type": "MSSharedStyle ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
   "generics": []
 }

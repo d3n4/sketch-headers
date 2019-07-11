@@ -7,7 +7,7 @@
       "name": "sharedURLSession",
       "bridgedName": "sharedURLSession",
       "args": [],
-      "returns": "NSURLSession *",
+      "returns": "nonnull NSURLSession *",
       "kind": "class",
       "kindIndicator": "+"
     }
@@ -19,6 +19,7 @@
       "type": "NSURLSession ",
       "attributes": [
         "atomic",
+        "nonnull",
         "strong"
       ]
     }

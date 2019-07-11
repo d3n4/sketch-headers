@@ -118,14 +118,6 @@
       "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "resetComputedProperties": {
-      "name": "resetComputedProperties",
-      "bridgedName": "resetComputedProperties",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -135,8 +127,7 @@
       "type": "NSAttributedString ",
       "attributes": [
         "nonatomic",
-        "readonly",
-        "nullable"
+        "readonly"
       ]
     },
     "transformedAttributedString": {
@@ -145,8 +136,7 @@
       "type": "NSAttributedString ",
       "attributes": [
         "nonatomic",
-        "readonly",
-        "nullable"
+        "readonly"
       ]
     },
     "fontDescriptors": {
@@ -193,8 +183,7 @@
       "type": "NSString ",
       "attributes": [
         "nonatomic",
-        "readonly",
-        "nullable"
+        "readonly"
       ]
     }
   },

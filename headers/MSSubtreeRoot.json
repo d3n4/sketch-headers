@@ -3,18 +3,30 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "contentDirtyDiffRect": {
-      "name": "contentDirtyDiffRect",
-      "bridgedName": "contentDirtyDiffRect",
-      "args": [],
+    "contentDirtyDiffRectForPage:": {
+      "name": "contentDirtyDiffRectForPage:",
+      "bridgedName": "contentDirtyDiffRectForPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        }
+      ],
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "overlayInfluenceRect": {
-      "name": "overlayInfluenceRect",
-      "bridgedName": "overlayInfluenceRect",
-      "args": [],
+    "overlayDirtyDiffRectForPage:": {
+      "name": "overlayDirtyDiffRectForPage:",
+      "bridgedName": "overlayDirtyDiffRectForPage",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSImmutablePage *",
+          "nullable": false
+        }
+      ],
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"

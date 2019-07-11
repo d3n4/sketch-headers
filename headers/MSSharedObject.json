@@ -5,25 +5,6 @@
     "BCSortable"
   ],
   "methods": {
-    "initWithName:firstInstance:": {
-      "name": "initWithName:firstInstance:",
-      "bridgedName": "initWithName_firstInstance",
-      "args": [
-        {
-          "name": "name",
-          "type": "NSString*",
-          "nullable": false
-        },
-        {
-          "name": "firstInstance",
-          "type": "MSSharedObjectInstance*",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "initWithName:sharedObjectID:value:": {
       "name": "initWithName:sharedObjectID:value:",
       "bridgedName": "initWithName_sharedObjectID_value",
@@ -45,56 +26,6 @@
         }
       ],
       "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "registerInstance:": {
-      "name": "registerInstance:",
-      "bridgedName": "registerInstance",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSSharedObjectInstance*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "unregisterInstance:": {
-      "name": "unregisterInstance:",
-      "bridgedName": "unregisterInstance",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSSharedObjectInstance*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "isSharedObjectForInstance:": {
-      "name": "isSharedObjectForInstance:",
-      "bridgedName": "isSharedObjectForInstance",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSSharedObjectInstance*",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "newInstance": {
-      "name": "newInstance",
-      "bridgedName": "newInstance",
-      "args": [],
-      "returns": "MSSharedObjectInstance*",
       "kind": "instance",
       "kindIndicator": "-"
     },

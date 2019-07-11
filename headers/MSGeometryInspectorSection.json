@@ -3,15 +3,6 @@
   "extends": "MSBaseInspectorSection",
   "interfaces": [],
   "methods": {},
-  "properties": {
-    "shouldShowPositions": {
-      "name": "shouldShowPositions",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

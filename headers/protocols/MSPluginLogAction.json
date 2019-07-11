@@ -14,7 +14,23 @@
           "nullable": false
         }
       ],
-      "returns": "IBAction",
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearLog": {
+      "name": "clearLog",
+      "bridgedName": "clearLog",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "logString": {
+      "name": "logString",
+      "bridgedName": "logString",
+      "args": [],
+      "returns": "NSString *",
       "kind": "instance",
       "kindIndicator": "-"
     }

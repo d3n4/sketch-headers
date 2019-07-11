@@ -57,20 +57,6 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "animateFrameWithCompletionHandler:": {
-      "name": "animateFrameWithCompletionHandler:",
-      "bridgedName": "animateFrameWithCompletionHandler",
-      "args": [
-        {
-          "name": "handler",
-          "type": "void (^)(void)",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {

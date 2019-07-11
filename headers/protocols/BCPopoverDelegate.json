@@ -107,6 +107,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "popoverShouldAnimateOnContentFrameDidChange:": {
+      "name": "popoverShouldAnimateOnContentFrameDidChange:",
+      "bridgedName": "popoverShouldAnimateOnContentFrameDidChange",
+      "args": [
+        {
+          "name": "notification",
+          "type": "NSNotification *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "popoverWillReturnUndoManager:": {
       "name": "popoverWillReturnUndoManager:",
       "bridgedName": "popoverWillReturnUndoManager",

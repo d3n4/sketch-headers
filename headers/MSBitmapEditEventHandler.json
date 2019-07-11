@@ -82,6 +82,20 @@
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "selectionDidLiveUpdateTo:": {
+      "name": "selectionDidLiveUpdateTo:",
+      "bridgedName": "selectionDidLiveUpdateTo",
+      "args": [
+        {
+          "name": "selection",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

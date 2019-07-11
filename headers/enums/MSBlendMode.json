@@ -65,6 +65,14 @@
     {
       "name": "MSBlendModeLuminosity",
       "value": "15"
+    },
+    {
+      "name": "MSBlendModePlusDarker",
+      "value": "16"
+    },
+    {
+      "name": "MSBlendModePlusLighter",
+      "value": "17"
     }
   ]
 }

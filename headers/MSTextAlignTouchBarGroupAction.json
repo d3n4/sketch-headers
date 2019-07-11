@@ -1,6 +1,6 @@
 {
   "name": "MSTextAlignTouchBarGroupAction",
-  "extends": "MSTouchBarGroupAction",
+  "extends": "MSActionGroup",
   "interfaces": [],
   "methods": {},
   "properties": {},

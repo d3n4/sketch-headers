@@ -16,30 +16,6 @@
       "returns": "NSToolbarItem *",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "_toolbarView": {
-      "name": "_toolbarView",
-      "bridgedName": "_toolbarView",
-      "args": [],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "ms_toolbarHeight": {
-      "name": "ms_toolbarHeight",
-      "bridgedName": "ms_toolbarHeight",
-      "args": [],
-      "returns": "CGFloat",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "_fullLayout": {
-      "name": "_fullLayout",
-      "bridgedName": "_fullLayout",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {},

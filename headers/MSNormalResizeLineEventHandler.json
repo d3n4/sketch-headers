@@ -4,10 +4,10 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "lineShape": {
-      "name": "lineShape",
+    "layer": {
+      "name": "layer",
       "pointer": false,
-      "type": "MSShapeGroup ",
+      "type": "MSShapePathLayer ",
       "attributes": [
         "nonatomic",
         "strong"

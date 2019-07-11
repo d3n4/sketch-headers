@@ -167,6 +167,14 @@
       "returns": "NSAttributedString *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "currentListStyle": {
+      "name": "currentListStyle",
+      "bridgedName": "currentListStyle",
+      "args": [],
+      "returns": "NSTextList *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

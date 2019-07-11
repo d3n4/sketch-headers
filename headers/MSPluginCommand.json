@@ -1,7 +1,9 @@
 {
   "name": "MSPluginCommand",
   "extends": "NSObject",
-  "interfaces": [],
+  "interfaces": [
+    "COPrintController"
+  ],
   "methods": {
     "commandWithJSON:scripts:scriptsURL:": {
       "name": "commandWithJSON:scripts:scriptsURL:",
@@ -301,9 +303,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "logs": {
-      "name": "logs",
-      "bridgedName": "logs",
+    "logString": {
+      "name": "logString",
+      "bridgedName": "logString",
       "args": [],
       "returns": "NSString *",
       "kind": "instance",

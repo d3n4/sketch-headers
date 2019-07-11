@@ -3,9 +3,9 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "convertPointFromScreen:": {
-      "name": "convertPointFromScreen:",
-      "bridgedName": "convertPointFromScreen",
+    "convertPointFromScreen_ch:": {
+      "name": "convertPointFromScreen_ch:",
+      "bridgedName": "convertPointFromScreen_ch",
       "args": [
         {
           "name": "point",

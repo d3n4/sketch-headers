@@ -5,18 +5,13 @@
     "NSCopying"
   ],
   "methods": {
-    "initWithStart:end:": {
-      "name": "initWithStart:end:",
-      "bridgedName": "initWithStart_end",
+    "initWithLineSegment:": {
+      "name": "initWithLineSegment:",
+      "bridgedName": "initWithLineSegment",
       "args": [
         {
-          "name": "start",
-          "type": "NSPoint",
-          "nullable": false
-        },
-        {
-          "name": "end",
-          "type": "NSPoint",
+          "name": "segment",
+          "type": "MSLineSegment",
           "nullable": false
         }
       ],
@@ -48,19 +43,10 @@
     }
   },
   "properties": {
-    "start": {
-      "name": "start",
+    "lineSegment": {
+      "name": "lineSegment",
       "pointer": false,
-      "type": "NSPoint",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "end": {
-      "name": "end",
-      "pointer": false,
-      "type": "NSPoint",
+      "type": "MSLineSegment",
       "attributes": [
         "nonatomic",
         "readonly"

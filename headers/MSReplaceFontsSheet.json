@@ -2,7 +2,16 @@
   "name": "MSReplaceFontsSheet",
   "extends": "CHSheetController",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "dontReplaceFontLabel": {
+      "name": "dontReplaceFontLabel",
+      "bridgedName": "dontReplaceFontLabel",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
   "properties": {},
   "generics": []
 }

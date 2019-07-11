@@ -130,14 +130,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layerWithSharedStyleDidChange": {
-      "name": "layerWithSharedStyleDidChange",
-      "bridgedName": "layerWithSharedStyleDidChange",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "reloadSharedObjectsSection": {
       "name": "reloadSharedObjectsSection",
       "bridgedName": "reloadSharedObjectsSection",

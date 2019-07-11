@@ -3,6 +3,16 @@
   "extends": "NSScrollView",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id<MSStackViewScrollViewDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
   "generics": []
 }

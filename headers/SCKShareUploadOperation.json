@@ -1,6 +1,6 @@
 {
   "name": "SCKShareUploadOperation",
-  "extends": "SCKOperation",
+  "extends": "SCKAPIOperation",
   "interfaces": [
     "NSProgressReporting"
   ],
@@ -11,7 +11,7 @@
       "args": [
         {
           "name": "request",
-          "type": "SCKShareAPIRequest *",
+          "type": "SCKShareAPIURLRequest *",
           "nullable": false
         }
       ],

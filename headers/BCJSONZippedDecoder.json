@@ -68,6 +68,39 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "previewImageForDocumentAtURL:": {
+      "name": "previewImageForDocumentAtURL:",
+      "bridgedName": "previewImageForDocumentAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "thumbnailDataForDocumentAtURL:maxSize:": {
+      "name": "thumbnailDataForDocumentAtURL:maxSize:",
+      "bridgedName": "thumbnailDataForDocumentAtURL_maxSize",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "maxSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData*",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {},

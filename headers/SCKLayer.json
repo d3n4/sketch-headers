@@ -60,6 +60,16 @@
         "nullable",
         "readonly"
       ]
+    },
+    "isFixedToViewport": {
+      "name": "isFixedToViewport",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
     }
   },
   "generics": []

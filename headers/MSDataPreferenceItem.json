@@ -37,6 +37,15 @@
         "readonly"
       ]
     },
+    "namePlusPluginName": {
+      "name": "namePlusPluginName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "preview": {
       "name": "preview",
       "pointer": false,
@@ -113,13 +122,32 @@
         "readonly"
       ]
     },
-    "isPluginEnabled": {
-      "name": "isPluginEnabled",
+    "primaryTextFieldColor": {
+      "name": "primaryTextFieldColor",
       "pointer": false,
-      "type": "BOOL",
+      "type": "NSColor ",
       "attributes": [
         "nonatomic",
         "readonly"
+      ]
+    },
+    "secondaryTextFieldColor": {
+      "name": "secondaryTextFieldColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cellView": {
+      "name": "cellView",
+      "pointer": false,
+      "type": "MSDataTableCellView ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "weak"
       ]
     }
   },

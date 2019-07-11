@@ -117,14 +117,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "isEffectivelyStraight": {
-      "name": "isEffectivelyStraight",
-      "bridgedName": "isEffectivelyStraight",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "inferCurveMode": {
       "name": "inferCurveMode",
       "bridgedName": "inferCurveMode",
@@ -207,6 +199,15 @@
   "properties": {
     "isStraight": {
       "name": "isStraight",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isEffectivelyStraight": {
+      "name": "isEffectivelyStraight",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

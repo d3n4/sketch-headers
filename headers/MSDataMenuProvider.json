@@ -34,18 +34,69 @@
       "returns": "NSMenu *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "menuItemsForDataType:indentationLevel:": {
+      "name": "menuItemsForDataType:indentationLevel:",
+      "bridgedName": "menuItemsForDataType_indentationLevel",
+      "args": [
+        {
+          "name": "dataType",
+          "type": "MSDataType",
+          "nullable": false
+        },
+        {
+          "name": "menuItemIndentation",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearDataMenuItem": {
+      "name": "clearDataMenuItem",
+      "bridgedName": "clearDataMenuItem",
+      "args": [],
+      "returns": "nullable NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshDataMenuItemsWithOverridesMenu:displayKeyboardShortcuts:": {
+      "name": "refreshDataMenuItemsWithOverridesMenu:displayKeyboardShortcuts:",
+      "bridgedName": "refreshDataMenuItemsWithOverridesMenu_displayKeyboardShortcuts",
+      "args": [
+        {
+          "name": "overridesMenu",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "displayKeyboardShortcuts",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addImageToMenuItems:": {
+      "name": "addImageToMenuItems:",
+      "bridgedName": "addImageToMenuItems",
+      "args": [
+        {
+          "name": "menuItems",
+          "type": "NSArray <NSMenuItem *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
-    "lastDataSupplier": {
-      "name": "lastDataSupplier",
-      "pointer": false,
-      "type": "MSDataSupplier ",
-      "attributes": [
-        "nonatomic",
-        "weak"
-      ]
-    },
     "dataManager": {
       "name": "dataManager",
       "pointer": false,

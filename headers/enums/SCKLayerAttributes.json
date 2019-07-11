@@ -17,6 +17,10 @@
     {
       "name": "SCKLayerFlowConnectionAttribute",
       "value": "1 << 2"
+    },
+    {
+      "name": "SCKLayerFixedToViewportAttribute",
+      "value": "1 << 3"
     }
   ]
 }

@@ -18,6 +18,25 @@
       "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "initWithRect:constrainProportions:": {
+      "name": "initWithRect:constrainProportions:",
+      "bridgedName": "initWithRect_constrainProportions",
+      "args": [
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "constraintProportions",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

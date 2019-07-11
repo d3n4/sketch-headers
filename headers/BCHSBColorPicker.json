@@ -6,6 +6,25 @@
     "BCMagnifierButtonDelegate"
   ],
   "methods": {
+    "setColor:multipleValues:": {
+      "name": "setColor:multipleValues:",
+      "bridgedName": "setColor_multipleValues",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "multiple",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "hueChanged:": {
       "name": "hueChanged:",
       "bridgedName": "hueChanged",

@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "findHoverGuidesOnPage:mouse:rulesVisible:zoomScale:": {
-      "name": "findHoverGuidesOnPage:mouse:rulesVisible:zoomScale:",
-      "bridgedName": "findHoverGuidesOnPage_mouse_rulesVisible_zoomScale",
+    "findHoverGuidesOnPage:mouse:mask:zoomScale:": {
+      "name": "findHoverGuidesOnPage:mouse:mask:zoomScale:",
+      "bridgedName": "findHoverGuidesOnPage_mouse_mask_zoomScale",
       "args": [
         {
           "name": "page",
@@ -18,8 +18,8 @@
           "nullable": false
         },
         {
-          "name": "rulersVisible",
-          "type": "BOOL",
+          "name": "mask",
+          "type": "MSAlignmentGuideMask",
           "nullable": false
         },
         {
@@ -32,9 +32,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "horizontalGuidesForVerticalRulerOnPage:forDrawing:rulersVisible:zoomScale:": {
-      "name": "horizontalGuidesForVerticalRulerOnPage:forDrawing:rulersVisible:zoomScale:",
-      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_forDrawing_rulersVisible_zoomScale",
+    "horizontalGuidesForVerticalRulerOnPage:mask:zoomScale:": {
+      "name": "horizontalGuidesForVerticalRulerOnPage:mask:zoomScale:",
+      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_mask_zoomScale",
       "args": [
         {
           "name": "page",
@@ -42,13 +42,8 @@
           "nullable": false
         },
         {
-          "name": "forDrawing",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "rulersVisible",
-          "type": "BOOL",
+          "name": "mask",
+          "type": "MSAlignmentGuideMask",
           "nullable": false
         },
         {
@@ -61,9 +56,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "horizontalGuidesForVerticalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:": {
-      "name": "horizontalGuidesForVerticalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:",
-      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_forDrawing_inRect_rulersVisible_zoomScale",
+    "horizontalGuidesForVerticalRulerOnPage:mask:inRect:zoomScale:": {
+      "name": "horizontalGuidesForVerticalRulerOnPage:mask:inRect:zoomScale:",
+      "bridgedName": "horizontalGuidesForVerticalRulerOnPage_mask_inRect_zoomScale",
       "args": [
         {
           "name": "page",
@@ -71,8 +66,8 @@
           "nullable": false
         },
         {
-          "name": "forDrawing",
-          "type": "BOOL",
+          "name": "mask",
+          "type": "MSAlignmentGuideMask",
           "nullable": false
         },
         {
@@ -81,8 +76,27 @@
           "nullable": false
         },
         {
-          "name": "rulersVisible",
-          "type": "BOOL",
+          "name": "zoomScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayoutPosition *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "verticalGuidesForHorizontalRulerOnPage:mask:zoomScale:": {
+      "name": "verticalGuidesForHorizontalRulerOnPage:mask:zoomScale:",
+      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_mask_zoomScale",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "MSAlignmentGuideMask",
           "nullable": false
         },
         {
@@ -95,9 +109,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "verticalGuidesForHorizontalRulerOnPage:forDrawing:rulersVisible:zoomScale:": {
-      "name": "verticalGuidesForHorizontalRulerOnPage:forDrawing:rulersVisible:zoomScale:",
-      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_forDrawing_rulersVisible_zoomScale",
+    "verticalGuidesForHorizontalRulerOnPage:mask:inRect:zoomScale:": {
+      "name": "verticalGuidesForHorizontalRulerOnPage:mask:inRect:zoomScale:",
+      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_mask_inRect_zoomScale",
       "args": [
         {
           "name": "page",
@@ -105,47 +119,13 @@
           "nullable": false
         },
         {
-          "name": "forDrawing",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "rulersVisible",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "zoomScale",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "NSArray <MSLayoutPosition *> *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "verticalGuidesForHorizontalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:": {
-      "name": "verticalGuidesForHorizontalRulerOnPage:forDrawing:inRect:rulersVisible:zoomScale:",
-      "bridgedName": "verticalGuidesForHorizontalRulerOnPage_forDrawing_inRect_rulersVisible_zoomScale",
-      "args": [
-        {
-          "name": "page",
-          "type": "MSPage *",
-          "nullable": false
-        },
-        {
-          "name": "forDrawing",
-          "type": "BOOL",
+          "name": "mask",
+          "type": "MSAlignmentGuideMask",
           "nullable": false
         },
         {
           "name": "rect",
           "type": "NSRect",
-          "nullable": false
-        },
-        {
-          "name": "rulersVisible",
-          "type": "BOOL",
           "nullable": false
         },
         {

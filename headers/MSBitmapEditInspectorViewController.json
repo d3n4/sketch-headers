@@ -23,10 +23,10 @@
         "nonatomic"
       ]
     },
-    "hasSelection": {
-      "name": "hasSelection",
+    "selectionSize": {
+      "name": "selectionSize",
       "pointer": false,
-      "type": "BOOL",
+      "type": "NSSize",
       "attributes": [
         "nonatomic"
       ]

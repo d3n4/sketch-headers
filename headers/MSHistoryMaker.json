@@ -140,6 +140,28 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "updateCurrentMomentWithSelection:": {
+      "name": "updateCurrentMomentWithSelection:",
+      "bridgedName": "updateCurrentMomentWithSelection",
+      "args": [
+        {
+          "name": "selectedLayerIDs",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installedFontsChanged": {
+      "name": "installedFontsChanged",
+      "bridgedName": "installedFontsChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -167,7 +189,7 @@
       "pointer": false,
       "type": "NSString ",
       "attributes": [
-        "readwrite",
+        "readonly",
         "nonatomic"
       ]
     },

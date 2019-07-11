@@ -33,29 +33,30 @@
         "readonly"
       ]
     },
-    "userID": {
-      "name": "userID",
+    "currentVersion": {
+      "name": "currentVersion",
       "pointer": false,
-      "type": "SCKObjectID ",
+      "type": "SCKShareVersion ",
       "attributes": [
         "nonatomic",
         "nullable",
         "readonly"
       ]
     },
-    "commentsEnabled": {
-      "name": "commentsEnabled",
+    "canUpdate": {
+      "name": "canUpdate",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
         "nonatomic",
+        "assign",
         "readonly"
       ]
     },
-    "currentVersion": {
-      "name": "currentVersion",
+    "owner": {
+      "name": "owner",
       "pointer": false,
-      "type": "SCKShareVersion ",
+      "type": "SCKUser ",
       "attributes": [
         "nonatomic",
         "nullable",

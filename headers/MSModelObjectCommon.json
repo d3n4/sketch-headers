@@ -43,44 +43,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "recordAllocation": {
-      "name": "recordAllocation",
-      "bridgedName": "recordAllocation",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "recordDeallocation": {
-      "name": "recordDeallocation",
-      "bridgedName": "recordDeallocation",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "printInstanceCount:": {
-      "name": "printInstanceCount:",
-      "bridgedName": "printInstanceCount",
-      "args": [
-        {
-          "name": "message",
-          "type": "NSString*",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "clearInstanceCount": {
-      "name": "clearInstanceCount",
-      "bridgedName": "clearInstanceCount",
-      "args": [],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "performInitEmptyObject": {
       "name": "performInitEmptyObject",
       "bridgedName": "performInitEmptyObject",
@@ -171,9 +133,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "initWithNoSetup": {
-      "name": "initWithNoSetup",
-      "bridgedName": "initWithNoSetup",
+    "initWithMinimalSetup": {
+      "name": "initWithMinimalSetup",
+      "bridgedName": "initWithMinimalSetup",
       "args": [],
       "returns": "instancetype",
       "kind": "instance",

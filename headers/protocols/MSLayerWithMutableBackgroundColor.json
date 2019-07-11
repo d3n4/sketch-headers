@@ -3,15 +3,15 @@
   "name": "MSLayerWithMutableBackgroundColor",
   "extends": null,
   "interfaces": [],
-  "methods": {
+  "methods": {},
+  "properties": {
     "backgroundColor": {
       "name": "backgroundColor",
-      "bridgedName": "backgroundColor",
-      "args": [],
-      "returns": "MSColor *",
-      "kind": "instance",
-      "kindIndicator": "-"
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic"
+      ]
     }
-  },
-  "properties": {}
+  }
 }

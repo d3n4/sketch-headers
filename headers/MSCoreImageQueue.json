@@ -34,7 +34,7 @@
         },
         {
           "name": "colorSpace",
-          "type": "NSColorSpace *",
+          "type": "CGColorSpaceRef",
           "nullable": false
         },
         {
@@ -68,7 +68,7 @@
         },
         {
           "name": "colorSpace",
-          "type": "NSColorSpace *",
+          "type": "CGColorSpaceRef",
           "nullable": false
         }
       ],

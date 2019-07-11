@@ -3,7 +3,44 @@
   "name": "BCOutlineViewNode",
   "extends": null,
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "previewIconWithState:": {
+      "name": "previewIconWithState:",
+      "bridgedName": "previewIconWithState",
+      "args": [
+        {
+          "name": "state",
+          "type": "BCOutlineViewPreviewState",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "maskIconWithState:": {
+      "name": "maskIconWithState:",
+      "bridgedName": "maskIconWithState",
+      "args": [
+        {
+          "name": "state",
+          "type": "BCOutlineViewPreviewState",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "badgeMenuConfigurator": {
+      "name": "badgeMenuConfigurator",
+      "bridgedName": "badgeMenuConfigurator",
+      "args": [],
+      "returns": "id<BCOutlineViewPopupConfigurator>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "displayType": {
       "name": "displayType",
@@ -14,10 +51,10 @@
         "readonly"
       ]
     },
-    "filterType": {
-      "name": "filterType",
+    "filterTypeMask": {
+      "name": "filterTypeMask",
       "pointer": false,
-      "type": "BCOutlineViewFilterType",
+      "type": "BCOutlineViewFilterTypeMask",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -41,8 +78,8 @@
         "readonly"
       ]
     },
-    "hasHighlight": {
-      "name": "hasHighlight",
+    "isEditableInLayerList": {
+      "name": "isEditableInLayerList",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
@@ -50,47 +87,29 @@
         "readonly"
       ]
     },
-    "badgeType": {
-      "name": "badgeType",
+    "hasBadgedIcon": {
+      "name": "hasBadgedIcon",
       "pointer": false,
-      "type": "BCOutlineViewBadgeType",
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
         "readonly"
       ]
     },
-    "badgeMap": {
-      "name": "badgeMap",
+    "badgeImages": {
+      "name": "badgeImages",
       "pointer": false,
-      "type": "NSDictionary ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "previewImages": {
-      "name": "previewImages",
-      "pointer": false,
-      "type": "NSDictionary ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "badgeMenu": {
-      "name": "badgeMenu",
-      "pointer": false,
-      "type": "NSMenu ",
+      "type": "MSLayerBadgeImages ",
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "nullable"
       ]
     },
-    "selectedBadgeMenuItem": {
-      "name": "selectedBadgeMenuItem",
+    "isExpanded": {
+      "name": "isExpanded",
       "pointer": false,
-      "type": "NSUInteger",
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
         "readonly"

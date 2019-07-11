@@ -1,8 +1,17 @@
 {
   "name": "MSStylePartPreviewButton",
-  "extends": "NSButton",
+  "extends": "MSInspectorButton",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "drawButton": {
+      "name": "drawButton",
+      "bridgedName": "drawButton",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "stylePart": {
       "name": "stylePart",

@@ -3,32 +3,8 @@
   "name": "MSShapeGroup",
   "extends": null,
   "interfaces": [],
-  "methods": {
-    "applyPropertiesToBezier:": {
-      "name": "applyPropertiesToBezier:",
-      "bridgedName": "applyPropertiesToBezier",
-      "args": [
-        {
-          "name": "bezier",
-          "type": "NSBezierPath *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {
-    "decoratedBezierPathInBounds": {
-      "name": "decoratedBezierPathInBounds",
-      "pointer": false,
-      "type": "MSPath ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "hasMarkers": {
       "name": "hasMarkers",
       "pointer": false,

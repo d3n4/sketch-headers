@@ -25,6 +25,34 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "validLocalDataFileSystemURL:": {
+      "name": "validLocalDataFileSystemURL:",
+      "bridgedName": "validLocalDataFileSystemURL",
+      "args": [
+        {
+          "name": "possibleDataURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "URLForBuiltinDataNamed:": {
+      "name": "URLForBuiltinDataNamed:",
+      "bridgedName": "URLForBuiltinDataNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "registerPluginDataSupplier:withName:dataType:pluginIdentifier:commandIdentifier:": {
       "name": "registerPluginDataSupplier:withName:dataType:pluginIdentifier:commandIdentifier:",
       "bridgedName": "registerPluginDataSupplier_withName_dataType_pluginIdentifier_commandIdentifier",
@@ -87,9 +115,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "requestDataFromPluginDataSupplier:numberOfItems:applierBlock:": {
-      "name": "requestDataFromPluginDataSupplier:numberOfItems:applierBlock:",
-      "bridgedName": "requestDataFromPluginDataSupplier_numberOfItems_applierBlock",
+    "requestDataFromPluginDataSupplier:dataContext:applierBlock:": {
+      "name": "requestDataFromPluginDataSupplier:dataContext:applierBlock:",
+      "bridgedName": "requestDataFromPluginDataSupplier_dataContext_applierBlock",
       "args": [
         {
           "name": "dataSupplier",
@@ -97,8 +125,8 @@
           "nullable": false
         },
         {
-          "name": "numberOfItems",
-          "type": "NSUInteger",
+          "name": "dataSupplierContext",
+          "type": "MSPluginDataSupplierContext *",
           "nullable": false
         },
         {
@@ -118,6 +146,30 @@
         {
           "name": "data",
           "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "dataKey",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supplyData:atIndex:forKey:": {
+      "name": "supplyData:atIndex:forKey:",
+      "bridgedName": "supplyData_atIndex_forKey",
+      "args": [
+        {
+          "name": "stringData",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dataIndex",
+          "type": "NSNumber *",
           "nullable": false
         },
         {
@@ -186,23 +238,23 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "validLocalDataFileSystemURL:": {
-      "name": "validLocalDataFileSystemURL:",
-      "bridgedName": "validLocalDataFileSystemURL",
-      "args": [
-        {
-          "name": "possibleDataURL",
-          "type": "NSURL *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "dataSupplierWithIdentifier:": {
       "name": "dataSupplierWithIdentifier:",
       "bridgedName": "dataSupplierWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable __kindof MSDataSupplier *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "useableDataSupplierWithIdentifier:": {
+      "name": "useableDataSupplierWithIdentifier:",
+      "bridgedName": "useableDataSupplierWithIdentifier",
       "args": [
         {
           "name": "identifier",
@@ -211,49 +263,6 @@
         }
       ],
       "returns": "nullable __kindof MSDataSupplier *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "setDataIdentifierToUserInfo:forKey:toLayer:": {
-      "name": "setDataIdentifierToUserInfo:forKey:toLayer:",
-      "bridgedName": "setDataIdentifierToUserInfo_forKey_toLayer",
-      "args": [
-        {
-          "name": "dataIdentifier",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "key",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "layer",
-          "type": "MSLayer *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "dataIdentifierFromUserInfoForKey:onLayer:": {
-      "name": "dataIdentifierFromUserInfoForKey:onLayer:",
-      "bridgedName": "dataIdentifierFromUserInfoForKey_onLayer",
-      "args": [
-        {
-          "name": "key",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "layer",
-          "type": "MSLayer *",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable NSString *",
       "kind": "instance",
       "kindIndicator": "-"
     }

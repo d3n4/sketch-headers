@@ -344,20 +344,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "uuidForKey:": {
-      "name": "uuidForKey:",
-      "bridgedName": "uuidForKey",
-      "args": [
-        {
-          "name": "key",
-          "type": "nonnull NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable NSUUID *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "boolForKey:": {
       "name": "boolForKey:",
       "bridgedName": "boolForKey",
@@ -369,6 +355,25 @@
         }
       ],
       "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForKeys:ofType:": {
+      "name": "objectForKeys:ofType:",
+      "bridgedName": "objectForKeys_ofType",
+      "args": [
+        {
+          "name": "possibleKeys",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "nonnull Class",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
       "kind": "instance",
       "kindIndicator": "-"
     },

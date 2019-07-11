@@ -10,7 +10,18 @@
       "type": "NSImage ",
       "attributes": [
         "nonatomic",
+        "nullable",
         "weak"
+      ]
+    },
+    "preview": {
+      "name": "preview",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
       ]
     }
   },

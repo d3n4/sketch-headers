@@ -46,6 +46,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "sheetWillClose": {
+      "name": "sheetWillClose",
+      "bridgedName": "sheetWillClose",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "confirm:": {
       "name": "confirm:",
       "bridgedName": "confirm",

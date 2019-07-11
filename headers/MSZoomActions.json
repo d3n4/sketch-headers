@@ -1,6 +1,6 @@
 {
   "name": "MSZoomActions",
-  "extends": "MSTouchBarGroupAction",
+  "extends": "MSActionGroup",
   "interfaces": [],
   "methods": {},
   "properties": {},

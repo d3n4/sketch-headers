@@ -83,6 +83,22 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "setSmallFont": {
+      "name": "setSmallFont",
+      "bridgedName": "setSmallFont",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setSmallCenteredFont": {
+      "name": "setSmallCenteredFont",
+      "bridgedName": "setSmallCenteredFont",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "menuItemWithTruncatedTitle:target:action:": {
       "name": "menuItemWithTruncatedTitle:target:action:",
       "bridgedName": "menuItemWithTruncatedTitle_target_action",

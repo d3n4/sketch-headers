@@ -9,22 +9,22 @@
       "args": [
         {
           "name": "pageListDataSource",
-          "type": "NSObject<BCOutlineViewDataSource>*",
+          "type": "NSObject<BCOutlineViewDataControllerDataSource>*",
           "nullable": false
         },
         {
           "name": "pageListDelegate",
-          "type": "NSObject<BCOutlineViewDelegate>*",
+          "type": "NSObject<BCOutlineViewDataControllerDelegate>*",
           "nullable": false
         },
         {
           "name": "layerListDataSource",
-          "type": "NSObject<BCOutlineViewDataSource>*",
+          "type": "NSObject<BCOutlineViewDataControllerDataSource>*",
           "nullable": false
         },
         {
           "name": "layerListDelegate",
-          "type": "NSObject<BCOutlineViewDelegate>*",
+          "type": "NSObject<BCOutlineViewDataControllerDelegate>*",
           "nullable": false
         }
       ],
@@ -42,6 +42,14 @@
           "nullable": false
         }
       ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshAfterAppearanceChange": {
+      "name": "refreshAfterAppearanceChange",
+      "bridgedName": "refreshAfterAppearanceChange",
+      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -66,20 +74,6 @@
       "name": "renameLayerAfterNextLayerListRefresh",
       "bridgedName": "renameLayerAfterNextLayerListRefresh",
       "args": [],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "findLayer:": {
-      "name": "findLayer:",
-      "bridgedName": "findLayer",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
       "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
@@ -111,13 +105,12 @@
         "weak"
       ]
     },
-    "filter": {
-      "name": "filter",
+    "filterViewController": {
+      "name": "filterViewController",
       "pointer": false,
-      "type": "BCFilterInfo ",
+      "type": "IBOutlet BCLayerListFilterViewController ",
       "attributes": [
-        "nonatomic",
-        "readonly"
+        "nonatomic"
       ]
     }
   },

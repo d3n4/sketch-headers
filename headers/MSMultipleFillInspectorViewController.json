@@ -1,7 +1,8 @@
 {
   "name": "MSMultipleFillInspectorViewController",
-  "extends": "MSMultipleStylePartInspectorViewController",
+  "extends": "MSMultipleColorStylePartInspectorViewController",
   "interfaces": [
+    "MSInspectorSection",
     "BCPopoverDelegate"
   ],
   "methods": {

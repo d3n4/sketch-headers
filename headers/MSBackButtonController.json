@@ -1,0 +1,55 @@
+{
+  "name": "MSBackButtonController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "backButtonAction:": {
+      "name": "backButtonAction:",
+      "bridgedName": "backButtonAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "attachToView:": {
+      "name": "attachToView:",
+      "bridgedName": "attachToView",
+      "args": [
+        {
+          "name": "view",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hide": {
+      "name": "hide",
+      "bridgedName": "hide",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "doc": {
+      "name": "doc",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

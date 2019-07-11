@@ -4,6 +4,15 @@
   "interfaces": [],
   "methods": {},
   "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id<MSSharedStylesPopUpButtonCellDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
     "localIsOutOfSync": {
       "name": "localIsOutOfSync",
       "pointer": false,

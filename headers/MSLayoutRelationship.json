@@ -22,6 +22,59 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "initWithItem:attribute:item:attribute:": {
+      "name": "initWithItem:attribute:item:attribute:",
+      "bridgedName": "initWithItem_attribute_item_attribute",
+      "args": [
+        {
+          "name": "item1",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "attr1",
+          "type": "MSLayoutAttribute",
+          "nullable": false
+        },
+        {
+          "name": "item2",
+          "type": "id",
+          "nullable": true
+        },
+        {
+          "name": "attr2",
+          "type": "MSLayoutAttribute",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithFirstItem:attribute:secondAnchor:": {
+      "name": "initWithFirstItem:attribute:secondAnchor:",
+      "bridgedName": "initWithFirstItem_attribute_secondAnchor",
+      "args": [
+        {
+          "name": "item1",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "attr1",
+          "type": "MSLayoutAttribute",
+          "nullable": false
+        },
+        {
+          "name": "anchor2",
+          "type": "MSLayoutAnchor *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "dimensionMeasurementWithItem:axis:": {
       "name": "dimensionMeasurementWithItem:axis:",
       "bridgedName": "dimensionMeasurementWithItem_axis",

@@ -1,6 +1,6 @@
 {
   "name": "MSExportFormatNamingTextFieldCell",
-  "extends": "NSTextFieldCell",
+  "extends": "MSTextFieldWithDropDownMenuCell",
   "interfaces": [],
   "methods": {},
   "properties": {},

@@ -11,13 +11,23 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "renderBitmapEffects:": {
-      "name": "renderBitmapEffects:",
-      "bridgedName": "renderBitmapEffects",
+    "renderBitmapEffects:bounds:parentCoordinateTransform:": {
+      "name": "renderBitmapEffects:bounds:parentCoordinateTransform:",
+      "bridgedName": "renderBitmapEffects_bounds_parentCoordinateTransform",
       "args": [
         {
           "name": "image",
           "type": "CIImage *",
+          "nullable": false
+        },
+        {
+          "name": "bounds",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "parentCoordinateTransform",
+          "type": "CGAffineTransform",
           "nullable": false
         }
       ],

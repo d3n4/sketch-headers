@@ -1,0 +1,17 @@
+{
+  "name": "UIDevice",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "awk_totalMemory": {
+      "name": "awk_totalMemory",
+      "bridgedName": "awk_totalMemory",
+      "args": [],
+      "returns": "nullable NSNumber *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

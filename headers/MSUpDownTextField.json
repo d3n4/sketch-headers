@@ -67,6 +67,22 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "preferredNextKeyView": {
+      "name": "preferredNextKeyView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "minimumIncrementValue": {
+      "name": "minimumIncrementValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
     }
   },
   "generics": []

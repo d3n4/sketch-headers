@@ -86,7 +86,7 @@
     "backgroundImageView": {
       "name": "backgroundImageView",
       "pointer": false,
-      "type": "IBOutlet NSImageView ",
+      "type": "IBOutlet MSThemeImageView ",
       "attributes": [
         "nonatomic",
         "weak"

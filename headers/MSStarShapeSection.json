@@ -1,6 +1,6 @@
 {
   "name": "MSStarShapeSection",
-  "extends": "MSCustomShapeSection",
+  "extends": "MSSingleItemInspectorSection",
   "interfaces": [],
   "methods": {},
   "properties": {},

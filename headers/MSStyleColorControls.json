@@ -20,6 +20,15 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "userVisibleContrast": {
+      "name": "userVisibleContrast",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
   "generics": []
 }

@@ -1,6 +1,6 @@
 {
   "name": "BCSTExportSlicesCommand",
-  "extends": "BCSTCommand",
+  "extends": "BCSTExportLayersCommand",
   "interfaces": [],
   "methods": {},
   "properties": {},

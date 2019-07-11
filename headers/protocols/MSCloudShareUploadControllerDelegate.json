@@ -23,18 +23,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "cloudShareController:exportDocumentWithHandler:": {
-      "name": "cloudShareController:exportDocumentWithHandler:",
-      "bridgedName": "cloudShareController_exportDocumentWithHandler",
+    "cloudShareControllerDidCancelUploading:": {
+      "name": "cloudShareControllerDidCancelUploading:",
+      "bridgedName": "cloudShareControllerDidCancelUploading",
       "args": [
         {
           "name": "controller",
           "type": "nonnull MSCloudShareUploadController *",
-          "nullable": false
-        },
-        {
-          "name": "handler",
-          "type": "void (^ _Nullable)(NSURL * _Nullable)",
           "nullable": false
         }
       ],

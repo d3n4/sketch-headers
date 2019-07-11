@@ -167,13 +167,27 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "CGAffineTransform": {
-      "name": "CGAffineTransform",
-      "bridgedName": "CGAffineTransform",
+    "CGAffineTransform_ms": {
+      "name": "CGAffineTransform_ms",
+      "bridgedName": "CGAffineTransform_ms",
       "args": [],
       "returns": "CGAffineTransform",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "transformWithCGAffineTransform_ms:": {
+      "name": "transformWithCGAffineTransform_ms:",
+      "bridgedName": "transformWithCGAffineTransform_ms",
+      "args": [
+        {
+          "name": "t",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {

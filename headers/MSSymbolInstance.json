@@ -3,6 +3,20 @@
   "extends": "_MSSymbolInstance",
   "interfaces": [],
   "methods": {
+    "overrideMatchingPoint:": {
+      "name": "overrideMatchingPoint:",
+      "bridgedName": "overrideMatchingPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSOverridePoint *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSAvailableOverride *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "symbolMaster": {
       "name": "symbolMaster",
       "bridgedName": "symbolMaster",
@@ -123,9 +137,32 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "removeShareableObjectsFromOverrides:": {
+      "name": "removeShareableObjectsFromOverrides:",
+      "bridgedName": "removeShareableObjectsFromOverrides",
+      "args": [
+        {
+          "name": "removed",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
+    "overridePoints": {
+      "name": "overridePoints",
+      "pointer": false,
+      "type": "NSArray<MSOverridePoint *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "availableOverrides": {
       "name": "availableOverrides",
       "pointer": false,
@@ -151,6 +188,24 @@
       "attributes": [
         "nonatomic",
         "assign"
+      ]
+    },
+    "overrideContainer": {
+      "name": "overrideContainer",
+      "pointer": false,
+      "type": "MSOverrideRepresentationContainer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "modifiedMaster": {
+      "name": "modifiedMaster",
+      "pointer": false,
+      "type": "MSImmutableSymbolMaster ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     },
     "influencingSymbolIDs": {

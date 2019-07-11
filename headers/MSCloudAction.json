@@ -3,13 +3,18 @@
   "extends": "MSPopoverAction",
   "interfaces": [],
   "methods": {
-    "startUploadUpdating:": {
-      "name": "startUploadUpdating:",
-      "bridgedName": "startUploadUpdating",
+    "startUploadUpdating:ownedByOrganization:": {
+      "name": "startUploadUpdating:ownedByOrganization:",
+      "bridgedName": "startUploadUpdating_ownedByOrganization",
       "args": [
         {
           "name": "existingShare",
           "type": "SCKShare *",
+          "nullable": true
+        },
+        {
+          "name": "organization",
+          "type": "SCKOrganization *",
           "nullable": true
         }
       ],
@@ -136,6 +141,58 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "prepareTerminationWithHandler:": {
+      "name": "prepareTerminationWithHandler:",
+      "bridgedName": "prepareTerminationWithHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^)(BOOL canClose)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "prepareCloseWithHandler:": {
+      "name": "prepareCloseWithHandler:",
+      "bridgedName": "prepareCloseWithHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^)(BOOL canClose)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "document:shouldClose:contextInfo:": {
+      "name": "document:shouldClose:contextInfo:",
+      "bridgedName": "document_shouldClose_contextInfo",
+      "args": [
+        {
+          "name": "document",
+          "type": "NSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "shouldClose",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "contextInfo",
+          "type": "void *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -165,6 +222,25 @@
       "attributes": [
         "nonatomic",
         "strong"
+      ]
+    },
+    "shouldPrepareForTermination": {
+      "name": "shouldPrepareForTermination",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    },
+    "canCloseImmediately": {
+      "name": "canCloseImmediately",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

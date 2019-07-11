@@ -3,6 +3,20 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "bezierPathWithCGPath_bc:": {
+      "name": "bezierPathWithCGPath_bc:",
+      "bridgedName": "bezierPathWithCGPath_bc",
+      "args": [
+        {
+          "name": "path",
+          "type": "CGPathRef",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "strokeOutside": {
       "name": "strokeOutside",
       "bridgedName": "strokeOutside",
@@ -177,85 +191,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "bezierPathWithCGPath:": {
-      "name": "bezierPathWithCGPath:",
-      "bridgedName": "bezierPathWithCGPath",
-      "args": [
-        {
-          "name": "path",
-          "type": "CGPathRef",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "bezierPathWithPathFromContext:": {
-      "name": "bezierPathWithPathFromContext:",
-      "bridgedName": "bezierPathWithPathFromContext",
-      "args": [
-        {
-          "name": "context",
-          "type": "CGContextRef",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "strokedPathHelperContext": {
-      "name": "strokedPathHelperContext",
-      "bridgedName": "strokedPathHelperContext",
-      "args": [],
-      "returns": "NSGraphicsContext *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "setCGPath:inContext:": {
-      "name": "setCGPath:inContext:",
-      "bridgedName": "setCGPath_inContext",
-      "args": [
-        {
-          "name": "aPathRef",
-          "type": "CGPathRef",
-          "nullable": false
-        },
-        {
-          "name": "aContext",
-          "type": "CGContextRef",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathByMakingClockwiseIfNecessary": {
-      "name": "bezierPathByMakingClockwiseIfNecessary",
-      "bridgedName": "bezierPathByMakingClockwiseIfNecessary",
-      "args": [],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "bezierPathByMakingAntiClockwiseIfNecessary": {
-      "name": "bezierPathByMakingAntiClockwiseIfNecessary",
-      "bridgedName": "bezierPathByMakingAntiClockwiseIfNecessary",
-      "args": [],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "subPathsOrderedBySizeAfterOutlining": {
-      "name": "subPathsOrderedBySizeAfterOutlining",
-      "bridgedName": "subPathsOrderedBySizeAfterOutlining",
-      "args": [],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "bezierPathByCurveFitting": {
       "name": "bezierPathByCurveFitting",
       "bridgedName": "bezierPathByCurveFitting",
@@ -350,6 +285,30 @@
         }
       ],
       "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByMakingClockwiseIfNecessary": {
+      "name": "bezierPathByMakingClockwiseIfNecessary",
+      "bridgedName": "bezierPathByMakingClockwiseIfNecessary",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByMakingAntiClockwiseIfNecessary": {
+      "name": "bezierPathByMakingAntiClockwiseIfNecessary",
+      "bridgedName": "bezierPathByMakingAntiClockwiseIfNecessary",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subPathsOrderedBySizeAfterOutlining": {
+      "name": "subPathsOrderedBySizeAfterOutlining",
+      "bridgedName": "subPathsOrderedBySizeAfterOutlining",
+      "args": [],
+      "returns": "NSArray *",
       "kind": "instance",
       "kindIndicator": "-"
     },

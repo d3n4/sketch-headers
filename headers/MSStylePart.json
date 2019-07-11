@@ -25,6 +25,34 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "hasEqualAppearance:": {
+      "name": "hasEqualAppearance:",
+      "bridgedName": "hasEqualAppearance",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSStylePart *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stylesHaveEqualAppearance:": {
+      "name": "stylesHaveEqualAppearance:",
+      "bridgedName": "stylesHaveEqualAppearance",
+      "args": [
+        {
+          "name": "styles",
+          "type": "NSArray <MSStylePart *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "multiplyBy:": {
       "name": "multiplyBy:",
       "bridgedName": "multiplyBy",

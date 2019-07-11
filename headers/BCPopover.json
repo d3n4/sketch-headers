@@ -54,7 +54,7 @@
     "contentViewController": {
       "name": "contentViewController",
       "pointer": false,
-      "type": "NSViewController ",
+      "type": "__kindof NSViewController ",
       "attributes": [
         "nonatomic",
         "strong"

@@ -19,16 +19,20 @@
       "value": "1<<2"
     },
     {
-      "name": "MSLEMutates",
+      "name": "MSLESkipHidden",
       "value": "1<<3"
     },
     {
-      "name": "MSLETraitsMatchOr",
+      "name": "MSLEMutates",
       "value": "1<<4"
     },
     {
+      "name": "MSLETraitsMatchOr",
+      "value": "1<<5"
+    },
+    {
       "name": "MSLEAllOptions",
-      "value": "MSLEDefault | MSLEBackwards | MSLEIncludeSelf | MSLERecursive | MSLEMutates"
+      "value": "MSLEDefault | MSLEBackwards | MSLEIncludeSelf | MSLERecursive | MSLESkipHidden | MSLEMutates"
     }
   ]
 }

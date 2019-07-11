@@ -45,6 +45,20 @@
       "returns": "NSBezierPath *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "isValidFlowConnectionInDocumentData:": {
+      "name": "isValidFlowConnectionInDocumentData:",
+      "bridgedName": "isValidFlowConnectionInDocumentData",
+      "args": [
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

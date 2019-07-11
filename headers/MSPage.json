@@ -13,6 +13,14 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "defaultSymbolsPageName": {
+      "name": "defaultSymbolsPageName",
+      "bridgedName": "defaultSymbolsPageName",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "selectedLayers": {
       "name": "selectedLayers",
       "bridgedName": "selectedLayers",
@@ -77,10 +85,16 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "clearSelectionCache": {
-      "name": "clearSelectionCache",
-      "bridgedName": "clearSelectionCache",
-      "args": [],
+    "changeSelectionByDeselectingLayers:": {
+      "name": "changeSelectionByDeselectingLayers:",
+      "bridgedName": "changeSelectionByDeselectingLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": true
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

@@ -1,0 +1,34 @@
+{
+  "enum": true,
+  "name": "BCOutlineViewFilterTypeMask",
+  "members": [
+    {
+      "name": "BCOutlineViewFilterTypeMaskShape",
+      "value": "1 << 0"
+    },
+    {
+      "name": "BCOutlineViewFilterTypeMaskText",
+      "value": "1 << 1"
+    },
+    {
+      "name": "BCOutlineViewFilterTypeMaskImage",
+      "value": "1 << 2"
+    },
+    {
+      "name": "BCOutlineViewFilterTypeMaskGroup",
+      "value": "1 << 3"
+    },
+    {
+      "name": "BCOutlineViewFilterTypeMaskExportable",
+      "value": "1 << 4"
+    },
+    {
+      "name": "BCOutlineViewFilterTypeMaskPrototypingFlow",
+      "value": "1 << 5"
+    },
+    {
+      "name": "BCOutlineViewFilterTypeMaskSymbol",
+      "value": "1 << 6"
+    }
+  ]
+}

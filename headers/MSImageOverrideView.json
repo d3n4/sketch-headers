@@ -4,15 +4,6 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "normalImage": {
-      "name": "normalImage",
-      "pointer": false,
-      "type": "NSImage ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
     "placeholderImage": {
       "name": "placeholderImage",
       "pointer": false,
@@ -20,6 +11,15 @@
       "attributes": [
         "nonatomic",
         "strong"
+      ]
+    },
+    "displaysPlaceholder": {
+      "name": "displaysPlaceholder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

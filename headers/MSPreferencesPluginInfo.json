@@ -162,6 +162,15 @@
         "assign"
       ]
     },
+    "suppliesData": {
+      "name": "suppliesData",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "pluginBundle": {
       "name": "pluginBundle",
       "pointer": false,

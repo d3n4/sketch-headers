@@ -3,25 +3,6 @@
   "extends": "_MSImmutableStyleShadow",
   "interfaces": [],
   "methods": {
-    "shadowInsetForStrokeType:lineWidth:": {
-      "name": "shadowInsetForStrokeType:lineWidth:",
-      "bridgedName": "shadowInsetForStrokeType_lineWidth",
-      "args": [
-        {
-          "name": "strokeType",
-          "type": "MSShadowBorderType",
-          "nullable": false
-        },
-        {
-          "name": "width",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "CGFloat",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "addSpread:withInput:output:filter:": {
       "name": "addSpread:withInput:output:filter:",
       "bridgedName": "addSpread_withInput_output_filter",

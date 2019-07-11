@@ -70,7 +70,7 @@
     "textField1": {
       "name": "textField1",
       "pointer": false,
-      "type": "IBOutlet MSUpDownTextField ",
+      "type": "IBOutlet MSInlineUpDownTextField ",
       "attributes": [
         "nonatomic",
         "strong"
@@ -79,25 +79,7 @@
     "textField2": {
       "name": "textField2",
       "pointer": false,
-      "type": "IBOutlet MSUpDownTextField ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "textField1Label": {
-      "name": "textField1Label",
-      "pointer": false,
-      "type": "IBOutlet MSTextLabelForUpDownField ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "textField2Label": {
-      "name": "textField2Label",
-      "pointer": false,
-      "type": "IBOutlet MSTextLabelForUpDownField ",
+      "type": "IBOutlet MSInlineUpDownTextField ",
       "attributes": [
         "nonatomic",
         "strong"
@@ -110,15 +92,6 @@
       "attributes": [
         "nonatomic",
         "strong"
-      ]
-    },
-    "allowFloatValues": {
-      "name": "allowFloatValues",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
       ]
     }
   },

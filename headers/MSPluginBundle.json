@@ -87,6 +87,14 @@
       "returns": "NSURL *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "scriptDefaultTitle": {
+      "name": "scriptDefaultTitle",
+      "bridgedName": "scriptDefaultTitle",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {
@@ -175,6 +183,15 @@
       "attributes": [
         "nonatomic",
         "copy",
+        "readonly"
+      ]
+    },
+    "suppliesData": {
+      "name": "suppliesData",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
         "readonly"
       ]
     },

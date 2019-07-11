@@ -21,6 +21,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "pathCombiningChildrenByApplyingBlock:": {
+      "name": "pathCombiningChildrenByApplyingBlock:",
+      "bridgedName": "pathCombiningChildrenByApplyingBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSPath *(^)(MSImmutableLayer *layer)",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "constraintForLayer:": {
       "name": "constraintForLayer:",
       "bridgedName": "constraintForLayer",

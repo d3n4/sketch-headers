@@ -23,25 +23,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "documentData:sharedObjectDidChange:": {
-      "name": "documentData:sharedObjectDidChange:",
-      "bridgedName": "documentData_sharedObjectDidChange",
-      "args": [
-        {
-          "name": "data",
-          "type": "MSDocumentData *",
-          "nullable": false
-        },
-        {
-          "name": "object",
-          "type": "id<MSSharedObjectInstance>",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "documentData:temporarilyHideSelectionForLayers:": {
       "name": "documentData:temporarilyHideSelectionForLayers:",
       "bridgedName": "documentData_temporarilyHideSelectionForLayers",
@@ -167,14 +148,6 @@
     "refreshOverlay": {
       "name": "refreshOverlay",
       "bridgedName": "refreshOverlay",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "layerSelectionMightHaveChanged": {
-      "name": "layerSelectionMightHaveChanged",
-      "bridgedName": "layerSelectionMightHaveChanged",
       "args": [],
       "returns": "void",
       "kind": "instance",

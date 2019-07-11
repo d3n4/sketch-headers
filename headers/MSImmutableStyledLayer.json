@@ -1,7 +1,9 @@
 {
   "name": "MSImmutableStyledLayer",
   "extends": "_MSImmutableStyledLayer",
-  "interfaces": [],
+  "interfaces": [
+    "MSStyledLayer"
+  ],
   "methods": {
     "bezierPathForStartDecorationOnPath:": {
       "name": "bezierPathForStartDecorationOnPath:",
@@ -31,6 +33,55 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "cacheDecorations": {
+      "name": "cacheDecorations",
+      "bridgedName": "cacheDecorations",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "decoratedPathInBoundsInDocument:asSubpath:": {
+      "name": "decoratedPathInBoundsInDocument:asSubpath:",
+      "bridgedName": "decoratedPathInBoundsInDocument_asSubpath",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "asSubpath",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasMarkers": {
+      "name": "hasMarkers",
+      "bridgedName": "hasMarkers",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyPropertiesToBezier:": {
+      "name": "applyPropertiesToBezier:",
+      "bridgedName": "applyPropertiesToBezier",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "prepareDrawingInContext:inBlock:": {
       "name": "prepareDrawingInContext:inBlock:",
       "bridgedName": "prepareDrawingInContext_inBlock",
@@ -50,22 +101,12 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "fillPathWithDecorations:context:strokePath:": {
-      "name": "fillPathWithDecorations:context:strokePath:",
-      "bridgedName": "fillPathWithDecorations_context_strokePath",
+    "fillPathWithDecorations:": {
+      "name": "fillPathWithDecorations:",
+      "bridgedName": "fillPathWithDecorations",
       "args": [
         {
-          "name": "path",
-          "type": "MSPath *",
-          "nullable": false
-        },
-        {
-          "name": "contextRefIn",
-          "type": "CGContextRef",
-          "nullable": false
-        },
-        {
-          "name": "strokePathOut",
+          "name": "pathInOut",
           "type": "MSPath * __autoreleasing *",
           "nullable": false
         }
@@ -89,20 +130,39 @@
       "returns": "MSImmutableStyle *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "pathWithExporter:border:": {
+      "name": "pathWithExporter:border:",
+      "bridgedName": "pathWithExporter_border",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter *",
+          "nullable": false
+        },
+        {
+          "name": "border",
+          "type": "MSImmutableStyleBorder *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
-    "usedStyle": {
-      "name": "usedStyle",
+    "allowsBlur": {
+      "name": "allowsBlur",
       "pointer": false,
-      "type": "MSImmutableStyle ",
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
         "readonly"
       ]
     },
-    "allowsBlur": {
-      "name": "allowsBlur",
+    "shadowsFollowRotation": {
+      "name": "shadowsFollowRotation",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

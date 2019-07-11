@@ -80,6 +80,87 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "outlinedPathWithBorder:options:": {
+      "name": "outlinedPathWithBorder:options:",
+      "bridgedName": "outlinedPathWithBorder_options",
+      "args": [
+        {
+          "name": "border",
+          "type": "MSImmutableStyleBorder *",
+          "nullable": false
+        },
+        {
+          "name": "style",
+          "type": "MSImmutableStyle *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shadowPathForStrokeType:lineWidth:": {
+      "name": "shadowPathForStrokeType:lineWidth:",
+      "bridgedName": "shadowPathForStrokeType_lineWidth",
+      "args": [
+        {
+          "name": "strokeType",
+          "type": "MSShadowBorderType",
+          "nullable": false
+        },
+        {
+          "name": "lineWidth",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shadowPathWithSpread:": {
+      "name": "shadowPathWithSpread:",
+      "bridgedName": "shadowPathWithSpread",
+      "args": [
+        {
+          "name": "spread",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shadowPathWithSpread:borderOptions:strokeType:lineWidth:": {
+      "name": "shadowPathWithSpread:borderOptions:strokeType:lineWidth:",
+      "bridgedName": "shadowPathWithSpread_borderOptions_strokeType_lineWidth",
+      "args": [
+        {
+          "name": "spread",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "borderOptions",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        },
+        {
+          "name": "strokeType",
+          "type": "MSShadowBorderType",
+          "nullable": false
+        },
+        {
+          "name": "lineWidth",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "copyWithZone:": {
       "name": "copyWithZone:",
       "bridgedName": "copyWithZone",
@@ -505,6 +586,30 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "outlinePathWithWidth:lineCap:lineJoin:": {
+      "name": "outlinePathWithWidth:lineCap:lineJoin:",
+      "bridgedName": "outlinePathWithWidth_lineCap_lineJoin",
+      "args": [
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "lineCap",
+          "type": "CGLineCap",
+          "nullable": false
+        },
+        {
+          "name": "lineJoin",
+          "type": "CGLineJoin",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "pathByRemovingSubsequentMoveToComponents": {
       "name": "pathByRemovingSubsequentMoveToComponents",
       "bridgedName": "pathByRemovingSubsequentMoveToComponents",
@@ -760,6 +865,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "pathWithDashPattern:": {
+      "name": "pathWithDashPattern:",
+      "bridgedName": "pathWithDashPattern",
+      "args": [
+        {
+          "name": "dashPattern",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "outerPathWithRect:": {
       "name": "outerPathWithRect:",
       "bridgedName": "outerPathWithRect",
@@ -802,9 +921,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "insetPathBy:borderOptions:context:": {
-      "name": "insetPathBy:borderOptions:context:",
-      "bridgedName": "insetPathBy_borderOptions_context",
+    "insetPathBy:borderOptions:": {
+      "name": "insetPathBy:borderOptions:",
+      "bridgedName": "insetPathBy_borderOptions",
       "args": [
         {
           "name": "size",
@@ -814,11 +933,6 @@
         {
           "name": "options",
           "type": "MSImmutableStyleBorderOptions *",
-          "nullable": false
-        },
-        {
-          "name": "context",
-          "type": "CGContextRef",
           "nullable": false
         }
       ],
@@ -840,9 +954,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "outlinePathWithLineWidth:borderOptions:context:": {
-      "name": "outlinePathWithLineWidth:borderOptions:context:",
-      "bridgedName": "outlinePathWithLineWidth_borderOptions_context",
+    "outlinePathWithLineWidth:borderOptions:": {
+      "name": "outlinePathWithLineWidth:borderOptions:",
+      "bridgedName": "outlinePathWithLineWidth_borderOptions",
       "args": [
         {
           "name": "lineWidth",
@@ -853,10 +967,97 @@
           "name": "borderOptions",
           "type": "MSImmutableStyleBorderOptions *",
           "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shadowPathForStrokeType:lineWidth:cacheObject:context:": {
+      "name": "shadowPathForStrokeType:lineWidth:cacheObject:context:",
+      "bridgedName": "shadowPathForStrokeType_lineWidth_cacheObject_context",
+      "args": [
+        {
+          "name": "strokeType",
+          "type": "MSShadowBorderType",
+          "nullable": false
+        },
+        {
+          "name": "lineWidth",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "cacheObject",
+          "type": "MSModelObjectCommon *",
+          "nullable": false
         },
         {
           "name": "context",
-          "type": "CGContextRef",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shadowPathWithSpread:cacheObject:context:": {
+      "name": "shadowPathWithSpread:cacheObject:context:",
+      "bridgedName": "shadowPathWithSpread_cacheObject_context",
+      "args": [
+        {
+          "name": "spread",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "cacheObject",
+          "type": "MSModelObjectCommon *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shadowPathWithSpread:borderOptions:strokeType:lineWidth:cacheObject:context:": {
+      "name": "shadowPathWithSpread:borderOptions:strokeType:lineWidth:cacheObject:context:",
+      "bridgedName": "shadowPathWithSpread_borderOptions_strokeType_lineWidth_cacheObject_context",
+      "args": [
+        {
+          "name": "spread",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "borderOptions",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        },
+        {
+          "name": "strokeType",
+          "type": "MSShadowBorderType",
+          "nullable": false
+        },
+        {
+          "name": "lineWidth",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "cacheObject",
+          "type": "MSModelObjectCommon *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
           "nullable": false
         }
       ],
@@ -941,24 +1142,6 @@
     },
     "subpaths": {
       "name": "subpaths",
-      "pointer": false,
-      "type": "NSArray<MSPath *> ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "openSubpaths": {
-      "name": "openSubpaths",
-      "pointer": false,
-      "type": "NSArray<MSPath *> ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "closedSubpaths": {
-      "name": "closedSubpaths",
       "pointer": false,
       "type": "NSArray<MSPath *> ",
       "attributes": [

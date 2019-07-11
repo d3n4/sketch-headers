@@ -1,6 +1,6 @@
 {
   "name": "MSColorInspectorModeBorderTouchBarGroupAction",
-  "extends": "MSTouchBarGroupAction",
+  "extends": "MSActionGroup",
   "interfaces": [],
   "methods": {},
   "properties": {},

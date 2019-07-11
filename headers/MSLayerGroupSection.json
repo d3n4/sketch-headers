@@ -1,6 +1,6 @@
 {
   "name": "MSLayerGroupSection",
-  "extends": "MSLayerSection",
+  "extends": "MSSingleItemInspectorSection",
   "interfaces": [],
   "methods": {},
   "properties": {},

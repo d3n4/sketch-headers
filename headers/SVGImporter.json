@@ -218,6 +218,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "scaleValue": {
+      "name": "scaleValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
     }
   },
   "generics": []

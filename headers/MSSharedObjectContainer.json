@@ -3,13 +3,13 @@
   "extends": "_MSSharedObjectContainer",
   "interfaces": [],
   "methods": {
-    "removeSharedObject:": {
-      "name": "removeSharedObject:",
-      "bridgedName": "removeSharedObject",
+    "removeSharedObjects:": {
+      "name": "removeSharedObjects:",
+      "bridgedName": "removeSharedObjects",
       "args": [
         {
-          "name": "sharedObject",
-          "type": "MSSharedObject *",
+          "name": "sharedObjects",
+          "type": "NSArray<MSSharedObject *> *",
           "nullable": false
         }
       ],
@@ -17,13 +17,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "instancesOf:inContainer:": {
-      "name": "instancesOf:inContainer:",
-      "bridgedName": "instancesOf_inContainer",
+    "objectsReferencing:inContainer:": {
+      "name": "objectsReferencing:inContainer:",
+      "bridgedName": "objectsReferencing_inContainer",
       "args": [
         {
-          "name": "sharedObject",
-          "type": "MSSharedObject*",
+          "name": "sharedObjectIDs",
+          "type": "NSSet<NSString *> *",
           "nullable": false
         },
         {
@@ -32,35 +32,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray*",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "isSharedObjectForInstance:": {
-      "name": "isSharedObjectForInstance:",
-      "bridgedName": "isSharedObjectForInstance",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSSharedObjectInstance *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "sharedObjectForInstance:": {
-      "name": "sharedObjectForInstance:",
-      "bridgedName": "sharedObjectForInstance",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSSharedObjectInstance *",
-          "nullable": false
-        }
-      ],
-      "returns": "__kindof MSSharedObject *",
+      "returns": "NSArray<__kindof MSModelObject *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -111,53 +83,6 @@
       "bridgedName": "numberOfSharedObjects",
       "args": [],
       "returns": "NSUInteger",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "registerInstance:withSharedObject:": {
-      "name": "registerInstance:withSharedObject:",
-      "bridgedName": "registerInstance_withSharedObject",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSSharedObjectInstance *",
-          "nullable": false
-        },
-        {
-          "name": "sharedObject",
-          "type": "MSSharedObject *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "unregisterInstance:": {
-      "name": "unregisterInstance:",
-      "bridgedName": "unregisterInstance",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSSharedObjectInstance *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "sharedObjectsInLayers:": {
-      "name": "sharedObjectsInLayers:",
-      "bridgedName": "sharedObjectsInLayers",
-      "args": [
-        {
-          "name": "layers",
-          "type": "MSLayerArray *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSDictionary *",
       "kind": "instance",
       "kindIndicator": "-"
     },

@@ -182,6 +182,25 @@
       "returns": "NSArray*",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "shouldExportLayer:forMatch:": {
+      "name": "shouldExportLayer:forMatch:",
+      "bridgedName": "shouldExportLayer_forMatch",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "nameOrID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

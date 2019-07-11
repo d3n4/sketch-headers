@@ -12,6 +12,15 @@
         "nonatomic",
         "weak"
       ]
+    },
+    "highlightMode": {
+      "name": "highlightMode",
+      "pointer": false,
+      "type": "MSIntegratedStepperHighlight",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

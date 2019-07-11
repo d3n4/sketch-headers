@@ -37,9 +37,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataMenuProviderSelectedLayerDataSupplierIdentifier:": {
-      "name": "dataMenuProviderSelectedLayerDataSupplierIdentifier:",
-      "bridgedName": "dataMenuProviderSelectedLayerDataSupplierIdentifier",
+    "dataMenuProviderCanRefreshData:": {
+      "name": "dataMenuProviderCanRefreshData:",
+      "bridgedName": "dataMenuProviderCanRefreshData",
       "args": [
         {
           "name": "controller",
@@ -47,7 +47,21 @@
           "nullable": false
         }
       ],
-      "returns": "NSString *",
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataMenuProviderSelectedLayersWithAppliedData:": {
+      "name": "dataMenuProviderSelectedLayersWithAppliedData:",
+      "bridgedName": "dataMenuProviderSelectedLayersWithAppliedData",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSDataMenuProvider *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSLayer *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -98,9 +112,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataMenuProviderApplyMasterDataToInstances:": {
-      "name": "dataMenuProviderApplyMasterDataToInstances:",
-      "bridgedName": "dataMenuProviderApplyMasterDataToInstances",
+    "dataMenuProviderRefreshData:": {
+      "name": "dataMenuProviderRefreshData:",
+      "bridgedName": "dataMenuProviderRefreshData",
       "args": [
         {
           "name": "controller",
@@ -109,6 +123,48 @@
         }
       ],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataMenuProviderRefreshMasterData:": {
+      "name": "dataMenuProviderRefreshMasterData:",
+      "bridgedName": "dataMenuProviderRefreshMasterData",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSDataMenuProvider *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataMenuProviderRemoveDataRecord:": {
+      "name": "dataMenuProviderRemoveDataRecord:",
+      "bridgedName": "dataMenuProviderRemoveDataRecord",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSDataMenuProvider *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataMenuProviderDataIdentifier:": {
+      "name": "dataMenuProviderDataIdentifier:",
+      "bridgedName": "dataMenuProviderDataIdentifier",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSDataMenuProvider *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
       "kind": "instance",
       "kindIndicator": "-"
     }

@@ -10,10 +10,32 @@
       "args": [
         {
           "name": "view",
-          "type": "BCTableRowView*",
+          "type": "nonnull BCTableRowView*",
           "nullable": false
         }
       ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNodeSelectedOnRow:": {
+      "name": "isNodeSelectedOnRow:",
+      "bridgedName": "isNodeSelectedOnRow",
+      "args": [
+        {
+          "name": "row",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "multipleNodesSelected": {
+      "name": "multipleNodesSelected",
+      "bridgedName": "multipleNodesSelected",
+      "args": [],
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
@@ -24,7 +46,7 @@
       "args": [
         {
           "name": "view",
-          "type": "BCTableRowView*",
+          "type": "nonnull BCTableRowView*",
           "nullable": false
         }
       ],
@@ -38,7 +60,7 @@
       "args": [
         {
           "name": "view",
-          "type": "BCTableRowView*",
+          "type": "nonnull BCTableRowView*",
           "nullable": false
         }
       ],
@@ -52,7 +74,7 @@
       "args": [
         {
           "name": "view",
-          "type": "BCTableRowView*",
+          "type": "nonnull BCTableRowView*",
           "nullable": false
         },
         {

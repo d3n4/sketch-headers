@@ -1,50 +1,9 @@
 {
   "name": "MSFillInspectorViewController",
-  "extends": "MSStylePartInspectorViewController",
+  "extends": "MSColorStylePartInspectorViewController",
   "interfaces": [],
-  "methods": {
-    "prepare": {
-      "name": "prepare",
-      "bridgedName": "prepare",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "opacityFieldAction:": {
-      "name": "opacityFieldAction:",
-      "bridgedName": "opacityFieldAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {
-    "blendingPopUpButton": {
-      "name": "blendingPopUpButton",
-      "pointer": false,
-      "type": "IBOutlet NSPopUpButton ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "colorButton": {
-      "name": "colorButton",
-      "pointer": false,
-      "type": "MSStylePartPreviewButton ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
     "opacityField": {
       "name": "opacityField",
       "pointer": false,
@@ -52,6 +11,14 @@
       "attributes": [
         "nonatomic",
         "strong"
+      ]
+    },
+    "fillPropertiesPopUp": {
+      "name": "fillPropertiesPopUp",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic"
       ]
     }
   },

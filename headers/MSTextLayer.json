@@ -190,6 +190,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "defaultValue": {
+      "name": "defaultValue",
+      "bridgedName": "defaultValue",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "changeFont:": {
       "name": "changeFont:",
       "bridgedName": "changeFont",
@@ -216,7 +224,7 @@
       "name": "shapeToUseForTextOnPath",
       "bridgedName": "shapeToUseForTextOnPath",
       "args": [],
-      "returns": "nullable MSShapeGroup *",
+      "returns": "nullable MSStyledLayer *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -386,6 +394,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "updateStyleInBlock:": {
+      "name": "updateStyleInBlock:",
+      "bridgedName": "updateStyleInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "syncTextStyleAttributes": {
       "name": "syncTextStyleAttributes",
       "bridgedName": "syncTextStyleAttributes",
@@ -517,16 +539,6 @@
       "attributes": [
         "copy",
         "nonatomic"
-      ]
-    },
-    "transientGlyphBoundsValue": {
-      "name": "transientGlyphBoundsValue",
-      "pointer": false,
-      "type": "NSValue ",
-      "attributes": [
-        "strong",
-        "nonatomic",
-        "nullable"
       ]
     },
     "textColor": {

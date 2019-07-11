@@ -145,6 +145,34 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "horizontalConstraintWithView:": {
+      "name": "horizontalConstraintWithView:",
+      "bridgedName": "horizontalConstraintWithView",
+      "args": [
+        {
+          "name": "anotherView",
+          "type": "nonnull NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSLayoutConstraint *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "horizontalConstraintsWithView:": {
+      "name": "horizontalConstraintsWithView:",
+      "bridgedName": "horizontalConstraintsWithView",
+      "args": [
+        {
+          "name": "anotherView",
+          "type": "nonnull NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSArray<NSLayoutConstraint *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "verticalConstraintWithView:": {
       "name": "verticalConstraintWithView:",
       "bridgedName": "verticalConstraintWithView",
@@ -320,6 +348,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "isContainedByCollapsedSplitViewSubview": {
+      "name": "isContainedByCollapsedSplitViewSubview",
+      "bridgedName": "isContainedByCollapsedSplitViewSubview",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "nestedSubviewWithIdentifier:": {
       "name": "nestedSubviewWithIdentifier:",
       "bridgedName": "nestedSubviewWithIdentifier",
@@ -474,6 +510,15 @@
     },
     "canBeKeyView": {
       "name": "canBeKeyView",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "wantsSeparator": {
+      "name": "wantsSeparator",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

@@ -18,7 +18,7 @@
           "nullable": false
         }
       ],
-      "returns": "MSShapeGroup *",
+      "returns": "MSShapePathLayer *",
       "kind": "instance",
       "kindIndicator": "-"
     },

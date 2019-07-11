@@ -33,6 +33,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "refreshIfNecessary:": {
+      "name": "refreshIfNecessary:",
+      "bridgedName": "refreshIfNecessary",
+      "args": [
+        {
+          "name": "treeDiff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "layerPositionPossiblyChanged": {
       "name": "layerPositionPossiblyChanged",
       "bridgedName": "layerPositionPossiblyChanged",
@@ -90,14 +104,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layerWithSharedStyleDidChange": {
-      "name": "layerWithSharedStyleDidChange",
-      "bridgedName": "layerWithSharedStyleDidChange",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "reloadSharedObjectsSection": {
       "name": "reloadSharedObjectsSection",
       "bridgedName": "reloadSharedObjectsSection",
@@ -140,14 +146,6 @@
           "nullable": false
         }
       ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "layoutExportPanel": {
-      "name": "layoutExportPanel",
-      "bridgedName": "layoutExportPanel",
-      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -263,26 +261,8 @@
         "strong"
       ]
     },
-    "bottomExporter": {
-      "name": "bottomExporter",
-      "pointer": false,
-      "type": "MSExportInspectorViewController ",
-      "attributes": [
-        "nonatomic",
-        "strong",
-        "readonly"
-      ]
-    },
     "alignmentBarHidden": {
       "name": "alignmentBarHidden",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
-    "exportPanelHidden": {
-      "name": "exportPanelHidden",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

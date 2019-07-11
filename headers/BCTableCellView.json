@@ -1,19 +1,13 @@
 {
   "name": "BCTableCellView",
   "extends": "NSTableCellView",
-  "interfaces": [],
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
   "methods": {
     "renameNode": {
       "name": "renameNode",
       "bridgedName": "renameNode",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "updateBadge": {
-      "name": "updateBadge",
-      "bridgedName": "updateBadge",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -29,6 +23,14 @@
           "nullable": false
         }
       ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateSelectionStateIfRequired": {
+      "name": "updateSelectionStateIfRequired",
+      "bridgedName": "updateSelectionStateIfRequired",
+      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -51,6 +53,15 @@
       "attributes": [
         "nonatomic",
         "assign"
+      ]
+    },
+    "isTextFieldEditing": {
+      "name": "isTextFieldEditing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     },
     "widthForDragImage": {

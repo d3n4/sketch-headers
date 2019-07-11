@@ -25,13 +25,51 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "renderBitmapEffects:": {
-      "name": "renderBitmapEffects:",
-      "bridgedName": "renderBitmapEffects",
+    "boundsForPath:": {
+      "name": "boundsForPath:",
+      "bridgedName": "boundsForPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyPropertiesToBezier:": {
+      "name": "applyPropertiesToBezier:",
+      "bridgedName": "applyPropertiesToBezier",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderBitmapEffects:bounds:parentCoordinateTransform:": {
+      "name": "renderBitmapEffects:bounds:parentCoordinateTransform:",
+      "bridgedName": "renderBitmapEffects_bounds_parentCoordinateTransform",
       "args": [
         {
           "name": "image",
           "type": "CIImage *",
+          "nullable": false
+        },
+        {
+          "name": "bounds",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "parentCoordinateTransform",
+          "type": "CGAffineTransform",
           "nullable": false
         }
       ],
@@ -221,10 +259,37 @@
         "readonly"
       ]
     },
+    "outerPaddingForBiggestShadowSpread": {
+      "name": "outerPaddingForBiggestShadowSpread",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "hasEnabledBackgroundBlur": {
       "name": "hasEnabledBackgroundBlur",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shadowType": {
+      "name": "shadowType",
+      "pointer": false,
+      "type": "MSShadowType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shadowStrokeType": {
+      "name": "shadowStrokeType",
+      "pointer": false,
+      "type": "MSShadowBorderType",
       "attributes": [
         "nonatomic",
         "readonly"

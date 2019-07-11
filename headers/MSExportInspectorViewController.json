@@ -1,152 +1,25 @@
 {
   "name": "MSExportInspectorViewController",
-  "extends": "MSStylePartInspectorViewController",
+  "extends": "MSInspectorItem",
   "interfaces": [],
-  "methods": {
-    "addExportFormat:": {
-      "name": "addExportFormat:",
-      "bridgedName": "addExportFormat",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "createSliceAction:": {
-      "name": "createSliceAction:",
-      "bridgedName": "createSliceAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "shareAction:": {
-      "name": "shareAction:",
-      "bridgedName": "shareAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "exportSingleSlice:": {
-      "name": "exportSingleSlice:",
-      "bridgedName": "exportSingleSlice",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "showExportPresetMenu:": {
-      "name": "showExportPresetMenu:",
-      "bridgedName": "showExportPresetMenu",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "addExportPreset:": {
-      "name": "addExportPreset:",
-      "bridgedName": "addExportPreset",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "applyExportPreset:": {
-      "name": "applyExportPreset:",
-      "bridgedName": "applyExportPreset",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "editExportPresets:": {
-      "name": "editExportPresets:",
-      "bridgedName": "editExportPresets",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "commitScaleFieldEditsWithCompletionBlock:": {
-      "name": "commitScaleFieldEditsWithCompletionBlock:",
-      "bridgedName": "commitScaleFieldEditsWithCompletionBlock",
-      "args": [
-        {
-          "name": "block",
-          "type": "dispatch_block_t",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {
-    "layers": {
-      "name": "layers",
+    "views": {
+      "name": "views",
       "pointer": false,
-      "type": "MSLayerArray ",
+      "type": "NSArray <NSView *>*",
       "attributes": [
         "nonatomic",
-        "copy"
+        "readonly"
       ]
     },
-    "exportFormatLabelTextField": {
-      "name": "exportFormatLabelTextField",
+    "hasExports": {
+      "name": "hasExports",
       "pointer": false,
-      "type": "IBOutlet NSTextField ",
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
-        "strong"
+        "readonly"
       ]
     }
   },

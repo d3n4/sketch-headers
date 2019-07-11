@@ -1,6 +1,6 @@
 {
   "name": "MSDistributeActions",
-  "extends": "MSTouchBarGroupAction",
+  "extends": "MSActionGroup",
   "interfaces": [],
   "methods": {},
   "properties": {},

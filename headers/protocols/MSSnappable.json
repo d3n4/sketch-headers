@@ -12,14 +12,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "alignmentRectInLayer:options:": {
-      "name": "alignmentRectInLayer:options:",
-      "bridgedName": "alignmentRectInLayer_options",
+    "alignmentRectInCoordinateSpace:options:": {
+      "name": "alignmentRectInCoordinateSpace:options:",
+      "bridgedName": "alignmentRectInCoordinateSpace_options",
       "args": [
         {
-          "name": "layer",
-          "type": "MSLayer *",
-          "nullable": true
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": false
         },
         {
           "name": "options",
@@ -28,6 +28,39 @@
         }
       ],
       "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateAnchorsForSnappingOnAxes:usingBlock:": {
+      "name": "enumerateAnchorsForSnappingOnAxes:usingBlock:",
+      "bridgedName": "enumerateAnchorsForSnappingOnAxes_usingBlock",
+      "args": [
+        {
+          "name": "axes",
+          "type": "BCAxis",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(MSLayoutPosition *anchor)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "anchorsForSnappingOnAxes:": {
+      "name": "anchorsForSnappingOnAxes:",
+      "bridgedName": "anchorsForSnappingOnAxes",
+      "args": [
+        {
+          "name": "axes",
+          "type": "BCAxis",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSLayoutPosition *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -100,15 +133,6 @@
         "readonly"
       ]
     },
-    "anchorsForSnapping": {
-      "name": "anchorsForSnapping",
-      "pointer": false,
-      "type": "NSArray<MSLayoutPosition *> ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "leftAnchor": {
       "name": "leftAnchor",
       "pointer": false,
@@ -166,7 +190,7 @@
     "widthAnchor": {
       "name": "widthAnchor",
       "pointer": false,
-      "type": "MSLayoutAnchor ",
+      "type": "MSLayoutDimension ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -175,7 +199,7 @@
     "heightAnchor": {
       "name": "heightAnchor",
       "pointer": false,
-      "type": "MSLayoutAnchor ",
+      "type": "MSLayoutDimension ",
       "attributes": [
         "nonatomic",
         "readonly"

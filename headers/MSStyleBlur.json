@@ -12,6 +12,15 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "userVisibleMotionAngle": {
+      "name": "userVisibleMotionAngle",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
   "generics": []
 }

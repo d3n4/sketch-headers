@@ -75,10 +75,38 @@
         {
           "name": "objectID",
           "type": "NSString *",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "nullable MSImmutableArtboardGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textStyleWithID:": {
+      "name": "textStyleWithID:",
+      "bridgedName": "textStyleWithID",
+      "args": [
+        {
+          "name": "sharedStyleID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSImmutableSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerStyleWithID:": {
+      "name": "layerStyleWithID:",
+      "bridgedName": "layerStyleWithID",
+      "args": [
+        {
+          "name": "sharedStyleID",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSImmutableSharedStyle *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -207,6 +235,20 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "prepareForRender:": {
+      "name": "prepareForRender:",
+      "bridgedName": "prepareForRender",
+      "args": [
+        {
+          "name": "diff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -225,6 +267,16 @@
       "type": "MSImmutablePage ",
       "attributes": [
         "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectedOverrides": {
+      "name": "selectedOverrides",
+      "pointer": false,
+      "type": "NSArray<NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
         "readonly"
       ]
     },

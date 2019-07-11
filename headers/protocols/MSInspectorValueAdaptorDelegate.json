@@ -4,20 +4,6 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "inspectorValueAdaptorAllowFloat:": {
-      "name": "inspectorValueAdaptorAllowFloat:",
-      "bridgedName": "inspectorValueAdaptorAllowFloat",
-      "args": [
-        {
-          "name": "adaptor",
-          "type": "MSInspectorValueAdaptor *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "inspectorValueAdaptor:validateValue:forModel:context:": {
       "name": "inspectorValueAdaptor:validateValue:forModel:context:",
       "bridgedName": "inspectorValueAdaptor_validateValue_forModel_context",
@@ -29,7 +15,7 @@
         },
         {
           "name": "value",
-          "type": "CGFloat",
+          "type": "ModelValueType",
           "nullable": false
         },
         {

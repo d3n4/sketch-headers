@@ -100,9 +100,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "blurSubContextWithCGContext:backgroundBlurLayer:pointScale:rect:": {
-      "name": "blurSubContextWithCGContext:backgroundBlurLayer:pointScale:rect:",
-      "bridgedName": "blurSubContextWithCGContext_backgroundBlurLayer_pointScale_rect",
+    "subContextForBackgroundBlurWithCGContext:backgroundBlurLayer:pointScale:rect:": {
+      "name": "subContextForBackgroundBlurWithCGContext:backgroundBlurLayer:pointScale:rect:",
+      "bridgedName": "subContextForBackgroundBlurWithCGContext_backgroundBlurLayer_pointScale_rect",
       "args": [
         {
           "name": "cgContext",
@@ -164,14 +164,6 @@
         }
       ],
       "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "allowsSubpixelQuantization": {
-      "name": "allowsSubpixelQuantization",
-      "bridgedName": "allowsSubpixelQuantization",
-      "args": [],
-      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },

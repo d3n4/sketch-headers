@@ -72,6 +72,15 @@
         "strong",
         "readonly"
       ]
+    },
+    "pendingRetryAttempts": {
+      "name": "pendingRetryAttempts",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
     }
   },
   "generics": []

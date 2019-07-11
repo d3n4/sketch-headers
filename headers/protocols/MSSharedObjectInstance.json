@@ -27,16 +27,5 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {
-    "sharedObjectID": {
-      "name": "sharedObjectID",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "strong",
-        "nonatomic",
-        "nullable"
-      ]
-    }
-  }
+  "properties": {}
 }

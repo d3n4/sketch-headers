@@ -7,18 +7,13 @@
     "MSImmutableRootLayer"
   ],
   "methods": {
-    "shouldDrawBackgroundInContext:isDrawingAsSymbolInstance:": {
-      "name": "shouldDrawBackgroundInContext:isDrawingAsSymbolInstance:",
-      "bridgedName": "shouldDrawBackgroundInContext_isDrawingAsSymbolInstance",
+    "shouldDrawBackgroundInContext:": {
+      "name": "shouldDrawBackgroundInContext:",
+      "bridgedName": "shouldDrawBackgroundInContext",
       "args": [
         {
           "name": "context",
           "type": "MSRenderingContext *",
-          "nullable": false
-        },
-        {
-          "name": "isInstance",
-          "type": "BOOL",
           "nullable": false
         }
       ],

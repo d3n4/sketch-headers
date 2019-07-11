@@ -8,7 +8,7 @@
       "bridgedName": "addItemWithTitle_action",
       "args": [
         {
-          "name": "aString",
+          "name": "title",
           "type": "NSString *",
           "nullable": false
         },
@@ -27,7 +27,7 @@
       "bridgedName": "addItemWithTitle_small_target_action",
       "args": [
         {
-          "name": "aString",
+          "name": "title",
           "type": "NSString *",
           "nullable": false
         },
@@ -37,7 +37,7 @@
           "nullable": false
         },
         {
-          "name": "aTarget",
+          "name": "action",
           "type": "id",
           "nullable": false
         },
@@ -56,7 +56,7 @@
       "bridgedName": "addItemWithTitle_target_action",
       "args": [
         {
-          "name": "aString",
+          "name": "title",
           "type": "NSString *",
           "nullable": false
         },
@@ -66,7 +66,7 @@
           "nullable": false
         },
         {
-          "name": "aSelector",
+          "name": "action",
           "type": "SEL",
           "nullable": false
         }
@@ -80,7 +80,7 @@
       "bridgedName": "addItemWithTitle_target_action_representedObject",
       "args": [
         {
-          "name": "aString",
+          "name": "title",
           "type": "NSString *",
           "nullable": false
         },
@@ -90,7 +90,7 @@
           "nullable": false
         },
         {
-          "name": "aSelector",
+          "name": "action",
           "type": "SEL",
           "nullable": false
         },
@@ -109,7 +109,7 @@
       "bridgedName": "addItemWithTitle_target_action_submenu",
       "args": [
         {
-          "name": "aString",
+          "name": "title",
           "type": "NSString *",
           "nullable": false
         },
@@ -119,7 +119,7 @@
           "nullable": false
         },
         {
-          "name": "aSelector",
+          "name": "action",
           "type": "SEL",
           "nullable": false
         },
@@ -133,12 +133,41 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "addItemWithTitle:target:action:image:": {
+      "name": "addItemWithTitle:target:action:image:",
+      "bridgedName": "addItemWithTitle_target_action_image",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "NSImage*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addItemWithTitle:target:action:imageNamed:": {
       "name": "addItemWithTitle:target:action:imageNamed:",
       "bridgedName": "addItemWithTitle_target_action_imageNamed",
       "args": [
         {
-          "name": "aString",
+          "name": "title",
           "type": "NSString *",
           "nullable": false
         },
@@ -148,7 +177,7 @@
           "nullable": false
         },
         {
-          "name": "aSelector",
+          "name": "action",
           "type": "SEL",
           "nullable": false
         },
@@ -344,6 +373,40 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "showPopUpMenuForEvent:relativeToRect:ofView:deferred:triggerControlViewActionOnZeroItems:": {
+      "name": "showPopUpMenuForEvent:relativeToRect:ofView:deferred:triggerControlViewActionOnZeroItems:",
+      "bridgedName": "showPopUpMenuForEvent_relativeToRect_ofView_deferred_triggerControlViewActionOnZeroItems",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "controlView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "defer",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "triggerControlViewActionOnZeroItems",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "menuWithItems:": {
       "name": "menuWithItems:",
       "bridgedName": "menuWithItems",
@@ -357,6 +420,14 @@
       "returns": "NSMenu *",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "parentMenuItem_bc": {
+      "name": "parentMenuItem_bc",
+      "bridgedName": "parentMenuItem_bc",
+      "args": [],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

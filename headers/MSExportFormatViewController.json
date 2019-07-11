@@ -11,20 +11,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "commitScaleFieldEditsWithCompletionBlock:": {
-      "name": "commitScaleFieldEditsWithCompletionBlock:",
-      "bridgedName": "commitScaleFieldEditsWithCompletionBlock",
-      "args": [
-        {
-          "name": "block",
-          "type": "dispatch_block_t",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "removeExportFormat:": {
       "name": "removeExportFormat:",
       "bridgedName": "removeExportFormat",
@@ -117,10 +103,27 @@
     "scaleField": {
       "name": "scaleField",
       "pointer": false,
-      "type": "IBOutlet NSTextField ",
+      "type": "IBOutlet MSTextFieldWithDropDownMenu ",
       "attributes": [
         "nonatomic",
         "strong"
+      ]
+    },
+    "removeButtonHidden": {
+      "name": "removeButtonHidden",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter=isRemoveButtonHidden"
+      ]
+    },
+    "drawOldFashioned": {
+      "name": "drawOldFashioned",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
       ]
     }
   },

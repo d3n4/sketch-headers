@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "exporterWithDelgate:": {
-      "name": "exporterWithDelgate:",
-      "bridgedName": "exporterWithDelgate",
+    "exporterWithDelegate:": {
+      "name": "exporterWithDelegate:",
+      "bridgedName": "exporterWithDelegate",
       "args": [
         {
           "name": "delegate",

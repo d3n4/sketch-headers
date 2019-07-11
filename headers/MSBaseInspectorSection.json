@@ -22,25 +22,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "canHandleColorMagnifierAction": {
-      "name": "canHandleColorMagnifierAction",
-      "bridgedName": "canHandleColorMagnifierAction",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "colorMagnifierAction:": {
-      "name": "colorMagnifierAction:",
-      "bridgedName": "colorMagnifierAction",
+    "refreshIfNecessary:": {
+      "name": "refreshIfNecessary:",
+      "bridgedName": "refreshIfNecessary",
       "args": [
         {
-          "name": "sender",
-          "type": "id",
+          "name": "treeDiff",
+          "type": "MSTreeDiff *",
           "nullable": false
         }
       ],
-      "returns": "IBAction",
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -83,6 +75,15 @@
       "attributes": [
         "nonatomic",
         "weak"
+      ]
+    },
+    "selectionContainsChildrenOfCompoundPath": {
+      "name": "selectionContainsChildrenOfCompoundPath",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

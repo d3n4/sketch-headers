@@ -13,7 +13,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
     }

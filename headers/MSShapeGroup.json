@@ -2,17 +2,10 @@
   "name": "MSShapeGroup",
   "extends": "_MSShapeGroup",
   "interfaces": [
-    "MSShapeGroup"
+    "MSShapeGroup",
+    "MSPathLayer"
   ],
   "methods": {
-    "prepareAsMask": {
-      "name": "prepareAsMask",
-      "bridgedName": "prepareAsMask",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "canProbablyFlatten": {
       "name": "canProbablyFlatten",
       "bridgedName": "canProbablyFlatten",
@@ -29,51 +22,24 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layersByConvertingToOutlines": {
-      "name": "layersByConvertingToOutlines",
-      "bridgedName": "layersByConvertingToOutlines",
-      "args": [],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "canCutSegments": {
-      "name": "canCutSegments",
-      "bridgedName": "canCutSegments",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "possiblyFixRectangleBorderBeforeCut": {
-      "name": "possiblyFixRectangleBorderBeforeCut",
-      "bridgedName": "possiblyFixRectangleBorderBeforeCut",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "cutBezierSegmentAtIndex:": {
-      "name": "cutBezierSegmentAtIndex:",
-      "bridgedName": "cutBezierSegmentAtIndex",
+    "shapeWithBooleanOperation:onLayers:": {
+      "name": "shapeWithBooleanOperation:onLayers:",
+      "bridgedName": "shapeWithBooleanOperation_onLayers",
       "args": [
         {
-          "name": "index",
-          "type": "NSUInteger",
+          "name": "operation",
+          "type": "MSBooleanOperation",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
           "nullable": false
         }
       ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "splitPathsIntoShapes": {
-      "name": "splitPathsIntoShapes",
-      "bridgedName": "splitPathsIntoShapes",
-      "args": [],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
     },
     "changeInnerOuterBordersIfHasOpenPaths": {
       "name": "changeInnerOuterBordersIfHasOpenPaths",
@@ -83,9 +49,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "shapeWithBezierPath:": {
-      "name": "shapeWithBezierPath:",
-      "bridgedName": "shapeWithBezierPath",
+    "layerWithPath:": {
+      "name": "layerWithPath:",
+      "bridgedName": "layerWithPath",
       "args": [
         {
           "name": "path",
@@ -96,42 +62,6 @@
       "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "shapeWithPath:": {
-      "name": "shapeWithPath:",
-      "bridgedName": "shapeWithPath",
-      "args": [
-        {
-          "name": "subPath",
-          "type": "MSShapePathLayer *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "shapeWithRect:": {
-      "name": "shapeWithRect:",
-      "bridgedName": "shapeWithRect",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "isLine": {
-      "name": "isLine",
-      "bridgedName": "isLine",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
     },
     "isHorizontalLine": {
       "name": "isHorizontalLine",
@@ -161,7 +91,7 @@
       "name": "flatten",
       "bridgedName": "flatten",
       "args": [],
-      "returns": "void",
+      "returns": "MSStyledLayer<MSPathLayer> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -183,22 +113,6 @@
           "nullable": false
         }
       ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "makeLinePixelAligned": {
-      "name": "makeLinePixelAligned",
-      "bridgedName": "makeLinePixelAligned",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "adjustStyleToFitSubPaths": {
-      "name": "adjustStyleToFitSubPaths",
-      "bridgedName": "adjustStyleToFitSubPaths",
-      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

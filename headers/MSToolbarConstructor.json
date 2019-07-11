@@ -5,17 +5,19 @@
     "NSToolbarDelegate"
   ],
   "methods": {
-    "toolbarForDocument:": {
-      "name": "toolbarForDocument:",
-      "bridgedName": "toolbarForDocument",
-      "args": [
-        {
-          "name": "document",
-          "type": "MSDocument *",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
+    "toolbarAllowedItemIdentifiers": {
+      "name": "toolbarAllowedItemIdentifiers",
+      "bridgedName": "toolbarAllowedItemIdentifiers",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "toolbarDefaultItemIdentifiers": {
+      "name": "toolbarDefaultItemIdentifiers",
+      "bridgedName": "toolbarDefaultItemIdentifiers",
+      "args": [],
+      "returns": "NSArray *",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -47,11 +49,11 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "allActions": {
-      "name": "allActions",
-      "bridgedName": "allActions",
+    "validateToolbarItems": {
+      "name": "validateToolbarItems",
+      "bridgedName": "validateToolbarItems",
       "args": [],
-      "returns": "NSArray *",
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     }

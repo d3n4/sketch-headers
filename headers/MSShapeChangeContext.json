@@ -52,9 +52,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "locationOfHandleAtIndexPath:inLayer:": {
-      "name": "locationOfHandleAtIndexPath:inLayer:",
-      "bridgedName": "locationOfHandleAtIndexPath_inLayer",
+    "locationOfHandleAtIndexPath:inCoordinateSpace:": {
+      "name": "locationOfHandleAtIndexPath:inCoordinateSpace:",
+      "bridgedName": "locationOfHandleAtIndexPath_inCoordinateSpace",
       "args": [
         {
           "name": "indexPath",
@@ -62,8 +62,8 @@
           "nullable": false
         },
         {
-          "name": "layer",
-          "type": "MSLayer *",
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
           "nullable": true
         }
       ],

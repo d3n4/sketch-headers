@@ -514,6 +514,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "applyBlockConcurrentlyAndCountSuccess:": {
+      "name": "applyBlockConcurrentlyAndCountSuccess:",
+      "bridgedName": "applyBlockConcurrentlyAndCountSuccess",
+      "args": [
+        {
+          "name": "block",
+          "type": "BOOL (^)(ObjectType object)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "mo_objectForIndexedSubscript:": {
       "name": "mo_objectForIndexedSubscript:",
       "bridgedName": "mo_objectForIndexedSubscript",
@@ -544,34 +558,6 @@
         }
       ],
       "returns": "NSArray<SCKObject *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "sck_flatMap:": {
-      "name": "sck_flatMap:",
-      "bridgedName": "sck_flatMap",
-      "args": [
-        {
-          "name": "transform",
-          "type": "id(^)(id item)",
-          "nullable": false
-        }
-      ],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "smk_map:": {
-      "name": "smk_map:",
-      "bridgedName": "smk_map",
-      "args": [
-        {
-          "name": "mappingBlock",
-          "type": "id _Nonnull (^ _Nullable)(id _Nonnull element)",
-          "nullable": false
-        }
-      ],
-      "returns": "NSArray * _Nonnull",
       "kind": "instance",
       "kindIndicator": "-"
     },

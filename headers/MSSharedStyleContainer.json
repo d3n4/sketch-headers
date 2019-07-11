@@ -17,34 +17,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "isSharedStyleForInstance:": {
-      "name": "isSharedStyleForInstance:",
-      "bridgedName": "isSharedStyleForInstance",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSStyle *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "sharedStyleForInstance:": {
-      "name": "sharedStyleForInstance:",
-      "bridgedName": "sharedStyleForInstance",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSStyle *",
-          "nullable": false
-        }
-      ],
-      "returns": "MSSharedStyle *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "sharedStyleWithID:": {
       "name": "sharedStyleWithID:",
       "bridgedName": "sharedStyleWithID",
@@ -92,25 +64,6 @@
       "bridgedName": "numberOfSharedStyles",
       "args": [],
       "returns": "NSUInteger",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "registerInstance:withSharedStyle:": {
-      "name": "registerInstance:withSharedStyle:",
-      "bridgedName": "registerInstance_withSharedStyle",
-      "args": [
-        {
-          "name": "instance",
-          "type": "MSStyle *",
-          "nullable": false
-        },
-        {
-          "name": "sharedObject",
-          "type": "MSSharedStyle *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },

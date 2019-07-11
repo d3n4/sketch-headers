@@ -36,36 +36,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "canContainLayer:": {
-      "name": "canContainLayer:",
-      "bridgedName": "canContainLayer",
-      "args": [
-        {
-          "name": "layer",
-          "type": "MSLayer *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "canBeContainedByGroup": {
-      "name": "canBeContainedByGroup",
-      "bridgedName": "canBeContainedByGroup",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "canBeContainedByDocument": {
-      "name": "canBeContainedByDocument",
-      "bridgedName": "canBeContainedByDocument",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "containsNoOrOneLayers": {
       "name": "containsNoOrOneLayers",
       "bridgedName": "containsNoOrOneLayers",

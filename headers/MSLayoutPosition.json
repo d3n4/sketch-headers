@@ -9,7 +9,7 @@
       "args": [
         {
           "name": "line",
-          "type": "BCLine",
+          "type": "BCOrthogonalLine",
           "nullable": false
         },
         {

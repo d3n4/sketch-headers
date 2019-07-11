@@ -1,17 +1,8 @@
 {
   "name": "MSDropdownButtonCell",
-  "extends": "MSSmallButtonCell",
+  "extends": "MSInspectorPushButtonCell",
   "interfaces": [],
   "methods": {},
-  "properties": {
-    "imageRightEdgeInset": {
-      "name": "imageRightEdgeInset",
-      "pointer": false,
-      "type": "IBInspectable CGFloat",
-      "attributes": [
-        "nonatomic"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

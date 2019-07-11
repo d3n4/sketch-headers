@@ -13,37 +13,19 @@
         "readonly"
       ]
     },
-    "fillViewController": {
-      "name": "fillViewController",
+    "resizeSection": {
+      "name": "resizeSection",
       "pointer": false,
-      "type": "MSMultipleFillInspectorViewController ",
+      "type": "MSResizeInspectorSection ",
       "attributes": [
         "nonatomic",
         "readonly"
       ]
     },
-    "borderViewController": {
-      "name": "borderViewController",
+    "styleSection": {
+      "name": "styleSection",
       "pointer": false,
-      "type": "MSMultipleBorderInspectorViewController ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "blurViewController": {
-      "name": "blurViewController",
-      "pointer": false,
-      "type": "MSBlurInspectorViewController ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "colorControlsViewController": {
-      "name": "colorControlsViewController",
-      "pointer": false,
-      "type": "MSColorControlsInspectorViewController ",
+      "type": "MSStyleInspectorSection ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -52,25 +34,16 @@
     "flowInspectorViewController": {
       "name": "flowInspectorViewController",
       "pointer": false,
-      "type": "MSFlowInspectorViewController ",
+      "type": "MSFlowInspectorSection ",
       "attributes": [
         "nonatomic",
         "readonly"
       ]
     },
-    "opacityBlendingViewController": {
-      "name": "opacityBlendingViewController",
+    "appearanceInspectorSection": {
+      "name": "appearanceInspectorSection",
       "pointer": false,
-      "type": "MSOpacityBlendingInspectorViewController ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "sharedStyledInspectorSection": {
-      "name": "sharedStyledInspectorSection",
-      "pointer": false,
-      "type": "MSSharedStylesInspectorSection ",
+      "type": "MSAppearanceInspectorSection ",
       "attributes": [
         "nonatomic",
         "readonly"

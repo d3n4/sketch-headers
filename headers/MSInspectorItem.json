@@ -3,19 +3,39 @@
   "extends": "NSViewController",
   "interfaces": [],
   "methods": {
-    "filterSelection:": {
-      "name": "filterSelection:",
-      "bridgedName": "filterSelection",
+    "manageTextField:adaptor:identifier:inlineToolTip:touchBarItems:": {
+      "name": "manageTextField:adaptor:identifier:inlineToolTip:touchBarItems:",
+      "bridgedName": "manageTextField_adaptor_identifier_inlineToolTip_touchBarItems",
       "args": [
         {
-          "name": "layers",
-          "type": "MSLayerArray *",
+          "name": "textField",
+          "type": "nonnull MSInlineUpDownTextField *",
           "nullable": false
+        },
+        {
+          "name": "adaptor",
+          "type": "nonnull MSMathInspectorValueAdaptor *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "nonnull NSUserInterfaceItemIdentifier",
+          "nullable": false
+        },
+        {
+          "name": "toolTip",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "touchBarItems",
+          "type": "NSArray <NSString *>*",
+          "nullable": true
         }
       ],
-      "returns": "MSLayerArray *",
-      "kind": "class",
-      "kindIndicator": "+"
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     },
     "itemForSection:": {
       "name": "itemForSection:",
@@ -53,6 +73,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "filterSelection:": {
+      "name": "filterSelection:",
+      "bridgedName": "filterSelection",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "canHandleSomeLayersOfSelection:": {
       "name": "canHandleSomeLayersOfSelection:",
       "bridgedName": "canHandleSomeLayersOfSelection",
@@ -66,6 +100,53 @@
       "returns": "BOOL",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "canHandleLayer:": {
+      "name": "canHandleLayer:",
+      "bridgedName": "canHandleLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "cacheUserInterfaceElement:withKey:": {
+      "name": "cacheUserInterfaceElement:withKey:",
+      "bridgedName": "cacheUserInterfaceElement_withKey",
+      "args": [
+        {
+          "name": "element",
+          "type": "id _Nullable",
+          "nullable": false
+        },
+        {
+          "name": "cacheKey",
+          "type": "id _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cachedUserInterfaceElementForKey:": {
+      "name": "cachedUserInterfaceElementForKey:",
+      "bridgedName": "cachedUserInterfaceElementForKey",
+      "args": [
+        {
+          "name": "cacheKey",
+          "type": "id _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "id _Nullable",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -74,7 +155,8 @@
       "pointer": false,
       "type": "MSLayerArray ",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "readonly"
       ]
     },
     "layersController": {
@@ -82,7 +164,8 @@
       "pointer": false,
       "type": "NSArrayController ",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "nonnull"
       ]
     },
     "delegate": {

@@ -24,9 +24,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "constraintWithOrthogonalOrDiagonalLineFromPoint:toPoint:": {
-      "name": "constraintWithOrthogonalOrDiagonalLineFromPoint:toPoint:",
-      "bridgedName": "constraintWithOrthogonalOrDiagonalLineFromPoint_toPoint",
+    "orthogonalOrDiagonalConstraintFromPoint:toPoint:": {
+      "name": "orthogonalOrDiagonalConstraintFromPoint:toPoint:",
+      "bridgedName": "orthogonalOrDiagonalConstraintFromPoint_toPoint",
       "args": [
         {
           "name": "sourcePoint",

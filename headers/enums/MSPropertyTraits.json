@@ -37,6 +37,14 @@
     {
       "name": "MSPropertyTraitInfluencesLayerListPreview",
       "value": "1<<8"
+    },
+    {
+      "name": "MSPropertyTraitSharedObjectUpdated",
+      "value": "1<<9"
+    },
+    {
+      "name": "MSPropertyTraitAll",
+      "value": "MSPropertyTraitInfluencesContentRender | MSPropertyTraitInfluencesOverlayRender | MSPropertyTraitChangesHistory |\n  MSPropertyTraitAmendsHistory | MSPropertyTraitInfluencesLayerStructure | MSPropertyTraitInfluencesMirror | MSPropertyTraitRequiresFullContentRefresh | MSPropertyTraitInfluencesLayerListPreview | MSPropertyTraitSharedObjectUpdated"
     }
   ]
 }

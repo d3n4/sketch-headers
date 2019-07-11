@@ -3,9 +3,7 @@
   "extends": "NSViewController",
   "interfaces": [
     "MSInspectorSection",
-    "NSWindowDelegate",
-    "MSColorInspectorDelegate",
-    "MSStylePartPreviewButtonDelegate"
+    "NSWindowDelegate"
   ],
   "methods": {
     "stylePartViewController": {
@@ -48,14 +46,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "updateColorInActiveInspector": {
-      "name": "updateColorInActiveInspector",
-      "bridgedName": "updateColorInActiveInspector",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "supportedActionsForLayers:": {
       "name": "supportedActionsForLayers:",
       "bridgedName": "supportedActionsForLayers",
@@ -78,31 +68,11 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "previewCellAction:": {
-      "name": "previewCellAction:",
-      "bridgedName": "previewCellAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "NSButton *",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "checkBoxAction:": {
-      "name": "checkBoxAction:",
-      "bridgedName": "checkBoxAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
+    "updateDisplayedValues": {
+      "name": "updateDisplayedValues",
+      "bridgedName": "updateDisplayedValues",
+      "args": [],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -143,12 +113,13 @@
         "nonatomic"
       ]
     },
-    "colorPickerButton": {
-      "name": "colorPickerButton",
+    "layers": {
+      "name": "layers",
       "pointer": false,
-      "type": "IBOutlet MSStylePartPreviewButton ",
+      "type": "NSArray <MSLayer *>",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "readonly"
       ]
     }
   },

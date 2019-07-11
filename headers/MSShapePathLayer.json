@@ -1,11 +1,13 @@
 {
   "name": "MSShapePathLayer",
   "extends": "_MSShapePathLayer",
-  "interfaces": [],
+  "interfaces": [
+    "MSPathLayer"
+  ],
   "methods": {
-    "shapeWithPath:": {
-      "name": "shapeWithPath:",
-      "bridgedName": "shapeWithPath",
+    "layerWithPath:": {
+      "name": "layerWithPath:",
+      "bridgedName": "layerWithPath",
       "args": [
         {
           "name": "path",
@@ -13,23 +15,42 @@
           "nullable": false
         }
       ],
-      "returns": "MSShapePathLayer *",
+      "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
-    "applyPropertiesToBezier:": {
-      "name": "applyPropertiesToBezier:",
-      "bridgedName": "applyPropertiesToBezier",
+    "layerWithPath:integralFrame:": {
+      "name": "layerWithPath:integralFrame:",
+      "bridgedName": "layerWithPath_integralFrame",
       "args": [
         {
-          "name": "bezier",
-          "type": "NSBezierPath *",
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "makeIntegral",
+          "type": "BOOL",
           "nullable": false
         }
       ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shapeWithRect:": {
+      "name": "shapeWithRect:",
+      "bridgedName": "shapeWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "MSRectangleShape *",
+      "kind": "class",
+      "kindIndicator": "+"
     },
     "resetPoints": {
       "name": "resetPoints",
@@ -71,12 +92,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "adjustFrameAfterEditIntegral:": {
-      "name": "adjustFrameAfterEditIntegral:",
-      "bridgedName": "adjustFrameAfterEditIntegral",
+    "adjustFrameAfterEditIntegral:fixAncestors:": {
+      "name": "adjustFrameAfterEditIntegral:fixAncestors:",
+      "bridgedName": "adjustFrameAfterEditIntegral_fixAncestors",
       "args": [
         {
           "name": "makeIntegral",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "fixAncestors",
           "type": "BOOL",
           "nullable": false
         }
@@ -106,34 +132,6 @@
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "convertPointFromPathCoordinates:": {
-      "name": "convertPointFromPathCoordinates:",
-      "bridgedName": "convertPointFromPathCoordinates",
-      "args": [
-        {
-          "name": "aPoint",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "NSPoint",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "convertPointToPathCoordinates:": {
-      "name": "convertPointToPathCoordinates:",
-      "bridgedName": "convertPointToPathCoordinates",
-      "args": [
-        {
-          "name": "aPoint",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "NSPoint",
-      "kind": "instance",
-      "kindIndicator": "-"
     },
     "isNearlyEmpty": {
       "name": "isNearlyEmpty",
@@ -176,20 +174,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "shouldHitTestOnFill:": {
-      "name": "shouldHitTestOnFill:",
-      "bridgedName": "shouldHitTestOnFill",
-      "args": [
-        {
-          "name": "path",
-          "type": "MSPath *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "flatten": {
       "name": "flatten",
       "bridgedName": "flatten",
@@ -203,14 +187,6 @@
       "bridgedName": "flattenedLayer",
       "args": [],
       "returns": "MSShapePathLayer *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "isLine": {
-      "name": "isLine",
-      "bridgedName": "isLine",
-      "args": [],
-      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -241,6 +217,20 @@
       "bridgedName": "isPolygon",
       "args": [],
       "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustGeometryToBoundsRect:": {
+      "name": "adjustGeometryToBoundsRect:",
+      "bridgedName": "adjustGeometryToBoundsRect",
+      "args": [
+        {
+          "name": "targetBounds",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },

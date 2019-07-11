@@ -9,12 +9,12 @@
       "args": [
         {
           "name": "dataSource",
-          "type": "NSObject<BCOutlineViewDataSource>*",
+          "type": "NSObject<BCOutlineViewDataControllerDataSource>*",
           "nullable": false
         },
         {
           "name": "delegate",
-          "type": "NSObject<BCOutlineViewDelegate>*",
+          "type": "NSObject<BCOutlineViewDataControllerDelegate>*",
           "nullable": false
         }
       ],
@@ -164,6 +164,56 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "isNodeHiddenOnCanvas:": {
+      "name": "isNodeHiddenOnCanvas:",
+      "bridgedName": "isNodeHiddenOnCanvas",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isAncestorOfNodeHiddenOnCanvas:": {
+      "name": "isAncestorOfNodeHiddenOnCanvas:",
+      "bridgedName": "isAncestorOfNodeHiddenOnCanvas",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNodeLockedOnCanvas:": {
+      "name": "isNodeLockedOnCanvas:",
+      "bridgedName": "isNodeLockedOnCanvas",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "multipleNodesSelected": {
+      "name": "multipleNodesSelected",
+      "bridgedName": "multipleNodesSelected",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "isNodeExpanded:": {
       "name": "isNodeExpanded:",
       "bridgedName": "isNodeExpanded",
@@ -239,6 +289,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "isNodeHighlighted:": {
+      "name": "isNodeHighlighted:",
+      "bridgedName": "isNodeHighlighted",
+      "args": [
+        {
+          "name": "node",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "handleBadgePressedOnNode:withAltState:": {
       "name": "handleBadgePressedOnNode:withAltState:",
       "bridgedName": "handleBadgePressedOnNode_withAltState",
@@ -258,13 +322,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshPreviewsOnNodes:": {
-      "name": "refreshPreviewsOnNodes:",
-      "bridgedName": "refreshPreviewsOnNodes",
+    "refreshPreviewsOnNode:": {
+      "name": "refreshPreviewsOnNode:",
+      "bridgedName": "refreshPreviewsOnNode",
       "args": [
         {
-          "name": "nodes",
-          "type": "NSArray*",
+          "name": "node",
+          "type": "id",
           "nullable": false
         }
       ],
@@ -293,6 +357,24 @@
     }
   },
   "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "NSObject<BCOutlineViewDataControllerDelegate> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dataSource": {
+      "name": "dataSource",
+      "pointer": false,
+      "type": "NSObject<BCOutlineViewDataControllerDataSource> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "filter": {
       "name": "filter",
       "pointer": false,

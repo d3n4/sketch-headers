@@ -13,20 +13,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "groupFromLayers:": {
-      "name": "groupFromLayers:",
-      "bridgedName": "groupFromLayers",
-      "args": [
-        {
-          "name": "layers",
-          "type": "MSLayerArray *",
-          "nullable": false
-        }
-      ],
-      "returns": "MSLayerGroup *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "enumerateLayersAvoidingFaultingWithOptions:passingTest:usingBlock:": {
       "name": "enumerateLayersAvoidingFaultingWithOptions:passingTest:usingBlock:",
       "bridgedName": "enumerateLayersAvoidingFaultingWithOptions_passingTest_usingBlock",
@@ -67,9 +53,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "moveTransformsToChildren:": {
-      "name": "moveTransformsToChildren:",
-      "bridgedName": "moveTransformsToChildren",
+    "applyTransformsToLayers:": {
+      "name": "applyTransformsToLayers:",
+      "bridgedName": "applyTransformsToLayers",
       "args": [
         {
           "name": "layers",
@@ -80,6 +66,34 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "groupWithLayer:": {
+      "name": "groupWithLayer:",
+      "bridgedName": "groupWithLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "groupWithLayers:": {
+      "name": "groupWithLayers:",
+      "bridgedName": "groupWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
     },
     "disableAutomaticScalingInBlock:": {
       "name": "disableAutomaticScalingInBlock:",

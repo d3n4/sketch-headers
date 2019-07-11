@@ -13,6 +13,15 @@
         "nonatomic",
         "assign"
       ]
+    },
+    "pageListCollapsed": {
+      "name": "pageListCollapsed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
     }
   }
 }

@@ -1,0 +1,23 @@
+{
+  "name": "MSShowColorsAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "showColorsAction:": {
+      "name": "showColorsAction:",
+      "bridgedName": "showColorsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

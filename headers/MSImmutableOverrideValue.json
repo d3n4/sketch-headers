@@ -51,6 +51,25 @@
       "kindIndicator": "+"
     }
   },
-  "properties": {},
+  "properties": {
+    "attributeName": {
+      "name": "attributeName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "path": {
+      "name": "path",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

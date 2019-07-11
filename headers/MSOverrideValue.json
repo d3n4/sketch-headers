@@ -55,6 +55,15 @@
         "nullable",
         "readonly"
       ]
+    },
+    "attributeName": {
+      "name": "attributeName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

@@ -2,24 +2,33 @@
   "name": "BCTableRowView",
   "extends": "NSTableRowView",
   "interfaces": [],
-  "methods": {},
-  "properties": {
-    "parent": {
-      "name": "parent",
-      "pointer": false,
-      "type": "NSTableView ",
-      "attributes": [
-        "nonatomic",
-        "weak"
-      ]
+  "methods": {
+    "refreshSelectionState": {
+      "name": "refreshSelectionState",
+      "bridgedName": "refreshSelectionState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     },
+    "refreshBackgroundStyle": {
+      "name": "refreshBackgroundStyle",
+      "bridgedName": "refreshBackgroundStyle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
     "node": {
       "name": "node",
       "pointer": false,
       "type": "NSObject<BCOutlineViewNode> ",
       "attributes": [
         "nonatomic",
-        "strong"
+        "strong",
+        "nullable"
       ]
     },
     "delegate": {
@@ -28,7 +37,8 @@
       "type": "NSObject<BCTableRowViewDelegate> ",
       "attributes": [
         "nonatomic",
-        "weak"
+        "weak",
+        "nullable"
       ]
     },
     "displayType": {
@@ -47,6 +57,52 @@
       "attributes": [
         "nonatomic",
         "assign"
+      ]
+    },
+    "outlineView": {
+      "name": "outlineView",
+      "pointer": false,
+      "type": "BCOutlineView ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "drawsTopBorder": {
+      "name": "drawsTopBorder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "drawsBottomBorder": {
+      "name": "drawsBottomBorder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasBottomPaddingApplied": {
+      "name": "hasBottomPaddingApplied",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasTopPaddingApplied": {
+      "name": "hasTopPaddingApplied",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

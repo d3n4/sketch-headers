@@ -3,9 +3,9 @@
   "extends": "MSDataSupplier",
   "interfaces": [],
   "methods": {
-    "identifierWithPluginIdentifier:commandIdentifier:dynamicDataKey:dataName:": {
-      "name": "identifierWithPluginIdentifier:commandIdentifier:dynamicDataKey:dataName:",
-      "bridgedName": "identifierWithPluginIdentifier_commandIdentifier_dynamicDataKey_dataName",
+    "identifierWithPluginIdentifier:commandIdentifier:dynamicDataKey:": {
+      "name": "identifierWithPluginIdentifier:commandIdentifier:dynamicDataKey:",
+      "bridgedName": "identifierWithPluginIdentifier_commandIdentifier_dynamicDataKey",
       "args": [
         {
           "name": "pluginIdentifier",
@@ -19,11 +19,6 @@
         },
         {
           "name": "dynamicDataKey",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "dataName",
           "type": "NSString *",
           "nullable": false
         }
@@ -92,15 +87,6 @@
     }
   },
   "properties": {
-    "delegate": {
-      "name": "delegate",
-      "pointer": false,
-      "type": "id<MSPluginDataSupplierDelegate>",
-      "attributes": [
-        "nonatomic",
-        "weak"
-      ]
-    },
     "pluginIdentifier": {
       "name": "pluginIdentifier",
       "pointer": false,

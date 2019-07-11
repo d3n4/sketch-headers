@@ -45,10 +45,30 @@
         "weak"
       ]
     },
+    "previousUpload": {
+      "name": "previousUpload",
+      "pointer": false,
+      "type": "MSCloudShareUploadController ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    },
     "existingShare": {
       "name": "existingShare",
       "pointer": false,
       "type": "SCKShare ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "organization": {
+      "name": "organization",
+      "pointer": false,
+      "type": "SCKOrganization ",
       "attributes": [
         "nonatomic",
         "nullable",

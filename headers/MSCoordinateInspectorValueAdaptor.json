@@ -61,9 +61,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "initWithModelsController:valueGetter:valueSetter:modelKeyPathsToWatch:NS_UNAVAILABLE": {
-      "name": "initWithModelsController:valueGetter:valueSetter:modelKeyPathsToWatch:NS_UNAVAILABLE",
-      "bridgedName": "initWithModelsController_valueGetter_valueSetter_modelKeyPathsToWatch_NS_UNAVAILABLE",
+    "initWithModelsController:floatValueGetter:floatValueSetter:modelKeyPathsToWatch:NS_UNAVAILABLE": {
+      "name": "initWithModelsController:floatValueGetter:floatValueSetter:modelKeyPathsToWatch:NS_UNAVAILABLE",
+      "bridgedName": "initWithModelsController_floatValueGetter_floatValueSetter_modelKeyPathsToWatch_NS_UNAVAILABLE",
       "args": [
         {
           "name": "modelsController",

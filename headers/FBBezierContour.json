@@ -346,6 +346,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "contourWithFlatness:": {
+      "name": "contourWithFlatness:",
+      "bridgedName": "contourWithFlatness",
+      "args": [
+        {
+          "name": "flatness",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierContour *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "markSelfCrossingsAsEntryOrExit": {
       "name": "markSelfCrossingsAsEntryOrExit",
       "bridgedName": "markSelfCrossingsAsEntryOrExit",

@@ -26,6 +26,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "refreshIfNecessary:": {
+      "name": "refreshIfNecessary:",
+      "bridgedName": "refreshIfNecessary",
+      "args": [
+        {
+          "name": "treeDiff",
+          "type": "MSTreeDiff *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "layerPositionPossiblyChanged": {
       "name": "layerPositionPossiblyChanged",
       "bridgedName": "layerPositionPossiblyChanged",

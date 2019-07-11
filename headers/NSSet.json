@@ -45,6 +45,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "isEquivalentToArray_bc:": {
+      "name": "isEquivalentToArray_bc:",
+      "bridgedName": "isEquivalentToArray_bc",
+      "args": [
+        {
+          "name": "array",
+          "type": "NSArray<ObjectType> *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "sortedArrayUsingKey:": {
       "name": "sortedArrayUsingKey:",
       "bridgedName": "sortedArrayUsingKey",
@@ -73,13 +87,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "sck_flatMap:": {
-      "name": "sck_flatMap:",
-      "bridgedName": "sck_flatMap",
+    "flatMap:": {
+      "name": "flatMap:",
+      "bridgedName": "flatMap",
       "args": [
         {
-          "name": "transform",
-          "type": "id(^)(id item)",
+          "name": "block",
+          "type": "id (^)(ObjectType object)",
           "nullable": false
         }
       ],

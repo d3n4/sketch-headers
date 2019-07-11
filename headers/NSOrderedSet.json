@@ -16,20 +16,6 @@
       "returns": "id",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "smk_map:": {
-      "name": "smk_map:",
-      "bridgedName": "smk_map",
-      "args": [
-        {
-          "name": "mappingBlock",
-          "type": "id _Nonnull (^ _Nullable)(id _Nonnull element)",
-          "nullable": false
-        }
-      ],
-      "returns": "NSOrderedSet * _Nonnull",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {},

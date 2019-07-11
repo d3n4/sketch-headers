@@ -3,6 +3,16 @@
   "extends": "MSHoverButton",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "bc_weakTarget": {
+      "name": "bc_weakTarget",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
   "generics": []
 }

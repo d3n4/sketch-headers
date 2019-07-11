@@ -56,6 +56,35 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "drawCheckerboardBackgroundInRect:checkerboardSize:forDarkAppearance:backgroundColor:": {
+      "name": "drawCheckerboardBackgroundInRect:checkerboardSize:forDarkAppearance:backgroundColor:",
+      "bridgedName": "drawCheckerboardBackgroundInRect_checkerboardSize_forDarkAppearance_backgroundColor",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "checkerboardSize",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "dark",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "backgroundColor",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "drawColor:enabled:inRect:": {
       "name": "drawColor:enabled:inRect:",
       "bridgedName": "drawColor_enabled_inRect",
@@ -73,6 +102,40 @@
         {
           "name": "frame",
           "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawColor:enabled:inRect:checkerboardSize:forDarkAppearance:": {
+      "name": "drawColor:enabled:inRect:checkerboardSize:forDarkAppearance:",
+      "bridgedName": "drawColor_enabled_inRect_checkerboardSize_forDarkAppearance",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "enabled",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "frame",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "checkerboardSize",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "dark",
+          "type": "BOOL",
           "nullable": false
         }
       ],

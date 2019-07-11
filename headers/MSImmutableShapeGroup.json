@@ -2,53 +2,10 @@
   "name": "MSImmutableShapeGroup",
   "extends": "_MSImmutableShapeGroup",
   "interfaces": [
-    "MSShapeGroup"
+    "MSShapeGroup",
+    "MSImmutablePathLayer"
   ],
-  "methods": {
-    "initDowngradedShapeWithPath:": {
-      "name": "initDowngradedShapeWithPath:",
-      "bridgedName": "initDowngradedShapeWithPath",
-      "args": [
-        {
-          "name": "path",
-          "type": "MSImmutableShapePathLayer *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "pathWithExporter:border:": {
-      "name": "pathWithExporter:border:",
-      "bridgedName": "pathWithExporter_border",
-      "args": [
-        {
-          "name": "exporter",
-          "type": "SketchSVGExporter *",
-          "nullable": false
-        },
-        {
-          "name": "border",
-          "type": "MSImmutableStyleBorder *",
-          "nullable": true
-        }
-      ],
-      "returns": "nullable MSPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
-  "properties": {
-    "decoratedBezierPathInBounds": {
-      "name": "decoratedBezierPathInBounds",
-      "pointer": false,
-      "type": "MSPath ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    }
-  },
+  "methods": {},
+  "properties": {},
   "generics": []
 }

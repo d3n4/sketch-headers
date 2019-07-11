@@ -4,31 +4,12 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "resizingCorner": {
-      "name": "resizingCorner",
+    "snappingSession": {
+      "name": "snappingSession",
       "pointer": false,
-      "type": "BCCorner",
+      "type": "MSSnappingSession ",
       "attributes": [
-        "assign",
         "nonatomic"
-      ]
-    },
-    "resizingLayer": {
-      "name": "resizingLayer",
-      "pointer": false,
-      "type": "MSLayer ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "layerSnapper": {
-      "name": "layerSnapper",
-      "pointer": false,
-      "type": "MSSnapper ",
-      "attributes": [
-        "nonatomic",
-        "strong"
       ]
     },
     "eventData": {

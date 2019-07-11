@@ -57,22 +57,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "runningElCapitan_bc": {
-      "name": "runningElCapitan_bc",
-      "bridgedName": "runningElCapitan_bc",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "runningYosemite_bc": {
-      "name": "runningYosemite_bc",
-      "bridgedName": "runningYosemite_bc",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "mutableCopyDeep": {
       "name": "mutableCopyDeep",
       "bridgedName": "mutableCopyDeep",
@@ -410,6 +394,44 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "encodeWithArchiver:": {
+      "name": "encodeWithArchiver:",
+      "bridgedName": "encodeWithArchiver",
+      "args": [
+        {
+          "name": "archiver",
+          "type": "nonnull MSBaseArchiver *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithUnarchiver:migratingFrom:toVersion:": {
+      "name": "initWithUnarchiver:migratingFrom:toVersion:",
+      "bridgedName": "initWithUnarchiver_migratingFrom_toVersion",
+      "args": [
+        {
+          "name": "unarchiver",
+          "type": "nonnull MSBaseUnarchiver *",
+          "nullable": false
+        },
+        {
+          "name": "fromVersion",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "toVersion",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "immutableModelObject": {
       "name": "immutableModelObject",
       "bridgedName": "immutableModelObject",
@@ -580,6 +602,26 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "BCCache_selfOrDeferredObject": {
+      "name": "BCCache_selfOrDeferredObject",
+      "pointer": false,
+      "type": "NSObject ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "BCCache_unblockingSelfOrDeferredObject": {
+      "name": "BCCache_unblockingSelfOrDeferredObject",
+      "pointer": false,
+      "type": "NSObject ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
   "generics": []
 }

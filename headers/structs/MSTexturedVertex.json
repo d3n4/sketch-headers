@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "MSTexturedVertex",
+  "members": [
+    {
+      "name": "x",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "y",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "textureX",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "textureY",
+      "pointer": false,
+      "type": "float"
+    }
+  ]
+}

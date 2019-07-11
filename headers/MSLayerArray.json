@@ -132,20 +132,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layersSuitableForInsertingIntoGroup:": {
-      "name": "layersSuitableForInsertingIntoGroup:",
-      "bridgedName": "layersSuitableForInsertingIntoGroup",
-      "args": [
-        {
-          "name": "group",
-          "type": "MSLayerGroup*",
-          "nullable": false
-        }
-      ],
-      "returns": "MSLayerArray*",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "commonArtboard": {
       "name": "commonArtboard",
       "bridgedName": "commonArtboard",

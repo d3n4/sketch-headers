@@ -19,6 +19,22 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "separatorInsets": {
+      "name": "separatorInsets",
+      "bridgedName": "separatorInsets",
+      "args": [],
+      "returns": "NSEdgeInsets",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "footerViews": {
+      "name": "footerViews",
+      "bridgedName": "footerViews",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {}

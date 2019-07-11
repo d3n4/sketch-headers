@@ -1,6 +1,6 @@
 {
   "name": "BCWindowBadge",
-  "extends": "MSHoverButton",
+  "extends": "NSButton",
   "interfaces": [],
   "methods": {},
   "properties": {

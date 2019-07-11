@@ -45,12 +45,13 @@
         "nonatomic"
       ]
     },
-    "rotationAnchorPoint": {
-      "name": "rotationAnchorPoint",
+    "rotationItems": {
+      "name": "rotationItems",
       "pointer": false,
-      "type": "NSPoint",
+      "type": "NSArray<MSRotationItem *> ",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "readonly"
       ]
     }
   },

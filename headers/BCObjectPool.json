@@ -1,9 +1,7 @@
 {
   "name": "BCObjectPool",
   "extends": "NSObject",
-  "interfaces": [
-    "NSDiscardableContent"
-  ],
+  "interfaces": [],
   "methods": {
     "initWithObjectCreatorBlock:": {
       "name": "initWithObjectCreatorBlock:",

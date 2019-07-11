@@ -94,6 +94,25 @@
       "returns": "NSArray<MSArtboardPresetsCategory *> *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "presetWithName:matchingSize:": {
+      "name": "presetWithName:matchingSize:",
+      "bridgedName": "presetWithName_matchingSize",
+      "args": [
+        {
+          "name": "presetName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSArtboardPreset *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

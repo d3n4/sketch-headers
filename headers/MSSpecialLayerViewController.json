@@ -1,8 +1,7 @@
 {
   "name": "MSSpecialLayerViewController",
-  "extends": "NSViewController",
+  "extends": "MSNestedInspectorSection",
   "interfaces": [
-    "MSInspectorSection",
     "NSMenuDelegate"
   ],
   "methods": {
@@ -30,22 +29,24 @@
     }
   },
   "properties": {
-    "layers": {
-      "name": "layers",
+    "textSection": {
+      "name": "textSection",
       "pointer": false,
-      "type": "NSArray <MSLayer *> ",
+      "type": "MSBaseInspectorSection ",
       "attributes": [
         "nonatomic",
-        "copy"
+        "nullable",
+        "readonly"
       ]
     },
-    "delegate": {
-      "name": "delegate",
+    "symbolInstanceSection": {
+      "name": "symbolInstanceSection",
       "pointer": false,
-      "type": "id <MSInspectorSectionDelegate>",
+      "type": "MSBaseInspectorSection ",
       "attributes": [
         "nonatomic",
-        "weak"
+        "nullable",
+        "readonly"
       ]
     }
   },

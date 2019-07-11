@@ -39,16 +39,8 @@
       "value": "1 << 7"
     },
     {
-      "name": "MSRenderingRequestOptionsQualityLow",
-      "value": "1 << 30"
-    },
-    {
-      "name": "MSRenderingRequestOptionsQualityHigh",
-      "value": "1 << 31"
-    },
-    {
       "name": "MSRenderingRequestOptionsDefault",
-      "value": "MSRenderingRequestOptionsNone | MSRenderingRequestOptionsIncludeArtboardBackground | MSRenderingRequestOptionsQualityHigh"
+      "value": "MSRenderingRequestOptionsNone | MSRenderingRequestOptionsIncludeArtboardBackground"
     }
   ]
 }

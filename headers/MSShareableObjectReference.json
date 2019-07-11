@@ -32,7 +32,7 @@
         {
           "name": "library",
           "type": "MSAssetLibrary *",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "instancetype",

@@ -3,17 +3,25 @@
   "extends": "SCKURLOperation",
   "interfaces": [],
   "methods": {
-    "initWithRequest:": {
-      "name": "initWithRequest:",
-      "bridgedName": "initWithRequest",
+    "initWithRequest:)": {
+      "name": "initWithRequest:)",
+      "bridgedName": "initWithRequest_)",
       "args": [
         {
           "name": "request",
-          "type": "SCKAPIRequest *",
+          "type": "id<SCKAPIRequest>",
           "nullable": false
         }
       ],
       "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshAuthentication": {
+      "name": "refreshAuthentication",
+      "bridgedName": "refreshAuthentication",
+      "args": [],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -40,32 +48,13 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "executeRequest:completionHandler:": {
-      "name": "executeRequest:completionHandler:",
-      "bridgedName": "executeRequest_completionHandler",
-      "args": [
-        {
-          "name": "request",
-          "type": "SCKAPIRequest *",
-          "nullable": false
-        },
-        {
-          "name": "handler",
-          "type": "void (^ _Nullable)(NSArray<SCKObject *>  * _Nullable objects, NSError * _Nullable error)",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
     }
   },
   "properties": {
     "request": {
       "name": "request",
       "pointer": false,
-      "type": "SCKAPIRequest ",
+      "type": "id<SCKAPIRequest>",
       "attributes": [
         "nonatomic",
         "strong",
@@ -79,19 +68,7 @@
       "attributes": [
         "atomic",
         "strong",
-        "nullable",
-        "readonly"
-      ]
-    },
-    "result": {
-      "name": "result",
-      "pointer": false,
-      "type": "NSArray<SCKObject *> ",
-      "attributes": [
-        "atomic",
-        "strong",
-        "nullable",
-        "readonly"
+        "nullable"
       ]
     }
   },

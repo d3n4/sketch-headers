@@ -7,7 +7,7 @@
     "normalTint": {
       "name": "normalTint",
       "pointer": false,
-      "type": "NSString ",
+      "type": "NSColor ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -16,7 +16,7 @@
     "hoverTint": {
       "name": "hoverTint",
       "pointer": false,
-      "type": "NSString ",
+      "type": "NSColor ",
       "attributes": [
         "nonatomic",
         "readonly"

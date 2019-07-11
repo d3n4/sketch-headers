@@ -23,6 +23,16 @@
         "class"
       ]
     },
+    "feature14414Enabled": {
+      "name": "feature14414Enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
     "dataSuppliersEnabled": {
       "name": "dataSuppliersEnabled",
       "pointer": false,
@@ -55,6 +65,26 @@
     },
     "cloudDocumentsEnabled": {
       "name": "cloudDocumentsEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
+    "cloudOAuthEnabled": {
+      "name": "cloudOAuthEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
+    "cloudOrganizationsEnabled": {
+      "name": "cloudOrganizationsEnabled",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

@@ -10,9 +10,6 @@
     },
     {
       "name": "BCStructuredFileErrorClosed"
-    },
-    {
-      "name": "BCStructuredFileErrorArchiving"
     }
   ]
 }

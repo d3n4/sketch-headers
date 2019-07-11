@@ -45,6 +45,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "resetMenuItemImage": {
+      "name": "resetMenuItemImage",
+      "bridgedName": "resetMenuItemImage",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "imageFileURLForDataItem:": {
       "name": "imageFileURLForDataItem:",
       "bridgedName": "imageFileURLForDataItem",
@@ -83,18 +91,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "generateDataWithCount:dataSupplierManager:dataApplier:": {
-      "name": "generateDataWithCount:dataSupplierManager:dataApplier:",
-      "bridgedName": "generateDataWithCount_dataSupplierManager_dataApplier",
+    "applyDataAtIndex:datum:dataApplier:": {
+      "name": "applyDataAtIndex:datum:dataApplier:",
+      "bridgedName": "applyDataAtIndex_datum_dataApplier",
       "args": [
         {
-          "name": "count",
+          "name": "index",
           "type": "NSUInteger",
           "nullable": false
         },
         {
-          "name": "dataSupplier",
-          "type": "MSDataSupplierManager *",
+          "name": "dataItem",
+          "type": "NSString *",
           "nullable": false
         },
         {
@@ -106,16 +114,73 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "generateDataForLayers:dataSupplierManager:dataApplier:": {
+      "name": "generateDataForLayers:dataSupplierManager:dataApplier:",
+      "bridgedName": "generateDataForLayers_dataSupplierManager_dataApplier",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <__kindof MSStyledLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "manager",
+          "type": "MSDataSupplierManager *",
+          "nullable": false
+        },
+        {
+          "name": "applierBlock",
+          "type": "MSDataApplierBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "generateDataForOverrides:dataSupplierManager:dataApplier:": {
+      "name": "generateDataForOverrides:dataSupplierManager:dataApplier:",
+      "bridgedName": "generateDataForOverrides_dataSupplierManager_dataApplier",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSArray <MSDataOverride *> *",
+          "nullable": false
+        },
+        {
+          "name": "manager",
+          "type": "MSDataSupplierManager *",
+          "nullable": false
+        },
+        {
+          "name": "applierBlock",
+          "type": "MSDataApplierBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSDataSupplierDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
     "dataName": {
       "name": "dataName",
       "pointer": false,
       "type": "NSString ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "copy"
       ]
     },
     "dataType": {
@@ -152,6 +217,16 @@
       "attributes": [
         "nonatomic",
         "assign"
+      ]
+    },
+    "menuItemImage": {
+      "name": "menuItemImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
       ]
     }
   },

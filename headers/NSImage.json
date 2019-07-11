@@ -3,6 +3,149 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "badgedAs:forOwner:": {
+      "name": "badgedAs:forOwner:",
+      "bridgedName": "badgedAs_forOwner",
+      "args": [
+        {
+          "name": "badgeType",
+          "type": "MSLayerPreviewBadgeType",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "badgedWithImage:maskImage:offset:forOwner:": {
+      "name": "badgedWithImage:maskImage:offset:forOwner:",
+      "bridgedName": "badgedWithImage_maskImage_offset_forOwner",
+      "args": [
+        {
+          "name": "badgeImage",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "maskImage",
+          "type": "NSImage *",
+          "nullable": false
+        },
+        {
+          "name": "offset",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "badgedWithImageNamed:maskImageNamed:offset:forOwner:": {
+      "name": "badgedWithImageNamed:maskImageNamed:offset:forOwner:",
+      "bridgedName": "badgedWithImageNamed_maskImageNamed_offset_forOwner",
+      "args": [
+        {
+          "name": "badgeName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "badgeMaskName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "offset",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tintedAsUnselectedImageForOwner:": {
+      "name": "tintedAsUnselectedImageForOwner:",
+      "bridgedName": "tintedAsUnselectedImageForOwner",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tintedAsUnselectedImageForOwner:isSharedObject:": {
+      "name": "tintedAsUnselectedImageForOwner:isSharedObject:",
+      "bridgedName": "tintedAsUnselectedImageForOwner_isSharedObject",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": false
+        },
+        {
+          "name": "isShared",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tintedAsSelectedImageForOwner:inActiveWindow:": {
+      "name": "tintedAsSelectedImageForOwner:inActiveWindow:",
+      "bridgedName": "tintedAsSelectedImageForOwner_inActiveWindow",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": false
+        },
+        {
+          "name": "active",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tintedAsMenuItemImageForOwner:": {
+      "name": "tintedAsMenuItemImageForOwner:",
+      "bridgedName": "tintedAsMenuItemImageForOwner",
+      "args": [
+        {
+          "name": "owner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "drawAtPoint:": {
       "name": "drawAtPoint:",
       "bridgedName": "drawAtPoint",
@@ -133,25 +276,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "tintedWithColorNamed:interfaceTheme:": {
-      "name": "tintedWithColorNamed:interfaceTheme:",
-      "bridgedName": "tintedWithColorNamed_interfaceTheme",
-      "args": [
-        {
-          "name": "colorName",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "theme",
-          "type": "id<MSInterfaceTheme>",
-          "nullable": false
-        }
-      ],
-      "returns": "NSImage *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "drawFlippedAtPoint:": {
       "name": "drawFlippedAtPoint:",
       "bridgedName": "drawFlippedAtPoint",
@@ -189,6 +313,20 @@
       "name": "firstBitmapImageRepOrCreateIfNecessary",
       "bridgedName": "firstBitmapImageRepOrCreateIfNecessary",
       "args": [],
+      "returns": "NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstBitmapImageRepOrCreateIfNecessaryPreservingPixelSize:": {
+      "name": "firstBitmapImageRepOrCreateIfNecessaryPreservingPixelSize:",
+      "bridgedName": "firstBitmapImageRepOrCreateIfNecessaryPreservingPixelSize",
+      "args": [
+        {
+          "name": "preservePixelSize",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
       "returns": "NSBitmapImageRep *",
       "kind": "instance",
       "kindIndicator": "-"
@@ -325,22 +463,22 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "imageWithShadow:size:": {
-      "name": "imageWithShadow:size:",
-      "bridgedName": "imageWithShadow_size",
+    "imageWithShadow:padding:": {
+      "name": "imageWithShadow:padding:",
+      "bridgedName": "imageWithShadow_padding",
       "args": [
         {
           "name": "shadow",
-          "type": "NSShadow*",
+          "type": "NSShadow *",
           "nullable": false
         },
         {
-          "name": "size",
-          "type": "NSSize",
+          "name": "padding",
+          "type": "NSUInteger",
           "nullable": false
         }
       ],
-      "returns": "NSImage*",
+      "returns": "NSImage *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -377,6 +515,20 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "bundledImageNamed:": {
+      "name": "bundledImageNamed:",
+      "bridgedName": "bundledImageNamed",
+      "args": [
+        {
+          "name": "imageName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "tintedWithColor:": {
       "name": "tintedWithColor:",
       "bridgedName": "tintedWithColor",
@@ -385,6 +537,44 @@
           "name": "color",
           "type": "NSColor *",
           "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tintedWithColor:compositingOperation:": {
+      "name": "tintedWithColor:compositingOperation:",
+      "bridgedName": "tintedWithColor_compositingOperation",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "op",
+          "type": "NSCompositingOperation",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tintedWithColor:forOwner:": {
+      "name": "tintedWithColor:forOwner:",
+      "bridgedName": "tintedWithColor_forOwner",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "imageOwner",
+          "type": "id<MSInterfaceImageOwner>",
+          "nullable": true
         }
       ],
       "returns": "NSImage *",

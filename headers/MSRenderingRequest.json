@@ -243,15 +243,6 @@
         "nonatomic",
         "readonly"
       ]
-    },
-    "renderingQuality": {
-      "name": "renderingQuality",
-      "pointer": false,
-      "type": "MSRenderingQuality",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
     }
   },
   "generics": []

@@ -45,6 +45,14 @@
       "returns": "nullable NSURL *",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "assetLibraryUpdated": {
+      "name": "assetLibraryUpdated",
+      "bridgedName": "assetLibraryUpdated",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -119,6 +127,15 @@
       "name": "updateAvailable",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fileName": {
+      "name": "fileName",
+      "pointer": false,
+      "type": "NSString ",
       "attributes": [
         "nonatomic",
         "readonly"

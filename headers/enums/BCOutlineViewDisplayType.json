@@ -7,6 +7,12 @@
     },
     {
       "name": "BCOutlineViewDisplayTypeArtboard"
+    },
+    {
+      "name": "BCOutlineViewDisplayTypePage"
+    },
+    {
+      "name": "BCOutlineViewDisplayTypeOverride"
     }
   ]
 }

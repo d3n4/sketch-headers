@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "MSRGBAColor",
+  "members": [
+    {
+      "name": "red",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "green",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "blue",
+      "pointer": false,
+      "type": "float"
+    },
+    {
+      "name": "alpha",
+      "pointer": false,
+      "type": "float"
+    }
+  ]
+}

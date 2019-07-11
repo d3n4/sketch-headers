@@ -1,6 +1,6 @@
 {
   "name": "MSPolygonShapeSection",
-  "extends": "MSCustomShapeSection",
+  "extends": "MSSingleItemInspectorSection",
   "interfaces": [],
   "methods": {},
   "properties": {},

@@ -45,6 +45,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "layersFromNodeArray:": {
+      "name": "layersFromNodeArray:",
+      "bridgedName": "layersFromNodeArray",
+      "args": [
+        {
+          "name": "nodes",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "canMoveNode:toParent:after:": {
       "name": "canMoveNode:toParent:after:",
       "bridgedName": "canMoveNode_toParent_after",

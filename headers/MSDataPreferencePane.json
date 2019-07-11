@@ -3,7 +3,8 @@
   "extends": "MSPreferencePane",
   "interfaces": [
     "NSTableViewDelegate",
-    "NSTableViewDataSource"
+    "NSTableViewDataSource",
+    "NSTextFieldDelegate"
   ],
   "methods": {},
   "properties": {

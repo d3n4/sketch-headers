@@ -23,6 +23,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "isEffectivelyStraight": {
+      "name": "isEffectivelyStraight",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

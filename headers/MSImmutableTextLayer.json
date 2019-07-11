@@ -51,7 +51,7 @@
           "nullable": false
         }
       ],
-      "returns": "nullable MSImmutableShapeGroup *",
+      "returns": "nullable MSImmutableStyledLayer *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -185,16 +185,6 @@
         "readonly",
         "nonatomic",
         "nonnull"
-      ]
-    },
-    "transientGlyphBoundsValue": {
-      "name": "transientGlyphBoundsValue",
-      "pointer": false,
-      "type": "NSValue ",
-      "attributes": [
-        "strong",
-        "atomic",
-        "nullable"
       ]
     },
     "capHeightBounds": {

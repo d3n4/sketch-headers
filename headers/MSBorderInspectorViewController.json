@@ -1,6 +1,6 @@
 {
   "name": "MSBorderInspectorViewController",
-  "extends": "MSStylePartInspectorViewController",
+  "extends": "MSColorStylePartInspectorViewController",
   "interfaces": [],
   "methods": {
     "enableAction:": {
@@ -16,30 +16,13 @@
       "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "prepare": {
-      "name": "prepare",
-      "bridgedName": "prepare",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
-    "positionPopUp": {
-      "name": "positionPopUp",
+    "positionControl": {
+      "name": "positionControl",
       "pointer": false,
-      "type": "IBOutlet NSPopUpButton ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "colorButton": {
-      "name": "colorButton",
-      "pointer": false,
-      "type": "IBOutlet MSStylePartPreviewButton ",
+      "type": "IBOutlet NSSegmentedControl ",
       "attributes": [
         "nonatomic",
         "strong"

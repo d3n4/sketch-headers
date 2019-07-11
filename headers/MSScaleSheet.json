@@ -1,6 +1,6 @@
 {
   "name": "MSScaleSheet",
-  "extends": "CHSheetController",
+  "extends": "MSCanvasUpdatingSheet",
   "interfaces": [],
   "methods": {},
   "properties": {},
