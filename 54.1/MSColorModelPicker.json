@@ -1,0 +1,26 @@
+{
+  "name": "MSColorModelPicker",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "colorModel": {
+      "name": "colorModel",
+      "pointer": false,
+      "type": "MSComponentColorModel",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSColorModelPickerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

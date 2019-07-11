@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "SCKAPIURLRequestType",
+  "members": [
+    {
+      "name": "SCKAPIURLRequestTypeGet"
+    },
+    {
+      "name": "SCKAPIURLRequestTypeCreate"
+    },
+    {
+      "name": "SCKAPIURLRequestTypeUpdate"
+    },
+    {
+      "name": "SCKAPIURLRequestTypeDelete"
+    }
+  ]
+}

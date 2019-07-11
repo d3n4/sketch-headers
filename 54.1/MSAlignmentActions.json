@@ -1,0 +1,8 @@
+{
+  "name": "MSAlignmentActions",
+  "extends": "MSActionGroup",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

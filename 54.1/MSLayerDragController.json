@@ -1,0 +1,160 @@
+{
+  "name": "MSLayerDragController",
+  "extends": "MSToolController",
+  "interfaces": [],
+  "methods": {
+    "beginWithLayers:location:": {
+      "name": "beginWithLayers:location:",
+      "bridgedName": "beginWithLayers_location",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray<MSLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateWithState:location:duplicate:": {
+      "name": "updateWithState:location:duplicate:",
+      "bridgedName": "updateWithState_location_duplicate",
+      "args": [
+        {
+          "name": "state",
+          "type": "MSToolControllerState",
+          "nullable": false
+        },
+        {
+          "name": "location",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "duplicate",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "positioningTool": {
+      "name": "positioningTool",
+      "pointer": false,
+      "type": "MSLayerPositioningTool ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "duplicating": {
+      "name": "duplicating",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isDuplicating"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray<MSLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "originalLayers": {
+      "name": "originalLayers",
+      "pointer": false,
+      "type": "NSArray<MSLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "copy"
+      ]
+    },
+    "snappingEnabled": {
+      "name": "snappingEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "zoomScale": {
+      "name": "zoomScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "visibleRect": {
+      "name": "visibleRect",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "rulersAreVisible": {
+      "name": "rulersAreVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "alignmentAxis": {
+      "name": "alignmentAxis",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "snappingResult": {
+      "name": "snappingResult",
+      "pointer": false,
+      "type": "MSLayerSnappingResult ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "cursor": {
+      "name": "cursor",
+      "pointer": false,
+      "type": "NSCursor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "userInterface": {
+      "name": "userInterface",
+      "pointer": false,
+      "type": "id<MSDragLayerToolUserInterface>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

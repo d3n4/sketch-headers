@@ -1,0 +1,108 @@
+{
+  "protocol": true,
+  "name": "MSAssetPickerControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "assetPickerController:didSelectAsset:": {
+      "name": "assetPickerController:didSelectAsset:",
+      "bridgedName": "assetPickerController_didSelectAsset",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSAssetPickerController *",
+          "nullable": false
+        },
+        {
+          "name": "asset",
+          "type": "id<MSAsset>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layoutChangedForAssetPickerCollection:": {
+      "name": "layoutChangedForAssetPickerCollection:",
+      "bridgedName": "layoutChangedForAssetPickerCollection",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSAssetPickerController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetPickerController:didSelectDataSource:": {
+      "name": "assetPickerController:didSelectDataSource:",
+      "bridgedName": "assetPickerController_didSelectDataSource",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSAssetPickerController *",
+          "nullable": false
+        },
+        {
+          "name": "dataSource",
+          "type": "MSAssetCollectionViewDataSource *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustFirstResponder:": {
+      "name": "adjustFirstResponder:",
+      "bridgedName": "adjustFirstResponder",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSAssetPickerController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allowAlternativeDisplayModesForAssetPickerController:": {
+      "name": "allowAlternativeDisplayModesForAssetPickerController:",
+      "bridgedName": "allowAlternativeDisplayModesForAssetPickerController",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSAssetPickerController *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetPickerController:shouldChangeToDisplayMode:": {
+      "name": "assetPickerController:shouldChangeToDisplayMode:",
+      "bridgedName": "assetPickerController_shouldChangeToDisplayMode",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSAssetPickerController *",
+          "nullable": false
+        },
+        {
+          "name": "displayMode",
+          "type": "MSAssetPickerDisplayMode",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

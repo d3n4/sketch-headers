@@ -1,0 +1,8 @@
+{
+  "name": "MSWelcomeBottomFadeView",
+  "extends": "MSWelcomeTopFadeView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

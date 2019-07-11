@@ -1,0 +1,41 @@
+{
+  "name": "NSShadow",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "shadowWithColor:offset:blur:": {
+      "name": "shadowWithColor:offset:blur:",
+      "bridgedName": "shadowWithColor_offset_blur",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "offset",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "blur",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSShadow *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "clearShadow": {
+      "name": "clearShadow",
+      "bridgedName": "clearShadow",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

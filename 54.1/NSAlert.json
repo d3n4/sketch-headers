@@ -1,0 +1,105 @@
+{
+  "name": "NSAlert",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "runSheetWithMessage:info:buttons:": {
+      "name": "runSheetWithMessage:info:buttons:",
+      "bridgedName": "runSheetWithMessage_info_buttons",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "info",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "buttons",
+          "type": "nonnull NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "runModalWithMessage:info:buttons:": {
+      "name": "runModalWithMessage:info:buttons:",
+      "bridgedName": "runModalWithMessage_info_buttons",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "info",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "buttons",
+          "type": "nonnull NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSModalResponse",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "runModalSessionWithMessage:info:buttons:": {
+      "name": "runModalSessionWithMessage:info:buttons:",
+      "bridgedName": "runModalSessionWithMessage_info_buttons",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "info",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "buttons",
+          "type": "nonnull NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSModalResponse",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "alertWithMessage:info:buttons:": {
+      "name": "alertWithMessage:info:buttons:",
+      "bridgedName": "alertWithMessage_info_buttons",
+      "args": [
+        {
+          "name": "message",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "info",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "buttons",
+          "type": "nonnull NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSAlert *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

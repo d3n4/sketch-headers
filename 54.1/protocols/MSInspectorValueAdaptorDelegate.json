@@ -1,0 +1,71 @@
+{
+  "protocol": true,
+  "name": "MSInspectorValueAdaptorDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "inspectorValueAdaptor:validateValue:forModel:context:": {
+      "name": "inspectorValueAdaptor:validateValue:forModel:context:",
+      "bridgedName": "inspectorValueAdaptor_validateValue_forModel_context",
+      "args": [
+        {
+          "name": "adaptor",
+          "type": "MSInspectorValueAdaptor *",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "ModelValueType",
+          "nullable": false
+        },
+        {
+          "name": "model",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorValueAdaptorDidChangeValue:": {
+      "name": "inspectorValueAdaptorDidChangeValue:",
+      "bridgedName": "inspectorValueAdaptorDidChangeValue",
+      "args": [
+        {
+          "name": "adaptor",
+          "type": "MSInspectorValueAdaptor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorValueAdaptor:didEncounterError:": {
+      "name": "inspectorValueAdaptor:didEncounterError:",
+      "bridgedName": "inspectorValueAdaptor_didEncounterError",
+      "args": [
+        {
+          "name": "adaptor",
+          "type": "MSInspectorValueAdaptor *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSOrder",
+  "members": [
+    {
+      "name": "MSOrderedSmaller",
+      "value": "0"
+    },
+    {
+      "name": "MSOrderedLarger",
+      "value": "1"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "BCObjectPool",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithObjectCreatorBlock:": {
+      "name": "initWithObjectCreatorBlock:",
+      "bridgedName": "initWithObjectCreatorBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "id <NSObject> (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "vendObject": {
+      "name": "vendObject",
+      "bridgedName": "vendObject",
+      "args": [],
+      "returns": "id <NSObject>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "recycleObject:": {
+      "name": "recycleObject:",
+      "bridgedName": "recycleObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id <NSObject>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllObjects": {
+      "name": "removeAllObjects",
+      "bridgedName": "removeAllObjects",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "maximumPoolCount": {
+      "name": "maximumPoolCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "atomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSSharedSymbolStylesInspectorItem",
+  "extends": "MSSharedStylesInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

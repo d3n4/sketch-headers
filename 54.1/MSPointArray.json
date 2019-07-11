@@ -1,0 +1,99 @@
+{
+  "name": "MSPointArray",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "addPoint:": {
+      "name": "addPoint:",
+      "bridgedName": "addPoint",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertPoint:atIndex:": {
+      "name": "insertPoint:atIndex:",
+      "bridgedName": "insertPoint_atIndex",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "i",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointAtIndex:": {
+      "name": "pointAtIndex:",
+      "bridgedName": "pointAtIndex",
+      "args": [
+        {
+          "name": "i",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removePointAtIndex:": {
+      "name": "removePointAtIndex:",
+      "bridgedName": "removePointAtIndex",
+      "args": [
+        {
+          "name": "i",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "countOfPoints": {
+      "name": "countOfPoints",
+      "bridgedName": "countOfPoints",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replacePointAtIndex:withPoint:": {
+      "name": "replacePointAtIndex:withPoint:",
+      "bridgedName": "replacePointAtIndex_withPoint",
+      "args": [
+        {
+          "name": "i",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

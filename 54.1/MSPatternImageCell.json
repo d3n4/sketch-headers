@@ -1,0 +1,17 @@
+{
+  "name": "MSPatternImageCell",
+  "extends": "NSImageCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "tiled": {
+      "name": "tiled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

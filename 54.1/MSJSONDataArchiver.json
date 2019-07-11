@@ -1,0 +1,28 @@
+{
+  "name": "MSJSONDataArchiver",
+  "extends": "MSJSONArchiver",
+  "interfaces": [],
+  "methods": {
+    "archiveStringWithRootObject:error:": {
+      "name": "archiveStringWithRootObject:error:",
+      "bridgedName": "archiveStringWithRootObject_error",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

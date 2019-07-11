@@ -1,0 +1,221 @@
+{
+  "name": "MSColorInspector",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "presentColorInspectorPopoverForViewController:document:globalAssets:relativeToView:setupHandler:": {
+      "name": "presentColorInspectorPopoverForViewController:document:globalAssets:relativeToView:setupHandler:",
+      "bridgedName": "presentColorInspectorPopoverForViewController_document_globalAssets_relativeToView_setupHandler",
+      "args": [
+        {
+          "name": "viewController",
+          "type": "NSViewController<MSColorInspectorDelegate> *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "globalAssets",
+          "type": "MSPersistentAssetCollection *",
+          "nullable": false
+        },
+        {
+          "name": "positioningView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "setupHandler",
+          "type": "MSColorInspectorSetupBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "BCPopover *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "presentColorInspectorPopoverWithDelegate:document:globalAssets:relativeToView:setupHandler:": {
+      "name": "presentColorInspectorPopoverWithDelegate:document:globalAssets:relativeToView:setupHandler:",
+      "bridgedName": "presentColorInspectorPopoverWithDelegate_document_globalAssets_relativeToView_setupHandler",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSColorInspectorDelegate>",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "globalAssets",
+          "type": "MSPersistentAssetCollection *",
+          "nullable": false
+        },
+        {
+          "name": "positioningView",
+          "type": "NSView *",
+          "nullable": false
+        },
+        {
+          "name": "setupHandler",
+          "type": "MSColorInspectorSetupBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "BCPopover *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "validateEnableButtons": {
+      "name": "validateEnableButtons",
+      "bridgedName": "validateEnableButtons",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stack": {
+      "name": "stack",
+      "bridgedName": "stack",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setColor:": {
+      "name": "setColor:",
+      "bridgedName": "setColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setColorWithoutNotifying:": {
+      "name": "setColorWithoutNotifying:",
+      "bridgedName": "setColorWithoutNotifying",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshAction:": {
+      "name": "refreshAction:",
+      "bridgedName": "refreshAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorMagnifierAction:": {
+      "name": "colorMagnifierAction:",
+      "bridgedName": "colorMagnifierAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setInitialColor:": {
+      "name": "setInitialColor:",
+      "bridgedName": "setInitialColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setMaximumAvailableHeight:": {
+      "name": "setMaximumAvailableHeight:",
+      "bridgedName": "setMaximumAvailableHeight",
+      "args": [
+        {
+          "name": "maxHeight",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reflectEffectiveStyleParts": {
+      "name": "reflectEffectiveStyleParts",
+      "bridgedName": "reflectEffectiveStyleParts",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "revertToDefaultFirstResponder": {
+      "name": "revertToDefaultFirstResponder",
+      "bridgedName": "revertToDefaultFirstResponder",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "styleParts": {
+      "name": "styleParts",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSColorInspectorDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "colorModePickerController": {
+      "name": "colorModePickerController",
+      "pointer": false,
+      "type": "MSColorModePickerController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

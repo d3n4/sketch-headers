@@ -1,0 +1,35 @@
+{
+  "name": "MSGradientBarView",
+  "extends": "BCColorPickerSliderView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSGradientBarViewDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "gradient": {
+      "name": "gradient",
+      "pointer": false,
+      "type": "MSGradient ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "selectedStopIndex": {
+      "name": "selectedStopIndex",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

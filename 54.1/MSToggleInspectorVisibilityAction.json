@@ -1,0 +1,23 @@
+{
+  "name": "MSToggleInspectorVisibilityAction",
+  "extends": "MSToggleVisibilityAction",
+  "interfaces": [],
+  "methods": {
+    "toggleInspectorVisibility:": {
+      "name": "toggleInspectorVisibility:",
+      "bridgedName": "toggleInspectorVisibility",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

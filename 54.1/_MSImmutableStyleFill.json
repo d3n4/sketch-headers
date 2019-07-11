@@ -1,0 +1,60 @@
+{
+  "name": "_MSImmutableStyleFill",
+  "extends": "MSImmutableStyleBasicFill",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "noiseIndex": {
+      "name": "noiseIndex",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "noiseIntensity": {
+      "name": "noiseIntensity",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "patternFillType": {
+      "name": "patternFillType",
+      "pointer": false,
+      "type": "MSPatternFillType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "patternTileScale": {
+      "name": "patternTileScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

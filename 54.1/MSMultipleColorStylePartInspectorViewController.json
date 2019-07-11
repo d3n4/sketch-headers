@@ -1,0 +1,52 @@
+{
+  "name": "MSMultipleColorStylePartInspectorViewController",
+  "extends": "MSMultipleStylePartInspectorViewController",
+  "interfaces": [],
+  "methods": {
+    "openPopoverAtIndex:preferringNative:": {
+      "name": "openPopoverAtIndex:preferringNative:",
+      "bridgedName": "openPopoverAtIndex_preferringNative",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "prefersNative",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closePopoverImmediately:": {
+      "name": "closePopoverImmediately:",
+      "bridgedName": "closePopoverImmediately",
+      "args": [
+        {
+          "name": "immediately",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "currentPopoverIndex": {
+      "name": "currentPopoverIndex",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

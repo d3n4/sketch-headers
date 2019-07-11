@@ -1,0 +1,173 @@
+{
+  "name": "MSDataPreferenceItem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "preferenceItemForLocalData:": {
+      "name": "preferenceItemForLocalData:",
+      "bridgedName": "preferenceItemForLocalData",
+      "args": [
+        {
+          "name": "localData",
+          "type": "MSDataSupplierGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDataPreferenceItem*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "dataGroup": {
+      "name": "dataGroup",
+      "pointer": false,
+      "type": "__kindof MSDataSupplierGroup ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "namePlusPluginName": {
+      "name": "namePlusPluginName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "preview": {
+      "name": "preview",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "secondaryTitle": {
+      "name": "secondaryTitle",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nullable",
+        "readonly"
+      ]
+    },
+    "valid": {
+      "name": "valid",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "canRevealInFinder": {
+      "name": "canRevealInFinder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "localDataGroup": {
+      "name": "localDataGroup",
+      "pointer": false,
+      "type": "MSLocalDataSupplierGroup ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pluginDataGroup": {
+      "name": "pluginDataGroup",
+      "pointer": false,
+      "type": "MSPluginDataSupplierGroup ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "builtinDataGroup": {
+      "name": "builtinDataGroup",
+      "pointer": false,
+      "type": "MSBuiltinDataSupplierGroup ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canBeDeleted": {
+      "name": "canBeDeleted",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "pluginBundleIcon": {
+      "name": "pluginBundleIcon",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "primaryTextFieldColor": {
+      "name": "primaryTextFieldColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "secondaryTextFieldColor": {
+      "name": "secondaryTextFieldColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cellView": {
+      "name": "cellView",
+      "pointer": false,
+      "type": "MSDataTableCellView ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

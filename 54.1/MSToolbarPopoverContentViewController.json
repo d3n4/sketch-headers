@@ -1,0 +1,182 @@
+{
+  "name": "MSToolbarPopoverContentViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "initWithAction:": {
+      "name": "initWithAction:",
+      "bridgedName": "initWithAction",
+      "args": [
+        {
+          "name": "action",
+          "type": "MSPopoverAction *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeButtonWithTitle:action:": {
+      "name": "makeButtonWithTitle:action:",
+      "bridgedName": "makeButtonWithTitle_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSButton *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeActionButtonWithTitle:action:": {
+      "name": "makeActionButtonWithTitle:action:",
+      "bridgedName": "makeActionButtonWithTitle_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSButton *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makePopupButtonWithTitle:action:": {
+      "name": "makePopupButtonWithTitle:action:",
+      "bridgedName": "makePopupButtonWithTitle_action",
+      "args": [
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPopUpButton *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "newLabel": {
+      "name": "newLabel",
+      "bridgedName": "newLabel",
+      "args": [],
+      "returns": "NSTextField *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "animateFrameWithCompletionHandler:": {
+      "name": "animateFrameWithCompletionHandler:",
+      "bridgedName": "animateFrameWithCompletionHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "action": {
+      "name": "action",
+      "pointer": false,
+      "type": "MSPopoverAction ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "edgeInsets": {
+      "name": "edgeInsets",
+      "pointer": false,
+      "type": "NSEdgeInsets",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "stackView": {
+      "name": "stackView",
+      "pointer": false,
+      "type": "NSStackView ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "imageView": {
+      "name": "imageView",
+      "pointer": false,
+      "type": "NSImageView ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "titleLabel": {
+      "name": "titleLabel",
+      "pointer": false,
+      "type": "NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "descriptionLabel": {
+      "name": "descriptionLabel",
+      "pointer": false,
+      "type": "NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "actionView": {
+      "name": "actionView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "footerLabel": {
+      "name": "footerLabel",
+      "pointer": false,
+      "type": "NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

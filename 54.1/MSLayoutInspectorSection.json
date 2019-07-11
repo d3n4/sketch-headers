@@ -1,0 +1,8 @@
+{
+  "name": "MSLayoutInspectorSection",
+  "extends": "MSBaseInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

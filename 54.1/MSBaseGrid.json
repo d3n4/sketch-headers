@@ -1,0 +1,57 @@
+{
+  "name": "MSBaseGrid",
+  "extends": "_MSBaseGrid",
+  "interfaces": [],
+  "methods": {
+    "verticalGuidesForRulerData:inRect:": {
+      "name": "verticalGuidesForRulerData:inRect:",
+      "bridgedName": "verticalGuidesForRulerData_inRect",
+      "args": [
+        {
+          "name": "ruler",
+          "type": "MSRulerData *",
+          "nullable": false
+        },
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "horizontalGuidesForRulerData:inRect:": {
+      "name": "horizontalGuidesForRulerData:inRect:",
+      "bridgedName": "horizontalGuidesForRulerData_inRect",
+      "args": [
+        {
+          "name": "ruler",
+          "type": "MSRulerData *",
+          "nullable": false
+        },
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "forceDraw": {
+      "name": "forceDraw",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

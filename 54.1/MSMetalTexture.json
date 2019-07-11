@@ -1,0 +1,35 @@
+{
+  "name": "MSMetalTexture",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSGPUTexture"
+  ],
+  "methods": {
+    "initWithMetalTexture:": {
+      "name": "initWithMetalTexture:",
+      "bridgedName": "initWithMetalTexture",
+      "args": [
+        {
+          "name": "texture",
+          "type": "nonnull id<MTLTexture>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "metalTexture": {
+      "name": "metalTexture",
+      "pointer": false,
+      "type": "id<MTLTexture>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

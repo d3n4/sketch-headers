@@ -1,0 +1,25 @@
+{
+  "name": "MSAssetCollectionLayoutAttributes",
+  "extends": "NSCollectionViewLayoutAttributes",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "displayMode": {
+      "name": "displayMode",
+      "pointer": false,
+      "type": "MSAssetPickerDisplayMode",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "itemSizeMode": {
+      "name": "itemSizeMode",
+      "pointer": false,
+      "type": "MSAssetPickerItemSizeMode",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,65 @@
+{
+  "protocol": true,
+  "name": "MSColorConverter",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "convertColor:": {
+      "name": "convertColor:",
+      "bridgedName": "convertColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertImmutableColor:": {
+      "name": "convertImmutableColor:",
+      "bridgedName": "convertImmutableColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldConvertColor:": {
+      "name": "shouldConvertColor:",
+      "bridgedName": "shouldConvertColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldConvertImmutableColor:": {
+      "name": "shouldConvertImmutableColor:",
+      "bridgedName": "shouldConvertImmutableColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,47 @@
+{
+  "name": "MSColorWell",
+  "extends": "MSStylePartPreviewButton",
+  "interfaces": [],
+  "methods": {
+    "prepareWithDocument:initialColor:": {
+      "name": "prepareWithDocument:initialColor:",
+      "bridgedName": "prepareWithDocument_initialColor",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "initialColor": {
+      "name": "initialColor",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSColorWellDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

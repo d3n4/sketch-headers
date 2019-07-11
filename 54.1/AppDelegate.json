@@ -1,0 +1,19 @@
+{
+  "name": "AppDelegate",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSApplicationDelegate"
+  ],
+  "methods": {},
+  "properties": {
+    "window": {
+      "name": "window",
+      "pointer": false,
+      "type": "IBOutlet NSWindow ",
+      "attributes": [
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

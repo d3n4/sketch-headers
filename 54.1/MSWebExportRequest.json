@@ -1,0 +1,52 @@
+{
+  "name": "MSWebExportRequest",
+  "extends": "MSExportRequest",
+  "interfaces": [],
+  "methods": {
+    "webExportRequestForRootLayer:inDocument:atScale:": {
+      "name": "webExportRequestForRootLayer:inDocument:atScale:",
+      "bridgedName": "webExportRequestForRootLayer_inDocument_atScale",
+      "args": [
+        {
+          "name": "rootLayer",
+          "type": "MSImmutableLayer<MSWebExportableRootLayer> *",
+          "nullable": false
+        },
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "rootLayer": {
+      "name": "rootLayer",
+      "pointer": false,
+      "type": "MSImmutableLayer<MSWebExportableRootLayer> ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "layerBehavior": {
+      "name": "layerBehavior",
+      "pointer": false,
+      "type": "MSWebExportLayerBehavior",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

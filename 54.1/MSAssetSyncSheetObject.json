@@ -1,0 +1,58 @@
+{
+  "name": "MSAssetSyncSheetObject",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSAssetSyncSheetItem"
+  ],
+  "methods": {},
+  "properties": {
+    "foreignObject": {
+      "name": "foreignObject",
+      "pointer": false,
+      "type": "__kindof MSForeignObject ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "libraryMaster": {
+      "name": "libraryMaster",
+      "pointer": false,
+      "type": "__kindof MSShareableObject ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "shouldSync": {
+      "name": "shouldSync",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "tooltipForLocal": {
+      "name": "tooltipForLocal",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "tooltipForRemote": {
+      "name": "tooltipForRemote",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

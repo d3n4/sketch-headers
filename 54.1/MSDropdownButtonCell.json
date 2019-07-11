@@ -1,0 +1,8 @@
+{
+  "name": "MSDropdownButtonCell",
+  "extends": "MSInspectorPushButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

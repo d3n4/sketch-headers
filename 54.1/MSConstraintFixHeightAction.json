@@ -1,0 +1,23 @@
+{
+  "name": "MSConstraintFixHeightAction",
+  "extends": "MSConstraintAction",
+  "interfaces": [],
+  "methods": {
+    "fixHeightAction:": {
+      "name": "fixHeightAction:",
+      "bridgedName": "fixHeightAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

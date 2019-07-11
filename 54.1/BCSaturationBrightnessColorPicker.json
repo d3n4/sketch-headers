@@ -1,0 +1,8 @@
+{
+  "name": "BCSaturationBrightnessColorPicker",
+  "extends": "BCColorPickerBaseView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

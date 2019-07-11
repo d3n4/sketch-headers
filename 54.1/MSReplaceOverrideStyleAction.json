@@ -1,0 +1,30 @@
+{
+  "name": "MSReplaceOverrideStyleAction",
+  "extends": "MSOverrideAction",
+  "interfaces": [
+    "MSReplaceOverride"
+  ],
+  "methods": {
+    "applyStyleOverride:fromMenuItem:": {
+      "name": "applyStyleOverride:fromMenuItem:",
+      "bridgedName": "applyStyleOverride_fromMenuItem",
+      "args": [
+        {
+          "name": "override",
+          "type": "MSAvailableOverride *",
+          "nullable": false
+        },
+        {
+          "name": "item",
+          "type": "NSMenuItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSRotateClockwiseAction",
+  "extends": "MSEventHandlerAction",
+  "interfaces": [],
+  "methods": {
+    "rotate90C:": {
+      "name": "rotate90C:",
+      "bridgedName": "rotate90C",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

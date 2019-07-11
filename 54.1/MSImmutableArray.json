@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableArray",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

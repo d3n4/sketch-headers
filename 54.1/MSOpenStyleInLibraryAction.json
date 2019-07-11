@@ -1,0 +1,23 @@
+{
+  "name": "MSOpenStyleInLibraryAction",
+  "extends": "MSOpenInLibraryAction",
+  "interfaces": [],
+  "methods": {
+    "openLibraryForStyles:": {
+      "name": "openLibraryForStyles:",
+      "bridgedName": "openLibraryForStyles",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,81 @@
+{
+  "name": "_MSImmutableTextLayer",
+  "extends": "MSImmutableStyledLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "attributedString": {
+      "name": "attributedString",
+      "pointer": false,
+      "type": "MSAttributedString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "automaticallyDrawOnUnderlyingPath": {
+      "name": "automaticallyDrawOnUnderlyingPath",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dontSynchroniseWithSymbol": {
+      "name": "dontSynchroniseWithSymbol",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "glyphBounds": {
+      "name": "glyphBounds",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lineSpacingBehaviour": {
+      "name": "lineSpacingBehaviour",
+      "pointer": false,
+      "type": "BCTextLineSpacingBehaviourType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "preview": {
+      "name": "preview",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "textBehaviour": {
+      "name": "textBehaviour",
+      "pointer": false,
+      "type": "BCTextBehaviourType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

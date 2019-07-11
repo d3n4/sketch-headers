@@ -1,0 +1,87 @@
+{
+  "protocol": true,
+  "name": "MSColorInspectorImageDataControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "imageDataController:didChooseDataSupplier:": {
+      "name": "imageDataController:didChooseDataSupplier:",
+      "bridgedName": "imageDataController_didChooseDataSupplier",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSColorInspectorImageDataController *",
+          "nullable": false
+        },
+        {
+          "name": "dataSupplier",
+          "type": "MSDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageDataControllerDidRefreshData:": {
+      "name": "imageDataControllerDidRefreshData:",
+      "bridgedName": "imageDataControllerDidRefreshData",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSColorInspectorImageDataController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageDataControllerDidClearData:": {
+      "name": "imageDataControllerDidClearData:",
+      "bridgedName": "imageDataControllerDidClearData",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSColorInspectorImageDataController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageDataControllerMenuDidClose:": {
+      "name": "imageDataControllerMenuDidClose:",
+      "bridgedName": "imageDataControllerMenuDidClose",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSColorInspectorImageDataController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "usableSupplierIdentifiers": {
+      "name": "usableSupplierIdentifiers",
+      "bridgedName": "usableSupplierIdentifiers",
+      "args": [],
+      "returns": "NSArray <NSString *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dataSupplierManager": {
+      "name": "dataSupplierManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  }
+}

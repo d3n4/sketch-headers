@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSInspectorFlowHandlerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "documentForFlowHandler:": {
+      "name": "documentForFlowHandler:",
+      "bridgedName": "documentForFlowHandler",
+      "args": [
+        {
+          "name": "flowHandler",
+          "type": "MSInspectorFlowHandler *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDocument *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layersForFlowHandler:": {
+      "name": "layersForFlowHandler:",
+      "bridgedName": "layersForFlowHandler",
+      "args": [
+        {
+          "name": "flowHandler",
+          "type": "MSInspectorFlowHandler *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,118 @@
+{
+  "name": "MSAlignmentEngineConstraint",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "constraintWithSourcePoint:toPoint:": {
+      "name": "constraintWithSourcePoint:toPoint:",
+      "bridgedName": "constraintWithSourcePoint_toPoint",
+      "args": [
+        {
+          "name": "sourcePoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "point2",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "axisAlignedOrDiagonalConstraintFromPoint:toPoint:": {
+      "name": "axisAlignedOrDiagonalConstraintFromPoint:toPoint:",
+      "bridgedName": "axisAlignedOrDiagonalConstraintFromPoint_toPoint",
+      "args": [
+        {
+          "name": "sourcePoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "unsnappedDestination",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithPoint:direction:": {
+      "name": "initWithPoint:direction:",
+      "bridgedName": "initWithPoint_direction",
+      "args": [
+        {
+          "name": "sourcePoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "direction",
+          "type": "CGVector",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "constraintByApplyingTransform:": {
+      "name": "constraintByApplyingTransform:",
+      "bridgedName": "constraintByApplyingTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "MSAlignmentEngineConstraint *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "sourcePoint": {
+      "name": "sourcePoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "direction": {
+      "name": "direction",
+      "pointer": false,
+      "type": "CGVector",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "line": {
+      "name": "line",
+      "pointer": false,
+      "type": "BCLine",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

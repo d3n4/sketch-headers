@@ -1,0 +1,18 @@
+{
+  "protocol": true,
+  "name": "BCSortable",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

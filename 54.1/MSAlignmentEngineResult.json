@@ -1,0 +1,92 @@
+{
+  "name": "MSAlignmentEngineResult",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithPoint:guides:snappedAxes:": {
+      "name": "initWithPoint:guides:snappedAxes:",
+      "bridgedName": "initWithPoint_guides_snappedAxes",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "guides",
+          "type": "NSArray <MSAlignmentEngineResultGuide *> *",
+          "nullable": false
+        },
+        {
+          "name": "axes",
+          "type": "BCAxisMask",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "snappingResultWithPoint:": {
+      "name": "snappingResultWithPoint:",
+      "bridgedName": "snappingResultWithPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawAtZoomValue:": {
+      "name": "drawAtZoomValue:",
+      "bridgedName": "drawAtZoomValue",
+      "args": [
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "point": {
+      "name": "point",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "guides": {
+      "name": "guides",
+      "pointer": false,
+      "type": "NSArray <MSAlignmentEngineResultGuide *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "snappedAxes": {
+      "name": "snappedAxes",
+      "pointer": false,
+      "type": "BCAxisMask",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "BITLogLevel",
+  "members": [
+    {
+      "name": "BITLogLevelNone",
+      "value": "0"
+    },
+    {
+      "name": "BITLogLevelError",
+      "value": "1"
+    },
+    {
+      "name": "BITLogLevelWarning",
+      "value": "2"
+    },
+    {
+      "name": "BITLogLevelDebug",
+      "value": "3"
+    },
+    {
+      "name": "BITLogLevelVerbose",
+      "value": "4"
+    }
+  ]
+}

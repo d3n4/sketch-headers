@@ -1,0 +1,168 @@
+{
+  "name": "MSImmutableLayerAncestry",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithLayer:document:": {
+      "name": "initWithLayer:document:",
+      "bridgedName": "initWithLayer_document",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithLayer:ancestors:document:": {
+      "name": "initWithLayer:ancestors:document:",
+      "bridgedName": "initWithLayer_ancestors_document",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        },
+        {
+          "name": "ancestors",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ancestryWithMSLayer:": {
+      "name": "ancestryWithMSLayer:",
+      "bridgedName": "ancestryWithMSLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithMSLayer:": {
+      "name": "initWithMSLayer:",
+      "bridgedName": "initWithMSLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "absoluteRect": {
+      "name": "absoluteRect",
+      "bridgedName": "absoluteRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layer": {
+      "name": "layer",
+      "pointer": false,
+      "type": "MSImmutableLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "page": {
+      "name": "page",
+      "pointer": false,
+      "type": "MSImmutablePage ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "parentGroup": {
+      "name": "parentGroup",
+      "pointer": false,
+      "type": "MSImmutableLayerGroup ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "artboard": {
+      "name": "artboard",
+      "pointer": false,
+      "type": "MSImmutableArtboardGroup ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "ancestors": {
+      "name": "ancestors",
+      "pointer": false,
+      "type": "NSArray <__kindof MSImmutableLayerGroup *> ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "ancestorsAndSelf": {
+      "name": "ancestorsAndSelf",
+      "pointer": false,
+      "type": "NSArray <__kindof MSImmutableLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "hash": {
+      "name": "hash",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

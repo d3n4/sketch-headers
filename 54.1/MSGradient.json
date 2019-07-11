@@ -1,0 +1,242 @@
+{
+  "name": "MSGradient",
+  "extends": "_MSGradient",
+  "interfaces": [],
+  "methods": {
+    "NSGradientWithColorSpace:": {
+      "name": "NSGradientWithColorSpace:",
+      "bridgedName": "NSGradientWithColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSGradient *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initBlankGradient": {
+      "name": "initBlankGradient",
+      "bridgedName": "initBlankGradient",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithNSGradient:": {
+      "name": "initWithNSGradient:",
+      "bridgedName": "initWithNSGradient",
+      "args": [
+        {
+          "name": "nsGradient",
+          "type": "NSGradient *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "conditionedEllipseLength": {
+      "name": "conditionedEllipseLength",
+      "bridgedName": "conditionedEllipseLength",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointAtIndex:": {
+      "name": "pointAtIndex:",
+      "bridgedName": "pointAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setPoint:atIndex:": {
+      "name": "setPoint:atIndex:",
+      "bridgedName": "setPoint_atIndex",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorAtIndex:": {
+      "name": "colorAtIndex:",
+      "bridgedName": "colorAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "MSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setColor:atIndex:": {
+      "name": "setColor:atIndex:",
+      "bridgedName": "setColor_atIndex",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStopAtPosition:": {
+      "name": "addStopAtPosition:",
+      "bridgedName": "addStopAtPosition",
+      "args": [
+        {
+          "name": "relativePoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStopAtLength:": {
+      "name": "addStopAtLength:",
+      "bridgedName": "addStopAtLength",
+      "args": [
+        {
+          "name": "position",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStopAtIndex:": {
+      "name": "removeStopAtIndex:",
+      "bridgedName": "removeStopAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertPointToPosition:": {
+      "name": "convertPointToPosition:",
+      "bridgedName": "convertPointToPosition",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stopAtIndex:": {
+      "name": "stopAtIndex:",
+      "bridgedName": "stopAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "MSGradientStop *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invert": {
+      "name": "invert",
+      "bridgedName": "invert",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rotatePointsBy:": {
+      "name": "rotatePointsBy:",
+      "bridgedName": "rotatePointsBy",
+      "args": [
+        {
+          "name": "degrees",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasOpacity": {
+      "name": "hasOpacity",
+      "bridgedName": "hasOpacity",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "CSSAttributeStringWithMasterAlpha:": {
+      "name": "CSSAttributeStringWithMasterAlpha:",
+      "bridgedName": "CSSAttributeStringWithMasterAlpha",
+      "args": [
+        {
+          "name": "masterAlpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "svgPositionIsAbsolute": {
+      "name": "svgPositionIsAbsolute",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

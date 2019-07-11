@@ -1,0 +1,33 @@
+{
+  "protocol": true,
+  "name": "BCLicenseOperationResult",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "initWithDictionary:applicationID:publicCertificate:": {
+      "name": "initWithDictionary:applicationID:publicCertificate:",
+      "bridgedName": "initWithDictionary_applicationID_publicCertificate",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "NSDictionary*",
+          "nullable": true
+        },
+        {
+          "name": "applicationID",
+          "type": "NSString*",
+          "nullable": true
+        },
+        {
+          "name": "certificate",
+          "type": "NSString*",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

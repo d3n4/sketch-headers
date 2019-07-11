@@ -1,0 +1,221 @@
+{
+  "name": "MSFlexibleColor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "colorWithRed:green:blue:alpha:": {
+      "name": "colorWithRed:green:blue:alpha:",
+      "bridgedName": "colorWithRed_green_blue_alpha",
+      "args": [
+        {
+          "name": "red",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "green",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "blue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id _Nonnull",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorWithHue:sat:bright:alpha:": {
+      "name": "colorWithHue:sat:bright:alpha:",
+      "bridgedName": "colorWithHue_sat_bright_alpha",
+      "args": [
+        {
+          "name": "hue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "sat",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "bright",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id _Nonnull",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorWithHue:sat:lightness:alpha:": {
+      "name": "colorWithHue:sat:lightness:alpha:",
+      "bridgedName": "colorWithHue_sat_lightness_alpha",
+      "args": [
+        {
+          "name": "hue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "sat",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "lightness",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "id _Nonnull",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "getRed:green:blue:alpha:": {
+      "name": "getRed:green:blue:alpha:",
+      "bridgedName": "getRed_green_blue_alpha",
+      "args": [
+        {
+          "name": "red",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "green",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "blue",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getHue:saturation:brightness:alpha:": {
+      "name": "getHue:saturation:brightness:alpha:",
+      "bridgedName": "getHue_saturation_brightness_alpha",
+      "args": [
+        {
+          "name": "hue",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "saturation",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "brightness",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getHue:saturation:lightness:alpha:": {
+      "name": "getHue:saturation:lightness:alpha:",
+      "bridgedName": "getHue_saturation_lightness_alpha",
+      "args": [
+        {
+          "name": "hue",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "saturation",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "lightness",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorForColorSpace:": {
+      "name": "colorForColorSpace:",
+      "bridgedName": "colorForColorSpace",
+      "args": [
+        {
+          "name": "space",
+          "type": "NSColorSpace * _Nonnull",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *_Nonnull ",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "msColor": {
+      "name": "msColor",
+      "bridgedName": "msColor",
+      "args": [],
+      "returns": "MSColor * _Nonnull",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype _Nonnull",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "new NS_UNAVAILABLE": {
+      "name": "new NS_UNAVAILABLE",
+      "bridgedName": "new NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype _Nonnull",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

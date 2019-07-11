@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorHeaderLabelButtonCell",
+  "extends": "MSInspectorTweakedTextRectPopUpButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

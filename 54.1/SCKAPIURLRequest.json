@@ -1,0 +1,131 @@
+{
+  "name": "SCKAPIURLRequest",
+  "extends": "NSMutableURLRequest",
+  "interfaces": [
+    "SCKAPIRequest"
+  ],
+  "methods": {
+    "baseURLForEnvironment:": {
+      "name": "baseURLForEnvironment:",
+      "bridgedName": "baseURLForEnvironment",
+      "args": [
+        {
+          "name": "environment",
+          "type": "SCKAPIEnvironment *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "requestWithPath:queryItems:environment:": {
+      "name": "requestWithPath:queryItems:environment:",
+      "bridgedName": "requestWithPath_queryItems_environment",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "NSDictionary<NSString *, NSString *> *",
+          "nullable": true
+        },
+        {
+          "name": "environment",
+          "type": "SCKAPIEnvironment *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "requestWithPath:environment:": {
+      "name": "requestWithPath:environment:",
+      "bridgedName": "requestWithPath_environment",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "environment",
+          "type": "SCKAPIEnvironment *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "requestWithPath:": {
+      "name": "requestWithPath:",
+      "bridgedName": "requestWithPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "environment": {
+      "name": "environment",
+      "pointer": false,
+      "type": "SCKAPIEnvironment ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "copy"
+      ]
+    },
+    "authentication": {
+      "name": "authentication",
+      "pointer": false,
+      "type": "SCKAPISession ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "body": {
+      "name": "body",
+      "pointer": false,
+      "type": "id<SCKAPISignable>",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "resultType": {
+      "name": "resultType",
+      "pointer": false,
+      "type": "Class",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "assign"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "SCKAPIURLRequestType",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

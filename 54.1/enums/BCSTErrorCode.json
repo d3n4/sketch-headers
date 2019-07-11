@@ -1,0 +1,30 @@
+{
+  "enum": true,
+  "name": "BCSTErrorCode",
+  "members": [
+    {
+      "name": "BCSTNoError"
+    },
+    {
+      "name": "BCSTExportFailed"
+    },
+    {
+      "name": "BCSTBadBoundsFormat"
+    },
+    {
+      "name": "BCSTDocumentTooNew"
+    },
+    {
+      "name": "BCSTUnknownFolderType"
+    },
+    {
+      "name": "BCSTMissingReleaseNotes"
+    },
+    {
+      "name": "BCSTFailedToLaunchSketch"
+    },
+    {
+      "name": "BCSTTimedOutWaitingForSketch"
+    }
+  ]
+}

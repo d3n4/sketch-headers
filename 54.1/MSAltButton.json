@@ -1,0 +1,19 @@
+{
+  "name": "MSAltButton",
+  "extends": "MSHoverButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "bc_weakTarget": {
+      "name": "bc_weakTarget",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

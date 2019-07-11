@@ -1,0 +1,19 @@
+{
+  "name": "NSProcessInfo",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "runningTests": {
+      "name": "runningTests",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "class",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

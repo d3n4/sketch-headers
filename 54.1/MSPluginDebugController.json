@@ -1,0 +1,10 @@
+{
+  "name": "MSPluginDebugController",
+  "extends": "NSObject",
+  "interfaces": [
+    "CODebugController"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

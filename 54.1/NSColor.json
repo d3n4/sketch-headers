@@ -1,0 +1,203 @@
+{
+  "name": "NSColor",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorWithGray:": {
+      "name": "colorWithGray:",
+      "bridgedName": "colorWithGray",
+      "args": [
+        {
+          "name": "gray",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorWithGray:alpha:": {
+      "name": "colorWithGray:alpha:",
+      "bridgedName": "colorWithGray_alpha",
+      "args": [
+        {
+          "name": "gray",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fuzzyIsEqual:": {
+      "name": "fuzzyIsEqual:",
+      "bridgedName": "fuzzyIsEqual",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "newCGColor": {
+      "name": "newCGColor",
+      "bridgedName": "newCGColor",
+      "args": [],
+      "returns": "CGColorRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isWhite": {
+      "name": "isWhite",
+      "bridgedName": "isWhite",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tintColorIntense": {
+      "name": "tintColorIntense",
+      "bridgedName": "tintColorIntense",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintColorIntenseDark": {
+      "name": "tintColorIntenseDark",
+      "bridgedName": "tintColorIntenseDark",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintColorNormal": {
+      "name": "tintColorNormal",
+      "bridgedName": "tintColorNormal",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintColorNormalDark": {
+      "name": "tintColorNormalDark",
+      "bridgedName": "tintColorNormalDark",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintColorMild": {
+      "name": "tintColorMild",
+      "bridgedName": "tintColorMild",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "tintColorMildDark": {
+      "name": "tintColorMildDark",
+      "bridgedName": "tintColorMildDark",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorByApplyingModifier:": {
+      "name": "colorByApplyingModifier:",
+      "bridgedName": "colorByApplyingModifier",
+      "args": [
+        {
+          "name": "modifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorByApplyingModifiers:": {
+      "name": "colorByApplyingModifiers:",
+      "bridgedName": "colorByApplyingModifiers",
+      "args": [
+        {
+          "name": "modifiers",
+          "type": "NSArray<NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "highlightedColor": {
+      "name": "highlightedColor",
+      "bridgedName": "highlightedColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringValueWithAlpha:": {
+      "name": "stringValueWithAlpha:",
+      "bridgedName": "stringValueWithAlpha",
+      "args": [
+        {
+          "name": "includeAlpha",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hexValue": {
+      "name": "hexValue",
+      "bridgedName": "hexValue",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorTranslatedToColorSpace:": {
+      "name": "colorTranslatedToColorSpace:",
+      "bridgedName": "colorTranslatedToColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "manifestComponents": {
+      "name": "manifestComponents",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

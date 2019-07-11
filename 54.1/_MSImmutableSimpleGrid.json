@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableSimpleGrid",
+  "extends": "MSImmutableBaseGrid",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "gridSize": {
+      "name": "gridSize",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "thickGridTimes": {
+      "name": "thickGridTimes",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

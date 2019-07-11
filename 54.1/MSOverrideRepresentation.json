@@ -1,0 +1,141 @@
+{
+  "name": "MSOverrideRepresentation",
+  "extends": "MSOverrideRepresentationBase",
+  "interfaces": [],
+  "methods": {
+    "copyAffectedLayerForPasteboard": {
+      "name": "copyAffectedLayerForPasteboard",
+      "bridgedName": "copyAffectedLayerForPasteboard",
+      "args": [],
+      "returns": "__kindof MSLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateExpandedStateAfterSelection": {
+      "name": "updateExpandedStateAfterSelection",
+      "bridgedName": "updateExpandedStateAfterSelection",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createOverrideViewController": {
+      "name": "createOverrideViewController",
+      "bridgedName": "createOverrideViewController",
+      "args": [],
+      "returns": "MSOverrideInspectorItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overrideViewControllerHeightWithLayers:shouldShowLabel:indentationLevel:": {
+      "name": "overrideViewControllerHeightWithLayers:shouldShowLabel:indentationLevel:",
+      "bridgedName": "overrideViewControllerHeightWithLayers_shouldShowLabel_indentationLevel",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "shouldShowLabel",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "indentationLevel",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "availableOverride": {
+      "name": "availableOverride",
+      "pointer": false,
+      "type": "MSAvailableOverride ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "parent": {
+      "name": "parent",
+      "pointer": false,
+      "type": "__kindof MSOverrideRepresentationBase ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "weak"
+      ]
+    },
+    "previousSibling": {
+      "name": "previousSibling",
+      "pointer": false,
+      "type": "MSOverrideRepresentation ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    },
+    "pathInInstance": {
+      "name": "pathInInstance",
+      "pointer": false,
+      "type": "CGPathRef",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerListExpandedType": {
+      "name": "layerListExpandedType",
+      "pointer": false,
+      "type": "MSLayerListStatus",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isEditable": {
+      "name": "isEditable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectionID": {
+      "name": "selectionID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isSelected": {
+      "name": "isSelected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isAtRootLevel": {
+      "name": "isAtRootLevel",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,25 @@
+{
+  "protocol": true,
+  "name": "MSTextLayerEditingDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "adjustTextViewFrame": {
+      "name": "adjustTextViewFrame",
+      "bridgedName": "adjustTextViewFrame",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustForegroundColor": {
+      "name": "adjustForegroundColor",
+      "bridgedName": "adjustForegroundColor",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

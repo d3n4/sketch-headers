@@ -1,0 +1,75 @@
+{
+  "protocol": true,
+  "name": "MSInspectorItemProvider",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "vendItemAtIndex:": {
+      "name": "vendItemAtIndex:",
+      "bridgedName": "vendItemAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSViewController *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "recycleItem:": {
+      "name": "recycleItem:",
+      "bridgedName": "recycleItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "nonnull NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "heightOfItemViewAtIndex:": {
+      "name": "heightOfItemViewAtIndex:",
+      "bridgedName": "heightOfItemViewAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "wantSeparatorAtIndex:": {
+      "name": "wantSeparatorAtIndex:",
+      "bridgedName": "wantSeparatorAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "numberOfItems": {
+      "name": "numberOfItems",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

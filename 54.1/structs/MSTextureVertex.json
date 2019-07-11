@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "MSTextureVertex",
+  "members": [
+    {
+      "name": "xy",
+      "pointer": false,
+      "type": "simd_float2"
+    },
+    {
+      "name": "uv",
+      "pointer": false,
+      "type": "simd_float2"
+    },
+    {
+      "name": "st",
+      "pointer": false,
+      "type": "simd_float2"
+    }
+  ]
+}

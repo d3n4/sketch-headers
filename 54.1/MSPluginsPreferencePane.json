@@ -1,0 +1,280 @@
+{
+  "name": "MSPluginsPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [
+    "NSTextFieldDelegate"
+  ],
+  "methods": {
+    "getPlugins:": {
+      "name": "getPlugins:",
+      "bridgedName": "getPlugins",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "togglePluginEnabled:": {
+      "name": "togglePluginEnabled:",
+      "bridgedName": "togglePluginEnabled",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tableContextMenu:": {
+      "name": "tableContextMenu:",
+      "bridgedName": "tableContextMenu",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openPluginsFolder:": {
+      "name": "openPluginsFolder:",
+      "bridgedName": "openPluginsFolder",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installPluginUpdates:": {
+      "name": "installPluginUpdates:",
+      "bridgedName": "installPluginUpdates",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installPluginUpdate:": {
+      "name": "installPluginUpdate:",
+      "bridgedName": "installPluginUpdate",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openPluginURL:": {
+      "name": "openPluginURL:",
+      "bridgedName": "openPluginURL",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "activateSearchField:": {
+      "name": "activateSearchField:",
+      "bridgedName": "activateSearchField",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openWithPluginToHighlight:": {
+      "name": "openWithPluginToHighlight:",
+      "bridgedName": "openWithPluginToHighlight",
+      "args": [
+        {
+          "name": "pluginIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "pluginsArrayController": {
+      "name": "pluginsArrayController",
+      "pointer": false,
+      "type": "IBOutlet NSArrayController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "pluginSortDescriptors": {
+      "name": "pluginSortDescriptors",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "filteredPlugins": {
+      "name": "filteredPlugins",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "pluginFilterPredicate": {
+      "name": "pluginFilterPredicate",
+      "pointer": false,
+      "type": "NSPredicate ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "zeroPluginsImage": {
+      "name": "zeroPluginsImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "zeroPluginsTitle": {
+      "name": "zeroPluginsTitle",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "zeroPluginsTitleFont": {
+      "name": "zeroPluginsTitleFont",
+      "pointer": false,
+      "type": "NSFont ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "zeroPluginsText": {
+      "name": "zeroPluginsText",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "filterTextField": {
+      "name": "filterTextField",
+      "pointer": false,
+      "type": "IBOutlet NSSearchField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "tableView": {
+      "name": "tableView",
+      "pointer": false,
+      "type": "IBOutlet BCKeyEventActionTableView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "getPluginsButton": {
+      "name": "getPluginsButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "contextMenuControl": {
+      "name": "contextMenuControl",
+      "pointer": false,
+      "type": "IBOutlet NSControl ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "contextMenu": {
+      "name": "contextMenu",
+      "pointer": false,
+      "type": "IBOutlet NSMenu ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "spyglassFilterButton": {
+      "name": "spyglassFilterButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "enableUpdateAllButton": {
+      "name": "enableUpdateAllButton",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

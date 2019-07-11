@@ -1,0 +1,148 @@
+{
+  "name": "MSImmutableStyleBorder",
+  "extends": "_MSImmutableStyleBorder",
+  "interfaces": [],
+  "methods": {
+    "drawBorder:advancedOptions:applyClip:context:": {
+      "name": "drawBorder:advancedOptions:applyClip:context:",
+      "bridgedName": "drawBorder_advancedOptions_applyClip_context",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "advanced",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        },
+        {
+          "name": "canClip",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawGradientBorder:advancedOptions:originalPath:isArtistic:frame:context:": {
+      "name": "drawGradientBorder:advancedOptions:originalPath:isArtistic:frame:context:",
+      "bridgedName": "drawGradientBorder_advancedOptions_originalPath_isArtistic_frame_context",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "advanced",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        },
+        {
+          "name": "original",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "isArtistic",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pathWithExporter:": {
+      "name": "pathWithExporter:",
+      "bridgedName": "pathWithExporter",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "requiresMask:": {
+      "name": "requiresMask:",
+      "bridgedName": "requiresMask",
+      "args": [
+        {
+          "name": "borderOptions",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "needsOutlinePath:": {
+      "name": "needsOutlinePath:",
+      "bridgedName": "needsOutlinePath",
+      "args": [
+        {
+          "name": "borderOptions",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSVGAttributes:exporter:": {
+      "name": "addSVGAttributes:exporter:",
+      "bridgedName": "addSVGAttributes_exporter",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSMutableArray*",
+          "nullable": false
+        },
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "borderInset": {
+      "name": "borderInset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

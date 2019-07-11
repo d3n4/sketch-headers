@@ -1,0 +1,87 @@
+{
+  "name": "SCKAPIOperation",
+  "extends": "BCURLOperation",
+  "interfaces": [],
+  "methods": {
+    "initWithRequest:)": {
+      "name": "initWithRequest:)",
+      "bridgedName": "initWithRequest_)",
+      "args": [
+        {
+          "name": "request",
+          "type": "id<SCKAPIRequest>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshAuthentication": {
+      "name": "refreshAuthentication",
+      "bridgedName": "refreshAuthentication",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processData:response:error:": {
+      "name": "processData:response:error:",
+      "bridgedName": "processData_response_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": true
+        },
+        {
+          "name": "response",
+          "type": "NSHTTPURLResponse *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "clientID": {
+      "name": "clientID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "nullable",
+        "strong"
+      ]
+    },
+    "request": {
+      "name": "request",
+      "pointer": false,
+      "type": "id<SCKAPIRequest>",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "atomic",
+        "strong",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

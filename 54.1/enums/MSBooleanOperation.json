@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "MSBooleanOperation",
+  "members": [
+    {
+      "name": "MSBooleanOperationNone",
+      "value": "-1"
+    },
+    {
+      "name": "MSBooleanOperationUnion",
+      "value": "0"
+    },
+    {
+      "name": "MSBooleanOperationSubtract",
+      "value": "1"
+    },
+    {
+      "name": "MSBooleanOperationIntersect",
+      "value": "2"
+    },
+    {
+      "name": "MSBooleanOperationDifference",
+      "value": "3"
+    }
+  ]
+}

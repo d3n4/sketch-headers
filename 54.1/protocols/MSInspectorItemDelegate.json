@@ -1,0 +1,84 @@
+{
+  "protocol": true,
+  "name": "MSInspectorItemDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "valuesPossiblyChanged:": {
+      "name": "valuesPossiblyChanged:",
+      "bridgedName": "valuesPossiblyChanged",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "itemDidResize:": {
+      "name": "itemDidResize:",
+      "bridgedName": "itemDidResize",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "documentForInspectorItem:": {
+      "name": "documentForInspectorItem:",
+      "bridgedName": "documentForInspectorItem",
+      "args": [
+        {
+          "name": "section",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSDocument *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "item:wantsSectionToCollapse:": {
+      "name": "item:wantsSectionToCollapse:",
+      "bridgedName": "item_wantsSectionToCollapse",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSViewController *",
+          "nullable": false
+        },
+        {
+          "name": "collapse",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "userInterfaceCacheForItem:": {
+      "name": "userInterfaceCacheForItem:",
+      "bridgedName": "userInterfaceCacheForItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSCache *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

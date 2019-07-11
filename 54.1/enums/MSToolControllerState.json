@@ -1,0 +1,19 @@
+{
+  "enum": true,
+  "name": "MSToolControllerState",
+  "members": [
+    {
+      "name": "MSToolControllerStateInactive"
+    },
+    {
+      "name": "MSToolControllerStateActive"
+    },
+    {
+      "name": "MSToolControllerStateEnded",
+      "value": "3"
+    },
+    {
+      "name": "MSToolControllerStateCancelled"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSResizeInspectorSection",
+  "extends": "MSBaseInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

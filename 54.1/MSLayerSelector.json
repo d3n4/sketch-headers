@@ -1,0 +1,49 @@
+{
+  "name": "MSLayerSelector",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "updateSelectionWithRect:page:extendSelection:options:": {
+      "name": "updateSelectionWithRect:page:extendSelection:options:",
+      "bridgedName": "updateSelectionWithRect_page_extendSelection_options",
+      "args": [
+        {
+          "name": "selectionRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "extend",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSLayerSelectionOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "initialSelection": {
+      "name": "initialSelection",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

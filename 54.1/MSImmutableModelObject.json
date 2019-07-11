@@ -1,0 +1,178 @@
+{
+  "name": "MSImmutableModelObject",
+  "extends": "MSModelObjectCommon",
+  "interfaces": [
+    "MSModelObject",
+    "MSCoding"
+  ],
+  "methods": {
+    "differsFromObject:": {
+      "name": "differsFromObject:",
+      "bridgedName": "differsFromObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSImmutableModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldDiffSubObjectsForDifferingObject:": {
+      "name": "shouldDiffSubObjectsForDifferingObject:",
+      "bridgedName": "shouldDiffSubObjectsForDifferingObject",
+      "args": [
+        {
+          "name": "objet",
+          "type": "MSImmutableModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithMutableModelObject:": {
+      "name": "initWithMutableModelObject:",
+      "bridgedName": "initWithMutableModelObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "newMutableCounterpart": {
+      "name": "newMutableCounterpart",
+      "bridgedName": "newMutableCounterpart",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mutableClass": {
+      "name": "mutableClass",
+      "bridgedName": "mutableClass",
+      "args": [],
+      "returns": "Class",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "isEqualForDiffToObject:": {
+      "name": "isEqualForDiffToObject:",
+      "bridgedName": "isEqualForDiffToObject",
+      "args": [
+        {
+          "name": "otherObject",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "keysDifferingFromObject:": {
+      "name": "keysDifferingFromObject:",
+      "bridgedName": "keysDifferingFromObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSImmutableModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "traitsForPropertyName:": {
+      "name": "traitsForPropertyName:",
+      "bridgedName": "traitsForPropertyName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPropertyTraits",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "encodePropertiesWithCoder:": {
+      "name": "encodePropertiesWithCoder:",
+      "bridgedName": "encodePropertiesWithCoder",
+      "args": [
+        {
+          "name": "coder",
+          "type": "MSBaseArchiver *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodePropertiesWithUnarchiver:": {
+      "name": "decodePropertiesWithUnarchiver:",
+      "bridgedName": "decodePropertiesWithUnarchiver",
+      "args": [
+        {
+          "name": "coder",
+          "type": "MSBaseUnarchiver *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performInitWithMutableModelObject:": {
+      "name": "performInitWithMutableModelObject:",
+      "bridgedName": "performInitWithMutableModelObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSModelObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performInitWithUnarchiver:": {
+      "name": "performInitWithUnarchiver:",
+      "bridgedName": "performInitWithUnarchiver",
+      "args": [
+        {
+          "name": "coder",
+          "type": "MSBaseUnarchiver *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "subObjectsForTreeDiff": {
+      "name": "subObjectsForTreeDiff",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

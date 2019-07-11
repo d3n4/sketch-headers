@@ -1,0 +1,58 @@
+{
+  "name": "MSMissingFontsDialog",
+  "extends": "NSWindowController",
+  "interfaces": [
+    "NSTableViewDataSource"
+  ],
+  "methods": {
+    "runPanelWithMissingFonts:savingWillChangeFonts:": {
+      "name": "runPanelWithMissingFonts:savingWillChangeFonts:",
+      "bridgedName": "runPanelWithMissingFonts_savingWillChangeFonts",
+      "args": [
+        {
+          "name": "missingFonts",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "savingWillChangeFonts",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "close:": {
+      "name": "close:",
+      "bridgedName": "close",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openAnyway:": {
+      "name": "openAnyway:",
+      "bridgedName": "openAnyway",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

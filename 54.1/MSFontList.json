@@ -1,0 +1,126 @@
+{
+  "name": "MSFontList",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDocumentData:": {
+      "name": "initWithDocumentData:",
+      "bridgedName": "initWithDocumentData",
+      "args": [
+        {
+          "name": "documentData",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadFonts": {
+      "name": "reloadFonts",
+      "bridgedName": "reloadFonts",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfFontFamilies": {
+      "name": "numberOfFontFamilies",
+      "bridgedName": "numberOfFontFamilies",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nameOfFontFamilyAtIndex:": {
+      "name": "nameOfFontFamilyAtIndex:",
+      "bridgedName": "nameOfFontFamilyAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fontForFontFamilyAtIndex:": {
+      "name": "fontForFontFamilyAtIndex:",
+      "bridgedName": "fontForFontFamilyAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSFont *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filter:": {
+      "name": "filter:",
+      "bridgedName": "filter",
+      "args": [
+        {
+          "name": "filter",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearFilter": {
+      "name": "clearFilter",
+      "bridgedName": "clearFilter",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startCachingFonts": {
+      "name": "startCachingFonts",
+      "bridgedName": "startCachingFonts",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareForDealloc": {
+      "name": "prepareForDealloc",
+      "bridgedName": "prepareForDealloc",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "documentFontFamilyNames": {
+      "name": "documentFontFamilyNames",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,262 @@
+{
+  "name": "BCTableRowView",
+  "extends": "NSTableRowView",
+  "interfaces": [],
+  "methods": {
+    "refreshSelectionState": {
+      "name": "refreshSelectionState",
+      "bridgedName": "refreshSelectionState",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshBadges": {
+      "name": "refreshBadges",
+      "bridgedName": "refreshBadges",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshBackgroundStyle": {
+      "name": "refreshBackgroundStyle",
+      "bridgedName": "refreshBackgroundStyle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "relayoutNow": {
+      "name": "relayoutNow",
+      "bridgedName": "relayoutNow",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "nodeSelected": {
+      "name": "nodeSelected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isNodeSelected"
+      ]
+    },
+    "nodeExpanded": {
+      "name": "nodeExpanded",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isNodeExpanded"
+      ]
+    },
+    "highlighted": {
+      "name": "highlighted",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "didLastDisplayAsHighlighted": {
+      "name": "didLastDisplayAsHighlighted",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "backgroundStyle": {
+      "name": "backgroundStyle",
+      "pointer": false,
+      "type": "NSBackgroundStyle",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "tableCellView": {
+      "name": "tableCellView",
+      "pointer": false,
+      "type": "BCTableCellView ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "node": {
+      "name": "node",
+      "pointer": false,
+      "type": "NSObject<BCOutlineViewNode> ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "NSObject<BCTableRowViewDelegate> ",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "displayType": {
+      "name": "displayType",
+      "pointer": false,
+      "type": "BCOutlineViewDisplayType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "expansionState": {
+      "name": "expansionState",
+      "pointer": false,
+      "type": "BCOutlineViewNodeExpansionState",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "expansionTransitionState": {
+      "name": "expansionTransitionState",
+      "pointer": false,
+      "type": "BCTableRowViewExpansionTransitionState",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "isCurrentlyCollapsing": {
+      "name": "isCurrentlyCollapsing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isCurrentlyExpanding": {
+      "name": "isCurrentlyExpanding",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "outlineView": {
+      "name": "outlineView",
+      "pointer": false,
+      "type": "BCOutlineView ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "drawsTopBorder": {
+      "name": "drawsTopBorder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "drawsBottomBorder": {
+      "name": "drawsBottomBorder",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasBottomPaddingApplied": {
+      "name": "hasBottomPaddingApplied",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasTopPaddingApplied": {
+      "name": "hasTopPaddingApplied",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isInActiveOutlineView": {
+      "name": "isInActiveOutlineView",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldDisplayAsHighlighted": {
+      "name": "shouldDisplayAsHighlighted",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isNodeSelected": {
+      "name": "isNodeSelected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isNodeSubselected": {
+      "name": "isNodeSubselected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isPreviousNodeSelected": {
+      "name": "isPreviousNodeSelected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isNextNodeSelected": {
+      "name": "isNextNodeSelected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

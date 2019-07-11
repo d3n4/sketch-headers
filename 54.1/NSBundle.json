@@ -1,0 +1,88 @@
+{
+  "name": "NSBundle",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "initializeAppResourceBundle:": {
+      "name": "initializeAppResourceBundle:",
+      "bridgedName": "initializeAppResourceBundle",
+      "args": [
+        {
+          "name": "bundle",
+          "type": "NSBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initializeAppResourceBundleFromClass:": {
+      "name": "initializeAppResourceBundleFromClass:",
+      "bridgedName": "initializeAppResourceBundleFromClass",
+      "args": [
+        {
+          "name": "klass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bundleName": {
+      "name": "bundleName",
+      "bridgedName": "bundleName",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bundleVersion": {
+      "name": "bundleVersion",
+      "bridgedName": "bundleVersion",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bundleBuild": {
+      "name": "bundleBuild",
+      "bridgedName": "bundleBuild",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bundleFullVersion": {
+      "name": "bundleFullVersion",
+      "bridgedName": "bundleFullVersion",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bundleCopyright": {
+      "name": "bundleCopyright",
+      "bridgedName": "bundleCopyright",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "appResourceBundle": {
+      "name": "appResourceBundle",
+      "pointer": false,
+      "type": "NSBundle ",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

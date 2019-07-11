@@ -1,0 +1,31 @@
+{
+  "name": "MSSafeFontSet",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedSet": {
+      "name": "sharedSet",
+      "bridgedName": "sharedSet",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "isFontSafe:": {
+      "name": "isFontSafe:",
+      "bridgedName": "isFontSafe",
+      "args": [
+        {
+          "name": "postscriptFontName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

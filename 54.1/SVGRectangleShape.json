@@ -1,0 +1,8 @@
+{
+  "name": "SVGRectangleShape",
+  "extends": "_SVGRectangleShape",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

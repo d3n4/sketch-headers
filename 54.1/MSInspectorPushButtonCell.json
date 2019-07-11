@@ -1,0 +1,17 @@
+{
+  "name": "MSInspectorPushButtonCell",
+  "extends": "NSButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "fakeReturnButtonLook": {
+      "name": "fakeReturnButtonLook",
+      "pointer": false,
+      "type": "IBInspectable BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

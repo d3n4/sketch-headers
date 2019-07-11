@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "BCRectEdge",
+  "type": "CGRectEdge",
+  "pointer": false
+}

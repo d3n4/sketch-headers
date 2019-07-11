@@ -1,0 +1,72 @@
+{
+  "name": "MSCloudShareCollectionItem",
+  "extends": "MSExistingDocumentCollectionItem",
+  "interfaces": [],
+  "methods": {
+    "initWithController:cloudShare:": {
+      "name": "initWithController:cloudShare:",
+      "bridgedName": "initWithController_cloudShare",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSWelcomeWindowController *",
+          "nullable": false
+        },
+        {
+          "name": "share",
+          "type": "SCKShare *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadLatestDocument:": {
+      "name": "downloadLatestDocument:",
+      "bridgedName": "downloadLatestDocument",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^)(NSURL *location, NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "cloudShare": {
+      "name": "cloudShare",
+      "pointer": false,
+      "type": "SCKShare ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "latestDocument": {
+      "name": "latestDocument",
+      "pointer": false,
+      "type": "SCKCloudDocument ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "downloadProgress": {
+      "name": "downloadProgress",
+      "pointer": false,
+      "type": "NSProgress ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

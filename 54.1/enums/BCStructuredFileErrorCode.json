@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "BCStructuredFileErrorCode",
+  "members": [
+    {
+      "name": "BCStructuredFileUnknownError"
+    },
+    {
+      "name": "BCStructuredFileInvalidURL"
+    },
+    {
+      "name": "BCStructuredFileErrorClosed"
+    }
+  ]
+}

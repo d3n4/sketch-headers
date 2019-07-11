@@ -1,0 +1,54 @@
+{
+  "name": "MSOpenGLTexture",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSGPUTexture"
+  ],
+  "methods": {
+    "initWithTextureID:width:height:": {
+      "name": "initWithTextureID:width:height:",
+      "bridgedName": "initWithTextureID_width_height",
+      "args": [
+        {
+          "name": "textureID",
+          "type": "GLuint",
+          "nullable": false
+        },
+        {
+          "name": "width",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "height",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "textureID": {
+      "name": "textureID",
+      "pointer": false,
+      "type": "GLuint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "filter": {
+      "name": "filter",
+      "pointer": false,
+      "type": "MSOpenGLTextureFilter",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

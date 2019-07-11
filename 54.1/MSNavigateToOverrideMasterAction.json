@@ -1,0 +1,56 @@
+{
+  "name": "MSNavigateToOverrideMasterAction",
+  "extends": "MSOverrideAction",
+  "interfaces": [],
+  "methods": {
+    "navigateToSelectedOverrideMaster:": {
+      "name": "navigateToSelectedOverrideMaster:",
+      "bridgedName": "navigateToSelectedOverrideMaster",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "navigateToMasterForOverride:fromInstance:": {
+      "name": "navigateToMasterForOverride:fromInstance:",
+      "bridgedName": "navigateToMasterForOverride_fromInstance",
+      "args": [
+        {
+          "name": "symbolOverride",
+          "type": "MSAvailableOverride *",
+          "nullable": false
+        },
+        {
+          "name": "instance",
+          "type": "MSSymbolInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canNavigateToMaster:": {
+      "name": "canNavigateToMaster:",
+      "bridgedName": "canNavigateToMaster",
+      "args": [
+        {
+          "name": "master",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

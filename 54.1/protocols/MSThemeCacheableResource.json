@@ -1,0 +1,18 @@
+{
+  "protocol": true,
+  "name": "MSThemeCacheableResource",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "themeCachingKey": {
+      "name": "themeCachingKey",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readwrite",
+        "nonatomic"
+      ]
+    }
+  }
+}

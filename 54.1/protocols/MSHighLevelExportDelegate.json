@@ -1,0 +1,8 @@
+{
+  "protocol": true,
+  "name": "MSHighLevelExportDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {}
+}

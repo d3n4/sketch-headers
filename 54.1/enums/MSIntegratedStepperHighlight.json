@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSIntegratedStepperHighlight",
+  "members": [
+    {
+      "name": "MSIntegratedStepperHighlightNone"
+    },
+    {
+      "name": "MSIntegratedStepperHighlightUp"
+    },
+    {
+      "name": "MSIntegratedStepperHighlightDown"
+    }
+  ]
+}

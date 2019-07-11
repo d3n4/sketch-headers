@@ -1,0 +1,8 @@
+{
+  "name": "MSColorControlsSaturationValueTransformer",
+  "extends": "MSArbitraryRangePercentValueTransformer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

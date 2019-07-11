@@ -1,0 +1,100 @@
+{
+  "name": "MSSharedObjectContainer",
+  "extends": "_MSSharedObjectContainer",
+  "interfaces": [],
+  "methods": {
+    "removeSharedObjects:": {
+      "name": "removeSharedObjects:",
+      "bridgedName": "removeSharedObjects",
+      "args": [
+        {
+          "name": "sharedObjects",
+          "type": "NSArray<MSSharedObject *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectsReferencing:inContainer:": {
+      "name": "objectsReferencing:inContainer:",
+      "bridgedName": "objectsReferencing_inContainer",
+      "args": [
+        {
+          "name": "sharedObjectIDs",
+          "type": "NSSet<NSString *> *",
+          "nullable": false
+        },
+        {
+          "name": "container",
+          "type": "id<MSLayerContainment>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<__kindof MSModelObject *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedObjectWithID:": {
+      "name": "sharedObjectWithID:",
+      "bridgedName": "sharedObjectWithID",
+      "args": [
+        {
+          "name": "sharedObjectID",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof MSSharedObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedObjectAtIndex:": {
+      "name": "sharedObjectAtIndex:",
+      "bridgedName": "sharedObjectAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof MSSharedObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfSharedObject:": {
+      "name": "indexOfSharedObject:",
+      "bridgedName": "indexOfSharedObject",
+      "args": [
+        {
+          "name": "sharedObject",
+          "type": "MSSharedObject *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfSharedObjects": {
+      "name": "numberOfSharedObjects",
+      "bridgedName": "numberOfSharedObjects",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectsSortedByName": {
+      "name": "objectsSortedByName",
+      "bridgedName": "objectsSortedByName",
+      "args": [],
+      "returns": "NSArray <__kindof MSSharedObject *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,16 @@
+{
+  "enum": true,
+  "name": "MSArcVertexAttribute",
+  "members": [
+    {
+      "name": "MSArcVertexAttributeXY",
+      "value": "0"
+    },
+    {
+      "name": "MSArcVertexAttributeUV"
+    },
+    {
+      "name": "MSArcVertexAttributeCoefficients"
+    }
+  ]
+}

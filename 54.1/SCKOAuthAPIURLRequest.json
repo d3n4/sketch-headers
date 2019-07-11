@@ -1,0 +1,56 @@
+{
+  "name": "SCKOAuthAPIURLRequest",
+  "extends": "SCKAPIURLRequest",
+  "interfaces": [],
+  "methods": {
+    "requestWithEmail:password:": {
+      "name": "requestWithEmail:password:",
+      "bridgedName": "requestWithEmail_password",
+      "args": [
+        {
+          "name": "email",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "password",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "requestWithAuthentication:": {
+      "name": "requestWithAuthentication:",
+      "bridgedName": "requestWithAuthentication",
+      "args": [
+        {
+          "name": "authentication",
+          "type": "SCKAPISession *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "licenseRequestWithAuthentication:": {
+      "name": "licenseRequestWithAuthentication:",
+      "bridgedName": "licenseRequestWithAuthentication",
+      "args": [
+        {
+          "name": "authentication",
+          "type": "SCKAPISession *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

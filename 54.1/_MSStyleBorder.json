@@ -1,0 +1,27 @@
+{
+  "name": "_MSStyleBorder",
+  "extends": "MSStyleBasicFill",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "position": {
+      "name": "position",
+      "pointer": false,
+      "type": "MSBorderPositionType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "thickness": {
+      "name": "thickness",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

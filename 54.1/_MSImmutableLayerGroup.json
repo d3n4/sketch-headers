@@ -1,0 +1,50 @@
+{
+  "name": "_MSImmutableLayerGroup",
+  "extends": "MSImmutableStyledLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "hasClickThrough": {
+      "name": "hasClickThrough",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedObjectID": {
+      "name": "sharedObjectID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "groupLayout": {
+      "name": "groupLayout",
+      "pointer": false,
+      "type": "MSImmutableGroupLayout ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray<MSImmutableLayer *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSRotationBarDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "documentForRotationBar:": {
+      "name": "documentForRotationBar:",
+      "bridgedName": "documentForRotationBar",
+      "args": [
+        {
+          "name": "rotationBar",
+          "type": "MSRotationBar *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSDocument *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

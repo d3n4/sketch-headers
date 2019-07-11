@@ -1,0 +1,23 @@
+{
+  "name": "MSUnlinkAndSyncFromLibraryAction",
+  "extends": "MSUnlinkAndOrSyncAction",
+  "interfaces": [],
+  "methods": {
+    "unlinkAndSyncFromLibrary:": {
+      "name": "unlinkAndSyncFromLibrary:",
+      "bridgedName": "unlinkAndSyncFromLibrary",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

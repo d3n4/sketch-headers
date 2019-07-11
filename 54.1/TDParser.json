@@ -1,0 +1,106 @@
+{
+  "name": "TDParser",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "parser": {
+      "name": "parser",
+      "bridgedName": "parser",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setAssembler:selector:": {
+      "name": "setAssembler:selector:",
+      "bridgedName": "setAssembler_selector",
+      "args": [
+        {
+          "name": "a",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "sel",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bestMatchFor:": {
+      "name": "bestMatchFor:",
+      "bridgedName": "bestMatchFor",
+      "args": [
+        {
+          "name": "inAssembly",
+          "type": "TDAssembly *",
+          "nullable": false
+        }
+      ],
+      "returns": "TDAssembly *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "completeMatchFor:": {
+      "name": "completeMatchFor:",
+      "bridgedName": "completeMatchFor",
+      "args": [
+        {
+          "name": "inAssembly",
+          "type": "TDAssembly *",
+          "nullable": false
+        }
+      ],
+      "returns": "TDAssembly *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allMatchesFor:": {
+      "name": "allMatchesFor:",
+      "bridgedName": "allMatchesFor",
+      "args": [
+        {
+          "name": "inAssemblies",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "assembler": {
+      "name": "assembler",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "selector": {
+      "name": "selector",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

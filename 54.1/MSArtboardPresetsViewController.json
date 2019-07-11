@@ -1,0 +1,102 @@
+{
+  "name": "MSArtboardPresetsViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "BCPopoverDelegate"
+  ],
+  "methods": {
+    "categoryForPreset:": {
+      "name": "categoryForPreset:",
+      "bridgedName": "categoryForPreset",
+      "args": [
+        {
+          "name": "preset",
+          "type": "MSArtboardPreset *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSArtboardPresetsCategory *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addUserPreset:": {
+      "name": "addUserPreset:",
+      "bridgedName": "addUserPreset",
+      "args": [
+        {
+          "name": "newPreset",
+          "type": "MSArtboardPreset *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "presetStore": {
+      "name": "presetStore",
+      "pointer": false,
+      "type": "MSArtboardPresetStore ",
+      "attributes": [
+        "nonatomic",
+        "null_resettable"
+      ]
+    },
+    "categories": {
+      "name": "categories",
+      "pointer": false,
+      "type": "NSArray<MSArtboardPresetsCategory *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectedCategory": {
+      "name": "selectedCategory",
+      "pointer": false,
+      "type": "MSArtboardPresetsCategory ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "orientation": {
+      "name": "orientation",
+      "pointer": false,
+      "type": "NSPaperOrientation",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "extraPresets": {
+      "name": "extraPresets",
+      "pointer": false,
+      "type": "NSArray<MSArtboardPreset *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "selectedPresetSize": {
+      "name": "selectedPresetSize",
+      "pointer": false,
+      "type": "NSSize",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSArtboardPresetsViewControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

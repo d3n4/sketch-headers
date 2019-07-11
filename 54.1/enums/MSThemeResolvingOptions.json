@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "MSThemeResolvingOptions",
+  "members": [
+    {
+      "name": "MSThemeResolvingOptionsDefault",
+      "value": "0"
+    },
+    {
+      "name": "MSThemeResolvingOptionInactiveWindow",
+      "value": "1"
+    },
+    {
+      "name": "MSThemeResolvingOptionDarkMode",
+      "value": "2"
+    },
+    {
+      "name": "MSThemeResolvingOptionHighlighted",
+      "value": "4"
+    }
+  ]
+}
