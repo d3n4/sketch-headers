@@ -1,0 +1,670 @@
+{
+  "name": "MSContentDrawView",
+  "extends": "NSView",
+  "interfaces": [
+    "MSEventHandlerManagerDelegate",
+    "MSTiledLayerPileHostView"
+  ],
+  "methods": {
+    "beginHandToolMode": {
+      "name": "beginHandToolMode",
+      "bridgedName": "beginHandToolMode",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endHandToolMode": {
+      "name": "endHandToolMode",
+      "bridgedName": "endHandToolMode",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handToolMouseDown:": {
+      "name": "handToolMouseDown:",
+      "bridgedName": "handToolMouseDown",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handToolMouseDragged:": {
+      "name": "handToolMouseDragged:",
+      "bridgedName": "handToolMouseDragged",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handToolMouseUp": {
+      "name": "handToolMouseUp",
+      "bridgedName": "handToolMouseUp",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scheduleRedraw": {
+      "name": "scheduleRedraw",
+      "bridgedName": "scheduleRedraw",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "centerDocumentAndPlaceScrollOriginInTopLeft": {
+      "name": "centerDocumentAndPlaceScrollOriginInTopLeft",
+      "bridgedName": "centerDocumentAndPlaceScrollOriginInTopLeft",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "placeOriginInTopLeft": {
+      "name": "placeOriginInTopLeft",
+      "bridgedName": "placeOriginInTopLeft",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canHighlightLayer:": {
+      "name": "canHighlightLayer:",
+      "bridgedName": "canHighlightLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "animateToZoom:scalingCenteredOnAbsoluteCoordinates:": {
+      "name": "animateToZoom:scalingCenteredOnAbsoluteCoordinates:",
+      "bridgedName": "animateToZoom_scalingCenteredOnAbsoluteCoordinates",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "midPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "animateToViewPort:": {
+      "name": "animateToViewPort:",
+      "bridgedName": "animateToViewPort",
+      "args": [
+        {
+          "name": "viewPort",
+          "type": "MSViewPort *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "zoomIn": {
+      "name": "zoomIn",
+      "bridgedName": "zoomIn",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "zoomOut": {
+      "name": "zoomOut",
+      "bridgedName": "zoomOut",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "zoomToActualSizeAnimated:": {
+      "name": "zoomToActualSizeAnimated:",
+      "bridgedName": "zoomToActualSizeAnimated",
+      "args": [
+        {
+          "name": "animated",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endZoomToolMode": {
+      "name": "endZoomToolMode",
+      "bridgedName": "endZoomToolMode",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepare": {
+      "name": "prepare",
+      "bridgedName": "prepare",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllTiledLayers": {
+      "name": "removeAllTiledLayers",
+      "bridgedName": "removeAllTiledLayers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "centerInBounds": {
+      "name": "centerInBounds",
+      "bridgedName": "centerInBounds",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "centerLayersInCanvas": {
+      "name": "centerLayersInCanvas",
+      "bridgedName": "centerLayersInCanvas",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "centerSelectionInVisibleArea": {
+      "name": "centerSelectionInVisibleArea",
+      "bridgedName": "centerSelectionInVisibleArea",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "centerRect:": {
+      "name": "centerRect:",
+      "bridgedName": "centerRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "centerRect:animated:": {
+      "name": "centerRect:animated:",
+      "bridgedName": "centerRect_animated",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "animated",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "zoomToFitRect:": {
+      "name": "zoomToFitRect:",
+      "bridgedName": "zoomToFitRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "viewPortForZoomToFitRect:": {
+      "name": "viewPortForZoomToFitRect:",
+      "bridgedName": "viewPortForZoomToFitRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "MSViewPort *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "viewPortWithCenter:zoomValue:": {
+      "name": "viewPortWithCenter:zoomValue:",
+      "bridgedName": "viewPortWithCenter_zoomValue",
+      "args": [
+        {
+          "name": "center",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSViewPort *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlayOfViews": {
+      "name": "refreshOverlayOfViews",
+      "bridgedName": "refreshOverlayOfViews",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlayInRect:": {
+      "name": "refreshOverlayInRect:",
+      "bridgedName": "refreshOverlayInRect",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlayInViewRect:": {
+      "name": "refreshOverlayInViewRect:",
+      "bridgedName": "refreshOverlayInViewRect",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectToolbarItemWithIdentifier:": {
+      "name": "selectToolbarItemWithIdentifier:",
+      "bridgedName": "selectToolbarItemWithIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "visibleContentRect": {
+      "name": "visibleContentRect",
+      "bridgedName": "visibleContentRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "horizontalRuler": {
+      "name": "horizontalRuler",
+      "bridgedName": "horizontalRuler",
+      "args": [],
+      "returns": "MSRulerView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verticalRuler": {
+      "name": "verticalRuler",
+      "bridgedName": "verticalRuler",
+      "args": [],
+      "returns": "MSRulerView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "animateScrollOriginToPoint:": {
+      "name": "animateScrollOriginToPoint:",
+      "bridgedName": "animateScrollOriginToPoint",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enableLayerBackedDrawing": {
+      "name": "enableLayerBackedDrawing",
+      "bridgedName": "enableLayerBackedDrawing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scrollToScrollOrigin:": {
+      "name": "scrollToScrollOrigin:",
+      "bridgedName": "scrollToScrollOrigin",
+      "args": [
+        {
+          "name": "scrollOrigin",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "displayPropertiesDidChange": {
+      "name": "displayPropertiesDidChange",
+      "bridgedName": "displayPropertiesDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadAllTiles": {
+      "name": "reloadAllTiles",
+      "bridgedName": "reloadAllTiles",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "redrawAllTiles": {
+      "name": "redrawAllTiles",
+      "bridgedName": "redrawAllTiles",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pageDidChange:": {
+      "name": "pageDidChange:",
+      "bridgedName": "pageDidChange",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "windowDidResize:": {
+      "name": "windowDidResize:",
+      "bridgedName": "windowDidResize",
+      "args": [
+        {
+          "name": "note",
+          "type": "NSNotification *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pixelGridDidChange": {
+      "name": "pixelGridDidChange",
+      "bridgedName": "pixelGridDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ignoreNextKeyDownEventUntilModifiersChange": {
+      "name": "ignoreNextKeyDownEventUntilModifiersChange",
+      "bridgedName": "ignoreNextKeyDownEventUntilModifiersChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerPositionPossiblyChanged": {
+      "name": "layerPositionPossiblyChanged",
+      "bridgedName": "layerPositionPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertPoint:toLayer:": {
+      "name": "convertPoint:toLayer:",
+      "bridgedName": "convertPoint_toLayer",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertPointFromPage:": {
+      "name": "convertPointFromPage:",
+      "bridgedName": "convertPointFromPage",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertSizeToPage:": {
+      "name": "convertSizeToPage:",
+      "bridgedName": "convertSizeToPage",
+      "args": [
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "tiledLayerPile": {
+      "name": "tiledLayerPile",
+      "pointer": false,
+      "type": "MSTiledLayerPile ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hoveredLayer": {
+      "name": "hoveredLayer",
+      "pointer": false,
+      "type": "MSLayer*",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "scrollOrigin": {
+      "name": "scrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id <MSContentDrawViewDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "eventHandlerManager": {
+      "name": "eventHandlerManager",
+      "pointer": false,
+      "type": "MSEventHandlerManager ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "viewPort": {
+      "name": "viewPort",
+      "pointer": false,
+      "type": "MSViewPort ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "shouldHideOverlayControls": {
+      "name": "shouldHideOverlayControls",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "measurementLabelNumberFormatter": {
+      "name": "measurementLabelNumberFormatter",
+      "pointer": false,
+      "type": "NSNumberFormatter ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "pendingMonitor": {
+      "name": "pendingMonitor",
+      "pointer": false,
+      "type": "MSRenderMonitor*",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "driver": {
+      "name": "driver",
+      "pointer": false,
+      "type": "MSRenderingDriver*",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "cacheManager": {
+      "name": "cacheManager",
+      "pointer": false,
+      "type": "MSCacheManager ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "didMouseDown": {
+      "name": "didMouseDown",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "zoomTool": {
+      "name": "zoomTool",
+      "pointer": false,
+      "type": "MSZoomTool ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lastEvent": {
+      "name": "lastEvent",
+      "pointer": false,
+      "type": "NSEvent ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

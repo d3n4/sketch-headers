@@ -1,0 +1,42 @@
+{
+  "name": "COSPreprocessor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "preprocessCode:": {
+      "name": "preprocessCode:",
+      "bridgedName": "preprocessCode",
+      "args": [
+        {
+          "name": "sourceString",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "preprocessCode:withBaseURL:": {
+      "name": "preprocessCode:withBaseURL:",
+      "bridgedName": "preprocessCode_withBaseURL",
+      "args": [
+        {
+          "name": "sourceString",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "base",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

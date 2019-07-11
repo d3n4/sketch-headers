@@ -1,0 +1,8 @@
+{
+  "name": "MSReplaceWithSymbolAction",
+  "extends": "MSSharedSymbolAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

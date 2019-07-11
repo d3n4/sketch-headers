@@ -1,0 +1,23 @@
+{
+  "name": "MSBackToInstanceAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "backToInstance:": {
+      "name": "backToInstance:",
+      "bridgedName": "backToInstance",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

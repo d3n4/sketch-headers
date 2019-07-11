@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "FBBezierCurveLocation",
+  "members": [
+    {
+      "name": "parameter",
+      "pointer": false,
+      "type": "FBFloat"
+    },
+    {
+      "name": "distance",
+      "pointer": false,
+      "type": "FBFloat"
+    }
+  ]
+}

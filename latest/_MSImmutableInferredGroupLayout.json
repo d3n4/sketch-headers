@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableInferredGroupLayout",
+  "extends": "MSImmutableGroupLayout",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layoutAnchor": {
+      "name": "layoutAnchor",
+      "pointer": false,
+      "type": "BCLayoutAnchorPosition",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

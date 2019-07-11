@@ -1,0 +1,23 @@
+{
+  "name": "MSColorArchivingFactory",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "colorForEncodingColor:": {
+      "name": "colorForEncodingColor:",
+      "bridgedName": "colorForEncodingColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

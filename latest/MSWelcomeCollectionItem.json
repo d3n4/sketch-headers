@@ -1,0 +1,61 @@
+{
+  "name": "MSWelcomeCollectionItem",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSWelcomeCollectionItemPreviewImageLoading"
+  ],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithController:": {
+      "name": "initWithController:",
+      "bridgedName": "initWithController",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSWelcomeWindowController *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "placeholderImage": {
+      "name": "placeholderImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "welcomeWindowController": {
+      "name": "welcomeWindowController",
+      "pointer": false,
+      "type": "MSWelcomeWindowController ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,252 @@
+{
+  "name": "MSDocumentAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "touchBarItem": {
+      "name": "touchBarItem",
+      "bridgedName": "touchBarItem",
+      "args": [],
+      "returns": "NSTouchBarItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeTouchBarItem": {
+      "name": "makeTouchBarItem",
+      "bridgedName": "makeTouchBarItem",
+      "args": [],
+      "returns": "NSTouchBarItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeTouchBarItemButton": {
+      "name": "makeTouchBarItemButton",
+      "bridgedName": "makeTouchBarItemButton",
+      "args": [],
+      "returns": "NSButton *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "touchBarItemButtonShouldShowState": {
+      "name": "touchBarItemButtonShouldShowState",
+      "bridgedName": "touchBarItemButtonShouldShowState",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshTouchBarItem": {
+      "name": "refreshTouchBarItem",
+      "bridgedName": "refreshTouchBarItem",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showTouchBarPopover:": {
+      "name": "showTouchBarPopover:",
+      "bridgedName": "showTouchBarPopover",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isTouchBarItemSelected": {
+      "name": "isTouchBarItemSelected",
+      "bridgedName": "isTouchBarItemSelected",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldUseImageForTouchBarItem": {
+      "name": "shouldUseImageForTouchBarItem",
+      "bridgedName": "shouldUseImageForTouchBarItem",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "touchBarImage": {
+      "name": "touchBarImage",
+      "bridgedName": "touchBarImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "touchBarItemSizing": {
+      "name": "touchBarItemSizing",
+      "bridgedName": "touchBarItemSizing",
+      "args": [],
+      "returns": "MSTouchBarItemSizing",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDocument:": {
+      "name": "initWithDocument:",
+      "bridgedName": "initWithDocument",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectedLayers": {
+      "name": "selectedLayers",
+      "bridgedName": "selectedLayers",
+      "args": [],
+      "returns": "MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentHandlerKey": {
+      "name": "currentHandlerKey",
+      "bridgedName": "currentHandlerKey",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isInNormalHandler": {
+      "name": "isInNormalHandler",
+      "bridgedName": "isInNormalHandler",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentHandler": {
+      "name": "currentHandler",
+      "bridgedName": "currentHandler",
+      "args": [],
+      "returns": "__kindof MSEventHandler *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleHandlerKey:": {
+      "name": "toggleHandlerKey:",
+      "bridgedName": "toggleHandlerKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof MSEventHandler *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setCurrentHandlerKey:": {
+      "name": "setCurrentHandlerKey:",
+      "bridgedName": "setCurrentHandlerKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "__kindof MSEventHandler *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "switchToNormalHandler": {
+      "name": "switchToNormalHandler",
+      "bridgedName": "switchToNormalHandler",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentPage": {
+      "name": "currentPage",
+      "bridgedName": "currentPage",
+      "args": [],
+      "returns": "MSPage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "contentDrawView": {
+      "name": "contentDrawView",
+      "bridgedName": "contentDrawView",
+      "args": [],
+      "returns": "MSContentDrawView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshOverlayOfViews": {
+      "name": "refreshOverlayOfViews",
+      "bridgedName": "refreshOverlayOfViews",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "repopulateMenu:": {
+      "name": "repopulateMenu:",
+      "bridgedName": "repopulateMenu",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "historyMomentTitle": {
+      "name": "historyMomentTitle",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSBasicDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "cachedTouchedBarItem": {
+      "name": "cachedTouchedBarItem",
+      "pointer": false,
+      "type": "__kindof NSTouchBarItem ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

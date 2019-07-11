@@ -1,0 +1,17 @@
+{
+  "name": "CHSingletonObject",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedController": {
+      "name": "sharedController",
+      "bridgedName": "sharedController",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

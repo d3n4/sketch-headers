@@ -1,0 +1,54 @@
+{
+  "enum": true,
+  "name": "BCCorner",
+  "members": [
+    {
+      "name": "BCCornerNone",
+      "value": "-1"
+    },
+    {
+      "name": "BCCornerTopLeft",
+      "value": "0"
+    },
+    {
+      "name": "BCCornerTopRight",
+      "value": "1"
+    },
+    {
+      "name": "BCCornerBottomLeft",
+      "value": "2"
+    },
+    {
+      "name": "BCCornerBottomRight",
+      "value": "3"
+    },
+    {
+      "name": "BCCornerMidTop",
+      "value": "4"
+    },
+    {
+      "name": "BCCornerMidLeft",
+      "value": "5"
+    },
+    {
+      "name": "BCCornerMidRight",
+      "value": "6"
+    },
+    {
+      "name": "BCCornerMidBottom",
+      "value": "7"
+    },
+    {
+      "name": "BCCornerMid",
+      "value": "8"
+    },
+    {
+      "name": "BCCornerMinimum",
+      "value": "BCCornerTopLeft"
+    },
+    {
+      "name": "BCCornerMaximum",
+      "value": "BCCornerMid"
+    }
+  ]
+}

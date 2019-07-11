@@ -1,0 +1,97 @@
+{
+  "name": "MSAssetScrubberItemView",
+  "extends": "NSScrubberItemView",
+  "interfaces": [],
+  "methods": {
+    "initWithAssetAtIndex:amongAssetsassets documentColorSpace:tailPadding:": {
+      "name": "initWithAssetAtIndex:amongAssetsassets documentColorSpace:tailPadding:",
+      "bridgedName": "initWithAssetAtIndex_amongAssetsassets documentColorSpace_tailPadding",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "tailPadding",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "documentColorSpace": {
+      "name": "documentColorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "gradient": {
+      "name": "gradient",
+      "pointer": false,
+      "type": "MSGradient ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pattern": {
+      "name": "pattern",
+      "pointer": false,
+      "type": "MSImageData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isFirstInCollection": {
+      "name": "isFirstInCollection",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isLastInCollection": {
+      "name": "isLastInCollection",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "tailPadding": {
+      "name": "tailPadding",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

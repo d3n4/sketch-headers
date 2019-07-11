@@ -1,0 +1,23 @@
+{
+  "name": "MSImageOriginalSizeAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "imageOriginalSize:": {
+      "name": "imageOriginalSize:",
+      "bridgedName": "imageOriginalSize",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

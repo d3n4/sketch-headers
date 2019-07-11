@@ -1,0 +1,25 @@
+{
+  "name": "MSSymbolInstanceOverrides",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSOverrideDataSource"
+  ],
+  "methods": {
+    "initWithOverrideDictionary:": {
+      "name": "initWithOverrideDictionary:",
+      "bridgedName": "initWithOverrideDictionary",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,37 @@
+{
+  "name": "MSAddExportFormatAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "addExportFormat:": {
+      "name": "addExportFormat:",
+      "bridgedName": "addExportFormat",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addExportFormatToLayer:": {
+      "name": "addExportFormatToLayer:",
+      "bridgedName": "addExportFormatToLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSSliceLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

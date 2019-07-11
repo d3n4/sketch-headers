@@ -1,0 +1,23 @@
+{
+  "name": "MSNewFromTemplateAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "newFromTemplate:": {
+      "name": "newFromTemplate:",
+      "bridgedName": "newFromTemplate",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

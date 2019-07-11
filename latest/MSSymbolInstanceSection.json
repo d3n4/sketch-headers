@@ -1,0 +1,27 @@
+{
+  "name": "MSSymbolInstanceSection",
+  "extends": "MSLayerSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "sharedObjectsPopUpButton": {
+      "name": "sharedObjectsPopUpButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "overridesHeaderView": {
+      "name": "overridesHeaderView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

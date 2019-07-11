@@ -1,0 +1,60 @@
+{
+  "name": "MSOverlayRenderer",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "renderPage:inRect:withZoomTool:handlerManager:cache:": {
+      "name": "renderPage:inRect:withZoomTool:handlerManager:cache:",
+      "bridgedName": "renderPage_inRect_withZoomTool_handlerManager_cache",
+      "args": [
+        {
+          "name": "page",
+          "type": "MSPage *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "zoomTool",
+          "type": "MSZoomTool *",
+          "nullable": false
+        },
+        {
+          "name": "handlerManager",
+          "type": "MSEventHandlerManager *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "canDrawSlicesOutline": {
+      "name": "canDrawSlicesOutline",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "shouldDrawArtboardTitles": {
+      "name": "shouldDrawArtboardTitles",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

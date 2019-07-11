@@ -1,0 +1,23 @@
+{
+  "name": "MSConvertColorSpaceAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "convertDocumentColorSpace:": {
+      "name": "convertDocumentColorSpace:",
+      "bridgedName": "convertDocumentColorSpace",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

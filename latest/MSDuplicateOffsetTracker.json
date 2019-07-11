@@ -1,0 +1,41 @@
+{
+  "name": "MSDuplicateOffsetTracker",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "reset": {
+      "name": "reset",
+      "bridgedName": "reset",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetToInitialOffset": {
+      "name": "resetToInitialOffset",
+      "bridgedName": "resetToInitialOffset",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "increment": {
+      "name": "increment",
+      "bridgedName": "increment",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "offset": {
+      "name": "offset",
+      "bridgedName": "offset",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

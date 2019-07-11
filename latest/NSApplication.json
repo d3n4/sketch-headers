@@ -1,0 +1,55 @@
+{
+  "name": "NSApplication",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "applicationName": {
+      "name": "applicationName",
+      "bridgedName": "applicationName",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applicationVersion": {
+      "name": "applicationVersion",
+      "bridgedName": "applicationVersion",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applicationBuild": {
+      "name": "applicationBuild",
+      "bridgedName": "applicationBuild",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isActiveApplication": {
+      "name": "isActiveApplication",
+      "bridgedName": "isActiveApplication",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "open:": {
+      "name": "open:",
+      "bridgedName": "open",
+      "args": [
+        {
+          "name": "pathToFile",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

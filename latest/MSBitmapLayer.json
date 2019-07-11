@@ -1,0 +1,98 @@
+{
+  "name": "MSBitmapLayer",
+  "extends": "_MSBitmapLayer",
+  "interfaces": [
+    "MSImageOwner"
+  ],
+  "methods": {
+    "bitmapLayerWithImageFromPasteboard:": {
+      "name": "bitmapLayerWithImageFromPasteboard:",
+      "bridgedName": "bitmapLayerWithImageFromPasteboard",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBitmapLayer *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bitmapLayerWithImageFromPath:": {
+      "name": "bitmapLayerWithImageFromPath:",
+      "bridgedName": "bitmapLayerWithImageFromPath",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBitmapLayer *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithFrame:image:": {
+      "name": "initWithFrame:image:",
+      "bridgedName": "initWithFrame_image",
+      "args": [
+        {
+          "name": "frame",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "image",
+          "type": "MSImageData *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasNineSliceEnabled": {
+      "name": "hasNineSliceEnabled",
+      "bridgedName": "hasNineSliceEnabled",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "NSImage": {
+      "name": "NSImage",
+      "bridgedName": "NSImage",
+      "args": [],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isAtOriginalSize": {
+      "name": "isAtOriginalSize",
+      "bridgedName": "isAtOriginalSize",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeToOriginalSize": {
+      "name": "resizeToOriginalSize",
+      "bridgedName": "resizeToOriginalSize",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "correctInvalidGamma": {
+      "name": "correctInvalidGamma",
+      "bridgedName": "correctInvalidGamma",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

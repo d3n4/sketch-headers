@@ -1,0 +1,8 @@
+{
+  "name": "MSSnapperEdgeHelperMidXHeight",
+  "extends": "MSSnapperEdgeHelperBaseline",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

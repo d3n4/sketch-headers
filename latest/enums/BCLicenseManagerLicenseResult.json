@@ -1,0 +1,24 @@
+{
+  "enum": true,
+  "name": "BCLicenseManagerLicenseResult",
+  "members": [
+    {
+      "name": "BCLicenseManagerLicenseOk"
+    },
+    {
+      "name": "BCLicenseManagerLicenseExpiringSoon"
+    },
+    {
+      "name": "BCLicenseManagerLicenseVersionNotSupported"
+    },
+    {
+      "name": "BCLicenseManagerTrialExpired"
+    },
+    {
+      "name": "BCLicenseManagerLicenseExpired"
+    },
+    {
+      "name": "BCLicenseManagerLicenseError"
+    }
+  ]
+}

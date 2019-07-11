@@ -1,0 +1,247 @@
+{
+  "name": "_MSGradient",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {
+    "addGradientStop:": {
+      "name": "addGradientStop:",
+      "bridgedName": "addGradientStop",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSGradientStop *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addGradientStops:": {
+      "name": "addGradientStops:",
+      "bridgedName": "addGradientStops",
+      "args": [
+        {
+          "name": "stops",
+          "type": "NSArray<MSGradientStop *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertGradientStop:atIndex:": {
+      "name": "insertGradientStop:atIndex:",
+      "bridgedName": "insertGradientStop_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSGradientStop *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertGradientStop:beforeGradientStop:": {
+      "name": "insertGradientStop:beforeGradientStop:",
+      "bridgedName": "insertGradientStop_beforeGradientStop",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSGradientStop *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSGradientStop *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertGradientStops:beforeGradientStop:": {
+      "name": "insertGradientStops:beforeGradientStop:",
+      "bridgedName": "insertGradientStops_beforeGradientStop",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSGradientStop *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSGradientStop *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertGradientStop:afterGradientStop:": {
+      "name": "insertGradientStop:afterGradientStop:",
+      "bridgedName": "insertGradientStop_afterGradientStop",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSGradientStop *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSGradientStop *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertGradientStops:afterGradientStop:": {
+      "name": "insertGradientStops:afterGradientStop:",
+      "bridgedName": "insertGradientStops_afterGradientStop",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSGradientStop *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSGradientStop *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeGradientStop:": {
+      "name": "removeGradientStop:",
+      "bridgedName": "removeGradientStop",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSGradientStop *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeGradientStopAtIndex:": {
+      "name": "removeGradientStopAtIndex:",
+      "bridgedName": "removeGradientStopAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeGradientStopsAtIndexes:": {
+      "name": "removeGradientStopsAtIndexes:",
+      "bridgedName": "removeGradientStopsAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllGradientStops": {
+      "name": "removeAllGradientStops",
+      "bridgedName": "removeAllGradientStops",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveGradientStopIndex:toIndex:": {
+      "name": "moveGradientStopIndex:toIndex:",
+      "bridgedName": "moveGradientStopIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "elipseLength": {
+      "name": "elipseLength",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "from": {
+      "name": "from",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "gradientType": {
+      "name": "gradientType",
+      "pointer": false,
+      "type": "MSGradientType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "to": {
+      "name": "to",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "stops": {
+      "name": "stops",
+      "pointer": false,
+      "type": "NSArray<__kindof MSGradientStop *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

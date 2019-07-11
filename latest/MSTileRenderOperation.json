@@ -1,0 +1,159 @@
+{
+  "name": "MSTileRenderOperation",
+  "extends": "NSOperation",
+  "interfaces": [],
+  "methods": {
+    "initWithContextPool:": {
+      "name": "initWithContextPool:",
+      "bridgedName": "initWithContextPool",
+      "args": [
+        {
+          "name": "contextPool",
+          "type": "MSCGContextPool * _Nonnull",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cancelDrawing": {
+      "name": "cancelDrawing",
+      "bridgedName": "cancelDrawing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSTileRenderOperationDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "nullable"
+      ]
+    },
+    "contentLayer": {
+      "name": "contentLayer",
+      "pointer": false,
+      "type": "CALayer ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "CGImageRef",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "contentRectNeedingRedraw": {
+      "name": "contentRectNeedingRedraw",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "shouldDrawPixelated": {
+      "name": "shouldDrawPixelated",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "drawDottedDirtyRect": {
+      "name": "drawDottedDirtyRect",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "distanceFromScrollOrigin": {
+      "name": "distanceFromScrollOrigin",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "pageForContent": {
+      "name": "pageForContent",
+      "pointer": false,
+      "type": "MSImmutablePage ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "artboardFrames": {
+      "name": "artboardFrames",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "renderingCacheProvider": {
+      "name": "renderingCacheProvider",
+      "pointer": false,
+      "type": "id <MSRenderingContextCacheProvider>",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
+      ]
+    },
+    "contextPool": {
+      "name": "contextPool",
+      "pointer": false,
+      "type": "MSCGContextPool ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly",
+        "nonnull"
+      ]
+    }
+  },
+  "generics": []
+}

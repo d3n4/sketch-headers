@@ -1,0 +1,8 @@
+{
+  "name": "BCSTRunCommand",
+  "extends": "BCSTCommand",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

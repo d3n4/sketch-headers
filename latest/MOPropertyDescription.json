@@ -1,0 +1,83 @@
+{
+  "name": "MOPropertyDescription",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "typeEncoding": {
+      "name": "typeEncoding",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "ivarName": {
+      "name": "ivarName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "getterSelector": {
+      "name": "getterSelector",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": []
+    },
+    "setterSelector": {
+      "name": "setterSelector",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": []
+    },
+    "ownershipRule": {
+      "name": "ownershipRule",
+      "pointer": false,
+      "type": "MOObjCOwnershipRule",
+      "attributes": []
+    },
+    "dynamic": {
+      "name": "dynamic",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isDynamic"
+      ]
+    },
+    "nonAtomic": {
+      "name": "nonAtomic",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isNonAtomic"
+      ]
+    },
+    "readOnly": {
+      "name": "readOnly",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isReadOnly"
+      ]
+    },
+    "weak": {
+      "name": "weak",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isWeak"
+      ]
+    }
+  },
+  "generics": []
+}

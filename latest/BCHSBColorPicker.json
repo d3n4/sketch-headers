@@ -1,0 +1,164 @@
+{
+  "name": "BCHSBColorPicker",
+  "extends": "NSControl",
+  "interfaces": [],
+  "methods": {
+    "hueChanged:": {
+      "name": "hueChanged:",
+      "bridgedName": "hueChanged",
+      "args": [
+        {
+          "name": "sender",
+          "type": "BCHueColorPicker *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "alphaChanged:": {
+      "name": "alphaChanged:",
+      "bridgedName": "alphaChanged",
+      "args": [
+        {
+          "name": "sender",
+          "type": "BCAlphaColorPicker *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "saturationBrightnessChanged:": {
+      "name": "saturationBrightnessChanged:",
+      "bridgedName": "saturationBrightnessChanged",
+      "args": [
+        {
+          "name": "sender",
+          "type": "BCSaturationBrightnessColorPicker *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rgbComponentFieldsChanged:": {
+      "name": "rgbComponentFieldsChanged:",
+      "bridgedName": "rgbComponentFieldsChanged",
+      "args": [
+        {
+          "name": "sender",
+          "type": "NSTextField *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hslComponentFieldsChanged:": {
+      "name": "hslComponentFieldsChanged:",
+      "bridgedName": "hslComponentFieldsChanged",
+      "args": [
+        {
+          "name": "sender",
+          "type": "NSTextField *",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hexValueFieldChanged:": {
+      "name": "hexValueFieldChanged:",
+      "bridgedName": "hexValueFieldChanged",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "frequentColorPicked:": {
+      "name": "frequentColorPicked:",
+      "bridgedName": "frequentColorPicked",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setFrequentColors:": {
+      "name": "setFrequentColors:",
+      "bridgedName": "setFrequentColors",
+      "args": [
+        {
+          "name": "frequentColors",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id<BCHSBColorPickerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "hexValueTextField": {
+      "name": "hexValueTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "alphaComponentTextField": {
+      "name": "alphaComponentTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "separatorView": {
+      "name": "separatorView",
+      "pointer": false,
+      "type": "IBOutlet MSColorInspectorSeparatorView ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

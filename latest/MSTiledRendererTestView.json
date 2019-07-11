@@ -1,0 +1,65 @@
+{
+  "name": "MSTiledRendererTestView",
+  "extends": "NSView",
+  "interfaces": [
+    "MSTiledLayerPileHostView"
+  ],
+  "methods": {
+    "draw": {
+      "name": "draw",
+      "bridgedName": "draw",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageRepresentation": {
+      "name": "imageRepresentation",
+      "bridgedName": "imageRepresentation",
+      "args": [],
+      "returns": "NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTiledLayerWithZoom:scrollOrigin:": {
+      "name": "addTiledLayerWithZoom:scrollOrigin:",
+      "bridgedName": "addTiledLayerWithZoom_scrollOrigin",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "scrollOrigin",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

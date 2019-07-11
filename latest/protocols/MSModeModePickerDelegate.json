@@ -1,0 +1,56 @@
+{
+  "protocol": true,
+  "name": "MSModeModePickerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "pickerViewWillChange:": {
+      "name": "pickerViewWillChange:",
+      "bridgedName": "pickerViewWillChange",
+      "args": [
+        {
+          "name": "picker",
+          "type": "MSModePickerView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pickerViewChanged:": {
+      "name": "pickerViewChanged:",
+      "bridgedName": "pickerViewChanged",
+      "args": [
+        {
+          "name": "picker",
+          "type": "MSModePickerView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pickerView:labelForMode:": {
+      "name": "pickerView:labelForMode:",
+      "bridgedName": "pickerView_labelForMode",
+      "args": [
+        {
+          "name": "view",
+          "type": "MSModePickerView *",
+          "nullable": false
+        },
+        {
+          "name": "mode",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

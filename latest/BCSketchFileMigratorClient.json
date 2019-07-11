@@ -1,0 +1,91 @@
+{
+  "name": "BCSketchFileMigratorClient",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "validateDocumentAtURL:options:withReply:": {
+      "name": "validateDocumentAtURL:options:withReply:",
+      "bridgedName": "validateDocumentAtURL_options_withReply",
+      "args": [
+        {
+          "name": "atURL",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "BCSketchFileMigratorOptions",
+          "nullable": false
+        },
+        {
+          "name": "reply",
+          "type": "void (^)(BCSketchFileMigratorError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "migrateDocumentAtURL:intoFolderAtURL:options:withReply:": {
+      "name": "migrateDocumentAtURL:intoFolderAtURL:options:withReply:",
+      "bridgedName": "migrateDocumentAtURL_intoFolderAtURL_options_withReply",
+      "args": [
+        {
+          "name": "atURL",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "intoURL",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "BCSketchFileMigratorOptions",
+          "nullable": false
+        },
+        {
+          "name": "reply",
+          "type": "void (^)(BCSketchFileMigratorError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "migrateResourcesWithNames:atURL:options:withReply:": {
+      "name": "migrateResourcesWithNames:atURL:options:withReply:",
+      "bridgedName": "migrateResourcesWithNames_atURL_options_withReply",
+      "args": [
+        {
+          "name": "names",
+          "type": "NSArray*",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "BCSketchFileMigratorOptions",
+          "nullable": false
+        },
+        {
+          "name": "reply",
+          "type": "void (^)(BCSketchFileMigratorError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "SUBinaryDeltaUnarchiver",
+  "extends": "SUUnarchiver",
+  "interfaces": [],
+  "methods": {
+    "updateSpotlightImportersAtBundlePath:": {
+      "name": "updateSpotlightImportersAtBundlePath:",
+      "bridgedName": "updateSpotlightImportersAtBundlePath",
+      "args": [
+        {
+          "name": "targetPath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

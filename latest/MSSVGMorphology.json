@@ -1,0 +1,36 @@
+{
+  "name": "MSSVGMorphology",
+  "extends": "MSSVGfeFilterPrimitive",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "in": {
+      "name": "in",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "operator": {
+      "name": "operator",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "radius": {
+      "name": "radius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

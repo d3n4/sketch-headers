@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSUpDownTextFieldDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "refreshAction:": {
+      "name": "refreshAction:",
+      "bridgedName": "refreshAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueForUpDownTextField:": {
+      "name": "valueForUpDownTextField:",
+      "bridgedName": "valueForUpDownTextField",
+      "args": [
+        {
+          "name": "upDownTextField",
+          "type": "NSTextField <MSUpDownProtocol> *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

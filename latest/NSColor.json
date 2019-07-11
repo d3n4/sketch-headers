@@ -1,0 +1,136 @@
+{
+  "name": "NSColor",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorWithGray:": {
+      "name": "colorWithGray:",
+      "bridgedName": "colorWithGray",
+      "args": [
+        {
+          "name": "gray",
+          "type": "float",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "colorWithGray:alpha:": {
+      "name": "colorWithGray:alpha:",
+      "bridgedName": "colorWithGray_alpha",
+      "args": [
+        {
+          "name": "gray",
+          "type": "float",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "float",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fuzzyIsEqual:": {
+      "name": "fuzzyIsEqual:",
+      "bridgedName": "fuzzyIsEqual",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "newCGColor": {
+      "name": "newCGColor",
+      "bridgedName": "newCGColor",
+      "args": [],
+      "returns": "CGColorRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isWhite": {
+      "name": "isWhite",
+      "bridgedName": "isWhite",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "safeColorUsingColorSpace_bc:": {
+      "name": "safeColorUsingColorSpace_bc:",
+      "bridgedName": "safeColorUsingColorSpace_bc",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "safeColorUsingColorSpaceName_bc:": {
+      "name": "safeColorUsingColorSpaceName_bc:",
+      "bridgedName": "safeColorUsingColorSpaceName_bc",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringValueWithAlpha:": {
+      "name": "stringValueWithAlpha:",
+      "bridgedName": "stringValueWithAlpha",
+      "args": [
+        {
+          "name": "includeAlpha",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hexValue": {
+      "name": "hexValue",
+      "bridgedName": "hexValue",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorTranslatedToColorSpace:": {
+      "name": "colorTranslatedToColorSpace:",
+      "bridgedName": "colorTranslatedToColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,148 @@
+{
+  "name": "SCKEnvironment",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithHost:": {
+      "name": "initWithHost:",
+      "bridgedName": "initWithHost",
+      "args": [
+        {
+          "name": "host",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull SCKEnvironment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithName:": {
+      "name": "initWithName:",
+      "bridgedName": "initWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull SCKEnvironment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDefinition:": {
+      "name": "initWithDefinition:",
+      "bridgedName": "initWithDefinition",
+      "args": [
+        {
+          "name": "definition",
+          "type": "SCKEnvironmentDefinition",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull SCKEnvironment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "current": {
+      "name": "current",
+      "bridgedName": "current",
+      "args": [],
+      "returns": "nonnull instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setCurrent": {
+      "name": "setCurrent",
+      "bridgedName": "setCurrent",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "protectionSpace": {
+      "name": "protectionSpace",
+      "pointer": false,
+      "type": "NSURLProtectionSpace ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "credential": {
+      "name": "credential",
+      "pointer": false,
+      "type": "NSURLCredential ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readwrite"
+      ]
+    },
+    "signature": {
+      "name": "signature",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "definition": {
+      "name": "definition",
+      "pointer": false,
+      "type": "SCKEnvironmentDefinition",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "host": {
+      "name": "host",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "displayName": {
+      "name": "displayName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "suffixRepresentation": {
+      "name": "suffixRepresentation",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,121 @@
+{
+  "name": "MSImageData",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying",
+    "MSCoding",
+    "MSJSONArchiverAlternativeFileReference"
+  ],
+  "methods": {
+    "initWithImage:": {
+      "name": "initWithImage:",
+      "bridgedName": "initWithImage",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithImageConvertingColorSpace:": {
+      "name": "initWithImageConvertingColorSpace:",
+      "bridgedName": "initWithImageConvertingColorSpace",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithData:sha:": {
+      "name": "initWithData:sha:",
+      "bridgedName": "initWithData_sha",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        },
+        {
+          "name": "sha1",
+          "type": "NSData *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithLegacyHash:": {
+      "name": "initWithLegacyHash:",
+      "bridgedName": "initWithLegacyHash",
+      "args": [
+        {
+          "name": "sha1",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isLegacy": {
+      "name": "isLegacy",
+      "bridgedName": "isLegacy",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "correctInvalidGamma": {
+      "name": "correctInvalidGamma",
+      "bridgedName": "correctInvalidGamma",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "data": {
+      "name": "data",
+      "pointer": false,
+      "type": "NSData*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sha1": {
+      "name": "sha1",
+      "pointer": false,
+      "type": "NSData*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "image": {
+      "name": "image",
+      "pointer": false,
+      "type": "NSImage*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

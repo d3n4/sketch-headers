@@ -1,0 +1,19 @@
+{
+  "name": "MSKeyBindings",
+  "extends": "CHSingletonObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "shortcutMap": {
+      "name": "shortcutMap",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, NSString *>",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

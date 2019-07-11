@@ -1,0 +1,27 @@
+{
+  "name": "_MSForeignSymbol",
+  "extends": "MSForeignObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "originalMaster": {
+      "name": "originalMaster",
+      "pointer": false,
+      "type": "MSSymbolMaster ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "symbolMaster": {
+      "name": "symbolMaster",
+      "pointer": false,
+      "type": "MSSymbolMaster ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

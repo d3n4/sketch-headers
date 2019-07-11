@@ -1,0 +1,44 @@
+{
+  "protocol": true,
+  "name": "MSRootLayer",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "grid": {
+      "name": "grid",
+      "pointer": false,
+      "type": "MSSimpleGrid ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "layout": {
+      "name": "layout",
+      "pointer": false,
+      "type": "MSLayoutGrid ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "rulerBase": {
+      "name": "rulerBase",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "contentBounds": {
+      "name": "contentBounds",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

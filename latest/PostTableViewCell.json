@@ -1,0 +1,33 @@
+{
+  "name": "PostTableViewCell",
+  "extends": "UITableViewCell",
+  "interfaces": [],
+  "methods": {
+    "heightForCellWithPost:": {
+      "name": "heightForCellWithPost:",
+      "bridgedName": "heightForCellWithPost",
+      "args": [
+        {
+          "name": "post",
+          "type": "Post *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "post": {
+      "name": "post",
+      "pointer": false,
+      "type": "Post ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

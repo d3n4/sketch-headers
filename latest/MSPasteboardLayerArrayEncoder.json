@@ -1,0 +1,23 @@
+{
+  "name": "MSPasteboardLayerArrayEncoder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "arrayEncoderWithLayers:": {
+      "name": "arrayEncoderWithLayers:",
+      "bridgedName": "arrayEncoderWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "nonnull NSArray<MSImmutableModelObject*>*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

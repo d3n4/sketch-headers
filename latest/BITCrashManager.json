@@ -1,0 +1,129 @@
+{
+  "name": "BITCrashManager",
+  "extends": "BITHockeyBaseManager",
+  "interfaces": [],
+  "methods": {
+    "setCrashCallbacks:": {
+      "name": "setCrashCallbacks:",
+      "bridgedName": "setCrashCallbacks",
+      "args": [
+        {
+          "name": "callbacks",
+          "type": "BITCrashManagerCallbacks *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "handleUserInput:withUserProvidedMetaData:": {
+      "name": "handleUserInput:withUserProvidedMetaData:",
+      "bridgedName": "handleUserInput_withUserProvidedMetaData",
+      "args": [
+        {
+          "name": "userInput",
+          "type": "BITCrashManagerUserInput",
+          "nullable": false
+        },
+        {
+          "name": "userProvidedMetaData",
+          "type": "BITCrashMetaData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setCrashReportUIHandler:": {
+      "name": "setCrashReportUIHandler:",
+      "bridgedName": "setCrashReportUIHandler",
+      "args": [
+        {
+          "name": "crashReportUIHandler",
+          "type": "BITCustomCrashReportUIHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isDebuggerAttached": {
+      "name": "isDebuggerAttached",
+      "bridgedName": "isDebuggerAttached",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "generateTestCrash": {
+      "name": "generateTestCrash",
+      "bridgedName": "generateTestCrash",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "askUserDetails": {
+      "name": "askUserDetails",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "disableMachExceptionHandler": {
+      "name": "disableMachExceptionHandler",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "getter=isMachExceptionHandlerDisabled"
+      ]
+    },
+    "autoSubmitCrashReport": {
+      "name": "autoSubmitCrashReport",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "getter=isAutoSubmitCrashReport"
+      ]
+    },
+    "didCrashInLastSession": {
+      "name": "didCrashInLastSession",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lastSessionCrashDetails": {
+      "name": "lastSessionCrashDetails",
+      "pointer": false,
+      "type": "BITCrashDetails ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "timeintervalCrashInLastSessionOccured": {
+      "name": "timeintervalCrashInLastSessionOccured",
+      "pointer": false,
+      "type": "NSTimeInterval",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

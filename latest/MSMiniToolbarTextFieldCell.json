@@ -1,0 +1,8 @@
+{
+  "name": "MSMiniToolbarTextFieldCell",
+  "extends": "NSTextFieldCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "_MSImmutablePolygonShape",
+  "extends": "MSImmutableShapePathLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "numberOfPoints": {
+      "name": "numberOfPoints",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

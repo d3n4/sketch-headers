@@ -1,0 +1,42 @@
+{
+  "name": "BCColorPreview",
+  "extends": "NSPopUpButton",
+  "interfaces": [],
+  "methods": {
+    "initInBounds:": {
+      "name": "initInBounds:",
+      "bridgedName": "initInBounds",
+      "args": [
+        {
+          "name": "colorPickerBounds",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "BCFlexibleColor ",
+      "attributes": [
+        "nonatomic",
+        "retain"
+      ]
+    },
+    "frequentColors": {
+      "name": "frequentColors",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

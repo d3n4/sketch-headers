@@ -1,0 +1,10 @@
+{
+  "name": "MSImmutableSliceLayer",
+  "extends": "_MSImmutableSliceLayer",
+  "interfaces": [
+    "MSLayerWithBackgroundColor"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSWelcomeCollectionImageCell",
+  "extends": "NSImageCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

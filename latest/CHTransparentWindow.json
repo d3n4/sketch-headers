@@ -1,0 +1,23 @@
+{
+  "name": "CHTransparentWindow",
+  "extends": "NSWindow",
+  "interfaces": [],
+  "methods": {
+    "initWithContentRect:": {
+      "name": "initWithContentRect:",
+      "bridgedName": "initWithContentRect",
+      "args": [
+        {
+          "name": "contentRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

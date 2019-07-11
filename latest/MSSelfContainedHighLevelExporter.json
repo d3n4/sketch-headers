@@ -1,0 +1,35 @@
+{
+  "name": "MSSelfContainedHighLevelExporter",
+  "extends": "MSHighLevelExporter",
+  "interfaces": [
+    "MSHighLevelExportDelegate"
+  ],
+  "methods": {
+    "initWithOptions:": {
+      "name": "initWithOptions:",
+      "bridgedName": "initWithOptions",
+      "args": [
+        {
+          "name": "options",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "results": {
+      "name": "results",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

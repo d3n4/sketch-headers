@@ -1,0 +1,8 @@
+{
+  "name": "_MSSharedStyle",
+  "extends": "MSSharedObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

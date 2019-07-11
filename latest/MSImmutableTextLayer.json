@@ -1,0 +1,275 @@
+{
+  "name": "MSImmutableTextLayer",
+  "extends": "_MSImmutableTextLayer",
+  "interfaces": [
+    "MSFirstLineTypesetterDelegate"
+  ],
+  "methods": {
+    "defaultLineHeight:": {
+      "name": "defaultLineHeight:",
+      "bridgedName": "defaultLineHeight",
+      "args": [
+        {
+          "name": "layoutManager",
+          "type": "nonnull NSLayoutManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startingPositionOnPath:": {
+      "name": "startingPositionOnPath:",
+      "bridgedName": "startingPositionOnPath",
+      "args": [
+        {
+          "name": "shape",
+          "type": "nonnull NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textContainerSize": {
+      "name": "textContainerSize",
+      "bridgedName": "textContainerSize",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shapeToUseForTextOnPathWithParentGroup:": {
+      "name": "shapeToUseForTextOnPathWithParentGroup:",
+      "bridgedName": "shapeToUseForTextOnPathWithParentGroup",
+      "args": [
+        {
+          "name": "parentGroup",
+          "type": "nonnull MSImmutableLayerGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSImmutableShapeGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstUnderlyingShapePathWithParentGroup:usingCache:": {
+      "name": "firstUnderlyingShapePathWithParentGroup:usingCache:",
+      "bridgedName": "firstUnderlyingShapePathWithParentGroup_usingCache",
+      "args": [
+        {
+          "name": "parentGroup",
+          "type": "nonnull MSImmutableLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "nonnull BCCache*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathFromGlyphsInBoundsWithParentGroup:layoutManager:": {
+      "name": "bezierPathFromGlyphsInBoundsWithParentGroup:layoutManager:",
+      "bridgedName": "bezierPathFromGlyphsInBoundsWithParentGroup_layoutManager",
+      "args": [
+        {
+          "name": "parentGroup",
+          "type": "nonnull MSImmutableLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "layoutManager",
+          "type": "nonnull NSLayoutManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "usedFontNames": {
+      "name": "usedFontNames",
+      "bridgedName": "usedFontNames",
+      "args": [],
+      "returns": "nonnull NSSet *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawingPointForText": {
+      "name": "drawingPointForText",
+      "bridgedName": "drawingPointForText",
+      "args": [],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "capHeightBounds": {
+      "name": "capHeightBounds",
+      "bridgedName": "capHeightBounds",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createTextStorage": {
+      "name": "createTextStorage",
+      "bridgedName": "createTextStorage",
+      "args": [],
+      "returns": "nonnull NSTextStorage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculateBaselineOffsets:lineFragmentBounds:firstLineCapOffset:": {
+      "name": "calculateBaselineOffsets:lineFragmentBounds:firstLineCapOffset:",
+      "bridgedName": "calculateBaselineOffsets_lineFragmentBounds_firstLineCapOffset",
+      "args": [
+        {
+          "name": "layoutManager",
+          "type": "nonnull NSLayoutManager *",
+          "nullable": false
+        },
+        {
+          "name": "lineFragmentBoundsOut",
+          "type": "NSRect *",
+          "nullable": true
+        },
+        {
+          "name": "firstLineCapOffsetOut",
+          "type": "CGFloat *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull NSArray<NSNumber *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "textStoragePoolInCache:": {
+      "name": "textStoragePoolInCache:",
+      "bridgedName": "textStoragePoolInCache",
+      "args": [
+        {
+          "name": "cache",
+          "type": "nonnull BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull MSTextStoragePool *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "fontSize": {
+      "name": "fontSize",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "stringValue": {
+      "name": "stringValue",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy",
+        "nonnull"
+      ]
+    },
+    "attributedStringValue": {
+      "name": "attributedStringValue",
+      "pointer": false,
+      "type": "NSAttributedString ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy",
+        "nonnull"
+      ]
+    },
+    "textAlignment": {
+      "name": "textAlignment",
+      "pointer": false,
+      "type": "NSTextAlignment",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "drawingPointForText": {
+      "name": "drawingPointForText",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "baselineOffsets": {
+      "name": "baselineOffsets",
+      "pointer": false,
+      "type": "NSArray <NSNumber *> ",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "lineFragmentBounds": {
+      "name": "lineFragmentBounds",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "firstLineCapOffset": {
+      "name": "firstLineCapOffset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "firstBaselineOffset": {
+      "name": "firstBaselineOffset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "shouldUseBezierRepresentationForRendering": {
+      "name": "shouldUseBezierRepresentationForRendering",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isEditingText": {
+      "name": "isEditingText",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

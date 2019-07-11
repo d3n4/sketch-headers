@@ -1,0 +1,55 @@
+{
+  "name": "MSFrequentColorTracker",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "registerColor:fromSource:": {
+      "name": "registerColor:fromSource:",
+      "bridgedName": "registerColor_fromSource",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        },
+        {
+          "name": "source",
+          "type": "id<MSColorUser>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerColors:fromSource:": {
+      "name": "registerColors:fromSource:",
+      "bridgedName": "registerColors_fromSource",
+      "args": [
+        {
+          "name": "colors",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "source",
+          "type": "id<MSColorUser>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "frequentColors": {
+      "name": "frequentColors",
+      "bridgedName": "frequentColors",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,76 @@
+{
+  "name": "MSColorCounter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "countSource:": {
+      "name": "countSource:",
+      "bridgedName": "countSource",
+      "args": [
+        {
+          "name": "source",
+          "type": "id<MSColorUser>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "compare:": {
+      "name": "compare:",
+      "bridgedName": "compare",
+      "args": [
+        {
+          "name": "otherColor",
+          "type": "MSColorCounter *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSComparisonResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "immutableColor": {
+      "name": "immutableColor",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "totalCount": {
+      "name": "totalCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "CHTransformStruct",
+  "members": [
+    {
+      "name": "rotation",
+      "pointer": false,
+      "type": "CGFloat"
+    },
+    {
+      "name": "isFlippedHorizontal",
+      "pointer": false,
+      "type": "BOOL"
+    },
+    {
+      "name": "isFlippedVertical",
+      "pointer": false,
+      "type": "BOOL"
+    },
+    {
+      "name": "flipOrder",
+      "pointer": false,
+      "type": "BOOL"
+    }
+  ]
+}

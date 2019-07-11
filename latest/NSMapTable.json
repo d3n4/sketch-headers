@@ -1,0 +1,98 @@
+{
+  "name": "NSMapTable",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "enumerateKeysAndObjectsUsingBlock:": {
+      "name": "enumerateKeysAndObjectsUsingBlock:",
+      "bridgedName": "enumerateKeysAndObjectsUsingBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(id key, id obj, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateKeysUsingBlock:": {
+      "name": "enumerateKeysUsingBlock:",
+      "bridgedName": "enumerateKeysUsingBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(id key, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateObjectsUsingBlock:": {
+      "name": "enumerateObjectsUsingBlock:",
+      "bridgedName": "enumerateObjectsUsingBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(id obj, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForKeyedSubscript:": {
+      "name": "objectForKeyedSubscript:",
+      "bridgedName": "objectForKeyedSubscript",
+      "args": [
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setObject:forKeyedSubscript:": {
+      "name": "setObject:forKeyedSubscript:",
+      "bridgedName": "setObject_forKeyedSubscript",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "filter:": {
+      "name": "filter:",
+      "bridgedName": "filter",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCMapTableFilterBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMapTable *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

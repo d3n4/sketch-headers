@@ -1,0 +1,26 @@
+{
+  "enum": true,
+  "name": "MSHandleState",
+  "members": [
+    {
+      "name": "MSHandleStateNormal",
+      "value": "0"
+    },
+    {
+      "name": "MSHandleStateHighlighted",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSHandleStateHovering",
+      "value": "1 << 1"
+    },
+    {
+      "name": "MSHandleStateSelected",
+      "value": "1 << 2"
+    },
+    {
+      "name": "MSHandleStateRelatedToSelection",
+      "value": "1 << 4"
+    }
+  ]
+}

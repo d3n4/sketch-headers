@@ -1,0 +1,70 @@
+{
+  "protocol": true,
+  "name": "MSColorInspectorDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorInspector:didChangeToColor:": {
+      "name": "colorInspector:didChangeToColor:",
+      "bridgedName": "colorInspector_didChangeToColor",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "inspectorDidChangeType:": {
+      "name": "inspectorDidChangeType:",
+      "bridgedName": "inspectorDidChangeType",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorInspectorDidChange:": {
+      "name": "colorInspectorDidChange:",
+      "bridgedName": "colorInspectorDidChange",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorInspectorWillClose:": {
+      "name": "colorInspectorWillClose:",
+      "bridgedName": "colorInspectorWillClose",
+      "args": [
+        {
+          "name": "inspector",
+          "type": "MSColorInspector *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

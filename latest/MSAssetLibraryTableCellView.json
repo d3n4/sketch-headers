@@ -1,0 +1,8 @@
+{
+  "name": "MSAssetLibraryTableCellView",
+  "extends": "NSTableCellView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

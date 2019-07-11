@@ -1,0 +1,33 @@
+{
+  "name": "BCNetworkTime",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "requestTimeFromHost:timeout:completionBlock:": {
+      "name": "requestTimeFromHost:timeout:completionBlock:",
+      "bridgedName": "requestTimeFromHost_timeout_completionBlock",
+      "args": [
+        {
+          "name": "host",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "timeout",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "completion",
+          "type": "MSNetworkTimeCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

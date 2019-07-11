@@ -1,0 +1,29 @@
+{
+  "name": "_MSImmutableRectangleShape",
+  "extends": "MSImmutableShapePathLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "fixedRadius": {
+      "name": "fixedRadius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasConvertedToNewRoundCorners": {
+      "name": "hasConvertedToNewRoundCorners",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "MSColorInspectorSectionColor",
+  "extends": "MSColorInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "pickedColor": {
+      "name": "pickedColor",
+      "pointer": false,
+      "type": "MSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

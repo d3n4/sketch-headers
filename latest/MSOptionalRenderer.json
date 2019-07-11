@@ -1,0 +1,50 @@
+{
+  "name": "MSOptionalRenderer",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSAllRenderers"
+  ],
+  "methods": {
+    "initWithBaseRenderer:disableSetting:": {
+      "name": "initWithBaseRenderer:disableSetting:",
+      "bridgedName": "initWithBaseRenderer_disableSetting",
+      "args": [
+        {
+          "name": "baseRenderer",
+          "type": "id<MSRenderer>",
+          "nullable": false
+        },
+        {
+          "name": "setting",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "baseRenderer": {
+      "name": "baseRenderer",
+      "pointer": false,
+      "type": "id<MSRenderer>",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

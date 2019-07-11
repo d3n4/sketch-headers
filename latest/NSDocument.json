@@ -1,0 +1,23 @@
+{
+  "name": "NSDocument",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "menuNeedsUpdate:": {
+      "name": "menuNeedsUpdate:",
+      "bridgedName": "menuNeedsUpdate",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

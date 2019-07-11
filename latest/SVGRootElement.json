@@ -1,0 +1,8 @@
+{
+  "name": "SVGRootElement",
+  "extends": "_SVGRootElement",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

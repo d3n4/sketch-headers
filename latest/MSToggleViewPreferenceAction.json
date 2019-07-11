@@ -1,0 +1,17 @@
+{
+  "name": "MSToggleViewPreferenceAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "preferenceKey": {
+      "name": "preferenceKey",
+      "bridgedName": "preferenceKey",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,72 @@
+{
+  "name": "PDFStream",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithStream:": {
+      "name": "initWithStream:",
+      "bridgedName": "initWithStream",
+      "args": [
+        {
+          "name": "stream",
+          "type": "CGPDFStreamRef",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dictionary": {
+      "name": "dictionary",
+      "bridgedName": "dictionary",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "stream": {
+      "name": "stream",
+      "pointer": false,
+      "type": "CGPDFStreamRef",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "format": {
+      "name": "format",
+      "pointer": false,
+      "type": "CGPDFDataFormat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "data": {
+      "name": "data",
+      "pointer": false,
+      "type": "NSData*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dictionary": {
+      "name": "dictionary",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

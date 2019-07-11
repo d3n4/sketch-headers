@@ -1,0 +1,40 @@
+{
+  "name": "_MSImmutableForeignObject",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "libraryID": {
+      "name": "libraryID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "sourceLibraryName": {
+      "name": "sourceLibraryName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "symbolPrivate": {
+      "name": "symbolPrivate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

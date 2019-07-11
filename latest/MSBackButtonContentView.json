@@ -1,0 +1,8 @@
+{
+  "name": "MSBackButtonContentView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

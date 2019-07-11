@@ -1,0 +1,114 @@
+{
+  "name": "MSOverrideViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorSection"
+  ],
+  "methods": {
+    "build": {
+      "name": "build",
+      "bridgedName": "build",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "labelView": {
+      "name": "labelView",
+      "bridgedName": "labelView",
+      "args": [],
+      "returns": "NSTextField *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "controlViewForEditingOverride": {
+      "name": "controlViewForEditingOverride",
+      "bridgedName": "controlViewForEditingOverride",
+      "args": [],
+      "returns": "NSControl *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueFromControlView:": {
+      "name": "valueFromControlView:",
+      "bridgedName": "valueFromControlView",
+      "args": [
+        {
+          "name": "controlView",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overrideValueAction:": {
+      "name": "overrideValueAction:",
+      "bridgedName": "overrideValueAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyOverrideToSelectedLayers:": {
+      "name": "applyOverrideToSelectedLayers:",
+      "bridgedName": "applyOverrideToSelectedLayers",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "instances": {
+      "name": "instances",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "layerInsideSymbol": {
+      "name": "layerInsideSymbol",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "info": {
+      "name": "info",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "overrides": {
+      "name": "overrides",
+      "pointer": false,
+      "type": "NSSet ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

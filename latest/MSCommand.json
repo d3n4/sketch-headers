@@ -1,0 +1,31 @@
+{
+  "name": "MSCommand",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "runWithArguments:": {
+      "name": "runWithArguments:",
+      "bridgedName": "runWithArguments",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSCommandPreparation",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "run": {
+      "name": "run",
+      "bridgedName": "run",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSFlattenAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "flatten:": {
+      "name": "flatten:",
+      "bridgedName": "flatten",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

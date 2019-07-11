@@ -1,0 +1,37 @@
+{
+  "name": "MSSliceLayer",
+  "extends": "_MSSliceLayer",
+  "interfaces": [
+    "MSLayerWithBackgroundColor",
+    "MSColorSpaceConvertible"
+  ],
+  "methods": {
+    "sliceLayerFromLayer:": {
+      "name": "sliceLayerFromLayer:",
+      "bridgedName": "sliceLayerFromLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "sliceWatcher": {
+      "name": "sliceWatcher",
+      "pointer": false,
+      "type": "id<MSSliceLayerWatcher>",
+      "attributes": [
+        "weak",
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

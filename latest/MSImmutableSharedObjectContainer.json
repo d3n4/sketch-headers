@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableSharedObjectContainer",
+  "extends": "_MSImmutableSharedObjectContainer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}
