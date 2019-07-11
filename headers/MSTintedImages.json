@@ -183,6 +183,33 @@
         "readonly"
       ]
     },
+    "sidebarAddPageImage": {
+      "name": "sidebarAddPageImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sidebarCollapsePageListImage": {
+      "name": "sidebarCollapsePageListImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sidebarExpandPageListImage": {
+      "name": "sidebarExpandPageListImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "flowBackImage": {
       "name": "flowBackImage",
       "pointer": false,

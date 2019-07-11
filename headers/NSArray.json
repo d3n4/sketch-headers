@@ -69,7 +69,7 @@
       "args": [
         {
           "name": "block",
-          "type": "id (^)(ObjectType object)",
+          "type": "id (^)(__kindof ObjectType object)",
           "nullable": false
         }
       ],

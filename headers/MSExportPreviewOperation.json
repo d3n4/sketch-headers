@@ -3,13 +3,18 @@
   "extends": "NSOperation",
   "interfaces": [],
   "methods": {
-    "initWithAncestry:": {
-      "name": "initWithAncestry:",
-      "bridgedName": "initWithAncestry",
+    "initWithAncestry:imageSize:": {
+      "name": "initWithAncestry:imageSize:",
+      "bridgedName": "initWithAncestry_imageSize",
       "args": [
         {
           "name": "ancestry",
           "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "imageSize",
+          "type": "NSSize",
           "nullable": false
         }
       ],

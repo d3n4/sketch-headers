@@ -11,6 +11,30 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "drawBaselineAlignedAttributedTitle:forCell:controlView:": {
+      "name": "drawBaselineAlignedAttributedTitle:forCell:controlView:",
+      "bridgedName": "drawBaselineAlignedAttributedTitle_forCell_controlView",
+      "args": [
+        {
+          "name": "attributedTitle",
+          "type": "NSAttributedString *",
+          "nullable": false
+        },
+        {
+          "name": "cell",
+          "type": "NSCell *",
+          "nullable": false
+        },
+        {
+          "name": "controlView",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "currentInspectorIconColor": {
       "name": "currentInspectorIconColor",
       "bridgedName": "currentInspectorIconColor",

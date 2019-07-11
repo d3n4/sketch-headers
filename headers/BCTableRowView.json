@@ -11,6 +11,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "refreshBadges": {
+      "name": "refreshBadges",
+      "bridgedName": "refreshBadges",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "refreshBackgroundStyle": {
       "name": "refreshBackgroundStyle",
       "bridgedName": "refreshBackgroundStyle",

@@ -1831,6 +1831,7 @@
   "MSFlowMenuBuilder.json",
   "protocols/MSFlowMenuBuilderTarget.json",
   "MSFollowFlowAction.json",
+  "MSFontFamilyButtonCell.json",
   "MSFontFamilyPickerViewController.json",
   "MSFontFamilyTextFieldCell.json",
   "MSFontNamesTableView.json",

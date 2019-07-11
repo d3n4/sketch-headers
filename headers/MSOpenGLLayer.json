@@ -3,6 +3,16 @@
   "extends": "NSOpenGLLayer",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "shareContext": {
+      "name": "shareContext",
+      "pointer": false,
+      "type": "NSOpenGLContext ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
   "generics": []
 }

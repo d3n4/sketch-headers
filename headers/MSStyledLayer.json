@@ -41,6 +41,36 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "canCutSegments": {
+      "name": "canCutSegments",
+      "bridgedName": "canCutSegments",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "possiblyFixRectangleBorderBeforeCut": {
+      "name": "possiblyFixRectangleBorderBeforeCut",
+      "bridgedName": "possiblyFixRectangleBorderBeforeCut",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWithBezierSegmentCutAtIndex:": {
+      "name": "layerWithBezierSegmentCutAtIndex:",
+      "bridgedName": "layerWithBezierSegmentCutAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "MSStyledLayer <MSPathLayer> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "resetSharedStyle": {
       "name": "resetSharedStyle",
       "bridgedName": "resetSharedStyle",

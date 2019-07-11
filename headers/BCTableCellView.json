@@ -13,6 +13,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "updateBadgeImages": {
+      "name": "updateBadgeImages",
+      "bridgedName": "updateBadgeImages",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "drawDragImageInRect:": {
       "name": "drawDragImageInRect:",
       "bridgedName": "drawDragImageInRect",

@@ -8,7 +8,11 @@
     },
     {
       "name": "MSAlignmentRectTextXHeight",
-      "value": "2 << 0"
+      "value": "1 << 1"
+    },
+    {
+      "name": "MSAlignmentRectTruePath",
+      "value": "1 << 2"
     }
   ]
 }

@@ -201,36 +201,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "canCutSegments": {
-      "name": "canCutSegments",
-      "bridgedName": "canCutSegments",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "possiblyFixRectangleBorderBeforeCut": {
-      "name": "possiblyFixRectangleBorderBeforeCut",
-      "bridgedName": "possiblyFixRectangleBorderBeforeCut",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "cutBezierSegmentAtIndex:": {
-      "name": "cutBezierSegmentAtIndex:",
-      "bridgedName": "cutBezierSegmentAtIndex",
-      "args": [
-        {
-          "name": "index",
-          "type": "NSUInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "CSSAttributeString": {
       "name": "CSSAttributeString",
       "bridgedName": "CSSAttributeString",
