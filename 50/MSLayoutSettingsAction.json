@@ -1,0 +1,23 @@
+{
+  "name": "MSLayoutSettingsAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "layoutSettings:": {
+      "name": "layoutSettings:",
+      "bridgedName": "layoutSettings",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

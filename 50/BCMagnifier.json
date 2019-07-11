@@ -1,0 +1,28 @@
+{
+  "name": "BCMagnifier",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "pickColorInColorSpace:completionHandler:": {
+      "name": "pickColorInColorSpace:completionHandler:",
+      "bridgedName": "pickColorInColorSpace_completionHandler",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "BCMagnifierCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

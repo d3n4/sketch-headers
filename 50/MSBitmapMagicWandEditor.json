@@ -1,0 +1,8 @@
+{
+  "name": "MSBitmapMagicWandEditor",
+  "extends": "MSBitmapEditor",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

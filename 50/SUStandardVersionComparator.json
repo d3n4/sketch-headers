@@ -1,0 +1,46 @@
+{
+  "name": "SUStandardVersionComparator",
+  "extends": "NSObject",
+  "interfaces": [
+    "SUVersionComparison"
+  ],
+  "methods": {
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultComparator": {
+      "name": "defaultComparator",
+      "bridgedName": "defaultComparator",
+      "args": [],
+      "returns": "SUStandardVersionComparator *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "compareVersion:toVersion:": {
+      "name": "compareVersion:toVersion:",
+      "bridgedName": "compareVersion_toVersion",
+      "args": [
+        {
+          "name": "versionA",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "versionB",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSComparisonResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

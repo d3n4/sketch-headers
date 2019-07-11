@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSModelCopyOptions",
+  "members": [
+    {
+      "name": "MSModelCopyNormal",
+      "value": "0x0000"
+    },
+    {
+      "name": "MSModelPreserveIDs",
+      "value": "0x0001"
+    }
+  ]
+}

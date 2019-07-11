@@ -1,0 +1,23 @@
+{
+  "name": "MSNextPageAction",
+  "extends": "MSChangePageAction",
+  "interfaces": [],
+  "methods": {
+    "nextPage:": {
+      "name": "nextPage:",
+      "bridgedName": "nextPage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

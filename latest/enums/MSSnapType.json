@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSSnapType",
+  "members": [
+    {
+      "name": "MSSnapGuides"
+    },
+    {
+      "name": "MSSnapSpacing"
+    },
+    {
+      "name": "MSSnapDimension"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "SUUpdateValidator",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDownloadPath:dsaSignature:host:performingPrevalidation:": {
+      "name": "initWithDownloadPath:dsaSignature:host:performingPrevalidation:",
+      "bridgedName": "initWithDownloadPath_dsaSignature_host_performingPrevalidation",
+      "args": [
+        {
+          "name": "downloadPath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "dsaSignature",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "host",
+          "type": "SUHost *",
+          "nullable": false
+        },
+        {
+          "name": "performingPrevalidation",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validateWithUpdateDirectory:": {
+      "name": "validateWithUpdateDirectory:",
+      "bridgedName": "validateWithUpdateDirectory",
+      "args": [
+        {
+          "name": "updateDirectory",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "canValidate": {
+      "name": "canValidate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

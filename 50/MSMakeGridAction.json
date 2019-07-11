@@ -1,0 +1,8 @@
+{
+  "name": "MSMakeGridAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

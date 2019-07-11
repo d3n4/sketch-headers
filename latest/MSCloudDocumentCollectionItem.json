@@ -1,0 +1,53 @@
+{
+  "name": "MSCloudDocumentCollectionItem",
+  "extends": "MSWelcomeCollectionItem",
+  "interfaces": [],
+  "methods": {
+    "initWithController:document:": {
+      "name": "initWithController:document:",
+      "bridgedName": "initWithController_document",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSWelcomeWindowController *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "SCKCloudDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "downloadDocument:": {
+      "name": "downloadDocument:",
+      "bridgedName": "downloadDocument",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^)(NSURL *location, NSError *error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "cloudDocument": {
+      "name": "cloudDocument",
+      "pointer": false,
+      "type": "SCKCloudDocument ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

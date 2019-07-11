@@ -1,0 +1,8 @@
+{
+  "name": "MSFlatSectionBackgroundSeparatorView",
+  "extends": "MSSectionBackgroundSeparatorView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

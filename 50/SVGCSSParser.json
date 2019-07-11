@@ -1,0 +1,42 @@
+{
+  "name": "SVGCSSParser",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "parseCSSAttributeList:": {
+      "name": "parseCSSAttributeList:",
+      "bridgedName": "parseCSSAttributeList",
+      "args": [
+        {
+          "name": "cssAttributes",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "mergeStylesheet:withExisting:": {
+      "name": "mergeStylesheet:withExisting:",
+      "bridgedName": "mergeStylesheet_withExisting",
+      "args": [
+        {
+          "name": "styleSheet",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "existing",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

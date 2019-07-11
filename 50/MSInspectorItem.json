@@ -1,0 +1,108 @@
+{
+  "name": "MSInspectorItem",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "filterSelection:": {
+      "name": "filterSelection:",
+      "bridgedName": "filterSelection",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "itemForSection:": {
+      "name": "itemForSection:",
+      "bridgedName": "itemForSection",
+      "args": [
+        {
+          "name": "section",
+          "type": "MSBaseInspectorSection *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "selectionDidChangeTo:": {
+      "name": "selectionDidChangeTo:",
+      "bridgedName": "selectionDidChangeTo",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateDisplayedValues": {
+      "name": "updateDisplayedValues",
+      "bridgedName": "updateDisplayedValues",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canHandleSomeLayersOfSelection:": {
+      "name": "canHandleSomeLayersOfSelection:",
+      "bridgedName": "canHandleSomeLayersOfSelection",
+      "args": [
+        {
+          "name": "layerArray",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "layersController": {
+      "name": "layersController",
+      "pointer": false,
+      "type": "NSArrayController ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSInspectorItemDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

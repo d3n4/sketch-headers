@@ -1,0 +1,50 @@
+{
+  "protocol": true,
+  "name": "MSPasteboardWriter",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "canWriteDataToPasteboard:": {
+      "name": "canWriteDataToPasteboard:",
+      "bridgedName": "canWriteDataToPasteboard",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "supportedPasteboardTypes": {
+      "name": "supportedPasteboardTypes",
+      "bridgedName": "supportedPasteboardTypes",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeData:toPasteboard:": {
+      "name": "writeData:toPasteboard:",
+      "bridgedName": "writeData_toPasteboard",
+      "args": [
+        {
+          "name": "data",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        },
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MSBlockAnimation",
+  "extends": "CABasicAnimation",
+  "interfaces": [],
+  "methods": {
+    "initWithBlock:": {
+      "name": "initWithBlock:",
+      "bridgedName": "initWithBlock",
+      "args": [
+        {
+          "name": "aBlock",
+          "type": "MSAnimationBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

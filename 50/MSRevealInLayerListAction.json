@@ -1,0 +1,23 @@
+{
+  "name": "MSRevealInLayerListAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "revealInLayerList:": {
+      "name": "revealInLayerList:",
+      "bridgedName": "revealInLayerList",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

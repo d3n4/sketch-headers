@@ -1,0 +1,9 @@
+{
+  "enum": true,
+  "name": "MSRootObjectMessage",
+  "members": [
+    {
+      "name": "MSRootObjectMessageRulersChangedUsingUndo"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSToolbar",
+  "extends": "NSToolbar",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

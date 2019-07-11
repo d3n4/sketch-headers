@@ -1,0 +1,18 @@
+{
+  "name": "MSAssetMigrationSources",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "imageURL": {
+      "name": "imageURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    }
+  },
+  "generics": []
+}

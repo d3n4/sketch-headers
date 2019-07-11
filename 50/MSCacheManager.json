@@ -1,0 +1,43 @@
+{
+  "name": "MSCacheManager",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSRenderingContextCacheProvider"
+  ],
+  "methods": {
+    "clearCachesExceptForOwners:": {
+      "name": "clearCachesExceptForOwners:",
+      "bridgedName": "clearCachesExceptForOwners",
+      "args": [
+        {
+          "name": "ownersToKeep",
+          "type": "NSSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearAllCaches": {
+      "name": "clearAllCaches",
+      "bridgedName": "clearAllCaches",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "modelCache": {
+      "name": "modelCache",
+      "pointer": false,
+      "type": "BCCache ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

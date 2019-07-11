@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableAssetCollection",
+  "extends": "_MSImmutableAssetCollection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

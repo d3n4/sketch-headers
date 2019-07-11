@@ -1,0 +1,21 @@
+{
+  "enum": true,
+  "name": "MSTiledLayerState",
+  "members": [
+    {
+      "name": "MSTiledLayerStateNew"
+    },
+    {
+      "name": "MSTiledLayerStatePreparing"
+    },
+    {
+      "name": "MSTiledLayerStateCurrent"
+    },
+    {
+      "name": "MSTiledLayerStateSuperceded"
+    },
+    {
+      "name": "MSTiledLayerStateCleared"
+    }
+  ]
+}

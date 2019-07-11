@@ -1,0 +1,45 @@
+{
+  "name": "MSClosePathChange",
+  "extends": "MSShapeChange",
+  "interfaces": [],
+  "methods": {
+    "toggleClosePath": {
+      "name": "toggleClosePath",
+      "bridgedName": "toggleClosePath",
+      "args": [],
+      "returns": "MSClosePathChange *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "validateWithContext:": {
+      "name": "validateWithContext:",
+      "bridgedName": "validateWithContext",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSShapeChangeContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "titleForContext:": {
+      "name": "titleForContext:",
+      "bridgedName": "titleForContext",
+      "args": [
+        {
+          "name": "context",
+          "type": "MSShapeChangeContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "MSSectionBackgroundSeparatorView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {
+    "separator": {
+      "name": "separator",
+      "bridgedName": "separator",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

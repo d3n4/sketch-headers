@@ -1,0 +1,23 @@
+{
+  "name": "MSRunLastScriptAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "runLastScript:": {
+      "name": "runLastScript:",
+      "bridgedName": "runLastScript",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

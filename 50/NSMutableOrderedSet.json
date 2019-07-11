@@ -1,0 +1,28 @@
+{
+  "name": "NSMutableOrderedSet",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "mo_setObject:forIndexedSubscript:": {
+      "name": "mo_setObject:forIndexedSubscript:",
+      "bridgedName": "mo_setObject_forIndexedSubscript",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "idx",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

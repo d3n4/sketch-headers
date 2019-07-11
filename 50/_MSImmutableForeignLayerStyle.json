@@ -1,0 +1,8 @@
+{
+  "name": "_MSImmutableForeignLayerStyle",
+  "extends": "MSImmutableForeignStyle",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

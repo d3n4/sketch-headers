@@ -1,0 +1,461 @@
+{
+  "name": "MSExportRequest",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "readSettingsFromDefaults": {
+      "name": "readSettingsFromDefaults",
+      "bridgedName": "readSettingsFromDefaults",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportRequestsFromExportableLayer:": {
+      "name": "exportRequestsFromExportableLayer:",
+      "bridgedName": "exportRequestsFromExportableLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportRequestsFromExportableLayer:useIDForName:": {
+      "name": "exportRequestsFromExportableLayer:useIDForName:",
+      "bridgedName": "exportRequestsFromExportableLayer_useIDForName",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "useIDForName",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportRequestsFromExportableLayer:exportFormats:useIDForName:": {
+      "name": "exportRequestsFromExportableLayer:exportFormats:useIDForName:",
+      "bridgedName": "exportRequestsFromExportableLayer_exportFormats_useIDForName",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "exportFormats",
+          "type": "NSArray <MSExportFormat *> *",
+          "nullable": false
+        },
+        {
+          "name": "useIDForName",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportRequestsFromExportableLayer:inRect:useIDForName:": {
+      "name": "exportRequestsFromExportableLayer:inRect:useIDForName:",
+      "bridgedName": "exportRequestsFromExportableLayer_inRect_useIDForName",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer*",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "useIDForName",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportRequestsFromExportableLayer:exportFormats:inRect:useIDForName:": {
+      "name": "exportRequestsFromExportableLayer:exportFormats:inRect:useIDForName:",
+      "bridgedName": "exportRequestsFromExportableLayer_exportFormats_inRect_useIDForName",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer*",
+          "nullable": false
+        },
+        {
+          "name": "exportFormats",
+          "type": "NSArray <MSExportFormat *> *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "useIDForName",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportRequestFromExportFormat:layer:inRect:useIDForName:": {
+      "name": "exportRequestFromExportFormat:layer:inRect:useIDForName:",
+      "bridgedName": "exportRequestFromExportFormat_layer_inRect_useIDForName",
+      "args": [
+        {
+          "name": "exportFormat",
+          "type": "MSExportFormat *",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "useIDForName",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSExportRequest *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "configureForLayer:layerOptions:includedIDs:": {
+      "name": "configureForLayer:layerOptions:includedIDs:",
+      "bridgedName": "configureForLayer_layerOptions_includedIDs",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "layerOptions",
+          "type": "MSExportLayerOptions",
+          "nullable": false
+        },
+        {
+          "name": "includedIDs",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exportRequestsFromLayerAncestry:": {
+      "name": "exportRequestsFromLayerAncestry:",
+      "bridgedName": "exportRequestsFromLayerAncestry",
+      "args": [
+        {
+          "name": "layerAncestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSExportRequest *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportRequestsFromLayerAncestry:inRect:": {
+      "name": "exportRequestsFromLayerAncestry:inRect:",
+      "bridgedName": "exportRequestsFromLayerAncestry_inRect",
+      "args": [
+        {
+          "name": "layerAncestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSExportRequest *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportRequestsFromLayerAncestry:exportFormats:": {
+      "name": "exportRequestsFromLayerAncestry:exportFormats:",
+      "bridgedName": "exportRequestsFromLayerAncestry_exportFormats",
+      "args": [
+        {
+          "name": "layerAncestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "exportFormats",
+          "type": "NSArray <MSImmutableExportFormat *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSExportRequest *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportRequestsFromLayerAncestry:exportFormats:inRect:": {
+      "name": "exportRequestsFromLayerAncestry:exportFormats:inRect:",
+      "bridgedName": "exportRequestsFromLayerAncestry_exportFormats_inRect",
+      "args": [
+        {
+          "name": "layerAncestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "exportFormats",
+          "type": "NSArray <MSImmutableExportFormat *>*",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSExportRequest *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exportRequestFromLayerAncestry:exportFormat:inRect:": {
+      "name": "exportRequestFromLayerAncestry:exportFormat:inRect:",
+      "bridgedName": "exportRequestFromLayerAncestry_exportFormat_inRect",
+      "args": [
+        {
+          "name": "ancestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "exportFormat",
+          "type": "MSImmutableExportFormat *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "MSExportRequest *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setNameFromID:exportFormat:": {
+      "name": "setNameFromID:exportFormat:",
+      "bridgedName": "setNameFromID_exportFormat",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "format",
+          "type": "MSImmutableExportFormat *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "configureForLayerAncestry:layerOptions:includedIDs:": {
+      "name": "configureForLayerAncestry:layerOptions:includedIDs:",
+      "bridgedName": "configureForLayerAncestry_layerOptions_includedIDs",
+      "args": [
+        {
+          "name": "ancestry",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "layerOptions",
+          "type": "MSExportLayerOptions",
+          "nullable": false
+        },
+        {
+          "name": "includedIDs",
+          "type": "NSArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "options": {
+      "name": "options",
+      "pointer": false,
+      "type": "MSExportLayerOptions",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "includedLayerIDs": {
+      "name": "includedLayerIDs",
+      "pointer": false,
+      "type": "NSSet ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "scale": {
+      "name": "scale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "shouldTrim": {
+      "name": "shouldTrim",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "backgroundColor": {
+      "name": "backgroundColor",
+      "pointer": false,
+      "type": "MSImmutableColor ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "rootLayer": {
+      "name": "rootLayer",
+      "pointer": false,
+      "type": "MSImmutableLayer ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "immutableDocument": {
+      "name": "immutableDocument",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "format": {
+      "name": "format",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "nonatomic"
+      ]
+    },
+    "saveForWeb": {
+      "name": "saveForWeb",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "compression": {
+      "name": "compression",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "progressive": {
+      "name": "progressive",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "interlaced": {
+      "name": "interlaced",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "includeArtboardBackground": {
+      "name": "includeArtboardBackground",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

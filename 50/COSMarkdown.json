@@ -1,0 +1,8 @@
+{
+  "name": "COSMarkdown",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

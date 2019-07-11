@@ -1,0 +1,8 @@
+{
+  "name": "BCHexTextField",
+  "extends": "NSTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

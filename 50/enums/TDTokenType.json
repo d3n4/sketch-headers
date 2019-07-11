@@ -1,0 +1,27 @@
+{
+  "enum": true,
+  "name": "TDTokenType",
+  "members": [
+    {
+      "name": "TDTokenTypeEOF"
+    },
+    {
+      "name": "TDTokenTypeNumber"
+    },
+    {
+      "name": "TDTokenTypeQuotedString"
+    },
+    {
+      "name": "TDTokenTypeSymbol"
+    },
+    {
+      "name": "TDTokenTypeWord"
+    },
+    {
+      "name": "TDTokenTypeWhitespace"
+    },
+    {
+      "name": "TDTokenTypeComment"
+    }
+  ]
+}

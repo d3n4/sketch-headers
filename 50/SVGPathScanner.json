@@ -1,0 +1,49 @@
+{
+  "name": "SVGPathScanner",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithString:": {
+      "name": "initWithString:",
+      "bridgedName": "initWithString",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nextCommand": {
+      "name": "nextCommand",
+      "bridgedName": "nextCommand",
+      "args": [],
+      "returns": "char",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nextFloat": {
+      "name": "nextFloat",
+      "bridgedName": "nextFloat",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "scanner": {
+      "name": "scanner",
+      "pointer": false,
+      "type": "NSScanner*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

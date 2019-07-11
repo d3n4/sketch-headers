@@ -1,0 +1,25 @@
+{
+  "name": "MSInspectorNumberFormatter",
+  "extends": "NSNumberFormatter",
+  "interfaces": [],
+  "methods": {
+    "sharedStandardFloatFormatter": {
+      "name": "sharedStandardFloatFormatter",
+      "bridgedName": "sharedStandardFloatFormatter",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "sharedStandardIntegerFormatter": {
+      "name": "sharedStandardIntegerFormatter",
+      "bridgedName": "sharedStandardIntegerFormatter",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

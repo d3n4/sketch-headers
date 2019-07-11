@@ -1,0 +1,8 @@
+{
+  "name": "MSSharedTextStyleContainer",
+  "extends": "_MSSharedTextStyleContainer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

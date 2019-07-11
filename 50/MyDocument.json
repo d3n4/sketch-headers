@@ -1,0 +1,51 @@
+{
+  "name": "MyDocument",
+  "extends": "NSDocument",
+  "interfaces": [],
+  "methods": {
+    "toggleShowPoints:": {
+      "name": "toggleShowPoints:",
+      "bridgedName": "toggleShowPoints",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleSimplifyPath:": {
+      "name": "toggleSimplifyPath:",
+      "bridgedName": "toggleSimplifyPath",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleFitCurve:": {
+      "name": "toggleFitCurve:",
+      "bridgedName": "toggleFitCurve",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

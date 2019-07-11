@@ -1,0 +1,8 @@
+{
+  "name": "MSUpDownNanoTextField",
+  "extends": "MSUpDownTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

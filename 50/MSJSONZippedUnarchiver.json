@@ -1,0 +1,75 @@
+{
+  "name": "MSJSONZippedUnarchiver",
+  "extends": "MSJSONUnarchiver",
+  "interfaces": [],
+  "methods": {
+    "initWithURL:": {
+      "name": "initWithURL:",
+      "bridgedName": "initWithURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "nonnull NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unarchiveObjectAtSubpath:error:": {
+      "name": "unarchiveObjectAtSubpath:error:",
+      "bridgedName": "unarchiveObjectAtSubpath_error",
+      "args": [
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unarchiveRawDataAtSubpath:error:": {
+      "name": "unarchiveRawDataAtSubpath:error:",
+      "bridgedName": "unarchiveRawDataAtSubpath_error",
+      "args": [
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsFileAtSubpath:": {
+      "name": "containsFileAtSubpath:",
+      "bridgedName": "containsFileAtSubpath",
+      "args": [
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

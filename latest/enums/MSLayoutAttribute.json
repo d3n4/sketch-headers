@@ -1,0 +1,52 @@
+{
+  "enum": true,
+  "name": "MSLayoutAttribute",
+  "members": [
+    {
+      "name": "MSLayoutAttributeLeft",
+      "value": "NSLayoutAttributeLeft"
+    },
+    {
+      "name": "MSLayoutAttributeRight",
+      "value": "NSLayoutAttributeRight"
+    },
+    {
+      "name": "MSLayoutAttributeTop",
+      "value": "NSLayoutAttributeTop"
+    },
+    {
+      "name": "MSLayoutAttributeBottom",
+      "value": "NSLayoutAttributeBottom"
+    },
+    {
+      "name": "MSLayoutAttributeWidth",
+      "value": "NSLayoutAttributeWidth"
+    },
+    {
+      "name": "MSLayoutAttributeHeight",
+      "value": "NSLayoutAttributeHeight"
+    },
+    {
+      "name": "MSLayoutAttributeCenterX",
+      "value": "NSLayoutAttributeCenterX"
+    },
+    {
+      "name": "MSLayoutAttributeCenterY",
+      "value": "NSLayoutAttributeCenterY"
+    },
+    {
+      "name": "MSLayoutAttributeBaseline",
+      "value": "NSLayoutAttributeBaseline"
+    },
+    {
+      "name": "MSLayoutAttributeMidXHeight"
+    },
+    {
+      "name": "MSLayoutAttributeCapHeight"
+    },
+    {
+      "name": "MSLayoutAttributeNotAnAttribute",
+      "value": "NSLayoutAttributeNotAnAttribute"
+    }
+  ]
+}

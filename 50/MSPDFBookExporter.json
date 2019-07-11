@@ -1,0 +1,28 @@
+{
+  "name": "MSPDFBookExporter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "exportPages:defaultFilename:": {
+      "name": "exportPages:defaultFilename:",
+      "bridgedName": "exportPages_defaultFilename",
+      "args": [
+        {
+          "name": "pages",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "defaultFilename",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

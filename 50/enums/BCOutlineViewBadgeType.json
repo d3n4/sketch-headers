@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "BCOutlineViewBadgeType",
+  "members": [
+    {
+      "name": "BCOutlineViewBadgeTypeNone"
+    },
+    {
+      "name": "BCOutlineViewBadgeTypeSlice"
+    },
+    {
+      "name": "BCOutlineViewBadgeTypeFlow"
+    }
+  ]
+}

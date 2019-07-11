@@ -1,0 +1,30 @@
+{
+  "name": "_MSImmutableFlowConnection",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "animationType": {
+      "name": "animationType",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "destinationArtboardID": {
+      "name": "destinationArtboardID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

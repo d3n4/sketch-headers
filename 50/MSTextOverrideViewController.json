@@ -1,0 +1,8 @@
+{
+  "name": "MSTextOverrideViewController",
+  "extends": "MSOverrideViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

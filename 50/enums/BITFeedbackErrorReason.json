@@ -1,0 +1,24 @@
+{
+  "enum": true,
+  "name": "BITFeedbackErrorReason",
+  "members": [
+    {
+      "name": "BITFeedbackErrorUnknown"
+    },
+    {
+      "name": "BITFeedbackAPIServerReturnedInvalidStatus"
+    },
+    {
+      "name": "BITFeedbackAPIServerReturnedInvalidData"
+    },
+    {
+      "name": "BITFeedbackAPIServerReturnedEmptyResponse"
+    },
+    {
+      "name": "BITFeedbackAPIClientAuthorizationMissingSecret"
+    },
+    {
+      "name": "BITFeedbackAPIClientCannotCreateConnection"
+    }
+  ]
+}

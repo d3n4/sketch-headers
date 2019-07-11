@@ -1,0 +1,239 @@
+{
+  "name": "_MSLayerGroup",
+  "extends": "MSStyledLayer",
+  "interfaces": [],
+  "methods": {
+    "addLayer:": {
+      "name": "addLayer:",
+      "bridgedName": "addLayer",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addLayers:": {
+      "name": "addLayers:",
+      "bridgedName": "addLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray<MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertLayer:atIndex:": {
+      "name": "insertLayer:atIndex:",
+      "bridgedName": "insertLayer_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertLayer:beforeLayer:": {
+      "name": "insertLayer:beforeLayer:",
+      "bridgedName": "insertLayer_beforeLayer",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertLayers:beforeLayer:": {
+      "name": "insertLayers:beforeLayer:",
+      "bridgedName": "insertLayers_beforeLayer",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertLayer:afterLayer:": {
+      "name": "insertLayer:afterLayer:",
+      "bridgedName": "insertLayer_afterLayer",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertLayers:afterLayer:": {
+      "name": "insertLayers:afterLayer:",
+      "bridgedName": "insertLayers_afterLayer",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeLayer:": {
+      "name": "removeLayer:",
+      "bridgedName": "removeLayer",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeLayerAtIndex:": {
+      "name": "removeLayerAtIndex:",
+      "bridgedName": "removeLayerAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeLayersAtIndexes:": {
+      "name": "removeLayersAtIndexes:",
+      "bridgedName": "removeLayersAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllLayers": {
+      "name": "removeAllLayers",
+      "bridgedName": "removeAllLayers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveLayerIndex:toIndex:": {
+      "name": "moveLayerIndex:toIndex:",
+      "bridgedName": "moveLayerIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasClickThrough": {
+      "name": "hasClickThrough",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "sharedObjectID": {
+      "name": "sharedObjectID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "groupLayout": {
+      "name": "groupLayout",
+      "pointer": false,
+      "type": "MSGroupLayout ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray<__kindof MSLayer *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

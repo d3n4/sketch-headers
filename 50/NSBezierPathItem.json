@@ -1,0 +1,73 @@
+{
+  "name": "NSBezierPathItem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "points": {
+      "name": "points",
+      "bridgedName": "points",
+      "args": [],
+      "returns": "NSPoint *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setPoints:": {
+      "name": "setPoints:",
+      "bridgedName": "setPoints",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathStartingAtPoint:": {
+      "name": "bezierPathStartingAtPoint:",
+      "bridgedName": "bezierPathStartingAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqual:withAccuracy:": {
+      "name": "isEqual:withAccuracy:",
+      "bridgedName": "isEqual_withAccuracy",
+      "args": [
+        {
+          "name": "other",
+          "type": "NSBezierPathItem *",
+          "nullable": false
+        },
+        {
+          "name": "accuracy",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "NSBezierPathElement",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

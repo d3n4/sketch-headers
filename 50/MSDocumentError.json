@@ -1,0 +1,23 @@
+{
+  "name": "MSDocumentError",
+  "extends": "NSError",
+  "interfaces": [],
+  "methods": {
+    "errorWithCode:": {
+      "name": "errorWithCode:",
+      "bridgedName": "errorWithCode",
+      "args": [
+        {
+          "name": "code",
+          "type": "MSDocumentErrorCode",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

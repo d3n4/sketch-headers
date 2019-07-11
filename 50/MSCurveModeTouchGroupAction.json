@@ -1,0 +1,8 @@
+{
+  "name": "MSCurveModeTouchGroupAction",
+  "extends": "MSTouchBarGroupAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

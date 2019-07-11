@@ -1,0 +1,23 @@
+{
+  "name": "MSRoundToPixelAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "roundToPixel:": {
+      "name": "roundToPixel:",
+      "bridgedName": "roundToPixel",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

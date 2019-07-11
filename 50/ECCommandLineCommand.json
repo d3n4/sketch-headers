@@ -1,0 +1,211 @@
+{
+  "name": "ECCommandLineCommand",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "commandWithName:info:parentCommand:": {
+      "name": "commandWithName:info:parentCommand:",
+      "bridgedName": "commandWithName_info_parentCommand",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSDictionary*",
+          "nullable": false
+        },
+        {
+          "name": "parentCommand",
+          "type": "ECCommandLineCommand*",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineCommand*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "enumerateArguments:": {
+      "name": "enumerateArguments:",
+      "bridgedName": "enumerateArguments",
+      "args": [
+        {
+          "name": "block",
+          "type": "ArgumentBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "engine:processCommands:": {
+      "name": "engine:processCommands:",
+      "bridgedName": "engine_processCommands",
+      "args": [
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        },
+        {
+          "name": "commands",
+          "type": "NSMutableArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "engine:willProcessWithArguments:": {
+      "name": "engine:willProcessWithArguments:",
+      "bridgedName": "engine_willProcessWithArguments",
+      "args": [
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        },
+        {
+          "name": "arguments",
+          "type": "NSMutableArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "engine:didProcessWithArguments:": {
+      "name": "engine:didProcessWithArguments:",
+      "bridgedName": "engine_didProcessWithArguments",
+      "args": [
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        },
+        {
+          "name": "arguments",
+          "type": "NSMutableArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "help": {
+      "name": "help",
+      "bridgedName": "help",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "summaryAs:parentName:": {
+      "name": "summaryAs:parentName:",
+      "bridgedName": "summaryAs_parentName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "parentName",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "usageAs:parentName:engine:": {
+      "name": "usageAs:parentName:engine:",
+      "bridgedName": "usageAs_parentName_engine",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "parentName",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "engine",
+          "type": "ECCommandLineEngine*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subcommandSummaryAs:": {
+      "name": "subcommandSummaryAs:",
+      "bridgedName": "subcommandSummaryAs",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resolveCommandPath:": {
+      "name": "resolveCommandPath:",
+      "bridgedName": "resolveCommandPath",
+      "args": [
+        {
+          "name": "commands",
+          "type": "NSMutableArray*",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineCommand*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "arguments": {
+      "name": "arguments",
+      "pointer": false,
+      "type": "NSArray*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "parentCommand": {
+      "name": "parentCommand",
+      "pointer": false,
+      "type": "ECCommandLineCommand*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

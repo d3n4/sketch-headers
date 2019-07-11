@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSMomentAdaptability",
+  "members": [
+    {
+      "name": "MSMomentAdaptabilityTransient"
+    },
+    {
+      "name": "MSMomentAdaptabilityCoalesces"
+    },
+    {
+      "name": "MSMomentAdaptabilityAmends"
+    }
+  ]
+}

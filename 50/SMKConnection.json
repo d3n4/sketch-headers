@@ -1,0 +1,136 @@
+{
+  "name": "SMKConnection",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "connect": {
+      "name": "connect",
+      "bridgedName": "connect",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "close": {
+      "name": "close",
+      "bridgedName": "close",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sendData:": {
+      "name": "sendData:",
+      "bridgedName": "sendData",
+      "args": [
+        {
+          "name": "data",
+          "type": "nonnull NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didReceiveData:": {
+      "name": "didReceiveData:",
+      "bridgedName": "didReceiveData",
+      "args": [
+        {
+          "name": "data",
+          "type": "nonnull NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "UUID": {
+      "name": "UUID",
+      "pointer": false,
+      "type": "NSUUID ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "queue": {
+      "name": "queue",
+      "pointer": false,
+      "type": "dispatch_queue_t",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "advertisement": {
+      "name": "advertisement",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "status": {
+      "name": "status",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "connectionInfo": {
+      "name": "connectionInfo",
+      "pointer": false,
+      "type": "SMKConnectionInfo ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "connectionType": {
+      "name": "connectionType",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "resourceHost": {
+      "name": "resourceHost",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

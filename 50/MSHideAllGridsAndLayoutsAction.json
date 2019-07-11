@@ -1,0 +1,23 @@
+{
+  "name": "MSHideAllGridsAndLayoutsAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "hideAllGridsAndLayouts:": {
+      "name": "hideAllGridsAndLayouts:",
+      "bridgedName": "hideAllGridsAndLayouts",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

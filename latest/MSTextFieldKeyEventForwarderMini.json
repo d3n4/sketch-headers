@@ -1,8 +1,0 @@
-{
-  "name": "MSTextFieldKeyEventForwarderMini",
-  "extends": "MSTextFieldKeyEventForwarder",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

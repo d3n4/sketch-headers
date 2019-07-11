@@ -1,0 +1,57 @@
+{
+  "name": "MSFlowMenuBuilder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "createFlowDestinationMenuButton:document:destination:target:": {
+      "name": "createFlowDestinationMenuButton:document:destination:target:",
+      "bridgedName": "createFlowDestinationMenuButton_document_destination_target",
+      "args": [
+        {
+          "name": "button",
+          "type": "NSPopUpButton *",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "destinationID",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id<MSFlowMenuBuilderTarget>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "menuForPages:target:": {
+      "name": "menuForPages:target:",
+      "bridgedName": "menuForPages_target",
+      "args": [
+        {
+          "name": "pages",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id<MSFlowMenuBuilderTarget>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenu *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

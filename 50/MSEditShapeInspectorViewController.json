@@ -1,0 +1,61 @@
+{
+  "name": "MSEditShapeInspectorViewController",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSInspectorChildController"
+  ],
+  "methods": {
+    "refresh": {
+      "name": "refresh",
+      "bridgedName": "refresh",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshClosePathButton": {
+      "name": "refreshClosePathButton",
+      "bridgedName": "refreshClosePathButton",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshXYFields": {
+      "name": "refreshXYFields",
+      "bridgedName": "refreshXYFields",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pathController": {
+      "name": "pathController",
+      "pointer": false,
+      "type": "MSPathController ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "shapeEventHandler": {
+      "name": "shapeEventHandler",
+      "pointer": false,
+      "type": "MSShapeEventHandler ",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "isMakingRectSelection": {
+      "name": "isMakingRectSelection",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

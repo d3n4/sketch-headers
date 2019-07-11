@@ -1,0 +1,38 @@
+{
+  "name": "SMKArtboardMessageContent",
+  "extends": "NSObject",
+  "interfaces": [
+    "SMKMessageCoding"
+  ],
+  "methods": {},
+  "properties": {
+    "identifier": {
+      "name": "identifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "rect": {
+      "name": "rect",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "constrainingSize": {
+      "name": "constrainingSize",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

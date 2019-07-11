@@ -1,0 +1,88 @@
+{
+  "name": "MSRectangleShape",
+  "extends": "_MSRectangleShape",
+  "interfaces": [],
+  "methods": {
+    "resetPathsToRect": {
+      "name": "resetPathsToRect",
+      "bridgedName": "resetPathsToRect",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetPathsToRoundedRect": {
+      "name": "resetPathsToRoundedRect",
+      "bridgedName": "resetPathsToRoundedRect",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "lastUsedCornerRadius": {
+      "name": "lastUsedCornerRadius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "class",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "useSmoothCorners": {
+      "name": "useSmoothCorners",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "class",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "cornerRadiusString": {
+      "name": "cornerRadiusString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "cornerRadiusFloat": {
+      "name": "cornerRadiusFloat",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "normalizedExponentialCornerRadius": {
+      "name": "normalizedExponentialCornerRadius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "hasSmoothCorners": {
+      "name": "hasSmoothCorners",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "smoothCornersAllowed": {
+      "name": "smoothCornersAllowed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

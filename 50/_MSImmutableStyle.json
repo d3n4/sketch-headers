@@ -1,0 +1,139 @@
+{
+  "name": "_MSImmutableStyle",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "endMarkerType": {
+      "name": "endMarkerType",
+      "pointer": false,
+      "type": "MSMarkerType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "miterLimit": {
+      "name": "miterLimit",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "startMarkerType": {
+      "name": "startMarkerType",
+      "pointer": false,
+      "type": "MSMarkerType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "windingRule": {
+      "name": "windingRule",
+      "pointer": false,
+      "type": "NSWindingRule",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "blur": {
+      "name": "blur",
+      "pointer": false,
+      "type": "MSImmutableStyleBlur ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "borderOptions": {
+      "name": "borderOptions",
+      "pointer": false,
+      "type": "MSImmutableStyleBorderOptions ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "borders": {
+      "name": "borders",
+      "pointer": false,
+      "type": "NSArray<MSImmutableStyleBorder *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "colorControls": {
+      "name": "colorControls",
+      "pointer": false,
+      "type": "MSImmutableStyleColorControls ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contextSettings": {
+      "name": "contextSettings",
+      "pointer": false,
+      "type": "MSImmutableGraphicsContextSettings ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fills": {
+      "name": "fills",
+      "pointer": false,
+      "type": "NSArray<MSImmutableStyleFill *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "innerShadows": {
+      "name": "innerShadows",
+      "pointer": false,
+      "type": "NSArray<MSImmutableStyleInnerShadow *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shadows": {
+      "name": "shadows",
+      "pointer": false,
+      "type": "NSArray<MSImmutableStyleShadow *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "textStyle": {
+      "name": "textStyle",
+      "pointer": false,
+      "type": "MSImmutableTextStyle ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

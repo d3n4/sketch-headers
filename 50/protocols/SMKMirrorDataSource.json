@@ -1,0 +1,27 @@
+{
+  "protocol": true,
+  "name": "SMKMirrorDataSource",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "currentArtboardID": {
+      "name": "currentArtboardID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "readonly",
+        "nullable"
+      ]
+    },
+    "manifestContent": {
+      "name": "manifestContent",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "readonly",
+        "nullable"
+      ]
+    }
+  }
+}

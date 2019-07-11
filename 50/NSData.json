@@ -1,0 +1,91 @@
+{
+  "name": "NSData",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "sha1": {
+      "name": "sha1",
+      "bridgedName": "sha1",
+      "args": [],
+      "returns": "NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sha1AsString": {
+      "name": "sha1AsString",
+      "bridgedName": "sha1AsString",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataByCompressingWithAlgorithm_bc:": {
+      "name": "dataByCompressingWithAlgorithm_bc:",
+      "bridgedName": "dataByCompressingWithAlgorithm_bc",
+      "args": [
+        {
+          "name": "algorithm",
+          "type": "compression_algorithm",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataByDecompressing_bc": {
+      "name": "dataByDecompressing_bc",
+      "bridgedName": "dataByDecompressing_bc",
+      "args": [],
+      "returns": "nullable NSData*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hexString": {
+      "name": "hexString",
+      "bridgedName": "hexString",
+      "args": [],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataWithBase64Encoding_xcd:": {
+      "name": "dataWithBase64Encoding_xcd:",
+      "bridgedName": "dataWithBase64Encoding_xcd",
+      "args": [
+        {
+          "name": "base64String",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "base64Encoding_xcd": {
+      "name": "base64Encoding_xcd",
+      "bridgedName": "base64Encoding_xcd",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithBase64Encoding:": {
+      "name": "initWithBase64Encoding:",
+      "bridgedName": "initWithBase64Encoding",
+      "args": [
+        {
+          "name": "base64String",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

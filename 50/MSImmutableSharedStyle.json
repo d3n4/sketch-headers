@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableSharedStyle",
+  "extends": "_MSImmutableSharedStyle",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}
