@@ -522,6 +522,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "sRGBColorFromHexColor": {
+      "name": "sRGBColorFromHexColor",
+      "bridgedName": "sRGBColorFromHexColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "enumerateWordRanges:": {
       "name": "enumerateWordRanges:",
       "bridgedName": "enumerateWordRanges",

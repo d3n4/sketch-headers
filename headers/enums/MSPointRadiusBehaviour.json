@@ -15,6 +15,10 @@
       "value": "2"
     },
     {
+      "name": "MSPointRadiusBehaviourDisabled",
+      "value": "-1"
+    },
+    {
       "name": "MSPointRadiusBehaviourLegacy",
       "value": "MSPointRadiusBehaviourV0"
     },

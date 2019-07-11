@@ -20,17 +20,31 @@
         {
           "name": "libraryVersion",
           "type": "NSString *",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "infoText",
           "type": "NSString *",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "URLForApplicationSupportLibraryNamed:": {
+      "name": "URLForApplicationSupportLibraryNamed:",
+      "bridgedName": "URLForApplicationSupportLibraryNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSURL *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {
@@ -40,7 +54,8 @@
       "type": "NSURL ",
       "attributes": [
         "nonatomic",
-        "nullable"
+        "nullable",
+        "strong"
       ]
     },
     "libraryVersion": {
@@ -50,6 +65,16 @@
       "attributes": [
         "nonatomic",
         "strong"
+      ]
+    },
+    "originalName": {
+      "name": "originalName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
       ]
     },
     "infoText": {
@@ -95,6 +120,16 @@
       "pointer": false,
       "type": "BOOL",
       "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "assetLibraryFolder": {
+      "name": "assetLibraryFolder",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "class",
         "nonatomic",
         "readonly"
       ]

@@ -1,0 +1,88 @@
+{
+  "protocol": true,
+  "name": "MSForeignObjectProvider",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "localObjectsForDocument:": {
+      "name": "localObjectsForDocument:",
+      "bridgedName": "localObjectsForDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSShareableObject *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentDocumentIsLibrary:": {
+      "name": "currentDocumentIsLibrary:",
+      "bridgedName": "currentDocumentIsLibrary",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "masterObjectForInstance:": {
+      "name": "masterObjectForInstance:",
+      "bridgedName": "masterObjectForInstance",
+      "args": [
+        {
+          "name": "instance",
+          "type": "MSModelObject*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSShareableObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "foreignObjects": {
+      "name": "foreignObjects",
+      "pointer": false,
+      "type": "NSArray<MSForeignObject *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentDocument": {
+      "name": "currentDocument",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "libraryController": {
+      "name": "libraryController",
+      "pointer": false,
+      "type": "MSAssetLibraryController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "objectType": {
+      "name": "objectType",
+      "pointer": false,
+      "type": "MSShareableObjectType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

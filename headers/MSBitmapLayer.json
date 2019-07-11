@@ -52,6 +52,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "replaceImageWithImage:": {
+      "name": "replaceImageWithImage:",
+      "bridgedName": "replaceImageWithImage",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "NSImage": {
       "name": "NSImage",
       "bridgedName": "NSImage",

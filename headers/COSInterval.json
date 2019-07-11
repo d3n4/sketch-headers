@@ -1,6 +1,6 @@
 {
   "name": "COSInterval",
-  "extends": "NSObject",
+  "extends": "COSFiber",
   "interfaces": [],
   "methods": {
     "scheduleWithInterval:cocoaScript:jsFunction:repeat:": {
@@ -42,14 +42,6 @@
     }
   },
   "properties": {
-    "coscript": {
-      "name": "coscript",
-      "pointer": false,
-      "type": "COScript ",
-      "attributes": [
-        "weak"
-      ]
-    },
     "jsfunc": {
       "name": "jsfunc",
       "pointer": false,

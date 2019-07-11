@@ -35,9 +35,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "renderOperationForContentRect:page:document:contextPool:": {
-      "name": "renderOperationForContentRect:page:document:contextPool:",
-      "bridgedName": "renderOperationForContentRect_page_document_contextPool",
+    "tileRenderingDidFinish": {
+      "name": "tileRenderingDidFinish",
+      "bridgedName": "tileRenderingDidFinish",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderOperationForContentRect:page:renderingRequest:contextPool:": {
+      "name": "renderOperationForContentRect:page:renderingRequest:contextPool:",
+      "bridgedName": "renderOperationForContentRect_page_renderingRequest_contextPool",
       "args": [
         {
           "name": "contentRect",
@@ -50,8 +58,8 @@
           "nullable": false
         },
         {
-          "name": "document",
-          "type": "MSImmutableDocumentData *",
+          "name": "renderingRequest",
+          "type": "MSRenderingRequest *",
           "nullable": false
         },
         {
@@ -120,14 +128,6 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "pixelGridDidChange": {
-      "name": "pixelGridDidChange",
-      "bridgedName": "pixelGridDidChange",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -158,8 +158,8 @@
         "assign"
       ]
     },
-    "zoomValue": {
-      "name": "zoomValue",
+    "contentLayerScale": {
+      "name": "contentLayerScale",
       "pointer": false,
       "type": "CGFloat",
       "attributes": [
@@ -173,15 +173,6 @@
       "type": "BOOL",
       "attributes": [
         "nonatomic"
-      ]
-    },
-    "drawingIsCancelled": {
-      "name": "drawingIsCancelled",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
       ]
     },
     "driver": {
@@ -203,13 +194,21 @@
         "assign"
       ]
     },
-    "renderingCacheProvider": {
-      "name": "renderingCacheProvider",
+    "contentLayer": {
+      "name": "contentLayer",
       "pointer": false,
-      "type": "id <MSRenderingContextCacheProvider>",
+      "type": "MSContentCALayer ",
       "attributes": [
         "nonatomic",
-        "strong"
+        "readonly"
+      ]
+    },
+    "renderingRequest": {
+      "name": "renderingRequest",
+      "pointer": false,
+      "type": "MSRenderingRequest ",
+      "attributes": [
+        "atomic"
       ]
     },
     "completedFirstRenderOrWasCancelled": {

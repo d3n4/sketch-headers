@@ -1,18 +1,8 @@
 {
   "name": "MSCloudDocumentViewController",
-  "extends": "MSCloudViewController",
+  "extends": "MSCloudBaseViewController",
   "interfaces": [],
   "methods": {},
-  "properties": {
-    "isUploading": {
-      "name": "isUploading",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "assign"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

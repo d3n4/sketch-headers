@@ -197,19 +197,11 @@
       "args": [
         {
           "name": "degrees",
-          "type": "NSInteger",
+          "type": "CGFloat",
           "nullable": false
         }
       ],
       "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "canSmoothOpacity": {
-      "name": "canSmoothOpacity",
-      "bridgedName": "canSmoothOpacity",
-      "args": [],
-      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },

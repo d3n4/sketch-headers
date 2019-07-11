@@ -2,7 +2,55 @@
   "name": "MSGeneralPreferencePane",
   "extends": "MSPreferencePane",
   "interfaces": [],
-  "methods": {},
-  "properties": {},
+  "methods": {
+    "analyticsAction:": {
+      "name": "analyticsAction:",
+      "bridgedName": "analyticsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pickDefaultColorSpace:": {
+      "name": "pickDefaultColorSpace:",
+      "bridgedName": "pickDefaultColorSpace",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "defaultColorSpaceDescriptionLabel": {
+      "name": "defaultColorSpaceDescriptionLabel",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "defaultColorSpacePopUpButton": {
+      "name": "defaultColorSpacePopUpButton",
+      "pointer": false,
+      "type": "IBOutlet NSPopUpButton ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
   "generics": []
 }

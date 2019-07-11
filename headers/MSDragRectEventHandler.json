@@ -17,14 +17,19 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "performActionWithRect:constrainProportions:": {
-      "name": "performActionWithRect:constrainProportions:",
-      "bridgedName": "performActionWithRect_constrainProportions",
+    "performActionWithRect:fromLayer:constrainProportions:": {
+      "name": "performActionWithRect:fromLayer:constrainProportions:",
+      "bridgedName": "performActionWithRect_fromLayer_constrainProportions",
       "args": [
         {
           "name": "rect",
           "type": "NSRect",
           "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "__kindof MSLayer *",
+          "nullable": true
         },
         {
           "name": "constrainProportions",
@@ -60,6 +65,32 @@
       "type": "NSRect",
       "attributes": [
         "nonatomic"
+      ]
+    },
+    "allowsInsertLayerFromExistingLayer": {
+      "name": "allowsInsertLayerFromExistingLayer",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "cursorForInsertingFromExisting": {
+      "name": "cursorForInsertingFromExisting",
+      "pointer": false,
+      "type": "NSCursor ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "layerSelectionOptionsForInsertingFromExistingLayer": {
+      "name": "layerSelectionOptionsForInsertingFromExistingLayer",
+      "pointer": false,
+      "type": "MSLayerSelectionOptions",
+      "attributes": [
+        "readonly"
       ]
     },
     "dragGestureRecognizer": {

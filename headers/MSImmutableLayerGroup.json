@@ -13,20 +13,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layerWithID:": {
-      "name": "layerWithID:",
-      "bridgedName": "layerWithID",
-      "args": [
-        {
-          "name": "objectID",
-          "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "__kindof MSImmutableLayer *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "includeChildrenInCalculatingStyleSize": {
       "name": "includeChildrenInCalculatingStyleSize",
       "bridgedName": "includeChildrenInCalculatingStyleSize",
@@ -69,6 +55,25 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "mirrorExportScale": {
+      "name": "mirrorExportScale",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "mirrorViewPortSize": {
+      "name": "mirrorViewPortSize",
+      "pointer": false,
+      "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

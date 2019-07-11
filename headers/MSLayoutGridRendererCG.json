@@ -19,7 +19,7 @@
         },
         {
           "name": "style",
-          "type": "MSLayoutGridRenderStyle",
+          "type": "MSLayoutGridStyle",
           "nullable": false
         }
       ],

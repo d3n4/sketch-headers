@@ -27,6 +27,24 @@
     }
   },
   "properties": {
+    "updatingStatus": {
+      "name": "updatingStatus",
+      "pointer": false,
+      "type": "MSAssetLibraryUpdatingStatus",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "updateAvailable": {
+      "name": "updateAvailable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "delegate": {
       "name": "delegate",
       "pointer": false,
@@ -42,6 +60,16 @@
       "type": "MSAssetLibrary ",
       "attributes": [
         "nonatomic",
+        "readonly"
+      ]
+    },
+    "remoteLibrary": {
+      "name": "remoteLibrary",
+      "pointer": false,
+      "type": "MSRemoteAssetLibrary ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
         "readonly"
       ]
     },
@@ -61,24 +89,6 @@
       "attributes": [
         "nonatomic",
         "assign"
-      ]
-    },
-    "updateAvailable": {
-      "name": "updateAvailable",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "downloadAvailable": {
-      "name": "downloadAvailable",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
       ]
     },
     "validForSecondaryTextField": {
@@ -116,15 +126,6 @@
       "attributes": [
         "nonatomic",
         "readonly"
-      ]
-    },
-    "currentlyDownloading": {
-      "name": "currentlyDownloading",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "assign"
       ]
     },
     "fileSize": {

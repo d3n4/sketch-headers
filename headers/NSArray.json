@@ -302,6 +302,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "shuffledArray": {
+      "name": "shuffledArray",
+      "bridgedName": "shuffledArray",
+      "args": [],
+      "returns": "NSArray <ObjectType> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "arrayByRemovingObject:": {
       "name": "arrayByRemovingObject:",
       "bridgedName": "arrayByRemovingObject",

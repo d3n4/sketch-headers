@@ -6,6 +6,25 @@
     "MSStylePart"
   ],
   "methods": {
+    "previewImageForSize:colorSpace:": {
+      "name": "previewImageForSize:colorSpace:",
+      "bridgedName": "previewImageForSize_colorSpace",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "multiplyBy:": {
       "name": "multiplyBy:",
       "bridgedName": "multiplyBy",

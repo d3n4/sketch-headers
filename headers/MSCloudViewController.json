@@ -1,56 +1,73 @@
 {
   "name": "MSCloudViewController",
   "extends": "NSViewController",
-  "interfaces": [
-    "MSCloudViewControllerDelegate"
-  ],
+  "interfaces": [],
   "methods": {
-    "viewWillTransition": {
-      "name": "viewWillTransition",
-      "bridgedName": "viewWillTransition",
-      "args": [],
+    "initWithAction:": {
+      "name": "initWithAction:",
+      "bridgedName": "initWithAction",
+      "args": [
+        {
+          "name": "action",
+          "type": "MSCloudAction *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setContentViewController:animated:": {
+      "name": "setContentViewController:animated:",
+      "bridgedName": "setContentViewController_animated",
+      "args": [
+        {
+          "name": "contentViewController",
+          "type": "MSCloudBaseViewController *",
+          "nullable": false
+        },
+        {
+          "name": "animated",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "viewDidTransition": {
-      "name": "viewDidTransition",
-      "bridgedName": "viewDidTransition",
-      "args": [],
-      "returns": "void",
+    "resetContentViewController:": {
+      "name": "resetContentViewController:",
+      "bridgedName": "resetContentViewController",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
     }
   },
   "properties": {
-    "delegate": {
-      "name": "delegate",
+    "action": {
+      "name": "action",
       "pointer": false,
-      "type": "id<MSCloudViewControllerDelegate>",
+      "type": "MSCloudAction ",
       "attributes": [
         "nonatomic",
-        "nullable",
-        "weak"
-      ]
-    },
-    "cloudController": {
-      "name": "cloudController",
-      "pointer": false,
-      "type": "MSCloudController ",
-      "attributes": [
-        "nonatomic",
-        "nullable",
-        "strong"
-      ]
-    },
-    "isTransitioning": {
-      "name": "isTransitioning",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "assign",
         "readonly"
+      ]
+    },
+    "contentViewController": {
+      "name": "contentViewController",
+      "pointer": false,
+      "type": "MSCloudBaseViewController ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
       ]
     }
   },

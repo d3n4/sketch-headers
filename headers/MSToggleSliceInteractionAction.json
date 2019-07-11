@@ -1,6 +1,6 @@
 {
   "name": "MSToggleSliceInteractionAction",
-  "extends": "MSDocumentAction",
+  "extends": "MSToggleViewPreferenceAction",
   "interfaces": [],
   "methods": {
     "toggleSliceInteraction:": {

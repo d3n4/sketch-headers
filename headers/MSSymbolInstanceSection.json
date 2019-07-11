@@ -2,41 +2,7 @@
   "name": "MSSymbolInstanceSection",
   "extends": "MSLayerSection",
   "interfaces": [],
-  "methods": {
-    "symbolSwappingAction:": {
-      "name": "symbolSwappingAction:",
-      "bridgedName": "symbolSwappingAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
-  "properties": {
-    "sharedObjectsPopUpButton": {
-      "name": "sharedObjectsPopUpButton",
-      "pointer": false,
-      "type": "IBOutlet NSPopUpButton ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "symbolSwappingButton": {
-      "name": "symbolSwappingButton",
-      "pointer": false,
-      "type": "IBOutlet NSButton ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    }
-  },
+  "methods": {},
+  "properties": {},
   "generics": []
 }

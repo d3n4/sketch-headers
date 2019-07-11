@@ -10,7 +10,6 @@
       "pointer": false,
       "type": "NSString ",
       "attributes": [
-        "nonatomic",
         "readonly",
         "nullable"
       ]
@@ -20,17 +19,8 @@
       "pointer": false,
       "type": "NSDictionary ",
       "attributes": [
-        "nonatomic",
         "readonly",
         "nullable"
-      ]
-    },
-    "shouldScrollToSelectedArtboard": {
-      "name": "shouldScrollToSelectedArtboard",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "readonly"
       ]
     }
   }

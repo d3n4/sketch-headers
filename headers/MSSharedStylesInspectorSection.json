@@ -2,6 +2,7 @@
   "name": "MSSharedStylesInspectorSection",
   "extends": "NSViewController",
   "interfaces": [
+    "MSInspectorSection",
     "NSMenuDelegate"
   ],
   "methods": {
@@ -82,7 +83,7 @@
     "sharedObjectsPopUpButton": {
       "name": "sharedObjectsPopUpButton",
       "pointer": false,
-      "type": "IBOutlet NSPopUpButton ",
+      "type": "IBOutlet MSShareableObjectPopUpButton ",
       "attributes": [
         "nonatomic",
         "strong"

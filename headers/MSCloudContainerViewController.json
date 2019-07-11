@@ -1,8 +1,0 @@
-{
-  "name": "MSCloudContainerViewController",
-  "extends": "MSCloudViewController",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

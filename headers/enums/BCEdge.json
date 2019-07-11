@@ -29,6 +29,14 @@
     {
       "name": "BCEdgeAll",
       "value": "BCEdgeLeft | BCEdgeRight | BCEdgeTop | BCEdgeBottom | BCEdgeMidX | BCEdgeMidY"
+    },
+    {
+      "name": "BCEdgeVertical",
+      "value": "BCEdgeLeft | BCEdgeRight | BCEdgeMidX"
+    },
+    {
+      "name": "BCEdgeHorizontal",
+      "value": "BCEdgeTop | BCEdgeBottom | BCEdgeMidY"
     }
   ]
 }

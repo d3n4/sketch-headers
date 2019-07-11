@@ -3,14 +3,6 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "sharedSystemProfiler": {
-      "name": "sharedSystemProfiler",
-      "bridgedName": "sharedSystemProfiler",
-      "args": [],
-      "returns": "SUSystemProfiler *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "systemProfileArrayForHost:": {
       "name": "systemProfileArrayForHost:",
       "bridgedName": "systemProfileArrayForHost",
@@ -21,9 +13,9 @@
           "nullable": false
         }
       ],
-      "returns": "NSMutableArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
+      "returns": "NSArray<NSDictionary<NSString *, NSString *> *> *",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {},

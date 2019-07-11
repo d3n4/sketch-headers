@@ -4,7 +4,7 @@
   "interfaces": [
     "MSColorInspectorDelegate",
     "BCPopoverDelegate",
-    "MSColorPreviewButtonDelegate"
+    "MSStylePartPreviewButtonDelegate"
   ],
   "methods": {
     "artboardBackgroundCheckAction:": {
@@ -40,7 +40,7 @@
     "artboardBackgroundColorButton": {
       "name": "artboardBackgroundColorButton",
       "pointer": false,
-      "type": "IBOutlet MSColorPreviewButton ",
+      "type": "IBOutlet MSStylePartPreviewButton ",
       "attributes": [
         "nonatomic",
         "strong"

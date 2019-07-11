@@ -19,12 +19,16 @@
       "value": "3"
     },
     {
-      "name": "MSColorUseText",
+      "name": "MSColorUseInnerShadow",
       "value": "4"
     },
     {
-      "name": "MSColorUseArtboard",
+      "name": "MSColorUseText",
       "value": "5"
+    },
+    {
+      "name": "MSColorUseArtboard",
+      "value": "6"
     }
   ]
 }

@@ -147,6 +147,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "drawFlippedAtPoint:fraction:": {
+      "name": "drawFlippedAtPoint:fraction:",
+      "bridgedName": "drawFlippedAtPoint_fraction",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "fraction",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "firstBitmapImageRepOrCreateIfNecessary": {
       "name": "firstBitmapImageRepOrCreateIfNecessary",
       "bridgedName": "firstBitmapImageRepOrCreateIfNecessary",

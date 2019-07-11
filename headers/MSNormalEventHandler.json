@@ -39,6 +39,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "canHighlightLayer:": {
+      "name": "canHighlightLayer:",
+      "bridgedName": "canHighlightLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "drawSelectedShapePathLayers": {
       "name": "drawSelectedShapePathLayers",
       "bridgedName": "drawSelectedShapePathLayers",
@@ -49,13 +63,23 @@
     }
   },
   "properties": {
-    "positionDrawing": {
-      "name": "positionDrawing",
+    "measurementRenderer": {
+      "name": "measurementRenderer",
       "pointer": false,
-      "type": "MSLayerPositionDrawing ",
+      "type": "MSLayerMeasurementRenderer ",
       "attributes": [
         "nonatomic",
         "readonly"
+      ]
+    },
+    "hoveredLayer": {
+      "name": "hoveredLayer",
+      "pointer": false,
+      "type": "MSLayer ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nullable"
       ]
     }
   },

@@ -24,7 +24,7 @@
       "name": "enabledFills",
       "bridgedName": "enabledFills",
       "args": [],
-      "returns": "NSArray *",
+      "returns": "NSArray <MSStyleFill *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -32,7 +32,7 @@
       "name": "enabledBorders",
       "bridgedName": "enabledBorders",
       "args": [],
-      "returns": "NSArray *",
+      "returns": "NSArray <MSStyleBorder *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -40,7 +40,7 @@
       "name": "enabledShadows",
       "bridgedName": "enabledShadows",
       "args": [],
-      "returns": "NSArray *",
+      "returns": "NSArray <MSStyleShadow *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -48,7 +48,7 @@
       "name": "enabledInnerShadows",
       "bridgedName": "enabledInnerShadows",
       "args": [],
-      "returns": "NSArray *",
+      "returns": "NSArray <MSStyleInnerShadow *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },

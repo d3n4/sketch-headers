@@ -6,10 +6,15 @@
     "MSLayerTraits"
   ],
   "methods": {
-    "previewImagesRequireRefreshWithCache:": {
-      "name": "previewImagesRequireRefreshWithCache:",
-      "bridgedName": "previewImagesRequireRefreshWithCache",
+    "previewImagesRequireRefreshWithDocumentData:cache:": {
+      "name": "previewImagesRequireRefreshWithDocumentData:cache:",
+      "bridgedName": "previewImagesRequireRefreshWithDocumentData_cache",
       "args": [
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
         {
           "name": "cache",
           "type": "BCCache *",
@@ -20,10 +25,15 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshPreviewImagesWithCache:": {
-      "name": "refreshPreviewImagesWithCache:",
-      "bridgedName": "refreshPreviewImagesWithCache",
+    "refreshPreviewImagesWithDocumentData:cache:": {
+      "name": "refreshPreviewImagesWithDocumentData:cache:",
+      "bridgedName": "refreshPreviewImagesWithDocumentData_cache",
       "args": [
+        {
+          "name": "documentData",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
         {
           "name": "cache",
           "type": "BCCache *",
@@ -48,14 +58,134 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "absoluteInfluenceRectForAncestorGroups:": {
-      "name": "absoluteInfluenceRectForAncestorGroups:",
-      "bridgedName": "absoluteInfluenceRectForAncestorGroups",
+    "absoluteInfluenceRectForAncestorGroups:document:cache:": {
+      "name": "absoluteInfluenceRectForAncestorGroups:document:cache:",
+      "bridgedName": "absoluteInfluenceRectForAncestorGroups_document_cache",
       "args": [
         {
           "name": "ancestors",
           "type": "NSArray <MSImmutableLayerGroup *> *",
           "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForFrameInDocument:cache:": {
+      "name": "influenceRectForFrameInDocument:cache:",
+      "bridgedName": "influenceRectForFrameInDocument_cache",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForBoundsInDocument:cache:": {
+      "name": "influenceRectForBoundsInDocument:cache:",
+      "bridgedName": "influenceRectForBoundsInDocument_cache",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForFrameInDocument:cache:visitedSymbols:": {
+      "name": "influenceRectForFrameInDocument:cache:visitedSymbols:",
+      "bridgedName": "influenceRectForFrameInDocument_cache_visitedSymbols",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": true
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "influenceRectForBoundsInDocument:cache:visitedSymbols:": {
+      "name": "influenceRectForBoundsInDocument:cache:visitedSymbols:",
+      "bridgedName": "influenceRectForBoundsInDocument_cache_visitedSymbols",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": true
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "calculateInfluenceRectForBoundsInDocument:cache:visitedSymbols:": {
+      "name": "calculateInfluenceRectForBoundsInDocument:cache:visitedSymbols:",
+      "bridgedName": "calculateInfluenceRectForBoundsInDocument_cache_visitedSymbols",
+      "args": [
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": true
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
         }
       ],
       "returns": "NSRect",
@@ -87,22 +217,6 @@
         }
       ],
       "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "children": {
-      "name": "children",
-      "bridgedName": "children",
-      "args": [],
-      "returns": "NSArray <__kindof MSLayer *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "calculateInfluenceRectForBounds": {
-      "name": "calculateInfluenceRectForBounds",
-      "bridgedName": "calculateInfluenceRectForBounds",
-      "args": [],
-      "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -139,6 +253,20 @@
         }
       ],
       "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canOverridePoint:": {
+      "name": "canOverridePoint:",
+      "bridgedName": "canOverridePoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSOverridePoint*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -363,6 +491,15 @@
     }
   },
   "properties": {
+    "manifestLayers": {
+      "name": "manifestLayers",
+      "pointer": false,
+      "type": "NSArray<MSImmutableLayer *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "center": {
       "name": "center",
       "pointer": false,
@@ -476,6 +613,24 @@
       "name": "canBreakMaskChain",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fontNames": {
+      "name": "fontNames",
+      "pointer": false,
+      "type": "NSSet <NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "unavailableFontNames": {
+      "name": "unavailableFontNames",
+      "pointer": false,
+      "type": "NSSet <NSString *> ",
       "attributes": [
         "nonatomic",
         "readonly"

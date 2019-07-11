@@ -3,25 +3,6 @@
   "extends": "_MSShapePathLayer",
   "interfaces": [],
   "methods": {
-    "shapeWithShapePath:inRect:": {
-      "name": "shapeWithShapePath:inRect:",
-      "bridgedName": "shapeWithShapePath_inRect",
-      "args": [
-        {
-          "name": "path",
-          "type": "MSShapePath *",
-          "nullable": false
-        },
-        {
-          "name": "aRect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "MSShapePathLayer *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "shapeWithBezierPath:": {
       "name": "shapeWithBezierPath:",
       "bridgedName": "shapeWithBezierPath",
@@ -204,14 +185,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "allCurvePoints": {
-      "name": "allCurvePoints",
-      "bridgedName": "allCurvePoints",
-      "args": [],
-      "returns": "NSArray<MSCurvePoint *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "indexOfSegmentAtPoint:tolerance:": {
       "name": "indexOfSegmentAtPoint:tolerance:",
       "bridgedName": "indexOfSegmentAtPoint_tolerance",
@@ -261,6 +234,44 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "isLine": {
+      "name": "isLine",
+      "bridgedName": "isLine",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointsAroundIndex:": {
+      "name": "pointsAroundIndex:",
+      "bridgedName": "pointsAroundIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSCurvePoint *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isRectangle": {
+      "name": "isRectangle",
+      "bridgedName": "isRectangle",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isPolygon": {
+      "name": "isPolygon",
+      "bridgedName": "isPolygon",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "insertionCursor": {
       "name": "insertionCursor",
       "bridgedName": "insertionCursor",
@@ -271,10 +282,27 @@
     }
   },
   "properties": {
+    "isEditing": {
+      "name": "isEditing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
     "hasRoundedCorners": {
       "name": "hasRoundedCorners",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfCurvePoints": {
+      "name": "numberOfCurvePoints",
+      "pointer": false,
+      "type": "NSUInteger",
       "attributes": [
         "nonatomic",
         "readonly"

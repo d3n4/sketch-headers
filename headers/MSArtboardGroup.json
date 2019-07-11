@@ -68,6 +68,15 @@
         "nonatomic",
         "nullable"
       ]
+    },
+    "preset": {
+      "name": "preset",
+      "pointer": false,
+      "type": "MSArtboardPreset ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
     }
   },
   "generics": []

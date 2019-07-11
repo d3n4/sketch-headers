@@ -59,9 +59,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "drawInRect:cache:": {
-      "name": "drawInRect:cache:",
-      "bridgedName": "drawInRect_cache",
+    "drawInRect:context:": {
+      "name": "drawInRect:context:",
+      "bridgedName": "drawInRect_context",
       "args": [
         {
           "name": "dirtyRect",
@@ -69,8 +69,8 @@
           "nullable": false
         },
         {
-          "name": "cache",
-          "type": "BCCache *",
+          "name": "context",
+          "type": "MSRenderingContext *",
           "nullable": false
         }
       ],

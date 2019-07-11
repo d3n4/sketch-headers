@@ -5,9 +5,9 @@
     "NSURLDownloadDelegate"
   ],
   "methods": {
-    "fetchAppcastFromURL:completionBlock:": {
-      "name": "fetchAppcastFromURL:completionBlock:",
-      "bridgedName": "fetchAppcastFromURL_completionBlock",
+    "fetchAppcastFromURL:inBackground:completionBlock:": {
+      "name": "fetchAppcastFromURL:inBackground:completionBlock:",
+      "bridgedName": "fetchAppcastFromURL_inBackground_completionBlock",
       "args": [
         {
           "name": "url",
@@ -15,8 +15,13 @@
           "nullable": false
         },
         {
+          "name": "bg",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
           "name": "err",
-          "type": "void (^)(NSError *)",
+          "type": "void (^)(NSError *_Nullable)",
           "nullable": false
         }
       ],
@@ -43,11 +48,11 @@
         },
         {
           "name": "errorp",
-          "type": "NSError *__autoreleasing*",
+          "type": "NSError *_Nullable __autoreleasing *_Nullable",
           "nullable": false
         }
       ],
-      "returns": "NSArray *",
+      "returns": "nullable NSArray *",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -58,7 +63,8 @@
       "pointer": false,
       "type": "NSString ",
       "attributes": [
-        "copy"
+        "copy",
+        "nullable"
       ]
     },
     "httpHeaders": {
@@ -66,7 +72,8 @@
       "pointer": false,
       "type": "NSDictionary ",
       "attributes": [
-        "copy"
+        "copy",
+        "nullable"
       ]
     },
     "items": {
@@ -75,7 +82,8 @@
       "type": "NSArray ",
       "attributes": [
         "readonly",
-        "copy"
+        "copy",
+        "nullable"
       ]
     }
   },

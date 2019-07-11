@@ -23,7 +23,7 @@
       "name": "sharedController",
       "bridgedName": "sharedController",
       "args": [],
-      "returns": "id",
+      "returns": "instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -44,15 +44,6 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
-      ]
-    },
-    "pluginManager": {
-      "name": "pluginManager",
-      "pointer": false,
-      "type": "MSPluginManager ",
-      "attributes": [
-        "nonatomic",
         "strong"
       ]
     }

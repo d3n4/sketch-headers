@@ -33,9 +33,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "downloadManager:downloadTaskFinishedForIdentifier:downloadedURL:": {
-      "name": "downloadManager:downloadTaskFinishedForIdentifier:downloadedURL:",
-      "bridgedName": "downloadManager_downloadTaskFinishedForIdentifier_downloadedURL",
+    "downloadManager:downloadTaskFinishedForIdentifier:downloadedURL:httpStatusCode:": {
+      "name": "downloadManager:downloadTaskFinishedForIdentifier:downloadedURL:httpStatusCode:",
+      "bridgedName": "downloadManager_downloadTaskFinishedForIdentifier_downloadedURL_httpStatusCode",
       "args": [
         {
           "name": "downloadManager",
@@ -50,6 +50,11 @@
         {
           "name": "downloadedURL",
           "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "statusCode",
+          "type": "NSInteger",
           "nullable": false
         }
       ],

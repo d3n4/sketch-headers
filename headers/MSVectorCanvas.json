@@ -72,6 +72,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "drawHairline": {
+      "name": "drawHairline",
+      "bridgedName": "drawHairline",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "drawWire": {
       "name": "drawWire",
       "bridgedName": "drawWire",
@@ -91,6 +99,14 @@
     "drawHighlightedSegment": {
       "name": "drawHighlightedSegment",
       "bridgedName": "drawHighlightedSegment",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInsertionPoint": {
+      "name": "drawInsertionPoint",
+      "bridgedName": "drawInsertionPoint",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -231,6 +247,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "trackMouse:": {
+      "name": "trackMouse:",
+      "bridgedName": "trackMouse",
+      "args": [
+        {
+          "name": "sender",
+          "type": "MSMouseTracker *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "flagsChanged:": {
       "name": "flagsChanged:",
       "bridgedName": "flagsChanged",
@@ -279,6 +309,7 @@
       "type": "MSContentDrawView ",
       "attributes": [
         "nonatomic",
+        "nullable",
         "assign"
       ]
     },
@@ -330,8 +361,8 @@
         "readonly"
       ]
     },
-    "activeHandle": {
-      "name": "activeHandle",
+    "indexPathForHighlightedComponent": {
+      "name": "indexPathForHighlightedComponent",
       "pointer": false,
       "type": "NSIndexPath ",
       "attributes": [
@@ -349,35 +380,6 @@
         "nonatomic",
         "readonly",
         "getter=isInteractivelySelecting"
-      ]
-    },
-    "pointInsertionIndexPath": {
-      "name": "pointInsertionIndexPath",
-      "pointer": false,
-      "type": "NSIndexPath ",
-      "attributes": [
-        "nonatomic",
-        "readonly",
-        "nullable"
-      ]
-    },
-    "insertionPoint": {
-      "name": "insertionPoint",
-      "pointer": false,
-      "type": "NSPoint",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "hoveringHandle": {
-      "name": "hoveringHandle",
-      "pointer": false,
-      "type": "NSIndexPath ",
-      "attributes": [
-        "nonatomic",
-        "readonly",
-        "nullable"
       ]
     },
     "snaps": {

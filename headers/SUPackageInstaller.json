@@ -1,8 +1,30 @@
 {
   "name": "SUPackageInstaller",
-  "extends": "SUPlainInstaller",
-  "interfaces": [],
-  "methods": {},
+  "extends": "NSObject",
+  "interfaces": [
+    "SUInstallerProtocol"
+  ],
+  "methods": {
+    "initWithPackagePath:installationPath:": {
+      "name": "initWithPackagePath:installationPath:",
+      "bridgedName": "initWithPackagePath_installationPath",
+      "args": [
+        {
+          "name": "packagePath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "installationPath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {},
   "generics": []
 }

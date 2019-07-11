@@ -335,6 +335,22 @@
       "value": "97"
     },
     {
+      "name": "MSDocumentRefactorBCTextBehaviour",
+      "value": "98"
+    },
+    {
+      "name": "MSDocumentMSAttributedStringJSON",
+      "value": "99"
+    },
+    {
+      "name": "MSDocumentRemoveShapePathClass",
+      "value": "100"
+    },
+    {
+      "name": "MSDocumentPersistentArtboardPresets",
+      "value": "101"
+    },
+    {
       "name": "MSDocumentNextVersion"
     },
     {

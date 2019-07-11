@@ -111,15 +111,6 @@
         "weak"
       ]
     },
-    "sliceCount": {
-      "name": "sliceCount",
-      "pointer": false,
-      "type": "NSUInteger",
-      "attributes": [
-        "nonatomic",
-        "assign"
-      ]
-    },
     "filter": {
       "name": "filter",
       "pointer": false,

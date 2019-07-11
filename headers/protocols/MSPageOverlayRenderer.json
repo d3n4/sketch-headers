@@ -38,13 +38,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "renderOverlayForPage:selectedArtboard:options:rect:context:": {
-      "name": "renderOverlayForPage:selectedArtboard:options:rect:context:",
-      "bridgedName": "renderOverlayForPage_selectedArtboard_options_rect_context",
+    "renderOverlayForPage:selectedLayers:selectedArtboard:options:rect:context:": {
+      "name": "renderOverlayForPage:selectedLayers:selectedArtboard:options:rect:context:",
+      "bridgedName": "renderOverlayForPage_selectedLayers_selectedArtboard_options_rect_context",
       "args": [
         {
           "name": "page",
           "type": "MSImmutablePage*",
+          "nullable": false
+        },
+        {
+          "name": "selectedLayers",
+          "type": "MSLayerArray *",
           "nullable": false
         },
         {

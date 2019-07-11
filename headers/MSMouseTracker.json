@@ -106,6 +106,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "mouseDragged:": {
+      "name": "mouseDragged:",
+      "bridgedName": "mouseDragged",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "mouseUp:": {
       "name": "mouseUp:",
       "bridgedName": "mouseUp",
@@ -141,13 +155,13 @@
         "nullable"
       ]
     },
-    "state": {
-      "name": "state",
+    "trackingState": {
+      "name": "trackingState",
       "pointer": false,
-      "type": "MSMouseTrackerState",
+      "type": "MSMouseTrackingState",
       "attributes": [
         "nonatomic",
-        "readwrite"
+        "readonly"
       ]
     },
     "view": {
@@ -158,6 +172,14 @@
         "nonatomic",
         "nullable",
         "weak"
+      ]
+    },
+    "checksMouseHitTesting": {
+      "name": "checksMouseHitTesting",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
       ]
     },
     "modifierFlags": {

@@ -1,0 +1,23 @@
+{
+  "name": "MSChangeFlowAnimationFromTopAnimationAction",
+  "extends": "MSChangeFlowAnimationAction",
+  "interfaces": [],
+  "methods": {
+    "changeFlowAnimationToFromTopAnimation:": {
+      "name": "changeFlowAnimationToFromTopAnimation:",
+      "bridgedName": "changeFlowAnimationToFromTopAnimation",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

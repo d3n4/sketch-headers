@@ -161,7 +161,7 @@
       "name": "validStyleType",
       "bridgedName": "validStyleType",
       "args": [],
-      "returns": "MSSharedObjectType",
+      "returns": "MSSharedStyleType",
       "kind": "instance",
       "kindIndicator": "-"
     },

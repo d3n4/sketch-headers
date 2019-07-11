@@ -1,6 +1,6 @@
 {
   "name": "MSManageForeignSymbolAction",
-  "extends": "MSDocumentAction",
+  "extends": "MSManageShareableObjectsAction",
   "interfaces": [],
   "methods": {
     "showOrganizeForeignSymbolSheet:": {

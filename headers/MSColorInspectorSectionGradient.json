@@ -28,23 +28,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "rotateLeftAction:": {
-      "name": "rotateLeftAction:",
-      "bridgedName": "rotateLeftAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "rotateRightAction:": {
-      "name": "rotateRightAction:",
-      "bridgedName": "rotateRightAction",
+    "rotateGradientAction:": {
+      "name": "rotateGradientAction:",
+      "bridgedName": "rotateGradientAction",
       "args": [
         {
           "name": "sender",
@@ -74,19 +60,19 @@
     }
   },
   "properties": {
-    "gradientBarView": {
-      "name": "gradientBarView",
+    "gradientBarParentView": {
+      "name": "gradientBarParentView",
       "pointer": false,
-      "type": "IBOutlet MSGradientBarView ",
+      "type": "IBOutlet NSView ",
       "attributes": [
         "nonatomic",
         "weak"
       ]
     },
-    "smoothOpacityButton": {
-      "name": "smoothOpacityButton",
+    "gradientBarView": {
+      "name": "gradientBarView",
       "pointer": false,
-      "type": "IBOutlet NSButton ",
+      "type": "IBOutlet MSGradientBarView ",
       "attributes": [
         "nonatomic",
         "weak"

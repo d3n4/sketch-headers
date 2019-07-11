@@ -48,6 +48,42 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "flowInspectorViewController": {
+      "name": "flowInspectorViewController",
+      "pointer": false,
+      "type": "MSFlowInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "opacityBlendingViewController": {
+      "name": "opacityBlendingViewController",
+      "pointer": false,
+      "type": "MSOpacityBlendingInspectorViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedStyledInspectorSection": {
+      "name": "sharedStyledInspectorSection",
+      "pointer": false,
+      "type": "MSSharedStylesInspectorSection ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "specialLayerViewController": {
+      "name": "specialLayerViewController",
+      "pointer": false,
+      "type": "MSSpecialLayerViewController ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

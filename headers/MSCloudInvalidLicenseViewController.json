@@ -1,6 +1,6 @@
 {
   "name": "MSCloudInvalidLicenseViewController",
-  "extends": "MSCloudViewController",
+  "extends": "MSCloudBaseViewController",
   "interfaces": [],
   "methods": {},
   "properties": {},

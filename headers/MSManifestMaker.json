@@ -25,25 +25,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "wouldManifestChangeBetweenOldDoc:andNewDoc:": {
-      "name": "wouldManifestChangeBetweenOldDoc:andNewDoc:",
-      "bridgedName": "wouldManifestChangeBetweenOldDoc_andNewDoc",
-      "args": [
-        {
-          "name": "oldDoc",
-          "type": "nonnull MSImmutableDocumentData *",
-          "nullable": false
-        },
-        {
-          "name": "newDoc",
-          "type": "nonnull MSImmutableDocumentData *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "metadataForRootLayer:onPage:earlierSlugs:": {
       "name": "metadataForRootLayer:onPage:earlierSlugs:",
       "bridgedName": "metadataForRootLayer_onPage_earlierSlugs",
@@ -79,6 +60,16 @@
         "strong",
         "nonnull",
         "readonly"
+      ]
+    },
+    "cacheManager": {
+      "name": "cacheManager",
+      "pointer": false,
+      "type": "MSCacheManager ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "nonnull"
       ]
     },
     "name": {

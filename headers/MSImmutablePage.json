@@ -25,6 +25,15 @@
         "readonly"
       ]
     },
+    "hasArtboards": {
+      "name": "hasArtboards",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "symbols": {
       "name": "symbols",
       "pointer": false,

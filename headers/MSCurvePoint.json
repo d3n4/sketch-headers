@@ -202,14 +202,6 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "prepareForRemoval": {
-      "name": "prepareForRemoval",
-      "bridgedName": "prepareForRemoval",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {

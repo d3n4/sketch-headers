@@ -73,6 +73,15 @@
       "attributes": [
         "nonatomic"
       ]
+    },
+    "smoothCornersAllowed": {
+      "name": "smoothCornersAllowed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

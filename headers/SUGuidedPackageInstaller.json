@@ -1,46 +1,33 @@
 {
   "name": "SUGuidedPackageInstaller",
-  "extends": "SUInstaller",
-  "interfaces": [],
+  "extends": "NSObject",
+  "interfaces": [
+    "SUInstallerProtocol"
+  ],
   "methods": {
-    "performInstallationToPath:fromPath:host:fileOperationToolPath:versionComparator:completionHandler:": {
-      "name": "performInstallationToPath:fromPath:host:fileOperationToolPath:versionComparator:completionHandler:",
-      "bridgedName": "performInstallationToPath_fromPath_host_fileOperationToolPath_versionComparator_completionHandler",
+    "initWithPackagePath:installationPath:fileOperationToolPath:": {
+      "name": "initWithPackagePath:installationPath:fileOperationToolPath:",
+      "bridgedName": "initWithPackagePath_installationPath_fileOperationToolPath",
       "args": [
         {
-          "name": "path",
+          "name": "packagePath",
           "type": "NSString *",
           "nullable": false
         },
         {
-          "name": "installerGuide",
+          "name": "installationPath",
           "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "host",
-          "type": "SUHost *",
           "nullable": false
         },
         {
           "name": "fileOperationToolPath",
           "type": "NSString *",
           "nullable": false
-        },
-        {
-          "name": "comparator",
-          "type": "id<SUVersionComparison>",
-          "nullable": false
-        },
-        {
-          "name": "completionHandler",
-          "type": "void (^)(NSError *)",
-          "nullable": false
         }
       ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

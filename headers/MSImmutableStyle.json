@@ -98,15 +98,6 @@
     }
   },
   "properties": {
-    "hasBitmapStylesEnabled": {
-      "name": "hasBitmapStylesEnabled",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "hasDecorations": {
       "name": "hasDecorations",
       "pointer": false,
@@ -245,7 +236,7 @@
     "enabledFills": {
       "name": "enabledFills",
       "pointer": false,
-      "type": "NSArray ",
+      "type": "NSArray <MSImmutableStyleFill *> ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -254,7 +245,7 @@
     "enabledBorders": {
       "name": "enabledBorders",
       "pointer": false,
-      "type": "NSArray ",
+      "type": "NSArray <MSImmutableStyleBorder *> ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -263,7 +254,7 @@
     "enabledShadows": {
       "name": "enabledShadows",
       "pointer": false,
-      "type": "NSArray ",
+      "type": "NSArray <MSImmutableStyleShadow *> ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -272,7 +263,7 @@
     "enabledInnerShadows": {
       "name": "enabledInnerShadows",
       "pointer": false,
-      "type": "NSArray ",
+      "type": "NSArray <MSImmutableStyleInnerShadow *> ",
       "attributes": [
         "nonatomic",
         "readonly"

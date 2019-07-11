@@ -11,7 +11,7 @@
       "args": [
         {
           "name": "updater",
-          "type": "SUUpdater *",
+          "type": "id<SUUpdaterPrivate>",
           "nullable": false
         }
       ],
@@ -46,6 +46,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "resumeUpdateInteractively": {
+      "name": "resumeUpdateInteractively",
+      "bridgedName": "resumeUpdateInteractively",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "showAlert:": {
       "name": "showAlert:",
       "bridgedName": "showAlert",
@@ -65,7 +73,7 @@
     "updater": {
       "name": "updater",
       "pointer": false,
-      "type": "SUUpdater ",
+      "type": "SUUpdater<SUUpdaterPrivate> ",
       "attributes": [
         "readonly",
         "weak"
@@ -90,6 +98,22 @@
     },
     "finished": {
       "name": "finished",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "downloadsAppcastInBackground": {
+      "name": "downloadsAppcastInBackground",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly"
+      ]
+    },
+    "downloadsUpdatesInBackground": {
+      "name": "downloadsUpdatesInBackground",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

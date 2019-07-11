@@ -29,6 +29,10 @@
     {
       "name": "SCKDocumentPagesAttribute",
       "value": "1 << 5"
+    },
+    {
+      "name": "SCKDocumentColorSpaceAttribute",
+      "value": "1 << 6"
     }
   ]
 }

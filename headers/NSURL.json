@@ -167,6 +167,26 @@
         "nullable",
         "readonly"
       ]
+    },
+    "cloudAPIName": {
+      "name": "cloudAPIName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "cloudAPIEnvironment": {
+      "name": "cloudAPIEnvironment",
+      "pointer": false,
+      "type": "SCKEnvironment ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
     }
   },
   "generics": []

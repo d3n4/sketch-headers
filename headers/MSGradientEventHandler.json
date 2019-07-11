@@ -32,14 +32,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "paddingRectAroundPoints": {
-      "name": "paddingRectAroundPoints",
-      "bridgedName": "paddingRectAroundPoints",
-      "args": [],
-      "returns": "NSRect",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "selectPointCursor": {
       "name": "selectPointCursor",
       "bridgedName": "selectPointCursor",

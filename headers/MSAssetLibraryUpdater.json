@@ -45,6 +45,44 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "downloadAppcastAtURL:withCompletionHandler:": {
+      "name": "downloadAppcastAtURL:withCompletionHandler:",
+      "bridgedName": "downloadAppcastAtURL_withCompletionHandler",
+      "args": [
+        {
+          "name": "appcastURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(MSAssetLibraryUpdatingInfo * _Nullable updatingInfo, NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startFileDownload:completionHandler:": {
+      "name": "startFileDownload:completionHandler:",
+      "bridgedName": "startFileDownload_completionHandler",
+      "args": [
+        {
+          "name": "remoteURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^)(NSURL * _Nullable downloadedURL, NSError * _Nullable error)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

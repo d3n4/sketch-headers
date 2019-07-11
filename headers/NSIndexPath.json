@@ -3,13 +3,13 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "indexPathForHandle:point:ofShape:": {
-      "name": "indexPathForHandle:point:ofShape:",
-      "bridgedName": "indexPathForHandle_point_ofShape",
+    "indexPathForComponent:point:ofShape:": {
+      "name": "indexPathForComponent:point:ofShape:",
+      "bridgedName": "indexPathForComponent_point_ofShape",
       "args": [
         {
-          "name": "handle",
-          "type": "MSPointType",
+          "name": "component",
+          "type": "MSVectorComponent",
           "nullable": false
         },
         {
@@ -46,13 +46,13 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "indexPathWithHandle:": {
-      "name": "indexPathWithHandle:",
-      "bridgedName": "indexPathWithHandle",
+    "indexPathWithComponent:": {
+      "name": "indexPathWithComponent:",
+      "bridgedName": "indexPathWithComponent",
       "args": [
         {
-          "name": "handle",
-          "type": "MSPointType",
+          "name": "component",
+          "type": "MSVectorComponent",
           "nullable": false
         }
       ],
@@ -62,14 +62,14 @@
     }
   },
   "properties": {
-    "handle": {
-      "name": "handle",
+    "component": {
+      "name": "component",
       "pointer": false,
-      "type": "MSPointType",
+      "type": "MSVectorComponent",
       "attributes": [
         "nonatomic",
         "readonly",
-        "getter=handle_ms"
+        "getter=component_ms"
       ]
     },
     "point": {
@@ -90,6 +90,16 @@
         "nonatomic",
         "readonly",
         "getter=shape_ms"
+      ]
+    },
+    "handle": {
+      "name": "handle",
+      "pointer": false,
+      "type": "MSPointType",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=handle_ms"
       ]
     }
   },

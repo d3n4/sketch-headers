@@ -32,19 +32,19 @@
     }
   },
   "properties": {
-    "hasBitmapStylesEnabled": {
-      "name": "hasBitmapStylesEnabled",
+    "usedStyle": {
+      "name": "usedStyle",
       "pointer": false,
-      "type": "BOOL",
+      "type": "MSImmutableStyle ",
       "attributes": [
         "nonatomic",
         "readonly"
       ]
     },
-    "usedStyle": {
-      "name": "usedStyle",
+    "shouldRasterize": {
+      "name": "shouldRasterize",
       "pointer": false,
-      "type": "MSImmutableStyle ",
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
         "readonly"

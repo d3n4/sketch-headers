@@ -1,8 +1,29 @@
 {
   "name": "SUBinaryDeltaUnarchiver",
-  "extends": "SUUnarchiver",
-  "interfaces": [],
+  "extends": "NSObject",
+  "interfaces": [
+    "SUUnarchiverProtocol"
+  ],
   "methods": {
+    "initWithArchivePath:updateHostBundlePath:": {
+      "name": "initWithArchivePath:updateHostBundlePath:",
+      "bridgedName": "initWithArchivePath_updateHostBundlePath",
+      "args": [
+        {
+          "name": "archivePath",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "updateHostBundlePath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "updateSpotlightImportersAtBundlePath:": {
       "name": "updateSpotlightImportersAtBundlePath:",
       "bridgedName": "updateSpotlightImportersAtBundlePath",

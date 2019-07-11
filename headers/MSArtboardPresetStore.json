@@ -22,6 +22,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "resizablePresetMatchingSize:preferredCategory:": {
+      "name": "resizablePresetMatchingSize:preferredCategory:",
+      "bridgedName": "resizablePresetMatchingSize_preferredCategory",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "preferredCategory",
+          "type": "MSArtboardPresetsCategory *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSArtboardPreset *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "savePreset:error:": {
       "name": "savePreset:error:",
       "bridgedName": "savePreset_error",

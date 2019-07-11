@@ -537,25 +537,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "startDragForButton:withEvent:": {
-      "name": "startDragForButton:withEvent:",
-      "bridgedName": "startDragForButton_withEvent",
-      "args": [
-        {
-          "name": "button",
-          "type": "NSButton *",
-          "nullable": false
-        },
-        {
-          "name": "event",
-          "type": "NSEvent *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "drawContentForButton:inRect:": {
       "name": "drawContentForButton:inRect:",
       "bridgedName": "drawContentForButton_inRect",

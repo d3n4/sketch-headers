@@ -50,10 +50,10 @@
         "readonly"
       ]
     },
-    "hasSliceIcon": {
-      "name": "hasSliceIcon",
+    "badgeType": {
+      "name": "badgeType",
       "pointer": false,
-      "type": "BOOL",
+      "type": "BCOutlineViewBadgeType",
       "attributes": [
         "nonatomic",
         "readonly"

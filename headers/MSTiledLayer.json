@@ -37,9 +37,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshContentRect:forPage:document:": {
-      "name": "refreshContentRect:forPage:document:",
-      "bridgedName": "refreshContentRect_forPage_document",
+    "refreshContentRect:forPage:document:quality:": {
+      "name": "refreshContentRect:forPage:document:quality:",
+      "bridgedName": "refreshContentRect_forPage_document_quality",
       "args": [
         {
           "name": "rect",
@@ -55,15 +55,20 @@
           "name": "doc",
           "type": "MSImmutableDocumentData *",
           "nullable": false
+        },
+        {
+          "name": "quality",
+          "type": "MSRenderingQuality",
+          "nullable": false
         }
       ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshContentForPage:document:": {
-      "name": "refreshContentForPage:document:",
-      "bridgedName": "refreshContentForPage_document",
+    "refreshContentForPage:document:quality:": {
+      "name": "refreshContentForPage:document:quality:",
+      "bridgedName": "refreshContentForPage_document_quality",
       "args": [
         {
           "name": "page",
@@ -73,6 +78,11 @@
         {
           "name": "doc",
           "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "quality",
+          "type": "MSRenderingQuality",
           "nullable": false
         }
       ],
@@ -207,6 +217,14 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "tileContentLayerScale": {
+      "name": "tileContentLayerScale",
+      "bridgedName": "tileContentLayerScale",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -334,6 +352,15 @@
       "attributes": [
         "nonatomic",
         "strong",
+        "readonly"
+      ]
+    },
+    "renderingQuality": {
+      "name": "renderingQuality",
+      "pointer": false,
+      "type": "MSRenderingQuality",
+      "attributes": [
+        "nonatomic",
         "readonly"
       ]
     }

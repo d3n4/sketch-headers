@@ -89,9 +89,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "disableMakingHistoryInBlock:": {
-      "name": "disableMakingHistoryInBlock:",
-      "bridgedName": "disableMakingHistoryInBlock",
+    "deferMakingHistoryInBlock:": {
+      "name": "deferMakingHistoryInBlock:",
+      "bridgedName": "deferMakingHistoryInBlock",
       "args": [
         {
           "name": "block",
@@ -100,6 +100,20 @@
         }
       ],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "ignoreDocumentChangesInBlock:": {
+      "name": "ignoreDocumentChangesInBlock:",
+      "bridgedName": "ignoreDocumentChangesInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },

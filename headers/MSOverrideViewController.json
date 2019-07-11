@@ -1,7 +1,9 @@
 {
   "name": "MSOverrideViewController",
   "extends": "NSViewController",
-  "interfaces": [],
+  "interfaces": [
+    "MSDataMenuProviderDelegate"
+  ],
   "methods": {
     "initWithPrimaryOverride:": {
       "name": "initWithPrimaryOverride:",
@@ -33,6 +35,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "supportedDataProviders": {
+      "name": "supportedDataProviders",
+      "bridgedName": "supportedDataProviders",
+      "args": [],
+      "returns": "MSDataType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "controlViewForEditingOverride": {
       "name": "controlViewForEditingOverride",
       "bridgedName": "controlViewForEditingOverride",
@@ -52,14 +62,6 @@
         }
       ],
       "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "hasStandardCellHeight": {
-      "name": "hasStandardCellHeight",
-      "bridgedName": "hasStandardCellHeight",
-      "args": [],
-      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },

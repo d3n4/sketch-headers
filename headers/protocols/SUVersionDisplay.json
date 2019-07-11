@@ -10,12 +10,12 @@
       "args": [
         {
           "name": "inOutVersionA",
-          "type": "NSString **",
+          "type": "NSString *_Nonnull*_Nonnull",
           "nullable": false
         },
         {
           "name": "inOutVersionB",
-          "type": "NSString **",
+          "type": "NSString *_Nonnull*_Nonnull",
           "nullable": false
         }
       ],

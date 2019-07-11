@@ -1,7 +1,9 @@
 {
   "name": "MSSymbolMaster",
   "extends": "_MSSymbolMaster",
-  "interfaces": [],
+  "interfaces": [
+    "BCSortable"
+  ],
   "methods": {
     "availableOverrides": {
       "name": "availableOverrides",
@@ -44,14 +46,6 @@
       "bridgedName": "newSymbolInstance",
       "args": [],
       "returns": "MSSymbolInstance *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "influenceRectPaddingForInstances": {
-      "name": "influenceRectPaddingForInstances",
-      "bridgedName": "influenceRectPaddingForInstances",
-      "args": [],
-      "returns": "BCEdgePaddings",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -128,36 +122,9 @@
       "returns": "NSArray *",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "notifySymbolInstancesOfChange": {
-      "name": "notifySymbolInstancesOfChange",
-      "bridgedName": "notifySymbolInstancesOfChange",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
-    "foreignSymbol": {
-      "name": "foreignSymbol",
-      "pointer": false,
-      "type": "MSForeignSymbol*",
-      "attributes": [
-        "nonatomic",
-        "nullable",
-        "readonly"
-      ]
-    },
-    "isForeign": {
-      "name": "isForeign",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "changeIdentifier": {
       "name": "changeIdentifier",
       "pointer": false,

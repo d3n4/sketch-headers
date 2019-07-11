@@ -3,6 +3,25 @@
   "extends": "NSImageView",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "normalImage": {
+      "name": "normalImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "placeholderImage": {
+      "name": "placeholderImage",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
   "generics": []
 }

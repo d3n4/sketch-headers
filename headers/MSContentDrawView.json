@@ -91,20 +91,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "canHighlightLayer:": {
-      "name": "canHighlightLayer:",
-      "bridgedName": "canHighlightLayer",
-      "args": [
-        {
-          "name": "layer",
-          "type": "MSLayer *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "animateToZoom:scalingCenteredOnAbsoluteCoordinates:": {
       "name": "animateToZoom:scalingCenteredOnAbsoluteCoordinates:",
       "bridgedName": "animateToZoom_scalingCenteredOnAbsoluteCoordinates",
@@ -510,15 +496,6 @@
         "readonly"
       ]
     },
-    "hoveredLayer": {
-      "name": "hoveredLayer",
-      "pointer": false,
-      "type": "MSLayer*",
-      "attributes": [
-        "nonatomic",
-        "weak"
-      ]
-    },
     "zoomValue": {
       "name": "zoomValue",
       "pointer": false,
@@ -616,6 +593,15 @@
       "type": "MSCacheManager ",
       "attributes": [
         "nonatomic"
+      ]
+    },
+    "mouseTracker": {
+      "name": "mouseTracker",
+      "pointer": false,
+      "type": "MSMouseTracker ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     },
     "didMouseDown": {

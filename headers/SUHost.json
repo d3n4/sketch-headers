@@ -159,23 +159,6 @@
         "copy"
       ]
     },
-    "allowsAutomaticUpdates": {
-      "name": "allowsAutomaticUpdates",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "readonly"
-      ]
-    },
-    "installationPath": {
-      "name": "installationPath",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "readonly",
-        "copy"
-      ]
-    },
     "name": {
       "name": "name",
       "pointer": false,
@@ -203,30 +186,12 @@
         "copy"
       ]
     },
-    "icon": {
-      "name": "icon",
-      "pointer": false,
-      "type": "NSImage ",
-      "attributes": [
-        "readonly",
-        "copy"
-      ]
-    },
     "runningOnReadOnlyVolume": {
       "name": "runningOnReadOnlyVolume",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
         "getter=isRunningOnReadOnlyVolume",
-        "readonly"
-      ]
-    },
-    "backgroundApplication": {
-      "name": "backgroundApplication",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "getter=isBackgroundApplication",
         "readonly"
       ]
     },
@@ -246,15 +211,6 @@
       "attributes": [
         "readonly",
         "nonatomic",
-        "copy"
-      ]
-    },
-    "systemProfile": {
-      "name": "systemProfile",
-      "pointer": false,
-      "type": "NSArray ",
-      "attributes": [
-        "readonly",
         "copy"
       ]
     }

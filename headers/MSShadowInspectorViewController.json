@@ -25,7 +25,7 @@
     "colorButton": {
       "name": "colorButton",
       "pointer": false,
-      "type": "IBOutlet MSColorPreviewButton ",
+      "type": "IBOutlet MSStylePartPreviewButton ",
       "attributes": [
         "nonatomic",
         "strong"

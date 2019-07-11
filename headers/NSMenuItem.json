@@ -107,9 +107,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "generateSymbolPreviewWithColorSpace:completionHandler:": {
-      "name": "generateSymbolPreviewWithColorSpace:completionHandler:",
-      "bridgedName": "generateSymbolPreviewWithColorSpace_completionHandler",
+    "generatePreviewWithColorSpace:completionHandler:": {
+      "name": "generatePreviewWithColorSpace:completionHandler:",
+      "bridgedName": "generatePreviewWithColorSpace_completionHandler",
       "args": [
         {
           "name": "colorSpace",
@@ -118,7 +118,7 @@
         },
         {
           "name": "block",
-          "type": "MSSymbolPreviewGeneratorBlock",
+          "type": "MSPreviewGeneratorBlock",
           "nullable": false
         }
       ],
@@ -128,10 +128,10 @@
     }
   },
   "properties": {
-    "sharedObjects": {
-      "name": "sharedObjects",
+    "shareableObjectReferences": {
+      "name": "shareableObjectReferences",
       "pointer": false,
-      "type": "NSArray <__kindof MSSharedObject *> ",
+      "type": "NSArray <__kindof MSShareableObjectReference *> ",
       "attributes": [
         "nonatomic",
         "strong"
@@ -143,7 +143,7 @@
       "type": "NSArray <MSSymbolMasterReference *> ",
       "attributes": [
         "nonatomic",
-        "strong"
+        "readonly"
       ]
     }
   },

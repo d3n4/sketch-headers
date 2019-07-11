@@ -1,8 +1,0 @@
-{
-  "name": "MSURLButtonCell",
-  "extends": "NSButtonCell",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

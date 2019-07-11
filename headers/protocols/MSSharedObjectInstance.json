@@ -8,7 +8,7 @@
       "name": "type",
       "bridgedName": "type",
       "args": [],
-      "returns": "MSSharedObjectType",
+      "returns": "MSSharedStyleType",
       "kind": "instance",
       "kindIndicator": "-"
     }

@@ -50,14 +50,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "isDebuggerAttached": {
-      "name": "isDebuggerAttached",
-      "bridgedName": "isDebuggerAttached",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "generateTestCrash": {
       "name": "generateTestCrash",
       "bridgedName": "generateTestCrash",

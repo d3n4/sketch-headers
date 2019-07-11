@@ -31,6 +31,20 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "shareLibraryAppcastRequestWithShortID:": {
+      "name": "shareLibraryAppcastRequestWithShortID:",
+      "bridgedName": "shareLibraryAppcastRequestWithShortID",
+      "args": [
+        {
+          "name": "shortID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "userSharesListRequest": {
       "name": "userSharesListRequest",
       "bridgedName": "userSharesListRequest",

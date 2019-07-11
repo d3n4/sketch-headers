@@ -1,13 +1,15 @@
 {
   "name": "MSDocumentWindow",
   "extends": "NSWindow",
-  "interfaces": [],
+  "interfaces": [
+    "MSInterfaceTheme"
+  ],
   "methods": {},
   "properties": {
     "titleBarBadge": {
       "name": "titleBarBadge",
       "pointer": false,
-      "type": "NSButton ",
+      "type": "BCWindowBadge ",
       "attributes": [
         "nonatomic",
         "strong",

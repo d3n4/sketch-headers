@@ -1,14 +1,14 @@
 {
   "name": "SUUpdatePermissionPrompt",
-  "extends": "SUWindowController",
+  "extends": "NSWindowController",
   "interfaces": [],
   "methods": {
-    "promptWithHost:systemProfile:delegate:": {
-      "name": "promptWithHost:systemProfile:delegate:",
-      "bridgedName": "promptWithHost_systemProfile_delegate",
+    "promptWithHost:systemProfile:reply:": {
+      "name": "promptWithHost:systemProfile:reply:",
+      "bridgedName": "promptWithHost_systemProfile_reply",
       "args": [
         {
-          "name": "aHost",
+          "name": "host",
           "type": "SUHost *",
           "nullable": false
         },
@@ -18,8 +18,8 @@
           "nullable": false
         },
         {
-          "name": "d",
-          "type": "id<SUUpdatePermissionPromptDelegate>",
+          "name": "reply",
+          "type": "void (^)(SUUpdatePermissionResponse *)",
           "nullable": false
         }
       ],

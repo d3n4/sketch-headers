@@ -3,13 +3,27 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "dataForPasteboardData:": {
-      "name": "dataForPasteboardData:",
-      "bridgedName": "dataForPasteboardData",
+    "dictionaryFromPasteboardLayers:": {
+      "name": "dictionaryFromPasteboardLayers:",
+      "bridgedName": "dictionaryFromPasteboardLayers",
       "args": [
         {
-          "name": "pasteboardData",
+          "name": "pasteboardLayers",
           "type": "MSPasteboardLayers *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "dataFromPasteboardDictionary:": {
+      "name": "dataFromPasteboardDictionary:",
+      "bridgedName": "dataFromPasteboardDictionary",
+      "args": [
+        {
+          "name": "dict",
+          "type": "NSDictionary*",
           "nullable": false
         }
       ],
@@ -24,7 +38,7 @@
         {
           "name": "data",
           "type": "NSData *",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "nullable MSPasteboardLayers *",

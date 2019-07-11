@@ -34,6 +34,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "locateLibraryAction:": {
+      "name": "locateLibraryAction:",
+      "bridgedName": "locateLibraryAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addLibrariesFromURLS:": {
       "name": "addLibrariesFromURLS:",
       "bridgedName": "addLibrariesFromURLS",
@@ -55,6 +69,34 @@
         {
           "name": "item",
           "type": "MSAssetPreferenceItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startDownloadForRemoteLibrary:": {
+      "name": "startDownloadForRemoteLibrary:",
+      "bridgedName": "startDownloadForRemoteLibrary",
+      "args": [
+        {
+          "name": "remoteLibrary",
+          "type": "MSRemoteAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadSelectingLibrary:": {
+      "name": "reloadSelectingLibrary:",
+      "bridgedName": "reloadSelectingLibrary",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary*",
           "nullable": false
         }
       ],

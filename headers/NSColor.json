@@ -131,6 +131,17 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "manifestComponents": {
+      "name": "manifestComponents",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

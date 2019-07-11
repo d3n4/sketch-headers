@@ -118,6 +118,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "setLogHandler:": {
+      "name": "setLogHandler:",
+      "bridgedName": "setLogHandler",
+      "args": [
+        {
+          "name": "logHandler",
+          "type": "BITLogHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "testIdentifier": {
       "name": "testIdentifier",
       "bridgedName": "testIdentifier",
@@ -134,7 +148,7 @@
       "type": "id<BITHockeyManagerDelegate>",
       "attributes": [
         "nonatomic",
-        "unsafe_unretained"
+        "weak"
       ]
     },
     "serverURL": {
@@ -143,7 +157,7 @@
       "type": "NSString ",
       "attributes": [
         "nonatomic",
-        "strong"
+        "copy"
       ]
     },
     "crashManager": {
@@ -184,14 +198,32 @@
         "getter = isFeedbackManagerDisabled"
       ]
     },
-    "debugLogEnabled": {
-      "name": "debugLogEnabled",
+    "metricsManager": {
+      "name": "metricsManager",
+      "pointer": false,
+      "type": "BITMetricsManager ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "disableMetricsManager": {
+      "name": "disableMetricsManager",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
         "nonatomic",
-        "assign",
-        "getter=isDebugLogEnabled"
+        "getter = isMetricsManagerDisabled"
+      ]
+    },
+    "logLevel": {
+      "name": "logLevel",
+      "pointer": false,
+      "type": "BITLogLevel",
+      "attributes": [
+        "nonatomic",
+        "assign"
       ]
     }
   },

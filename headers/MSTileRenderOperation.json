@@ -3,17 +3,27 @@
   "extends": "NSOperation",
   "interfaces": [],
   "methods": {
-    "initWithContextPool:": {
-      "name": "initWithContextPool:",
-      "bridgedName": "initWithContextPool",
+    "initWithRenderingRequest:contextPool:driver:": {
+      "name": "initWithRenderingRequest:contextPool:driver:",
+      "bridgedName": "initWithRenderingRequest_contextPool_driver",
       "args": [
         {
+          "name": "renderingRequest",
+          "type": "MSRenderingRequest *",
+          "nullable": false
+        },
+        {
           "name": "contextPool",
-          "type": "MSCGContextPool * _Nonnull",
+          "type": "MSCGContextPool *",
+          "nullable": false
+        },
+        {
+          "name": "driver",
+          "type": "MSRenderingDriver *",
           "nullable": false
         }
       ],
-      "returns": "nullable instancetype",
+      "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -27,24 +37,39 @@
     }
   },
   "properties": {
-    "delegate": {
-      "name": "delegate",
+    "tile": {
+      "name": "tile",
       "pointer": false,
-      "type": "id <MSTileRenderOperationDelegate>",
+      "type": "MSTile ",
       "attributes": [
         "nonatomic",
-        "weak",
-        "nullable"
+        "weak"
       ]
     },
-    "contentLayer": {
-      "name": "contentLayer",
+    "driver": {
+      "name": "driver",
       "pointer": false,
-      "type": "MSContentCALayer ",
+      "type": "MSRenderingDriver ",
       "attributes": [
         "nonatomic",
-        "strong",
-        "nullable"
+        "readonly"
+      ]
+    },
+    "renderingRequest": {
+      "name": "renderingRequest",
+      "pointer": false,
+      "type": "MSRenderingRequest ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contentBounds": {
+      "name": "contentBounds",
+      "pointer": false,
+      "type": "CGRect",
+      "attributes": [
+        "nonatomic"
       ]
     },
     "image": {
@@ -67,37 +92,10 @@
         "assign"
       ]
     },
-    "shouldDrawPixelated": {
-      "name": "shouldDrawPixelated",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "assign"
-      ]
-    },
-    "showDrawingArea": {
-      "name": "showDrawingArea",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "assign"
-      ]
-    },
     "distanceFromScrollOrigin": {
       "name": "distanceFromScrollOrigin",
       "pointer": false,
       "type": "NSPoint",
-      "attributes": [
-        "nonatomic",
-        "assign"
-      ]
-    },
-    "zoomValue": {
-      "name": "zoomValue",
-      "pointer": false,
-      "type": "CGFloat",
       "attributes": [
         "nonatomic",
         "assign"
@@ -113,26 +111,6 @@
         "nullable"
       ]
     },
-    "document": {
-      "name": "document",
-      "pointer": false,
-      "type": "MSImmutableDocumentData ",
-      "attributes": [
-        "nonatomic",
-        "strong",
-        "nullable"
-      ]
-    },
-    "renderingCacheProvider": {
-      "name": "renderingCacheProvider",
-      "pointer": false,
-      "type": "id <MSRenderingContextCacheProvider>",
-      "attributes": [
-        "nonatomic",
-        "strong",
-        "nullable"
-      ]
-    },
     "contextPool": {
       "name": "contextPool",
       "pointer": false,
@@ -140,8 +118,7 @@
       "attributes": [
         "nonatomic",
         "strong",
-        "readonly",
-        "nonnull"
+        "readonly"
       ]
     }
   },

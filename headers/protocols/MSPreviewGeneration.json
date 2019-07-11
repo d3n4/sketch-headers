@@ -1,0 +1,38 @@
+{
+  "protocol": true,
+  "name": "MSPreviewGeneration",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "generatePreviewWithImageSize:previewSize:colorSpace:completionBlock:": {
+      "name": "generatePreviewWithImageSize:previewSize:colorSpace:completionBlock:",
+      "bridgedName": "generatePreviewWithImageSize_previewSize_colorSpace_completionBlock",
+      "args": [
+        {
+          "name": "imageSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "previewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": true
+        },
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

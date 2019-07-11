@@ -11,6 +11,20 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "initWithSettings:": {
+      "name": "initWithSettings:",
+      "bridgedName": "initWithSettings",
+      "args": [
+        {
+          "name": "settings",
+          "type": "MSRenderingDriverSettings *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "setupRendererMap": {
       "name": "setupRendererMap",
       "bridgedName": "setupRendererMap",
@@ -38,9 +52,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "contextWithName:forCGContext:": {
-      "name": "contextWithName:forCGContext:",
-      "bridgedName": "contextWithName_forCGContext",
+    "contextWithName:forCGContext:renderingRequest:": {
+      "name": "contextWithName:forCGContext:renderingRequest:",
+      "bridgedName": "contextWithName_forCGContext_renderingRequest",
       "args": [
         {
           "name": "name",
@@ -50,6 +64,11 @@
         {
           "name": "contextRef",
           "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "renderingRequest",
+          "type": "MSRenderingRequest *",
           "nullable": false
         }
       ],
@@ -87,6 +106,17 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "settings": {
+      "name": "settings",
+      "pointer": false,
+      "type": "MSRenderingDriverSettings ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

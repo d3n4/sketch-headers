@@ -55,8 +55,16 @@
       "value": "1<<20"
     },
     {
+      "name": "MSTraitHotspot",
+      "value": "1<<21"
+    },
+    {
+      "name": "MSTraitExportable",
+      "value": "1<<22"
+    },
+    {
       "name": "MSTraitAllTraits",
-      "value": "MSTraitStyled | MSTraitText | MSTraitImage | MSTraitSlice | MSTraitGroup| MSTraitArtboard | MSTraitShape | MSTraitPage | MSTraitContainer | MSTraitRoot | MSTraitPath | MSTraitSymbolInstance | MSTraitSymbolMaster"
+      "value": "MSTraitStyled | MSTraitText | MSTraitImage | MSTraitSlice | MSTraitGroup| MSTraitArtboard | MSTraitShape | MSTraitPage | MSTraitContainer | MSTraitRoot | MSTraitPath | MSTraitSymbolInstance | MSTraitSymbolMaster | MSTraitHotspot | MSTraitExportable"
     }
   ]
 }

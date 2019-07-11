@@ -1,6 +1,6 @@
 {
   "name": "SUAutomaticUpdateAlert",
-  "extends": "SUWindowController",
+  "extends": "NSWindowController",
   "interfaces": [],
   "methods": {
     "initWithAppcastItem:host:completionBlock:": {

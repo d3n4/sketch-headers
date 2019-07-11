@@ -85,13 +85,32 @@
       "returns": "NSArray<MSAvailableOverride *> *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "cachedModifiedSymbolForMaster:inContext:": {
+      "name": "cachedModifiedSymbolForMaster:inContext:",
+      "bridgedName": "cachedModifiedSymbolForMaster_inContext",
+      "args": [
+        {
+          "name": "originalSymbol",
+          "type": "MSImmutableSymbolMaster *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
-    "masterRefreshCounter": {
-      "name": "masterRefreshCounter",
+    "modifiedMasterCacheKey": {
+      "name": "modifiedMasterCacheKey",
       "pointer": false,
-      "type": "NSUInteger",
+      "type": "id<NSCopying>",
       "attributes": [
         "nonatomic",
         "readonly"

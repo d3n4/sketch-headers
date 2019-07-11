@@ -1,8 +1,0 @@
-{
-  "name": "MSComponentsPanelListItem",
-  "extends": "MSComponentsPanelGridItem",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

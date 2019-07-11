@@ -19,9 +19,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "replaceInstancesOfColor:withColor:ignoreAlphaWhenMatching:replaceAlpha:": {
-      "name": "replaceInstancesOfColor:withColor:ignoreAlphaWhenMatching:replaceAlpha:",
-      "bridgedName": "replaceInstancesOfColor_withColor_ignoreAlphaWhenMatching_replaceAlpha",
+    "replaceInstancesOfColor:withColor:ignoreAlphaWhenMatching:replaceAlphaOfOriginalColor:": {
+      "name": "replaceInstancesOfColor:withColor:ignoreAlphaWhenMatching:replaceAlphaOfOriginalColor:",
+      "bridgedName": "replaceInstancesOfColor_withColor_ignoreAlphaWhenMatching_replaceAlphaOfOriginalColor",
       "args": [
         {
           "name": "color",
@@ -133,7 +133,7 @@
       "args": [
         {
           "name": "type",
-          "type": "MSSharedObjectType",
+          "type": "MSSharedStyleType",
           "nullable": false
         }
       ],
@@ -190,6 +190,20 @@
         }
       ],
       "returns": "nullable MSLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardWithID:": {
+      "name": "artboardWithID:",
+      "bridgedName": "artboardWithID",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSArtboardGroup *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -308,13 +322,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "libraryForForeignSymbol:inLibraries:": {
-      "name": "libraryForForeignSymbol:inLibraries:",
-      "bridgedName": "libraryForForeignSymbol_inLibraries",
+    "libraryForForeignObject:inLibraries:": {
+      "name": "libraryForForeignObject:inLibraries:",
+      "bridgedName": "libraryForForeignObject_inLibraries",
       "args": [
         {
-          "name": "symbol",
-          "type": "MSForeignSymbol*",
+          "name": "object",
+          "type": "MSForeignObject*",
           "nullable": false
         },
         {
@@ -390,6 +404,14 @@
     "determineCurrentArtboard": {
       "name": "determineCurrentArtboard",
       "bridgedName": "determineCurrentArtboard",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "purgeForeignSymbols": {
+      "name": "purgeForeignSymbols",
+      "bridgedName": "purgeForeignSymbols",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -507,24 +529,6 @@
       "attributes": [
         "nonatomic",
         "strong",
-        "readonly"
-      ]
-    },
-    "fontNames": {
-      "name": "fontNames",
-      "pointer": false,
-      "type": "NSSet <NSString *> ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "unavailableFontNames": {
-      "name": "unavailableFontNames",
-      "pointer": false,
-      "type": "NSSet <NSString *> ",
-      "attributes": [
-        "nonatomic",
         "readonly"
       ]
     }

@@ -7,6 +7,25 @@
     "BITCrashManagerDelegate"
   ],
   "methods": {
+    "setEnvironmentValue:forKey:": {
+      "name": "setEnvironmentValue:forKey:",
+      "bridgedName": "setEnvironmentValue_forKey",
+      "args": [
+        {
+          "name": "value",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "log:": {
       "name": "log:",
       "bridgedName": "log",

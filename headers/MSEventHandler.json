@@ -273,6 +273,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "trackMouse:": {
+      "name": "trackMouse:",
+      "bridgedName": "trackMouse",
+      "args": [
+        {
+          "name": "tracker",
+          "type": "MSMouseTracker *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addGestureRecognizer:": {
       "name": "addGestureRecognizer:",
       "bridgedName": "addGestureRecognizer",
@@ -381,9 +395,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "drawInRect:cache:": {
-      "name": "drawInRect:cache:",
-      "bridgedName": "drawInRect_cache",
+    "drawInRect:context:": {
+      "name": "drawInRect:context:",
+      "bridgedName": "drawInRect_context",
       "args": [
         {
           "name": "dirtyRect",
@@ -391,8 +405,8 @@
           "nullable": false
         },
         {
-          "name": "cache",
-          "type": "BCCache *",
+          "name": "context",
+          "type": "MSRenderingContext *",
           "nullable": false
         }
       ],
@@ -859,6 +873,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "shouldDrawLayerHighlight": {
+      "name": "shouldDrawLayerHighlight",
+      "bridgedName": "shouldDrawLayerHighlight",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "willMoveThroughHistory:": {
       "name": "willMoveThroughHistory:",
       "bridgedName": "willMoveThroughHistory",
@@ -1115,6 +1137,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "mayShowResizingInspectorView": {
+      "name": "mayShowResizingInspectorView",
+      "bridgedName": "mayShowResizingInspectorView",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "editLayer:": {
       "name": "editLayer:",
       "bridgedName": "editLayer",
@@ -1186,33 +1216,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "inspectorShouldShowSharedStyles": {
-      "name": "inspectorShouldShowSharedStyles",
-      "bridgedName": "inspectorShouldShowSharedStyles",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "inspectorShouldShowPositions": {
       "name": "inspectorShouldShowPositions",
       "bridgedName": "inspectorShouldShowPositions",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "inspectorShouldShowLayerSpecificProperties": {
-      "name": "inspectorShouldShowLayerSpecificProperties",
-      "bridgedName": "inspectorShouldShowLayerSpecificProperties",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "inspectorShouldShowBlendingProperties": {
-      "name": "inspectorShouldShowBlendingProperties",
-      "bridgedName": "inspectorShouldShowBlendingProperties",
       "args": [],
       "returns": "BOOL",
       "kind": "instance",
@@ -1291,6 +1297,14 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "documentWindow": {
+      "name": "documentWindow",
+      "bridgedName": "documentWindow",
+      "args": [],
+      "returns": "MSDocumentWindow *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -1355,14 +1369,6 @@
       "attributes": [
         "nonatomic",
         "readonly"
-      ]
-    },
-    "mouseTracker": {
-      "name": "mouseTracker",
-      "pointer": false,
-      "type": "MSMouseTracker ",
-      "attributes": [
-        "nonatomic"
       ]
     },
     "gestureRecognizers": {

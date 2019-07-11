@@ -105,6 +105,15 @@
         "readonly",
         "strong"
       ]
+    },
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   }
 }

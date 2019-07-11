@@ -12,21 +12,10 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "wantsSeparatorBetweenView:andView:": {
-      "name": "wantsSeparatorBetweenView:andView:",
-      "bridgedName": "wantsSeparatorBetweenView_andView",
-      "args": [
-        {
-          "name": "firstView",
-          "type": "NSView *",
-          "nullable": false
-        },
-        {
-          "name": "secondView",
-          "type": "NSView *",
-          "nullable": false
-        }
-      ],
+    "wantsSeparatorAfterViews": {
+      "name": "wantsSeparatorAfterViews",
+      "bridgedName": "wantsSeparatorAfterViews",
+      "args": [],
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"

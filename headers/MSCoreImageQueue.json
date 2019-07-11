@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "drawImage:withEffect:inRect:fromObject:inContext:": {
-      "name": "drawImage:withEffect:inRect:fromObject:inContext:",
-      "bridgedName": "drawImage_withEffect_inRect_fromObject_inContext",
+    "drawImage:withEffect:inRect:fromObject:context:colorSpace:options:": {
+      "name": "drawImage:withEffect:inRect:fromObject:context:colorSpace:options:",
+      "bridgedName": "drawImage_withEffect_inRect_fromObject_context_colorSpace_options",
       "args": [
         {
           "name": "imageRef",
@@ -28,8 +28,18 @@
           "nullable": false
         },
         {
-          "name": "context",
-          "type": "MSRenderingContext *",
+          "name": "contextRef",
+          "type": "CGContextRef",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSRenderingRequestOptions",
           "nullable": false
         }
       ],

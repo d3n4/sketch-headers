@@ -59,6 +59,62 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "canMoveLayerToTopOfHierarchy:": {
+      "name": "canMoveLayerToTopOfHierarchy:",
+      "bridgedName": "canMoveLayerToTopOfHierarchy",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "moveToTopOfHierarchy:": {
+      "name": "moveToTopOfHierarchy:",
+      "bridgedName": "moveToTopOfHierarchy",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "canMoveLayersForward:": {
+      "name": "canMoveLayersForward:",
+      "bridgedName": "canMoveLayersForward",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer*> *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "canMoveLayersBackward:": {
+      "name": "canMoveLayersBackward:",
+      "bridgedName": "canMoveLayersBackward",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer*> *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "moveToFront:": {
       "name": "moveToFront:",
       "bridgedName": "moveToFront",
@@ -78,7 +134,7 @@
       "bridgedName": "moveToBack",
       "args": [
         {
-          "name": "selectedLayers",
+          "name": "layers",
           "type": "NSArray <MSLayer *> *",
           "nullable": false
         }

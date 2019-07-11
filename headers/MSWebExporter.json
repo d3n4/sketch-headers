@@ -185,10 +185,10 @@
         "copy"
       ]
     },
-    "includeBackground": {
-      "name": "includeBackground",
+    "cacheManager": {
+      "name": "cacheManager",
       "pointer": false,
-      "type": "BOOL",
+      "type": "MSCacheManager ",
       "attributes": [
         "nonatomic"
       ]

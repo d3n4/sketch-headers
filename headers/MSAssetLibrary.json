@@ -7,20 +7,6 @@
     "MSLibraryObject"
   ],
   "methods": {
-    "URLForTemplateLibraryNamed:": {
-      "name": "URLForTemplateLibraryNamed:",
-      "bridgedName": "URLForTemplateLibraryNamed",
-      "args": [
-        {
-          "name": "name",
-          "type": "NSString*",
-          "nullable": false
-        }
-      ],
-      "returns": "nullable NSURL*",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "initWithDocumentAtURL:": {
       "name": "initWithDocumentAtURL:",
       "bridgedName": "initWithDocumentAtURL",
@@ -105,19 +91,37 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "URLForTemplateLibraryNamed:": {
+      "name": "URLForTemplateLibraryNamed:",
+      "bridgedName": "URLForTemplateLibraryNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSURL*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "assetLibraryStatusForDocumentErrorCode:": {
+      "name": "assetLibraryStatusForDocumentErrorCode:",
+      "bridgedName": "assetLibraryStatusForDocumentErrorCode",
+      "args": [
+        {
+          "name": "errorCode",
+          "type": "MSDocumentErrorCode",
+          "nullable": false
+        }
+      ],
+      "returns": "MSAssetLibraryStatus",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {
-    "assetLibraryFolder": {
-      "name": "assetLibraryFolder",
-      "pointer": false,
-      "type": "NSURL ",
-      "attributes": [
-        "class",
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "enabled": {
       "name": "enabled",
       "pointer": false,
@@ -149,7 +153,16 @@
       "type": "NSURL ",
       "attributes": [
         "atomic",
-        "nullable",
+        "strong",
+        "nullable"
+      ]
+    },
+    "canLibraryBeRemoved": {
+      "name": "canLibraryBeRemoved",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
         "readonly"
       ]
     },
@@ -208,6 +221,16 @@
       "attributes": [
         "nonatomic",
         "readonly"
+      ]
+    },
+    "previewURL": {
+      "name": "previewURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
       ]
     }
   },

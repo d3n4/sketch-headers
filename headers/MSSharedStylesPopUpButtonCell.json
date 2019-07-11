@@ -3,6 +3,15 @@
   "extends": "NSPopUpButtonCell",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "localIsOutOfSync": {
+      "name": "localIsOutOfSync",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
   "generics": []
 }

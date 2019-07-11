@@ -5,13 +5,35 @@
     "NSMenuDelegate"
   ],
   "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSMenuBuilderDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "menuItemsForSortableObjects:selectedObjects:target:selector:": {
       "name": "menuItemsForSortableObjects:selectedObjects:target:selector:",
       "bridgedName": "menuItemsForSortableObjects_selectedObjects_target_selector",
       "args": [
         {
           "name": "objects",
-          "type": "NSArray <id<BCSortable>> *",
+          "type": "NSArray<MSShareableObjectReference *> *",
           "nullable": false
         },
         {
@@ -40,7 +62,7 @@
       "args": [
         {
           "name": "objects",
-          "type": "NSArray<id<BCSortable>> *",
+          "type": "NSArray<MSShareableObjectReference *> *",
           "nullable": false
         },
         {

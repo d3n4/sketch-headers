@@ -39,6 +39,24 @@
         "nullable",
         "readonly"
       ]
+    },
+    "webExporterShouldIncludeBackgroundColor": {
+      "name": "webExporterShouldIncludeBackgroundColor",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isFlowHome": {
+      "name": "isFlowHome",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   }
 }

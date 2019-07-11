@@ -7,11 +7,11 @@
       "value": "1 << 1"
     },
     {
-      "name": "MSLayerSelectionClickThroughNonSlices",
+      "name": "MSLayerSelectionIgnoreSlices",
       "value": "1 << 2"
     },
     {
-      "name": "MSLayerSelectionIgnoreSlices",
+      "name": "MSLayerSelectionIgnoreHotspots",
       "value": "1 << 3"
     },
     {
@@ -19,16 +19,20 @@
       "value": "1 << 4"
     },
     {
-      "name": "MSLayerSelectionPreferSecondMatch",
-      "value": "1 << 5"
+      "name": "MSLayerSelectionHotspotsAsOutlines",
+      "value": "1 <<5"
     },
     {
-      "name": "MSLayerSelectionFullyContained",
+      "name": "MSLayerSelectionPreferSecondMatch",
       "value": "1 << 6"
     },
     {
-      "name": "MSLayerSelectionAllArtboards",
+      "name": "MSLayerSelectionFullyContained",
       "value": "1 << 7"
+    },
+    {
+      "name": "MSLayerSelectionAllArtboards",
+      "value": "1 << 8"
     }
   ]
 }

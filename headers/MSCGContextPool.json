@@ -22,10 +22,35 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "vendOrCreateContext CF_RETURNS_RETAINED": {
-      "name": "vendOrCreateContext CF_RETURNS_RETAINED",
-      "bridgedName": "vendOrCreateContext CF_RETURNS_RETAINED",
-      "args": [],
+    "vendsSize:colorSpace:": {
+      "name": "vendsSize:colorSpace:",
+      "bridgedName": "vendsSize_colorSpace",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "CGColorSpaceRef",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "vendOrCreateContextOfSize:CF_RETURNS_RETAINED": {
+      "name": "vendOrCreateContextOfSize:CF_RETURNS_RETAINED",
+      "bridgedName": "vendOrCreateContextOfSize_CF_RETURNS_RETAINED",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        }
+      ],
       "returns": "CGContextRef",
       "kind": "instance",
       "kindIndicator": "-"
@@ -45,25 +70,6 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {
-    "colorSpace": {
-      "name": "colorSpace",
-      "pointer": false,
-      "type": "CGColorSpaceRef",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "contextSize": {
-      "name": "contextSize",
-      "pointer": false,
-      "type": "CGSize",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

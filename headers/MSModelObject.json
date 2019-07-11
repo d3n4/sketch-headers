@@ -321,6 +321,25 @@
     }
   },
   "properties": {
+    "foreignObject": {
+      "name": "foreignObject",
+      "pointer": false,
+      "type": "__kindof MSModelObject ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "isForeign": {
+      "name": "isForeign",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "cachedImmutableModelObject": {
       "name": "cachedImmutableModelObject",
       "pointer": false,

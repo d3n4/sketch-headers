@@ -3,6 +3,16 @@
   "extends": "BCSTCommand",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "waitForTermination": {
+      "name": "waitForTermination",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
   "generics": []
 }

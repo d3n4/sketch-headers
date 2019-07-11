@@ -31,35 +31,6 @@
       "returns": "NSImage*",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "generateImageForSymbol:imageSize:colorSpace:completionBlock:": {
-      "name": "generateImageForSymbol:imageSize:colorSpace:completionBlock:",
-      "bridgedName": "generateImageForSymbol_imageSize_colorSpace_completionBlock",
-      "args": [
-        {
-          "name": "symbol",
-          "type": "MSSymbolMaster *",
-          "nullable": false
-        },
-        {
-          "name": "size",
-          "type": "NSSize",
-          "nullable": false
-        },
-        {
-          "name": "colorSpace",
-          "type": "NSColorSpace *",
-          "nullable": false
-        },
-        {
-          "name": "block",
-          "type": "MSSymbolPreviewGeneratorBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
     }
   },
   "properties": {},

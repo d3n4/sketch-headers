@@ -40,7 +40,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "hockeyAttachmentData": {
@@ -60,7 +60,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     }
   },

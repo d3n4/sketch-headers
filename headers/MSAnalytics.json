@@ -1,35 +1,10 @@
 {
   "name": "MSAnalytics",
-  "extends": "NSObject",
+  "extends": "BCSingleton",
   "interfaces": [
-    "MSActionObserver",
-    "WebFrameLoadDelegate",
-    "WebResourceLoadDelegate",
-    "WebUIDelegate"
+    "MSActionObserver"
   ],
   "methods": {
-    "sharedInstance": {
-      "name": "sharedInstance",
-      "bridgedName": "sharedInstance",
-      "args": [],
-      "returns": "instancetype",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "configureWithID:": {
-      "name": "configureWithID:",
-      "bridgedName": "configureWithID",
-      "args": [
-        {
-          "name": "siteID",
-          "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "trackScreenWithName:": {
       "name": "trackScreenWithName:",
       "bridgedName": "trackScreenWithName",
@@ -62,40 +37,11 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "trackEvent:withInterval:checkInterval:conditional:": {
-      "name": "trackEvent:withInterval:checkInterval:conditional:",
-      "bridgedName": "trackEvent_withInterval_checkInterval_conditional",
-      "args": [
-        {
-          "name": "event",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "interval",
-          "type": "NSInteger",
-          "nullable": false
-        },
-        {
-          "name": "checkInterval",
-          "type": "NSInteger",
-          "nullable": false
-        },
-        {
-          "name": "handler",
-          "type": "MSAnalyticsConditional",
-          "nullable": true
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
-    "debug": {
-      "name": "debug",
+    "isEnabled": {
+      "name": "isEnabled",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

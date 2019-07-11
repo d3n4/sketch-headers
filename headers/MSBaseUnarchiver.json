@@ -174,13 +174,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "decodeDoubleForKey:": {
-      "name": "decodeDoubleForKey:",
-      "bridgedName": "decodeDoubleForKey",
+    "decodeDoubleForKey:withDefault:": {
+      "name": "decodeDoubleForKey:withDefault:",
+      "bridgedName": "decodeDoubleForKey_withDefault",
       "args": [
         {
           "name": "key",
           "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "defaultValue",
+          "type": "double",
           "nullable": false
         }
       ],
@@ -188,13 +193,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "decodeBoolForKey:": {
-      "name": "decodeBoolForKey:",
-      "bridgedName": "decodeBoolForKey",
+    "decodeBoolForKey:withDefault:": {
+      "name": "decodeBoolForKey:withDefault:",
+      "bridgedName": "decodeBoolForKey_withDefault",
       "args": [
         {
           "name": "key",
           "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "defaultValue",
+          "type": "BOOL",
           "nullable": false
         }
       ],
@@ -202,13 +212,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "decodeRectForKey:": {
-      "name": "decodeRectForKey:",
-      "bridgedName": "decodeRectForKey",
+    "decodeRectForKey:withDefault:": {
+      "name": "decodeRectForKey:withDefault:",
+      "bridgedName": "decodeRectForKey_withDefault",
       "args": [
         {
           "name": "key",
           "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "defaultValue",
+          "type": "CGRect",
           "nullable": false
         }
       ],
@@ -216,13 +231,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "decodePointForKey:": {
-      "name": "decodePointForKey:",
-      "bridgedName": "decodePointForKey",
+    "decodePointForKey:withDefault:": {
+      "name": "decodePointForKey:withDefault:",
+      "bridgedName": "decodePointForKey_withDefault",
       "args": [
         {
           "name": "key",
           "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "defaultValue",
+          "type": "CGPoint",
           "nullable": false
         }
       ],
@@ -230,13 +250,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "decodeIntegerForKey:": {
-      "name": "decodeIntegerForKey:",
-      "bridgedName": "decodeIntegerForKey",
+    "decodeIntegerForKey:withDefault:": {
+      "name": "decodeIntegerForKey:withDefault:",
+      "bridgedName": "decodeIntegerForKey_withDefault",
       "args": [
         {
           "name": "key",
           "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "defaultValue",
+          "type": "NSInteger",
           "nullable": false
         }
       ],
@@ -244,13 +269,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "decodeSizeForKey:": {
-      "name": "decodeSizeForKey:",
-      "bridgedName": "decodeSizeForKey",
+    "decodeSizeForKey:withDefault:": {
+      "name": "decodeSizeForKey:withDefault:",
+      "bridgedName": "decodeSizeForKey_withDefault",
       "args": [
         {
           "name": "key",
           "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "defaultValue",
+          "type": "CGSize",
           "nullable": false
         }
       ],

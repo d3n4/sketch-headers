@@ -1058,6 +1058,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "outlinePathWithWidth:containsPoint:": {
+      "name": "outlinePathWithWidth:containsPoint:",
+      "bridgedName": "outlinePathWithWidth_containsPoint",
+      "args": [
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "insetPathBy:": {
       "name": "insetPathBy:",
       "bridgedName": "insetPathBy",

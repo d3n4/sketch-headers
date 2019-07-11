@@ -1,7 +1,9 @@
 {
   "name": "MSExportRequest",
   "extends": "NSObject",
-  "interfaces": [],
+  "interfaces": [
+    "NSCopying"
+  ],
   "methods": {
     "readSettingsFromDefaults": {
       "name": "readSettingsFromDefaults",
@@ -382,10 +384,10 @@
         "nonatomic"
       ]
     },
-    "immutablePage": {
-      "name": "immutablePage",
+    "rootLayer": {
+      "name": "rootLayer",
       "pointer": false,
-      "type": "MSImmutablePage ",
+      "type": "MSImmutableLayer ",
       "attributes": [
         "strong",
         "nonatomic"
@@ -398,15 +400,6 @@
       "attributes": [
         "strong",
         "nonatomic"
-      ]
-    },
-    "artboard": {
-      "name": "artboard",
-      "pointer": false,
-      "type": "MSImmutableArtboardGroup ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
       ]
     },
     "format": {
@@ -438,6 +431,15 @@
     },
     "progressive": {
       "name": "progressive",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "interlaced": {
+      "name": "interlaced",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

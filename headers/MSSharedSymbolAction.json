@@ -3,6 +3,16 @@
   "extends": "MSSharedObjectAction",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "menuBuilder": {
+      "name": "menuBuilder",
+      "pointer": false,
+      "type": "MSForeignObjectMenuBuilder ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

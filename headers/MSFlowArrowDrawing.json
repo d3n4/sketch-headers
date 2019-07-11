@@ -1,0 +1,43 @@
+{
+  "name": "MSFlowArrowDrawing",
+  "extends": "BCSingleton",
+  "interfaces": [],
+  "methods": {
+    "drawFlowPath:ofType:isSelected:history:context:": {
+      "name": "drawFlowPath:ofType:isSelected:history:context:",
+      "bridgedName": "drawFlowPath_ofType_isSelected_history_context",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        },
+        {
+          "name": "flowType",
+          "type": "MSFlowType",
+          "nullable": false
+        },
+        {
+          "name": "isSelected",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "history",
+          "type": "MSFlowRenderHistory",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSFlowRenderHistory",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

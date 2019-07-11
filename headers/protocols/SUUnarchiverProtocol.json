@@ -1,0 +1,58 @@
+{
+  "protocol": true,
+  "name": "SUUnarchiverProtocol",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "canUnarchivePath:": {
+      "name": "canUnarchivePath:",
+      "bridgedName": "canUnarchivePath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "unsafeIfArchiveIsNotValidated": {
+      "name": "unsafeIfArchiveIsNotValidated",
+      "bridgedName": "unsafeIfArchiveIsNotValidated",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "unarchiveWithCompletionBlock:progressBlock:": {
+      "name": "unarchiveWithCompletionBlock:progressBlock:",
+      "bridgedName": "unarchiveWithCompletionBlock_progressBlock",
+      "args": [
+        {
+          "name": "completionBlock",
+          "type": "void (^)(NSError * _Nullable)",
+          "nullable": false
+        },
+        {
+          "name": "progressBlock",
+          "type": "void (^ _Nullable)(double)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "description": {
+      "name": "description",
+      "bridgedName": "description",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

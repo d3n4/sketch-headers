@@ -173,7 +173,8 @@
       "pointer": false,
       "type": "Class",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "nullable"
       ]
     }
   },

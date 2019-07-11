@@ -1,6 +1,6 @@
 {
   "name": "SUStatusController",
-  "extends": "SUWindowController",
+  "extends": "NSWindowController",
   "interfaces": [],
   "methods": {
     "initWithHost:": {

@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "unarchiverForPath:updatingHostBundlePath:withPassword:": {
-      "name": "unarchiverForPath:updatingHostBundlePath:withPassword:",
-      "bridgedName": "unarchiverForPath_updatingHostBundlePath_withPassword",
+    "unarchiverForPath:updatingHostBundlePath:decryptionPassword:": {
+      "name": "unarchiverForPath:updatingHostBundlePath:decryptionPassword:",
+      "bridgedName": "unarchiverForPath_updatingHostBundlePath_decryptionPassword",
       "args": [
         {
           "name": "path",
@@ -13,150 +13,21 @@
           "nullable": false
         },
         {
-          "name": "host",
+          "name": "hostPath",
           "type": "NSString *",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "decryptionPassword",
           "type": "NSString *",
-          "nullable": false
+          "nullable": true
         }
       ],
-      "returns": "SUUnarchiver *",
+      "returns": "nullable id <SUUnarchiverProtocol>",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "start": {
-      "name": "start",
-      "bridgedName": "start",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "registerImplementation:": {
-      "name": "registerImplementation:",
-      "bridgedName": "registerImplementation",
-      "args": [
-        {
-          "name": "implementation",
-          "type": "Class",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "unarchiverImplementations": {
-      "name": "unarchiverImplementations",
-      "bridgedName": "unarchiverImplementations",
-      "args": [],
-      "returns": "NSArray *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "canUnarchivePath:": {
-      "name": "canUnarchivePath:",
-      "bridgedName": "canUnarchivePath",
-      "args": [
-        {
-          "name": "path",
-          "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "initWithPath:hostBundlePath:": {
-      "name": "initWithPath:hostBundlePath:",
-      "bridgedName": "initWithPath_hostBundlePath",
-      "args": [
-        {
-          "name": "archive",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "host",
-          "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "instancetype",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "notifyDelegateOfProgress:": {
-      "name": "notifyDelegateOfProgress:",
-      "bridgedName": "notifyDelegateOfProgress",
-      "args": [
-        {
-          "name": "progress",
-          "type": "double",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "notifyDelegateOfSuccess": {
-      "name": "notifyDelegateOfSuccess",
-      "bridgedName": "notifyDelegateOfSuccess",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "notifyDelegateOfFailure": {
-      "name": "notifyDelegateOfFailure",
-      "bridgedName": "notifyDelegateOfFailure",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
-  "properties": {
-    "archivePath": {
-      "name": "archivePath",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "copy",
-        "readonly"
-      ]
-    },
-    "updateHostBundlePath": {
-      "name": "updateHostBundlePath",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "copy",
-        "readonly"
-      ]
-    },
-    "decryptionPassword": {
-      "name": "decryptionPassword",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "copy",
-        "readonly"
-      ]
-    },
-    "delegate": {
-      "name": "delegate",
-      "pointer": false,
-      "type": "id<SUUnarchiverDelegate>",
-      "attributes": [
-        "weak"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

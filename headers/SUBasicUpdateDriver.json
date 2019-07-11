@@ -2,8 +2,7 @@
   "name": "SUBasicUpdateDriver",
   "extends": "SUUpdateDriver",
   "interfaces": [
-    "NSURLDownloadDelegate",
-    "SUUnarchiverDelegate"
+    "NSURLDownloadDelegate"
   ],
   "methods": {
     "checkForUpdatesAtURL:host:": {
@@ -179,38 +178,43 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "failedToApplyDeltaUpdate": {
+      "name": "failedToApplyDeltaUpdate",
+      "bridgedName": "failedToApplyDeltaUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unarchiver:extractedProgress:": {
+      "name": "unarchiver:extractedProgress:",
+      "bridgedName": "unarchiver_extractedProgress",
+      "args": [
+        {
+          "name": "ua",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "double",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "unarchiverDidFinish:": {
       "name": "unarchiverDidFinish:",
       "bridgedName": "unarchiverDidFinish",
       "args": [
         {
           "name": "ua",
-          "type": "SUUnarchiver *",
+          "type": "id",
           "nullable": false
         }
       ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "unarchiverDidFail:": {
-      "name": "unarchiverDidFail:",
-      "bridgedName": "unarchiverDidFail",
-      "args": [
-        {
-          "name": "ua",
-          "type": "SUUnarchiver *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "failedToApplyDeltaUpdate": {
-      "name": "failedToApplyDeltaUpdate",
-      "bridgedName": "failedToApplyDeltaUpdate",
-      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -316,7 +320,7 @@
         },
         {
           "name": "deltaItem",
-          "type": "SUAppcastItem * __autoreleasing *",
+          "type": "SUAppcastItem *_Nullable __autoreleasing *_Nullable",
           "nullable": false
         },
         {

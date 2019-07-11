@@ -96,25 +96,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "symbolMasterDidChange:withInfluencePaddings:": {
-      "name": "symbolMasterDidChange:withInfluencePaddings:",
-      "bridgedName": "symbolMasterDidChange_withInfluencePaddings",
-      "args": [
-        {
-          "name": "symbol",
-          "type": "MSSymbolMaster *",
-          "nullable": false
-        },
-        {
-          "name": "paddings",
-          "type": "BCEdgePaddings",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "resetSizeToMaster": {
       "name": "resetSizeToMaster",
       "bridgedName": "resetSizeToMaster",
@@ -165,23 +146,6 @@
       "attributes": [
         "nonatomic",
         "copy"
-      ]
-    },
-    "symbolMasterEdgePaddings": {
-      "name": "symbolMasterEdgePaddings",
-      "pointer": false,
-      "type": "BCEdgePaddings",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
-    "masterRefreshCounter": {
-      "name": "masterRefreshCounter",
-      "pointer": false,
-      "type": "NSUInteger",
-      "attributes": [
-        "nonatomic",
-        "readonly"
       ]
     },
     "influencingSymbolIDs": {

@@ -21,14 +21,6 @@
       "returns": "NSGradient*",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "easeInOutGradient": {
-      "name": "easeInOutGradient",
-      "bridgedName": "easeInOutGradient",
-      "args": [],
-      "returns": "NSGradient*",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {},

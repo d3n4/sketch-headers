@@ -10,7 +10,7 @@
       "type": "NSString ",
       "attributes": [
         "nonatomic",
-        "strong"
+        "copy"
       ]
     }
   },

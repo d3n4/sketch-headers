@@ -4,7 +4,27 @@
   "interfaces": [
     "MSPasteboardReader"
   ],
-  "methods": {},
+  "methods": {
+    "attributedStringFromPasteboard:options:": {
+      "name": "attributedStringFromPasteboard:options:",
+      "bridgedName": "attributedStringFromPasteboard_options",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSPasteboardReaderOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAttributedString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {},
   "generics": []
 }

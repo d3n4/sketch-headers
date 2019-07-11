@@ -1,0 +1,23 @@
+{
+  "name": "MSAddFlowAction",
+  "extends": "MSFlowBaseAction",
+  "interfaces": [],
+  "methods": {
+    "addFlow:": {
+      "name": "addFlow:",
+      "bridgedName": "addFlow",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

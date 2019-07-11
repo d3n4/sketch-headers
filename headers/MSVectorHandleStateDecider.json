@@ -109,8 +109,8 @@
         "copy"
       ]
     },
-    "indexPathForHighlightedHandle": {
-      "name": "indexPathForHighlightedHandle",
+    "indexPathForHighlightedComponent": {
+      "name": "indexPathForHighlightedComponent",
       "pointer": false,
       "type": "NSIndexPath ",
       "attributes": [

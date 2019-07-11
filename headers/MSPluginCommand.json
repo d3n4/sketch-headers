@@ -124,6 +124,88 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "runHandlerWithKey:context:manager:onComplete:": {
+      "name": "runHandlerWithKey:context:manager:onComplete:",
+      "bridgedName": "runHandlerWithKey_context_manager_onComplete",
+      "args": [
+        {
+          "name": "handlerKey",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id> *",
+          "nullable": false
+        },
+        {
+          "name": "manager",
+          "type": "MSPluginManager*",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "void (^)(NSString*)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runHandler:context:manager:": {
+      "name": "runHandler:context:manager:",
+      "bridgedName": "runHandler_context_manager",
+      "args": [
+        {
+          "name": "handler",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id> *",
+          "nullable": false
+        },
+        {
+          "name": "manager",
+          "type": "MSPluginManager*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runHandler:context:manager:onComplete:": {
+      "name": "runHandler:context:manager:onComplete:",
+      "bridgedName": "runHandler_context_manager_onComplete",
+      "args": [
+        {
+          "name": "handler",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id> *",
+          "nullable": false
+        },
+        {
+          "name": "manager",
+          "type": "MSPluginManager*",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "void (^)(NSString*)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "run:manager:": {
       "name": "run:manager:",
       "bridgedName": "run_manager",
@@ -136,6 +218,30 @@
         {
           "name": "manager",
           "type": "MSPluginManager*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "run:manager:onComplete:": {
+      "name": "run:manager:onComplete:",
+      "bridgedName": "run_manager_onComplete",
+      "args": [
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id> *",
+          "nullable": false
+        },
+        {
+          "name": "manager",
+          "type": "MSPluginManager*",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "void (^)(NSString*)",
           "nullable": false
         }
       ],
@@ -192,6 +298,14 @@
         }
       ],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "logs": {
+      "name": "logs",
+      "bridgedName": "logs",
+      "args": [],
+      "returns": "NSString *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -459,6 +573,15 @@
     },
     "stayRunning": {
       "name": "stayRunning",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "disableCocoaScriptPreprocessor": {
+      "name": "disableCocoaScriptPreprocessor",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

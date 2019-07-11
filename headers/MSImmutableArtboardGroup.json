@@ -45,6 +45,16 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "preset": {
+      "name": "preset",
+      "pointer": false,
+      "type": "MSArtboardPreset ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
     }
   },
   "generics": []

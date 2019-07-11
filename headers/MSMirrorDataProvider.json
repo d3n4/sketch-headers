@@ -5,22 +5,6 @@
     "SMKMirrorDataSource"
   ],
   "methods": {
-    "currentDocumentDidChange": {
-      "name": "currentDocumentDidChange",
-      "bridgedName": "currentDocumentDidChange",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "currentDocumentNameDidChange": {
-      "name": "currentDocumentNameDidChange",
-      "bridgedName": "currentDocumentNameDidChange",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "currentArtboardDidChange": {
       "name": "currentArtboardDidChange",
       "bridgedName": "currentArtboardDidChange",
@@ -29,9 +13,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "sendUpdate": {
-      "name": "sendUpdate",
-      "bridgedName": "sendUpdate",
+    "setNeedsUpdate": {
+      "name": "setNeedsUpdate",
+      "bridgedName": "setNeedsUpdate",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setNeedsUpdateMetadata": {
+      "name": "setNeedsUpdateMetadata",
+      "bridgedName": "setNeedsUpdateMetadata",
       "args": [],
       "returns": "void",
       "kind": "instance",
@@ -46,6 +38,34 @@
       "attributes": [
         "nonatomic",
         "weak"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "requiresImmediateUpdate": {
+      "name": "requiresImmediateUpdate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
       ]
     }
   },

@@ -34,6 +34,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "copyByGivingNewObjectIDs": {
+      "name": "copyByGivingNewObjectIDs",
+      "bridgedName": "copyByGivingNewObjectIDs",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "arrayWithLayer:": {
       "name": "arrayWithLayer:",
       "bridgedName": "arrayWithLayer",
@@ -153,6 +161,20 @@
         {
           "name": "block",
           "type": "id (^)(__kindof ObjectType layer)",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sortedArrayByUsingComparator:": {
+      "name": "sortedArrayByUsingComparator:",
+      "bridgedName": "sortedArrayByUsingComparator",
+      "args": [
+        {
+          "name": "comparator",
+          "type": "NSComparisonResult (^)(MSLayer *a, MSLayer *b)",
           "nullable": false
         }
       ],

@@ -28,7 +28,7 @@
           "nullable": true
         }
       ],
-      "returns": "MSAvailableOverride*",
+      "returns": "nullable MSAvailableOverride*",
       "kind": "class",
       "kindIndicator": "+"
     },

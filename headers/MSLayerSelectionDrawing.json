@@ -21,6 +21,20 @@
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "strokeWidthForZoomValue:": {
+      "name": "strokeWidthForZoomValue:",
+      "bridgedName": "strokeWidthForZoomValue",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {},

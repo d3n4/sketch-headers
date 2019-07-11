@@ -135,6 +135,16 @@
         "readonly"
       ]
     },
+    "versionedIdentifier": {
+      "name": "versionedIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
     "pluginDescription": {
       "name": "pluginDescription",
       "pointer": false,

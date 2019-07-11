@@ -3,6 +3,34 @@
   "extends": "MSPopoverAction",
   "interfaces": [],
   "methods": {
+    "startUploadUpdating:": {
+      "name": "startUploadUpdating:",
+      "bridgedName": "startUploadUpdating",
+      "args": [
+        {
+          "name": "existingShare",
+          "type": "SCKShare *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshShareWithHandler:": {
+      "name": "refreshShareWithHandler:",
+      "bridgedName": "refreshShareWithHandler",
+      "args": [
+        {
+          "name": "handler",
+          "type": "void (^ _Nullable)(NSError * _Nullable)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "cloudEnabled": {
       "name": "cloudEnabled",
       "bridgedName": "cloudEnabled",
@@ -29,17 +57,71 @@
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "addRemoteLibraryWithURL:parameters:": {
+      "name": "addRemoteLibraryWithURL:parameters:",
+      "bridgedName": "addRemoteLibraryWithURL_parameters",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "parameters",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "updateProgressImage": {
+      "name": "updateProgressImage",
+      "bridgedName": "updateProgressImage",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
-    "cloudController": {
-      "name": "cloudController",
+    "exportedDocument": {
+      "name": "exportedDocument",
       "pointer": false,
-      "type": "MSCloudController ",
+      "type": "id<MSCloudExportableDocument>",
       "attributes": [
         "nonatomic",
-        "strong",
+        "nonnull",
         "readonly"
+      ]
+    },
+    "upload": {
+      "name": "upload",
+      "pointer": false,
+      "type": "MSCloudShareUploadController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "uploadError": {
+      "name": "uploadError",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "refreshOperation": {
+      "name": "refreshOperation",
+      "pointer": false,
+      "type": "SCKAPIOperation ",
+      "attributes": [
+        "nonatomic",
+        "strong"
       ]
     }
   },

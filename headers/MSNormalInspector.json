@@ -20,6 +20,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "adjustInspectorToColorPopover:sender:": {
+      "name": "adjustInspectorToColorPopover:sender:",
+      "bridgedName": "adjustInspectorToColorPopover_sender",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "closeAnyColorPopover": {
       "name": "closeAnyColorPopover",
       "bridgedName": "closeAnyColorPopover",
@@ -53,14 +72,6 @@
         }
       ],
       "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "sharedObjectsSection": {
-      "name": "sharedObjectsSection",
-      "bridgedName": "sharedObjectsSection",
-      "args": [],
-      "returns": "MSSharedStylesInspectorSection *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -112,6 +123,41 @@
         {
           "name": "index",
           "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWithSharedStyleDidChange": {
+      "name": "layerWithSharedStyleDidChange",
+      "bridgedName": "layerWithSharedStyleDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadSharedObjectsSection": {
+      "name": "reloadSharedObjectsSection",
+      "bridgedName": "reloadSharedObjectsSection",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginRenameSharedObject:completionBlock:": {
+      "name": "beginRenameSharedObject:completionBlock:",
+      "bridgedName": "beginRenameSharedObject_completionBlock",
+      "args": [
+        {
+          "name": "sharedObject",
+          "type": "MSSharedObject *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSRenameSharedObjectBlock",
           "nullable": false
         }
       ],

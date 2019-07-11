@@ -13,8 +13,58 @@
     }
   },
   "properties": {
+    "libraryStylesEnabled": {
+      "name": "libraryStylesEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
+    "dataSuppliersEnabled": {
+      "name": "dataSuppliersEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
+    "flowsEnabled": {
+      "name": "flowsEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
     "isComponentsPanelEnabled": {
       "name": "isComponentsPanelEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
+    "shouldArchiveMSAttributedStringAsJSON": {
+      "name": "shouldArchiveMSAttributedStringAsJSON",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "class"
+      ]
+    },
+    "builtInRemoteLibrariesEnabled": {
+      "name": "builtInRemoteLibrariesEnabled",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

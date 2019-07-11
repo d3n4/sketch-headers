@@ -1,7 +1,9 @@
 {
   "name": "MSBitmapOverrideViewController",
   "extends": "MSOverrideViewController",
-  "interfaces": [],
+  "interfaces": [
+    "MSDataMenuProviderDelegate"
+  ],
   "methods": {
     "NSImage": {
       "name": "NSImage",

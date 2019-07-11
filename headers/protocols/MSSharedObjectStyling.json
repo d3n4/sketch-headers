@@ -1,0 +1,85 @@
+{
+  "protocol": true,
+  "name": "MSSharedObjectStyling",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "generatePreviewForMenuItem:withColorSpace:completionBlock:": {
+      "name": "generatePreviewForMenuItem:withColorSpace:completionBlock:",
+      "bridgedName": "generatePreviewForMenuItem_withColorSpace_completionBlock",
+      "args": [
+        {
+          "name": "menuItem",
+          "type": "NSMenuItem*",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "generatePreviewForPopup:completionBlock:": {
+      "name": "generatePreviewForPopup:completionBlock:",
+      "bridgedName": "generatePreviewForPopup_completionBlock",
+      "args": [
+        {
+          "name": "cell",
+          "type": "NSPopUpButtonCell*",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "generatePreviewForManageSheetWithCompletionBlock:": {
+      "name": "generatePreviewForManageSheetWithCompletionBlock:",
+      "bridgedName": "generatePreviewForManageSheetWithCompletionBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "NSImage*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyStyleToMenuItem:withColorSpace:": {
+      "name": "applyStyleToMenuItem:withColorSpace:",
+      "bridgedName": "applyStyleToMenuItem_withColorSpace",
+      "args": [
+        {
+          "name": "item",
+          "type": "NSMenuItem *",
+          "nullable": true
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

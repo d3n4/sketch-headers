@@ -1,62 +1,33 @@
 {
   "name": "MSImmutableShapePath",
   "extends": "_MSImmutableShapePath",
-  "interfaces": [
-    "MSShapePath"
-  ],
+  "interfaces": [],
   "methods": {
-    "bezierPathInRect:": {
-      "name": "bezierPathInRect:",
-      "bridgedName": "bezierPathInRect",
+    "initWithPoints:pointRadiusBehaviour:isClosed:": {
+      "name": "initWithPoints:pointRadiusBehaviour:isClosed:",
+      "bridgedName": "initWithPoints_pointRadiusBehaviour_isClosed",
       "args": [
         {
-          "name": "rect",
-          "type": "NSRect",
+          "name": "points",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "behaviour",
+          "type": "MSPointRadiusBehaviour",
+          "nullable": false
+        },
+        {
+          "name": "isClosed",
+          "type": "BOOL",
           "nullable": false
         }
       ],
-      "returns": "NSBezierPath *",
+      "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     }
   },
-  "properties": {
-    "isPolygon": {
-      "name": "isPolygon",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "isPolyline": {
-      "name": "isPolyline",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "isRectangle": {
-      "name": "isRectangle",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "isSVGRectangle": {
-      "name": "isSVGRectangle",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    }
-  },
+  "properties": {},
   "generics": []
 }

@@ -3,9 +3,9 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "shouldFilterNode:": {
-      "name": "shouldFilterNode:",
-      "bridgedName": "shouldFilterNode",
+    "shouldIncludeNode:": {
+      "name": "shouldIncludeNode:",
+      "bridgedName": "shouldIncludeNode",
       "args": [
         {
           "name": "node",
@@ -19,22 +19,6 @@
     }
   },
   "properties": {
-    "filterLayers": {
-      "name": "filterLayers",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
-    "filterSlices": {
-      "name": "filterSlices",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
     "filterString": {
       "name": "filterString",
       "pointer": false,
@@ -42,15 +26,6 @@
       "attributes": [
         "nonatomic",
         "copy"
-      ]
-    },
-    "hasFilter": {
-      "name": "hasFilter",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
       ]
     }
   },

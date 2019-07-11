@@ -1,0 +1,58 @@
+{
+  "protocol": true,
+  "name": "SUInstallerProtocol",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "performInitialInstallation:": {
+      "name": "performInitialInstallation:",
+      "bridgedName": "performInitialInstallation",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performFinalInstallationProgressBlock:error:": {
+      "name": "performFinalInstallationProgressBlock:error:",
+      "bridgedName": "performFinalInstallationProgressBlock_error",
+      "args": [
+        {
+          "name": "cb",
+          "type": "void(^)(double)",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "canInstallSilently": {
+      "name": "canInstallSilently",
+      "bridgedName": "canInstallSilently",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installationPath": {
+      "name": "installationPath",
+      "bridgedName": "installationPath",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

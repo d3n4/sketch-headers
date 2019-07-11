@@ -25,6 +25,18 @@
     {
       "name": "MSPropertyTraitInfluencesLayerStructure",
       "value": "1<<5"
+    },
+    {
+      "name": "MSPropertyTraitInfluencesMirror",
+      "value": "1<<6"
+    },
+    {
+      "name": "MSPropertyTraitRequiresFullContentRefresh",
+      "value": "1<<7"
+    },
+    {
+      "name": "MSPropertyTraitInfluencesLayerListPreview",
+      "value": "1<<8"
     }
   ]
 }

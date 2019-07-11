@@ -126,9 +126,23 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "standardAttributedStringWithColorSpace:": {
-      "name": "standardAttributedStringWithColorSpace:",
-      "bridgedName": "standardAttributedStringWithColorSpace",
+    "standardAttributedStringWithDocumentColorSpace:": {
+      "name": "standardAttributedStringWithDocumentColorSpace:",
+      "bridgedName": "standardAttributedStringWithDocumentColorSpace",
+      "args": [
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSAttributedString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertedToColorSpace:)": {
+      "name": "convertedToColorSpace:)",
+      "bridgedName": "convertedToColorSpace_)",
       "args": [
         {
           "name": "colorSpace",

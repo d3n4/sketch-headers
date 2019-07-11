@@ -98,6 +98,15 @@
       "attributes": [
         "nonatomic"
       ]
+    },
+    "parentView": {
+      "name": "parentView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
     }
   },
   "generics": []

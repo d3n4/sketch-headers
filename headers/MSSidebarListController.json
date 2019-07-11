@@ -17,15 +17,10 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataController:readNodesFromPasteboard:": {
-      "name": "dataController:readNodesFromPasteboard:",
-      "bridgedName": "dataController_readNodesFromPasteboard",
+    "readDragNodesFromPasteboard:": {
+      "name": "readDragNodesFromPasteboard:",
+      "bridgedName": "readDragNodesFromPasteboard",
       "args": [
-        {
-          "name": "dataController",
-          "type": "BCOutlineViewDataController*",
-          "nullable": false
-        },
         {
           "name": "pboard",
           "type": "NSPasteboard*",
@@ -122,30 +117,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "copyNode:toParent:after:": {
-      "name": "copyNode:toParent:after:",
-      "bridgedName": "copyNode_toParent_after",
-      "args": [
-        {
-          "name": "node",
-          "type": "id",
-          "nullable": false
-        },
-        {
-          "name": "parent",
-          "type": "id",
-          "nullable": false
-        },
-        {
-          "name": "previousNode",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "dragTypesForDataController:": {
       "name": "dragTypesForDataController:",
       "bridgedName": "dragTypesForDataController",
@@ -184,9 +155,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataController:canMoveNodes:toParent:after:": {
-      "name": "dataController:canMoveNodes:toParent:after:",
-      "bridgedName": "dataController_canMoveNodes_toParent_after",
+    "dataController:canMoveFromPasteboard:toParent:after:": {
+      "name": "dataController:canMoveFromPasteboard:toParent:after:",
+      "bridgedName": "dataController_canMoveFromPasteboard_toParent_after",
       "args": [
         {
           "name": "dataController",
@@ -194,8 +165,8 @@
           "nullable": false
         },
         {
-          "name": "nodes",
-          "type": "NSArray*",
+          "name": "pboard",
+          "type": "NSPasteboard*",
           "nullable": false
         },
         {
@@ -213,9 +184,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataController:canCopyNodes:toParent:after:": {
-      "name": "dataController:canCopyNodes:toParent:after:",
-      "bridgedName": "dataController_canCopyNodes_toParent_after",
+    "dataController:canCopyFromPasteboard:toParent:after:": {
+      "name": "dataController:canCopyFromPasteboard:toParent:after:",
+      "bridgedName": "dataController_canCopyFromPasteboard_toParent_after",
       "args": [
         {
           "name": "dataController",
@@ -223,8 +194,8 @@
           "nullable": false
         },
         {
-          "name": "nodes",
-          "type": "NSArray*",
+          "name": "pboard",
+          "type": "NSPasteboard*",
           "nullable": false
         },
         {
@@ -242,9 +213,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataController:moveNodes:toParent:after:": {
-      "name": "dataController:moveNodes:toParent:after:",
-      "bridgedName": "dataController_moveNodes_toParent_after",
+    "dataController:moveFromPasteboard:toParent:after:": {
+      "name": "dataController:moveFromPasteboard:toParent:after:",
+      "bridgedName": "dataController_moveFromPasteboard_toParent_after",
       "args": [
         {
           "name": "dataController",
@@ -252,8 +223,8 @@
           "nullable": false
         },
         {
-          "name": "nodes",
-          "type": "NSArray*",
+          "name": "pboard",
+          "type": "NSPasteboard*",
           "nullable": false
         },
         {
@@ -271,9 +242,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataController:copyNodes:toParent:after:": {
-      "name": "dataController:copyNodes:toParent:after:",
-      "bridgedName": "dataController_copyNodes_toParent_after",
+    "dataController:copyFromPasteboard:toParent:after:": {
+      "name": "dataController:copyFromPasteboard:toParent:after:",
+      "bridgedName": "dataController_copyFromPasteboard_toParent_after",
       "args": [
         {
           "name": "dataController",
@@ -281,8 +252,8 @@
           "nullable": false
         },
         {
-          "name": "nodes",
-          "type": "NSArray*",
+          "name": "pboard",
+          "type": "NSPasteboard*",
           "nullable": false
         },
         {

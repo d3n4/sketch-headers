@@ -1,7 +1,9 @@
 {
   "name": "BCColorPreview",
   "extends": "NSPopUpButton",
-  "interfaces": [],
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
   "methods": {
     "initInBounds:": {
       "name": "initInBounds:",
@@ -17,22 +19,45 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "imageForColorTracker:documentColorSpace:": {
-      "name": "imageForColorTracker:documentColorSpace:",
-      "bridgedName": "imageForColorTracker_documentColorSpace",
+    "menuItemForColorCounter:target:action:documentColorSpace:useHSB:": {
+      "name": "menuItemForColorCounter:target:action:documentColorSpace:useHSB:",
+      "bridgedName": "menuItemForColorCounter_target_action_documentColorSpace_useHSB",
       "args": [
         {
-          "name": "colorTracker",
+          "name": "colorCounter",
           "type": "MSColorCounter *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
           "nullable": false
         },
         {
           "name": "colorSpace",
           "type": "NSColorSpace *",
           "nullable": false
+        },
+        {
+          "name": "useHSB",
+          "type": "BOOL",
+          "nullable": false
         }
       ],
-      "returns": "NSImage *",
+      "returns": "NSMenuItem *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shouldUseHSBInColorDescriptions": {
+      "name": "shouldUseHSBInColorDescriptions",
+      "bridgedName": "shouldUseHSBInColorDescriptions",
+      "args": [],
+      "returns": "BOOL",
       "kind": "class",
       "kindIndicator": "+"
     }

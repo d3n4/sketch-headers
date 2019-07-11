@@ -2,7 +2,30 @@
   "name": "MSSubtreeRoot",
   "extends": "NSObject",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "contentDirtyDiffRectWithCache:": {
+      "name": "contentDirtyDiffRectWithCache:",
+      "bridgedName": "contentDirtyDiffRectWithCache",
+      "args": [
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overlayInfluenceRect": {
+      "name": "overlayInfluenceRect",
+      "bridgedName": "overlayInfluenceRect",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "object": {
       "name": "object",
@@ -17,6 +40,15 @@
       "name": "ancestorsOfObject",
       "pointer": false,
       "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "MSImmutableDocumentData ",
       "attributes": [
         "nonatomic",
         "readwrite"

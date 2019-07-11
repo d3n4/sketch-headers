@@ -7,7 +7,7 @@
     "NSWindowDelegate",
     "MSEventHandlerManagerDelegate",
     "MSDocumentDataDelegate",
-    "MSAssetLibraryControllerDelegate"
+    "MSMenuBuilderDelegate"
   ],
   "methods": {
     "actionClasses": {
@@ -125,39 +125,6 @@
         }
       ],
       "returns": "NSData *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "startAccessingFolder:tokenName:": {
-      "name": "startAccessingFolder:tokenName:",
-      "bridgedName": "startAccessingFolder_tokenName",
-      "args": [
-        {
-          "name": "folderPath",
-          "type": "NSString *",
-          "nullable": false
-        },
-        {
-          "name": "name",
-          "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "stopAccessingFolderToken:": {
-      "name": "stopAccessingFolderToken:",
-      "bridgedName": "stopAccessingFolderToken",
-      "args": [
-        {
-          "name": "token",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -618,20 +585,6 @@
       "bridgedName": "logBuggyBezierPaths",
       "args": [],
       "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "sliceDidChangeVisibility:": {
-      "name": "sliceDidChangeVisibility:",
-      "bridgedName": "sliceDidChangeVisibility",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1108,6 +1061,15 @@
       "attributes": [
         "nonatomic",
         "strong"
+      ]
+    },
+    "isCurrent": {
+      "name": "isCurrent",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

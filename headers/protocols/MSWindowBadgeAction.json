@@ -5,10 +5,10 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "wantsBadge": {
-      "name": "wantsBadge",
+    "numberOfBadges": {
+      "name": "numberOfBadges",
       "pointer": false,
-      "type": "BOOL",
+      "type": "NSUInteger",
       "attributes": [
         "nonatomic",
         "readonly"

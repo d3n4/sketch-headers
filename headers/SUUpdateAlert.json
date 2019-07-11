@@ -1,6 +1,6 @@
 {
   "name": "SUUpdateAlert",
-  "extends": "SUWindowController",
+  "extends": "NSWindowController",
   "interfaces": [],
   "methods": {
     "initWithAppcastItem:host:completionBlock:": {
@@ -48,6 +48,14 @@
       "bridgedName": "remindMeLatersender",
       "args": [],
       "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "disableKeyboardShortcutForInstallButton": {
+      "name": "disableKeyboardShortcutForInstallButton",
+      "bridgedName": "disableKeyboardShortcutForInstallButton",
+      "args": [],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     }

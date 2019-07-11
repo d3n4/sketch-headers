@@ -112,14 +112,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "sharedObjectsSection": {
-      "name": "sharedObjectsSection",
-      "bridgedName": "sharedObjectsSection",
-      "args": [],
-      "returns": "MSSharedStylesInspectorSection *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "document": {
       "name": "document",
       "bridgedName": "document",
@@ -161,15 +153,6 @@
         "copy"
       ]
     },
-    "lockProportionsButton": {
-      "name": "lockProportionsButton",
-      "pointer": false,
-      "type": "IBOutlet NSButton ",
-      "attributes": [
-        "nonatomic",
-        "weak"
-      ]
-    },
     "flipSegmentedControl": {
       "name": "flipSegmentedControl",
       "pointer": false,
@@ -190,30 +173,6 @@
     },
     "shouldShowPositions": {
       "name": "shouldShowPositions",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
-    "shouldShowSharedStyles": {
-      "name": "shouldShowSharedStyles",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
-    "shouldShowLayerSpecificProperties": {
-      "name": "shouldShowLayerSpecificProperties",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
-      ]
-    },
-    "shouldShowBlendingProperties": {
-      "name": "shouldShowBlendingProperties",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

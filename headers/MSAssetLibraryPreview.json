@@ -4,10 +4,10 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "library": {
-      "name": "library",
+    "libraryPreview": {
+      "name": "libraryPreview",
       "pointer": false,
-      "type": "MSAssetLibrary ",
+      "type": "NSImage ",
       "attributes": [
         "nonatomic",
         "weak"

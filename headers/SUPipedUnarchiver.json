@@ -1,8 +1,25 @@
 {
   "name": "SUPipedUnarchiver",
-  "extends": "SUUnarchiver",
-  "interfaces": [],
-  "methods": {},
+  "extends": "NSObject",
+  "interfaces": [
+    "SUUnarchiverProtocol"
+  ],
+  "methods": {
+    "initWithArchivePath:": {
+      "name": "initWithArchivePath:",
+      "bridgedName": "initWithArchivePath",
+      "args": [
+        {
+          "name": "archivePath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {},
   "generics": []
 }

@@ -5,7 +5,7 @@
     "MSSliceLayerWatcher",
     "MSColorInspectorDelegate",
     "BCPopoverDelegate",
-    "MSColorPreviewButtonDelegate"
+    "MSStylePartPreviewButtonDelegate"
   ],
   "methods": {
     "selectionDidChangeTo:": {
@@ -64,7 +64,7 @@
     "sliceBackgroundColorButton": {
       "name": "sliceBackgroundColorButton",
       "pointer": false,
-      "type": "IBOutlet MSColorPreviewButton ",
+      "type": "IBOutlet MSStylePartPreviewButton ",
       "attributes": [
         "nonatomic",
         "strong"

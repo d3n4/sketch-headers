@@ -45,6 +45,14 @@
       "returns": "instancetype",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "flush": {
+      "name": "flush",
+      "bridgedName": "flush",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

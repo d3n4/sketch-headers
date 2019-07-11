@@ -754,28 +754,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "children": {
-      "name": "children",
-      "bridgedName": "children",
-      "args": [],
-      "returns": "NSArray *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "layerWithID:": {
-      "name": "layerWithID:",
-      "bridgedName": "layerWithID",
-      "args": [
-        {
-          "name": "objectID",
-          "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "convertPoint:toLayer:": {
       "name": "convertPoint:toLayer:",
       "bridgedName": "convertPoint_toLayer",
@@ -885,13 +863,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "containsPoint:zoomValue:": {
-      "name": "containsPoint:zoomValue:",
-      "bridgedName": "containsPoint_zoomValue",
+    "containsPoint:options:zoomValue:": {
+      "name": "containsPoint:options:zoomValue:",
+      "bridgedName": "containsPoint_options_zoomValue",
       "args": [
         {
           "name": "mouse",
           "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSLayerSelectionOptions",
           "nullable": false
         },
         {
@@ -1162,6 +1145,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "resetFlow": {
+      "name": "resetFlow",
+      "bridgedName": "resetFlow",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "isPartOfClippingMask": {
       "name": "isPartOfClippingMask",
       "bridgedName": "isPartOfClippingMask",
@@ -1243,13 +1234,26 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "drawHoverWithZoom:cache:": {
-      "name": "drawHoverWithZoom:cache:",
-      "bridgedName": "drawHoverWithZoom_cache",
+    "shouldRefreshOverlayForFlows": {
+      "name": "shouldRefreshOverlayForFlows",
+      "bridgedName": "shouldRefreshOverlayForFlows",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawHoverWithZoom:color:cache:": {
+      "name": "drawHoverWithZoom:color:cache:",
+      "bridgedName": "drawHoverWithZoom_color_cache",
       "args": [
         {
           "name": "zoom",
           "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "NSColor *",
           "nullable": false
         },
         {
@@ -1259,14 +1263,6 @@
         }
       ],
       "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "colorForHover": {
-      "name": "colorForHover",
-      "bridgedName": "colorForHover",
-      "args": [],
-      "returns": "NSColor *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -1330,13 +1326,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "layerPositionDrawingRectWithModifierFlags:": {
-      "name": "layerPositionDrawingRectWithModifierFlags:",
-      "bridgedName": "layerPositionDrawingRectWithModifierFlags",
+    "measurementRectWithOptions:": {
+      "name": "measurementRectWithOptions:",
+      "bridgedName": "measurementRectWithOptions",
       "args": [
         {
-          "name": "flags",
-          "type": "NSUInteger",
+          "name": "options",
+          "type": "MSLayerMeasurementOptions",
           "nullable": false
         }
       ],
@@ -1361,6 +1357,14 @@
     "shouldDrawSelection": {
       "name": "shouldDrawSelection",
       "bridgedName": "shouldDrawSelection",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldDrawSelectionStroke": {
+      "name": "shouldDrawSelectionStroke",
+      "bridgedName": "shouldDrawSelectionStroke",
       "args": [],
       "returns": "BOOL",
       "kind": "instance",
@@ -1444,24 +1448,6 @@
       "type": "BOOL",
       "attributes": [
         "nonatomic"
-      ]
-    },
-    "fontNames": {
-      "name": "fontNames",
-      "pointer": false,
-      "type": "NSSet <NSString *> ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "unavailableFontNames": {
-      "name": "unavailableFontNames",
-      "pointer": false,
-      "type": "NSSet <NSString *> ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
       ]
     },
     "constrainProportions": {
@@ -1552,6 +1538,15 @@
       "name": "isSelected",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "ancestry": {
+      "name": "ancestry",
+      "pointer": false,
+      "type": "MSImmutableLayerAncestry ",
       "attributes": [
         "nonatomic",
         "readonly"

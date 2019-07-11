@@ -1,0 +1,45 @@
+{
+  "name": "MSStylePartPreviewButton",
+  "extends": "NSButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "stylePart": {
+      "name": "stylePart",
+      "pointer": false,
+      "type": "MSStylePart ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id<MSStylePartPreviewButtonDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "dragOwner": {
+      "name": "dragOwner",
+      "pointer": false,
+      "type": "IBOutlet id",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

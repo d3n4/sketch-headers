@@ -11,21 +11,13 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "cleanupIntervals": {
-      "name": "cleanupIntervals",
-      "bridgedName": "cleanupIntervals",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "removeInterval:": {
-      "name": "removeInterval:",
-      "bridgedName": "removeInterval",
+    "addFiber:": {
+      "name": "addFiber:",
+      "bridgedName": "addFiber",
       "args": [
         {
-          "name": "interval",
-          "type": "COSInterval*",
+          "name": "fiber",
+          "type": "COSFiber*",
           "nullable": false
         }
       ],
@@ -33,13 +25,35 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "initWithName:": {
-      "name": "initWithName:",
-      "bridgedName": "initWithName",
+    "cleanupFibers": {
+      "name": "cleanupFibers",
+      "bridgedName": "cleanupFibers",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeFiber:": {
+      "name": "removeFiber:",
+      "bridgedName": "removeFiber",
       "args": [
         {
-          "name": "name",
-          "type": "NSString*",
+          "name": "fiber",
+          "type": "COSFiber*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithCoreModules:": {
+      "name": "initWithCoreModules:",
+      "bridgedName": "initWithCoreModules",
+      "args": [
+        {
+          "name": "coreModules",
+          "type": "NSDictionary*",
           "nullable": false
         }
       ],
@@ -140,6 +154,28 @@
         }
       ],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "require:": {
+      "name": "require:",
+      "bridgedName": "require",
+      "args": [
+        {
+          "name": "module",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldKeepRunning": {
+      "name": "shouldKeepRunning",
+      "bridgedName": "shouldKeepRunning",
+      "args": [],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -353,6 +389,24 @@
       "type": "NSString*",
       "attributes": [
         "strong"
+      ]
+    },
+    "coreModuleMap": {
+      "name": "coreModuleMap",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "moduleCache": {
+      "name": "moduleCache",
+      "pointer": false,
+      "type": "NSMutableDictionary*",
+      "attributes": [
+        "strong",
+        "nonatomic"
       ]
     }
   },

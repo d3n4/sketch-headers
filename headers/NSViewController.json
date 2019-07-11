@@ -80,25 +80,6 @@
       "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "adjustInspectorToColorPopover:sender:": {
-      "name": "adjustInspectorToColorPopover:sender:",
-      "bridgedName": "adjustInspectorToColorPopover_sender",
-      "args": [
-        {
-          "name": "popover",
-          "type": "BCPopover *",
-          "nullable": false
-        },
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {

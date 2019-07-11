@@ -188,6 +188,24 @@
         "assign"
       ]
     },
+    "isFlow": {
+      "name": "isFlow",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "isSlice": {
+      "name": "isSlice",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
     "exportFileName": {
       "name": "exportFileName",
       "pointer": false,

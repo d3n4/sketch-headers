@@ -5,6 +5,14 @@
     "SUVersionComparison"
   ],
   "methods": {
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "defaultComparator": {
       "name": "defaultComparator",
       "bridgedName": "defaultComparator",

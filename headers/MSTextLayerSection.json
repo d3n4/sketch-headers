@@ -5,7 +5,7 @@
     "NSMenuDelegate",
     "MSColorInspectorDelegate",
     "NSComboBoxDataSource",
-    "MSColorPreviewButtonDelegate"
+    "MSStylePartPreviewButtonDelegate"
   ],
   "methods": {
     "fontFamilyAction:": {
@@ -252,7 +252,7 @@
     "colorPickerButton": {
       "name": "colorPickerButton",
       "pointer": false,
-      "type": "IBOutlet MSColorPreviewButton ",
+      "type": "IBOutlet MSStylePartPreviewButton ",
       "attributes": [
         "nonatomic",
         "strong"

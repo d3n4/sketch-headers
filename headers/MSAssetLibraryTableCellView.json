@@ -2,7 +2,26 @@
   "name": "MSAssetLibraryTableCellView",
   "extends": "NSTableCellView",
   "interfaces": [],
-  "methods": {},
-  "properties": {},
+  "methods": {
+    "startDownloading": {
+      "name": "startDownloading",
+      "bridgedName": "startDownloading",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "assetPreferenceItem": {
+      "name": "assetPreferenceItem",
+      "pointer": false,
+      "type": "MSAssetPreferenceItem ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

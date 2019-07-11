@@ -7,7 +7,7 @@
     "BCPopoverDelegate",
     "NSTouchBarDelegate",
     "BCHSBColorPickerDelegate",
-    "MSColorPreviewButtonDelegate"
+    "MSStylePartPreviewButtonDelegate"
   ],
   "methods": {
     "initWithSender:document:handlerManager:globalAssets:": {
@@ -39,9 +39,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:initialColor:": {
-      "name": "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:initialColor:",
-      "bridgedName": "presentColorInspectorPopoverForViewController_inspectorController_relativeToView_initialColor",
+    "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:colorInspectorSetupHandler:": {
+      "name": "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:colorInspectorSetupHandler:",
+      "bridgedName": "presentColorInspectorPopoverForViewController_inspectorController_relativeToView_colorInspectorSetupHandler",
       "args": [
         {
           "name": "viewController",
@@ -59,8 +59,8 @@
           "nullable": false
         },
         {
-          "name": "color",
-          "type": "MSColor *",
+          "name": "setupHandler",
+          "type": "MSColorInspectorSetupBlock",
           "nullable": false
         }
       ],

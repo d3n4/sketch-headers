@@ -45,6 +45,34 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "whitelistClientAdvertisementID:": {
+      "name": "whitelistClientAdvertisementID:",
+      "bridgedName": "whitelistClientAdvertisementID",
+      "args": [
+        {
+          "name": "advertisementID",
+          "type": "nonnull NSUUID *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isClientWhitelisted:": {
+      "name": "isClientWhitelisted:",
+      "bridgedName": "isClientWhitelisted",
+      "args": [
+        {
+          "name": "client",
+          "type": "nonnull SMKMirrorClient *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "invalidateContent": {
       "name": "invalidateContent",
       "bridgedName": "invalidateContent",
@@ -141,16 +169,6 @@
     },
     "webURL": {
       "name": "webURL",
-      "pointer": false,
-      "type": "NSURL ",
-      "attributes": [
-        "nonatomic",
-        "nullable",
-        "readonly"
-      ]
-    },
-    "authorizedWebURL": {
-      "name": "authorizedWebURL",
       "pointer": false,
       "type": "NSURL ",
       "attributes": [

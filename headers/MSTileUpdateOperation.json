@@ -2,22 +2,50 @@
   "name": "MSTileUpdateOperation",
   "extends": "NSOperation",
   "interfaces": [],
-  "methods": {},
-  "properties": {
-    "renderOperations": {
-      "name": "renderOperations",
-      "pointer": false,
-      "type": "NSArray<MSTileRenderOperation*> ",
-      "attributes": [
-        "nonatomic"
-      ]
+  "methods": {
+    "initWithTiledLayer:": {
+      "name": "initWithTiledLayer:",
+      "bridgedName": "initWithTiledLayer",
+      "args": [
+        {
+          "name": "tiledLayer",
+          "type": "MSTiledLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
     },
+    "addRenderOperation:forTile:": {
+      "name": "addRenderOperation:forTile:",
+      "bridgedName": "addRenderOperation_forTile",
+      "args": [
+        {
+          "name": "renderOperation",
+          "type": "MSTileRenderOperation *",
+          "nullable": false
+        },
+        {
+          "name": "tile",
+          "type": "MSTile *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
     "tiledLayer": {
       "name": "tiledLayer",
       "pointer": false,
       "type": "MSTiledLayer ",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "weak",
+        "readonly"
       ]
     },
     "finishTime": {

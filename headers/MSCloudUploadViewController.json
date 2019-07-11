@@ -1,6 +1,6 @@
 {
   "name": "MSCloudUploadViewController",
-  "extends": "MSCloudViewController",
+  "extends": "MSCloudBaseViewController",
   "interfaces": [],
   "methods": {},
   "properties": {},

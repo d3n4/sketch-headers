@@ -22,6 +22,30 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "initWithLayer:ancestors:document:": {
+      "name": "initWithLayer:ancestors:document:",
+      "bridgedName": "initWithLayer_ancestors_document",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        },
+        {
+          "name": "ancestors",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "ancestryWithMSLayer:": {
       "name": "ancestryWithMSLayer:",
       "bridgedName": "ancestryWithMSLayer",
@@ -47,6 +71,14 @@
         }
       ],
       "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "absoluteRect": {
+      "name": "absoluteRect",
+      "bridgedName": "absoluteRect",
+      "args": [],
+      "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
     }

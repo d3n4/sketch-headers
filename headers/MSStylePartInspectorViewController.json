@@ -5,7 +5,7 @@
     "MSInspectorSection",
     "NSWindowDelegate",
     "MSColorInspectorDelegate",
-    "MSColorPreviewButtonDelegate"
+    "MSStylePartPreviewButtonDelegate"
   ],
   "methods": {
     "stylePartViewController": {
@@ -132,7 +132,7 @@
     "colorPickerButton": {
       "name": "colorPickerButton",
       "pointer": false,
-      "type": "IBOutlet MSColorPreviewButton ",
+      "type": "IBOutlet MSStylePartPreviewButton ",
       "attributes": [
         "nonatomic"
       ]

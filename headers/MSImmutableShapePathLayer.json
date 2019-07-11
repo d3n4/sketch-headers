@@ -17,6 +17,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "bezierPathWithoutTransformsInRect:": {
+      "name": "bezierPathWithoutTransformsInRect:",
+      "bridgedName": "bezierPathWithoutTransformsInRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "pathInRect:": {
       "name": "pathInRect:",
       "bridgedName": "pathInRect",
@@ -49,6 +63,42 @@
       "attributes": [
         "readonly",
         "nonatomic"
+      ]
+    },
+    "isPolygon": {
+      "name": "isPolygon",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isPolyline": {
+      "name": "isPolyline",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isRectangle": {
+      "name": "isRectangle",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfCurvePoints": {
+      "name": "numberOfCurvePoints",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

@@ -1,9 +1,7 @@
 {
   "name": "SUUIBasedUpdateDriver",
   "extends": "SUBasicUpdateDriver",
-  "interfaces": [
-    "SUUnarchiverDelegate"
-  ],
+  "interfaces": [],
   "methods": {
     "showAlert:": {
       "name": "showAlert:",
@@ -48,6 +46,15 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "showErrors": {
+      "name": "showErrors",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign"
+      ]
+    }
+  },
   "generics": []
 }

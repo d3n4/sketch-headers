@@ -12,6 +12,17 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "highestBackingScale_bc": {
+      "name": "highestBackingScale_bc",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "class"
+      ]
+    }
+  },
   "generics": []
 }

@@ -5,7 +5,9 @@
     "NSApplicationDelegate",
     "NSWindowDelegate",
     "NSMenuDelegate",
-    "NSUserNotificationCenterDelegate"
+    "NSUserNotificationCenterDelegate",
+    "MSDataMenuProviderDelegate",
+    "MSDataSupplierManagerDelegate"
   ],
   "methods": {
     "actionClasses": {
@@ -33,6 +35,35 @@
         {
           "name": "context",
           "type": "NSDictionary<NSString*,id>*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runPluginCommandWithIdentifier:fromBundleAtURL:context:portToAsnwerTo:": {
+      "name": "runPluginCommandWithIdentifier:fromBundleAtURL:context:portToAsnwerTo:",
+      "bridgedName": "runPluginCommandWithIdentifier_fromBundleAtURL_context_portToAsnwerTo",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id>*",
+          "nullable": false
+        },
+        {
+          "name": "port",
+          "type": "NSString *",
           "nullable": false
         }
       ],
@@ -111,6 +142,35 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "runPluginScript:handler:name:withPreprocess:": {
+      "name": "runPluginScript:handler:name:withPreprocess:",
+      "bridgedName": "runPluginScript_handler_name_withPreprocess",
+      "args": [
+        {
+          "name": "script",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "shoulPreprocess",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "validatePluginMenuItem:documentShowing:": {
       "name": "validatePluginMenuItem:documentShowing:",
       "bridgedName": "validatePluginMenuItem_documentShowing",
@@ -138,6 +198,34 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "startDownloadingLibrary:": {
+      "name": "startDownloadingLibrary:",
+      "bridgedName": "startDownloadingLibrary",
+      "args": [
+        {
+          "name": "remoteLibrary",
+          "type": "MSRemoteAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectInstalledLibrary:": {
+      "name": "selectInstalledLibrary:",
+      "bridgedName": "selectInstalledLibrary",
+      "args": [
+        {
+          "name": "remoteLibrary",
+          "type": "MSRemoteAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "sharedInstance": {
       "name": "sharedInstance",
       "bridgedName": "sharedInstance",
@@ -151,14 +239,6 @@
       "bridgedName": "checkDefaults",
       "args": [],
       "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "toggleComponentsPanel": {
-      "name": "toggleComponentsPanel",
-      "bridgedName": "toggleComponentsPanel",
-      "args": [],
-      "returns": "MSComponentsPanelController *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -226,6 +306,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "currentDocumentDidChange": {
+      "name": "currentDocumentDidChange",
+      "bridgedName": "currentDocumentDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "refreshDocumentWindowBadges": {
       "name": "refreshDocumentWindowBadges",
       "bridgedName": "refreshDocumentWindowBadges",
@@ -253,6 +341,20 @@
       "bridgedName": "templateLibraryPath",
       "args": [],
       "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleDarkMode:": {
+      "name": "toggleDarkMode:",
+      "bridgedName": "toggleDarkMode",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -304,6 +406,15 @@
         "weak"
       ]
     },
+    "prototypingMenuItem": {
+      "name": "prototypingMenuItem",
+      "pointer": false,
+      "type": "IBOutlet NSMenuItem ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
     "debugMenuItem": {
       "name": "debugMenuItem",
       "pointer": false,
@@ -321,6 +432,15 @@
         "strong",
         "readonly",
         "nonatomic"
+      ]
+    },
+    "dataFeedMenuItem": {
+      "name": "dataFeedMenuItem",
+      "pointer": false,
+      "type": "IBOutlet NSMenuItem ",
+      "attributes": [
+        "nonatomic",
+        "strong"
       ]
     },
     "cloudEnvironmentMenuItem": {
@@ -366,6 +486,24 @@
       "attributes": [
         "nonatomic",
         "strong"
+      ]
+    },
+    "dataFeedProvider": {
+      "name": "dataFeedProvider",
+      "pointer": false,
+      "type": "MSDataMenuProvider ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "dataSupplierManager": {
+      "name": "dataSupplierManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     },
     "crashLogManager": {
@@ -477,15 +615,6 @@
         "readonly"
       ]
     },
-    "componentsPanelController": {
-      "name": "componentsPanelController",
-      "pointer": false,
-      "type": "MSComponentsPanelController ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "sketchSafeModeOn": {
       "name": "sketchSafeModeOn",
       "pointer": false,
@@ -504,6 +633,14 @@
         "nonatomic",
         "assign",
         "readonly"
+      ]
+    },
+    "canCreateDocuments": {
+      "name": "canCreateDocuments",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
       ]
     }
   },

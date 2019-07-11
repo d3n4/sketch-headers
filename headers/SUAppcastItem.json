@@ -118,8 +118,26 @@
         "readonly"
       ]
     },
+    "contentLength": {
+      "name": "contentLength",
+      "pointer": false,
+      "type": "uint64_t",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "versionString": {
       "name": "versionString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "osString": {
+      "name": "osString",
       "pointer": false,
       "type": "NSString ",
       "attributes": [
@@ -169,6 +187,15 @@
       "type": "BOOL",
       "attributes": [
         "getter=isCriticalUpdate",
+        "readonly"
+      ]
+    },
+    "macOsUpdate": {
+      "name": "macOsUpdate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isMacOsUpdate",
         "readonly"
       ]
     },

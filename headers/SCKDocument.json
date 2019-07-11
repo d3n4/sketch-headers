@@ -80,6 +80,16 @@
         "nonnull",
         "readonly"
       ]
+    },
+    "colorSpace": {
+      "name": "colorSpace",
+      "pointer": false,
+      "type": "SCKColorSpace",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
     }
   },
   "generics": []

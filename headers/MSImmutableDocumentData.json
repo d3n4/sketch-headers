@@ -64,7 +64,40 @@
           "nullable": false
         }
       ],
-      "returns": "MSImmutableSymbolMaster *",
+      "returns": "nullable MSImmutableSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardWithID:": {
+      "name": "artboardWithID:",
+      "bridgedName": "artboardWithID",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSImmutableArtboardGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "artboardWithID:page:": {
+      "name": "artboardWithID:page:",
+      "bridgedName": "artboardWithID_page",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "pageOut",
+          "type": "MSImmutablePage * _Nullable __autoreleasing * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSImmutableArtboardGroup *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -160,6 +193,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "symbolsChangedSincePreviousDocument:": {
+      "name": "symbolsChangedSincePreviousDocument:",
+      "bridgedName": "symbolsChangedSincePreviousDocument",
+      "args": [
+        {
+          "name": "lastImmutable",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -176,6 +223,33 @@
       "name": "currentPage",
       "pointer": false,
       "type": "MSImmutablePage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fontNames": {
+      "name": "fontNames",
+      "pointer": false,
+      "type": "NSSet <NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "unavailableFontNames": {
+      "name": "unavailableFontNames",
+      "pointer": false,
+      "type": "NSSet <NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "containsUnavailableFontNames": {
+      "name": "containsUnavailableFontNames",
+      "pointer": false,
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
         "readonly"

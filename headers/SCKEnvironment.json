@@ -24,6 +24,86 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "accountSettingsURLForUserID:": {
+      "name": "accountSettingsURLForUserID:",
+      "bridgedName": "accountSettingsURLForUserID",
+      "args": [
+        {
+          "name": "userID",
+          "type": "SCKObjectID *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "settingsURLForShare:": {
+      "name": "settingsURLForShare:",
+      "bridgedName": "settingsURLForShare",
+      "args": [
+        {
+          "name": "share",
+          "type": "SCKShare *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharesOverviewURLForUserID:": {
+      "name": "sharesOverviewURLForUserID:",
+      "bridgedName": "sharesOverviewURLForUserID",
+      "args": [
+        {
+          "name": "userID",
+          "type": "SCKObjectID *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "signInURLUsingCallback:variant:": {
+      "name": "signInURLUsingCallback:variant:",
+      "bridgedName": "signInURLUsingCallback_variant",
+      "args": [
+        {
+          "name": "usingCallback",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "variant",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "signUpURLUsingCallback:variant:": {
+      "name": "signUpURLUsingCallback:variant:",
+      "bridgedName": "signUpURLUsingCallback_variant",
+      "args": [
+        {
+          "name": "usingCallback",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "variant",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "initWithHost:": {
       "name": "initWithHost:",
       "bridgedName": "initWithHost",

@@ -61,6 +61,54 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "insertPasteboardData:intoParent:beforeLayer:": {
+      "name": "insertPasteboardData:intoParent:beforeLayer:",
+      "bridgedName": "insertPasteboardData_intoParent_beforeLayer",
+      "args": [
+        {
+          "name": "pboardData",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "MSLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "beforeLayer",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "insertPagePasteboardData:intoDocument:afterPage:": {
+      "name": "insertPagePasteboardData:intoDocument:afterPage:",
+      "bridgedName": "insertPagePasteboardData_intoDocument_afterPage",
+      "args": [
+        {
+          "name": "pboardData",
+          "type": "MSPasteboardLayers *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData*",
+          "nullable": false
+        },
+        {
+          "name": "afterPage",
+          "type": "MSPage*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayerArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "parentForData:hint:page:viewPort:": {
       "name": "parentForData:hint:page:viewPort:",
       "bridgedName": "parentForData_hint_page_viewPort",
@@ -111,6 +159,20 @@
         }
       ],
       "returns": "nullable  MSLayerGroup *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "duplicateLayers:": {
+      "name": "duplicateLayers:",
+      "bridgedName": "duplicateLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSPasteboardLayers*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPasteboardLayers*",
       "kind": "class",
       "kindIndicator": "+"
     }

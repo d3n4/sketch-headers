@@ -39,7 +39,7 @@
     "colorButton": {
       "name": "colorButton",
       "pointer": false,
-      "type": "MSColorPreviewButton ",
+      "type": "MSStylePartPreviewButton ",
       "attributes": [
         "nonatomic",
         "strong"

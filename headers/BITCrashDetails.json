@@ -2,16 +2,7 @@
   "name": "BITCrashDetails",
   "extends": "NSObject",
   "interfaces": [],
-  "methods": {
-    "isAppKill": {
-      "name": "isAppKill",
-      "bridgedName": "isAppKill",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {
     "incidentIdentifier": {
       "name": "incidentIdentifier",
@@ -20,7 +11,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "reporterKey": {
@@ -30,7 +21,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "signal": {
@@ -40,7 +31,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "exceptionName": {
@@ -50,7 +41,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "exceptionReason": {
@@ -60,7 +51,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "appStartTime": {
@@ -70,7 +61,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "crashTime": {
@@ -80,7 +71,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "osVersion": {
@@ -90,7 +81,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "osBuild": {
@@ -100,7 +91,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "appVersion": {
@@ -110,7 +101,7 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
       ]
     },
     "appBuild": {
@@ -120,7 +111,17 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "strong"
+        "copy"
+      ]
+    },
+    "appProcessIdentifier": {
+      "name": "appProcessIdentifier",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "assign"
       ]
     }
   },

@@ -72,7 +72,7 @@
     "originalColorButton": {
       "name": "originalColorButton",
       "pointer": false,
-      "type": "IBOutlet MSColorPreviewButton ",
+      "type": "IBOutlet MSStylePartPreviewButton ",
       "attributes": [
         "nonatomic",
         "weak"
@@ -81,7 +81,7 @@
     "replacementColorButton": {
       "name": "replacementColorButton",
       "pointer": false,
-      "type": "IBOutlet MSColorPreviewButton ",
+      "type": "IBOutlet MSStylePartPreviewButton ",
       "attributes": [
         "nonatomic",
         "weak"

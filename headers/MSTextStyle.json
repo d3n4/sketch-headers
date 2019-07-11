@@ -3,6 +3,40 @@
   "extends": "_MSTextStyle",
   "interfaces": [],
   "methods": {
+    "generatePreviewWithText:imageSize:previewSize:colorSpace:completionBlock:": {
+      "name": "generatePreviewWithText:imageSize:previewSize:colorSpace:completionBlock:",
+      "bridgedName": "generatePreviewWithText_imageSize_previewSize_colorSpace_completionBlock",
+      "args": [
+        {
+          "name": "text",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "imageSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "previewSize",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSPreviewGeneratorBlock",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "styleWithAttributes:": {
       "name": "styleWithAttributes:",
       "bridgedName": "styleWithAttributes",

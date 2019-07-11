@@ -255,7 +255,7 @@
       "name": "objectsSortedByName",
       "bridgedName": "objectsSortedByName",
       "args": [],
-      "returns": "NSArray *",
+      "returns": "NSArray <MSSharedObject *> *",
       "kind": "instance",
       "kindIndicator": "-"
     }

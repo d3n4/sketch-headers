@@ -283,6 +283,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "segmentByMovingPointAtOffset:toLocation:": {
+      "name": "segmentByMovingPointAtOffset:toLocation:",
+      "bridgedName": "segmentByMovingPointAtOffset_toLocation",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "location",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "segmentWithTransform:": {
       "name": "segmentWithTransform:",
       "bridgedName": "segmentWithTransform",

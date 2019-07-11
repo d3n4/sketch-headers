@@ -49,11 +49,11 @@
         },
         {
           "name": "error",
-          "type": "NSError **",
+          "type": "NSError *_Nullable*_Nullable",
           "nullable": false
         }
       ],
-      "returns": "NSURL *",
+      "returns": "nullable NSURL *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -68,7 +68,7 @@
         },
         {
           "name": "error",
-          "type": "NSError **",
+          "type": "NSError *_Nullable*_Nullable",
           "nullable": false
         }
       ],
@@ -92,7 +92,7 @@
         },
         {
           "name": "error",
-          "type": "NSError **",
+          "type": "NSError *_Nullable*_Nullable",
           "nullable": false
         }
       ],
@@ -116,26 +116,7 @@
         },
         {
           "name": "error",
-          "type": "NSError **",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "moveItemAtURLToTrash:error:": {
-      "name": "moveItemAtURLToTrash:error:",
-      "bridgedName": "moveItemAtURLToTrash_error",
-      "args": [
-        {
-          "name": "url",
-          "type": "NSURL *",
-          "nullable": false
-        },
-        {
-          "name": "error",
-          "type": "NSError **",
+          "type": "NSError *_Nullable*_Nullable",
           "nullable": false
         }
       ],
@@ -154,7 +135,7 @@
         },
         {
           "name": "error",
-          "type": "NSError **",
+          "type": "NSError *_Nullable*_Nullable",
           "nullable": false
         }
       ],
@@ -178,7 +159,7 @@
         },
         {
           "name": "error",
-          "type": "NSError **",
+          "type": "NSError *_Nullable*_Nullable",
           "nullable": false
         }
       ],
@@ -197,7 +178,7 @@
         },
         {
           "name": "error",
-          "type": "NSError **",
+          "type": "NSError *_Nullable*_Nullable",
           "nullable": false
         }
       ],
@@ -216,7 +197,7 @@
         },
         {
           "name": "error",
-          "type": "NSError **",
+          "type": "NSError *_Nullable*_Nullable",
           "nullable": false
         }
       ],
@@ -224,9 +205,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "executePackageAtURL:error:": {
-      "name": "executePackageAtURL:error:",
-      "bridgedName": "executePackageAtURL_error",
+    "executePackageAtURL:progressBlock:error:": {
+      "name": "executePackageAtURL:progressBlock:error:",
+      "bridgedName": "executePackageAtURL_progressBlock_error",
       "args": [
         {
           "name": "packageURL",
@@ -234,8 +215,13 @@
           "nullable": false
         },
         {
+          "name": "progressBlock",
+          "type": "void(^)(double)",
+          "nullable": true
+        },
+        {
           "name": "error",
-          "type": "NSError **",
+          "type": "NSError *_Nullable*_Nullable",
           "nullable": false
         }
       ],
@@ -249,7 +235,7 @@
       "args": [
         {
           "name": "error",
-          "type": "NSError *__autoreleasing *",
+          "type": "NSError *_Nullable __autoreleasing *_Nullable",
           "nullable": false
         }
       ],
@@ -283,7 +269,7 @@
         {
           "name": "isDirectory",
           "type": "BOOL *",
-          "nullable": false
+          "nullable": true
         }
       ],
       "returns": "BOOL",
