@@ -1,47 +1,11 @@
 {
   "name": "MSColorInspector",
   "extends": "NSViewController",
-  "interfaces": [
-    "MSColorInspectorSectionDelegate",
-    "MSModeModePickerDelegate",
-    "BCPopoverDelegate",
-    "NSTouchBarDelegate",
-    "BCHSBColorPickerDelegate",
-    "MSStylePartPreviewButtonDelegate"
-  ],
+  "interfaces": [],
   "methods": {
-    "initWithSender:document:handlerManager:globalAssets:": {
-      "name": "initWithSender:document:handlerManager:globalAssets:",
-      "bridgedName": "initWithSender_document_handlerManager_globalAssets",
-      "args": [
-        {
-          "name": "delegate",
-          "type": "id <MSColorInspectorDelegate>",
-          "nullable": false
-        },
-        {
-          "name": "document",
-          "type": "MSDocument *",
-          "nullable": false
-        },
-        {
-          "name": "manager",
-          "type": "MSEventHandlerManager *",
-          "nullable": false
-        },
-        {
-          "name": "globalAssets",
-          "type": "MSPersistentAssetCollection *",
-          "nullable": false
-        }
-      ],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "presentColorInspectorPopoverForViewController:document:globalAssets:relativeToView:colorInspectorSetupHandler:": {
-      "name": "presentColorInspectorPopoverForViewController:document:globalAssets:relativeToView:colorInspectorSetupHandler:",
-      "bridgedName": "presentColorInspectorPopoverForViewController_document_globalAssets_relativeToView_colorInspectorSetupHandler",
+    "presentColorInspectorPopoverForViewController:document:globalAssets:relativeToView:setupHandler:": {
+      "name": "presentColorInspectorPopoverForViewController:document:globalAssets:relativeToView:setupHandler:",
+      "bridgedName": "presentColorInspectorPopoverForViewController_document_globalAssets_relativeToView_setupHandler",
       "args": [
         {
           "name": "viewController",
@@ -73,18 +37,23 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:colorInspectorSetupHandler:": {
-      "name": "presentColorInspectorPopoverForViewController:inspectorController:relativeToView:colorInspectorSetupHandler:",
-      "bridgedName": "presentColorInspectorPopoverForViewController_inspectorController_relativeToView_colorInspectorSetupHandler",
+    "presentColorInspectorPopoverWithDelegate:document:globalAssets:relativeToView:setupHandler:": {
+      "name": "presentColorInspectorPopoverWithDelegate:document:globalAssets:relativeToView:setupHandler:",
+      "bridgedName": "presentColorInspectorPopoverWithDelegate_document_globalAssets_relativeToView_setupHandler",
       "args": [
         {
-          "name": "viewController",
-          "type": "NSViewController<MSColorInspectorDelegate> *",
+          "name": "delegate",
+          "type": "id<MSColorInspectorDelegate>",
           "nullable": false
         },
         {
-          "name": "inspectorController",
-          "type": "MSInspectorController *",
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        },
+        {
+          "name": "globalAssets",
+          "type": "MSPersistentAssetCollection *",
           "nullable": false
         },
         {
@@ -132,17 +101,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "colorPickerAction:": {
-      "name": "colorPickerAction:",
-      "bridgedName": "colorPickerAction",
+    "setColorWithoutNotifying:": {
+      "name": "setColorWithoutNotifying:",
+      "bridgedName": "setColorWithoutNotifying",
       "args": [
         {
-          "name": "sender",
-          "type": "id",
+          "name": "color",
+          "type": "MSColor*",
           "nullable": false
         }
       ],
-      "returns": "IBAction",
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -202,25 +171,19 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "switchToColorTabAtIndex:": {
-      "name": "switchToColorTabAtIndex:",
-      "bridgedName": "switchToColorTabAtIndex",
-      "args": [
-        {
-          "name": "index",
-          "type": "NSUInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
+    "reflectEffectiveStyleParts": {
+      "name": "reflectEffectiveStyleParts",
+      "bridgedName": "reflectEffectiveStyleParts",
+      "args": [],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "colorTabIndex": {
-      "name": "colorTabIndex",
-      "bridgedName": "colorTabIndex",
+    "revertToDefaultFirstResponder": {
+      "name": "revertToDefaultFirstResponder",
+      "bridgedName": "revertToDefaultFirstResponder",
       "args": [],
-      "returns": "NSUInteger",
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -244,31 +207,13 @@
         "weak"
       ]
     },
-    "colorPicker": {
-      "name": "colorPicker",
+    "colorModePickerController": {
+      "name": "colorModePickerController",
       "pointer": false,
-      "type": "IBOutlet BCHSBColorPicker ",
+      "type": "MSColorModePickerController ",
       "attributes": [
         "nonatomic",
-        "strong"
-      ]
-    },
-    "emptyTopView": {
-      "name": "emptyTopView",
-      "pointer": false,
-      "type": "IBOutlet NSView ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
-    "colorPickerView": {
-      "name": "colorPickerView",
-      "pointer": false,
-      "type": "IBOutlet NSView ",
-      "attributes": [
-        "nonatomic",
-        "strong"
+        "readonly"
       ]
     }
   },

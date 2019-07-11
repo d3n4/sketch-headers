@@ -22,9 +22,28 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "bezierPathForRenderingFlowFromParentLayer:toArtboard:zoomLevel:": {
-      "name": "bezierPathForRenderingFlowFromParentLayer:toArtboard:zoomLevel:",
-      "bridgedName": "bezierPathForRenderingFlowFromParentLayer_toArtboard_zoomLevel",
+    "flowInfoFromParentLayer:toArtboard:": {
+      "name": "flowInfoFromParentLayer:toArtboard:",
+      "bridgedName": "flowInfoFromParentLayer_toArtboard",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        },
+        {
+          "name": "destinationArtboard",
+          "type": "MSImmutableLayerAncestry *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSFlowInfo",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowInfoFromParentLayer:toArtboard:type:": {
+      "name": "flowInfoFromParentLayer:toArtboard:type:",
+      "bridgedName": "flowInfoFromParentLayer_toArtboard_type",
       "args": [
         {
           "name": "layer",
@@ -37,12 +56,12 @@
           "nullable": false
         },
         {
-          "name": "zoomLevel",
-          "type": "CGFloat",
+          "name": "flowType",
+          "type": "MSFlowType",
           "nullable": false
         }
       ],
-      "returns": "NSBezierPath *",
+      "returns": "MSFlowInfo",
       "kind": "instance",
       "kindIndicator": "-"
     },

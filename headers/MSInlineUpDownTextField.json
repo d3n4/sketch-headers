@@ -7,7 +7,7 @@
     "inlineLabel": {
       "name": "inlineLabel",
       "pointer": false,
-      "type": "IBInspectable NSString ",
+      "type": "NSString ",
       "attributes": [
         "nonatomic"
       ]
@@ -15,7 +15,7 @@
     "inlineImage": {
       "name": "inlineImage",
       "pointer": false,
-      "type": "IBInspectable NSImage ",
+      "type": "NSImage ",
       "attributes": [
         "nonatomic"
       ]

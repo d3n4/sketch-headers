@@ -127,6 +127,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "displayCloudAlertSheetForError:": {
+      "name": "displayCloudAlertSheetForError:",
+      "bridgedName": "displayCloudAlertSheetForError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "displayDuplicateAlertSheetForRemoteAssetLibrary:": {
       "name": "displayDuplicateAlertSheetForRemoteAssetLibrary:",
       "bridgedName": "displayDuplicateAlertSheetForRemoteAssetLibrary",

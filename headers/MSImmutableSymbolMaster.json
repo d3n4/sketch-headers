@@ -22,6 +22,35 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "modifiedMasterWithOverrides:scale:size:inDocument:": {
+      "name": "modifiedMasterWithOverrides:scale:size:inDocument:",
+      "bridgedName": "modifiedMasterWithOverrides_scale_size_inDocument",
+      "args": [
+        {
+          "name": "overrideValues",
+          "type": "NSArray<MSImmutableOverrideValue *> *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "influenceRectPaddingForInstancesInDocument:visitedSymbols:": {
       "name": "influenceRectPaddingForInstancesInDocument:visitedSymbols:",
       "bridgedName": "influenceRectPaddingForInstancesInDocument_visitedSymbols",
@@ -78,6 +107,15 @@
       "attributes": [
         "readonly",
         "nonatomic"
+      ]
+    },
+    "overrideProperies": {
+      "name": "overrideProperies",
+      "pointer": true,
+      "type": "NSDictionary<NSString *, MSImmutableOverrideProperty *>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     }
   },

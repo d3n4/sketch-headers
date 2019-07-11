@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "MSComponentColorModel",
+  "members": [
+    {
+      "name": "MSComponentColorModelRGBA"
+    },
+    {
+      "name": "MSComponentColorModelHSBA"
+    },
+    {
+      "name": "MSComponentColorModelHSLA"
+    }
+  ]
+}

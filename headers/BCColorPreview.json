@@ -18,67 +18,16 @@
       "returns": "id",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "menuItemForColorCounter:target:action:documentColorSpace:useHSB:": {
-      "name": "menuItemForColorCounter:target:action:documentColorSpace:useHSB:",
-      "bridgedName": "menuItemForColorCounter_target_action_documentColorSpace_useHSB",
-      "args": [
-        {
-          "name": "colorCounter",
-          "type": "MSColorCounter *",
-          "nullable": false
-        },
-        {
-          "name": "target",
-          "type": "id",
-          "nullable": false
-        },
-        {
-          "name": "action",
-          "type": "SEL",
-          "nullable": false
-        },
-        {
-          "name": "colorSpace",
-          "type": "NSColorSpace *",
-          "nullable": false
-        },
-        {
-          "name": "useHSB",
-          "type": "BOOL",
-          "nullable": false
-        }
-      ],
-      "returns": "NSMenuItem *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "shouldUseHSBInColorDescriptions": {
-      "name": "shouldUseHSBInColorDescriptions",
-      "bridgedName": "shouldUseHSBInColorDescriptions",
-      "args": [],
-      "returns": "BOOL",
-      "kind": "class",
-      "kindIndicator": "+"
     }
   },
   "properties": {
     "color": {
       "name": "color",
       "pointer": false,
-      "type": "BCFlexibleColor ",
+      "type": "MSFlexibleColor ",
       "attributes": [
         "nonatomic",
         "retain"
-      ]
-    },
-    "frequentColors": {
-      "name": "frequentColors",
-      "pointer": false,
-      "type": "NSArray ",
-      "attributes": [
-        "nonatomic",
-        "copy"
       ]
     }
   },

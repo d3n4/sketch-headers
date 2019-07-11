@@ -58,6 +58,20 @@
       "returns": "nullable SCKPage *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "isIdentityEqual:": {
+      "name": "isIdentityEqual:",
+      "bridgedName": "isIdentityEqual",
+      "args": [
+        {
+          "name": "document",
+          "type": "SCKDocument *",
+          "nullable": true
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -65,6 +79,16 @@
       "name": "name",
       "pointer": false,
       "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "fileID": {
+      "name": "fileID",
+      "pointer": false,
+      "type": "NSNumber ",
       "attributes": [
         "nonatomic",
         "nullable",

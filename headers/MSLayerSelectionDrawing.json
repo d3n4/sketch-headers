@@ -22,6 +22,49 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "drawSelectionForLayers:zoomScale:": {
+      "name": "drawSelectionForLayers:zoomScale:",
+      "bridgedName": "drawSelectionForLayers_zoomScale",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawResizingHandle:ofRect:zoomScale:": {
+      "name": "drawResizingHandle:ofRect:zoomScale:",
+      "bridgedName": "drawResizingHandle_ofRect_zoomScale",
+      "args": [
+        {
+          "name": "handle",
+          "type": "BCCorner",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "strokeWidthForZoomValue:": {
       "name": "strokeWidthForZoomValue:",
       "bridgedName": "strokeWidthForZoomValue",

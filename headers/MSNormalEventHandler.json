@@ -49,10 +49,28 @@
     }
   },
   "properties": {
+    "eventData": {
+      "name": "eventData",
+      "pointer": false,
+      "type": "MSNormalEventData ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "measurementRenderer": {
       "name": "measurementRenderer",
       "pointer": false,
       "type": "MSLayerMeasurementRenderer ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "menuForLayerList": {
+      "name": "menuForLayerList",
+      "pointer": false,
+      "type": "NSMenu ",
       "attributes": [
         "nonatomic",
         "readonly"

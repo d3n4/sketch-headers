@@ -95,14 +95,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "moveTransformsToChildren": {
-      "name": "moveTransformsToChildren",
-      "bridgedName": "moveTransformsToChildren",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "setEdited:": {
       "name": "setEdited:",
       "bridgedName": "setEdited",

@@ -4,19 +4,10 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "colorAlphaValue": {
-      "name": "colorAlphaValue",
-      "pointer": false,
-      "type": "CGFloat",
-      "attributes": [
-        "nonatomic",
-        "assign"
-      ]
-    },
     "color": {
       "name": "color",
       "pointer": false,
-      "type": "BCFlexibleColor ",
+      "type": "MSFlexibleColor ",
       "attributes": [
         "nonatomic",
         "retain"

@@ -104,7 +104,7 @@
       "name": "uniqueParents",
       "bridgedName": "uniqueParents",
       "args": [],
-      "returns": "nullable MSLayerArray *",
+      "returns": "nullable MSLayerArray<MSLayerGroup *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },

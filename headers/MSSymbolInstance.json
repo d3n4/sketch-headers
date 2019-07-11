@@ -61,10 +61,40 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "detachByReplacingWithGroup": {
-      "name": "detachByReplacingWithGroup",
-      "bridgedName": "detachByReplacingWithGroup",
-      "args": [],
+    "detachStylesAndReplaceWithGroupRecursively:": {
+      "name": "detachStylesAndReplaceWithGroupRecursively:",
+      "bridgedName": "detachStylesAndReplaceWithGroupRecursively",
+      "args": [
+        {
+          "name": "detachRecursively",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSLayerGroup *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "detachByReplacingWithGroupRecursively:withDocument:visitedSymbols:": {
+      "name": "detachByReplacingWithGroupRecursively:withDocument:visitedSymbols:",
+      "bridgedName": "detachByReplacingWithGroupRecursively_withDocument_visitedSymbols",
+      "args": [
+        {
+          "name": "detachRecursively",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
       "returns": "nullable MSLayerGroup *",
       "kind": "instance",
       "kindIndicator": "-"

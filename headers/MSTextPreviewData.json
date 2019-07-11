@@ -1,0 +1,46 @@
+{
+  "name": "MSTextPreviewData",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedPreviewData": {
+      "name": "sharedPreviewData",
+      "bridgedName": "sharedPreviewData",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "findPreviewPageForDocument:layer:": {
+      "name": "findPreviewPageForDocument:layer:",
+      "bridgedName": "findPreviewPageForDocument_layer",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSImmutableTextLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPDFPageRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "table": {
+      "name": "table",
+      "pointer": false,
+      "type": "NSMapTable ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

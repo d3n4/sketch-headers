@@ -113,6 +113,35 @@
       "kind": "class",
       "kindIndicator": "+"
     },
+    "colorWithHue:saturation:lightness:alpha:": {
+      "name": "colorWithHue:saturation:lightness:alpha:",
+      "bridgedName": "colorWithHue_saturation_lightness_alpha",
+      "args": [
+        {
+          "name": "hue",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "saturation",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "lightness",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "alpha",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "colorWithNSColor:": {
       "name": "colorWithNSColor:",
       "bridgedName": "colorWithNSColor",
@@ -234,6 +263,54 @@
         }
       ],
       "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getHue:saturation:brightness:": {
+      "name": "getHue:saturation:brightness:",
+      "bridgedName": "getHue_saturation_brightness",
+      "args": [
+        {
+          "name": "hue",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "saturation",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "brightness",
+          "type": "CGFloat *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getHue:saturation:lightness:": {
+      "name": "getHue:saturation:lightness:",
+      "bridgedName": "getHue_saturation_lightness",
+      "args": [
+        {
+          "name": "hue",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "saturation",
+          "type": "CGFloat *",
+          "nullable": true
+        },
+        {
+          "name": "lightness",
+          "type": "CGFloat *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     }

@@ -69,14 +69,6 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "correctInvalidGamma": {
-      "name": "correctInvalidGamma",
-      "bridgedName": "correctInvalidGamma",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {},

@@ -17,10 +17,16 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "closeAnyColorPopover": {
-      "name": "closeAnyColorPopover",
-      "bridgedName": "closeAnyColorPopover",
-      "args": [],
+    "closePopoverImmediately:": {
+      "name": "closePopoverImmediately:",
+      "bridgedName": "closePopoverImmediately",
+      "args": [
+        {
+          "name": "immediately",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

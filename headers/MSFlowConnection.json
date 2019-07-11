@@ -37,20 +37,6 @@
       "returns": "MSFlowAnimationType",
       "kind": "class",
       "kindIndicator": "+"
-    },
-    "bezierPathForRenderingFlowAtZoomLevel:": {
-      "name": "bezierPathForRenderingFlowAtZoomLevel:",
-      "bridgedName": "bezierPathForRenderingFlowAtZoomLevel",
-      "args": [
-        {
-          "name": "zoomLevel",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {

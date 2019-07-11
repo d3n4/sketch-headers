@@ -68,6 +68,15 @@
         "nonatomic"
       ]
     },
+    "valuesPossiblyDirty": {
+      "name": "valuesPossiblyDirty",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "delegate": {
       "name": "delegate",
       "pointer": false,

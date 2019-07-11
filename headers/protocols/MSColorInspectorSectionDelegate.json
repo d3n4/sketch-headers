@@ -99,6 +99,22 @@
       "returns": "NSTouchBar *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "libraryAssetsController": {
+      "name": "libraryAssetsController",
+      "bridgedName": "libraryAssetsController",
+      "args": [],
+      "returns": "MSLibraryAssetCollectionsController *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "revertToDefaultFirstResponder": {
+      "name": "revertToDefaultFirstResponder",
+      "bridgedName": "revertToDefaultFirstResponder",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

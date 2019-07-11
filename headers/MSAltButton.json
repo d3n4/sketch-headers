@@ -10,7 +10,8 @@
       "type": "id",
       "attributes": [
         "nonatomic",
-        "weak"
+        "weak",
+        "nullable"
       ]
     }
   },

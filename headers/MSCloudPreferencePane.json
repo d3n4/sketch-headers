@@ -11,19 +11,21 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "loginWithURLParameters:": {
-      "name": "loginWithURLParameters:",
-      "bridgedName": "loginWithURLParameters",
-      "args": [
-        {
-          "name": "parameters",
-          "type": "NSDictionary *",
-          "nullable": true
-        }
-      ],
+    "showAndSignIn": {
+      "name": "showAndSignIn",
+      "bridgedName": "showAndSignIn",
+      "args": [],
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "signIn": {
+      "name": "signIn",
+      "bridgedName": "signIn",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {},

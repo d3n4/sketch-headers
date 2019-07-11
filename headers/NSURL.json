@@ -80,6 +80,48 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "websiteRenewalURLForLicense:": {
+      "name": "websiteRenewalURLForLicense:",
+      "bridgedName": "websiteRenewalURLForLicense",
+      "args": [
+        {
+          "name": "license",
+          "type": "id<BCLicense>",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "websiteRenewalURLForLicenseKey:": {
+      "name": "websiteRenewalURLForLicenseKey:",
+      "bridgedName": "websiteRenewalURLForLicenseKey",
+      "args": [
+        {
+          "name": "licenseKey",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "websiteAvailableVersionsURLForLicense:": {
+      "name": "websiteAvailableVersionsURLForLicense:",
+      "bridgedName": "websiteAvailableVersionsURLForLicense",
+      "args": [
+        {
+          "name": "license",
+          "type": "id<BCLicense>",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "cloudShareURLWithShortID:environment:": {
       "name": "cloudShareURLWithShortID:environment:",
       "bridgedName": "cloudShareURLWithShortID_environment",
@@ -133,7 +175,7 @@
       "args": [
         {
           "name": "authentication",
-          "type": "SCKAPIAuthentication *",
+          "type": "SCKAPISession *",
           "nullable": true
         }
       ],

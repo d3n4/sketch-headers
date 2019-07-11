@@ -37,6 +37,15 @@
         "nonatomic"
       ]
     },
+    "eventData": {
+      "name": "eventData",
+      "pointer": false,
+      "type": "MSNormalEventData ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
     "rotationCenterPoint": {
       "name": "rotationCenterPoint",
       "pointer": false,

@@ -390,20 +390,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayInRect:": {
-      "name": "refreshOverlayInRect:",
-      "bridgedName": "refreshOverlayInRect",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "refreshOverlay": {
       "name": "refreshOverlay",
       "bridgedName": "refreshOverlay",
@@ -557,6 +543,16 @@
       "name": "metadata",
       "pointer": false,
       "type": "NSDictionary*",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "textPreviewData": {
+      "name": "textPreviewData",
+      "pointer": false,
+      "type": "NSData ",
       "attributes": [
         "nonatomic",
         "strong",

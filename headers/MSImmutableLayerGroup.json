@@ -5,6 +5,14 @@
     "MSLayerGroup"
   ],
   "methods": {
+    "axisForInferredLayouts": {
+      "name": "axisForInferredLayouts",
+      "bridgedName": "axisForInferredLayouts",
+      "args": [],
+      "returns": "BCAxisMask",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "influenceRectClipsToBounds": {
       "name": "influenceRectClipsToBounds",
       "bridgedName": "influenceRectClipsToBounds",
@@ -32,6 +40,14 @@
         }
       ],
       "returns": "nullable MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultLayout": {
+      "name": "defaultLayout",
+      "bridgedName": "defaultLayout",
+      "args": [],
+      "returns": "MSImmutableGroupLayout *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -83,6 +99,15 @@
       "name": "mirrorViewPortSize",
       "pointer": false,
       "type": "CGSize",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasInferredLayout": {
+      "name": "hasInferredLayout",
+      "pointer": false,
+      "type": "BOOL",
       "attributes": [
         "nonatomic",
         "readonly"

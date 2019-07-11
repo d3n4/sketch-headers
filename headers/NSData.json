@@ -49,6 +49,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "initWithBase64URLEncodedString:)": {
+      "name": "initWithBase64URLEncodedString:)",
+      "bridgedName": "initWithBase64URLEncodedString_)",
+      "args": [
+        {
+          "name": "base64String",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "dataWithBase64Encoding_xcd:": {
       "name": "dataWithBase64Encoding_xcd:",
       "bridgedName": "dataWithBase64Encoding_xcd",
@@ -86,6 +100,16 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "base64URLEncodedString": {
+      "name": "base64URLEncodedString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

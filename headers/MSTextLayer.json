@@ -236,6 +236,14 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "pathsWithColorsFromGlyphsInBoundsWithParentGroupSplitByColorAttribute": {
+      "name": "pathsWithColorsFromGlyphsInBoundsWithParentGroupSplitByColorAttribute",
+      "bridgedName": "pathsWithColorsFromGlyphsInBoundsWithParentGroupSplitByColorAttribute",
+      "args": [],
+      "returns": "NSArray<MSPathWithColor *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "isEmpty": {
       "name": "isEmpty",
       "bridgedName": "isEmpty",

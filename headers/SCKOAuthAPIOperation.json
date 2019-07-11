@@ -46,8 +46,27 @@
       "bridgedName": "refreshAuthentication_handler",
       "args": [
         {
+          "name": "session",
+          "type": "SCKAPISession *",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "SCKOAuthAPIHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "refreshLicenseWithAuthentication:handler:": {
+      "name": "refreshLicenseWithAuthentication:handler:",
+      "bridgedName": "refreshLicenseWithAuthentication_handler",
+      "args": [
+        {
           "name": "authentication",
-          "type": "SCKAPIAuthentication *",
+          "type": "SCKAPISession *",
           "nullable": false
         },
         {
@@ -65,7 +84,7 @@
     "authentication": {
       "name": "authentication",
       "pointer": false,
-      "type": "SCKAPIAuthentication ",
+      "type": "SCKAPISession ",
       "attributes": [
         "nonatomic",
         "nullable",

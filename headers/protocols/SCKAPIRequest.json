@@ -17,7 +17,7 @@
     "authentication": {
       "name": "authentication",
       "pointer": false,
-      "type": "SCKAPIAuthentication ",
+      "type": "SCKAPISession ",
       "attributes": [
         "nonatomic",
         "nullable",

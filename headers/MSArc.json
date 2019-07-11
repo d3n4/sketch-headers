@@ -1,0 +1,219 @@
+{
+  "name": "MSArc",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "arcApproximationForSegment:maximumError:": {
+      "name": "arcApproximationForSegment:maximumError:",
+      "bridgedName": "arcApproximationForSegment_maximumError",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "maximumError",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSArc *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "arcApproximationForSegment:absoluteError:": {
+      "name": "arcApproximationForSegment:absoluteError:",
+      "bridgedName": "arcApproximationForSegment_absoluteError",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "absoluteError",
+          "type": "CGFloat * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSArc *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "arcWithEndPoint1:endPoint2:center:clockwise:": {
+      "name": "arcWithEndPoint1:endPoint2:center:clockwise:",
+      "bridgedName": "arcWithEndPoint1_endPoint2_center_clockwise",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "center",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "clockwise",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "lineWithEndPoint1:endPoint2:": {
+      "name": "lineWithEndPoint1:endPoint2:",
+      "bridgedName": "lineWithEndPoint1_endPoint2",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "absoluteErrorWithSegment:": {
+      "name": "absoluteErrorWithSegment:",
+      "bridgedName": "absoluteErrorWithSegment",
+      "args": [
+        {
+          "name": "segment",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "endPoint1": {
+      "name": "endPoint1",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "endPoint2": {
+      "name": "endPoint2",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "center": {
+      "name": "center",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "radius": {
+      "name": "radius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "clockwise": {
+      "name": "clockwise",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isClockwise"
+      ]
+    },
+    "startAngle": {
+      "name": "startAngle",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "endAngle": {
+      "name": "endAngle",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "startTangent": {
+      "name": "startTangent",
+      "pointer": false,
+      "type": "BCLine",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "endTangent": {
+      "name": "endTangent",
+      "pointer": false,
+      "type": "BCLine",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "startNormal": {
+      "name": "startNormal",
+      "pointer": false,
+      "type": "CGVector",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "endNormal": {
+      "name": "endNormal",
+      "pointer": false,
+      "type": "CGVector",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isALine": {
+      "name": "isALine",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

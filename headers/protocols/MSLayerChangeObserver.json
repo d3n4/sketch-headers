@@ -10,7 +10,7 @@
       "args": [
         {
           "name": "layer",
-          "type": "MSLayer *",
+          "type": "nonnull MSLayer *",
           "nullable": false
         }
       ],

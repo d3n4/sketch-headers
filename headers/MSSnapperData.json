@@ -183,7 +183,7 @@
     "dimensionAxes": {
       "name": "dimensionAxes",
       "pointer": false,
-      "type": "BCAxis",
+      "type": "BCAxisMask",
       "attributes": [
         "readonly"
       ]
@@ -191,7 +191,7 @@
     "spacingAxes": {
       "name": "spacingAxes",
       "pointer": false,
-      "type": "BCAxis",
+      "type": "BCAxisMask",
       "attributes": [
         "readonly"
       ]

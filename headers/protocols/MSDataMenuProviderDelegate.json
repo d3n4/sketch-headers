@@ -79,9 +79,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataMenuProviderIsInspectorPopupMenu:": {
-      "name": "dataMenuProviderIsInspectorPopupMenu:",
-      "bridgedName": "dataMenuProviderIsInspectorPopupMenu",
+    "dataMenuProviderIsOverrideMenu:": {
+      "name": "dataMenuProviderIsOverrideMenu:",
+      "bridgedName": "dataMenuProviderIsOverrideMenu",
       "args": [
         {
           "name": "provider",
@@ -165,6 +165,25 @@
         }
       ],
       "returns": "nullable NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataMenuProvider:willUpdateMenu:": {
+      "name": "dataMenuProvider:willUpdateMenu:",
+      "bridgedName": "dataMenuProvider_willUpdateMenu",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSDataMenuProvider *",
+          "nullable": false
+        },
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     }

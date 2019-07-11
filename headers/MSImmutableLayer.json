@@ -311,7 +311,7 @@
         },
         {
           "name": "relatedOverrides",
-          "type": "NSArray<MSOverrideValue *> *",
+          "type": "NSDictionary<NSString *, MSOverrideValue *> *",
           "nullable": false
         },
         {
@@ -321,6 +321,25 @@
         }
       ],
       "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "defaultOverrideVisibilityForPoint:ancestors:": {
+      "name": "defaultOverrideVisibilityForPoint:ancestors:",
+      "bridgedName": "defaultOverrideVisibilityForPoint_ancestors",
+      "args": [
+        {
+          "name": "overridePoint",
+          "type": "MSOverridePoint *",
+          "nullable": false
+        },
+        {
+          "name": "ancestors",
+          "type": "NSArray<MSImmutableLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -353,8 +372,8 @@
           "nullable": true
         },
         {
-          "name": "overrides",
-          "type": "NSArray<MSOverrideValue*> *",
+          "name": "overrideValues",
+          "type": "NSDictionary<NSString *, MSOverrideValue *> *",
           "nullable": false
         },
         {

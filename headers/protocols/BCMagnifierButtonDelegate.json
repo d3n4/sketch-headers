@@ -3,21 +3,6 @@
   "name": "BCMagnifierButtonDelegate",
   "extends": null,
   "interfaces": [],
-  "methods": {
-    "magnifierButtonDocumentColorSpace:": {
-      "name": "magnifierButtonDocumentColorSpace:",
-      "bridgedName": "magnifierButtonDocumentColorSpace",
-      "args": [
-        {
-          "name": "button",
-          "type": "BCMagnifierButton *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSColorSpace *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    }
-  },
+  "methods": {},
   "properties": {}
 }

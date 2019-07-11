@@ -387,6 +387,22 @@
       "value": "112"
     },
     {
+      "name": "MSDocumentLocalizeDefaultExportPreset",
+      "value": "113"
+    },
+    {
+      "name": "MSDocumentAddOverrideProperties",
+      "value": "114"
+    },
+    {
+      "name": "MSDocumentWrappedColorAndGradientAssets",
+      "value": "115"
+    },
+    {
+      "name": "MSDocumentNoiseAsPattern",
+      "value": "116"
+    },
+    {
       "name": "MSDocumentNextVersion"
     },
     {

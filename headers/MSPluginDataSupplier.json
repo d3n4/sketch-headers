@@ -123,6 +123,16 @@
         "nonatomic",
         "assign"
       ]
+    },
+    "subgroupName": {
+      "name": "subgroupName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
     }
   },
   "generics": []

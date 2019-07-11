@@ -23,6 +23,15 @@
         "nonatomic",
         "strong"
       ]
+    },
+    "flowItems": {
+      "name": "flowItems",
+      "pointer": false,
+      "type": "NSSet <MSFlowItem *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

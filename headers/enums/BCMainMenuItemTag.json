@@ -17,6 +17,10 @@
     {
       "name": "BCMainMenuReplaceWithItem",
       "value": "501"
+    },
+    {
+      "name": "BCMainMenuDebugItem",
+      "value": "1200"
     }
   ]
 }

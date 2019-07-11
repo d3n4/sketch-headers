@@ -681,6 +681,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "shouldRenderSymbolsAsDetachedGroups": {
+      "name": "shouldRenderSymbolsAsDetachedGroups",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

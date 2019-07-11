@@ -3,6 +3,14 @@
   "extends": "MSAssetCollection",
   "interfaces": [],
   "methods": {
+    "sharedGlobalAssets": {
+      "name": "sharedGlobalAssets",
+      "bridgedName": "sharedGlobalAssets",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "assetCollectionWithName:": {
       "name": "assetCollectionWithName:",
       "bridgedName": "assetCollectionWithName",
@@ -14,6 +22,20 @@
         }
       ],
       "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "assetCollectionFromCurrentBundleWithName:": {
+      "name": "assetCollectionFromCurrentBundleWithName:",
+      "bridgedName": "assetCollectionFromCurrentBundleWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPersistentAssetCollection *",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -60,14 +82,6 @@
       "bridgedName": "defaultMigrationSources",
       "args": [],
       "returns": "MSAssetMigrationSources *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "defaultExportPresets": {
-      "name": "defaultExportPresets",
-      "bridgedName": "defaultExportPresets",
-      "args": [],
-      "returns": "NSArray *",
       "kind": "class",
       "kindIndicator": "+"
     }

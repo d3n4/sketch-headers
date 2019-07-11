@@ -5,6 +5,39 @@
     "NSCopying"
   ],
   "methods": {
+    "keychainAuthenticationWithError:": {
+      "name": "keychainAuthenticationWithError:",
+      "bridgedName": "keychainAuthenticationWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "SCKAPISession *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setKeychainAuthentication:error:": {
+      "name": "setKeychainAuthentication:error:",
+      "bridgedName": "setKeychainAuthentication_error",
+      "args": [
+        {
+          "name": "session",
+          "type": "SCKAPISession *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * _Nullable * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "accountSettingsURLForUserID:)": {
       "name": "accountSettingsURLForUserID:)",
       "bridgedName": "accountSettingsURLForUserID_)",
@@ -15,7 +48,7 @@
           "nullable": true
         }
       ],
-      "returns": "nonnull NSURL *",
+      "returns": "NSURL *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -43,45 +76,7 @@
           "nullable": true
         }
       ],
-      "returns": "nonnull NSURL *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "signInURLUsingCallback:variant:)": {
-      "name": "signInURLUsingCallback:variant:)",
-      "bridgedName": "signInURLUsingCallback_variant_)",
-      "args": [
-        {
-          "name": "usingCallback",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "variant",
-          "type": "NSString *",
-          "nullable": true
-        }
-      ],
-      "returns": "nonnull NSURL *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "signUpURLUsingCallback:variant:)": {
-      "name": "signUpURLUsingCallback:variant:)",
-      "bridgedName": "signUpURLUsingCallback_variant_)",
-      "args": [
-        {
-          "name": "usingCallback",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "variant",
-          "type": "NSString *",
-          "nullable": true
-        }
-      ],
-      "returns": "nonnull NSURL *",
+      "returns": "NSURL *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -142,42 +137,45 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "keychainAuthenticationWithError:": {
-      "name": "keychainAuthenticationWithError:",
-      "bridgedName": "keychainAuthenticationWithError",
-      "args": [
-        {
-          "name": "error",
-          "type": "NSError * _Nullable * _Nullable",
-          "nullable": false
-        }
-      ],
-      "returns": "SCKAPIAuthentication *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "setKeychainAuthentication:error:": {
-      "name": "setKeychainAuthentication:error:",
-      "bridgedName": "setKeychainAuthentication_error",
-      "args": [
-        {
-          "name": "session",
-          "type": "SCKAPIAuthentication *",
-          "nullable": true
-        },
-        {
-          "name": "error",
-          "type": "NSError * _Nullable * _Nullable",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
+    "signUpURL": {
+      "name": "signUpURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "resetPasswordURL": {
+      "name": "resetPasswordURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "requestSignatureSecret": {
+      "name": "requestSignatureSecret",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "publicKeys": {
+      "name": "publicKeys",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "definition": {
       "name": "definition",
       "pointer": false,
@@ -214,15 +212,6 @@
       "attributes": [
         "nonatomic",
         "nonnull",
-        "readonly"
-      ]
-    },
-    "signature": {
-      "name": "signature",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "nonatomic",
         "readonly"
       ]
     },

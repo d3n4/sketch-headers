@@ -9,11 +9,11 @@
       "args": [
         {
           "name": "group",
-          "type": "MSImmutableLayerGroup *",
+          "type": "nonnull MSImmutableLayerGroup *",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -31,11 +31,25 @@
       "args": [
         {
           "name": "document",
-          "type": "MSImmutableDocumentData *",
+          "type": "nonnull MSImmutableDocumentData *",
           "nullable": false
         }
       ],
-      "returns": "NSArray<MSAvailableOverride *> *",
+      "returns": "nonnull NSArray<MSAvailableOverride *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "availableOverrideValuesWithDocument:": {
+      "name": "availableOverrideValuesWithDocument:",
+      "bridgedName": "availableOverrideValuesWithDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSArray<MSImmutableOverrideValue *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -45,7 +59,7 @@
       "args": [
         {
           "name": "document",
-          "type": "MSImmutableDocumentData *",
+          "type": "nonnull MSImmutableDocumentData *",
           "nullable": false
         }
       ],
@@ -59,11 +73,35 @@
       "args": [
         {
           "name": "document",
-          "type": "MSImmutableDocumentData *",
+          "type": "nonnull MSImmutableDocumentData *",
           "nullable": false
         }
       ],
-      "returns": "MSImmutableSymbolMaster *",
+      "returns": "nonnull MSImmutableSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "detachedLayerGroupRecursively:withDocument:visitedSymbols:": {
+      "name": "detachedLayerGroupRecursively:withDocument:visitedSymbols:",
+      "bridgedName": "detachedLayerGroupRecursively_withDocument_visitedSymbols",
+      "args": [
+        {
+          "name": "detachRecursively",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "nonnull MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "visitedSymbols",
+          "type": "NSSet *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable MSImmutableLayerGroup *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -73,12 +111,12 @@
       "args": [
         {
           "name": "objectIDMapping",
-          "type": "NSDictionary*",
+          "type": "nonnull NSDictionary*",
           "nullable": false
         },
         {
           "name": "symbolID",
-          "type": "NSString*",
+          "type": "nonnull NSString*",
           "nullable": false
         }
       ],
@@ -92,11 +130,11 @@
       "args": [
         {
           "name": "overrides",
-          "type": "NSDictionary *",
+          "type": "nonnull NSDictionary *",
           "nullable": false
         }
       ],
-      "returns": "NSDictionary *",
+      "returns": "nonnull NSDictionary *",
       "kind": "instance",
       "kindIndicator": "-"
     },

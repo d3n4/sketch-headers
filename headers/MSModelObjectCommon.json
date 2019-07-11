@@ -189,24 +189,6 @@
         "copy",
         "nonatomic"
       ]
-    },
-    "modelObjectCacheGeneration": {
-      "name": "modelObjectCacheGeneration",
-      "pointer": false,
-      "type": "MSModelObjectCacheGeneration ",
-      "attributes": [
-        "readonly",
-        "atomic"
-      ]
-    },
-    "hasModelObjectCacheGeneration": {
-      "name": "hasModelObjectCacheGeneration",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "readonly",
-        "nonatomic"
-      ]
     }
   },
   "generics": []

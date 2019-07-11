@@ -11,6 +11,13 @@
       "value": "0"
     },
     {
+      "name": "MSEventHandlerDragResize"
+    },
+    {
+      "name": "MSEventHandlerDragRotate",
+      "value": "3"
+    },
+    {
       "name": "MSEventHandlerDragSelect",
       "value": "2"
     }

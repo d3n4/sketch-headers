@@ -88,11 +88,38 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "pathsWithColorsFromGlyphsInBoundsWithParentGroupSplitByColorAttribute:layoutManager:": {
+      "name": "pathsWithColorsFromGlyphsInBoundsWithParentGroupSplitByColorAttribute:layoutManager:",
+      "bridgedName": "pathsWithColorsFromGlyphsInBoundsWithParentGroupSplitByColorAttribute_layoutManager",
+      "args": [
+        {
+          "name": "parentGroup",
+          "type": "MSImmutableLayerGroup *",
+          "nullable": true
+        },
+        {
+          "name": "layoutManager",
+          "type": "nonnull NSLayoutManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull NSArray<MSPathWithColor *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "usedFontNames": {
       "name": "usedFontNames",
       "bridgedName": "usedFontNames",
       "args": [],
-      "returns": "nonnull NSSet *",
+      "returns": "nonnull NSSet<NSString *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsUnsafeFonts": {
+      "name": "containsUnsafeFonts",
+      "bridgedName": "containsUnsafeFonts",
+      "args": [],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },

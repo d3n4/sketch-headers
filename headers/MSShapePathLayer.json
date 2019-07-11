@@ -106,6 +106,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "applyAffineTransformToPath:": {
+      "name": "applyAffineTransformToPath:",
+      "bridgedName": "applyAffineTransformToPath",
+      "args": [
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "adjustFrameAfterEditIntegral:fixAncestors:": {
       "name": "adjustFrameAfterEditIntegral:fixAncestors:",
       "bridgedName": "adjustFrameAfterEditIntegral_fixAncestors",
@@ -188,14 +202,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "flatten": {
-      "name": "flatten",
-      "bridgedName": "flatten",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "flattenedLayer": {
       "name": "flattenedLayer",
       "bridgedName": "flattenedLayer",
@@ -258,6 +264,15 @@
     }
   },
   "properties": {
+    "slope": {
+      "name": "slope",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "isEditing": {
       "name": "isEditing",
       "pointer": false,

@@ -2,7 +2,16 @@
   "name": "MSNormalEventData",
   "extends": "NSObject",
   "interfaces": [],
-  "methods": {},
+  "methods": {
+    "reset": {
+      "name": "reset",
+      "bridgedName": "reset",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "hasMultipleTouches": {
       "name": "hasMultipleTouches",
@@ -49,12 +58,12 @@
         "nonatomic"
       ]
     },
-    "resizingLayer": {
-      "name": "resizingLayer",
+    "dragMode": {
+      "name": "dragMode",
       "pointer": false,
-      "type": "__kindof MSLayer ",
+      "type": "MSEventHandlerDragMode",
       "attributes": [
-        "strong",
+        "assign",
         "nonatomic"
       ]
     },
@@ -63,16 +72,6 @@
       "pointer": false,
       "type": "BCCorner",
       "attributes": [
-        "assign",
-        "nonatomic"
-      ]
-    },
-    "dragMode": {
-      "name": "dragMode",
-      "pointer": false,
-      "type": "MSEventHandlerDragMode",
-      "attributes": [
-        "assign",
         "nonatomic"
       ]
     },

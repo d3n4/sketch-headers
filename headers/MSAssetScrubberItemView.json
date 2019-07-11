@@ -3,18 +3,28 @@
   "extends": "NSScrubberItemView",
   "interfaces": [],
   "methods": {
-    "initWithAssetAtIndex:amongAssetsassets canvasColorSpace:tailPadding:": {
-      "name": "initWithAssetAtIndex:amongAssetsassets canvasColorSpace:tailPadding:",
-      "bridgedName": "initWithAssetAtIndex_amongAssetsassets canvasColorSpace_tailPadding",
+    "initWithAsset:canvasColorSpace:isFirst:isLast:tailPadding:": {
+      "name": "initWithAsset:canvasColorSpace:isFirst:isLast:tailPadding:",
+      "bridgedName": "initWithAsset_canvasColorSpace_isFirst_isLast_tailPadding",
       "args": [
         {
-          "name": "index",
-          "type": "NSUInteger",
+          "name": "asset",
+          "type": "id<MSAsset>",
           "nullable": false
         },
         {
           "name": "colorSpace",
           "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "isFirst",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "isLast",
+          "type": "BOOL",
           "nullable": false
         },
         {

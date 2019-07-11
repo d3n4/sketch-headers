@@ -3,6 +3,14 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
+    "preferredAcceleratorClassName": {
+      "name": "preferredAcceleratorClassName",
+      "bridgedName": "preferredAcceleratorClassName",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "initWithCompletionHandler:": {
       "name": "initWithCompletionHandler:",
       "bridgedName": "initWithCompletionHandler",

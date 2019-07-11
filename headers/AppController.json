@@ -123,6 +123,35 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "runPluginCommand:fromMenu:context:onComplete:": {
+      "name": "runPluginCommand:fromMenu:context:onComplete:",
+      "bridgedName": "runPluginCommand_fromMenu_context_onComplete",
+      "args": [
+        {
+          "name": "command",
+          "type": "MSPluginCommand *",
+          "nullable": false
+        },
+        {
+          "name": "fromMenu",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id>*",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "void (^)(NSString *)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "runPluginScript:name:": {
       "name": "runPluginScript:name:",
       "bridgedName": "runPluginScript_name",
@@ -564,15 +593,6 @@
       "type": "NSTimeInterval",
       "attributes": [
         "assign",
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "globalAssets": {
-      "name": "globalAssets",
-      "pointer": false,
-      "type": "MSPersistentAssetCollection ",
-      "attributes": [
         "nonatomic",
         "readonly"
       ]

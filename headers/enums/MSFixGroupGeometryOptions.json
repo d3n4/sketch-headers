@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSFixGroupGeometryOptions",
+  "members": [
+    {
+      "name": "MSFixGroupGeometryGroupOnly",
+      "value": "0"
+    },
+    {
+      "name": "MSFixGroupGeometryRecursive",
+      "value": "1 << 0"
+    }
+  ]
+}

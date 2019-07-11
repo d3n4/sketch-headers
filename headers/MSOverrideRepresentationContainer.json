@@ -19,6 +19,15 @@
     }
   },
   "properties": {
+    "inspectorOverrides": {
+      "name": "inspectorOverrides",
+      "pointer": false,
+      "type": "NSArray<MSOverrideRepresentation *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "selectedOverrides": {
       "name": "selectedOverrides",
       "pointer": false,

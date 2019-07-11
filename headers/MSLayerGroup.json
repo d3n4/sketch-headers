@@ -109,27 +109,43 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "groupBoundsForContainer:": {
-      "name": "groupBoundsForContainer:",
-      "bridgedName": "groupBoundsForContainer",
+    "optimalBoundingBoxInParentCoordinates": {
+      "name": "optimalBoundingBoxInParentCoordinates",
+      "bridgedName": "optimalBoundingBoxInParentCoordinates",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "optimalBoundingBox": {
+      "name": "optimalBoundingBox",
+      "bridgedName": "optimalBoundingBox",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldResizeToFitBounds:": {
+      "name": "shouldResizeToFitBounds:",
+      "bridgedName": "shouldResizeToFitBounds",
       "args": [
         {
-          "name": "containter",
-          "type": "id <MSLayerContainment>",
+          "name": "rect",
+          "type": "NSRect",
           "nullable": false
         }
       ],
-      "returns": "NSRect",
-      "kind": "class",
-      "kindIndicator": "+"
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
     },
     "groupBoundsShouldBeIntegral": {
       "name": "groupBoundsShouldBeIntegral",
       "bridgedName": "groupBoundsShouldBeIntegral",
       "args": [],
       "returns": "BOOL",
-      "kind": "class",
-      "kindIndicator": "+"
+      "kind": "instance",
+      "kindIndicator": "-"
     },
     "deselectLayerAndParent": {
       "name": "deselectLayerAndParent",
@@ -139,17 +155,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "resizeToFitChildrenWithOption:": {
-      "name": "resizeToFitChildrenWithOption:",
-      "bridgedName": "resizeToFitChildrenWithOption",
+    "fixGeometryWithOptions:": {
+      "name": "fixGeometryWithOptions:",
+      "bridgedName": "fixGeometryWithOptions",
       "args": [
         {
           "name": "resizeOption",
-          "type": "MSLayerGroupResizeOption",
+          "type": "MSFixGroupGeometryOptions",
           "nullable": false
         }
       ],
       "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveTransformsToChildren": {
+      "name": "moveTransformsToChildren",
+      "bridgedName": "moveTransformsToChildren",
+      "args": [],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -193,9 +217,25 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "defaultLayout": {
+      "name": "defaultLayout",
+      "bridgedName": "defaultLayout",
+      "args": [],
+      "returns": "MSGroupLayout *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
+    "hasInferredLayout": {
+      "name": "hasInferredLayout",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
     "isAutomaticScalingEnabled": {
       "name": "isAutomaticScalingEnabled",
       "pointer": false,

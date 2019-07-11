@@ -18,17 +18,64 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dataSupplierDataChanged:": {
-      "name": "dataSupplierDataChanged:",
-      "bridgedName": "dataSupplierDataChanged",
+    "dataSupplierDataDidChange:": {
+      "name": "dataSupplierDataDidChange:",
+      "bridgedName": "dataSupplierDataDidChange",
       "args": [
         {
-          "name": "localDataSupplier",
-          "type": "MSLocalDataSupplier *",
+          "name": "dataSupplier",
+          "type": "MSDataSupplier *",
           "nullable": false
         }
       ],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataSupplierGroupDidChange:": {
+      "name": "dataSupplierGroupDidChange:",
+      "bridgedName": "dataSupplierGroupDidChange",
+      "args": [
+        {
+          "name": "dataSupplierGroup",
+          "type": "MSDataSupplierGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "replaceLocalDataSupplierGroup:withLocalGroup:": {
+      "name": "replaceLocalDataSupplierGroup:withLocalGroup:",
+      "bridgedName": "replaceLocalDataSupplierGroup_withLocalGroup",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSLocalDataSupplierGroup *",
+          "nullable": false
+        },
+        {
+          "name": "newGroup",
+          "type": "MSLocalDataSupplierGroup *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "groupNameForPluginGroupIdentifier:": {
+      "name": "groupNameForPluginGroupIdentifier:",
+      "bridgedName": "groupNameForPluginGroupIdentifier",
+      "args": [
+        {
+          "name": "pluginGroupIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
       "kind": "instance",
       "kindIndicator": "-"
     }

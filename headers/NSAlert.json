@@ -3,37 +3,23 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "runModalWithMessage:info:": {
-      "name": "runModalWithMessage:info:",
-      "bridgedName": "runModalWithMessage_info",
+    "runSheetWithMessage:info:buttons:": {
+      "name": "runSheetWithMessage:info:buttons:",
+      "bridgedName": "runSheetWithMessage_info_buttons",
       "args": [
         {
           "name": "message",
           "type": "NSString*",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "info",
-          "type": "NSString*",
-          "nullable": false
-        }
-      ],
-      "returns": "NSModalResponse",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "runSheetWithMessage:info:": {
-      "name": "runSheetWithMessage:info:",
-      "bridgedName": "runSheetWithMessage_info",
-      "args": [
-        {
-          "name": "message",
-          "type": "NSString*",
+          "type": "nonnull NSString*",
           "nullable": false
         },
         {
-          "name": "info",
-          "type": "NSString*",
+          "name": "buttons",
+          "type": "nonnull NSArray*",
           "nullable": false
         }
       ],
@@ -48,16 +34,16 @@
         {
           "name": "message",
           "type": "NSString*",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "info",
-          "type": "NSString*",
+          "type": "nonnull NSString*",
           "nullable": false
         },
         {
           "name": "buttons",
-          "type": "NSArray*",
+          "type": "nonnull NSArray*",
           "nullable": false
         }
       ],
@@ -72,16 +58,16 @@
         {
           "name": "message",
           "type": "NSString *",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "info",
-          "type": "NSString *",
+          "type": "nonnull NSString *",
           "nullable": false
         },
         {
           "name": "buttons",
-          "type": "NSArray *",
+          "type": "nonnull NSArray *",
           "nullable": false
         }
       ],
@@ -96,20 +82,20 @@
         {
           "name": "message",
           "type": "NSString*",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "info",
-          "type": "NSString*",
+          "type": "nonnull NSString*",
           "nullable": false
         },
         {
           "name": "buttons",
-          "type": "NSArray*",
+          "type": "nonnull NSArray*",
           "nullable": false
         }
       ],
-      "returns": "NSAlert*",
+      "returns": "nonnull NSAlert *",
       "kind": "class",
       "kindIndicator": "+"
     }

@@ -46,6 +46,22 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "stop": {
+      "name": "stop",
+      "bridgedName": "stop",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "restart": {
+      "name": "restart",
+      "bridgedName": "restart",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "flush": {
       "name": "flush",
       "bridgedName": "flush",

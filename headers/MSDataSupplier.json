@@ -45,6 +45,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "isEqualToDataSupplier:": {
+      "name": "isEqualToDataSupplier:",
+      "bridgedName": "isEqualToDataSupplier",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "resetMenuItemImage": {
       "name": "resetMenuItemImage",
       "bridgedName": "resetMenuItemImage",
@@ -183,6 +197,15 @@
         "copy"
       ]
     },
+    "displayName": {
+      "name": "displayName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "dataType": {
       "name": "dataType",
       "pointer": false,
@@ -226,6 +249,15 @@
       "attributes": [
         "nonatomic",
         "assign"
+      ]
+    },
+    "isUsableDataSupplier": {
+      "name": "isUsableDataSupplier",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
       ]
     },
     "menuItemImage": {

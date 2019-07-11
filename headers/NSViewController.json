@@ -59,6 +59,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "addChildViewController:fittingIntoView:": {
+      "name": "addChildViewController:fittingIntoView:",
+      "bridgedName": "addChildViewController_fittingIntoView",
+      "args": [
+        {
+          "name": "childController",
+          "type": "NSViewController *",
+          "nullable": false
+        },
+        {
+          "name": "containerView",
+          "type": "NSView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "inspectorController": {
       "name": "inspectorController",
       "bridgedName": "inspectorController",

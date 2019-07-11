@@ -71,6 +71,34 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "createFlowDotImage:CF_RETURNS_RETAINED": {
+      "name": "createFlowDotImage:CF_RETURNS_RETAINED",
+      "bridgedName": "createFlowDotImage_CF_RETURNS_RETAINED",
+      "args": [
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGImageRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createFlowHotspotImage:CF_RETURNS_RETAINED": {
+      "name": "createFlowHotspotImage:CF_RETURNS_RETAINED",
+      "bridgedName": "createFlowHotspotImage_CF_RETURNS_RETAINED",
+      "args": [
+        {
+          "name": "backingScaleFactor",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGImageRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "flowColor": {
       "name": "flowColor",
       "bridgedName": "flowColor",

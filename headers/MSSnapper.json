@@ -9,7 +9,7 @@
       "args": [
         {
           "name": "snap",
-          "type": "BCAxis",
+          "type": "BCAxisMask",
           "nullable": false
         },
         {
@@ -18,7 +18,7 @@
           "nullable": false
         }
       ],
-      "returns": "BCAxis",
+      "returns": "BCAxisMask",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -37,7 +37,7 @@
           "nullable": false
         }
       ],
-      "returns": "BCAxis",
+      "returns": "BCAxisMask",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -66,7 +66,7 @@
         },
         {
           "name": "adjustableAxes",
-          "type": "BCAxis",
+          "type": "BCAxisMask",
           "nullable": false
         },
         {

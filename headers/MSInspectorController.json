@@ -252,15 +252,6 @@
         "weak"
       ]
     },
-    "globalAssets": {
-      "name": "globalAssets",
-      "pointer": false,
-      "type": "MSPersistentAssetCollection ",
-      "attributes": [
-        "nonatomic",
-        "strong"
-      ]
-    },
     "alignmentBarHidden": {
       "name": "alignmentBarHidden",
       "pointer": false,

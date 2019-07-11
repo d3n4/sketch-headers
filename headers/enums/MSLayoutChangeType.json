@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSLayoutChangeType",
+  "members": [
+    {
+      "name": "MSLayoutChangeTypeNone",
+      "value": "0"
+    },
+    {
+      "name": "MSLayoutChangeTypeOverrides",
+      "value": "1"
+    },
+    {
+      "name": "MSLayoutChangeTypeResize",
+      "value": "2"
+    }
+  ]
+}

@@ -133,9 +133,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "loadInternalLibraryRepresentationWithCompletionHandler:": {
-      "name": "loadInternalLibraryRepresentationWithCompletionHandler:",
-      "bridgedName": "loadInternalLibraryRepresentationWithCompletionHandler",
+    "loadRemoteLibraryRepresentationWithCompletionHandler:": {
+      "name": "loadRemoteLibraryRepresentationWithCompletionHandler:",
+      "bridgedName": "loadRemoteLibraryRepresentationWithCompletionHandler",
       "args": [
         {
           "name": "completionHandler",
@@ -143,6 +143,14 @@
           "nullable": false
         }
       ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "copyInternalLibraryToApplicationSupport": {
+      "name": "copyInternalLibraryToApplicationSupport",
+      "bridgedName": "copyInternalLibraryToApplicationSupport",
+      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

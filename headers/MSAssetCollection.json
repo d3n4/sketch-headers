@@ -23,7 +23,69 @@
       "args": [
         {
           "name": "asset",
-          "type": "id<MSAsset>",
+          "type": "nonnull id<MSAsset>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAsset:withName:": {
+      "name": "addAsset:withName:",
+      "bridgedName": "addAsset_withName",
+      "args": [
+        {
+          "name": "asset",
+          "type": "nonnull id<MSAsset>",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nameOfAssetAtIndex:ofType:": {
+      "name": "nameOfAssetAtIndex:ofType:",
+      "bridgedName": "nameOfAssetAtIndex_ofType",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSAsset",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setName:forAssetAtIndex:ofType:": {
+      "name": "setName:forAssetAtIndex:ofType:",
+      "bridgedName": "setName_forAssetAtIndex_ofType",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "type",
+          "type": "MSAsset",
           "nullable": false
         }
       ],
@@ -46,7 +108,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "nonnull id",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -75,11 +137,11 @@
       "args": [
         {
           "name": "asset",
-          "type": "id<MSAsset>",
+          "type": "nonnull id<MSAsset>",
           "nullable": false
         }
       ],
-      "returns": "NSIndexSet *",
+      "returns": "nonnull NSIndexSet *",
       "kind": "instance",
       "kindIndicator": "-"
     },

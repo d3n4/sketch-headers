@@ -20,7 +20,7 @@
         },
         {
           "name": "cacheObject",
-          "type": "MSModelObjectCommon *",
+          "type": "id <MSModelObject>",
           "nullable": false
         },
         {
@@ -118,7 +118,7 @@
         },
         {
           "name": "cacheObject",
-          "type": "MSModelObjectCommon *",
+          "type": "id <MSModelObject>",
           "nullable": false
         }
       ],

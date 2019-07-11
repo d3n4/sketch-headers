@@ -1,0 +1,67 @@
+{
+  "protocol": true,
+  "name": "MSAssetCollectionViewSourceItemProvider",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "collectionViewSource:vendItemForIndexPath:asset:name:highlighted:": {
+      "name": "collectionViewSource:vendItemForIndexPath:asset:name:highlighted:",
+      "bridgedName": "collectionViewSource_vendItemForIndexPath_asset_name_highlighted",
+      "args": [
+        {
+          "name": "source",
+          "type": "MSAssetCollectionViewDataSource *",
+          "nullable": false
+        },
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        },
+        {
+          "name": "asset",
+          "type": "id<MSAsset>",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "highlighted",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSCollectionViewItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "collectionViewSource:vendSupplementaryViewOfKind:forIndexPath:": {
+      "name": "collectionViewSource:vendSupplementaryViewOfKind:forIndexPath:",
+      "bridgedName": "collectionViewSource_vendSupplementaryViewOfKind_forIndexPath",
+      "args": [
+        {
+          "name": "source",
+          "type": "MSAssetCollectionViewDataSource *",
+          "nullable": false
+        },
+        {
+          "name": "kind",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSView *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

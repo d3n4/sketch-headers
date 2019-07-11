@@ -379,7 +379,7 @@
         },
         {
           "name": "tangent",
-          "type": "MSLine",
+          "type": "BCLine",
           "nullable": false
         },
         {
@@ -1284,81 +1284,6 @@
         {
           "name": "aString",
           "type": "NSString *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "circleAtPoint:": {
-      "name": "circleAtPoint:",
-      "bridgedName": "circleAtPoint",
-      "args": [
-        {
-          "name": "point",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "rectAtPoint:": {
-      "name": "rectAtPoint:",
-      "bridgedName": "rectAtPoint",
-      "args": [
-        {
-          "name": "point",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "triangleAtPoint:direction:": {
-      "name": "triangleAtPoint:direction:",
-      "bridgedName": "triangleAtPoint_direction",
-      "args": [
-        {
-          "name": "point",
-          "type": "NSPoint",
-          "nullable": false
-        },
-        {
-          "name": "tangent",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "smallCircleAtPoint:": {
-      "name": "smallCircleAtPoint:",
-      "bridgedName": "smallCircleAtPoint",
-      "args": [
-        {
-          "name": "point",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "NSBezierPath *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
-    "smallRectAtPoint:": {
-      "name": "smallRectAtPoint:",
-      "bridgedName": "smallRectAtPoint",
-      "args": [
-        {
-          "name": "point",
-          "type": "NSPoint",
           "nullable": false
         }
       ],

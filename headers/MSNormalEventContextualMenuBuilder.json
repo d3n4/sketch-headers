@@ -3,21 +3,18 @@
   "extends": "NSObject",
   "interfaces": [],
   "methods": {
-    "constructMenus": {
-      "name": "constructMenus",
-      "bridgedName": "constructMenus",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "menuForLayers:": {
-      "name": "menuForLayers:",
-      "bridgedName": "menuForLayers",
+    "menuForLayers:inContext:": {
+      "name": "menuForLayers:inContext:",
+      "bridgedName": "menuForLayers_inContext",
       "args": [
         {
           "name": "layers",
           "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSContextualMenuBuilderContext",
           "nullable": false
         }
       ],

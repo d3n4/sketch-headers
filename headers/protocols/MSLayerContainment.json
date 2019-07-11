@@ -78,7 +78,7 @@
           "nullable": false
         }
       ],
-      "returns": "nullable id",
+      "returns": "nullable __kindof MSLayer *",
       "kind": "instance",
       "kindIndicator": "-"
     },

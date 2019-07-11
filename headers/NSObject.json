@@ -394,6 +394,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "JSValueForObject:shouldCreateBox:": {
+      "name": "JSValueForObject:shouldCreateBox:",
+      "bridgedName": "JSValueForObject_shouldCreateBox",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "shouldCreateBox",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "encodeWithArchiver:": {
       "name": "encodeWithArchiver:",
       "bridgedName": "encodeWithArchiver",
@@ -432,14 +451,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "immutableModelObject": {
-      "name": "immutableModelObject",
-      "bridgedName": "immutableModelObject",
-      "args": [],
-      "returns": "id",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "copyWithOptions:": {
       "name": "copyWithOptions:",
       "bridgedName": "copyWithOptions",
@@ -450,7 +461,7 @@
           "nullable": false
         }
       ],
-      "returns": "id",
+      "returns": "nonnull id",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -539,67 +550,6 @@
       "returns": "id",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "drawContentForButton:inRect:": {
-      "name": "drawContentForButton:inRect:",
-      "bridgedName": "drawContentForButton_inRect",
-      "args": [
-        {
-          "name": "button",
-          "type": "MSPresetPickerPresetButton *",
-          "nullable": false
-        },
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "removePresetForButton:": {
-      "name": "removePresetForButton:",
-      "bridgedName": "removePresetForButton",
-      "args": [
-        {
-          "name": "menuItem",
-          "type": "NSMenuItem *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "shouldShowMenuForButton:": {
-      "name": "shouldShowMenuForButton:",
-      "bridgedName": "shouldShowMenuForButton",
-      "args": [
-        {
-          "name": "button",
-          "type": "MSPresetPickerPresetButton *",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "removePresetWithTag:": {
-      "name": "removePresetWithTag:",
-      "bridgedName": "removePresetWithTag",
-      "args": [
-        {
-          "name": "tag",
-          "type": "NSInteger",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -620,6 +570,16 @@
         "nonatomic",
         "readonly",
         "nullable"
+      ]
+    },
+    "immutableModelObject": {
+      "name": "immutableModelObject",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
       ]
     }
   },

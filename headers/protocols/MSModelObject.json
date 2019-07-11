@@ -4,5 +4,16 @@
   "extends": null,
   "interfaces": [],
   "methods": {},
-  "properties": {}
+  "properties": {
+    "modelObjectCacheGeneration": {
+      "name": "modelObjectCacheGeneration",
+      "pointer": false,
+      "type": "MSModelObjectCacheGeneration ",
+      "attributes": [
+        "nullable",
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  }
 }

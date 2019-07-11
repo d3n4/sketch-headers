@@ -27,6 +27,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "flowItems:": {
+      "name": "flowItems:",
+      "bridgedName": "flowItems",
+      "args": [
+        {
+          "name": "pageOverlayRenderOptions",
+          "type": "MSPageOverlayRenderOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet <MSFlowItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {}

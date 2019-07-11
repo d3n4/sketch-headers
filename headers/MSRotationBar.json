@@ -4,8 +4,8 @@
   "interfaces": [],
   "methods": {},
   "properties": {
-    "rotation": {
-      "name": "rotation",
+    "userVisibleRotation": {
+      "name": "userVisibleRotation",
       "pointer": false,
       "type": "CGFloat",
       "attributes": [

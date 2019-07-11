@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSCloudSigninResult",
+  "members": [
+    {
+      "name": "MSCloudSigninResultSuccess",
+      "value": "NSModalResponseOK"
+    },
+    {
+      "name": "MSCloudSigninResultCancel",
+      "value": "NSModalResponseCancel"
+    }
+  ]
+}

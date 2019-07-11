@@ -1,44 +1,16 @@
 {
   "name": "MSColorInspectorSectionGradient",
-  "extends": "MSColorInspectorSection",
+  "extends": "MSColorInspectorSectionWithPicker",
   "interfaces": [
     "MSGradientEventHandlerDelegate",
     "MSGradientBarViewDelegate"
   ],
   "methods": {
-    "switchToGradientHandler": {
-      "name": "switchToGradientHandler",
-      "bridgedName": "switchToGradientHandler",
+    "switchToGradientHandlerIfNecessary": {
+      "name": "switchToGradientHandlerIfNecessary",
+      "bridgedName": "switchToGradientHandlerIfNecessary",
       "args": [],
       "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "gradientBarAction:": {
-      "name": "gradientBarAction:",
-      "bridgedName": "gradientBarAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "rotateGradientAction:": {
-      "name": "rotateGradientAction:",
-      "bridgedName": "rotateGradientAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -49,26 +21,9 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "switchToGradientHandlerIfNecessary": {
-      "name": "switchToGradientHandlerIfNecessary",
-      "bridgedName": "switchToGradientHandlerIfNecessary",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
-    "gradientBarParentView": {
-      "name": "gradientBarParentView",
-      "pointer": false,
-      "type": "IBOutlet NSView ",
-      "attributes": [
-        "nonatomic",
-        "weak"
-      ]
-    },
     "gradientBarView": {
       "name": "gradientBarView",
       "pointer": false,

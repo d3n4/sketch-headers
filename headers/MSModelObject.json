@@ -5,6 +5,14 @@
     "MSModelObject"
   ],
   "methods": {
+    "correctInvalidGamma": {
+      "name": "correctInvalidGamma",
+      "bridgedName": "correctInvalidGamma",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "cachedValueForKey:": {
       "name": "cachedValueForKey:",
       "bridgedName": "cachedValueForKey",
@@ -130,7 +138,7 @@
       "name": "immutableClass",
       "bridgedName": "immutableClass",
       "args": [],
-      "returns": "Class",
+      "returns": "nonnull Class",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -141,12 +149,31 @@
         {
           "name": "object",
           "type": "MSModelObject *",
-          "nullable": false
+          "nullable": true
         },
         {
           "name": "propertyName",
           "type": "NSString *",
-          "nullable": false
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "invalidateModelCacheGenerationForObject:property:": {
+      "name": "invalidateModelCacheGenerationForObject:property:",
+      "bridgedName": "invalidateModelCacheGenerationForObject_property",
+      "args": [
+        {
+          "name": "object",
+          "type": "MSModelObject *",
+          "nullable": true
+        },
+        {
+          "name": "propertyName",
+          "type": "NSString *",
+          "nullable": true
         }
       ],
       "returns": "void",
@@ -191,11 +218,11 @@
       "args": [
         {
           "name": "immutableBase",
-          "type": "MSImmutableModelObject *",
+          "type": "nonnull MSImmutableModelObject *",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -213,7 +240,7 @@
       "args": [
         {
           "name": "object",
-          "type": "MSModelObject *",
+          "type": "nonnull MSModelObject *",
           "nullable": false
         }
       ],
@@ -249,7 +276,7 @@
       "name": "undoManager",
       "bridgedName": "undoManager",
       "args": [],
-      "returns": "NSUndoManager*",
+      "returns": "nonnull NSUndoManager*",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -259,7 +286,7 @@
       "args": [
         {
           "name": "name",
-          "type": "NSString*",
+          "type": "nonnull NSString*",
           "nullable": false
         }
       ],
@@ -273,7 +300,7 @@
       "args": [
         {
           "name": "name",
-          "type": "NSString*",
+          "type": "nonnull NSString*",
           "nullable": false
         }
       ],
@@ -295,12 +322,12 @@
       "args": [
         {
           "name": "name",
-          "type": "NSString*",
+          "type": "nonnull NSString*",
           "nullable": false
         },
         {
           "name": "action",
-          "type": "MSUndoActionBlock",
+          "type": "nonnull MSUndoActionBlock",
           "nullable": false
         }
       ],
@@ -314,7 +341,7 @@
       "args": [
         {
           "name": "objectCopy",
-          "type": "id",
+          "type": "nonnull id",
           "nullable": false
         },
         {
@@ -333,7 +360,7 @@
       "args": [
         {
           "name": "object",
-          "type": "id",
+          "type": "nonnull id",
           "nullable": false
         }
       ],
@@ -387,7 +414,8 @@
       "attributes": [
         "weak",
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nullable"
       ]
     },
     "parentObject": {
@@ -396,7 +424,8 @@
       "type": "MSModelObject ",
       "attributes": [
         "weak",
-        "nonatomic"
+        "nonatomic",
+        "nullable"
       ]
     },
     "immutableModelObject": {
@@ -405,7 +434,8 @@
       "type": "id",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "isFault": {

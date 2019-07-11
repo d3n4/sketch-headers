@@ -16,7 +16,7 @@
     "currentColor": {
       "name": "currentColor",
       "pointer": false,
-      "type": "BCFlexibleColor ",
+      "type": "MSFlexibleColor ",
       "attributes": [
         "nonatomic",
         "retain"

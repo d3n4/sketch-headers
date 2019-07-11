@@ -17,9 +17,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "drawContentInRect:dirtyRect:": {
-      "name": "drawContentInRect:dirtyRect:",
-      "bridgedName": "drawContentInRect_dirtyRect",
+    "drawBackgroundInRect:dirtyRect:": {
+      "name": "drawBackgroundInRect:dirtyRect:",
+      "bridgedName": "drawBackgroundInRect_dirtyRect",
       "args": [
         {
           "name": "contentRect",
@@ -80,14 +80,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "darkShadow": {
-      "name": "darkShadow",
-      "bridgedName": "darkShadow",
-      "args": [],
-      "returns": "NSShadow *",
-      "kind": "class",
-      "kindIndicator": "+"
-    },
     "drawFrameInRect:forView:block:": {
       "name": "drawFrameInRect:forView:block:",
       "bridgedName": "drawFrameInRect_forView_block",
@@ -112,9 +104,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "drawFrameInRect:outlineWidth:block:": {
-      "name": "drawFrameInRect:outlineWidth:block:",
-      "bridgedName": "drawFrameInRect_outlineWidth_block",
+    "drawFrameInRect:outlineWidth:cornerRadius:block:": {
+      "name": "drawFrameInRect:outlineWidth:cornerRadius:block:",
+      "bridgedName": "drawFrameInRect_outlineWidth_cornerRadius_block",
       "args": [
         {
           "name": "contentRect",
@@ -123,6 +115,11 @@
         },
         {
           "name": "lineWidth",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "cornerRadius",
           "type": "CGFloat",
           "nullable": false
         },

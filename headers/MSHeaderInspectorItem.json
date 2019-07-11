@@ -31,6 +31,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "setLabelLeadingMargin:": {
+      "name": "setLabelLeadingMargin:",
+      "bridgedName": "setLabelLeadingMargin",
+      "args": [
+        {
+          "name": "margin",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -78,6 +92,22 @@
       "name": "wantsSeparatorInset",
       "pointer": false,
       "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "accessoryViews": {
+      "name": "accessoryViews",
+      "pointer": false,
+      "type": "NSArray <NSView *> ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "titleView": {
+      "name": "titleView",
+      "pointer": false,
+      "type": "NSView ",
       "attributes": [
         "nonatomic"
       ]

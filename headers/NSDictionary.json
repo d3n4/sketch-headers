@@ -364,7 +364,7 @@
       "args": [
         {
           "name": "possibleKeys",
-          "type": "NSArray *",
+          "type": "nonnull NSArray *",
           "nullable": false
         },
         {

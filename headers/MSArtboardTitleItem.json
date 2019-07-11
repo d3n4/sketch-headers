@@ -1,0 +1,78 @@
+{
+  "name": "MSArtboardTitleItem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "isEqualToItem:": {
+      "name": "isEqualToItem:",
+      "bridgedName": "isEqualToItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSArtboardTitleItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "bounds": {
+      "name": "bounds",
+      "pointer": false,
+      "type": "BCIntRect",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "CGColorRef",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "attributedTitle": {
+      "name": "attributedTitle",
+      "pointer": false,
+      "type": "NSAttributedString ",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "isFlowHome": {
+      "name": "isFlowHome",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "titleCompression": {
+      "name": "titleCompression",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    },
+    "isSymbolMaster": {
+      "name": "isSymbolMaster",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readwrite"
+      ]
+    }
+  },
+  "generics": []
+}

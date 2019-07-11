@@ -7,7 +7,7 @@
     "saturationField": {
       "name": "saturationField",
       "pointer": false,
-      "type": "IBOutlet MSUpDownTextField ",
+      "type": "IBOutlet MSInlineUpDownTextField ",
       "attributes": [
         "nonatomic"
       ]

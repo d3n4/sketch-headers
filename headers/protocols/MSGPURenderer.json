@@ -4,6 +4,14 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "isCompatibleWithAvailableGPUs": {
+      "name": "isCompatibleWithAvailableGPUs",
+      "bridgedName": "isCompatibleWithAvailableGPUs",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "scheduleDrawBlock:": {
       "name": "scheduleDrawBlock:",
       "bridgedName": "scheduleDrawBlock",
@@ -80,13 +88,37 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "drawColorTriangleMesh:": {
-      "name": "drawColorTriangleMesh:",
-      "bridgedName": "drawColorTriangleMesh",
+    "drawColorTriangleMesh:disableOverlappingFragmentBlending:": {
+      "name": "drawColorTriangleMesh:disableOverlappingFragmentBlending:",
+      "bridgedName": "drawColorTriangleMesh_disableOverlappingFragmentBlending",
       "args": [
         {
           "name": "mesh",
           "type": "nonnull const MSColorTriangleMesh *",
+          "nullable": false
+        },
+        {
+          "name": "disableOverlappingFragmentBlending",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawTexturedTriangleMesh:sourceTexture:": {
+      "name": "drawTexturedTriangleMesh:sourceTexture:",
+      "bridgedName": "drawTexturedTriangleMesh_sourceTexture",
+      "args": [
+        {
+          "name": "mesh",
+          "type": "nonnull const MSTexturedTriangleMesh *",
+          "nullable": false
+        },
+        {
+          "name": "sourceTexture",
+          "type": "id<MSGPUTexture>",
           "nullable": false
         }
       ],
@@ -256,6 +288,86 @@
       "bridgedName": "unlockTextures",
       "args": [],
       "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawColorTriangleMesh:modelViewTransform:": {
+      "name": "drawColorTriangleMesh:modelViewTransform:",
+      "bridgedName": "drawColorTriangleMesh_modelViewTransform",
+      "args": [
+        {
+          "name": "mesh",
+          "type": "nonnull const MSColorTriangleMesh *",
+          "nullable": false
+        },
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawArcVertexBuffer:color:modelViewTransform:backingScale:": {
+      "name": "drawArcVertexBuffer:color:modelViewTransform:backingScale:",
+      "bridgedName": "drawArcVertexBuffer_color_modelViewTransform_backingScale",
+      "args": [
+        {
+          "name": "buffer",
+          "type": "nonnull MSArcVertexBuffer *",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "nonnull const MSRGBAColor *",
+          "nullable": false
+        },
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        },
+        {
+          "name": "backingScale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawTextureVertexBuffer:sourceTexture:modelViewTransform:": {
+      "name": "drawTextureVertexBuffer:sourceTexture:modelViewTransform:",
+      "bridgedName": "drawTextureVertexBuffer_sourceTexture_modelViewTransform",
+      "args": [
+        {
+          "name": "buffer",
+          "type": "nonnull MSTextureVertexBuffer *",
+          "nullable": false
+        },
+        {
+          "name": "sourceTexture",
+          "type": "nonnull id<MSGPUTexture>",
+          "nullable": false
+        },
+        {
+          "name": "transform",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "maximumTextureSize": {
+      "name": "maximumTextureSize",
+      "bridgedName": "maximumTextureSize",
+      "args": [],
+      "returns": "BCIntSize",
       "kind": "instance",
       "kindIndicator": "-"
     }

@@ -12,6 +12,15 @@
         "nonatomic",
         "copy"
       ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSThemeImageViewDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
     }
   },
   "generics": []

@@ -51,6 +51,46 @@
       "name": "MSLayoutAttributeGuideY"
     },
     {
+      "name": "MSLayoutAttributePointMinimum",
+      "value": "20"
+    },
+    {
+      "name": "MSLayoutAttributeTopLeft",
+      "value": "BCCornerTopLeft + MSLayoutAttributePointMinimum"
+    },
+    {
+      "name": "MSLayoutAttributeTopRight",
+      "value": "BCCornerTopRight + MSLayoutAttributePointMinimum"
+    },
+    {
+      "name": "MSLayoutAttributeBottomLeft",
+      "value": "BCCornerBottomLeft + MSLayoutAttributePointMinimum"
+    },
+    {
+      "name": "MSLayoutAttributeBottomRight",
+      "value": "BCCornerBottomRight + MSLayoutAttributePointMinimum"
+    },
+    {
+      "name": "MSLayoutAttributeMidTop",
+      "value": "BCCornerMidTop + MSLayoutAttributePointMinimum"
+    },
+    {
+      "name": "MSLayoutAttributeMidLeft",
+      "value": "BCCornerMidLeft + MSLayoutAttributePointMinimum"
+    },
+    {
+      "name": "MSLayoutAttributeMidRight",
+      "value": "BCCornerMidRight + MSLayoutAttributePointMinimum"
+    },
+    {
+      "name": "MSLayoutAttributeMidBottom",
+      "value": "BCCornerMidBottom + MSLayoutAttributePointMinimum"
+    },
+    {
+      "name": "MSLayoutAttributePointMaximum",
+      "value": "MSLayoutAttributeMidBottom"
+    },
+    {
       "name": "MSLayoutAttributeNotAnAttribute",
       "value": "NSLayoutAttributeNotAnAttribute"
     }

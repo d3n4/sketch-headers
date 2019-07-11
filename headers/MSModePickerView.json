@@ -1,6 +1,6 @@
 {
   "name": "MSModePickerView",
-  "extends": "NSView",
+  "extends": "NSStackView",
   "interfaces": [],
   "methods": {},
   "properties": {
@@ -17,17 +17,16 @@
       "pointer": false,
       "type": "IBOutlet id<MSModeModePickerDelegate>",
       "attributes": [
-        "nonatomic",
+        "atomic",
         "weak"
       ]
     },
-    "labelField": {
-      "name": "labelField",
+    "disabledModes": {
+      "name": "disabledModes",
       "pointer": false,
-      "type": "IBOutlet NSTextField ",
+      "type": "NSIndexSet ",
       "attributes": [
-        "nonatomic",
-        "weak"
+        "nonatomic"
       ]
     }
   },

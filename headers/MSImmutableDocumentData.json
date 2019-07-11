@@ -5,14 +5,19 @@
     "MSDocumentData"
   ],
   "methods": {
-    "loadDocumentDataWithMetadata:loadBlock:": {
-      "name": "loadDocumentDataWithMetadata:loadBlock:",
-      "bridgedName": "loadDocumentDataWithMetadata_loadBlock",
+    "loadDocumentDataWithMetadata:textPreviewData:loadBlock:": {
+      "name": "loadDocumentDataWithMetadata:textPreviewData:loadBlock:",
+      "bridgedName": "loadDocumentDataWithMetadata_textPreviewData_loadBlock",
       "args": [
         {
           "name": "metadata",
           "type": "NSDictionary *",
           "nullable": false
+        },
+        {
+          "name": "textPreviewData",
+          "type": "NSData *",
+          "nullable": true
         },
         {
           "name": "loadBlock",
@@ -37,6 +42,14 @@
       "bridgedName": "usedFontNames",
       "args": [],
       "returns": "NSSet <NSString *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "textLayersWithUnsafeFonts": {
+      "name": "textLayersWithUnsafeFonts",
+      "bridgedName": "textLayersWithUnsafeFonts",
+      "args": [],
+      "returns": "NSSet <MSImmutableTextLayer *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -169,59 +182,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "findFrequentColorsForUse:maximumColorCount:ignoreAlpha:excludeForeignSymbols:completionHandler:": {
-      "name": "findFrequentColorsForUse:maximumColorCount:ignoreAlpha:excludeForeignSymbols:completionHandler:",
-      "bridgedName": "findFrequentColorsForUse_maximumColorCount_ignoreAlpha_excludeForeignSymbols_completionHandler",
-      "args": [
-        {
-          "name": "colorUse",
-          "type": "MSColorUse",
-          "nullable": false
-        },
-        {
-          "name": "maxCount",
-          "type": "NSUInteger",
-          "nullable": false
-        },
-        {
-          "name": "ignoreAlpha",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "excludeForeignSymbols",
-          "type": "BOOL",
-          "nullable": false
-        },
-        {
-          "name": "block",
-          "type": "MSColorFinderCompletionBlock",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "trackColors:excludeForeignSymbols:": {
-      "name": "trackColors:excludeForeignSymbols:",
-      "bridgedName": "trackColors_excludeForeignSymbols",
-      "args": [
-        {
-          "name": "tracker",
-          "type": "MSFrequentColorTracker *",
-          "nullable": false
-        },
-        {
-          "name": "excludeForeignSymbols",
-          "type": "BOOL",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "symbolsChangedSincePreviousDocument:": {
       "name": "symbolsChangedSincePreviousDocument:",
       "bridgedName": "symbolsChangedSincePreviousDocument",
@@ -256,6 +216,15 @@
       "name": "metadata",
       "pointer": false,
       "type": "NSDictionary*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "textPreviewData": {
+      "name": "textPreviewData",
+      "pointer": false,
+      "type": "NSData ",
       "attributes": [
         "nonatomic",
         "readonly"

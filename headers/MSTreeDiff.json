@@ -111,6 +111,16 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "keysAffectedByDiff": {
+      "name": "keysAffectedByDiff",
+      "pointer": false,
+      "type": "NSSet ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

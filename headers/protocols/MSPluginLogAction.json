@@ -4,13 +4,18 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "log:": {
-      "name": "log:",
-      "bridgedName": "log",
+    "log:from:": {
+      "name": "log:from:",
+      "bridgedName": "log_from",
       "args": [
         {
-          "name": "sender",
+          "name": "value",
           "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "NSString *",
           "nullable": false
         }
       ],
@@ -18,18 +23,30 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "clearLog": {
-      "name": "clearLog",
-      "bridgedName": "clearLog",
-      "args": [],
+    "clearLogFor:": {
+      "name": "clearLogFor:",
+      "bridgedName": "clearLogFor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "logString": {
-      "name": "logString",
-      "bridgedName": "logString",
-      "args": [],
+    "logStringFor:": {
+      "name": "logStringFor:",
+      "bridgedName": "logStringFor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
       "returns": "NSString *",
       "kind": "instance",
       "kindIndicator": "-"

@@ -168,10 +168,10 @@
         {
           "name": "zone",
           "type": "NSZone *",
-          "nullable": false
+          "nullable": true
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -181,11 +181,30 @@
       "args": [
         {
           "name": "subpaths",
-          "type": "NSArray <MSPath *> *",
+          "type": "nonnull NSArray <MSPath *> *",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathWithSegments:closed:": {
+      "name": "pathWithSegments:closed:",
+      "bridgedName": "pathWithSegments_closed",
+      "args": [
+        {
+          "name": "segments",
+          "type": "nonnull NSArray <MSBezierSegment *> *",
+          "nullable": false
+        },
+        {
+          "name": "closed",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -195,11 +214,11 @@
       "args": [
         {
           "name": "contours",
-          "type": "NSArray <MSBezierContour *> *",
+          "type": "nonnull NSArray <MSBezierContour *> *",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -213,7 +232,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -227,7 +246,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -237,11 +256,11 @@
       "args": [
         {
           "name": "pathRef",
-          "type": "CGPathRef",
+          "type": "nonnull CGPathRef",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -251,11 +270,11 @@
       "args": [
         {
           "name": "bezierPath",
-          "type": "NSBezierPath *",
+          "type": "nonnull NSBezierPath *",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -274,7 +293,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -303,7 +322,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -313,7 +332,7 @@
       "args": [
         {
           "name": "points",
-          "type": "const CGPoint *",
+          "type": "nonnull const CGPoint *",
           "nullable": false
         },
         {
@@ -327,7 +346,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "class",
       "kindIndicator": "+"
     },
@@ -337,11 +356,11 @@
       "args": [
         {
           "name": "pathRef",
-          "type": "CGPathRef",
+          "type": "nonnull CGPathRef",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -351,11 +370,11 @@
       "args": [
         {
           "name": "contours",
-          "type": "NSArray <MSBezierContour *> *",
+          "type": "nonnull NSArray <MSBezierContour *> *",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -369,7 +388,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -388,7 +407,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -407,7 +426,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -421,7 +440,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -440,7 +459,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -469,7 +488,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -479,7 +498,7 @@
       "args": [
         {
           "name": "points",
-          "type": "const CGPoint *",
+          "type": "nonnull const CGPoint *",
           "nullable": false
         },
         {
@@ -493,7 +512,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -503,11 +522,11 @@
       "args": [
         {
           "name": "bezierPath",
-          "type": "NSBezierPath *",
+          "type": "nonnull NSBezierPath *",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -521,7 +540,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -531,11 +550,11 @@
       "args": [
         {
           "name": "map",
-          "type": "CGPoint (^)(CGPoint point)",
+          "type": "nonnull CGPoint (^)(CGPoint point)",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -549,7 +568,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -568,7 +587,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -582,7 +601,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -606,7 +625,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -614,7 +633,7 @@
       "name": "pathByRemovingSubsequentMoveToComponents",
       "bridgedName": "pathByRemovingSubsequentMoveToComponents",
       "args": [],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -628,7 +647,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -642,7 +661,7 @@
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -650,7 +669,7 @@
       "name": "reversedPath",
       "bridgedName": "reversedPath",
       "args": [],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -660,11 +679,11 @@
       "args": [
         {
           "name": "path",
-          "type": "MSPath *",
+          "type": "nonnull MSPath *",
           "nullable": false
         }
       ],
-      "returns": "instancetype",
+      "returns": "nonnull instancetype",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -771,7 +790,7 @@
           "nullable": false
         }
       ],
-      "returns": "NSArray<MSCurvePoint *> *",
+      "returns": "nullable NSArray<MSCurvePoint *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -795,7 +814,7 @@
       "args": [
         {
           "name": "path",
-          "type": "MSPath *",
+          "type": "nonnull MSPath *",
           "nullable": false
         }
       ],
@@ -809,7 +828,7 @@
       "args": [
         {
           "name": "path",
-          "type": "MSPath *",
+          "type": "nonnull MSPath *",
           "nullable": false
         },
         {
@@ -989,7 +1008,7 @@
         },
         {
           "name": "cacheObject",
-          "type": "MSModelObjectCommon *",
+          "type": "id <MSModelObject>",
           "nullable": false
         },
         {
@@ -1013,7 +1032,7 @@
         },
         {
           "name": "cacheObject",
-          "type": "MSModelObjectCommon *",
+          "type": "id <MSModelObject>",
           "nullable": false
         },
         {
@@ -1052,7 +1071,7 @@
         },
         {
           "name": "cacheObject",
-          "type": "MSModelObjectCommon *",
+          "type": "id <MSModelObject>",
           "nullable": false
         },
         {
@@ -1073,7 +1092,8 @@
       "type": "CGPathRef",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "isEmpty": {
@@ -1101,7 +1121,8 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "copy"
+        "copy",
+        "nonnull"
       ]
     },
     "isRectangular": {
@@ -1146,7 +1167,8 @@
       "type": "NSArray<MSPath *> ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     }
   },

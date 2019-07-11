@@ -24,9 +24,9 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "orthogonalOrDiagonalConstraintFromPoint:toPoint:": {
-      "name": "orthogonalOrDiagonalConstraintFromPoint:toPoint:",
-      "bridgedName": "orthogonalOrDiagonalConstraintFromPoint_toPoint",
+    "axisAlignedOrDiagonalConstraintFromPoint:toPoint:": {
+      "name": "axisAlignedOrDiagonalConstraintFromPoint:toPoint:",
+      "bridgedName": "axisAlignedOrDiagonalConstraintFromPoint_toPoint",
       "args": [
         {
           "name": "sourcePoint",
@@ -42,6 +42,25 @@
       "returns": "nullable instancetype",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "initWithPoint:line:": {
+      "name": "initWithPoint:line:",
+      "bridgedName": "initWithPoint_line",
+      "args": [
+        {
+          "name": "sourcePoint",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "line",
+          "type": "BCLine",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -57,7 +76,7 @@
     "line": {
       "name": "line",
       "pointer": false,
-      "type": "MSLine",
+      "type": "BCLine",
       "attributes": [
         "nonatomic",
         "readonly"

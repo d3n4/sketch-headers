@@ -3,18 +3,13 @@
   "extends": "MSMenuBuilder",
   "interfaces": [],
   "methods": {
-    "updatePickerMenuItem:forPage:atPoint:": {
-      "name": "updatePickerMenuItem:forPage:atPoint:",
-      "bridgedName": "updatePickerMenuItem_forPage_atPoint",
+    "layerPickerMenuItemForPage:atPoint:": {
+      "name": "layerPickerMenuItemForPage:atPoint:",
+      "bridgedName": "layerPickerMenuItemForPage_atPoint",
       "args": [
         {
-          "name": "item",
-          "type": "NSMenuItem *",
-          "nullable": false
-        },
-        {
           "name": "page",
-          "type": "MSPage *",
+          "type": "nonnull MSPage *",
           "nullable": false
         },
         {
@@ -23,7 +18,7 @@
           "nullable": false
         }
       ],
-      "returns": "void",
+      "returns": "nullable NSMenuItem *",
       "kind": "instance",
       "kindIndicator": "-"
     }

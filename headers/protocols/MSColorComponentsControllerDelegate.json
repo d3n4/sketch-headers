@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSColorComponentsControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "colorComponentsControllerColorDidChange:": {
+      "name": "colorComponentsControllerColorDidChange:",
+      "bridgedName": "colorComponentsControllerColorDidChange",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSColorComponentsController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorComponentsControllerModelDidChange:": {
+      "name": "colorComponentsControllerModelDidChange:",
+      "bridgedName": "colorComponentsControllerModelDidChange",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSColorComponentsController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

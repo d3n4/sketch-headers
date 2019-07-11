@@ -3,21 +3,16 @@
   "name": "MSColorUser",
   "extends": null,
   "interfaces": [],
-  "methods": {
-    "updateColorCounter:": {
-      "name": "updateColorCounter:",
-      "bridgedName": "updateColorCounter",
-      "args": [
-        {
-          "name": "color",
-          "type": "MSColorCounter *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
+  "methods": {},
+  "properties": {
+    "colorUserColorUse": {
+      "name": "colorUserColorUse",
+      "pointer": false,
+      "type": "MSColorUse",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
-  },
-  "properties": {}
+  }
 }

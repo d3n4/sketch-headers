@@ -9,12 +9,12 @@
       "args": [
         {
           "name": "host",
-          "type": "NSString*",
-          "nullable": false
+          "type": "NSString *",
+          "nullable": true
         },
         {
           "name": "timeout",
-          "type": "NSUInteger",
+          "type": "NSTimeInterval",
           "nullable": false
         },
         {
@@ -26,8 +26,82 @@
       "returns": "void",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "init": {
+      "name": "init",
+      "bridgedName": "init",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithHost:timeout:": {
+      "name": "initWithHost:timeout:",
+      "bridgedName": "initWithHost_timeout",
+      "args": [
+        {
+          "name": "host",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "timeout",
+          "type": "NSTimeInterval",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startRequest": {
+      "name": "startRequest",
+      "bridgedName": "startRequest",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "host": {
+      "name": "host",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "timeout": {
+      "name": "timeout",
+      "pointer": false,
+      "type": "NSTimeInterval",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "includesNetworkTime": {
+      "name": "includesNetworkTime",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "atomic",
+        "readonly"
+      ]
+    },
+    "currentDate": {
+      "name": "currentDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

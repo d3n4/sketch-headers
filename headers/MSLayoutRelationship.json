@@ -184,6 +184,15 @@
         "nonatomic",
         "readonly"
       ]
+    },
+    "firstAnchorPoint": {
+      "name": "firstAnchorPoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

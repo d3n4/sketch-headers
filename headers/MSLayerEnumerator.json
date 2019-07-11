@@ -5,6 +5,14 @@
     "ObjectType"
   ],
   "methods": {
+    "nextObject": {
+      "name": "nextObject",
+      "bridgedName": "nextObject",
+      "args": [],
+      "returns": "nullable ObjectType",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "skipDescendants": {
       "name": "skipDescendants",
       "bridgedName": "skipDescendants",

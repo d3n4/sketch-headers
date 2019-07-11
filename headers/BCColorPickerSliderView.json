@@ -3,6 +3,84 @@
   "extends": "BCColorPickerBaseView",
   "interfaces": [],
   "methods": {
+    "valueForXPosition:": {
+      "name": "valueForXPosition:",
+      "bridgedName": "valueForXPosition",
+      "args": [
+        {
+          "name": "xPosition",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "xPositionForValue:": {
+      "name": "xPositionForValue:",
+      "bridgedName": "xPositionForValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueForEvent:": {
+      "name": "valueForEvent:",
+      "bridgedName": "valueForEvent",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "activeBounds": {
+      "name": "activeBounds",
+      "bridgedName": "activeBounds",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "markerRectForValue:": {
+      "name": "markerRectForValue:",
+      "bridgedName": "markerRectForValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "markerRectAtPosition:": {
+      "name": "markerRectAtPosition:",
+      "bridgedName": "markerRectAtPosition",
+      "args": [
+        {
+          "name": "xPosition",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "drawSelectionMarkerAtPosition:": {
       "name": "drawSelectionMarkerAtPosition:",
       "bridgedName": "drawSelectionMarkerAtPosition",
@@ -18,6 +96,15 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
   "generics": []
 }

@@ -9,6 +9,10 @@
     {
       "name": "MSAlignmentGuideMaskGrid",
       "value": "1 << 1"
+    },
+    {
+      "name": "MSAlignmentGuideMaskAll",
+      "value": "MSAlignmentGuideMaskCustom|MSAlignmentGuideMaskGrid"
     }
   ]
 }

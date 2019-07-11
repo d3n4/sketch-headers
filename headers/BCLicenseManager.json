@@ -10,9 +10,26 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "enableCloud": {
+      "name": "enableCloud",
+      "bridgedName": "enableCloud",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {
+    "cloudEnabled": {
+      "name": "cloudEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "class",
+        "readonly"
+      ]
+    },
     "canUseCloud": {
       "name": "canUseCloud",
       "pointer": false,

@@ -1,0 +1,165 @@
+{
+  "protocol": true,
+  "name": "BCLicense",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "saveToURL:error:": {
+      "name": "saveToURL:error:",
+      "bridgedName": "saveToURL_error",
+      "args": [
+        {
+          "name": "URL",
+          "type": "NSURL*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "log": {
+      "name": "log",
+      "bridgedName": "log",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "licenseID": {
+      "name": "licenseID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "email": {
+      "name": "email",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "deviceID": {
+      "name": "deviceID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "networkTime": {
+      "name": "networkTime",
+      "pointer": false,
+      "type": "BCNetworkTime ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isValid": {
+      "name": "isValid",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "BCLicenseType",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "remainingDays": {
+      "name": "remainingDays",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldRefresh": {
+      "name": "shouldRefresh",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "requiresRefresh": {
+      "name": "requiresRefresh",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldTryToRequestNewTrialLicense": {
+      "name": "shouldTryToRequestNewTrialLicense",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isAboutToExpire": {
+      "name": "isAboutToExpire",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "updateExpirationDate": {
+      "name": "updateExpirationDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "updatesHaveExpired": {
+      "name": "updatesHaveExpired",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "variants": {
+      "name": "variants",
+      "pointer": false,
+      "type": "NSArray<NSString *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nonnull"
+      ]
+    }
+  }
+}

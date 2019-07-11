@@ -9,12 +9,12 @@
       "args": [
         {
           "name": "actionName",
-          "type": "NSString *",
+          "type": "nonnull NSString *",
           "nullable": false
         },
         {
           "name": "senderID",
-          "type": "NSString *",
+          "type": "nonnull NSString *",
           "nullable": false
         }
       ],

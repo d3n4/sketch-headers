@@ -6,6 +6,20 @@
     "NSCopying"
   ],
   "methods": {
+    "styleWithFillColor:": {
+      "name": "styleWithFillColor:",
+      "bridgedName": "styleWithFillColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "multiplyBy:": {
       "name": "multiplyBy:",
       "bridgedName": "multiplyBy",

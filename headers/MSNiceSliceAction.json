@@ -1,8 +1,0 @@
-{
-  "name": "MSNiceSliceAction",
-  "extends": "MSEventHandlerAction",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

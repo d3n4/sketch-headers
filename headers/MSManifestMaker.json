@@ -120,6 +120,16 @@
         "strong"
       ]
     },
+    "fileURL": {
+      "name": "fileURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
     "selectiveExport": {
       "name": "selectiveExport",
       "pointer": false,

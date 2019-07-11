@@ -73,6 +73,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "shapeWithRect:fillColor:": {
+      "name": "shapeWithRect:fillColor:",
+      "bridgedName": "shapeWithRect_fillColor",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "resetPathsToRect": {
       "name": "resetPathsToRect",
       "bridgedName": "resetPathsToRect",

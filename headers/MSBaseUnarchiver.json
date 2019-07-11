@@ -334,7 +334,8 @@
       "type": "NSPointerArray ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     }
   },

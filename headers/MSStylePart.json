@@ -97,31 +97,11 @@
       "kind": "class",
       "kindIndicator": "+"
     },
-    "blendingViewForColorInspector:": {
-      "name": "blendingViewForColorInspector:",
-      "bridgedName": "blendingViewForColorInspector",
-      "args": [
-        {
-          "name": "blendingViews",
-          "type": "NSDictionary *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSView *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "topViewForColorInspector:": {
-      "name": "topViewForColorInspector:",
-      "bridgedName": "topViewForColorInspector",
-      "args": [
-        {
-          "name": "topViews",
-          "type": "NSDictionary *",
-          "nullable": false
-        }
-      ],
-      "returns": "NSView *",
+    "wantsColorModePicker": {
+      "name": "wantsColorModePicker",
+      "bridgedName": "wantsColorModePicker",
+      "args": [],
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     }

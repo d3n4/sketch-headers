@@ -84,7 +84,7 @@
       "args": [
         {
           "name": "segment",
-          "type": "MSLineSegment",
+          "type": "BCLineSegment",
           "nullable": false
         }
       ],
@@ -118,6 +118,20 @@
         {
           "name": "includeCenter",
           "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addTargetAtPoint:": {
+      "name": "addTargetAtPoint:",
+      "bridgedName": "addTargetAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
           "nullable": false
         }
       ],

@@ -15,7 +15,7 @@
       "value": "1<<1"
     },
     {
-      "name": "MSDataTypeAny",
+      "name": "MSDataTypeImageAndText",
       "value": "MSDataTypeText | MSDataTypeImage"
     }
   ]

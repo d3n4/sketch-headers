@@ -3,9 +3,9 @@
   "extends": "_MSImmutableStyleBorder",
   "interfaces": [],
   "methods": {
-    "drawBorder:advancedOptions:context:": {
-      "name": "drawBorder:advancedOptions:context:",
-      "bridgedName": "drawBorder_advancedOptions_context",
+    "drawBorder:advancedOptions:applyClip:context:": {
+      "name": "drawBorder:advancedOptions:applyClip:context:",
+      "bridgedName": "drawBorder_advancedOptions_applyClip_context",
       "args": [
         {
           "name": "path",
@@ -15,6 +15,11 @@
         {
           "name": "advanced",
           "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        },
+        {
+          "name": "canClip",
+          "type": "BOOL",
           "nullable": false
         },
         {

@@ -4,23 +4,9 @@
   "extends": null,
   "interfaces": [],
   "methods": {
-    "pickerViewWillChange:": {
-      "name": "pickerViewWillChange:",
-      "bridgedName": "pickerViewWillChange",
-      "args": [
-        {
-          "name": "picker",
-          "type": "MSModePickerView *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "pickerViewChanged:": {
-      "name": "pickerViewChanged:",
-      "bridgedName": "pickerViewChanged",
+    "pickerViewDidChangeMode:": {
+      "name": "pickerViewDidChangeMode:",
+      "bridgedName": "pickerViewDidChangeMode",
       "args": [
         {
           "name": "picker",

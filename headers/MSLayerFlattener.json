@@ -17,6 +17,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "flattenLayer:options:": {
+      "name": "flattenLayer:options:",
+      "bridgedName": "flattenLayer_options",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSShapePathLayer *",
+          "nullable": false
+        },
+        {
+          "name": "options",
+          "type": "MSLayerFlattenOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "imageFromLayers:immutablePage:immutableDoc:": {
       "name": "imageFromLayers:immutablePage:immutableDoc:",
       "bridgedName": "imageFromLayers_immutablePage_immutableDoc",

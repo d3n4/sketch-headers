@@ -23,15 +23,6 @@
     }
   },
   "properties": {
-    "unscaledNameSize": {
-      "name": "unscaledNameSize",
-      "pointer": false,
-      "type": "NSSize",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "preset": {
       "name": "preset",
       "pointer": false,

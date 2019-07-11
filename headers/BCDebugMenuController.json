@@ -3,10 +3,16 @@
   "extends": "BCSingleton",
   "interfaces": [],
   "methods": {
-    "addDebugMenu": {
-      "name": "addDebugMenu",
-      "bridgedName": "addDebugMenu",
-      "args": [],
+    "addDebugMenuWithTag:": {
+      "name": "addDebugMenuWithTag:",
+      "bridgedName": "addDebugMenuWithTag",
+      "args": [
+        {
+          "name": "tag",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

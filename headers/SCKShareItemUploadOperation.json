@@ -1,6 +1,6 @@
 {
   "name": "SCKShareItemUploadOperation",
-  "extends": "SCKOperation",
+  "extends": "BCOperation",
   "interfaces": [
     "NSURLSessionTaskDelegate",
     "NSProgressReporting"

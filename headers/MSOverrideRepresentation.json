@@ -3,6 +3,14 @@
   "extends": "MSOverrideRepresentationBase",
   "interfaces": [],
   "methods": {
+    "copyAffectedLayerForPasteboard": {
+      "name": "copyAffectedLayerForPasteboard",
+      "bridgedName": "copyAffectedLayerForPasteboard",
+      "args": [],
+      "returns": "__kindof MSLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "updateExpandedStateAfterSelection": {
       "name": "updateExpandedStateAfterSelection",
       "bridgedName": "updateExpandedStateAfterSelection",
@@ -45,15 +53,6 @@
     }
   },
   "properties": {
-    "selectionID": {
-      "name": "selectionID",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
     "availableOverride": {
       "name": "availableOverride",
       "pointer": false,
@@ -103,6 +102,24 @@
     },
     "isEditable": {
       "name": "isEditable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "selectionID": {
+      "name": "selectionID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isSelected": {
+      "name": "isSelected",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

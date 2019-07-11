@@ -28,7 +28,21 @@
       "args": [
         {
           "name": "authentication",
-          "type": "SCKAPIAuthentication *",
+          "type": "SCKAPISession *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "licenseRequestWithAuthentication:": {
+      "name": "licenseRequestWithAuthentication:",
+      "bridgedName": "licenseRequestWithAuthentication",
+      "args": [
+        {
+          "name": "authentication",
+          "type": "SCKAPISession *",
           "nullable": false
         }
       ],

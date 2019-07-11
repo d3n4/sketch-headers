@@ -17,7 +17,7 @@
       "args": [
         {
           "name": "rowView",
-          "type": "NSTableRowView *",
+          "type": "nonnull NSTableRowView *",
           "nullable": false
         },
         {
@@ -27,7 +27,7 @@
         },
         {
           "name": "eventProcessingBlock",
-          "type": "BCVoidBlock",
+          "type": "nonnull BCVoidBlock",
           "nullable": false
         }
       ],
@@ -46,7 +46,7 @@
         },
         {
           "name": "eventProcessingBlock",
-          "type": "BCVoidBlock",
+          "type": "nonnull BCVoidBlock",
           "nullable": false
         }
       ],
@@ -138,7 +138,7 @@
       "args": [
         {
           "name": "counterpart",
-          "type": "BCOutlineView *",
+          "type": "nonnull BCOutlineView *",
           "nullable": false
         }
       ],
@@ -186,7 +186,8 @@
       "type": "BCOutlineViewDataController ",
       "attributes": [
         "nonatomic",
-        "weak"
+        "weak",
+        "nullable"
       ]
     },
     "discloserTriangleClickedItem": {
@@ -195,7 +196,8 @@
       "type": "id",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nullable"
       ]
     },
     "counterpartOutlineView": {
@@ -205,7 +207,8 @@
       "attributes": [
         "nonatomic",
         "readonly",
-        "weak"
+        "weak",
+        "nullable"
       ]
     },
     "activeStateScheme": {

@@ -367,6 +367,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "JSValueForObject:shouldCreateBox:": {
+      "name": "JSValueForObject:shouldCreateBox:",
+      "bridgedName": "JSValueForObject_shouldCreateBox",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "shouldCreateBox",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "objectForJSValue:": {
       "name": "objectForJSValue:",
       "bridgedName": "objectForJSValue",
@@ -400,13 +419,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "boxedJSObjectForObject:": {
-      "name": "boxedJSObjectForObject:",
-      "bridgedName": "boxedJSObjectForObject",
+    "boxedJSObjectForObject:shouldCreateBox:": {
+      "name": "boxedJSObjectForObject:shouldCreateBox:",
+      "bridgedName": "boxedJSObjectForObject_shouldCreateBox",
       "args": [
         {
           "name": "object",
           "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "shouldCreateBox",
+          "type": "BOOL",
           "nullable": false
         }
       ],

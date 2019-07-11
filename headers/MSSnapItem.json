@@ -122,20 +122,6 @@
       "returns": "nullable MSArtboardGroup *",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "shouldDrawDistanceOnSnapTo:": {
-      "name": "shouldDrawDistanceOnSnapTo:",
-      "bridgedName": "shouldDrawDistanceOnSnapTo",
-      "args": [
-        {
-          "name": "snapItem",
-          "type": "id <MSSnappable>",
-          "nullable": false
-        }
-      ],
-      "returns": "BOOL",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {

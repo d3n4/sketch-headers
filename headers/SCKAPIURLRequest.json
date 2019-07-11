@@ -91,7 +91,7 @@
     "authentication": {
       "name": "authentication",
       "pointer": false,
-      "type": "SCKAPIAuthentication ",
+      "type": "SCKAPISession ",
       "attributes": [
         "nonatomic",
         "nullable",
@@ -115,24 +115,6 @@
         "nonatomic",
         "nullable",
         "assign"
-      ]
-    },
-    "applicationVersion": {
-      "name": "applicationVersion",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "nonatomic",
-        "copy"
-      ]
-    },
-    "applicationBuild": {
-      "name": "applicationBuild",
-      "pointer": false,
-      "type": "NSString ",
-      "attributes": [
-        "nonatomic",
-        "copy"
       ]
     },
     "type": {

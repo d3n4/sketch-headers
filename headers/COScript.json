@@ -353,6 +353,28 @@
       "returns": "id",
       "kind": "class",
       "kindIndicator": "+"
+    },
+    "setFlowDelegate:": {
+      "name": "setFlowDelegate:",
+      "bridgedName": "setFlowDelegate",
+      "args": [
+        {
+          "name": "flowDelegate",
+          "type": "id<COFlowDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fiberWasCleared": {
+      "name": "fiberWasCleared",
+      "bridgedName": "fiberWasCleared",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

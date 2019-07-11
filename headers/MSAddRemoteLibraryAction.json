@@ -3,6 +3,20 @@
   "extends": "MSAction",
   "interfaces": [],
   "methods": {
+    "addCloudLibraryWithID:": {
+      "name": "addCloudLibraryWithID:",
+      "bridgedName": "addCloudLibraryWithID",
+      "args": [
+        {
+          "name": "shortID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addAppcastURL:": {
       "name": "addAppcastURL:",
       "bridgedName": "addAppcastURL",

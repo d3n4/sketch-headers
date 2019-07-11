@@ -1,6 +1,6 @@
 {
   "name": "MSConvertSymbolOrDetachInstancesAction",
-  "extends": "MSDocumentAction",
+  "extends": "MSBaseConvertSymbolOrDetachInstancesAction",
   "interfaces": [],
   "methods": {
     "detachSymbolInstances:": {

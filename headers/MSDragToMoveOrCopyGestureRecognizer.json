@@ -79,9 +79,10 @@
     "alignmentAxis": {
       "name": "alignmentAxis",
       "pointer": false,
-      "type": "BCAxis",
+      "type": "NSNumber ",
       "attributes": [
         "nonatomic",
+        "nullable",
         "readonly"
       ]
     },

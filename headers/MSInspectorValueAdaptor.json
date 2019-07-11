@@ -152,9 +152,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "valuesDidChange": {
-      "name": "valuesDidChange",
-      "bridgedName": "valuesDidChange",
+    "updateValues": {
+      "name": "updateValues",
+      "bridgedName": "updateValues",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeKVOObservers": {
+      "name": "removeKVOObservers",
+      "bridgedName": "removeKVOObservers",
       "args": [],
       "returns": "void",
       "kind": "instance",

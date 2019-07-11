@@ -3,19 +3,19 @@
   "name": "BCLicenseType",
   "members": [
     {
-      "name": "BCLicenseUnknown",
+      "name": "BCLicenseTypeUnknown",
       "value": "-1"
     },
     {
-      "name": "BCLicenseTrial",
+      "name": "BCLicenseTypeTrial",
       "value": "0"
     },
     {
-      "name": "BCLicenseTrialExpired",
+      "name": "BCLicenseTypeTrialExpired",
       "value": "1"
     },
     {
-      "name": "BCLicensePurchased",
+      "name": "BCLicenseTypePurchased",
       "value": "2"
     }
   ]

@@ -1,6 +1,0 @@
-{
-  "typeAlias": true,
-  "name": "MSLineSegment",
-  "type": "struct MSLineSegment",
-  "pointer": false
-}

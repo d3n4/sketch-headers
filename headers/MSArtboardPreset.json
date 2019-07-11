@@ -5,6 +5,34 @@
     "NSCopying"
   ],
   "methods": {
+    "matchWithArtboardSize:)": {
+      "name": "matchWithArtboardSize:)",
+      "bridgedName": "matchWithArtboardSize_)",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        }
+      ],
+      "returns": "MSArtboardPresetMatch",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeScaleFromArtboardSize:)": {
+      "name": "resizeScaleFromArtboardSize:)",
+      "bridgedName": "resizeScaleFromArtboardSize_)",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGSize",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "initWithName:size:imageName:": {
       "name": "initWithName:size:imageName:",
       "bridgedName": "initWithName_size_imageName",
@@ -67,34 +95,6 @@
       "bridgedName": "oppositeOrientationPreset",
       "args": [],
       "returns": "MSArtboardPreset *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "matchWithArtboardSize:)": {
-      "name": "matchWithArtboardSize:)",
-      "bridgedName": "matchWithArtboardSize_)",
-      "args": [
-        {
-          "name": "size",
-          "type": "CGSize",
-          "nullable": false
-        }
-      ],
-      "returns": "MSArtboardPresetMatch",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "resizeScaleFromArtboardSize:)": {
-      "name": "resizeScaleFromArtboardSize:)",
-      "bridgedName": "resizeScaleFromArtboardSize_)",
-      "args": [
-        {
-          "name": "size",
-          "type": "CGSize",
-          "nullable": false
-        }
-      ],
-      "returns": "CGFloat",
       "kind": "instance",
       "kindIndicator": "-"
     }

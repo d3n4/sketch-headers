@@ -6,13 +6,13 @@
     "NSSharingServicePickerDelegate"
   ],
   "methods": {
-    "showShareMenuForLayer:sender:canvas:": {
-      "name": "showShareMenuForLayer:sender:canvas:",
-      "bridgedName": "showShareMenuForLayer_sender_canvas",
+    "showShareMenuForLayers:sender:canvas:": {
+      "name": "showShareMenuForLayers:sender:canvas:",
+      "bridgedName": "showShareMenuForLayers_sender_canvas",
       "args": [
         {
-          "name": "layer",
-          "type": "MSLayer *",
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
           "nullable": false
         },
         {

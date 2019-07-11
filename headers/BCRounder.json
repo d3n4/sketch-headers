@@ -1,0 +1,201 @@
+{
+  "name": "BCRounder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithRoundingIncrement:": {
+      "name": "initWithRoundingIncrement:",
+      "bridgedName": "initWithRoundingIncrement",
+      "args": [
+        {
+          "name": "roundingIncrement",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "roundValue:)": {
+      "name": "roundValue:)",
+      "bridgedName": "roundValue_)",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "alignValue:toBase:)": {
+      "name": "alignValue:toBase:)",
+      "bridgedName": "alignValue_toBase_)",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "base",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "alignValue:toBase:minimumMagnitude:)": {
+      "name": "alignValue:toBase:minimumMagnitude:)",
+      "bridgedName": "alignValue_toBase_minimumMagnitude_)",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "base",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "minimumMagnitude",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "roundPoint:": {
+      "name": "roundPoint:",
+      "bridgedName": "roundPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "roundPoint:mask:": {
+      "name": "roundPoint:mask:",
+      "bridgedName": "roundPoint_mask",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "BCAxisMask",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "roundSize:": {
+      "name": "roundSize:",
+      "bridgedName": "roundSize",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGSize",
+          "nullable": false
+        }
+      ],
+      "returns": "CGSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "roundSize:mask:": {
+      "name": "roundSize:mask:",
+      "bridgedName": "roundSize_mask",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "mask",
+          "type": "BCAxisMask",
+          "nullable": false
+        }
+      ],
+      "returns": "CGSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rounderWithPrecision:": {
+      "name": "rounderWithPrecision:",
+      "bridgedName": "rounderWithPrecision",
+      "args": [
+        {
+          "name": "precision",
+          "type": "MSVectorRounding",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "vectorRounder": {
+      "name": "vectorRounder",
+      "bridgedName": "vectorRounder",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "roundedPoint:coordinateSpace:inCoordinateSpace:": {
+      "name": "roundedPoint:coordinateSpace:inCoordinateSpace:",
+      "bridgedName": "roundedPoint_coordinateSpace_inCoordinateSpace",
+      "args": [
+        {
+          "name": "p",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "currentSpace",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "roundingSpace",
+          "type": "id <MSLayerCoordinateSpace>",
+          "nullable": true
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "roundingIncrement": {
+      "name": "roundingIncrement",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

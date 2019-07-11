@@ -64,20 +64,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "alignPointToGrid:": {
-      "name": "alignPointToGrid:",
-      "bridgedName": "alignPointToGrid",
-      "args": [
-        {
-          "name": "point",
-          "type": "NSPoint",
-          "nullable": false
-        }
-      ],
-      "returns": "NSPoint",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "mouseDownEvent:": {
       "name": "mouseDownEvent:",
       "bridgedName": "mouseDownEvent",
@@ -861,25 +847,6 @@
         {
           "name": "layer",
           "type": " MSLayer *",
-          "nullable": false
-        },
-        {
-          "name": "extend",
-          "type": "BOOL",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "selectHitTestResult:extendSelection:": {
-      "name": "selectHitTestResult:extendSelection:",
-      "bridgedName": "selectHitTestResult_extendSelection",
-      "args": [
-        {
-          "name": "hitTestResult",
-          "type": " MSHitTestResult *",
           "nullable": false
         },
         {

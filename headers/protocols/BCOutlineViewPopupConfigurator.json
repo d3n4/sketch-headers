@@ -10,7 +10,7 @@
       "args": [
         {
           "name": "button",
-          "type": "NSPopUpButton *",
+          "type": "nonnull NSPopUpButton *",
           "nullable": false
         },
         {

@@ -1,6 +1,6 @@
 {
   "name": "MSColorInspectorSectionColor",
-  "extends": "MSColorInspectorSection",
+  "extends": "MSColorInspectorSectionWithPicker",
   "interfaces": [],
   "methods": {},
   "properties": {

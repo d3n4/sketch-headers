@@ -1,0 +1,94 @@
+{
+  "name": "NSURLRequest",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "registerRequestWithLicenseKey:applicationID:": {
+      "name": "registerRequestWithLicenseKey:applicationID:",
+      "bridgedName": "registerRequestWithLicenseKey_applicationID",
+      "args": [
+        {
+          "name": "licenseKey",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "applicationID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "refreshRequestForLicense:applicationID:": {
+      "name": "refreshRequestForLicense:applicationID:",
+      "bridgedName": "refreshRequestForLicense_applicationID",
+      "args": [
+        {
+          "name": "license",
+          "type": "id<BCLicense>",
+          "nullable": false
+        },
+        {
+          "name": "applicationID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "trialRequestWithApplicationID:": {
+      "name": "trialRequestWithApplicationID:",
+      "bridgedName": "trialRequestWithApplicationID",
+      "args": [
+        {
+          "name": "applicationID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "unregisterRequestForLicense:applicationID:": {
+      "name": "unregisterRequestForLicense:applicationID:",
+      "bridgedName": "unregisterRequestForLicense_applicationID",
+      "args": [
+        {
+          "name": "license",
+          "type": "id<BCLicense>",
+          "nullable": false
+        },
+        {
+          "name": "applicationID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "metadataRequestForLicense:": {
+      "name": "metadataRequestForLicense:",
+      "bridgedName": "metadataRequestForLicense",
+      "args": [
+        {
+          "name": "license",
+          "type": "id<BCLicense>",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

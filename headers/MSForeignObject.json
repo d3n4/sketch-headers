@@ -107,8 +107,8 @@
         }
       ],
       "returns": "nullable __kindof MSModelObject*",
-      "kind": "instance",
-      "kindIndicator": "-"
+      "kind": "class",
+      "kindIndicator": "+"
     },
     "matchingForeignObjectInDocument:": {
       "name": "matchingForeignObjectInDocument:",
@@ -137,6 +137,20 @@
       "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "foreignObjectCollectionInDocument:": {
+      "name": "foreignObjectCollectionInDocument:",
+      "bridgedName": "foreignObjectCollectionInDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
     }
   },
   "properties": {

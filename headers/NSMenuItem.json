@@ -99,6 +99,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "applyBlockToMenuItemAndItemsInSubmenus:": {
+      "name": "applyBlockToMenuItemAndItemsInSubmenus:",
+      "bridgedName": "applyBlockToMenuItemAndItemsInSubmenus",
+      "args": [
+        {
+          "name": "applierBlock",
+          "type": "void (^)(NSMenuItem *menuItem)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "menuItemWithTruncatedTitle:target:action:": {
       "name": "menuItemWithTruncatedTitle:target:action:",
       "bridgedName": "menuItemWithTruncatedTitle_target_action",

@@ -32,18 +32,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "initWithFileSystemURL:isBuiltin:": {
-      "name": "initWithFileSystemURL:isBuiltin:",
-      "bridgedName": "initWithFileSystemURL_isBuiltin",
+    "initWithFileSystemURL:": {
+      "name": "initWithFileSystemURL:",
+      "bridgedName": "initWithFileSystemURL",
       "args": [
         {
           "name": "fsURL",
           "type": "NSURL *",
-          "nullable": false
-        },
-        {
-          "name": "isBuiltin",
-          "type": "BOOL",
           "nullable": false
         }
       ],
@@ -85,15 +80,6 @@
       "name": "dataSource",
       "pointer": false,
       "type": "NSURL ",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "isBuiltin": {
-      "name": "isBuiltin",
-      "pointer": false,
-      "type": "BOOL",
       "attributes": [
         "nonatomic",
         "readonly"

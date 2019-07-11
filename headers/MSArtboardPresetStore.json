@@ -87,14 +87,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "systemCategories": {
-      "name": "systemCategories",
-      "bridgedName": "systemCategories",
-      "args": [],
-      "returns": "NSArray<MSArtboardPresetsCategory *> *",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "presetWithName:matchingSize:": {
       "name": "presetWithName:matchingSize:",
       "bridgedName": "presetWithName_matchingSize",
@@ -132,6 +124,15 @@
       "attributes": [
         "nonatomic",
         "readonly"
+      ]
+    },
+    "systemCategories": {
+      "name": "systemCategories",
+      "pointer": false,
+      "type": "NSArray<MSArtboardPresetsCategory *> ",
+      "attributes": [
+        "nonatomic",
+        "class"
       ]
     },
     "indexOfLastSelectedCategory": {

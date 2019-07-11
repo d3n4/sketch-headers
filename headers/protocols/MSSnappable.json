@@ -31,13 +31,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "enumerateAnchorsForSnappingOnAxes:usingBlock:": {
-      "name": "enumerateAnchorsForSnappingOnAxes:usingBlock:",
-      "bridgedName": "enumerateAnchorsForSnappingOnAxes_usingBlock",
+    "enumerateAnchorsForSnappingOnAxes:includingCenter:usingBlock:": {
+      "name": "enumerateAnchorsForSnappingOnAxes:includingCenter:usingBlock:",
+      "bridgedName": "enumerateAnchorsForSnappingOnAxes_includingCenter_usingBlock",
       "args": [
         {
           "name": "axes",
-          "type": "BCAxis",
+          "type": "BCAxisMask",
+          "nullable": false
+        },
+        {
+          "name": "includeCenter",
+          "type": "BOOL",
           "nullable": false
         },
         {
@@ -56,7 +61,7 @@
       "args": [
         {
           "name": "axes",
-          "type": "BCAxis",
+          "type": "BCAxisMask",
           "nullable": false
         }
       ],
@@ -83,17 +88,17 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayWithAbsoluteMargins:": {
-      "name": "refreshOverlayWithAbsoluteMargins:",
-      "bridgedName": "refreshOverlayWithAbsoluteMargins",
+    "shouldDrawDistanceOnSnapTo:": {
+      "name": "shouldDrawDistanceOnSnapTo:",
+      "bridgedName": "shouldDrawDistanceOnSnapTo",
       "args": [
         {
-          "name": "margins",
-          "type": "NSSize",
+          "name": "snapItem",
+          "type": "id <MSSnappable>",
           "nullable": false
         }
       ],
-      "returns": "void",
+      "returns": "BOOL",
       "kind": "instance",
       "kindIndicator": "-"
     },

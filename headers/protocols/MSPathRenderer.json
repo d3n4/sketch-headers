@@ -77,9 +77,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "renderBordersForPath:style:rect:context:": {
-      "name": "renderBordersForPath:style:rect:context:",
-      "bridgedName": "renderBordersForPath_style_rect_context",
+    "renderBordersForPath:style:applyClip:rect:context:": {
+      "name": "renderBordersForPath:style:applyClip:rect:context:",
+      "bridgedName": "renderBordersForPath_style_applyClip_rect_context",
       "args": [
         {
           "name": "path",
@@ -89,6 +89,11 @@
         {
           "name": "style",
           "type": "MSImmutableStyle*",
+          "nullable": false
+        },
+        {
+          "name": "canClip",
+          "type": "BOOL",
           "nullable": false
         },
         {

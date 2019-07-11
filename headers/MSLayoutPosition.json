@@ -41,13 +41,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "snappingTargetInLayer:": {
-      "name": "snappingTargetInLayer:",
-      "bridgedName": "snappingTargetInLayer",
+    "snappingTargetInCoordinateSpace:": {
+      "name": "snappingTargetInCoordinateSpace:",
+      "bridgedName": "snappingTargetInCoordinateSpace",
       "args": [
         {
-          "name": "layer",
-          "type": "MSLayer *",
+          "name": "coordinateSpace",
+          "type": "id <MSLayerCoordinateSpace>",
           "nullable": true
         }
       ],
@@ -78,35 +78,6 @@
       "returns": "NSRect",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "snapPoint:toLines:onAxis:margin:": {
-      "name": "snapPoint:toLines:onAxis:margin:",
-      "bridgedName": "snapPoint_toLines_onAxis_margin",
-      "args": [
-        {
-          "name": "point",
-          "type": "CGPoint",
-          "nullable": false
-        },
-        {
-          "name": "lines",
-          "type": "NSArray<MSLayoutPosition *> *",
-          "nullable": false
-        },
-        {
-          "name": "axis",
-          "type": "BCAxis",
-          "nullable": false
-        },
-        {
-          "name": "margin",
-          "type": "CGFloat",
-          "nullable": false
-        }
-      ],
-      "returns": "CGPoint",
-      "kind": "class",
-      "kindIndicator": "+"
     }
   },
   "properties": {

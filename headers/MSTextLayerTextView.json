@@ -3,14 +3,6 @@
   "extends": "NSTextView",
   "interfaces": [],
   "methods": {
-    "hideSelectionTemporarily": {
-      "name": "hideSelectionTemporarily",
-      "bridgedName": "hideSelectionTemporarily",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "selectSimilar:": {
       "name": "selectSimilar:",
       "bridgedName": "selectSimilar",

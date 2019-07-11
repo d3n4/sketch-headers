@@ -185,6 +185,15 @@
         "readonly"
       ]
     },
+    "libraryID": {
+      "name": "libraryID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "delegate": {
       "name": "delegate",
       "pointer": false,

@@ -11,7 +11,7 @@
       "args": [
         {
           "name": "lineSegment",
-          "type": "MSLineSegment",
+          "type": "BCLineSegment",
           "nullable": false
         }
       ],
@@ -155,7 +155,7 @@
     "line": {
       "name": "line",
       "pointer": false,
-      "type": "MSLine",
+      "type": "BCLine",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -164,7 +164,7 @@
     "lineSegment": {
       "name": "lineSegment",
       "pointer": false,
-      "type": "MSLineSegment",
+      "type": "BCLineSegment",
       "attributes": [
         "nonatomic",
         "readonly"

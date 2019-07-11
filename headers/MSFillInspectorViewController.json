@@ -7,7 +7,7 @@
     "opacityField": {
       "name": "opacityField",
       "pointer": false,
-      "type": "MSUpDownTextField ",
+      "type": "MSInlineUpDownNanoTextField ",
       "attributes": [
         "nonatomic",
         "strong"

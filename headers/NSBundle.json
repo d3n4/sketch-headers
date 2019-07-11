@@ -3,6 +3,34 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "initializeAppResourceBundle:": {
+      "name": "initializeAppResourceBundle:",
+      "bridgedName": "initializeAppResourceBundle",
+      "args": [
+        {
+          "name": "bundle",
+          "type": "NSBundle *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initializeAppResourceBundleFromClass:": {
+      "name": "initializeAppResourceBundleFromClass:",
+      "bridgedName": "initializeAppResourceBundleFromClass",
+      "args": [
+        {
+          "name": "klass",
+          "type": "Class",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
     "bundleName": {
       "name": "bundleName",
       "bridgedName": "bundleName",
@@ -44,6 +72,17 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "appResourceBundle": {
+      "name": "appResourceBundle",
+      "pointer": false,
+      "type": "NSBundle ",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

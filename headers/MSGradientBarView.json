@@ -1,6 +1,6 @@
 {
   "name": "MSGradientBarView",
-  "extends": "BCColorPickerBaseView",
+  "extends": "BCColorPickerSliderView",
   "interfaces": [],
   "methods": {},
   "properties": {

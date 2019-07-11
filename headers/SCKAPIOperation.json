@@ -1,6 +1,6 @@
 {
   "name": "SCKAPIOperation",
-  "extends": "SCKURLOperation",
+  "extends": "BCURLOperation",
   "interfaces": [],
   "methods": {
     "initWithRequest:)": {
@@ -51,6 +51,17 @@
     }
   },
   "properties": {
+    "clientID": {
+      "name": "clientID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "nullable",
+        "strong"
+      ]
+    },
     "request": {
       "name": "request",
       "pointer": false,

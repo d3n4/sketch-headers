@@ -77,6 +77,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "sortUsingKey:selector:": {
+      "name": "sortUsingKey:selector:",
+      "bridgedName": "sortUsingKey_selector",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "mo_setObject:forIndexedSubscript:": {
       "name": "mo_setObject:forIndexedSubscript:",
       "bridgedName": "mo_setObject_forIndexedSubscript",

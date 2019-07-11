@@ -1,8 +1,0 @@
-{
-  "name": "NSAlternatingViewBackgroundView",
-  "extends": "NSView",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSFrequentObjectsControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "frequentColorsControllerMenuDidClose:": {
+      "name": "frequentColorsControllerMenuDidClose:",
+      "bridgedName": "frequentColorsControllerMenuDidClose",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSFrequentObjectsController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

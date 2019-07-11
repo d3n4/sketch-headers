@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "BCLicenseOperation",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "refreshLicense:handler:": {
+      "name": "refreshLicense:handler:",
+      "bridgedName": "refreshLicense_handler",
+      "args": [
+        {
+          "name": "license",
+          "type": "id<BCLicense>",
+          "nullable": true
+        },
+        {
+          "name": "handler",
+          "type": "BCLicenseRequestHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {}
+}

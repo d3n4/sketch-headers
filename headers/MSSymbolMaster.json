@@ -5,6 +5,35 @@
     "BCSortable"
   ],
   "methods": {
+    "applyOverrides:scale:rect:inDocument:": {
+      "name": "applyOverrides:scale:rect:inDocument:",
+      "bridgedName": "applyOverrides_scale_rect_inDocument",
+      "args": [
+        {
+          "name": "overrideValues",
+          "type": "NSArray<MSImmutableOverrideValue *> *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "convertArtboardToSymbol:": {
       "name": "convertArtboardToSymbol:",
       "bridgedName": "convertArtboardToSymbol",
@@ -66,6 +95,33 @@
         }
       ],
       "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setOverridePoint:editable:": {
+      "name": "setOverridePoint:editable:",
+      "bridgedName": "setOverridePoint_editable",
+      "args": [
+        {
+          "name": "overridePoint",
+          "type": "MSOverridePoint *",
+          "nullable": false
+        },
+        {
+          "name": "editable",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "syncOverrideProperties": {
+      "name": "syncOverrideProperties",
+      "bridgedName": "syncOverrideProperties",
+      "args": [],
+      "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -136,6 +192,34 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "updateOverridePropertiesWithObjectIDMap:": {
+      "name": "updateOverridePropertiesWithObjectIDMap:",
+      "bridgedName": "updateOverridePropertiesWithObjectIDMap",
+      "args": [
+        {
+          "name": "idMap",
+          "type": "NSDictionary<NSString*,NSString*> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateOverridesWithObjectIDMap:": {
+      "name": "updateOverridesWithObjectIDMap:",
+      "bridgedName": "updateOverridesWithObjectIDMap",
+      "args": [
+        {
+          "name": "idMap",
+          "type": "NSDictionary<NSString*,NSString*> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {
@@ -188,6 +272,15 @@
       "name": "nestedSymbols",
       "pointer": false,
       "type": "NSSet <MSSymbolMaster *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "overrideProperies": {
+      "name": "overrideProperies",
+      "pointer": true,
+      "type": "NSDictionary<NSString *, MSOverrideProperty *>",
       "attributes": [
         "nonatomic",
         "readonly"

@@ -54,14 +54,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "supportedDataProviders": {
-      "name": "supportedDataProviders",
-      "bridgedName": "supportedDataProviders",
-      "args": [],
-      "returns": "MSDataType",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "controlViewForEditingOverride": {
       "name": "controlViewForEditingOverride",
       "bridgedName": "controlViewForEditingOverride",

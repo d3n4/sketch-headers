@@ -10,7 +10,7 @@
       "args": [
         {
           "name": "outlineView",
-          "type": "BCOutlineView *",
+          "type": "nonnull BCOutlineView *",
           "nullable": false
         }
       ],

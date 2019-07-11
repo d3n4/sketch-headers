@@ -7,13 +7,42 @@
     "MSJSONArchiverAlternativeFileReference"
   ],
   "methods": {
-    "CGImageSuitableForDrawingWithSize:": {
-      "name": "CGImageSuitableForDrawingWithSize:",
-      "bridgedName": "CGImageSuitableForDrawingWithSize",
+    "CGImageSuitableForDrawingWithSize:cache:owner:": {
+      "name": "CGImageSuitableForDrawingWithSize:cache:owner:",
+      "bridgedName": "CGImageSuitableForDrawingWithSize_cache_owner",
       "args": [
         {
           "name": "size",
           "type": "CGSize",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "CGImageRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "CGImageInCache:owner:": {
+      "name": "CGImageInCache:owner:",
+      "bridgedName": "CGImageInCache_owner",
+      "args": [
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": false
+        },
+        {
+          "name": "owner",
+          "type": "id",
           "nullable": false
         }
       ],
@@ -76,11 +105,11 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "correctInvalidGamma": {
-      "name": "correctInvalidGamma",
-      "bridgedName": "correctInvalidGamma",
+    "imageDataByCorrectingInvalidGamma": {
+      "name": "imageDataByCorrectingInvalidGamma",
+      "bridgedName": "imageDataByCorrectingInvalidGamma",
       "args": [],
-      "returns": "void",
+      "returns": "MSImageData *",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -112,15 +141,6 @@
       "type": "NSImage*",
       "attributes": [
         "strong",
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "cgImage": {
-      "name": "cgImage",
-      "pointer": false,
-      "type": "CGImageRef",
-      "attributes": [
         "nonatomic",
         "readonly"
       ]

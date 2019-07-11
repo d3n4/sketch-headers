@@ -1,6 +1,6 @@
 {
   "name": "BCMagnifierButton",
-  "extends": "MSInspectorOnStatePushButton",
+  "extends": "MSInspectorButton",
   "interfaces": [],
   "methods": {},
   "properties": {
@@ -16,7 +16,7 @@
     "color": {
       "name": "color",
       "pointer": false,
-      "type": "BCFlexibleColor ",
+      "type": "MSFlexibleColor ",
       "attributes": [
         "nonatomic",
         "readonly"

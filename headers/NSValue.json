@@ -3,6 +3,28 @@
   "extends": null,
   "interfaces": [],
   "methods": {
+    "valueWithBCFloatRange:": {
+      "name": "valueWithBCFloatRange:",
+      "bridgedName": "valueWithBCFloatRange",
+      "args": [
+        {
+          "name": "range",
+          "type": "BCFloatRange",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "BCFloatRangeValue": {
+      "name": "BCFloatRangeValue",
+      "bridgedName": "BCFloatRangeValue",
+      "args": [],
+      "returns": "BCFloatRange",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "valueWithCGVector:": {
       "name": "valueWithCGVector:",
       "bridgedName": "valueWithCGVector",

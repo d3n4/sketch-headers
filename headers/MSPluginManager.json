@@ -1,7 +1,9 @@
 {
   "name": "MSPluginManager",
   "extends": "NSObject",
-  "interfaces": [],
+  "interfaces": [
+    "COFlowDelegate"
+  ],
   "methods": {
     "initialisePlugins": {
       "name": "initialisePlugins",
@@ -203,6 +205,20 @@
         {
           "name": "callback",
           "type": "void (^)(NSString*)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didClearEventStack:": {
+      "name": "didClearEventStack:",
+      "bridgedName": "didClearEventStack",
+      "args": [
+        {
+          "name": "coscript",
+          "type": "COScript*",
           "nullable": false
         }
       ],

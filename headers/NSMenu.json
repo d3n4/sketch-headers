@@ -268,6 +268,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "insertSortedLocalizedItem:": {
+      "name": "insertSortedLocalizedItem:",
+      "bridgedName": "insertSortedLocalizedItem",
+      "args": [
+        {
+          "name": "newItem",
+          "type": "NSMenuItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "addItemsFromArray:": {
       "name": "addItemsFromArray:",
       "bridgedName": "addItemsFromArray",
@@ -275,6 +289,34 @@
         {
           "name": "array",
           "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "itemWithAction_ms:": {
+      "name": "itemWithAction_ms:",
+      "bridgedName": "itemWithAction_ms",
+      "args": [
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeItemWithAction_ms:": {
+      "name": "removeItemWithAction_ms:",
+      "bridgedName": "removeItemWithAction_ms",
+      "args": [
+        {
+          "name": "action",
+          "type": "SEL",
           "nullable": false
         }
       ],
@@ -433,15 +475,6 @@
   "properties": {
     "isInMainMenu": {
       "name": "isInMainMenu",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "readonly"
-      ]
-    },
-    "isDarkMode_ms": {
-      "name": "isDarkMode_ms",
       "pointer": false,
       "type": "BOOL",
       "attributes": [

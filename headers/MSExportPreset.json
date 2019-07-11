@@ -25,6 +25,16 @@
       "kindIndicator": "-"
     }
   },
-  "properties": {},
+  "properties": {
+    "displayName": {
+      "name": "displayName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

@@ -13,10 +13,6 @@
     {
       "name": "BCFillTypePattern",
       "value": "4"
-    },
-    {
-      "name": "BCFillTypeNoise",
-      "value": "5"
     }
   ]
 }

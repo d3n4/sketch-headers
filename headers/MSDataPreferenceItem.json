@@ -9,7 +9,7 @@
       "args": [
         {
           "name": "localData",
-          "type": "MSDataSupplier *",
+          "type": "MSDataSupplierGroup *",
           "nullable": false
         }
       ],
@@ -19,10 +19,10 @@
     }
   },
   "properties": {
-    "data": {
-      "name": "data",
+    "dataGroup": {
+      "name": "dataGroup",
       "pointer": false,
-      "type": "MSDataSupplier ",
+      "type": "__kindof MSDataSupplierGroup ",
       "attributes": [
         "nonatomic",
         "readonly"
@@ -92,23 +92,41 @@
         "readonly"
       ]
     },
-    "localData": {
-      "name": "localData",
+    "localDataGroup": {
+      "name": "localDataGroup",
       "pointer": false,
-      "type": "MSLocalDataSupplier ",
+      "type": "MSLocalDataSupplierGroup ",
       "attributes": [
         "nullable",
         "nonatomic",
         "readonly"
       ]
     },
-    "pluginData": {
-      "name": "pluginData",
+    "pluginDataGroup": {
+      "name": "pluginDataGroup",
       "pointer": false,
-      "type": "MSPluginDataSupplier ",
+      "type": "MSPluginDataSupplierGroup ",
       "attributes": [
         "nullable",
         "nonatomic",
+        "readonly"
+      ]
+    },
+    "builtinDataGroup": {
+      "name": "builtinDataGroup",
+      "pointer": false,
+      "type": "MSBuiltinDataSupplierGroup ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canBeDeleted": {
+      "name": "canBeDeleted",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
         "readonly"
       ]
     },

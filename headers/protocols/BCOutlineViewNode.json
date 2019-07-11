@@ -36,7 +36,7 @@
       "name": "badgeMenuConfigurator",
       "bridgedName": "badgeMenuConfigurator",
       "args": [],
-      "returns": "id<BCOutlineViewPopupConfigurator>",
+      "returns": "nullable id<BCOutlineViewPopupConfigurator>",
       "kind": "instance",
       "kindIndicator": "-"
     }
@@ -48,7 +48,8 @@
       "type": "NSString ",
       "attributes": [
         "nonatomic",
-        "readonly"
+        "readonly",
+        "nonnull"
       ]
     },
     "displayType": {
@@ -75,7 +76,8 @@
       "type": "NSString ",
       "attributes": [
         "nonatomic",
-        "strong"
+        "strong",
+        "nonnull"
       ]
     },
     "isActive": {

@@ -3,6 +3,16 @@
   "extends": "MSLayoutAnchor",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "length": {
+      "name": "length",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }

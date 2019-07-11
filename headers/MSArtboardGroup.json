@@ -16,14 +16,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "resizeToFitChildren": {
-      "name": "resizeToFitChildren",
-      "bridgedName": "resizeToFitChildren",
-      "args": [],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "artboardRectFromLayersInArray:": {
       "name": "artboardRectFromLayersInArray:",
       "bridgedName": "artboardRectFromLayersInArray",
@@ -67,6 +59,14 @@
           "nullable": false
         }
       ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resizeToFitChildren": {
+      "name": "resizeToFitChildren",
+      "bridgedName": "resizeToFitChildren",
+      "args": [],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"

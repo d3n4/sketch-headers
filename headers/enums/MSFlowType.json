@@ -3,6 +3,10 @@
   "name": "MSFlowType",
   "members": [
     {
+      "name": "MSFlowTypeNone",
+      "value": "-1"
+    },
+    {
       "name": "MSFlowTypeRegularTranstion"
     },
     {

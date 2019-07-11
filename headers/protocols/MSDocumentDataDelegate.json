@@ -131,20 +131,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayInRect:": {
-      "name": "refreshOverlayInRect:",
-      "bridgedName": "refreshOverlayInRect",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "refreshOverlay": {
       "name": "refreshOverlay",
       "bridgedName": "refreshOverlay",

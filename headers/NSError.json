@@ -51,6 +51,15 @@
         "readonly"
       ]
     },
+    "isCloudServerError": {
+      "name": "isCloudServerError",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "isUrlCancelled": {
       "name": "isUrlCancelled",
       "pointer": false,

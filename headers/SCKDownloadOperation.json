@@ -1,6 +1,6 @@
 {
   "name": "SCKDownloadOperation",
-  "extends": "SCKURLOperation",
+  "extends": "BCURLOperation",
   "interfaces": [
     "NSURLSessionDownloadDelegate"
   ],

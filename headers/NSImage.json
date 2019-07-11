@@ -509,6 +509,25 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "filledThumbWithSize:cornerRadius:": {
+      "name": "filledThumbWithSize:cornerRadius:",
+      "bridgedName": "filledThumbWithSize_cornerRadius",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "cornerRadius",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "pngDataByFixingInvalidGamma:": {
       "name": "pngDataByFixingInvalidGamma:",
       "bridgedName": "pngDataByFixingInvalidGamma",

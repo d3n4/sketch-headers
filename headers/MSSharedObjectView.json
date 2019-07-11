@@ -43,6 +43,16 @@
         "strong"
       ]
     },
+    "previewColorSpace": {
+      "name": "previewColorSpace",
+      "pointer": false,
+      "type": "NSColorSpace ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
     "borders": {
       "name": "borders",
       "pointer": false,

@@ -1,7 +1,9 @@
 {
   "name": "MSBezierSegment",
   "extends": "NSObject",
-  "interfaces": [],
+  "interfaces": [
+    "NSCopying"
+  ],
   "methods": {
     "lineSegmentWithEndPoint1:endPoint2:": {
       "name": "lineSegmentWithEndPoint1:endPoint2:",
@@ -189,13 +191,13 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "tanget:andPoint:atOffset:": {
-      "name": "tanget:andPoint:atOffset:",
-      "bridgedName": "tanget_andPoint_atOffset",
+    "tangent:andPoint:atOffset:": {
+      "name": "tangent:andPoint:atOffset:",
+      "bridgedName": "tangent_andPoint_atOffset",
       "args": [
         {
           "name": "tangent",
-          "type": "MSLine * _Nullable",
+          "type": "BCLine * _Nullable",
           "nullable": false
         },
         {
@@ -223,7 +225,7 @@
           "nullable": false
         }
       ],
-      "returns": "MSLine",
+      "returns": "BCLine",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -276,6 +278,20 @@
         {
           "name": "offset",
           "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentInRange:": {
+      "name": "segmentInRange:",
+      "bridgedName": "segmentInRange",
+      "args": [
+        {
+          "name": "range",
+          "type": "BCFloatRange",
           "nullable": false
         }
       ],
@@ -364,7 +380,7 @@
       "args": [
         {
           "name": "tangent",
-          "type": "MSLine",
+          "type": "BCLine",
           "nullable": false
         }
       ],
@@ -386,6 +402,34 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "intersectionsWithHorizontalLineAt:": {
+      "name": "intersectionsWithHorizontalLineAt:",
+      "bridgedName": "intersectionsWithHorizontalLineAt",
+      "args": [
+        {
+          "name": "y",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet <NSNumber *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "intersectionsWithVerticalLineAt:": {
+      "name": "intersectionsWithVerticalLineAt:",
+      "bridgedName": "intersectionsWithVerticalLineAt",
+      "args": [
+        {
+          "name": "x",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSet <NSNumber *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "lineRepresentation": {
       "name": "lineRepresentation",
       "bridgedName": "lineRepresentation",
@@ -399,6 +443,28 @@
       "bridgedName": "quadraticRepresentation",
       "args": [],
       "returns": "nullable MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "quadraticApproximation": {
+      "name": "quadraticApproximation",
+      "bridgedName": "quadraticApproximation",
+      "args": [],
+      "returns": "NSArray <MSBezierSegment *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "segmentsByClippingToRect:": {
+      "name": "segmentsByClippingToRect:",
+      "bridgedName": "segmentsByClippingToRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <MSBezierSegment *> *",
       "kind": "instance",
       "kindIndicator": "-"
     },
@@ -432,6 +498,20 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
+    "segmentForJoiningWithC1ContinuityToSegment:": {
+      "name": "segmentForJoiningWithC1ContinuityToSegment:",
+      "bridgedName": "segmentForJoiningWithC1ContinuityToSegment",
+      "args": [
+        {
+          "name": "other",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSBezierSegment *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
     "isEqualToBezierSegment:": {
       "name": "isEqualToBezierSegment:",
       "bridgedName": "isEqualToBezierSegment",
@@ -457,6 +537,14 @@
     "bounds": {
       "name": "bounds",
       "bridgedName": "bounds",
+      "args": [],
+      "returns": "CGRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "controlPointBounds": {
+      "name": "controlPointBounds",
+      "bridgedName": "controlPointBounds",
       "args": [],
       "returns": "CGRect",
       "kind": "instance",
@@ -517,6 +605,15 @@
         "readonly"
       ]
     },
+    "fromRange": {
+      "name": "fromRange",
+      "pointer": false,
+      "type": "BCFloatRange",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
     "controlPoint1": {
       "name": "controlPoint1",
       "pointer": false,
@@ -556,7 +653,7 @@
     "lineSegment": {
       "name": "lineSegment",
       "pointer": false,
-      "type": "MSLineSegment",
+      "type": "BCLineSegment",
       "attributes": [
         "nonatomic",
         "readonly"

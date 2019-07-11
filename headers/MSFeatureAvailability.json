@@ -29,17 +29,7 @@
       "type": "BOOL",
       "attributes": [
         "nonatomic",
-        "assign",
-        "class"
-      ]
-    },
-    "dataSuppliersEnabled": {
-      "name": "dataSuppliersEnabled",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic",
-        "assign",
+        "readonly",
         "class"
       ]
     },
@@ -85,6 +75,16 @@
     },
     "cloudOrganizationsEnabled": {
       "name": "cloudOrganizationsEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "class"
+      ]
+    },
+    "inferredLayoutEnabled": {
+      "name": "inferredLayoutEnabled",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
