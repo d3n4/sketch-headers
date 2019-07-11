@@ -1,0 +1,3 @@
+.temp-headers
+node_modules
+package-lock.json

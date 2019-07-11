@@ -1,0 +1,25 @@
+{
+  "name": "sketch-headers",
+  "version": "0.1.4",
+  "description": "",
+  "files": [
+    "lib"
+  ],
+  "bin": {
+    "sketch-headers": "lib/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node ./lib/index.js",
+    "deploy": "node ./deploy.js"
+  },
+  "author": "Mathieu Dutour",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "child-process-promise": "^2.2.1",
+    "fs-extra": "^4.0.2",
+    "rimraf": "^2.6.2",
+    "yargs": "^10.0.3"
+  }
+}
