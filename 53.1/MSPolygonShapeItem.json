@@ -1,0 +1,8 @@
+{
+  "name": "MSPolygonShapeItem",
+  "extends": "MSCustomShapeItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

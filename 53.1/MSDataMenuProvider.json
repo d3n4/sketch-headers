@@ -1,0 +1,121 @@
+{
+  "name": "MSDataMenuProvider",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "initWithDataManager:": {
+      "name": "initWithDataManager:",
+      "bridgedName": "initWithDataManager",
+      "args": [
+        {
+          "name": "dataManager",
+          "type": "MSDataSupplierManager *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menu": {
+      "name": "menu",
+      "bridgedName": "menu",
+      "args": [],
+      "returns": "NSMenu *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "overridesMenu": {
+      "name": "overridesMenu",
+      "bridgedName": "overridesMenu",
+      "args": [],
+      "returns": "NSMenu *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuItemsForDataType:indentationLevel:": {
+      "name": "menuItemsForDataType:indentationLevel:",
+      "bridgedName": "menuItemsForDataType_indentationLevel",
+      "args": [
+        {
+          "name": "dataType",
+          "type": "MSDataType",
+          "nullable": false
+        },
+        {
+          "name": "menuItemIndentation",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearDataMenuItem": {
+      "name": "clearDataMenuItem",
+      "bridgedName": "clearDataMenuItem",
+      "args": [],
+      "returns": "nullable NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshDataMenuItemsWithOverridesMenu:displayKeyboardShortcuts:": {
+      "name": "refreshDataMenuItemsWithOverridesMenu:displayKeyboardShortcuts:",
+      "bridgedName": "refreshDataMenuItemsWithOverridesMenu_displayKeyboardShortcuts",
+      "args": [
+        {
+          "name": "overridesMenu",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "displayKeyboardShortcuts",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSMenuItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addImageToMenuItems:": {
+      "name": "addImageToMenuItems:",
+      "bridgedName": "addImageToMenuItems",
+      "args": [
+        {
+          "name": "menuItems",
+          "type": "NSArray <NSMenuItem *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dataManager": {
+      "name": "dataManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSDataMenuProviderDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

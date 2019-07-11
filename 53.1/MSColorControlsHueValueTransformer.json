@@ -1,0 +1,8 @@
+{
+  "name": "MSColorControlsHueValueTransformer",
+  "extends": "MSArbitraryRangePercentValueTransformer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

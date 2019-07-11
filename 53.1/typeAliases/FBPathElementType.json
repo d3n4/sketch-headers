@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "FBPathElementType",
+  "type": "enum FBPathElementType",
+  "pointer": false
+}

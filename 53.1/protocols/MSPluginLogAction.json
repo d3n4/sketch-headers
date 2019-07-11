@@ -1,0 +1,56 @@
+{
+  "protocol": true,
+  "name": "MSPluginLogAction",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "log:from:": {
+      "name": "log:from:",
+      "bridgedName": "log_from",
+      "args": [
+        {
+          "name": "value",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearLogFor:": {
+      "name": "clearLogFor:",
+      "bridgedName": "clearLogFor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "logStringFor:": {
+      "name": "logStringFor:",
+      "bridgedName": "logStringFor",
+      "args": [
+        {
+          "name": "sender",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

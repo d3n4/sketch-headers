@@ -1,0 +1,118 @@
+{
+  "name": "MSAssetPickerController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "switchToDataSourceAtIndex:": {
+      "name": "switchToDataSourceAtIndex:",
+      "bridgedName": "switchToDataSourceAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setEffectiveDisplayMode:animated:completionHandler:": {
+      "name": "setEffectiveDisplayMode:animated:completionHandler:",
+      "bridgedName": "setEffectiveDisplayMode_animated_completionHandler",
+      "args": [
+        {
+          "name": "effectiveDisplayMode",
+          "type": "MSAssetPickerDisplayMode",
+          "nullable": false
+        },
+        {
+          "name": "animated",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "completionHandler",
+          "type": "void (^_Nullable)(BOOL)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadDataAndUpdateSize": {
+      "name": "reloadDataAndUpdateSize",
+      "bridgedName": "reloadDataAndUpdateSize",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSAssetPickerControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "dataSources": {
+      "name": "dataSources",
+      "pointer": false,
+      "type": "NSArray <MSAssetCollectionViewDataSource *> ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "sectionHeaderAccessoryViews": {
+      "name": "sectionHeaderAccessoryViews",
+      "pointer": false,
+      "type": "NSArray<NSView *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sectionHeaderLabelView": {
+      "name": "sectionHeaderLabelView",
+      "pointer": false,
+      "type": "NSView ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentDataSource": {
+      "name": "currentDataSource",
+      "pointer": false,
+      "type": "MSAssetCollectionViewDataSource ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "highlightedAsset": {
+      "name": "highlightedAsset",
+      "pointer": false,
+      "type": "id<MSAsset>",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "hasContent": {
+      "name": "hasContent",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

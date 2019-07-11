@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "MSArcVertex",
+  "members": [
+    {
+      "name": "coefficients",
+      "pointer": false,
+      "type": "union {\n    simd_float4"
+    },
+    {
+      "name": "center",
+      "pointer": false,
+      "type": "struct {\n      simd_float2"
+    },
+    {
+      "name": "radius",
+      "pointer": false,
+      "type": "simd_float1"
+    },
+    {
+      "name": "mode",
+      "pointer": false,
+      "type": "simd_float1"
+    }
+  ]
+}

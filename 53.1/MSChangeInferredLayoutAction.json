@@ -1,0 +1,23 @@
+{
+  "name": "MSChangeInferredLayoutAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "changeInferredLayout:": {
+      "name": "changeInferredLayout:",
+      "bridgedName": "changeInferredLayout",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

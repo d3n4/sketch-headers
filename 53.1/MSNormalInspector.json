@@ -1,0 +1,200 @@
+{
+  "name": "MSNormalInspector",
+  "extends": "NSViewController",
+  "interfaces": [
+    "MSStylePartInspectorDelegate",
+    "MSInspectorChildController"
+  ],
+  "methods": {
+    "selectionDidChangeTo:": {
+      "name": "selectionDidChangeTo:",
+      "bridgedName": "selectionDidChangeTo",
+      "args": [
+        {
+          "name": "newLayers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustInspectorToColorPopover:sender:": {
+      "name": "adjustInspectorToColorPopover:sender:",
+      "bridgedName": "adjustInspectorToColorPopover_sender",
+      "args": [
+        {
+          "name": "popover",
+          "type": "BCPopover *",
+          "nullable": false
+        },
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closeAnyColorPopover": {
+      "name": "closeAnyColorPopover",
+      "bridgedName": "closeAnyColorPopover",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorMagnifierAction:": {
+      "name": "colorMagnifierAction:",
+      "bridgedName": "colorMagnifierAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeTextLayerFont:": {
+      "name": "changeTextLayerFont:",
+      "bridgedName": "changeTextLayerFont",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerPositionPossiblyChanged": {
+      "name": "layerPositionPossiblyChanged",
+      "bridgedName": "layerPositionPossiblyChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showFillOptionsAction:": {
+      "name": "showFillOptionsAction:",
+      "bridgedName": "showFillOptionsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showBorderOptionsAction:": {
+      "name": "showBorderOptionsAction:",
+      "bridgedName": "showBorderOptionsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openPopoverForStylePart:atIndex:": {
+      "name": "openPopoverForStylePart:atIndex:",
+      "bridgedName": "openPopoverForStylePart_atIndex",
+      "args": [
+        {
+          "name": "stylePart",
+          "type": "MSStylePartType",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reloadSharedObjectsSection": {
+      "name": "reloadSharedObjectsSection",
+      "bridgedName": "reloadSharedObjectsSection",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "beginRenameSharedObject:completionBlock:": {
+      "name": "beginRenameSharedObject:completionBlock:",
+      "bridgedName": "beginRenameSharedObject_completionBlock",
+      "args": [
+        {
+          "name": "sharedObject",
+          "type": "MSSharedObject *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "MSRenameSharedObjectBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "stackView": {
+      "name": "stackView",
+      "pointer": false,
+      "type": "IBOutlet MSInspectorStackView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "MSLayerArray ",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "eventHandler": {
+      "name": "eventHandler",
+      "pointer": false,
+      "type": "MSEventHandler ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "sharedStyleInspectorVisible": {
+      "name": "sharedStyleInspectorVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

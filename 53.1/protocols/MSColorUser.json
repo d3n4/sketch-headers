@@ -1,0 +1,18 @@
+{
+  "protocol": true,
+  "name": "MSColorUser",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "colorUserColorUse": {
+      "name": "colorUserColorUse",
+      "pointer": false,
+      "type": "MSColorUse",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

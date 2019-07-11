@@ -1,0 +1,10 @@
+{
+  "name": "EPSParser",
+  "extends": "NSObject",
+  "interfaces": [
+    "PDFParser"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

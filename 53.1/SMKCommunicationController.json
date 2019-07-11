@@ -1,0 +1,45 @@
+{
+  "name": "SMKCommunicationController",
+  "extends": "NSObject",
+  "interfaces": [
+    "SMKCommunicationInterface"
+  ],
+  "methods": {
+    "didEstablishXPCConnection": {
+      "name": "didEstablishXPCConnection",
+      "bridgedName": "didEstablishXPCConnection",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didLoseXPCConnection": {
+      "name": "didLoseXPCConnection",
+      "bridgedName": "didLoseXPCConnection",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "xpcConnection": {
+      "name": "xpcConnection",
+      "pointer": false,
+      "type": "NSXPCConnection ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "mirrorKit": {
+      "name": "mirrorKit",
+      "pointer": false,
+      "type": "id<SMKCommunicationResponseInterface>",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

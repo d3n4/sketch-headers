@@ -1,0 +1,68 @@
+{
+  "name": "MSColorModePickerController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {
+    "setFillType:gradientType:": {
+      "name": "setFillType:gradientType:",
+      "bridgedName": "setFillType_gradientType",
+      "args": [
+        {
+          "name": "fillType",
+          "type": "BCFillType",
+          "nullable": false
+        },
+        {
+          "name": "gradientType",
+          "type": "MSGradientType",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "switchToColorTabAtIndex:": {
+      "name": "switchToColorTabAtIndex:",
+      "bridgedName": "switchToColorTabAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "colorTabIndex": {
+      "name": "colorTabIndex",
+      "bridgedName": "colorTabIndex",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSColorModePickerControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "styleParts": {
+      "name": "styleParts",
+      "pointer": false,
+      "type": "NSArray <MSStylePart *>",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

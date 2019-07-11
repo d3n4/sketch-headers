@@ -1,0 +1,148 @@
+{
+  "name": "SCKObject",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSSecureCoding"
+  ],
+  "methods": {
+    "initWithData:error:": {
+      "name": "initWithData:error:",
+      "bridgedName": "initWithData_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": true
+        },
+        {
+          "name": "error",
+          "type": "NSError * _Nullable __autoreleasing * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDictionary:": {
+      "name": "initWithDictionary:",
+      "bridgedName": "initWithDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "nonnull NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDictionary:parentObject:": {
+      "name": "initWithDictionary:parentObject:",
+      "bridgedName": "initWithDictionary_parentObject",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "nonnull NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "SCKObject *",
+          "nullable": true
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithObjectID:": {
+      "name": "initWithObjectID:",
+      "bridgedName": "initWithObjectID",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "nonnull SCKObjectID *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "parent": {
+      "name": "parent",
+      "pointer": false,
+      "type": "SCKObject ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak",
+        "readonly"
+      ]
+    },
+    "objectID": {
+      "name": "objectID",
+      "pointer": false,
+      "type": "SCKObjectID ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "creationDate": {
+      "name": "creationDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "updateDate": {
+      "name": "updateDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "deletionDate": {
+      "name": "deletionDate",
+      "pointer": false,
+      "type": "NSDate ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "dictionaryRepresentation": {
+      "name": "dictionaryRepresentation",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "localizedUpdatedTimeComponentsString": {
+      "name": "localizedUpdatedTimeComponentsString",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

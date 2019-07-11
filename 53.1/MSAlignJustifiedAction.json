@@ -1,0 +1,8 @@
+{
+  "name": "MSAlignJustifiedAction",
+  "extends": "MSBaseAlignAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

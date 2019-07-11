@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSImageUse",
+  "members": [
+    {
+      "name": "MSImageUseFill"
+    },
+    {
+      "name": "MSImageUseBitmap"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "SMKWebServerController",
+  "extends": "SMKServerController",
+  "interfaces": [],
+  "methods": {
+    "initWithServerPort:": {
+      "name": "initWithServerPort:",
+      "bridgedName": "initWithServerPort",
+      "args": [
+        {
+          "name": "port",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

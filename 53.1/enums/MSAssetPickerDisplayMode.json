@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSAssetPickerDisplayMode",
+  "members": [
+    {
+      "name": "MSAssetPickerDisplayModeGrid"
+    },
+    {
+      "name": "MSAssetPickerDisplayModeList"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "SVGSymbolElement",
+  "extends": "_SVGSymbolElement",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

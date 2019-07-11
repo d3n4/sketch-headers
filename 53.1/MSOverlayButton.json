@@ -1,0 +1,8 @@
+{
+  "name": "MSOverlayButton",
+  "extends": "MSInspectorButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

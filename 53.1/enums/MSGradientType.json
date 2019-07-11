@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSGradientType",
+  "members": [
+    {
+      "name": "MSGradientTypeLinear",
+      "value": "0"
+    },
+    {
+      "name": "MSGradientTypeRadial",
+      "value": "1"
+    },
+    {
+      "name": "MSGradientTypeAngular",
+      "value": "2"
+    }
+  ]
+}

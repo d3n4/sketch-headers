@@ -1,0 +1,17 @@
+{
+  "name": "MSEventHandlerAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "eventHandlerClass": {
+      "name": "eventHandlerClass",
+      "bridgedName": "eventHandlerClass",
+      "args": [],
+      "returns": "Class",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

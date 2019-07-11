@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSStylePartPreviewButtonWithBlendModeDelegae",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "setBlendMode:forPreviewButton:": {
+      "name": "setBlendMode:forPreviewButton:",
+      "bridgedName": "setBlendMode_forPreviewButton",
+      "args": [
+        {
+          "name": "blendMode",
+          "type": "MSBlendMode",
+          "nullable": false
+        },
+        {
+          "name": "previewButton",
+          "type": "MSStylePartPreviewButtonWithBlendMode *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

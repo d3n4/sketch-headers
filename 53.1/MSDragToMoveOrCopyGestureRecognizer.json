@@ -1,0 +1,130 @@
+{
+  "name": "MSDragToMoveOrCopyGestureRecognizer",
+  "extends": "MSDragGestureRecognizer",
+  "interfaces": [],
+  "methods": {
+    "translationInLayer:": {
+      "name": "translationInLayer:",
+      "bridgedName": "translationInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "CGVector",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "locationInLayer:": {
+      "name": "locationInLayer:",
+      "bridgedName": "locationInLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": true
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "shouldCopyDraggedItems": {
+      "name": "shouldCopyDraggedItems",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldSnap": {
+      "name": "shouldSnap",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "alignModifierMask": {
+      "name": "alignModifierMask",
+      "pointer": false,
+      "type": "NSEventModifierFlags",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "shouldInterpretAlignment": {
+      "name": "shouldInterpretAlignment",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "align": {
+      "name": "align",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "alignmentAxis": {
+      "name": "alignmentAxis",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "draggedItem": {
+      "name": "draggedItem",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "originalDraggedItems": {
+      "name": "originalDraggedItems",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "originalDragPositions": {
+      "name": "originalDragPositions",
+      "pointer": false,
+      "type": "NSArray <NSValue *> ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    },
+    "copiedItems": {
+      "name": "copiedItems",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,262 @@
+{
+  "name": "MSBezierFillet",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "bezierFilletWithSegment1:segment2:segment1Offset:": {
+      "name": "bezierFilletWithSegment1:segment2:segment1Offset:",
+      "bridgedName": "bezierFilletWithSegment1_segment2_segment1Offset",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment1Offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierFilletWithSegment1:segment2:filletRadius:": {
+      "name": "bezierFilletWithSegment1:segment2:filletRadius:",
+      "bridgedName": "bezierFilletWithSegment1_segment2_filletRadius",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "filletRadius",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "zeroRadiusFilletWithSegment1:segment2:": {
+      "name": "zeroRadiusFilletWithSegment1:segment2:",
+      "bridgedName": "zeroRadiusFilletWithSegment1_segment2",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithSegment1:segment2:segment1Offset:segment2Offset:arcEndPoint1:arcEndPoint2:arcCenter:arcRadius:": {
+      "name": "initWithSegment1:segment2:segment1Offset:segment2Offset:arcEndPoint1:arcEndPoint2:arcCenter:arcRadius:",
+      "bridgedName": "initWithSegment1_segment2_segment1Offset_segment2Offset_arcEndPoint1_arcEndPoint2_arcCenter_arcRadius",
+      "args": [
+        {
+          "name": "segment1",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment2",
+          "type": "MSBezierSegment *",
+          "nullable": false
+        },
+        {
+          "name": "segment1Offset",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "segment2Offset",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "arcEndPoint1",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "arcEndPoint2",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "arcCenter",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "arcRadius",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reversedFillet": {
+      "name": "reversedFillet",
+      "bridgedName": "reversedFillet",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arcSegments": {
+      "name": "arcSegments",
+      "bridgedName": "arcSegments",
+      "args": [],
+      "returns": "NSArray <MSBezierSegment *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addArcToBezierPath:orCGPath:": {
+      "name": "addArcToBezierPath:orCGPath:",
+      "bridgedName": "addArcToBezierPath_orCGPath",
+      "args": [
+        {
+          "name": "bezierPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        },
+        {
+          "name": "pathRef",
+          "type": "CGMutablePathRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "segment1": {
+      "name": "segment1",
+      "pointer": false,
+      "type": "MSBezierSegment ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "segment2": {
+      "name": "segment2",
+      "pointer": false,
+      "type": "MSBezierSegment ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "strong"
+      ]
+    },
+    "segment1Offset": {
+      "name": "segment1Offset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "segment2Offset": {
+      "name": "segment2Offset",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "arcRadius": {
+      "name": "arcRadius",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "arcEndPoint1": {
+      "name": "arcEndPoint1",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "arcEndPoint2": {
+      "name": "arcEndPoint2",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "arcCenter": {
+      "name": "arcCenter",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "startAngle": {
+      "name": "startAngle",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "endAngle": {
+      "name": "endAngle",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "clockwise": {
+      "name": "clockwise",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

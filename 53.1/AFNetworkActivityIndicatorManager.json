@@ -1,0 +1,54 @@
+{
+  "name": "AFNetworkActivityIndicatorManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedManager": {
+      "name": "sharedManager",
+      "bridgedName": "sharedManager",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "incrementActivityCount": {
+      "name": "incrementActivityCount",
+      "bridgedName": "incrementActivityCount",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decrementActivityCount": {
+      "name": "decrementActivityCount",
+      "bridgedName": "decrementActivityCount",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "getter = isEnabled"
+      ]
+    },
+    "isNetworkActivityIndicatorVisible": {
+      "name": "isNetworkActivityIndicatorVisible",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "readonly",
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

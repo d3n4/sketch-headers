@@ -1,0 +1,711 @@
+{
+  "name": "Mocha",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedRuntime": {
+      "name": "sharedRuntime",
+      "bridgedName": "sharedRuntime",
+      "args": [],
+      "returns": "Mocha *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithName:": {
+      "name": "initWithName:",
+      "bridgedName": "initWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "evalString:": {
+      "name": "evalString:",
+      "bridgedName": "evalString",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "evalString:atURL:": {
+      "name": "evalString:atURL:",
+      "bridgedName": "evalString_atURL",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "callFunctionWithName:": {
+      "name": "callFunctionWithName:",
+      "bridgedName": "callFunctionWithName",
+      "args": [
+        {
+          "name": "functionName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "callFunctionWithName:withArguments:": {
+      "name": "callFunctionWithName:withArguments:",
+      "bridgedName": "callFunctionWithName_withArguments",
+      "args": [
+        {
+          "name": "functionName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "firstArg",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "args",
+          "type": "va_list",
+          "optional": true
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "callFunctionWithName:withArgumentsInArray:": {
+      "name": "callFunctionWithName:withArgumentsInArray:",
+      "bridgedName": "callFunctionWithName_withArgumentsInArray",
+      "args": [
+        {
+          "name": "functionName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "arguments",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isSyntaxValidForString:": {
+      "name": "isSyntaxValidForString:",
+      "bridgedName": "isSyntaxValidForString",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadFrameworkWithName:": {
+      "name": "loadFrameworkWithName:",
+      "bridgedName": "loadFrameworkWithName",
+      "args": [
+        {
+          "name": "frameworkName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadFrameworkWithName:inDirectory:": {
+      "name": "loadFrameworkWithName:inDirectory:",
+      "bridgedName": "loadFrameworkWithName_inDirectory",
+      "args": [
+        {
+          "name": "frameworkName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "directory",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadBridgeSupportFilesAtPath:": {
+      "name": "loadBridgeSupportFilesAtPath:",
+      "bridgedName": "loadBridgeSupportFilesAtPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addFrameworkSearchPath:": {
+      "name": "addFrameworkSearchPath:",
+      "bridgedName": "addFrameworkSearchPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertFrameworkSearchPath:atIndex:": {
+      "name": "insertFrameworkSearchPath:atIndex:",
+      "bridgedName": "insertFrameworkSearchPath_atIndex",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "idx",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeFrameworkSearchPathAtIndex:": {
+      "name": "removeFrameworkSearchPathAtIndex:",
+      "bridgedName": "removeFrameworkSearchPathAtIndex",
+      "args": [
+        {
+          "name": "idx",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "garbageCollect": {
+      "name": "garbageCollect",
+      "bridgedName": "garbageCollect",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "context": {
+      "name": "context",
+      "bridgedName": "context",
+      "args": [],
+      "returns": "JSGlobalContextRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runtimeWithContext:": {
+      "name": "runtimeWithContext:",
+      "bridgedName": "runtimeWithContext",
+      "args": [
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "Mocha *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "JSValueForObject:inContext:": {
+      "name": "JSValueForObject:inContext:",
+      "bridgedName": "JSValueForObject_inContext",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "objectForJSValue:inContext:": {
+      "name": "objectForJSValue:inContext:",
+      "bridgedName": "objectForJSValue_inContext",
+      "args": [
+        {
+          "name": "value",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "objectForJSValue:inContext:unboxObjects:": {
+      "name": "objectForJSValue:inContext:unboxObjects:",
+      "bridgedName": "objectForJSValue_inContext_unboxObjects",
+      "args": [
+        {
+          "name": "value",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        },
+        {
+          "name": "unboxObjects",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "arrayForJSArray:inContext:": {
+      "name": "arrayForJSArray:inContext:",
+      "bridgedName": "arrayForJSArray_inContext",
+      "args": [
+        {
+          "name": "arrayValue",
+          "type": "JSObjectRef",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "dictionaryForJSHash:inContext:": {
+      "name": "dictionaryForJSHash:inContext:",
+      "bridgedName": "dictionaryForJSHash_inContext",
+      "args": [
+        {
+          "name": "hashValue",
+          "type": "JSObjectRef",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "JSValueForObject:": {
+      "name": "JSValueForObject:",
+      "bridgedName": "JSValueForObject",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "JSValueForObject:shouldCreateBox:": {
+      "name": "JSValueForObject:shouldCreateBox:",
+      "bridgedName": "JSValueForObject_shouldCreateBox",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "shouldCreateBox",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForJSValue:": {
+      "name": "objectForJSValue:",
+      "bridgedName": "objectForJSValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "JSValueRef",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForJSValue:unboxObjects:": {
+      "name": "objectForJSValue:unboxObjects:",
+      "bridgedName": "objectForJSValue_unboxObjects",
+      "args": [
+        {
+          "name": "value",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "unboxObjects",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boxedJSObjectForObject:shouldCreateBox:": {
+      "name": "boxedJSObjectForObject:shouldCreateBox:",
+      "bridgedName": "boxedJSObjectForObject_shouldCreateBox",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "shouldCreateBox",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "JSObjectRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "unboxedObjectForJSObject:": {
+      "name": "unboxedObjectForJSObject:",
+      "bridgedName": "unboxedObjectForJSObject",
+      "args": [
+        {
+          "name": "jsObject",
+          "type": "JSObjectRef",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectWithName:": {
+      "name": "objectWithName:",
+      "bridgedName": "objectWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setObject:withName:": {
+      "name": "setObject:withName:",
+      "bridgedName": "setObject_withName",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setObject:withName:attributes:": {
+      "name": "setObject:withName:attributes:",
+      "bridgedName": "setObject_withName_attributes",
+      "args": [
+        {
+          "name": "object",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "attributes",
+          "type": "JSPropertyAttributes",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeObjectWithName:": {
+      "name": "removeObjectWithName:",
+      "bridgedName": "removeObjectWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "evalJSString:": {
+      "name": "evalJSString:",
+      "bridgedName": "evalJSString",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "evalJSString:scriptPath:": {
+      "name": "evalJSString:scriptPath:",
+      "bridgedName": "evalJSString_scriptPath",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "scriptPath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "JSFunctionWithName:": {
+      "name": "JSFunctionWithName:",
+      "bridgedName": "JSFunctionWithName",
+      "args": [
+        {
+          "name": "functionName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "JSObjectRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "callJSFunctionWithName:withArgumentsInArray:": {
+      "name": "callJSFunctionWithName:withArgumentsInArray:",
+      "bridgedName": "callJSFunctionWithName_withArgumentsInArray",
+      "args": [
+        {
+          "name": "functionName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "arguments",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "callJSFunction:withArgumentsInArray:": {
+      "name": "callJSFunction:withArgumentsInArray:",
+      "bridgedName": "callJSFunction_withArgumentsInArray",
+      "args": [
+        {
+          "name": "jsFunction",
+          "type": "JSObjectRef",
+          "nullable": false
+        },
+        {
+          "name": "arguments",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "JSValueRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exceptionWithJSException:context:": {
+      "name": "exceptionWithJSException:context:",
+      "bridgedName": "exceptionWithJSException_context",
+      "args": [
+        {
+          "name": "exception",
+          "type": "JSValueRef",
+          "nullable": false
+        },
+        {
+          "name": "ctx",
+          "type": "JSContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "NSException *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "exceptionWithJSException:": {
+      "name": "exceptionWithJSException:",
+      "bridgedName": "exceptionWithJSException",
+      "args": [
+        {
+          "name": "exception",
+          "type": "JSValueRef",
+          "nullable": false
+        }
+      ],
+      "returns": "NSException *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "throwJSException:": {
+      "name": "throwJSException:",
+      "bridgedName": "throwJSException",
+      "args": [
+        {
+          "name": "exception",
+          "type": "JSValueRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "installBuiltins": {
+      "name": "installBuiltins",
+      "bridgedName": "installBuiltins",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cleanUp": {
+      "name": "cleanUp",
+      "bridgedName": "cleanUp",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MochaDelegate>",
+      "attributes": [
+        "unsafe_unretained"
+      ]
+    },
+    "frameworkSearchPaths": {
+      "name": "frameworkSearchPaths",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "globalSymbolNames": {
+      "name": "globalSymbolNames",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "context": {
+      "name": "context",
+      "pointer": false,
+      "type": "JSGlobalContextRef",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

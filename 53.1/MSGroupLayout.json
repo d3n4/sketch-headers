@@ -1,0 +1,138 @@
+{
+  "name": "MSGroupLayout",
+  "extends": "_MSGroupLayout",
+  "interfaces": [],
+  "methods": {
+    "groupDidResizeFromSize:": {
+      "name": "groupDidResizeFromSize:",
+      "bridgedName": "groupDidResizeFromSize",
+      "args": [
+        {
+          "name": "oldSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "desiredGroupLayerOrder": {
+      "name": "desiredGroupLayerOrder",
+      "bridgedName": "desiredGroupLayerOrder",
+      "args": [],
+      "returns": "NSArray <__kindof MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layersToConsiderForGroupBounds": {
+      "name": "layersToConsiderForGroupBounds",
+      "bridgedName": "layersToConsiderForGroupBounds",
+      "args": [],
+      "returns": "NSArray <__kindof MSLayer *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fixGeometryWithOptions:": {
+      "name": "fixGeometryWithOptions:",
+      "bridgedName": "fixGeometryWithOptions",
+      "args": [
+        {
+          "name": "resizeOption",
+          "type": "MSFixGroupGeometryOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeLayout:inBlock:": {
+      "name": "changeLayout:inBlock:",
+      "bridgedName": "changeLayout_inBlock",
+      "args": [
+        {
+          "name": "layoutType",
+          "type": "MSLayoutChangeType",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "willChangeLayout:": {
+      "name": "willChangeLayout:",
+      "bridgedName": "willChangeLayout",
+      "args": [
+        {
+          "name": "layoutType",
+          "type": "MSLayoutChangeType",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didChangeLayout:info:": {
+      "name": "didChangeLayout:info:",
+      "bridgedName": "didChangeLayout_info",
+      "args": [
+        {
+          "name": "layoutType",
+          "type": "MSLayoutChangeType",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "id",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldResizeToFitBounds:": {
+      "name": "shouldResizeToFitBounds:",
+      "bridgedName": "shouldResizeToFitBounds",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "group": {
+      "name": "group",
+      "pointer": false,
+      "type": "MSLayerGroup ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isInferredLayout": {
+      "name": "isInferredLayout",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

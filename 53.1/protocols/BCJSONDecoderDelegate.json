@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "BCJSONDecoderDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "decoder:shouldInstantiateObjectOfClass:": {
+      "name": "decoder:shouldInstantiateObjectOfClass:",
+      "bridgedName": "decoder_shouldInstantiateObjectOfClass",
+      "args": [
+        {
+          "name": "decoder",
+          "type": "nonnull BCJSONDecoder*",
+          "nullable": false
+        },
+        {
+          "name": "aClass",
+          "type": "nonnull Class",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

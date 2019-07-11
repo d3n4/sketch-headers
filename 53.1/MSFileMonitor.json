@@ -1,0 +1,8 @@
+{
+  "name": "MSFileMonitor",
+  "extends": "MSFolderMonitor",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

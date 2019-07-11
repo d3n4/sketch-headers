@@ -1,0 +1,191 @@
+{
+  "name": "MSAttributedString",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSCoding",
+    "NSCopying"
+  ],
+  "methods": {
+    "encodeAttributesInDictionary:": {
+      "name": "encodeAttributesInDictionary:",
+      "bridgedName": "encodeAttributesInDictionary",
+      "args": [
+        {
+          "name": "attrs",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "decodeAttributesInDictionary:": {
+      "name": "decodeAttributesInDictionary:",
+      "bridgedName": "decodeAttributesInDictionary",
+      "args": [
+        {
+          "name": "attrs",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "isRequiredFontAvailableInDictionary:": {
+      "name": "isRequiredFontAvailableInDictionary:",
+      "bridgedName": "isRequiredFontAvailableInDictionary",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fontDescriptorInDictionary:": {
+      "name": "fontDescriptorInDictionary:",
+      "bridgedName": "fontDescriptorInDictionary",
+      "args": [
+        {
+          "name": "attributes",
+          "type": "NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSFontDescriptor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithAttributedString:colorSpace:convert:": {
+      "name": "initWithAttributedString:colorSpace:convert:",
+      "bridgedName": "initWithAttributedString_colorSpace_convert",
+      "args": [
+        {
+          "name": "attributedString",
+          "type": "NSAttributedString *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "convert",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithAttributedString:documentColorSpace:": {
+      "name": "initWithAttributedString:documentColorSpace:",
+      "bridgedName": "initWithAttributedString_documentColorSpace",
+      "args": [
+        {
+          "name": "attributedString",
+          "type": "NSAttributedString *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "attributedStringByReplacingFontNames:": {
+      "name": "attributedStringByReplacingFontNames:",
+      "bridgedName": "attributedStringByReplacingFontNames",
+      "args": [
+        {
+          "name": "fontNames",
+          "type": "NSDictionary <NSString *,NSString *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "attributedString": {
+      "name": "attributedString",
+      "pointer": false,
+      "type": "NSAttributedString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "transformedAttributedString": {
+      "name": "transformedAttributedString",
+      "pointer": false,
+      "type": "NSAttributedString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fontDescriptors": {
+      "name": "fontDescriptors",
+      "pointer": false,
+      "type": "NSSet <NSFontDescriptor *>",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "fontNames": {
+      "name": "fontNames",
+      "pointer": false,
+      "type": "NSSet <NSString *>",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "unavailableFontNames": {
+      "name": "unavailableFontNames",
+      "pointer": false,
+      "type": "NSSet <NSString *>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "areRequiredFontsAvailable": {
+      "name": "areRequiredFontsAvailable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "string": {
+      "name": "string",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,122 @@
+{
+  "name": "MSRulerData",
+  "extends": "_MSRulerData",
+  "interfaces": [],
+  "methods": {
+    "addGuide": {
+      "name": "addGuide",
+      "bridgedName": "addGuide",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addGuideWithValue:": {
+      "name": "addGuideWithValue:",
+      "bridgedName": "addGuideWithValue",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addGuide:": {
+      "name": "addGuide:",
+      "bridgedName": "addGuide",
+      "args": [
+        {
+          "name": "guide",
+          "type": "NSNumber *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeGuideAtIndex:": {
+      "name": "removeGuideAtIndex:",
+      "bridgedName": "removeGuideAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeGuide:": {
+      "name": "removeGuide:",
+      "bridgedName": "removeGuide",
+      "args": [
+        {
+          "name": "guide",
+          "type": "NSNumber *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllGuides": {
+      "name": "removeAllGuides",
+      "bridgedName": "removeAllGuides",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfGuides": {
+      "name": "numberOfGuides",
+      "bridgedName": "numberOfGuides",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "guideAtIndex:": {
+      "name": "guideAtIndex:",
+      "bridgedName": "guideAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setValue:forGuideAtIndex:": {
+      "name": "setValue:forGuideAtIndex:",
+      "bridgedName": "setValue_forGuideAtIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

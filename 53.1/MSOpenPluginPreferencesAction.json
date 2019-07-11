@@ -1,0 +1,23 @@
+{
+  "name": "MSOpenPluginPreferencesAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "openPluginPreferences:": {
+      "name": "openPluginPreferences:",
+      "bridgedName": "openPluginPreferences",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

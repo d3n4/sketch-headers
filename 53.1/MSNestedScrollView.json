@@ -1,0 +1,8 @@
+{
+  "name": "MSNestedScrollView",
+  "extends": "NSScrollView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,68 @@
+{
+  "name": "MSRotateEventHandler",
+  "extends": "MSNormalBaseEventHandler",
+  "interfaces": [
+    "NSTouchBarDelegate"
+  ],
+  "methods": {
+    "cursorForDegrees:": {
+      "name": "cursorForDegrees:",
+      "bridgedName": "cursorForDegrees",
+      "args": [
+        {
+          "name": "degrees",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSCursor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "exitOnMouseUp": {
+      "name": "exitOnMouseUp",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "disableMoving": {
+      "name": "disableMoving",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "eventData": {
+      "name": "eventData",
+      "pointer": false,
+      "type": "MSNormalEventData ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "rotationCenterPoint": {
+      "name": "rotationCenterPoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "rotationItems": {
+      "name": "rotationItems",
+      "pointer": false,
+      "type": "NSArray<MSRotationItem *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

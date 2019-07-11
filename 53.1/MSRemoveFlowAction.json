@@ -1,0 +1,23 @@
+{
+  "name": "MSRemoveFlowAction",
+  "extends": "MSFlowBaseAction",
+  "interfaces": [],
+  "methods": {
+    "removeFlow:": {
+      "name": "removeFlow:",
+      "bridgedName": "removeFlow",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

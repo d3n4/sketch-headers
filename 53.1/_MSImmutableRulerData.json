@@ -1,0 +1,39 @@
+{
+  "name": "_MSImmutableRulerData",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "base": {
+      "name": "base",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "guides": {
+      "name": "guides",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "temporaryGuide": {
+      "name": "temporaryGuide",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

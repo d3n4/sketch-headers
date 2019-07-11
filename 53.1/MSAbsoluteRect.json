@@ -1,0 +1,46 @@
+{
+  "name": "MSAbsoluteRect",
+  "extends": "BCRect",
+  "interfaces": [],
+  "methods": {
+    "initWithLayer:": {
+      "name": "initWithLayer:",
+      "bridgedName": "initWithLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boundsContainsPoint:": {
+      "name": "boundsContainsPoint:",
+      "bridgedName": "boundsContainsPoint",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "rulerOrigin": {
+      "name": "rulerOrigin",
+      "pointer": false,
+      "type": "CGPoint",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

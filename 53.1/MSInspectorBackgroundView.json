@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorBackgroundView",
+  "extends": "MSThemedColorView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

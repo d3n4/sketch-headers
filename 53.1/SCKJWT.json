@@ -1,0 +1,178 @@
+{
+  "name": "SCKJWT",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "isSignatureValidForEnvironment:": {
+      "name": "isSignatureValidForEnvironment:",
+      "bridgedName": "isSignatureValidForEnvironment",
+      "args": [
+        {
+          "name": "environment",
+          "type": "SCKAPIEnvironment *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithString:)": {
+      "name": "initWithString:)",
+      "bridgedName": "initWithString_)",
+      "args": [
+        {
+          "name": "string",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isSignatureValidForPublicKey:)": {
+      "name": "isSignatureValidForPublicKey:)",
+      "bridgedName": "isSignatureValidForPublicKey_)",
+      "args": [
+        {
+          "name": "publicKey",
+          "type": "SecKeyRef",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "algorithm": {
+      "name": "algorithm",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "subject": {
+      "name": "subject",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "issuedAt": {
+      "name": "issuedAt",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "expirationTime": {
+      "name": "expirationTime",
+      "pointer": false,
+      "type": "NSNumber ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "sessionID": {
+      "name": "sessionID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "deviceID": {
+      "name": "deviceID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "variant": {
+      "name": "variant",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "email": {
+      "name": "email",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "stringValue": {
+      "name": "stringValue",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "header": {
+      "name": "header",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "payload": {
+      "name": "payload",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "signature": {
+      "name": "signature",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

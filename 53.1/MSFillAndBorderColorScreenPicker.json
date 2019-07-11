@@ -1,0 +1,66 @@
+{
+  "name": "MSFillAndBorderColorScreenPicker",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "pickColorForLayers:colorSpace:completionBlock:": {
+      "name": "pickColorForLayers:colorSpace:completionBlock:",
+      "bridgedName": "pickColorForLayers_colorSpace_completionBlock",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "colorspace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "completionBlock",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "applyColor:toLayers:": {
+      "name": "applyColor:toLayers:",
+      "bridgedName": "applyColor_toLayers",
+      "args": [
+        {
+          "name": "chosenColor",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setPreferredStylePartName:": {
+      "name": "setPreferredStylePartName:",
+      "bridgedName": "setPreferredStylePartName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

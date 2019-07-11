@@ -1,0 +1,6 @@
+{
+  "typeAlias": true,
+  "name": "uint64_t",
+  "type": "unsigned __int64",
+  "pointer": false
+}

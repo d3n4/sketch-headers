@@ -1,0 +1,275 @@
+{
+  "name": "MSStyledLayer",
+  "extends": "_MSStyledLayer",
+  "interfaces": [
+    "MSStyledLayer"
+  ],
+  "methods": {
+    "prepareAsMask": {
+      "name": "prepareAsMask",
+      "bridgedName": "prepareAsMask",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWithImageFromPasteboard:": {
+      "name": "layerWithImageFromPasteboard:",
+      "bridgedName": "layerWithImageFromPasteboard",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "layerWithImageFromFileURL:": {
+      "name": "layerWithImageFromFileURL:",
+      "bridgedName": "layerWithImageFromFileURL",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "canCutSegments": {
+      "name": "canCutSegments",
+      "bridgedName": "canCutSegments",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "possiblyFixRectangleBorderBeforeCut": {
+      "name": "possiblyFixRectangleBorderBeforeCut",
+      "bridgedName": "possiblyFixRectangleBorderBeforeCut",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWithBezierSegmentCutAtIndex:": {
+      "name": "layerWithBezierSegmentCutAtIndex:",
+      "bridgedName": "layerWithBezierSegmentCutAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "MSStyledLayer <MSPathLayer> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetSharedStyle": {
+      "name": "resetSharedStyle",
+      "bridgedName": "resetSharedStyle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createSharedStyleWithName:": {
+      "name": "createSharedStyleWithName:",
+      "bridgedName": "createSharedStyleWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSharedStyle *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateSharedStyleToMatchSelf": {
+      "name": "updateSharedStyleToMatchSelf",
+      "bridgedName": "updateSharedStyleToMatchSelf",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "copyStyleToPasteboard": {
+      "name": "copyStyleToPasteboard",
+      "bridgedName": "copyStyleToPasteboard",
+      "args": [],
+      "returns": "NSPasteboard *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "copyStyleToPasteboard:": {
+      "name": "copyStyleToPasteboard:",
+      "bridgedName": "copyStyleToPasteboard",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeStyleToPasteboard:": {
+      "name": "writeStyleToPasteboard:",
+      "bridgedName": "writeStyleToPasteboard",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pasteStyleFromPasteboardOnLayers:document:": {
+      "name": "pasteStyleFromPasteboardOnLayers:document:",
+      "bridgedName": "pasteStyleFromPasteboardOnLayers_document",
+      "args": [
+        {
+          "name": "styledLayers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pasteStyleFromPasteboard:onLayers:document:": {
+      "name": "pasteStyleFromPasteboard:onLayers:document:",
+      "bridgedName": "pasteStyleFromPasteboard_onLayers_document",
+      "args": [
+        {
+          "name": "pasteboard",
+          "type": "NSPasteboard *",
+          "nullable": false
+        },
+        {
+          "name": "styledLayers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pasteStyleDict:onLayers:document:": {
+      "name": "pasteStyleDict:onLayers:document:",
+      "bridgedName": "pasteStyleDict_onLayers_document",
+      "args": [
+        {
+          "name": "style",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "styledLayers",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "supportedPasteboardTypesForStyleCopying": {
+      "name": "supportedPasteboardTypesForStyleCopying",
+      "bridgedName": "supportedPasteboardTypesForStyleCopying",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "layerStyleDidChange": {
+      "name": "layerStyleDidChange",
+      "bridgedName": "layerStyleDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedObject": {
+      "name": "sharedObject",
+      "bridgedName": "sharedObject",
+      "args": [],
+      "returns": "MSSharedObject *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasMarkers": {
+      "name": "hasMarkers",
+      "bridgedName": "hasMarkers",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyPropertiesToBezier:": {
+      "name": "applyPropertiesToBezier:",
+      "bridgedName": "applyPropertiesToBezier",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isSharedStyleOutOfSync": {
+      "name": "isSharedStyleOutOfSync",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sharedStyle": {
+      "name": "sharedStyle",
+      "pointer": false,
+      "type": "MSSharedStyle ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

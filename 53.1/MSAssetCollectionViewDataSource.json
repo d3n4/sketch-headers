@@ -1,0 +1,301 @@
+{
+  "name": "MSAssetCollectionViewDataSource",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCollectionViewDataSource"
+  ],
+  "methods": {
+    "initWithAssetCollection:assetType:identifier:name:title:isLibrary:delegate:": {
+      "name": "initWithAssetCollection:assetType:identifier:name:title:isLibrary:delegate:",
+      "bridgedName": "initWithAssetCollection_assetType_identifier_name_title_isLibrary_delegate",
+      "args": [
+        {
+          "name": "assetCollection",
+          "type": "MSAssetCollection *",
+          "nullable": false
+        },
+        {
+          "name": "assetType",
+          "type": "MSAsset",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "title",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "isLibrary",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id <MSAssetCollectionViewSourceDelegate>",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "new NS_UNAVAILABLE": {
+      "name": "new NS_UNAVAILABLE",
+      "bridgedName": "new NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "prepareCollectionView:": {
+      "name": "prepareCollectionView:",
+      "bridgedName": "prepareCollectionView",
+      "args": [
+        {
+          "name": "collectionView",
+          "type": "NSCollectionView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "highlightAsset:inCollectionView:": {
+      "name": "highlightAsset:inCollectionView:",
+      "bridgedName": "highlightAsset_inCollectionView",
+      "args": [
+        {
+          "name": "asset",
+          "type": "id<MSAsset>",
+          "nullable": false
+        },
+        {
+          "name": "collectionView",
+          "type": "NSCollectionView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addAsset:": {
+      "name": "addAsset:",
+      "bridgedName": "addAsset",
+      "args": [
+        {
+          "name": "asset",
+          "type": "id<MSAsset>",
+          "nullable": false
+        }
+      ],
+      "returns": "NSIndexPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setName:ofAssetAtIndexPath:": {
+      "name": "setName:ofAssetAtIndexPath:",
+      "bridgedName": "setName_ofAssetAtIndexPath",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "deleteAssetAtIndexPath:": {
+      "name": "deleteAssetAtIndexPath:",
+      "bridgedName": "deleteAssetAtIndexPath",
+      "args": [
+        {
+          "name": "sourcePath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveAssetAtIndexPath:toIndexPath:": {
+      "name": "moveAssetAtIndexPath:toIndexPath:",
+      "bridgedName": "moveAssetAtIndexPath_toIndexPath",
+      "args": [
+        {
+          "name": "sourcePath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        },
+        {
+          "name": "destinationPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetAtIndex:": {
+      "name": "assetAtIndex:",
+      "bridgedName": "assetAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id<MSAsset>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "numberOfAssets": {
+      "name": "numberOfAssets",
+      "bridgedName": "numberOfAssets",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pasteboardRepresentationForIndexPath:": {
+      "name": "pasteboardRepresentationForIndexPath:",
+      "bridgedName": "pasteboardRepresentationForIndexPath",
+      "args": [
+        {
+          "name": "indexPath",
+          "type": "NSIndexPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "id<NSPasteboardWriting>",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "getUpdatedIndexes:": {
+      "name": "getUpdatedIndexes:",
+      "bridgedName": "getUpdatedIndexes",
+      "args": [
+        {
+          "name": "callback",
+          "type": "void(^)(NSIndexSet *updatedIndexes)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "markUpdatedIndexesAsRead": {
+      "name": "markUpdatedIndexesAsRead",
+      "bridgedName": "markUpdatedIndexesAsRead",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "assetType": {
+      "name": "assetType",
+      "pointer": false,
+      "type": "MSAsset",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "identifier": {
+      "name": "identifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "title": {
+      "name": "title",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isLibrary": {
+      "name": "isLibrary",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "editable": {
+      "name": "editable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSAssetCollectionViewSourceDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "itemProvider": {
+      "name": "itemProvider",
+      "pointer": false,
+      "type": "id<MSAssetCollectionViewSourceItemProvider>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

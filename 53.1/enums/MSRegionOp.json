@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSRegionOp",
+  "members": [
+    {
+      "name": "MSDifferenceOp"
+    },
+    {
+      "name": "MSIntersectOp"
+    },
+    {
+      "name": "MSUnionOp"
+    },
+    {
+      "name": "MSXOROp"
+    }
+  ]
+}

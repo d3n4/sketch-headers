@@ -1,0 +1,49 @@
+{
+  "name": "_MSImmutableShapePathLayer",
+  "extends": "MSImmutableStyledLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "edited": {
+      "name": "edited",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isClosed": {
+      "name": "isClosed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pointRadiusBehaviour": {
+      "name": "pointRadiusBehaviour",
+      "pointer": false,
+      "type": "MSPointRadiusBehaviour",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "points": {
+      "name": "points",
+      "pointer": false,
+      "type": "NSArray<MSImmutableCurvePoint *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

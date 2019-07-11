@@ -1,0 +1,8 @@
+{
+  "name": "MSCurvePointMirroredBehaviour",
+  "extends": "MSCurvePointBehaviour",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

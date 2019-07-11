@@ -1,0 +1,23 @@
+{
+  "name": "MSSendToSymbolsPageAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "sendSymbolToSymbolsPage:": {
+      "name": "sendSymbolToSymbolsPage:",
+      "bridgedName": "sendSymbolToSymbolsPage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

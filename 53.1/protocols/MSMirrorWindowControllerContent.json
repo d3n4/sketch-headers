@@ -1,0 +1,19 @@
+{
+  "protocol": true,
+  "name": "MSMirrorWindowControllerContent",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "webView": {
+      "name": "webView",
+      "pointer": false,
+      "type": "WKWebView ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "strong"
+      ]
+    }
+  }
+}

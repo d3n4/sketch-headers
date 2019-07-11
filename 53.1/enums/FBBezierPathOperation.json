@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "FBBezierPathOperation",
+  "members": [
+    {
+      "name": "FBBezierPathOperationUnion",
+      "value": "0"
+    },
+    {
+      "name": "FBBezierPathOperationDifference",
+      "value": "1"
+    },
+    {
+      "name": "FBBezierPathOperationIntersect",
+      "value": "2"
+    },
+    {
+      "name": "FBBezierPathOperationXor",
+      "value": "3"
+    }
+  ]
+}

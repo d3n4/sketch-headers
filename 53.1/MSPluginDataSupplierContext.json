@@ -1,0 +1,91 @@
+{
+  "name": "MSPluginDataSupplierContext",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithLayers:": {
+      "name": "initWithLayers:",
+      "bridgedName": "initWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <__kindof MSStyledLayer *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithOverrides:": {
+      "name": "initWithOverrides:",
+      "bridgedName": "initWithOverrides",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSArray <MSDataOverride *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isSymbolInstanceOverride": {
+      "name": "isSymbolInstanceOverride",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "items": {
+      "name": "items",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dictionaryRepresentation": {
+      "name": "dictionaryRepresentation",
+      "pointer": true,
+      "type": "NSDictionary <NSString *, id>",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "requestedCount": {
+      "name": "requestedCount",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "key": {
+      "name": "key",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

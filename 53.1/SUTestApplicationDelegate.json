@@ -1,0 +1,10 @@
+{
+  "name": "SUTestApplicationDelegate",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSApplicationDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

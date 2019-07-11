@@ -1,0 +1,8 @@
+{
+  "name": "MSRenderingDriverCGDebug",
+  "extends": "MSRenderingDriverCG",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,53 @@
+{
+  "name": "NSBezierPathEnumerator",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSFastEnumeration"
+  ],
+  "methods": {
+    "objectAtIndex:": {
+      "name": "objectAtIndex:",
+      "bridgedName": "objectAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "pathItems": {
+      "name": "pathItems",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bezierPath": {
+      "name": "bezierPath",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "reverse": {
+      "name": "reverse",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

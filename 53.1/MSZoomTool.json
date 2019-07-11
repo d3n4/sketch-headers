@@ -1,0 +1,168 @@
+{
+  "name": "MSZoomTool",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "beginZoomToolModeActivatedByKey:": {
+      "name": "beginZoomToolModeActivatedByKey:",
+      "bridgedName": "beginZoomToolModeActivatedByKey",
+      "args": [
+        {
+          "name": "activatedByKey",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "endZoomToolModeInView:": {
+      "name": "endZoomToolModeInView:",
+      "bridgedName": "endZoomToolModeInView",
+      "args": [
+        {
+          "name": "view",
+          "type": "MSContentDrawView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flagsChanged": {
+      "name": "flagsChanged",
+      "bridgedName": "flagsChanged",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseDown:inView:": {
+      "name": "mouseDown:inView:",
+      "bridgedName": "mouseDown_inView",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "MSContentDrawView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseDragged:inView:": {
+      "name": "mouseDragged:inView:",
+      "bridgedName": "mouseDragged_inView",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "MSContentDrawView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseUp:inView:": {
+      "name": "mouseUp:inView:",
+      "bridgedName": "mouseUp_inView",
+      "args": [
+        {
+          "name": "event",
+          "type": "NSEvent *",
+          "nullable": false
+        },
+        {
+          "name": "view",
+          "type": "MSContentDrawView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mouseMoved": {
+      "name": "mouseMoved",
+      "bridgedName": "mouseMoved",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawWithScrollOrigin:": {
+      "name": "drawWithScrollOrigin:",
+      "bridgedName": "drawWithScrollOrigin",
+      "args": [
+        {
+          "name": "origin",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "zoomValueAfterZoomIn": {
+      "name": "zoomValueAfterZoomIn",
+      "bridgedName": "zoomValueAfterZoomIn",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "zoomValueAfterZoomOut": {
+      "name": "zoomValueAfterZoomOut",
+      "bridgedName": "zoomValueAfterZoomOut",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "active": {
+      "name": "active",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=isActive"
+      ]
+    },
+    "activatedByKey": {
+      "name": "activatedByKey",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

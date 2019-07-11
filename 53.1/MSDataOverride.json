@@ -1,0 +1,82 @@
+{
+  "name": "MSDataOverride",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithOverride:symbolInstance:": {
+      "name": "initWithOverride:symbolInstance:",
+      "bridgedName": "initWithOverride_symbolInstance",
+      "args": [
+        {
+          "name": "availableOverride",
+          "type": "MSAvailableOverride *",
+          "nullable": false
+        },
+        {
+          "name": "symbolInstance",
+          "type": "MSSymbolInstance *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "new NS_UNAVAILABLE": {
+      "name": "new NS_UNAVAILABLE",
+      "bridgedName": "new NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "availableOverride": {
+      "name": "availableOverride",
+      "pointer": false,
+      "type": "MSAvailableOverride ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "symbolInstance": {
+      "name": "symbolInstance",
+      "pointer": false,
+      "type": "MSSymbolInstance ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "affectedLayer": {
+      "name": "affectedLayer",
+      "pointer": false,
+      "type": "MSImmutableStyledLayer ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "overrideIdentifier": {
+      "name": "overrideIdentifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

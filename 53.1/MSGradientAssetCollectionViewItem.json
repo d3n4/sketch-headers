@@ -1,0 +1,8 @@
+{
+  "name": "MSGradientAssetCollectionViewItem",
+  "extends": "MSAssetCollectionViewItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

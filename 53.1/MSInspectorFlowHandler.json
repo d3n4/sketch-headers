@@ -1,0 +1,127 @@
+{
+  "name": "MSInspectorFlowHandler",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSFlowMenuBuilderTarget"
+  ],
+  "methods": {
+    "flowBackAction:": {
+      "name": "flowBackAction:",
+      "bridgedName": "flowBackAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeFlowAction:": {
+      "name": "removeFlowAction:",
+      "bridgedName": "removeFlowAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowTargetAction:": {
+      "name": "flowTargetAction:",
+      "bridgedName": "flowTargetAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowConnection": {
+      "name": "flowConnection",
+      "bridgedName": "flowConnection",
+      "args": [],
+      "returns": "MSFlowConnection *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flowConnectionForLayers:": {
+      "name": "flowConnectionForLayers:",
+      "bridgedName": "flowConnectionForLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSFlowConnection *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "enumerateLayersAndReload:": {
+      "name": "enumerateLayersAndReload:",
+      "bridgedName": "enumerateLayersAndReload",
+      "args": [
+        {
+          "name": "block",
+          "type": "void(^)(MSLayer *layer)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldShowFullInspectorForFlow:": {
+      "name": "shouldShowFullInspectorForFlow:",
+      "bridgedName": "shouldShowFullInspectorForFlow",
+      "args": [
+        {
+          "name": "flow",
+          "type": "MSFlowConnection *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shouldShowFullInspectorForLayers:": {
+      "name": "shouldShowFullInspectorForLayers:",
+      "bridgedName": "shouldShowFullInspectorForLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "IBOutlet id<MSInspectorFlowHandlerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

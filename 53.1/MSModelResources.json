@@ -1,0 +1,36 @@
+{
+  "name": "MSModelResources",
+  "extends": "BCSingleton",
+  "interfaces": [],
+  "methods": {
+    "resourcesNeedingMigration": {
+      "name": "resourcesNeedingMigration",
+      "bridgedName": "resourcesNeedingMigration",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "noiseImages": {
+      "name": "noiseImages",
+      "pointer": false,
+      "type": "NSArray*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    },
+    "errorPattern": {
+      "name": "errorPattern",
+      "pointer": false,
+      "type": "NSBitmapImageRep*",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

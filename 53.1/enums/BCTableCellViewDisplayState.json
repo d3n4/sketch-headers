@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "BCTableCellViewDisplayState",
+  "members": [
+    {
+      "name": "BCTableCellViewDisplayStateNormal"
+    },
+    {
+      "name": "BCTableCellViewDisplayStateHovered"
+    },
+    {
+      "name": "BCTableCellViewDisplayStateAlternate"
+    }
+  ]
+}

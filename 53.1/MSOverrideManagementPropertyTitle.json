@@ -1,0 +1,18 @@
+{
+  "name": "MSOverrideManagementPropertyTitle",
+  "extends": "MSOverrideManagementItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "previewIcon": {
+      "name": "previewIcon",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

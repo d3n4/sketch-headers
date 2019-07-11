@@ -1,0 +1,8 @@
+{
+  "name": "MSBarView",
+  "extends": "MSGradientView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

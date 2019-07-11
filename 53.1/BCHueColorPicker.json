@@ -1,0 +1,8 @@
+{
+  "name": "BCHueColorPicker",
+  "extends": "BCColorPickerSliderView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

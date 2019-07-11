@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "MSAssetPickerScrubberControllerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "assetPickerScrubberController:didSelectAsset:": {
+      "name": "assetPickerScrubberController:didSelectAsset:",
+      "bridgedName": "assetPickerScrubberController_didSelectAsset",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSAssetPickerScrubberController *",
+          "nullable": false
+        },
+        {
+          "name": "asset",
+          "type": "id<MSAsset>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

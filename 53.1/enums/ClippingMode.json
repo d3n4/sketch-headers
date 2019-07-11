@@ -1,0 +1,17 @@
+{
+  "enum": true,
+  "name": "ClippingMode",
+  "members": [
+    {
+      "name": "ClippingModeNonZeroWinding",
+      "value": "NSNonZeroWindingRule"
+    },
+    {
+      "name": "ClippingModeWithEvenOddWindow",
+      "value": "NSEvenOddWindingRule"
+    },
+    {
+      "name": "ClippingModeDontClip"
+    }
+  ]
+}

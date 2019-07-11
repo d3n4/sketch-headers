@@ -1,0 +1,19 @@
+{
+  "enum": true,
+  "name": "MSBasicTextureVertexBufferIndex",
+  "members": [
+    {
+      "name": "MSBasicTextureVertexBufferIndexXY",
+      "value": "0"
+    },
+    {
+      "name": "MSBasicTextureVertexBufferIndexUV"
+    },
+    {
+      "name": "MSBasicTextureVertexBufferIndexProjectionMatrix"
+    },
+    {
+      "name": "MSBasicTextureVertexBufferIndexCanvasMatrix"
+    }
+  ]
+}

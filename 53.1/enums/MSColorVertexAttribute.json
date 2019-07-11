@@ -1,0 +1,13 @@
+{
+  "enum": true,
+  "name": "MSColorVertexAttribute",
+  "members": [
+    {
+      "name": "MSColorVertexAttributeXYZW",
+      "value": "0"
+    },
+    {
+      "name": "MSColorVertexAttributeRGBA"
+    }
+  ]
+}

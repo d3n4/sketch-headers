@@ -1,0 +1,8 @@
+{
+  "name": "MSFontSizeUpDownComboBox",
+  "extends": "MSUpDownComboBox",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

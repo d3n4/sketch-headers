@@ -1,0 +1,639 @@
+{
+  "name": "AppController",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSApplicationDelegate",
+    "NSWindowDelegate",
+    "NSMenuDelegate",
+    "NSUserNotificationCenterDelegate",
+    "MSDataMenuProviderDelegate",
+    "MSDataSupplierManagerDelegate"
+  ],
+  "methods": {
+    "actionClasses": {
+      "name": "actionClasses",
+      "bridgedName": "actionClasses",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runPluginCommandWithIdentifier:fromBundleAtURL:context:": {
+      "name": "runPluginCommandWithIdentifier:fromBundleAtURL:context:",
+      "bridgedName": "runPluginCommandWithIdentifier_fromBundleAtURL_context",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id>*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runPluginCommandWithIdentifier:fromBundleAtURL:context:portToAsnwerTo:": {
+      "name": "runPluginCommandWithIdentifier:fromBundleAtURL:context:portToAsnwerTo:",
+      "bridgedName": "runPluginCommandWithIdentifier_fromBundleAtURL_context_portToAsnwerTo",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id>*",
+          "nullable": false
+        },
+        {
+          "name": "port",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "revealPlugin:": {
+      "name": "revealPlugin:",
+      "bridgedName": "revealPlugin",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "buildPluginsMenu:": {
+      "name": "buildPluginsMenu:",
+      "bridgedName": "buildPluginsMenu",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runPluginCommand:fromMenu:context:": {
+      "name": "runPluginCommand:fromMenu:context:",
+      "bridgedName": "runPluginCommand_fromMenu_context",
+      "args": [
+        {
+          "name": "command",
+          "type": "MSPluginCommand *",
+          "nullable": false
+        },
+        {
+          "name": "fromMenu",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id>*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runPluginCommand:fromMenu:context:onComplete:": {
+      "name": "runPluginCommand:fromMenu:context:onComplete:",
+      "bridgedName": "runPluginCommand_fromMenu_context_onComplete",
+      "args": [
+        {
+          "name": "command",
+          "type": "MSPluginCommand *",
+          "nullable": false
+        },
+        {
+          "name": "fromMenu",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id>*",
+          "nullable": false
+        },
+        {
+          "name": "callback",
+          "type": "void (^)(NSString *)",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runPluginScript:name:": {
+      "name": "runPluginScript:name:",
+      "bridgedName": "runPluginScript_name",
+      "args": [
+        {
+          "name": "script",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runPluginScript:handler:name:withPreprocess:": {
+      "name": "runPluginScript:handler:name:withPreprocess:",
+      "bridgedName": "runPluginScript_handler_name_withPreprocess",
+      "args": [
+        {
+          "name": "script",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "handler",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "shoulPreprocess",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validatePluginMenuItem:documentShowing:": {
+      "name": "validatePluginMenuItem:documentShowing:",
+      "bridgedName": "validatePluginMenuItem_documentShowing",
+      "args": [
+        {
+          "name": "menuItem",
+          "type": "NSMenuItem *",
+          "nullable": false
+        },
+        {
+          "name": "documentShowing",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "registerURLScheme": {
+      "name": "registerURLScheme",
+      "bridgedName": "registerURLScheme",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "sharedInstance": {
+      "name": "sharedInstance",
+      "bridgedName": "sharedInstance",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "checkDefaults": {
+      "name": "checkDefaults",
+      "bridgedName": "checkDefaults",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openPreferencesWindowWithPreferencePaneIdentifier:": {
+      "name": "openPreferencesWindowWithPreferencePaneIdentifier:",
+      "bridgedName": "openPreferencesWindowWithPreferencePaneIdentifier",
+      "args": [
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openAboutWindow:": {
+      "name": "openAboutWindow:",
+      "bridgedName": "openAboutWindow",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "revealTemplatesFolderInFinder:": {
+      "name": "revealTemplatesFolderInFinder:",
+      "bridgedName": "revealTemplatesFolderInFinder",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "buy:": {
+      "name": "buy:",
+      "bridgedName": "buy",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshCurrentDocument": {
+      "name": "refreshCurrentDocument",
+      "bridgedName": "refreshCurrentDocument",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "currentDocumentDidChange": {
+      "name": "currentDocumentDidChange",
+      "bridgedName": "currentDocumentDidChange",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "refreshDocumentWindowBadges": {
+      "name": "refreshDocumentWindowBadges",
+      "bridgedName": "refreshDocumentWindowBadges",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openTemplateAtPath:": {
+      "name": "openTemplateAtPath:",
+      "bridgedName": "openTemplateAtPath",
+      "args": [
+        {
+          "name": "templateURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "templateLibraryPath": {
+      "name": "templateLibraryPath",
+      "bridgedName": "templateLibraryPath",
+      "args": [],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "toggleDarkMode:": {
+      "name": "toggleDarkMode:",
+      "bridgedName": "toggleDarkMode",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "lastRun": {
+      "name": "lastRun",
+      "pointer": false,
+      "type": "MSPluginCommand ",
+      "attributes": [
+        "readonly",
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "shapesMenu": {
+      "name": "shapesMenu",
+      "pointer": false,
+      "type": "IBOutlet id",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "pluginsMenuItem": {
+      "name": "pluginsMenuItem",
+      "pointer": false,
+      "type": "IBOutlet NSMenuItem ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "templatesMenu": {
+      "name": "templatesMenu",
+      "pointer": false,
+      "type": "IBOutlet NSMenu ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "printMenu": {
+      "name": "printMenu",
+      "pointer": false,
+      "type": "IBOutlet NSMenu ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "prototypingMenuItem": {
+      "name": "prototypingMenuItem",
+      "pointer": false,
+      "type": "IBOutlet NSMenuItem ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "debugMenuItem": {
+      "name": "debugMenuItem",
+      "pointer": false,
+      "type": "IBOutlet NSMenuItem ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "dataFeedMenuItem": {
+      "name": "dataFeedMenuItem",
+      "pointer": false,
+      "type": "IBOutlet NSMenuItem ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "cloudEnvironmentMenuItem": {
+      "name": "cloudEnvironmentMenuItem",
+      "pointer": false,
+      "type": "IBOutlet NSMenuItem ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "updateTimer": {
+      "name": "updateTimer",
+      "pointer": false,
+      "type": "NSTimer *",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "pasteboardManager": {
+      "name": "pasteboardManager",
+      "pointer": false,
+      "type": "MSPasteboardManager ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "mirrorController": {
+      "name": "mirrorController",
+      "pointer": false,
+      "type": "SMKMirrorController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "mirrorDataProvider": {
+      "name": "mirrorDataProvider",
+      "pointer": false,
+      "type": "MSMirrorDataProvider ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "dataFeedProvider": {
+      "name": "dataFeedProvider",
+      "pointer": false,
+      "type": "MSDataMenuProvider ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "dataSupplierManager": {
+      "name": "dataSupplierManager",
+      "pointer": false,
+      "type": "MSDataSupplierManager ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "crashLogManager": {
+      "name": "crashLogManager",
+      "pointer": false,
+      "type": "MSCrashLogManager ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "pluginManager": {
+      "name": "pluginManager",
+      "pointer": false,
+      "type": "MSPluginManagerWithActions ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "licenseManager": {
+      "name": "licenseManager",
+      "pointer": false,
+      "type": "BCLicenseManager*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "updateController": {
+      "name": "updateController",
+      "pointer": false,
+      "type": "MSUpdateController ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "actionController": {
+      "name": "actionController",
+      "pointer": false,
+      "type": "MSActionController ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "librariesController": {
+      "name": "librariesController",
+      "pointer": false,
+      "type": "MSAssetLibraryController ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "hud": {
+      "name": "hud",
+      "pointer": false,
+      "type": "MSHUDWindowController*",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "creationTime": {
+      "name": "creationTime",
+      "pointer": false,
+      "type": "NSTimeInterval",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "launchStartTime": {
+      "name": "launchStartTime",
+      "pointer": false,
+      "type": "NSTimeInterval",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "launchEndTime": {
+      "name": "launchEndTime",
+      "pointer": false,
+      "type": "NSTimeInterval",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "sketchSafeModeOn": {
+      "name": "sketchSafeModeOn",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "needToInformUserPluginsAreDisabled": {
+      "name": "needToInformUserPluginsAreDisabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "canShowWelcomeWindowForUserAction": {
+      "name": "canShowWelcomeWindowForUserAction",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "canCreateDocuments": {
+      "name": "canCreateDocuments",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

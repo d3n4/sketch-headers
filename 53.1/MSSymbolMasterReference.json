@@ -1,0 +1,27 @@
+{
+  "name": "MSSymbolMasterReference",
+  "extends": "MSShareableObjectReference",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "symbolMaster": {
+      "name": "symbolMaster",
+      "pointer": false,
+      "type": "MSSymbolMaster ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "descriptor": {
+      "name": "descriptor",
+      "pointer": false,
+      "type": "MSSymbolMasterReferenceDescriptor ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

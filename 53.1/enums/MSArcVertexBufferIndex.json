@@ -1,0 +1,19 @@
+{
+  "enum": true,
+  "name": "MSArcVertexBufferIndex",
+  "members": [
+    {
+      "name": "MSArcVertexBufferIndexCoefficients",
+      "value": "0"
+    },
+    {
+      "name": "MSArcVertexBufferIndexXY"
+    },
+    {
+      "name": "MSArcVertexBufferIndexUV"
+    },
+    {
+      "name": "MSArcVertexBufferIndexUniforms"
+    }
+  ]
+}

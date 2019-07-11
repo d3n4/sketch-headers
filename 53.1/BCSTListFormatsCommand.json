@@ -1,0 +1,8 @@
+{
+  "name": "BCSTListFormatsCommand",
+  "extends": "BCSTListCommand",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

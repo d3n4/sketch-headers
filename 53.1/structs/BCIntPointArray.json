@@ -1,0 +1,16 @@
+{
+  "struct": true,
+  "name": "BCIntPointArray",
+  "members": [
+    {
+      "name": "count",
+      "pointer": false,
+      "type": "int32_t"
+    },
+    {
+      "name": "points",
+      "pointer": false,
+      "type": "BCIntPoint[1]"
+    }
+  ]
+}

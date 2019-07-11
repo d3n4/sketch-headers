@@ -1,0 +1,8 @@
+{
+  "name": "TDCaseInsensitiveLiteral",
+  "extends": "TDLiteral",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

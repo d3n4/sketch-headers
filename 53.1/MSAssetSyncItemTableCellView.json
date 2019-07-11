@@ -1,0 +1,8 @@
+{
+  "name": "MSAssetSyncItemTableCellView",
+  "extends": "NSTableCellView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSFreeformGroupLayout",
+  "extends": "_MSFreeformGroupLayout",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

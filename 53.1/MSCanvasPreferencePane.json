@@ -1,0 +1,56 @@
+{
+  "name": "MSCanvasPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [],
+  "methods": {
+    "adjustSnapColorAction:": {
+      "name": "adjustSnapColorAction:",
+      "bridgedName": "adjustSnapColorAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustFlowColorAction:": {
+      "name": "adjustFlowColorAction:",
+      "bridgedName": "adjustFlowColorAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "flowColorWell": {
+      "name": "flowColorWell",
+      "pointer": false,
+      "type": "IBOutlet NSColorWell ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "flowColorLabel": {
+      "name": "flowColorLabel",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

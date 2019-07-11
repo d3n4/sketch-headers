@@ -1,0 +1,124 @@
+{
+  "name": "MSSortableObjectMenuBuilder",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "init NS_UNAVAILABLE": {
+      "name": "init NS_UNAVAILABLE",
+      "bridgedName": "init NS_UNAVAILABLE",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<MSMenuBuilderDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuItemsForSortableObjects:selectedObjects:target:selector:": {
+      "name": "menuItemsForSortableObjects:selectedObjects:target:selector:",
+      "bridgedName": "menuItemsForSortableObjects_selectedObjects_target_selector",
+      "args": [
+        {
+          "name": "objects",
+          "type": "NSArray<MSShareableObjectReference *> *",
+          "nullable": false
+        },
+        {
+          "name": "selectedObjects",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSMenuItem*> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSortableObjects:selectedObjects:toPopUpButton:target:selector:": {
+      "name": "addSortableObjects:selectedObjects:toPopUpButton:target:selector:",
+      "bridgedName": "addSortableObjects_selectedObjects_toPopUpButton_target_selector",
+      "args": [
+        {
+          "name": "objects",
+          "type": "NSArray<MSShareableObjectReference *> *",
+          "nullable": false
+        },
+        {
+          "name": "selectedObjects",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "button",
+          "type": "NSPopUpButton *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuWillOpen:": {
+      "name": "menuWillOpen:",
+      "bridgedName": "menuWillOpen",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareForDisplay:": {
+      "name": "prepareForDisplay:",
+      "bridgedName": "prepareForDisplay",
+      "args": [
+        {
+          "name": "menuItem",
+          "type": "NSMenuItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

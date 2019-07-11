@@ -1,0 +1,8 @@
+{
+  "name": "MSColorInspectorColorTabAction",
+  "extends": "MSColorInspectorModePickerAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

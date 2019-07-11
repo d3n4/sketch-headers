@@ -1,0 +1,28 @@
+{
+  "name": "MSAssetContainer",
+  "extends": "_MSAssetContainer",
+  "interfaces": [],
+  "methods": {
+    "initWithAsset:name:": {
+      "name": "initWithAsset:name:",
+      "bridgedName": "initWithAsset_name",
+      "args": [
+        {
+          "name": "asset",
+          "type": "nonnull id<MSAsset>",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

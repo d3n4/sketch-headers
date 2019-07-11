@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSInspectorValueAdaptorChangeObserver",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "inspectorValueAdaptorDidChangeValue:": {
+      "name": "inspectorValueAdaptorDidChangeValue:",
+      "bridgedName": "inspectorValueAdaptorDidChangeValue",
+      "args": [
+        {
+          "name": "adaptor",
+          "type": "MSInspectorValueAdaptor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

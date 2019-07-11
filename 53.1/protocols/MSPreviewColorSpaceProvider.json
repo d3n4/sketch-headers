@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSPreviewColorSpaceProvider",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "previewColorSpaceForClient:": {
+      "name": "previewColorSpaceForClient:",
+      "bridgedName": "previewColorSpaceForClient",
+      "args": [
+        {
+          "name": "client",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "NSColorSpace *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

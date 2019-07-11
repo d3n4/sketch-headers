@@ -1,0 +1,91 @@
+{
+  "name": "MSPersistentAssetCollection",
+  "extends": "MSAssetCollection",
+  "interfaces": [],
+  "methods": {
+    "sharedGlobalAssets": {
+      "name": "sharedGlobalAssets",
+      "bridgedName": "sharedGlobalAssets",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "assetCollectionWithName:": {
+      "name": "assetCollectionWithName:",
+      "bridgedName": "assetCollectionWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "assetCollectionFromCurrentBundleWithName:": {
+      "name": "assetCollectionFromCurrentBundleWithName:",
+      "bridgedName": "assetCollectionFromCurrentBundleWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPersistentAssetCollection *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "save": {
+      "name": "save",
+      "bridgedName": "save",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resourceNeedingMigration": {
+      "name": "resourceNeedingMigration",
+      "bridgedName": "resourceNeedingMigration",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cleanupAfterTesting": {
+      "name": "cleanupAfterTesting",
+      "bridgedName": "cleanupAfterTesting",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "assetCollectionByMigratingPresetsFromSources:": {
+      "name": "assetCollectionByMigratingPresetsFromSources:",
+      "bridgedName": "assetCollectionByMigratingPresetsFromSources",
+      "args": [
+        {
+          "name": "sources",
+          "type": "MSAssetMigrationSources *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "defaultMigrationSources": {
+      "name": "defaultMigrationSources",
+      "bridgedName": "defaultMigrationSources",
+      "args": [],
+      "returns": "MSAssetMigrationSources *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

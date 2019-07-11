@@ -1,0 +1,160 @@
+{
+  "name": "MSAssetPreferenceItem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "preferenceItemForLibrary:": {
+      "name": "preferenceItemForLibrary:",
+      "bridgedName": "preferenceItemForLibrary",
+      "args": [
+        {
+          "name": "library",
+          "type": "MSAssetLibrary*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSAssetPreferenceItem*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "evaluateSecondaryTitle": {
+      "name": "evaluateSecondaryTitle",
+      "bridgedName": "evaluateSecondaryTitle",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "updatingStatus": {
+      "name": "updatingStatus",
+      "pointer": false,
+      "type": "MSAssetLibraryUpdatingStatus",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "updateAvailable": {
+      "name": "updateAvailable",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<MSAssetPreferenceItemDelegate>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "library": {
+      "name": "library",
+      "pointer": false,
+      "type": "MSAssetLibrary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "remoteLibrary": {
+      "name": "remoteLibrary",
+      "pointer": false,
+      "type": "MSRemoteAssetLibrary ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "enabled": {
+      "name": "enabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "validForSecondaryTextField": {
+      "name": "validForSecondaryTextField",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "preview": {
+      "name": "preview",
+      "pointer": false,
+      "type": "NSImage ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "secondaryTitle": {
+      "name": "secondaryTitle",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nullable",
+        "readonly"
+      ]
+    },
+    "hasAppcastURL": {
+      "name": "hasAppcastURL",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "fileSize": {
+      "name": "fileSize",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "downloadedSoFar": {
+      "name": "downloadedSoFar",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "missingRemoteLibraryWithNoInternet": {
+      "name": "missingRemoteLibraryWithNoInternet",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

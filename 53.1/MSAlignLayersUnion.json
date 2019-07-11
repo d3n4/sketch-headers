@@ -1,0 +1,33 @@
+{
+  "name": "MSAlignLayersUnion",
+  "extends": "BCRect",
+  "interfaces": [],
+  "methods": {
+    "unionWithLayers:": {
+      "name": "unionWithLayers:",
+      "bridgedName": "unionWithLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

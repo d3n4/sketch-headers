@@ -1,0 +1,23 @@
+{
+  "name": "MSZoomToActualSizeAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "actualSize:": {
+      "name": "actualSize:",
+      "bridgedName": "actualSize",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

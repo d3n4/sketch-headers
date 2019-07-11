@@ -1,0 +1,10 @@
+{
+  "name": "MSBackgroundBlurRendererCG",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSBackgroundBlurRenderer"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

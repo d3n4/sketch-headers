@@ -1,0 +1,10 @@
+{
+  "name": "MSBitmapShadowRendererCG",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSShadowRenderer"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,206 @@
+{
+  "name": "NSBitmapImageRep",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "JPGRepresentationWithCompression:progressive:": {
+      "name": "JPGRepresentationWithCompression:progressive:",
+      "bridgedName": "JPGRepresentationWithCompression_progressive",
+      "args": [
+        {
+          "name": "compression",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "progressive",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "PNGRepresentationWithInterlaced:": {
+      "name": "PNGRepresentationWithInterlaced:",
+      "bridgedName": "PNGRepresentationWithInterlaced",
+      "args": [
+        {
+          "name": "interlaced",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "PNGRepresentationWithInterlaced:includeAlpha:": {
+      "name": "PNGRepresentationWithInterlaced:includeAlpha:",
+      "bridgedName": "PNGRepresentationWithInterlaced_includeAlpha",
+      "args": [
+        {
+          "name": "interlaced",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "includeAlpha",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitmapImageRepWithSize:flags:colorSpace:drawingBlock:": {
+      "name": "bitmapImageRepWithSize:flags:colorSpace:drawingBlock:",
+      "bridgedName": "bitmapImageRepWithSize_flags_colorSpace_drawingBlock",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "DKCGContextCreateFlags",
+          "nullable": false
+        },
+        {
+          "name": "space",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "CGContextDrawBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bitmapImageRepWithSize:pixelSize:flags:colorSpace:drawingBlock:": {
+      "name": "bitmapImageRepWithSize:pixelSize:flags:colorSpace:drawingBlock:",
+      "bridgedName": "bitmapImageRepWithSize_pixelSize_flags_colorSpace_drawingBlock",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "pixelSize",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "flags",
+          "type": "DKCGContextCreateFlags",
+          "nullable": false
+        },
+        {
+          "name": "space",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "CGContextDrawBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rectForTrimming": {
+      "name": "rectForTrimming",
+      "bridgedName": "rectForTrimming",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectForTrimming:": {
+      "name": "rectForTrimming:",
+      "bridgedName": "rectForTrimming",
+      "args": [
+        {
+          "name": "isBlankImage",
+          "type": "BOOL*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitmapImageRepByCroppingToRect:": {
+      "name": "bitmapImageRepByCroppingToRect:",
+      "bridgedName": "bitmapImageRepByCroppingToRect",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitmapImageRepByFlippingVertical": {
+      "name": "bitmapImageRepByFlippingVertical",
+      "bridgedName": "bitmapImageRepByFlippingVertical",
+      "args": [],
+      "returns": "NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitSafeBitmapImageRep": {
+      "name": "bitSafeBitmapImageRep",
+      "bridgedName": "bitSafeBitmapImageRep",
+      "args": [],
+      "returns": "NSBitmapImageRep *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitSafeFastRectForTrimming": {
+      "name": "bitSafeFastRectForTrimming",
+      "bridgedName": "bitSafeFastRectForTrimming",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitSafeFastRectForTrimming:": {
+      "name": "bitSafeFastRectForTrimming:",
+      "bridgedName": "bitSafeFastRectForTrimming",
+      "args": [
+        {
+          "name": "isBlankImage",
+          "type": "BOOL*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasTransparentPixels": {
+      "name": "hasTransparentPixels",
+      "bridgedName": "hasTransparentPixels",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

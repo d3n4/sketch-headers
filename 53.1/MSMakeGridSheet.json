@@ -1,0 +1,27 @@
+{
+  "name": "MSMakeGridSheet",
+  "extends": "CHSheetController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "doc": {
+      "name": "doc",
+      "pointer": false,
+      "type": "MSDocument ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "subtextField": {
+      "name": "subtextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}
