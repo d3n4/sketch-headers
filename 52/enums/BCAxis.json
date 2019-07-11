@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "BCAxis",
+  "members": [
+    {
+      "name": "BCAxisNone",
+      "value": "0"
+    },
+    {
+      "name": "BCAxisX",
+      "value": "1 << 0"
+    },
+    {
+      "name": "BCAxisY",
+      "value": "1 << 1"
+    },
+    {
+      "name": "BCAxisBoth",
+      "value": "BCAxisX|BCAxisY"
+    }
+  ]
+}

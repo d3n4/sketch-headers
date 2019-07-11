@@ -1,0 +1,53 @@
+{
+  "protocol": true,
+  "name": "MSJSONArchiverAlternativeFileReference",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "encodeReferenceInJSONZipArchive:": {
+      "name": "encodeReferenceInJSONZipArchive:",
+      "bridgedName": "encodeReferenceInJSONZipArchive",
+      "args": [
+        {
+          "name": "encoder",
+          "type": "nonnull BCJSONZippedEncoder*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "decodeReferenceFromJSONZipArchive:withReference:": {
+      "name": "decodeReferenceFromJSONZipArchive:withReference:",
+      "bridgedName": "decodeReferenceFromJSONZipArchive_withReference",
+      "args": [
+        {
+          "name": "decoder",
+          "type": "nonnull BCJSONZippedDecoder*",
+          "nullable": false
+        },
+        {
+          "name": "referenceID",
+          "type": "nonnull NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "archiveReferenceIdentifier_bc": {
+      "name": "archiveReferenceIdentifier_bc",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    }
+  }
+}

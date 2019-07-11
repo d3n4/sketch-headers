@@ -1,0 +1,347 @@
+{
+  "name": "MSWelcomeWindowController",
+  "extends": "CHWindowController",
+  "interfaces": [
+    "NSMenuDelegate",
+    "NSWindowDelegate",
+    "MSWelcomeCollectionViewDelegate"
+  ],
+  "methods": {
+    "showWelcomeWindowIfAppropriate": {
+      "name": "showWelcomeWindowIfAppropriate",
+      "bridgedName": "showWelcomeWindowIfAppropriate",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "showWelcomeWindowCollection:isLaunching:": {
+      "name": "showWelcomeWindowCollection:isLaunching:",
+      "bridgedName": "showWelcomeWindowCollection_isLaunching",
+      "args": [
+        {
+          "name": "collection",
+          "type": "MSWelcomeCollection",
+          "nullable": false
+        },
+        {
+          "name": "launching",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "hideWelcomeWindowIfNeeded": {
+      "name": "hideWelcomeWindowIfNeeded",
+      "bridgedName": "hideWelcomeWindowIfNeeded",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pickCollection:": {
+      "name": "pickCollection:",
+      "bridgedName": "pickCollection",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openDocument:": {
+      "name": "openDocument:",
+      "bridgedName": "openDocument",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "confirm:": {
+      "name": "confirm:",
+      "bridgedName": "confirm",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "close:": {
+      "name": "close:",
+      "bridgedName": "close",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "visitLearnPage:": {
+      "name": "visitLearnPage:",
+      "bridgedName": "visitLearnPage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subscribeToNewsletter:": {
+      "name": "subscribeToNewsletter:",
+      "bridgedName": "subscribeToNewsletter",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "visitPluginsPage:": {
+      "name": "visitPluginsPage:",
+      "bridgedName": "visitPluginsPage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "revealDocumentInFinder:": {
+      "name": "revealDocumentInFinder:",
+      "bridgedName": "revealDocumentInFinder",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "revealDocumentInCloud:": {
+      "name": "revealDocumentInCloud:",
+      "bridgedName": "revealDocumentInCloud",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clearRecentDocuments:": {
+      "name": "clearRecentDocuments:",
+      "bridgedName": "clearRecentDocuments",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showCollection:": {
+      "name": "showCollection:",
+      "bridgedName": "showCollection",
+      "args": [
+        {
+          "name": "collection",
+          "type": "MSWelcomeCollection",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "closeButton": {
+      "name": "closeButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "collectionView": {
+      "name": "collectionView",
+      "pointer": false,
+      "type": "IBOutlet NSCollectionView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "collectionScrollView": {
+      "name": "collectionScrollView",
+      "pointer": false,
+      "type": "IBOutlet NSScrollView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "collectionStaticContainerView": {
+      "name": "collectionStaticContainerView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "collectionsSegmentedControl": {
+      "name": "collectionsSegmentedControl",
+      "pointer": false,
+      "type": "IBOutlet NSSegmentedControl ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "collectionsWidthConstraint": {
+      "name": "collectionsWidthConstraint",
+      "pointer": false,
+      "type": "IBOutlet NSLayoutConstraint ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "confirmButton": {
+      "name": "confirmButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "doNotShowAgainButton": {
+      "name": "doNotShowAgainButton",
+      "pointer": false,
+      "type": "IBOutlet NSButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "newsletterButton": {
+      "name": "newsletterButton",
+      "pointer": false,
+      "type": "IBOutlet MSCallToActionButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "pluginsButton": {
+      "name": "pluginsButton",
+      "pointer": false,
+      "type": "IBOutlet MSCallToActionButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "recentDocumentsContextMenu": {
+      "name": "recentDocumentsContextMenu",
+      "pointer": false,
+      "type": "IBOutlet NSMenu ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "templatesContextMenu": {
+      "name": "templatesContextMenu",
+      "pointer": false,
+      "type": "IBOutlet NSMenu ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "versionTextField": {
+      "name": "versionTextField",
+      "pointer": false,
+      "type": "IBOutlet NSTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "collectionToShow": {
+      "name": "collectionToShow",
+      "pointer": false,
+      "type": "MSWelcomeCollection",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfDocuments": {
+      "name": "numberOfDocuments",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "previewImageCache": {
+      "name": "previewImageCache",
+      "pointer": false,
+      "type": "MSPreviewImageCache ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

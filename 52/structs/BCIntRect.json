@@ -1,0 +1,26 @@
+{
+  "struct": true,
+  "name": "BCIntRect",
+  "members": [
+    {
+      "name": "x",
+      "pointer": false,
+      "type": "int32_t"
+    },
+    {
+      "name": "y",
+      "pointer": false,
+      "type": "int32_t"
+    },
+    {
+      "name": "width",
+      "pointer": false,
+      "type": "int32_t"
+    },
+    {
+      "name": "height",
+      "pointer": false,
+      "type": "int32_t"
+    }
+  ]
+}

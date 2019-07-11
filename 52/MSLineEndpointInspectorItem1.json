@@ -1,0 +1,8 @@
+{
+  "name": "MSLineEndpointInspectorItem1",
+  "extends": "MSLineEndpointInspectorItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

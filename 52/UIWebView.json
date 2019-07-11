@@ -1,0 +1,96 @@
+{
+  "name": "UIWebView",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "loadRequest:progress:success:failure:": {
+      "name": "loadRequest:progress:success:failure:",
+      "bridgedName": "loadRequest_progress_success_failure",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "progress",
+          "type": "void (^)(NSUInteger bytesWritten, long long totalBytesWritten, long long totalBytesExpectedToWrite)",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "NSString * (^)(NSHTTPURLResponse *response, NSString *HTML)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "loadRequest:MIMEType:textEncodingName:progress:success:failure:": {
+      "name": "loadRequest:MIMEType:textEncodingName:progress:success:failure:",
+      "bridgedName": "loadRequest_MIMEType_textEncodingName_progress_success_failure",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "MIMEType",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "textEncodingName",
+          "type": "NSString *",
+          "nullable": true
+        },
+        {
+          "name": "progress",
+          "type": "void (^)(NSUInteger bytesWritten, long long totalBytesWritten, long long totalBytesExpectedToWrite)",
+          "nullable": true
+        },
+        {
+          "name": "success",
+          "type": "NSData * (^)(NSHTTPURLResponse *response, NSData *data)",
+          "nullable": true
+        },
+        {
+          "name": "failure",
+          "type": "void (^)(NSError *error)",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "requestSerializer": {
+      "name": "requestSerializer",
+      "pointer": false,
+      "type": "AFHTTPRequestSerializer <AFURLRequestSerialization> *",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "responseSerializer": {
+      "name": "responseSerializer",
+      "pointer": false,
+      "type": "AFHTTPResponseSerializer <AFURLResponseSerialization> *",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

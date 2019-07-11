@@ -1,0 +1,33 @@
+{
+  "name": "MSExporterView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {
+    "exportViewWithRenderer:": {
+      "name": "exportViewWithRenderer:",
+      "bridgedName": "exportViewWithRenderer",
+      "args": [
+        {
+          "name": "renderer",
+          "type": "MSExporter *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "renderer": {
+      "name": "renderer",
+      "pointer": false,
+      "type": "MSExporter ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "COPrintController",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "print:": {
+      "name": "print:",
+      "bridgedName": "print",
+      "args": [
+        {
+          "name": "s",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

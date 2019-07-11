@@ -1,0 +1,28 @@
+{
+  "name": "MSEditArtboardPresetViewController",
+  "extends": "NSViewController",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "preset": {
+      "name": "preset",
+      "pointer": false,
+      "type": "MSArtboardPreset ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id <MSEditArtboardPresetViewControllerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

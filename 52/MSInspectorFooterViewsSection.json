@@ -1,0 +1,19 @@
+{
+  "name": "MSInspectorFooterViewsSection",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSInspectorSection"
+  ],
+  "methods": {},
+  "properties": {
+    "views": {
+      "name": "views",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

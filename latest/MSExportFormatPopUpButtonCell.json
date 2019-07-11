@@ -1,8 +1,0 @@
-{
-  "name": "MSExportFormatPopUpButtonCell",
-  "extends": "NSPopUpButtonCell",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

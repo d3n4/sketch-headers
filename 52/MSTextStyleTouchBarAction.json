@@ -1,0 +1,10 @@
+{
+  "name": "MSTextStyleTouchBarAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "NSTouchBarDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

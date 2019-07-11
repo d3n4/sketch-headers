@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorToggleImageButtonCell",
+  "extends": "MSInspectorButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

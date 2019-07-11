@@ -1,0 +1,28 @@
+{
+  "protocol": true,
+  "name": "SMKDiskCacheDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "diskCache:dataForKey:": {
+      "name": "diskCache:dataForKey:",
+      "bridgedName": "diskCache_dataForKey",
+      "args": [
+        {
+          "name": "cache",
+          "type": "nonnull SMKDiskCache *",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "nonnull NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

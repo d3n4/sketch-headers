@@ -1,0 +1,21 @@
+{
+  "enum": true,
+  "name": "BCOutlineViewPreviewState",
+  "members": [
+    {
+      "name": "BCOutlineViewPreviewStateUnknown"
+    },
+    {
+      "name": "BCOutlineViewPreviewStateSelectedActive"
+    },
+    {
+      "name": "BCOutlineViewPreviewStateSelectedInactive"
+    },
+    {
+      "name": "BCOutlineViewPreviewStateUnselected"
+    },
+    {
+      "name": "BCOutlineViewPreviewStateMenu"
+    }
+  ]
+}

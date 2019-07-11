@@ -1,0 +1,47 @@
+{
+  "name": "TerminationListener",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithProcessIdentifier:": {
+      "name": "initWithProcessIdentifier:",
+      "bridgedName": "initWithProcessIdentifier",
+      "args": [
+        {
+          "name": "processIdentifier",
+          "type": "NSNumber * _Nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startListeningWithCompletion:": {
+      "name": "startListeningWithCompletion:",
+      "bridgedName": "startListeningWithCompletion",
+      "args": [
+        {
+          "name": "completionBlock",
+          "type": "void (^)(BOOL success)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "terminated": {
+      "name": "terminated",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

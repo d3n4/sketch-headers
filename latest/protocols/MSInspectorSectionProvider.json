@@ -1,0 +1,17 @@
+{
+  "protocol": true,
+  "name": "MSInspectorSectionProvider",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "sections": {
+      "name": "sections",
+      "bridgedName": "sections",
+      "args": [],
+      "returns": "NSArray<id<MSInspectorSection>>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

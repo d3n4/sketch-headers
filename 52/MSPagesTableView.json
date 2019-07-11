@@ -1,0 +1,8 @@
+{
+  "name": "MSPagesTableView",
+  "extends": "NSTableView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

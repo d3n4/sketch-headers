@@ -1,0 +1,37 @@
+{
+  "name": "TDSymbolState",
+  "extends": "TDTokenizerState",
+  "interfaces": [],
+  "methods": {
+    "add:": {
+      "name": "add:",
+      "bridgedName": "add",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "remove:": {
+      "name": "remove:",
+      "bridgedName": "remove",
+      "args": [
+        {
+          "name": "s",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

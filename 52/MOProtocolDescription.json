@@ -1,0 +1,195 @@
+{
+  "name": "MOProtocolDescription",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "descriptionForProtocol:": {
+      "name": "descriptionForProtocol:",
+      "bridgedName": "descriptionForProtocol",
+      "args": [
+        {
+          "name": "protocol",
+          "type": "Protocol *",
+          "nullable": false
+        }
+      ],
+      "returns": "MOProtocolDescription *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "descriptionForProtocolWithName:": {
+      "name": "descriptionForProtocolWithName:",
+      "bridgedName": "descriptionForProtocolWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MOProtocolDescription *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "allocateDescriptionForProtocolWithName:": {
+      "name": "allocateDescriptionForProtocolWithName:",
+      "bridgedName": "allocateDescriptionForProtocolWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MOProtocolDescription *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addClassMethod:required:": {
+      "name": "addClassMethod:required:",
+      "bridgedName": "addClassMethod_required",
+      "args": [
+        {
+          "name": "method",
+          "type": "MOMethodDescription *",
+          "nullable": false
+        },
+        {
+          "name": "isRequired",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addInstanceMethod:required:": {
+      "name": "addInstanceMethod:required:",
+      "bridgedName": "addInstanceMethod_required",
+      "args": [
+        {
+          "name": "method",
+          "type": "MOMethodDescription *",
+          "nullable": false
+        },
+        {
+          "name": "isRequired",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addProperty:required:": {
+      "name": "addProperty:required:",
+      "bridgedName": "addProperty_required",
+      "args": [
+        {
+          "name": "property",
+          "type": "MOPropertyDescription *",
+          "nullable": false
+        },
+        {
+          "name": "isRequired",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addProtocol:": {
+      "name": "addProtocol:",
+      "bridgedName": "addProtocol",
+      "args": [
+        {
+          "name": "protocol",
+          "type": "MOProtocolDescription *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "requiredClassMethods": {
+      "name": "requiredClassMethods",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "optionalClassMethods": {
+      "name": "optionalClassMethods",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "requiredInstanceMethods": {
+      "name": "requiredInstanceMethods",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "optionalInstanceMethods": {
+      "name": "optionalInstanceMethods",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "properties": {
+      "name": "properties",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "protocols": {
+      "name": "protocols",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "protocol": {
+      "name": "protocol",
+      "pointer": false,
+      "type": "Protocol ",
+      "attributes": [
+        "unsafe_unretained",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSMultipleStylePartsPlaceholder",
+  "extends": "MSStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

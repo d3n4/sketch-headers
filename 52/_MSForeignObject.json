@@ -1,0 +1,37 @@
+{
+  "name": "_MSForeignObject",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "libraryID": {
+      "name": "libraryID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "sourceLibraryName": {
+      "name": "sourceLibraryName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "symbolPrivate": {
+      "name": "symbolPrivate",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

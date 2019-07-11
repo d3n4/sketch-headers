@@ -1,0 +1,8 @@
+{
+  "name": "BCIOSStyleSwitchButton",
+  "extends": "NSButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

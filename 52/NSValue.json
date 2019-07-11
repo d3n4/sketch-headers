@@ -1,0 +1,32 @@
+{
+  "name": "NSValue",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "valueWithCGVector:": {
+      "name": "valueWithCGVector:",
+      "bridgedName": "valueWithCGVector",
+      "args": [
+        {
+          "name": "vector",
+          "type": "CGVector",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "CGVectorValue": {
+      "name": "CGVectorValue",
+      "pointer": false,
+      "type": "CGVector",
+      "attributes": [
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

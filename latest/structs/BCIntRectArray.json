@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "BCIntRectArray",
+  "members": [
+    {
+      "name": "count",
+      "pointer": false,
+      "type": "uint32_t"
+    },
+    {
+      "name": "capacity",
+      "pointer": false,
+      "type": "uint32_t"
+    },
+    {
+      "name": "rects",
+      "pointer": true,
+      "type": "BCIntRect"
+    }
+  ]
+}

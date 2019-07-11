@@ -1,0 +1,45 @@
+{
+  "name": "MSOverrideRepresentationBase",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "childrenForLayerList": {
+      "name": "childrenForLayerList",
+      "bridgedName": "childrenForLayerList",
+      "args": [],
+      "returns": "NSArray<MSLayerListItem *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "isExpanded": {
+      "name": "isExpanded",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "children": {
+      "name": "children",
+      "pointer": false,
+      "type": "NSArray<MSOverrideRepresentation *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "instance": {
+      "name": "instance",
+      "pointer": false,
+      "type": "MSSymbolInstance ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

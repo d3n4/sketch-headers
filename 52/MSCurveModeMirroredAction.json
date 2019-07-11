@@ -1,0 +1,8 @@
+{
+  "name": "MSCurveModeMirroredAction",
+  "extends": "MSCurveModeAdjustAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

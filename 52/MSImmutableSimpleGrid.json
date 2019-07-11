@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableSimpleGrid",
+  "extends": "_MSImmutableSimpleGrid",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

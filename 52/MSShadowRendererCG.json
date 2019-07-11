@@ -1,0 +1,10 @@
+{
+  "name": "MSShadowRendererCG",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSShadowRenderer"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

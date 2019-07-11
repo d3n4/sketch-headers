@@ -1,0 +1,62 @@
+{
+  "name": "SCKArtboardDiff",
+  "extends": "NSObject",
+  "interfaces": [
+    "SCKDiff"
+  ],
+  "methods": {
+    "initWithObject:comparedTo:": {
+      "name": "initWithObject:comparedTo:",
+      "bridgedName": "initWithObject_comparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKArtboard *",
+          "nullable": false
+        },
+        {
+          "name": "otherObject",
+          "type": "nonnull SCKArtboard *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "object": {
+      "name": "object",
+      "pointer": false,
+      "type": "SCKArtboard ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "comparedObject": {
+      "name": "comparedObject",
+      "pointer": false,
+      "type": "SCKArtboard ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "attributes": {
+      "name": "attributes",
+      "pointer": false,
+      "type": "SCKArtboardAttributes",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

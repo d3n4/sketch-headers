@@ -1,0 +1,10 @@
+{
+  "name": "MSIncompatiblePluginsDisabledAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "MSWindowBadgeAction"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

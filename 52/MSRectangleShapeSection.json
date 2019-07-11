@@ -1,0 +1,8 @@
+{
+  "name": "MSRectangleShapeSection",
+  "extends": "MSSingleItemInspectorSection",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

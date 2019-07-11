@@ -1,0 +1,54 @@
+{
+  "name": "MSBaseSizeInspectorItem",
+  "extends": "MSInspectorItem",
+  "interfaces": [],
+  "methods": {
+    "updateUI": {
+      "name": "updateUI",
+      "bridgedName": "updateUI",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "widthAdapter": {
+      "name": "widthAdapter",
+      "pointer": false,
+      "type": "MSSizeInspectorValueAdaptor ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "heightAdapter": {
+      "name": "heightAdapter",
+      "pointer": false,
+      "type": "MSSizeInspectorValueAdaptor ",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "widthField": {
+      "name": "widthField",
+      "pointer": false,
+      "type": "IBOutlet MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "heightField": {
+      "name": "heightField",
+      "pointer": false,
+      "type": "MSInlineUpDownTextField ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "AFXMLParserResponseSerializer",
+  "extends": "AFHTTPResponseSerializer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

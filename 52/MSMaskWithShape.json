@@ -1,0 +1,23 @@
+{
+  "name": "MSMaskWithShape",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "createMaskWithShapeForLayers:": {
+      "name": "createMaskWithShapeForLayers:",
+      "bridgedName": "createMaskWithShapeForLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayer *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

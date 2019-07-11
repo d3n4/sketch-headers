@@ -1,0 +1,59 @@
+{
+  "name": "MSUnitCoordinateSpace",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSLayerCoordinateSpace"
+  ],
+  "methods": {
+    "convertPoint:fromBounds:": {
+      "name": "convertPoint:fromBounds:",
+      "bridgedName": "convertPoint_fromBounds",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "bounds",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "convertPoint:toBounds:": {
+      "name": "convertPoint:toBounds:",
+      "bridgedName": "convertPoint_toBounds",
+      "args": [
+        {
+          "name": "point",
+          "type": "CGPoint",
+          "nullable": false
+        },
+        {
+          "name": "bounds",
+          "type": "CGRect",
+          "nullable": false
+        }
+      ],
+      "returns": "CGPoint",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "parentCoordinateSpace": {
+      "name": "parentCoordinateSpace",
+      "pointer": false,
+      "type": "id <MSLayerCoordinateSpace>",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

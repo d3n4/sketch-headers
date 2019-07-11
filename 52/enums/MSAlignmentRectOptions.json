@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSAlignmentRectOptions",
+  "members": [
+    {
+      "name": "MSAlignmentRectTextBaselineAndCapHeight",
+      "value": "1 << 0"
+    },
+    {
+      "name": "MSAlignmentRectTextXHeight",
+      "value": "2 << 0"
+    }
+  ]
+}

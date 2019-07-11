@@ -1,0 +1,28 @@
+{
+  "name": "MSTrailingLayersMover",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "changeFrameForLayers:inBlock:": {
+      "name": "changeFrameForLayers:inBlock:",
+      "bridgedName": "changeFrameForLayers_inBlock",
+      "args": [
+        {
+          "name": "layers",
+          "type": "NSArray <MSLayer *> *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

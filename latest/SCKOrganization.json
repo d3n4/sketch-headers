@@ -1,0 +1,20 @@
+{
+  "name": "SCKOrganization",
+  "extends": "SCKObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

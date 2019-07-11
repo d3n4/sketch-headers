@@ -1,0 +1,59 @@
+{
+  "name": "_MSImmutableGradient",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "elipseLength": {
+      "name": "elipseLength",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "from": {
+      "name": "from",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "gradientType": {
+      "name": "gradientType",
+      "pointer": false,
+      "type": "MSGradientType",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "to": {
+      "name": "to",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "stops": {
+      "name": "stops",
+      "pointer": false,
+      "type": "NSArray<MSImmutableGradientStop *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

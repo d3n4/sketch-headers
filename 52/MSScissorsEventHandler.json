@@ -1,0 +1,8 @@
+{
+  "name": "MSScissorsEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSSeparatorlessFlippedView",
+  "extends": "MSSeparatorlessView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

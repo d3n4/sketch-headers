@@ -1,0 +1,32 @@
+{
+  "name": "MSCollapsibleHeaderInspectorItem",
+  "extends": "MSHeaderInspectorItem",
+  "interfaces": [],
+  "methods": {
+    "toggleCollapsed:": {
+      "name": "toggleCollapsed:",
+      "bridgedName": "toggleCollapsed",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "collapsed": {
+      "name": "collapsed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

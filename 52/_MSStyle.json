@@ -1,0 +1,896 @@
+{
+  "name": "_MSStyle",
+  "extends": "MSModelObject",
+  "interfaces": [],
+  "methods": {
+    "addStyleBorder:": {
+      "name": "addStyleBorder:",
+      "bridgedName": "addStyleBorder",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSStyleBorder *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStyleBorders:": {
+      "name": "addStyleBorders:",
+      "bridgedName": "addStyleBorders",
+      "args": [
+        {
+          "name": "borders",
+          "type": "NSArray<MSStyleBorder *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleBorder:atIndex:": {
+      "name": "insertStyleBorder:atIndex:",
+      "bridgedName": "insertStyleBorder_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleBorder *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleBorder:beforeStyleBorder:": {
+      "name": "insertStyleBorder:beforeStyleBorder:",
+      "bridgedName": "insertStyleBorder_beforeStyleBorder",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleBorder *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleBorder *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleBorders:beforeStyleBorder:": {
+      "name": "insertStyleBorders:beforeStyleBorder:",
+      "bridgedName": "insertStyleBorders_beforeStyleBorder",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSStyleBorder *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSStyleBorder *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleBorder:afterStyleBorder:": {
+      "name": "insertStyleBorder:afterStyleBorder:",
+      "bridgedName": "insertStyleBorder_afterStyleBorder",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleBorder *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleBorder *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleBorders:afterStyleBorder:": {
+      "name": "insertStyleBorders:afterStyleBorder:",
+      "bridgedName": "insertStyleBorders_afterStyleBorder",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSStyleBorder *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleBorder *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleBorder:": {
+      "name": "removeStyleBorder:",
+      "bridgedName": "removeStyleBorder",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSStyleBorder *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleBorderAtIndex:": {
+      "name": "removeStyleBorderAtIndex:",
+      "bridgedName": "removeStyleBorderAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleBordersAtIndexes:": {
+      "name": "removeStyleBordersAtIndexes:",
+      "bridgedName": "removeStyleBordersAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllStyleBorders": {
+      "name": "removeAllStyleBorders",
+      "bridgedName": "removeAllStyleBorders",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveStyleBorderIndex:toIndex:": {
+      "name": "moveStyleBorderIndex:toIndex:",
+      "bridgedName": "moveStyleBorderIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStyleFill:": {
+      "name": "addStyleFill:",
+      "bridgedName": "addStyleFill",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSStyleFill *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStyleFills:": {
+      "name": "addStyleFills:",
+      "bridgedName": "addStyleFills",
+      "args": [
+        {
+          "name": "fills",
+          "type": "NSArray<MSStyleFill *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleFill:atIndex:": {
+      "name": "insertStyleFill:atIndex:",
+      "bridgedName": "insertStyleFill_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleFill *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleFill:beforeStyleFill:": {
+      "name": "insertStyleFill:beforeStyleFill:",
+      "bridgedName": "insertStyleFill_beforeStyleFill",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleFill *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleFill *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleFills:beforeStyleFill:": {
+      "name": "insertStyleFills:beforeStyleFill:",
+      "bridgedName": "insertStyleFills_beforeStyleFill",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSStyleFill *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSStyleFill *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleFill:afterStyleFill:": {
+      "name": "insertStyleFill:afterStyleFill:",
+      "bridgedName": "insertStyleFill_afterStyleFill",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleFill *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleFill *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleFills:afterStyleFill:": {
+      "name": "insertStyleFills:afterStyleFill:",
+      "bridgedName": "insertStyleFills_afterStyleFill",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSStyleFill *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleFill *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleFill:": {
+      "name": "removeStyleFill:",
+      "bridgedName": "removeStyleFill",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSStyleFill *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleFillAtIndex:": {
+      "name": "removeStyleFillAtIndex:",
+      "bridgedName": "removeStyleFillAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleFillsAtIndexes:": {
+      "name": "removeStyleFillsAtIndexes:",
+      "bridgedName": "removeStyleFillsAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllStyleFills": {
+      "name": "removeAllStyleFills",
+      "bridgedName": "removeAllStyleFills",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveStyleFillIndex:toIndex:": {
+      "name": "moveStyleFillIndex:toIndex:",
+      "bridgedName": "moveStyleFillIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStyleInnerShadow:": {
+      "name": "addStyleInnerShadow:",
+      "bridgedName": "addStyleInnerShadow",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSStyleInnerShadow *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStyleInnerShadows:": {
+      "name": "addStyleInnerShadows:",
+      "bridgedName": "addStyleInnerShadows",
+      "args": [
+        {
+          "name": "innerShadows",
+          "type": "NSArray<MSStyleInnerShadow *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleInnerShadow:atIndex:": {
+      "name": "insertStyleInnerShadow:atIndex:",
+      "bridgedName": "insertStyleInnerShadow_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleInnerShadow *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleInnerShadow:beforeStyleInnerShadow:": {
+      "name": "insertStyleInnerShadow:beforeStyleInnerShadow:",
+      "bridgedName": "insertStyleInnerShadow_beforeStyleInnerShadow",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleInnerShadow *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleInnerShadow *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleInnerShadows:beforeStyleInnerShadow:": {
+      "name": "insertStyleInnerShadows:beforeStyleInnerShadow:",
+      "bridgedName": "insertStyleInnerShadows_beforeStyleInnerShadow",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSStyleInnerShadow *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSStyleInnerShadow *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleInnerShadow:afterStyleInnerShadow:": {
+      "name": "insertStyleInnerShadow:afterStyleInnerShadow:",
+      "bridgedName": "insertStyleInnerShadow_afterStyleInnerShadow",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleInnerShadow *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleInnerShadow *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleInnerShadows:afterStyleInnerShadow:": {
+      "name": "insertStyleInnerShadows:afterStyleInnerShadow:",
+      "bridgedName": "insertStyleInnerShadows_afterStyleInnerShadow",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSStyleInnerShadow *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleInnerShadow *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleInnerShadow:": {
+      "name": "removeStyleInnerShadow:",
+      "bridgedName": "removeStyleInnerShadow",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSStyleInnerShadow *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleInnerShadowAtIndex:": {
+      "name": "removeStyleInnerShadowAtIndex:",
+      "bridgedName": "removeStyleInnerShadowAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleInnerShadowsAtIndexes:": {
+      "name": "removeStyleInnerShadowsAtIndexes:",
+      "bridgedName": "removeStyleInnerShadowsAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllStyleInnerShadows": {
+      "name": "removeAllStyleInnerShadows",
+      "bridgedName": "removeAllStyleInnerShadows",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveStyleInnerShadowIndex:toIndex:": {
+      "name": "moveStyleInnerShadowIndex:toIndex:",
+      "bridgedName": "moveStyleInnerShadowIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStyleShadow:": {
+      "name": "addStyleShadow:",
+      "bridgedName": "addStyleShadow",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSStyleShadow *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStyleShadows:": {
+      "name": "addStyleShadows:",
+      "bridgedName": "addStyleShadows",
+      "args": [
+        {
+          "name": "shadows",
+          "type": "NSArray<MSStyleShadow *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleShadow:atIndex:": {
+      "name": "insertStyleShadow:atIndex:",
+      "bridgedName": "insertStyleShadow_atIndex",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleShadow *",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleShadow:beforeStyleShadow:": {
+      "name": "insertStyleShadow:beforeStyleShadow:",
+      "bridgedName": "insertStyleShadow_beforeStyleShadow",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleShadow *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleShadow *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleShadows:beforeStyleShadow:": {
+      "name": "insertStyleShadows:beforeStyleShadow:",
+      "bridgedName": "insertStyleShadows_beforeStyleShadow",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSStyleShadow *> *",
+          "nullable": false
+        },
+        {
+          "name": "before",
+          "type": "MSStyleShadow *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleShadow:afterStyleShadow:": {
+      "name": "insertStyleShadow:afterStyleShadow:",
+      "bridgedName": "insertStyleShadow_afterStyleShadow",
+      "args": [
+        {
+          "name": "value",
+          "type": "__kindof MSStyleShadow *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleShadow *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertStyleShadows:afterStyleShadow:": {
+      "name": "insertStyleShadows:afterStyleShadow:",
+      "bridgedName": "insertStyleShadows_afterStyleShadow",
+      "args": [
+        {
+          "name": "values",
+          "type": "NSArray<MSStyleShadow *> *",
+          "nullable": false
+        },
+        {
+          "name": "after",
+          "type": "MSStyleShadow *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleShadow:": {
+      "name": "removeStyleShadow:",
+      "bridgedName": "removeStyleShadow",
+      "args": [
+        {
+          "name": "value",
+          "type": "MSStyleShadow *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleShadowAtIndex:": {
+      "name": "removeStyleShadowAtIndex:",
+      "bridgedName": "removeStyleShadowAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeStyleShadowsAtIndexes:": {
+      "name": "removeStyleShadowsAtIndexes:",
+      "bridgedName": "removeStyleShadowsAtIndexes",
+      "args": [
+        {
+          "name": "indexes",
+          "type": "NSIndexSet *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllStyleShadows": {
+      "name": "removeAllStyleShadows",
+      "bridgedName": "removeAllStyleShadows",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveStyleShadowIndex:toIndex:": {
+      "name": "moveStyleShadowIndex:toIndex:",
+      "bridgedName": "moveStyleShadowIndex_toIndex",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "endMarkerType": {
+      "name": "endMarkerType",
+      "pointer": false,
+      "type": "MSMarkerType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "miterLimit": {
+      "name": "miterLimit",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "startMarkerType": {
+      "name": "startMarkerType",
+      "pointer": false,
+      "type": "MSMarkerType",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "windingRule": {
+      "name": "windingRule",
+      "pointer": false,
+      "type": "NSWindingRule",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "blur": {
+      "name": "blur",
+      "pointer": false,
+      "type": "MSStyleBlur ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "borderOptions": {
+      "name": "borderOptions",
+      "pointer": false,
+      "type": "MSStyleBorderOptions ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "borders": {
+      "name": "borders",
+      "pointer": false,
+      "type": "NSArray<__kindof MSStyleBorder *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "colorControls": {
+      "name": "colorControls",
+      "pointer": false,
+      "type": "MSStyleColorControls ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "contextSettings": {
+      "name": "contextSettings",
+      "pointer": false,
+      "type": "MSGraphicsContextSettings ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "fills": {
+      "name": "fills",
+      "pointer": false,
+      "type": "NSArray<__kindof MSStyleFill *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "innerShadows": {
+      "name": "innerShadows",
+      "pointer": false,
+      "type": "NSArray<__kindof MSStyleInnerShadow *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "shadows": {
+      "name": "shadows",
+      "pointer": false,
+      "type": "NSArray<__kindof MSStyleShadow *> ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "textStyle": {
+      "name": "textStyle",
+      "pointer": false,
+      "type": "MSTextStyle ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

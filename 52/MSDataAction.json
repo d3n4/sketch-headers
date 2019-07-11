@@ -1,0 +1,11 @@
+{
+  "name": "MSDataAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [
+    "MSDataMenuProviderDelegate",
+    "NSMenuDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

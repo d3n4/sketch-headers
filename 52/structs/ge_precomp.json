@@ -1,0 +1,21 @@
+{
+  "struct": true,
+  "name": "ge_precomp",
+  "members": [
+    {
+      "name": "yplusx",
+      "pointer": false,
+      "type": "fe"
+    },
+    {
+      "name": "yminusx",
+      "pointer": false,
+      "type": "fe"
+    },
+    {
+      "name": "xy2d",
+      "pointer": false,
+      "type": "fe"
+    }
+  ]
+}

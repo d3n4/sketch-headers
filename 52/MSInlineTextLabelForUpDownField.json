@@ -1,0 +1,23 @@
+{
+  "name": "MSInlineTextLabelForUpDownField",
+  "extends": "MSTextLabelForUpDownField",
+  "interfaces": [],
+  "methods": {
+    "labelWithImage:": {
+      "name": "labelWithImage:",
+      "bridgedName": "labelWithImage",
+      "args": [
+        {
+          "name": "image",
+          "type": "NSImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

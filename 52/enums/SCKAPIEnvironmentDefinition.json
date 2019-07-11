@@ -1,0 +1,21 @@
+{
+  "enum": true,
+  "name": "SCKAPIEnvironmentDefinition",
+  "members": [
+    {
+      "name": "SCKAPIEnvironmentDefinitionCustom"
+    },
+    {
+      "name": "SCKAPIEnvironmentDefinitionProduction"
+    },
+    {
+      "name": "SCKAPIEnvironmentDefinitionStaging"
+    },
+    {
+      "name": "SCKAPIEnvironmentDefinitionTest"
+    },
+    {
+      "name": "SCKAPIEnvironmentDefinitionDevelopment"
+    }
+  ]
+}

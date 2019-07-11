@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorButton",
+  "extends": "NSButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

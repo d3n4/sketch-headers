@@ -1,0 +1,23 @@
+{
+  "name": "NSDocumentController",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "enumerateOpenDocuments:": {
+      "name": "enumerateOpenDocuments:",
+      "bridgedName": "enumerateOpenDocuments",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSDocumentIteratorBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,47 @@
+{
+  "name": "AFPropertyListRequestSerializer",
+  "extends": "AFHTTPRequestSerializer",
+  "interfaces": [],
+  "methods": {
+    "serializerWithFormat:writeOptions:": {
+      "name": "serializerWithFormat:writeOptions:",
+      "bridgedName": "serializerWithFormat_writeOptions",
+      "args": [
+        {
+          "name": "format",
+          "type": "NSPropertyListFormat",
+          "nullable": false
+        },
+        {
+          "name": "writeOptions",
+          "type": "NSPropertyListWriteOptions",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "format": {
+      "name": "format",
+      "pointer": false,
+      "type": "NSPropertyListFormat",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    },
+    "writeOptions": {
+      "name": "writeOptions",
+      "pointer": false,
+      "type": "NSPropertyListWriteOptions",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

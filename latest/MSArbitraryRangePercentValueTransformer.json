@@ -1,0 +1,29 @@
+{
+  "name": "MSArbitraryRangePercentValueTransformer",
+  "extends": "NSValueTransformer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "zeroPercentValue": {
+      "name": "zeroPercentValue",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    },
+    "hundredPercentValue": {
+      "name": "hundredPercentValue",
+      "pointer": false,
+      "type": "double",
+      "attributes": [
+        "nonatomic",
+        "class",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

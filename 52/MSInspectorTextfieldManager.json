@@ -1,0 +1,48 @@
+{
+  "name": "MSInspectorTextfieldManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "managerWithItem:textField:adaptor:identifier:inlineToolTip:touchBarItems:": {
+      "name": "managerWithItem:textField:adaptor:identifier:inlineToolTip:touchBarItems:",
+      "bridgedName": "managerWithItem_textField_adaptor_identifier_inlineToolTip_touchBarItems",
+      "args": [
+        {
+          "name": "item",
+          "type": "nonnull MSInspectorItem *",
+          "nullable": false
+        },
+        {
+          "name": "textField",
+          "type": "nonnull MSInlineUpDownTextField *",
+          "nullable": false
+        },
+        {
+          "name": "adaptor",
+          "type": "nonnull MSMathInspectorValueAdaptor *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "nonnull NSUserInterfaceItemIdentifier",
+          "nullable": false
+        },
+        {
+          "name": "toolTip",
+          "type": "nonnull NSString *",
+          "nullable": false
+        },
+        {
+          "name": "touchBarItems",
+          "type": "NSArray <NSString *>*",
+          "nullable": true
+        }
+      ],
+      "returns": "nonnull instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

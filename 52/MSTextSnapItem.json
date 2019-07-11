@@ -1,0 +1,8 @@
+{
+  "name": "MSTextSnapItem",
+  "extends": "MSSnapItem",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

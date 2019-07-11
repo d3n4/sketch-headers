@@ -1,0 +1,61 @@
+{
+  "name": "MSCurvePointBehaviour",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "didAssignBehaviorToHandle:ofPoint:previousMode:": {
+      "name": "didAssignBehaviorToHandle:ofPoint:previousMode:",
+      "bridgedName": "didAssignBehaviorToHandle_ofPoint_previousMode",
+      "args": [
+        {
+          "name": "handle",
+          "type": "MSPointType",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "MSCurvePoint *",
+          "nullable": false
+        },
+        {
+          "name": "oldMode",
+          "type": "MSCurveMode",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "curveFromChangedInPoint:": {
+      "name": "curveFromChangedInPoint:",
+      "bridgedName": "curveFromChangedInPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSCurvePoint *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "curveToChangedInPoint:": {
+      "name": "curveToChangedInPoint:",
+      "bridgedName": "curveToChangedInPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "MSCurvePoint *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

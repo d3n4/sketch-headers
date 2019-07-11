@@ -1,0 +1,24 @@
+{
+  "enum": true,
+  "name": "BCReceiptRegistrationResult",
+  "members": [
+    {
+      "name": "BCReceiptRegistrationOK"
+    },
+    {
+      "name": "BCReceiptRegistrationLicenseInvalid"
+    },
+    {
+      "name": "BCReceiptRegistrationLicenseNoFreeSlot"
+    },
+    {
+      "name": "BCReceiptRegistrationVersionNotSupported"
+    },
+    {
+      "name": "BCReceiptRegistrationNetworkError"
+    },
+    {
+      "name": "BCReceiptRegistrationFailedToSave"
+    }
+  ]
+}

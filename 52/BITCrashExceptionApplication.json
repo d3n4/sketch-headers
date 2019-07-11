@@ -1,0 +1,8 @@
+{
+  "name": "BITCrashExceptionApplication",
+  "extends": "NSApplication",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

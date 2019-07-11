@@ -1,0 +1,49 @@
+{
+  "protocol": true,
+  "name": "MSGPUTexture",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "replaceRegion:bytesPerRow:pixels:": {
+      "name": "replaceRegion:bytesPerRow:pixels:",
+      "bridgedName": "replaceRegion_bytesPerRow_pixels",
+      "args": [
+        {
+          "name": "region",
+          "type": "BCIntRect",
+          "nullable": false
+        },
+        {
+          "name": "bytesPerRow",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "pixels",
+          "type": "nonnull const void *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "width": {
+      "name": "width",
+      "bridgedName": "width",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "height": {
+      "name": "height",
+      "bridgedName": "height",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

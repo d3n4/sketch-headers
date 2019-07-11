@@ -1,0 +1,84 @@
+{
+  "name": "SCKDownloadOperation",
+  "extends": "SCKURLOperation",
+  "interfaces": [
+    "NSURLSessionDownloadDelegate"
+  ],
+  "methods": {
+    "initWithRequest:": {
+      "name": "initWithRequest:",
+      "bridgedName": "initWithRequest",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "operationByRequesting:completionHandler:": {
+      "name": "operationByRequesting:completionHandler:",
+      "bridgedName": "operationByRequesting_completionHandler",
+      "args": [
+        {
+          "name": "request",
+          "type": "NSURLRequest *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "SCKDownloadOperationHandler",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "request": {
+      "name": "request",
+      "pointer": false,
+      "type": "NSURLRequest ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "downloadCompletionBlock": {
+      "name": "downloadCompletionBlock",
+      "pointer": false,
+      "type": "SCKDownloadOperationHandler",
+      "attributes": [
+        "nonatomic",
+        "copy"
+      ]
+    },
+    "progress": {
+      "name": "progress",
+      "pointer": false,
+      "type": "NSProgress ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "NSError ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

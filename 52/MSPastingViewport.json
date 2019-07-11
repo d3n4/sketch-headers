@@ -1,0 +1,61 @@
+{
+  "name": "MSPastingViewport",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "viewportWithVisibleRect:zoom:": {
+      "name": "viewportWithVisibleRect:zoom:",
+      "bridgedName": "viewportWithVisibleRect_zoom",
+      "args": [
+        {
+          "name": "visibleRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPastingViewport *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "viewportContainingLayers:": {
+      "name": "viewportContainingLayers:",
+      "bridgedName": "viewportContainingLayers",
+      "args": [
+        {
+          "name": "layers",
+          "type": "MSLayerArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPastingViewport *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "zoomValue": {
+      "name": "zoomValue",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "visibleRect": {
+      "name": "visibleRect",
+      "pointer": false,
+      "type": "NSRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

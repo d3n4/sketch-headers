@@ -1,0 +1,23 @@
+{
+  "name": "NSMutableSet",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "addObjectIfNotNil:": {
+      "name": "addObjectIfNotNil:",
+      "bridgedName": "addObjectIfNotNil",
+      "args": [
+        {
+          "name": "anObject",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,16 @@
+{
+  "enum": true,
+  "name": "MSBezierSegmentType",
+  "members": [
+    {
+      "name": "MSBezierSegmentTypeLine",
+      "value": "0"
+    },
+    {
+      "name": "MSBezierSegmentTypeQuadratic"
+    },
+    {
+      "name": "MSBezierSegmentTypeCubic"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "BCDebugMenuController",
+  "extends": "BCSingleton",
+  "interfaces": [],
+  "methods": {
+    "addDebugMenu": {
+      "name": "addDebugMenu",
+      "bridgedName": "addDebugMenu",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

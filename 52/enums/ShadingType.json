@@ -1,0 +1,28 @@
+{
+  "enum": true,
+  "name": "ShadingType",
+  "members": [
+    {
+      "name": "ShadingTypeFunction",
+      "value": "1"
+    },
+    {
+      "name": "ShadingTypeLinear"
+    },
+    {
+      "name": "ShadingTypeRadial"
+    },
+    {
+      "name": "ShadingTypeGouraudTriange"
+    },
+    {
+      "name": "ShadingTypeGouraudLattice"
+    },
+    {
+      "name": "ShadingTypeCoonsPatchMesh"
+    },
+    {
+      "name": "ShadingTypeTensorProductPatchMesh"
+    }
+  ]
+}

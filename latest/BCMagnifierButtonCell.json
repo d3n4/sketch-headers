@@ -1,8 +1,0 @@
-{
-  "name": "BCMagnifierButtonCell",
-  "extends": "NSButtonCell",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

@@ -1,0 +1,49 @@
+{
+  "name": "MSRunCustomScriptSheet",
+  "extends": "CHSheetController",
+  "interfaces": [
+    "NSTextViewDelegate"
+  ],
+  "methods": {
+    "saveAction:": {
+      "name": "saveAction:",
+      "bridgedName": "saveAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scriptingMenuAction:": {
+      "name": "scriptingMenuAction:",
+      "bridgedName": "scriptingMenuAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "logField": {
+      "name": "logField",
+      "pointer": false,
+      "type": "IBOutlet NSTextView ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

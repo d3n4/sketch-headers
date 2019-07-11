@@ -1,0 +1,78 @@
+{
+  "name": "MSTextLayerEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [
+    "NSTextViewDelegate",
+    "NSTextStorageDelegate",
+    "NSWindowDelegate",
+    "MSTextLayerEditingDelegate",
+    "MSTextLayerTextViewDelegate",
+    "MSFirstLineTypesetterDelegate"
+  ],
+  "methods": {
+    "applyTextTransform:": {
+      "name": "applyTextTransform:",
+      "bridgedName": "applyTextTransform",
+      "args": [
+        {
+          "name": "textTransformValue",
+          "type": "NSNumber *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyTextColor:": {
+      "name": "applyTextColor:",
+      "bridgedName": "applyTextColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "nonnull MSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable NSColor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateTextViewStyling": {
+      "name": "updateTextViewStyling",
+      "bridgedName": "updateTextViewStyling",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setListType:": {
+      "name": "setListType:",
+      "bridgedName": "setListType",
+      "args": [
+        {
+          "name": "list",
+          "type": "nonnull NSTextList *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "textView": {
+      "name": "textView",
+      "pointer": false,
+      "type": "MSTextLayerTextView ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly",
+        "nullable"
+      ]
+    }
+  },
+  "generics": []
+}

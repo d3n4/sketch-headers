@@ -1,8 +1,0 @@
-{
-  "name": "MSSpiralShapeAction",
-  "extends": "MSBaseShapeAction",
-  "interfaces": [],
-  "methods": {},
-  "properties": {},
-  "generics": []
-}

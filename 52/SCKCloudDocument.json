@@ -1,0 +1,63 @@
+{
+  "name": "SCKCloudDocument",
+  "extends": "SCKDocument",
+  "interfaces": [],
+  "methods": {
+    "diffComparedTo:": {
+      "name": "diffComparedTo:",
+      "bridgedName": "diffComparedTo",
+      "args": [
+        {
+          "name": "object",
+          "type": "nonnull SCKCloudDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull SCKCloudDocumentDiff *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "slug": {
+      "name": "slug",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "downloadURL": {
+      "name": "downloadURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "isProcessing": {
+      "name": "isProcessing",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "metaImageURL": {
+      "name": "metaImageURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "_MSImmutableGroupLayout",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

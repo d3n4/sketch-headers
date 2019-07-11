@@ -1,0 +1,61 @@
+{
+  "name": "MSManageForeignSymbolItem",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithForeignSymbol:": {
+      "name": "initWithForeignSymbol:",
+      "bridgedName": "initWithForeignSymbol",
+      "args": [
+        {
+          "name": "foreignSymbol",
+          "type": "MSForeignSymbol*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "libraryName": {
+      "name": "libraryName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "foreignSymbol": {
+      "name": "foreignSymbol",
+      "pointer": false,
+      "type": "MSForeignSymbol ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "library": {
+      "name": "library",
+      "pointer": false,
+      "type": "MSAssetLibrary ",
+      "attributes": [
+        "nullable",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "symbolName": {
+      "name": "symbolName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

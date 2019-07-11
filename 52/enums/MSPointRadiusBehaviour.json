@@ -1,0 +1,30 @@
+{
+  "enum": true,
+  "name": "MSPointRadiusBehaviour",
+  "members": [
+    {
+      "name": "MSPointRadiusBehaviourV0",
+      "value": "0"
+    },
+    {
+      "name": "MSPointRadiusBehaviourV1",
+      "value": "1"
+    },
+    {
+      "name": "MSPointRadiusBehaviourV1Smooth",
+      "value": "2"
+    },
+    {
+      "name": "MSPointRadiusBehaviourDisabled",
+      "value": "-1"
+    },
+    {
+      "name": "MSPointRadiusBehaviourLegacy",
+      "value": "MSPointRadiusBehaviourV0"
+    },
+    {
+      "name": "MSPointRadiusBehaviourCurrent",
+      "value": "MSPointRadiusBehaviourV1"
+    }
+  ]
+}

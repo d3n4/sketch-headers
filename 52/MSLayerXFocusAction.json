@@ -1,0 +1,8 @@
+{
+  "name": "MSLayerXFocusAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

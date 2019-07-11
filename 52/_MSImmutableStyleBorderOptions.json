@@ -1,0 +1,39 @@
+{
+  "name": "_MSImmutableStyleBorderOptions",
+  "extends": "MSImmutableStylePart",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "dashPattern": {
+      "name": "dashPattern",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lineCapStyle": {
+      "name": "lineCapStyle",
+      "pointer": false,
+      "type": "NSLineCapStyle",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lineJoinStyle": {
+      "name": "lineJoinStyle",
+      "pointer": false,
+      "type": "NSLineJoinStyle",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

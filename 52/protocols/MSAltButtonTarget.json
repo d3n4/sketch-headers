@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSAltButtonTarget",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "altButtonCanShowAltImage:": {
+      "name": "altButtonCanShowAltImage:",
+      "bridgedName": "altButtonCanShowAltImage",
+      "args": [
+        {
+          "name": "altButton",
+          "type": "MSAltButton *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSInspectorCheckmarkCell",
+  "extends": "MSInspectorButtonCell",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

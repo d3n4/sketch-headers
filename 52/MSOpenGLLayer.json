@@ -1,0 +1,8 @@
+{
+  "name": "MSOpenGLLayer",
+  "extends": "NSOpenGLLayer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

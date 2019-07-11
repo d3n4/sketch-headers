@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSMetricsDrawingOptions",
+  "members": [
+    {
+      "name": "MSMetricsDrawingLeft",
+      "value": "1"
+    },
+    {
+      "name": "MSMetricsDrawingRight",
+      "value": "2"
+    }
+  ]
+}

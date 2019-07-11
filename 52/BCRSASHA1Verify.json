@@ -1,0 +1,26 @@
+{
+  "name": "BCRSASHA1Verify",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "error": {
+      "name": "error",
+      "pointer": false,
+      "type": "  NSError *    ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "verified": {
+      "name": "verified",
+      "pointer": false,
+      "type": "          BOOL         ",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

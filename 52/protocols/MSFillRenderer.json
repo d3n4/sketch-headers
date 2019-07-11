@@ -1,0 +1,53 @@
+{
+  "protocol": true,
+  "name": "MSFillRenderer",
+  "extends": "MSRenderer",
+  "interfaces": [],
+  "methods": {
+    "renderFill:path:layer:index:rect:hasInnerStroke:context:": {
+      "name": "renderFill:path:layer:index:rect:hasInnerStroke:context:",
+      "bridgedName": "renderFill_path_layer_index_rect_hasInnerStroke_context",
+      "args": [
+        {
+          "name": "fill",
+          "type": "MSImmutableStyleFill *",
+          "nullable": false
+        },
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSImmutableStyledLayer*",
+          "nullable": false
+        },
+        {
+          "name": "index",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "CGRect",
+          "nullable": false
+        },
+        {
+          "name": "hasInnerStroke",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

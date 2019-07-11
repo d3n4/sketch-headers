@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "MSLayerResizingType",
+  "members": [
+    {
+      "name": "MSLayerResizingStretch",
+      "value": "0"
+    },
+    {
+      "name": "MSLayerResizingPinToEdge",
+      "value": "1"
+    },
+    {
+      "name": "MSLayerResizingResize",
+      "value": "2"
+    },
+    {
+      "name": "MSLayerResizingFloat",
+      "value": "3"
+    }
+  ]
+}

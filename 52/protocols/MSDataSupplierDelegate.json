@@ -1,0 +1,37 @@
+{
+  "protocol": true,
+  "name": "MSDataSupplierDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "dataSupplierMenuItemImage:": {
+      "name": "dataSupplierMenuItemImage:",
+      "bridgedName": "dataSupplierMenuItemImage",
+      "args": [
+        {
+          "name": "dataSupplier",
+          "type": "MSDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "dataSupplierDataChanged:": {
+      "name": "dataSupplierDataChanged:",
+      "bridgedName": "dataSupplierDataChanged",
+      "args": [
+        {
+          "name": "localDataSupplier",
+          "type": "MSLocalDataSupplier *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

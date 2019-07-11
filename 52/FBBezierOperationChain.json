@@ -1,0 +1,92 @@
+{
+  "name": "FBBezierOperationChain",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithBezierPath:": {
+      "name": "initWithBezierPath:",
+      "bridgedName": "initWithBezierPath",
+      "args": [
+        {
+          "name": "sourcePath",
+          "type": "FBBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithData:": {
+      "name": "initWithData:",
+      "bridgedName": "initWithData",
+      "args": [
+        {
+          "name": "data",
+          "type": "NSData *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendBezierPath:withOperation:": {
+      "name": "appendBezierPath:withOperation:",
+      "bridgedName": "appendBezierPath_withOperation",
+      "args": [
+        {
+          "name": "path",
+          "type": "FBBezierPath *",
+          "nullable": false
+        },
+        {
+          "name": "op",
+          "type": "FBBezierPathOperation",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "archive": {
+      "name": "archive",
+      "bridgedName": "archive",
+      "args": [],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "saveWithName:": {
+      "name": "saveWithName:",
+      "bridgedName": "saveWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerateWithBlock:": {
+      "name": "enumerateWithBlock:",
+      "bridgedName": "enumerateWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(FBBezierPathOperation op, FBBezierPath *path)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

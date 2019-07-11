@@ -1,0 +1,23 @@
+{
+  "enum": true,
+  "name": "MSFlowAnimationType",
+  "members": [
+    {
+      "name": "MSFlowAnimationNone",
+      "value": "-1"
+    },
+    {
+      "name": "MSFlowAnimationSlideFromRight",
+      "value": "0"
+    },
+    {
+      "name": "MSFlowAnimationSlideFromLeft"
+    },
+    {
+      "name": "MSFlowAnimationSlideFromBottom"
+    },
+    {
+      "name": "MSFlowAnimationSlideFromTop"
+    }
+  ]
+}
