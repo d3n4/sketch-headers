@@ -2,8 +2,7 @@
   "name": "MSSynchronousTiledRendererView",
   "extends": "NSView",
   "interfaces": [
-    "MSTiledLayerPileHostView",
-    "MSOverlayRenderingDelegate"
+    "MSTiledLayerPileHostView"
   ],
   "methods": {
     "initWithFrame:NS_UNAVAILABLE": {

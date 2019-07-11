@@ -112,25 +112,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayInViewRect:forPage:": {
-      "name": "refreshOverlayInViewRect:forPage:",
-      "bridgedName": "refreshOverlayInViewRect_forPage",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        },
-        {
-          "name": "page",
-          "type": "MSPage *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "refreshContentRect:forPage:document:quality:": {
       "name": "refreshContentRect:forPage:document:quality:",
       "bridgedName": "refreshContentRect_forPage_document_quality",
@@ -226,14 +207,6 @@
       "attributes": [
         "nonatomic",
         "readonly"
-      ]
-    },
-    "shouldHideOverlayControls": {
-      "name": "shouldHideOverlayControls",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
       ]
     },
     "tiledRect": {

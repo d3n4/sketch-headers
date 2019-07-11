@@ -90,25 +90,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayInViewRect:forPage:": {
-      "name": "refreshOverlayInViewRect:forPage:",
-      "bridgedName": "refreshOverlayInViewRect_forPage",
-      "args": [
-        {
-          "name": "rect",
-          "type": "NSRect",
-          "nullable": false
-        },
-        {
-          "name": "page",
-          "type": "MSPage *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "adaptToColorSpaceChange": {
       "name": "adaptToColorSpaceChange",
       "bridgedName": "adaptToColorSpaceChange",
@@ -317,14 +298,6 @@
       "attributes": [
         "nonatomic",
         "readonly"
-      ]
-    },
-    "shouldHideOverlayControls": {
-      "name": "shouldHideOverlayControls",
-      "pointer": false,
-      "type": "BOOL",
-      "attributes": [
-        "nonatomic"
       ]
     },
     "contextPool": {

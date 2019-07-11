@@ -41,6 +41,20 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "showCustomPresetSheet:": {
+      "name": "showCustomPresetSheet:",
+      "bridgedName": "showCustomPresetSheet",
+      "args": [
+        {
+          "name": "presetsController",
+          "type": "MSArtboardPresetsViewController *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {}

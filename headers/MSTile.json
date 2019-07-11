@@ -72,25 +72,6 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "refreshOverlayInViewRect:page:": {
-      "name": "refreshOverlayInViewRect:page:",
-      "bridgedName": "refreshOverlayInViewRect_page",
-      "args": [
-        {
-          "name": "overlayRect",
-          "type": "NSRect",
-          "nullable": false
-        },
-        {
-          "name": "page",
-          "type": "MSPage *",
-          "nullable": false
-        }
-      ],
-      "returns": "void",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
     "moveToPosition:": {
       "name": "moveToPosition:",
       "bridgedName": "moveToPosition",
@@ -167,12 +148,13 @@
         "assign"
       ]
     },
-    "shouldHideOverlayControls": {
-      "name": "shouldHideOverlayControls",
+    "drawingIsCancelled": {
+      "name": "drawingIsCancelled",
       "pointer": false,
       "type": "BOOL",
       "attributes": [
-        "nonatomic"
+        "nonatomic",
+        "readonly"
       ]
     },
     "driver": {

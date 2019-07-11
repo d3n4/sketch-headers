@@ -5,7 +5,22 @@
     "MSInspectorSection",
     "NSMenuDelegate"
   ],
-  "methods": {},
+  "methods": {
+    "changeTextLayerFont:": {
+      "name": "changeTextLayerFont:",
+      "bridgedName": "changeTextLayerFont",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
   "properties": {
     "layers": {
       "name": "layers",

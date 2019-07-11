@@ -1,0 +1,66 @@
+{
+  "protocol": true,
+  "name": "MSTiledLayerDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "tiledLayer:didChangeToState:": {
+      "name": "tiledLayer:didChangeToState:",
+      "bridgedName": "tiledLayer_didChangeToState",
+      "args": [
+        {
+          "name": "tiledLayer",
+          "type": "MSTiledLayer *",
+          "nullable": false
+        },
+        {
+          "name": "newState",
+          "type": "MSTiledLayerState",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tiledLayer:requiresRedrawInRect:": {
+      "name": "tiledLayer:requiresRedrawInRect:",
+      "bridgedName": "tiledLayer_requiresRedrawInRect",
+      "args": [
+        {
+          "name": "tiledLayer",
+          "type": "MSTiledLayer *",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tiledLayerDidRefreshTileContent:finishTime:": {
+      "name": "tiledLayerDidRefreshTileContent:finishTime:",
+      "bridgedName": "tiledLayerDidRefreshTileContent_finishTime",
+      "args": [
+        {
+          "name": "tiledLayer",
+          "type": "MSTiledLayer *",
+          "nullable": false
+        },
+        {
+          "name": "finishTime",
+          "type": "BCTime",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

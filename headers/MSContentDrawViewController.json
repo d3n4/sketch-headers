@@ -46,6 +46,15 @@
         "strong"
       ]
     },
+    "overlayView": {
+      "name": "overlayView",
+      "pointer": false,
+      "type": "IBOutlet MSOverlayView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
     "horizontalRuler": {
       "name": "horizontalRuler",
       "pointer": false,

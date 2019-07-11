@@ -14,8 +14,8 @@
         "nonatomic"
       ]
     },
-    "sizeOfSelectedLayers": {
-      "name": "sizeOfSelectedLayers",
+    "proposedArtboardSize": {
+      "name": "proposedArtboardSize",
       "pointer": false,
       "type": "NSSize",
       "attributes": [

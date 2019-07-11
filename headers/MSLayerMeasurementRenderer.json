@@ -19,13 +19,18 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "drawWithZoomScale:": {
-      "name": "drawWithZoomScale:",
-      "bridgedName": "drawWithZoomScale",
+    "drawRect:context:": {
+      "name": "drawRect:context:",
+      "bridgedName": "drawRect_context",
       "args": [
         {
-          "name": "zoomValue",
-          "type": "CGFloat",
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
           "nullable": false
         }
       ],

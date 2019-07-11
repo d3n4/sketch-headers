@@ -104,6 +104,30 @@
       "returns": "MSImmutableSymbolMaster *",
       "kind": "instance",
       "kindIndicator": "-"
+    },
+    "cachedModifiedSymbolForMaster:document:cache:": {
+      "name": "cachedModifiedSymbolForMaster:document:cache:",
+      "bridgedName": "cachedModifiedSymbolForMaster_document_cache",
+      "args": [
+        {
+          "name": "originalSymbol",
+          "type": "MSImmutableSymbolMaster *",
+          "nullable": false
+        },
+        {
+          "name": "doc",
+          "type": "MSImmutableDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "cache",
+          "type": "BCCache *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
     }
   },
   "properties": {

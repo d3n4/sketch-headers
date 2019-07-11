@@ -4,7 +4,7 @@
   "interfaces": [
     "MSEventHandlerManagerDelegate",
     "MSTiledLayerPileHostView",
-    "MSOverlayRenderingDelegate"
+    "MSOverlayRendererDelegate"
   ],
   "methods": {
     "beginHandToolMode": {
@@ -182,6 +182,25 @@
       "name": "refreshOverlayAfterSettingsChange",
       "bridgedName": "refreshOverlayAfterSettingsChange",
       "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderOverlayInRect:context:": {
+      "name": "renderOverlayInRect:context:",
+      "bridgedName": "renderOverlayInRect_context",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
@@ -530,6 +549,15 @@
       "attributes": [
         "nonatomic",
         "strong"
+      ]
+    },
+    "overlayView": {
+      "name": "overlayView",
+      "pointer": false,
+      "type": "IBOutlet MSOverlayView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
       ]
     },
     "viewPort": {

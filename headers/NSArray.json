@@ -357,9 +357,9 @@
       "kind": "instance",
       "kindIndicator": "-"
     },
-    "dictionaryBySplittingArrayUsingKey:": {
-      "name": "dictionaryBySplittingArrayUsingKey:",
-      "bridgedName": "dictionaryBySplittingArrayUsingKey",
+    "dictionaryByIndexingObjectForKey:": {
+      "name": "dictionaryByIndexingObjectForKey:",
+      "bridgedName": "dictionaryByIndexingObjectForKey",
       "args": [
         {
           "name": "aKey",
