@@ -12,37 +12,17 @@
       "returns": "void",
       "kind": "instance",
       "kindIndicator": "-"
-    },
-    "invertAction:": {
-      "name": "invertAction:",
-      "bridgedName": "invertAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
-    },
-    "cropAction:": {
-      "name": "cropAction:",
-      "bridgedName": "cropAction",
-      "args": [
-        {
-          "name": "sender",
-          "type": "id",
-          "nullable": false
-        }
-      ],
-      "returns": "IBAction",
-      "kind": "instance",
-      "kindIndicator": "-"
     }
   },
   "properties": {
+    "currentMode": {
+      "name": "currentMode",
+      "pointer": false,
+      "type": "MSBitmapEditMode",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
     "hasSelection": {
       "name": "hasSelection",
       "pointer": false,

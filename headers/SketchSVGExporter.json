@@ -319,6 +319,15 @@
         "strong",
         "readonly"
       ]
+    },
+    "includeArtboardBackground": {
+      "name": "includeArtboardBackground",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
     }
   },
   "generics": []

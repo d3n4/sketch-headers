@@ -3,6 +3,16 @@
   "extends": "_MSImmutableStyleBasicFill",
   "interfaces": [],
   "methods": {},
-  "properties": {},
+  "properties": {
+    "hasOpacity": {
+      "name": "hasOpacity",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
   "generics": []
 }
