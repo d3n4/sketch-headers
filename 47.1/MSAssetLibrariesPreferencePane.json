@@ -1,0 +1,64 @@
+{
+  "name": "MSAssetLibrariesPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [
+    "NSTableViewDelegate",
+    "NSTableViewDataSource"
+  ],
+  "methods": {
+    "importLibraryAction:": {
+      "name": "importLibraryAction:",
+      "bridgedName": "importLibraryAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeLibraryAction:": {
+      "name": "removeLibraryAction:",
+      "bridgedName": "removeLibraryAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addLibrariesFromURLS:": {
+      "name": "addLibrariesFromURLS:",
+      "bridgedName": "addLibrariesFromURLS",
+      "args": [
+        {
+          "name": "urls",
+          "type": "NSArray <NSURL *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "tableView": {
+      "name": "tableView",
+      "pointer": false,
+      "type": "IBOutlet NSTableView ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    }
+  },
+  "generics": []
+}

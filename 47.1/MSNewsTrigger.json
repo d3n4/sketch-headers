@@ -1,0 +1,8 @@
+{
+  "name": "MSNewsTrigger",
+  "extends": "CHSingletonObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

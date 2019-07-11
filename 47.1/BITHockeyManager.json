@@ -1,0 +1,199 @@
+{
+  "name": "BITHockeyManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "sharedHockeyManager": {
+      "name": "sharedHockeyManager",
+      "bridgedName": "sharedHockeyManager",
+      "args": [],
+      "returns": "BITHockeyManager *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "configureWithIdentifier:": {
+      "name": "configureWithIdentifier:",
+      "bridgedName": "configureWithIdentifier",
+      "args": [
+        {
+          "name": "appIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "configureWithIdentifier:delegate:": {
+      "name": "configureWithIdentifier:delegate:",
+      "bridgedName": "configureWithIdentifier_delegate",
+      "args": [
+        {
+          "name": "appIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id <BITHockeyManagerDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "configureWithIdentifier:companyName:delegate:__attribute__((deprecated(\"Use configureWithIdentifierdelegateinstead\")))": {
+      "name": "configureWithIdentifier:companyName:delegate:__attribute__((deprecated(\"Use configureWithIdentifierdelegateinstead\")))",
+      "bridgedName": "configureWithIdentifier_companyName_delegate___attribute__((deprecated(\"Use configureWithIdentifierdelegateinstead\")))",
+      "args": [
+        {
+          "name": "appIdentifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "companyName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id <BITHockeyManagerDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "startManager": {
+      "name": "startManager",
+      "bridgedName": "startManager",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setUserID:": {
+      "name": "setUserID:",
+      "bridgedName": "setUserID",
+      "args": [
+        {
+          "name": "userID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setUserName:": {
+      "name": "setUserName:",
+      "bridgedName": "setUserName",
+      "args": [
+        {
+          "name": "userName",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setUserEmail:": {
+      "name": "setUserEmail:",
+      "bridgedName": "setUserEmail",
+      "args": [
+        {
+          "name": "userEmail",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "testIdentifier": {
+      "name": "testIdentifier",
+      "bridgedName": "testIdentifier",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<BITHockeyManagerDelegate>",
+      "attributes": [
+        "nonatomic",
+        "unsafe_unretained"
+      ]
+    },
+    "serverURL": {
+      "name": "serverURL",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "crashManager": {
+      "name": "crashManager",
+      "pointer": false,
+      "type": "BITCrashManager ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "disableCrashManager": {
+      "name": "disableCrashManager",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter = isCrashManagerDisabled"
+      ]
+    },
+    "feedbackManager": {
+      "name": "feedbackManager",
+      "pointer": false,
+      "type": "BITFeedbackManager ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "disableFeedbackManager": {
+      "name": "disableFeedbackManager",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter = isFeedbackManagerDisabled"
+      ]
+    },
+    "debugLogEnabled": {
+      "name": "debugLogEnabled",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "getter=isDebugLogEnabled"
+      ]
+    }
+  },
+  "generics": []
+}

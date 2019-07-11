@@ -1,0 +1,179 @@
+{
+  "name": "AppDelegate",
+  "extends": "NSObject",
+  "interfaces": [
+    "UIApplicationDelegate",
+    "NSApplicationDelegate",
+    "NSApplicationDelegate",
+    "NSApplicationDelegate"
+  ],
+  "methods": {
+    "loadFromURL:": {
+      "name": "loadFromURL:",
+      "bridgedName": "loadFromURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "window": {
+      "name": "window",
+      "pointer": false,
+      "type": "IBOutlet NSWindow ",
+      "attributes": [
+        "assign"
+      ]
+    },
+    "navigationController": {
+      "name": "navigationController",
+      "pointer": false,
+      "type": "UINavigationController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "tableView": {
+      "name": "tableView",
+      "pointer": false,
+      "type": "IBOutlet NSTableView ",
+      "attributes": [
+        "strong"
+      ]
+    },
+    "postsArrayController": {
+      "name": "postsArrayController",
+      "pointer": false,
+      "type": "IBOutlet NSArrayController ",
+      "attributes": [
+        "strong"
+      ]
+    },
+    "document": {
+      "name": "document",
+      "pointer": false,
+      "type": "NSMutableDictionary ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "currentPage": {
+      "name": "currentPage",
+      "pointer": false,
+      "type": "NSMutableDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "document2": {
+      "name": "document2",
+      "pointer": false,
+      "type": "NSMutableDictionary ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "currentPage2": {
+      "name": "currentPage2",
+      "pointer": false,
+      "type": "NSMutableDictionary ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "pageListController": {
+      "name": "pageListController",
+      "pointer": false,
+      "type": "LLTestPageListController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "layerListController": {
+      "name": "layerListController",
+      "pointer": false,
+      "type": "LLTestLayerListController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "pageListController2": {
+      "name": "pageListController2",
+      "pointer": false,
+      "type": "LLTestPageListController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "layerListController2": {
+      "name": "layerListController2",
+      "pointer": false,
+      "type": "LLTestLayerListController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "sidebarViewController": {
+      "name": "sidebarViewController",
+      "pointer": false,
+      "type": "BCSideBarViewController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "sidebarViewController2": {
+      "name": "sidebarViewController2",
+      "pointer": false,
+      "type": "BCSideBarViewController ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "sidebarContainer": {
+      "name": "sidebarContainer",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "sidebarContainer2": {
+      "name": "sidebarContainer2",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "documentDescription": {
+      "name": "documentDescription",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

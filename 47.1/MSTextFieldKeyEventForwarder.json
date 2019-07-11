@@ -1,0 +1,10 @@
+{
+  "name": "MSTextFieldKeyEventForwarder",
+  "extends": "MSUpDownTextField",
+  "interfaces": [
+    "NSTextDelegate"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

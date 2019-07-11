@@ -1,0 +1,8 @@
+{
+  "name": "MSLayerAnnotationsRenderer",
+  "extends": "MSOptionalRenderer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,63 @@
+{
+  "name": "MSFolderMonitor",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithURL:contentsChangedBlock:": {
+      "name": "initWithURL:contentsChangedBlock:",
+      "bridgedName": "initWithURL_contentsChangedBlock",
+      "args": [
+        {
+          "name": "folderURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(MSFolderMonitor *folderMonitor)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithURL:latency:contentsChangedBlock:": {
+      "name": "initWithURL:latency:contentsChangedBlock:",
+      "bridgedName": "initWithURL_latency_contentsChangedBlock",
+      "args": [
+        {
+          "name": "folderURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "latency",
+          "type": "NSTimeInterval",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(MSFolderMonitor *folderMonitor)",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "folderURL": {
+      "name": "folderURL",
+      "pointer": false,
+      "type": "NSURL ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

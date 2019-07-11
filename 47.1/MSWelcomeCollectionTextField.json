@@ -1,0 +1,18 @@
+{
+  "name": "MSWelcomeCollectionTextField",
+  "extends": "NSTextField",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "selected": {
+      "name": "selected",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter=isSelected"
+      ]
+    }
+  },
+  "generics": []
+}

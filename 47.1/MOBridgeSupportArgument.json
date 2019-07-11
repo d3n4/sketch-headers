@@ -1,0 +1,168 @@
+{
+  "name": "MOBridgeSupportArgument",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "addArgument:": {
+      "name": "addArgument:",
+      "bridgedName": "addArgument",
+      "args": [
+        {
+          "name": "argument",
+          "type": "MOBridgeSupportArgument *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeArgument:": {
+      "name": "removeArgument:",
+      "bridgedName": "removeArgument",
+      "args": [
+        {
+          "name": "argument",
+          "type": "MOBridgeSupportArgument *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "type": {
+      "name": "type",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "type64": {
+      "name": "type64",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "typeModifier": {
+      "name": "typeModifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "signature": {
+      "name": "signature",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "signature64": {
+      "name": "signature64",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "cArrayLengthInArg": {
+      "name": "cArrayLengthInArg",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "cArrayOfFixedLength": {
+      "name": "cArrayOfFixedLength",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isCArrayOfFixedLength"
+      ]
+    },
+    "cArrayDelimitedByNull": {
+      "name": "cArrayDelimitedByNull",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isCArrayDelimitedByNull"
+      ]
+    },
+    "cArrayOfVariableLength": {
+      "name": "cArrayOfVariableLength",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isCArrayOfVariableLength"
+      ]
+    },
+    "cArrayLengthInReturnValue": {
+      "name": "cArrayLengthInReturnValue",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isCArrayLengthInReturnValue"
+      ]
+    },
+    "index": {
+      "name": "index",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": []
+    },
+    "acceptsNull": {
+      "name": "acceptsNull",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    },
+    "acceptsPrintfFormat": {
+      "name": "acceptsPrintfFormat",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    },
+    "alreadyRetained": {
+      "name": "alreadyRetained",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isAlreadyRetained"
+      ]
+    },
+    "functionPointer": {
+      "name": "functionPointer",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "getter=isFunctionPointer"
+      ]
+    },
+    "arguments": {
+      "name": "arguments",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "returnValue": {
+      "name": "returnValue",
+      "pointer": false,
+      "type": "MOBridgeSupportArgument ",
+      "attributes": [
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

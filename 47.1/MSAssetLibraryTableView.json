@@ -1,0 +1,8 @@
+{
+  "name": "MSAssetLibraryTableView",
+  "extends": "BCKeyEventActionTableView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

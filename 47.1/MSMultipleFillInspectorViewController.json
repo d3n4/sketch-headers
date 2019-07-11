@@ -1,0 +1,35 @@
+{
+  "name": "MSMultipleFillInspectorViewController",
+  "extends": "MSMultipleStylePartInspectorViewController",
+  "interfaces": [
+    "BCPopoverDelegate"
+  ],
+  "methods": {
+    "showAdvancedOptionsAction:": {
+      "name": "showAdvancedOptionsAction:",
+      "bridgedName": "showAdvancedOptionsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "opacityLabel": {
+      "name": "opacityLabel",
+      "pointer": false,
+      "type": "IBOutlet MSTextLabelForUpDownField ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,28 @@
+{
+  "name": "MSImmutableGradientStop",
+  "extends": "_MSImmutableGradientStop",
+  "interfaces": [],
+  "methods": {
+    "initWithPosition:color:": {
+      "name": "initWithPosition:color:",
+      "bridgedName": "initWithPosition_color",
+      "args": [
+        {
+          "name": "position",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "color",
+          "type": "MSImmutableColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

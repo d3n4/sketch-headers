@@ -1,0 +1,92 @@
+{
+  "name": "MSMenuBuilder",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "menuBuilderWithTarget:": {
+      "name": "menuBuilderWithTarget:",
+      "bridgedName": "menuBuilderWithTarget",
+      "args": [
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "menuBuilderWithTarget:action:": {
+      "name": "menuBuilderWithTarget:action:",
+      "bridgedName": "menuBuilderWithTarget_action",
+      "args": [
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "menuBuilderWithTarget:delegate:": {
+      "name": "menuBuilderWithTarget:delegate:",
+      "bridgedName": "menuBuilderWithTarget_delegate",
+      "args": [
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "delegate",
+          "type": "id <MSBasicDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "target": {
+      "name": "target",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "action": {
+      "name": "action",
+      "pointer": false,
+      "type": "SEL",
+      "attributes": [
+        "nonatomic",
+        "assign",
+        "readonly"
+      ]
+    },
+    "<MSBasicDelegate>delegate": {
+      "name": "<MSBasicDelegate>delegate",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "weak",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,64 @@
+{
+  "name": "MSSymbolMasterReference",
+  "extends": "NSObject",
+  "interfaces": [
+    "BCSortable"
+  ],
+  "methods": {
+    "referenceForSymbolMaster:": {
+      "name": "referenceForSymbolMaster:",
+      "bridgedName": "referenceForSymbolMaster",
+      "args": [
+        {
+          "name": "symbolMaster",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSymbolMasterReference *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "referenceForSymbolMaster:inLibrary:": {
+      "name": "referenceForSymbolMaster:inLibrary:",
+      "bridgedName": "referenceForSymbolMaster_inLibrary",
+      "args": [
+        {
+          "name": "symbolMaster",
+          "type": "MSSymbolMaster *",
+          "nullable": false
+        },
+        {
+          "name": "library",
+          "type": "MSAssetLibrary *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSSymbolMasterReference *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "sourceLibrary": {
+      "name": "sourceLibrary",
+      "pointer": false,
+      "type": "MSAssetLibrary ",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "nullable"
+      ]
+    },
+    "symbolMaster": {
+      "name": "symbolMaster",
+      "pointer": false,
+      "type": "MSSymbolMaster ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

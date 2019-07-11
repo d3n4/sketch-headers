@@ -1,0 +1,67 @@
+{
+  "name": "SMKAdvertisement",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying",
+    "NSSecureCoding"
+  ],
+  "methods": {
+    "initWithDictionary:": {
+      "name": "initWithDictionary:",
+      "bridgedName": "initWithDictionary",
+      "args": [
+        {
+          "name": "dictionary",
+          "type": "nonnull NSDictionary *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "dictionaryRepresentation": {
+      "name": "dictionaryRepresentation",
+      "pointer": false,
+      "type": "NSDictionary ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "readonly"
+      ]
+    },
+    "identifier": {
+      "name": "identifier",
+      "pointer": false,
+      "type": "NSUUID ",
+      "attributes": [
+        "nonatomic",
+        "nonnull",
+        "strong"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    },
+    "modelName": {
+      "name": "modelName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

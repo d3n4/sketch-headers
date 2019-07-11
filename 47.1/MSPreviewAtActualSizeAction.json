@@ -1,0 +1,8 @@
+{
+  "name": "MSPreviewAtActualSizeAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

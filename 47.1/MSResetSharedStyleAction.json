@@ -1,0 +1,23 @@
+{
+  "name": "MSResetSharedStyleAction",
+  "extends": "MSBaseSharedStyleAction",
+  "interfaces": [],
+  "methods": {
+    "resetSharedStyle:": {
+      "name": "resetSharedStyle:",
+      "bridgedName": "resetSharedStyle",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

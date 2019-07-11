@@ -1,0 +1,23 @@
+{
+  "name": "MSNewPageAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "addNewPage:": {
+      "name": "addNewPage:",
+      "bridgedName": "addNewPage",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

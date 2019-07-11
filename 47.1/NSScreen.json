@@ -1,0 +1,17 @@
+{
+  "name": "NSScreen",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "isOnRetinaScreen": {
+      "name": "isOnRetinaScreen",
+      "bridgedName": "isOnRetinaScreen",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

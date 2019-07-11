@@ -1,0 +1,8 @@
+{
+  "name": "BCMagnifierButton",
+  "extends": "BCBaseMagnifierButton",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

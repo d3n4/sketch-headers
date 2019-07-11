@@ -1,0 +1,8 @@
+{
+  "name": "MSCloudRoundView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

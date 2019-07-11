@@ -1,0 +1,37 @@
+{
+  "name": "UIActivityIndicatorView",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "setAnimatingWithStateOfTask:": {
+      "name": "setAnimatingWithStateOfTask:",
+      "bridgedName": "setAnimatingWithStateOfTask",
+      "args": [
+        {
+          "name": "task",
+          "type": "NSURLSessionTask *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setAnimatingWithStateOfOperation:": {
+      "name": "setAnimatingWithStateOfOperation:",
+      "bridgedName": "setAnimatingWithStateOfOperation",
+      "args": [
+        {
+          "name": "operation",
+          "type": "AFURLConnectionOperation *",
+          "nullable": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

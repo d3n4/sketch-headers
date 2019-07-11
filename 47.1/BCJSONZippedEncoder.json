@@ -1,0 +1,85 @@
+{
+  "name": "BCJSONZippedEncoder",
+  "extends": "BCJSONEncoder",
+  "interfaces": [],
+  "methods": {
+    "zipEncoderForWritingAtURL:": {
+      "name": "zipEncoderForWritingAtURL:",
+      "bridgedName": "zipEncoderForWritingAtURL",
+      "args": [
+        {
+          "name": "url",
+          "type": "nonnull NSURL*",
+          "nullable": false
+        }
+      ],
+      "returns": "nonnull BCJSONZippedEncoder*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "encodeObject:toSubpath:error:": {
+      "name": "encodeObject:toSubpath:error:",
+      "bridgedName": "encodeObject_toSubpath_error",
+      "args": [
+        {
+          "name": "root",
+          "type": "nonnull NSObject*",
+          "nullable": false
+        },
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "encodeRawData:toSubpath:error:": {
+      "name": "encodeRawData:toSubpath:error:",
+      "bridgedName": "encodeRawData_toSubpath_error",
+      "args": [
+        {
+          "name": "data",
+          "type": "nonnull NSData*",
+          "nullable": false
+        },
+        {
+          "name": "path",
+          "type": "nonnull NSString*",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "finishEncodingError:": {
+      "name": "finishEncodingError:",
+      "bridgedName": "finishEncodingError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError * __nullable __autoreleasing * __nullable",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

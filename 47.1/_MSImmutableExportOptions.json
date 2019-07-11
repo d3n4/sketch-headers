@@ -1,0 +1,49 @@
+{
+  "name": "_MSImmutableExportOptions",
+  "extends": "MSImmutableModelObject",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "includedLayerIds": {
+      "name": "includedLayerIds",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "layerOptions": {
+      "name": "layerOptions",
+      "pointer": false,
+      "type": "MSExportLayerOptions",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "shouldTrim": {
+      "name": "shouldTrim",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "exportFormats": {
+      "name": "exportFormats",
+      "pointer": false,
+      "type": "NSArray<MSImmutableExportFormat *> ",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

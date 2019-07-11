@@ -1,0 +1,10 @@
+{
+  "name": "MSPasteboardPathsReader",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSPasteboardReader"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

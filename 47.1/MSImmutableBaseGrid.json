@@ -1,0 +1,8 @@
+{
+  "name": "MSImmutableBaseGrid",
+  "extends": "_MSImmutableBaseGrid",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

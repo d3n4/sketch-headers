@@ -1,0 +1,899 @@
+{
+  "name": "FBBezierCurve",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "bezierCurvesFromBezierPath:": {
+      "name": "bezierCurvesFromBezierPath:",
+      "bridgedName": "bezierCurvesFromBezierPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "FBBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<FBBezierCurve *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierCurveWithLineStartPoint:endPoint:": {
+      "name": "bezierCurveWithLineStartPoint:endPoint:",
+      "bridgedName": "bezierCurveWithLineStartPoint_endPoint",
+      "args": [
+        {
+          "name": "startPoint",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint",
+          "type": "FBPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierCurveWithEndPoint1:controlPoint1:controlPoint2:endPoint2:": {
+      "name": "bezierCurveWithEndPoint1:controlPoint1:controlPoint2:endPoint2:",
+      "bridgedName": "bezierCurveWithEndPoint1_controlPoint1_controlPoint2_endPoint2",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint1",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint2",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint2",
+          "type": "FBPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithEndPoint1:controlPoint1:controlPoint2:endPoint2:contour:": {
+      "name": "initWithEndPoint1:controlPoint1:controlPoint2:endPoint2:contour:",
+      "bridgedName": "initWithEndPoint1_controlPoint1_controlPoint2_endPoint2_contour",
+      "args": [
+        {
+          "name": "endPoint1",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint1",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "controlPoint2",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint2",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "contour",
+          "type": "FBBezierContour *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithLineStartPoint:endPoint:contour:": {
+      "name": "initWithLineStartPoint:endPoint:contour:",
+      "bridgedName": "initWithLineStartPoint_endPoint_contour",
+      "args": [
+        {
+          "name": "startPoint",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "endPoint",
+          "type": "FBPoint",
+          "nullable": false
+        },
+        {
+          "name": "contour",
+          "type": "FBBezierContour *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "checkForLine": {
+      "name": "checkForLine",
+      "bridgedName": "checkForLine",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doesHaveIntersectionsWithBezierCurve:": {
+      "name": "doesHaveIntersectionsWithBezierCurve:",
+      "bridgedName": "doesHaveIntersectionsWithBezierCurve",
+      "args": [
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "intersectionsWithBezierCurve:overlapRange:withBlock:": {
+      "name": "intersectionsWithBezierCurve:overlapRange:withBlock:",
+      "bridgedName": "intersectionsWithBezierCurve_overlapRange_withBlock",
+      "args": [
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "intersectRange",
+          "type": "FBBezierIntersectRange * __autoreleasing *",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "FBCurveIntersectionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointAtParameter:leftBezierCurve:rightBezierCurve:": {
+      "name": "pointAtParameter:leftBezierCurve:rightBezierCurve:",
+      "bridgedName": "pointAtParameter_leftBezierCurve_rightBezierCurve",
+      "args": [
+        {
+          "name": "parameter",
+          "type": "FBFloat",
+          "nullable": false
+        },
+        {
+          "name": "leftBezierCurve",
+          "type": "FBBezierCurve * __autoreleasing *",
+          "nullable": false
+        },
+        {
+          "name": "rightBezierCurve",
+          "type": "FBBezierCurve * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subcurveWithRange:": {
+      "name": "subcurveWithRange:",
+      "bridgedName": "subcurveWithRange",
+      "args": [
+        {
+          "name": "range",
+          "type": "FBRange",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierCurve *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "splitSubcurvesWithRange:left:middle:right:": {
+      "name": "splitSubcurvesWithRange:left:middle:right:",
+      "bridgedName": "splitSubcurvesWithRange_left_middle_right",
+      "args": [
+        {
+          "name": "range",
+          "type": "FBRange",
+          "nullable": false
+        },
+        {
+          "name": "leftCurve",
+          "type": "FBBezierCurve * __autoreleasing *",
+          "nullable": false
+        },
+        {
+          "name": "middleCurve",
+          "type": "FBBezierCurve * __autoreleasing *",
+          "nullable": false
+        },
+        {
+          "name": "rightCurve",
+          "type": "FBBezierCurve * __autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lengthAtParameter:": {
+      "name": "lengthAtParameter:",
+      "bridgedName": "lengthAtParameter",
+      "args": [
+        {
+          "name": "parameter",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "FBFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "length": {
+      "name": "length",
+      "bridgedName": "length",
+      "args": [],
+      "returns": "FBFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointFromRightOffset:": {
+      "name": "pointFromRightOffset:",
+      "bridgedName": "pointFromRightOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "FBPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointFromLeftOffset:": {
+      "name": "pointFromLeftOffset:",
+      "bridgedName": "pointFromLeftOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "FBPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tangentFromRightOffset:": {
+      "name": "tangentFromRightOffset:",
+      "bridgedName": "tangentFromRightOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "FBPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tangentFromLeftOffset:": {
+      "name": "tangentFromLeftOffset:",
+      "bridgedName": "tangentFromLeftOffset",
+      "args": [
+        {
+          "name": "offset",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "FBPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tangentAtParameter:": {
+      "name": "tangentAtParameter:",
+      "bridgedName": "tangentAtParameter",
+      "args": [
+        {
+          "name": "parameter",
+          "type": "FBFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "FBPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closestLocationToPoint:": {
+      "name": "closestLocationToPoint:",
+      "bridgedName": "closestLocationToPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "FBPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierCurveLocation",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reversedCurve": {
+      "name": "reversedCurve",
+      "bridgedName": "reversedCurve",
+      "args": [],
+      "returns": "FBBezierCurve *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "curveWithTransform:": {
+      "name": "curveWithTransform:",
+      "bridgedName": "curveWithTransform",
+      "args": [
+        {
+          "name": "t",
+          "type": "CGAffineTransform",
+          "nullable": false
+        }
+      ],
+      "returns": "FBBezierCurve *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPath": {
+      "name": "bezierPath",
+      "bridgedName": "bezierPath",
+      "args": [],
+      "returns": "FBBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clone": {
+      "name": "clone",
+      "bridgedName": "clone",
+      "args": [],
+      "returns": "FBBezierCurve *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mightIntersectWith:": {
+      "name": "mightIntersectWith:",
+      "bridgedName": "mightIntersectWith",
+      "args": [
+        {
+          "name": "curve",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstCrossingUsingNonself:": {
+      "name": "firstCrossingUsingNonself:",
+      "bridgedName": "firstCrossingUsingNonself",
+      "args": [
+        {
+          "name": "useNonself",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "FBEdgeCrossing *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lastCrossingUsingNonself:": {
+      "name": "lastCrossingUsingNonself:",
+      "bridgedName": "lastCrossingUsingNonself",
+      "args": [
+        {
+          "name": "useNonself",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "FBEdgeCrossing *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasCrossingsUsingNonself:": {
+      "name": "hasCrossingsUsingNonself:",
+      "bridgedName": "hasCrossingsUsingNonself",
+      "args": [
+        {
+          "name": "useNonself",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "crossingsWithBlock:": {
+      "name": "crossingsWithBlock:",
+      "bridgedName": "crossingsWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(FBEdgeCrossing *crossing, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "crossingsCopyWithBlock:": {
+      "name": "crossingsCopyWithBlock:",
+      "bridgedName": "crossingsCopyWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(FBEdgeCrossing *crossing, BOOL *stop)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeCrossingsInOverlap": {
+      "name": "removeCrossingsInOverlap",
+      "bridgedName": "removeCrossingsInOverlap",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "nextCrossing:": {
+      "name": "nextCrossing:",
+      "bridgedName": "nextCrossing",
+      "args": [
+        {
+          "name": "crossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBEdgeCrossing *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "previousCrossing:": {
+      "name": "previousCrossing:",
+      "bridgedName": "previousCrossing",
+      "args": [
+        {
+          "name": "crossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "FBEdgeCrossing *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "intersectingEdgesWithBlock:": {
+      "name": "intersectingEdgesWithBlock:",
+      "bridgedName": "intersectingEdgesWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(FBBezierCurve *intersectingEdge)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selfIntersectingEdgesWithBlock:": {
+      "name": "selfIntersectingEdgesWithBlock:",
+      "bridgedName": "selfIntersectingEdgesWithBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "void (^)(FBBezierCurve *intersectingEdge)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addCrossing:": {
+      "name": "addCrossing:",
+      "bridgedName": "addCrossing",
+      "args": [
+        {
+          "name": "crossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeCrossing:": {
+      "name": "removeCrossing:",
+      "bridgedName": "removeCrossing",
+      "args": [
+        {
+          "name": "crossing",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeDuplicateCrossings": {
+      "name": "removeDuplicateCrossings",
+      "bridgedName": "removeDuplicateCrossings",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeAllCrossings": {
+      "name": "removeAllCrossings",
+      "bridgedName": "removeAllCrossings",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reorderCoincidentCrossingA:crossingB:": {
+      "name": "reorderCoincidentCrossingA:crossingB:",
+      "bridgedName": "reorderCoincidentCrossingA_crossingB",
+      "args": [
+        {
+          "name": "crossingA",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        },
+        {
+          "name": "crossingB",
+          "type": "FBEdgeCrossing *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "crossesEdge:atIntersection:": {
+      "name": "crossesEdge:atIntersection:",
+      "bridgedName": "crossesEdge_atIntersection",
+      "args": [
+        {
+          "name": "edge2",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "intersection",
+          "type": "FBBezierIntersection *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "crossesEdge:atIntersectRange:": {
+      "name": "crossesEdge:atIntersectRange:",
+      "bridgedName": "crossesEdge_atIntersectRange",
+      "args": [
+        {
+          "name": "edge2",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        },
+        {
+          "name": "intersectRange",
+          "type": "FBBezierIntersectRange *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNext:": {
+      "name": "isNext:",
+      "bridgedName": "isNext",
+      "args": [
+        {
+          "name": "other",
+          "type": "FBBezierCurve *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "debugDrawColor:controlPointColor:scale:": {
+      "name": "debugDrawColor:controlPointColor:scale:",
+      "bridgedName": "debugDrawColor_controlPointColor_scale",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "controlPointColor",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "scale",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "endPoint1": {
+      "name": "endPoint1",
+      "pointer": false,
+      "type": "FBPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "controlPoint1": {
+      "name": "controlPoint1",
+      "pointer": false,
+      "type": "FBPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "controlPoint2": {
+      "name": "controlPoint2",
+      "pointer": false,
+      "type": "FBPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "endPoint2": {
+      "name": "endPoint2",
+      "pointer": false,
+      "type": "FBPoint",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isStraightLine": {
+      "name": "isStraightLine",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bounds": {
+      "name": "bounds",
+      "pointer": false,
+      "type": "FBRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "boundingRect": {
+      "name": "boundingRect",
+      "pointer": false,
+      "type": "FBRect",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "point": {
+      "name": "point",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter = isPoint"
+      ]
+    },
+    "isPointOrHorizontalLine": {
+      "name": "isPointOrHorizontalLine",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isStartHorizontal": {
+      "name": "isStartHorizontal",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isEndHorizontal": {
+      "name": "isEndHorizontal",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "isHorizontalLine": {
+      "name": "isHorizontalLine",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "looksLikeLine": {
+      "name": "looksLikeLine",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "contour": {
+      "name": "contour",
+      "pointer": false,
+      "type": "FBBezierContour ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "index": {
+      "name": "index",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "startShared": {
+      "name": "startShared",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "getter = isStartShared"
+      ]
+    },
+    "next": {
+      "name": "next",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "previous": {
+      "name": "previous",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "nextNonpoint": {
+      "name": "nextNonpoint",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "previousNonpoint": {
+      "name": "previousNonpoint",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "nextNonpointNonHorizontalLine": {
+      "name": "nextNonpointNonHorizontalLine",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "previousNonpointNonHorizontalLine": {
+      "name": "previousNonpointNonHorizontalLine",
+      "pointer": false,
+      "type": "FBBezierCurve ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "firstCrossing": {
+      "name": "firstCrossing",
+      "pointer": false,
+      "type": "FBEdgeCrossing ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "lastCrossing": {
+      "name": "lastCrossing",
+      "pointer": false,
+      "type": "FBEdgeCrossing ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "hasCrossings": {
+      "name": "hasCrossings",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSFlippedView",
+  "extends": "NSView",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,14 @@
+{
+  "enum": true,
+  "name": "MSExportFormatNamingScheme",
+  "members": [
+    {
+      "name": "MSExportFormatNamingSchemeSuffix",
+      "value": "0"
+    },
+    {
+      "name": "MSExportFormatNamingSchemePrefix",
+      "value": "1"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "name": "MSStyleBasicFill",
+  "extends": "_MSStyleBasicFill",
+  "interfaces": [
+    "MSColorSpaceConvertible"
+  ],
+  "methods": {
+    "defaultFillColor": {
+      "name": "defaultFillColor",
+      "bridgedName": "defaultFillColor",
+      "args": [],
+      "returns": "NSColor *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawBasicFill:colorSpace:enabled:inRect:": {
+      "name": "drawBasicFill:colorSpace:enabled:inRect:",
+      "bridgedName": "drawBasicFill_colorSpace_enabled_inRect",
+      "args": [
+        {
+          "name": "basicFill",
+          "type": "MSStyleBasicFill *",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "enabled",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "frame",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawCheckerboardBackgroundInRect:": {
+      "name": "drawCheckerboardBackgroundInRect:",
+      "bridgedName": "drawCheckerboardBackgroundInRect",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawColor:enabled:inRect:": {
+      "name": "drawColor:enabled:inRect:",
+      "bridgedName": "drawColor_enabled_inRect",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        },
+        {
+          "name": "enabled",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "frame",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "previewImageOfSize:colorSpace:clippingAsBorder:borderWidth:": {
+      "name": "previewImageOfSize:colorSpace:clippingAsBorder:borderWidth:",
+      "bridgedName": "previewImageOfSize_colorSpace_clippingAsBorder_borderWidth",
+      "args": [
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "colorSpace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        },
+        {
+          "name": "clipBorder",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "borderWidth",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,33 @@
+{
+  "name": "MSRange",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "from:to:do:": {
+      "name": "from:to:do:",
+      "bridgedName": "from_to_do",
+      "args": [
+        {
+          "name": "fromIndex",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "toIndex",
+          "type": "NSInteger",
+          "nullable": false
+        },
+        {
+          "name": "block",
+          "type": "void (^)(NSInteger index)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

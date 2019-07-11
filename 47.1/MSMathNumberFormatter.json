@@ -1,0 +1,8 @@
+{
+  "name": "MSMathNumberFormatter",
+  "extends": "NSNumberFormatter",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

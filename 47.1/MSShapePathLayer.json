@@ -1,0 +1,289 @@
+{
+  "name": "MSShapePathLayer",
+  "extends": "_MSShapePathLayer",
+  "interfaces": [],
+  "methods": {
+    "shapeWithShapePath:inRect:": {
+      "name": "shapeWithShapePath:inRect:",
+      "bridgedName": "shapeWithShapePath_inRect",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSShapePath *",
+          "nullable": false
+        },
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapePathLayer *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "shapeWithBezierPath:": {
+      "name": "shapeWithBezierPath:",
+      "bridgedName": "shapeWithBezierPath",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSShapePathLayer *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathInRect:": {
+      "name": "pathInRect:",
+      "bridgedName": "pathInRect",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathInRect:": {
+      "name": "bezierPathInRect:",
+      "bridgedName": "bezierPathInRect",
+      "args": [
+        {
+          "name": "r",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "applyPropertiesToBezier:": {
+      "name": "applyPropertiesToBezier:",
+      "bridgedName": "applyPropertiesToBezier",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetPoints": {
+      "name": "resetPoints",
+      "bridgedName": "resetPoints",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetPointsBasedOnUserInteraction": {
+      "name": "resetPointsBasedOnUserInteraction",
+      "bridgedName": "resetPointsBasedOnUserInteraction",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "editable": {
+      "name": "editable",
+      "bridgedName": "editable",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "simplify": {
+      "name": "simplify",
+      "bridgedName": "simplify",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reversePath": {
+      "name": "reversePath",
+      "bridgedName": "reversePath",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "adjustFrameAfterEditIntegral:": {
+      "name": "adjustFrameAfterEditIntegral:",
+      "bridgedName": "adjustFrameAfterEditIntegral",
+      "args": [
+        {
+          "name": "makeIntegral",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "didEdit": {
+      "name": "didEdit",
+      "bridgedName": "didEdit",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "performBatchEdits:": {
+      "name": "performBatchEdits:",
+      "bridgedName": "performBatchEdits",
+      "args": [
+        {
+          "name": "edits",
+          "type": "void (^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "convertPointFromPathCoordinates:": {
+      "name": "convertPointFromPathCoordinates:",
+      "bridgedName": "convertPointFromPathCoordinates",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "convertPointToPathCoordinates:": {
+      "name": "convertPointToPathCoordinates:",
+      "bridgedName": "convertPointToPathCoordinates",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isNearlyEmpty": {
+      "name": "isNearlyEmpty",
+      "bridgedName": "isNearlyEmpty",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointCenteredAfterPointIndex:": {
+      "name": "pointCenteredAfterPointIndex:",
+      "bridgedName": "pointCenteredAfterPointIndex",
+      "args": [
+        {
+          "name": "pointIndex",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allCurvePoints": {
+      "name": "allCurvePoints",
+      "bridgedName": "allCurvePoints",
+      "args": [],
+      "returns": "NSArray<MSCurvePoint *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "indexOfSegmentAtPoint:tolerance:": {
+      "name": "indexOfSegmentAtPoint:tolerance:",
+      "bridgedName": "indexOfSegmentAtPoint_tolerance",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "tolerance",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flatten": {
+      "name": "flatten",
+      "bridgedName": "flatten",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "flattenedLayer": {
+      "name": "flattenedLayer",
+      "bridgedName": "flattenedLayer",
+      "args": [],
+      "returns": "MSShapePathLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insertionCursor": {
+      "name": "insertionCursor",
+      "bridgedName": "insertionCursor",
+      "args": [],
+      "returns": "NSCursor *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "hasRoundedCorners": {
+      "name": "hasRoundedCorners",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "canFlatten": {
+      "name": "canFlatten",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bezierPath": {
+      "name": "bezierPath",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

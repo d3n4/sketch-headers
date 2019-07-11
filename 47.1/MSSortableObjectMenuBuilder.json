@@ -1,0 +1,102 @@
+{
+  "name": "MSSortableObjectMenuBuilder",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSMenuDelegate"
+  ],
+  "methods": {
+    "menuItemsForSortableObjects:selectedObjects:target:selector:": {
+      "name": "menuItemsForSortableObjects:selectedObjects:target:selector:",
+      "bridgedName": "menuItemsForSortableObjects_selectedObjects_target_selector",
+      "args": [
+        {
+          "name": "objects",
+          "type": "NSArray <id<BCSortable>> *",
+          "nullable": false
+        },
+        {
+          "name": "selectedObjects",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<NSMenuItem*> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addSortableObjects:selectedObjects:toPopUpButton:target:selector:": {
+      "name": "addSortableObjects:selectedObjects:toPopUpButton:target:selector:",
+      "bridgedName": "addSortableObjects_selectedObjects_toPopUpButton_target_selector",
+      "args": [
+        {
+          "name": "objects",
+          "type": "NSArray<id<BCSortable>> *",
+          "nullable": false
+        },
+        {
+          "name": "selectedObjects",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "button",
+          "type": "NSPopUpButton *",
+          "nullable": false
+        },
+        {
+          "name": "target",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "action",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuWillOpen:": {
+      "name": "menuWillOpen:",
+      "bridgedName": "menuWillOpen",
+      "args": [
+        {
+          "name": "menu",
+          "type": "NSMenu *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "prepareForDisplay:": {
+      "name": "prepareForDisplay:",
+      "bridgedName": "prepareForDisplay",
+      "args": [
+        {
+          "name": "menuItem",
+          "type": "NSMenuItem *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

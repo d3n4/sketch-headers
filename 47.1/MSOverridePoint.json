@@ -1,0 +1,61 @@
+{
+  "name": "MSOverridePoint",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithLayerID:property:parent:": {
+      "name": "initWithLayerID:property:parent:",
+      "bridgedName": "initWithLayerID_property_parent",
+      "args": [
+        {
+          "name": "layerID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "property",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "parent",
+          "type": "MSOverridePoint*",
+          "nullable": true
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "layerID": {
+      "name": "layerID",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "property": {
+      "name": "property",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

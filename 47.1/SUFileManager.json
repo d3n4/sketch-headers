@@ -1,0 +1,296 @@
+{
+  "name": "SUFileManager",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "defaultManager": {
+      "name": "defaultManager",
+      "bridgedName": "defaultManager",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fileManagerWithAuthorizationToolPath:": {
+      "name": "fileManagerWithAuthorizationToolPath:",
+      "bridgedName": "fileManagerWithAuthorizationToolPath",
+      "args": [
+        {
+          "name": "authorizationToolPath",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "fileManagerByPreservingAuthorizationRights": {
+      "name": "fileManagerByPreservingAuthorizationRights",
+      "bridgedName": "fileManagerByPreservingAuthorizationRights",
+      "args": [],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeTemporaryDirectoryWithPreferredName:appropriateForDirectoryURL:error:": {
+      "name": "makeTemporaryDirectoryWithPreferredName:appropriateForDirectoryURL:error:",
+      "bridgedName": "makeTemporaryDirectoryWithPreferredName_appropriateForDirectoryURL_error",
+      "args": [
+        {
+          "name": "preferredName",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "appropriateURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "makeDirectoryAtURL:error:": {
+      "name": "makeDirectoryAtURL:error:",
+      "bridgedName": "makeDirectoryAtURL_error",
+      "args": [
+        {
+          "name": "targetURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveItemAtURL:toURL:error:": {
+      "name": "moveItemAtURL:toURL:error:",
+      "bridgedName": "moveItemAtURL_toURL_error",
+      "args": [
+        {
+          "name": "sourceURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "destinationURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "copyItemAtURL:toURL:error:": {
+      "name": "copyItemAtURL:toURL:error:",
+      "bridgedName": "copyItemAtURL_toURL_error",
+      "args": [
+        {
+          "name": "sourceURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "destinationURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "moveItemAtURLToTrash:error:": {
+      "name": "moveItemAtURLToTrash:error:",
+      "bridgedName": "moveItemAtURLToTrash_error",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "removeItemAtURL:error:": {
+      "name": "removeItemAtURL:error:",
+      "bridgedName": "removeItemAtURL_error",
+      "args": [
+        {
+          "name": "url",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "changeOwnerAndGroupOfItemAtRootURL:toMatchURL:error:": {
+      "name": "changeOwnerAndGroupOfItemAtRootURL:toMatchURL:error:",
+      "bridgedName": "changeOwnerAndGroupOfItemAtRootURL_toMatchURL_error",
+      "args": [
+        {
+          "name": "targetURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "matchURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateModificationAndAccessTimeOfItemAtURL:error:": {
+      "name": "updateModificationAndAccessTimeOfItemAtURL:error:",
+      "bridgedName": "updateModificationAndAccessTimeOfItemAtURL_error",
+      "args": [
+        {
+          "name": "targetURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "releaseItemFromQuarantineAtRootURL:error:": {
+      "name": "releaseItemFromQuarantineAtRootURL:error:",
+      "bridgedName": "releaseItemFromQuarantineAtRootURL_error",
+      "args": [
+        {
+          "name": "rootURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "executePackageAtURL:error:": {
+      "name": "executePackageAtURL:error:",
+      "bridgedName": "executePackageAtURL_error",
+      "args": [
+        {
+          "name": "packageURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "error",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "_acquireAuthorizationWithError:": {
+      "name": "_acquireAuthorizationWithError:",
+      "bridgedName": "_acquireAuthorizationWithError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError *__autoreleasing *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "_itemExistsAtURL:": {
+      "name": "_itemExistsAtURL:",
+      "bridgedName": "_itemExistsAtURL",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "_itemExistsAtURL:isDirectory:": {
+      "name": "_itemExistsAtURL:isDirectory:",
+      "bridgedName": "_itemExistsAtURL_isDirectory",
+      "args": [
+        {
+          "name": "fileURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "isDirectory",
+          "type": "BOOL *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

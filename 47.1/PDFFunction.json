@@ -1,0 +1,137 @@
+{
+  "name": "PDFFunction",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "functionWithInfo:": {
+      "name": "functionWithInfo:",
+      "bridgedName": "functionWithInfo",
+      "args": [
+        {
+          "name": "info",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithInfo:": {
+      "name": "initWithInfo:",
+      "bridgedName": "initWithInfo",
+      "args": [
+        {
+          "name": "info",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mapInputs:toOutputs:": {
+      "name": "mapInputs:toOutputs:",
+      "bridgedName": "mapInputs_toOutputs",
+      "args": [
+        {
+          "name": "inputs",
+          "type": "PDFFunctionInput",
+          "nullable": false
+        },
+        {
+          "name": "outputs",
+          "type": "PDFFunctionOutput",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "samples": {
+      "name": "samples",
+      "pointer": false,
+      "type": "NSData*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "parameters": {
+      "name": "parameters",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfInputComponents": {
+      "name": "numberOfInputComponents",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfOutputComponents": {
+      "name": "numberOfOutputComponents",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bitsPerSample": {
+      "name": "bitsPerSample",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bytesPerSampleComponent": {
+      "name": "bytesPerSampleComponent",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "bytesPerSample": {
+      "name": "bytesPerSample",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "numberOfSamples": {
+      "name": "numberOfSamples",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "assign",
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

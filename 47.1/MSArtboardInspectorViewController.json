@@ -1,0 +1,60 @@
+{
+  "name": "MSArtboardInspectorViewController",
+  "extends": "MSBaseExportableInspectorViewController",
+  "interfaces": [
+    "MSColorInspectorDelegate",
+    "BCPopoverDelegate",
+    "MSColorPreviewButtonDelegate"
+  ],
+  "methods": {
+    "artboardBackgroundCheckAction:": {
+      "name": "artboardBackgroundCheckAction:",
+      "bridgedName": "artboardBackgroundCheckAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "backgroundColorAction:": {
+      "name": "backgroundColorAction:",
+      "bridgedName": "backgroundColorAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "artboardBackgroundColorButton": {
+      "name": "artboardBackgroundColorButton",
+      "pointer": false,
+      "type": "IBOutlet MSColorPreviewButton ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "bottomLabelView": {
+      "name": "bottomLabelView",
+      "pointer": false,
+      "type": "IBOutlet NSView ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

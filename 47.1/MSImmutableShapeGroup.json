@@ -1,0 +1,123 @@
+{
+  "name": "MSImmutableShapeGroup",
+  "extends": "_MSImmutableShapeGroup",
+  "interfaces": [
+    "MSShapeGroup"
+  ],
+  "methods": {
+    "pathInBoundsWithCache:": {
+      "name": "pathInBoundsWithCache:",
+      "bridgedName": "pathInBoundsWithCache",
+      "args": [
+        {
+          "name": "cache",
+          "type": "BCCache*",
+          "nullable": false
+        }
+      ],
+      "returns": "MSPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathForStartDecorationOnPath:": {
+      "name": "bezierPathForStartDecorationOnPath:",
+      "bridgedName": "bezierPathForStartDecorationOnPath",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathForEndDecorationOnPath:": {
+      "name": "bezierPathForEndDecorationOnPath:",
+      "bridgedName": "bezierPathForEndDecorationOnPath",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathForStartDecorationOnPath:decorationType:": {
+      "name": "bezierPathForStartDecorationOnPath:decorationType:",
+      "bridgedName": "bezierPathForStartDecorationOnPath_decorationType",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        },
+        {
+          "name": "decoration",
+          "type": "MSDecorationType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierPathForEndDecorationOnPath:decorationType:": {
+      "name": "bezierPathForEndDecorationOnPath:decorationType:",
+      "bridgedName": "bezierPathForEndDecorationOnPath_decorationType",
+      "args": [
+        {
+          "name": "bezier",
+          "type": "NSBezierPath *",
+          "nullable": false
+        },
+        {
+          "name": "decoration",
+          "type": "MSDecorationType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "cacheDecorations": {
+      "name": "cacheDecorations",
+      "bridgedName": "cacheDecorations",
+      "args": [],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "pathForDecorationType:": {
+      "name": "pathForDecorationType:",
+      "bridgedName": "pathForDecorationType",
+      "args": [
+        {
+          "name": "type",
+          "type": "MSDecorationType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "decoratedBezierPathInBounds": {
+      "name": "decoratedBezierPathInBounds",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

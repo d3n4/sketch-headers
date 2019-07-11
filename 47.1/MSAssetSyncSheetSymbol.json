@@ -1,0 +1,38 @@
+{
+  "name": "MSAssetSyncSheetSymbol",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSAssetSyncSheetItem"
+  ],
+  "methods": {},
+  "properties": {
+    "foreignSymbol": {
+      "name": "foreignSymbol",
+      "pointer": false,
+      "type": "MSForeignSymbol ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "symbolMaster": {
+      "name": "symbolMaster",
+      "pointer": false,
+      "type": "MSSymbolMaster ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    },
+    "shouldSync": {
+      "name": "shouldSync",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

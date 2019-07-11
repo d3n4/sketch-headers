@@ -1,0 +1,109 @@
+{
+  "name": "MOStruct",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "structureWithName:memberNames:runtime:": {
+      "name": "structureWithName:memberNames:runtime:",
+      "bridgedName": "structureWithName_memberNames_runtime",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "memberNames",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "runtime",
+          "type": "Mocha*",
+          "nullable": false
+        }
+      ],
+      "returns": "MOStruct *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithName:memberNames:runtime:": {
+      "name": "initWithName:memberNames:runtime:",
+      "bridgedName": "initWithName_memberNames_runtime",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "memberNames",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "runtime",
+          "type": "Mocha*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "objectForMemberName:": {
+      "name": "objectForMemberName:",
+      "bridgedName": "objectForMemberName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setObject:forMemberName:": {
+      "name": "setObject:forMemberName:",
+      "bridgedName": "setObject_forMemberName",
+      "args": [
+        {
+          "name": "obj",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    },
+    "memberNames": {
+      "name": "memberNames",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "copy",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

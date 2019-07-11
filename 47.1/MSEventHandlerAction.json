@@ -1,0 +1,17 @@
+{
+  "name": "MSEventHandlerAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {
+    "eventHandlerKey": {
+      "name": "eventHandlerKey",
+      "bridgedName": "eventHandlerKey",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

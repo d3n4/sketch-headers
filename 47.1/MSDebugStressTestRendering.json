@@ -1,0 +1,31 @@
+{
+  "name": "MSDebugStressTestRendering",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "stressTestDocument:": {
+      "name": "stressTestDocument:",
+      "bridgedName": "stressTestDocument",
+      "args": [
+        {
+          "name": "document",
+          "type": "MSDocument *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "run": {
+      "name": "run",
+      "bridgedName": "run",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

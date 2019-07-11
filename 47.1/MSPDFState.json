@@ -1,0 +1,450 @@
+{
+  "name": "MSPDFState",
+  "extends": "NSObject",
+  "interfaces": [
+    "NSCopying"
+  ],
+  "methods": {
+    "initWithScanner:": {
+      "name": "initWithScanner:",
+      "bridgedName": "initWithScanner",
+      "args": [
+        {
+          "name": "scanner",
+          "type": "MSPDFScanner*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addLayer:": {
+      "name": "addLayer:",
+      "bridgedName": "addLayer",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSLayer*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "layerWithEnclosingGroup:": {
+      "name": "layerWithEnclosingGroup:",
+      "bridgedName": "layerWithEnclosingGroup",
+      "args": [
+        {
+          "name": "enclosingGroup",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "MSLayer*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "optimiseClipLayerInGroup:": {
+      "name": "optimiseClipLayerInGroup:",
+      "bridgedName": "optimiseClipLayerInGroup",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSLayerGroup*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lastLayer": {
+      "name": "lastLayer",
+      "bridgedName": "lastLayer",
+      "args": [],
+      "returns": "MSLayer*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "resetTransform:": {
+      "name": "resetTransform:",
+      "bridgedName": "resetTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "NSAffineTransform*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendTransform:": {
+      "name": "appendTransform:",
+      "bridgedName": "appendTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "NSAffineTransform*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformPoint:": {
+      "name": "transformPoint:",
+      "bridgedName": "transformPoint",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformSize:": {
+      "name": "transformSize:",
+      "bridgedName": "transformSize",
+      "args": [
+        {
+          "name": "aSize",
+          "type": "NSSize",
+          "nullable": false
+        }
+      ],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformStruct": {
+      "name": "transformStruct",
+      "bridgedName": "transformStruct",
+      "args": [],
+      "returns": "NSAffineTransformStruct",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformBezierPath:": {
+      "name": "transformBezierPath:",
+      "bridgedName": "transformBezierPath",
+      "args": [
+        {
+          "name": "aPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringFromTransform:": {
+      "name": "stringFromTransform:",
+      "bridgedName": "stringFromTransform",
+      "args": [
+        {
+          "name": "transform",
+          "type": "NSAffineTransform*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateClipping": {
+      "name": "updateClipping",
+      "bridgedName": "updateClipping",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "updateClippingWithTextPath:": {
+      "name": "updateClippingWithTextPath:",
+      "bridgedName": "updateClippingWithTextPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "transformedClippingPath": {
+      "name": "transformedClippingPath",
+      "bridgedName": "transformedClippingPath",
+      "args": [],
+      "returns": "NSBezierPath*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "borderAlphaConstant": {
+      "name": "borderAlphaConstant",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "borderColor": {
+      "name": "borderColor",
+      "pointer": false,
+      "type": "NSColor*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "borderColorSpace": {
+      "name": "borderColorSpace",
+      "pointer": false,
+      "type": "NSColorSpace*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "borderColorSpaceMapping": {
+      "name": "borderColorSpaceMapping",
+      "pointer": false,
+      "type": "PDFFunction*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "borderDashes": {
+      "name": "borderDashes",
+      "pointer": false,
+      "type": "NSArray*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "borderCapStyle": {
+      "name": "borderCapStyle",
+      "pointer": false,
+      "type": "NSLineCapStyle",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "borderGradient": {
+      "name": "borderGradient",
+      "pointer": false,
+      "type": "PDFPattern*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "borderJoinStyle": {
+      "name": "borderJoinStyle",
+      "pointer": false,
+      "type": "NSLineJoinStyle",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "borderThickness": {
+      "name": "borderThickness",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "clippingMode": {
+      "name": "clippingMode",
+      "pointer": false,
+      "type": "ClippingMode",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "clippingPath": {
+      "name": "clippingPath",
+      "pointer": false,
+      "type": "NSBezierPath*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "clippingUpdated": {
+      "name": "clippingUpdated",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "containsClippedItems": {
+      "name": "containsClippedItems",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "currentPoint": {
+      "name": "currentPoint",
+      "pointer": false,
+      "type": "NSPoint",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "fillAlphaConstant": {
+      "name": "fillAlphaConstant",
+      "pointer": false,
+      "type": "CGFloat",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "fillColor": {
+      "name": "fillColor",
+      "pointer": false,
+      "type": "NSColor*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "fillColorSpace": {
+      "name": "fillColorSpace",
+      "pointer": false,
+      "type": "NSColorSpace*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "fillColorSpaceMapping": {
+      "name": "fillColorSpaceMapping",
+      "pointer": false,
+      "type": "PDFFunction*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "fillGradient": {
+      "name": "fillGradient",
+      "pointer": false,
+      "type": "PDFPattern*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSMutableArray*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "path": {
+      "name": "path",
+      "pointer": false,
+      "type": "NSBezierPath*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "pathClosed": {
+      "name": "pathClosed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "pathUsed": {
+      "name": "pathUsed",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "pathWasRect": {
+      "name": "pathWasRect",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "renderingIntent": {
+      "name": "renderingIntent",
+      "pointer": false,
+      "type": "CGColorRenderingIntent",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "text": {
+      "name": "text",
+      "pointer": false,
+      "type": "MSPDFTextState*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "transformedPath": {
+      "name": "transformedPath",
+      "pointer": false,
+      "type": "NSBezierPath*",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    },
+    "scanner": {
+      "name": "scanner",
+      "pointer": false,
+      "type": "MSPDFScanner*",
+      "attributes": [
+        "weak",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

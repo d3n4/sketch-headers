@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSShadowBorderType",
+  "members": [
+    {
+      "name": "MSShadowBorderCenter",
+      "value": "0"
+    },
+    {
+      "name": "MSShadowBorderInside",
+      "value": "1"
+    },
+    {
+      "name": "MSShadowBorderOutside",
+      "value": "2"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "_MSInferredGroupLayout",
+  "extends": "MSGroupLayout",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "axis": {
+      "name": "axis",
+      "pointer": false,
+      "type": "BCAxis",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    },
+    "layoutAnchor": {
+      "name": "layoutAnchor",
+      "pointer": false,
+      "type": "BCLayoutAnchorPosition",
+      "attributes": [
+        "assign",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

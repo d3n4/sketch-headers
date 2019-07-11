@@ -1,0 +1,15 @@
+{
+  "enum": true,
+  "name": "SUAutomaticInstallationChoice",
+  "members": [
+    {
+      "name": "SUInstallNowChoice"
+    },
+    {
+      "name": "SUInstallLaterChoice"
+    },
+    {
+      "name": "SUDoNotInstallChoice"
+    }
+  ]
+}

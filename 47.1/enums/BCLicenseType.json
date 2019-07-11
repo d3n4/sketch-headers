@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "BCLicenseType",
+  "members": [
+    {
+      "name": "BCLicenseUnknown",
+      "value": "-1"
+    },
+    {
+      "name": "BCLicenseTrial",
+      "value": "0"
+    },
+    {
+      "name": "BCLicenseTrialExpired",
+      "value": "1"
+    },
+    {
+      "name": "BCLicensePurchased",
+      "value": "2"
+    }
+  ]
+}

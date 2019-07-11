@@ -1,0 +1,114 @@
+{
+  "name": "MSImmutableStyleBorder",
+  "extends": "_MSImmutableStyleBorder",
+  "interfaces": [],
+  "methods": {
+    "drawBorder:advancedOptions:context:": {
+      "name": "drawBorder:advancedOptions:context:",
+      "bridgedName": "drawBorder_advancedOptions_context",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "advanced",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawGradientBorder:advancedOptions:originalPath:isArtistic:frame:context:": {
+      "name": "drawGradientBorder:advancedOptions:originalPath:isArtistic:frame:context:",
+      "bridgedName": "drawGradientBorder_advancedOptions_originalPath_isArtistic_frame_context",
+      "args": [
+        {
+          "name": "path",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "advanced",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        },
+        {
+          "name": "original",
+          "type": "MSPath *",
+          "nullable": false
+        },
+        {
+          "name": "isArtistic",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathWithExporter:": {
+      "name": "bezierPathWithExporter:",
+      "bridgedName": "bezierPathWithExporter",
+      "args": [
+        {
+          "name": "exporter",
+          "type": "SketchSVGExporter *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "requiresMask:": {
+      "name": "requiresMask:",
+      "bridgedName": "requiresMask",
+      "args": [
+        {
+          "name": "borderOptions",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "needsOutlinePath:": {
+      "name": "needsOutlinePath:",
+      "bridgedName": "needsOutlinePath",
+      "args": [
+        {
+          "name": "borderOptions",
+          "type": "MSImmutableStyleBorderOptions *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

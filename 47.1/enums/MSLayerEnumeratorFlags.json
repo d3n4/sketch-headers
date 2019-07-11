@@ -1,0 +1,34 @@
+{
+  "enum": true,
+  "name": "MSLayerEnumeratorFlags",
+  "members": [
+    {
+      "name": "MSLEDefault",
+      "value": "0"
+    },
+    {
+      "name": "MSLEIncludeSelf",
+      "value": "1<<0"
+    },
+    {
+      "name": "MSLEBackwards",
+      "value": "1<<1"
+    },
+    {
+      "name": "MSLERecursive",
+      "value": "1<<2"
+    },
+    {
+      "name": "MSLEMutates",
+      "value": "1<<3"
+    },
+    {
+      "name": "MSLETraitsMatchOr",
+      "value": "1<<4"
+    },
+    {
+      "name": "MSLEAllOptions",
+      "value": "MSLEDefault | MSLEBackwards | MSLEIncludeSelf | MSLERecursive | MSLEMutates"
+    }
+  ]
+}

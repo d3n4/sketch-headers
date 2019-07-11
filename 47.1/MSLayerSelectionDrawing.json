@@ -1,0 +1,28 @@
+{
+  "name": "MSLayerSelectionDrawing",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "drawSelectionForLayer:zoomValue:": {
+      "name": "drawSelectionForLayer:zoomValue:",
+      "bridgedName": "drawSelectionForLayer_zoomValue",
+      "args": [
+        {
+          "name": "aLayer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

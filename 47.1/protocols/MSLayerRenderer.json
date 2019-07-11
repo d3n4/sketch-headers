@@ -1,0 +1,57 @@
+{
+  "protocol": true,
+  "name": "MSLayerRenderer",
+  "extends": "MSRenderer",
+  "interfaces": [],
+  "methods": {
+    "renderLayer:ignoreDirtyRect:context:": {
+      "name": "renderLayer:ignoreDirtyRect:context:",
+      "bridgedName": "renderLayer_ignoreDirtyRect_context",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        },
+        {
+          "name": "ignoreDirtyRect",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "renderLayerUncached:ignoreDirtyRect:context:": {
+      "name": "renderLayerUncached:ignoreDirtyRect:context:",
+      "bridgedName": "renderLayerUncached_ignoreDirtyRect_context",
+      "args": [
+        {
+          "name": "layer",
+          "type": "MSImmutableLayer *",
+          "nullable": false
+        },
+        {
+          "name": "ignoreDirtyRect",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

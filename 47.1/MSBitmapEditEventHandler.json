@@ -1,0 +1,121 @@
+{
+  "name": "MSBitmapEditEventHandler",
+  "extends": "MSEventHandler",
+  "interfaces": [],
+  "methods": {
+    "invertAction:": {
+      "name": "invertAction:",
+      "bridgedName": "invertAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "cropAction:": {
+      "name": "cropAction:",
+      "bridgedName": "cropAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "selectLayerBelowPoint:": {
+      "name": "selectLayerBelowPoint:",
+      "bridgedName": "selectLayerBelowPoint",
+      "args": [
+        {
+          "name": "mouse",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillSelectionWithColor:": {
+      "name": "fillSelectionWithColor:",
+      "bridgedName": "fillSelectionWithColor",
+      "args": [
+        {
+          "name": "color",
+          "type": "NSColor *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "rectFromBitmapToBoundsCoordinates:": {
+      "name": "rectFromBitmapToBoundsCoordinates:",
+      "bridgedName": "rectFromBitmapToBoundsCoordinates",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bitmapLayer": {
+      "name": "bitmapLayer",
+      "bridgedName": "bitmapLayer",
+      "args": [],
+      "returns": "MSBitmapLayer *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageSize": {
+      "name": "imageSize",
+      "bridgedName": "imageSize",
+      "args": [],
+      "returns": "NSSize",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "imageBounds": {
+      "name": "imageBounds",
+      "bridgedName": "imageBounds",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "currentMode": {
+      "name": "currentMode",
+      "pointer": false,
+      "type": "MSBitmapEditMode",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "accumulatedSelection": {
+      "name": "accumulatedSelection",
+      "pointer": false,
+      "type": "NSBezierPath ",
+      "attributes": [
+        "nonatomic",
+        "strong"
+      ]
+    }
+  },
+  "generics": []
+}

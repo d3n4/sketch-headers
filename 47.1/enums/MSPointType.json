@@ -1,0 +1,18 @@
+{
+  "enum": true,
+  "name": "MSPointType",
+  "members": [
+    {
+      "name": "MSPointTypeMain",
+      "value": "0"
+    },
+    {
+      "name": "MSPointTypeControl1",
+      "value": "1"
+    },
+    {
+      "name": "MSPointTypeControl2",
+      "value": "2"
+    }
+  ]
+}

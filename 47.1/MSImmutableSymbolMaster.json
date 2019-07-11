@@ -1,0 +1,62 @@
+{
+  "name": "MSImmutableSymbolMaster",
+  "extends": "_MSImmutableSymbolMaster",
+  "interfaces": [],
+  "methods": {
+    "masterWithOverrides:allSymbols:": {
+      "name": "masterWithOverrides:allSymbols:",
+      "bridgedName": "masterWithOverrides_allSymbols",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "allSymbols",
+          "type": "NSArray <MSImmutableSymbolMaster *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "masterWithOverrides:size:allSymbols:": {
+      "name": "masterWithOverrides:size:allSymbols:",
+      "bridgedName": "masterWithOverrides_size_allSymbols",
+      "args": [
+        {
+          "name": "overrides",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "size",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "allSymbols",
+          "type": "NSArray <MSImmutableSymbolMaster *>*",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "changeIdentifier": {
+      "name": "changeIdentifier",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "readonly",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

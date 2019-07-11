@@ -1,0 +1,18 @@
+{
+  "protocol": true,
+  "name": "MSLayerGroup",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "layers": {
+      "name": "layers",
+      "pointer": false,
+      "type": "NSArray ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  }
+}

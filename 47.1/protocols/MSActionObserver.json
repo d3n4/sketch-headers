@@ -1,0 +1,81 @@
+{
+  "protocol": true,
+  "name": "MSActionObserver",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "actionController:willBeginActionWithID:context:": {
+      "name": "actionController:willBeginActionWithID:context:",
+      "bridgedName": "actionController_willBeginActionWithID_context",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSActionController*",
+          "nullable": false
+        },
+        {
+          "name": "actionID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "actionController:didFinishActionWithID:context:": {
+      "name": "actionController:didFinishActionWithID:context:",
+      "bridgedName": "actionController_didFinishActionWithID_context",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSActionController*",
+          "nullable": false
+        },
+        {
+          "name": "actionID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "actionController:didInstantActionWithID:context:": {
+      "name": "actionController:didInstantActionWithID:context:",
+      "bridgedName": "actionController_didInstantActionWithID_context",
+      "args": [
+        {
+          "name": "controller",
+          "type": "MSActionController*",
+          "nullable": false
+        },
+        {
+          "name": "actionID",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

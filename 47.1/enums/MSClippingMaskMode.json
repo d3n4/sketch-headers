@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSClippingMaskMode",
+  "members": [
+    {
+      "name": "MSClippingMaskOutline"
+    },
+    {
+      "name": "MSClippingMaskAlpha"
+    }
+  ]
+}

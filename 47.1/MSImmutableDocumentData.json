@@ -1,0 +1,161 @@
+{
+  "name": "MSImmutableDocumentData",
+  "extends": "_MSImmutableDocumentData",
+  "interfaces": [
+    "MSDocumentData"
+  ],
+  "methods": {
+    "loadDocumentDataWithMetadata:loadBlock:": {
+      "name": "loadDocumentDataWithMetadata:loadBlock:",
+      "bridgedName": "loadDocumentDataWithMetadata_loadBlock",
+      "args": [
+        {
+          "name": "metadata",
+          "type": "NSDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "loadBlock",
+          "type": "MSImmutableDocumentData*(^)(void)",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableDocumentData *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "defaultPagesArray": {
+      "name": "defaultPagesArray",
+      "bridgedName": "defaultPagesArray",
+      "args": [],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "usedFontNames": {
+      "name": "usedFontNames",
+      "bridgedName": "usedFontNames",
+      "args": [],
+      "returns": "NSSet <NSString *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pageWithID:": {
+      "name": "pageWithID:",
+      "bridgedName": "pageWithID",
+      "args": [
+        {
+          "name": "pageID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "nullable MSImmutablePage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "symbolWithID:": {
+      "name": "symbolWithID:",
+      "bridgedName": "symbolWithID",
+      "args": [
+        {
+          "name": "objectID",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "MSImmutableSymbolMaster *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "wasSavedByOldVersion": {
+      "name": "wasSavedByOldVersion",
+      "bridgedName": "wasSavedByOldVersion",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "wasSavedByTestVersion": {
+      "name": "wasSavedByTestVersion",
+      "bridgedName": "wasSavedByTestVersion",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allArtboards": {
+      "name": "allArtboards",
+      "bridgedName": "allArtboards",
+      "args": [],
+      "returns": "NSArray <MSImmutableArtboardGroup *>*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "allSymbols": {
+      "name": "allSymbols",
+      "bridgedName": "allSymbols",
+      "args": [],
+      "returns": "NSArray <MSImmutableSymbolMaster *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pagesAndArtboardsMetadata": {
+      "name": "pagesAndArtboardsMetadata",
+      "bridgedName": "pagesAndArtboardsMetadata",
+      "args": [],
+      "returns": "NSDictionary <NSString*, NSDictionary*> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "findFrequentColorsWithCompletionBlock:": {
+      "name": "findFrequentColorsWithCompletionBlock:",
+      "bridgedName": "findFrequentColorsWithCompletionBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSColorFinderCompletionBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "trackColors:": {
+      "name": "trackColors:",
+      "bridgedName": "trackColors",
+      "args": [
+        {
+          "name": "tracker",
+          "type": "MSFrequentColorTracker *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "metadata": {
+      "name": "metadata",
+      "pointer": false,
+      "type": "NSDictionary*",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "currentPage": {
+      "name": "currentPage",
+      "pointer": false,
+      "type": "MSImmutablePage ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

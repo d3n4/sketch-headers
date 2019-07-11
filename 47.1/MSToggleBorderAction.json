@@ -1,0 +1,8 @@
+{
+  "name": "MSToggleBorderAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

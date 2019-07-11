@@ -1,0 +1,10 @@
+{
+  "name": "MSPasteboardTextReader",
+  "extends": "NSObject",
+  "interfaces": [
+    "MSPasteboardReader"
+  ],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

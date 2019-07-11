@@ -1,0 +1,28 @@
+{
+  "name": "MOBridgeSupportParser",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "libraryWithBridgeSupportURL:error:": {
+      "name": "libraryWithBridgeSupportURL:error:",
+      "bridgedName": "libraryWithBridgeSupportURL_error",
+      "args": [
+        {
+          "name": "aURL",
+          "type": "NSURL *",
+          "nullable": false
+        },
+        {
+          "name": "outError",
+          "type": "NSError **",
+          "nullable": false
+        }
+      ],
+      "returns": "MOBridgeSupportLibrary *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

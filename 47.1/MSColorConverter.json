@@ -1,0 +1,58 @@
+{
+  "name": "MSColorConverter",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithColor:colorspace:": {
+      "name": "initWithColor:colorspace:",
+      "bridgedName": "initWithColor_colorspace",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "colorspace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "converterWithColor:colorspace:": {
+      "name": "converterWithColor:colorspace:",
+      "bridgedName": "converterWithColor_colorspace",
+      "args": [
+        {
+          "name": "color",
+          "type": "MSColor *",
+          "nullable": false
+        },
+        {
+          "name": "colorspace",
+          "type": "NSColorSpace *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "color": {
+      "name": "color",
+      "pointer": false,
+      "type": "NSColor ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

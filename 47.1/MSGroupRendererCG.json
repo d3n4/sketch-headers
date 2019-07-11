@@ -1,0 +1,33 @@
+{
+  "name": "MSGroupRendererCG",
+  "extends": "MSLayerRendererCG",
+  "interfaces": [],
+  "methods": {
+    "renderSubLayersOfGroup:ignoreDirtyRect:context:": {
+      "name": "renderSubLayersOfGroup:ignoreDirtyRect:context:",
+      "bridgedName": "renderSubLayersOfGroup_ignoreDirtyRect_context",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSImmutableLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "ignoreDirtyRect",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

@@ -1,0 +1,8 @@
+{
+  "name": "MSPNGExporter",
+  "extends": "MSExporter",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

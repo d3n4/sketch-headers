@@ -1,0 +1,1383 @@
+{
+  "name": "NSBezierPath",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "strokeOutside": {
+      "name": "strokeOutside",
+      "bridgedName": "strokeOutside",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "strokeInside": {
+      "name": "strokeInside",
+      "bridgedName": "strokeInside",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathFromPoint:toPoint:": {
+      "name": "bezierPathFromPoint:toPoint:",
+      "bridgedName": "bezierPathFromPoint_toPoint",
+      "args": [
+        {
+          "name": "p1",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "p2",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierCurveFromPoint:toPoint:controlPoint1:controlPoint2:": {
+      "name": "bezierCurveFromPoint:toPoint:controlPoint1:controlPoint2:",
+      "bridgedName": "bezierCurveFromPoint_toPoint_controlPoint1_controlPoint2",
+      "args": [
+        {
+          "name": "from",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "to",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "cp1",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "cp2",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "outlinePath": {
+      "name": "outlinePath",
+      "bridgedName": "outlinePath",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "createCGPath_bc CF_RETURNS_RETAINED": {
+      "name": "createCGPath_bc CF_RETURNS_RETAINED",
+      "bridgedName": "createCGPath_bc CF_RETURNS_RETAINED",
+      "args": [],
+      "returns": "CGPathRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "mutableCGPathCopy CF_RETURNS_RETAINED": {
+      "name": "mutableCGPathCopy CF_RETURNS_RETAINED",
+      "bridgedName": "mutableCGPathCopy CF_RETURNS_RETAINED",
+      "args": [],
+      "returns": "CGMutablePathRef",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInnerShadow:": {
+      "name": "drawInnerShadow:",
+      "bridgedName": "drawInnerShadow",
+      "args": [
+        {
+          "name": "shadow",
+          "type": "NSShadow *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByGrowingBy:": {
+      "name": "bezierPathByGrowingBy:",
+      "bridgedName": "bezierPathByGrowingBy",
+      "args": [
+        {
+          "name": "offset",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathWithOuterPathOfSize:": {
+      "name": "bezierPathWithOuterPathOfSize:",
+      "bridgedName": "bezierPathWithOuterPathOfSize",
+      "args": [
+        {
+          "name": "amount",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "safeBounds": {
+      "name": "safeBounds",
+      "bridgedName": "safeBounds",
+      "args": [],
+      "returns": "NSRect",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isClosed": {
+      "name": "isClosed",
+      "bridgedName": "isClosed",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "clipInBlock:": {
+      "name": "clipInBlock:",
+      "bridgedName": "clipInBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "BCVoidBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "writeDebugFileNamed:": {
+      "name": "writeDebugFileNamed:",
+      "bridgedName": "writeDebugFileNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathWithCGPath:": {
+      "name": "bezierPathWithCGPath:",
+      "bridgedName": "bezierPathWithCGPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "CGPathRef",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierPathWithPathFromContext:": {
+      "name": "bezierPathWithPathFromContext:",
+      "bridgedName": "bezierPathWithPathFromContext",
+      "args": [
+        {
+          "name": "context",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "strokedPathHelperContext": {
+      "name": "strokedPathHelperContext",
+      "bridgedName": "strokedPathHelperContext",
+      "args": [],
+      "returns": "NSGraphicsContext *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setCGPath:inContext:": {
+      "name": "setCGPath:inContext:",
+      "bridgedName": "setCGPath_inContext",
+      "args": [
+        {
+          "name": "aPathRef",
+          "type": "CGPathRef",
+          "nullable": false
+        },
+        {
+          "name": "aContext",
+          "type": "CGContextRef",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByMakingClockwiseIfNecessary": {
+      "name": "bezierPathByMakingClockwiseIfNecessary",
+      "bridgedName": "bezierPathByMakingClockwiseIfNecessary",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByMakingAntiClockwiseIfNecessary": {
+      "name": "bezierPathByMakingAntiClockwiseIfNecessary",
+      "bridgedName": "bezierPathByMakingAntiClockwiseIfNecessary",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subPathsOrderedBySizeAfterOutlining": {
+      "name": "subPathsOrderedBySizeAfterOutlining",
+      "bridgedName": "subPathsOrderedBySizeAfterOutlining",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByCurveFitting": {
+      "name": "bezierPathByCurveFitting",
+      "bridgedName": "bezierPathByCurveFitting",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierIndexForPoint:": {
+      "name": "bezierIndexForPoint:",
+      "bridgedName": "bezierIndexForPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByCuttingBeforeIndex:": {
+      "name": "bezierPathByCuttingBeforeIndex:",
+      "bridgedName": "bezierPathByCuttingBeforeIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "booleanOp:withPath:": {
+      "name": "booleanOp:withPath:",
+      "bridgedName": "booleanOp_withPath",
+      "args": [
+        {
+          "name": "op",
+          "type": "MSBooleanOperation",
+          "nullable": false
+        },
+        {
+          "name": "otherPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "booleanUnionWith:": {
+      "name": "booleanUnionWith:",
+      "bridgedName": "booleanUnionWith",
+      "args": [
+        {
+          "name": "otherPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "booleanIntersectWith:": {
+      "name": "booleanIntersectWith:",
+      "bridgedName": "booleanIntersectWith",
+      "args": [
+        {
+          "name": "otherPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "booleanSubtractWith:": {
+      "name": "booleanSubtractWith:",
+      "bridgedName": "booleanSubtractWith",
+      "args": [
+        {
+          "name": "otherPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "booleanExclusiveOrWith:": {
+      "name": "booleanExclusiveOrWith:",
+      "bridgedName": "booleanExclusiveOrWith",
+      "args": [
+        {
+          "name": "otherPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathBySubtractingPaths:": {
+      "name": "bezierPathBySubtractingPaths:",
+      "bridgedName": "bezierPathBySubtractingPaths",
+      "args": [
+        {
+          "name": "paths",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "enumerator": {
+      "name": "enumerator",
+      "bridgedName": "enumerator",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "reverseEnumerator": {
+      "name": "reverseEnumerator",
+      "bridgedName": "reverseEnumerator",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "itemAtIndex:": {
+      "name": "itemAtIndex:",
+      "bridgedName": "itemAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lastItem": {
+      "name": "lastItem",
+      "bridgedName": "lastItem",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendBezierPathItem:": {
+      "name": "appendBezierPathItem:",
+      "bridgedName": "appendBezierPathItem",
+      "args": [
+        {
+          "name": "item",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierCurves": {
+      "name": "bezierCurves",
+      "bridgedName": "bezierCurves",
+      "args": [],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "customIsEqual:": {
+      "name": "customIsEqual:",
+      "bridgedName": "customIsEqual",
+      "args": [
+        {
+          "name": "other",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "animatedGIFRepresentation_ms": {
+      "name": "animatedGIFRepresentation_ms",
+      "bridgedName": "animatedGIFRepresentation_ms",
+      "args": [],
+      "returns": "NSData *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathWithJSON_ms:": {
+      "name": "bezierPathWithJSON_ms:",
+      "bridgedName": "bezierPathWithJSON_ms",
+      "args": [
+        {
+          "name": "json",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierPathWithJSONString_ms:": {
+      "name": "bezierPathWithJSONString_ms:",
+      "bridgedName": "bezierPathWithJSONString_ms",
+      "args": [
+        {
+          "name": "json",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "JSONRepresetation_ms": {
+      "name": "JSONRepresetation_ms",
+      "bridgedName": "JSONRepresetation_ms",
+      "args": [],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "JSONDescription_ms": {
+      "name": "JSONDescription_ms",
+      "bridgedName": "JSONDescription_ms",
+      "args": [],
+      "returns": "NSString *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lastPoint": {
+      "name": "lastPoint",
+      "bridgedName": "lastPoint",
+      "args": [],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "firstPoint": {
+      "name": "firstPoint",
+      "bridgedName": "firstPoint",
+      "args": [],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "slopeOnPathAtLength:": {
+      "name": "slopeOnPathAtLength:",
+      "bridgedName": "slopeOnPathAtLength",
+      "args": [
+        {
+          "name": "length",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointOnPathAtLength:": {
+      "name": "pointOnPathAtLength:",
+      "bridgedName": "pointOnPathAtLength",
+      "args": [
+        {
+          "name": "length",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointOnPathAtLength:slope:": {
+      "name": "pointOnPathAtLength:slope:",
+      "bridgedName": "pointOnPathAtLength_slope",
+      "args": [
+        {
+          "name": "length",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "slope",
+          "type": "CGFloat *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByTrimmingFromLength:": {
+      "name": "bezierPathByTrimmingFromLength:",
+      "bridgedName": "bezierPathByTrimmingFromLength",
+      "args": [
+        {
+          "name": "trimLength",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByTrimmingFromLength:withMaximumError:": {
+      "name": "bezierPathByTrimmingFromLength:withMaximumError:",
+      "bridgedName": "bezierPathByTrimmingFromLength_withMaximumError",
+      "args": [
+        {
+          "name": "trimLength",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "maxError",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByTrimmingToLength:": {
+      "name": "bezierPathByTrimmingToLength:",
+      "bridgedName": "bezierPathByTrimmingToLength",
+      "args": [
+        {
+          "name": "trimLength",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByTrimmingToLength:withMaximumError:": {
+      "name": "bezierPathByTrimmingToLength:withMaximumError:",
+      "bridgedName": "bezierPathByTrimmingToLength_withMaximumError",
+      "args": [
+        {
+          "name": "trimLength",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "maxError",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathFromIndex:toIndex:": {
+      "name": "bezierPathFromIndex:toIndex:",
+      "bridgedName": "bezierPathFromIndex_toIndex",
+      "args": [
+        {
+          "name": "from",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "to",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "length": {
+      "name": "length",
+      "bridgedName": "length",
+      "args": [],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "lengthWithMaximumError:": {
+      "name": "lengthWithMaximumError:",
+      "bridgedName": "lengthWithMaximumError",
+      "args": [
+        {
+          "name": "maxError",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByJoiningWithBezierPath:": {
+      "name": "bezierPathByJoiningWithBezierPath:",
+      "bridgedName": "bezierPathByJoiningWithBezierPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "appendBezierPathByRemovingMoveToPoint:": {
+      "name": "appendBezierPathByRemovingMoveToPoint:",
+      "bridgedName": "appendBezierPathByRemovingMoveToPoint",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isEqualToBezierPath:": {
+      "name": "isEqualToBezierPath:",
+      "bridgedName": "isEqualToBezierPath",
+      "args": [
+        {
+          "name": "bezierPath",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "pointAtIndex:": {
+      "name": "pointAtIndex:",
+      "bridgedName": "pointAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subDivideAtPoint:": {
+      "name": "subDivideAtPoint:",
+      "bridgedName": "subDivideAtPoint",
+      "args": [
+        {
+          "name": "aPoint",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray <NSBezierPath *> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByReplacingMoveToByLineToComponents": {
+      "name": "bezierPathByReplacingMoveToByLineToComponents",
+      "bridgedName": "bezierPathByReplacingMoveToByLineToComponents",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByReplacingClosePathByLineToComponents": {
+      "name": "bezierPathByReplacingClosePathByLineToComponents",
+      "bridgedName": "bezierPathByReplacingClosePathByLineToComponents",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByReplacingElementAtIndexWithMoveTo:": {
+      "name": "bezierPathByReplacingElementAtIndexWithMoveTo:",
+      "bridgedName": "bezierPathByReplacingElementAtIndexWithMoveTo",
+      "args": [
+        {
+          "name": "cutIndex",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByRearrangingSubPathsIfNecessary": {
+      "name": "bezierPathByRearrangingSubPathsIfNecessary",
+      "bridgedName": "bezierPathByRearrangingSubPathsIfNecessary",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByRemovingSubsequentMoveToComponents": {
+      "name": "bezierPathByRemovingSubsequentMoveToComponents",
+      "bridgedName": "bezierPathByRemovingSubsequentMoveToComponents",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathByApplyingModifierBlock:": {
+      "name": "bezierPathByApplyingModifierBlock:",
+      "bridgedName": "bezierPathByApplyingModifierBlock",
+      "args": [
+        {
+          "name": "block",
+          "type": "MSBezierPathModifierBlock",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawDebugWithZoom:__unused": {
+      "name": "drawDebugWithZoom:__unused",
+      "bridgedName": "drawDebugWithZoom___unused",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "scaleBy:": {
+      "name": "scaleBy:",
+      "bridgedName": "scaleBy",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "simplify": {
+      "name": "simplify",
+      "bridgedName": "simplify",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "simplifyWithMargin:": {
+      "name": "simplifyWithMargin:",
+      "bridgedName": "simplifyWithMargin",
+      "args": [
+        {
+          "name": "margin",
+          "type": "NSInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "subPaths": {
+      "name": "subPaths",
+      "bridgedName": "subPaths",
+      "args": [],
+      "returns": "NSArray <NSBezierPath*> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setDashPattern:": {
+      "name": "setDashPattern:",
+      "bridgedName": "setDashPattern",
+      "args": [
+        {
+          "name": "dashPattern",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "validDashLengthFromProposedDashLength:": {
+      "name": "validDashLengthFromProposedDashLength:",
+      "bridgedName": "validDashLengthFromProposedDashLength",
+      "args": [
+        {
+          "name": "dashLength",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "validDashPatternFromProposedDashPattern:padIfNeeded:": {
+      "name": "validDashPatternFromProposedDashPattern:padIfNeeded:",
+      "bridgedName": "validDashPatternFromProposedDashPattern_padIfNeeded",
+      "args": [
+        {
+          "name": "proposed",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "canPad",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "impliedDashPatternFromDashPattern:paddingToLength:": {
+      "name": "impliedDashPatternFromDashPattern:paddingToLength:",
+      "bridgedName": "impliedDashPatternFromDashPattern_paddingToLength",
+      "args": [
+        {
+          "name": "dashPattern",
+          "type": "NSArray *",
+          "nullable": false
+        },
+        {
+          "name": "length",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "debugWriteToFileNamed:": {
+      "name": "debugWriteToFileNamed:",
+      "bridgedName": "debugWriteToFileNamed",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "containsRect:": {
+      "name": "containsRect:",
+      "bridgedName": "containsRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outlinePathWithWidth:": {
+      "name": "outlinePathWithWidth:",
+      "bridgedName": "outlinePathWithWidth",
+      "args": [
+        {
+          "name": "width",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "insetPathBy:": {
+      "name": "insetPathBy:",
+      "bridgedName": "insetPathBy",
+      "args": [
+        {
+          "name": "size",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outerPathWithRect:": {
+      "name": "outerPathWithRect:",
+      "bridgedName": "outerPathWithRect",
+      "args": [
+        {
+          "name": "rect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathWithLineWidth:": {
+      "name": "bezierPathWithLineWidth:",
+      "bridgedName": "bezierPathWithLineWidth",
+      "args": [
+        {
+          "name": "lineWidth",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathWithSquareLineCapStyle": {
+      "name": "bezierPathWithSquareLineCapStyle",
+      "bridgedName": "bezierPathWithSquareLineCapStyle",
+      "args": [],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fillNonZero": {
+      "name": "fillNonZero",
+      "bridgedName": "fillNonZero",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "strokeWithWidth:": {
+      "name": "strokeWithWidth:",
+      "bridgedName": "strokeWithWidth",
+      "args": [
+        {
+          "name": "lineWidth",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathWithSubPaths:": {
+      "name": "bezierPathWithSubPaths:",
+      "bridgedName": "bezierPathWithSubPaths",
+      "args": [
+        {
+          "name": "subPaths",
+          "type": "NSArray *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "bezierPathFromSVGString:": {
+      "name": "bezierPathFromSVGString:",
+      "bridgedName": "bezierPathFromSVGString",
+      "args": [
+        {
+          "name": "contents",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "addSVGArcWithAngle:radius:from:to:largeArc:sweep:": {
+      "name": "addSVGArcWithAngle:radius:from:to:largeArc:sweep:",
+      "bridgedName": "addSVGArcWithAngle_radius_from_to_largeArc_sweep",
+      "args": [
+        {
+          "name": "angle",
+          "type": "CGFloat",
+          "nullable": false
+        },
+        {
+          "name": "radius",
+          "type": "NSSize",
+          "nullable": false
+        },
+        {
+          "name": "from",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "to",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "largeArcFlag",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "sweepFlag",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "svgPathAttribute": {
+      "name": "svgPathAttribute",
+      "bridgedName": "svgPathAttribute",
+      "args": [],
+      "returns": "NSXMLNode*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_union:": {
+      "name": "fb_union:",
+      "bridgedName": "fb_union",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_intersect:": {
+      "name": "fb_intersect:",
+      "bridgedName": "fb_intersect",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_difference:": {
+      "name": "fb_difference:",
+      "bridgedName": "fb_difference",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_xor:": {
+      "name": "fb_xor:",
+      "bridgedName": "fb_xor",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_fitCurve:": {
+      "name": "fb_fitCurve:",
+      "bridgedName": "fb_fitCurve",
+      "args": [
+        {
+          "name": "errorThreshold",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_simplify:": {
+      "name": "fb_simplify:",
+      "bridgedName": "fb_simplify",
+      "args": [
+        {
+          "name": "threshold",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_pointAtIndex:": {
+      "name": "fb_pointAtIndex:",
+      "bridgedName": "fb_pointAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSPoint",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_elementAtIndex:": {
+      "name": "fb_elementAtIndex:",
+      "bridgedName": "fb_elementAtIndex",
+      "args": [
+        {
+          "name": "index",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierElement",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_subpathWithRange:": {
+      "name": "fb_subpathWithRange:",
+      "bridgedName": "fb_subpathWithRange",
+      "args": [
+        {
+          "name": "range",
+          "type": "NSRange",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_copyAttributesFrom:": {
+      "name": "fb_copyAttributesFrom:",
+      "bridgedName": "fb_copyAttributesFrom",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_appendPath:": {
+      "name": "fb_appendPath:",
+      "bridgedName": "fb_appendPath",
+      "args": [
+        {
+          "name": "path",
+          "type": "NSBezierPath *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "fb_appendElement:": {
+      "name": "fb_appendElement:",
+      "bridgedName": "fb_appendElement",
+      "args": [
+        {
+          "name": "element",
+          "type": "NSBezierElement",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "bezierPathFromEPSString:": {
+      "name": "bezierPathFromEPSString:",
+      "bridgedName": "bezierPathFromEPSString",
+      "args": [
+        {
+          "name": "aString",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "circleAtPoint:": {
+      "name": "circleAtPoint:",
+      "bridgedName": "circleAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "rectAtPoint:": {
+      "name": "rectAtPoint:",
+      "bridgedName": "rectAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "triangleAtPoint:direction:": {
+      "name": "triangleAtPoint:direction:",
+      "bridgedName": "triangleAtPoint_direction",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "tangent",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "smallCircleAtPoint:": {
+      "name": "smallCircleAtPoint:",
+      "bridgedName": "smallCircleAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "smallRectAtPoint:": {
+      "name": "smallRectAtPoint:",
+      "bridgedName": "smallRectAtPoint",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSPoint",
+          "nullable": false
+        }
+      ],
+      "returns": "NSBezierPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

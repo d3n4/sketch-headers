@@ -1,0 +1,187 @@
+{
+  "name": "MSBaseGrid",
+  "extends": "_MSBaseGrid",
+  "interfaces": [],
+  "methods": {
+    "verticalGuidesForRulerData:inRect:": {
+      "name": "verticalGuidesForRulerData:inRect:",
+      "bridgedName": "verticalGuidesForRulerData_inRect",
+      "args": [
+        {
+          "name": "ruler",
+          "type": "MSRulerData *",
+          "nullable": false
+        },
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "horizontalGuidesForRulerData:inRect:": {
+      "name": "horizontalGuidesForRulerData:inRect:",
+      "bridgedName": "horizontalGuidesForRulerData_inRect",
+      "args": [
+        {
+          "name": "ruler",
+          "type": "MSRulerData *",
+          "nullable": false
+        },
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "shouldDraw": {
+      "name": "shouldDraw",
+      "bridgedName": "shouldDraw",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "drawInRect:baseLine:atZoom:": {
+      "name": "drawInRect:baseLine:atZoom:",
+      "bridgedName": "drawInRect_baseLine_atZoom",
+      "args": [
+        {
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "origin",
+          "type": "NSPoint",
+          "nullable": false
+        },
+        {
+          "name": "zoomValue",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "displayableAtZoom:": {
+      "name": "displayableAtZoom:",
+      "bridgedName": "displayableAtZoom",
+      "args": [
+        {
+          "name": "zoom",
+          "type": "CGFloat",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "defaultGrid": {
+      "name": "defaultGrid",
+      "bridgedName": "defaultGrid",
+      "args": [],
+      "returns": "id",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "setDefaultGrid:": {
+      "name": "setDefaultGrid:",
+      "bridgedName": "setDefaultGrid",
+      "args": [
+        {
+          "name": "grid",
+          "type": "MSBaseGrid *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "drawInRect:horizontalRuler:verticalRuler:": {
+      "name": "drawInRect:horizontalRuler:verticalRuler:",
+      "bridgedName": "drawInRect_horizontalRuler_verticalRuler",
+      "args": [
+        {
+          "name": "dirtyRect",
+          "type": "NSRect",
+          "nullable": false
+        },
+        {
+          "name": "horizontalRuler",
+          "type": "MSRulerView *",
+          "nullable": false
+        },
+        {
+          "name": "verticalRuler",
+          "type": "MSRulerView *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "verticalGuidesForRuler:inRect:": {
+      "name": "verticalGuidesForRuler:inRect:",
+      "bridgedName": "verticalGuidesForRuler_inRect",
+      "args": [
+        {
+          "name": "ruler",
+          "type": "MSRulerView *",
+          "nullable": false
+        },
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "horizontalGuidesForRuler:inRect:": {
+      "name": "horizontalGuidesForRuler:inRect:",
+      "bridgedName": "horizontalGuidesForRuler_inRect",
+      "args": [
+        {
+          "name": "ruler",
+          "type": "MSRulerView *",
+          "nullable": false
+        },
+        {
+          "name": "aRect",
+          "type": "NSRect",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "forceDraw": {
+      "name": "forceDraw",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}

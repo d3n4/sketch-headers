@@ -1,0 +1,59 @@
+{
+  "name": "FBEdgeOverlapRun",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "isCrossing": {
+      "name": "isCrossing",
+      "bridgedName": "isCrossing",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "isCrossingUsingNonZeroWindingRule": {
+      "name": "isCrossingUsingNonZeroWindingRule",
+      "bridgedName": "isCrossingUsingNonZeroWindingRule",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addMiddleCrossing": {
+      "name": "addMiddleCrossing",
+      "bridgedName": "addMiddleCrossing",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addStartAndStopCrossings": {
+      "name": "addStartAndStopCrossings",
+      "bridgedName": "addStartAndStopCrossings",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "middleIntersection": {
+      "name": "middleIntersection",
+      "bridgedName": "middleIntersection",
+      "args": [],
+      "returns": "FBBezierIntersection *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "overlaps": {
+      "name": "overlaps",
+      "pointer": false,
+      "type": "NSArray <FBEdgeOverlap *> ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

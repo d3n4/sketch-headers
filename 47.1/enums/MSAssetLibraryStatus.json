@@ -1,0 +1,22 @@
+{
+  "enum": true,
+  "name": "MSAssetLibraryStatus",
+  "members": [
+    {
+      "name": "MSAssetLibraryStatusLoaded",
+      "value": "0"
+    },
+    {
+      "name": "MSAssetLibraryStatusNotLoaded"
+    },
+    {
+      "name": "MSAssetLibraryStatusNotFound"
+    },
+    {
+      "name": "MSAssetLibraryStatusIncompatibleVersion"
+    },
+    {
+      "name": "MSAssetLibraryStatusLoadError"
+    }
+  ]
+}

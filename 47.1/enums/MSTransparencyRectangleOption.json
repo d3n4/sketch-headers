@@ -1,0 +1,12 @@
+{
+  "enum": true,
+  "name": "MSTransparencyRectangleOption",
+  "members": [
+    {
+      "name": "MSTransparencyDontUseRectangle"
+    },
+    {
+      "name": "MSTransparencyUseRectangle"
+    }
+  ]
+}

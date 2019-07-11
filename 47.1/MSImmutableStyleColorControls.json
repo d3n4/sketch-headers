@@ -1,0 +1,23 @@
+{
+  "name": "MSImmutableStyleColorControls",
+  "extends": "_MSImmutableStyleColorControls",
+  "interfaces": [],
+  "methods": {
+    "renderBitmapEffects:": {
+      "name": "renderBitmapEffects:",
+      "bridgedName": "renderBitmapEffects",
+      "args": [
+        {
+          "name": "image",
+          "type": "CIImage *",
+          "nullable": false
+        }
+      ],
+      "returns": "CIImage *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

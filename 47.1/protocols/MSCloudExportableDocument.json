@@ -1,0 +1,38 @@
+{
+  "protocol": true,
+  "name": "MSCloudExportableDocument",
+  "extends": null,
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "documentData": {
+      "name": "documentData",
+      "pointer": false,
+      "type": "MSDocumentData ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    },
+    "cloudShare": {
+      "name": "cloudShare",
+      "pointer": false,
+      "type": "SCKShare ",
+      "attributes": [
+        "nonatomic",
+        "nullable"
+      ]
+    },
+    "cloudName": {
+      "name": "cloudName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "nullable",
+        "readonly"
+      ]
+    }
+  }
+}

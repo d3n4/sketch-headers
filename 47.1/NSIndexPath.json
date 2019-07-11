@@ -1,0 +1,97 @@
+{
+  "name": "NSIndexPath",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "indexPathForHandle:point:ofShape:": {
+      "name": "indexPathForHandle:point:ofShape:",
+      "bridgedName": "indexPathForHandle_point_ofShape",
+      "args": [
+        {
+          "name": "handle",
+          "type": "MSPointType",
+          "nullable": false
+        },
+        {
+          "name": "point",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "shape",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSIndexPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "indexPathForPoint:ofShape:": {
+      "name": "indexPathForPoint:ofShape:",
+      "bridgedName": "indexPathForPoint_ofShape",
+      "args": [
+        {
+          "name": "point",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "shape",
+          "type": "NSUInteger",
+          "nullable": false
+        }
+      ],
+      "returns": "NSIndexPath *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "indexPathWithHandle:": {
+      "name": "indexPathWithHandle:",
+      "bridgedName": "indexPathWithHandle",
+      "args": [
+        {
+          "name": "handle",
+          "type": "MSPointType",
+          "nullable": false
+        }
+      ],
+      "returns": "NSIndexPath *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "handle": {
+      "name": "handle",
+      "pointer": false,
+      "type": "MSPointType",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=handle_ms"
+      ]
+    },
+    "point": {
+      "name": "point",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=point_ms"
+      ]
+    },
+    "shape": {
+      "name": "shape",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic",
+        "readonly",
+        "getter=shape_ms"
+      ]
+    }
+  },
+  "generics": []
+}

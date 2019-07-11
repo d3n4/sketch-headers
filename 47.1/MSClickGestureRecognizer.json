@@ -1,0 +1,25 @@
+{
+  "name": "MSClickGestureRecognizer",
+  "extends": "MSGestureRecognizer",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "buttonMask": {
+      "name": "buttonMask",
+      "pointer": false,
+      "type": "NSUInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    },
+    "numberOfClicksRequired": {
+      "name": "numberOfClicksRequired",
+      "pointer": false,
+      "type": "NSInteger",
+      "attributes": [
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

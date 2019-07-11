@@ -1,0 +1,8 @@
+{
+  "name": "MSToggleFillAction",
+  "extends": "MSDocumentAction",
+  "interfaces": [],
+  "methods": {},
+  "properties": {},
+  "generics": []
+}

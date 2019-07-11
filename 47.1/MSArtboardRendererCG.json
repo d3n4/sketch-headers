@@ -1,0 +1,38 @@
+{
+  "name": "MSArtboardRendererCG",
+  "extends": "MSGroupRendererCG",
+  "interfaces": [],
+  "methods": {
+    "renderSubLayersOfGroup:ignoreDirtyRect:context:isDrawingAsSymbolInstance:": {
+      "name": "renderSubLayersOfGroup:ignoreDirtyRect:context:isDrawingAsSymbolInstance:",
+      "bridgedName": "renderSubLayersOfGroup_ignoreDirtyRect_context_isDrawingAsSymbolInstance",
+      "args": [
+        {
+          "name": "group",
+          "type": "MSImmutableLayerGroup *",
+          "nullable": false
+        },
+        {
+          "name": "ignoreDirtyRect",
+          "type": "BOOL",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "MSRenderingContext *",
+          "nullable": false
+        },
+        {
+          "name": "isInstance",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

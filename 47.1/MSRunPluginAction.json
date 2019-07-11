@@ -1,0 +1,23 @@
+{
+  "name": "MSRunPluginAction",
+  "extends": "MSAction",
+  "interfaces": [],
+  "methods": {
+    "runPlugin:": {
+      "name": "runPlugin:",
+      "bridgedName": "runPlugin",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

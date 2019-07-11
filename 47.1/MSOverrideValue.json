@@ -1,0 +1,75 @@
+{
+  "name": "MSOverrideValue",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "overrideValuesFromDictionary:": {
+      "name": "overrideValuesFromDictionary:",
+      "bridgedName": "overrideValuesFromDictionary",
+      "args": [
+        {
+          "name": "dict",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray<MSOverrideValue *> *",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "dictionaryFromOverrideValues:": {
+      "name": "dictionaryFromOverrideValues:",
+      "bridgedName": "dictionaryFromOverrideValues",
+      "args": [
+        {
+          "name": "overrideValues",
+          "type": "NSArray<MSOverrideValue *> *",
+          "nullable": false
+        }
+      ],
+      "returns": "NSDictionary*",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithName:value:": {
+      "name": "initWithName:value:",
+      "bridgedName": "initWithName_value",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "overrideName": {
+      "name": "overrideName",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "id",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    }
+  },
+  "generics": []
+}

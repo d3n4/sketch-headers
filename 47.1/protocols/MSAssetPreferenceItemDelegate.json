@@ -1,0 +1,23 @@
+{
+  "protocol": true,
+  "name": "MSAssetPreferenceItemDelegate",
+  "extends": null,
+  "interfaces": [],
+  "methods": {
+    "preferenceItemHasUpdated:": {
+      "name": "preferenceItemHasUpdated:",
+      "bridgedName": "preferenceItemHasUpdated",
+      "args": [
+        {
+          "name": "item",
+          "type": "MSAssetPreferenceItem*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {}
+}

@@ -1,0 +1,23 @@
+{
+  "name": "MOBridgeSupportStringConstant",
+  "extends": "MOBridgeSupportSymbol",
+  "interfaces": [],
+  "methods": {},
+  "properties": {
+    "value": {
+      "name": "value",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "copy"
+      ]
+    },
+    "hasNSString": {
+      "name": "hasNSString",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": []
+    }
+  },
+  "generics": []
+}

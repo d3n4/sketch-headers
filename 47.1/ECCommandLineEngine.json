@@ -1,0 +1,387 @@
+{
+  "name": "ECCommandLineEngine",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "initWithDelegate:": {
+      "name": "initWithDelegate:",
+      "bridgedName": "initWithDelegate",
+      "args": [
+        {
+          "name": "delegate",
+          "type": "id<ECCommandLineEngineDelegate>",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "processArguments:argv:": {
+      "name": "processArguments:argv:",
+      "bridgedName": "processArguments_argv",
+      "args": [
+        {
+          "name": "argc",
+          "type": "int",
+          "nullable": false
+        },
+        {
+          "name": "argv",
+          "type": "const char **",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineResult",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "showUsage": {
+      "name": "showUsage",
+      "bridgedName": "showUsage",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outputDescription:": {
+      "name": "outputDescription:",
+      "bridgedName": "outputDescription",
+      "args": [
+        {
+          "name": "description",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outputFormat:": {
+      "name": "outputFormat:",
+      "bridgedName": "outputFormat",
+      "args": [
+        {
+          "name": "format",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "args",
+          "type": "va_list",
+          "optional": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outputErrorWithDomain:code:info:format:": {
+      "name": "outputErrorWithDomain:code:info:format:",
+      "bridgedName": "outputErrorWithDomain_code_info_format",
+      "args": [
+        {
+          "name": "domain",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "code",
+          "type": "NSUInteger",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSDictionary*",
+          "nullable": false
+        },
+        {
+          "name": "format",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "args",
+          "type": "va_list",
+          "optional": true
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outputError:": {
+      "name": "outputError:",
+      "bridgedName": "outputError",
+      "args": [
+        {
+          "name": "error",
+          "type": "NSError*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "outputInfo:withKey:": {
+      "name": "outputInfo:withKey:",
+      "bridgedName": "outputInfo_withKey",
+      "args": [
+        {
+          "name": "info",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "openInfoGroupWithKey:": {
+      "name": "openInfoGroupWithKey:",
+      "bridgedName": "openInfoGroupWithKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "closeInfoGroup": {
+      "name": "closeInfoGroup",
+      "bridgedName": "closeInfoGroup",
+      "args": [],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "info": {
+      "name": "info",
+      "bridgedName": "info",
+      "args": [],
+      "returns": "NSDictionary*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "optionForKey:": {
+      "name": "optionForKey:",
+      "bridgedName": "optionForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "boolOptionForKey:": {
+      "name": "boolOptionForKey:",
+      "bridgedName": "boolOptionForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "doubleOptionForKey:": {
+      "name": "doubleOptionForKey:",
+      "bridgedName": "doubleOptionForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "CGFloat",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "stringOptionForKey:": {
+      "name": "stringOptionForKey:",
+      "bridgedName": "stringOptionForKey",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "urlOptionForKey:defaultingToWorkingDirectory:": {
+      "name": "urlOptionForKey:defaultingToWorkingDirectory:",
+      "bridgedName": "urlOptionForKey_defaultingToWorkingDirectory",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "defaultingToWorkingDirectory",
+          "type": "BOOL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSURL*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "arrayOptionForKey:separator:": {
+      "name": "arrayOptionForKey:separator:",
+      "bridgedName": "arrayOptionForKey_separator",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "separator",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "commandWithName:": {
+      "name": "commandWithName:",
+      "bridgedName": "commandWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString*",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineCommand*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "optionWithName:": {
+      "name": "optionWithName:",
+      "bridgedName": "optionWithName",
+      "args": [
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "ECCommandLineOption*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "paddingLength": {
+      "name": "paddingLength",
+      "bridgedName": "paddingLength",
+      "args": [],
+      "returns": "NSUInteger",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "exitWithResult:": {
+      "name": "exitWithResult:",
+      "bridgedName": "exitWithResult",
+      "args": [
+        {
+          "name": "result",
+          "type": "ECCommandLineResult",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "addCommandNamed:withInfo:toDictionary:parentCommand:": {
+      "name": "addCommandNamed:withInfo:toDictionary:parentCommand:",
+      "bridgedName": "addCommandNamed_withInfo_toDictionary_parentCommand",
+      "args": [
+        {
+          "name": "mainName",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "info",
+          "type": "NSDictionary*",
+          "nullable": false
+        },
+        {
+          "name": "dictionary",
+          "type": "NSMutableDictionary*",
+          "nullable": false
+        },
+        {
+          "name": "parentCommand",
+          "type": "ECCommandLineCommand*",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "commandsInDisplayOrder:": {
+      "name": "commandsInDisplayOrder:",
+      "bridgedName": "commandsInDisplayOrder",
+      "args": [
+        {
+          "name": "commands",
+          "type": "NSDictionary*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSArray*",
+      "kind": "class",
+      "kindIndicator": "+"
+    }
+  },
+  "properties": {
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString*",
+      "attributes": [
+        "strong",
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "delegate": {
+      "name": "delegate",
+      "pointer": false,
+      "type": "id<ECCommandLineEngineDelegate>",
+      "attributes": [
+        "strong",
+        "nonatomic"
+      ]
+    }
+  },
+  "generics": []
+}

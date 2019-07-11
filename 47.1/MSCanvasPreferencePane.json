@@ -1,0 +1,23 @@
+{
+  "name": "MSCanvasPreferencePane",
+  "extends": "MSPreferencePane",
+  "interfaces": [],
+  "methods": {
+    "adjustColorsAction:": {
+      "name": "adjustColorsAction:",
+      "bridgedName": "adjustColorsAction",
+      "args": [
+        {
+          "name": "sender",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "IBAction",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {},
+  "generics": []
+}

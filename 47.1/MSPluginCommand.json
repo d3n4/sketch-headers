@@ -1,0 +1,471 @@
+{
+  "name": "MSPluginCommand",
+  "extends": "NSObject",
+  "interfaces": [],
+  "methods": {
+    "commandWithJSON:scripts:scriptsURL:": {
+      "name": "commandWithJSON:scripts:scriptsURL:",
+      "bridgedName": "commandWithJSON_scripts_scriptsURL",
+      "args": [
+        {
+          "name": "commandJSON",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "scripts",
+          "type": "NSMutableDictionary *",
+          "nullable": false
+        },
+        {
+          "name": "scriptsURL",
+          "type": "NSURL *",
+          "nullable": false
+        }
+      ],
+      "returns": "instancetype",
+      "kind": "class",
+      "kindIndicator": "+"
+    },
+    "initWithScript:identifier:name:handlers:shortcut:scope:": {
+      "name": "initWithScript:identifier:name:handlers:shortcut:scope:",
+      "bridgedName": "initWithScript_identifier_name_handlers_shortcut_scope",
+      "args": [
+        {
+          "name": "script",
+          "type": "MSPluginScript *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "handlers",
+          "type": "NSDictionary<NSString*, NSString*> *",
+          "nullable": false
+        },
+        {
+          "name": "shortcut",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "scope",
+          "type": "MSPluginCommandScope",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "initWithScript:identifier:name:runHandler:scope:": {
+      "name": "initWithScript:identifier:name:runHandler:scope:",
+      "bridgedName": "initWithScript_identifier_name_runHandler_scope",
+      "args": [
+        {
+          "name": "script",
+          "type": "MSPluginScript *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "name",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "runHandler",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "scope",
+          "type": "MSPluginCommandScope",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "runHandlerWithKey:context:manager:": {
+      "name": "runHandlerWithKey:context:manager:",
+      "bridgedName": "runHandlerWithKey_context_manager",
+      "args": [
+        {
+          "name": "handlerKey",
+          "type": "NSString*",
+          "nullable": false
+        },
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id> *",
+          "nullable": false
+        },
+        {
+          "name": "manager",
+          "type": "MSPluginManager*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "run:manager:": {
+      "name": "run:manager:",
+      "bridgedName": "run_manager",
+      "args": [
+        {
+          "name": "context",
+          "type": "NSDictionary<NSString*,id> *",
+          "nullable": false
+        },
+        {
+          "name": "manager",
+          "type": "MSPluginManager*",
+          "nullable": false
+        }
+      ],
+      "returns": "NSString*",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "tearDownIfFinished": {
+      "name": "tearDownIfFinished",
+      "bridgedName": "tearDownIfFinished",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "hasRunHandler": {
+      "name": "hasRunHandler",
+      "bridgedName": "hasRunHandler",
+      "args": [],
+      "returns": "BOOL",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "menuItemWithAction:": {
+      "name": "menuItemWithAction:",
+      "bridgedName": "menuItemWithAction",
+      "args": [
+        {
+          "name": "selector",
+          "type": "SEL",
+          "nullable": false
+        }
+      ],
+      "returns": "NSMenuItem *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "metadata": {
+      "name": "metadata",
+      "bridgedName": "metadata",
+      "args": [],
+      "returns": "NSDictionary<NSString*,id> *",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "print:": {
+      "name": "print:",
+      "bridgedName": "print",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueForKey:onLayer:forPluginIdentifier:": {
+      "name": "valueForKey:onLayer:forPluginIdentifier:",
+      "bridgedName": "valueForKey_onLayer_forPluginIdentifier",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setValue:forKey:onLayer:forPluginIdentifier:": {
+      "name": "setValue:forKey:onLayer:forPluginIdentifier:",
+      "bridgedName": "setValue_forKey_onLayer_forPluginIdentifier",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueForKey:onLayer:": {
+      "name": "valueForKey:onLayer:",
+      "bridgedName": "valueForKey_onLayer",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setValue:forKey:onLayer:": {
+      "name": "setValue:forKey:onLayer:",
+      "bridgedName": "setValue_forKey_onLayer",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "layer",
+          "type": "MSLayer *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueForKey:onDocument:forPluginIdentifier:": {
+      "name": "valueForKey:onDocument:forPluginIdentifier:",
+      "bridgedName": "valueForKey_onDocument_forPluginIdentifier",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setValue:forKey:onDocument:forPluginIdentifier:": {
+      "name": "setValue:forKey:onDocument:forPluginIdentifier:",
+      "bridgedName": "setValue_forKey_onDocument_forPluginIdentifier",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        },
+        {
+          "name": "identifier",
+          "type": "NSString *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "valueForKey:onDocument:": {
+      "name": "valueForKey:onDocument:",
+      "bridgedName": "valueForKey_onDocument",
+      "args": [
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "id",
+      "kind": "instance",
+      "kindIndicator": "-"
+    },
+    "setValueForKey:forKey:onDocument:": {
+      "name": "setValueForKey:forKey:onDocument:",
+      "bridgedName": "setValueForKey_forKey_onDocument",
+      "args": [
+        {
+          "name": "value",
+          "type": "id",
+          "nullable": false
+        },
+        {
+          "name": "key",
+          "type": "NSString *",
+          "nullable": false
+        },
+        {
+          "name": "document",
+          "type": "MSDocumentData *",
+          "nullable": false
+        }
+      ],
+      "returns": "void",
+      "kind": "instance",
+      "kindIndicator": "-"
+    }
+  },
+  "properties": {
+    "identifier": {
+      "name": "identifier",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "commandSpecifier": {
+      "name": "commandSpecifier",
+      "pointer": false,
+      "type": "MSPluginCommandSpecifier ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "script": {
+      "name": "script",
+      "pointer": false,
+      "type": "MSPluginScript ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "name": {
+      "name": "name",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "copy",
+        "readonly"
+      ]
+    },
+    "shortcut": {
+      "name": "shortcut",
+      "pointer": false,
+      "type": "NSString ",
+      "attributes": [
+        "nonatomic",
+        "strong",
+        "readonly"
+      ]
+    },
+    "pluginBundle": {
+      "name": "pluginBundle",
+      "pointer": false,
+      "type": "MSPluginBundle ",
+      "attributes": [
+        "nonatomic",
+        "weak"
+      ]
+    },
+    "scope": {
+      "name": "scope",
+      "pointer": false,
+      "type": "MSPluginCommandScope",
+      "attributes": [
+        "nonatomic",
+        "readonly"
+      ]
+    },
+    "stayRunning": {
+      "name": "stayRunning",
+      "pointer": false,
+      "type": "BOOL",
+      "attributes": [
+        "nonatomic",
+        "assign"
+      ]
+    }
+  },
+  "generics": []
+}
